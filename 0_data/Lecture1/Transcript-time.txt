@@ -1,0 +1,2136 @@
+00:00
+00:01
+The following content is provided under a Creative
+00:04
+Commons license.
+00:05
+Your support will help MIT OpenCourseWare
+00:07
+continue to offer high quality educational resources for free.
+00:12
+To make a donation or view additional materials
+00:14
+from hundreds of MIT courses, visit MIT OpenCourseWare
+00:18
+at ocw.mit.edu.
+00:21
+NANCY KANWISHER: So I'm going to talk today
+00:23
+about a couple of things.
+00:25
+I had a hell of a time constructing
+00:27
+a nice clean narrative arc to everything I wanted to say.
+00:29
+And so I finally just decided, the hell with it.
+00:31
+I'm just going to be honest.
+00:33
+There's several different pieces.
+00:34
+They don't make a narrative arc.
+00:35
+That's life.
+00:36
+I want to address what I see as a sort of macroscopic view
+00:41
+of the organization of the human brain
+00:43
+is giving us a kind of picture of what
+00:46
+I'm going to call the architecture
+00:48
+of human intelligence.
+00:49
+We're trying to understand intelligence in this class.
+00:51
+And so I think the overall organization of the human
+00:54
+brain-- in which we've made a lot of progress in the last 20
+00:57
+years--
+00:58
+gives us a kind of macro picture of what
+01:01
+the pieces of the system are.
+01:03
+So I'll talk about that.
+01:04
+And then I'll also-- if I talk fast enough--
+01:07
+do a kind of whirlwind introduction through the basic
+01:10
+methods of human cognitive neuroscience using face
+01:14
+recognition as an example to illustrate what each
+01:17
+of the methods can and cannot do.
+01:19
+So that's the agenda.
+01:20
+It's going to be pretty basic.
+01:22
+So if you've heard me speak before,
+01:23
+you've probably heard a lot of this.
+01:26
+Anyway, the key question we're trying
+01:27
+to address in this course is, how does the brain
+01:29
+produce intelligent behavior?
+01:32
+And how may we be able to replicate that
+01:34
+intelligence in machines?
+01:36
+So there's, of course, a million different ways
+01:39
+to go at that question.
+01:42
+And you can go at it from a kind of computational angle,
+01:45
+a coding perspective, from a fine-grained neural circuit
+01:49
+perspective.
+01:49
+But I'm going to do something that's kind of in between.
+01:52
+because those are the things we can approach in human brains.
+01:55
+And it's really human intelligence
+01:57
+we want to understand.
+01:58
+It's a sum of human intelligences.
+02:01
+A lot of it are things that we share with animals,
+02:04
+but some of it is not.
+02:05
+And so I think it's important to be able to approach this
+02:09
+not just from the perspectives of animal research, magnificent
+02:14
+as those methods are, but to also see what we
+02:16
+can learn about human brains.
+02:18
+OK.
+02:18
+So I'll talk a bit about the overall functional architecture
+02:21
+of the human brain.
+02:22
+What are the basic pieces of the system?
+02:24
+And then I'll get into some different methods
+02:27
+and what they tell us about face perception.
+02:30
+OK.
+02:31
+So at the most general level, we can ask whether human
+02:34
+intelligence-- as people have been asking for centuries,
+02:37
+actually--
+02:38
+whether human intelligence is the product
+02:40
+of a bunch of very special purpose components,
+02:43
+each optimized to solve a specific problem,
+02:47
+kind of like this device here, where
+02:50
+you have a saw for cutting wood, scissors for cutting paper.
+02:54
+Saws don't work that well on paper,
+02:56
+and scissors don't work that well on wood.
+02:59
+Or whether human intelligence is a product of some more
+03:03
+generic, all-purpose computational power
+03:07
+that makes us generically smart without optimizing us
+03:10
+for any particular task.
+03:13
+And just to foreshadow the answer,
+03:15
+as in all questions in psychology, the answer is both.
+03:18
+But we'll do that in some detail.
+03:20
+Before we get into that, who cares?
+03:23
+And I'd say, first of all, this kind of macro level
+03:25
+question about functional components of the human mind
+03:28
+and brain matters for a bunch of reasons.
+03:31
+First of all, I just think it's one of the most basic questions
+03:33
+we can ask about ourselves-- about who we are--
+03:37
+is to ask what the basic pieces are of our minds.
+03:42
+Second, more pragmatically, this kind of divide and conquer
+03:47
+research strategy has been effective in lots
+03:49
+of different fields that are trying
+03:51
+to understand a complex system.
+03:52
+What do you do with this incredibly complex system,
+03:55
+where you just can't even figure out how to get started?
+03:57
+Well, one sensible way to get started
+03:59
+is first figure out what its pieces are and then
+04:02
+maybe try to figure out how each of the pieces work.
+04:04
+And then maybe some day, maybe not in my lifetime,
+04:06
+figure out how they all work together
+04:08
+in some coordinated fashion.
+04:12
+And third, somewhat more subtly, of course, we
+04:15
+want to know not just what the pieces are,
+04:17
+but what the computations that are performed in each
+04:20
+of those pieces and what the representations extracted
+04:23
+in each piece are.
+04:25
+And I think even just a functional characterization
+04:28
+of the scope of a particular brain region
+04:31
+already gives us some important clues
+04:32
+about the kinds of computations that go on there.
+04:35
+So if we find that there's a part of the brain that's
+04:37
+primarily involved in face recognition,
+04:40
+not in reading visually presented words,
+04:42
+recognizing scenes, or recognizing objects,
+04:45
+that already gives us some clues about the kinds
+04:47
+of computations that would be appropriate for that scope
+04:51
+of task.
+04:52
+So if you tried to write the code to do that,
+04:54
+you'd be writing very different code if it only
+04:56
+had to do face recognition versus if it also
+04:59
+had to be able to recognize words and scenes
+05:02
+and objects presented visually.
+05:04
+OK.
+05:04
+So that's my list of the main reasons.
+05:07
+And of course, there are heaps of different ways
+05:10
+to investigate this question, and I'll
+05:15
+mention some of those in the second half.
+05:17
+But I want to start with Spearman,
+05:20
+who published a paper in 1904 in the American
+05:23
+Journal of Psychology.
+05:25
+This article was sandwiched between a discussion
+05:28
+of the soul and an article on the psychology
+05:31
+of the English sparrow.
+05:33
+And in this article, Spearman did the following low tech
+05:37
+but fascinating thing.
+05:39
+He tested a whole bunch of kids in two different schools
+05:43
+on a wide variety of different tasks.
+05:45
+And this included scholastic achievement type things.
+05:48
+He got exam grades from each student
+05:50
+in a bunch of different classes.
+05:52
+And he measured a whole bunch of other kinds
+05:54
+of psychological abilities, including
+05:56
+some very psychophysical perceptual discrimination
+05:59
+abilities.
+06:00
+How well could people discriminate
+06:02
+the loudness of two different tones,
+06:04
+the brightness of two different flashes of light,
+06:06
+the weight of two different pieces of stuff?
+06:12
+And what he found-- well, before I tell you what he found,
+06:14
+what would you expect with this?
+06:16
+Should we expect a correlation between your ability
+06:19
+to discriminate two different loudnesses
+06:21
+and, say, your math score in grade five on a math exam?
+06:27
+Spearman's main result is that most pairs of tasks
+06:31
+were correlated with each other.
+06:32
+That is, if you were good at one,
+06:34
+you're good at the others--
+06:35
+even tasks that seemingly had very little
+06:37
+to do with each other.
+06:39
+And this is the basis of the whole idea
+06:41
+of g, which is the general factor, which
+06:43
+is what led to the whole idea of IQ and IQ testing.
+06:48
+And in America, we're very uptight about the idea of IQ.
+06:51
+Brits don't seem to have a problem with this idea.
+06:53
+They're very enthusiastic about the idea and always have been.
+06:57
+But aside from all the social uses and misuses of IQ tests,
+07:03
+the point is there's actually a deep discovery about psychology
+07:06
+that Spearman made from the fact that all of these tasks
+07:09
+were correlated with each other.
+07:10
+He didn't know what it was, kind of like Gregor Mendel inferring
+07:13
+genes without knowing anything about molecular biology.
+07:16
+Spearman just inferred there's something general
+07:19
+about the human intellect such that there
+07:21
+are these strong correlations across tasks.
+07:25
+OK, so that's g.
+07:27
+But less well known about Spearman's work
+07:29
+is he also talked about the specific factor, s.
+07:34
+And s was the fact that although the broad result
+07:37
+of his experiments was that most pairs of tasks were correlated,
+07:40
+there were some tasks that weren't so strongly correlated
+07:43
+with others, and that you could factor those out and discover
+07:46
+some mental abilities that weren't just broadly shared
+07:49
+across subjects.
+07:52
+And I think this kind of foreshadows everything
+07:54
+that we see with functional MRI.
+07:56
+There's a lot of specific s's, and there's also some g.
+08:00
+And you can see those in different brain regions,
+08:02
+as I will detail next.
+08:04
+Another method was invented by Franz Joseph Gall.
+08:08
+And he argued that there are distinct mental faculties that
+08:11
+live in different parts of the brain, which I think
+08:13
+is more or less right, as I'll argue.
+08:16
+But Gall lived in the 1700s, and he didn't have an MRI machine.
+08:19
+So he did the best he could, which wasn't so hot.
+08:23
+He invented the infamous method of phrenology.
+08:25
+He felt the bumps on the skull and tried
+08:27
+to relate those to specific abilities
+08:29
+of different individuals, and from this,
+08:31
+inferred 27 mental faculties.
+08:35
+My favorites are and amativeness, filial piety,
+08:39
+and veneration.
+08:41
+And so there's a kernel of the right idea,
+08:44
+but kind of the wrong method.
+08:47
+And another method that was a very early one
+08:52
+was the method of studying the loss
+08:55
+of specific mental abilities after brain damage.
+08:59
+And so Flourens, who's often credited
+09:01
+as being the first experimental neuroscientist,
+09:05
+went around making lesions in pigeons and rabbits
+09:11
+and then tested them on various things.
+09:12
+And he didn't really find much difference
+09:15
+in what parts of the brain he took out
+09:17
+for their mental abilities.
+09:18
+Maybe that's because he wasn't such a hot experimental--
+09:21
+he didn't have great experimental methods.
+09:24
+In any case, he argued that all sensory and volitional
+09:27
+faculties exist in the cerebral hemispheres
+09:30
+and must be regarded as occupying concurrently
+09:34
+the same seat in those structures.
+09:36
+In other words, everything is on top of everything else
+09:38
+in the brain.
+09:39
+So that was a sort of dominant view for a while.
+09:44
+People thought Gall was kind of a crackpot,
+09:47
+even though he wrote very popular books
+09:49
+and went around Europe giving popular lectures
+09:51
+that huge numbers of people attended.
+09:54
+The respectable intellectual society
+09:56
+didn't take him seriously.
+09:59
+In fact, the whole idea of localization of function
+10:01
+wasn't taken seriously until Paul Broca,
+10:05
+a member of the French Academy, stood up
+10:08
+in front of the Society of Anthropology in Paris in 1861
+10:14
+and announced that the left frontal lobe is
+10:16
+the seat of speech.
+10:17
+And this was based on his patient
+10:20
+Tan, whose brain is shown here.
+10:23
+Tan was named Tan because that was
+10:24
+all he could say after damage to his left inferior frontal lobe.
+10:29
+And Broca pointed out that Tan had
+10:31
+lots of other mental faculties preserved,
+10:33
+and it was simply speech that was disrupted.
+10:36
+And from this was one of the first respectable people
+10:40
+to argue for localization of function.
+10:43
+OK.
+10:44
+So this research program goes on.
+10:47
+And by the end of the 20th century,
+10:48
+there's pretty much agreement that basic sensory and motor
+10:52
+functions do exhibit localization
+10:55
+of function in the brain.
+10:56
+There are different regions for basic visual processing,
+10:59
+auditory processing, and so forth.
+11:00
+And that was no longer controversial.
+11:03
+But the whole question of whether higher level
+11:05
+mental functions were localized and distinct parts of the brain
+11:10
+was controversial then and remains controversial now.
+11:14
+And so the method I'll focus on is functional MRI,
+11:19
+because I think it's played a huge role in addressing
+11:22
+this question at this macroscopic level.
+11:26
+And I think you guys know what an MRI machine is.
+11:29
+In case anybody has been on Mars for a while,
+11:33
+the important part is its measure
+11:34
+is a very indirect measure of neural activity by way
+11:38
+of a long causal chain.
+11:40
+Neurons fire, you incur metabolic cost, and blood flow
+11:46
+changes to that region.
+11:48
+Blood flow increase more than compensates for oxygen use,
+11:52
+producing a local decrease rather than
+11:56
+the expected increase in deoxyhemoglobin
+11:59
+relative to oxyhemoglobin.
+12:01
+Those two are magnetically different.
+12:02
+That's what the MRI machine detects.
+12:05
+It's very indirect, so it's remarkable it
+12:06
+works as well as it does.
+12:08
+And it's currently the best noninvasive method
+12:11
+we have in humans in terms of spatial resolution, not
+12:18
+temporal resolution.
+12:19
+OK.
+12:20
+So many of you are already diving into the details of some
+12:26
+of the data we collected.
+12:27
+But in case you're on other projects
+12:28
+and are coming from other fields,
+12:31
+the basic format of the data in a typical functional MRI study
+12:35
+is you have tens of thousands of three dimensional pixels
+12:38
+or voxels that you scan.
+12:41
+And typically, you sample the whole set
+12:46
+once every two seconds or so.
+12:48
+You can push it and do it every second or less
+12:51
+under special circumstances.
+12:53
+You can have more voxels by sampling at higher resolution,
+12:56
+but that's a ballpark of the format of the kind of movie
+12:59
+you can get of brain activity.
+13:02
+OK.
+13:02
+So a few things about the method and its limitations,
+13:06
+because they're really important in terms of what you can learn
+13:09
+from functional MRI and what you can't.
+13:11
+So first of all, this is a timeline.
+13:13
+My x-axis, even though it's invisible, is time in seconds.
+13:17
+And so if you imagine looking at V1 and presenting a brief, say,
+13:22
+tenth of a second high contrast flash of a checkerboard, what
+13:26
+we know from neurophysiology is that neurons fire
+13:30
+within 100 milliseconds of a visual onset.
+13:33
+The information gets right up there really fast.
+13:36
+The BOLD, which stands for Blood Oxygenation Level
+13:39
+Dependent, or functional MRI response,
+13:42
+is way lagged behind this.
+13:44
+So the neurons are firing way over here in this graph,
+13:48
+essentially at time zero--
+13:50
+a tenth of a second.
+13:51
+But the MRI response is six seconds later, OK?
+13:56
+So it's really slow.
+13:59
+And that has a bunch of implications about what we can
+14:01
+and cannot learn from it.
+14:03
+So first of all, because it's so slow,
+14:07
+we can't resolve the steps in a computation for fast systems
+14:14
+like vision and hearing and language understanding--
+14:17
+systems for which we have dedicated machinery that's
+14:20
+highly efficient where you can recognize the gist of a scene
+14:24
+within a quarter of a second of one
+14:25
+it flashes on a screen in front of you.
+14:28
+And similarly, you understand the meaning of a sentence
+14:30
+so rapidly that you've already parsed
+14:33
+much of the sentence well before the sentence is over.
+14:37
+So these are extremely efficient rapid mental processes.
+14:41
+That means the component steps in those mental processes
+14:44
+happen over a few tens of milliseconds.
+14:49
+And we're way off in temporal resolution with functional MRI.
+14:52
+All of those things are squashed together on top of each other.
+14:55
+That's a drag.
+14:56
+That's just life.
+14:57
+We can't see those individual components steps
+14:59
+with functional MRI.
+15:00
+15:03
+The second thing is that the spatial resolution
+15:05
+is the best that we have in humans noninvasively right now,
+15:08
+but it's absolutely awful compared
+15:10
+to what you can do in animals.
+15:12
+So I missed Jim DiCarlo's talk yesterday,
+15:15
+but those methods are spectacular.
+15:18
+You can record from individual neurons,
+15:19
+record their precise activity with beautiful time
+15:22
+information.
+15:23
+In contrast, functional MRI is like the dark ages.
+15:29
+We have, typically, hundreds of thousands
+15:31
+of neurons in each voxel.
+15:33
+So the real miracle of functional MRI
+15:36
+is that we ever see anything at all rather than just garbage,
+15:40
+because you're summing over so many neurons at once.
+15:43
+And it's just a lucky fact of the organization
+15:46
+of the human brain that you have clusterings
+15:47
+of neurons with similar responsal activities
+15:51
+and similar functions at such a macro grain
+15:54
+that you can see some stuff with functional MRI,
+15:56
+although you miss a lot as well.
+15:58
+16:01
+The third important limit of functional MRI that comes out
+16:04
+of just a consideration of what the method measures
+16:08
+is that you can only really see differences between conditions
+16:12
+with functional MRI.
+16:14
+The magnitude of the MRI response in a voxel at a time
+16:17
+point is meaningless.
+16:19
+It might be 563, and that's all it means.
+16:23
+Nothing, right?
+16:23
+It means nothing.
+16:24
+It's just the intensity of the MRI signal.
+16:27
+The only way to make it mean something
+16:29
+is to compare it to something else--
+16:31
+usually two different tasks or two different stimuli.
+16:34
+And so you can go far with that, but it's
+16:36
+important to realize you can't train translate it
+16:38
+into any kind of absolute measure of neural activity.
+16:41
+It's only a relative measure of strength
+16:45
+of neural activity between two or more different conditions.
+16:49
+OK.
+16:50
+And the final deep limitation of functional MRI
+16:54
+is that we use this convenient phrase "neural activity."
+16:57
+It's very convenient, because it's extremely vague.
+17:01
+And fittingly so, because we don't
+17:02
+know exactly what kind of neural activity
+17:04
+is driving the BOLD response.
+17:06
+It could be spikes or action potentials.
+17:08
+It could be synaptic activity that doesn't lead to spikes.
+17:12
+It could be tonic inhibition.
+17:14
+It could be all kinds of different things.
+17:16
+Anything that's metabolically expensive
+17:18
+is likely to increase the blood flow response.
+17:22
+In practice, when people have looked at it,
+17:25
+it's very nicely correlated with firing rate--
+17:28
+with some bumps and caveats, so you can never be totally sure.
+17:32
+But it's a pretty good proxy for firing rate.
+17:35
+You just need to remember in the back of your mind
+17:37
+that it could be other stuff too.
+17:39
+The final, very important caveat is that functional MRI--
+17:43
+like most other methods where you're just
+17:46
+recording neural activity in a variety of different ways--
+17:49
+you're just watching.
+17:50
+You're not intervening.
+17:52
+And that means you're not measuring the causal role
+17:55
+of the things you measure.
+17:56
+And that's very important, because it
+17:57
+could be that everything you measure is just
+17:59
+completely epiphenomenal and has absolutely nothing to do
+18:02
+with behavior.
+18:04
+So in practice, that's unlikely that you
+18:05
+have all this systematic stuff for no reason,
+18:08
+but you need to keep in mind that functional MRI affords
+18:13
+no window at all into the causal role of different regions.
+18:16
+For that, you need to complement it with other methods.
+18:20
+So despite all these limitations,
+18:22
+I think functional MRI has had a huge impact on the field.
+18:25
+And admittedly, I'm biased, but I
+18:27
+think it's one of these things where
+18:28
+as it happens, we get so used to a result the minute
+18:32
+it gets published.
+18:33
+It was like, oh, yeah, right.
+18:34
+One of these, one of those, so what?
+18:37
+But I think it's important to step back,
+18:39
+so I made a bunch of pictures to show you
+18:42
+why I think this is important.
+18:43
+OK.
+18:44
+Here is Penfield's functional map of the human brain,
+18:47
+published in 1957, a year before I was born.
+18:51
+And he has six--
+18:52
+count them, six-- functional regions labeled in there.
+18:54
+You probably can't see them.
+18:56
+But it's the basic sensory and motor regions, visual cortex,
+19:00
+auditory cortex, motor cortex, speech appear in Broca's area,
+19:05
+and then my favorite is this word that says interpretive.
+19:10
+Nice.
+19:10
+OK.
+19:11
+Anyway, this was based on electrical recording
+19:15
+and stimulation in patients with epilepsy who
+19:18
+were undergoing brain surgery.
+19:20
+Actually a very powerful method, but that's where it got him.
+19:23
+He published this near the end of his career.
+19:25
+And that's nice, but it's pretty rudimentary.
+19:28
+OK, now, cut to 1990, immediately
+19:32
+before the advent of functional MRI.
+19:34
+And this is really crude-- the black outlines
+19:37
+are the basic sensory and motor regions.
+19:40
+And I've added a couple of big colored blobs
+19:42
+for regions that had been identified by studying patients
+19:45
+with brain damage.
+19:46
+So even from Broca and Wernicke, it
+19:49
+was known that approximately these regions were involved
+19:51
+in language, because people with damage
+19:53
+there lost their language abilities.
+19:55
+You get whacked in your parietal lobe,
+19:57
+you have weird attentional problems,
+19:59
+like neglecting the left half of space and stuff like that.
+20:02
+If you have damage somewhere to the back end
+20:04
+of the right hemisphere, you might
+20:05
+lose face recognition ability.
+20:07
+These things were known by around 1990, not much else.
+20:10
+That's basically the functional map of the brain in 1990.
+20:13
+That probably seems like ancient history to a lot of you,
+20:16
+but not to me.
+20:18
+OK.
+20:18
+Here we are today.
+20:20
+There's a lot of stuff we've learned, right?
+20:22
+There a lot of particular parts of the human brain
+20:29
+whose function has been characterized quite precisely.
+20:32
+Not in the sense that we know the precise circuits in there
+20:36
+or that we can very precisely characterize
+20:38
+the representations or computations,
+20:40
+but to the sense that we know that a region may be very
+20:43
+selectively involved, for example,
+20:46
+in thinking about what other people are thinking.
+20:49
+A totally remarkable result that Rebecca Saxe
+20:52
+who discovered it will tell you about when she's here
+20:54
+next week.
+20:55
+So that was completely unknown even 15 years ago,
+20:59
+let alone back in 1990.
+21:02
+And likewise, most of these other regions
+21:03
+were either known in the blurriest sense
+21:06
+or not with this precision.
+21:08
+So I think even though this is very limited,
+21:10
+and it's kind of step zero in trying
+21:12
+to understand the human brain, I think it's important progress.
+21:16
+And I think to push a little farther,
+21:19
+I'd like to see this as an admittedly very
+21:21
+blurry but still a picture of the architecture
+21:24
+of human intelligence.
+21:25
+What are the basic pieces?
+21:27
+What is it we have in here to work with when we think?
+21:30
+We have these basic pieces--
+21:31
+a bunch more that haven't been discovered yet, and a lot more
+21:34
+that we need to know about each of these
+21:36
+and how they interact and all of that,
+21:37
+but a reasonable beginning.
+21:42
+So that's my story here for fun.
+21:46
+This is me with a bunch of functional regions identified
+21:49
+in my brain.
+21:50
+And so the argument I'm making here
+21:52
+is that the human mind and brain contains
+21:54
+a set of highly specialized components,
+21:56
+each solving a different specific problem,
+22:00
+and that each of these regions is present in essentially
+22:03
+every normal person.
+22:04
+It's just part of the basic architecture of the human mind
+22:07
+and brain.
+22:09
+Now, this view is pretty simple.
+22:12
+But nonetheless, it's often confused
+22:15
+with a whole bunch of other things
+22:17
+that people think are the same thing
+22:19
+and that aren't, so it's starting to drive me insane.
+22:22
+So I'm going to take five minutes
+22:23
+and go through the things this does not mean.
+22:26
+And I hope this doesn't insult your intelligence,
+22:30
+but it's amazing how in the current literature in the field
+22:33
+people conflate these things.
+22:34
+So I'm talking about functional specificity, which
+22:37
+is the question of whether this particular region right here
+22:40
+is engaged in pretty selectively in just
+22:42
+that particular mental process and not
+22:45
+lots of other mental process.
+22:46
+That's what I mean by functional specificity.
+22:49
+That's a different idea than anatomical specificity.
+22:52
+Anatomical specificity would say it is only
+22:55
+this region that's involved, and nothing else is involved.
+22:58
+That's a different question.
+23:00
+How specific is this region versus are there other regions
+23:03
+that do something similar?
+23:05
+Also an interesting question, but a different one.
+23:08
+I'm going to go through this fast.
+23:10
+So if any of it doesn't make sense, just raise your hand
+23:12
+and I'll explain it more.
+23:15
+Yet another idea is the necessity
+23:17
+of a brain region for a particular function.
+23:20
+That's actually what we really want
+23:22
+to know with the functional specificity question-- is not
+23:24
+just does it only turn on when you do x,
+23:26
+but do you absolutely need it for x?
+23:29
+And so that's actually a central question
+23:31
+that's closely connected.
+23:33
+It's really part of functional specificities.
+23:36
+It's the causal question.
+23:39
+It's different from the question of sufficiency.
+23:42
+Is a given brain region sufficient
+23:45
+for a mental process?
+23:46
+Well, I think that's just kind of a wrong headed question,
+23:48
+because nothing's ever sufficient.
+23:50
+It's just kind of a confused idea.
+23:52
+What would that mean?
+23:52
+That would mean we excise my face area, we put it in a dish,
+23:56
+keep all the neurons alive.
+23:58
+Let's pretend we can do that.
+23:59
+I'm sure Ed Boyden could figure out
+24:00
+how to do that in a weekend.
+24:03
+And so we have this thing alive in a dish,
+24:04
+can it do face recognition?
+24:06
+Well, of course not.
+24:07
+You got to get the information in there in the right format.
+24:10
+And if information doesn't get out and inform
+24:11
+the rest of a brain, it doesn't house a face percept, right?
+24:15
+So you need things to be connected up,
+24:19
+and you need lots of other brain regions to be involved.
+24:21
+So let's distinguish whether this brain region is
+24:25
+functionally specific for a process from whether it's
+24:27
+sufficient for the whole process.
+24:29
+Of course it's not sufficient.
+24:31
+All right.
+24:32
+I know you guys would never say anything so dumb.
+24:35
+OK.
+24:36
+A question of connectivity--
+24:38
+so people often say, oh, well, this region
+24:43
+is part of a network, period.
+24:47
+And my reaction is, duh.
+24:49
+Of course it's part of a network.
+24:51
+Everything's part of a network.
+24:52
+In no way does that engage with the question
+24:54
+of whether that region is functionally specific.
+24:57
+A functionally specific region of course is part of a network.
+25:00
+It talks to other brain regions.
+25:02
+Those other brain regions may play an important role
+25:04
+in its processing, sure.
+25:06
+At the very least, they're necessary for getting
+25:08
+the information in and out and using it.
+25:10
+OK?
+25:11
+OK.
+25:14
+All right.
+25:15
+The final thing that people confuse it
+25:17
+with functional specificity is innateness.
+25:20
+This is a very different concept.
+25:23
+Just because we have some particular part
+25:24
+of the brain for which we make it really strong evidence
+25:27
+that it's very specifically involved in mental process x,
+25:30
+that's cool.
+25:31
+That's important.
+25:32
+That's completely orthogonal to how it got wired up
+25:35
+and whether it's innately specified in the genome
+25:39
+that whole circuit--
+25:40
+or whether that circuit is instructed
+25:42
+by experience over development, or as
+25:45
+in the usual case, very complicated combinations
+25:47
+of those two.
+25:49
+So just to remind you that functional specificity
+25:51
+is a different question from innateness.
+25:54
+And one way you can see that very clearly
+25:56
+is to consider the case of the visual word form
+25:59
+area, about which I'll show you some data in a moment.
+26:02
+The visual word form area responds selectively
+26:05
+to words and letter strings in an orthography you know,
+26:10
+not an orthography you don't know.
+26:12
+It's very anatomically stereotyped.
+26:14
+Mine is approximately right there,
+26:17
+and so is yours in your brain.
+26:20
+And it responds to orthographies you know.
+26:23
+If you can read Arabic and Hebrew,
+26:25
+yours also responds when you look
+26:26
+at words in Arabic and Hebrew.
+26:28
+If you can't, it doesn't, or it responds a whole lot less.
+26:31
+So that's a function of your individual experience, not
+26:34
+your ancestor's experience.
+26:36
+It has strong functional specificity,
+26:38
+and yet, its functional specificity is not innate.
+26:41
+So this idea that I'm staking out here
+26:43
+has become kind of unpopular.
+26:45
+It's very trendy to say, of course
+26:46
+we know the brain doesn't have specialized components.
+26:49
+So for example, here's from a textbook.
+26:52
+Scott Huettel-- unlike the phrenologists
+26:54
+who believe this very stupid idea that very complex traits
+26:57
+are associated with discrete brain regions,
+26:59
+modern researchers recognize that a single brain
+27:02
+region may participate in more than one function.
+27:05
+Well, he built in the hedge word "may," so we can't really
+27:07
+have a fight.
+27:08
+But he's trying to stake out this different view .
+27:12
+Lisa Feldman Barrett-- I haven't met her,
+27:14
+but she's driving me insane, most recently
+27:17
+by proclaiming all kinds of things in The New York Times
+27:20
+just a few weeks ago.
+27:21
+Quote, "in general, the workings of the brain
+27:24
+are not one to one, whereby a given
+27:26
+region has a distinct psychological purpose."
+27:30
+Well, she's got hedge words "in general."
+27:32
+We all have hedge words.
+27:33
+But basically, what she's reasoning from
+27:36
+is the fact that her data suggests that specific emotions
+27:40
+don't inhabit specific brain regions from the idea
+27:43
+that the whole brain has no localization of function.
+27:45
+Well, that's idiotic.
+27:47
+It's just idiotic, right?
+27:50
+So I hope that people will stop these fast and lose arguments.
+27:53
+But here's my favorite--
+27:55
+this old coot Uttal.
+27:56
+I know this is going to be on the web,
+27:58
+and here I am carrying on as if we are-- anyway, whatever.
+28:02
+This guy cracks me up.
+28:04
+He's been publishing.
+28:04
+Every year, he publishes another book
+28:07
+going after functional MRI.
+28:09
+Any studies using brain images that
+28:11
+report single areas of activation exclusively
+28:13
+associated with a particular cognitive process
+28:15
+should be a priori considered to be artifacts of the arbitrary
+28:18
+threshold set by the investigators
+28:20
+and seriously questioned.
+28:22
+You go.
+28:24
+So anyway, that's fun.
+28:27
+Anyway, my point is just that we should engage in the data,
+28:31
+right?
+28:31
+This isn't like an ideology, where we can just
+28:34
+proclaim our opinions.
+28:36
+There are data that speak to it.
+28:37
+So let me show you some of mine.
+28:40
+OK.
+28:41
+So what would be evidence of functional specificity?
+28:44
+There are lots of ways of doing it.
+28:45
+The way I like to do it is something called a functional
+28:48
+region of interest method.
+28:51
+The problem is that although there
+28:54
+are very systematic regularities in the functional organization
+28:57
+of the brain, each of these regions that I'm talking about
+29:00
+is in approximately the same location
+29:02
+in each normal subject.
+29:03
+Their actual location varies a bit from subject to subject.
+29:07
+So if you do the standard thing of aligning brains
+29:09
+and averaging across them, you get a lot of mush,
+29:12
+and yet there isn't much mush in each subject individually.
+29:16
+And so to deal with that problem--
+29:17
+and to deal with a bunch of other problems--
+29:19
+we use something called a functional
+29:21
+region of interest method.
+29:22
+And that means if you want to study a given region,
+29:25
+you find it in that subject individually.
+29:27
+And then once you've found it with a simple contrast-- you
+29:30
+want to find a face region, you find a region
+29:32
+that responds more when people look at faces
+29:34
+than when they look at objects.
+29:35
+Now you found it in that subject.
+29:37
+It's these 85 voxels right there in that subject.
+29:40
+Now we run a new experiment to test more interesting questions
+29:43
+about it, and we measure the response in those voxels.
+29:46
+OK?
+29:47
+That also has the advantage that the data you plot and look at
+29:50
+is independent of the way you found those voxels--
+29:53
+a very important problem in a lot of functional
+29:55
+neuroimaging, where people have non-independent statistical
+29:58
+problems with their data analysis.
+30:00
+If you have a functional region of interest that's localized
+30:03
+independently of the data you look at in it,
+30:05
+you get out of that problem.
+30:07
+It's also a huge benefit, because one
+30:09
+of the central problems with functional brain imaging,
+30:12
+which I think has led to the fact
+30:13
+that a large percent of the published neuroimaging findings
+30:17
+are probably noise, is that there are just
+30:20
+too many degrees of freedom.
+30:21
+You have tens of thousands of voxels.
+30:23
+You have loads of different places to look and ways
+30:26
+to analyze your data.
+30:27
+One of the things I love dearly about the functional
+30:30
+region of interest method is that you tie your hands
+30:33
+in a really good way, right?
+30:35
+So you specify in advance exactly where
+30:38
+you're going to look, and you specify exactly how you're
+30:41
+going to quantify the response.
+30:43
+And so you have no degrees of freedom,
+30:45
+and that gives you a huge statistical advantage.
+30:47
+And it means you're less likely to be inadvertently publishing
+30:50
+papers on noise.
+30:52
+OK.
+30:52
+So that's the functional region of interest method.
+30:56
+We've done loads of these experiments.
+30:57
+Here's just from a current experiment in my lab
+31:00
+being conducted by Zeynep Saygin.
+31:02
+She's actually looking at connectivity of different brain
+31:04
+regions using a different method I probably
+31:06
+won't have time to talk about.
+31:07
+It's very cool.
+31:08
+But in the process, she's run a whole bunch
+31:10
+of functional localizers.
+31:11
+And so we can look in her data at the response of the fusiform
+31:15
+face area to a whole bunch of different conditions.
+31:17
+So these are a bunch of auditory language conditions,
+31:20
+so, OK, not too surprising.
+31:21
+It doesn't respond very much to those.
+31:24
+They're presented auditorily, but these are all
+31:26
+visual stimuli here.
+31:27
+The two yellow bars are faces.
+31:29
+This is line drawings of faces.
+31:31
+This is color video clips of faces--
+31:34
+strong responses to both.
+31:36
+And all of these other conditions--
+31:38
+line drawings of objects, movies of objects, movies of scenes,
+31:41
+scrambled objects, words, scrambled words, bodies--
+31:44
+all produce much lower responses.
+31:46
+OK?
+31:47
+So I would say this is pretty strong selectivity.
+31:52
+It's been tested against lots of alternatives,
+31:55
+only a tiny percent of which are shown here.
+31:58
+As I mentioned before, it's present in more or less
+32:01
+the same place and pretty much every normal subject.
+32:03
+I think it's just a basic piece of mental architecture.
+32:06
+Now, this is a very simple univariate measure.
+32:10
+We're just measuring the very crude thing
+32:11
+of the overall magnitude of MRI response
+32:14
+in that region to these conditions.
+32:17
+There are legitimate counter-arguments
+32:19
+to the simple-minded view I'm putting forth,
+32:22
+and we should consider them.
+32:23
+I think the most important one comes
+32:25
+from pattern analysis methods, which I will talk about
+32:28
+if I get there.
+32:30
+And importantly, these data don't tell us
+32:33
+about the causal role of that region.
+32:37
+We'll return to those.
+32:38
+However, the point is, before we blithely
+32:42
+say it's not fashionable to talk about functional specificity,
+32:45
+we need counterarguments to data like this.
+32:48
+They're pretty strong.
+32:49
+And that's just one example, to show you just a few others
+32:53
+from Zeynep's paper.
+32:57
+OK, so this is what I just showed you,
+32:58
+but I'm in the same experiment.
+33:01
+We can look at other brain regions.
+33:02
+OK.
+33:03
+So this is a bottom surface of the brain
+33:06
+there, so this is the occipital pole, front of the head, bottom
+33:10
+of the temporal lobe.
+33:11
+That face area is the region in yellow in this subject.
+33:14
+This purple region is that visual word form area
+33:17
+that I mentioned, and here is its response magnitude
+33:19
+across a whole bunch of subjects,
+33:21
+localizing and then independently testing.
+33:23
+The purple bars are when subjects are looking
+33:27
+at visually presented words.
+33:28
+And again, all these other conditions--
+33:30
+faces, objects, bodies, scenes, listening to words,
+33:34
+all of those things-- much lower response.
+33:35
+33:39
+In the same experiment, we can also look at a set of regions
+33:42
+that respond to speech.
+33:43
+I mentioned those very briefly in my introduction
+33:46
+a few days ago.
+33:47
+These are regions a number of people have found.
+33:50
+In this case, they're immediately below
+33:54
+or lateral to primary auditory cortex in humans,
+33:59
+interestingly situated right between primary auditory cortex
+34:03
+and language sensitive regions.
+34:04
+Right between is the set of regions that respond
+34:07
+to the sounds of speech--
+34:09
+not to the content of language, but the sounds of speech.
+34:12
+And so this is when people are saying stuff like,
+34:17
+"ba da ga ba da ga."
+34:18
+So they're just lying in the scanner,
+34:20
+saying, "ba da ga ba da ga."
+34:21
+And here's when they're tapping their fingers
+34:24
+in a systematic order.
+34:27
+Here's when they're listening to sentences.
+34:29
+Importantly, this is when they're
+34:31
+listening to jabberwocky gobbledygook
+34:34
+that's meaningless.
+34:35
+So no meaning, but phonemes--
+34:37
+same response.
+34:38
+That's what tells us that this region is involved
+34:40
+in processing the sounds of speech,
+34:42
+not the content of language, and load everything else.
+34:45
+So other things-- moving outside of perceptual regions,
+34:50
+you might say, OK, fine.
+34:51
+Perception is an inherently modular process.
+34:53
+There's different kinds of perceptual problems,
+34:55
+that make sense.
+34:57
+But high level cognition-- we wouldn't really
+34:59
+have functional specificity for that.
+35:01
+But oh, yes, we do.
+35:03
+Here are some language regions.
+35:06
+There's a bunch of them in the temporal and frontal lobe
+35:08
+that have been known since Wernicke and Broca.
+35:10
+But now, with functional MRI, we can identify them
+35:13
+in individual subjects and go back and repeatedly query
+35:16
+them and say, are they involved in all
+35:18
+of these other mental processes?
+35:20
+So this is now the response in a language region--
+35:24
+so identified, here's the response when
+35:26
+you're listening to sentences.
+35:27
+This is when you're listening to jabberwocky nonsense strings.
+35:32
+Here's when you're saying "ba da ga ba da ga."
+35:34
+It's not just speech sounds.
+35:36
+Here's when you're listening to synthetically decomposed speech
+35:40
+sounds that are acoustically very
+35:41
+similar to the jabberwocky speech.
+35:44
+It's just not interested in those things.
+35:45
+It seems to be interested in something
+35:47
+more like the meaning of a sentence.
+35:49
+And just to show you some other data we have on this,
+35:52
+this is data from Ev Fedorenko, who has tested this region.
+35:57
+Now, this is sort of roughly Broca's area,
+36:00
+the main mental functions that people have argued
+36:05
+overlap in the brain with language.
+36:08
+Namely-- sorry, this is probably hard to see here,
+36:10
+but arithmetic, so we have difficult and easy
+36:14
+mental arithmetic.
+36:16
+Intact and scrambled music in pink.
+36:19
+A bunch of working memory tasks--
+36:21
+spatial working memory and verbal working memory--
+36:23
+and a bunch of cognitive control tasks--
+36:25
+just kind of an attention demanding task
+36:27
+where you have to switch between tasks and stuff like that.
+36:31
+And here is the response profile in that region.
+36:34
+Reading sentences, reading non-word strings.
+36:37
+All of those other tasks, both the difficult
+36:39
+and the easy version--
+36:41
+no response at all.
+36:43
+That's extreme functional specificity, right?
+36:46
+It's not that we've tested everything,
+36:48
+there's more to be done.
+36:49
+But the first pass querying of do those language regions
+36:54
+engage in all of these other things that people thought
+36:56
+might overlap with language?
+36:58
+The answer is no, they don't.
+37:01
+And I think that's really deep and interesting,
+37:03
+because it means that this basic question that we all
+37:07
+start asking ourselves when we're young
+37:09
+is, what is the relationship between language and thought?
+37:13
+I know Liz disagrees with me somewhat on this.
+37:15
+That's because she's very articulate,
+37:17
+and she doesn't feel the difference between an idea
+37:20
+and its articulation.
+37:21
+I'm less articulate.
+37:22
+It's very obvious to me they're different things.
+37:25
+No, it's not the only reason.
+37:26
+She has data, too, and it'd be fun to discuss.
+37:29
+But I think there's a vast gulf between the two
+37:33
+in that many different aspects of cognition
+37:36
+can proceed just fine without language regions.
+37:39
+And actually, the stronger evidence for that
+37:41
+comes not from these functional MRI data,
+37:43
+striking as I think they are, but from patient data.
+37:47
+So Rosemary Varley in England has been testing patients
+37:50
+with global aphasia.
+37:51
+This is this very tragic, horrible thing
+37:53
+that happens in patients who have massive left hemisphere
+37:57
+strokes that pretty much take out
+37:59
+essentially all of their language abilities.
+38:02
+Those people she has shown are intact in their navigation
+38:06
+abilities, their arithmetic abilities, their ability
+38:10
+to solve logic problems, their ability
+38:12
+to think about what other people are thinking,
+38:15
+their ability to appreciate music, and so on and so forth.
+38:19
+So I think there's really a very big difference
+38:22
+between a major part of the system
+38:25
+that you need to understand the meaning of a sentence
+38:28
+and all of those other aspects of thought.
+38:30
+This is just showing you what I mean
+38:32
+by functional specificity--
+38:34
+what the basic first order evidence is.
+38:37
+And these are just the regions that we
+38:38
+happen to have in this study so I could make a new slide.
+38:41
+But for lots of other perceptual and cognitive functions,
+38:45
+people have found quite specific brain regions
+38:47
+for perceiving bodies and scenes, of course, motion.
+38:50
+The area MT has been studied for a long time--
+38:54
+regions that are quite specifically
+38:56
+involved in processing shape.
+38:58
+We've been studying color processing regions recently.
+39:00
+They're not as selective for color
+39:02
+as some of these other regions, but they're
+39:03
+very anatomically consistent.
+39:07
+And things I mentioned before in my brief introduction-- regions
+39:12
+that are specifically involved in processing pitch information
+39:15
+and music information, and as you'll
+39:18
+hear next week from Rebecca Saxe, theory
+39:20
+of mind or thinking about other people's thoughts.
+39:23
+And so there's quite a litany of mental functions
+39:28
+that have brain regions that are quite specifically engaged
+39:31
+to that mental function.
+39:32
+And each of these--
+39:34
+to varying degrees, but to some appreciable degree--
+39:37
+have corroborating evidence from patients
+39:40
+who have that specific deficit.
+39:42
+So that shows that each of these is
+39:44
+likely to be not only activated during,
+39:47
+but causally involved in its mental function.
+39:51
+And as I mentioned, there are actually good counter-arguments
+39:55
+to some of the things I've been making
+39:56
+that are worth discussing.
+39:57
+I think the pattern analysis data is the strongest.
+40:02
+Oh, and I do need to take a few more minutes.
+40:04
+Just like five or something?
+40:06
+OK.
+40:07
+So all of that's to say, so here's
+40:09
+roughly where we are now.
+40:10
+There are counter-arguments, but loose talk about, oh, there's
+40:14
+no localization of function in the brain.
+40:15
+You got to engage with us at first
+40:17
+and give me a serious counter-argument.
+40:20
+OK.
+40:21
+Finally, I want to say that it's not that the whole brain is
+40:24
+like this, right?
+40:26
+There are big gray patches where we haven't figured
+40:29
+out what it's doing, but there are also substantial patches
+40:33
+that have already been shown to be,
+40:35
+in some sense, the opposite of this.
+40:37
+Regions that are engaged in almost any difficult task
+40:40
+you do at all.
+40:41
+And I think this is a very interesting part
+40:43
+of the whole story of the architecture of intelligence,
+40:45
+so I'm going to take five minutes and tell you about it.
+40:48
+This work is primarily the work of John Duncan in England.
+40:51
+And he's been pointing out for about 15 years
+40:54
+that there are regions in the parietal and frontal lobe shown
+40:59
+here that are engaged in pretty much any difficult task you do.
+41:04
+Any time you increase the difficulty of a task--
+41:06
+whether it's perceptual or high level cognitive--
+41:10
+those regions turn on differentially.
+41:12
+And so that's why he calls them multiple demand.
+41:14
+They respond to multiple different kinds of demand.
+41:16
+41:21
+Duncan argues that these regions are
+41:23
+related to fluid intelligence.
+41:24
+So remember Spearman, who I started with,
+41:27
+who talks about the general factor, g.
+41:30
+Well, Duncan thinks that basically, this
+41:33
+is the seat of g--
+41:34
+these regions here-- to oversimplify his argument.
+41:37
+There's multiple sources of evidence for that.
+41:40
+And one is, well, they're strongly
+41:43
+activated when you do classic g-loading tasks.
+41:45
+That's not that surprising.
+41:46
+They're activated in all different kinds of tasks.
+41:49
+More interestingly, he did a large patient study,
+41:52
+where they found 80 or so neuropsych patients
+41:56
+in their patient database.
+41:58
+And they identified the locus of the brain damage
+42:01
+in each of those patients.
+42:02
+And what they did was they measured post-injury IQ.
+42:06
+They estimated from a variety of sources pre-injury IQ.
+42:09
+And they asked, how much does your IQ go down
+42:13
+after brain damage as a function of one,
+42:16
+the volume of tissue you lost in the brain damage,
+42:18
+and two, the locus of tissue?
+42:22
+And basically, what he finds is if you
+42:25
+lose tissue in these regions, your IQ goes down.
+42:28
+If you lose tissue elsewhere, you
+42:31
+may become paralyzed or aphasic or prosopagnosia.
+42:36
+Your IQ does not go down.
+42:38
+In fact, he made a kind of ghoulish calculation
+42:42
+that you lose 6 and 1/2 IQ points for every 10
+42:45
+cubic centimeters of this region of cortex,
+42:50
+and almost nothing for the rest of the brain.
+42:53
+So this is kind of crude.
+42:55
+It's very imperfect what you can get from patient study,
+42:59
+but I think it's intriguing.
+43:00
+And so his suggestion is that in addition to these highly
+43:04
+specialized cortical regions that we
+43:05
+use for these particular important tasks,
+43:08
+we also have this kind of general purpose machinery that
+43:12
+makes us generically smart.
+43:14
+And I'm going to skip around.
+43:15
+We've tested this more seriously.
+43:17
+He did group analyses, which I don't like.
+43:19
+We did it in collaboration with him
+43:21
+with individual subject analyses,
+43:23
+the most precise measurements we could make, and boy,
+43:25
+is he right.
+43:26
+I mean, even to the voxel you can
+43:28
+find that these regions are engaged
+43:30
+in seven or eight very, very different kinds
+43:33
+of cognitive demand--
+43:35
+all activate the same voxel differentially.
+43:38
+So the basic story I'm putting forth here--
+43:40
+without the second half of my talk, I'm sorry about that--
+43:45
+is that at a macro scale, the architecture
+43:48
+of human intelligence is that we have these special purpose
+43:50
+bits for a smallish number of important mental functions,
+43:55
+not all of them innate-- maybe some of them.
+43:57
+In addition, we have some general purpose machinery.
+44:00
+There's loads more that we don't know
+44:02
+from the precise computations that go on in these things,
+44:06
+to their connectivity, to the actual precise representations
+44:11
+that you can see with the neural code if you could measure it,
+44:14
+which we can't in humans, to the timing
+44:17
+of these complex interactions, which of them are uniquely
+44:20
+human, which of them are also present in monkeys.
+44:23
+And I don't have time to go find the slide,
+44:26
+but one of the things we've been doing recently
+44:28
+is looking in the ventral visual pathway
+44:31
+at the organization of face, place, and color selectivity.
+44:36
+And what we see is that--
+44:38
+we is me and Bevil Conway and Rosa Lafer-Sousa.
+44:43
+Bevil and Rosa had previously shown
+44:45
+that on the lateral surface in the monkey,
+44:47
+you have three bands of selectivity.
+44:50
+So it goes face selectivity, color selectivity,
+44:53
+place selectivity, and three bands
+44:55
+on the side of the temporal lobe in monkeys.
+44:58
+We find this in humans.
+44:59
+You have exactly the same organization in the same order,
+45:02
+but it's rolled around on the ventral surface of the brain
+45:05
+in the same order--
+45:06
+face, color, place-- on the bottom of the brain.
+45:09
+So we think that whole broad region is homologous
+45:13
+between monkeys and humans.
+45:15
+It just rolled around on the bottom.
+45:16
+Maybe it got pushed over [AUDIO OUT] something.
+45:19
+And that's not exactly a novel argument.
+45:21
+Actually, Winrich wrote a paper suggesting this a while back,
+45:24
+and I think we're starting to see those homologies.
+45:27
+And the reason that's important is
+45:28
+that it means that all these questions we desperately
+45:31
+want to answer about the causal role, connectivity,
+45:35
+population codes, [AUDIO OUT] interactions between regions,
+45:40
+development-- all of that that we
+45:42
+can't answer very well in humans,
+45:44
+Winrich can answer in monkeys.
+45:46
+And after a break, he will tell you about all of that.
+45:49
+[APPLAUSE]
+45:52
