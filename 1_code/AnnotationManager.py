@@ -1,7 +1,10 @@
+import json
 import os
+
 from annotateSlides import convert_pdf2img
 from check_images import checkTextPdf, checkTextPdfCrop
 from screenshot_videos import get_frames
+from createTranscript import splitSubtitles
 import Levenshtein
 #What needs to get done?
 #First, we should manage splitting the slide pdfs
@@ -74,6 +77,36 @@ def matchSlideToVideo(slideArray, VideoArray):
         SlideMatch.append(SlideWithShortestDistance)
         videoIndex = slideIndex+1
     print(SlideMatch)
+    return SlideMatch
+
+def fixNumberOrder(array):
+    newArray = []
+    currentSlide = 0
+    for i in array:
+        if abs(currentSlide - i) > 2:
+            newArray.append(currentSlide)
+        else:
+            currentSlide = i
+            newArray.append(i)
+    return newArray
+
+
+def createTimeTranscriptPairing(array, transcript, timing):
+    arrayTime = {}
+    current_i = 0
+    count = 1
+    total = 0
+    for i in array:
+        if current_i == i:
+            count = count + 1
+        else:
+            arrayTime[current_i] = count * timing
+            total = total + count * timing
+            count = 1
+            current_i = i
+        if array[-1] == current_i:
+            arrayTime[current_i] = count * timing
+    return arrayTime
 
 
 if __name__ == "__main__":
@@ -117,9 +150,14 @@ if __name__ == "__main__":
         videoArray = videoArrayContent.split("ENDELEMENT")
         videoArrayFile.close()
 
-        print(pdfArray)
-        print(videoArray)
+        array = matchSlideToVideo(pdfArray, videoArray)
+        fixedArray = fixNumberOrder(array)
 
-        matchSlideToVideo(pdfArray, videoArray)
+        timingDict = createTimeTranscriptPairing(fixedArray, fixedArray, 10)
 
-
+        dict = splitSubtitles(timingDict, inputLocation + "\\Transcript-srt.txt")
+        textfile = open(outputLocation + "\\Results" + "\\FinalAlignment.txt", "w")
+        for text in dict:
+            json.dump(dict, textfile)
+        textfile.close()
+        
