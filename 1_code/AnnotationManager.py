@@ -5,6 +5,7 @@ from annotateSlides import convert_pdf2img
 from check_images import checkTextPdf, checkTextPdfCrop
 from screenshot_videos import get_frames
 from createTranscript import splitSubtitles
+from transcribeAVideo import transcribe_video
 import Levenshtein
 #What needs to get done?
 #First, we should manage splitting the slide pdfs
@@ -110,7 +111,7 @@ def createTimeTranscriptPairing(array, transcript, timing):
 
 
 if __name__ == "__main__":
-    dataGroup = ["Lecture1"]
+    dataGroup = ["Lecture1", "Lecture2"]
 
     for i in dataGroup:
         inputLocation = "..\\0_data" + "\\" + i
@@ -132,6 +133,11 @@ if __name__ == "__main__":
 
             #screenshots of videos
             get_frames(inputLocation + "\\Video.mp4", outputLocation + "\\VideoScreenshots", 10)
+
+            #Create a transcription
+            transcribe_video(outputLocation + "\\Video.wav",
+                             inputLocation + "\\Video.mp4",
+                             outputLocation + "\\Results" + "\\generatedTranscript.txt")
 
             #text on each screenshot
             SlideText = textOnSlideCrop(outputLocation + "\\VideoScreenshots")
@@ -160,4 +166,3 @@ if __name__ == "__main__":
         for text in dict:
             json.dump(dict, textfile)
         textfile.close()
-        

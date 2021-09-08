@@ -1,7 +1,7 @@
 import pysrt
 
 def splitSubtitles(timeDictionary, filename):
-    subs = pysrt.open("Transcript-srt.txt")
+    subs = pysrt.open(filename)
     time = 0
     timeSlideSub = {}
     for i in timeDictionary:
