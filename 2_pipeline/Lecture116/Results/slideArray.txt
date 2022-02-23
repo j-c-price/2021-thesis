@@ -1,0 +1,471 @@
+ENTER THE DOJO - GROWING DEVOPS, AGILE
+PRACTICES THAT STICK
+
+  
+
+— AND Ce
+Slides - https://dojoandco.com/speaking
+(@rXe le} [ek= are lero) joel. tosi@dojoandco.com
+
+ 
+ENDELEMENT 
+
+dojoandco.com
+ENDELEMENTABOUT ME
+
+Joel Tosi
+
+- Dojo Coach for over 7 years
+- Coach in 8 dojos, advisor to 6 others
+-15 years experience coaching teams
+
+- Past lives - Architect at Red Hat;
+Trading Platforms; Blah blah blah
+
+ 
+
+ 
+ENDELEMENTLong-term commitment to new learning and new
+philosophy is required of any management that seeks
+transformation. The timid and the fainthearted, and
+people that expect quick results, are doomed to
+disappointment.
+
+W. Edwards Deming
+ENDELEMENTWHAT IS NEEDED TO LEARN?
+
+Repetition / Experimentation
+Continuation / Growth
+Context
+
+Experiences
+ENDELEMENTThe Forgetting Curve
+
+ee
+
+ee
+‘, a
+s | | a
+wh |
+“aan,
+a
+oo
+ae oe
+1 2 3 4 5
+
+Time remembered (days)
+https://en.wikipedia.org/wiki/Forgetting_curve
+
+ 
+ENDELEMENTCREATING A CULTURE OF LEARNING
+
+If we only periodically conduct training events or only episodically work on
+improvement -- and the rest of the time it’s business as usual --
+then according to neuroscience what we’re actually teaching is business as
+usual.
+
+Business Business
+as usual as usual
+
+Be = BBEEEEEEEEEEEEe ~=6LBEREEEEEEEEeeee
+
+ 
+
+http://www-personal.umich.edu/“mrother/KATA_Files/Kata_Presentation.pptx
+ENDELEMENT 
+
+OP AIPA Cerra @dojoandco
+ENDELEMENTEXPERIENCE BASED
+
+wll ‘ r
+
+‘
+ve
+
+F
+a
+
+ahve . “
+
+ 
+ENDELEMENT 
+
+NETFL
+
+5 5%
+
+      
+
+Optimised 2
+4 @ ®o° e@-.2e *% © 80° +
+Managed and 6 ® ¢e e ® e@e0 6 bd S o 17%
+measurable e @ eo" @@e @ @%e ee * @ ®
+4 @@e6 @ ®@e%e @eo@ @ @e @e@ 8,6 eee
+Defined eee? e 8 ae%e 44%
+re
+COn0% 0 oe *@ o%e0000
+Benchmark
+2 ) }
+Repeatable @@, ; ; 33%
+but intullive
+, ) 5.5%
+Initialfad hoe
+0 ;
+O%
+Non-existent .
+Information Business Management of IT IT Change Physical
+Security Continuity Risks Operations Control Security
+
+Figure 1: Capability maturity model assessment results
+
+ 
+
+OP AIPA UC Ce T i i
+
+@dojoandco
+ENDELEMENTTRANSFORMATIONS AREN'T
+
+EMBRACE LEARNING
+ENDELEMENTA LEARNING ORGANIZATION NEEDS
+
+Repetition / Experimentation
+Continuation / Growth
+Context
+
+Experiences
+
+Double-loop Learning
+ENDELEMENTENTER THE DOJO
+
+ 
+ENDELEMENTWHAT IS A DOJO
+
+Dojos are immersive learning experiences where
+full-stack product teams learn new practices and
+processes, applying them while delivering real-
+world products and services, within the constraints
+of their organization.
+
+The Dojo is both a physical space and a way of
+learning and practicing.
+ENDELEMENT 
+
+   
+
+   
+
+eee NX WS ee LI LL
+
+hes Sei Lassa) a Pain a ae re ON
+
+( | = atl
+
+dojoandco.com
+ENDELEMENTLEARNING IN CONTEXT
+
+ 
+ENDELEMENTTHE DOJO VALUE STREAM
+
+ 
+
+dojoandco.com
+
+   
+ENDELEMENTSKILLS ARE COMPLIMENTARY
+
+= O INFRASTRUCTURE AS CODE
+MOM TORING
+Oo —f aN =
+
+oSiony MAPP AVG OMIERD SERVICES
+
+  
+ 
+ 
+
+ 
+ENDELEMENTThe “Standgard” Format
+
+Review
+
+a |
+—(-H @ Bs
+Ss ie
+
+ 
+
+ 
+
+©2020 Dojo and Co @dojoandco
+ENDELEMENT   
+
+WHAT IT COULD LOOK LIKE
+
+Team A - New Product Development
+Thu ri fe} Tue
+
+W W
+
+ 
+
+Team B - Cloud Migration
+Wed Thu Fri Mon Tue Wed
+
+Mon Tue Thu Fri
+
+ 
+
+dojoandco.com
+ENDELEMENTCOACHES HELP TEAMS
+TEAMS HELP TEAMS
+
+LEARNING BECOMES A GIVEN
+©2020DojoandCo 80—<C—t*—‘“‘ i‘ i‘; dojo
+ENDELEMENTTEAM LEARNING CREATES ORGANIZATIONAL LEARNING
+
+/ Emergent knowing > —= ==
+
+New und aii Paradigm shift
+Bele erate teed ae a
+leading to dowbl and change
+areEAM
+Reflection Nem. a, 4
+/— \ JID 7
+
+Experience = vbr Siege loop Generalisation
+learning
+
+Anticipatory Learning for Climate Change Adaptation and Resilience - Scientific Figure on
+— ResearchGate. Available from: https://www.researchgate. net/figure/Double-loop-learning-Brockbank-
+ng ;
+
+and-McGill-1998 fig3_ 46168431 [accessed 13 Jan, 2020]
+
+ 
+
+ 
+ENDELEMENTEMBRACING LEARNING REVEALS BIAS
+
+ 
+ENDELEMENTSTART YOUR OWN DOJO
+
+ 
+ENDELEMENTWHERE WILL YOU PUT YOUR FOCUS?
+
+ 
+ENDELEMENTTools should be the last thing
+
+you decide on.
+
+Tools shouldn’t “drive” the
+
+conversation.
+
+OP AIPA UC Ce T i i
+
+“ae,
+[hs =
+
+oo pave
+VaLugs —— > Fenerzces Toes
+
+ee
+
+ 
+
+Qvatty > Téstive /; Test Dit ~~. So Te nnsus
+)
+
+  
+   
+
+feertack
+
+@dojoandco
+ENDELEMENTGROUNDING THE DISCUSSION
+
+ 
+
+Standard Training
+
+Dojo
+
+ 
+
+Topic Variety
+
+Single Topic
+
+Multiple topics and their relation
+
+ 
+
+Learning Targets
+
+Individuals
+
+Teams and individuals
+
+ 
+
+Context
+
+No organizational context
+
+Direct organizational context
+
+ 
+
+Constraints
+
+None - sandbox environments
+
+Organization’s environments and
+
+codebases.
+
+ 
+
+Organizational Impact
+
+Questionable
+
+Evolutionary
+
+ 
+
+ 
+
+ 
+
+Cost High Cost, Low Investment - High Investment, Low cost - Cost
+individuals taken out of their work | per person is low. because of
+for days. multiple topics, multiple people
+
+learning consistently.
+
+Growth Skill growth Skill growth, team growth, grow
+
+ 
+
+   
+
+ 
+
+internal teachers / leaders
+
+ 
+ENDELEMENT 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTStandup
+Demo
+Retro
+
+Sprint Planning
+
+Sprint Duration
+Estimating
+
+COACHING FOR LEARNING
+
+Dojo
+What are our learnings? Have new
+learnings changed our approach?
+
+Learning demo (with product)
+30 minutes
+
+Test Driven, Small
+15 minutes
+
+Now / Next / Later
+Next Best Investment
+Continuously adjusted
+60 minutes
+
+2.5 days
+Low ceremony - Is it too big?
+
+Conventional SCRUM
+3 questions
+
+Product demo
+
+3 questions - other exercises
+Up to 3 hours
+
+Plan to capacity (using velocity)
+8 Hours for 1 month sprint
+Committed and then “locked”
+Sprint goal
+
+2-4 weeks
+Planning poker - how big?
+ENDELEMENTSTART YOUR OWN DOJO SUMMARY
+
+1)Pick a set of practices and learning goals based on the
+
+organizations values and direction to seed your
+offerings
+
+2) You don't have to go “all in’ immediately on a physical
+
+Space but get the pilot teams out of their normal
+workspace
+3) Staff the dojo with your best and brightest. Recognize
+experience and mastery
+ENDELEMENTEMBRACE LEARNING
+
+CONTINUOUSLY EXPERIMENT,
+LEARN, EVOLVE
+ENDELEMENTA PARTING THOUGHT
+
+The greatest waste in America is failure to use the
+abilities of its people.
+
+W. Edwards Deming
+
+ 
+ENDELEMENTIF YOU WANT TO LEARN MORE
+
+Blog — https://www.dojoandco.com/blog
+
+Podcast — https://www.dojoandco.com/podcast
+
+Workshops — https://www.dojoandco.com/workshops
+ENDELEMENTDO Fig
+
+DION STEWART & JOEL TOS!
+
+“Upskill Your Organization
+for Digital Evolution
+
+ 
+
+Available Now — “ION STEWART & JOEL TOS|
+
+©2020 Dojo and Co @dojoandco
+
+ 
+ENDELEMENTORGANIZATIONAL CHANGE THROUGH LEARNING
+CREATING YOUR DOJO
+
+  
+
+— AND Ce
+Slides - https://dojoandco.com/speaking
+(@rXe le} [ek= are lero) joel. tosi@dojoandco.com
+
+ 
+ENDELEMENT

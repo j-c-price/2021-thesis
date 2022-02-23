@@ -1,0 +1,1904 @@
+1
+00:00:10,000 --> 00:00:20,000
+good morning everyone ok so today we are going to continue
+
+2
+00:00:20,000 --> 00:00:30,000
+are the process of building our equivalent Circuit model of a Norman this this model was was actually Duval
+
+3
+00:00:30,000 --> 00:00:40,000
+to end the late 40s and early 50s by Alan Hodgkin and Andrew Huxley who started working on the problem of understanding how neuron's make
+
+4
+00:00:40,000 --> 00:00:50,000
+potential sensor they studied the squid giant axon which is actually a very cold preparation because the axon is actually a buttermilk
+
+5
+00:00:50,000 --> 00:01:00,000
+process and so you can stick wires inside of it and I did a bunch of very quiet experiments to figure out how these
+
+6
+00:01:00,000 --> 00:01:10,000
+ionic conductance is and how these different components of the circuit work together to to make to make an action potential so that's that's
+
+7
+00:01:10,000 --> 00:01:20,000
+what we're going to continue doing were going to essentially continue describing and and motivating the different components of the circuit so today
+
+8
+00:01:20,000 --> 00:01:30,000
+we are going to get through the process of introducing a voltage measuring device a current source that the pass
+
+9
+00:01:30,000 --> 00:01:40,000
+conductance and we're gonna start introducing a battery ok so here's what we
+
+10
+00:01:40,000 --> 00:01:50,000
+to accomplish today so we want to understand how kind of at the simplest level how norms respond to injected currents
+
+11
+00:01:50,000 --> 00:02:00,000
+we want to understand how a membrane capacitance and membrane resistance allows neuron's to integrate their inputs overtime and
+
+12
+00:02:00,000 --> 00:02:10,000
+filter that Imports are smoother and puts overtime in that particular models call the resistor capacitor Model RC model of
+
+13
+00:02:10,000 --> 00:02:20,000
+we're going to go through how to derive the difference equations that describe that model it's actually quite simple but some of you
+
+14
+00:02:20,000 --> 00:02:30,000
+been through that before so I want to go through it step by step so we can really understand where that comes from and I were going to learn
+
+15
+00:02:30,000 --> 00:02:40,000
+who basically look at a at a apparent of an injection and we should be able to intuitively see how how the voltage of that Noranda
+
+16
+00:02:40,000 --> 00:02:50,000
+and we're going to start working on where the batteries of an Iran actually come from
+
+17
+00:02:50,000 --> 00:03:00,000
+alright so we're going to basically talk about the following sort of
+
+18
+00:03:00,000 --> 00:03:10,000
+experiment conceptual idea we're going to take another on and we're gonna put it in up in a bath of sailing k a salt water solution that
+
+19
+00:03:10,000 --> 00:03:20,000
+extracellular solution that you know extracellular solution in the brain and we're going to put an electrode into that Lawrence
+
+20
+00:03:20,000 --> 00:03:30,000
+you can inject current and we're going to put another electrode into the Nerang so that we can measure the voltage and remind the study how this nerong response
+
+21
+00:03:30,000 --> 00:03:40,000
+voltage of the wrong response to current injections why is it that we want to actually do that why is that an interesting
+
+22
+00:03:40,000 --> 00:03:50,000
+important experiment to do anybody have any idea why we would want to actually measure voltage and current for an Iran
+
+23
+00:03:50,000 --> 00:04:00,000
+yes ok
+
+24
+00:04:00,000 --> 00:04:10,000
+it's it's more than just so that we can describe it mathematically right it's because these things something about voltage and current or actual
+
+25
+00:04:10,000 --> 00:04:20,000
+tell event to Helen Mirren functions so that's important were looking for
+
+26
+00:04:20,000 --> 00:04:30,000
+more fundamentally why is it actually important that we understand how voltage changes when owner on his current injected into it a beaver
+
+27
+00:04:30,000 --> 00:04:40,000
+exactly so ion channels are sensitive to voltage
+
+28
+00:04:40,000 --> 00:04:50,000
+and the way they function depends very critically on voltage so many if not most ion channels are voltage sensitive
+
+29
+00:04:50,000 --> 00:05:00,000
+controlled by voltage and that's exactly why so nearly every aspect of what noran's do in
+
+30
+00:05:00,000 --> 00:05:10,000
+rain as you're walking around looking at things and doing things is controlled by voltage and that goes through the voltage sensitive
+
+31
+00:05:10,000 --> 00:05:20,000
+channels ok but what is it that changes the voltage in or on
+
+32
+00:05:20,000 --> 00:05:30,000
+yes that's on the output side yes
+
+33
+00:05:30,000 --> 00:05:40,000
+glad that's that's correct I'm looking for something a little bit different
+
+34
+00:05:40,000 --> 00:05:50,000
+good answers not quite what I'm looking for yes so the answer is
+
+35
+00:05:50,000 --> 00:06:00,000
+the voltage of a Norah changes because the reason current is important is because the reason voltage changes
+
+36
+00:06:00,000 --> 00:06:10,000
+is because other cells are injecting current into anora sensory inputs are injecting current into another on
+
+37
+00:06:10,000 --> 00:06:20,000
+everything that are Lauren receives all the information that are received from other neurones in the network in from the outside world comes from
+
+38
+00:06:20,000 --> 00:06:30,000
+currents being injected into that night and so it's really important that we understand how the noren transforms that
+
+39
+00:06:30,000 --> 00:06:40,000
+current import from other cells and from the sensory periphery into voltage changes that then change the behaviour of ion channels
+
+40
+00:06:40,000 --> 00:06:50,000
+that link of current Imports to voltage output is really crucial and that's why we're doing this experiment
+
+41
+00:06:50,000 --> 00:07:00,000
+ok and that's this point right here ok so one of the first things were going to see when we go through this analysis
+
+42
+00:07:00,000 --> 00:07:10,000
+is that Lauren's can perform analogue integration they can perform numerical integration over time that's pretty cool voltage
+
+43
+00:07:10,000 --> 00:07:20,000
+is that integral overtime of the injected current first order the simplest behaviour of in there so if you measure the voltage of Anna
+
+44
+00:07:20,000 --> 00:07:30,000
+can you turn on current and turn the current on the voltage of Anna on wall ramp up integrating that input overtime
+
+45
+00:07:30,000 --> 00:07:40,000
+sorry and see how that happens why that happens by physically OK come back on in the dish
+
+46
+00:07:40,000 --> 00:07:50,000
+let me just explain a little bit how you would actually do this experiment so these electrodes are little pieces of glass tubing so you take a fine glass tube about a millimetre across
+
+47
+00:07:50,000 --> 00:08:00,000
+hit up in the middle of a flame and you pull it apart when it melts in the middle and makes a very sharp Point Break off the final little
+
+48
+00:08:00,000 --> 00:08:10,000
+thread of glass that's left and you have a 2 that narrows down to a very short point but it's so tube and you can literally just there are some cells like
+
+49
+00:08:10,000 --> 00:08:20,000
+these people study large amount in in snails where the cells are millimetre across you can take it like her and literally just by hand poke it into the cell and then you feel that
+
+50
+00:08:20,000 --> 00:08:30,000
+can you fill that electrode with a salt solution and then you put a wire in the back of that electrode and you look it up to an amplifier now we want to measure the voltage in the
+
+51
+00:08:30,000 --> 00:08:40,000
+remember voltage is always voltage difference we're always measuring the difference between the voltage of one place and the voltage somewhere else so there's
+
+52
+00:08:40,000 --> 00:08:50,000
+car has two inputs it's called a differential amplifier and we're going to hook the the electro that's in the cell to the plus terminal we're going to put a wire in the bath
+
+53
+00:08:50,000 --> 00:09:00,000
+the main is terminal and this amplifier is measuring the difference between the voltage inside the cell and the voltage outside the song any questions about them
+
+54
+00:09:00,000 --> 00:09:10,000
+the other other half of that piece of glass that we are pulled fill it with salt solution stick it in the cell and we can hook it up to a current source
+
+55
+00:09:10,000 --> 00:09:20,000
+horse is basically just a battery ok but it's got some fancy Electronics such that the current that flows is equal to whatever
+
+56
+00:09:20,000 --> 00:09:30,000
+you sat and remember that voltage is in units of volts and current is
+
+57
+00:09:30,000 --> 00:09:40,000
+charge per second charges coulomb's coulombs per second in that sequel to the unit of current which is amperes
+
+58
+00:09:40,000 --> 00:09:50,000
+nice take a closer look at our little microrna a little Nerang we've tapped all the dendrites and accents are so it's just a little spear
+
+59
+00:09:50,000 --> 00:10:00,000
+are you can basically model and Lauren just like any other cell as a spiritual Shell of insulating material
+
+60
+00:10:00,000 --> 00:10:10,000
+is a lipid bilayer this is a phospholipid bilayer phospholipids are just little a fat molecules that have a polar head on one side
+
+61
+00:10:10,000 --> 00:10:20,000
+is there a soluble in water on the side and they have a nonpolar tail so they don't like to be in contact with water and the two polar Tails go into NZ
+
+62
+00:10:20,000 --> 00:10:30,000
+sorry the nonpolar Tails go and to end the polar Heads face out into the water that make sense and they are very closely packed together
+
+63
+00:10:30,000 --> 00:10:40,000
+so that ions can pass through that membrane so it's insulating the it's very thin it's only about 23 angstroms across
+
+64
+00:10:40,000 --> 00:10:50,000
+an angstrom is a bath the size of a hydrogen atom
+
+65
+00:10:50,000 --> 00:11:00,000
+ok we have sailing inside what is sailing what is what is it in our model number
+
+66
+00:11:00,000 --> 00:11:10,000
+on Tuesday good it's a wire and we have sailing outside which is also wire so we have two wires separated
+
+67
+00:11:10,000 --> 00:11:20,000
+insulator what is that good because it's separated by
+
+68
+00:11:20,000 --> 00:11:30,000
+ok so in an electrical component that behaves like a capacitor awake if you would have build one of those you would take
+
+69
+00:11:30,000 --> 00:11:40,000
+like a piece of alluminum foil put a piece of paper on it put another piece of alluminum foil next to it and attach wires to that and you would squeeze
+
+70
+00:11:40,000 --> 00:11:50,000
+stack of alluminum foil paper and eliminate well together and that becomes a capacitor as a symbol that looks like this electrically
+
+71
+00:11:50,000 --> 00:12:00,000
+this is now or equivalent Circuit of this model they're on it's very simple it's a capacitor with one wire here
+
+72
+00:12:00,000 --> 00:12:10,000
+represents the inside of the song another wire that represents the outside of the song we have a current source
+
+73
+00:12:10,000 --> 00:12:20,000
+connect the outside of the cell to the inside of the cell when we turn on the current source it takes charges from inside of here and
+
+74
+00:12:20,000 --> 00:12:30,000
+sticks them through the electrode and pump them into the song this is our
+
+75
+00:12:30,000 --> 00:12:40,000
+this is sort of a simplified symbol for a voltage measuring device the voltage difference between the inside of the cell and the outside of the
+
+76
+00:12:40,000 --> 00:12:50,000
+is Notre measuring here and that difference is called the Membrane potential it's the voltage difference between the inside and the outside of the
+
+77
+00:12:50,000 --> 00:13:00,000
+break any questions well time yes yes but we're going to do it one piece
+
+78
+00:13:00,000 --> 00:13:10,000
+start with a capacitor the resistor walk come in a few slides
+
+79
+00:13:10,000 --> 00:13:20,000
+exactly so with simplify
+
+80
+00:13:20,000 --> 00:13:30,000
+gonna answer that it's just an insulating Shell ok no I am channels no current anywhere else if we want to inject current into this
+
+81
+00:13:30,000 --> 00:13:40,000
+call Michael Moore on we have to inject it through this electrode here ok so we're just going down to the very simplest case
+
+82
+00:13:40,000 --> 00:13:50,000
+this is already kind of interesting enough to understand just buy it yes
+
+83
+00:13:50,000 --> 00:14:00,000
+energy is stored in the electric field that crosses the bilayer and I'll get to that in the second
+
+84
+00:14:00,000 --> 00:14:10,000
+OK great question so what happens when you inject croniter in the run as I said the current source is pulling charges charges
+
+85
+00:14:10,000 --> 00:14:20,000
+outside and pumping them into the inside so what what happens when when
+
+86
+00:14:20,000 --> 00:14:30,000
+what happens when that goes on so what we're doing is we are injected currently this is our capacitor there are charges
+
+87
+00:14:30,000 --> 00:14:40,000
+there are ions on the inside that are just up against the inside of the cell membrane there are charges on the outside
+
+88
+00:14:40,000 --> 00:14:50,000
+and when we inject a charge from the outside to the inside let's put one of those charges right here and we're going to push it into the cell when you inject a charge
+
+89
+00:14:50,000 --> 00:15:00,000
+you get an excess of charge on the inside of the cell membrane and what is that do you now have more positive charges
+
+90
+00:15:00,000 --> 00:15:10,000
+side than outside like charges repel so it pushes one of those charges away from the outside of the member
+
+91
+00:15:10,000 --> 00:15:20,000
+some make sense ok that's kind of interesting we took a charged with pushed it in
+
+92
+00:15:20,000 --> 00:15:30,000
+and eight Road comes out we have a current flowing we have charges coming in and charges leaving we have a
+
+93
+00:15:30,000 --> 00:15:40,000
+make flowing through an insulator how's that possible charges are actually passing through
+
+94
+00:15:40,000 --> 00:15:50,000
+the later but it looks like you have a current flowing that's called the capacitive current and we represent that in our diagram by Akon
+
+95
+00:15:50,000 --> 00:16:00,000
+I subsea capacitive current that flows through the capacitor pretty cool right have a current flowing through an insulator that's what
+
+96
+00:16:00,000 --> 00:16:10,000
+ok now I noticed that you have a charge imbalance you have 3 positive charges here and only one
+
+97
+00:16:10,000 --> 00:16:20,000
+charge here so there is an excess of two positive charges on the inside that's because we added a positive charge to the inside and took away a positive charge from the outside
+
+98
+00:16:20,000 --> 00:16:30,000
+Kings of charge in balance of two do you get between positive charge and a negative charge if you hold them next to each other what
+
+99
+00:16:30,000 --> 00:16:40,000
+is there a in between god we talked about
+
+100
+00:16:40,000 --> 00:16:50,000
+sing on a charge produces a force what is it an electric field between the positive the excess positive charges here and the
+
+101
+00:16:50,000 --> 00:17:00,000
+negative charges here that's an electric field alright and that electric field stores entity how do you know there is energy in the sea
+
+102
+00:17:00,000 --> 00:17:10,000
+what can you do to demonstrate that there is an energy stored in it system you have two plates to metal plate
+
+103
+00:17:10,000 --> 00:17:20,000
+in the metal version of this separated by a an insulator what would happen if you pulled away the insulator those two things word
+
+104
+00:17:20,000 --> 00:17:30,000
+boom what is that take to make that sound energy ok
+
+105
+00:17:30,000 --> 00:17:40,000
+where is energy stored in an electric field is a charging balance there is an electric field what does an electric field over some distance correspond to
+
+106
+00:17:40,000 --> 00:17:50,000
+a voltage difference now there is a charging
+
+107
+00:17:50,000 --> 00:18:00,000
+voltage difference and are proportional to each other so there is a proportionality constant that's called the capacitance
+
+108
+00:18:00,000 --> 00:18:10,000
+you can put a lot of charge and have a small voltage difference that's a big capacitor you can get a big capacitors by having a big area
+
+109
+00:18:10,000 --> 00:18:20,000
+you can have a lot of charges with a small voltage difference if you have big plates on your capacitor so that
+
+110
+00:18:20,000 --> 00:18:30,000
+is actually proportional to the area of the plates and it's inversely proportional to the distance between them it's a very thin membrane which means you can get
+
+111
+00:18:30,000 --> 00:18:40,000
+light of capacitance in it tiny area that's pretty cool any questions
+
+112
+00:18:40,000 --> 00:18:50,000
+stop charge is coulomb's in a 6 x 10 of the 18 charges in a Coolum elemental charges electronic
+
+113
+00:18:50,000 --> 00:19:00,000
+chargers voltage is in units of volts and the capacitance is in units of ferrets
+
+114
+00:19:00,000 --> 00:19:10,000
+alright so we have our relation between voltage difference and charge difference and what we're going to do
+
+115
+00:19:10,000 --> 00:19:20,000
+is we're going to calculate this capacitive how do you think we would calculate the capacity of current
+
+116
+00:19:20,000 --> 00:19:30,000
+well the capacitive current is just the rate at which the charge imbalance is changing
+
+117
+00:19:30,000 --> 00:19:40,000
+current is just charge per unit time calculate the capacity of as the time rate of change of the charge and I've dropped
+
+118
+00:19:40,000 --> 00:19:50,000
+Delta spirit capacitive current is security and remember that Q is just CV
+
+119
+00:19:50,000 --> 00:20:00,000
+capacity of courage just cevdet and the VM here represent the Membrane potential so the capacitive current through a mm
+
+120
+00:20:00,000 --> 00:20:10,000
+is just the capacitance times the time rate of change of the Membrane potential
+
+121
+00:20:10,000 --> 00:20:20,000
+pretty straightforward know what we're going to do now we're going to relate the injected charge
+
+122
+00:20:20,000 --> 00:20:30,000
+sorry the injected current to the capacitor what does ChromeCast current Lotto lowest amount of current going into this wire has to be equal
+
+123
+00:20:30,000 --> 00:20:40,000
+leaving that wire so we can write that down as follows the difference in sign here is because the electric current is diff
+
+124
+00:20:40,000 --> 00:20:50,000
+positive inward the capacitive current is defined as positive outward
+
+125
+00:20:50,000 --> 00:21:00,000
+OK so you can see that we just calculated the capacity of its CD
+
+126
+00:21:00,000 --> 00:21:10,000
+so we can just plug that in here and we see this very simple relation between the injected current and the voltage
+
+127
+00:21:10,000 --> 00:21:20,000
+gonna go in the Crown hazureta vampires which is coulomb's per second
+
+128
+00:21:20,000 --> 00:21:30,000
+ok so have that now we have a differential equation that describes the relation between current and voltage we can just integrate it to
+
+129
+00:21:30,000 --> 00:21:40,000
+the solution so that membrane potential will just be some initial membrane potential at x 0 +
+
+130
+00:21:40,000 --> 00:21:50,000
+one oversea Integra time of the injected current
+
+131
+00:21:50,000 --> 00:22:00,000
+just integrate both sides you get me hear you get integral of I there and divide both sides by sea
+
+132
+00:22:00,000 --> 00:22:10,000
+any questions either really confusing or really obvious
+
+133
+00:22:10,000 --> 00:22:20,000
+alright good now what is this what is the integral of current overtime
+
+134
+00:22:20,000 --> 00:22:30,000
+it's the amount of charge you inject between x 0 and time tea and what is the what is the amount of charge you and
+
+135
+00:22:30,000 --> 00:22:40,000
+if I tell you that I injected in a mound of charge delta-q how much did I change the voltage
+
+136
+00:22:40,000 --> 00:22:50,000
+Delta v is Delta Q oversee and that's exactly so so the voltage is just the starting voltage Plus
+
+137
+00:22:50,000 --> 00:23:00,000
+don't make sense this integral here is just that part is just the amount of charge you in
+
+138
+00:23:00,000 --> 00:23:10,000
+/ see gives you the change in the fridge so the voltage is just the starring voltage plus Delta V
+
+139
+00:23:10,000 --> 00:23:20,000
+what's that because this equation here just came from
+
+140
+00:23:20,000 --> 00:23:30,000
+that was our charge or between charge and balance and voltage difference
+
+141
+00:23:30,000 --> 00:23:40,000
+it's not clear just please ask thank you ok then we go
+
+142
+00:23:40,000 --> 00:23:50,000
+what is the constant it's just some constant x time right so our voltage is just some
+
+143
+00:23:50,000 --> 00:24:00,000
+show voltage plus the injected current oversee x time so you can see where this comes from right when you turn the car on on
+
+144
+00:24:00,000 --> 00:24:10,000
+voltage just increases linearly over time with a slope is given by the current / the capacitor
+
+145
+00:24:20,000 --> 00:24:30,000
+you guys are being very quiet at the point where I start feeling nervous I went to cast yes
+
+146
+00:24:30,000 --> 00:24:40,000
+yep yes it does and it breaks at about
+
+147
+00:24:40,000 --> 00:24:50,000
+a bolt result the electric field gets so strong it literally just rips the Adam's apart in the molecules of
+
+148
+00:24:50,000 --> 00:25:00,000
+Violetta sorry I shouldn't say that it doesn't rip the Adam's of party ribs
+
+149
+00:25:00,000 --> 00:25:10,000
+the part you need much higher electric field to do that
+
+150
+00:25:10,000 --> 00:25:20,000
+oh because we're integrating from time 0 time t were measured we want to know the voltage at time t
+
+151
+00:25:20,000 --> 00:25:30,000
+ok we're starting at 0 or integrating the current from time 02 x t which is where were
+
+152
+00:25:30,000 --> 00:25:40,000
+you have to integrate the current from 0 to T3 can't use tea in here tears tears that endpoint
+
+153
+00:25:40,000 --> 00:25:50,000
+that make sense good question thank you
+
+154
+00:25:50,000 --> 00:26:00,000
+ok everybody alright I'm going to stand here and tell her one more question yes
+
+155
+00:26:00,000 --> 00:26:10,000
+oh here because current of value I not great question
+
+156
+00:26:10,000 --> 00:26:20,000
+yeah that's right this ok I should have maybe been more clear
+
+157
+00:26:20,000 --> 00:26:30,000
+is current source has a novel set I get to I get to like that you guys there would be an app now and I brought my my current source
+
+158
+00:26:30,000 --> 00:26:40,000
+how can I type in 10 million room and there's things there's a Bluetooth connection to this thing and he likes at this thing to 10 million and it just keeps pumping 10 milliamps until you
+
+159
+00:26:40,000 --> 00:26:50,000
+to do something else ok
+
+160
+00:26:50,000 --> 00:27:00,000
+oh ok sure what would that be actually if you put in a linear graph and current
+
+161
+00:27:00,000 --> 00:27:10,000
+b a parabolic voltage profile exactly it this current profile that you this voltage profile
+
+162
+00:27:10,000 --> 00:27:20,000
+literally just the numerical integral of this function so all you have to do is look at there's an integrated in your head and you can see what the voltage does
+
+163
+00:27:20,000 --> 00:27:30,000
+great that's exactly right so let's do another example this put in a bolt our current pulse so we started 0 currently step it up to I not we hold it
+
+164
+00:27:30,000 --> 00:27:40,000
+how do we turn the current off so let's start owner on right here what's going to happen what's what's your name I'm going to ask you to do this
+
+165
+00:27:40,000 --> 00:27:50,000
+Sammy WhatsApp this voltage going to do good cos it's your current then what's going to happen
+
+166
+00:27:50,000 --> 00:28:00,000
+good good
+
+167
+00:28:00,000 --> 00:28:10,000
+if that's simple good right now song
+
+168
+00:28:10,000 --> 00:28:20,000
+resistors who brought up iron conductances somebody somebody mentioned that so that's the next thing we're going to add this
+
+169
+00:28:20,000 --> 00:28:30,000
+zero-order mall of anora the simplest view and it's are often not so bad for short periods of time
+
+170
+00:28:30,000 --> 00:28:40,000
+but I actually have ion channels that allow current to flow through the Membrane so we're gonna start today by analysing the case of the simplest
+
+171
+00:28:40,000 --> 00:28:50,000
+I am channel which is the kind of ion channel when you take a needle in your pocket Hole In The Membrane ok it's called the leak
+
+172
+00:28:50,000 --> 00:29:00,000
+and organise what armour on days when you do that so what we're going to find is that the iron
+
+173
+00:29:00,000 --> 00:29:10,000
+the elite conductance can be represented in a model simply by a resistor and we're going to
+
+174
+00:29:10,000 --> 00:29:20,000
+are capacitive current membrane capacitive cart and a membrane ionic current that's due to ions flowing through ion channels in the Membrane
+
+175
+00:29:20,000 --> 00:29:30,000
+ok and that current will be we're going to call that are leak resistance and that car
+
+176
+00:29:30,000 --> 00:29:40,000
+will be a leak current so now it's current lighthouses what that the liquor
+
+177
+00:29:40,000 --> 00:29:50,000
+plus the capacity of call the injected current
+
+178
+00:29:50,000 --> 00:30:00,000
+we know the capacity of current is just CDT so we just put that in now we have I link + CDT = the injected Electro
+
+179
+00:30:00,000 --> 00:30:10,000
+that is called membrane ionic current that is called membrane capacitive current and that is our electrical
+
+180
+00:30:10,000 --> 00:30:20,000
+there is a sign convention in neuroscience which is that membrane ionic currents that are outward
+
+181
+00:30:20,000 --> 00:30:30,000
+inside of the cell to the outside of the cell membrane are positive in sign positive charges leaving the cell have a positive sign
+
+182
+00:30:30,000 --> 00:30:40,000
+just convention could have been the other way but you have to choose something so that's what I think it was actually who
+
+183
+00:30:40,000 --> 00:30:50,000
+decided that it's positive charges entering the cells through the Membrane going this way from extracellular to intracellular are defined as negative
+
+184
+00:30:50,000 --> 00:31:00,000
+electric currency other electric inward current is pot into the cell is positive
+
+185
+00:31:00,000 --> 00:31:10,000
+ok so we're gonna go membrane and we're going tomorrow that I am channel using Ohm's law so the leak
+
+186
+00:31:10,000 --> 00:31:20,000
+is just membrane potential / resistance leak resistance
+
+187
+00:31:20,000 --> 00:31:30,000
+what do we get if we plug this into a I link bus capacitance capacitive equals injector current we get v membrane potential
+
+188
+00:31:30,000 --> 00:31:40,000
+over R L + EDT = injected car remote
+
+189
+00:31:40,000 --> 00:31:50,000
+sides by resistance we get very pass RC for it's called an RC model DVD t
+
+190
+00:31:50,000 --> 00:32:00,000
+lick resistance times the injected current alright looking a little complicated but we're gonna simplify
+
+191
+00:32:00,000 --> 00:32:10,000
+RC is resistance times capacitance in a turns out that has units of time and sore
+
+192
+00:32:10,000 --> 00:32:20,000
+call that got a little ahead of myself that's called towel we're going to make that substitution in a minute but first we're going to
+
+193
+00:32:20,000 --> 00:32:30,000
+delete the Steady State solution to the equation cancel bear with me hang on it's all going to make sense in a minute
+
+194
+00:32:30,000 --> 00:32:40,000
+is anyone I to calculate the Steady State solution of a difference equation yes got what's your name
+
+195
+00:32:40,000 --> 00:32:50,000
+so you set the derivative so let's do that set delete equal to zero and what do you find
+
+196
+00:32:50,000 --> 00:33:00,000
+sorry flash the answer of what what do you get if you said DVD to equal zero good so
+
+197
+00:33:00,000 --> 00:33:10,000
+you and Jack some current we're going to hold the current constant Bugsy put some current in and we hold it constant the voltage
+
+198
+00:33:10,000 --> 00:33:20,000
+an eventually things will settle down in the divinity we'll go to zero point we know the voltage it's just our
+
+199
+00:33:20,000 --> 00:33:30,000
+* i.e. what is equals resistance times current what is that it's just
+
+200
+00:33:30,000 --> 00:33:40,000
+when we inject current bunch of stuff happens and when the dust settles the voltage difference is just
+
+201
+00:33:40,000 --> 00:33:50,000
+injector current / resistance
+
+202
+00:33:50,000 --> 00:34:00,000
+well right now we just took a needle and poked a hole in her cell so
+
+203
+00:34:00,000 --> 00:34:10,000
+exactly it's how big the hole it now sells real cells do have leaked channels there actually
+
+204
+00:34:10,000 --> 00:34:20,000
+ion channels that leak can any iron it's in there it's it's not very common and you'll see why in a minute
+
+205
+00:34:20,000 --> 00:34:30,000
+actually it's not quite true there are ion channels that that look essentially like
+
+206
+00:34:30,000 --> 00:34:40,000
+leeks and it turns out that the ion channels that many neurotransmitter receptors like
+
+207
+00:34:40,000 --> 00:34:50,000
+and acetylcholine the ion channels actually look like little leaks they pass multiple ions that makes them look like
+
+208
+00:34:50,000 --> 00:35:00,000
+ok so instead he stayed the memory potential ghost r l
+
+209
+00:35:00,000 --> 00:35:10,000
+* ID and we call that voltage something special the infinity because it's the voltage that the system reaches
+
+210
+00:35:10,000 --> 00:35:20,000
+time equals Infinity questions about that ok
+
+211
+00:35:20,000 --> 00:35:30,000
+make this equation as BM + 80 = the infinity and that equation we're going to see over and
+
+212
+00:35:30,000 --> 00:35:40,000
+ran over again in this class in many different contacts it's a first order linear differential equation it's very powerful
+
+213
+00:35:40,000 --> 00:35:50,000
+I want you to get used to it so what what is this mean so let's rewrite this equation a little bit let's
+
+214
+00:35:50,000 --> 00:36:00,000
+best time to the other side and divide both sides by towel in Hurstville to get DVD t = -1 over tile V -
+
+215
+00:36:00,000 --> 00:36:10,000
+what time is v minus the infinity now let's take a look at what the derivative
+
+216
+00:36:10,000 --> 00:36:20,000
+he looks like as a function of voltage yes
+
+217
+00:36:20,000 --> 00:36:30,000
+the infinity is defined r l x i e a definition sorry I should have put
+
+218
+00:36:30,000 --> 00:36:40,000
+three three lines there to indicate that it's the definition of sorry that that's a very important question what's your name
+
+219
+00:36:40,000 --> 00:36:50,000
+OK I'm going to make an attempt to remember names so is everyone clear about that the infinity is
+
+220
+00:36:50,000 --> 00:37:00,000
+find as the resistance x lists injected current so be injected current when we inject current into another on your changing
+
+221
+00:37:00,000 --> 00:37:10,000
+Trinity your controlling it that make sense ok so
+
+222
+00:37:10,000 --> 00:37:20,000
+let's look at how the derivative changes as a function of voltage it's very simple with me all this is going to crystallize in your mind in one beautiful country
+
+223
+00:37:20,000 --> 00:37:30,000
+very shortly resistance times capacitance has
+
+224
+00:37:30,000 --> 00:37:40,000
+units time ok answer we call it towel towel is just a constant ok so hang on bare with me
+
+225
+00:37:40,000 --> 00:37:50,000
+the derivative is a devoted and add v = v Infinity the derivative is 0
+
+226
+00:37:50,000 --> 00:38:00,000
+that's the definition of the infinity at the voltage at which the derivative is 0
+
+227
+00:38:00,000 --> 00:38:10,000
+the voltage is less than the infinity the derivative is
+
+228
+00:38:10,000 --> 00:38:20,000
+is positive right when the voltage is below the infinity the derivative of voltage is positive so what is what is the voltage doing
+
+229
+00:38:20,000 --> 00:38:30,000
+it's approaching the infinity if the voltage is above the infinity voltage greater than the infinity the derivative is
+
+230
+00:38:30,000 --> 00:38:40,000
+negative voltage does white approaches the infinity so no matter where a voltage is
+
+231
+00:38:40,000 --> 00:38:50,000
+how is approaching the infinity if it's below the slope is positive in it approaches me infinity if it's above the infinity the slippers
+
+232
+00:38:50,000 --> 00:39:00,000
+it approaches the infinity From Above So is always just relaxing toward the infinity
+
+233
+00:39:00,000 --> 00:39:10,000
+how does it get there does it go linearly well you can see that the slope the rate at which it approaches me infinity is proportional to how far away it is from here
+
+234
+00:39:10,000 --> 00:39:20,000
+it so it doesn't crash into the infinity it kind of slowly approaches be Infinity
+
+235
+00:39:20,000 --> 00:39:30,000
+let me know what that function is called it's an exponential good
+
+236
+00:39:30,000 --> 00:39:40,000
+and it has a it approaches with a timescale of town so with our small it approaches quickly
+
+237
+00:39:40,000 --> 00:39:50,000
+if how is long it approaches see that if how is big the derivatives are small if Towers small the derivatives
+
+238
+00:39:50,000 --> 00:40:00,000
+Brett
+
+239
+00:40:00,000 --> 00:40:10,000
+any questions about that sorry say it again yes
+
+240
+00:40:10,000 --> 00:40:20,000
+at time towel at time towel 8 x 0
+
+241
+00:40:20,000 --> 00:40:30,000
+difference between the infinity sav and the infinity is the night - be Infinity at time towel that initial difference drops by about 1/3
+
+242
+00:40:30,000 --> 00:40:40,000
+but one of the ear I think it's 2.7 something ok so in one towel this voltage difference Falls by about it drops by about it
+
+243
+00:40:40,000 --> 00:40:50,000
+and then another Tower drops by another keeps going let's just wait
+
+244
+00:40:50,000 --> 00:41:00,000
+general solution the general solution for the case where you have constant current that
+
+245
+00:41:00,000 --> 00:41:10,000
+difference from the voltage of time t2b infinity is just equal to the initial voltage difference x eater the minor steel guitar
+
+246
+00:41:10,000 --> 00:41:20,000
+ftz photo then this is either the minus 1
+
+247
+00:41:20,000 --> 00:41:30,000
+so the voltage difference will be one third of the original voltage difference ok looks like
+
+248
+00:41:30,000 --> 00:41:40,000
+we have a work we have another on we have a current pulse we we have 0 current we turn the current onto I not at this time we hold
+
+249
+00:41:40,000 --> 00:41:50,000
+constant and return the current at this time radio what what does the voltage do let's go step
+
+250
+00:41:50,000 --> 00:42:00,000
+the first thing is that voltage sorry the current controls what in that equation
+
+251
+00:42:00,000 --> 00:42:10,000
+Crows v the infinity so we can plot the infinity immediately because the infinity is just the resistance times the injected current so what is the infinity
+
+252
+00:42:10,000 --> 00:42:20,000
+it's constant here and then what happens to the infinity
+
+253
+00:42:20,000 --> 00:42:30,000
+recess that's correct but got it will just be the resistance times the current resistance is a constants of the infinity War just go up
+
+254
+00:42:30,000 --> 00:42:40,000
+good up and then it stays constant at our times I and
+
+255
+00:42:40,000 --> 00:42:50,000
+at this point the current goes back at zero so the infinity is resistance x zero so the infinity drops back to 0
+
+256
+00:42:50,000 --> 00:43:00,000
+that makes sense that's the infinity that's not the voltage of the song that's the steady-state voltage of the song
+
+257
+00:43:00,000 --> 00:43:10,000
+so now what does voltage of the Sower actually do so let's start our voltage here
+
+258
+00:43:10,000 --> 00:43:20,000
+0 what happens good what is it doing
+
+259
+00:43:20,000 --> 00:43:30,000
+it approaches salt v at every point is relaxing toward the infinity exponentially
+
+260
+00:43:30,000 --> 00:43:40,000
+raped and that looks like it was some time constant and that looks like this alright
+
+261
+00:43:40,000 --> 00:43:50,000
+happens here good because the infinity is suddenly changed 20 and sobey relaxes toward the infinity
+
+262
+00:43:50,000 --> 00:44:00,000
+financially with some time constant
+
+263
+00:44:00,000 --> 00:44:10,000
+any questions ok
+
+264
+00:44:10,000 --> 00:44:20,000
+now this that is RC model drug resistance x
+
+265
+00:44:20,000 --> 00:44:30,000
+is the colour resistor in a capacitor is the solutions artist exponential decay stored some Steady State solution
+
+266
+00:44:30,000 --> 00:44:40,000
+it turns out that an RC system a first order linear system acts like
+
+267
+00:44:40,000 --> 00:44:50,000
+ok so remember our armour on the just has a capacitor is an integrator integrates over time when you add a resistor
+
+268
+00:44:50,000 --> 00:45:00,000
+this thing is it's kind of integrating here but then it gets tired and stops in a grating it relaxes to some Steady State
+
+269
+00:45:00,000 --> 00:45:10,000
+actually looks like a filter it takes time to respond to something
+
+270
+00:45:10,000 --> 00:45:20,000
+that system responds well to things that are changing slowly and time and respond very weekly to things that are changing
+
+271
+00:45:20,000 --> 00:45:30,000
+and time so he has to go through this demonstration in red is the injected current so if you have a long pulses
+
+272
+00:45:30,000 --> 00:45:40,000
+actor current the time constant of this morning is about 10 Ms I think this is probably a where is that a 50 or 100 mil second pulse
+
+273
+00:45:40,000 --> 00:45:50,000
+any casino in blue is the voltage it relaxes toward the infinity and then the current goes off it relaxes
+
+274
+00:45:50,000 --> 00:46:00,000
+you can see that the voltage is responding very well to the current injection now it's make really short pulse that are much shorter than
+
+275
+00:46:00,000 --> 00:46:10,000
+you can see that the better voltage touch relaxing toward the infinity but it doesn't get very far and also the currents turned off and it relaxes
+
+276
+00:46:10,000 --> 00:46:20,000
+it's only compliant the peak voltage response as a function of the width of these pulses and you can see that for long pulses it responds
+
+277
+00:46:20,000 --> 00:46:30,000
+but for short pulses where response at all and that's called a low-pass filter it responds well to
+
+278
+00:46:30,000 --> 00:46:40,000
+only changing things but barely responds to rapidly changing so it's passing low frequencies low pass filter
+
+279
+00:46:40,000 --> 00:46:50,000
+any questions that was a lot of stuff I once yet
+
+280
+00:46:50,000 --> 00:47:00,000
+ok it's 10 per square centimetre
+
+281
+00:47:00,000 --> 00:47:10,000
+coronavirus Perth per square metre that's a great question what the actual numbers
+
+282
+00:47:10,000 --> 00:47:20,000
+coronavirus I think you had a question sorry say it again
+
+283
+00:47:20,000 --> 00:47:30,000
+what happens is it react to it but because it's changing kind of linearly at this short times it doesn't get
+
+284
+00:47:30,000 --> 00:47:40,000
+if the current stays on for a long time you can see it is exactly the same profile here but it just has time to reach the infinity here it doesn't have time to reach
+
+285
+00:47:40,000 --> 00:47:50,000
+get a little bit away from 0 and then it decays back yes
+
+286
+00:47:50,000 --> 00:48:00,000
+you can build different kinds of filters from Circuit signals but no one's themselves tend to be
+
+287
+00:48:00,000 --> 00:48:10,000
+hyper you can low pass filter you can make so you can put in different kinds
+
+288
+00:48:10,000 --> 00:48:20,000
+channels that the change the properties of Lawrence by 3rd of the 1st order you should think of nerds as low pass filters
+
+289
+00:48:20,000 --> 00:48:30,000
+yeah
+
+290
+00:48:30,000 --> 00:48:40,000
+I wrote it like this you can write his vehicles the infinity plus this other stuff but I wrote it like this because what you should really be seeing here is that
+
+291
+00:48:40,000 --> 00:48:50,000
+voltage difference from time between the voltage and and the infinity decays exponentially so the distance you are from
+
+292
+00:48:50,000 --> 00:49:00,000
+Infinity decays exponentially it makes it more obvious that you're decaying toward
+
+293
+00:49:00,000 --> 00:49:10,000
+the infinity
+
+294
+00:49:10,000 --> 00:49:20,000
+not not really not simply you can
+
+295
+00:49:20,000 --> 00:49:30,000
+put in certain ion channels that that could make a nor on less responsive at low frequencies
+
+296
+00:49:30,000 --> 00:49:40,000
+OK so you can make them kind of responsive to some middle range of frequencies they're won't respond to very high frequencies in they won't respond much to
+
+297
+00:49:40,000 --> 00:49:50,000
+very low frequency is but but for the most part again just you should at this point let's just think of them as as low pass filters
+
+298
+00:49:50,000 --> 00:50:00,000
+what can I start adding fancy stuffed armour on it's going to make it more complicated so don't get too high
+
+299
+00:50:00,000 --> 00:50:10,000
+alright let me just make this point Parade hero vehicles was being
+
+300
+00:50:10,000 --> 00:50:20,000
+appears everywhere is ubiquitous in physics chemistry biology will be using it multiple different
+
+301
+00:50:20,000 --> 00:50:30,000
+in different parts of the class and even
+
+302
+00:50:30,000 --> 00:50:40,000
+slightly more complicated versions of this like the michelis meant in equations in in chemistry you know you can kind of understand them and simple term
+
+303
+00:50:40,000 --> 00:50:50,000
+you have a handle on this other slightly more complicated things become much more intuitive
+
+304
+00:50:50,000 --> 00:51:00,000
+trader trader really make sure that you understand this the situation and how we derived it
+
+305
+00:51:00,000 --> 00:51:10,000
+OK let's talk about the origin of this the time scale of a non so that tower vandoren a motorised is about
+
+306
+00:51:10,000 --> 00:51:20,000
+100 Ms to 10 Ms to 100 Ms going to be in that range and it comes from the values of resistance and capacitance of Andorra
+
+307
+00:51:20,000 --> 00:51:30,000
+resistor the resistance of a normal range of 100 million Oz
+
+308
+00:51:30,000 --> 00:51:40,000
+capacitance of the -10 ohms or about 100 of those two things to do
+
+309
+00:51:40,000 --> 00:51:50,000
+get a Time cast of about about 10 Ms so what that means if you inject current into another on it
+
+310
+00:51:50,000 --> 00:52:00,000
+about 10 to 100 seconds for it to fully respond to that step of current-voltage jump up
+
+311
+00:52:00,000 --> 00:52:10,000
+Max 2 the movie infinity in about 10 to 100 Ms let's take a little bit cos he'd look at the resistance what this
+
+312
+00:52:10,000 --> 00:52:20,000
+sensor capacitance looks like in anora so we've describe that relation between current and voltage
+
+313
+00:52:20,000 --> 00:52:30,000
+as current equals voltage over resistance but rather than using resistance to think about current flow
+
+314
+00:52:30,000 --> 00:52:40,000
+remember rain it's much more used for usually to think about something called conductance and conductance is just one over resistance
+
+315
+00:52:40,000 --> 00:52:50,000
+Dr g and where's the symbol G4 conductance is equal to Nova resistance so now we can write Ohm's law as i = g x b
+
+316
+00:52:50,000 --> 00:53:00,000
+resistance has unit of arms g conductances units of inverse arms or Siemens is the si
+
+317
+00:53:00,000 --> 00:53:10,000
+conductance so if we have to if we have to let it to ion channels in the Membrane
+
+318
+00:53:10,000 --> 00:53:20,000
+they operate in parallel current flows through them separately right they're not in series like it close to 1 and then flows through the other they
+
+319
+00:53:20,000 --> 00:53:30,000
+are in parallel current can flow through both like this up in parallel and we can write down the current using curry
+
+320
+00:53:30,000 --> 00:53:40,000
+why the total current is just the sum of the current through those two separate conductances right now the total current is we can just expand this in
+
+321
+00:53:40,000 --> 00:53:50,000
+the conductance of each one of those so the total current is G1 the voltage x the voltage difference plus G2
+
+322
+00:53:50,000 --> 00:54:00,000
+voltage difference for this conductance so the total current is just the fact about the v the total current is just G1 + G2
+
+323
+00:54:00,000 --> 00:54:10,000
+we can write down the total conductances just g 1 plus due to make sense inductances in parallel
+
+324
+00:54:10,000 --> 00:54:20,000
+together member in this got some ion channels in it or holes and we add another
+
+325
+00:54:20,000 --> 00:54:30,000
+the Membrane that kind of has the same density of ion channels you have wiped the holes twice the current and twice the conductance
+
+326
+00:54:30,000 --> 00:54:40,000
+so we can write the current as conductance x membrane potential but we can rewrite that conductance as
+
+327
+00:54:40,000 --> 00:54:50,000
+area x the conductance per unit area and that's called specific membrane conductance in this case it's a leak so we can't specifically
+
+328
+00:54:50,000 --> 00:55:00,000
+send it has units of conductance per area we multiply that by the area and
+
+329
+00:55:00,000 --> 00:55:10,000
+that total conduct about this
+
+330
+00:55:10,000 --> 00:55:20,000
+so you can see that we can now plot the current through the Membrane as a
+
+331
+00:55:20,000 --> 00:55:30,000
+up voltage this is called at current but it as a function of voltage you can see that the current is linear as a function of
+
+332
+00:55:30,000 --> 00:55:40,000
+that's just owns law and you can see that for a low conductance g is small for the slope of small Bahai conductance
+
+333
+00:55:40,000 --> 00:55:50,000
+you get a lot of current for a little bit of voltage and so the people so if you part current v voltage you get a car and the slope of that
+
+334
+00:55:50,000 --> 00:56:00,000
+is just equal to the conductance
+
+335
+00:56:00,000 --> 00:56:10,000
+total current through these two capacitors in parallel is just the current through want masterplus the current through the other we can write the current through each
+
+336
+00:56:10,000 --> 00:56:20,000
+separately I told her = c 1 DVD + c 2 DVD tea and you get the total current it's just see one
+
+337
+00:56:20,000 --> 00:56:30,000
+to DVD so the total capacitance the sum of the capacitance is so if you have a patch of membrane you measure the capacitance if you put it
+
+338
+00:56:30,000 --> 00:56:40,000
+next to it you'll get the some of those two capacitance the capacitance also scales with area so weak
+
+339
+00:56:40,000 --> 00:56:50,000
+play down the total membrane capacitance as capacitance per unit area times the area of the cell
+
+340
+00:56:50,000 --> 00:57:00,000
+the area of a salad do you like to put it's a sphere is 4 pi r squared where is the radius
+
+341
+00:57:00,000 --> 00:57:10,000
+is that this see some am is called this specific membrane capacitance and it's 10 nanofarads per square metre
+
+342
+00:57:10,000 --> 00:57:20,000
+ok now I want to show you something really cool we have a cell that has a membrane with some that had the cell has some time
+
+343
+00:57:20,000 --> 00:57:30,000
+remember 10 Ms over the the capacitance of the cell depends on how big it is right and so that
+
+344
+00:57:30,000 --> 00:57:40,000
+constant will change depending on how big the salad you might think that actually calculate the time constant from this capacitance and
+
+345
+00:57:40,000 --> 00:57:50,000
+inductance ok so here we go our is just one over the conductance right so the time can't sit
+
+346
+00:57:50,000 --> 00:58:00,000
+consonance / conductance capacitance / total conductance but you can rewrite this capacitors capacitance per unit area
+
+347
+00:58:00,000 --> 00:58:10,000
+* area can rewrite that conductances as conductance per unit area times the area of the song and the areas cancel
+
+348
+00:58:10,000 --> 00:58:20,000
+and so that meant that I'm can't see it is just that capacity per unit area of the Membrane / the conductance per unit area of the Membrane
+
+349
+00:58:20,000 --> 00:58:30,000
+that means is that the time constant of a cell nothing to do with the song the time constant is the Membrane time can't answer proper
+
+350
+00:58:30,000 --> 00:58:40,000
+only of the Membrane that's pretty cool right
+
+351
+00:58:40,000 --> 00:58:50,000
+questions birthday
+
+352
+00:58:50,000 --> 00:59:00,000
+now in a more complicated moron or you have a Soma and dendrite and accents
+
+353
+00:59:00,000 --> 00:59:10,000
+parts of the cell can have different conductance per unit area like more ion channels out here on the dendrite and maybe if you were on
+
+354
+00:59:10,000 --> 00:59:20,000
+one part of a cell can have a different membrane time constant than some other part of the song but again
+
+355
+00:59:20,000 --> 00:59:30,000
+pretty of the number
+
+356
+00:59:30,000 --> 00:59:40,000
+slow between absolutely that's one of that in
+
+357
+00:59:40,000 --> 00:59:50,000
+things about cells have multiple that have different properties you have current flowing between them but you have to understand this kind of
+
+358
+00:59:50,000 --> 01:00:00,000
+start before you even get anywhere close to understanding and more complicated mirror ok
+
+359
+01:00:00,000 --> 01:00:10,000
+so we're going to add a new component to our model it's a battery and it's going to solve 1
+
+360
+01:00:10,000 --> 01:00:20,000
+really fetal problem with this model what what's the problem with this model can anyone see I'm kind of show
+
+361
+01:00:20,000 --> 01:00:30,000
+ratio what happens to this now on if I turn the current off
+
+362
+01:00:30,000 --> 01:00:40,000
+it goes back to 0 and in order to get the voltage go different from zero I have to in
+
+363
+01:00:40,000 --> 01:00:50,000
+current through my current source without me the experimental with an electrode in it injecting current this moron literally just sit at zero
+
+364
+01:00:50,000 --> 01:01:00,000
+and stays there right it's actually a good model of a dead Nora
+
+365
+01:01:00,000 --> 01:01:10,000
+change that when you Dad about it and that batter is going to
+
+366
+01:01:10,000 --> 01:01:20,000
+play The Sting up so now it can change its own voltage and then things start getting really interesting so how
+
+367
+01:01:20,000 --> 01:01:30,000
+what is batteries allow an Iran to change its own voltage well the way nor on controls its own voltage is it has ion channels conductor
+
+368
+01:01:30,000 --> 01:01:40,000
+that have little knobs on them that the cell can control car voltage so these
+
+369
+01:01:40,000 --> 01:01:50,000
+conductances are voltage dependent and now the South Burnett biz batteries to it's inside wire at different times
+
+370
+01:01:50,000 --> 01:02:00,000
+so let's say we want to make an action potential do we have a battery that's got a positive voltage do you have a battery that's got a negative voltage and we make an app
+
+371
+01:02:00,000 --> 01:02:10,000
+potential by connecting the back to the inside of the cell by turning on this conductance and then we're going to connect
+
+372
+01:02:10,000 --> 01:02:20,000
+the battery with a negative voltage to RSL and we're going to do that one after the other so much this
+
+373
+01:02:20,000 --> 01:02:30,000
+connect the positive battery and the voltage is going to go up or going to turn off the positive battery connect the negative battery the voltage goes down and then we're going to
+
+374
+01:02:30,000 --> 01:02:40,000
+both batteries in the voltage relaxes so now they can control
+
+375
+01:02:40,000 --> 01:02:50,000
+control it on voltage but before we do that we need to put batteries in an Aurora
+
+376
+01:02:50,000 --> 01:03:00,000
+anybody know what to press
+
+377
+01:03:00,000 --> 01:03:10,000
+but we're gonna get to that that was back next question what what what is it that makes a batter in or on
+
+378
+01:03:10,000 --> 01:03:20,000
+go to the rest of the election
+
+379
+01:03:20,000 --> 01:03:30,000
+that's exactly right concentration gradients there is one more thing we need concentration gradients by
+
+380
+01:03:30,000 --> 01:03:40,000
+how's don't do it we need ion channels that are permeable only to certain ions that so we're going to do now
+
+381
+01:03:40,000 --> 01:03:50,000
+so you need concentration gradients and selective permeability so we're going to go through that so let's take a beaker
+
+382
+01:03:50,000 --> 01:04:00,000
+salt with water have a membrane dividing into two we're gonna have an electrode on one side we measure the voltage difference so we have an electron and
+
+383
+01:04:00,000 --> 01:04:10,000
+we hook it up to a differential amplifier and measure the sun the two sides ok then we're going to
+
+384
+01:04:10,000 --> 01:04:20,000
+Rihanna Taka we're going to buy some potassium chloride from Sigma and take a spoon
+
+385
+01:04:20,000 --> 01:04:30,000
+and dump it into the side of the Beaker it up and now you're going to have lots of potassium ions and chloride ions on this side of the bigger
+
+386
+01:04:30,000 --> 01:04:40,000
+now we're going to take a needle and poke a hole in that membrane that becomes a leak a leak channel
+
+387
+01:04:40,000 --> 01:04:50,000
+1/9 is a nonspecific a non-selective poor the passes any iron so what's
+
+388
+01:04:50,000 --> 01:05:00,000
+the ions are going to defuse
+
+389
+01:05:00,000 --> 01:05:10,000
+where to where somebody else from here
+
+390
+01:05:10,000 --> 01:05:20,000
+let's focus on potassium now we're going to plant we can plot the potassium concentration on this side of the time and this side Overtime by the way
+
+391
+01:05:20,000 --> 01:05:30,000
+Blade of the Beaker is going to represent the brand which has lots of potassium and this is going to represent the outside of her and which has very little potassium
+
+392
+01:05:30,000 --> 01:05:40,000
+so if we took that that potassium concentration on this side it's going to increase over time is going to take along the end and the concentration
+
+393
+01:05:40,000 --> 01:05:50,000
+decrease in eventually Bell meet in the middle somewhere because
+
+394
+01:05:50,000 --> 01:06:00,000
+a long time for this half of the spoon for potassium chloride to defuse to the other side ok
+
+395
+01:06:00,000 --> 01:06:10,000
+I'm now let's get up different kind of needle a very special needle that's really small
+
+396
+01:06:10,000 --> 01:06:20,000
+and poker Hole In The Membrane that is only big enough to pass potassium ions but not chloride ions
+
+397
+01:06:20,000 --> 01:06:30,000
+what's going to happen now
+
+398
+01:06:30,000 --> 01:06:40,000
+yes good good so
+
+399
+01:06:40,000 --> 01:06:50,000
+some potassium ions are going to defuse through this poor and go to the other side and what's going to happen is it
+
+400
+01:06:50,000 --> 01:07:00,000
+the potassium concentration here it will decrease sorry over here what increase a little bit and the potassium concentration on the side will decrease a little bit
+
+401
+01:07:00,000 --> 01:07:10,000
+what time it will stop changing and it will never come to equal also take a very short time for that equilibrium to happen because just
+
+402
+01:07:10,000 --> 01:07:20,000
+potassium ions need to go to the other side before it stops so stop changing here well it's because
+
+403
+01:07:20,000 --> 01:07:30,000
+potassium current from their side to the side post-2020 very quickly
+
+404
+01:07:30,000 --> 01:07:40,000
+so why is that well one hint to the
+
+405
+01:07:40,000 --> 01:07:50,000
+do that question comes if we look at the voltage difference between the two sides what you see is it the voltage different started it 0
+
+406
+01:07:50,000 --> 01:08:00,000
+and when we parked at home all of a sudden there is a rapidly developing voltage difference across the two sides
+
+407
+01:08:00,000 --> 01:08:10,000
+a why why does that maltage go negative
+
+408
+01:08:10,000 --> 01:08:20,000
+what what happened when is positive charges started diffusing from the side to the site
+
+409
+01:08:20,000 --> 01:08:30,000
+basically this is like a capacitor right and we some treasures diffused
+
+410
+01:08:30,000 --> 01:08:40,000
+you're a to hear some positive charges diffused from here to hear that charges up the side and so the voltage is positive we put positive chart more positive
+
+411
+01:08:40,000 --> 01:08:50,000
+is there the voltage air goes up so
+
+412
+01:08:50,000 --> 01:09:00,000
+if the voltage here is higher than voltage here were planning V1 - V2 the voltage here is lower than
+
+413
+01:09:00,000 --> 01:09:10,000
+voltage here and so this is going negative and that
+
+414
+01:09:10,000 --> 01:09:20,000
+message difference that negative voltage here positive voltage here what is that do it repels and makes the positive side
+
+415
+01:09:20,000 --> 01:09:30,000
+repelling which ions and positive ions heaps more potassium ions from diffuser
+
+416
+01:09:30,000 --> 01:09:40,000
+through the hole that make sense
+
+417
+01:09:40,000 --> 01:09:50,000
+do you like bikes there's a real good and it continue
+
+418
+01:09:50,000 --> 01:10:00,000
+up until equal reaches a constant voltage and that's called the equilibrium potential changes in equilibrium and that
+
+419
+01:10:00,000 --> 01:10:10,000
+France is called the equilibrium potential and that voltage difference is a battery
+
+420
+01:10:10,000 --> 01:10:20,000
+and I'm going to explain a little bit I think it's in the next like sure that the one that's on tape that explains how you actually
+
+421
+01:10:20,000 --> 01:10:30,000
+justify representing that is a battery but right now I'm going to show you how to calculate what that voltage difference actually is what's this
+
+422
+01:10:30,000 --> 01:10:40,000
+the battery how big is the battery so you can see that when ions positive ions diffuse to the side this voltage go
+
+423
+01:10:40,000 --> 01:10:50,000
+do you have a voltage gradient that corresponds to the field pointing in this direction and that electric field pushes against the iron swim
+
+424
+01:10:50,000 --> 01:11:00,000
+what we talked about drift and electric field so when those ions are trying to defuse a cross that Electric Feel This literally dragging them back to this site
+
+425
+01:11:00,000 --> 01:11:10,000
+right so we have a we have a current flowing this way from diffusion and we have a current flowing
+
+426
+01:11:10,000 --> 01:11:20,000
+way from being dragged in the electric field so we can calculate voltage difference because
+
+427
+01:11:20,000 --> 01:11:30,000
+collabrium the current flowing this way from diffusion has the current flowing that way from drift in an electric field
+
+428
+01:11:30,000 --> 01:11:40,000
+ok so one way to calculate this is we're going to calculate the current due to drift current to the diffusion of those up and
+
+429
+01:11:40,000 --> 01:11:50,000
+go to the total and an equilibrium that has two equal to 0 so so I'm what I'm showing you now
+
+430
+01:11:50,000 --> 01:12:00,000
+sort of the framework for how you would calculate this using this drift and diffusion equation do we have
+
+431
+01:12:00,000 --> 01:12:10,000
+Ohm's law that tells us how the voltage difference produces a current to the drift and we have fixed law that tells us how to
+
+432
+01:12:10,000 --> 01:12:20,000
+is duded diffusion and you can set the sum of those two things to equal 0 alright
+
+433
+01:12:20,000 --> 01:12:30,000
+so this is the way you would like I don't expect you to follow anything on the slide just accept the see that it can be done this way ok so
+
+434
+01:12:30,000 --> 01:12:40,000
+don't even have to write this down ok so the drift current is proportionate some constant x voltage
+
+435
+01:12:40,000 --> 01:12:50,000
+fix light is some constant times that concentration gradients remember that we just sent those two things equal and solve for delta
+
+436
+01:12:50,000 --> 01:13:00,000
+and that's what you find what you find is the Delta v is just some constant x the log of the difference in concentrations on the inside and outside
+
+437
+01:13:00,000 --> 01:13:10,000
+turns out there's a way of calculating this that's much simpler and more elegant and I'm going to show you
+
+438
+01:13:10,000 --> 01:13:20,000
+that calculation yes yes at the beginning
+
+439
+01:13:20,000 --> 01:13:30,000
+the answer is that the concentrations don't change through this process so you can even ignore that change night everybody
+
+440
+01:13:30,000 --> 01:13:40,000
+gatis tell us how we're going to calculate an alternative way of calculating this voltage difference just really beautiful
+
+441
+01:13:40,000 --> 01:13:50,000
+the boltzmann equation the boltzmann equation to the probability of a particle being in two States as a function of the
+
+442
+01:13:50,000 --> 01:14:00,000
+difference between us two states and one of those States is going to correspond to a particle being on the left side of the bigger or inside of herself and that particle beam
+
+443
+01:14:00,000 --> 01:14:10,000
+outside of a cell or on the other side of the bigger than those two left side in right side have different energies ok sorry system has
+
+444
+01:14:10,000 --> 01:14:20,000
+States 100 state and a low energy state boltzmann equation to assess the probability of being a state 1 / the probability of being in state to is just
+
+445
+01:14:20,000 --> 01:14:30,000
+play the minus energy difference / Katie the Bosman constant temperature at the same Katy that we talked about
+
+446
+01:14:30,000 --> 01:14:40,000
+now you can see if the temperature is very low all those particles are if the temperature is 0 they're not being Josh
+
+447
+01:14:40,000 --> 01:14:50,000
+I'm just sitting there quietly can't get into state wine they just sit in state to state
+
+448
+01:14:50,000 --> 01:15:00,000
+play the probability of being a stick 2800 this is a very big number either the - big number is 0
+
+449
+01:15:00,000 --> 01:15:10,000
+now that's it we hit things up a bit so they're Now Katie gets big so the Katie actually
+
+450
+01:15:10,000 --> 01:15:20,000
+approximately the same size as the energy difference between the two States so now some of those particles can get jostled over into
+
+451
+01:15:20,000 --> 01:15:30,000
+state want and we can write down we can just calculate you can see now that the
+
+452
+01:15:30,000 --> 01:15:40,000
+studying being in step 1 is divided by the probability of in situ is bigger than zero now you can actually just calculated if the energy difference is just
+
+453
+01:15:40,000 --> 01:15:50,000
+Kitty than energy difference to Kati Kati the pound that Rachel probabilities is just eater 2 - 2
+
+454
+01:15:50,000 --> 01:16:00,000
+if the energy difference is bigger than you can see the that probability ratio smaller the problem
+
+455
+01:16:00,000 --> 01:16:10,000
+things that one goes to 0 if you increase that and you make that energy difference very small at temperature Katie you see that
+
+456
+01:16:10,000 --> 01:16:20,000
+if the energy difference is about the same as Katie than the probability of being a state 1 is equal to the probability and stay to those those particles just jostle back and forth between
+
+457
+01:16:20,000 --> 01:16:30,000
+2 States ok it's already to do this probabilities is the minor Sanity difference over Katy what's the energy of a particle here
+
+458
+01:16:30,000 --> 01:16:40,000
+here well that's a charged particle the energy difference is just given by the voltage difference so it is charge times voltage work use the charge
+
+459
+01:16:40,000 --> 01:16:50,000
+ratio of probabilities is q x voltage difference over Katy
+
+460
+01:16:50,000 --> 01:17:00,000
+take the log of both sides solve for the voltage difference VN - VL = - Katie over q x the log of the probability ratio
+
+461
+01:17:00,000 --> 01:17:10,000
+what the probability is just concentration and so we can write this as Delta v The Voice
+
+462
+01:17:10,000 --> 01:17:20,000
+difference is equal to 80 over Q which is 25 ml bolts times the log of the ratio of potassium currents
+
+463
+01:17:20,000 --> 01:17:30,000
+outside to potassium concentration inside and that's exactly the same equation that we get if you do that much more complicated
+
+464
+01:17:30,000 --> 01:17:40,000
+derivation based on fix law and balancing fixed line on spot and this is
+
+465
+01:17:40,000 --> 01:17:50,000
+Skyrim potential here not electric field ok so let's take a look at potassium concentrations in a real cell there's actually from school
+
+466
+01:17:50,000 --> 01:18:00,000
+400mm inside 20mm outside so there's a lot of potassium inside of a cell not very much outside
+
+467
+01:18:00,000 --> 01:18:10,000
+doesn't or equation Katie of accused 25 temperature at room temperature log of that concentration ratio is
+
+468
+01:18:10,000 --> 01:18:20,000
+3 so EK is -75 Melbourne start with a lot of potassium inside of a cell open up a potassium selective
+
+469
+01:18:20,000 --> 01:18:30,000
+what happened diffusers out to the channel and the voltage goes to -75 novels
+
+470
+01:18:30,000 --> 01:18:40,000
+how do you know it's negative like I always can't remember whether this is concentration inside or outside outside or inside I don't know but the point is you don't actually
+
+471
+01:18:40,000 --> 01:18:50,000
+because you can just look at it and see the answer what sign it is if you have positive ions high concentration of positive ions inside they defuse
+
+472
+01:18:50,000 --> 01:19:00,000
+the voltage inside of the cell when positive ions leave is going to do what it's going to go down so that's
+
+473
+01:19:00,000 --> 01:19:10,000
+- salt battery and in those video models that I recorded for you it's going to
+
+474
+01:19:10,000 --> 01:19:20,000
+how you actually incorporate that into a a battery in our Circuit model and so we've done all these things we looked at how membrane capacitance and
+
+475
+01:19:20,000 --> 01:19:30,000
+stencil hours Mirage to integrate over time we've learnt how to write down the difference equations were now able to just look at a car import and figure out the voltage
+
+476
+01:19:30,000 --> 01:19:40,000
+and we now understand where the batteries in Iraq come from
+

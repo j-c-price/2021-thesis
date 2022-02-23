@@ -1,0 +1,950 @@
+Introduction to Neural
+Computation
+
+Michale Fee
+MIT BCS 9.40 — 2018
+Lecture 2 —RC Neuron Model
+ENDELEMENTA mathematical model of a neuron
+
+¢ Equivalent circuit model
+
+ 
+
+°° ime (ms) Alan Hodgkin
+Andrew Huxley, 1952
+
+ 
+ENDELEMENTLearning objectives for Lecture 2
+
+To understand how neurons respond to injected currents
+
+To understand how membrane capacitance and resistance allows
+neurons to integrate or smooth their inputs over time (RC model)
+
+To understand how to derive the differential equations for the RC
+model
+
+To be able to sketch the response of an RC neuron to different
+current inputs
+
+To understand where the ‘batteries’ of a neuron come from
+ENDELEMENTWhy understand how neurons respond to
+injected current?
+
+ 
+
+* First, because nearly every aspect of computation and
+signaling in a neuron is controlled by voltage. This control is
+almost entirely mediated by the voltage sensitivity of ion
+channels.
+
+* In the brain, neurons have current injected into them:
+> Through synapses from other neurons
+> Oras a result of sensory stimuli
+ENDELEMENTWhy understand how neurons respond to
+injected current?
+
+ 
+
+V,
+m Vin
+Neurons can perform analog numerical 0
+integration over time 0 time
+t
+Voltage(t) = fCurrent() dt ;
+0 0
+0
+
+time
+ENDELEMENTConductive plates
+
+ 
+
+A neuron is a capacitor A rn
+d
+capacitor is'in the public t
+domain. Source: Wikimedia.
+Dielectric
+Equivalent circuit
+intracellular
+Why is this a capacitor?
+y . . P Vin = Vin-Vout
+A capacitor is two conductors Cc
+separated by an insulator le
+Om 20 extracellular
+ap) Ow nn
+—
+h Onn 24.0
+Saline k-23a = What happens when we inject
+Phospholipid bilayer: As 108 current into our neuron?
+com
+
+—polar head
+—non-polar tail
+ENDELEMENTA neuron is a capacitor
+
+intracellular .
+Charge imbalance: AQ
+
+[E
+
+Voltage difference: AV
+
+  
+
+extracellular
+
+As positive charges build up on the
+inside of the membrane, they repel
+positive charges away from the
+outside of the membrane...
+
+This looks like a current flowing
+through the capacitor!
+
+ 
+ENDELEMENTA neuron Is a capacitor
+
+intracellular
+
+AQ=C-AV
+1 Von
+C Definition of capacitive current
+I.
+
+d dV.
+I(t) = < = C—
+extracellular dt
+
+But, Kirchoff’s current law tells us that the sum of all
+currents into a node is zero
+
+-1.+1,=0
+
+Thus, we can write the differential equation that describes the change
+in voltage of our neural capacitor with injected current
+
+dV, I, has units of Amperes, which is
+
+L(t)=C—* dt Coulombs per second
+ENDELEMENTcapacitor
+Response of a neuron to injected current
+
+dV,
+L()=C—
+e(t) at
+
+We can integrate this differential equation over time, starting with
+initial voltage Vo at time zero.
+
+1! t
+
+V,(t)=V+— JL (a)dt Ji@adr = Ao
+Cs 0
+
+Think about the integral as adding up all the current from time 0 to
+
+time t
+
+Thus, the total change in voltage is just given by
+
+1
+AV=—A
+cue
+ENDELEMENT 
+
+time
+
+Some examples
+
+ 
+
+10
+ENDELEMENTA neuron is a leaky capacitor
+
+ten cheyne)s
+
+i \ m the cell membrane,
+& Many Ny fterent hinds
+of ies and channels
+
+Contribute tp membrane.
+current
+
+ 
+
+intracellular
+
+I, = membrane capacitive current
+
+I, = membrane ionic current
+
+ 
+
+extracellular
+
+11
+ENDELEMENTOur equation for our model becomes:
+
+intracellular
+T4+l=T1
+L c e |
+dV n Vm
+L + C—e=lL
+dt
+
+  
+
+extracellular
+| | electrode current
+
+membrane capacitive current
+
+membrane ionic current
+
+—_—
+
+outward current inward current
+‘+' leaving the cell = positive ‘+’ entering the cell = negative
+ENDELEMENTSimple case: a leak
+
+We are going to begin by considering the simplest case of a membrane
+current — a simple leak (like a hole in the membrane)
+
+In this case, the current through the ion channel can be modeled using
+Ohm's Law
+
+ 
+
+ 
+
+V
+La
+R,
+Plugging this into our equation above, we get I, + I = LT
+V dV.
+a+ C= 1,
+R, dt
+Multiplying by R,, we get:
+dv,
+V, + RC—™ = RI,
+dt
+
+13
+ENDELEMENTWhat is the steady-state solution to this equation?
+
+Set dV, /dt = 0
+
+We find that:
+V, > V., = R, I,
+
+Thus, we can rewrite our equation as follows
+
+dv, where T=R,C
+
+14
+ENDELEMENTAn aside about first-order linear differential equations
+
+We can rewrite our equation in the following form:
+
+We see that the derivative is
+* negative ifV>V.
+
+dv = -t(v-v,) * positive if V < Vio
+dt T a
+dt
+Thus, the voltage always approaches the
+value Vg
+V,
+And it approaches at a rate proportional “
+to how far V is from V,,
+V(t)
+Vo smaller T
+
+What kind of function is this?
+
+ 
+
+ 
+
+15
+ENDELEMENTThus, under the condition that I, is constant (and thus V.,.) is constant:
+
+V(t)-V. = -VJe"
+
+While this solution applies only in the case of constant V.., it can be
+very useful
+
+16
+ENDELEMENTResponse to current injection
+
+Let's see what happens when we inject current into our
+model neuron with a leak conductance.
+
+ 
+
+ 
+  
+
+VO) = R, 1.0)
+
+ 
+
+17
+ENDELEMENTAn RC neuron acts like a filter
+
+Responding well to inputs slower than T , but not to inputs faster thany
+
+Injected current
+“a pulse width = 87
+
+Voltage response
+
+ 
+
+ 
+
+L
+
+r
+
+ 
+
+N
+
+pulse width = 7
+
+x
+
+4 ,
+
+response
+°
+Ey
+
+°
+ES
+
+ 
+
+ 
+
+K
+
+pulse width = 0.57
+
+ 
+
+KL
+
+ 
+
+ 
+
+ 
+
+0 10 20 30
+
+pulse width (msec)
+ENDELEMENTThe first-order linear differential equation is fundamental to
+understanding many processes in physics, chemistry, biology and
+neural computation
+
+Even more complex systems involve differential equations that are not
+(much) more difficult to understand and solve.
+
+19
+ENDELEMENTOrigin of 10 millisecond time scale
+
+R=10°Q=100MQ
+C=+10'°F
+
+tT=RC~10ms
+ENDELEMENTA closer look at membrane resistance
+
+We have described the relation between voltage and current using
+Ohms Law (V=IR,)
+
+_ pl
+[,=R, V
+We can rewrite Ohm's Law in terms of a quantity called G, —R:'
+‘conductance.’ ro
+1,=G,V
+
+R, has units of Ohms (Q)
+G, has units of Ohms" or Siemens (S)
+ENDELEMENTConductances 1n parallel add
+
+Lor =! +1
+° “5 4 y | | + —_
+i eo. of ° 2 . Vv Tig =GV+GV
+oC x“ e e
+
+Lig =(G,+G,)V
+
+Gio, =G6,+G,
+| | Twice the area, twice the holes,
+
+twice the conductance, twice the
+current at a given voltage
+
+ 
+
+1,=G,V
+
+m
+
+= A SV,
+
+t
+Specific leak conductance (mS/mm/?)
+
+ 
+
+Membrane area (mm2) 39
+ENDELEMENTA closer look at membrane capacitance
+
+ 
+
+I Leion = Te + Leo
+wa
+Te, dv dv
+t, eh Fem = CF + GF
+J fl YOO V t t
+HY dv
+Cc
+[4 I > Letot = (C, + ©) Cor = C + C,
+
+ 
+
+Capacitances in parallel add!
+
+Thus, the capacitance of a cell depends linearly on surface area
+
+C=c,A A=4nr
+
+membrane area
+
+specific capacitance (10 nF/mm?)
+ENDELEMENTMembrane time constant
+
+Neuron time constant:
+
+C cA c
+
+m m
+
+G, g A &,
+
+ 
+
+ 
+
+ 
+
+Thus, the time constant of a neuron is a property of the
+
+membrane, not dependent on cell geometry (size, shape, etc!).
+ENDELEMENTLet’s add a battery to our neuron!
+
+intracellular intracellular
+
+ 
+ENDELEMENTOutline of HH model
+
+Voltage and time-dependent ion channels are
+the ‘knobs’ that control membrane potential.
+
+ 
+
+50,
+Ss 0
+£
+>
+-50 .
+0 200 400 600 800
+
+time (ms) .
+
+ 
+
+Some ion channels push the membrane
+potential positive.
+
+Other ion channels push the membrane
+potential negative.
+
+Together these channels give the neural
+machinery flexible control of voltage!
+
+26
+ENDELEMENTWhere do the batteries of a neuron come from?
+
+1) lon concentration gradients
+
+2) lon-selective permeability of ion
+channels
+
+ 
+ENDELEMENTNeurons have batteries
+
+‘Non-selective’ pore
+[K] passes all ions
+
+  
+ 
+
+[K]eo=[K]o/2 — -->
+
+ 
+
+: Wasise
+Time
+
+(a long time)
+
+28
+ENDELEMENTNeurons have batteries
+
+‘lon-selective’ pore
+[K] passes only K* ions
+
+   
+      
+
+Why does the concentration
+stop changing here?
+
+ 
+
+Time
+k(t) (a short time) inswe  Dutsie®
+Why do the ions stop flowing
+from side 1 to side 2?
+Time
+
+29
+ENDELEMENTNeurons have batteries
+
+‘lon-selective’ pore
+passes only K* ions
+
+time
+
+AV=V,-V>
+
+   
+  
+
+ 
+
+The voltage difference changes in a
+direction that opposes the flow of ions.
+
+This voltage difference is a
+
+E
+K battery for our model neuron!!
+
+\ It reaches an ‘equilibrium potential’ at a
+value that gives zero net flow of ionic
+current.
+
+30
+ENDELEMENTNeurons have batteries
+
+K+ K+ ——>
+Kt
+Kt | |
+V(x) Vout
+Vin —eE
+
+ 
+
+There will be some electric field strength such that the
+‘drift’ will exactly balance the diffusion produced by the
+
+concentration gradient...
+
+Nernst Potential 7
+ENDELEMENTNeurons have batteries
+
+Where do the ‘batteries’ of a
+neuron come from?
+
+1) lon concentration gradients
+
+2) lon-selective pores (channels)
+
+How big is the battery (how
+many volts?)
+
+ 
+
+This is determined by a balance
+between diffusion down a concentration
+gradient balanced by ‘drift’ in the
+opposing electric field.
+ENDELEMENTElectrodiffusion and the Nernst Potential
+One can use Ohm's law and Fick's first law to derive the Nernst
+potential
+
+— At this voltage, the drift current in the electric field exactly
+balances current due to diffusion
+
+I = 0
+
+Tot Drift + I Diffusion
+
+Ohm's Law Fick's First Law
+
+_ Aq’y(x)D AV
+
+ 
+
+L pipfusion = —AqD og
+
+Drift kT L Ox
+AV= te 2a at equilibrium
+q Pin
+
+ 
+ENDELEMENTDerive Nernst potential using the
+Boltzmann equation
+
+The Boltzmann equation describes the ratio of probabilities of a
+particle being in any two states, at thermal equilibrium:
+
+U,-U
+Pvatet _ ol rr 2) k =Boltzmann constant (J/K)
+state2
+
+T =temperature (K) = 273 + T,
+
+Energy kT =thermal energy (J)
+
+state 1
+state 2
+
+kT =0
+
+Patel - 0
+P.
+
+state2
+ENDELEMENTDerive Nernst potential using the
+Boltzmann equation
+
+The Boltzmann equation describes the ratio of probabilities of a
+particle being in any two states, at thermal equilibrium:
+
+U,-U
+Pvatet _ ol rr 2) k =Boltzmann constant (J/K)
+
+state2
+
+T =temperature (K)
+
+Energy kT =thermal energy (J)
+fe)
+* state 1 ° ©
+Us @*e®9 2 SAT
+state 2
+kT >0
+Patel > 0
+P
+
+state2
+ENDELEMENTDerive Nernst potential using the
+Boltzmann equation
+
+The Boltzmann equation describes the ratio of probabilities of a
+particle being in any two states, at thermal equilibrium:
+
+Energy
+U,
+state 1 °
+°
+a)
+Ur 2°00 9% pir
+state 2
+AU >> kT
+P
+state1
+<i! 0)
+
+state2
+
+ 
+
+U,-U.
+P. -( 1 2)
+state1 kT
+— =e
+
+state2
+
+Energy
+U, 2
+O°
+state 1 4 © eo
+U, @*o®o © SkT
+state 2
+AU = 2kT
+Patel 2
+——“—=e
+state2
+
+Energy
+
+°
+@ 20 ©
+
+state 1 State 2
+
+AU <kT
+
+Patel ~ 1.0
+
+state2
+
+@ }kT
+
+36
+ENDELEMENTNernst Potential
+
+We can compute the equilibrium potential using the Boltzmann
+equation:
+
+ 
+
+P GinVour —qVin=Vour) U =qV = electrical potential (J)
+in = e kT = e kT
+P, q= charge of ion
+
+- q= 1.6x10-°C for monovalent ion
+
+ 
+
+37
+ENDELEMENTNernst Potential
+
+We can compute the equilibrium potential using the Boltzmann
+equation:
+
+ 
+
+ 
+
+P GinVour —qVin=Vour) U =qV = electrical potential (J)
+in =e kT =e kT
+P. q= charge of ion
+kT P q= 1.6x107'°C for monovalent ion
+Vi, Vout = In ~
+q Pau
+kT
+— = 25mV for monovalent ion
+P q
+AV = V,-V,, =25mV in(
+
+LK].
+
+AV = 25 mV n( [K], ~ Ex yQ Don't get confused by this notation. Ex is the
+
+equilibrium potential (voltage) for the K ion. 38
+‘E' here does not refer to an electric field.
+ENDELEMENTThe Nernst potential for potassium
+
+Intracellular and extracellular concentrations of ionic
+species, and the Nernst potential
+
+ 
+
+Cytoplasm Extracellular Nernst
+(uh) (uh) (mV)
+Kt 400 20 -75
+
+ 
+
+ 
+
+ 
+
+E,= —lIn —— =25mV at 300K (room temp)
+qd qd for monovalent ion
+
+kT | 20 | kT
+400
+
+Ex = 25mV(—3.00) = —75mV
+
+39
+ENDELEMENTHow to implement an ion specific conductance
+as a battery in our model neuron
+
+ 
+ENDELEMENTLearning objectives for Lecture 2
+
+To understand how membrane capacitance and
+resistance allows neurons to integrate or smooth their
+inputs over time (RC model)
+
+To understand how to derive the differential equations
+for the RC model
+
+To be able to sketch the response of an RC neuron to
+different current inputs
+
+To understand where the ‘batteries’ of a neuron come
+from.
+
+41
+ENDELEMENTExtra notes on how to derive the Nernst potential
+using the equations for electrodiffusion
+ENDELEMENTElectrodiffusion and the Nernst Potential
+
+In the last lecture, we found that the relation between drift velocity
+and force for an ion in an electric field is:
+
+where f = Ty, is just the coefficient of friction given by the Einstein-
+Smoluchovski relation.
+
+k =Boltzmann constant (J/K)
+F = qE = electric force on ion due to T =temperature (K)
+electric field E kT =thermal energy (J)
+q = total ion charge in Coulombs D =diffusion constant (m2/s)
+E = electric field (V/m)
+
+43
+ENDELEMENTElectrodiffusion and the Nernst Potential
+
+Thus, we can write the drift velocity as:
+
+gD qD is the ion mobility, which describes
+Va = kT kT how fast an ion will move in an
+electric field - (m/s)/(V/m)
+
+We can find the total current density (amperes per unit area) as
+N,c_ = ion density (ions/m?)
+
+I
+T= qN,c Vv, c = molar ion concentration (mol/m?)
+N, = Avagadro’s number (ions/mol)
+
+Substituting vg from above, we get that:
+
+|~
+
+2
+— INP oF
+A kT
+
+44
+ENDELEMENTElectrodiffusion and the Nernst Potential
+
+Next we use the fact the the electric field is the spatial derivative of
+the electrical potential (voltage)
+
+E=--w, £,-”
+Ox
+
+We can find the total current density (amperes per unit area) due to
+the electric field:
+
+I __@N,D Ov
+kT Ox
+
+ 
+
+45
+ENDELEMENTElectrodiffusion and the Nernst Potential
+
+Put it all together and we get
+
+This has units of current per unit area
+(Amperes/m2)
+
+I
+A
+
+q Ov _ Oc
+kT Ox Ox
+
+ 
+
+=—qN,D
+
+Tot
+
+ 
+
+ 
+
+ 
+
+ 
+
+We know that at equilibrium, the total current is zero. Thus,
+
+q =charge of a single ion
+q OV. Oc 0 C =molar concentration (mol/m?)
+
+—c— + _ ,
+kT Ox ax N, = Avagadro’s number
+
+A good reference for this derivation is Hille’s chapter on ‘Elementary
+Properties of lons in Solution’ (p. 261-269 of the second edition) 46
+ENDELEMENTElectrodiffusion and the Nernst Potential
+
+Divide through by c and q/kT and we get
+
+OV kT
+ee
+
+ 
+
+c Ox
+
+Use the fact that @nc@)__1 Acix)
+Ox C(x) Ox
+
+ 
+
+ax q Ox
+
+OV + (AE Pec _
+
+1dc _9
+
+0
+
+47
+ENDELEMENTElectrodiffusion and the Nernst Potential
+
+Now we can integrate both terms
+
+veo, «2
+q
+
+       
+
+Jo =9
+
+Vout —V,, = 4") [Inc,., —Inc,,]
+q
+av =A Sa | where AV=V,,—V,,,
+q Cin at equilibrium
+
+Don't get confused by this notation. Ex is the
+equilibrium potential (voltage) for the K ion.
+‘E’ here does not refer to an electric field.
+
+ 
+ENDELEMENTMIT OpenCourseWare
+https://ocw.mit.edu/
+
+9.40 Introduction to Neural Computation
+Spring 2018
+
+For information about citing these materials or our Terms of Use, visit: https://ocw.mit.edu/terms.
+ENDELEMENT

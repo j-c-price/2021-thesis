@@ -1,0 +1,746 @@
+Introduction to Neural Computation — 9.40
+
+¢ Prof. Michale Fee, Instructor
+* Daniel Zysman, Technical instructor
+ENDELEMENTTexts: Selected readings
+
+Berg, Random Walks in Biology
+
+Dayan & Abbott, Theoretical Neuroscience.
+
+Hille, lonic Channels of Excitable Membranes
+...and others
+
+ 
+ENDELEMENTWhat is neural computation?
+
+¢ Brain and cognitive sciences are no longer primarily descriptive
+— Engineering-level descriptions of brain systems.
+
+ 
+
+°
+
+Mechanoreceptor|
+Neurons
+
+‘ a ‘ a 7
+
+Interneurons
+
+Motor Neurons
+
+  
+
+ 
+
+ 
+
+(Gecwara
+
+Diagram © Jeff Dean (adapted from DiCarlo & Cox, 2007). All rights
+. . reserved. This content is excluded from our Creative Commons License.
+> chemical synapse _ © DAergic For more information see https://ocw.mit.edu/help/faq-fair-use/.
+
+ 
+
+ 
+
+——s gapjunction OD DAreceptive
+
+ 
+
+ 
+
+Figure courtesy of Wormbook. License: CC BY. Eisenmann, D. M
+
+ed.
+The C. elegans Research Community, doi/10.1895/wormbook.1.7.1.
+ENDELEMENTNew technologies for neuronal activity
+measurements
+
+Video
+
+YaleCampus. "Imaging Brain Activity
+Across the Mouse Cortex." YouTube.
+
+Crair Lab, Yale Univ
+ENDELEMENTWhat is neural computation?
+
+Brain and cognitive sciences are no longer primarily descriptive
+— Engineering-level descriptions of brain systems.
+
+Use mathematical techniques to analyze neural data in a way that
+allows us to relate it to mathematical models.
+
+In this course we will have the added component that we will apply
+these techniques to understand the circuits and computational
+principles that underlie animal behavior.
+ENDELEMENTNeural circuits that control bird song
+
+See Lecture 1 video recording for playback
+ENDELEMENTWhat is neural computation?
+
+* Computational and quantitative approaches are also important in
+cognitive science.
+
+* Importance of computation and quantitation in medical sciences
+ENDELEMENTCourse Goals
+
+* Understand the basic biophysics of neurons and networks
+and other principles underlying brain and cognitive
+functions
+
+* Use mathematical techniques to
+— analyze simple models of neurons and networks
+
+— do data analysis of behavioral and neuronal data (compact
+representation of data)
+
+* Become proficient at using numerical methods to
+implement these techniques (MATLAB®)
+ENDELEMENTTopics
+
+Neuronal biophysics and model neurons
+Neuronal responses and tuning curves
+Neural coding and receptive fields
+Feed forward networks and perceptrons
+Data analysis, dimensionality reduction
+Short-term memory, decision making
+
+Sensory integration
+
+| Differential equations
+
+Spike sorting, PSTHs and firing rates
+Correlation and convolution
+
+Linear algebra
+
+Principle Component Analysis and SVD
+Recurrent networks, eigenvalues
+
+Bayes rule
+ENDELEMENTSkills you will have
+
+Translate a simple model of neurons and neural circuits into a
+mathematical model
+
+Be able to simulate simple models using MATLAB®
+
+Be able to analyze neuronal data (or model output) using
+MATLAB®
+
+Be able to visualize high dimensional data.
+
+Be able to productively contribute to research in a
+neuroscience lab!
+ENDELEMENTProblem sets
+
+* MATLAB® will be used extensively for the problem sets.
+
+— Free for students. Please install on your laptop.
+
+* We will use live scripts for Pset submissions.
+ENDELEMENTIntroduction to Neural
+Computation
+
+Michale Fee
+MIT BCS 9.40 — 2018
+Lecture 1 —lonic Currents
+ENDELEMENTA mathematical model of a neuron
+
+* Equivalent circuit model
+
+ 
+
+100
+
+A conceptual model based on simple -
+. . . 0
+
+components from electrical circuits -
+-100)
+
+0 100 200 300
+Time (ms)
+
+A mathematical model that we can use
+to calculate properties of neurons
+ENDELEMENTWhy build a model of a neuron?
+
+Neurons are very complex.
+
+Different neuron types are defined by the genes that are expressed and their
+complement of ion channels
+
+lon channels have dynamics at different timescales, voltage ranges, inactivation
+
+Figures removed due to copyright restrictions. Left side is Figure 3a: Spectral tSNE plot of 13,079
+neurons, colored according to the results of iterative subclustering. Campbell, J., et al. "A
+molecular census of arcuate hypothalamus and median eminence cell types." Nature Neuroscience
+20, pages 484-496 (2017). Right side is Figure 1: Representation of the amino acid sequence
+relations of the minimal pore regions of the voltage-gated ion channel superfamily. Yu, F.H. and
+W.A. Catterall. "The VGL-Chanome: A Protein Superfamily Specialized for Electrical Signaling and
+Ionic Homeostasis." Science's STKEOS Oct 2004: re15.
+
+ 
+
+14
+ENDELEMENTNeurons are extremely complex
+
+lon channel and morphological diversity lead to diversity
+of firing patterns
+
+It’s hard to guess how morphology and ion channels lead
+to firing patterns
+
+... and how firing patterns control circuit behavior
+
+Figures removed due to copyright restrictions. Left side source unknown. Right side is Figure 6.1:
+Multiple firing patterns in cortical neurons. In: Gerstner, W., et al. Neuronal Dynamics. Cambridge
+
+University Press.
+
+ 
+
+15
+ENDELEMENTA mathematical model of a neuron
+
+* Equivalent circuit model
+
+ 
+
+* Different parts of this circuit do different interesting things
+— Power supplies
+— Integrator of past inputs
+— Temporal filter to smooth inputs in time
+— Spike generator
+— Oscillator
+ENDELEMENTIonic currents
+
+ 
+
+What are the wires of the brain?
+
+In the brain (in neurons), current flow results from the movement of
+ions in aqueous solution (water).
+
+17
+ENDELEMENTBasic electrochemistry
+Water is a polar solvent
+Intracellular and extracellular space is filled with salt
+
+solution (~100mM) Hye uu
+: F : a . HAL.
+— 6x10'9 ions per cm? (25A spacing) O ia He O
+H— 1 os Ht H+ cl H+
++ Ht
+HtH* Ni
+
+Currents flow through a salt solution by two key
+
+mechanisms: +e AV
+
+o Diffusion
+
+o Drift in an electric field
+
+18
+ENDELEMENTLearning objectives for Lecture 1
+
+* To understand how the timescale of diffusion relates to
+length scales
+
+* To understand how concentration gradients lead to
+currents (Fick's First Law)
+
+* To understand how charge drift in an electric field leads
+to currents (Ohm’s Law and resistivity)
+ENDELEMENTThermal energy
+
+Every degree of freedom comes to thermal equilibrium with
+an energy proportional to temperature (Kelvin, K)
+
+The proportionality constant is the Boltzmann constant (k)
+
+kT =4x107' Joules at 300K)
+
+Kinetic energy : (Sim) = Sar (v)=—
+2 “/ 2
+
+The mass of a sodium ion is 3.8x10°%6kg
+(v7) =10°m?/s? => 9, =3.2x10°m/s
+This would cross this 10m classroom in 3/10 second!
+
+Here we follow ‘Random Walks in Biology’
+Howard C. Berg, Princeton Univ Press 1993
+ENDELEMENTWhat is diffusion?
+
+* A particle in solution undergoes collisions with water molecules very
+often (~10'3 times per second!) that constantly change its direction
+of motion.
+
+Collisions produce a ‘random walk’ in space
+
+position (jm)
+
+ 
+
+-800 -400 0 400 800
+
+position (jm)
+
+21
+ENDELEMENTSpatial and temporal scales
+
+Diffusion is fast at short length scales and slow at long length scales.
+
+* To diffuse across a cell body (10um) it takes an ion 50ms
+¢ To diffuse down a dendrite (1mm) it takes about 10min
+
+* How long does it take an ion to diffuse down a motor neuron axon (1m)?
+
+10 years!
+ENDELEMENTDistribution of particles resulting from diffusion
+in 1-D
+
+* On average particles stay
+clustered around initial position
+
+ 
+
+* Particles spread out around 7 a
+
+initial position position (um)
+0.02
+* We can compute analytically 0.015
+properties of this distribution! 01
+0.005
+
+i i i i i
+q 500-250 0 250 500
+
+position (um)
+
+ 
+ENDELEMENT+ An ensemble of particles diffusing
+from a point acquires a Gaussian
+distribution
+
+* This arises from a binomial
+distribution for large number of
+time-steps (The probability of the
+particle moving exactly k steps to
+the right in n steps will be:
+
+Gaussian Distribution
+
+Petin.0)=| | ]ht= pr
+
+ 
+
+24
+ENDELEMENTRandom walk in one dimension
+
+We can mathematically analyze the properties of an ensemble of
+particles undergoing a random walk
+
+Consider a particle moving left or right at a fixed velocity v, for a T
+time before a collision.
+
+Imagine that each collision randomly resets the direction
+
+Thus, on every time-step,
+— half the particles step right by a distanced = +V,T
+
+— and half the particles step to the left by a distance 6
+ENDELEMENTRandom Walk in 1-D
+
+Assume that we have N particles that start at position x=0 at time
+t=0
+
+x(n) = the position of the jth particle on time-step n: n=t/T
+
+Assume the movement of each particle is independent
+
+Thus, we can write the position of each particle at time-step n as a
+function of the position at previous time-step
+
+x,(n)=x,(n—-1) + 6
+
+Use this to compute how the distribution evolves in time!
+26
+ENDELEMENTAverage displacement is zero
+
+* What is the average position of our ensemble?
+
+(x;()), yo (n) x(n)=x,(n-1) +6
+> [x,(n-1) +5]
+0
+== X[xm—p] + yi)
+
+(x, (n)). = (x, (n— 1)),
+
+Here we follow ‘Random Walks in Biology’ Howard C. Berg, Princeton Univ Press 1993
+ENDELEMENTDistribution of particles resulting from diffusion
+
+ 
+
+in 1-D
+On average particles stay
+clustered around initial
+position
+; 500 “250 0 250 500
+Particles spread out around ae
+initial position me
+
+0.015
+
+We can compute analytically 90
+properties of this aes
+distribution!
+
+ 
+
+i i i i i
+500-250 0 250 500
+
+position (um)
+ENDELEMENTHow far does a particle travel due to diffusion?
+
+* We want to compute an average ‘absolute value’ distance from
+origin... Root mean square distance
+
+(|x()J) = (eo)
+
+x,(n)=x,(n-1) + 6
+
+x (n)=(x,(n-1) + 6Y
+
+(x?(n)) =4+ > x7(n) =x7)(n-1) + 26x,(n-1) + &
+i 0
+
+(x°(n)) = (7° (2-1) + (426x4(n-1)) + (5°)
+
+Compute variance
+
+(x?°(n))=(x7°(n-))) + 6?
+ENDELEMENTHow far does a particle travel due to diffusion?
+
+(x?(n)) = (3° (n=1)) + 8
+* Note that at each time-step, the variance grows by§”
+
+(x°))=0 , (x°(1))=6?, (x°(2)) = 267... (O°) = nd?
+
+(x;(t)) a n=t/T
+
+ 
+
+30
+ENDELEMENTSpatial and temporal scales
+
+L=/\2Dt LD =2Dt t=L2/2D
+
+Diffusion is fast at short length scales and slow at long length scales.
+Typical diffusion constants for small molecules and ions are ~10°
+
+2
+cm¢/s
+
+* L=10um = 10% cm t = 10°6(cm?2)/2x10°(cm2/s) = 50 ms
+* L=1mm=107 cm t = 10°2(cm2)/2x10°(cm?2/s) = 500s
+* L=1000mm = 102 cm t = 104(cm?2)/2x10(cm2/s) =
+
+500,000,000 seconds!!
+ENDELEMENTFick’s first law
+
+* Diffusion produces a net flow of particles from regions of high concentration to
+
+regions ot lower concentration.
+
+* The flux of particles is proportional to the concentration gradient.
+
+N(x) is the number of particles in
+the box at position x
+
+ 
+
+ 
+
+J,=-D = [ot 6) —plx)] N(x+6)
+Q x xt+6
+
+Jn= ~D= ——> YN)
+* YN(x+ 5) €—
+
+YI N(x) —N(x+ 6)| is the net number of particles moving to
+the right in an interval of time 7
+
+32
+ENDELEMENTDiffusion produces a net flux of particles down a
+gradient
+
+ 
+
+Each particle diffuses
+independently and
+randomly!
+
+And yet concentration
+gradients produce currents!
+
+ 
+
+Eventually all concentration gradients go away... 33
+ENDELEMENTCurrent flow in neurons obeys Ohm’s Law
+
+In a wire, current flow is
+proportional to voltage difference
+
++
+AV
+Ohm's Law l= AV | R
+
+where
+— | is current (Amperes, A)
+— AVis voltage (Volts, V)
+— Ris resistance (Ohms, )
+ENDELEMENTWhere does Ohm’s Law come from?
+
+Consider a beaker filled with salt solution, two electrodes, anda
+battery that produces a voltage difference between the electrodes.
+
+* The electric field produces a force which, in a solution, causes an
+ion to drift with a constant velocity — a current
+
+— I+ AV V V,
+
+<«_ Kt
+
+Z AV
+<f | E=—
+
+ 
+ENDELEMENTIon currents in an electric field
+
+Currents are also caused by the drift of ions in the presence of an
+electric field.
+
+* The electric field produces a force which, in a solution, causes an
+ion to drift with a constant velocity — a current
+
+position (jm)
+> oO
+r=} co}
+f=) f=) f=)
+
+b
+Q
+Ss
+
+   
+
+for)
+Ss
+S
+
+-16061200-800 -400 0 400
+
+position (jm)
+
+ 
+
+* Why constant velocity?
+ENDELEMENTIon currents in an electric field
+
+Currents are also caused by the drift of ions in the presence of an
+electric field.
+
+Einstein realized that this is just a result of viscous drag (or friction)
+
+F=fv, V V,
+
+¢ Einstein -Smoluchovski relation
+
+f=kT/D NG
+
+<— fF E=—
+
+* Drift velocity is given by L
+-. Ds, Dy; =
+vy, = —F = —(gE
+‘ET er)
+
+ 
+ENDELEMENTIon currents in an electric field
+
+Currents are also caused by the drift of ions in the presence of an
+electric field.
+
+* The electric field produces a force which, in a solution, causes an
+ion to drift with a constant velocity — a current
+
+V V,
+
+Il«v,A — KK
+
+IT«xEKA=—A
+
+ 
+ENDELEMENTOhm’s Law in solution
+In a solution, current flow per unit area is proportional to
+
+voltage gradients
+
+a +) AV A p = resistivity (Q:m) JT=—AV
+Pp) L
+
+¢ Let's make this look more like Ohm's Law
+
+1-(4}ar FY
+pL
+
+Surface area A
+* Thus the resistance is given by:
+
+pL
+R= >|
+
+L
+ENDELEMENTResistivity of intra/extra cellular space
+
+~ +
+
+Surface
+
+Resistance of a volume of area A
+
+conductive medium is given by
+pale
+A
+
+el
+
+p = 1.6 pQ:cm for copper
+
+p = ~60 -cm for mammalian saline — the brain
+has lousy conductors!
+
+The brain has many specializations to deal with lousy wires...
+
+L
+
+Vv
+
+40
+ENDELEMENTLearning objectives for Lecture 1
+
+* To understand how the timescale of diffusion relates to
+length scales
+— Distance diffused grows as the square root of time
+
+* To understand how concentration gradients lead to
+currents (Fick's First Law)
+
+— Concentration differences lead to particle flux, proportional to
+gradient
+
+* To understand how charge drift in an electric field leads
+to currents (Ohm’s Law and resistivity)
+
+41
+ENDELEMENT(Extra slide) Derivation of resistivity
+
+Current density (Coulombs per second per unit area) is just drift
+velocity times the density of ions times the charge per ion.
+
+ =ion density (ions per m?)
+_ q= ze = ionic charge (Coulombs per ion)
+>= 4% = ion valence times 1.6x10°19 Coulombs
+
+A
+
+* Plugging in drift velocity from above, we get:
+
+I D
+| = go-(gE
+a qe (4 )
+
+42
+ENDELEMENTDerivation of resistivity
+
+* Thus, the current density (coulombs per second per unit area is
+just proportional to the electric field:
+
+2
+I_qeD , I_({1l),
+A kT A \p
+
+* Solving for Pp we get:
+
+p = = resistivity (Q*¢m)
+
+~ gpd
+
+ 
+
+43
+ENDELEMENTExtra slides on derivation of
+Fick’s first law
+
+We will now use a similar approach to derive a macroscopic
+description of diffusion — a differential equation that describes the the
+flux of particles from the spatial distribution of their concentration.
+
+a box (of length 5) at position x interface between
+the boxes
+
+N(x) is the number of particles in 4 A is the area of the
+
+Xx x+6
+mee > LA N(x)
+YAN(i4+ 6) €
+
+YI N(x) —N(x+ 6)| is the net number of particles moving to
+the right in an interval of time 7 44
+ENDELEMENTExtra slides on derivation of
+Fick’s first law
+
+We can calculate the flux in units of particles per second
+per area
+
+ 
+
+1 1
+J, =-—=[N(x+6)—N
+Xx xt+6
+multiply by 67 / 6°
+6 1 N(x+6) N(x) Particles per unit volume
+“27 6{ Ab Ab
+
+ 
+
+ 
+
+ 
+
+Density - particles per unit volume
+1
+J,=-D Ape+58) oor
+
+Note: To get density (ions/m3) from molar
+
+F) concentration (mol/L), you have to
+Jo= _pve multiply by N,x10°3. (N, is Avagadro’s
+* Ox Number = 6.02x1023)
+
+45
+ENDELEMENTMIT OpenCourseWare
+https://ocw.mit.edu/
+
+9.40 Introduction to Neural Computation
+Spring 2018
+
+For information about citing these materials or our Terms of Use, visit: https://ocw.mit.edu/terms.
+ENDELEMENT

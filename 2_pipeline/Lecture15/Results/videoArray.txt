@@ -1,0 +1,4650 @@
+Some content in this video is not covers
+under our Creative Commons license.
+See the closing credits for more informat
+ENDELEMENTIntroduction to Neural Computation
+9.40
+
+Prof. Michale Fee, Instructor
+Daniel Zysman, Technical instructor
+
+ROLTAS R02 TAS
+
+Katina Miko
+
+ 
+
+ 
+ENDELEMENTWhat is neural computation?
+
+ 
+
+ 
+ENDELEMENTWhat is neural computation?
+
+ 
+
+ 
+ENDELEMENTWhat is neural computation?
+
+ 
+
+ 
+ENDELEMENTWhat is neural computation?
+
+ 
+
+ 
+ENDELEMENTWhat is neural computation?
+
+ 
+
+ 
+ENDELEMENTWhat is neural computation?
+
+ 
+
+ 
+ENDELEMENTWhat is neural computation?
+
+ 
+
+ 
+ENDELEMENTWhat is neural computation?
+
+ 
+
+‘* Brain and cognitive sciences are no longer primarily descriptive
+~ Enginering-level descriptions of bran systems.
+
+ 
+ENDELEMENTWhat is neural computation?
+
+ 
+
+‘* Brain and cognitive sciences are no longer primarily descriptive
+~ Enginering-level descriptions of bran systems.
+
+ 
+ENDELEMENTWhat is neural computation?
+
+ 
+
+ 
+ENDELEMENTWhat is neural computation?
+
+ 
+
+ 
+ENDELEMENTWhat is neural computation?
+
+ 
+
+ 
+ENDELEMENTNew technologies for neuronal activity
+
+measurements
+
+ 
+
+ 
+ENDELEMENTNew technologies for neuronal activity
+measurements
+
+ 
+
+ 
+ENDELEMENTNew technologies for neuronal activity
+measurements
+
+ 
+
+ 
+ENDELEMENTNew technologies for neuronal activity
+measurements
+
+ 
+
+ 
+ENDELEMENTNew technologies for neuronal activity
+measurements
+
+ 
+
+ 
+ENDELEMENTNew technologies for neuronal activity
+measurements
+
+ 
+
+ 
+ENDELEMENTAnalysis of large datasets
+
+ 
+
+ 
+ENDELEMENTAnalysis of large datasets
+
+ 
+
+ 
+ENDELEMENTAnalysis of large datasets
+
+ 
+
+   
+
+ 
+
+     
+
+ee
+
+sob dh + 3 s
+
+ 
+ENDELEMENTAnalysis of large datasets
+
+ 
+
+ 
+ENDELEMENTAnalysis of large datasets
+
+ 
+
+  
+
+a ae
+
+oat
+aoe + 3 at
+ENDELEMENTAnalysis of large datasets
+
+ 
+
+ 
+ENDELEMENTAnalysis of large datasets
+
+ 
+
+ 
+ENDELEMENTWhat is neural computation?
+
+ 
+
+ 
+ENDELEMENTWhat is neural computation?
+
+ 
+
+ 
+ENDELEMENTWhat is neural computation?
+
+ 
+
+ 
+ENDELEMENTWhat is neural computation?
+
+ 
+
+‘© Brain and cognitive sciences are no longer primarily descriptive
+= Bngineering-tevel descriptions of brain systems,
+
++ Use mathematical techniques to analyze neural data in a way that
+allows us to relate it to mathematical models.
+
+ 
+
++ In this course we will have the added component that we will apply
+these techniques to understand the circuits and computational
+principles that underlie animal behavior.
+ENDELEMENTWhat is neural computatioi
+
+ 
+
+ 
+ENDELEMENTNeural circuits that control bird song
+
+Single-Neuron Recording in a
+Singing Zebra Finch
+
+ 
+ENDELEMENTNeural circuits that control bird song
+
+ 
+
+ 
+ENDELEMENTNeural circuits that control bird song
+
+ 
+
+ 
+ENDELEMENTNeural circuits that control bird song
+
+Torque-Sensitive
+Commutator
+
+ 
+ENDELEMENTNeural circuits that control bird song
+
+ 
+
+ 
+ENDELEMENTNeural circuits that control bird song
+
+ 
+ENDELEMENTNeural circuits that control bird song
+
+ 
+
+ 
+ENDELEMENTNeural circuits that control bird song
+
+ 
+ENDELEMENTNeural circuits that control bird song
+
+wri
+
+ 
+
+ 
+ENDELEMENTNeural circuits that control bird song
+
+ 
+
+   
+
+—
+ENDELEMENTNeural circuits that control bird song
+
+ 
+
+  
+
+"iE
+~ Te
+
+ 
+ENDELEMENT  
+
+ 
+   
+  
+
+Neural circuits that control bird song
+
+ 
+   
+
+Pe
+
+meee)
+
+ 
+ENDELEMENTNeural circuits that control bird song
+
+ 
+
+ 
+ENDELEMENTWhat is neural computation?
+
+ 
+
+ 
+ENDELEMENTWhat is neural computation?
+
+ 
+
+ 
+ENDELEMENTWhat is neural computation?
+
+ 
+
+ 
+ENDELEMENTWhat is neural computation?
+
+ 
+
+ 
+ENDELEMENTWhat is neural computation?
+
+ 
+
+ 
+ENDELEMENTWhat is neural computation?
+
+ 
+
+ 
+ENDELEMENTWhat is neural computatioi
+
+ 
+
+ 
+ENDELEMENTWhat is neural computation?
+
+ 
+
+ 
+ENDELEMENTWhat is neural computation?
+
+ 
+
+ 
+ENDELEMENTWhat is neural computation?
+
+ 
+
+ 
+ENDELEMENTWhat is neural computation?
+
+ 
+
+ 
+ENDELEMENTCourse Goals
+
+ 
+
+Understand the basic biophysics of neurons and netwo
+and other principles underlying brain and cognitive
+functions
+
+‘¢ Use mathematical techniques to
+— analyze simple models of neurons and networks
+— do data analysis of behavioral and neuronal data (compact
+representation of data)
+
+Become proficient at using numerical methods to
+ENDELEMENTCourse Goals
+
+ 
+
+Understand the basic biophysics of neurons and netwo
+and other principles underlying brain and cognitive
+functions
+
+‘¢ Use mathematical techniques to
+— analyze simple models of neurons and networks
+— do data analysis of behavioral and neuronal data (compact
+representation of data)
+
+Become proficient at using numerical methods to
+ENDELEMENT   
+ 
+       
+ 
+   
+       
+      
+ 
+
+Course Goals
+
+‘© Understand the basic biophysics of neurons and networks
+and other principles underlying brain and cognitive
+funetions
+
+‘© Use mathematical techniques to
+sly simple modes of neurons and networks
+oda analysis of behavioral and neronl data (compsct
+‘presentation of data)
+
+ 
+
++ Become profi
+implement t
+
+  
+
+se techniques (MATLAB")
+
+ 
+ENDELEMENT   
+ 
+       
+ 
+   
+       
+      
+ 
+
+Course Goals
+
++ Understand the basic biophysics of neurons and networks :
+another principles underlying brain and cognitive Wi
+finctions
+
++ Use mathematical techniques
+
+spl del ef aca ad tress
+oda of teh adit Comps
+sprecraton os)
+
+ 
+
++ Become profi
+implement t
+
+ 
+
+940k
+
+ 
+
+se techniques (MATLAB")
+
+ 
+ENDELEMENT   
+ 
+       
+ 
+   
+       
+      
+ 
+
+Course Goals
+
++ Understand the basie biophysis of neurons and networks 7
+and other principles underlying brain and cognitive Wi
+finetons
+
++ Use mathematical techniques to
+
+Satie ino ot eceec ener
+co as snide dat Compact
+mean of)
+
+ 
+
++ Become profi
+implement t
+
+ 
+
+940k
+
+ 
+
+se techniques (MATLAB")
+
+ 
+ENDELEMENT   
+ 
+       
+ 
+   
+       
+      
+ 
+
+Course Goals
+
+‘© Understand the basic biophysics of neurons and networks
+and other principles underlying brain and cognitive
+functions
+
+‘© Use mathematical techniques to
+ssa gl tol cacao
+oda analysis of behavioral and neronl data compsct
+‘presentation of data)
+
+ 
+
++ Become profi
+implement t
+
+ 
+
+940
+
+ 
+
+se techniques (MATLAB")
+
+ 
+ENDELEMENTTopics
+
+ 
+
+ 
+ENDELEMENTTopics
+
+ 
+
+ 
+
+‘Neuronal bophysies and model neurons
+‘Neuronal responses and tuning curves
+Neural coding and receptive fields
+Feed forward networks and pereeptrons
+Data analysis, dimensionality reduction
+
+Short-term memory, decision making.
+
+ 
+
+[Pita eqatons
+
+| Spike sorting, PSTHs and fring ra
+CCorcation and convolution
+
+Linear algebra
+
+Principle Component Analysis and
+| Recurrent networks, eigenvalues
+
+Pos
+ENDELEMENTTopics
+
+ 
+
+ 
+
+‘Neuronal bophysies and model neurons
+‘Neuronal responses and tuning curves
+Neural coding and receptive fields
+Feed forward networks and pereeptrons
+Data analysis, dimensionality reduction
+
+Short-term memory, decision making.
+
+ 
+
+[Pita eqaions
+
+| Spike sorting, PSTHs and fring ra
+CCorcation and convolution
+
+Linear algebra
+
+Principle Component Analysis and
+| Recurrent networks, eigenvalues
+
+oes
+ENDELEMENTTopics
+
+ 
+
+ 
+
+‘Neuronal bophysies and model neurons
+‘Neuronal responses and tuning curves
+Neural coding and receptive fields
+Feed forward networks and pereeptrons
+Data analysis, dimensionality reduction
+
+Short-term memory, decision making.
+
+ 
+
+[Pita eqatons
+
+| Spike sorting, PSTHs and fring ra
+CCorcation and convolution
+
+Linear algebra
+
+Principle Component Analysis and
+| Recurrent networks, eigenvalues
+
+Pos
+ENDELEMENTTopics
+
+ 
+
+ 
+ENDELEMENTTopics
+
+ 
+
+ 
+
+‘Neuronal bophysies and model neurons
+‘Neuronal responses and tuning curves
+Neural coding and receptive fields
+Feed forward networks and pereeptrons
+Data analysis, dimensionality reduction
+
+Short-term memory, decision making.
+
+ 
+
+[Pita eqatons
+
+| Spike sorting, PSTHs and fring ra
+CCorcation and convolution
+
+Linear algebra
+
+Principle Component Analysis and
+| Recurrent networks, eigenvalues
+
+Pos
+ENDELEMENTTopics
+
+ 
+
+ 
+ENDELEMENTTopics
+
+ 
+
+ 
+ENDELEMENTTopics
+
+ 
+
+ 
+ENDELEMENTTopics
+
+ 
+
+ 
+ENDELEMENT  
+
+Skills you will have
+
+  
+
+ 
+ 
+   
+
+    
+
+ 
+
+  
+ 
+
+  
+   
+ 
+ 
+
+ 
+
+940
+
+  
+
+ 
+ENDELEMENTSkills you will have
+
+ 
+
+ 
+ENDELEMENTSkills you will have
+
+ 
+
+‘Translate a simple model of neurons and neural circuits into a
+‘mathematical model
+
+Be able to simulate simple models using Matlab
+Be able to analyze neuronal data (or model output) using Matlab
+Be able to visualize high dimensional data,
+
+7
+ENDELEMENT   
+ 
+  
+ 
+       
+       
+   
+    
+ 
+
+Skills you will have
+
+ 
+
+ 
+
+940
+
+ 
+ENDELEMENTSkills you will have
+
+ 
+
+ 
+ENDELEMENTSkills you will have
+
+ 
+
+ 
+ENDELEMENTProblem sets
+
+ 
+
+ 
+ENDELEMENTProblem sets
+
+ 
+
+ 
+ENDELEMENTProblem sets
+
+ 
+
+MATLAB will be used extensively for the problem sets.
+~ Free for students, Please install on your laptop.
+
+‘We will use live scripts for Pset submissions. Check Stellar for
+examples.
+
+Guidelines for preparing Pset submissions are available on Stella.
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENTIntroduction to Neural
+Computation
+
+ 
+
+Michale Fee
+MIT BCS 9.40
+Lecture 1 —lonic Currents
+ENDELEMENTA mathematical model of a neuron
+
++ Equivalent circuit model
+
+baa
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTA mathematical model of a neuron
+
++ Equivalent circuit model
+
+Leh
+
+ 
+
+ae
+
+ 
+
+ 
+ENDELEMENTA mathematical model of a neuron
+
++ Equivalent circuit model
+
+bau
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTA mathematical model of a neuron
+
++ Equivalent circuit model
+
+bau
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTA mathematical model of a neuron
+
++ Equivalent circuit model
+
+Leh
+
+ 
+
+aie
+
+ 
+
+ 
+ENDELEMENTA mathematical model of a neuron
+
++ Equivalent circuit model
+
+ 
+
+ 
+
+ 
+ENDELEMENTA mathematical model of a neuron
+
++ Equivalent circuit model
+
+ 
+
+bau
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTA mathematical model of a neuror
+
+* Equivalent circuit model
+
+ 
+
+9 a
+
+mw by 9K
+a i x PE
+FF
+
+‘A conceptual model based on simple
+
+components from electrical circuits 4 | WWW
+
+qf
+
+  
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
++ Amathematical model that we can use to
+ENDELEMENTA mathematical model of a neuron
+
++ Equivalent circuit model
+
+ 
+
+ 
+
+ 
+ENDELEMENTWhy build a model of a neuron?
+
++ Neurons are very complex.
+
++ Different neuron types are defined by the genes that are expressed and t
+complement of ion channels
+
++ lon channels have dynamics at different timescales, voltage ranges, inacti
+
+ft aaaa
+
+ 
+ENDELEMENTWhy build a model of a neuron?
+
+ 
+
+ 
+ENDELEMENTWhy build a model of a neuron?
+
+ 
+
+ 
+ENDELEMENTWhy build a model of a neuron?
+
+ 
+
+ 
+ENDELEMENTWhy build a model of a neuron?
+
+ 
+
+ 
+ENDELEMENTWhy build a model of a neuron?
+
+ 
+
+ 
+ENDELEMENTWhy build a model of a neuron?
+
+ 
+
+ 
+ENDELEMENTWhy build a model of a neuron?
+
+ 
+
+ 
+ENDELEMENTWhy build a model of a neuron?
+
+ 
+
+ 
+ENDELEMENTA mathematical model of a neuron
+
++ Equivalent circuit model
+
+ 
+
+ 
+
+ 
+ENDELEMENTA mathematical model of a neuron
+
++ Equivalent circuit model
+
+au
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTWhy build a model of a neuron?
+
+ 
+
+ 
+ENDELEMENTWhy build a model of a neuron?
+
+ 
+
+ 
+ENDELEMENTNeurons are extremely complex
+
+ 
+
+inetd te ete
++ lpr gust howrpologyandion canes ies |B iM) ie
+snsowtngpnemconscatbiwr | iil
+let tt-letig
+fll) fu,
+aii | ll
+
+oe
+WUT] Ul |
+
+  
+ENDELEMENTNeurons are extremely complex
+
+lon channel and morphological urstylendto dvers# tne tanta
+hing pate
+
+ 
+
+=
+
+ 
+
+{spar gus how morphology and ion camel
+
+and how fring patos contol cut behavior tii
+
+ 
+
+ 
+
+ae
+isWUNT) Lill |
+
+ 
+ENDELEMENTNeurons are extremely complex
+
+ 
+
+ 
+ENDELEMENTNeurons are extremely complex
+
+ 
+
+ 
+ENDELEMENTNeurons are extremely complex
+
+ 
+  
+
++ Indra and moro! deiyladio dros tent
+Snes ”
++ teshard to guess how morphology andion channels las | |)
+{Sieg magento ie
+sndhow ng prams cone creat baher | ll
+
+ 
+
+sine teeing
+nm | ill
+eit |
+
+oe
+WUT] Ul |
+
+  
+ENDELEMENTA mathematical model of a neuron
+
++ Equivalent circuit mode!
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTA mathematical model of a neuror
+
+* Equivalent circuit model
+
+ 
+
+9 a
+
+£44
+
+Tf
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Different parts of this circuit do different interesting things
+~ Power supplies
+~ Integrator of past inputs
+
+ 
+ENDELEMENTA mathematical model of a neuron
+
++ Equivalent circuit mode!
+
+a8
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTA mathematical model of a neuron
+
++ Equivalent circuit model
+
+ee
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTA mathematical model of a neuron
+
++ Equivalent circuit model
+
+a8
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTA mathematical model of a neuron
+
++ Equivalent circuit mode!
+
+a8
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTA mathematical model of a neuron
+
++ Equivalent circuit model
+
+a8
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTA mathematical model of a neuron
+
++ Equivalent circuit model
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTA mathematical model of a neuron
+
++ Equivalent circuit model
+
+a8
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTA mathematical model of a neuror
+
+* Equivalent circuit model
+
+ 
+
+9 a
+
+£44
+
+Tf
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Different parts of this circuit do different interesting things
+~ Power supplies
+~ Integrator of past inputs
+
+ 
+ENDELEMENTA mathematical model of a neuron
+
++ Equivalent circuit model
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTA mathematical model of a neuron
+
++ Equivalent circuit model
+
+ee
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTA mathematical model of a neuron
+
++ Equivalent circuit model
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENT     
+  
+ 
+
+A mathematical model of a neuron
+
++ Equivalent circuit model
+
+ee
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTA mathematical model of a neuror
+
+* Equivalent circuit model
+
+ 
+
+9 a
+
+£44
+
+Tf
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Different parts of this circuit do different interesting things
+~ Power supplies
+~ Integrator of past inputs
+
+ 
+ENDELEMENTA mathematical model of a neuron
+
++ Equivalent circuit model
+
+a8
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTA mathematical model of a neuron
+
++ Equivalent circuit model
+
+a8
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENT     
+  
+ 
+
+A mathematical model of a neuron
+
++ Equivalent circuit model
+
+ee
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTA mathematical model of a neuron
+
++ Equivalent circuit model
+
+a8
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTlonic currents
+
+¥
+
+ 
+
+9
+
+  
+
+ 
+
+z
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+What are the wires of the brain?
+
+In the brain (in neurons), current flow results from the movement o
+ions in aqueous solution (water)
+ENDELEMENT 
+
+ 
+ENDELEMENTBasic electrochemistry
++ Water is a polar solvent
+
+* Intracellular and extracellular space is filled with salt
+
+solution (~100mM) Wow
+- :
+— 6x10"? ions per cm? (25A spacing) ae r
+a
+\T '
+
+Hie
+ENDELEMENTBasic electrochemistry
+
++ Water isa polar solvent
+
++ Intracellular and extracellular space is filled with salt solution
+(100mm) \
+
+£6420" ion prem? (254 spacing) on
+
+i
+
+iw we
+
+ 
+
+ 
+ENDELEMENTBasic electrochemistry
++ Water isa polar solvent
+
++ Intracellular and extracellular space filled with salt solution
+
+(100mm) we it
+610 ns perm (25A spacing) ‘ po
+
+ates (CET
+
+Vf Ken
+
+ 
+
+ 
+ENDELEMENTBasic electrochemistry
++ Water is a polar solvent
+
+* Intracellular and extracellular space is filled with salt
+
+solution (~100mM) Ww
+-
+— 6x10"? ions per cm? (25A spacing) ae r
+a Oo
+\/ '
+
+Hie
+ENDELEMENTBasic electrochemistry
++ Water isa polar solvent
+
++ Intracellular and extracellular space is filled wth salt solution
+(100mm) we eet
+
+i
+
+wignonw fo
+
+£6420" ion prem? (25A spacing)
+
+wie ie
+
+ 
+
+ 
+ENDELEMENTBasic electrochemistry
+
++ Water is a polar solvent
++ Intracellular and extracellular space is filled with salt
+solution (~100mM) Wow
+-
+
+— 6x10"? ions per cm? (25A, in oO oO
+6x10!" ions per cm (25A spacing) & f
+i
+
+\T '
+
+Tin
+
++ Currents flow through a salt solution by two key
+mechanisms:
+
+© Diffusion
+ENDELEMENT  
+   
+       
+    
+ 
+   
+ 
+
+  
+
+Basic electrochemistry
+*+ Water isa polar solvent
++ Intracellular and extracellular space isfilled with salt solution
+(100m) «
+16420" on prem? (254 pacing)
+
+40h
+
+ 
+ENDELEMENTBasic electrochemistry
+
++ Water is a polar solvent
+* Intracellular and extracellular space is filled with salt
+solution (~100mM) Ke
+= 6x10"? ions per cm? (25A spacing) ic ‘i
+Hoo
+\T '
+HH
++ Currents flow through a salt solution by two key
+
+mechanisms: ra
+
+© Diffusion
+ENDELEMENT 
+   
+       
+       
+      
+       
+   
+   
+ 
+    
+
+  
+
+Basic electrochemistry
++ Water isa polar solvent
+*+ Intracellular and extracellular space isfilled with salt solution
+
+(coma) <e is
+“i ee Mi
+
+  
+
++ Currents flow through a salt solution by two key mechanisms
+
+40h
+
+ 
+
+ 
+ENDELEMENTLearning objectives for Lecture 1
+
++ To understand how the timescale of diffusion relates
+length scales
+ENDELEMENTLearning objectives for Lecture 1
+
+To understand how the timescale of cifusion relates to length
+scales
+
+To understand how concentration gradients lead to currents
+(Fics Fest Law)
+
+ 
+
+ 
+ENDELEMENTLearning objectives for Lecture 1
+
++ To understand how the timescale of diffusion relates
+length scales
+
++ To understand how concentration gradients lead to
+currents (Fick's First Law)
+
+* To understand how charge drift in an electric field le
+to currents (Ohm’s Law and resistivity)
+ENDELEMENT 
+    
+      
+      
+      
+
+Learning objectives for Lecture 1
+
++ To understand how the timescale of diffusion relates to length
+
++ To understand how concentration gradients lead to currents
+(Fics Fest Law)
+
++ To understand how charge drift in an electri field leads to
+currents (Ohm's Law and resistivity)
+
+ 
+ENDELEMENTThermal energy
+
++ very degre of freedom comes to thermal equlrium with an
+energy proportional to temperature (Kevin)
+
++The proportionality constant is the Boltzmann constant (k)
+AT = 4310" Joules. at 300K)
+
+ 
+
+ 
+ENDELEMENTThermal energy
+
++ Every degre of freedom comes to thermal equirium with an
+energy proportional to temperature (Kelvin)
+
++The proportionality constants the Boltzmann constant (k)
+AT =4310" Joules. at 300K)
+
+ 
+
+ 
+ENDELEMENTThermal energy
+
++ Every degre of freedom comes to thermal equirium with an
+energy proportional to temperature (Kelvin)
+
++The proportionality constant is the Botzmann constant (k)
+AT = 4310" Joules. at 300K)
+
+ 
+
+ 
+ENDELEMENTThermal energy
+
++ Every degre of freedom comes to thermal equirium with an
+energy proportional to temperature (Kelvin)
+
++The proportionality constant is the Boltzmann constant (k)
+AT = 410" Joules, at 300K)
+
+ 
+
+ 
+ENDELEMENTThermal energy
+
++ very degre of freedom comes to thermal equilibrium with an
+
+energy proportional to temperature (Kelvin, K)
+
++ The proportionality constants the Boltzmann constant (k)
+AT =4310° Joules. at 300K)
+
+ 
+
+ 
+ENDELEMENTThermal energy
+
++ every degre of freedom comes to thermal equilibrium with an
+energy proportional to temperature (Kelvin, K)
+
++The proportionality constant is the Botzmann constant (k)
+AT =310" Joules. at 300K)
+
+ 
+
+ 
+ENDELEMENTThermal energy
+
++ Every degree of freedom comes to thermal equilibrium \
+an energy proportional to temperature (Kelvin, K)
+
++ The proportionality constant is the Boltzmann constant (|
+AT = 4x10" Joules at 300K)
+ENDELEMENTThermal energy
+
++ very degre of freedom comes to thermal equirium with an
+
+energy proportional to temperature (Kelvin, K)
+
++The proportionality constants the Botzmann constant (k)
+AT =-4310° Joules. at 300K)
+
+ 
+
+ 
+ENDELEMENTThermal energy
+
+Every degree of freedom comes to thermal equilrim with an
+energy roportonal to temperature (Kevin)
+
+The proportionality constants the Boltzmann constant (k)
+AT =4310" Joules. at 300K)
+
+ 
+
+ 
+ENDELEMENTThermal energy
+
++ Every degre of freedom comes to thermal equirium with an
+energy proportional to temperature (Kelvin, K)
+
++The proportionality constants the Botzmann constant (k)
+AT = 410" Joules. at 300K)
+
+ 
+
+ 
+ENDELEMENTThermal energy
+
++ very degre of freedom comes to thermal equirium with an
+energy proportional to temperature (Kevin, K)
+
++The proportionality constant is the Boltzmann constant (k)
+AT = 410" Joules. at 300K)
+
++ Kinetic enerey er
+
+ 
+
+ 
+ENDELEMENTThermal energy
+
+Every degree of freedom comes to thermal equilibrium \
+an energy proportional to temperature (Kelvin, K)
+
+The proportionality constant is the Boltzmann constant (
+AT = 4x10" Joules at 300K)
+
+Kinetic energy : (jm )= er
+7
+ENDELEMENTThermal energy
+
++ Every degre of freedom comes to thermal equlrium with an
+energy proportional to temperature (Kevin, K)
+
++The proportionality constant is the Boltzmann constant (k)
+AT = 4310" Joules. at 300K)
+
++ Kineticenerey: (yn) =a
+
+ 
+
+ 
+ENDELEMENTThermal energy
+
++ Every degre of freedom comes to thermal equirium with an
+energy proportional to temperature (Kelvin)
+
++ The proportionality constant is the Botzmann constant (k)
+AT = 410 Joules. at 300K)
+
++ Kineticenerey: (m2) =! ar
+
+ 
+
+ 
+ENDELEMENTThermal energy
+
+Every degree of freedom comes to thermal equilibrium \
+an energy proportional to temperature (Kelvin, K)
+
+The proportionality constant is the Boltzmann constant (
+AT = 4x10" Joules at 300K)
+
+ 
+
+Kinetic energy : (jm )= er (v=
+ss E m
+
+The mass of a sodium ion is 3.8x107 kg
+(2)=10%m ss > 5, =32x10%ms
+ENDELEMENTThermal energy
+
+Every degree of freedom comes to thermal equilibrium \
+an energy proportional to temperature (Kelvin, K)
+
+The proportionality constant is the Boltzmann constant (
+AT = 4x10" Joules at 300K)
+
+ 
+
+Kinetic energy : (jm )= er (v=
+a: s © m
+
+The mass of a sodium ion is 3.8x107 kg
+(2)=10'm ss > 5, =32x10%ms
+ENDELEMENT 
+  
+
+Thermal energy
+
+      
+       
+ 
+     
+ 
+   
+    
+     
+
++ very degre of freedom comes to thermal equirium with an
+eneray proportional to temperature (Kevin K)
+
++ The proportionality constant is the Botzmann constant (k)
+AT = 410° Joules. at 300K)
+
+ 
+
+ 
+ENDELEMENT 
+  
+
+Thermal energy
+
++ Every degre of freedom comes to thermal equilrium with an
+energy proportional to temperature (Kevin, K)
+
+       
+       
+ 
+       
+ 
+   
+    
+
++The proportionality constant is the Botzmann constant (k)
+AT =4310" Joules. at 300K)
+
+ 
+ENDELEMENT 
+  
+
+Thermal energy
+
++ very degre of freedom comes to thermal equiium with an
+energy proportional to temperature (Kelvin, K)
+
+       
+       
+ 
+       
+ 
+   
+     
+ 
+   
+
++The proportionality constant is the Botzmann constant (k)
+AT =4310 Joules. at 300K)
+
+ 
+ENDELEMENT        
+       
+ 
+    
+   
+   
+ 
+       
+
+Thermal energy
+
++ very degre of freedom comes to thermal equirium with an
+energy proportional to temperature (Kelvin)
+
++The proportionality constant is the Boltzmann constant (k)
+AT =4310°" Joules. at 300K)
+
+ 
+
+ 
+ENDELEMENTWhat is diffusion?
+
+A particle in solution undergoes collisions with water molecules
+often (-10' times per second) that constantly change its direc
+of motion.
+
+Collisions produce a ‘random walk’ in space
+
+ 
+ENDELEMENTWhat is diffusion?
+
+ 
+
+ 
+ENDELEMENTWhat is diffusion?
+
+ 
+
+ 
+ENDELEMENTWhat is diffusion?
+* Aparticle in solution undergoes collisions with water molecules
+
+often (-10'3 times per second!) that constantly change its direc
+of motion.
+
+Collisions produce a ‘random walk’ in space
+
+ 
+
+  
+ENDELEMENTWhat is diffusion?
+
++ Aparticle in solution undergoes collisions with water molecules
+often (-10'? times per second) that constantly change its direc
+of motion.
+
+Collisions produce a ‘random walk’ in space
+
+ 
+
+  
+ENDELEMENTWhat is diffusion?
+
+ 
+
+ 
+ENDELEMENTWhat is diffusion?
+
+ 
+
+ 
+ENDELEMENTWhat is diffusion?
+
+ 
+
+ 
+ENDELEMENTWhat is diffusion?
+
+ 
+
+ 
+ENDELEMENTWhat is diffusion?
+
+ 
+
+ 
+ENDELEMENTWhat is diffusion?
+
+ 
+
+ 
+ENDELEMENTSpatial and temporal scales
+
+Diffusion is fast at short length scales and slow at long length scal
+ENDELEMENTSpatial and temporal scales
+
+Ditfusion fasta shor length eles and slow along length sales
+
+ 
+
+ 
+ENDELEMENTSpatial and temporal scales
+
+Diffusion is fast at short length scales and slow at long length scal
+
++ To diffuse across a cell body (10um) it takes an fon S0ms
+ENDELEMENTSpatial and temporal scales
+
+ 
+
+ 
+ENDELEMENTSpatial and temporal scales
+
+Ditfusion fasta shor length sales and slow at long length scales
+
+ 
+
+ 
+ENDELEMENTSpatial and temporal scales
+
+ 
+
+ 
+ENDELEMENTSpatial and temporal scales
+
+ 
+
+ 
+ENDELEMENTSpatial and temporal scales
+
+Diffusion is fast at short length scales and slow at long length scal
+
++ To diffuse across a cell body (10um) it takes an ion S0ms
+
++ To diffuse down a dendrite (1mm) it takes about 10min
+ENDELEMENTSpatial and temporal scales
+
+Dito fat short gt sales nd slow tong length sales
+
+ 
+
+ 
+ENDELEMENTSpatial and temporal scales
+
+ 
+
+ 
+ENDELEMENTSpatial and temporal scales
+
+Dison fasta shor length sales and slow along length sales
+
+ 
+
+ 
+ENDELEMENTSpatial and temporal scales
+
+Dison fasta shor length scales and sow at long length sales
+
+ 
+
+ 
+ENDELEMENTSpatial and temporal scales
+
+ 
+
+ 
+ENDELEMENTSpatial and temporal scales
+
+Ditfusion fasta shor length eles and slow at long length sales
+
+ 
+
+ 
+ENDELEMENTSpatial and temporal scales
+
+Dillion fasta shor length sales and slow at long length sales
+
+ 
+
+ 
+ENDELEMENTSpatial and temporal scales
+
+ 
+
+ 
+ENDELEMENTSpatial and temporal scales
+
+Ditfusion fasta shor length sales and slow at long length sales
+
+ 
+
+ 
+ENDELEMENTSpatial and temporal scales
+
+Ditfuion fasta shor length sales and slow at long length sales
+
+ 
+
+ 
+ENDELEMENTDistribution of particles resulting from diffusion
+in1-D
+
+ 
+
+ 
+ENDELEMENTDistribution of particles resulting from diffusion
+in1-D
+
+ 
+
+ 
+ENDELEMENT 
+    
+          
+
+Distribution of particles resulting from diffusion
+
+  
+
+ 
+
+ 
+ENDELEMENTDistribution of particles resulting from diffus
+in1-D
+
++ On average particles stay
+clustered around initial position
+
++ Particles spread out around
+initial position
+
+ 
+
++ We can compute analytically “
+
+properties of this distribution!
+
+ 
+ENDELEMENTDistribution of particles resulting from diffusion
+in1-D
+
+ 
+
+ 
+ENDELEMENT+ An ensemble of particles diffusing
+from a point acquires a Gaussian
+distribution
+
++ This arises from a binomial
+distribution for large number of
+time-steps (The probability of the
+particle moving exactly k steps to
+the right in n steps will be:
+
+ad -
+-(Pe (-py
+
+Gaussian Distributi
+
+P(Kn,p)
+
+ 
+ENDELEMENT      
+     
+           
+   
+     
+
+ 
+
+ 
+
+Gaussian Distribution
+
+ 
+
+   
+
+   
+
+lim P(k:n,p) = 7am
+Tard
+
+ 
+ENDELEMENTGaussian Distribution
+
+ 
+
+ 
+ENDELEMENT+ An ensemble of particles diffusing
+from a point acquires a Gaussian
+distribution
+
++ This arises from a binomial
+distribution for large number of
+time-steps (The probability of the
+particle moving exactly k steps to
+the right in n steps will be:
+
+ad -
+-(Pe (-py
+
+Gaussian Distributi
+
+P(Kn,p)
+
+ 
+ENDELEMENTGaussian Distribution
+
+ 
+
+ 
+ENDELEMENT        
+ 
+   
+  
+
+ 
+
+ 
+
+      
+       
+  
+      
+  
+
+ 
+
+Gaussian Distribution
+
+ 
+
+     
+ 
+
+fers
+lim P(k:n,p) = 7mm
+im Pn) Tax
+
+ 
+ENDELEMENTRandom walk in one dimension
+
+ 
+
+ 
+ENDELEMENTRandom walk in one dimension
+
+We can mathematically analyze the properties of an ensemble
+particles undergoing a random walk
+
+Consider a particle moving left or right ata fixed velocity v, for
+time T before a collision.
+
+Imagine that each collision randomly resets the direction
+ENDELEMENTRandom walk in one dimension
+
++ imagine that each olson randomly resets the dreton
+
+~ hallthe pares stepraht byaitance —§
+
+ 
+
+ 
+ENDELEMENTRandom walk in one dimension
+
+We can mathematically analyze the properties of an ensemble
+particles undergoing a random walk
+
+Consider a particle moving left or right ata fixed velocity v, for
+time T before a collision.
+
+Imagine that each collision randomly resets the direction
+
+Thus, on every time-step,
+— half the particles step right by a distance 6 = ++v,T
+ENDELEMENTRandom walk in one dimension
+
+the paces step ightbya distance §
+
+ 
+
+ 
+ENDELEMENTRandom Walk in 1-D
+
++ Assume that we have N particles that start at position x=0 at time
+
++ x(n) = the position of the i* particle on time-step n: n=t/t
+ENDELEMENTRandom Walk in 1-D
+
++ Assume that we have N particles that start at position x=0 at time
+
++ x(n) = the position of the i* particle on time-step n: n=1/t
+
++ Assume the movement of each particle is independent
+ENDELEMENTRandom Walk in 1-D
+
+ 
+
+ 
+ENDELEMENTRandom Walk in 1-D
+
+Assume that we have N particles that start at position x=0 at time
+
+x(n) = the position of the i* particle on time-step n: n=t/t
+
+Assume the movement of each particle is independent
+
+Thus, we can write the position of each particle at time-step n «
+function of the position at previous time-step
+
+x(ny=x(n—-1) +6
+ENDELEMENT   
+       
+     
+
+Random Walk in 1-D.
+
+ 
+
+      
+    
+
+ 
+
+x(m=x(n=1) £3
+
+ 
+ENDELEMENT   
+    
+ 
+   
+    
+      
+   
+ 
+
+Random Walk in 1-D
+
+   
+
+x(m=x(n—) £3
+
+ 
+ENDELEMENT   
+     
+ 
+   
+ 
+   
+ 
+     
+    
+
+Random Walk in 1-D
+
+ 
+
+   
+
+x(m=x(n—1) £3
+
+ 
+ENDELEMENT   
+     
+ 
+   
+    
+       
+   
+ 
+
+Random Walk in 1-D
+
+ 
+
+   
+ 
+
+x(m=x(n-1) £3
+
+ 
+ENDELEMENTRandom Walk in 1-D
+
+Assume that we have N particles that start at position x=0 at time
+
+x(n) = the position of the i* particle on time-step n: n=t/t
+
+Assume the movement of each particle is independent
+
+Thus, we can write the position of each particle at time-step n z
+function of the position at previous time-step
+
+x(ny=x(n—-1) +6
+ENDELEMENTAverage displacement is zero
+
++ Whats the average postion of our ensemble?
+
+ 
+
+ 
+ENDELEMENTAverage displacement is zero
+
++ What is the average position of our ensemble?
+
+(x,@)), ye x(n)
+ENDELEMENTAverage displacement is zero
+
++ Whats the average position of our ensemble?
+
+00) <2 Za)
+
+ 
+
+ 
+ENDELEMENTAverage displacement is zero
+
++ What is the average position of our ensemble?
+
+(x,@)), ye x(n)
+
+(n= x (n-1
+
+ 
+
+Le@-n+6]
+ENDELEMENT 
+      
+    
+  
+ 
+
+Average displacement is zero
+
++ Whats the average position of our ensemble?
+
+FL lse-p29]
+
+  
+
+1S fain-0] « LE G8)
+
+ 
+ENDELEMENTAverage displacement is zero
+
++ What is the average position of our ensemble?
+
+(x,@)), ye x(n)
+
+a(n)= (0-1
+
+ 
+
+YLe@-y+6]
+= Pa x [xq] + ye (#8)
+ENDELEMENT 
+      
+    
+  
+ 
+
+Average displacement is zero
+
+‘+ Whats the average postion of our ensemble?
+
+ 
+
+FL lse-p23]
+
+  
+
+15 tain-0] + LE G8)
+
+ 
+ENDELEMENTAverage displacement is zero
+
+‘+ Whats the average position of our ensemble?
+
+43S ls-p23]
+
+1 Isee-0) +4
+
+ 
+
+ 
+ENDELEMENTAverage displacement is zero
+
++ What is the average position of our ensemble?
+
+(x,@)), ye x(n)
+
+(n= x (n-1
+
+ 
+
+Le@-y+6]
+°
+“4 Lise] + yes)
+ENDELEMENTAverage displacement is zero
+
++ Whats the average position of our ensemble?
+
+s)= ES
+
+43S ls-p23]
+1S fs0-n) + Lyi
+
+(xa), = (xD),
+
+ 
+
+ 
+ENDELEMENT 
+      
+    
+   
+    
+
+Average displacement is zero
+
+‘+ Whats the average position of our ensemble?
+
+  
+
+FL lse-p29]
+
+15 fx-n) + Lyi
+
+ 
+
+x(n), = (x(n=D)
+
+ 
+ENDELEMENTAverage displacement is zero
+
++ Whats the average postion of our ensemble?
+
+shh Sai
+
+FE lse-p23]
+eR leno) + EA)
+
+(s,m), = (x(n-),
+
+ 
+
+ 
+ENDELEMENTAverage displacement is zero
+
++ Whats the average postion of our ensemble?
+
+so)= 1 Sai)
+
+FE lse-p23]
+Elsen]
+
+(s,m), = (x(n-D),
+
+ 
+
+ 
+ENDELEMENTAverage displacement is zero
+
+‘+ Whats the average position of our ensemble?
+
+eae ao)
+
+4S ls-p23]
+Ly fx0-n) + Lyi
+
+(sm), =((n=D)
+
+ 
+
+ 
+ENDELEMENTAverage displacement is zero
+
++ Whats the average position of our ensemble?
+
+so" Sa)
+
+FLlse—p23]
+
+Ly [ann] + L385)
+
+x,(n)), = (x(n=D),
+
+ 
+
+ 
+ENDELEMENTAverage displacement is zero
+
++ Whats the average postion of our ensemble?
+
+se) Sas)
+
+FL lse-p23]
+1S fm-n] + Lys)
+
+(s,m), = (x(n-D),
+
+ 
+
+ 
+ENDELEMENTHow far does a particle travel due to diffusion?
+
+x(n
+
+ 
+
+ 
+ENDELEMENTHow far does a particle travel due to diffusion?
+
+x(n
+
+ 
+
+ 
+ENDELEMENTHow far does a particle travel due to diffusio
+
++ We want to compute an average ‘absolute value’ distance from
+origin... Root mean square distance
+
+(x) + (feo)
+ENDELEMENTHow far does a particle travel due to diffusio
+
++ We want to compute an average ‘absolute value’ distance from
+origin... Root mean square distance
+
+(xt) + (lee)
+
+‘Compute variance
+
+(e@)= adsl (n)
+ENDELEMENTHow far does a particle travel due to diffusion?
+
+x(n)
+
+(a)= 4800)
+
+ 
+
+ 
+ENDELEMENTHow far does a particle travel due to diffusion?
+
+xc)
+
+a)= 450)
+
+ 
+
+ 
+ENDELEMENTHow far does a particle travel due to diffusio
+
++ We want to compute an average ‘absolute value’ distance from
+origin... Root mean square distance
+
+(xt) + (lee)
+
+am=x(n-D #5
+‘Compute variance
+
+(e@)= adsl (n)
+ENDELEMENTHow far does a particle travel due to diffusion?
+
+x(n)
+
+(a)= 480)
+
+ 
+
+ 
+ENDELEMENTHow far does a particle travel due to diffusio
+
++ We want to compute an average ‘absolute value’ distance from
+origin... Root mean square distance
+
+(xt) + (fee)
+
+a(m=x(n-D #5
+(@-D # 5F
+1)  25x(n—-
+
+‘Compute variance
+
+(e@)= Pad (n)
+
+ 
+
+ 
+ENDELEMENTHow far does a particle travel due to diffusion?
+
+xc)
+
+(a)= 4D)
+
+ 
+
+ 
+ENDELEMENTHow far does a particle travel due to diffusion?
+
+x(n)
+
+(a)= 450)
+
+ 
+
+ 
+ENDELEMENTHow far does a particle travel due to diffusio
+
++ We want to compute an average ‘absolute value’ distance from
+origin... Root mean square distance
+
+(x(n) = ea
+
+a(m=x(n-D #5
+(@-D # 5F
+1)  25x(n—-
+
+‘Compute variance
+(e@)= Pad (n)
+
+(8) =(2 (2-1) + (426x(n-1)) + (5°)
+
+ 
+
+ 
+ENDELEMENTHow far does a particle travel due to diffusion?
+
+x(n)
+
+a)= 4D)
+
+ 
+
+ 
+ENDELEMENTHow far does a particle travel due to diffusion?
+
+x(n)
+
+Hm) =4D 800
+
+ 
+
+ 
+ENDELEMENTHow far does a particle travel due to diffusio
+
++ We want to compute an average ‘absolute value’ distance from
+origin... Root mean square distance
+
+(xo) = ay
+
+x(=x(n-1 + 5
+(y(n + BY
+1) £ 2Bx(n-
+
+‘Compute variance
+(e@)= adsl (n)
+°
+
+(¥@)=(2@-1)) + 426x4n-1)) + (5°)
+
+ 
+
+ 
+ENDELEMENTHow far does a particle travel due to diffusio
+
+(8 @)=(e@-D)+ &
+
++ Note that at each time-step, the variance grows by 6?
+ENDELEMENTHow far does a particle travel due to diffusion?
+
+ 
+
+ 
+ENDELEMENTHow far does a particle travel due to diffusio
+
+(8 @))=(8@-D)+ &
++ Note that at each time-step, the variance grows by 5?
+
+(¥@)=0 , (x@)=8, (x°@))=25? ... (x) =n?
+ENDELEMENTHow far does a particle travel due to diffusion?
+
+ 
+
+ 
+ENDELEMENTHow far does a particle travel due to diffusion?
+
+ 
+
+ 
+ENDELEMENTHow far does a particle travel due to diffusion?
+
+ 
+
+ 
+ENDELEMENT   
+    
+       
+    
+
+How far does a particle travel due to diffusion?
+
+      
+
+x3)=2D1, D=6'/2r (iflsion coefficient)
+
+ 
+ENDELEMENTHow far does a particle travel due to diffusio
+
+(8 @))=(8@-D)+ &
++ Note that at each time-step, the variance grows by 5?
+(¥@)=0 , (x°Q)=8, (x°@))=25" ... (x) =nd?
+
+8
+
+(e@)=2, neu
+
+(x?)=2Dt, D=5°/2t (Diffusion coefficier
+ENDELEMENT   
+     
+        
+    
+
+How far does a particle travel due to diffusion?
+
+(Diffusion coefficient)
+
+ 
+ENDELEMENT   
+    
+           
+    
+
+How far does a particle travel due to diffusion?
+
+ 
+
+(Difasion coefficient)
+
+ 
+ENDELEMENTHow far does a particle travel due to diffusio
+
+(8 @))=(8@-D)+ &
++ Note that at each time-step, the variance grows by 5?
+(¥@)=0 , (°@)=8, (x°@))=25" ... (x) =nd?
+
+8
+
+(e@)=2, neu
+
+(x?)=2Dt, D=5°/2t (Diffusion coefficier
+ENDELEMENT   
+    
+       
+      
+   
+ 
+   
+
+How far does a particle travel due to diffusion?
+
+(0)
+
+(Diffusion coefficient)
+
+ 
+ENDELEMENT   
+    
+         
+    
+
+How far does a particle travel due to diffusion?
+
+ 
+
+(Diffsion coefficient)
+
+ 
+ENDELEMENT   
+    
+       
+    
+
+How far does a particle travel due to diffusion?
+
+      
+
+x3)=2D1, D=6"/2r (Dillion coefficient)
+
+ 
+ENDELEMENTHow far does a particle travel due to diffusio
+
+(8 @))=(e@-D)+ &
++ Note that at each time-step, the variance grows by 5?
+(¥@)=0 , (x°Q)=8, (x°@))=25" ... (x) =nd?
+
+8
+
+(e@)=2, neue
+
+(x?)=2Dt, D=5°/2t (Diffusion coefficier
+ENDELEMENT 
+     
+        
+ 
+ 
+
+How far does a particle travel due to diffusion?
+
+ 
+
+(Diffusion coefficient)
+
+ 
+ENDELEMENTHow far does a particle travel due to diffusion?
+
+ 
+
+ 
+ENDELEMENTHow far does a particle travel due to diffusio
+
+(e@)=(e@-D)+ &
++ Note that at each time-step, the variance grows by 5*
+(¥@)=0 , (x°@)=8, (x°@))=28" .... (x) =nd?
+
+(rye, naiee
+ENDELEMENTSpatial and temporal scales
+
+Difusion fas at shor length scales and sow at long length sales
+Typical diffusion constants for small molecules and ions are “10> cm/s
+
+ 
+
+ 
+ENDELEMENTSpatial and temporal scales
+
+Diffusion s fas at shor length scales and sow at long length sales
+Typical diffusion constants for small molecules and ions are “10> cm/s
+
+ 
+
+ 
+ENDELEMENTSpatial and temporal scales
+
+Diffusion is fast at short length scales and slow at long length sc
+Typical diffusion constants for small molecules and ions are ~10
+
+ 
+ENDELEMENTSpatial and temporal scales
+
+Diffusion is fast at short length scales and slow at long length sc
+Typical diffusion constants for small molecules and ions are ~10
+
+ 
+
++ L=10ym=103cm — t= 10%em2/2x105(cm%s) = 50m
+ENDELEMENTSpatial and temporal scales
+
+Diffusion is fast at short length scales and slow at long length sc
+Typical diffusion constants for small molecules and ions are ~10
+
+ 
+
++ L=10um=103cm — t= 10%cm2/2x105(cm%s) = 50 m
+ENDELEMENTSpatial and temporal scales
+
+Diffusion is fast at short length scales and sow at long length sales.
+Typical diffusion constants for small molecules and ions are “10 cm/s
+
++ Le104m=10%em t= 10*(em’y/2x10%(em"/s) = SOms
+
+ 
+
+ 
+ENDELEMENTSpatial and temporal scales
+
+Diffusion is fast at short length scales and slow at long length sc
+Typical diffusion constants for small molecules and ions are ~10
+
+ 
+
++ L=10um=103cm — t= 10%em?/2x105(cm%/s) = 50 m
+
++ L= 1mm = 107 cm t = 102(cm)/2x10(cm*/s) = 500:
+ENDELEMENTSpatial and temporal scales
+
+Diffusion fas at shor length scales and sow at long length scales
+Typical diffusion constants for small molecules and ions are “10> cm/s
+
++ L=104m=10%em t= 1044em'y/2x10%{em"/5) = 5Oms
+
++ Letmm=10em t= 10%em'y/2«10%(emi/s) = 5005
+
+ 
+
+ 
+ENDELEMENTHow far does a particle travel due to diffusion?
+
+ 
+
+ 
+ENDELEMENT   
+    
+       
+     
+
+How far does a particle travel due to diffusion?
+
+2)=2b1, D=8*/2¢ (Diffusion coefficient
+
+ 
+
+ 
+ENDELEMENT 
+     
+        
+ 
+ 
+
+How far does a particle travel due to diffusion?
+
+ 
+
+x2)=2b1, D=8*/2r (Diffusion coefficient
+
+ 
+
+ 
+ENDELEMENTSpatial and temporal scales
+
+Diffusion is fast at short length scales and slow at long length sc
+Typical diffusion constants for small molecules and ions are ~10
+
+ 
+
++ L=10ym=103cm — t= 10%em2/2x105(cm%s) = 50 m
+
++ L= 1mm = 107 cm t = 102(cm?)/2x10(cm*/s) = 500:
+ENDELEMENTSpatial and temporal scales
+
+Diffusion is fast at short length scales and slow at long length sc
+Typical diffusion constants for small molecules and ions are ~10
+
+ 
+
++ L=10um=10%cm — t= 104(cm?)/2x105(em4/s) = 50 m
++ L= 1mm = 107 cm t = 102(cm)/2x10(cm*/s) = 500:
+
++ L=1000mm=10%cm t= 104(em’)/2x10-5(em’/s) =
+ENDELEMENTSpatial and temporal scales
+
+Diffusion s fas at shor length scales and sow at long length sales
+Typical ifsion constants for small molecules and ions are “10> cm/s
+
++ L=104m=10%em t= 104(em*y/2x10"(em'/s) = SOms
+
+=Amm=10%em t= 107(em/2«10%em/) =5005
+
++ Le 1000mm=10%em t= 104(em’)/2x10%em'/5) =
+
+ 
+
+ 
+ENDELEMENT   
+ 
+      
+   
+        
+        
+     
+
+Spatial and temporal scales
+
+Diffusion fas at shor length scales and sow at long length sales
+Typical diffusion constants for small molecules and ions are “10> cm/s
+
++ L=104m=10%em t= 1044em'y/2x10%{em"/5) = 5Oms
++ Letmm=10%em t= 10%4em?y/2x10%(em?/s) = 5005
++ Le 1000mm=10%em t= 104(em?)/2x10%{em'/5) =
+
+ 
+ENDELEMENT   
+ 
+      
+   
+       
+        
+     
+
+Spatial and temporal scales
+
+Diffusion is fast at short length scales and sow at long length scales.
+Typical diffusion constants for small molecules and ions are “10? cm/s
+
++ L=104m=10%em t= 10*(em*y/2x10°(em"/s) = SOms
+
++ Leamm=10%em — t=10%4m')/2x10"(em’/
+
+ 
+
+=5005
+
++ Le 1000mm=10%em t= 104(em?)/2x10em'/s) =
+
+500,000,000 seconds!
+
+ 
+ENDELEMENT   
+ 
+      
+   
+        
+        
+     
+
+Spatial and temporal scales
+
+Diffusion s fast at short length scales and sow at long length sales
+Typical diffusion constants for small molecules and ions are “10? cm/s
+
++ Le104m=10%em t= 10*(em?y/2x10%(em"/s) = SOms
+
++ Letmm=10%em — t=10%em*y/2x10%(em*/s) = 5005
+
+ 
+
++L 1000mm=10%em t= 104(em?)/2x10 cm/s) =
+
+500,000,000 seconds!
+
+ 
+ENDELEMENT   
+ 
+      
+    
+         
+        
+     
+
+Spatial and temporal scales
+
+Diffusion fas at shor length scales and sow at long length sales
+Typical diffusion constants for small molecules and ions are “10> cm/s
+
++ L=104m=10%em t= 104(em’y/2x10%{em"/s) = 5Oms
+
+rm = 10m
+
+   
+
+0°(em/2x10 fers) = 5008
+
++ L=1000mm=10%em t= 104em')/2x10%em"/s)
+
+ 
+ENDELEMENT   
+ 
+      
+   
+        
+        
+     
+
+Spatial and temporal scales
+
+Diffusion is fast at short length scales and sow at long length sales
+Typical diffusion constants for small molecules and ions are “10 cm/s
+
++ L=104m=10%em t= 10*(em’y/2x10%(em"/s) = SOms
+
++ Leamm=10%em — t=10%4m')/2x10"(em’/
+
+ 
+
+=5005
+
++ L=1000mm=10%em t= 104(em?)/2x10 cm/s) =
+
+500,000,000 seconds!
+
+ 
+ENDELEMENTFick's first law
+
+ 
+
+ 
+ENDELEMENT   
+ 
+      
+   
+        
+        
+     
+
+Spatial and temporal scales
+
+Diffusion fas at shor length scales and sow at long length sales
+Typical diffusion constants for small molecules and ions are “10> cm/s
+
++ L=104m=10%em t= 104(em'y/2x10%4em"/5) = 5Oms
+
+ 
+
+= mm = 10m
+
+ 
+
+0°(em/2x10%fer/) = 500
+
++ Le 1000mm=10%em t= 104(em?)/2x10%em"/5) =
+
+ 
+ENDELEMENTFick's first law
+
+ 
+
+ 
+ENDELEMENTFick's first law
+
+ 
+
+ 
+ENDELEMENTFick’s first law
+
++ Diffusion produces a net flow of particles from regions of high concentra
+regions of lower concentration.
+
++ The flux of particles is proportional to the concentration gradient.
+
+N(x) is the number of particles in
+the box at position x
+
+NOx)
+ENDELEMENTFick’s first law
+
++ Diffusion produces a net flow of particles from regions of high concentra
+regions of lower concentration.
+
++ The flux of particles is proportional to the concentration gradient.
+
+N(x) is the number of particles in
+the box at position x
+
+Nox)
+ENDELEMENTFick's first law
+
+ 
+
+ 
+ENDELEMENTFick’s first law
+
+Diffusion produces a net flow of particles from regions of high concentrat
+regions of lower concentration.
+
+The flux of particles is proportional to the concentration gradient.
+
+N(x) is the numberof particles in
+the box position x
+
+Nox)
+
+x x8
+
+— > AN@)
+AN(+5)<——
+ENDELEMENTFick's first law
+
+ 
+
+ 
+ENDELEMENTFick’s first law
+
+Diffusion produces a net flow of particles from regions of high concentrat
+regions of lower concentration.
+
+The flux of particles is proportional to the concentration gradient.
+
+N(x) is the numberof particles in
+the box position x
+
+Nox)
+
+x x8
+
+— > 1N@)
+AN(&+5)<—
+ENDELEMENT    
+   
+    
+     
+       
+ 
+
+Fick’s first law
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTFick's first law
+
+E |»
+
+— 16
+Nit be
+
+ 
+
+ 
+ENDELEMENTFick’s first law
+
++ Diffusion produces a net flow of particles from regions of high concentra
+regions of lower concentration.
+
++ The flux of particles is proportional to the concentration gradient.
+
+N(x) is the number of particles in
+the box at position x
+
+ 
+
+-D Hle+ 5) 9001 Nox)
+x M6
+
+— > AN@)
+AN(&+5)<—
+ENDELEMENTFick’s first law
+
++ Diffusion produces a net flow of particles from regions of high concentra
+regions of lower concentration.
+
++ The flux of particles is proportional to the concentration gradient.
+
+N(x) is the number of particles in
+the box at position x
+
+ 
+
+-D He+5)-9001 Nox)
+
+x x8
+
+ 
+
+— > 4N@)
+AN(&+5)<—
+ENDELEMENTFick's first law
+
+ 
+
+ 
+ENDELEMENTDiffusion produces a net flux of particles down a
+gradient
+
+ 
+
+ 
+ENDELEMENTDiffusion produces a net flux of particles down a
+gradient
+
+ 
+
+ 
+ENDELEMENTDiffusion produces a net flux of particles dow
+gradient
+ENDELEMENTDiffusion produces a net flux of particles down a
+gradient
+
+ 
+
+ 
+ENDELEMENTDiffusion produces a net flux of particles dow
+gradient
+ENDELEMENTDiffusion produces a net flux of particles down a
+gradient
+
+ 
+
+ 
+ENDELEMENTDiffusion produces a net flux of particles dow
+gradient
+ENDELEMENTDiffusion produces a net flux of particles down a
+gradient
+
+ 
+
+ 
+ENDELEMENTDiffusion produces a net flux of particles dow
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+gradient
+i
+eK
+—«
+we ©
+e)
+ENDELEMENTDiffusion produces a net flux of particles dow
+gradient
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTDiffusion produces a net flux of particles dow
+
+ 
+
+gradient
+ie
+eK
+Kk —*
+
+ 
+
+  
+
+ 
+
++ Each particle diffuses
+independently and
+
+randomly! 1)
+
+ 
+
+ 
+
+ 
+ENDELEMENTDiffusion produces a net flux of particles down a
+gradient
+
+ 
+
+ 
+ENDELEMENTDiffusion produces a net flux of particles down a
+gradient
+
+ 
+
+ 
+ENDELEMENTDiffusion produces a net flux of particles down a
+gradient
+
+ 
+
+ 
+ENDELEMENTDiffusion produces a net flux of particles down a
+gradient
+
+ 
+
+ 
+ENDELEMENT    
+    
+       
+      
+    
+
+Diffusion produces a net flux of particles down a
+gradient
+
+  
+
+   
+
+ 
+ENDELEMENT   
+    
+   
+      
+      
+   
+
+Diffusion produces a net flux of particles down a
+gradient
+
+ 
+
+ 
+ENDELEMENTDiffusion produces a net flux of particles dow
+
+ 
+
+gradient
+i
+eK
+Ke —*
+
+ 
+
+  
+
+ 
+
+Each particle diffuses
+independently and
+
+randomly! 1)
+
+ 
+
+ 
+
+‘And yet concentration
+ENDELEMENTCurrent flow in neurons obeys Ohm’s Law
+
+Inawire, current flow is proportional to
+voltage difference
+
+ 
+
+1
+
+|
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENT   
+    
+   
+      
+      
+   
+
+Diffusion produces a net flux of particles down a
+gradient
+
+ 
+
+ 
+
+ 
+ENDELEMENTCurrent flow in neurons obeys Ohm’s Law
+
+Inawire, current flow is proportional to
+voltage diference
+
+ 
+
+I
+
+|
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTCurrent flow in neurons obeys Ohm’s Le
+
+In a wire, current flow is proportional to
+voltage difference
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTCurrent flow in neurons obeys Ohm’s Law
+
+Ina wire, current flow is proportional to
+voltage diference
+
+ 
+
+I
+
+|
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTCurrent flow in neurons obeys Ohm’s Law
+
+Inawire, current flow is proportional to
+voltage diference
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTCurrent flow in neurons obeys Ohm’s Le
+
+In a wire, current flow is proportional to
+voltage difference
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+where
+— | iscurent (Amperes, A)
+~ AVis voltage (Volts,
+
+& ele conten hve:
+ENDELEMENTCurrent flow in neurons obeys Ohm’s Le
+
+In a wire, current flow is proportional to
+voltage difference
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+where
+— | iscurent (Amperes, A)
+~ AVis voltage (Volts,
+
+& iodine oo.
+ENDELEMENTCurrent flow in neurons obeys Ohm’s Law
+
+Ina wire, current flow is proportional to
+voltage diference
+
+ 
+
+Ohm's taw
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENT 
+   
+ 
+     
+ 
+
+Current flow in neurons obeys Ohm’s Law
+
+  
+
+Ina wire, current flow i proportional to
+voltage diference
+
+ 
+
+1
+
+    
+   
+    
+
+ 
+
+Onmstaw AV !
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTWhere does Ohm’s Law come from?
+
+ 
+
+ 
+ENDELEMENTWhere does Ohm’s Law come from
+
+Consider a beaker filed with salt solution, two electrodes, and a battery t
+produces a voltage difference between the electrodes.
+
+av
+ENDELEMENTWhere does Ohm’s Law come from?
+
+ 
+
+ 
+ENDELEMENTWhere does Ohm’s Law come from
+
+Consider a beaker filed with salt solution, two electrodes, and a battery t
+produces a voltage difference between the electrodes.
+
++ The electric field produces a force which, in a solution, causes
+ion to drift with a constant velocity — a current
+
+av Vv. \
+
+ 
+ENDELEMENTWhere does Ohm’s Law come from?
+
+ 
+
+ 
+ENDELEMENTWhere does Ohm’s Law come from?
+
+ 
+
+ 
+ENDELEMENTWhere does Ohm’s Law come from
+
+Consider a beaker filed with salt solution, two electrodes, and a battery t
+produces a voltage difference between the electrodes.
+
++ The electric field produces a force which, in a solution, causes
+jon to drift with a constant velocity — a current
+
+av Vv. \
+
+ 
+ENDELEMENTWhere does Ohm’s Law come from?
+
+ 
+
+ 
+ENDELEMENTWhere does Ohm’s Law come from?
+
+ 
+
+ 
+ENDELEMENTWhere does Ohm’s Law come from?
+
+ 
+
+ 
+ENDELEMENTWhere does Ohm’s Law come from?
+
+ 
+
+ 
+ENDELEMENTWhere does Ohm’s Law come from?
+
+ 
+
+ 
+ENDELEMENTWhere does Ohm’s Law come from?
+
+ 
+
+ 
+ENDELEMENTWhere does Ohm’s Law come from?
+
+ 
+
+ 
+ENDELEMENTWhere does Ohm’s Law come from?
+
+ 
+
+ 
+ENDELEMENTlon currents in an electric field
+
+Currents are also caused by the drift of ions in the presence of an ele
+field.
+
++ The electric field produces a force which, in a solution, causes an i
+drift with a constant velocity — a current
+
+Vv. \
+
+_—K
+
+  
+ENDELEMENTlon currents in an electric field
+
+ 
+
+ 
+ENDELEMENTlon currents in an electric field
+
+ 
+
+ 
+ENDELEMENTlon currents in an electric field
+
+Vv.
+
+ 
+
+ 
+ENDELEMENTlon currents in an electric field
+
+Currents are also caused by the drift of ions in the presence of an ele
+field
+
++ The electric field produces a force which, in a solution, causes an i
+drift with a constant velocity — a current
+
+Vv. \
+
+_—K
+
+  
+ENDELEMENTlon currents in an electric field
+
+ 
+
+ 
+ENDELEMENTlon currents in an electric field
+
+ 
+
+ 
+ENDELEMENTlon currents in an electric field
+
+F=fv
+
+ 
+
+ 
+ENDELEMENTlon currents in an electric field
+
+F=fv,
+
+ 
+
+ 
+ENDELEMENTlon currents in an electric field
+
+F=fv
+
+ 
+
+ 
+ENDELEMENTlon currents in an electric field
+
+Fa fi
+
+ 
+
+ 
+ENDELEMENTlon currents in an electric field
+
+Fa fi
+
+f=kT/D
+
+ 
+
+ 
+ENDELEMENTlon currents in an electric field
+
+Fafi
+
+f=kr 1D
+
+ 
+
+ 
+ENDELEMENTlon currents in an electric field
+
+F=f,
+
+f=kT/D
+
+ 
+
+ 
+ENDELEMENTlon currents in an electric field
+
+F=fo,
+
+f=kT/D
+
+ 
+
+ 
+ENDELEMENTlon currents in an electric field
+
+Fas
+
+f=kr/D
+
+ 
+
+ 
+ENDELEMENTlon currents in an electric field
+
+Faso
+
+f=kT/D
+
+ 
+
+ 
+ENDELEMENT       
+   
+      
+   
+     
+   
+      
+ 
+
+lon currents in an electric field
+
+ 
+
+F=fv
+
+f=kr/D
++ rift velocity s given by i
+
+>,
+w
+
+ 
+ENDELEMENTlon currents in an electric field
+
+Currents are also caused by the drift of ions in the presence of an ele
+field
+
++ Einstein realized that this is just a result of viscous drag (or fri
+
+ 
+
+F ¥,
+f¥, v. \
++ Einstein ~Smoluchovski relation —_—K
+f=kT ID
+<—E 1
+
++ Drift velocity is given by
+
+ 
+ENDELEMENT   
+      
+   
+     
+   
+     
+ 
+   
+     
+ 
+
+lon currents in an electric field
+
+F=fv,
+
+ 
+
+f=sr 1D
++ oat vetcy is gnen by t
+
+>
+aw’ Pa
+
+ 
+ENDELEMENTlon currents in an electric field
+
+Currents are also caused by the drift of ions in the presence of an ele
+field
+
++ The electric field produces a force which, in @ solution, causes
+ion to drift with a constant velocity — a current
+
+LavA —_—K
+
+ 
+ENDELEMENTlon currents in an electric field
+
+ 
+
+ 
+ENDELEMENTlon currents in an electric field
+
+Vv.
+
+ 
+
+ 
+ENDELEMENTlon currents in an electric field
+
+ 
+
+ 
+ENDELEMENTlon currents in an electric field
+
+ 
+
+ 
+ENDELEMENTlon currents in an electric field
+
+Currents are also caused by the drift of ions in the presence of an ele
+field
+
++ The electric field produces a force which, in a solution, causes
+ion to drift with a constant velocity — a current
+
+LavA —_—K
+
+ 
+ENDELEMENTlon currents in an electric field
+
+ 
+
+ 
+ENDELEMENTlon currents in an electric field
+
+Currents are also caused by the drift of ions in the presence of an ele
+field
+
++ The electric field produces a force which, in @ solution, causes
+ion to drift with a constant velocity — a current
+
+LavA —_—K
+
+IxEA ve
+
+ 
+ENDELEMENTlon currents in an electric field
+
+Vv.
+
+ 
+
+ 
+ENDELEMENTOhm’s Law in solution
+
+Ina solution, current flow per unit area is proportional to voltage
+gradients
+
+av
+
+Surface area)
+ENDELEMENTOhm’s Law in solution
+
+Ina solution, eutret flow per uni areas proportional to voltage
+sradients
+
+ 
+
+ 
+ENDELEMENTOhm’s Law in solution
+
+Ina solution, current flow per unit area is proportional to voltage
+gradients
+
+Pe (3) AV y p= resistivity (am)
+
+ 
+
+Surface area
+ENDELEMENTOhm’s Law in solution
+
+Ina solution, cutret flow per unit areas proportional to voltage
+tradients
+
+ 
+
+ 
+ENDELEMENTOhm’s Law in solution
+
+Ina solution, cutret flow per uni areas proportional to voltage
+fradients
+
+ 
+
+ 
+ENDELEMENTOhm’s Law in solution
+
+Ina solution, cutret flow per uni areas proportional to voltage
+sradients
+
+ 
+
+ 
+ENDELEMENT     
+      
+   
+       
+       
+
+Ohm’s Law in solution
+
+Ina solution, cutret flow per unit areas proportional to voltage
+tradients
+
+ 
+
+ 
+
+ 
+ENDELEMENT         
+   
+       
+         
+ 
+
+Ohm’s Law in solution
+
+Ina solution, cutret flow per uni areas proportional to voltage
+sradients
+
+ 
+
+ 
+
+pao
+n 7
+
+ 
+ENDELEMENTOhm’s Law in solution
+
+Ina solution, current flow per unit reas proportional to voltage
+sradients
+
+nae
+n
+
+ 
+
+ 
+ENDELEMENT     
+      
+   
+       
+     
+
+Ohm’s Law in solution
+
+Ina solution, cutrent flow per uni areas proportional to voltage
+tradients
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTOhm’s Law in solution
+
+Ina solution, cutret flow per unit areas proportional to voltage
+tradients
+
+ 
+
+ 
+ENDELEMENT         
+   
+   
+      
+       
+ 
+
+Ohm’s Law in solution
+
+Ina solution, cutret flow per uni areas proportional to voltage
+sradients
+
+ 
+
+ 
+
+  
+
+nae
+n r
+
+ 
+ENDELEMENTOhm’s Law in solution
+
+Ina solution, cutret flow per unit areas proportional to voltage
+tradients
+
+ 
+
+ 
+ENDELEMENT     
+      
+   
+   
+     
+    
+      
+ 
+
+Ohm’s Law in solution
+
+Ina solution, cutret flow per uni areas proportional to voltage
+tradients
+
+ 
+
+ 
+
+ 
+
+    
+ 
+
+oy ca
+
+ 
+ENDELEMENT         
+   
+       
+         
+ 
+
+Ohm’s Law in solution
+
+Ina solution, cutret flow per uni areas proportional to voltage
+sradients
+
+ 
+
+ 
+
+ 
+
+nae
+n r
+
+ 
+ENDELEMENT         
+   
+       
+         
+ 
+
+Ohm’s Law in solution
+
+Ina solution, cutret flow per uni areas proportional to voltage
+fradients
+
+ 
+
+ 
+
+nao
+n r
+
+ 
+ENDELEMENTResistivity of intra/extra cellular space
+
+pL
+
+ 
+
+ 
+ENDELEMENTResistivity of intra/extra cellular space
+
+ 
+
+ 
+ENDELEMENTResistivity of intra/extra cellular space
+
+surface
+
++ Resistance of a volume of conductive ae
+
+medium is given by
+
+Rae i
+A
+
++ p= 1.6 uQem for copper
+
+1p = ~60 2m for mammalian saline ~ the brain
+has lousy conductors!
+ENDELEMENTResistivity of intra/extra cellular space
+
+pL
+
+ 
+
+ 
+ENDELEMENTResistivity of intra/extra cellular space
+
+ 
+
+ 
+ENDELEMENTResistivity of intra/extra cellular space
+
+pL
+n
+
+R
+
+ 
+
+ 
+ENDELEMENTResistivity of intra/extra cellular space
+
+el
+
+ 
+
+ 
+ENDELEMENTResistivity of intra/extra cellular space
+
+rmesum seen by
+
+pL
+
+ 
+
+ 
+ENDELEMENTResistivity of intra/extra cellular space
+
+pL
+n
+
+R
+
+ 
+
+ 
+ENDELEMENTResistivity of intra/extra cellular space
+
+ 
+
+ 
+ENDELEMENTResistivity of intra/extra cellular space
+
+pL
+
+ 
+
+ 
+ENDELEMENTResistivity of intra/extra cellular space
+
+ 
+
+ 
+ENDELEMENTResistivity of intra/extra cellular space
+
+pL
+n
+
+R
+
+ 
+
+ 
+ENDELEMENTResistivity of intra/extra cellular space
+
+pL
+
+ 
+
+ 
+ENDELEMENTResistivity of intra/extra cellular space
+
+surface
+
++ Resistance of a volume of conductive ae
+
+medium is given by
+
+Rae i
+A
+
++ p= 1.6 uQem for copper
+
+1p = ~60 2m for mammalian saline ~ the brain
+has lousy conductors!
+ENDELEMENTResistivity of intra/extra cellular space
+
+pL
+n
+
+R
+
+ 
+
+ 
+ENDELEMENTResistivity of intra/extra cellular space
+
+pL
+
+ 
+
+ 
+ENDELEMENTResistivity of intra/extra cellular space
+
+pL
+n
+
+R
+
+ 
+
+ 
+ENDELEMENTResistivity of intra/extra cellular space
+
+pL
+n
+
+R
+
+ 
+
+ 
+ENDELEMENTResistivity of intra/extra cellular space
+
+pL
+
+ 
+
+ 
+ENDELEMENTResistivity of intra/extra cellular space
+
+ 
+
+ 
+ENDELEMENTLearning objectives for Lecture 1
+
+To understand how the timescale of cifusion relates to length
+scales
+
+To understand how concentration gradients lead to currents
+(Fick's Fest Law)
+
+To understand how charge drift in an electric field leads to
+curcents (Ohm's Law and resistivity)
+
+ 
+
+ 
+ENDELEMENTLearning objectives for Lecture 1
+
+To understand how the timescale of diffusion relates to le
+scales
+~ Distance diffused grows as the square root of time
+
+To understand how concentration gradients lead to curre
+
+(Fick's First Law)
+
+~ Concentration differences lead to particle flux, proportional
+gradient
+
+To understand how charge drift in an electric field leads t
+‘currents (Ohm’s Law and resistivity)
+
+ 
+ENDELEMENTLearning objectives for Lecture 1
+
+To understand how the timescale of cifusion relates to length
+
+To understand how concentration gradients lead to currents
+(Fick's Fest Law)
+
+To understand how charge drift in an electric field leads to
+currents (Ohm's Law and resistivity)
+
+ 
+
+ 
+ENDELEMENTLearning objectives for Lecture 1
+
+To understand how the timescale of diffusion relates to le
+scales
+~ Distance diffused grows as the square root of time
+
+To understand how concentration gradients lead to curre
+
+(Fick's First Law)
+
+~ Concentration differences lead to particle flux, proportional
+gradient
+
+To understand how charge drift in an electric field leads t
+‘currents (Ohm’s Law and resistivity)
+
+ 
+ENDELEMENTLearning objectives for Lecture 1
+
+To understand how the timescale of cifusion relates to length
+scales
+
+To understand how concentration gradients lead to currents
+(Fick's Fest Law)
+
+To understand how charge drift in an electric field leads to
+curcents (Ohm's Law and resistivity)
+
+ 
+
+ 
+ENDELEMENTLearning objectives for Lecture 1
+
+To understand how the timescale of diffusion relates to le
+scales
+~ Distance diffused grows as the square root of time
+
+To understand how concentration gradients lead to curre
+
+(Fick's First Law)
+
+~ Concentration differences lead to particle flux, proportional
+gradient
+
+To understand how charge drift in an electric field leads t
+‘currents (Ohm’s Law and resistivity)
+
+ 
+ENDELEMENTLearning objectives for Lecture 1
+
+To understand how the timescale of cifusion relates to length
+scales
+
+To understand how concentration gradients lead to currents
+(Fick's Fest Law)
+
+To understand how charge drift in an electric field leads to
+curcents (Ohm's Law and resistivity)
+
+ 
+
+ 
+ENDELEMENTLearning objectives for Lecture 1
+
+To understand how the timescale of cifusion relates to length
+scales
+
+To understand how concentration gradients lead to currents
+(Fick's Fest Law)
+
+To understand how charge drift in an electric field leads to
+curcents (Ohm's Law and resistivity)
+
+ 
+
+ 
+ENDELEMENTLearning objectives for Lecture 1
+
+To understand how the timescale of cifusion relates to length
+
+To understand how concentration gradients lead to currents
+(Fick's Fest Law)
+
+To understand how charge drift in an electric feld leads to
+currents (Ohm's Law and resistivity)
+
+ 
+
+ 
+ENDELEMENT    
+       
+ 
+   
+       
+ 
+     
+ 
+
+Learning objectives for Lecture 1
+
+  
+
+To understand how the timescale of clifusion relates to length
+
++ To understand how concentration gradient lead to currents
+(Gk’s Fest Law)
+
++ To understand how charge drift in an electric field leads to
+currents (Ohm's Law and resistivity)
+
+ 
+ENDELEMENTSources of content used with permission:
+
+C. Elegans image courtesy of Wormbook. License CC BY.
+ENDELEMENT

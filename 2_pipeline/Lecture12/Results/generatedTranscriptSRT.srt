@@ -1,0 +1,1236 @@
+1
+00:00:10,000 --> 00:00:20,000
+welcome to finntack shaping the future the world of the Nan's and happy spray
+
+2
+00:00:20,000 --> 00:00:30,000
+may I thought what the heck you've got to be a little in a bed of tray teaching from outdoor as though this is not a virtual background
+
+3
+00:00:30,000 --> 00:00:40,000
+the if the sun is too much for the the birds are too much that's an additional thing remain can give me advice line
+
+4
+00:00:40,000 --> 00:00:50,000
+not today we're going to drive until insurance and technology or with some call this little sector fintech as insurtech
+
+5
+00:00:50,000 --> 00:01:00,000
+litter and it's not just simply because the excitement as around payments and Challenger bags in apps like
+
+6
+00:01:00,000 --> 00:01:10,000
+Robin hide in the Capital Markets in so for that we leave in short activity and I also think insurtech is an interesting feel that it brings all the peace
+
+7
+00:01:10,000 --> 00:01:20,000
+gather & somewhere it brings together a part of any ants that has big Legacy and combats in every
+
+8
+00:01:20,000 --> 00:01:30,000
+where there is this handful of life insurance companies in property and casualty insurance that's those that are for
+
+9
+00:01:30,000 --> 00:01:40,000
+find some insurance on our homes are Auto sliding so forth healthcare insurers particularly in those countries that have
+
+10
+00:01:40,000 --> 00:01:50,000
+like the US big open healthcare systems insurance companies big Legacy companies have tended to be a
+
+11
+00:01:50,000 --> 00:02:00,000
+behind the curve of Technology compared to the Wall Street firm behind but a little behind and then the insured tickets sell
+
+12
+00:02:00,000 --> 00:02:10,000
+vintec within and sure sure it's has done some really interesting things particularly around alternative date I wearing a dive into some of these
+
+13
+00:02:10,000 --> 00:02:20,000
+opportunities and also they're there a little bit new forms of alternative date it's not just a better
+
+14
+00:02:20,000 --> 00:02:30,000
+rating it's about our driving it's about our homes it's about thinking about can we underwrite insurance risk
+
+15
+00:02:30,000 --> 00:02:40,000
+related to how we live Our Lives how we drive our cars how small businesses or operated and whether there is more
+
+16
+00:02:40,000 --> 00:02:50,000
+information that can be brought to bear or not just finished inclusion but the pricing and underwriting of risk of course
+
+17
+00:02:50,000 --> 00:03:00,000
+the same trans about artificial intelligence wanna see some really important friends around user interfaces and one of the most interesting areas around us
+
+18
+00:03:00,000 --> 00:03:10,000
+face is what's called claims management in the area that you know hopefully you don't have to think about too much but a Monks this class of 80 or more I'm sure
+
+19
+00:03:10,000 --> 00:03:20,000
+that somebody is had a little fender bender had some scrape up on the road and now that there are apps that you can
+
+20
+00:03:20,000 --> 00:03:30,000
+can your mobile phone take some quick photographs and put it right into the system claims management is changing quite a bit now as
+
+21
+00:03:30,000 --> 00:03:40,000
+startups in the space that basically say we will get you better claims management faster smoother and a better user experience
+
+22
+00:03:40,000 --> 00:03:50,000
+so with that I'm going to try to upload the slides again we can join
+
+23
+00:03:50,000 --> 00:04:00,000
+the community to gather sort of videos or an please raise your hands actively romance going to be watching for any
+
+24
+00:04:00,000 --> 00:04:10,000
+hands up in the chat and if the birds get to be too much just know that I'll go back in on inside on Wednesday
+
+25
+00:04:10,000 --> 00:04:20,000
+how is it so far it's fine it's very nice don't worry me that I can keep having a little bit of
+
+26
+00:04:20,000 --> 00:04:30,000
+Indulgence here in this beautiful outdoor setting and what I'm going to
+
+27
+00:04:30,000 --> 00:04:40,000
+Heroes go to the share screens
+
+28
+00:04:40,000 --> 00:04:50,000
+so we're going to talk a little bit ready to start a little bit about the insurance value chain and the sack
+
+29
+00:04:50,000 --> 00:05:00,000
+landscape now and traditionally in business scores traditionally in worlds of fun and finance Majors there's a lot of time
+
+30
+00:05:00,000 --> 00:05:10,000
+banking & Capital Markets and some time but less time spent on insurance
+
+31
+00:05:10,000 --> 00:05:20,000
+I sell I want to just lay the groundwork a little bit about insurance some of the challenges in the sector itself and then get into this field
+
+32
+00:05:20,000 --> 00:05:30,000
+tac insurance are what are people car insure tech opportunities business models of the startups so that's where the goal of the class the reader
+
+33
+00:05:30,000 --> 00:05:40,000
+we're really about this area of insured tech there were a handful of them the back of international
+
+34
+00:05:40,000 --> 00:05:50,000
+reading was really talking about some of the regulatory challenges and weather in shoretec is well change some of the risk in terms of
+
+35
+00:05:50,000 --> 00:06:00,000
+deleting this space and then a little reading about Asia and if you've not had the opportunity to look at some of the readings because they were just put up last Friday
+
+36
+00:06:00,000 --> 00:06:10,000
+go back it should have died then take her take a little lock and again we'll see if there's anybody wants to give a little fuel in this
+
+37
+00:06:10,000 --> 00:06:20,000
+what are fraternities in the current insurance sector what are the pain points you think that you might want to highlight
+
+38
+00:06:20,000 --> 00:06:30,000
+and then again this is just a little conversation go and so remain here we go
+
+39
+00:06:30,000 --> 00:06:40,000
+you're free thank you for today and felt there is a little pain Point Michael
+
+40
+00:06:40,000 --> 00:06:50,000
+as always Michael is helping herself to get a started go ahead
+
+41
+00:06:50,000 --> 00:07:00,000
+I think I'm just really kind of underwriting pricing just
+
+42
+00:07:00,000 --> 00:07:10,000
+games a lot of opportunities for automatically baka
+
+43
+00:07:10,000 --> 00:07:20,000
+two sides of processing it's the front end when you're actually trying to get your insurance when you're actually it's caught under a
+
+44
+00:07:20,000 --> 00:07:30,000
+insurance company is pricing and giving you a vulnerability of insurance and whether it's a life insurance where you might have to send some medical test in the like
+
+45
+00:07:30,000 --> 00:07:40,000
+homeowners insurance renters insurance auto insurance where there is a process going on at the front and and and then there's also the price
+
+46
+00:07:40,000 --> 00:07:50,000
+if you have an accident insurance is this product that basically if you never hear from your insurance company and they never hear from you you've paid
+
+47
+00:07:50,000 --> 00:08:00,000
+me to protect you against the rest but the risk is not generated a lost but then you have the accident then you have the prom
+
+48
+00:08:00,000 --> 00:08:10,000
+then you have to send in a claim and that price us and the back and the insurance companies want to protect against fraud they want to fulfill your claim
+
+49
+00:08:10,000 --> 00:08:20,000
+I want to protect against fraud and the claim adjustment process is a significant time and human and paper based and some time
+
+50
+00:08:20,000 --> 00:08:30,000
+legal based circumstance so Michael Wright pain points at the front and particular paint points in a claims process inside
+
+51
+00:08:30,000 --> 00:08:40,000
+anything else you want to throw it I guess
+
+52
+00:08:40,000 --> 00:08:50,000
+another big is going to be
+
+53
+00:08:50,000 --> 00:09:00,000
+different type of insurances come to live there is more and more are becoming quantifiable and this is
+
+54
+00:09:00,000 --> 00:09:10,000
+do a number of your bands are things we can get insurance on the selection of things and which we can get shirt it's gone increase dramatically Castell
+
+55
+00:09:10,000 --> 00:09:20,000
+25 of the risks are getting bigger and bigger and sometimes it's not just a new risk in society but it says there's Alexandra saying the quantified
+
+56
+00:09:20,000 --> 00:09:30,000
+let's take auto insurance and a company that started a number of years ago called metromile Simple concept what if we charged ensure
+
+57
+00:09:30,000 --> 00:09:40,000
+is automobile insurance night by the month but maybe by the mile can we quantify that you've only driven a mile and
+
+58
+00:09:40,000 --> 00:09:50,000
+the insurance and if you're a heavy driver there's more and in fact what if the Myall is out in the country roads or it's actually in the sea
+
+59
+00:09:50,000 --> 00:10:00,000
+and where are your driving so quantifiability the analytics the computer paper ability but also the connections to all of us with
+
+60
+00:10:00,000 --> 00:10:10,000
+and the Internet of things give it a little bit of a preview with the rest of the other hand
+
+61
+00:10:10,000 --> 00:10:20,000
+that which we talked about or semester machine learning alternative data influence there put a new factor that we've really not talk
+
+62
+00:10:20,000 --> 00:10:30,000
+about in banking and Challenger bags and Payment Systems is the Internet of things devices possibly changing the field of ensure
+
+63
+00:10:30,000 --> 00:10:40,000
+Danielle would you like to go
+
+64
+00:10:40,000 --> 00:10:50,000
+connection there's an opportunity for the insurance landscape to be changed by Elton of data in that companies can now inform
+
+65
+00:10:50,000 --> 00:11:00,000
+with a lot more information on Saturday than they previously had so where is for health insurance or life insurance you might have had to fill out a survey
+
+66
+00:11:00,000 --> 00:11:10,000
+hit by varying degrees of honest on those kinds of service now or suddenly generating an extremely accurate picture of ourselves
+
+67
+00:11:10,000 --> 00:11:20,000
+possibly by everything we do in the world and companies can access that information access network and it's really
+
+68
+00:11:20,000 --> 00:11:30,000
+space is that Justice we said data aggregation important feature in the payment space with companies like clad and Galileo and everything
+
+69
+00:11:30,000 --> 00:11:40,000
+there right there collecting day between the banks and the Payment Systems and then hundreds of thousands of fintech store
+
+70
+00:11:40,000 --> 00:11:50,000
+they're ready to aggregate is in the middle of the day to aggregators in this field as well to collect that data commercialise the data but maybe stay in
+
+71
+00:11:50,000 --> 00:12:00,000
+when our lives and all the sensors and data collection efforts and hundreds of thousands of store apps on the other side as well
+
+72
+00:12:00,000 --> 00:12:10,000
+Nikhil this is more specific to the health insurance ID of things where
+
+73
+00:12:10,000 --> 00:12:20,000
+play times in health insurance claim 90% of claims are ordered you located and most of them Basin exits to go methods with the influx of a I like you can review
+
+74
+00:12:20,000 --> 00:12:30,000
+you weren't review in before and she can uncover more fried waste and abuse than you were so this is the market they haven't size yet because they don't know how big
+
+75
+00:12:30,000 --> 00:12:40,000
+my setting is a big trend as well and sometimes it's not truly artificial intelligence for machine learning it's
+
+76
+00:12:40,000 --> 00:12:50,000
+the remarkable ability to collect sore clean up the day to standardise the date of that might also have a beer
+
+77
+00:12:50,000 --> 00:13:00,000
+machine learning on top of it but it doesn't have to be the machine Laura and I guess it's sort of this partnering up and then what are some of the Chan
+
+78
+00:13:00,000 --> 00:13:10,000
+we're going to talk about some of the challenges for the startups trying to get in there capital regulation and is anybody have a viewers today to the
+
+79
+00:13:10,000 --> 00:13:20,000
+why we haven't seen with some important exceptions but we haven't seen big tech firms getting engaged in the insurance
+
+80
+00:13:20,000 --> 00:13:30,000
+ls7 Port exceptions for talked about in China by the way by why we haven't seen Amazon
+
+81
+00:13:30,000 --> 00:13:40,000
+there in a credit card space in apple in and payment space but why we haven't seen big big tack by Morris
+
+82
+00:13:40,000 --> 00:13:50,000
+yeah I'm so I just think that it's mostly because there's a loaded barrier stand rename be like as you mentioned regulation and also like Alexa
+
+83
+00:13:50,000 --> 00:14:00,000
+which all of these insurance companies already have so I think it's also regulation and High Courts because of lack of expertise that prevents these attacks on cement
+
+84
+00:14:00,000 --> 00:14:10,000
+insurance market so I think that's right but I'm also going to put out the question throughout the class and as you thought experience at the air
+
+85
+00:14:10,000 --> 00:14:20,000
+is it just that we have in garden area is it possibility that that again big tac is about data networks and act
+
+86
+00:14:20,000 --> 00:14:30,000
+is the back of international Settlements has written Ansell do they want a layer another activity upon that network upon
+
+87
+00:14:30,000 --> 00:14:40,000
+network we haven't quite seen it I said that with one import exception in China and China a number years ago big Tac
+
+88
+00:14:40,000 --> 00:14:50,000
+Alibaba tension WeChat partnered up with what are the largest insurance companies in China and the three of the
+
+89
+00:14:50,000 --> 00:15:00,000
+started effectively and insured Tek it's the world's largest insurtech if you we still call it that and it was an arm
+
+90
+00:15:00,000 --> 00:15:10,000
+owned and operated by three big very big companies ping on with the insurance company and
+
+91
+00:15:10,000 --> 00:15:20,000
+so it wasn't direct it was a joint venture but it's a question of will we see this coming into the future or not
+
+92
+00:15:20,000 --> 00:15:30,000
+so let's just sort of dive into the value chain you've got a design a product you've got a market it goes all the way to claims management you can be
+
+93
+00:15:30,000 --> 00:15:40,000
+any one of these pieces this is port from the federal Insurance office of the US Department of Treasury from a report last year
+
+94
+00:15:40,000 --> 00:15:50,000
+each of these pieces might have a piece of car petition and a pain point we talked a little bit of our claims management that claims man
+
+95
+00:15:50,000 --> 00:16:00,000
+separate insurance from the banking fintech we've talked about what a lot of the underwriting and the front end
+
+96
+00:16:00,000 --> 00:16:10,000
+getting a product in the marketing you'll see that an awful lot of disruption is going on at that Friday marketing is sales
+
+97
+00:16:10,000 --> 00:16:20,000
+Rugrats it's bringing in the customer it's a better user interface a better user experience in the underwriting and
+
+98
+00:16:20,000 --> 00:16:30,000
+inside you can under a credit you can under 8 insurance it's basically how much insurance will I provide to whom it what price
+
+99
+00:16:30,000 --> 00:16:40,000
+and in that on the riding price house ultimately comes to administering the policy and then the claims management side of it
+
+100
+00:16:40,000 --> 00:16:50,000
+each of these pieces in the value chain might have pain points the front the front for these deciding products to policy administration
+
+101
+00:16:50,000 --> 00:17:00,000
+actually has a lot overlap with the banking sector not identical important differences so
+
+102
+00:17:00,000 --> 00:17:10,000
+sector look like I just list company is on these several next slides life insurance property and casualty what I want you to take out of
+
+103
+00:17:10,000 --> 00:17:20,000
+protect our names in your country whether it's China live worth metlife for Nippon life in and in Swiss life it's that if you look
+
+104
+00:17:20,000 --> 00:17:30,000
+these companies were founded many or 20th century but many are actually 19th century
+
+105
+00:17:30,000 --> 00:17:40,000
+the concentration and the survival the persistence of insurance companies is quite
+
+106
+00:17:40,000 --> 00:17:50,000
+assisting around the club Victoria about the big 5 and shine up but in any country in any country there's a handful of insurance companies once you get your
+
+107
+00:17:50,000 --> 00:18:00,000
+top 10 Euro 85 to 90 + percent market share particularly in life insurance and property in cash or take a little less so
+
+108
+00:18:00,000 --> 00:18:10,000
+other fields in this course health and managed care more a feature of the US healthcare system where it's private insurance
+
+109
+00:18:10,000 --> 00:18:20,000
+big diversified companies across the globe diversified simply means that it's both in life and and property and casualty in the law
+
+110
+00:18:20,000 --> 00:18:30,000
+it's Marty line but let's not forget their sorcery insurance and then brokers and the broken side is an aerial
+
+111
+00:18:30,000 --> 00:18:40,000
+disruptors of starter so well maybe we can broker insurance and buy brokering insurance is basically making the sales making the marketing
+
+112
+00:18:40,000 --> 00:18:50,000
+what night taking the risk onto your own balance sheet benefits administration software the only Cup
+
+113
+00:18:50,000 --> 00:19:00,000
+is there a 21st century companies on this whole sort of review is in the software and services side effects so that's kind of my current
+
+114
+00:19:00,000 --> 00:19:10,000
+you know or apply us insurance premiums just to give you a sense of scale of a market about why did a hair trillion-dollars a year we talk about
+
+115
+00:19:10,000 --> 00:19:20,000
+Factor that's about 7 trillion in the US I'm sorry 7% of GDP
+
+116
+00:19:20,000 --> 00:19:30,000
+elrow statement there which is about 1/2 million this is consistent with that syzeza the premiums being paid into
+
+117
+00:19:30,000 --> 00:19:40,000
+direct premiums Red Health and life side of things just to give you a little flavour and these will be on canvas of
+
+118
+00:19:40,000 --> 00:19:50,000
+by and large are big part of the life and health side is so savings products there is competition between live companies
+
+119
+00:19:50,000 --> 00:20:00,000
+and bags live companies and investment management companies on the annuity side the disruption said to speak is been happy
+
+120
+00:20:00,000 --> 00:20:10,000
+largely and property and casualty but to the extent that insured text starts to get into the space I think he will see more more disruption in the saving
+
+121
+00:20:10,000 --> 00:20:20,000
+excited as well the companies like betterment and all those companies we talked about in the wealth management side or and wealth Tak I think
+
+122
+00:20:20,000 --> 00:20:30,000
+c starting to say wait maybe we can get into the annuity side as well the annuity and saving side of life insurance products
+
+123
+00:20:30,000 --> 00:20:40,000
+Property & casualty just a little break down here in the US and so now we turned the challenges pain
+
+124
+00:20:40,000 --> 00:20:50,000
+what are we have this is true of any and company company you could be a cup of tea that's been in business for 100 + years and you're you're sitting there going
+
+125
+00:20:50,000 --> 00:21:00,000
+selling through an agent or broker network and the agency and brokerage now work here in the US takes a big
+
+126
+00:21:00,000 --> 00:21:10,000
+I think on a property casually said we're probably in the 10 to 13% of a premium
+
+127
+00:21:10,000 --> 00:21:20,000
+average but in some products it's much larger so I'm a little smaller the life side the premiums I think her and hi Singleton
+
+128
+00:21:20,000 --> 00:21:30,000
+The Temper sent on average in while I'm not sort of an expert of all the that's basically means of you pay a
+
+129
+00:21:30,000 --> 00:21:40,000
+thousand dollars for your auto insurance 100plus dollars $120 is being taken by those agents in progress
+
+130
+00:21:40,000 --> 00:21:50,000
+claims administration we talked about it very paper and human and chance of litigation risk all about and insurance companies are built
+
+131
+00:21:50,000 --> 00:22:00,000
+around this Legacy Tak just like an Indian payments and in credit
+
+132
+00:22:00,000 --> 00:22:10,000
+every dollar a premium a big chunk is not only going to the agents in the brokers but a big chunk as of going of course to the whole claims
+
+133
+00:22:10,000 --> 00:22:20,000
+the whole value chain and because it's deeply regulated in many marketplaces you can offer a new type of
+
+134
+00:22:20,000 --> 00:22:30,000
+parents without getting some official sector approval going through the product design face often has
+
+135
+00:22:30,000 --> 00:22:40,000
+Legacy and time delays within it and of course just like the other Fields there's a whole sort of questions about user-interface and user experience
+
+136
+00:22:40,000 --> 00:22:50,000
+all of these present challenges but they also present opportunities remain any questions not yet but that's sweet rose City seconds
+
+137
+00:22:50,000 --> 00:23:00,000
+no I don't see hands up tomorrow
+
+138
+00:23:00,000 --> 00:23:10,000
+so insurance and insurance tech you can sort of say I want to be involved in the pricing and underwriting the
+
+139
+00:23:10,000 --> 00:23:20,000
+the policy administration the claims management survey for different sectors improving the customer engagement lowering operating cost
+
+140
+00:23:20,000 --> 00:23:30,000
+of course it always goes back to can you do something better quicker cheaper but as we talked about earlier it could be in product design
+
+141
+00:23:30,000 --> 00:23:40,000
+wow it could be in in notches doing a cheaper and pricing got more availability and his metromile is died really in
+
+142
+00:23:40,000 --> 00:23:50,000
+using metrics to get to a new type of product itself in the quoting and issuing a products
+
+143
+00:23:50,000 --> 00:24:00,000
+what are some of the opportunities more specifically I think across finacial technology it's about user-interface and user
+
+144
+00:24:00,000 --> 00:24:10,000
+experience so that could be in the southside it can be in the account management digital a mobile phones but also in the conversation interface
+
+145
+00:24:10,000 --> 00:24:20,000
+underwriting we've talked about it really not just the machine learning but the alternative data and then clear
+
+146
+00:24:20,000 --> 00:24:30,000
+I think these are the big three they seem pretty simple once I say it but it should have like thinking about it
+
+147
+00:24:30,000 --> 00:24:40,000
+if you have a business smart or if you're going into this business or you're at Prudential life insurance are Nippon life it's sort of saying how can we use techno
+
+148
+00:24:40,000 --> 00:24:50,000
+to enhance user experience how can we enhance basically the pricing and availability of our product underwriting how do we
+
+149
+00:24:50,000 --> 00:25:00,000
+back at the first two user experience in underwriting very much true and banking tac claims processing somewhere tuna
+
+150
+00:25:00,000 --> 00:25:10,000
+and it's about data capture now one port of the day to capture and you can see it
+
+151
+00:25:10,000 --> 00:25:20,000
+drones the Internet of things smartphones telematics wearables I am curious
+
+152
+00:25:20,000 --> 00:25:30,000
+see if anyone will raise their hand is there anybody actually taken insurance where the insurance company is sad for your automobile
+
+153
+00:25:30,000 --> 00:25:40,000
+we want to have access to your driving record directly through your car's telematics telematics is a word that didn't exist 30 and 50
+
+154
+00:25:40,000 --> 00:25:50,000
+it's really or if it did exist it wasn't commonly used it's about all the information
+
+155
+00:25:50,000 --> 00:26:00,000
+if your car's collecting I'm driving in the computers onboard your your car
+
+156
+00:26:00,000 --> 00:26:10,000
+Nitrous GPS Anakin service as you're driving smartphones as well can assess her driving
+
+157
+00:26:10,000 --> 00:26:20,000
+smart furniture not just locational devices but they can get all of us the ups and downs of your driving what is that mean
+
+158
+00:26:20,000 --> 00:26:30,000
+smartphones and the computers on our cars a product can be offered it says we no
+
+159
+00:26:30,000 --> 00:26:40,000
+about your driving that we will give you fine tune pricing and underwriting
+
+160
+00:26:40,000 --> 00:26:50,000
+should around the round Google deal with ascension to store and analyse the medical records from the hospital network and I'm curious
+
+161
+00:26:50,000 --> 00:27:00,000
+think that kind of entrance the big pack into the medical world is going to be more common in about might be a potential Avenue for those kinds of companies get
+
+162
+00:27:00,000 --> 00:27:10,000
+insight into health data that they would need to make them competent to move into insurance
+
+163
+00:27:10,000 --> 00:27:20,000
+Victor can be very influential particularly the big AI companies like Google and video in China to the extent
+
+164
+00:27:20,000 --> 00:27:30,000
+and we'll see there are some startups that are entering this field because they're very good day datalytics in machine
+
+165
+00:27:30,000 --> 00:27:40,000
+to the extent that they can be dead aggregators like Google you're actually right I don't think it's just healthcare by the way but I think healthcare is a really
+
+166
+00:27:40,000 --> 00:27:50,000
+you submit that many insurance companies healthcare management companies in the US have a tremendous amount of date and they want
+
+167
+00:27:50,000 --> 00:28:00,000
+and I want to with that data provide more fine tune insurance products but also help manager healthcare system
+
+168
+00:28:00,000 --> 00:28:10,000
+better so I think it isn't happening for certain big tech companies that are at the cutting edge of of data Analytics and machine learning
+
+169
+00:28:10,000 --> 00:28:20,000
+my for every big tech company but I agree with that you did anybody have insurance
+
+170
+00:28:20,000 --> 00:28:30,000
+insurance think probably Alessandro he had his hand up but probably a question
+
+171
+00:28:30,000 --> 00:28:40,000
+add this little or a computer I'm bored and physically
+
+172
+00:28:40,000 --> 00:28:50,000
+treat everything that I do with a car wreck where it where are you but I was how many miles I drove everything can actually eat up for help me
+
+173
+00:28:50,000 --> 00:29:00,000
+decrease the cost of insurance some of the first telematics patterns filed
+
+174
+00:29:00,000 --> 00:29:10,000
+intelematics were in the late 1990s what we found it's really changed the field of autoit sure
+
+175
+00:29:10,000 --> 00:29:20,000
+this little visualisation about ensure attack again from the department of Treasury study last four I think it's just a good place to surpass for
+
+176
+00:29:20,000 --> 00:29:30,000
+we're not going to go through every box but whether it's sensors and telematics and this is a big piece of having those
+
+177
+00:29:30,000 --> 00:29:40,000
+intelematics there to lower Alexandros cost of insurance but also for claims management if the telematics and sensors are
+
+178
+00:29:40,000 --> 00:29:50,000
+upon an accident then you can lower a little bit the cost of claims management and the insurance companies can have
+
+179
+00:29:50,000 --> 00:30:00,000
+the accident actually happened potentially figure out who's at fault see right at that moment
+
+180
+00:30:00,000 --> 00:30:10,000
+play 9 and that automobile visual computing literally downloading uploading photographs into the claims
+
+181
+00:30:10,000 --> 00:30:20,000
+process we've already talked about machine learning AI but blockchain technology want to touch a pod of all the fields of blockchain Technology that
+
+182
+00:30:20,000 --> 00:30:30,000
+generally have heard about in many of them are hyper-reality field is weather with the use of
+
+183
+00:30:30,000 --> 00:30:40,000
+blockchain technology that we can have an ape and only law that is Tampa resisted whether there would be trust
+
+184
+00:30:40,000 --> 00:30:50,000
+the art of insurance card parametric insurance in essence if we had an automated smart contract that says
+
+185
+00:30:50,000 --> 00:31:00,000
+this happens I get paid so what's the best one Field Group of students started last year studying it
+
+186
+00:31:00,000 --> 00:31:10,000
+hair for a group in Asia was parametric insurance for airline delays if you couldn't
+
+187
+00:31:10,000 --> 00:31:20,000
+on tape resistant larger on at Ledger you would embed smart contracts it says if the play
+
+188
+00:31:20,000 --> 00:31:30,000
+takes off more than a half hour late you automatically get paid a mobile app no trying to rely
+
+189
+00:31:30,000 --> 00:31:40,000
+Caroline's whether they're accurately telling you are not that they plan to go off late put it on a blockchain technology now maybe you could do it with a scent
+
+190
+00:31:40,000 --> 00:31:50,000
+your base as well but there are many people looking at whether to use blockchain technology for parametric insurance but the sensor is intelematics the visual computing the
+
+191
+00:31:50,000 --> 00:32:00,000
+that was a real Department of Treasury so the boss of put something only on the edge in terms of blockchain Technology
+
+192
+00:32:00,000 --> 00:32:10,000
+about 4 ensure attack is still the age of Challenger funding and it's it's particularly true in insurance because
+
+193
+00:32:10,000 --> 00:32:20,000
+take an insurance risk winder your balance sheet that's a liability of an insurance company that's a liability that in the future they have to payout
+
+194
+00:32:20,000 --> 00:32:30,000
+Acclaim line an accident a loss on your home or on your life so many companies
+
+195
+00:32:30,000 --> 00:32:40,000
+fighting shower Jess if they're startups how can I access capital on the banking sector you can possibly do it through security
+
+196
+00:32:40,000 --> 00:32:50,000
+you can basically say I'm not gonna I'm not going to be on my own bow and she I'm gonna suit a renter bow and she I'm gonna lay it off
+
+197
+00:32:50,000 --> 00:33:00,000
+Cimorelli here you can lay off some rest in the reassurance markets but it's not quite the same for these insurtech startups
+
+198
+00:33:00,000 --> 00:33:10,000
+most Challenger bags partner with some Bank data warehouse line of credit and possibly also
+
+199
+00:33:10,000 --> 00:33:20,000
+then sell their loans after their initiated here it's not as real boss it's not as developed but again
+
+200
+00:33:20,000 --> 00:33:30,000
+insurance fintech startups for saying do I partner with a big diamond and insurance company because I can't build my balance sheet as
+
+201
+00:33:30,000 --> 00:33:40,000
+if you choose to be a carrier in a carrier is the term to say to actually take the insurance under your balance sheet you have the liability choose to be
+
+202
+00:33:40,000 --> 00:33:50,000
+it's balance sheet intensive just how do you find your startup run weight loss because all the stored us tender have mods
+
+203
+00:33:50,000 --> 00:34:00,000
+of building out a network in building the platform itself clearly the competitive landscape the regulatory frameworks
+
+204
+00:34:00,000 --> 00:34:10,000
+regulatory frameworks do you get licenced again similar is Challenger Banks remember we talked about these neobanks and Challenger Bank switch off DP
+
+205
+00:34:10,000 --> 00:34:20,000
+in the same breath of the same but more specifically a neobank is something doing a lot of banking functions that is not yet got no backing
+
+206
+00:34:20,000 --> 00:34:30,000
+similar here if you're thinking about starting an insurance fintech for what type of licensing will you get was just be a brokerage licence
+
+207
+00:34:30,000 --> 00:34:40,000
+in various jurisdictions you have to register to be a broker or an agent or you actually registering to take lives on your balance sheet become a carrier
+
+208
+00:34:40,000 --> 00:34:50,000
+and then of course user adoption and the use of data and it hurts to the use of data there are quite the
+
+209
+00:34:50,000 --> 00:35:00,000
+it doesn't we have the same conceptual framework that you have to be fair and unbiased but there are quite the same lost like the equal credit after
+
+210
+00:35:00,000 --> 00:35:10,000
+the actor here in the US and it's the use of data as will see it a minute if you sign a waiver and say you can use my driving record
+
+211
+00:35:10,000 --> 00:35:20,000
+insurance is Alexandra did they can use that day at also on the claims management side it's not just a lower the cost
+
+212
+00:35:20,000 --> 00:35:30,000
+to see if you call up and say an accident they look at the tell about exits a did this really happened so the insured
+
+213
+00:35:30,000 --> 00:35:40,000
+landscape when I can dive into the slide but it's just each of these pieces each of these pieces it might be the church trying to go into the building and payments
+
+214
+00:35:40,000 --> 00:35:50,000
+which is rudimentary sort of you could be going all the way to another area and say we're going to be the best date and letter
+
+215
+00:35:50,000 --> 00:36:00,000
+wearables wearables how many people have a Fitbit anybody want to talk about whether you've signed up for insurance
+
+216
+00:36:00,000 --> 00:36:10,000
+that your insurance company can get your data off with your Fitbit HR off of your Apple watch off your off you know what you're using for
+
+217
+00:36:10,000 --> 00:36:20,000
+or exercise can lower your cost of insurance on a pause remain and don't see any hands up
+
+218
+00:36:20,000 --> 00:36:30,000
+NZ Street with the insurance but what I did have is at my former employer
+
+219
+00:36:30,000 --> 00:36:40,000
+program where we would connect or tracking devices like 4 steps and stuff with this program that like would give you
+
+220
+00:36:40,000 --> 00:36:50,000
+have you got so many steps a day so I get tons of gift cards because of all the steps I tracked in and that that I'm sure I was
+
+221
+00:36:50,000 --> 00:37:00,000
+the internet something you got to your 10,000steps or maybe they gave you a preview for 5000 steps you got
+
+222
+00:37:00,000 --> 00:37:10,000
+is Uber rewards that we all know about rewards programs in credit cards and that's part of that two and three quarter
+
+223
+00:37:10,000 --> 00:37:20,000
+interchange there's these rewards by your employer ultimately the economic incentives is the employer can have lower cost of Health and
+
+224
+00:37:20,000 --> 00:37:30,000
+that data through the inner mediation of your employment contract was lower and health insurance course for some group
+
+225
+00:37:30,000 --> 00:37:40,000
+insured I think your employer is also doing it because they know if you're better health it you are so few more days off you'll be you'll be so hopefully
+
+226
+00:37:40,000 --> 00:37:50,000
+better employee so there are so lowering some of their their course in terms of their direct course but it also relates to help ensure
+
+227
+00:37:50,000 --> 00:38:00,000
+so wearables trackables telematics and the internet of thing the internet of thing is a term
+
+228
+00:38:00,000 --> 00:38:10,000
+about senses and it's about senses in many items in our home as well if you have a home
+
+229
+00:38:10,000 --> 00:38:20,000
+security system in the last 5 or 10 years you've got it able to tie that into more data
+
+230
+00:38:20,000 --> 00:38:30,000
+security systems have four decades somehow had to communicate through a security company to lawn for us men if the
+
+231
+00:38:30,000 --> 00:38:40,000
+alarm went off but I'm talking about more flying to monitoring and we all aware even know that very few of us might have it that you can
+
+232
+00:38:40,000 --> 00:38:50,000
+apps on your phone that you can communicate with your home to turn on your heat for your air
+
+233
+00:38:50,000 --> 00:39:00,000
+monitor your home home monitoring devices that makes all of us maybe more comfortable than our home is secure
+
+234
+00:39:00,000 --> 00:39:10,000
+or even to have the communication from the home if for some reason there is a problem in the harm
+
+235
+00:39:10,000 --> 00:39:20,000
+Sanchez on refrigerators for sensors on HVAC heating and ventilation systems their census Road houses
+
+236
+00:39:20,000 --> 00:39:30,000
+I need to see this just absolutely mushroom it's Arms of such is so what's that day to do for the insurance field that's why I think insurtech and
+
+237
+00:39:30,000 --> 00:39:40,000
+in pentakis such an exciting and interesting place because we are basically in a transformational time right now in terms of sensor
+
+238
+00:39:40,000 --> 00:39:50,000
+no i g and embedding sensors into our economies not because of insurance but because many
+
+239
+00:39:50,000 --> 00:40:00,000
+uses one as sort of monitor either their home their automobile the wearable the trackable and now
+
+240
+00:40:00,000 --> 00:40:10,000
+with this this really challenging time around the Corona virus crisis we talking about contact tracing
+
+241
+00:40:10,000 --> 00:40:20,000
+call back contact racing could also be Fatty and depending upon the jurisdiction depending on the regulation into
+
+242
+00:40:20,000 --> 00:40:30,000
+insurance rates life insurance rates or any form of insurance again largely dependent upon
+
+243
+00:40:30,000 --> 00:40:40,000
+where is jurisdictions regulatory and legal frameworks so what are some of the possibilities you can become
+
+244
+00:40:40,000 --> 00:40:50,000
+ensure that means actually committing bow and she becoming licence taking claims on as a liability managing the assets
+
+245
+00:40:50,000 --> 00:41:00,000
+you can be a man it's generally jitt think broker it's just a term to say you could be managing agent or broker
+
+246
+00:41:00,000 --> 00:41:10,000
+who sells those ricotta the two big divide but you could just be on the technology side or the day to aggregation site these would have various
+
+247
+00:41:10,000 --> 00:41:20,000
+or insurtech startups we won't get through each one of them to see a common thing and there's less is
+
+248
+00:41:20,000 --> 00:41:30,000
+by and large or founded in the 2010s so this is 5 or 10 years of dynamic change
+
+249
+00:41:30,000 --> 00:41:40,000
+you're going to see heavy emphasis or homeowners in Autos so it's in the consumer space very similar to
+
+250
+00:41:40,000 --> 00:41:50,000
+credit you see a little bit moving into small business but not Lords commercial lines though both penguin is a commercial
+
+251
+00:41:50,000 --> 00:42:00,000
+exchange a lot is on the front and on the auto side you also get Marketplace comparisons just like in the credit space
+
+252
+00:42:00,000 --> 00:42:10,000
+it's basically Expedia for auto insurance so to speak you could say your Expedia for fill in the blank insurance these were the
+
+253
+00:42:10,000 --> 00:42:20,000
+please comparisons like cover hand and goji
+
+254
+00:42:20,000 --> 00:42:30,000
+throughout your see home and auto small business is kind of the dominant how many is there anybody use the product lemonade for rent
+
+255
+00:42:30,000 --> 00:42:40,000
+insurance
+
+256
+00:42:40,000 --> 00:42:50,000
+so lemonade Garden of the field basically to say it's so many people pretty clear the us or renting
+
+257
+00:42:50,000 --> 00:43:00,000
+we just watch some insurance for objects that are things in our homes and in case there's a problem or maybe the landlord says you
+
+258
+00:43:00,000 --> 00:43:10,000
+dad renters insurance policy bizarre bizarre about
+
+259
+00:43:10,000 --> 00:43:20,000
+years old one of the largest Marketplace comparison in India remarkable platform again
+
+260
+00:43:20,000 --> 00:43:30,000
+broadly speaking Expedia for health and life insurance you know where you can price compare policybazaar
+
+261
+00:43:30,000 --> 00:43:40,000
+of these various companies just pies a bit or route uses telematics to price the products honest everyone
+
+262
+00:43:40,000 --> 00:43:50,000
+Auto companies when here are using telematics and smartphone some of them started on telematics some store read more in this more
+
+263
+00:43:50,000 --> 00:44:00,000
+but the merger of those to the art of the oldest Bell claims management just slowly
+
+264
+00:44:00,000 --> 00:44:10,000
+focusing there and I said I was going to mention about China the last on this less than I probably will mispronounce how to say it song on
+
+265
+00:44:10,000 --> 00:44:20,000
+which formed by three very large companies online China
+
+266
+00:44:20,000 --> 00:44:30,000
+it's gone public since it's a very significant company in China it's the only online insurance
+
+267
+00:44:30,000 --> 00:44:40,000
+licensing in China so it shows the licensing it had the backing of 3 very large company 7 years ago it got said licence
+
+268
+00:44:40,000 --> 00:44:50,000
+and it has a certain advantage that to my knowledge I don't think anybody else has been there so gives you some of the smarter and I'm gonna pores
+
+269
+00:44:50,000 --> 00:45:00,000
+you see if there's any questions regret I think
+
+270
+00:45:00,000 --> 00:45:10,000
+healthcare healthcare finntack ID still call ensure attack some people can call healthtec this is the
+
+271
+00:45:10,000 --> 00:45:20,000
+laurenzside and how technology is coming and disrupt again you could be an any piece of this
+
+272
+00:45:20,000 --> 00:45:30,000
+shower from FTP partner's but you could be in any piece of the answer when you do the payment side I mean
+
+273
+00:45:30,000 --> 00:45:40,000
+lamb side and would it be in benefits management but any piece of that and so any again most of these are in the US but not
+
+274
+00:45:40,000 --> 00:45:50,000
+just some of what were say American well is about telehealth the very important thing now that were in in a period of time that we can
+
+275
+00:45:50,000 --> 00:46:00,000
+are there doctors in person Daniel seem most not all of these are in the last 10 years Clover which is a
+
+276
+00:46:00,000 --> 00:46:10,000
+coring almost all of these not all of these are unicorns meaning worth over billion dollars Clover is about taking out
+
+277
+00:46:10,000 --> 00:46:20,000
+facts about how we live our lives and trying to under eye and lower the cost to us probably the war
+
+278
+00:46:20,000 --> 00:46:30,000
+wines or bright health which is selling a Medicare advantage is in the US on top of Medicare which is
+
+279
+00:46:30,000 --> 00:46:40,000
+provided you can you can have an augmented program on top called Medicare advantage brighthouse clover
+
+280
+00:46:40,000 --> 00:46:50,000
+your CI so there is a significant number of companies that have died into the benefit administration this is working with small businesses
+
+281
+00:46:50,000 --> 00:47:00,000
+minister there benefits that affects that was formed in 2013 by 2015 we actually use benefits
+
+282
+00:47:00,000 --> 00:47:10,000
+Alfred I wasn't worth was a CFL of the Hillary Clinton campaign was a 2-year-old start up but we decided to go with better
+
+283
+00:47:10,000 --> 00:47:20,000
+because we could outsource to this vendor are benefits administration for
+
+284
+00:47:20,000 --> 00:47:30,000
+start-up that start-up ultimately proved unsuccessful is you now but over the course of time 5000 Floyd
+
+285
+00:47:30,000 --> 00:47:40,000
+all that benefit administration in the health care and silver ore and it's 04 zenefits health equities is in this fee
+
+286
+00:47:40,000 --> 00:47:50,000
+Real Health savings accounts help that's what he's actually bite in the last 2 years a company called wage works that I was I was
+
+287
+00:47:50,000 --> 00:48:00,000
+in which works was a startup company I went on their board and managed the hiring of a CFL and help wage work
+
+288
+00:48:00,000 --> 00:48:10,000
+to go public as a private company as a finntack years ago health equities bought that company which works
+
+289
+00:48:10,000 --> 00:48:20,000
+very significant and sbi's well see you ever sad it's the marrying of finance and health so I can be through the benefits and payroll administration size
+
+290
+00:48:20,000 --> 00:48:30,000
+finance for a compete directly Marketplace comparisons like Go Health which is similar to policybazaar in India
+
+291
+00:48:30,000 --> 00:48:40,000
+all of these little subfactors and slices data related is sort of the last little slice
+
+292
+00:48:40,000 --> 00:48:50,000
+this goes to the earlier question about Google and healthcare while we haven't seen big tech there I think that were bound to because there's so many date
+
+293
+00:48:50,000 --> 00:49:00,000
+Cambridge mobile telematics do not please don't confused with Cambridge analytica Cambridge motel at Maddox you can see
+
+294
+00:49:00,000 --> 00:49:10,000
+0 Dida aggregators that are collecting telematic dater they're not alone and then with that day to come
+
+295
+00:49:10,000 --> 00:49:20,000
+I sent it to insurance companies insurance companies as well as one of my favorites in this
+
+296
+00:49:20,000 --> 00:49:30,000
+nearest selling a product that in factories if your factory workers will wear some wearable not a
+
+297
+00:49:30,000 --> 00:49:40,000
+about some of its like around the mid mid chest it range but if they will wear a sensor
+
+298
+00:49:40,000 --> 00:49:50,000
+you can lower the cost of workplace insurance you can also hopefully make the workplace safer so they're selling a safe
+
+299
+00:49:50,000 --> 00:50:00,000
+why is injury protection what it's about software and hardware because they're selling the wearables and it's called stormtech
+
+300
+00:50:00,000 --> 00:50:10,000
+will it be successful spin around 9 years so we're seeing in insurance tech which I think is so fast
+
+301
+00:50:10,000 --> 00:50:20,000
+and potentially transformative is a whole world of a sensors and collecting alternative day to whether it's for America
+
+302
+00:50:20,000 --> 00:50:30,000
+go back to the telematics whether it's from our watches or a wearables are Fitbits
+
+303
+00:50:30,000 --> 00:50:40,000
+smartphones from the senses and our homes all the consider collect data little bit of machine learning
+
+304
+00:50:40,000 --> 00:50:50,000
+always deep machine learning deep learning with some machine learning lower the course Rodney and
+
+305
+00:50:50,000 --> 00:51:00,000
+potentially and then on the claims management side as well sensor technology collecting the day to lower the frauds in in the
+
+306
+00:51:00,000 --> 00:51:10,000
+is one from the Braggs that they have the shortest claim settlement period that an online app was able
+
+307
+00:51:10,000 --> 00:51:20,000
+claim settlement down to less than minutes and I think there was one claim that was settled in seconds it was an order
+
+308
+00:51:20,000 --> 00:51:30,000
+it was something that could do quite quickly check the logically but I also think that it was a bit of them a marketing thing that they wanted to say you could get claims
+
+309
+00:51:30,000 --> 00:51:40,000
+countdown 2 minutes so that's a little bit of review
+

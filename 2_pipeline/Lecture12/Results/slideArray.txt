@@ -1,0 +1,620 @@
+FinTech:
+Shaping the Financial World
+
+May 4, 2020
+ENDELEMENTClass 10: Overview
+
+¢ Insurance Value Chain
+
+¢ Insurance Sector Landscape
+
+¢ Insurance Sector Challenges
+
+¢ InsurTech Opportunities & Challenges
+
+¢ InsurTech Business Models & Startups
+ENDELEMENTClass 10: Readings
+* ‘Quarterly InsurTech Briefing Q4 2019", CB Insights (Intro & Charts)
+¢ 'Three insurtech trends to watch in 2020', Harry Menear, FinTech
+
+¢ 'Fintech developments in the insurance industry — Executive Summary
+Bank of International Settlement
+
+¢ 'Why Asia is fertile new ground for the insurtech startup movement,
+Tech Wire Asia
+ENDELEMENTClass 10: Study Questions
+
+¢ What opportunities does the current insurance sector landscape and
+possible ‘pain points’ present for ongoing technological disruption?
+
+* How have machine learning, alternative data, and so-called ‘Internet of
+Things’ devises begun to transform the underwriting, selling,
+administration & claims processing of insurance?
+
+¢ What are InsurTech trends and applications affecting each part of the
+insurance sector’s value chain? What are the capital, regulatory, and
+data challenges confronting startups in this space? To date, why have
+Big Tech firms been less engaged in insurance than other finance
+sectors?
+ENDELEMENTInsurance Value Chain
+
+  
+
+Product Design Martin Underwriting & Policy Claims Finance & Asset
+& Approval . Rating Administration Management Management
+Image by the Federal Insurance 5
+
+Office and is in the public domain. Source: ‘Annual Report on the Insurance Industry’, Federal Insurance Office, U.S. Department of Treasury (September 2019)
+ENDELEMENTInsurance Sector Landscape
+
+* Life Insurance: Aegon (1968), AFLAC (1955), China Life (1949), Great West
+(1891), Legal & General (1836), Manulife (1887), MetLife (1868), New
+China Life (1996), New York Life (1845), Nippon Life (1889), Prudential
+(1875), Swiss Life (1857), Taikang Life (1996)
+
+¢ Property & Casualty: Allstate (1931), Chubb (1882), Cincinnati Financial
+(1950), CNA (1897), Intact Financial (1807), Hartford (1810), Liberty
+Mutual (1912), Markel (1980), Progressive (1937), State Farm (1922),
+Travelers (1853)
+ENDELEMENTInsurance Sector Landscape
+
+¢ Health & Managed Care: Anthem (1946), Centene (1984), Cigna (1792),
+CVS Health / Aetna (1853), Healthcare Services (1936), Humana (1961),
+UnitedHealth (1977)
+
+* Diversified: AlG (1919), Allianz (1890), Axa (1816), Aviva (1696), China
+Pacific (1991), Generali (1839), Ping An (1988), People’s Insurance
+Company of China (1949), Zurich (1872)
+ENDELEMENTInsurance Sector Landscape
+
+¢ Reinsurance Companies: Arch Capital (1995), Berkshire Hathaway (1839
+/ 1967), Munich Re (1880), Swiss Re (1863)
+
+¢ Brokers: Aon (1918), Brown & Brown (1939), Arthur Gallagher (1927),
+Marsh & McLennan (1905), Willis Towers Watson (1828)
+
+* Benefits Administration: ADP (1949), Paychex (1971)
+* Claims Administration: Sedgwick (1969)
+¢ Software or Services: Duck Creek (2000), Goldwire (2001)
+ENDELEMENTU.S. Insurance Sector Premiums
+
+$1.45
+$1.40
+$1.35
+$1.30
+$1.25
+$1.20
+$1.15
+$1.10
+$1.05
+$1.00
+
+Direct Premiums Written (Strillions)
+
+2009 2010 2011 2012 2013 2014 2015 2016 2017 2018
+Year
+
+Source: S&P Global
+
+Image by the Federal Insurance
+Office and is in the public domain.
+
+9
+
+Source: ‘Annual Report on the Insurance Industry’, Federal Insurance Office, U.S. Department of Treasury (September 2019)
+ENDELEMENTU.S. Life & Health Insurance Premiums
+
+‘ = Life Insurance Premiums = Annuity Premiums & Deposits = Accident & Health Premiums
+
+400
+
+$350
+z
+
+= $300
+a
+
+S $250
+R=}
+
+= $200
+|
+
+2B $150
+E
+
+= $100
+co
+A
+
+$50
+
+$0
+
+2009 2010 2011 2012 2013 2014 2015 2016 2017 2018
+Year
+
+Source: S&P Global
+
+Image by the Federal Insurance Office 10
+
+and is in the public domain. Source: ‘Annual Report on the Insurance Industry’, Federal Insurance Office, U.S. Department of Treasury (September 2019)
+ENDELEMENTU.S. P & C Insurance Premiums
+
+@ Personal P&C Direct Premiums = Commercial P&C Direct Premiums
+
+$400 = Accident & Health Direct Premiums
+
+$350
+
+$300
+
+TU
+
+2009 2010 2011 2012 2013 2014 2015 2016 2017 2018
+Year
+
+Direct Premiums Written ($billions)
+
+°
+
+Source: S&P Global
+
+Image by the Federal Insurance Office "1
+and is in the public domain. Source: ‘Annual Report on the Insurance Industry’, Federal Insurance Office, U.S. Department of Treasury (September 2019)
+ENDELEMENTInsurance Sector Challenges
+
+¢ Agent & Broker Fees
+
+* Claims Administration
+
+* Distribution Channels
+
+* Legacy Tech
+
+* Operating Costs & Expense Ratios
+
+* Product Development & Speed to Market
+¢ Regulatory Landscape
+
+° Trust
+
+¢ User Interface and User Experience
+ENDELEMENTInsurTech Opportunities
+
+led gte lal: —-latel
+ftlate(-Tavugiadiale!
+
+     
+
+    
+  
+
+Improved Improved capital
+customer (4) Quote, management
+engagement bind, issue
+Opening up of
+Improved Claims and global risk partners
+customer settlement
+experience Effective transfer
+of risk
+Maximized risk
+origination ade) ifea'ae-telaslislt-ace-belelal Improved insight into
+and central budget allocation
+Omnichannel risk management systems
+origination/partner Much better
+improvement E> handling of data
+
+Source: ‘Quarterly InsurTech Briefing Q4 2019', CB Insights ‘ (January 2020)
+
+13
+
+© Willis Towers Watson and CB Insights. All rights reserved. This content is excluded from our Creative Commons license. For more information, see https://ocw.mit.edu/help/faq-fair-use/
+ENDELEMENTInsurTech Opportunities
+
+¢ Sales, Account Management & Claims Ul & UX:
+* Digital, Mobile & Conversational Interface
+
+¢ Underwriting Availability, Pricing & Targeted Products:
+
+* Machine Learning & Alternative Data
+
+* Claims Processing & Underwriting Data Capture:
+
+* Drones, Internet of Thing Sensors, Smartphones Telematics, &
+Wearables
+
+* Genetic Testing — Life, Disability & Long-term Care
+ENDELEMENTInsurTech Emerging Technologies
+
+  
+       
+   
+      
+     
+    
+ 
+    
+   
+ 
+ 
+ 
+    
+    
+  
+  
+
+Assess damage to
+property for loss
+estimate
+
+    
+  
+
+Manage reinsurance
+contracts
+
+    
+      
+  
+   
+ 
+
+ 
+ 
+
+Recognize facial
+characteristics to pre-fill
+data (age, gender, etc.)
+
+  
+
+Automate notification
+of death for payment of
+life benefits
+
+  
+
+Visual
+Computing
+
+   
+  
+    
+ 
+
+Improve portability of
+customers’ historical
+data
+
+   
+
+   
+
+Automate claims
+
+Blockchain payments
+
+ 
+  
+
+Detect water leaks in
+homes
+
+   
+  
+ 
+
+Provide customers with
+theft alerts
+
+ 
+    
+
+Share risk data for cyber “Self-teaching”
+underwriting underwriting models
+
+Detect repetitive stress
+injuries to mitigate WC
+claims
+
+Sensors and
+Telematics
+
+  
+  
+
+  
+ 
+  
+
+  
+  
+    
+ 
+
+Provide feedback to
+encourage safer driving
+
+Improve driver safety in
+autonomous vehicles Communicate with Detect fraud
+customers using
+
+chatbots
+
+Image by the Federal Insurance Office and
+is in the public domain.
+
+15
+
+Source: ‘Annual Report on the Insurance Industry’, Federal Insurance Office, U.S. Department of Treasury (September 2019)
+ENDELEMENTInsurTech Challenges
+
+* Funding
+* Capital Requirements if a Carrier
+¢ Startup Run Rate Losses
+* Competitive Landscape
+* Incumbents
+* InsurTech Startups
+* Regulatory Frameworks
+* Licensing & Compliance
+¢ Appropriate use of Data
+¢ User Adoption
+ENDELEMENT4 INSURTECH
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Core Software Data & Analytics Sales & Distribution
+Target Brok
+i Carrier / Broker rokers / 7 Consumers &
+Users Carriers p Contaeaivity q Agents Carriers / Brokers Busivesees
+Agency
+Management
+CRM / Sales
+FinTech Marketing &
+Area of Administration
+Focus Platforms
+
+ 
+
+   
+
+Courtesy of FT Partners. Used with permission. Source: ‘2019 FinTech Almanac’, FT Partners (February 2020)
+ENDELEMENTInsurTech Business Models
+
+* Licensed Insurer
+¢ Managed General Agent
+¢ Technology Service Provider
+
+* Data Aggregator
+ENDELEMENTInsurTech Startups
+
+¢ Acko (2017) — Auto, Travel - India
+
+¢ Assurance (2016) — Diversified ‘Financial Wellness’ Direct to Consumer
+* Bold Penguin (2016) — Commercial Insurance Exchange
+
+* CoverHound (2010) — Auto Marketplace Comparison
+
+* CoverWallet (2015) — Small Business P & C
+
+¢ Ethos ( 2016) - Life
+
+¢ FINEOS (1993) — Software for Life, Accident & Health
+
+¢ Fri:Day (2017) — Auto — Germany
+
+* Goji (2007) — Auto Marketplace using Driving History Data
+ENDELEMENTInsurTech Startups
+
+* Hippo (2015) - Home
+
+* Insureon (1997) Small Business P & C Marketplace
+* Insurify (2013) — Auto Marketplace Comparison
+
+¢ Ladder (2015) - Life
+
+* Lemonade (2015) — Home, Renters
+
+¢ Metromile (2011) - Auto
+
+* Next (2016) — Small Business P & C
+
+¢ Pie Insurance (2017) — Workers Comp
+ENDELEMENTInsurTech Startups
+
+* PolicyBazaar (2008) — Life & Health Marketplace Comparison - India
+* PolicyGenius (2014) - Marketplace Comparison
+
+¢ Prima Assicurazioni (2015) — Auto - Italy
+
+* Root (2015) - Auto
+
+° Singlife (2014) — Life - Singapore
+
+¢ Snapsheet (2011) — Claims Management
+
+* Tractable (2014) — Auto Claims Management
+
+* WeFox / One (2015) — Marketplace / P & C Carrier - Germany
+
+* ZhongAn (2013) — Online P & C- China
+ENDELEMENT(2) HEALTHCARE FINTECH
+
+Sectors
+
+Target Users
+
+FinTech Area of Focus
+
+Patient Care Administration
+
+Providers
+
+(Hospitals, Physician
+Practices, Urgent
+Care Centers, etc.)
+
+Revenue Cycle
+Management (“RCM”)
+
+Finance & Administration
+Systems
+(Including Practice
+Management)
+
+Point-of-Care Payment
+Technologies
+
+Courtesy of FT Partners. Used with permission.
+
+ 
+
+Payers
+Carriers
+
+Plan Sponsors
+
+Payment Integrity
+Program Management/
+Coordination of Benefits
+
+Content, Data and Risk
+Analysis
+
+Member Engagement and
+Quality Measurement
+
+  
+
+Benefits
+
+Management
+
+ 
+
+Employers
+Carriers
+Plan Sponsors
+Fls & Other
+
+Exchanges
+
+BPO
+Financial Management
+(Premium Billing & Payment)
+Eligibility / Enrollment /
+Plan Comparison
+Third Party
+Administrators ("TPAs”)
+Pharmacy Benefits
+Management
+
+Health Insurance
+
+Sales &
+Distribution
+
+Other Healthcare
+Information
+
+ 
+
+Employers
+
+Individuals
+
+Online Consumer /
+SMB Sales Platforms
+
+Tech-Enabled
+Brokers
+
+Public and Private
+Healthcare
+Exchanges
+
+Source: ‘2019 FinTech Almanac’, FT Partners (February 2020)
+
+Technology
+
+Primarily
+Providers
+
+Electronic Medical
+Records / Electronic
+
+Health Records
+
+ 
+
+Utilization Management
+
+Point-of-Care &
+Workflow
+Technologies
+
+ 
+
+22
+ENDELEMENTHealth InsurTech Startups
+
+¢ American Well (2006) - Telehealth
+
+¢ BIMA (2010) — Emerging Markets
+
+¢ Bright Health (2015) — Medicare Advantage
+
+* CareCloud (2009) — Patient Billing & Claims Management
+
+* Clover (2014) — Patient Analytics & Preventive Care driven Insurance
+* Collective Health (2013) — Self employed & Small Business Platform
+ENDELEMENTHealth InsurTech Startups
+
+* GoHealth (2001) - Marketplace Comparison
+
+* Gusto (2011) — Benefits & Payroll Administrations
+
+¢ HealthEquity (2002) — Benefits & Health Savings Account Administrator
+* Oscar Health (2012) — Individual & Small Business Coverage
+
+¢ Shuidi (2016) — Crowdfunding of Medical Bills - China
+
+* Zenefits (2013) - Benefits Administrations
+ENDELEMENTData Related InsurTech Startups
+
+* Cambridge Mobile Telematics (2010) — Road & Driver Safety
+
+¢ FitSense (2015) — Data Analytics for Health & Life
+
+* Habit Analytics (2018) — Behavioral Patterns from Smartphone & loT
+* HyperScience (2014) — Automated Data Entry
+
+* Open Data Nation (2015) — Public Records Data Aggregator
+
+* RiskGenius (2015) — Policy Automation Platform
+
+¢ Shift Technology (2013) — Fraud Detection
+
+¢ StrongArm Tech (2011) — Sensor Data for Safety & Injury Protection
+* The Floow (2012) — Auto Telematics
+
+* TrueMotion (2012) — Smartphone Sensor Data to Score Drivers
+ENDELEMENTMIT OpenCourseWare
+https://ocw.mit.edu/
+
+15.S08 FinTech: Shaping the Financial World
+Spring 2020
+
+For information about citing these materials or our Terms of Use, visit: https://ocw.mit.edu/terms.
+
+26
+ENDELEMENT

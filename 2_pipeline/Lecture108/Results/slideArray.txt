@@ -1,0 +1,6449 @@
+Active Learning from
+Theory to Practice
+
+  
+ 
+
+Sa. : an i> Steve Hanneke
+A, & jan Toyota Technological
+ADs ee Institute at Chicago
+P R(io-rax <olutyy = a” steve.hanneke@gmail.com
++ fP( (6,-0,f xeolyeD 3h. £
+bsg “+ Robert Nowak
+UW-Madison
+
+rdnowak@wisc.edu
+
+ICML | 2019
+
+Thirty-sixth International Conference on
+Machine Learning
+ENDELEMENTTutorial Outline
+
+‘@- @:_.. e:
+Phaall i x ® «
+‘@> ‘@ ‘®
+
+Active Learning = “ ‘af ‘
+From Theory <O me goes
+to Practice Tem = ere
+
+Part 1: Introduction to Active Learning (Rob)
+Part 2: Theory of Active Learning (Steve)
+Part 3: Advanced Topics and Open Problems (Steve)
+
+Part 4: Nonparametric Active Learning (Rob)
+
+slides: http://nowak.ece.wisc.edu/ActiveML.html
+ENDELEMENTConventional (Passive) Machine Learning
+
+unlabeled
+raw data
+
+Bi
+
+P
+ham
+{
+
+/
+
+* mrs
+
+_—
+
+labeled
+
+human data machine predictive
+labeling learning model
+
+a TO) eG ras
+Lida em -. * ye » “sy
+Smee > »”
+os ewe id ol es
+wl aa |i rat
+ENDELEMENTALL SYSTEMS GO 2}
+
+theguardian oeaen?
+
+Google says its new Al-powered
+Computers now better than humans at translation tool scores nearly identically to
+recognising and sorting images human translators
+
+millions of labeled images ;
+; trained on more texts than a
+1000’s of human hours ; or
+human could read in a lifetime
+
+Can we train machines with less labeled
+data and less human supervision?
+ENDELEMENTActive Machine Learning
+
+“TT | =i
+
+“1 ey Goal: machine automatically
+; v and adaptively selects most
+
+N
+
+‘ informative data for labeling
+
+machine
+learning
+
+        
+ 
+
+labeled
+unlabeled human data
+raw data labeling
+
+data fal
+
+predictive
+model
+
+ 
+
+algorithm
+
+ 
+ENDELEMENTMotivating Application
+
+ 
+
+ 
+
+ 
+
+ 
+
+E : | = = =e ; prediction rule
+ES 2S that can be applied
+F Tt wt to unlabeled EHRs
+
+ 
+
+unlabeled electronic
+health records (EHRs)
+
+    
+
+= ©
+
+a=
+
+  
+
+cataracts cai A
+
+human experts
+
+provides labels to machine learner
+(several minutes / EHR)
+
+ 
+ENDELEMENTActive Learning
+
+Non-adaptive strategy: Label a random sample
+
+Active strategy: Label a sample near best
+decision boundary based on labels seen so far
+
+ 
+
+EHR feature 2
+
+ 
+
+best linear classifier
+
+ 
+
+ 
+
+ 
+
+EHR feature 1
+
+error rate €
+
+ 
+  
+ 
+
+active learning finds optimal
+classifier with much less
+human supervision!
+
+ 
+ 
+
+# labels
+ENDELEMENTTotal error
+
+0.26
+
+0.24
+
+0.22
+
+0.20
+
+0.10
+
+0.08
+
+100
+
+Active Logistic Regression
+
+Error Rates on Cataract Data
+
+ 
+
+200 300
+Number of training samples
+
+—— active learning
+—— passive learning
+
+11000 patient records
+8000 positive
+3000 negative
+
+6182 Numerical Features
+icd9 codes
+lab tests
+patient data
+
+Classification task:
+cataracts or healthy
+
+400 §00
+
+less than half as many labeled
+examples needed by active learning
+ENDELEMENTnextml.org
+
+NEXT
+
+ASK BETTER QUESTIONS.
+GET BETTER RESULTS.
+FASTER. AUTOMATED.
+ENDELEMENTActive learning to optimize crowdsourcing and
+rating in New Yorker Cartoon Caption Contest
+
+How-New Yorker cartoons could teach
+computers to be funny
+
+The a
+
+BY DOING THE EXACT OPPOSITE
+How New Yorker Cartoons
+Could Teach Computers To
+Be Funny
+
+3diggs CNET Technology
+
+With the help of computer scientists from the
+University of Wisconsin at Madison, The New
+Yorker for the first time is using
+
+crowdsourcing algorithms to uncover the
+best captions.
+
+ 
+ENDELEMENTActively learning user’s beer preferences
+
+is) Beer € isis Taide * “aa
+
+Discover better beer.
+
+ 
+
+Two Brothers Northwind
+imperial Stout
+
+ 
+
+ 
+
+The most powerful beer app on the planet.
+ENDELEMENTPrinciples of Active Learning
+ENDELEMENTWhat and Where Information
+
+ 
+
+ 
+
+ 
+
+ 
+
+p(yla)
+Density estimation: What is p(y|x)?
+Classification: Where is p(y|x) > 0? x
+x
+Density estimation: What is p(x)? P(x)
+Clustering: Where is p(x) > €? v
+E[y|a]
+Function estimation: What is E/y|a]?
+Bandit optimization: Where is max, E[y|x]?
+x
+
+Active learning is more efficient than passive
+learning for localized “where” information
+ENDELEMENTMeta-Algorithm for Active Learning
+
+ 
+
+Version-Space (VS) Active Learning
+
+ 
+
+initialize VS: H = all models/hypotheses
+
+while (stopping-criterion) not met
+1. sample at random from available dataset
+2. label only those samples that distingui
+3. reduce 7 by removing all models inc
+
+output: best model in final
+
+ 
+
+ 
+
+   
+  
+  
+
+ 
+ENDELEMENTLearning a 1-D Classifier
+
+Semmens: cummmmene-coc|namevem —
+
+binary search quickly finds decision boundary
+
+passive: err ~ n°!
+
+active: er ~ 2.”
+ENDELEMENTVapnik-Chervonenkis (VC) Theory
+
+Given training data {(xj,y;)} 71, learn a function f to predict y from x
+
+Consider a possibly infinite set of hypotheses F with finite VC dimension d
+and for each f € F define the risk (error rate):
+
+Rf) == P(e) #y)
+
+error rate on 1
+training data: n
+
+me
+
+2
+
+> a(F Xi Au) “empirical risk”
+
+VC bound: sup |R(f) — R(f)| < 6
+ENDELEMENTEmpirical Risk Minimization (ERM)
+
+Goal: select hypothesis with true error rate within € > 0 of mingcer R(f)
+
+* = argminR sk ini - —
+i are feF (/) true Fisk minimizer f minimizes empirical risk:
+f = arg min R(f) empirical risk minimizer R(f) < R(f*)
+
+LD ostn/o)
+
+ 
+
+ 
+
+ 
+
+sufficient number dlog(n/6) _ x/dlog(1/o)
+of training examples: 12 \ n Se => us o( €2 )
+ENDELEMENTEmpirical Risks and Confidence Intervals
+
+6
+_ | 6
+9°
+° - ~—
+1 2 3 k-1
+
+hypotheses (ordered according to empirical risks)
+ENDELEMENTEmpirical Risks and Confidence Intervals
+
+1 2 3 k-1
+
+hypotheses (ordered according to empirical risks)
+
+more training data = smaller confidence intervals
+
+0-4
+ENDELEMENTEmpirical Risks and Confidence Intervals
+
+—~
+2 —
+—
+aa —
+$
+1 2 3 k-1 k
+
+hypotheses (ordered according to empirical risks)
+
+more training data = smaller confidence intervals
+ENDELEMENTERM is Wasting Labeled Examples
+
+6 a a
+1 2 3 k-1
+
+hypotheses (ordered according to empirical risks)
+ENDELEMENTERM is Wasting Labeled Examples
+
+at this point we can safely remove
+
+ 
+
+ 
+
+fs from further consideration 6
+> é ~~
+° PRYs) SC
+i ~ and we probably could have removed
+__ other hypotheses even sooner
+1 2 3 k-1 k
+hypotheses (ordered according to empirical risks)
+“aad 2
+only require labels for examples that Ce d
+hypotheses 1 and 2 label differently | labeled -
+(i.e., examples where they disagree) ‘ovdas, Medes) "eo woo
+‘dala selection
+
+algorithm
+ENDELEMENTDisagreement-Based Active Learning
+
+consider points uniform on unit ball and
+linear classifiers passing through origin
+
+only label points in the
+region of disagreement
+
+ 
+ENDELEMENTActive Binary Classification
+
+Assuming optimal Bayes classifer f* in VC class with dimension d
+and “nice” distributions (e.g., bounded label noise)
+
+SS
+
+« = R(f)—R(f*
+
+parametric rate
+
+3/aQ
+
+~
+
+passive €
+
+active € ~ exp ( —C =) exponential soeed-up
+
+  
+
+passive
+
+  
+
+Bayes error rate
+
+R(f*) # labels
+ENDELEMENTTutorial Outline
+
+Part 1: Introduction to Active Learning (Rob)
+Part 2: Theory of Active Learning (Steve)
+Part 3: Advanced Topics and Open Problems (Steve)
+
+Part 4: Nonparametric Active Learning (Rob)
+
+slides: http://nowak.ece.wisc.edu/ActiveML.html
+ENDELEMENTRecommended Reading (Foundations of Active Learning)
+
+Settles, Burr. "Active learning." Synthesis Lectures on Artificial Intelligence and
+Machine Learning 6.1 (2012): 1-114.
+
+Dasgupta, Sanjoy. "Two faces of active learning." Theoretical computer science
+412.19 (2011): 1767-1781.
+
+Cohn, David, Les Atlas, and Richard Ladner. "Improving generalization with active
+learning." Machine learning 15.2 (1994): 201-221.
+
+Castro, Rui M., and Robert D. Nowak. "Minimax bounds for active learning." /EEE
+Transactions on Information Theory 54, no. 5 (2008): 2339-2353.
+
+Zhu, Xiaojin, John Lafferty, and Zoubin Ghahramani. "Combining active learning
+and semi-supervised learning using gaussian fields and harmonic functions." [CML
+2003 workshop. Vol. 3. 2003.
+
+Dasgupta, Sanjoy, Daniel J. Hsu, and Claire Monteleoni. "A general agnostic active
+learning algorithm." Advances in neural information processing systems. 2008.
+
+Balcan, Maria-Florina, Alina Beygelzimer, and John Langford. "Agnostic active
+learning." Journal of Computer and System Sciences 75.1 (2009): 78-89.
+
+Nowak, Robert D. "The geometry of generalized binary search." /EEE
+Transactions on Information Theory 57, no. 12 (2011): 7893-7906.
+
+Hanneke, Steve. "Theory of active learning." Foundations and Trends in
+Machine Learning 7, no. 2-3 (2014).
+ENDELEMENTPart 2: Theory of Active Learning
+General Case
+
+Disagreement-Based Agnostic Active Learning
+
+Disagreement Coefficient
+
+Sample Complexity Bounds
+
+ICML | 2019
+
+ 
+
+ 
+
+Tutorial on Active Learning:
+Theory to Practice
+
+Steve Hanneke
+Toyota Technological Institute at Chicago
+steve.hanneke@gmail.com
+
+Robert Nowak
+
+University of Wisconsin - Madison
+rdnowak@wisc.edu
+
+ 
+
+Thirty-sixth International Conference on
+
+Machine Learning
+
+ 
+ENDELEMENTAgnostic Active Learning
+
+  
+ENDELEMENTUniform Bernstein Inequality
+
+Bernstein’s inequality:
+
+ 
+
+For m iid samples
+Vf, Ww.Dp. 1-64,
+
+R(f) — R(P) < RUA) — RP) + ey PUFF fy AULD + el
+
+Uniform Bernstein inequality: VC dimension
+
+ 
+
+w.p.1—06, Vf, f’ EH,
+R(f) — RU!) < RUF) — ROP!) + ey PCF & fel 4 Hoatn/o)
+
+Roughly:
+Vif EH,
+
+R(f)- RF) < RUA) -— RO) + VPA POS
+
+ 
+ENDELEMENTAg Nn O sti C Act | ve Le d r N | N 8 Balcan, Beygelzimer, & Langford (2006)
+
+Region of disagreement:
+DIS(H) := {we Vs 5f, fl EH, f(x) 4 f'(ax)}
+
+(Agnostic Active)
+
+ 
+
+for t = 1,2,... (til stopping-criterion)
+. sample 2! unlabeled points S
+
+. label points in Q = DIS(H) NS
+
+. optimize f < argmin Ro( f)
+fH
+
+output final
+
+ 
+ENDELEMENTAgnostic Active Learning
+
+DIS(H) = {we ¥: Sf, f eH, fle) f(a}
+
+“ (Agnostic Active)
+for t = 1,2,... (til stopping-criterion)
+1. sample 2! unlabeled points S
+
+2. label points in Q = DIS(H) NS
+
+3. optimize f < argmin Ro(f)
+fH
+
+4. reduce H: remove all f with Ro(f) — Ro(f) > \/Polf # Ag
+
+ 
+ENDELEMENTAgnostic Active Learning
+
+DIS(H) = {we ¥: Sf, f eH, fle) f(a}
+
+“ (Agnostic Active)
+for t = 1,2,... (til stopping-criterion)
+1. sample 2! unlabeled points S
+
+2. label points in Q = DIS(H) NS
+
+3. optimize f < argmin Ro(f)
+fH
+
+4. reduce H: remove all f with Ro(f) — Ro(f) > \/Polf # Ags
+
+ 
+ENDELEMENTAgnostic Active Learning
+
+DIS(H) = {we ¥: Sf, f eH, fle) f(a}
+
+“ (Agnostic Active)
+for t = 1,2,... (til stopping-criterion)
+1. sample 2! unlabeled points S
+
+2. label points in Q = DIS(H) NS
+
+3. optimize f < argmin Ro(f)
+fH
+
+4. reduce H: remove all f with Ro(f) — Ro(f) > \/Polf # Ags
+
+ 
+
+ 
+ENDELEMENTAgnostic Active Learning
+
+DIS(H) = {we ¥: Sf, f eH, fle) f(a}
+
+“ (Agnostic Active)
+for t = 1,2,... (til stopping-criterion)
+1. sample 2! unlabeled points S
+
+2. label points in Q = DIS(H) NS
+
+3. optimize f < argmin Ro(f)
+fH
+
+4. reduce H: remove all f with Ro(f) — Ro(f) > \/Polf # Ags
+
+ 
+
+ 
+ENDELEMENTAgnostic Active Learning
+
+DIS(H) = {we ¥: Sf, f eH, fle) f(a}
+
+“ (Agnostic Active)
+for t = 1,2,... (til stopping-criterion)
+1. sample 2! unlabeled points S
+
+2. label points in Q = DIS(H) NS
+
+3. optimize f < argmin Ro(f)
+fH
+
+4. reduce H: remove all f with Ro(f) — Ro(f) > \/Polf # Ags
+
+ 
+
+ 
+ENDELEMENTAgnostic Active Learning
+
+DIS(H) := {we 3 5f, f’ EH, f(x) 4 f'(x)}
+a7 (Agnostic Active)
+for t = 1,2,... (til stopping-criterion)
+
+1. sample 2! unlabeled points S
+
+2. label points in Q = DIS(H) NS
+
+3. optimize f — argmin Ro(f)
+fEH
+
+4, reduce H: remove all f with Ro(f) — Ro(f) > / Polf # AG
+
+ 
+
+ 
+ENDELEMENTAgnostic Active Learning
+
+DIS(H) := {we 3 5f, f’ EH, f(x) 4 f'(x)}
+a7 (Agnostic Active)
+for t = 1,2,... (til stopping-criterion)
+
+1. sample 2! unlabeled points S
+
+2. label points in Q = DIS(H) NS
+
+3. optimize f — argmin Ro(f)
+fH
+
+4, reduce H: remove all f with Ro(f) — Ro(f) > \/ Po(f # AG
+
+ 
+
+ 
+ENDELEMENTAgnostic Active Learning
+
+DIS(H) := {we 3 5f, f’ EH, f(x) 4 f'(x)}
+a7 (Agnostic Active)
+for t = 1,2,... (til stopping-criterion)
+
+1. sample 2! unlabeled points S
+
+2. label points in Q = DIS(H) NS
+
+3. optimize f — argmin Ro(f)
+fH
+
+4, reduce H: remove all f with Ro(f) — Ro(f) > \/ Po(f # AG
+
+ 
+
+ 
+ENDELEMENTAgnostic Active Learning
+
+DIS(H) := {we 3 5f, f’ EH, f(x) 4 f'(x)}
+a7 (Agnostic Active)
+for t = 1,2,... (til stopping-criterion)
+
+1. sample 2! unlabeled points S
+
+2. label points in Q = DIS(H) NS
+
+3. optimize f — argmin Ro(f)
+fEH
+
+4, reduce H: remove all f with Ro(f) — Ro(f) > / Polf # AG
+
+ 
+
+ 
+ENDELEMENTAgnostic Active Learning
+
+DIS(H) := {a € 4: 3f,f EH, f(x) # f'(a)} e
+
+“ (Agnostic Active)
+for t = 1,2,... (til stopping-criterion) °
+1. sample 2! unlabeled points S
+
+2. label points in Q = DIS(H) NS °
+
+3. optimize f < argmin Ro(f)
+fH
+
+4. reduce 1: remove all f with Ra(f) — Ra(f) > /Palf 4 fig °
+
+  
+ENDELEMENTAgnostic Active Learning
+
+DIS(H) = {we ¥: Sf, f eH, fle) f(a}
+
+O°
+“ (Agnostic Active)
+for t = 1,2,... (til stopping-criterion) °
+1. sample 2! unlabeled points S
+2. label points in Q = DIS(H) NS @
+
+3. optimize f + argmin Ro(f)
+fH
+
+4. reduce H: remove all f with Ro(f) — Ro(f) > \/Polf # Ags
+
+  
+ENDELEMENTAgnostic Active Learning
+
+DIS(H) = {we ¥: Sf, f eH, fle) f(a}
+
+O°
+“ (Agnostic Active)
+for t = 1,2,... (til stopping-criterion) °
+1. sample 2! unlabeled points S
+2. label points in Q = DIS(H) NS @
+
+3. optimize f — argmin Ro(f)
+fH
+
+4. reduce H: remove all f with Ro(f) - Ro(f) > \/ Polf 32 Ag
+
+  
+ENDELEMENTAgnostic Active Learning
+DIS(H) := {we 3 5f, f’ EH, f(x) 4 f'(x)}
+
+“ (Agnostic Active)
+
+for t = 1,2,... (til stopping-criterion) @
+1. sample 2! unlabeled points S @
+2. label points in Q = DIS(H) NS
+3. optimize f — argmin Ro(f) @
+
+4. reduce H: remove all f with Ro(f) — Ro(f) > \/Polf # Ag
+
+  
+ENDELEMENTAgnostic Active Learning
+DIS(H) = {«@ © X :3f, fl! EH, f(a) ¥ f'"(x)}
+(Agnostic Active) The point:
+
+Any t with f* € H still,
+R(f*|DIS(H)) still minimal in H
+
+ 
+
+for t = 1,2,... (til stopping-criterion)
+
+1. sample 2‘ unlabeled points S
+
+2. label points in Q = DIS(H) NS
+
+> .
+
+sone Ratt") — Ralf)
+
+3. optimize f argmin Ro(f) < R(f*|DIS(H)) — R(f|DIS(H)) + \/ Po(f* fal Ng
+4. reduce H: remove all f with Ro(f) — Ro(f) > \/Polf # Ags < /Po(f* A Aig
+
+=> f* never removed.
+
+ 
+
+ 
+ENDELEMENTAgnostic Active Learning
+DIS(H) = {«@ © X :3f, fl! EH, f(a) ¥ f'"(x)}
+(Agnostic Active) The point:
+
+Any t with f* € H still,
+R(f*|DIS(H)) still minimal in H
+
+ 
+
+for t = 1,2,... (til stopping-criterion)
+
+1. sample 2‘ unlabeled points S
+
+2. label points in Q = DIS(H) NS
+
+> .
+
+sone Ratt") — Ralf)
+
+3. optimize f argmin Ro(f) < R(f*|DIS(H)) — R(f|DIS(H)) + \/ Po(f* fal Ng
+4. reduce H: remove all f with Ro(f) — Ro(f) > \/Polf # Ags < /Po(f* A Aig
+
+=> f* never removed.
+
+ 
+
+ 
+
+Next: How many labels does it use?
+ENDELEMENTSample Complexity Analysis
+Ball: B(f*,r) :={f €©€H: Px(f 4 f*) <r}
+DIS(B(f*.r)) = {e € ¥: 3f.f BU.) fa) 4 fo}
+
+Disagreement coefficient:
+
+ 
+
+? = sup
+r>e r
+
+Px (DIS(B(", 7)
+
+Hanneke (2007...)
+ENDELEMENTSample Complexity Analysis
+
+Ball: B(f*,r) = {f © H: Px(f # f*) <r} Example: Thresholds, Px Uniform(0, 1)
+
+DIS(B(f".r)) := fe €¥ sf fe BUF), fle) # f(a} f(a) = Tr 2 ¢]
+
+Disagreement coefficient:
+0 1
+
+9 — sup PX@IS(BU."))
+
+r>e r
+
+ 
+
+ 
+
+ 
+ENDELEMENTSample Complexity Analysis
+
+Ball: B(f*,r) = {f © H: Px(f # f*) <r} Example: Thresholds, Px Uniform(0, 1)
+
+— Ir >
+DIS(B(f*,r)) = {w@ EX: Af, f’ © B(f*,r), f(x) F f'(a)} f(x) =[[ax >t]
+
+Disagreement coefficient:
+0 1
+
+9 sup PX DIS") Car t* tr
+
+r>e r
+
+ 
+
+ 
+
+ 
+
+DIS(B(f*,r)) = [t* — r,t +r)
+Px (DIS(B(f*,r))) = 2r
+
+d=2
+ENDELEMENTSample Complexity Analysis
+
+Ball: B(f*,r) = {f © H: Px(f # f*) <r} Example: Thresholds, Px Uniform(0, 1)
+
+DIS(B(f".r)) := fe €¥ sf fe BUF), fle) # f(a} f(a) = Tr 2 ¢]
+
+Disagreement coefficient:
+0 1
+
+9 sup PX DIS") Car t* tr
+
+r>e r
+
+ 
+
+ 
+
+ 
+
+DIS(B(f*,7r)) = [# — r,t +r)
+Px (DIS(B(f*,r))) = 2r
+
+=>60=2
+ENDELEMENTSample Complexity Analysis
+
+Ball: B(f*,r) :-= {f €©H: Px(f # f*) <r}
+DIS(B(f*,r)) = {we &: Sf, f € BUF r), F(x) F f'(w)h
+
+Disagreement coefficient:
+
+ 
+
+9 — sup PX@IS(BU."))
+
+r>e r
+
+ 
+
+ 
+
+Example: Intervals, Py Uniform(0, 1)
+f(@) =llasa<b
+ENDELEMENTSample Complexity Analysis
+
+Ball: B(f*,r) = {f © H: Px(f # f*) <r} Example: Intervals, Py Uniform(0, 1)
+f(a) =Ta<x <j
+
+rer r
+
+DIS(B(f*,r)) = {we V2 3S, fe BUS, r), f(@) 4 f'(@)} ,
+
+Disagreement coefficient:
+0 1
+s
+
+9 up LOBE) aX ob
+
+r>e r
+
+ 
+
+ 
+
+ 
+
+w* := b* — a*
+Ifr < w%,
+DIS(B(f*,r)) = [a* —r,a* +r) U(* —7r,b* +7]
+
+Px (DIS(B(f*,r))) = 4r
+ENDELEMENTSample Complexity Analysis
+
+Ball: B(f*,r) = {f © H: Px(f # f*) <r} Example: Intervals, Py Uniform(0, 1)
+
+= <a<
+DIS(B(*,7)) == {we #2 3f. J" € BU). fle) #@)} Me) = Nase st
+
+Disagreement coefficient:
+0 1
+s
+
+6 = sup PXOISBU*"))) ab a* be
+
+r>e r
+
+ 
+
+ 
+
+ 
+
+w* := b* — a*
+Ifr > w%,
+DIS(B(f*.r)) =
+
+Px(DIS(B(f*,r))) = 1
+ENDELEMENTSample Complexity Analysis
+
+ 
+
+ 
+
+ 
+
+Ball: B(f*,r) = {f © H: Px(f # f*) <r} Example: Intervals, Py Uniform(0, 1)
+=lla<xa<
+DIS(B(f",r)) = fe © Xf, fe BU), f(a) F f'n} (a) =a sax sb -
+Disagreement coefficient:
+0 1
+6 = sup Pe(DIS(B(s*.)) a* be ab
+r>e
+
+w* := b* — a*
+Ifr > w%,
+DIS(B(f*.r)) =
+
+Px(DIS(B(f*,r))) = 1
+ENDELEMENTSample Complexity Analysis
+
+Ball: B(f*,r) = {f © H: Px(f # f*) <r} Example: Intervals, Py Uniform(0, 1)
+
+= <
+DIS(B(f".r)) := fe €¥ sf fe BUF), fle) # f(a} f(a) =llasa so
+
+Disagreement coefficient:
+0 1
+
+9 sup PX DIS") aX ob
+
+r>e r
+
+ 
+
+ 
+
+ 
+
+w* := b* — a*
+Ifr > w%,
+DIS(B(f*.r)) =
+
+Px(DIS(B(f*,r))) = 1
+ENDELEMENTSample Complexity Analysis
+
+Ball: B(f*,r) = {f © H: Px(f # f*) <r} Example: Intervals, Py Uniform(0, 1)
+
+= < <
+DIS(B(f".r)) := fe €¥ sf fe BUF), fle) # f(a} f(a) =llasa so
+
+Disagreement coefficient:
+0 1
+s
+
+9 up LOBE) aX ob
+
+r>e r
+
+ 
+
+ 
+
+ 
+
+w* := b* — a*
+If r < w*, Px(DIS(B(f*,r))) = 4r
+Ifr > w*, Px(DIS(B(f*,r))) =1
+
+SO< max{4, +
+ENDELEMENTSample Complexity Analysis
+
+Ball: B(f*,r) :={f €H: Px(f 4 f*) <r} Example: homog. linear separators (bias 0),
+n dimensions, uniform Px on sphere.
+
+DIS(B(f*,r)) = {we V2 3S, fe BUS, r), f(@) 4 f'(@)}
+
+Disagreement coefficient:
+
+ 
+
+up PX@ISBU"))
+
+r>e r
+
+0
+
+ 
+
+ 
+
+ 
+ENDELEMENTSample Complexity Analysis
+
+Ball: B(f*,r) :={f €H: Px(f 4 f*) <r} Example: homog. linear separators (bias 0),
+n dimensions, uniform Px on sphere.
+
+DIS(B(f*,r)) = {we V2 3S, fe BUS, r), f(@) 4 f'(@)}
+
+Disagreement coefficient:
+
+ 
+
+up PX@ISBU"))
+
+r>e r
+
+0
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTSample Complexity Analysis
+
+Ball: B(f*,r) :={f €H: Px(f 4 f*) <r} Example: homog. linear separators (bias 0),
+n dimensions, uniform Px on sphere.
+
+DIS(B(f*,r)) = {we V2 3S, fe BUS, r), f(@) 4 f'(@)}
+
+Disagreement coefficient:
+
+ 
+
+ 
+
+ap PEDIS(BU7)))
+
+r>e r
+
+0
+
+ 
+
+   
+
+DIS(B(f*,r))
+ENDELEMENTSample Complexity Analysis
+
+Ball: B(f*,r) :={f €H: Px(f 4 f*) <r} Example: homog. linear separators (bias 0),
+n dimensions, uniform Px on sphere.
+
+DIS(B(f*,r)) = {we V2 3S, fe BUS, r), f(@) 4 f'(@)}
+
+Disagreement coefficient:
+
+ 
+
+ 
+
+ap PEDIS(BU7)))
+
+r>e r
+
+0
+
+ 
+
+   
+
+DIS(B(f*,r))
+
+Some geometry => for small r,
+Px (DIS(B(f*,r))) x Vnr.
+> 0x Jn.
+ENDELEMENTSample Complexity Analysis
+
+Bounded Noise assumption: (aka Massart noise)
+
+ 
+
+AB <1/2s.t. P(Y € f*(X)|X) < 8 everywhere
+
+Sample Complexity: Excess Error:
+R(f) < R(f*) +€ n labels
+Passive d d
+
+Active dO log( +) e—n/a8
+ENDELEMENTSample Complexity Analysis
+DIS(H) = {x © X:3f, fl EH, f(x) # f'(w)}
+
+ 
+
+(Agnostic Active) Theorem: P(Y 4 f*(X)|X) < B. R(f) < R(f*) + with
+for t = 1,2,... (til stopping-criterion) # labels ~ dO log(+)
+
+1. sample 2‘ unlabeled points S Proof Sketch:
+
+Round ¢, all f © H agree on pts in S
+2. label points in Q = DIS(H) NS f 5 p \@
+
+Roughly, that means Step 4 only keeps f with
+RF) -— RP) S VPxf APF
+
+3. optimize f < argmin Ro(f)
+fEH
+
+4. reduce H: remove all f with Ro(f) — Ro(f) > \/Polf # Ags
+
+=> surviving f after round t have R(f) — R(f*) S 4
+=Stz log(2) suffices
+
+ 
+
+Also = after round t — 1, H C B(f*,d/2'!)
+
+= |Q| S Px(DIS(B(f*, d/2'~")))|$| < Og41|S| = 0d2
+
+log(d/e)
+
+Yo 6d = Odlog(4) oO
+
+t=1
+ENDELEMENTSample Complexity Analysis
+DIS(H) = {x © X:3f, fl EH, f(x) # f'(w)}
+
+ 
+
+(Agnostic Active) Theorem: P(Y 4 f*(X)|X) < B. R(f) < R(f*) + with
+for t = 1,2,... (til stopping-criterion) # labels ~ dO log(+)
+
+1. sample 2‘ unlabeled points S Proof Sketch:
+
+Round ¢, all f © H agree on pts in S
+2. label points in Q = DIS(H) NS f . p \@
+
+Roughly, that means Step 4 only keeps f with
+RF) -— RP) S VPxf APF
+
+= surviving f after round t have R(f) — R(f*) < 4
+=Stz log(2) suffices
+
+3. optimize f < argmin Ro(f)
+fEH
+
+4. reduce H: remove all f with Ro(f) — Ro(f) > \/Polf # Ags
+
+Also = after round t — 1, H C B(f*,d/2'!)
+)— RF*) = f (PW = f(X)|X) — PY & f(X)|X))dPx
+ME om ppe ty) = || < Px (DIS(BUI*,d/2!~")))|S| < O51] = 02
+
+ 
+
+log(d/e)
+
+Yo 6d = Odlog(4) oO
+
+t=1
+ENDELEMENTSample Complexity Analysis
+
+Agnostic Learning: (no assumptions)
+
+ 
+
+Denote 6 = R(f*)
+Sample Complexity:
+R(f) < R(f*) +e
+
+Passive dS
+
+Active dé 5
+
+Excess Error:
+n labels
+
+/ dB
+n
+
+[p20
+n
+ENDELEMENTSample Complexity Analysis
+DIS(H) = {x © X:3f, fl EH, f(x) # f'(w)}
+
+ 
+
+(Agnostic Active) Theorem: 8 = R(f*). R(f) < R(f*) +e with
+for t = 1,2,... (til stopping-criterion) # labels = do®.
+
+1. sample 2‘ unlabeled points S Proof Sketch:
+Round ¢, all f € H agree on pts in S\Q
+
+2. label points in Q = DIS(H) NS
+
+Roughly, that means Step 4 only keeps f with
+
+3. optimize 7 inB _ pee +)
+optimize f + argmin Ko(f) Rf) — RP) SV PXF A Pe
+4. reduce H: remove all f with Ro(f) — Ro(f) > Po(f # Ags => surviving f after round t have R(f) — R(f*) S Vos +
+
+Fa (Roughly) ,/ Bs
+
+=tz log(d4) suffices
+
+a
+
+ 
+
+Also = after round t—1, H C B(s20 + a) C B(f*, 38) (for large t)
+
+= |Q| < Px (DIS(B(f*, 38)))|S| < 0|S| = 082°
+
+log(48/e2) .
+082 ~ od oO
+
+t=1
+ENDELEMENTSample Complexity Analysis
+DIS(H) = {x © X:3f, fl EH, f(x) # f'(w)}
+
+ 
+
+(Agnostic Active) Theorem: 8 = R(f*). R(f) < R(f*) +e with
+for t = 1,2,... (til stopping-criterion) # labels = do®.
+
+. sample 2! unlabeled points 9 Proof Sketch:
+
+Round ¢, all f € H agree on pts in S\Q
+
+. label points in Q = DIS(H) NS
+
+Roughly, that means Step 4 only keeps f with
+
+amifiaina A inB _ pee 2d
+optimize f argmin a(f) RP) — RUF) S Px (F ALS
+. reduce H: remove all f with Ro(f) — Ro(f) > /Polf # Ags => surviving f after round t have R(f) — R(f*) S Vos +
+
+(Roughly) \/ 84
+
+=tz log(d4) suffices
+
+a
+
+Px(f AF) SRA) + ROP) = 28 + RF) — RF")
+
+ 
+
+Also = after round t—1, H C B(s20 + a) C B(f*, 38) (for large t)
+
+= |Q| < Px (DIS(B(f*, 38)))|S| < 0|S| = 082°
+
+log(48/e2) .
+082 ~ od oO
+
+t=1
+ENDELEMENTSample Complexity Analysis
+
+When is 6 small?
+
+e Linear separators, Px has a density,
+f* boundary intersects interior of support
+=> 0 bounded
+
+e Linear separators, Px has a density
+
+=>0<t
+
+e H smoothly-parametrized model,
+Px “regular” density w/ compact support,
+other technical conditions on H
+=> 0a # parameters for H
+ENDELEMENTSample Complexity Analysis
+
+When is 6 small?
+
+e Linear separators, Px has a density,
+f* boundary intersects interior of support
+=> 0 bounded
+
+e Linear separators, Px has a density
+
+=>0<t
+
+e H smoothly-parametrized model,
+Px “regular” density w/ compact support,
+other technical conditions on H
+=> 0a # parameters for H
+
+e-:: Lots more ———————>
+
+ 
+ENDELEMENTStopping Criterion
+DIS(H) = {«@ © X :3f, fl! EH, f(a) ¥ f'"(x)}
+
+ 
+
+(Agnostic Active)
+for t = 1,2,... (til stopping-criterion)
+1. sample 2‘ unlabeled points S
+
+2. label points in Q = DIS(H) NS
+
+3. optimize f < argmin Ro(f)
+fEH
+
+4. reduce H: remove all f with Ro(f) — Ro(f) > \/Polf # Ags
+
+Stopping criteria:
+
+ 
+
+ 
+
+e Any-time
+e Label budget
+e Run out of unlabeled data
+
+e Check max Pol(f # Aig<
+ENDELEMENTSimpler Agnostic Active Learning Hsu (2010...)
+
+for m = 1,2,... (til stopping-criterion)
+1. sample a random point x
+2. optimize Vy, fy + argmin Ro(f)
+fEH:f(z)=y
+3. if |Rq(f+) — Rolf-)l < V/Palf- 4 Ag
+
+then label z, add it to Q
+
+output f = argmin Ro(f)
+cH
+
+ 
+
+e Roughly same sample complexity as A?.
+e Can implement as a reduction to ERM.
+
+e In practice, replace ERM with any passive learner.
+ENDELEMENTSurrogate Loss
+
+for m = 1,2,... (til stopping-criterion)
+1. sample a random point x
+2. optimize Vy, ty + argmin RO(f)
+fEH:f(z)=y
+3. if |Ra(f+) — Ralf-)l < / Palf- 4 Ag
+
+then label z, add it to Q
+
+output f = argmin Ro(f)
+cH
+
+ 
+
+Hanneke & Yang (2012)
+e Roughly same sample complexity as A?.
+e Can implement as a reduction to ERM.
+
+e In practice, replace ERM with any passive learner.
+
+vonsider learner that minimizes a surrogate loss
+é:R*x {-1,+1} — Ry
+(e.g., hinge loss, squared loss, exponential loss, .. .)
+
+Now H is realy valued functions
+
+ROA =~ Xf (#9)
+
+(x,y)EQ
+
+(Theorem: Bounded noise, plus strong assumptions on H,¢,P
+still get R(f) < R(f*) + € with # labels
+
+ 
+
+= Odlog(=)
+ENDELEMENTImportance-Weighted Active Learning  — eernsioa"er
+
+for m = 1,2,... (til stopping-criterion)
+1. sample a random point x
+2. set sampling probability p;
+3. flip coin with prob pz, of heads
+
+4. if heads, label x, add to Q with weight 1/p,
+
+output f = argmin Ro(f) (weighted loss)
+EH
+
+ 
+
+Use importance weights to stay unbiased:
+
+E[Re(f)] = R(f)
+
+Now Q set of triples (z, y, w)
+
+Rof= og LX vilf@) 4y]
+(2,y,w)EQ
+e Any choice of Step 2 (setting p,) is fine
+(just p, not too small, else high variance)
+
+e Can set p, in a way to recover A? sample complexity
+
+Px =I] IRo(f+) — Re(f)| < [Pathe # Pvg |
+ENDELEMENTImportance-Weighted Active Learning  — eernsioa"er
+
+for m = 1,2,... (til stopping-criterion)
+1. sample a random point x
+2. set sampling probability p;
+3. flip coin with prob pz, of heads
+
+4. if heads, label x, add to Q with weight 1/p,
+
+output f = argmin Ro(f) (weighted loss)
+EH
+
+ 
+
+Use importance weights to stay unbiased:
+
+E[Re(f)] = RUS)
+
+Now Q set of triples (z, y, w)
+
+Rof= og LX vilf@) 4y]
+(2,y,w)EQ
+e Any choice of Step 2 (setting p,) is fine
+(just p, not too small, else high variance)
+
+e Can set pz in a way to recover A? sample complexity
+pe =I] [Ro(fs) — Raf IIS Pal AD |
+
+e In practice, replace ERM with any passive learner
+(e.g., ERM with a surrogate loss)
+
+e (approx) implementation in Vowpal Wabbit library
+ENDELEMENTQuestions?
+
+Further reading:
+
+D. Cohn, L. Atlas, R. Ladner. Improving generalization with active learning. Machine Learning, 1994
+
+M. F. Balcan, A. Beygelzimer, J. Langford. Agnostic active learning. Journal of Computer and System Sciences, 2009.
+S. Hanneke. A bound on the label complexity of agnostic active learning. ICML 2007.
+
+S. Dasgupta, D. Hsu, C. Monteleoni. A general agnostic active learning algorithm. NeurIPS 2007.
+
+S. Hanneke. Rates of convergence in active learning. The Annals of Statistics, 2011.
+
+A. Beygelzimer, S. Dasgupta, J. Langford. Importance weighted active learning. ICML 2009.
+
+A. Beygelzimer, D. Hsu, J. Langford, T. Zhang. Agnostic active learning without constraints. NeurIPS 2010.
+
+S. Hanneke. Theoretical Foundations of Active Learning. PhD Thesis, CMU, 2009.
+
+D. Hsu. Algorithms for Active Learning. PhD Thesis, UCSD, 2010.
+
+Y. Wiener, S. Hanneke, R. El-Yaniv. A compression technique for analyzing disagreement-based active learning. Journal of
+Machine Learning Research, 2015.
+
+S. Hanneke. Refined error bounds for several learning algorithms. Journal of Machine Learning Research, 2016.
+E. Friedman. Active learning for smooth problems. COLT 2009.
+
+S. Mahalanabis. Subset and Sample Selection for Graphical Models: Gaussian Processes, Ising Models and Gaussian Mixture
+Models. PhD Thesis, University of Rochester, 2012.
+
+S. Hanneke. Theory of Disagreement-Based Active Learning. Foundations and Trends in Machine Learning, 2014.
+
+ 
+
+S. Hanneke, L. Yang. Surrogate losses in passive and active learning. arXiv:1207.3772.
+ENDELEMENTPart 3: Beyond Disagreement-Based
+Active Learning — Current Directions
+
+ 
+
+Tutorial on Active Learning:
+
+Subregion-Based Active Learning Theory to Practice
+
+Margin-Based Active Learning: Linear Separators
+Shattering-Based Active Learning Steve Hanneke
+Distribution-Free Analysis, Optimality Toyota Technological Institute at Chicago
+
+TicToc: Adapting to Heterogeneous Noise steve.hanneke@gmail.com
+
+Tsybakov Noise Robert Nowak
+
+University of Wisconsin - Madison
+rdnowak@wisc.edu
+
+ 
+
+ 
+
+ 
+
+ICML | 2019
+
+Thirty-sixth International Conference on
+Machine Learning
+ENDELEMENTSubregion-Based Active Learning
+
+DIS(H) := {we 3 5f, f’ EH, f(x) 4 f'(x)}
+7 (Agnostic Active)
+for t = 1,2,... (til stopping-criterion)
+1. sample 2¢ unlabeled points $
+
+2. label points in Q = DIS(H) NS
+
+3. optimize f < argmin Ro(f)
+fH
+
+4. reduce H: remove all f with Ro(f) — Ro(f) > \/Polf # Ags
+
+ 
+
+Zhang & Chaudhuri, 2014
+ENDELEMENTSubregion-Based Active Learning shone & Chena, 2014
+DIS(H) = {x © X:3f, fl EH, f(x) # f'(w)}
+
+ 
+
+ 
+
+1. sample 2° unlabeled points
+Instead, pick region R.(H) s.t.
+Vf, f €H, Px(x € Re(H) : f(a) 4 f(a) < e.
+
+2. label points in Q = Re (H) NS
+
+ 
+
+3. optimize f < argmin Ro(f)
+fEH
+
+4. reduce H: remove all f with Ro(f) — Ro(f) > \/ Pol f # Aye Pick &! carefully each round,
+f R(f) — R(f*) < € at end
+
+ 
+
+e.g., Bounded noise: ¢’ « d2~*
+ENDELEMENTSubregion-Based Active Learning sang & Chad, 201
+
+DIS(H) := {x € ¥: Af, f’ EH, f(x) F f'(x)} Pick region R.(H) s.t.
+Vif €H, Px(a € Re(H) : f(x) 4 f(a) < €.
+
+ 
+
+ 
+
+Px (Rr/c(B(F*,7)))
+
+t ‘ _—_
+1. sample 2° unlabeled points S Ye “= sup
+
+2. label points in Q = Re(H)NS r>e
+
+3. optimize f < argmin Ro(f)
+fEH
+
+. . 7 - Theorem: with Bounded noise,
+4. reduce H: remove all f with Re(f) — Re(f) > VPalf 4 fig R(f) < R(f*) te using 4 labels
+
+ 
+
+~~ yed log (+)
+ENDELEMENTSubregion-Based Active Learning sang & Chad, 201
+
+DIS(H) := {x € ¥: Af, f’ EH, f(x) F f'(x)} Pick region R.(H) s.t.
+Vif €H, Px(a € Re(H) : f(x) 4 f(a) < €.
+
+ 
+
+ 
+
+Px (Rr/c(B(F*,7)))
+
+t ‘ _—_
+1. sample 2° unlabeled points S Ye “= sup
+
+2. label points in Q = Re(H)NS r>e
+
+3. optimize f < argmin Ro(f)
+fEH
+
+. . 7 - Theorem: with Bounded noise,
+4. reduce H: remove all f with Re(f) — Re(f) > VPalf 4 fig R(f) < R(f*) te using 4 labels
+
+ 
+
+~~ yed log (+)
+
+Px (Rrjc(B(f*,28+1)))
+2B+r
+
+ 
+
+‘ - oles
+Agnostic case: yo := sup
+
+r>e
+Theorem:
+
+R(f) < R(f*) + € using # labels
+~ ghd
+ENDELEMENTSubregion-Based Active Learning sang & Chad, 201
+
+How to find such an R.:(H)?
+e Re(H) = DIS(H) works
+e Empirically (Zhang & Chaudhuri, 2014)
+
+e Nice structure: e.g., Linear separators
+
+Pick region Re (H) s.t.
+Vf, f EH, Px(a € Re(H) : f(a) F f"(@)) < €.
+
+Ye = sup Px Rr jel BP)
+r>e
+
+Theorem: with Bounded noise,
+
+R(f) < R(f*) + € using # labels
+
+~ yed log (+)
+ENDELEMENTSubregion-Based Active Learning sang & Chad, 201
+
+How to find such an Re (H)? Pick region Re (H) s.t.
+Vf, f €H, Px(x € Re(H) : f(x) 4 f"(2)) < e.
+© Re (H) = DIS(H) works
+
+e Empirically (Zhang & Chaudhuri, 2014) Px (Ryje(B(f* r)))
+Yc :-= SUp rr
+e Nice structure: e.g., Linear separators r>eE
+
+Margin-based Active Learning
+
+D ta, Kalai, Monteleoni, 2005; . .
+DassuPtey der, Zhang ‘S007. ) Theorem: with Bounded noise,
+
+R(f) < R(f*) + € using # labels
+
+~ yed log (+)
+ENDELEMENTSubregion-Based Active Learning sang & Chad, 201
+
+How to find such an R,.(H)? Pick region Re (H) s.t.
+Vf, f €H, Px(x € Re(H) : f(x) 4 f"(2)) < e.
+
+e Nice structure: e.g., Linear separators
+
+Margin-based Active Learning
+
+(Dasgupta, Kalai, Monteleoni, 2005; Px (Rr/c(B(f* ,T)))
+
+Balcan, Broder, Zhang, 2007; ...) Ye = sup rr
+r>e
+
+Theorem: with Bounded noise,
+
+R(f) < R(f*) + € using # labels
+
+~ yed log (+)
+ENDELEMENTSubregion-Based Active Learning
+
+How to find such an R,.(H)? Pick region Re (H) s.t.
+Vf, f EH, Px(@ € Re(H) : f(x) 4 f'(a)) < e.
+e Nice structure: e.g., Linear separators
+Uniform Px on d-dim sphere
+Margin-based Active Learning
+(Dasgupta, Kalai, Monteleoni, 2005;
+
+* : *
+Balcan, Broder, Zhang, 2007; ...) For w € B(w v), project to Span(w,w )
+
+ 
+
+ 
+ENDELEMENTSubregion-Based Active Learning
+
+How to find such an R,.(H)? Pick region Re (H) s.t.
+Vf, f EH, Px(@ € Re(H) : f(x) 4 f'(a)) < e.
+e Nice structure: e.g., Linear separators
+Uniform Px on d-dim sphere
+Margin-based Active Learning
+(Dasgupta, Kalai, Monteleoni, 2005; * . *
+Balcan, Broder, Zhang, 2007; ...) For w € Bw v), project to Span(w,w )
+
+Most projected prob mass toward middle
+ENDELEMENTSubregion-Based Active Learning
+
+How to find such an R,.(H)? Pick region Re (H) s.t.
+Vf, f EH, Px(@ € Re(H) : f(x) 4 f'(a)) < e.
+e Nice structure: e.g., Linear separators
+Uniform Px on d-dim sphere
+Margin-based Active Learning
+(Dasgupta, Kalai, Monteleoni, 2005; * . *
+Balcan, Broder, Zhang, 2007; ...) For w € Bw v), project to Span(w,w )
+
+Most projected prob mass toward middle
+ENDELEMENTSubregion-Based Active Learning
+
+How to find such an R,.(H)? Pick region R.(H) s.t.
+Vf, f EH, Px(@ € Re(H) : f(x) 4 f'(a)) < e.
+e Nice structure: e.g., Linear separators
+
+Uniform Px on d-dim sphere
+
+Margin-based Active Learning
+(Dasgupta, Kalai, Monteleoni, 2005; « . *
+Balcan, Broder, Zhang, 2007; ...) For w € B(w v), project to Span(w,w )
+
+Most projected prob mass toward middle
+
+r/Vd r/va
+ae
+
+DIS({w, w*}) in
+slab of width = r
+
+Most of its prob in
+slab of width = r/Vd
+ENDELEMENTSubregion-Based Active Learning
+
+How to find such an R,.(H)? Pick region Re (H) s.t.
+Vf, f EH, Px(@ € Re(H) : f(x) 4 f'(a)) < e.
+e Nice structure: e.g., Linear separators
+Uniform Px on d-dim sphere
+Margin-based Active Learning
+(Dasgupta, Kalai, Monteleoni, 2005; * . x
+Balcan, Broder, Zhang, 2007; ...) For w ¢ B(w v), project to Span(w,w )
+
+Most projected prob mass toward middle
+
+DIS(B(f*,r)) =
+
+slab of width ® r
+DIS({w, w*}) in
+Take R,/-(B(f*,r)) = slab of width + r
+
+slab of width = r/Vd
+
+   
+
+Most of its prob in
+
+Prob in slab = Vd x width slab of width = r/Vd
+
+ 
+
+=> Ye < constant
+ENDELEMENTSubregion-Based Active Learning
+
+How to find such an R,.(H)? Pick region Re (H) s.t.
+Vf, f €H, Px(x € Re(H) : f(x) 4 f"(2)) < e.
+
+e Nice structure: e.g., Linear separators .
+° P Px (Rrye(BCF*7)))
+r
+
+Margin-based Active Learning Pe := uP
+(Dasgupta, Kalai, Monteleoni, 2005;
+Balean = OS Theorem: with Bounded noise,
+
+R(f) < R(f*) + using # labels
+
+DIS(B(f*,r)) = : ~ Ycd log (+)
+slab of width  r g
+
+ 
+
+ 
+
+Take R,/-(B(f*,r)) = 7 1
+
+slab of width ~ r/Vd => 7 labels © dlog(~) suffice Recall: ;
+Passive © ©
+
+Prob in slab & Vd x width Comparison:
+
+ 
+
+ 
+
+ 
+
+  
+
+ 
+
+Recall 6 = Vd
+= A? # labels ~ d?/? log()
+
+=> Ye < constant
+ENDELEMENTMargin-Based Active Learning (Balcan, Broder, Zhang, 2007; ...)
+
+=
+
+ 
+
+1. sample d2‘ unlabeled points S
+
+2. label points inQ=allzreESs.t.<w&,c> < c2*/
+
+3. optimize @+ argmin Ro(w)
+w:||w—al|<e2-t
+
+output final w
+
+ 
+
+Uniform Px on d-dim sphere
+ENDELEMENTM 2 regi n- Ba sed Active lea rm | n g (Balcan, Broder, Zhang, 2007; ...)
+
+=
+
+ 
+
+1. sample d2‘ unlabeled points 9’
+
+2. label points inQ=allzreESs.t.<w&,c> < c2*/
+
+3. optimize #<+  —argmin Ro(w)
+w:||w—w||<c'2-t
+
+output final w
+
+ 
+
+Uniform Px on d-dim sphere
+ENDELEMENTMargin-Based Active Learning (Balcan, Broder, Zhang, 2007; ...)
+
+ 
+
+1. sample d2‘ unlabeled points 9’
+
+2. label points inQ=allzreESs.t.<w&,c> < c2*/
+
+3. optimize #<+  —argmin Ro(w)
+w:||w—w||<c'2-t
+
+output final w
+
+ 
+
+Uniform Px on d-dim sphere
+ENDELEMENTM 2 regi n- Ba sed Active lea rm | n g (Balcan, Broder, Zhang, 2007; ...)
+
+ 
+
+1. sample d2‘ unlabeled points 9’
+
+2. label points inQ=allzreESs.t.<w&,c> < c2*/
+
+3. optimize #<+  —argmin Ro(w)
+w:||w—w||<c'2-t
+
+output final w
+
+ 
+
+Uniform Px on d-dim sphere
+ENDELEMENTM 3 regi n- Ba sed Active lea rm | ng (Balcan, Broder, Zhang, 2007; ...)
+
+=
+
+ 
+
+1. sample d2‘ unlabeled points 9’
+
+2. label points inQ=allzreESs.t.<w&,c> < c2*/
+
+3. optimize #<+  —argmin Ro(w)
+w:||w—wa||<c'2-t
+
+output final w
+
+ 
+
+Uniform Px on d-dim sphere
+ENDELEMENTM 2 regi n- Ba sed Active lea rm | n g (Balcan, Broder, Zhang, 2007; ...)
+
+=
+
+ 
+
+1. sample d2* unlabeled points S
+
+2. label points in Q=allre Ss.t.<wd,2> < c2*/
+
+3. optimize w+ —argmin Ro(w)
+w:||w—a||<c'2-t
+
+ 
+
+output final w
+
+Uniform Px on d-dim sphere
+Theorem: with Bounded noise,
+
+R(f) < R(f*) + € using # labels
+~) dlog(4)
+
+(also works for isotropic log-concave distributions)
+ENDELEMENTComputational Efficiency (Avast Baka, Log, 2044.
+
+Uniform Px on d-dim sphere
+
+1. sample d2‘ unlabeled points 9’
+
+2. label points inQ=allzreESs.t.<w&,c> < c2*/
+
+3. optimize w+ —_ argmin R6(w)
+w:||w—w||<c'2-t
+
+ 
+
+output final w
+
+Surrogate loss
+b(<w,a>,y) © max{1— 2'Vd(y<w,x>), 0}
+
+Hinge loss slope changes each round
+ENDELEMENTComputational Efficiency (Avast Baka, Log, 2044.
+
+Uniform Px on d-dim sphere
+
+Theorem: with Bounded noise,
+R(f) < R(f*) + € using # labels
+i] dlog(+)
+
+1. sample d2* unlabeled points S and running in polynomial time
+
+,2,... (til stopping-criterion)
+
+2. label points in Q=allre Sst. <w,2> < c2*/Vd
+
+3. optimize ®@< —_ argmin R6(w)
+w:||w—a||<c'2-t
+
+output final w
+
+ 
+
+Surrogate loss
+b(<w,2>,y) ¥ max{1 — 2'/d(y<w,2>),0}
+
+Hinge loss slope changes each round
+ENDELEMENTComputational Efficiency (Avast Baka, Log, 2044.
+
+Uniform Px on d-dim sphere
+
+Theorem: with Bounded noise,
+R(f) < R(f*) + € using # labels
+i] dlog(+)
+
+and running in polynomial time
+
+,2,... (til stopping-criterion)
+1. sample d2* unlabeled points S
+
+2. label points in Q=allre Ss.t.<,2> < c2*/
+
+3. optimize d< = argmin RY (w) . .
+wiw—alise2-t © Theorem: with Agnostic case,
+
+output final R(f) < CR(f*) in polynomial time
+
+ 
+
+Surrogate loss
+
+(was first alg. known to achieve these; even passively)
+
+b(<w,2>,y) ¥ max{1 — 2'/d(y<w,2>),0}
+
+(also works for isotropic log-concave distributions)
+Hinge loss slope changes each round
+ENDELEMENTUp Next:
+Shattering-Based Active Learning
+ENDELEMENTShattering-Based Active Learning (Hamme, 2009, 201
+
+Recall: H shatters 71,..., xp if
+all 2 classifications realized by H
+
+DIS(H) checks for shattering 1 point.
+
+Idea: Generalize to shattering > 1 points.
+ENDELEMENTShattering-Based Active Learning (Hamme, 2009, 201
+
+Recall: H shatters 71,..., xp if
+all 2 classifications realized by H
+
+(Agnostic Active)
+for t= 1,2,... (til stopping-criterion)
+
+1. sample 2‘ unlabeled points S
+
+DIS(H) checks for shattering 1 point.
+
+ 
+
+2. label points in Q = DIS(H)NS'
+Idea: Generalize to shattering > 1 points.
+
+3. optimize f + argmin Ro(f)
+fEH
+
+4. reduce H: remove all f with Ro(f) — Ro(f) > \/Polf # Ags
+
+ 
+ENDELEMENTShattering-Based Active Learning (Hamme, 2009, 201
+
+Recall: H shatters x1,..., 2% if
+all 2 classifications realized by H
+
+ 
+
+for t = 1,2,... (til stopping-criterion)
+
+1. sample 2! unlabeled points 9
+
+DIS(H) checks for shattering 1 point.
+
+2. label points in Q = all x € S's.t. <
+PE(A € X*: H shatters AU {x}|H shatters A) > 5
+
+ 
+
+Idea: Generalize to shattering > 1 points.
+
+3. optimize f < argmin Ro(f)
+fH
+
+4. reduce H: remove all f with Ro(f) — Ro(f) > \/Polf # Ags
+
+ 
+ENDELEMENTShatte rl ng-Ba sed Active Learni ng (Hanneke, 2009, 2012)
+
+Recall: H shatters x1,..., 2% if
+all 2 classifications realized by H
+
+ 
+
+for t = 1,2,... (til stopping-criterion)
+
+. sample 2¢ unlabeled points S$
+
+DIS(H) checks for shattering 1 point.
+
+ 
+
+. label points in Q = all « € S s.t. <
+n ke. 1 : : :
+Px(A € &©: H shatters AU {x}|H shatters A) > 9 Idea: Generalize to shattering > 1 points.
+. add the remaining points x € S to Q with label
+$x = argmax Pk(A € X* : Hzy shatters A|H shatters A) Denote Hey = {h EH: h(x) = y}
+y
+
+. optimize f — argmin Ro(f)
+fEH
+
+. reduce H: remove all f with Ro(f) — Ro(f) > /Polf # Aer
+
+ 
+ENDELEMENTShattering-Based Active Learning
+
+Recall: H shatters 71,..., x, if Example: Linear separators, Uniform Px on circle
+all 2 classifications realized by H Suppose true labels are all —1
+
+ 
+
+DIS(H) = entire circle
+
+. sample 2! unlabeled points 9
+
+. label points in Q = all « € S s.t.
+PK(A € &* : H shatters AU {x}|H shatters A) >
+
+. add the remaining points « € S to Q with label
+$x = argmax Pk(A € X* : Hzy shatters A|H shatters A)
+y
+
+. optimize f — argmin Ro(f)
+fEH
+
+. reduce H: remove all f with Ro(f) - Ro(f) > /Polf ea Ae
+
+ 
+
+Denoting Hz y := {h €H: h(x) = y}
+ENDELEMENTShattering-Based Active Learning
+
+Recall: H shatters 71,..., xp if
+all 2 classifications realized by H
+
+ 
+
+, ++» (til stopping-criterion)
+1. sample 2° unlabeled points S$
+
+2. label points in Q = all x € S's.t.
+PK(A € &* : H shatters AU {x}|H shatters A) >
+
+3. add the remaining points z € S to Q with label
+Qa ‘= argmax PE(A E Ges ¢ Hey shatters A|H shatters A)
+y
+
+4. optimize f + argmin Ro(f)
+fEH
+
+5. reduce H: remove all f with Ro(f) —
+
+)> / Pal FFAG
+
+Denoting Hz y := {h €H: h(x) = y}
+
+ 
+
+Example: Linear separators, Uniform Px on circle
+Suppose true labels are all —1
+
+random 2’
+
+(A= {a"})
+
+     
+
+DIS(H) = entire circle
+
+  
+      
+
+Tryk=1
+
+Given sample x
+Rand 2’ probably not close
+
+Can’t shatter {zx, x}
+
+‘ . sample point x
+without a lot of points wrong
+
+a
+
+ 
+   
+
+So won’t query x
+ENDELEMENTShattering-Based Active Learning
+
+Recall: H shatters 71,..., xp if
+all 2 classifications realized by H
+
+ 
+
+, ++» (til stopping-criterion)
+1. sample 2° unlabeled points S$
+
+2. label points in Q = allae€ S's.t.
+Pk(A€ &*: H shatters AU {x}|H shatters A) > $
+. add the remaining points x € S to Q with label
+Qa ‘= argmax PE(A E Ges ¢ Hey shatters A|H shatters A)
+y
+. optimize f + argmin Ro(f)
+fEH
+. reduce H: remove all f with Ro(f) —
+
+)> / Pal FFAG
+
+Denoting Hz y := {h €H: h(x) = y}
+
+ 
+
+Example: Linear separators, Uniform Px on circle
+Suppose true labels are all —1
+
+random 2’
+
+(A= {a"})
+
+    
+
+DIS(H) = entire circle
+
+  
+      
+
+Tryk=1
+
+Given sample x
+Rand 2’ probably not close
+
+Can’t shatter {zx, x}
+
+‘ . sample point x
+without a lot of points wrong
+
+a
+
+ 
+   
+
+So won’t query x
+DIS(Hz,—1) still entire circle (minus 2)
+
+DIS(Hz,+1) small region
+> Vx =-l
+ENDELEMENTShattering-Based Active Learning
+
+Recall: H shatters 71,..., xp if
+all 2 classifications realized by H
+
+ 
+
+, ++» (til stopping-criterion)
+1. sample 2° unlabeled points S$
+
+2. label points in Q = allae€ S's.t.
+Pk(A€ &*: H shatters AU {x}|H shatters A) > $
+. add the remaining points x € S to Q with label
+Qa ‘= argmax PE(A E Ges ¢ Hey shatters A|H shatters A)
+y
+. optimize f + argmin Ro(f)
+fEH
+. reduce H: remove all f with Ro(f) —
+
+)> / Pal FFAG
+
+Denoting Hz y := {h €H: h(x) = y}
+
+ 
+
+Example: Linear separators, Uniform Px on circle
+Suppose true labels are all —1
+
+random 2’
+
+(A= {a"})
+
+     
+
+DIS(H) = entire circle
+
+  
+      
+
+Tryk=1
+
+Given sample x
+Rand 2’ probably not close
+
+Can’t shatter {zx, x}
+
+‘ . sample point x
+without a lot of points wrong
+
+ae
+
+ 
+   
+
+So won’t query x
+DIS(Hz,—1) still entire circle (minus 2)
+
+DIS(Hz,+1) small region
+> Vx =-l
+ENDELEMENTShattering-Based Active Learning
+
+Recall: H shatters 71,..., xp if
+all 2 classifications realized by H
+
+ 
+
+, ++» (til stopping-criterion)
+1. sample 2° unlabeled points S$
+
+2. label points in Q = all x € S's.t.
+PK(A € &* : H shatters AU {x}|H shatters A) >
+
+3. add the remaining points z € S to Q with label
+Qa ‘= argmax PE(A E Ges ¢ Hey shatters A|H shatters A)
+y
+
+4. optimize f + argmin Ro(f)
+fEH
+
+5. reduce H: remove all f with Ro(f) —
+
+)> / Pal FFAG
+
+Denoting Hz y := {h €H: h(x) = y}
+
+ 
+
+Example: Linear separators, Uniform Px on circle
+Suppose true labels are all —1
+
+random 2’
+
+(A= {a"})
+
+     
+
+DIS(H) = entire circle
+
+  
+      
+
+Tryk=1
+
+Given sample x
+Rand 2’ probably not close
+
+Can’t shatter {zx, x}
+
+‘ . sample point x
+without a lot of points wrong
+
+x
+
+ 
+   
+
+So won’t query x
+DIS(Hz,—1) still entire circle (minus 2)
+
+DIS(Hz,+1) small region
+> Vx =-l
+ENDELEMENTShattering-Based Active Learning
+
+Recall: H shatters x1,..., 2% if
+all 2 classifications realized by H
+
+Generally, need to try various k and pick one
+(See the papers)
+
+ 
+
+for t = 1,2,... (til stopping-criterion)
+. sample 2¢ unlabeled points S$
+
+. label points in Q = all « € S s.t.
+Pk(A € X* : H shatters AU {x}|H shatters A) > }
+
+. add the remaining points « € S to Q with label
+$x = argmax Pk(A € X* : Hzy shatters A|H shatters A)
+y
+
+. optimize f — argmin Ro( f)
+fEH
+
+. reduce H: remove all f with Ro(f) — Ro(f) > /Polf # Aer
+
+ 
+
+Denoting Hz y := {h €H: h(x) = y}
+ENDELEMENTShattering-Based Active Learning
+
+Recall: H shatters 71,..., xp if
+all 2 classifications realized by H
+
+ 
+
+1. sample 2° unlabeled points S$
+
+2. label points in Q = allae€ S's.t.
+PK(A € &* : H shatters AU {x}|H shatters A) >
+
+3. add the remaining points z € S to Q with label
+$x = argmax Pk(A € X* : Hzy shatters A|H shatters A)
+y
+
+4. optimize f «+ argmin Ro(f)
+fEH
+
+5. reduce H: remove all f with Ro(f) - Ro(f) > /Polf ea Ae
+
+Denoting Hz y := {h €H: h(x) = y}
+
+ 
+
+Generally, need to try various k and pick one
+(See the papers)
+
+alk) p Peer ®:B(f*,r) shatters A)
+
+r
+
+[= su
+r>e
+
+d:= min{ k : PE(A € X* : B(f*,r) shatters A) mand o}
+r
+
+6 := 09
+Theorem: For Bounded noise, R(f) < R(f*) +€
+
+with # labels -
+= Céd log (+)
+
+Note: 6< +
+ENDELEMENTShattering-Based Active Learning
+
+Recall: H shatters 71,..., xp if
+all 2 classifications realized by H
+
+ 
+
+1. sample 2° unlabeled points S$
+
+2. label points in Q = allae€ S's.t.
+Pk(A € X* : H shatters AU {x}|H shatters A) > }
+
+. add the remaining points « € S to Q with label
+$x = argmax Pk(A € X* : Hzy shatters A|H shatters A)
+y
+
+. optimize f + argmin Ro(f)
+fEH
+
+. reduce H: remove all f with Ro(f) - Ro(f) > /Polf ea Ae
+
+Denoting Hz y := {h €H: h(x) = y}
+
+ 
+
+Generally, need to try various k and pick one
+(See the papers)
+gtk) p Peer ®:B(f*,r) shatters A)
+
+:= 8u r
+
+r>e
+
+d:= min{ k : PE(A € X* : B(f*,r) shatters A) mand o}
+r
+
+6 := 09
+Theorem: For Bounded noise, R(f) < R(f*) +€
+
+with # labels -
+= Céd log (+)
+
+Note: 6 < +
+In the example: 6 = 2,0 = 4
+
+€
+ENDELEMENTShattering-Based Active Learning
+
+Recall: H shatters 71,..., xp if
+all 2 classifications realized by H
+
+ 
+
+1. sample 2° unlabeled points S$
+
+2. label points in Q = allae€ S's.t.
+Pk(A € X* : H shatters AU {x}|H shatters A) > }
+
+3. add the remaining points z € S to Q with label
+$x = argmax Pk(A € X* : Hzy shatters A|H shatters A)
+y
+
+4. optimize f + argmin Ro(f)
+fEH
+
+5. reduce H: remove all f with Ro(f) - Ro(f) > /Polf ea Ae
+
+Denoting Hz y := {h €H: h(x) = y}
+
+ 
+
+Generally, need to try various k and pick one
+(See the papers)
+
+lk)
+
+[= su
+r>e
+
+p Peer ®:B(f*,r) shatters A)
+r
+
+d:= min{ k : PE(A € X* : B(f*,r) shatters A) —> o}
+r>0
+”) = og)
+
+Theorem: For Bounded noise, R(f) < R(f*) +e
+with # labels -
+
+~ Cod log (+)
+Note: <1 (may depend on f*, Px)
+
+In the example: @ = 2, 0 = +
+
+€
+ENDELEMENTUp Next:
+Distribution-free Analysis
+ENDELEMENTDistribution-Free Analysis anneke Yang, 2015)
+
+0, Y, 6 depend on f*, Py.
+
+Can we do sample complexity analysis without distribution-dependence?
+
+ 
+
+Definition: The star number s is the largest k s.t. dho,hi,..., he € H,
+day,...,tRE XK st. VIE {1, - .,k}, {xj 4 hi(a;) x ho(x;)} = {x;}.
+
+ 
+
+ 
+
+ 
+ENDELEMENTDistribution-Free Analysis anneke Yang, 2015)
+
+0, Y, 6 depend on f*, Py.
+
+Can we do sample complexity analysis without distribution-dependence?
+
+ 
+
+Definition: The star number s is the largest k s.t. dho,hi,..., he € H,
+day,...,tRE XK st. VIE {1, - .,k}, {xj 4 hi(a;) x ho(x;)} = {x;}.
+
+ 
+
+Example: Thresholds: f(x) = I[x > ¢].
+
+5§=2.
+
+ 
+
+ 
+ENDELEMENTDistribution-Free Analysis anneke Yang, 2015)
+
+0, Y, 6 depend on f*, Py.
+
+Can we do sample complexity analysis without distribution-dependence?
+
+ 
+
+Definition: The star number s is the largest k s.t. dho,hi,..., he € H,
+day,...,tRE XK st. VIE {1, - .,k}, {xj 4 hi(a;) x ho(x;)} = {x;}.
+
+ 
+
+Example: Linear Separators in R”, n > 2:
+
+ 
+
+  
+ENDELEMENTDistribution-Free Analysis
+
+0, Y, 6 depend on f*, Py.
+
+Can we do sample complexity analysis without distribution-dependence?
+
+Definition: The star number s is the largest k s.t. dho,hi,..., he € H,
+day,...,tRE XK st. VIE {1, - .,k}, {xj 4 hi(a;) x ho(x;)} = {x;}.
+
+ 
+
+ 
+
+Example: Intervals: «++ Ifa < « < D]
+
+ 
+
+Intervals of width w (b—a=w > 0) on ¥ = [0,1]: s = [4].
+
+ 
+
+ 
+
+(Hanneke & Yang, 2015)
+ENDELEMENTDistribution-Free Analysis fanaa 2010) 8
+
+0, Y, 6 depend on f*, Py.
+
+Can we do sample complexity analysis without distribution-dependence?
+
+ 
+
+Definition: The star number s is the largest k s.t. dho,hi,..., he € H,
+day,...,tRE XK st. VIE {1, - .,k}, {xj 4 hi(a;) x ho(x;)} = {x;}.
+
+ 
+
+Theorem: sup sup @ = sup sup ¥ = sup sup 6 = min{s, +} =! 5.
+Px f*eH Px f*eH Px f*eH
+
+Corollary:
+Bounded noise # labels © s-dlog(+)
+
+Agnostic (6 = R(f*)) # labels = 53d 5,
+
+Achieved by A?
+
+ 
+
+ 
+ENDELEMENTDistribution-Free Analysis fanaa 2010) 8
+
+0, Y, 6 depend on f*, Py.
+
+Can we do sample complexity analysis without distribution-dependence?
+
+ 
+
+Definition: The star number s is the largest k s.t. dho,hi,..., he € H,
+day,...,tRE XK st. VIE {1, - .,k}, {xj 4 hi(a;) x ho(x;)} = {x;}.
+
+ 
+
+  
+   
+
+Theorem: sup sup @ = sup sup ¥ = sup sup 6 = min{s, +} =! 5.
+
+Px f*cH Px f*cH Px f*cH
+Corollary: Different alg., Bounded noise
+Bounded noise # labels © s-dlog(+) # labels © s,/4 log(2)
+Agnostic (6 = R(f*)) # labels = 53d 5,
+
+Near-matching lower bound:
+
+1
+Achieved by A? $_ + dlog(=)
+
+ 
+ENDELEMENTDistribution-Free Analysis fanaa 2010) 8
+
+0, Y, 6 depend on f*, Py.
+
+Can we do sample complexity analysis without distribution-dependence?
+
+ 
+
+Definition: The star number s is the largest k s.t. dho,hi,..., he € H,
+day,...,tRE XK st. VIE {1, - .,k}, {xj 4 hi(a;) x ho(x;)} = {x;}.
+
+ 
+
+Theorem: sup sup @ = sup sup ¥ = sup sup 6 = min{s, +} =! 5.
+Px f*eH Px f*eH Px f*eH
+
+Corollary: Different alg., Bounded noise Open Question:
+Bounded noise # labels = & s-dlog(+) # labels © S¢/q log(2) Agnostic (8 = R(f*))
+: labels
+Agnostic (8 = R(f*)) # labels = 53d5 i
+gnostic (8 (*)) # labels ~ 55 “ Near-matching lower bound: ~ ds + Se/a log(+) ?
+1
+Achieved by A? S_ + dlog(¢)
+
+ 
+
+lower bound:
+d5 +5.+ dlog(+)
+ENDELEMENTAdapting to Heterogeneous Noise
+
+So far: Active learning for spatial heterogeneity of opt function:
+
+ 
+
++
+
+Nal ir Pro "| +
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Also consider: Spatial heterogeneity of noise:
+_
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+n(x) := E[Y|X =z] 0
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+-1
+
+ 
+ENDELEMENTActive Learning with TicToc Bsn eam)
+
+(Algorithm: A(n)
+Imput: Label budget n
+Output: Classifier fp.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+1. be . .
+
+b For OF 12... An active learning alg.
+B. X,,, <— GETSEED(L,m) < (e.g. A?)
+
+4. Ly, < TicToo(x,,,,m) < '
+
+5. if Ly» exists, L + LU {(sm,£m)} ———— Main new part
+
+6. If we’ve made n queries
+
+7. Return fn < LEARN(L)< A passive learning alg.
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTActive Learning with TicToc Bsn eam)
+
+ 
+
+(Algorithm: A(n)
+Imput: Label budget n
+Output: Classifier fp.
+
+ 
+
+ 
+
+1
+2
+3.
+MH.
+5
+6
+7
+
+.L+¢ {}
+. Form =1,2,...
+X,,, <- GETSEED(L, m)
+Lm < TicToco(X,,,,m)
+if Ly», exists, L + LU {(8m, Lm) }
+If we’ve made n queries
+Return f, <— LEARN(L)
+
+ 
+
+ 
+
+Denote n(x) = E[Y|X = a]
+Suppose f* is the global optimal function: f*(x) = sign(n(2))
+
+ 
+
+ 
+
+ 
+
+1cToc(X, m):
+uery X (or nearby) to try to guess f*(X)
+f can figure it out, return that label
+f can’t figure it out by Tm queries give up (don’t return a label
+
+ 
+
+Focus queries on less-noisy points.
+
+Double advantage:
+
+e Focusing on the points we actually care about:
+R(f lx) — R(f* |x) = |n(a) LP (@) 4 f*(a)]
+
+(small |7(x)| = not much effect on R(f|x) if f(a) = f*(a) or not).
+
+e And those points require fewer queries to determine f*(X;)!
+
+ 
+
+~ a? queries
+ito determine f*(X;)
+
+ 
+
+ 
+
+ 
+ENDELEMENTActive Learning with TicToc Bsn eam)
+
+ 
+
+(Algorithm: A(n)
+Imput: Label budget n
+Output: Classifier fp.
+
+ 
+
+1. L< {}
+
+2. For m=1,2,...
+
+3. Xs,, < GETSEED(L, m)
+
+4. Ly + TicToc(X,g,,,m)
+
+5. if Lm exists, L ~ LU {(5m,£m)}
+6. If we’ve made n queries
+
+7 Return f, <— LEARN(L)
+
+ 
+
+Denote n(x) = E[Y|X = a]
+Suppose f* is the global optimal function: f*(x) = sign(n(2))
+
+ 
+
+ 
+
+ 
+
+1cToc(X, m):
+uery X (or nearby) to try to guess f*(X)
+f can figure it out, return that label
+f can’t figure it out by Tm queries give up (don’t return a label
+
+ 
+
+ 
+
+ 
+
+Theorem: Bounded noise: # labels
+~ 8<jalog(t)
+
+Focus queries on less-noisy points.
+
+Double advantage:
+
+e Focusing on the points we actually care about:
+R(f lx) — R(f* |x) = |n(a) LP (@) 4 f*(a)]
+
+(small |7(x)| = not much effect on R(f|x) if f(a) = f*(a) or not).
+
+e And those points require fewer queries to determine f*(X;)!
+
+ 
+
+~ a? queries
+ito determine f*(X;)
+
+ 
+
+ 
+
+ 
+ENDELEMENTActive Learning with TicToc Bsn eam)
+
+ 
+
+ 
+
+ 
+
+ 
+
+(Algorithm: A(n) Denote n(x) = ElY|X = a] ; ; . ;
+Input: Label budget n Suppose f* is the global optimal function: f*(x) = sign(n(2))
+Output: Classifier f,. TCTOC(A, m):
+LLeg uery X (or nearby) to try to guess f*(X)
+» Form =1.2 f can figure it out, return that label
+, ee f can’t figure it out by Tm queries give up (don’t return a label
+3. Xs,, < GETSEED(L, m)
+4. Ly, + TicToc(X.,,,m) Focus queries on less-noisy points.
+5. if Lm exists, L + LU {(5m, L£m)}
+6. If we’ve made n queries Double advantage:
+7 Return f, <— LEARN(L)
+
+ 
+
+ 
+
+ 
+
+e Focusing on the points we actually care about:
+
+Theorem: Agnostic (8 = R(f*)) R _ R(f*le) = I
+
+and suppose f* = global best: (f\x) — R(f*|x) = In(a)|I[F(@) 4 f(a)
+
+# labels (small |7(x)| => not much effect on R(f|x) if f(a) = f*(x) or not).
+x ds + 8-/q log(+)
+
+. . . e And those points require fewer queries to determine f*(X;)!
+Confirms agnostic sample complexity conjecture
+
+I faq
+but with extra assumption f* = global opt. ~ goa Gueties
+ito determine f*(X;)
+
+ 
+
+ 
+
+ 
+
+ 
+
+Near-match lower bound: ds + 5+ dlog(+)
+ENDELEMENTPrinciples of Active Learning
+
+1. Query in dense regions where f could disagree a lot with f*
+
+2. Query in regions with low noise
+ENDELEMENTTsybakov Noise
+The alg. adapts to heterogeneity in the noise.
+
+Let’s try it with a model that explicitly describes
+heterogeneous noise:
+
+Tsybakov Noise
+ENDELEMENT. (Tsybakov, 2004;
+Tsy b a kov N O | S e Mammen & Tsybakov 1999)
+Denote n(x) = E[Y|X = a]
+Definition: (Tsybakov noise)
+
+f*(x) = sign(n(a)) and da € (0,1) s.t. Vr > 0,
+Px(a:|n(a)| <7) Sth.
+
+ 
+ENDELEMENT. (Tsybakov, 2004;
+Tsy b a kov N O | S e Mammen & Tsybakov 1999)
+
+Denote (a) = E[Y|X = a]
+
+ 
+
+ 
+
+ 
+
+ 
+
+Definition: (Tsybakov noise)
+f*(x) = sign(n(a)) and da € (0,1) s.t. Vr > 0,
+Px (a: |n(@)| <7) STs.
+
+ 
+
+Example: Behavior at 0
+enavior a
+Thresholds 1 n(x) determines a
+0
+-1
+
+(unif. distrib)
+ENDELEMENTTsybakov Noise
+
+Denote (a) = E[Y|X = a]
+
+ 
+
+ 
+
+ 
+
+ 
+
+Definition: (Tsybakov noise)
+f*(x) = sign(n(a)) and da € (0,1) s.t. Vr > 0,
+Px (a: |n(@)| <7) STs.
+
+ 
+
+Passive OPT: 0 (a4:). (Massart & Nédélec, 2006)
+
+Active OPT:
+
+(roughly)
+
+ate if0<a<1/2
+min {4s (§) 4} if 1/2<a<1
+| |
+
+Y J
+1 if
+xt ws <c
+
+ifs = co!
+
+(Hanneke & Yang, 2015)
+
+ 
+
+ 
+
+@?
+Active Opt < Passive Opt.
+(always)
+ENDELEMENTConclusions
+
+e Many proposals for going beyond Disagreement-based Active Learning
+e Each exhibits improvements in certain cases
+e We still don’t know the optimal agnostic active learning algorithm
+
+2
+d& + 8/4 10g(+)
+ENDELEMENTQuestions?
+
+Further reading:
+
+S. Dasgupta, A. Kalai, C. Monteleoni. Analysis of perceptron-based active learning. COLT 2005.
+M. F. Balcan, A. Broder, T. Zhang. Margin based active learning. COLT 2007.
+
+P. Awasthi, M. F. Balcan, P. Long. Journal of the ACM, 2017.
+
+S. Hanneke. Theoretical Foundations of Active Learning. PhD Thesis, CMU, 2009.
+
+S. Hanneke. Activized learning: Transforming passive to active with improved label complexity. Journal of Machine Learning
+Research, 2012.
+
+C. Zhang, K. Chaudhuri. Beyond disagreement-based agnostic active learning. NeurIPS 2014.
+
+R. M. Castro, R. D. Nowak. Minimax bounds for active learning. IEEE Transactions on Information Theory, 2008.
+R. M. Castro, R.D. Nowak. Upper and lower error bounds for active learning. Allerton 2006.
+
+S. Dasgupta. Coarse sample complexity bounds for active learning. NeurIPS 2005.
+
+S. Hanneke, L. Yang. Minimax analysis of active learning. Journal of Machine Learning Research, 2015.
+
+S. Hanneke. Refined error bounds for several learning algorithms. Journal of Machine Learning Research, 2016.
+
+M. F. Balcan, S. Hanneke, J. Wortman Vaughan. The true sample complexity of active learning. Machine Learning, 2010.
+ENDELEMENTActive Learning from
+Theory to Practice
+
+  
+ 
+
+Sa. : an i> Steve Hanneke
+A, & jan Toyota Technological
+ADs ee Institute at Chicago
+P R(io-rax <olutyy = a” steve.hanneke@gmail.com
++ fP( (6,-0,f xeolyeD 3h. £
+bsg “+ Robert Nowak
+UW-Madison
+
+rdnowak@wisc.edu
+
+ICML | 2019
+
+Thirty-sixth International Conference on
+Machine Learning
+ENDELEMENTTutorial Outline
+
+‘@- @:_.. e:
+Phaall i x ® «
+‘@> ‘@ ‘®
+
+Active Learning = “ ‘af ‘
+From Theory <O me goes
+to Practice Tem = ere
+
+Part 1: Introduction to Active Learning (Rob)
+Part 2: Theory of Active Learning (Steve)
+Part 3: Advanced Topics and Open Problems (Steve)
+
+Part 4: Nonparametric Active Learning (Rob)
+
+slides: http://nowak.ece.wisc.edu/ActiveML.html
+ENDELEMENTConventional (Passive) Machine Learning
+
+unlabeled
+raw data
+
+Bi
+
+P
+ham
+{
+
+/
+
+* mrs
+
+_—
+
+labeled
+
+human data machine predictive
+labeling learning model
+
+a TO) eG ras
+Lida em -. * ye » “sy
+Smee > »”
+os ewe id ol es
+wl aa |i rat
+ENDELEMENTALL SYSTEMS GO 2}
+
+theguardian oeaen?
+
+Google says its new Al-powered
+Computers now better than humans at translation tool scores nearly identically to
+recognising and sorting images human translators
+
+millions of labeled images ;
+; trained on more texts than a
+1000’s of human hours ; or
+human could read in a lifetime
+
+Can we train machines with less labeled
+data and less human supervision?
+ENDELEMENTActive Machine Learning
+
+“TT | =i
+
+“1 ey Goal: machine automatically
+; v and adaptively selects most
+
+N
+
+‘ informative data for labeling
+
+machine
+learning
+
+        
+ 
+
+labeled
+unlabeled human data
+raw data labeling
+
+data fal
+
+predictive
+model
+
+ 
+
+algorithm
+
+ 
+ENDELEMENTMotivating Application
+
+ 
+
+ 
+
+ 
+
+ 
+
+E : | = = =e ; prediction rule
+ES 2S that can be applied
+F Tt wt to unlabeled EHRs
+
+ 
+
+unlabeled electronic
+health records (EHRs)
+
+    
+
+= ©
+
+a=
+
+  
+
+cataracts cai A
+
+human experts
+
+provides labels to machine learner
+(several minutes / EHR)
+
+ 
+ENDELEMENTActive Learning
+
+Non-adaptive strategy: Label a random sample
+
+Active strategy: Label a sample near best
+decision boundary based on labels seen so far
+
+ 
+
+EHR feature 2
+
+ 
+
+best linear classifier
+
+ 
+
+ 
+
+ 
+
+EHR feature 1
+
+error rate €
+
+ 
+  
+ 
+
+active learning finds optimal
+classifier with much less
+human supervision!
+
+ 
+ 
+
+# labels
+ENDELEMENTTotal error
+
+0.26
+
+0.24
+
+0.22
+
+0.20
+
+0.10
+
+0.08
+
+100
+
+Active Logistic Regression
+
+Error Rates on Cataract Data
+
+ 
+
+200 300
+Number of training samples
+
+—— active learning
+—— passive learning
+
+11000 patient records
+8000 positive
+3000 negative
+
+6182 Numerical Features
+icd9 codes
+lab tests
+patient data
+
+Classification task:
+cataracts or healthy
+
+400 §00
+
+less than half as many labeled
+examples needed by active learning
+ENDELEMENTnextml.org
+
+NEXT
+
+ASK BETTER QUESTIONS.
+GET BETTER RESULTS.
+FASTER. AUTOMATED.
+ENDELEMENTActive learning to optimize crowdsourcing and
+rating in New Yorker Cartoon Caption Contest
+
+How-New Yorker cartoons could teach
+computers to be funny
+
+The a
+
+BY DOING THE EXACT OPPOSITE
+How New Yorker Cartoons
+Could Teach Computers To
+Be Funny
+
+3diggs CNET Technology
+
+With the help of computer scientists from the
+University of Wisconsin at Madison, The New
+Yorker for the first time is using
+
+crowdsourcing algorithms to uncover the
+best captions.
+
+ 
+ENDELEMENTActively learning user’s beer preferences
+
+is) Beer € isis Taide * “aa
+
+Discover better beer.
+
+ 
+
+Two Brothers Northwind
+imperial Stout
+
+ 
+
+ 
+
+The most powerful beer app on the planet.
+ENDELEMENTPrinciples of Active Learning
+ENDELEMENTWhat and Where Information
+
+ 
+
+ 
+
+ 
+
+ 
+
+p(yla)
+Density estimation: What is p(y|x)?
+Classification: Where is p(y|x) > 0? x
+x
+Density estimation: What is p(x)? P(x)
+Clustering: Where is p(x) > €? v
+E[y|a]
+Function estimation: What is E/y|a]?
+Bandit optimization: Where is max, E[y|x]?
+x
+
+Active learning is more efficient than passive
+learning for localized “where” information
+ENDELEMENTMeta-Algorithm for Active Learning
+
+ 
+
+Version-Space (VS) Active Learning
+
+ 
+
+initialize VS: H = all models/hypotheses
+
+while (stopping-criterion) not met
+1. sample at random from available dataset
+2. label only those samples that distingui
+3. reduce 7 by removing all models inc
+
+output: best model in final
+
+ 
+
+ 
+
+   
+  
+  
+
+ 
+ENDELEMENTLearning a 1-D Classifier
+
+Semmens: cummmmene-coc|namevem —
+
+binary search quickly finds decision boundary
+
+passive: err ~ n°!
+
+active: er ~ 2.”
+ENDELEMENTVapnik-Chervonenkis (VC) Theory
+
+Given training data {(xj,y;)} 71, learn a function f to predict y from x
+
+Consider a possibly infinite set of hypotheses F with finite VC dimension d
+and for each f € F define the risk (error rate):
+
+Rf) == P(e) #y)
+
+error rate on 1
+training data: n
+
+me
+
+2
+
+> a(F Xi Au) “empirical risk”
+
+VC bound: sup |R(f) — R(f)| < 6
+ENDELEMENTEmpirical Risk Minimization (ERM)
+
+Goal: select hypothesis with true error rate within € > 0 of mingcer R(f)
+
+* = argminR sk ini - —
+i are feF (/) true Fisk minimizer f minimizes empirical risk:
+f = arg min R(f) empirical risk minimizer R(f) < R(f*)
+
+LD ostn/o)
+
+ 
+
+ 
+
+ 
+
+sufficient number dlog(n/6) _ x/dlog(1/o)
+of training examples: 12 \ n Se => us o( €2 )
+ENDELEMENTEmpirical Risks and Confidence Intervals
+
+6
+_ | 6
+9°
+° - ~—
+1 2 3 k-1
+
+hypotheses (ordered according to empirical risks)
+ENDELEMENTEmpirical Risks and Confidence Intervals
+
+1 2 3 k-1
+
+hypotheses (ordered according to empirical risks)
+
+more training data = smaller confidence intervals
+
+0-4
+ENDELEMENTEmpirical Risks and Confidence Intervals
+
+—~
+2 —
+—
+aa —
+$
+1 2 3 k-1 k
+
+hypotheses (ordered according to empirical risks)
+
+more training data = smaller confidence intervals
+ENDELEMENTERM is Wasting Labeled Examples
+
+6 a a
+1 2 3 k-1
+
+hypotheses (ordered according to empirical risks)
+ENDELEMENTERM is Wasting Labeled Examples
+
+at this point we can safely remove
+
+ 
+
+ 
+
+fs from further consideration 6
+> é ~~
+° PRYs) SC
+i ~ and we probably could have removed
+__ other hypotheses even sooner
+1 2 3 k-1 k
+hypotheses (ordered according to empirical risks)
+“aad 2
+only require labels for examples that Ce d
+hypotheses 1 and 2 label differently | labeled -
+(i.e., examples where they disagree) ‘ovdas, Medes) "eo woo
+‘dala selection
+
+algorithm
+ENDELEMENTDisagreement-Based Active Learning
+
+consider points uniform on unit ball and
+linear classifiers passing through origin
+
+only label points in the
+region of disagreement
+
+ 
+ENDELEMENTActive Binary Classification
+
+Assuming optimal Bayes classifer f* in VC class with dimension d
+and “nice” distributions (e.g., bounded label noise)
+
+SS
+
+« = R(f)—R(f*
+
+parametric rate
+
+3/aQ
+
+~
+
+passive €
+
+active € ~ exp ( —C =) exponential soeed-up
+
+  
+
+passive
+
+  
+
+Bayes error rate
+
+R(f*) # labels
+ENDELEMENTTutorial Outline
+
+Part 1: Introduction to Active Learning (Rob)
+Part 2: Theory of Active Learning (Steve)
+Part 3: Advanced Topics and Open Problems (Steve)
+
+Part 4: Nonparametric Active Learning (Rob)
+
+slides: http://nowak.ece.wisc.edu/ActiveML.html
+ENDELEMENTRecommended Reading (Foundations of Active Learning)
+
+Settles, Burr. "Active learning." Synthesis Lectures on Artificial Intelligence and
+Machine Learning 6.1 (2012): 1-114.
+
+Dasgupta, Sanjoy. "Two faces of active learning." Theoretical computer science
+412.19 (2011): 1767-1781.
+
+Cohn, David, Les Atlas, and Richard Ladner. "Improving generalization with active
+learning." Machine learning 15.2 (1994): 201-221.
+
+Castro, Rui M., and Robert D. Nowak. "Minimax bounds for active learning." /EEE
+Transactions on Information Theory 54, no. 5 (2008): 2339-2353.
+
+Zhu, Xiaojin, John Lafferty, and Zoubin Ghahramani. "Combining active learning
+and semi-supervised learning using gaussian fields and harmonic functions." [CML
+2003 workshop. Vol. 3. 2003.
+
+Dasgupta, Sanjoy, Daniel J. Hsu, and Claire Monteleoni. "A general agnostic active
+learning algorithm." Advances in neural information processing systems. 2008.
+
+Balcan, Maria-Florina, Alina Beygelzimer, and John Langford. "Agnostic active
+learning." Journal of Computer and System Sciences 75.1 (2009): 78-89.
+
+Nowak, Robert D. "The geometry of generalized binary search." /EEE
+Transactions on Information Theory 57, no. 12 (2011): 7893-7906.
+
+Hanneke, Steve. "Theory of active learning." Foundations and Trends in
+Machine Learning 7, no. 2-3 (2014).
+ENDELEMENTPart 2: Theory of Active Learning
+General Case
+
+Disagreement-Based Agnostic Active Learning
+
+Disagreement Coefficient
+
+Sample Complexity Bounds
+
+ICML | 2019
+
+ 
+
+ 
+
+Tutorial on Active Learning:
+Theory to Practice
+
+Steve Hanneke
+Toyota Technological Institute at Chicago
+steve.hanneke@gmail.com
+
+Robert Nowak
+
+University of Wisconsin - Madison
+rdnowak@wisc.edu
+
+ 
+
+Thirty-sixth International Conference on
+
+Machine Learning
+
+ 
+ENDELEMENTAgnostic Active Learning
+
+  
+ENDELEMENTUniform Bernstein Inequality
+
+Bernstein’s inequality:
+
+ 
+
+For m iid samples
+Vf, Ww.Dp. 1-64,
+
+R(f) — R(P) < RUA) — RP) + ey PUFF fy AULD + el
+
+Uniform Bernstein inequality: VC dimension
+
+ 
+
+w.p.1—06, Vf, f’ EH,
+R(f) — RU!) < RUF) — ROP!) + ey PCF & fel 4 Hoatn/o)
+
+Roughly:
+Vif EH,
+
+R(f)- RF) < RUA) -— RO) + VPA POS
+
+ 
+ENDELEMENTAg Nn O sti C Act | ve Le d r N | N 8 Balcan, Beygelzimer, & Langford (2006)
+
+Region of disagreement:
+DIS(H) := {we Vs 5f, fl EH, f(x) 4 f'(ax)}
+
+(Agnostic Active)
+
+ 
+
+for t = 1,2,... (til stopping-criterion)
+. sample 2! unlabeled points S
+
+. label points in Q = DIS(H) NS
+
+. optimize f < argmin Ro( f)
+fH
+
+output final
+
+ 
+ENDELEMENTAgnostic Active Learning
+
+DIS(H) = {we ¥: Sf, f eH, fle) f(a}
+
+“ (Agnostic Active)
+for t = 1,2,... (til stopping-criterion)
+1. sample 2! unlabeled points S
+
+2. label points in Q = DIS(H) NS
+
+3. optimize f < argmin Ro(f)
+fH
+
+4. reduce H: remove all f with Ro(f) — Ro(f) > \/Polf # Ag
+
+ 
+ENDELEMENTAgnostic Active Learning
+
+DIS(H) = {we ¥: Sf, f eH, fle) f(a}
+
+“ (Agnostic Active)
+for t = 1,2,... (til stopping-criterion)
+1. sample 2! unlabeled points S
+
+2. label points in Q = DIS(H) NS
+
+3. optimize f < argmin Ro(f)
+fH
+
+4. reduce H: remove all f with Ro(f) — Ro(f) > \/Polf # Ags
+
+ 
+ENDELEMENTAgnostic Active Learning
+
+DIS(H) = {we ¥: Sf, f eH, fle) f(a}
+
+“ (Agnostic Active)
+for t = 1,2,... (til stopping-criterion)
+1. sample 2! unlabeled points S
+
+2. label points in Q = DIS(H) NS
+
+3. optimize f < argmin Ro(f)
+fH
+
+4. reduce H: remove all f with Ro(f) — Ro(f) > \/Polf # Ags
+
+ 
+
+ 
+ENDELEMENTAgnostic Active Learning
+
+DIS(H) = {we ¥: Sf, f eH, fle) f(a}
+
+“ (Agnostic Active)
+for t = 1,2,... (til stopping-criterion)
+1. sample 2! unlabeled points S
+
+2. label points in Q = DIS(H) NS
+
+3. optimize f < argmin Ro(f)
+fH
+
+4. reduce H: remove all f with Ro(f) — Ro(f) > \/Polf # Ags
+
+ 
+
+ 
+ENDELEMENTAgnostic Active Learning
+
+DIS(H) = {we ¥: Sf, f eH, fle) f(a}
+
+“ (Agnostic Active)
+for t = 1,2,... (til stopping-criterion)
+1. sample 2! unlabeled points S
+
+2. label points in Q = DIS(H) NS
+
+3. optimize f < argmin Ro(f)
+fH
+
+4. reduce H: remove all f with Ro(f) — Ro(f) > \/Polf # Ags
+
+ 
+
+ 
+ENDELEMENTAgnostic Active Learning
+
+DIS(H) := {we 3 5f, f’ EH, f(x) 4 f'(x)}
+a7 (Agnostic Active)
+for t = 1,2,... (til stopping-criterion)
+
+1. sample 2! unlabeled points S
+
+2. label points in Q = DIS(H) NS
+
+3. optimize f — argmin Ro(f)
+fEH
+
+4, reduce H: remove all f with Ro(f) — Ro(f) > / Polf # AG
+
+ 
+
+ 
+ENDELEMENTAgnostic Active Learning
+
+DIS(H) := {we 3 5f, f’ EH, f(x) 4 f'(x)}
+a7 (Agnostic Active)
+for t = 1,2,... (til stopping-criterion)
+
+1. sample 2! unlabeled points S
+
+2. label points in Q = DIS(H) NS
+
+3. optimize f — argmin Ro(f)
+fH
+
+4, reduce H: remove all f with Ro(f) — Ro(f) > \/ Po(f # AG
+
+ 
+
+ 
+ENDELEMENTAgnostic Active Learning
+
+DIS(H) := {we 3 5f, f’ EH, f(x) 4 f'(x)}
+a7 (Agnostic Active)
+for t = 1,2,... (til stopping-criterion)
+
+1. sample 2! unlabeled points S
+
+2. label points in Q = DIS(H) NS
+
+3. optimize f — argmin Ro(f)
+fH
+
+4, reduce H: remove all f with Ro(f) — Ro(f) > \/ Po(f # AG
+
+ 
+
+ 
+ENDELEMENTAgnostic Active Learning
+
+DIS(H) := {we 3 5f, f’ EH, f(x) 4 f'(x)}
+a7 (Agnostic Active)
+for t = 1,2,... (til stopping-criterion)
+
+1. sample 2! unlabeled points S
+
+2. label points in Q = DIS(H) NS
+
+3. optimize f — argmin Ro(f)
+fEH
+
+4, reduce H: remove all f with Ro(f) — Ro(f) > / Polf # AG
+
+ 
+
+ 
+ENDELEMENTAgnostic Active Learning
+
+DIS(H) := {a € 4: 3f,f EH, f(x) # f'(a)} e
+
+“ (Agnostic Active)
+for t = 1,2,... (til stopping-criterion) °
+1. sample 2! unlabeled points S
+
+2. label points in Q = DIS(H) NS °
+
+3. optimize f < argmin Ro(f)
+fH
+
+4. reduce 1: remove all f with Ra(f) — Ra(f) > /Palf 4 fig °
+
+  
+ENDELEMENTAgnostic Active Learning
+
+DIS(H) = {we ¥: Sf, f eH, fle) f(a}
+
+O°
+“ (Agnostic Active)
+for t = 1,2,... (til stopping-criterion) °
+1. sample 2! unlabeled points S
+2. label points in Q = DIS(H) NS @
+
+3. optimize f + argmin Ro(f)
+fH
+
+4. reduce H: remove all f with Ro(f) — Ro(f) > \/Polf # Ags
+
+  
+ENDELEMENTAgnostic Active Learning
+
+DIS(H) = {we ¥: Sf, f eH, fle) f(a}
+
+O°
+“ (Agnostic Active)
+for t = 1,2,... (til stopping-criterion) °
+1. sample 2! unlabeled points S
+2. label points in Q = DIS(H) NS @
+
+3. optimize f — argmin Ro(f)
+fH
+
+4. reduce H: remove all f with Ro(f) - Ro(f) > \/ Polf 32 Ag
+
+  
+ENDELEMENTAgnostic Active Learning
+DIS(H) := {we 3 5f, f’ EH, f(x) 4 f'(x)}
+
+“ (Agnostic Active)
+
+for t = 1,2,... (til stopping-criterion) @
+1. sample 2! unlabeled points S @
+2. label points in Q = DIS(H) NS
+3. optimize f — argmin Ro(f) @
+
+4. reduce H: remove all f with Ro(f) — Ro(f) > \/Polf # Ag
+
+  
+ENDELEMENTAgnostic Active Learning
+DIS(H) = {«@ © X :3f, fl! EH, f(a) ¥ f'"(x)}
+(Agnostic Active) The point:
+
+Any t with f* € H still,
+R(f*|DIS(H)) still minimal in H
+
+ 
+
+for t = 1,2,... (til stopping-criterion)
+
+1. sample 2‘ unlabeled points S
+
+2. label points in Q = DIS(H) NS
+
+> .
+
+sone Ratt") — Ralf)
+
+3. optimize f argmin Ro(f) < R(f*|DIS(H)) — R(f|DIS(H)) + \/ Po(f* fal Ng
+4. reduce H: remove all f with Ro(f) — Ro(f) > \/Polf # Ags < /Po(f* A Aig
+
+=> f* never removed.
+
+ 
+
+ 
+ENDELEMENTAgnostic Active Learning
+DIS(H) = {«@ © X :3f, fl! EH, f(a) ¥ f'"(x)}
+(Agnostic Active) The point:
+
+Any t with f* € H still,
+R(f*|DIS(H)) still minimal in H
+
+ 
+
+for t = 1,2,... (til stopping-criterion)
+
+1. sample 2‘ unlabeled points S
+
+2. label points in Q = DIS(H) NS
+
+> .
+
+sone Ratt") — Ralf)
+
+3. optimize f argmin Ro(f) < R(f*|DIS(H)) — R(f|DIS(H)) + \/ Po(f* fal Ng
+4. reduce H: remove all f with Ro(f) — Ro(f) > \/Polf # Ags < /Po(f* A Aig
+
+=> f* never removed.
+
+ 
+
+ 
+
+Next: How many labels does it use?
+ENDELEMENTSample Complexity Analysis
+Ball: B(f*,r) :={f €©€H: Px(f 4 f*) <r}
+DIS(B(f*.r)) = {e € ¥: 3f.f BU.) fa) 4 fo}
+
+Disagreement coefficient:
+
+ 
+
+? = sup
+r>e r
+
+Px (DIS(B(", 7)
+
+Hanneke (2007...)
+ENDELEMENTSample Complexity Analysis
+
+Ball: B(f*,r) = {f © H: Px(f # f*) <r} Example: Thresholds, Px Uniform(0, 1)
+
+DIS(B(f".r)) := fe €¥ sf fe BUF), fle) # f(a} f(a) = Tr 2 ¢]
+
+Disagreement coefficient:
+0 1
+
+9 — sup PX@IS(BU."))
+
+r>e r
+
+ 
+
+ 
+
+ 
+ENDELEMENTSample Complexity Analysis
+
+Ball: B(f*,r) = {f © H: Px(f # f*) <r} Example: Thresholds, Px Uniform(0, 1)
+
+— Ir >
+DIS(B(f*,r)) = {w@ EX: Af, f’ © B(f*,r), f(x) F f'(a)} f(x) =[[ax >t]
+
+Disagreement coefficient:
+0 1
+
+9 sup PX DIS") Car t* tr
+
+r>e r
+
+ 
+
+ 
+
+ 
+
+DIS(B(f*,r)) = [t* — r,t +r)
+Px (DIS(B(f*,r))) = 2r
+
+d=2
+ENDELEMENTSample Complexity Analysis
+
+Ball: B(f*,r) = {f © H: Px(f # f*) <r} Example: Thresholds, Px Uniform(0, 1)
+
+DIS(B(f".r)) := fe €¥ sf fe BUF), fle) # f(a} f(a) = Tr 2 ¢]
+
+Disagreement coefficient:
+0 1
+
+9 sup PX DIS") Car t* tr
+
+r>e r
+
+ 
+
+ 
+
+ 
+
+DIS(B(f*,7r)) = [# — r,t +r)
+Px (DIS(B(f*,r))) = 2r
+
+=>60=2
+ENDELEMENTSample Complexity Analysis
+
+Ball: B(f*,r) :-= {f €©H: Px(f # f*) <r}
+DIS(B(f*,r)) = {we &: Sf, f € BUF r), F(x) F f'(w)h
+
+Disagreement coefficient:
+
+ 
+
+9 — sup PX@IS(BU."))
+
+r>e r
+
+ 
+
+ 
+
+Example: Intervals, Py Uniform(0, 1)
+f(@) =llasa<b
+ENDELEMENTSample Complexity Analysis
+
+Ball: B(f*,r) = {f © H: Px(f # f*) <r} Example: Intervals, Py Uniform(0, 1)
+f(a) =Ta<x <j
+
+rer r
+
+DIS(B(f*,r)) = {we V2 3S, fe BUS, r), f(@) 4 f'(@)} ,
+
+Disagreement coefficient:
+0 1
+s
+
+9 up LOBE) aX ob
+
+r>e r
+
+ 
+
+ 
+
+ 
+
+w* := b* — a*
+Ifr < w%,
+DIS(B(f*,r)) = [a* —r,a* +r) U(* —7r,b* +7]
+
+Px (DIS(B(f*,r))) = 4r
+ENDELEMENTSample Complexity Analysis
+
+Ball: B(f*,r) = {f © H: Px(f # f*) <r} Example: Intervals, Py Uniform(0, 1)
+
+= <a<
+DIS(B(*,7)) == {we #2 3f. J" € BU). fle) #@)} Me) = Nase st
+
+Disagreement coefficient:
+0 1
+s
+
+6 = sup PXOISBU*"))) ab a* be
+
+r>e r
+
+ 
+
+ 
+
+ 
+
+w* := b* — a*
+Ifr > w%,
+DIS(B(f*.r)) =
+
+Px(DIS(B(f*,r))) = 1
+ENDELEMENTSample Complexity Analysis
+
+ 
+
+ 
+
+ 
+
+Ball: B(f*,r) = {f © H: Px(f # f*) <r} Example: Intervals, Py Uniform(0, 1)
+=lla<xa<
+DIS(B(f",r)) = fe © Xf, fe BU), f(a) F f'n} (a) =a sax sb -
+Disagreement coefficient:
+0 1
+6 = sup Pe(DIS(B(s*.)) a* be ab
+r>e
+
+w* := b* — a*
+Ifr > w%,
+DIS(B(f*.r)) =
+
+Px(DIS(B(f*,r))) = 1
+ENDELEMENTSample Complexity Analysis
+
+Ball: B(f*,r) = {f © H: Px(f # f*) <r} Example: Intervals, Py Uniform(0, 1)
+
+= <
+DIS(B(f".r)) := fe €¥ sf fe BUF), fle) # f(a} f(a) =llasa so
+
+Disagreement coefficient:
+0 1
+
+9 sup PX DIS") aX ob
+
+r>e r
+
+ 
+
+ 
+
+ 
+
+w* := b* — a*
+Ifr > w%,
+DIS(B(f*.r)) =
+
+Px(DIS(B(f*,r))) = 1
+ENDELEMENTSample Complexity Analysis
+
+Ball: B(f*,r) = {f © H: Px(f # f*) <r} Example: Intervals, Py Uniform(0, 1)
+
+= < <
+DIS(B(f".r)) := fe €¥ sf fe BUF), fle) # f(a} f(a) =llasa so
+
+Disagreement coefficient:
+0 1
+s
+
+9 up LOBE) aX ob
+
+r>e r
+
+ 
+
+ 
+
+ 
+
+w* := b* — a*
+If r < w*, Px(DIS(B(f*,r))) = 4r
+Ifr > w*, Px(DIS(B(f*,r))) =1
+
+SO< max{4, +
+ENDELEMENTSample Complexity Analysis
+
+Ball: B(f*,r) :={f €H: Px(f 4 f*) <r} Example: homog. linear separators (bias 0),
+n dimensions, uniform Px on sphere.
+
+DIS(B(f*,r)) = {we V2 3S, fe BUS, r), f(@) 4 f'(@)}
+
+Disagreement coefficient:
+
+ 
+
+up PX@ISBU"))
+
+r>e r
+
+0
+
+ 
+
+ 
+
+ 
+ENDELEMENTSample Complexity Analysis
+
+Ball: B(f*,r) :={f €H: Px(f 4 f*) <r} Example: homog. linear separators (bias 0),
+n dimensions, uniform Px on sphere.
+
+DIS(B(f*,r)) = {we V2 3S, fe BUS, r), f(@) 4 f'(@)}
+
+Disagreement coefficient:
+
+ 
+
+up PX@ISBU"))
+
+r>e r
+
+0
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTSample Complexity Analysis
+
+Ball: B(f*,r) :={f €H: Px(f 4 f*) <r} Example: homog. linear separators (bias 0),
+n dimensions, uniform Px on sphere.
+
+DIS(B(f*,r)) = {we V2 3S, fe BUS, r), f(@) 4 f'(@)}
+
+Disagreement coefficient:
+
+ 
+
+ 
+
+ap PEDIS(BU7)))
+
+r>e r
+
+0
+
+ 
+
+   
+
+DIS(B(f*,r))
+ENDELEMENTSample Complexity Analysis
+
+Ball: B(f*,r) :={f €H: Px(f 4 f*) <r} Example: homog. linear separators (bias 0),
+n dimensions, uniform Px on sphere.
+
+DIS(B(f*,r)) = {we V2 3S, fe BUS, r), f(@) 4 f'(@)}
+
+Disagreement coefficient:
+
+ 
+
+ 
+
+ap PEDIS(BU7)))
+
+r>e r
+
+0
+
+ 
+
+   
+
+DIS(B(f*,r))
+
+Some geometry => for small r,
+Px (DIS(B(f*,r))) x Vnr.
+> 0x Jn.
+ENDELEMENTSample Complexity Analysis
+
+Bounded Noise assumption: (aka Massart noise)
+
+ 
+
+AB <1/2s.t. P(Y € f*(X)|X) < 8 everywhere
+
+Sample Complexity: Excess Error:
+R(f) < R(f*) +€ n labels
+Passive d d
+
+Active dO log( +) e—n/a8
+ENDELEMENTSample Complexity Analysis
+DIS(H) = {x © X:3f, fl EH, f(x) # f'(w)}
+
+ 
+
+(Agnostic Active) Theorem: P(Y 4 f*(X)|X) < B. R(f) < R(f*) + with
+for t = 1,2,... (til stopping-criterion) # labels ~ dO log(+)
+
+1. sample 2‘ unlabeled points S Proof Sketch:
+
+Round ¢, all f © H agree on pts in S
+2. label points in Q = DIS(H) NS f 5 p \@
+
+Roughly, that means Step 4 only keeps f with
+RF) -— RP) S VPxf APF
+
+3. optimize f < argmin Ro(f)
+fEH
+
+4. reduce H: remove all f with Ro(f) — Ro(f) > \/Polf # Ags
+
+=> surviving f after round t have R(f) — R(f*) S 4
+=Stz log(2) suffices
+
+ 
+
+Also = after round t — 1, H C B(f*,d/2'!)
+
+= |Q| S Px(DIS(B(f*, d/2'~")))|$| < Og41|S| = 0d2
+
+log(d/e)
+
+Yo 6d = Odlog(4) oO
+
+t=1
+ENDELEMENTSample Complexity Analysis
+DIS(H) = {x © X:3f, fl EH, f(x) # f'(w)}
+
+ 
+
+(Agnostic Active) Theorem: P(Y 4 f*(X)|X) < B. R(f) < R(f*) + with
+for t = 1,2,... (til stopping-criterion) # labels ~ dO log(+)
+
+1. sample 2‘ unlabeled points S Proof Sketch:
+
+Round ¢, all f © H agree on pts in S
+2. label points in Q = DIS(H) NS f . p \@
+
+Roughly, that means Step 4 only keeps f with
+RF) -— RP) S VPxf APF
+
+= surviving f after round t have R(f) — R(f*) < 4
+=Stz log(2) suffices
+
+3. optimize f < argmin Ro(f)
+fEH
+
+4. reduce H: remove all f with Ro(f) — Ro(f) > \/Polf # Ags
+
+Also = after round t — 1, H C B(f*,d/2'!)
+)— RF*) = f (PW = f(X)|X) — PY & f(X)|X))dPx
+ME om ppe ty) = || < Px (DIS(BUI*,d/2!~")))|S| < O51] = 02
+
+ 
+
+log(d/e)
+
+Yo 6d = Odlog(4) oO
+
+t=1
+ENDELEMENTSample Complexity Analysis
+
+Agnostic Learning: (no assumptions)
+
+ 
+
+Denote 6 = R(f*)
+Sample Complexity:
+R(f) < R(f*) +e
+
+Passive dS
+
+Active dé 5
+
+Excess Error:
+n labels
+
+/ dB
+n
+
+[p20
+n
+ENDELEMENTSample Complexity Analysis
+DIS(H) = {x © X:3f, fl EH, f(x) # f'(w)}
+
+ 
+
+(Agnostic Active) Theorem: 8 = R(f*). R(f) < R(f*) +e with
+for t = 1,2,... (til stopping-criterion) # labels = do®.
+
+1. sample 2‘ unlabeled points S Proof Sketch:
+Round ¢, all f € H agree on pts in S\Q
+
+2. label points in Q = DIS(H) NS
+
+Roughly, that means Step 4 only keeps f with
+
+3. optimize 7 inB _ pee +)
+optimize f + argmin Ko(f) Rf) — RP) SV PXF A Pe
+4. reduce H: remove all f with Ro(f) — Ro(f) > Po(f # Ags => surviving f after round t have R(f) — R(f*) S Vos +
+
+Fa (Roughly) ,/ Bs
+
+=tz log(d4) suffices
+
+a
+
+ 
+
+Also = after round t—1, H C B(s20 + a) C B(f*, 38) (for large t)
+
+= |Q| < Px (DIS(B(f*, 38)))|S| < 0|S| = 082°
+
+log(48/e2) .
+082 ~ od oO
+
+t=1
+ENDELEMENTSample Complexity Analysis
+DIS(H) = {x © X:3f, fl EH, f(x) # f'(w)}
+
+ 
+
+(Agnostic Active) Theorem: 8 = R(f*). R(f) < R(f*) +e with
+for t = 1,2,... (til stopping-criterion) # labels = do®.
+
+. sample 2! unlabeled points 9 Proof Sketch:
+
+Round ¢, all f € H agree on pts in S\Q
+
+. label points in Q = DIS(H) NS
+
+Roughly, that means Step 4 only keeps f with
+
+amifiaina A inB _ pee 2d
+optimize f argmin a(f) RP) — RUF) S Px (F ALS
+. reduce H: remove all f with Ro(f) — Ro(f) > /Polf # Ags => surviving f after round t have R(f) — R(f*) S Vos +
+
+(Roughly) \/ 84
+
+=tz log(d4) suffices
+
+a
+
+Px(f AF) SRA) + ROP) = 28 + RF) — RF")
+
+ 
+
+Also = after round t—1, H C B(s20 + a) C B(f*, 38) (for large t)
+
+= |Q| < Px (DIS(B(f*, 38)))|S| < 0|S| = 082°
+
+log(48/e2) .
+082 ~ od oO
+
+t=1
+ENDELEMENTSample Complexity Analysis
+
+When is 6 small?
+
+e Linear separators, Px has a density,
+f* boundary intersects interior of support
+=> 0 bounded
+
+e Linear separators, Px has a density
+
+=>0<t
+
+e H smoothly-parametrized model,
+Px “regular” density w/ compact support,
+other technical conditions on H
+=> 0a # parameters for H
+ENDELEMENTSample Complexity Analysis
+
+When is 6 small?
+
+e Linear separators, Px has a density,
+f* boundary intersects interior of support
+=> 0 bounded
+
+e Linear separators, Px has a density
+
+=>0<t
+
+e H smoothly-parametrized model,
+Px “regular” density w/ compact support,
+other technical conditions on H
+=> 0a # parameters for H
+
+e-:: Lots more ———————>
+
+ 
+ENDELEMENTStopping Criterion
+DIS(H) = {«@ © X :3f, fl! EH, f(a) ¥ f'"(x)}
+
+ 
+
+(Agnostic Active)
+for t = 1,2,... (til stopping-criterion)
+1. sample 2‘ unlabeled points S
+
+2. label points in Q = DIS(H) NS
+
+3. optimize f < argmin Ro(f)
+fEH
+
+4. reduce H: remove all f with Ro(f) — Ro(f) > \/Polf # Ags
+
+Stopping criteria:
+
+ 
+
+ 
+
+e Any-time
+e Label budget
+e Run out of unlabeled data
+
+e Check max Pol(f # Aig<
+ENDELEMENTSimpler Agnostic Active Learning Hsu (2010...)
+
+for m = 1,2,... (til stopping-criterion)
+1. sample a random point x
+2. optimize Vy, fy + argmin Ro(f)
+fEH:f(z)=y
+3. if |Rq(f+) — Rolf-)l < V/Palf- 4 Ag
+
+then label z, add it to Q
+
+output f = argmin Ro(f)
+cH
+
+ 
+
+e Roughly same sample complexity as A?.
+e Can implement as a reduction to ERM.
+
+e In practice, replace ERM with any passive learner.
+ENDELEMENTSurrogate Loss
+
+for m = 1,2,... (til stopping-criterion)
+1. sample a random point x
+2. optimize Vy, ty + argmin RO(f)
+fEH:f(z)=y
+3. if |Ra(f+) — Ralf-)l < / Palf- 4 Ag
+
+then label z, add it to Q
+
+output f = argmin Ro(f)
+cH
+
+ 
+
+Hanneke & Yang (2012)
+e Roughly same sample complexity as A?.
+e Can implement as a reduction to ERM.
+
+e In practice, replace ERM with any passive learner.
+
+vonsider learner that minimizes a surrogate loss
+é:R*x {-1,+1} — Ry
+(e.g., hinge loss, squared loss, exponential loss, .. .)
+
+Now H is realy valued functions
+
+ROA =~ Xf (#9)
+
+(x,y)EQ
+
+(Theorem: Bounded noise, plus strong assumptions on H,¢,P
+still get R(f) < R(f*) + € with # labels
+
+ 
+
+= Odlog(=)
+ENDELEMENTImportance-Weighted Active Learning  — eernsioa"er
+
+for m = 1,2,... (til stopping-criterion)
+1. sample a random point x
+2. set sampling probability p;
+3. flip coin with prob pz, of heads
+
+4. if heads, label x, add to Q with weight 1/p,
+
+output f = argmin Ro(f) (weighted loss)
+EH
+
+ 
+
+Use importance weights to stay unbiased:
+
+E[Re(f)] = R(f)
+
+Now Q set of triples (z, y, w)
+
+Rof= og LX vilf@) 4y]
+(2,y,w)EQ
+e Any choice of Step 2 (setting p,) is fine
+(just p, not too small, else high variance)
+
+e Can set p, in a way to recover A? sample complexity
+
+Px =I] IRo(f+) — Re(f)| < [Pathe # Pvg |
+ENDELEMENTImportance-Weighted Active Learning  — eernsioa"er
+
+for m = 1,2,... (til stopping-criterion)
+1. sample a random point x
+2. set sampling probability p;
+3. flip coin with prob pz, of heads
+
+4. if heads, label x, add to Q with weight 1/p,
+
+output f = argmin Ro(f) (weighted loss)
+EH
+
+ 
+
+Use importance weights to stay unbiased:
+
+E[Re(f)] = RUS)
+
+Now Q set of triples (z, y, w)
+
+Rof= og LX vilf@) 4y]
+(2,y,w)EQ
+e Any choice of Step 2 (setting p,) is fine
+(just p, not too small, else high variance)
+
+e Can set pz in a way to recover A? sample complexity
+pe =I] [Ro(fs) — Raf IIS Pal AD |
+
+e In practice, replace ERM with any passive learner
+(e.g., ERM with a surrogate loss)
+
+e (approx) implementation in Vowpal Wabbit library
+ENDELEMENTQuestions?
+
+Further reading:
+
+D. Cohn, L. Atlas, R. Ladner. Improving generalization with active learning. Machine Learning, 1994
+
+M. F. Balcan, A. Beygelzimer, J. Langford. Agnostic active learning. Journal of Computer and System Sciences, 2009.
+S. Hanneke. A bound on the label complexity of agnostic active learning. ICML 2007.
+
+S. Dasgupta, D. Hsu, C. Monteleoni. A general agnostic active learning algorithm. NeurIPS 2007.
+
+S. Hanneke. Rates of convergence in active learning. The Annals of Statistics, 2011.
+
+A. Beygelzimer, S. Dasgupta, J. Langford. Importance weighted active learning. ICML 2009.
+
+A. Beygelzimer, D. Hsu, J. Langford, T. Zhang. Agnostic active learning without constraints. NeurIPS 2010.
+
+S. Hanneke. Theoretical Foundations of Active Learning. PhD Thesis, CMU, 2009.
+
+D. Hsu. Algorithms for Active Learning. PhD Thesis, UCSD, 2010.
+
+Y. Wiener, S. Hanneke, R. El-Yaniv. A compression technique for analyzing disagreement-based active learning. Journal of
+Machine Learning Research, 2015.
+
+S. Hanneke. Refined error bounds for several learning algorithms. Journal of Machine Learning Research, 2016.
+E. Friedman. Active learning for smooth problems. COLT 2009.
+
+S. Mahalanabis. Subset and Sample Selection for Graphical Models: Gaussian Processes, Ising Models and Gaussian Mixture
+Models. PhD Thesis, University of Rochester, 2012.
+
+S. Hanneke. Theory of Disagreement-Based Active Learning. Foundations and Trends in Machine Learning, 2014.
+
+ 
+
+S. Hanneke, L. Yang. Surrogate losses in passive and active learning. arXiv:1207.3772.
+ENDELEMENTPart 3: Beyond Disagreement-Based
+Active Learning — Current Directions
+
+ 
+
+Tutorial on Active Learning:
+
+Subregion-Based Active Learning Theory to Practice
+
+Margin-Based Active Learning: Linear Separators
+Shattering-Based Active Learning Steve Hanneke
+Distribution-Free Analysis, Optimality Toyota Technological Institute at Chicago
+
+TicToc: Adapting to Heterogeneous Noise steve.hanneke@gmail.com
+
+Tsybakov Noise Robert Nowak
+
+University of Wisconsin - Madison
+rdnowak@wisc.edu
+
+ 
+
+ 
+
+ 
+
+ICML | 2019
+
+Thirty-sixth International Conference on
+Machine Learning
+ENDELEMENTSubregion-Based Active Learning
+
+DIS(H) := {we 3 5f, f’ EH, f(x) 4 f'(x)}
+7 (Agnostic Active)
+for t = 1,2,... (til stopping-criterion)
+1. sample 2¢ unlabeled points $
+
+2. label points in Q = DIS(H) NS
+
+3. optimize f < argmin Ro(f)
+fH
+
+4. reduce H: remove all f with Ro(f) — Ro(f) > \/Polf # Ags
+
+ 
+
+Zhang & Chaudhuri, 2014
+ENDELEMENTSubregion-Based Active Learning shone & Chena, 2014
+DIS(H) = {x © X:3f, fl EH, f(x) # f'(w)}
+
+ 
+
+ 
+
+1. sample 2° unlabeled points
+Instead, pick region R.(H) s.t.
+Vf, f €H, Px(x € Re(H) : f(a) 4 f(a) < e.
+
+2. label points in Q = Re (H) NS
+
+ 
+
+3. optimize f < argmin Ro(f)
+fEH
+
+4. reduce H: remove all f with Ro(f) — Ro(f) > \/ Pol f # Aye Pick &! carefully each round,
+f R(f) — R(f*) < € at end
+
+ 
+
+e.g., Bounded noise: ¢’ « d2~*
+ENDELEMENTSubregion-Based Active Learning sang & Chad, 201
+
+DIS(H) := {x € ¥: Af, f’ EH, f(x) F f'(x)} Pick region R.(H) s.t.
+Vif €H, Px(a € Re(H) : f(x) 4 f(a) < €.
+
+ 
+
+ 
+
+Px (Rr/c(B(F*,7)))
+
+t ‘ _—_
+1. sample 2° unlabeled points S Ye “= sup
+
+2. label points in Q = Re(H)NS r>e
+
+3. optimize f < argmin Ro(f)
+fEH
+
+. . 7 - Theorem: with Bounded noise,
+4. reduce H: remove all f with Re(f) — Re(f) > VPalf 4 fig R(f) < R(f*) te using 4 labels
+
+ 
+
+~~ yed log (+)
+ENDELEMENTSubregion-Based Active Learning sang & Chad, 201
+
+DIS(H) := {x € ¥: Af, f’ EH, f(x) F f'(x)} Pick region R.(H) s.t.
+Vif €H, Px(a € Re(H) : f(x) 4 f(a) < €.
+
+ 
+
+ 
+
+Px (Rr/c(B(F*,7)))
+
+t ‘ _—_
+1. sample 2° unlabeled points S Ye “= sup
+
+2. label points in Q = Re(H)NS r>e
+
+3. optimize f < argmin Ro(f)
+fEH
+
+. . 7 - Theorem: with Bounded noise,
+4. reduce H: remove all f with Re(f) — Re(f) > VPalf 4 fig R(f) < R(f*) te using 4 labels
+
+ 
+
+~~ yed log (+)
+
+Px (Rrjc(B(f*,28+1)))
+2B+r
+
+ 
+
+‘ - oles
+Agnostic case: yo := sup
+
+r>e
+Theorem:
+
+R(f) < R(f*) + € using # labels
+~ ghd
+ENDELEMENTSubregion-Based Active Learning sang & Chad, 201
+
+How to find such an R.:(H)?
+e Re(H) = DIS(H) works
+e Empirically (Zhang & Chaudhuri, 2014)
+
+e Nice structure: e.g., Linear separators
+
+Pick region Re (H) s.t.
+Vf, f EH, Px(a € Re(H) : f(a) F f"(@)) < €.
+
+Ye = sup Px Rr jel BP)
+r>e
+
+Theorem: with Bounded noise,
+
+R(f) < R(f*) + € using # labels
+
+~ yed log (+)
+ENDELEMENTSubregion-Based Active Learning sang & Chad, 201
+
+How to find such an Re (H)? Pick region Re (H) s.t.
+Vf, f €H, Px(x € Re(H) : f(x) 4 f"(2)) < e.
+© Re (H) = DIS(H) works
+
+e Empirically (Zhang & Chaudhuri, 2014) Px (Ryje(B(f* r)))
+Yc :-= SUp rr
+e Nice structure: e.g., Linear separators r>eE
+
+Margin-based Active Learning
+
+D ta, Kalai, Monteleoni, 2005; . .
+DassuPtey der, Zhang ‘S007. ) Theorem: with Bounded noise,
+
+R(f) < R(f*) + € using # labels
+
+~ yed log (+)
+ENDELEMENTSubregion-Based Active Learning sang & Chad, 201
+
+How to find such an R,.(H)? Pick region Re (H) s.t.
+Vf, f €H, Px(x € Re(H) : f(x) 4 f"(2)) < e.
+
+e Nice structure: e.g., Linear separators
+
+Margin-based Active Learning
+
+(Dasgupta, Kalai, Monteleoni, 2005; Px (Rr/c(B(f* ,T)))
+
+Balcan, Broder, Zhang, 2007; ...) Ye = sup rr
+r>e
+
+Theorem: with Bounded noise,
+
+R(f) < R(f*) + € using # labels
+
+~ yed log (+)
+ENDELEMENTSubregion-Based Active Learning
+
+How to find such an R,.(H)? Pick region Re (H) s.t.
+Vf, f EH, Px(@ € Re(H) : f(x) 4 f'(a)) < e.
+e Nice structure: e.g., Linear separators
+Uniform Px on d-dim sphere
+Margin-based Active Learning
+(Dasgupta, Kalai, Monteleoni, 2005;
+
+* : *
+Balcan, Broder, Zhang, 2007; ...) For w € B(w v), project to Span(w,w )
+
+ 
+
+ 
+ENDELEMENTSubregion-Based Active Learning
+
+How to find such an R,.(H)? Pick region Re (H) s.t.
+Vf, f EH, Px(@ € Re(H) : f(x) 4 f'(a)) < e.
+e Nice structure: e.g., Linear separators
+Uniform Px on d-dim sphere
+Margin-based Active Learning
+(Dasgupta, Kalai, Monteleoni, 2005; * . *
+Balcan, Broder, Zhang, 2007; ...) For w € Bw v), project to Span(w,w )
+
+Most projected prob mass toward middle
+ENDELEMENTSubregion-Based Active Learning
+
+How to find such an R,.(H)? Pick region Re (H) s.t.
+Vf, f EH, Px(@ € Re(H) : f(x) 4 f'(a)) < e.
+e Nice structure: e.g., Linear separators
+Uniform Px on d-dim sphere
+Margin-based Active Learning
+(Dasgupta, Kalai, Monteleoni, 2005; * . *
+Balcan, Broder, Zhang, 2007; ...) For w € Bw v), project to Span(w,w )
+
+Most projected prob mass toward middle
+ENDELEMENTSubregion-Based Active Learning
+
+How to find such an R,.(H)? Pick region R.(H) s.t.
+Vf, f EH, Px(@ € Re(H) : f(x) 4 f'(a)) < e.
+e Nice structure: e.g., Linear separators
+
+Uniform Px on d-dim sphere
+
+Margin-based Active Learning
+(Dasgupta, Kalai, Monteleoni, 2005; « . *
+Balcan, Broder, Zhang, 2007; ...) For w € B(w v), project to Span(w,w )
+
+Most projected prob mass toward middle
+
+r/Vd r/va
+ae
+
+DIS({w, w*}) in
+slab of width = r
+
+Most of its prob in
+slab of width = r/Vd
+ENDELEMENTSubregion-Based Active Learning
+
+How to find such an R,.(H)? Pick region Re (H) s.t.
+Vf, f EH, Px(@ € Re(H) : f(x) 4 f'(a)) < e.
+e Nice structure: e.g., Linear separators
+Uniform Px on d-dim sphere
+Margin-based Active Learning
+(Dasgupta, Kalai, Monteleoni, 2005; * . x
+Balcan, Broder, Zhang, 2007; ...) For w ¢ B(w v), project to Span(w,w )
+
+Most projected prob mass toward middle
+
+DIS(B(f*,r)) =
+
+slab of width ® r
+DIS({w, w*}) in
+Take R,/-(B(f*,r)) = slab of width + r
+
+slab of width = r/Vd
+
+   
+
+Most of its prob in
+
+Prob in slab = Vd x width slab of width = r/Vd
+
+ 
+
+=> Ye < constant
+ENDELEMENTSubregion-Based Active Learning
+
+How to find such an R,.(H)? Pick region Re (H) s.t.
+Vf, f €H, Px(x € Re(H) : f(x) 4 f"(2)) < e.
+
+e Nice structure: e.g., Linear separators .
+° P Px (Rrye(BCF*7)))
+r
+
+Margin-based Active Learning Pe := uP
+(Dasgupta, Kalai, Monteleoni, 2005;
+Balean = OS Theorem: with Bounded noise,
+
+R(f) < R(f*) + using # labels
+
+DIS(B(f*,r)) = : ~ Ycd log (+)
+slab of width  r g
+
+ 
+
+ 
+
+Take R,/-(B(f*,r)) = 7 1
+
+slab of width ~ r/Vd => 7 labels © dlog(~) suffice Recall: ;
+Passive © ©
+
+Prob in slab & Vd x width Comparison:
+
+ 
+
+ 
+
+ 
+
+  
+
+ 
+
+Recall 6 = Vd
+= A? # labels ~ d?/? log()
+
+=> Ye < constant
+ENDELEMENTMargin-Based Active Learning (Balcan, Broder, Zhang, 2007; ...)
+
+=
+
+ 
+
+1. sample d2‘ unlabeled points S
+
+2. label points inQ=allzreESs.t.<w&,c> < c2*/
+
+3. optimize @+ argmin Ro(w)
+w:||w—al|<e2-t
+
+output final w
+
+ 
+
+Uniform Px on d-dim sphere
+ENDELEMENTM 2 regi n- Ba sed Active lea rm | n g (Balcan, Broder, Zhang, 2007; ...)
+
+=
+
+ 
+
+1. sample d2‘ unlabeled points 9’
+
+2. label points inQ=allzreESs.t.<w&,c> < c2*/
+
+3. optimize #<+  —argmin Ro(w)
+w:||w—w||<c'2-t
+
+output final w
+
+ 
+
+Uniform Px on d-dim sphere
+ENDELEMENTMargin-Based Active Learning (Balcan, Broder, Zhang, 2007; ...)
+
+ 
+
+1. sample d2‘ unlabeled points 9’
+
+2. label points inQ=allzreESs.t.<w&,c> < c2*/
+
+3. optimize #<+  —argmin Ro(w)
+w:||w—w||<c'2-t
+
+output final w
+
+ 
+
+Uniform Px on d-dim sphere
+ENDELEMENTM 2 regi n- Ba sed Active lea rm | n g (Balcan, Broder, Zhang, 2007; ...)
+
+ 
+
+1. sample d2‘ unlabeled points 9’
+
+2. label points inQ=allzreESs.t.<w&,c> < c2*/
+
+3. optimize #<+  —argmin Ro(w)
+w:||w—w||<c'2-t
+
+output final w
+
+ 
+
+Uniform Px on d-dim sphere
+ENDELEMENTM 3 regi n- Ba sed Active lea rm | ng (Balcan, Broder, Zhang, 2007; ...)
+
+=
+
+ 
+
+1. sample d2‘ unlabeled points 9’
+
+2. label points inQ=allzreESs.t.<w&,c> < c2*/
+
+3. optimize #<+  —argmin Ro(w)
+w:||w—wa||<c'2-t
+
+output final w
+
+ 
+
+Uniform Px on d-dim sphere
+ENDELEMENTM 2 regi n- Ba sed Active lea rm | n g (Balcan, Broder, Zhang, 2007; ...)
+
+=
+
+ 
+
+1. sample d2* unlabeled points S
+
+2. label points in Q=allre Ss.t.<wd,2> < c2*/
+
+3. optimize w+ —argmin Ro(w)
+w:||w—a||<c'2-t
+
+ 
+
+output final w
+
+Uniform Px on d-dim sphere
+Theorem: with Bounded noise,
+
+R(f) < R(f*) + € using # labels
+~) dlog(4)
+
+(also works for isotropic log-concave distributions)
+ENDELEMENTComputational Efficiency (Avast Baka, Log, 2044.
+
+Uniform Px on d-dim sphere
+
+1. sample d2‘ unlabeled points 9’
+
+2. label points inQ=allzreESs.t.<w&,c> < c2*/
+
+3. optimize w+ —_ argmin R6(w)
+w:||w—w||<c'2-t
+
+ 
+
+output final w
+
+Surrogate loss
+b(<w,a>,y) © max{1— 2'Vd(y<w,x>), 0}
+
+Hinge loss slope changes each round
+ENDELEMENTComputational Efficiency (Avast Baka, Log, 2044.
+
+Uniform Px on d-dim sphere
+
+Theorem: with Bounded noise,
+R(f) < R(f*) + € using # labels
+i] dlog(+)
+
+1. sample d2* unlabeled points S and running in polynomial time
+
+,2,... (til stopping-criterion)
+
+2. label points in Q=allre Sst. <w,2> < c2*/Vd
+
+3. optimize ®@< —_ argmin R6(w)
+w:||w—a||<c'2-t
+
+output final w
+
+ 
+
+Surrogate loss
+b(<w,2>,y) ¥ max{1 — 2'/d(y<w,2>),0}
+
+Hinge loss slope changes each round
+ENDELEMENTComputational Efficiency (Avast Baka, Log, 2044.
+
+Uniform Px on d-dim sphere
+
+Theorem: with Bounded noise,
+R(f) < R(f*) + € using # labels
+i] dlog(+)
+
+and running in polynomial time
+
+,2,... (til stopping-criterion)
+1. sample d2* unlabeled points S
+
+2. label points in Q=allre Ss.t.<,2> < c2*/
+
+3. optimize d< = argmin RY (w) . .
+wiw—alise2-t © Theorem: with Agnostic case,
+
+output final R(f) < CR(f*) in polynomial time
+
+ 
+
+Surrogate loss
+
+(was first alg. known to achieve these; even passively)
+
+b(<w,2>,y) ¥ max{1 — 2'/d(y<w,2>),0}
+
+(also works for isotropic log-concave distributions)
+Hinge loss slope changes each round
+ENDELEMENTUp Next:
+Shattering-Based Active Learning
+ENDELEMENTShattering-Based Active Learning (Hamme, 2009, 201
+
+Recall: H shatters 71,..., xp if
+all 2 classifications realized by H
+
+DIS(H) checks for shattering 1 point.
+
+Idea: Generalize to shattering > 1 points.
+ENDELEMENTShattering-Based Active Learning (Hamme, 2009, 201
+
+Recall: H shatters 71,..., xp if
+all 2 classifications realized by H
+
+(Agnostic Active)
+for t= 1,2,... (til stopping-criterion)
+
+1. sample 2‘ unlabeled points S
+
+DIS(H) checks for shattering 1 point.
+
+ 
+
+2. label points in Q = DIS(H)NS'
+Idea: Generalize to shattering > 1 points.
+
+3. optimize f + argmin Ro(f)
+fEH
+
+4. reduce H: remove all f with Ro(f) — Ro(f) > \/Polf # Ags
+
+ 
+ENDELEMENTShattering-Based Active Learning (Hamme, 2009, 201
+
+Recall: H shatters x1,..., 2% if
+all 2 classifications realized by H
+
+ 
+
+for t = 1,2,... (til stopping-criterion)
+
+1. sample 2! unlabeled points 9
+
+DIS(H) checks for shattering 1 point.
+
+2. label points in Q = all x € S's.t. <
+PE(A € X*: H shatters AU {x}|H shatters A) > 5
+
+ 
+
+Idea: Generalize to shattering > 1 points.
+
+3. optimize f < argmin Ro(f)
+fH
+
+4. reduce H: remove all f with Ro(f) — Ro(f) > \/Polf # Ags
+
+ 
+ENDELEMENTShatte rl ng-Ba sed Active Learni ng (Hanneke, 2009, 2012)
+
+Recall: H shatters x1,..., 2% if
+all 2 classifications realized by H
+
+ 
+
+for t = 1,2,... (til stopping-criterion)
+
+. sample 2¢ unlabeled points S$
+
+DIS(H) checks for shattering 1 point.
+
+ 
+
+. label points in Q = all « € S s.t. <
+n ke. 1 : : :
+Px(A € &©: H shatters AU {x}|H shatters A) > 9 Idea: Generalize to shattering > 1 points.
+. add the remaining points x € S to Q with label
+$x = argmax Pk(A € X* : Hzy shatters A|H shatters A) Denote Hey = {h EH: h(x) = y}
+y
+
+. optimize f — argmin Ro(f)
+fEH
+
+. reduce H: remove all f with Ro(f) — Ro(f) > /Polf # Aer
+
+ 
+ENDELEMENTShattering-Based Active Learning
+
+Recall: H shatters 71,..., x, if Example: Linear separators, Uniform Px on circle
+all 2 classifications realized by H Suppose true labels are all —1
+
+ 
+
+DIS(H) = entire circle
+
+. sample 2! unlabeled points 9
+
+. label points in Q = all « € S s.t.
+PK(A € &* : H shatters AU {x}|H shatters A) >
+
+. add the remaining points « € S to Q with label
+$x = argmax Pk(A € X* : Hzy shatters A|H shatters A)
+y
+
+. optimize f — argmin Ro(f)
+fEH
+
+. reduce H: remove all f with Ro(f) - Ro(f) > /Polf ea Ae
+
+ 
+
+Denoting Hz y := {h €H: h(x) = y}
+ENDELEMENTShattering-Based Active Learning
+
+Recall: H shatters 71,..., xp if
+all 2 classifications realized by H
+
+ 
+
+, ++» (til stopping-criterion)
+1. sample 2° unlabeled points S$
+
+2. label points in Q = all x € S's.t.
+PK(A € &* : H shatters AU {x}|H shatters A) >
+
+3. add the remaining points z € S to Q with label
+Qa ‘= argmax PE(A E Ges ¢ Hey shatters A|H shatters A)
+y
+
+4. optimize f + argmin Ro(f)
+fEH
+
+5. reduce H: remove all f with Ro(f) —
+
+)> / Pal FFAG
+
+Denoting Hz y := {h €H: h(x) = y}
+
+ 
+
+Example: Linear separators, Uniform Px on circle
+Suppose true labels are all —1
+
+random 2’
+
+(A= {a"})
+
+     
+
+DIS(H) = entire circle
+
+  
+      
+
+Tryk=1
+
+Given sample x
+Rand 2’ probably not close
+
+Can’t shatter {zx, x}
+
+‘ . sample point x
+without a lot of points wrong
+
+a
+
+ 
+   
+
+So won’t query x
+ENDELEMENTShattering-Based Active Learning
+
+Recall: H shatters 71,..., xp if
+all 2 classifications realized by H
+
+ 
+
+, ++» (til stopping-criterion)
+1. sample 2° unlabeled points S$
+
+2. label points in Q = allae€ S's.t.
+Pk(A€ &*: H shatters AU {x}|H shatters A) > $
+. add the remaining points x € S to Q with label
+Qa ‘= argmax PE(A E Ges ¢ Hey shatters A|H shatters A)
+y
+. optimize f + argmin Ro(f)
+fEH
+. reduce H: remove all f with Ro(f) —
+
+)> / Pal FFAG
+
+Denoting Hz y := {h €H: h(x) = y}
+
+ 
+
+Example: Linear separators, Uniform Px on circle
+Suppose true labels are all —1
+
+random 2’
+
+(A= {a"})
+
+    
+
+DIS(H) = entire circle
+
+  
+      
+
+Tryk=1
+
+Given sample x
+Rand 2’ probably not close
+
+Can’t shatter {zx, x}
+
+‘ . sample point x
+without a lot of points wrong
+
+a
+
+ 
+   
+
+So won’t query x
+DIS(Hz,—1) still entire circle (minus 2)
+
+DIS(Hz,+1) small region
+> Vx =-l
+ENDELEMENTShattering-Based Active Learning
+
+Recall: H shatters 71,..., xp if
+all 2 classifications realized by H
+
+ 
+
+, ++» (til stopping-criterion)
+1. sample 2° unlabeled points S$
+
+2. label points in Q = allae€ S's.t.
+Pk(A€ &*: H shatters AU {x}|H shatters A) > $
+. add the remaining points x € S to Q with label
+Qa ‘= argmax PE(A E Ges ¢ Hey shatters A|H shatters A)
+y
+. optimize f + argmin Ro(f)
+fEH
+. reduce H: remove all f with Ro(f) —
+
+)> / Pal FFAG
+
+Denoting Hz y := {h €H: h(x) = y}
+
+ 
+
+Example: Linear separators, Uniform Px on circle
+Suppose true labels are all —1
+
+random 2’
+
+(A= {a"})
+
+     
+
+DIS(H) = entire circle
+
+  
+      
+
+Tryk=1
+
+Given sample x
+Rand 2’ probably not close
+
+Can’t shatter {zx, x}
+
+‘ . sample point x
+without a lot of points wrong
+
+ae
+
+ 
+   
+
+So won’t query x
+DIS(Hz,—1) still entire circle (minus 2)
+
+DIS(Hz,+1) small region
+> Vx =-l
+ENDELEMENTShattering-Based Active Learning
+
+Recall: H shatters 71,..., xp if
+all 2 classifications realized by H
+
+ 
+
+, ++» (til stopping-criterion)
+1. sample 2° unlabeled points S$
+
+2. label points in Q = all x € S's.t.
+PK(A € &* : H shatters AU {x}|H shatters A) >
+
+3. add the remaining points z € S to Q with label
+Qa ‘= argmax PE(A E Ges ¢ Hey shatters A|H shatters A)
+y
+
+4. optimize f + argmin Ro(f)
+fEH
+
+5. reduce H: remove all f with Ro(f) —
+
+)> / Pal FFAG
+
+Denoting Hz y := {h €H: h(x) = y}
+
+ 
+
+Example: Linear separators, Uniform Px on circle
+Suppose true labels are all —1
+
+random 2’
+
+(A= {a"})
+
+     
+
+DIS(H) = entire circle
+
+  
+      
+
+Tryk=1
+
+Given sample x
+Rand 2’ probably not close
+
+Can’t shatter {zx, x}
+
+‘ . sample point x
+without a lot of points wrong
+
+x
+
+ 
+   
+
+So won’t query x
+DIS(Hz,—1) still entire circle (minus 2)
+
+DIS(Hz,+1) small region
+> Vx =-l
+ENDELEMENTShattering-Based Active Learning
+
+Recall: H shatters x1,..., 2% if
+all 2 classifications realized by H
+
+Generally, need to try various k and pick one
+(See the papers)
+
+ 
+
+for t = 1,2,... (til stopping-criterion)
+. sample 2¢ unlabeled points S$
+
+. label points in Q = all « € S s.t.
+Pk(A € X* : H shatters AU {x}|H shatters A) > }
+
+. add the remaining points « € S to Q with label
+$x = argmax Pk(A € X* : Hzy shatters A|H shatters A)
+y
+
+. optimize f — argmin Ro( f)
+fEH
+
+. reduce H: remove all f with Ro(f) — Ro(f) > /Polf # Aer
+
+ 
+
+Denoting Hz y := {h €H: h(x) = y}
+ENDELEMENTShattering-Based Active Learning
+
+Recall: H shatters 71,..., xp if
+all 2 classifications realized by H
+
+ 
+
+1. sample 2° unlabeled points S$
+
+2. label points in Q = allae€ S's.t.
+PK(A € &* : H shatters AU {x}|H shatters A) >
+
+3. add the remaining points z € S to Q with label
+$x = argmax Pk(A € X* : Hzy shatters A|H shatters A)
+y
+
+4. optimize f «+ argmin Ro(f)
+fEH
+
+5. reduce H: remove all f with Ro(f) - Ro(f) > /Polf ea Ae
+
+Denoting Hz y := {h €H: h(x) = y}
+
+ 
+
+Generally, need to try various k and pick one
+(See the papers)
+
+alk) p Peer ®:B(f*,r) shatters A)
+
+r
+
+[= su
+r>e
+
+d:= min{ k : PE(A € X* : B(f*,r) shatters A) mand o}
+r
+
+6 := 09
+Theorem: For Bounded noise, R(f) < R(f*) +€
+
+with # labels -
+= Céd log (+)
+
+Note: 6< +
+ENDELEMENTShattering-Based Active Learning
+
+Recall: H shatters 71,..., xp if
+all 2 classifications realized by H
+
+ 
+
+1. sample 2° unlabeled points S$
+
+2. label points in Q = allae€ S's.t.
+Pk(A € X* : H shatters AU {x}|H shatters A) > }
+
+. add the remaining points « € S to Q with label
+$x = argmax Pk(A € X* : Hzy shatters A|H shatters A)
+y
+
+. optimize f + argmin Ro(f)
+fEH
+
+. reduce H: remove all f with Ro(f) - Ro(f) > /Polf ea Ae
+
+Denoting Hz y := {h €H: h(x) = y}
+
+ 
+
+Generally, need to try various k and pick one
+(See the papers)
+gtk) p Peer ®:B(f*,r) shatters A)
+
+:= 8u r
+
+r>e
+
+d:= min{ k : PE(A € X* : B(f*,r) shatters A) mand o}
+r
+
+6 := 09
+Theorem: For Bounded noise, R(f) < R(f*) +€
+
+with # labels -
+= Céd log (+)
+
+Note: 6 < +
+In the example: 6 = 2,0 = 4
+
+€
+ENDELEMENTShattering-Based Active Learning
+
+Recall: H shatters 71,..., xp if
+all 2 classifications realized by H
+
+ 
+
+1. sample 2° unlabeled points S$
+
+2. label points in Q = allae€ S's.t.
+Pk(A € X* : H shatters AU {x}|H shatters A) > }
+
+3. add the remaining points z € S to Q with label
+$x = argmax Pk(A € X* : Hzy shatters A|H shatters A)
+y
+
+4. optimize f + argmin Ro(f)
+fEH
+
+5. reduce H: remove all f with Ro(f) - Ro(f) > /Polf ea Ae
+
+Denoting Hz y := {h €H: h(x) = y}
+
+ 
+
+Generally, need to try various k and pick one
+(See the papers)
+
+lk)
+
+[= su
+r>e
+
+p Peer ®:B(f*,r) shatters A)
+r
+
+d:= min{ k : PE(A € X* : B(f*,r) shatters A) —> o}
+r>0
+”) = og)
+
+Theorem: For Bounded noise, R(f) < R(f*) +e
+with # labels -
+
+~ Cod log (+)
+Note: <1 (may depend on f*, Px)
+
+In the example: @ = 2, 0 = +
+
+€
+ENDELEMENTUp Next:
+Distribution-free Analysis
+ENDELEMENTDistribution-Free Analysis anneke Yang, 2015)
+
+0, Y, 6 depend on f*, Py.
+
+Can we do sample complexity analysis without distribution-dependence?
+
+ 
+
+Definition: The star number s is the largest k s.t. dho,hi,..., he € H,
+day,...,tRE XK st. VIE {1, - .,k}, {xj 4 hi(a;) x ho(x;)} = {x;}.
+
+ 
+
+ 
+
+ 
+ENDELEMENTDistribution-Free Analysis anneke Yang, 2015)
+
+0, Y, 6 depend on f*, Py.
+
+Can we do sample complexity analysis without distribution-dependence?
+
+ 
+
+Definition: The star number s is the largest k s.t. dho,hi,..., he € H,
+day,...,tRE XK st. VIE {1, - .,k}, {xj 4 hi(a;) x ho(x;)} = {x;}.
+
+ 
+
+Example: Thresholds: f(x) = I[x > ¢].
+
+5§=2.
+
+ 
+
+ 
+ENDELEMENTDistribution-Free Analysis anneke Yang, 2015)
+
+0, Y, 6 depend on f*, Py.
+
+Can we do sample complexity analysis without distribution-dependence?
+
+ 
+
+Definition: The star number s is the largest k s.t. dho,hi,..., he € H,
+day,...,tRE XK st. VIE {1, - .,k}, {xj 4 hi(a;) x ho(x;)} = {x;}.
+
+ 
+
+Example: Linear Separators in R”, n > 2:
+
+ 
+
+  
+ENDELEMENTDistribution-Free Analysis
+
+0, Y, 6 depend on f*, Py.
+
+Can we do sample complexity analysis without distribution-dependence?
+
+Definition: The star number s is the largest k s.t. dho,hi,..., he € H,
+day,...,tRE XK st. VIE {1, - .,k}, {xj 4 hi(a;) x ho(x;)} = {x;}.
+
+ 
+
+ 
+
+Example: Intervals: «++ Ifa < « < D]
+
+ 
+
+Intervals of width w (b—a=w > 0) on ¥ = [0,1]: s = [4].
+
+ 
+
+ 
+
+(Hanneke & Yang, 2015)
+ENDELEMENTDistribution-Free Analysis fanaa 2010) 8
+
+0, Y, 6 depend on f*, Py.
+
+Can we do sample complexity analysis without distribution-dependence?
+
+ 
+
+Definition: The star number s is the largest k s.t. dho,hi,..., he € H,
+day,...,tRE XK st. VIE {1, - .,k}, {xj 4 hi(a;) x ho(x;)} = {x;}.
+
+ 
+
+Theorem: sup sup @ = sup sup ¥ = sup sup 6 = min{s, +} =! 5.
+Px f*eH Px f*eH Px f*eH
+
+Corollary:
+Bounded noise # labels © s-dlog(+)
+
+Agnostic (6 = R(f*)) # labels = 53d 5,
+
+Achieved by A?
+
+ 
+
+ 
+ENDELEMENTDistribution-Free Analysis fanaa 2010) 8
+
+0, Y, 6 depend on f*, Py.
+
+Can we do sample complexity analysis without distribution-dependence?
+
+ 
+
+Definition: The star number s is the largest k s.t. dho,hi,..., he € H,
+day,...,tRE XK st. VIE {1, - .,k}, {xj 4 hi(a;) x ho(x;)} = {x;}.
+
+ 
+
+  
+   
+
+Theorem: sup sup @ = sup sup ¥ = sup sup 6 = min{s, +} =! 5.
+
+Px f*cH Px f*cH Px f*cH
+Corollary: Different alg., Bounded noise
+Bounded noise # labels © s-dlog(+) # labels © s,/4 log(2)
+Agnostic (6 = R(f*)) # labels = 53d 5,
+
+Near-matching lower bound:
+
+1
+Achieved by A? $_ + dlog(=)
+
+ 
+ENDELEMENTDistribution-Free Analysis fanaa 2010) 8
+
+0, Y, 6 depend on f*, Py.
+
+Can we do sample complexity analysis without distribution-dependence?
+
+ 
+
+Definition: The star number s is the largest k s.t. dho,hi,..., he € H,
+day,...,tRE XK st. VIE {1, - .,k}, {xj 4 hi(a;) x ho(x;)} = {x;}.
+
+ 
+
+Theorem: sup sup @ = sup sup ¥ = sup sup 6 = min{s, +} =! 5.
+Px f*eH Px f*eH Px f*eH
+
+Corollary: Different alg., Bounded noise Open Question:
+Bounded noise # labels = & s-dlog(+) # labels © S¢/q log(2) Agnostic (8 = R(f*))
+: labels
+Agnostic (8 = R(f*)) # labels = 53d5 i
+gnostic (8 (*)) # labels ~ 55 “ Near-matching lower bound: ~ ds + Se/a log(+) ?
+1
+Achieved by A? S_ + dlog(¢)
+
+ 
+
+lower bound:
+d5 +5.+ dlog(+)
+ENDELEMENTAdapting to Heterogeneous Noise
+
+So far: Active learning for spatial heterogeneity of opt function:
+
+ 
+
++
+
+Nal ir Pro "| +
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Also consider: Spatial heterogeneity of noise:
+_
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+n(x) := E[Y|X =z] 0
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+-1
+
+ 
+ENDELEMENTActive Learning with TicToc Bsn eam)
+
+(Algorithm: A(n)
+Imput: Label budget n
+Output: Classifier fp.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+1. be . .
+
+b For OF 12... An active learning alg.
+B. X,,, <— GETSEED(L,m) < (e.g. A?)
+
+4. Ly, < TicToo(x,,,,m) < '
+
+5. if Ly» exists, L + LU {(sm,£m)} ———— Main new part
+
+6. If we’ve made n queries
+
+7. Return fn < LEARN(L)< A passive learning alg.
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTActive Learning with TicToc Bsn eam)
+
+ 
+
+(Algorithm: A(n)
+Imput: Label budget n
+Output: Classifier fp.
+
+ 
+
+ 
+
+1
+2
+3.
+MH.
+5
+6
+7
+
+.L+¢ {}
+. Form =1,2,...
+X,,, <- GETSEED(L, m)
+Lm < TicToco(X,,,,m)
+if Ly», exists, L + LU {(8m, Lm) }
+If we’ve made n queries
+Return f, <— LEARN(L)
+
+ 
+
+ 
+
+Denote n(x) = E[Y|X = a]
+Suppose f* is the global optimal function: f*(x) = sign(n(2))
+
+ 
+
+ 
+
+ 
+
+1cToc(X, m):
+uery X (or nearby) to try to guess f*(X)
+f can figure it out, return that label
+f can’t figure it out by Tm queries give up (don’t return a label
+
+ 
+
+Focus queries on less-noisy points.
+
+Double advantage:
+
+e Focusing on the points we actually care about:
+R(f lx) — R(f* |x) = |n(a) LP (@) 4 f*(a)]
+
+(small |7(x)| = not much effect on R(f|x) if f(a) = f*(a) or not).
+
+e And those points require fewer queries to determine f*(X;)!
+
+ 
+
+~ a? queries
+ito determine f*(X;)
+
+ 
+
+ 
+
+ 
+ENDELEMENTActive Learning with TicToc Bsn eam)
+
+ 
+
+(Algorithm: A(n)
+Imput: Label budget n
+Output: Classifier fp.
+
+ 
+
+1. L< {}
+
+2. For m=1,2,...
+
+3. Xs,, < GETSEED(L, m)
+
+4. Ly + TicToc(X,g,,,m)
+
+5. if Lm exists, L ~ LU {(5m,£m)}
+6. If we’ve made n queries
+
+7 Return f, <— LEARN(L)
+
+ 
+
+Denote n(x) = E[Y|X = a]
+Suppose f* is the global optimal function: f*(x) = sign(n(2))
+
+ 
+
+ 
+
+ 
+
+1cToc(X, m):
+uery X (or nearby) to try to guess f*(X)
+f can figure it out, return that label
+f can’t figure it out by Tm queries give up (don’t return a label
+
+ 
+
+ 
+
+ 
+
+Theorem: Bounded noise: # labels
+~ 8<jalog(t)
+
+Focus queries on less-noisy points.
+
+Double advantage:
+
+e Focusing on the points we actually care about:
+R(f lx) — R(f* |x) = |n(a) LP (@) 4 f*(a)]
+
+(small |7(x)| = not much effect on R(f|x) if f(a) = f*(a) or not).
+
+e And those points require fewer queries to determine f*(X;)!
+
+ 
+
+~ a? queries
+ito determine f*(X;)
+
+ 
+
+ 
+
+ 
+ENDELEMENTActive Learning with TicToc Bsn eam)
+
+ 
+
+ 
+
+ 
+
+ 
+
+(Algorithm: A(n) Denote n(x) = ElY|X = a] ; ; . ;
+Input: Label budget n Suppose f* is the global optimal function: f*(x) = sign(n(2))
+Output: Classifier f,. TCTOC(A, m):
+LLeg uery X (or nearby) to try to guess f*(X)
+» Form =1.2 f can figure it out, return that label
+, ee f can’t figure it out by Tm queries give up (don’t return a label
+3. Xs,, < GETSEED(L, m)
+4. Ly, + TicToc(X.,,,m) Focus queries on less-noisy points.
+5. if Lm exists, L + LU {(5m, L£m)}
+6. If we’ve made n queries Double advantage:
+7 Return f, <— LEARN(L)
+
+ 
+
+ 
+
+ 
+
+e Focusing on the points we actually care about:
+
+Theorem: Agnostic (8 = R(f*)) R _ R(f*le) = I
+
+and suppose f* = global best: (f\x) — R(f*|x) = In(a)|I[F(@) 4 f(a)
+
+# labels (small |7(x)| => not much effect on R(f|x) if f(a) = f*(x) or not).
+x ds + 8-/q log(+)
+
+. . . e And those points require fewer queries to determine f*(X;)!
+Confirms agnostic sample complexity conjecture
+
+I faq
+but with extra assumption f* = global opt. ~ goa Gueties
+ito determine f*(X;)
+
+ 
+
+ 
+
+ 
+
+ 
+
+Near-match lower bound: ds + 5+ dlog(+)
+ENDELEMENTPrinciples of Active Learning
+
+1. Query in dense regions where f could disagree a lot with f*
+
+2. Query in regions with low noise
+ENDELEMENTTsybakov Noise
+The alg. adapts to heterogeneity in the noise.
+
+Let’s try it with a model that explicitly describes
+heterogeneous noise:
+
+Tsybakov Noise
+ENDELEMENT. (Tsybakov, 2004;
+Tsy b a kov N O | S e Mammen & Tsybakov 1999)
+Denote n(x) = E[Y|X = a]
+Definition: (Tsybakov noise)
+
+f*(x) = sign(n(a)) and da € (0,1) s.t. Vr > 0,
+Px(a:|n(a)| <7) Sth.
+
+ 
+ENDELEMENT. (Tsybakov, 2004;
+Tsy b a kov N O | S e Mammen & Tsybakov 1999)
+
+Denote (a) = E[Y|X = a]
+
+ 
+
+ 
+
+ 
+
+ 
+
+Definition: (Tsybakov noise)
+f*(x) = sign(n(a)) and da € (0,1) s.t. Vr > 0,
+Px (a: |n(@)| <7) STs.
+
+ 
+
+Example: Behavior at 0
+enavior a
+Thresholds 1 n(x) determines a
+0
+-1
+
+(unif. distrib)
+ENDELEMENTTsybakov Noise
+
+Denote (a) = E[Y|X = a]
+
+ 
+
+ 
+
+ 
+
+ 
+
+Definition: (Tsybakov noise)
+f*(x) = sign(n(a)) and da € (0,1) s.t. Vr > 0,
+Px (a: |n(@)| <7) STs.
+
+ 
+
+Passive OPT: 0 (a4:). (Massart & Nédélec, 2006)
+
+Active OPT:
+
+(roughly)
+
+ate if0<a<1/2
+min {4s (§) 4} if 1/2<a<1
+| |
+
+Y J
+1 if
+xt ws <c
+
+ifs = co!
+
+(Hanneke & Yang, 2015)
+
+ 
+
+ 
+
+@?
+Active Opt < Passive Opt.
+(always)
+ENDELEMENTConclusions
+
+e Many proposals for going beyond Disagreement-based Active Learning
+e Each exhibits improvements in certain cases
+e We still don’t know the optimal agnostic active learning algorithm
+
+2
+d& + 8/4 10g(+)
+ENDELEMENTQuestions?
+
+Further reading:
+
+S. Dasgupta, A. Kalai, C. Monteleoni. Analysis of perceptron-based active learning. COLT 2005.
+M. F. Balcan, A. Broder, T. Zhang. Margin based active learning. COLT 2007.
+
+P. Awasthi, M. F. Balcan, P. Long. Journal of the ACM, 2017.
+
+S. Hanneke. Theoretical Foundations of Active Learning. PhD Thesis, CMU, 2009.
+
+S. Hanneke. Activized learning: Transforming passive to active with improved label complexity. Journal of Machine Learning
+Research, 2012.
+
+C. Zhang, K. Chaudhuri. Beyond disagreement-based agnostic active learning. NeurIPS 2014.
+
+R. M. Castro, R. D. Nowak. Minimax bounds for active learning. IEEE Transactions on Information Theory, 2008.
+R. M. Castro, R.D. Nowak. Upper and lower error bounds for active learning. Allerton 2006.
+
+S. Dasgupta. Coarse sample complexity bounds for active learning. NeurIPS 2005.
+
+S. Hanneke, L. Yang. Minimax analysis of active learning. Journal of Machine Learning Research, 2015.
+
+S. Hanneke. Refined error bounds for several learning algorithms. Journal of Machine Learning Research, 2016.
+
+M. F. Balcan, S. Hanneke, J. Wortman Vaughan. The true sample complexity of active learning. Machine Learning, 2010.
+ENDELEMENT

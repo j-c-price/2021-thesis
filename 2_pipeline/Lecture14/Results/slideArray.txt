@@ -1,0 +1,699 @@
+FinTech:
+Shaping the Financial World
+
+May 11, 2020
+ENDELEMENTClass 12: Overview
+
+* Finance Technology Stack
+
+* FinTech — The Actors
+
+¢ Al, Machine Learning & Natural Language Processing — Finance
+* Open API, Open Banking & Robotic Process Automation
+
+* Credit Scoring & Alternative Data
+
+* Blockchain Technology & Cryptocurrencies
+
+* Sector Review, Competitive Landscape & Coronavirus Crisis
+
+* Conclusions
+ENDELEMENTClass 12: Study Questions
+
+¢ What is FinTech & how might it shape the future of money and finance?
+* How can one best assess the viability of FinTech project?
+
+* Has this class met your goals? Has it made you more bullish or more
+bearish on fintech?
+ENDELEMENTFinance Technology Stack
+
+ 
+
+? Blockchain Tech, etc. ? >
+
+ 
+
+ 
+
+ 
+
+Sensors & Telematics >
+
+ 
+
+ 
+
+ 
+
+Open API >
+
+ 
+
+ 
+
+ 
+
+Al, ML & NLP >
+
+ 
+
+ 
+
+Cloud >
+
+ 
+
+ 
+
+Mobile >
+
+ 
+
+ 
+
+ 
+
+Internet >
+
+ 
+
+ 
+
+ 
+
+Money, Accounting, Ledgers, Joint Stock Companies, Markets, Derivatives,
+
+Electronic Messaging, Credit Cards, Securitizations, etc. >
+ee
+
+ 
+
+ 
+
+ 
+ENDELEMENT     
+   
+   
+   
+   
+ 
+
+Customer Interface
+
+ 
+
+Chatbots, Cl & Voice Assistants (2010s)
+
+ 
+
+ 
+
+ 
+
+| Open APIs (2000s) & Open Banking (2015)
+
+ 
+
+ 
+
+—
+Contactless & Cardless Systems (2000s) >
+
+ 
+
+ 
+
+ 
+
+Mobile Payments (2000s) & Wallets (2008) >
+
+ 
+
+ 
+
+ 
+
+ 
+
+ternet (1990s) & On-line Banking (1990s - 2000s) >
+
+ 
+
+ 
+
+Automatic Teller Machines
+
+Credit Cards (1940 — 50s) & Point of Sale Systems (1980s) >
+
+Mortgage Brokerage (1890s) & Automobile Indirect Lenders (1910s) > |
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Electronic Payments (1870s), Wires (1910s), ACH (1970s) & Direct Deposits (1970s) >
+
+ 
+
+ 
+
+ 
+
+ 
+
+Checks (800s), Negotiable Checks (1500s), & Preprinted Checks (1760s) >
+
+ 
+
+ 
+
+Banking - Tents, Temples, Bricks & Mortar (4t* — 1% millennium BCE) >
+
+ 
+
+ 
+
+ 
+
+SS
+ENDELEMENTFunding & Risk Management
+
+    
+    
+    
+   
+   
+
+ 
+
+ 
+
+Sensors & Telematics (2010s
+
+ 
+
+ 
+
+ML Based Underwriting (2010s) >
+
+ 
+
+ 
+
+ 
+
+o Peer Lending (2005) >
+
+Credit Default Swaps (1990s) >
+
+Asset Backed Securitizations (1970s — 90s) >
+
+ 
+
+ 
+
+ 
+
+ 
+
+  
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ires (1970s) & Interest Rate Swaps (1980
+
+ 
+
+ 
+
+ 
+
+Consumer Credit Scoring (1960s) & FICO Scores (1990s) >
+
+Consumer Finance Companies & Warehouse Lines of Credit (1920s) >
+
+Private (1880s, 1950s), Government (1930s) & GSEs (1930s) Mortgage Insurance >
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Bankruptcy & Secured Lending Laws, Loan Servicing & Collection Agents (Days of old) >
+
+ 
+
+ 
+
+Bank Deposits - (Antiquity) >
+
+ 
+
+ 
+
+ 
+
+ooo
+ENDELEMENTFinTech - Finance’s Fertile Ground
+
+° Digitalization of Money, Securities and Credit
+
+¢ Wide Public Acceptance of New Tech
+
+¢ Legacy Customer Interface and Processing Systems
+
+¢ Vast and Expanding Amounts of Customer Data
+
+* Rapid Expansion of Computational & Analytical Power
+¢ Reliance on Multiple Systems of Ledgers
+
+¢ Infrastructure Systems’ Costs and Counterparty Risks
+¢ Economic Rents and Centralized Concentrated Risks
+ENDELEMENTFinTech — The Actors
+
+* Big Finance: Like ‘Fortresses’ w/ Moats, Towers & Sovereign Affiliations
+
+* ‘Towers’: 1) Payments, 2) Balance Sheets, 3) Data, 4) Corporate Structure
+¢ Big Tech DNA Loop (BIS): 1) Data, 2) Networks, 3) Activities
+¢ Start-ups: 1) Disruptive Innovators, 2) Flexibility, 3) Asymmetric Risk Takers
+
+* Official Sector: Goals: 1) Economic Growth, 2) Financial Stability, 3) Guarding
+against Illicit Activities, 4) Inclusion, 5) Investor & Consumer Protection
+ENDELEMENTAl and Machine Learning - Finance /
+
+Asset Management
+
+   
+
+* Call Centers, Chatbots, Robo-Advising & Virtual Assistants
+
+Credit & Insurance - Allocation, Extension, Pricing & Scoring
+
+Fraud Detection & Prevention
+
+Regulatory — Anti Money Laundering, Anti Manipulation
+
+Risk Management & Underwriting
+Robotic Process Automation
+Trading
+
+9
+Image by Lex Fridman. Used with permission.
+ENDELEMENTAl and Machine Learning - Finance e@
+| |
+
+Machine
+¢ Al asa Tool Sg
+* Big Finance, Big Tech, & FinTech Disrupters alee
+
+¢ Alas a Service
+
+¢ AlphaSense (2011) — Search Engine
+
+* Cape Analytics (2014) — Insurance Property Risk Analytics
+
+* ComplyAdvantage (2014) — Anti-Money laundering & KYC Software
+
+* Dataminr (2009) - Market Sentiment Analysis
+
+Featurespace (2008) — Anti-fraud Software
+
+* HyperScience (2014) — Document Processing
+
+Tractable (2014) — Insurance Claims Processing
+
+Zest Al (2009) — Credit Underwriting Software
+
+Zesty.ai (2015) — P & C Insurance Risk Analytics image by Lex Fridman. Used with permizgion.
+ENDELEMENTNatural Language Possessing - Finance
+
+* Content Generation, Content Summarization, Information
+Retrieval, Intent Parsing, Sentiment Analysis, Speech
+Generation, Speech Recognition and Translation
+
+¢ Customer Services
+¢ Chatbots, Conversational Interfaces and Voice Assistants
+
+¢ Process Automation
+
+¢ Sentiment Analysis
+ENDELEMENTOpen API & Open Banking
+
+*Open Application Program Interfaces (Open API) allow
+outside Developers access to and an ability to Integrate
+Permissioned Customer Data into Third Party Applications
+
+* Open Banking initiatives facilitates or mandates Open API for
+Non-banks to Share Permissioned Bank Customer Data
+ENDELEMENTOpen API & Open Banking
+
+* Policy Trade-offs of Promoting Competition & Innovation,
+Limiting Cybersecurity Risks, and Maintaining Privacy &
+Consumer Protections
+
+*EU Payment System Directive (PSD2), UK Open Banking
+Initiative, etc.
+
+¢ Alternatives: Screen Scraping, Reverse Engineering & Robotic
+Process Automation
+ENDELEMENTRobotic Process Automation
+
+¢ Account Opening & Onboarding
+* Loan Processing
+* Report Generation
+
+* Screen Scraping
+ENDELEMENTFICO Scores
+30%
+
+Amounts Owed
+
+10:
+
+New Credit
+
+     
+    
+     
+
+15s,
+
+Length of
+Credit History
+
+10:
+
+Credit Mix
+
+FICOSCORE
+
+35%
+
+Payment History
+
+© FICO. All rights reserved. This content is excluded from our Creative Commons
+license. For more information, see https://ocw.mit.edu/help/faq-fair-use/
+
+15
+
+Source: ‘What’s in my FICO. Scores?’, myFICO, Fair Isaac Corporation
+ENDELEMENTAlternative Data
+
+* Bank, Checking, Employment, Income, Insurance, Tenant, Utilities
+* Cash Flow Underwriting
+
+* Consumption and Purchase Transactional Data
+* Educational Background, Employer, Occupation, Work History
+* App Usage, Browsing History, Email Receipt, Geolocation, Social Media Data
+
+¢ Sensor Data - Drones, loTs, Smartphones, Telematics, & Wearables
+* Genetic Testing
+ENDELEMENTBlockchain Technology &
+Cryptocurrencies
+
+* Nakamoto solved the payments riddle - avoiding double spending
+
+¢ Money is but a social & economic construct
+
+* Append-only logs & multiparty consensus provides a peer-2-peer alternative
+* Can address verification and networking costs
+
+* Crypto markets are rife with scams, fraud, hacks & manipulation
+
+* Cryptocurrencies have evolved into a speculative asset class
+
+¢ Adoption rests on addressing comparative viability & value proposition
+
+* The potential, though, to be a catalyst for change is real
+ENDELEMENTPayment System ‘Pain Points’
+
+¢ Chargebacks
+
+* Complexity
+
+* Costs
+
+* Cross Border Payments
+
+* Data Privacy
+
+* Delayed Settlement
+
+¢ Financial Inclusion
+
+° Fraud
+
+* Public Policy Compliance
+ENDELEMENTBig Finance
+
+BankofAmerica 4 BlackRock. _ [ag 5yP rarizas CHASE &
+CS citi Fidelity
+
+China Construction Bank § (QQ EEE ERE
+
+HSBC ICBC@® [qi
+
+gaa
+idea's
+
+DER STATE STREET.
+
+   
+
+(e) MUFG «te Nasdaq
+ENDELEMENTFinTech — Payments
+
+Big Tech
+ae Sz = gl hoe amazon (i) G P. PMS sett @ Pay
+aurea <Setaricim — ay WeChat Pay
+2003 2007 2007 2011 2013 2014 2014
+
+Startup Unicorns
+S§avidxchange BR EX Klarna MU " one 97 | Orn Bra efripple
+
+©) square stone” stripe Ctoast Toss ‘RADESHIFr /TransferWise
+ENDELEMENTCredit & Lending: Market Design
+
+Data
+¢ Alternative Data, Credit Scoring, Cross Selling, Marketing & Underwriting
+Funding
+
+* Balance Sheet, Securitization, or Issuer Bank Partner
+Marketing Channels
+¢ User Experience & User Interface
+Risks
+* Credit / Default, Market (Basis, Rate, Spread, Volatility), & Prepayment
+* Funding, Liquidity, Model, Operational, & Reputational / Compliance
+Roles
+* Brokerage / Origination, Underwriting, Credit Enhancing, Securitizing, Credit
+Rating, Appraising, Servicing, Collecting / Foreclosing, & Funding
+ENDELEMENTFinTech — Credit
+
+Big Tech
+sss amazontendny Card WB sataobank Mena
+
+Google Wallet
+
+Credit Unicorns
+Affirm & Atombank AVANT BR EX chime credit karma
+
+Dawe... Q@Funding eB kabbage Klarna fLendingClub (CURAX
+
+©@ MoneyLion @smonzo N26 VUbon BD ooscrin PROSPER
+
+Ravdie sori Osacae stipe @Qasm H9KREO .,
+
+oFbank.com
+HER KALR
+ENDELEMENTZero Commission Revenue Models
+
+The cost of financial advice What this means for you
+
+Commissions The little it actually helps
+
+Everything else
+
+Margin inter
+
+Maintenanc ice rakichr racice soul
+saction fees could be saving
+
+Account closure
+
+Credit spread
+
+ 
+
+3
+
+Courtesy of Altruist. Used with permission. Source: ‘The real story behind commission free trading’, Jason Wenk, Altruist (October 16, 2019)
+ENDELEMENTNumber of users in the robo-advisors segment, in millions
+
+160
+140 _e
+120 0
+
+100 —
+80
+40
+20 yo
+0 —
+2017 2018 2019 2020 2021 2022 2023
+
+© LearnBonds. All rights reserved. This content is excluded from our Creative Commons 24
+
+license. For more information, see https://ocw.mit.edu/help/faq-fair-use/ Source: ‘Robo-advisor Industry to hit $1.4trn This Year’ Jastra llic, LearnBonds (April 15, 2020)
+ENDELEMENTFinTech — Capital Markets
+
+* Online Brokerage
+— robinhood
+
+¢ Asset Management and Advisory
+
+6,
+a & SNe spies PERSONAL ( ealthfro
+@ acorns Betterment MWK cetz ake CAPITAL Nw Ithfront
+
+* Trading and Capital Markets
+
+a> i
+SBINANCE “carta Qarce Scoinbase Peas
+
+25
+ENDELEMENTInsurTech Opportunities
+
+¢ Sales, Account Management & Claims Ul & UX:
+* Digital, Mobile & Conversational Interface
+
+¢ Underwriting Availability, Pricing & Targeted Products:
+
+* Machine Learning & Alternative Data
+
+* Claims Processing & Underwriting Data Capture:
+
+* Drones, Internet of Thing Sensors, Smartphones Telematics, &
+Wearables
+
+* Genetic Testing — Life, Disability & Long-term Care
+ENDELEMENTInsurance Sector Challenges
+
+¢ Agent & Broker Fees
+
+* Claims Administration
+
+* Distribution Channels
+
+* Legacy Tech
+
+* Operating Costs & Expense Ratios
+
+* Product Development & Speed to Market
+¢ Regulatory Landscape
+
+° Trust
+
+¢ User Interface and User Experience
+ENDELEMENTFinTech — InsurTech Startups
+
+* Property & Casualty
+
+(kX ASSURANCE Bao Goji Hippo Lemonade
+
+@ next... policy bazaar @ Root Si wefox ARS im
+° Health
+bright Clover oscar
+
+* Benefits Administation
+
+©custo @ Healthequity > 4 ZENEFITS
+ENDELEMENTCoronavirus Crisis & FinTech Startups
+
+* Focus on ‘Runway’: Burn Rates, Cash, Revenue & Adoption Rates
+¢ IPOs on Hold
+
+¢ VC Investment will Slow
+
+¢ Valuations Decline
+
+* Consolidation likely to Increase
+
+* There will be Winners & Losers w/ Sector Mattering
+
+* Opportunities arise to Serve Fiscal Stimulus & Loan Programs
+* Challenges of Delinquencies & Defaults on Horizon
+ENDELEMENTCourses - Fall 2020
+
+* Blockchain & Money (15.235)
+* Tentatively: Tues/Thurs 2:30 — 4 pm
+
+* Collaborative Intelligence Ventures (15.S57/ 6.S077/6.S977)
+
+* Prep for MIT’s spring Collaborative Intelligence Ventures Competition
+
+* Project focus on humans and machines working together collaboratively
+° H2 — Tentatively: Wed 3-5 pm
+
+* Taught w/ Jonathan Ruane & Julie Shah
+ENDELEMENTCourses - Fall 2020
+
+* Coronavirus Lecture & Lab Course (TBD)
+
+* Focusing on Coronavirus Crisis
+* To include both Lecture and Project Components
+* Led by Simon Johnson, Asu Ozdaglar along w/ other MIT faculty
+* Tentatively: Tues / Thurs
+* Multiple Action Learning Streams tentatively to include:
+° FinTech & Coronavirus
+* Public Policy & Coronavirus
+* Other Project Work Streams
+ENDELEMENTPay it Forward Benjamin Franklin, 1784
+
+| do not pretend to give such a deed; | only lend it to you.
+
+When you [...] meet with another honest Man in similar
+Distress, you must pay me by lending this Sum to him;
+enjoining him to discharge the Debt by a like operation, when
+he shall be able, and shall meet with another opportunity.
+
+| hope it may thus go thro' many hands, before it meets with
+a Knave that will stop its Progress.
+
+This is a trick of mine for doing a deal of good with a little
+money.
+ENDELEMENTMIT OpenCourseWare
+https://ocw.mit.edu/
+
+15.S08 FinTech: Shaping the Financial World
+Spring 2020
+
+For information about citing these materials or our Terms of Use, visit: https://ocw.mit.edu/terms.
+
+33
+ENDELEMENT

@@ -1,0 +1,5368 @@
+Some content in this video is not covers
+under our Creative Commons license.
+See the closing credits for more informat
+ENDELEMENTA mathematical model of a neuron
+
++ Equivalent circuit model
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Alan Hodgkin
+‘Andrew Huxley, 1952
+
+ 
+
+ 
+ENDELEMENTA mathematical model of a neuron
+
++ Equivalent circuit model
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+‘Alan Hodgkin
+‘Andrew Huxley, 1952
+
+ 
+
+ 
+ENDELEMENTA neuron is a capacitor
+
+Equivalent ccuit
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTA neuron is a capacitor
+
+Equivalent circuit
+
+ 
+
+ 
+
+ 
+
+intracellular
+Why is this a capacitor?
+
+‘A capacitor is two conductors. G °
+‘separated by an insulator tb
+
+  
+
+ 
+
+ 
+
+ 
+
+ 
+
+extracellular
+
+   
+ENDELEMENTA neuron is a capacitor
+
+Equivalent circuit
+
+ 
+
+ 
+
+ 
+
+intracellular
+Why is this a capacitor?
+
+A capacitor is two conductors. G °
+separated by an insulator th
+
+  
+
+ 
+
+ 
+
+ 
+
+ 
+
+extracellular
+
+   
+ENDELEMENTA neuron is a capacitor
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTA neuron is a capacitor
+
+Equivalent ccuit
+
+ 
+
+Why is this @ capacitor?
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTA neuron is a capacitor
+
+ 
+
+Equivalent circuit
+
+ 
+
+ 
+
+ 
+
+intracellular
+Why is this a capacitor? <
+A.capacitor is two conductors,
+‘separated by an insulator
+
+ 
+
+ 
+
+  
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTA neuron is a capacitor
+
+oA
+
+ 
+
+Equivalent circuit
+
+ 
+
+ 
+
+ 
+
+ 
+
+intracellular
+Why is this a capacitor? <
+A.capacitor is two conductors
+‘separated by an insulator
+
+  
+
+ 
+
+ 
+
+ 
+
+ 
+
+   
+ENDELEMENTA neuron is a capacitor
+
+We
+— Ls
+
+Equivalent ccuit
+
+ 
+
+Why is this a capacitor?
+
+ 
+
+ 
+
+ 
+
+>,
+I
+
+ 
+
+ 
+ENDELEMENTA neuron is a capacitor
+
+ 
+
+Equivalent circuit
+
+ 
+
+ 
+
+ 
+
+intracellular
+Why is this a capacitor? <
+A.capacitor is two conductors
+‘separated by an insulator
+
+ 
+
+ 
+
+  
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTA neuron is a capacitor
+
+Equivalent ccuit
+
+ 
+
+Why is this a capacitor?
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTA neuron is a leaky capacitor
+
+ 
+
+ 
+ENDELEMENTAneuron is a leaky capacitor
+
+ie chanvels
+
+Contribute te membrane.
+current
+ENDELEMENTA neuron is a leaky capacitor
+
+ 
+
+ 
+ENDELEMENTAneuron is a leaky capacitor
+
+ie chanvels
+
+Gontribete te membrane.
+current
+
+intrace
+
+&& gex ata T
+
+ 
+
+ 
+ENDELEMENTA neuron is a leaky capacitor
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTA neuron is a leaky capacitor
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTA neuron is a leaky capacitor
+
+Membrane ionic current
+
+cenit leak aoliceay
+
+Gontribete te membrane.
+current
+
+intrace
+
+&& gex ala D
+
+ 
+
+ 
+ENDELEMENTA neuron is a leaky capacitor
+
+ 
+
+ 
+
+ 
+ENDELEMENTAneuron is a leaky capacitor
+
+Membrane ionic current
+
+vente clerk nolceaiy
+
+Contribute te membrane.
+current
+
+intrace
+
+&& gex ala D
+
+ 
+
+ 
+ENDELEMENTA neuron is a leaky capacitor
+
+ 
+
+ 
+
+ 
+ENDELEMENTAneuron is a leaky capacitor
+
+Membrane ionic current
+vente clerk nolceaiy
+
+otibcke to membre
+correat
+
+ 
+
+intrace
+
+ 
+
+ 
+
+36 \ ye i
+ENDELEMENTA neuron is a leaky capacitor
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTA neuron is a leaky capacitor
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTOur equation for our model becomes
+
+1+h-1,=0
+
+ 
+
+ 
+
+ 
+ENDELEMENTOur equation for our model becomes:
+
+ 
+
+ 
+
+1,+1,-1,=0 Wo
+
+    
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+‘extracel
+ENDELEMENTOur equation for our model becomes:
+
+B|
+
+|
+
++1
+
+1=0
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTOur equation for our model becomes
+
+1+h-1,=0
+
+ 
+
+ 
+
+ 
+ENDELEMENTOur equation for our model becom
+
+1+h-1,=0
+
+ 
+
+ 
+
+ 
+ENDELEMENTOur equation for our model becomes:
+
+Bi!
+
+I
+
++1,
+
+1=0
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTOur equation for our model becom
+
+14h-1,=0
+
+ 
+
+ 
+
+ 
+ENDELEMENTOur equation for our model become:
+
+ 
+
+ 
+
+ 
+ENDELEMENTOur equation for our model becomes:
+
+|
+
+1,+1,-1,=0
+
+dv
+I, + C= 1,
+‘ dt
+
+YicMey
+
+R,
+
+|
+
+  
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+‘extracel
+ENDELEMENTOur equation for our model becomes:
+
+!
+
+I
+
++1
+
+1=0
+
+ 
+
+ 
+
+Bi!
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTOur equation for our model becomes:
+
+|
+
+1,+1,-1,=0
+
+dv
+I, + C= 1,
+‘ dt
+
+Yic@ey
+
+R,
+
+av
+V+RC— =].
+WO 9 lh
+
+Rewrite as:
+
+|
+
+  
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+‘exiracaT
+ENDELEMENT 
+  
+
+Our equation for our model become:
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+1,+1,-1,=0
+fe
+I+ c® =I, ; ¢
+vay extacaT
+ve Ge i,
+R dt
+
+veRc® - Ri)
+
+Rewrite as:
+ENDELEMENTOur equation for our model becomes:
+
+ 
+
+1,+1-1=0 4
+
+gil
+a
+
+L+
+
+ 
+
+ 
+
+ 
+
+ 
+
+pri
+de
+
+venc®
+di
+
+Rewrite as
+wey
+a
+
+ 
+
+ 
+ENDELEMENTOur equation for our model becomes:
+
+ 
+
+T=RC Vim RL,
+
+ 
+
+ 
+ENDELEMENTResponse to current injection
+
+Let's see what happens when we inject current into our model neuron w
+leak conductance,
+ENDELEMENTResponse to current injection
+
+ 
+
+ 
+ENDELEMENTResponse to current injection
+
+Let's see what happens when we inject current into our model neuron w
+leak conductance,
+ENDELEMENTResponse to current injection
+
+Let's see what happens when we inject current into our model neuron w
+leak conductance,
+
+V(t) j
+
+VQ=R 10)
+ENDELEMENTResponse to current injection
+
+ 
+
+ 
+ENDELEMENTResponse to current injection
+
+v(t)
+
+ 
+
+ 
+ENDELEMENTResponse to current injection
+
+v(t)
+
+ 
+
+ 
+ENDELEMENTResponse to current injection
+
+ 
+
+ 
+ENDELEMENTResponse to current injection
+
+Let's see what happens when we inject current into our model neuron w
+
+leak conductance,
+
+V(t)
+
+Vat)
+
+ 
+
+ 
+
+ 
+
+ 
+
+V= R10)
+
+ 
+ENDELEMENTResponse to current injection
+
+v(t)
+
+ 
+
+ 
+ENDELEMENTResponse to current injection
+
+ 
+
+ 
+ENDELEMENTResponse to current injection
+
+Let's see what happens when we inject current into our model neuron w
+
+leak conductance,
+
+V(t)
+
+V(t)
+
+ 
+
+V@-V,, = —
+
+RC
+
+ 
+
+ 
+
+ 
+
+VO=RLO
+
+ 
+
+ 
+ENDELEMENTResponse to current injection
+
+ 
+
+ 
+ENDELEMENTResponse to current injection
+
+Let's see what happens when we inject current into our model neuron w
+
+leak conductance,
+
+V(t)
+
+Vat)
+
+ 
+
+V@-V,, = —
+
+RC
+
+ 
+
+ 
+
+ 
+
+VO=RLO
+
+ 
+
+ 
+ENDELEMENTNeurons have batteries
+
+nere do the ‘batteries’ of a
+neuron come from?
+
+ 
+
+ 
+ENDELEMENTNeurons have batteries
+
++ Where do the ‘batteries’ of a
+neuron come from?
+
+ 
+
+ 
+ENDELEMENTNeurons have batteries
+
++ Where do the ‘batteries’ of a
+neuron come from?
+
+ 
+
+ 
+ENDELEMENTNeurons have batteries
+
++ Where do the ‘batteries’ of a
+neuron come from?
+
+ 
+
+ 
+ENDELEMENTNeurons have batteries
+
++ Where do the ‘batteries’ of a
+neuron come from?
+
+1) lon concentration gradients
+
+2) lon-selective pores (channels)
+
+ 
+ENDELEMENTNeurons have batteries
+
+Where do the ‘batteries’ of a
+neuron come from?
+
+1) lon concentration gradients
+
+2) lon-selective pores (channels)
+
+ 
+
+When you open up the K channel, K* ions flow out of the cell
+potential reaches the equilibrium voltage given by Nemst equ:
+
+At the equilibrium potential there is no net K* current into or ot
+ENDELEMENTNeurons have batteries
+
+Where do the ‘batteries’ of a
+neuron come from?
+
+1) lon concentration gradients
+
+2) lon-selective pores (channels)
+
+ 
+
+ 
+
+1u open up the K channel, K* ions flow out of the cell
+potential reaches the equilibrium voltage given by Nernst equ:
+
+At the equilibrium potential there is no net K* current into or ot
+ENDELEMENTNeurons have batteries
+
++ Where do the ‘batteries’ of a
+neuron come from?
+
+ 
+
+ 
+ENDELEMENTNeurons have batteries
+
++ Where do the ‘batteries’ of a
+neuron come from?
+
++ When you open up the Ke
+
+ 
+
+ 
+ENDELEMENTNeurons have batteries
+
+Where do the ‘batteries’ of
+neuron come from?
+
+up the K channel, K* ions low aut ofthe cell units
+
+ 
+
+ 
+ENDELEMENTNeurons have batteries
+
++ Where do the ‘batteries’ of a
+neuron come from?
+
+ 
+
+ 
+ENDELEMENTDerivation of the Nernst Potential
+
+We can compute the equilibrium potential using the Boltzmai
+equation:
+
+U =qV = clectsical potent
+
+q= charge of ion
+
+ 
+
+q= 1.6x10°%C for monov:
+
+#  a5mv for monovalen
+
+AV = Vg—Ve, =25mV “(5 )
+
+P
+ENDELEMENTDerivation of the Nernst Potential
+
+We can compute the equilibrium potential using the Boltzmai
+equation:
+
+U =qV = clectical potent
+
+q= charge of ion
+
+ 
+
+= 1.6s10°%C for monov:
+#F ~ 25my for monovaen
+
+AV = V,—Vj,=25mV »(&)
+ENDELEMENTDerivation of the Nemst Potential
+
+compute the equilibrium potential using the Boltzmann,
+
+{x}
+(kL
+
+ 
+
+ 
+ENDELEMENTDerivation of the Nernst Potential
+
+We can compute the equilibrium potential using the Boltzmai
+equation:
+
+U = qV = clectsical potent
+
+q= charge of ion
+
+ 
+
+q= 1.6x10°%C for monov:
+
+#  a5mv for monovalen
+
+AV = V—Ve, =25mV “(4 )
+
+P
+ENDELEMENTDerivation of the Nernst Potential
+
+We can compute the equilibrium potential using the Boltzmai
+equation:
+
+U = qV = clectsical potent
+
+q= charge of ion
+
+ 
+
+q= 1.6x10°%C for monov:
+
+#  a5mv for monovalen
+
+AV = Vg—Ve, =25mV “(4 )
+
+P
+ENDELEMENTDerivation of the Nernst Potential
+
+We can compute the equilibrium potential using the Boltzmai
+equation:
+
+U =qV = clectical potent
+
+q= charge of ion
+
+ 
+
+= 1.6s10°%C for monov:
+#F ~25my for monovaen
+
+AV = V,—Vj,=25mV »(%)
+ENDELEMENTDerivation of the Nernst Potential
+
+We can compute the equilibrium potential using the Boltzmai
+equation:
+
+U = qV = clectical potent
+
+q= charge of ion
+
+ 
+
+4= 1.6s10°%C for monov:
+
+# ~a5my for monovalen
+
+AV = V,—Vj,=25mV “(4 )
+
+P
+ENDELEMENTThe Nernst Potential is different fo
+different ions
+
+Intracellular and extracellular concentrations of ioni
+species, and the Nernst potential
+
+ee re eee eee
+(mM) (mv)
+
+v= uf 20) ] IL. a5my 2 300K (room tem
+q "(400 q
+
+for monovalent ion
+ENDELEMENTThe Nernst Potential is different for
+different ions
+
+Intracellular and extracellular concentrations of ionic
+species, and the Nemst potential
+
+a, 20 fa
+fs
+
+, =25mV(-300)=—75mV
+
+ 
+ENDELEMENTThe Nernst Potential is different for
+different ions
+
+Intracellular and extracellular concentrations of ionic
+species, and the Nernst potential
+
+a, 20 fa
+fs
+
+E, =25mV(-300)=—T5nV
+
+ 
+ENDELEMENTDerivation of the Nernst Potential
+
+We can compute the equilibrium potential using the Boltzmai
+equation:
+
+U =qV = clectical potent
+
+q= charge of ion
+
+ 
+
+4= 1.6x10°%C for monov:
+
+#F  a5mv for monovalen
+
+AV = V,-Ve, =25mV. “(4 )
+
+P
+ENDELEMENTDerivation of the Nernst Potential
+
+We can compute the equilibrium potential using the Boltzmann,
+
+(k].
+(kL
+
+ 
+
+ 
+ENDELEMENTDerivation of the Nernst Potential
+
+We can compute the equilibrium potential using the Boltzmai
+equation:
+
+U =qV = clectical potent
+
+q= charge of ion
+
+ 
+
+q= 1.6x10°%C for monov:
+
+# asm for monovaten
+
+AV = V,-Ve, =25mV. “(4 )
+
+P
+ENDELEMENTThe Nernst Potential is different fo
+different ions
+
+Intracellular and extracellular concentrations of ioni
+species, and the Nernst potential
+
+l= al
+(mM) (mv)
+
+He a 20 ] FL. a5my 2 300K (room tem
+q "(400 q
+
+for monovalent ion
+ENDELEMENTThe Nernst Potential is different for
+different ions
+
+Intracellular and extracellular concentrations of ionic
+ies, and the Nernst potential
+
+, = 25mV(-3.0) = -75nv
+
+ 
+
+ 
+ENDELEMENTThe Nernst Potential is different fo
+different ions
+
+Intracellular and extracellular concentrations of ioni
+species, and the Nernst potential
+
+l= al
+(mM) (mv)
+
+He a 20 ] FL. a5my 2 300K (room tem
+q "(400 q
+
+for monovalent ion
+ENDELEMENTThe Nernst Potential is different for
+different ions
+
+Intracellular and extracellular concentrations of ionic
+pecies, and the Nernst potential
+
+ 
+
+ 
+ENDELEMENTThe Nernst Potential is different for
+different ions
+
+Intracellular and extracellular concentrations of io
+ies, and the Nernst potential
+
+, =25mV(-3.0) = -75nv
+
+ 
+
+ 
+ENDELEMENTThe Nernst Potential is different fo
+different ions
+
+Intracellular and extracellular concentrations of ioni
+species, and the Nernst potential
+
+K 400 20 15
+
+Nat 50 440
+ENDELEMENTThe Nernst Potential is different for
+different ions
+
+Intracellular and extracellular concentrations of ionic
+pecies, and the Nernst potential
+
+ 
+
+ 
+ENDELEMENTThe Nernst Potential is different fo
+different ions
+
+Intracellular and extracellular concentrations of ioni
+species, and the Nernst potential
+
+K 400 20 15
+
+Nat 50 440
+ENDELEMENTThe Nernst Potential is different for
+different ions
+
+Intracellular and extracellular concentrations of ionic
+pecies, and the Nernst potential
+
+ 
+
+ 
+ENDELEMENTThe Nernst Potential is different fo
+different ions
+
+Intracellular and extracellular concentrations of ioni
+species, and the Nernst potential
+
+Ke 400 20 15
+
+Nat 50 440 455
+ct 52 560
+ENDELEMENTThe Nernst Potential is different for
+different ions
+
+Intracellular and extracellular concentrations of io
+pecies, and the Nernst potential
+
+ 
+
+ 
+ENDELEMENTThe Nernst Potential is different fo
+different ions
+
+Intracellular and extracellular concentrations of ioni
+species, and the Nernst potential
+
+‘Cytoplasm
+(mM)
+Ke 400 20 1s
+
+Nat 50 440 455
+ct 52 560
+ENDELEMENTThe Nernst Potential is different fo
+different ions
+
+Intracellular and extracellular concentrations of ioni
+species, and the Nernst potential
+
+Dee ee eee ee
+(mM)
+
+Nat 50 440 455
+ct 52 560
+ENDELEMENTThe Nernst Potential is different for
+different ions
+
+Intracellular and extracellular concentrations of ionic
+ies, and the Nernst potential
+
+ 
+
+ 
+ENDELEMENTThe Nernst Potential is different for
+different ions
+
+Intracellular and extracellular concentrations of
+species, and the Nernst potential
+
+ee nsarl ey
+
+ 
+
+ 
+ENDELEMENTThe Nernst Potential is different for
+different ions
+
+Intracellular and extracellular concentrations of io
+ies, and the Nernst potential
+
+ 
+
+ 
+ENDELEMENTThe Nernst Potential is different for
+different ions
+
+Intracellular and extracellular concentrations of ionic
+species, and the Nernst potential
+
+ 
+
+ 
+ENDELEMENTThe Nernst Potential is different fo
+different ions
+
+Intracellular and extracellular concentrations of ioni
+species, and the Nernst potential
+
+a rar | sca al
+(mm)
+
+5 as =
+a Soe
+
+ct 52 560 -60
++126
+ENDELEMENTThe Nernst Potential is different fo
+different ions
+
+Intracellular and extracellular concentrations of ioni
+species, and the Nernst potential
+
+bc maa
+(mm)
+Se
+
+ct 52 560 -60
++124
+ENDELEMENTThe Nernst Potential is different for
+different ions
+
+Intracellular and extracellular concentrations of ionic
+ies, and the Nernst potential
+
+ 
+
+ 
+ENDELEMENTThe Nernst Potential is different for
+different ions
+
+Intracellular and extracellular concentrations of
+species, and the Nernst potential
+
+ 
+
+ 
+ENDELEMENTThe Nernst Potential is different fo
+different ions
+
+Intracellular and extracellular concentrations of ioni
+species, and the Nernst potential
+
+ms | rar | sca
+(mm)
+
+5 aos =
+a Soe
+
+ct 52 560 -60
++124
+ENDELEMENTThe Nernst Potential is different for
+different ions
+
+Intracellular and extracellular concentrations of ionic
+ies, and the Nernst potential
+
+ 
+
+ 
+ENDELEMENTI-V relation
+
+One of the best ways to study the function of an ion channel i
+plot the current-voltage relation (I-V curve). This can be
+measured as the current required to hold the neuron at a give
+
+votlage. 2 .b
+
+SS ei
+ENDELEMENTI-V relation
+
+One of the best ways to study the function of an ion channel i
+plot the current-voltage relation (I-V curve). This can be
+measured as the current required to hold the neuron at a give
+
+votlage. 2 .b
+
+SS ei
+ENDELEMENTI-V relation
+
+ways to study the function of an ion channel is
+relation (LV curve). This can be
+
+ 
+
+ 
+ENDELEMENTLV relation
+
+ways to study the function ofan ion channel is
+(LV curve). Th
+‘measured asthe current required to hold the neuron ata given
+
+ 
+
+ 
+ENDELEMENTI-V relation
+
+One of the best ways to study the function of an ion channel i
+plot the current-voltage relation (I-V curve). This can be
+measured as the current required to hold the neuron at a give
+
+votlage. s 6
+
+SS Ne
+ENDELEMENTI-V relation
+
+ways to study the function ofan ion channel is
+relation (LV curve). This can be
+
+‘measured asthe current required to hold the neuron ata given
+
+ 
+
+ 
+ENDELEMENTI-V relation
+
+(One ofthe best ways to study the function of anion channel i
+to plot the current-voltage relation (LV curve). Ths can be
+‘measured asthe current required to hold the neuron ata given
+
+ 
+
+ 
+ENDELEMENTI-V relation
+
+(One ofthe best ways to study the function of anion channel i
+to plot the current-voltage relation (LV curve). This can be
+‘measured asthe current required to hold the neuron ata given
+
+ 
+
+ 
+ENDELEMENTI-V relation
+
+(One ofthe best ways to study the function of anion channel i
+to plot the current-voltage relation (LV curve). This can be
+‘measured asthe current required to hold the neuron ata given
+
+ 
+
+ 
+ENDELEMENTI-V relation
+
+(One ofthe best ways to study the function of anion channel i
+to plot the current-voltage relation (LV curve). Ths can be
+‘measured asthe current required to hold the neuron ata given
+
+ 
+
+ 
+ENDELEMENTI-V relation
+
+One of the best ways to study the function of an ion channel i
+plot the current-voltage relation (I-V curve). This can be
+measured as the current required to hold the neuron at a give
+
+votlage. s 6
+
+SS he
+ENDELEMENTI-V relation
+
+(One ofthe best ways to study the function of anion channel i
+to plot the current-voltage relation (LV curve). This can be
+‘measured asthe current required to hold the neuron ata given
+
+ 
+
+ 
+ENDELEMENTI-V relation
+
+(One ofthe best ways to study the function of an ion channel i
+to plot the current-voltage relation (LV curve). Ths can be
+‘measured asthe current required to hold the neuron ata given
+
+ 
+
+ 
+ENDELEMENTI-V relation
+
+One of the best ways to study the function of an ion channel i
+plot the current-voltage relation (I-V curve). This can be
+measured as the current required to hold the neuron at a give
+
+votlage. 2 6
+
+SS he
+ENDELEMENTI-V relation
+
+V curve). This can be
+‘measured asthe current required to hold the neuron ata given
+
+ 
+
+ 
+ENDELEMENTI-V relation
+
+ways to study the function ofan ion channel is
+to plot the current-voltage relation (LV curve) This can be
+‘measured asthe current required to hold the neuron ata given
+
+ 
+
+ 
+ENDELEMENTI-V relation
+
+(One ofthe best ways to study the function of anion channel i
+to plot the current-voltage relation (LV curve). Ths can be
+‘measured asthe current required to hold the neuron ata given
+
+ 
+
+ 
+ENDELEMENTI-V relation
+
+(One ofthe best ways to study the function of anion channel i
+to plot the current-voltage relation (LV curve) This can be
+
+‘measured asthe current required to hold the neuron ata given
+
+ 
+
+ 
+ENDELEMENTI-V relation
+
+One of the best ways to study the function of an ion channel i
+plot the current-voltage relation (I-V curve). This can be
+measured as the current required to hold the neuron at a give
+
+voltage. 7
+he no
+a LM MA4e
+For a potassium conductance
+
+potential, K current will low out through the
+‘membrane (positive current)
+
++ Ifyou hold the cell below E,, then the current
+will low into the cel,
+
+ 
+ENDELEMENTLV relation
+
+ways to study the function ofan ion channel is
+‘measured asthe current required to hold the neuron ata given
+
+For a potassium conductance
+
+ 
+
+ 
+ENDELEMENTI-V relation
+
+iy the function of anion channel is
+relation (LV curve). Tis can be
+
+‘measured asthe current required to hold the neuron ata given
+
+ 
+
+ 
+ENDELEMENTI-V relation
+
+to plot the curr
+measured asthe
+
+ 
+
+ 
+ENDELEMENTLV relation
+
+(One ofthe best ways to study the function of an ion channel i
+to plot the currentvoltage elation (-V curve). This can be
+‘measured asthe current required to hold the neuron ata given
+
+For a potassium conductance
+
+ 
+
+ 
+ENDELEMENTI-V relation
+
+One of the best ways to study the function of an ion channel i
+plot the current-voltage relation (I-V curve). This can be
+measured as the current required to hold the neuron at a give
+
+voltage. 7
+oe no
+© LM MA4e
+For a potassium conductance
+
+potential, K current will low out through the
+‘membrane (positive current)
+
++ Ifyou hold the cell below E,, then the current
+will low into the cel,
+
+ 
+ENDELEMENTI-V relation
+
+iy the function of anion channel is
+to plot the current-voltage relation (LV curve). T
+
+‘measured asthe current required to hold the neuron ata given
+
+ 
+
+ 
+ENDELEMENTI-V relation
+
+This relation tums out to be monotonic and
+roughly linear for ion channels in the open
+state. So we can write:
+
+  
+
+GV —Ex)
+ENDELEMENTI-V relation
+
+Thisselation tums out tobe monotonic and
+roughly linear for ion channels in the open
+state. So we can write
+
+)
+I =G,V Ey)
+
+1,
+
+ 
+
+ 
+ENDELEMENTI-V relation
+
+This relation tums out to be monotonic and
+roughly linear for ion channels in the open
+state. So we can write:
+
+  
+
+GV -Ex)
+ENDELEMENTI-V relation
+
+This relation tums out to be monotonic and
+roughly linear for ion channels in the open
+state. So we can write:
+
+  
+
+GV —Ex)
+
+We can model this as a battery in series with a resistor! Why’
+ENDELEMENTI-V relation
+
+This elation turns out to be monotonic and
+roughly linear for ion channels in the open
+state. So we can write
+
+1,=G,V-E,)
+
+We can model this as battery in series with a resistor! Why?
+
+ 
+
+ 
+ENDELEMENTI-V relation
+
+Thisselation tums out tobe monotonic and
+n channels in the open
+
+= 1 v
+
+series wth a resistor! Why?
+
+ 
+
+ 
+ENDELEMENTI-V relation
+
+This relation tums out to be monotonic and
+roughly linear for ion channels in the open
+state. So we can write:
+
+  
+
+GV -Ex)
+
+We can model this as a battery in series with a resistor! Why’
+ENDELEMENTI-V relation
+
+state So we can write
+
+1, =G,V-E,)
+
+We can model this as a battery in series with a resistor! Why?
+
+ 
+
+ 
+ENDELEMENTI-V relation
+
+This elation turns out to be monotonic and
+roughly linear for ion channels in the open
+state. So we can write
+
+1,=G,V-E,)
+
+We can model this as battery in series with a resistor! Why?
+
+ 
+
+ 
+ENDELEMENTI-V relation
+
+This relation tums out to be monotonic and
+roughly linear for ion channels in the open
+state. So we can write:
+
+  
+
+GV -Ex)
+
+We can model this as a battery in series with a resistor! Why’
+ENDELEMENTI-V relation
+
+This relation tums out to be monotonic and
+roughly linear for ion channels in the open
+state. So we can write:
+
+  
+
+GV -Ex)
+
+We can model this as a battery in series with a resistor! Why’
+ENDELEMENTI-V relation
+
+This relation tums out to be monotonic and
+roughly linear for ion channels in the open
+state. So we can write:
+
+  
+
+GV —Ex)
+
+We can model this as a battery in series with a resistor! Why’
+ENDELEMENTI-V relation
+
+wit
+
+state. So we can write °
+
+We can model this as battery in series with a resistor! Why?
+
+ 
+
+ 
+ENDELEMENTI-V relation
+
+This relation tums out to be monotonic and
+roughly linear for ion channels in the open
+state. So we can write:
+
+  
+
+GV —Ex)
+
+We can model this as a battery in series with a resistor! Why’
+ENDELEMENTI-V relation
+
+This relation tums out to be monotonic and
+roughly linear for ion channels in the open
+state. So we can write:
+
+  
+
+GV —Ex)
+
+We can model this as a battery in series with a resistor! Why’
+ENDELEMENTI-V relation
+
+This relation turns out to be monotonic and
+roughly linear for ion channels in the open
+state. So we can write
+
+1, =G,V-E,)
+
+We can model this as a battery in series with a resistor! Why?
+
+ 
+
+ 
+ENDELEMENTI-V relation
+
+This relation tums out to be monotonic and
+roughly linear for ion channels in the open
+state. So we can write:
+
+ 
+
+1p =G,V-Ey)
+
+ 
+ENDELEMENTI-V relation
+
+lation turns out to be monotonic and
+hl linea channels in the open
+state. So we can write
+
+1,=G,V-E,)
+
+We can model this as a battery in series with a resistor! Why?
+
+ 
+
+ 
+ENDELEMENTI-V relation
+
+This relation tums out to be monotonic and
+roughly linear for ion channels in the open
+state. So we can write:
+
+ 
+
+1p =G,V-Ey)
+
+ 
+ENDELEMENTI-V relation
+
+This elation turns out to be monotonic and
+roughly linear for ion channels in the open
+state. So we can write
+
+1,=G,V-E,)
+
+We can model this as battery in series with a resistor! Why?
+
+ 
+
+ 
+ENDELEMENT 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENT 
+
+Our equation is now:
+
+ 
+
+ 
+
+ 
+
+ 
+
+i+c@=1,
+di
+
+ 
+ENDELEMENT 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENT 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENT 
+
+Our equation is now:
+
+ 
+
+ 
+
+ 
+
+ 
+
+n+c@=1,
+di
+
+ 
+ENDELEMENT 
+
+Our equation is now:
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+  
+ENDELEMENT 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENT 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENT 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENT 
+
+Our equation is now:
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+GW-E+cu =r, ,
+a
+
+ 
+
+vert
+at
+
+ 
+ENDELEMENT 
+
+Our equation is now:
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+GWv-E+cU =r, ,
+a
+
+ 
+
+var
+at
+
+ 
+ENDELEMENT 
+
+Our equation is now:
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+GWv-E+cu =r, ,
+a
+
+ 
+
+var
+ae
+
+ 
+ENDELEMENT 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENT 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTResponse to current injection
+
+ 
+
+ 
+ENDELEMENTResponse to current injection
+
+V,.(t) Ex tRely
+
+ 
+
+V(O= Ex + Rel.
+
+ 
+
+ 
+
+ 
+ENDELEMENTResponse to current injection
+
+V(t)
+
+Vat)
+
+E,
+
+Et Rely
+
+ 
+
+ 
+
+ 
+
+ 
+
+Ey ==15
+
+V)= Eg +ReLO
+
+ 
+ENDELEMENTResponse to current injection
+
+V(t)
+
+Vac)
+
+E,
+
+EqtRely
+
+ 
+
+ 
+
+ 
+
+ 
+
+Ey =T5
+
+V)= Eg +ReLO
+
+ 
+ENDELEMENTResponse to current injection
+
+vA)
+
+ 
+
+ 
+ENDELEMENTA simplified model of a neuron
+
+ 
+
+ 
+ENDELEMENTef leh
+ENDELEMENT+ Equivalent circuit model
+
+ 
+ENDELEMENT+ Equivalent circuit model
+
+ 
+ENDELEMENTA simplified model of a neuron
+
+ 
+
+ 
+ENDELEMENTA simplified model of a neuron
+
+ 
+
+ 
+ENDELEMENTA simplified model of a neuron
+
+ 
+
+ 
+ENDELEMENTA simplified model of a neuron
+
+ 
+
+ 
+ENDELEMENTA simplified model of a neuron
+
+ 
+
+ 
+ENDELEMENTA simplified model of a neuron
+
+ 
+
+ 
+ENDELEMENTA simplified model of a neuron
+
+ 
+
+ 
+ENDELEMENTA simplified model of a neuron
+
+ 
+
+ 
+ENDELEMENTA simplified model of a neuro
+
+Mernbxane Potent [rv
+
+HN.
+
++ While APs (spikes) are important, they are not what neurons spend
+their time doing. Spikes are very fast (~1ms in duration). This is mut
+than the typical interval between spikes.
+
+    
+ENDELEMENTA simplified model of a neuron
+
+ 
+
+ 
+ENDELEMENTA simplified model of a neuro
+
+Membxane Potent rv]
+es
+
+TORII OCG tas ie
+
+r
+
+While APs (spikes) are important, they are not what neurons spend
+their time doing. Spikes are very fast (~1ms in duration). This is mut
+than the typical interval between spikes.
+
+Most of the time, a neuron is ‘integrating’ its inputs. (Separation of
+timescales)
+
+All spikes are the same. (No information carried in the details of acti
+Do ea
+ENDELEMENTA simplified model of a neuron
+
+ 
+
+ 
+ENDELEMENTA simplified model of a neuron
+
+ 
+
+ 
+ENDELEMENTA simplified model of a neuron
+
+ 
+
+ 
+ENDELEMENTA simplified model of a neuron
+
+ 
+
+ 
+ENDELEMENTIntegrate and Fire model of a neuron
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTIntegrate and Fire Model of a neu
+
+fH
+
+eo dE
+
+ 
+
+1) Ov,
+h
+
+ 
+
+ 
+
+ 
+
+ 
+
+SMW.
+
+We are going to replace the fancy spike generating mechanism i
+ENDELEMENTIntegrate and Fire Model of a neu
+
+ 
+
+The spike generators very 4
+simple. When the voltage
+reaches the threshold Vy, it = C
+resets the neuron to a hyper-
+
+polarized voltage Vie,
+
+ 
+
+ 
+
+5
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Louis Lapique, 1907
+
+Vat)
+
+  
+ENDELEMENTIntegrate and Fire model of a neuron
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTIntegrate and Fire Model of a neu
+
+ 
+
+The spike generators very 4
+simple. When the voltage
+reaches the threshold Vy, it = C
+resets the neuron to a hyper-
+
+polarized voltage Vie
+
+ 
+
+ 
+
+5
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Louis Lapique, 1907
+
+Vat)
+
+  
+ENDELEMENTIntegrate and Fire model of a neuron
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTIntegrate and Fire Model of a neu
+
+ 
+
+The spike generators very 4
+simple. When the voltage
+reaches the threshold Vy, it = C
+resets the neuron to a hyper-
+
+polarized voltage Vie
+
+ 
+
+ 
+
+5
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Louis Lapique, 1907
+
+Vat)
+
+  
+ENDELEMENTIntegrate and Fire model of a neuron
+
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTIntegrate and Fire Model of a neu
+
+ 
+
+The spike generator is very @
+simple. When the voltage CG
+Ec
+
+ 
+
+reaches the threshold Vy, it
+resets the neuron to a hyper-
+polarized voltage Vi... T
+
+ 
+
+ 
+
+I,
+
+ 
+
+ 
+
+ 
+
+Louis Lapique, 1907
+
+100 ms Vat)
+
+  
+
+ne potential (mV),
+bbe
+
+:
+——=
+—
+<<
+ENDELEMENTIntegrate and Fire Model of a neu
+
+ 
+
+The spike generator is very @
+simple. When the voltage CG
+& |
+
+ 
+
+reaches the threshold Vy, it
+resets the neuron to a hyper-
+polarized voltage Vi... T
+
+ 
+
+ 
+
+5
+
+ 
+
+ 
+
+ 
+
+Louis Lapique, 1907
+
+100 ms Vat)
+
+  
+
+ne potential (mV)
+$8.
+
+:
+———
+——
+<_<
+ENDELEMENTIntegrate and Fire model of a neuron
+
+4
+
+i
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENT   
+ 
+  
+
+Integrate and Fire model of a neuron
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+WU
+
+ 
+ENDELEMENT   
+   
+  
+
+Integrate and Fire model of a neuron
+
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+   
+
+Wl
+
+ 
+
+ 
+ENDELEMENTIntegrate and Fire Model of a neu
+* Let's calculate the tiring rate of our neuron
+
+I Well first consider the c
+= V_ where there is no leak.
+rf i
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTIntegrate and Fire model of a neuron
+
++ Lets calculate the firing rate of our neuron
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTIntegrate and Fire model of a neuron
+
++ Lets calculate the firing rate of our neuron
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTIntegrate and Fire model of a neuron
+
++ Let calculate the firing rate of our neuron
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTIntegrate and Fire Model of a neu
+* Let's calculate the tiring rate ot our neuron
+
+ 
+
+ 
+
+ig}
+
+ 
+
+ 
+
+ 
+
+Well first consider the c
+where there is no leak.
+ENDELEMENTIntegrate and Fire Model of a neu
+* Let's calculate the tiring rate of our neuron
+
+ 
+
+ 
+
+ig}
+
+ 
+
+ 
+
+ 
+
+Well first consider the c
+where there is no leak.
+ENDELEMENTIntegrate and Fire Model of a neu
+* Let's calculate the tiring rate of our neuron
+
+ 
+
+ 
+
+ig}
+
+ 
+
+ 
+
+ 
+
+Welll first consider the c
+where there is no leak.
+ENDELEMENTIntegrate and Fire model of a neuron
+
++ Lets calculate the firing rate of our neuron
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTIntegrate and Fire model of a neuron
+
++ Lets calculate the firing rate of our neuron
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTIntegrate and Fire model of a neuron
+
++ Lets cal 1 fring rate of our neuron
+
+ 
+
+ 
+
+ 
+ENDELEMENTIntegrate and Fire Model of a neu
+* Let's calculate the tiring rate of our neuron
+
+ 
+
+ 
+
+ 
+
+ey
+
+ 
+
+[eal
+
+ 
+
+Well first consider the c
+where there is no leak.
+ENDELEMENTIntegrate and Fire model of a neuron
+
++ Lets calculate the firing rate of our neuron
+
+EQy
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTIntegrate and Fire model of a neuron
+
++ Lets calculate the firing rate of our neuron
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENT 
+     
+        
+
+Integrate and Fire model of a neuron
+
++ Lets calculate the firing rate of our neuron
+
+ 
+
+=e (4) vw
+
+{VE
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTIntegrate and Fire model of a neuron
+
++ Lets calculate the firing rate of our neuron
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTIntegrate and Fire model of a neuron
+
++ Lets calculate the firing rate of our neuron
+
+£y
+Bal
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTIntegrate and Fire Model of a neu
+* Let's calculate the tiring rate of our neuron
+
+ 
+
+ 
+
+ 
+
+es
+
+ 
+
+jaa-of
+
+ 
+
+Well first consider the c
+where there is no leak.
+ENDELEMENTIntegrate and Fire model of a neuron
+
++ Lets calculate the firing rate of our neuron
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTIntegrate and Fire model of a neuron
+
++ Lets calculate the firing rate of our neuron
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTIntegrate and Fire model of a neuron
+
++ Lets calculate the firing rate of our neuron
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTIntegrate and Fire model of a neuron
+
++ Lets calculate the firing rate of our neuron
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTIntegrate and Fire Model of a neut
++ Lets caicuiate tne ninng rate or our neuron
+
+ 
+
+ 
+
+ 
+
+ 
+
+er S
+
+ 
+
+Well first consider the c
+where there is no leak.
+
+ 
+ENDELEMENTIntegrate and Fire model of a neuron
+
++ Lets calculate the firing rate of our neuron
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTIntegrate and Fire Model of a neut
+* Let's calculate the tiring rate of our neuron
+
+ 
+
+ 
+
+ 
+
+ 
+
+er =
+
+ 
+
+Well first consider the c
+where there is no leak.
+
+av:
+
+ 
+ENDELEMENTIntegrate and Fire model of a neuron
+
++ Lets calculate the firing rate of our neuron
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTIntegrate and Fire model of a neuron
+
++ Lets calculate the firing rate of our neuron
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTIntegrate and Fire model of a neuron
+
++ Lets calculate the firing rate of our neuron
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTIntegrate and Fire Model of a neut
+* Let's calculate the tiring rate of our neuron
+
+ 
+
+ 
+
+ig}
+
+ 
+
+ 
+
+ 
+
+Well first consider the c
+where there is no leak.
+
+i
+
+ 
+
+Ws ban se
+ENDELEMENTIntegrate and Fire model of a neuron
+
++ Lets calculate the firing rate of our neuron
+
+ 
+
+ 
+
+ 
+ENDELEMENTIntegrate and Fire Model of a neut
+* Let's calculate the tiring rate of our neuron
+
+ 
+
+ 
+
+ig}
+
+ 
+
+ 
+
+ 
+
+Well first consider the c
+where there is no leak.
+
+i
+
+ 
+
+Ws ban se
+ENDELEMENTIntegrate and Fire model of a neuron
+
++ Lets calculate the firing rate of our neuron
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTIntegrate and Fire model of a neuron
+
+put our leak
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTIntegrate and Fire Model of a neu
+
+Now we'll put our leak —
+conductance back in.
+
+ 
+
+‘Think ofthis G, the a smal
+potasslum conductance thats
+Constant on. thas no vollage
+‘and no tne
+‘opendence.E,=-75mV.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTIntegrate and Fire model of a neuron
+
+‘Now we'll put ourleake —
+
+conductance back i + t
++
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTIntegrate and Fire Model of a neu
+
+Now we'll put our leak
+conductance backin. |
+
+ 
+
+ 
+
+ 
+
+ 
+
+@
+Toko is the asa
+Potassm constants G
+Evnstanty on hes vlage ad le
+Sepondonce ar nate =
+epondenc €,="75m\. JE
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTIntegrate and Fire model of a neuron
+
+Now well pt our leak
+conductance back in
+
+ 
+
+ 
+
+ 
+ENDELEMENTIntegrate and Fire Model of a neut
+
+G
+
+ 
+
+Now we'll put our leak
+conductance back in. f >
+
+   
+
+‘Think ofthis G, the a sma
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTIntegrate and Fire model of a neuron
+
+Now well pt our leak
+Seinen
+
+ 
+
+ 
+
+ 
+ENDELEMENTIntegrate and Fire model of a neuron
+
+Now well pt our leak
+Sie
+
+ 
+
+ 
+
+ 
+ENDELEMENTIntegrate and Fire Model of a neu
+
+G
+
+ 
+
+Now we'll put our leak
+conductance back in. f >
+
+Tinkot is 6 the a smal |
+elas conductance ats
+
+ 
+
+  
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTIntegrate and Fire model of a neuron
+
+SS ts
+
+ 
+
+ 
+
+ 
+ENDELEMENTIntegrate and Fire model of a neuron
+
+ee ay toh
+
+ 
+
+ 
+
+ 
+ENDELEMENTIntegrate and Fire model of a neuron
+
+Now well pt our leak
+conductance back i
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTIntegrate and Fire model of a neuron
+
+‘Now we'll put our le
+conductance back in.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTIntegrate and Fire model of a neuron
+
+Now well pt our leak
+conductance back in
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTIntegrate and Fire Model of a neu
+
+ 
+
+Now welll put our leak
+conductance back in. Sf
+
+sat aiadie ja eG
+= 1
+
+ 
+
+le
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTIntegrate and Fire model of a neuron
+
+‘Now we'll put our leak —
+conductance back in
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+5
+
+ 
+
+ 
+
+ 
+ENDELEMENTIntegrate and Fire Model of a neu
+
+ 
+
+Now welll put our leak
+conductance back in. f >
+
+sever, lf. 7
+
+ 
+
+le
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTIntegrate and Fire model of a neuron
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTIntegrate and Fire model of a neuron
+
+ 
+
+conducta
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTIntegrate and Fire Model of a neut
+
+Now welll put our leak
+conductance backin. |
+
+ 
+
+es \°s
+sours
+
+ 
+
+ 
+
+zc
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTIntegrate and Fire model of a neuron
+
+Now well pt our leak
+conductance back i,
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTIntegrate and Fire model of a neuron
+
+Now well pt our leak
+conductance back in.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+What happens when
+V<¥%?
+
+ 
+
+ 
+ENDELEMENTIntegrate and Fire model of a neuron
+
+Now well pt our leak
+conductance back in
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+happens when
+
+vi<v
+
+ 
+
+ 
+ENDELEMENTIntegrate and Fire model of a neuron
+
+Now well put our leak
+conductance back in
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+What happens when
+Vi <¥%?
+
+ 
+
+ 
+ENDELEMENTIntegrate and Fire model of a neuron
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+What happens when
+
+ve<v
+
+ 
+
+ 
+ENDELEMENTIntegrate and Fire model of a neuron
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTIntegrate and fire with leak
+
+What happens just at threshold?
+
+ 
+ENDELEMENTIntegrate and fire with leak
+
+What happens just at threshold?
+
+ 
+
+ 
+ENDELEMENTIntegrate and fire with leak
+
+What happens just at threshold?
+
+vay
+Va
+
+ 
+
+The time to reach threshold ( Ar ) is:
+a SESE
+ENDELEMENTIntegrate and fire with leak
+
+What happens just at threshold?
+
+Ve)
+Va
+
+ 
+
+The time to reach threshold ( Ar ) is:
+Be OSES Se
+ENDELEMENTIntegrate and fire with leak
+
+ens jst at threshold?
+
+The time to reach threshold (Ar)
+
+ 
+
+ 
+ENDELEMENTIntegrate and fire with leak
+
+What happens just at threshold?
+
+vay
+
+  
+
+The time to reach threshold ( Ar) is:
+ea eases
+ENDELEMENTIntegrate and fire with leak
+
+What happens just at threshold?
+
+Ve
+
+  
+
+The time to reach threshold ( Ar) is:
+Ree ae
+ENDELEMENTIntegrate and fire with leak
+
+ens jst at threshold?
+
+to reach threshold (Ar)
+
+ 
+
+ 
+ENDELEMENTIntegrate and fire with leak
+
+What happens just at threshold?
+
+vay
+
+  
+
+fr.
+The time to reach threshold ( Ar) is: fo
+eee
+ENDELEMENTIntegrate and fire with leak
+
+What happens jus at threshold?
+
+ 
+
+ 
+ENDELEMENTIntegrate and fire with leak
+
+What happens just at threshold?
+
+ 
+
+ 
+ENDELEMENTIntegrate and fire with leak
+
+What happens just at threshold?
+
+ 
+
+ 
+ENDELEMENTIntegrate and fire with leak
+
+pens just at threshold?
+
+to reach threshold (Ar)
+
+ 
+
+ 
+ENDELEMENTIntegrate and fire with leak
+
+ 
+
+ 
+ENDELEMENTIntegrate and fire with leak
+
+ 
+
+V@)-V,, = —V,.Je"”
+ENDELEMENTIntegrate and fire with leak
+
+ 
+
+ 
+ENDELEMENTIntegrate and fire with leak
+
+ 
+
+V@)-V,, = —V,.Je"”
+ENDELEMENTIntegrate and fire with leak
+
+ 
+
+ 
+ENDELEMENTIntegrate and fire with leak
+
+ 
+
+V@)-V,, =()—V,.Je"”
+ENDELEMENTIntegrate and fire with leak
+
+ 
+
+VQ)-V,, =(—V,e"
+
+i | 4
+ENDELEMENTIntegrate and fire with leak
+
+ 
+
+ 
+ENDELEMENTIntegrate and fire with leak
+
+ 
+
+VQ)-V,, =(—V,ey"
+
+i | 4d
+ENDELEMENTIntegrate and fire with leak
+
+ 
+
+ 
+ENDELEMENTIntegrate and fire with leak
+
+ 
+
+ 
+
+VQ)-V,,=(—V,.ey"
+
+i | 4
+ENDELEMENTIntegrate and fire with leak
+
+ 
+
+VQ)-V,,=(—V,.ey"
+
+| 4d
+ENDELEMENTIntegrate and fire with leak
+
+ 
+
+V(t)-V,,=()—-V,,Jen” f= Art=
+
+1 td
+
+ 
+
+v,-
+tn(Yo=
+i “(=
+ENDELEMENTIntegrate and fire with leak
+
+ 
+
+V(t)-V,,=(—-V,,Jen" f= Art=
+
+1 | 4d
+
+ 
+
+v,-
+tn(Yo=
+[’ {Es
+ENDELEMENTIntegrate and fire with leak
+
+ 
+
+ 
+ENDELEMENTIntegrate and fire with leak
+
+ 
+
+ 
+ENDELEMENTIntegrate and fire with leak
+
+ 
+
+ 
+ENDELEMENTIntegrate and fire with leak
+
+ 
+
+ 
+ENDELEMENTIntegrate and fire
+crea
+
+Ind+a)~
+
+  
+
+At high input currents, the solution
+has a simple approximation
+
+ 
+
+f=
+
+ 
+
+Vos > Vin 2Vres
+ENDELEMENTIntegrate and fire
+
+ral
+
+At high input currents, the solution
+
+has a simple approximation a
+
+ 
+
+ 
+
+Vee In(l+a)~
+ENDELEMENTIntegrate and fire
+
+ 
+
+ 
+
+At high input currents, the solution p_{,1,(Va~Varl)
+has a simple approximation ViVe
+
+Von 3 Vin Ini +a)~
+
+Fatt) In = GV Ex)
+
+cay
+ENDELEMENTIntegrate and fire
+
+Athigh input currents, the solution
+has a simple approximation
+
+ 
+
+ 
+ENDELEMENTIntegrate and fire
+
+ 
+
+ 
+
+At high input currents, the solution ,_{,1,(Va~Va.l)
+has a simple approximation Vi=Vy
+
+Von 3 Vin Inf +a)~
+
+Salt) Tu = G1 (Vn Ex)
+
+a
+ENDELEMENTIntegrate and fire
+
+Athigh input currents, the solution
+
+has a simple approximation alae
+
+(1, In)
+
+ 
+
+ 
+ENDELEMENTIntegrate and fire
+
+ 
+
+ 
+ENDELEMENTIntegrate and fire
+
+Athigh input currents, the solution
+has a simple approximation
+
+ 
+
+ 
+ENDELEMENTIntegrate and fire
+
+ 
+
+ 
+
+ 
+
+ 
+
+Athigh input currents, the solution | s4(Va—Viu
+has a simple approximation VVe
+Von 3 Vin Ini +a)~
+
+ 
+
+This equation is linear in injected current I,, just ike the case of no
+
+"oO
+
+ 
+ENDELEMENTIntegrate and fire
+
+Athigh input currents, the solution
+has a simple approximation
+
+ 
+
+ 
+ENDELEMENTIntegrate and fire
+
+At high input currents, the solution
+has a simple approximation
+
+ 
+
+f
+
+ 
+
+ra =
+
+ 
+
+Von > Vin »Vres
+
+ 
+
+This equation is linear in injected current I,, just ike the case of no
+
+"
+
+ 
+ENDELEMENTIntegrate and fire
+
+ 
+
+ 
+
+ 
+
+Athigh input currents, the solution p_| 4(Va—
+has a simple approximation Vi=Vy
+Von Vin Vr Inf +.a)~
+Ff alin Ts) 1, =G, (Vy —E,)
+
+This equation is linear in injected current I,, just ike the case of no
+
+   
+ENDELEMENTIntegrate and fire
+
+Athigh input currents, the solution
+has a simple approximation
+
+ 
+
+ 
+ENDELEMENTIntegrate and fire
+
+ 
+
+ 
+
+ 
+
+ 
+
+Athigh input currents, the solution | s4(Va—Vu
+has a simple approximation VVe
+Von 3 Vin Inf +a)~
+
+ 
+
+This equation is linear in injected current I,, just ike the case of no
+
+"oO
+
+ 
+ENDELEMENTIntegrate and fire
+
+‘Athigh input currents, the solution
+has a simple approximation
+
+ 
+
+ 
+ENDELEMENTIntegrate and fire with leak
+
+ 
+
+ 
+ENDELEMENTIntegrate and fire
+
+Athigh input currents, the sol
+has a simple approximation
+
+ 
+
+ 
+ENDELEMENTIntegrate and fire
+
+Athigh input currents, the solut
+has a simple approximation
+
+ 
+
+ 
+ENDELEMENTIntegrate and fire
+
+‘Athigh input currents, the solution
+has a simple approximation
+
+ 
+
+ 
+ENDELEMENTIntegrate and fire
+
+ 
+
+ 
+
+ 
+
+ 
+
+Athigh input currents, the solution | s4(Va—Vau
+has a simple approximation V=Ve
+Von Vin Inf +a)~
+
+ 
+
+This equation is linear in injected current I, just ike the case of no
+
+"
+
+ 
+ENDELEMENTIntegrate and fire
+
+Athigh input currents, the solution
+has a simple approximation
+
+ 
+
+ 
+ENDELEMENTIntegrate and fire
+
+h input currents, the solution
+
+imple approximation
+
+ 
+
+ 
+ENDELEMENTA mathematical model of a neuron
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Alan Hodgkin
+‘Andrew Huxley, 1952
+
+ 
+
+ 
+ENDELEMENTA mathematical model of a neuron
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Alan Hodgkin
+‘Andrew Huxley, 1952
+
+ 
+
+ 
+ENDELEMENTA mathematical model of a neuron
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+‘Alan Hodgkin
+‘Andrew Huxley, 1952
+
+ 
+
+ 
+ENDELEMENTA mathematical model of a neuron
+
+Lagu
+
+ 
+
+ 
+
+ 
+
+ 
+
+Alan Hodgkin
+
+ 
+ENDELEMENTA mathematical model of a neuron
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Alan Hodgkin
+‘Andrew Huxley, 1952
+
+ 
+
+ 
+ENDELEMENTA mathematical model of a neuron
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Alan Hodgkin
+‘Andrew Huxley, 1952
+
+ 
+
+ 
+ENDELEMENTA mathematical model of a neuron
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Alan Hodgkin
+‘Andrew Huxley, 1952
+
+ 
+
+ 
+ENDELEMENTA mathematical model of a neuron
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+SE
+
+ 
+
+Alan Hodgkin
+‘Andrew Huxley, 1952
+
+ 
+
+ 
+ENDELEMENTA mathematical model of a neuron
+
+rau
+
+ 
+
+ 
+
+ 
+
+ 
+
+Alan Hodgkin
+
+ 
+ENDELEMENTOutline of HH model
+
+ZH tO9
+sag k
+
+ 
+
+ 
+
+  
+
+ 
+
+os” “Total membrane cur
+
+ 
+
+ 
+
+ 
+
+ 
+
+sum over the current
+IIe th, ionic species
+This is the total membrane ionic conductance, and it =D
+
+includes the contribution from sodium channels, 7
+Potassium channels and a ‘leak’ conductance.
+
+Fe ere ace er
+ENDELEMENTOutline of HH model
+
+ 
+
+ 
+
+ 
+ENDELEMENTOutline of HH model
+
+LER Oe
+TF k
+
+ 
+
+ 
+
+  
+
+ 
+
+os” “Total membrane cur
+
+ 
+
+ 
+
+ 
+
+ 
+
+um over the current
+IIe th, ionic species
+This is the total membrane ionic conductance, and it =D
+
+includes the contribution from sodium channels, 7
+Potassium channels and a ‘leak’ conductance.
+
+Fe ere ace er
+ENDELEMENTOutline of HH model
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+“Total membrane cur
+
+sum over tho current
+I= Int le th, ionic species
+This is the total membrane ionic conductance, and it =p
+
+includes the contribution from sodium channels,
+Potassium channels and a leak’ conductance.
+
+ce ae cr eee ee
+ENDELEMENTOutline of HH model
+
+tito
+
+SS
+
+ 
+
+ 
+ENDELEMENTOutline of HH model
+
+ 
+
+Lo+e
+
+ 
+
+avin
+
+ 
+ENDELEMENTOutline of HH model
+
+TELTOY
+
+oe
+
+ 
+
+ 
+ENDELEMENTOutline of HH model
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+“Total membrane cu
+
+um over tho current
+lute th, toni species
+This is the total membrane ionic conductance, and it =D
+
+includes the contribution from sodium channels, 7
+Potassium channels and a leak’ conductance.
+
+Cree era ee Sc ea
+ENDELEMENTOutline of HH model
+
+ARTO}
+
+ase +1,
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Tyg = Gug(Vt)(V — Ea)
+
+‘The sodium conductance is
+ENDELEMENTOutline of HH model
+
+ 
+
+ 
+
+ 
+ENDELEMENTOutline of HH model
+
+RR TQ}
+
+eal +1,
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Ing = GuVt)(V — Ena)
+
+‘The sodium conductance is
+ENDELEMENTOutline of HH model
+
+ 
+
+ 
+ENDELEMENTOutline of HH model
+
+ 
+
+ 
+
+ 
+ENDELEMENTOutline of HH model
+
+ 
+
+<
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ne Vi(V— Ex) Te = GeV st(V —Ex)
+
+‘The sodium conductance is The potassium conductance
+ENDELEMENTOutline of HH model
+
+tht or
+
+a
+
+ 
+
+ 
+ENDELEMENTOutline of HH model
+
+ 
+
+<
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+neVit(V—-Ey,) Ip =GeVXQV-Ex) 1, =G6,V
+
+ 
+
+‘The sodium conductance is The potassium conductance
+ENDELEMENTOutline of HH model
+
+ 
+
+ 
+
+ 
+ENDELEMENTOutline of HH model
+
+TELTO]
+
+a
+
+= GVIV-Ey) [p= G,WKV =F) 1, =GV-F,)
+
+ 
+
+ 
+ENDELEMENTOutline of HH model
+
+tite
+
+a
+
+= GQVIV-Ey) 1p =G,WNV =F) 1, =GV-F,)
+
+ 
+
+ 
+ENDELEMENTOutline of HH model
+
+ 
+
+ 
+
+ 
+ENDELEMENTOutline of HH model
+
+ 
+
+<
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+neVit(V—-Ey,) Ip =GeVQV-Ex) 1, =G,V
+
+ 
+
+‘The sodium conductance is The potassium conductance
+ENDELEMENTOutline of HH model
+
+iit
+
+SS
+
+= GVIV-Ey) 1p =G,WKV-F) 1, =G,V-F,)
+
+ 
+
+ 
+ENDELEMENTOutline of HH model
+
+ 
+
+ 
+
+ 
+ENDELEMENTOutline of HH model
+
+ 
+
+Ie = Gu VAY Ee GW INV -E,
+
+ 
+
+ 
+ENDELEMENTOutline of HH model
+
+tit
+
+ea
+
+GWV-Ex) 1p =GVNV-E,) 1, =G,V-E,)
+
+ 
+
+ 
+ENDELEMENTOutline of HH model
+
+ 
+
+ 
+
+ 
+ENDELEMENTOutline of HH model
+
+Voltage and time-dependent ion channels are
+the ‘knobs’ that control membrane potential.
+
+Ey
+
+vin)
+
+ 
+
+ 
+
+a
+time me)
+
+ 
+
+eee EEL
+
+'Na-channels push the membra
+positive.
+
+ 
+
+ 
+
+ 
+
+ 
+
+channels push the membran
+negative
+
+ 
+ENDELEMENTOutline of HH model
+
+ 
+
+ 
+
+ 
+ENDELEMENTOutline of HH model
+
+Voltage and time-dependent ion channels are
+the ‘knobs’ that control membrane potential.
+
+Ey
+
+vin)
+
+ 
+
+ 
+
+a
+time me)
+
+ 
+
+ny
+
+'Na-channels push the membra
+positive.
+
+ 
+
+ 
+
+ 
+
+ 
+
+channels push the membran
+negative.
+
+ 
+ENDELEMENTOutline of HH model
+
+ 
+
+ 
+ENDELEMENTOutline of HH model
+
+ 
+
+ 
+ENDELEMENTOutline of HH model
+
+ 
+
+ 
+
+ 
+ENDELEMENTOutline of HH model
+
+Voltage and time-dependent ion channels are
+the ‘knobs’ that control membrane potential.
+
+Ey
+
+vin)
+
+ 
+
+ 
+
+a
+time me)
+
+ 
+
+ey
+
+'Na-channels push the membra
+positive.
+
+ 
+
+ 
+
+ 
+
+ 
+
+channels push the membran
+negative.
+
+ 
+ENDELEMENTOutline of HH model
+
+ 
+
+ 
+ENDELEMENTOutline of HH model
+
+ 
+
+ 
+ENDELEMENTOutline of HH model
+
+ 
+
+ 
+ENDELEMENTOutline of HH model
+
+ 
+
+ 
+ENDELEMENTOutline of HH model
+
+ 
+
+ 
+ENDELEMENTOutline of HH model
+
+ 
+
+ 
+ENDELEMENTOutline of HH model
+
+ 
+
+ 
+ENDELEMENTOutline of HH model
+
+Voltage and time-dependent ion channels are
+the ‘knobs’ that control membrane potential.
+
+E
+
+inv)
+
+ 
+
+ 
+
+a
+time me)
+
+ 
+
+eee EEL
+
+'Na-channels push the membra
+positive.
+
+ 
+
+ 
+
+ 
+
+ 
+
+channels push the membran
+negative
+
+ 
+ENDELEMENTOutline of HH model
+
+ 
+
+ 
+ENDELEMENTOutline of HH model
+
+ 
+
+ 
+ENDELEMENTOutline of HH model
+
+ 
+
+ 
+ENDELEMENTOutline of HH model
+
+ 
+
+ 
+ENDELEMENTOutline of HH model
+
+ 
+
+ 
+ENDELEMENTOutline of HH model
+
+Voltage and time-dependent ion channels are
+the ‘knobs’ that control membrane potential.
+
+ 
+
+ 
+
+ 
+
+020 a0 88
+
+ 
+
+yo
+
+'Na-channels push the membra
+positive.
+
+ 
+
+ 
+
+ 
+
+ 
+
+channels push the membran
+negative
+
+ 
+ENDELEMENTOutline of HH model
+
+Voltage and time-dependent ion channels are
+the ‘knobs’ that control membrane potential.
+
+ 
+
+ 
+
+ 
+
+020 a0 aie
+
+—
+
+ 
+
+ 
+
+ee
+
+'Na-channels push the membra
+positive.
+
+ 
+
+ 
+
+ 
+
+ 
+
+channels push the membran
+negative
+
+ 
+ENDELEMENTOutline of HH model
+
+Voltage and time-dependent ion channels are
+the ‘knobs’ that control membrane potential
+
+sth pe
+
+viv)
+
+sa
+
+ 
+
+a
+
+ 
+
+Poal
+
+'Na-channels push the membra
+positive.
+
+ 
+
+ 
+
+ 
+
+ 
+
+channels push the membran
+negative.
+
+ 
+ENDELEMENTOutline of HH model
+
+ 
+
+ 
+ENDELEMENTOutline of HH model
+
+ 
+
+ 
+ENDELEMENTOutline of HH model
+
+ 
+
+ 
+ENDELEMENTOutline of HH model
+
+ 
+
+ 
+ENDELEMENTOutline of HH model
+
+ 
+
+ 
+ENDELEMENTOutline of HH model
+
+Voltage and time-dependent ion channels are
+the ‘knobs’ that control membrane potential
+
+sth pe
+
+viv)
+
+so
+
+ 
+
+a
+
+ 
+
+Poal
+
+'Na-channels push the membra
+positive.
+
+ 
+
+ 
+
+ 
+
+ 
+
+channels push the membran
+negative.
+
+ 
+ENDELEMENTOutline of HH model
+
+Voltage and time-dependent ion channels are
+the ‘knobs’ that control membrane potential
+
+sth pe
+
+viv)
+
+so
+
+ 
+
+a
+
+ 
+
+oat
+
+'Na-channels push the membra
+positive.
+
+ 
+
+ 
+
+ 
+
+ 
+
+channels push the membran
+negative.
+
+ 
+ENDELEMENTOutline of HH model
+
+ 
+
+ 
+
+ 
+ENDELEMENTOutline of HH model
+
+ 
+
+ 
+
+ 
+ENDELEMENTOutline of HH model
+
+ 
+
+ 
+ENDELEMENTOutline of HH model
+
+ 
+
+ 
+
+ 
+ENDELEMENTOutline of HH model
+
+ 
+
+ 
+
+ 
+ENDELEMENTOutline of HH model
+
+ 
+
+ 
+ENDELEMENTOutline of HH model
+
+=
+
+ 
+
+ 
+
+ 
+
+grastant
+
+ 
+
+ 
+
+ 
+ENDELEMENTOutline of HH model
+
+ 
+
+ 
+ENDELEMENTOutline of HH model
+
+ 
+
+ 
+ENDELEMENTOutline of HH model
+
+ 
+
+ 
+ENDELEMENTOutline of HH model
+
+ 
+
+ 
+ENDELEMENTOutline of HH model
+
+Voltage and time-dependent ion channels are
+the ‘knobs’ that control membrane potential
+
+sth ee
+
+vy)
+
+so
+
+ 
+
+er
+
+ 
+
+TEL
+
+'Na-channels push the membra
+positive.
+
+ 
+
+ 
+
+ 
+
+ 
+
+channels push the membran
+negative.
+
+ 
+ENDELEMENTOutline of HH model
+
+ 
+
+ 
+ENDELEMENTOutline of HH model
+
+ 
+
+ 
+ENDELEMENTOutline of HH model
+
+Voltage and time-dependent ion channels are
+the ‘knobs’ that control membrane potential
+
+sth pe
+
+viv)
+
+so
+
+ 
+
+ee
+
+ 
+
+Foal
+
+'Na-channels push the membra
+positive.
+
+ 
+
+ 
+
+ 
+
+ 
+
+channels push the membran
+negative.
+
+ 
+ENDELEMENTOutline of HH model
+
+ 
+
+ 
+ENDELEMENTOutline of HH model
+
+Voltage and time-dependent ion channels are
+the ‘knobs’ that control membrane potential
+
+sth pe
+
+viv)
+
+so
+
+ 
+
+ee
+
+ 
+
+Poal
+
+'Na-channels push the membra
+positive.
+
+ 
+
+ 
+
+ 
+
+ 
+
+channels push the membran
+negative
+
+ 
+ENDELEMENTOutline of HH model
+
+ 
+
+ 
+ENDELEMENTOutline of HH model
+
+Voltage and time-dependent ion channels are
+the ‘knobs’ that control membrane potential
+
+sth pe
+
+viv)
+
+so
+
+ 
+
+ee
+
+ 
+
+PoAl
+
+'Na-channels push the membra
+positive.
+
+ 
+
+ 
+
+ 
+
+ 
+
+channels push the membran
+negative.
+
+ 
+ENDELEMENTOutline of HH model
+
+ 
+
+ 
+
+ 
+ENDELEMENTOutline of HH model
+
+ 
+
+ 
+ENDELEMENTVoltage and Time dependenc
+
+Voltage and time-dependent ion channels are the ‘knobs’ that cc
+membrane potential.
+
+HH studied the properties of K and Na channels in the squid giant
+axon. In particular they wanted to study the voltage and time
+dependence of the K and Na channels.
+
+| AWE 8 Wane a
+
+ 
+ENDELEMENTVoltage and Time dependenc
+
+Voltage and time-dependent ion channels are the ‘knobs’ that cc
+membrane potential.
+
+HH studied the properties of K and Na channels in the squid giant
+axon. In particular they wanted to study the voltage and time
+dependence of the K and Na channels.
+
+ 
+ENDELEMENTVoltage and Time dependence
+
+1 tme-dependention channels are the knobs’ that
+membrane po
+
+ 
+
+ 
+ENDELEMENT

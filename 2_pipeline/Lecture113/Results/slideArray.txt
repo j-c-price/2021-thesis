@@ -1,0 +1,1658 @@
+pacific++
+
+Sponsored by:
+Gold
+
+optiverA @Mecuivc
+
+Bronze
+
+Cnown
+
+Community
+
+aiconcess «=O BY
+
+cppcon.
+
+ 
+ENDELEMENTGeneric Programming
+
+Sean Parent | Principal Scientist
+
+ 
+
+@©e0e0e0000080 :
+eeecee eeen
+oe ee eee a
+9% eeeee
+eee eeeee
+¢$e00e0006 eeee0
+¢ee00e0e0000 eeeee
+e$eee00e000 eeee0 homes Wirt
+ENDELEMENT 
+
+“You cannot fully grasp mathematics until you understand
+its historical context.’ — Alex Stepanov
+
+ 
+ENDELEMENT 
+
+1988
+
+© 2018 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENT© 2018 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENT 
+
+1988
+
+#1 Song: Faith, George Michael
+#1 Movie: Rain Man
+Winter Olympic Games in Calgary, Alberta, Canada
+
+US Senate ratifies INF treaty between US and Soviet Union
+Ronald Regan & Mikhail Gorbachev
+George H. W. Bush wins US Presidential Election
+
+ 
+ENDELEMENTGeneric Programming*
+
+David R. Mussert Alexander A. Stepanov
+Rensselaer Polytechnic Institute Hewlett-Packard Laboratories
+Computer Science Department Software Technology Laboratory
+Amos Eaton Hall Post Office Box 10490
+Troy, New York 12180 Palo Alto, California 94303-0969
+Abstract
+
+Generic programming centers around the idea of abstracting from concrete, ef-
+ficient algorithms to obtain generic algorithms that can be combined with different
+data representations to produce a wide variety of useful software. For example, a
+class of generic sorting algorithms can be defined which work with finite sequences
+but which can be instantiated in different ways to produce algorithms working on
+arrays or linked lists.
+
+Four kinds of abstraction—data, algorithmic, structural, and representational—
+are discussed, with examples of their use in building an Ada library of software
+components. The main topic discussed is generic algorithms and an approach to
+their formal specification and verification, with illustration in terms of a partitioning
+algorithm such as is used in the quicksort algorithm. It is argued that generically
+programmed software component libraries offer important advantages for achieving
+software productivity and reliability.
+
+ 
+
+“This paper was presented at the First International Joint Conference of ISSAC-88 and AAECC-6,
+Rome, Italy, July 4-8, 1988. (ISSAC stands for International Symposium on Symbolic and Algebraic
+Computation and AAECC for Applied Algebra, Algebraic Algorithms, and Error Correcting Codes). It
+was published in Lecture Notes in Computer Science 358, Springer-Verlag, 1989, pp. 13-25.
+
++The first author’s work was sponsored in part through a subcontract from Computational Logic,
+Inc., which was sponsored in turn by the Defense Advanced Research Projects Agency, ARPA order
+9151. The views and conclusions contained in this document are those of the authors and should not
+be interpreted as representing the official policies, either expressed or implied, of the Defense Advanced
+Research Projects Agency, the U.S. Government, or Computational Logic., Inc.
+
+  
+
+© 2018 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENT 
+
+"By generic programming we mean the definition of
+algorithms and data structures at an abstract or
+generic level, thereby accomplishing many related
+programming tasks simultaneously. The central notion
+is that of generic algorithms, which are parameterized
+procedural schemata that are completely independent
+of the underlying data representation and are derived
+trom concrete, efficient algorithms:
+
+ 
+ENDELEMENT 
+
+‘By generic programming we mean the definition of
+algorithms and data structures at an abstract or
+generic level, thereby accomplishing many related
+programming tasks simultaneously. The central notion
+is that of generic algorithms, which are parameterized
+procedural schemata that are completely independent
+of the underlying data representation and are derived
+trom concrete, efficient algorithms:
+
+ 
+ENDELEMENT 
+
+"By generic programming we mean the definition of
+algorithms and data structures at an abstract or
+generic level, thereby accomplishing many related
+programming tasks simultaneously. The central notion
+is that of generic algorithms, which are parameterized
+procedural schemata that are completely independent
+of the underlying data representation and are derived
+trom concrete, efficient algorithms:
+
+ 
+ENDELEMENT 
+
+"By generic programming we mean the definition of
+algorithms and data structures at an abstract or
+generic level, thereby accomplishing many related
+programming tasks simultaneously. The central notion
+is that of generic algorithms, which are parameterized
+procedural schemata that are completely independent
+of the underlying data representation and are derived
+trom concrete, efficient algorithms:
+
+ 
+ENDELEMENT 
+
+"By generic programming we mean the definition of
+algorithms and data structures at an abstract or
+generic level, thereby accomplishing many related
+programming tasks simultaneously. The central notion
+is that of generic algorithms, which are parameterized
+procedural schemata that are completely independent
+of the underlying data representation and are derived
+trom concrete, efficient algorithms:
+
+ 
+ENDELEMENT 
+
+"By generic programming we mean the definition of
+algorithms and data structures at an abstract or
+generic level, thereby accomplishing many related
+programming tasks simultaneously. The central notion
+is that of generic algorithms, which are parameterized
+procedural schemata that are completely independent
+of the underlying data representation and are derived
+trom concrete, efficient algorithms:
+
+ 
+ENDELEMENT 
+
+"By generic programming we mean the definition of
+algorithms and data structures at an abstract or
+generic level, thereby accomplishing many related
+programming tasks simultaneously. The central notion
+is that of generic algorithms, which are parameterized
+procedural schemata that are completely independent
+of the underlying data representation and are derived
+trom concrete, efficient algorithms:
+
+ 
+ENDELEMENT 
+
+"By generic programming we mean the definition of
+algorithms and data structures at an abstract or
+generic level, thereby accomplishing many related
+programming tasks simultaneously. The central notion
+is that of generic algorithms, which are parameterized
+procedural schemata that are completely independent
+of the underlying data representation and are derived
+trom concrete, efficient algorithms:
+
+ 
+ENDELEMENT 
+
+"By generic programming we mean the definition of
+algorithms and data structures at an abstract or
+generic level, thereby accomplishing many related
+programming tasks simultaneously. The central notion
+is that of generic algorithms, which are parameterized
+procedural schemata that are completely independent
+of the underlying data representation and are derived
+
+from concrete, efficient algorithms.’
+
+© 2018 Adobe. All Rights Reserved.
+
+   
+
+Adobe
+ENDELEMENT 
+
+1976-1987
+
+© 2018 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENT© 2018 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENT   
+
+\e
+
+1976 Parallel Computation and Associative Property
+
+A binary operation « onaset S$ is called associative if it satisfies the associative law:
+
+(xey)ez=xe(yez)forallx y,zinS.
+
+Parallel reduction is associated with monoids
+
+© 2018 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENT 
+
+Sottware Is associated with Algebraic Structures
+
+ 
+ENDELEMENT  
+
+1981 Tecton | REPRINT 968
+
+GENERAL @ ELECTRIC
+
+GENERAL ELECTRIC COMPANY
+CORPORATE RESEARCH AND DEVELOPMENT
+
+P.O. Box 43, Schenectady, N.Y. 12301 U.S.A.
+
+The Tecton language
+
+TECTON: A LANGUAGE FOR MANIPULATING
+GENERIC OBJECTS
+
+D. Kapur, D.R. Musser, and A.A. Stepanov
+
+ 
+
+© 2018 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENT1986-87 Libraries
+
+Higher Order Programming
+
+ 
+
+© 2018 Adobe. All Rights Reserved.
+
+ 
+
+Higher Order Programming
+
+Copyright ©1986 by
+Alexander A. Stepanov, Aaron Kershenbaum and David R. Musser
+
+March 5, 1987
+
+ 
+
+ 
+
+Polytechnic
+Institute
+
+otf New York
+
+USING TOURNAMENT TREES TO SORT
+
+ALEXANDER STEPANOV AND AARON KERSHENBAUM
+
+Polytechnic University
+333 Jay Street
+Brooklyn, New York 11201
+
+Center for Advanced Technology
+In Telecommunications
+
+C.A.T.T. Technical Report 86-13
+
+CENTER FOR
+ADVANCED
+TECHNOLOGY IN
+TELECOMMUNICATIONS
+
+ 
+ENDELEMENT 
+
+1987
+
+    
+  
+
+Alex works briefly at Bell Labs
+Starts a friendship with Bjarne Stroustrup
+
+Andrew Koenig explains the C machine
+
+© 2018 Adobe. All Rights Reserved.
+ENDELEMENT 
+
+1987
+
+Leonhard Euler
+“‘De-Bourbakized’
+
+Nicolas Bourbaki
+
+ 
+
+ 
+
+7 >
+© 2018 Adobe. All Rights Reserved. y a b y \
+
+7 Adobe
+ENDELEMENT 
+
+Knowledge is founded on the basis of precise, quantitative laws
+Mathematics is discovery, not invention
+
+ 
+ENDELEMENT 
+
+Sottware is detined on Algebraic Structures
+
+ 
+ENDELEMENT 
+
+1988
+
+© 2018 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENT© 2018 Adobe. All Rights Reserved.
+
+ 
+
+Generic Programming*
+
+David R. Musser!
+Rensselaer Polytechnic Instit
+
+Alexander A. Stepanov
+ute Hewlett-Packard Laboratories
+
+Computer Science Department Software Technology Laboratory
+
+Amos Eaton Hall
+Troy, New York 12180
+
+Generic programming centers
+ficient algorithms to obtain generi
+
+Post Office Box 10490
+Palo Alto, California 94303-0969
+
+Abstract
+
+around the idea of abstracting from concrete, ef-
+c algorithms that can be combined with different
+
+data representations to produce a wide variety of useful software. For example, a
+
+class of generic sorting algorithms
+but which can be instantiated in
+arrays or linked lists.
+
+Four kinds of abstraction—dat
+
+ 
+
+can be defined which work with finite sequences
+different ways to produce algorithms working on
+
+a, algorithmic, structural, and representational—
+
+are discussed, with examples of their use in building an Ada library of software
+components. The main topic discussed is generic algorithms and an approach to
+their formal specification and verification, with illustration in terms of a partitioning
+
+algorithm such as is used in the q
+programmed software component
+software productivity and reliabili
+
+ 
+
+“This paper was presented at the First
+Rome, Italy, July 4-8, 1988. (ISSAC stand
+
+uicksort algorithm. It is argued that generically
+libraries offer important advantages for achieving
+ty.
+
+nternational Joint Conference of ISSAC-88 and AAECC-6,
+s for International Symposium on Symbolic and Algebraic
+
+Computation and AAECC for Applied Algebra, Algebraic Algorithms, and Error Correcting Codes). It
+was published in Lecture Notes in Computer Science 358, Springer-Verlag, 1989, pp. 13-25.
+
+tThe first author’s work was sponsored
+
+in part through a subcontract from Computational Logic,
+
+Inc., which was sponsored in turn by the Defense Advanced Research Projects Agency, ARPA order
+
+ 
+
+9151. The views and conclusions contained
+
+in this document are those of the authors and should not
+
+be interpreted as representing the official policies, either expressed or implied, of the Defense Advanced
+
+Research Projects Agency, the U.S. Governr
+
+ment, or Computational Logic., Inc.
+ENDELEMENT© 2018 Adobe. All Rights Reserved.
+
+ 
+
+procedure Partition(S : in out Sequence;
+F,L : in Coordinate;
+Middle : out Coordinate;
+Middle_OK : out Boolean) is
+First : Coordinate := F;
+Last : Coordinate := L;
+begin
+loop
+loop
+if First = Last then
+Middle := First;
+Middle_OK := Test(S, First);
+return;
+end if;
+exit when not Test(S, First);
+First := Next(First) ;
+end loop;
+loop
+exit when Test(S, Last);
+Last := Prev(Last) ;
+if First = Last then
+Middle := First;
+Middle_OK := False;
+return;
+end if;
+end loop;
+Swap(S, First, Last);
+First := Next (First);
+if First = Last then
+Middle := First;
+Middle_OK := False;
+return;
+end if;
+Last := Prev(Last);
+end loop;
+end Partition;
+
+Figure 1: Body of Partition Algorithm
+ENDELEMENT© 2018 Adobe. All Rights Reserved.
+
+ 
+
+David R. Musser
+Alexander A. Stepanov
+
+ 
+
+6
+
+Springer-Verlag
+
+ee ee egret ote of ee Lb i nererere: fd pee Poge ee ee
+ENDELEMENTal [el byte] Ss
+
+BJARNE
+
+© 2018 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENT018 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENT© 2018 Adobe. All Rights Reserved.
+
+TYPE QDByte = 1280/1279
+qpPtr = “QDBytes pe
+QDHandle = “QDPtr; rocedtre ypoard
+
+ci1ity P . s
+QuickDraw includes only the graphics ee a the 7 such -
+functions you“1l need to create graphis’ ace const® g that va
+input, mouse input, and larger user-inte payers age at need
+windows and menus. are implemented in oer its. You ne want with
+QuickDraw but are linked in as separate U4) proba ise Unee.
+units in order to use QuickDraw; however: 4 learn F
+the documentation for windows and menus an
+your Macintosh programs.
+
+requ
+To create graphics that are both precise and wat °
+supercharged features but a firm mathematical Bie A
+features you have. If the mathematics that unde QquickDraw
+are imprecise or fuzzy, the graphics will be, fees used in its
+some clear mathematical constructs that are wide afi plane,
+procedures, functions, and data types: the coordinat®
+
+aera = & iat Lang
+
+defines
+
+the
+
+" c1a9s50_ine 25 ohne a
+
+acement, or movement that you give to
+es on a plane. The coordinate plane
+
+istrated in Figure 2.
+
+ 
+
+ 
+
+ 
+
+THE MATHEMATICAL FOUNDATION OF QUICKDRAW
+
+- All grid coordinates are integers.
+
+- All grid lines are infinitely thin.
+
+These concepts are important! First, they mean that the QuickDraw
+plane is finite, not infinite (although it’s very large). Horizontal
+coordinates range from -32768 to +32767, and vertical coordinates have
+the same range. (An auxiliary package is available that maps real
+Cartesian space, with X, Y, and Z coordinates, onto QuickDraw’s
+two-dimensional integer coordinate system.) :
+
+Second, they mean that all elements represented on the coordinate plane
+are mathematically pure. Mathematical calculations using integer
+arithmetic will produce intuitively correct results. If you keep in
+mind that grid lines are infinitely thin, you“1l never have "endpoint
+
+paranoia” —— the confusion that results from not knowing whether that
+last dot is included in the line.
+
+Points
+
+On the coordinate plane are 4,294,967,296 unique points. Each point is
+at the intersection of a horizontal grid line and a vertical grid line.
+As the grid lines are infinitely thin, a point is infinitely small. Of
+course there are more points on this grid than there are dots on the
+Macintosh screen: when using QuickDraw you associate small parts of
+the grid with areas on the screen, so that you aren“t bound into an
+arbitrary, limited coordinate system.
+
+The coordinate origin (9,6) is in the middle of the grid. Horizontal
+coordinates increase as you move from left to right, and vertical
+coordinates increase as you move from top to bottom. This is the way
+both a TV screen and a page of English text are scanned: from the top
+left to the bottom right.
+
+You can store the coordinates of a point into a Pascal variable whose
+type is defined by QuickDraw. The type Point is a record of two
+integers, and has this structure:
+
+TYPE VHSelect = (V,H);
+Point = RECORD CASE INTEGER OF
+
+@: (v: INTEGER;
+h: INTEGER);
+
+(vh: ARRAY [VHSelect] OF INTEGER)
+END;
+The variant part allows you to access the vertical and horizontal
+components of a point either individually or as an array. For example,
+
+if the variable goodPt were declared to be of type Point, the following
+would all refer to the coordinate parts of the point:
+
+3/2/83 Espinosa-Rose
+
+/QUICK/QUTKDRAW .2
+
+ 
+ENDELEMENT 
+
+- All grid coordinates are integers.
+- All grid lines are infinitely thin.
+
+These concepts are important! ...they mean that all elements
+represented on the coordinate plane are mathematically pure.
+Mathematical calculations using integer arithmetic will produce
+intuitively correct results. If you keep in mind that the grid lines
+are infinitely thin, youll never have “endpoint paranoia’ — the
+contusion that results trom not knowing whether that last dot Is
+included in the line.
+
+ 
+ENDELEMENTGather
+
+© 2018 Adobe. All Rights Reserved.
+
+ 
+
+template <typename I, // I models BidirectionalIterator
+typename S> // S models UnaryPredicate
+auto gather(I f, I l, I p, S s) -> pair<I, I>
+{
+return { stable_partition(f, p, noti(s)),
+stable_partition(p, l, s) };
+
+ 
+
+mA\
+
+ 
+
+7 Adobe
+ENDELEMENT 
+
+For a sequence of n elements there are n + 7 positions
+
+ 
+ENDELEMENT 
+
+1993
+
+© 2018 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENT 
+
+1993
+
+Movie: Jurassic Park
+Bombing of World Trade Center
+Bill Clinton sworn in
+Video Games: Doom and MYST
+
+© 2018 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENT 
+
+1993
+
+Alex resumes work on Generic Programming
+
+Andrew Koenig suggests writing a standard library proposal
+
+© 2018 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENT 
+
+1994
+
+© 2018 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENTThe Standard Template Library
+
+Alexander Stepanov
+
+Silicon Graphics Inc.
+2011 N. Shoreline Blvd.
+Mt. View, CA 94043
+stepanov@miti.sgi.com
+
+Meng Lee
+
+Hewlett-Packard Laboratories
+1501 Page Mill Road
+Palo Alto, CA 94304
+
+lee@hpl.hp.com
+
+ 
+
+October 31, 1995
+
+© 2018 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENT 
+
+1983
+
+© 2018 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENT 
+
+18 Adobe. All Rights Reserved.
+
+7040
+
+By Jon Bentley
+
+programming
+pearis
+
+ 
+
+WRITING CORRECT PROGRAMS
+
+In the late 1960s people were talking about the promise of
+programs that verify the correctness of other programs. Unfor-
+tunately, it is now the middle of the 1980s, and, with precious
+few exceptions, there is still little more than talk about auto-
+mated verification systems. Despite unrealized expectations,
+however, the research on program verification has given us
+something far more valuable than a black box that gobbles
+programs and flashes “good” or “bad”—we now have a funda-
+mental understanding of computer programming.
+
+The purpose of this column is to show how that fundamen-
+tal understanding can help programmers write correct pro-
+grams. But before we get to the subject itself, we must keep it
+in perspective. Coding skill is just one small part of writing
+correct programs. The majority of the task is the subject of the
+three previous columns: problem definition, algorithm design,
+and data structure selection. If you perform those tasks well,
+then writing correct code is usually easy.
+
+The Challenge of Binary Search
+
+Even with the best of designs, every now and then a program-
+mer has to write subtle code. This column is about one prob-
+Jem that requires particularly careful code: binary search.
+After defining the problem and sketching an algorithm to
+solve it, we'll use principles of program verification in several
+stages as we develop the program.
+
+The problem is to determine whether the sorted array
+X{1..N] contains the element T. Precisely, we know that N
+= 0 and that X[1] = X[2] s --- < X[N]. The types of T and
+the elements of X are the same; the pseudocode should work
+equally well for integers, reals or strings. The answer is stored
+in the integer P (for position); when P is zero T is not in
+X[1.. NJ, otherwise 1 < P < N and T = X[P].
+
+Binary search solves the problem by keeping track of a
+range within the array in which T must be if it is anywhere
+in the array. Initially, the range is the entire array. The range
+is diminished by comparing its middle element to T and
+discarding half the range. This process continues until T is
+discovered in the array or until the range in which it must lie
+is known to be empty. The process makes roughly log, N
+comparisons.
+
+Most programmers think that with the above description in
+hand, writing the code is easy; they’re wrong. The only way
+you'll believe this is by putting down this column right now,
+and writing the code yourself. Try it.
+
+Permission to copy without fee all or part of this material is granted
+provided that the copies are not made or distributed for direct
+commercial advantage, the ACM copyright notice and the title of the
+publication and its date appear, and notice is given that copying is by
+permission of the Association for Computing Machinery. To copy
+
+otherwise, or to republish, requires a fee and /or specific permission.
+© 1983 ACM 0001-0782/83/1200-1040 75¢
+
+Communications of the ACM
+
+I've given this problem as an in-class assignment in courses
+at Bell Labs and IBM. The professional programmers had one
+hour (sometimes more) to convert the above description into a
+program in the language of their choice; a high-level pseudo-
+code was fine. At the end of the specified time, almost all the
+programmers reported that they had correct code for the task.
+We would then take 30 minutes to examine their code,
+which the programmers did with test cases. In many different
+classes and with over a hundred programmers, the results
+varied little: 90 percent of the programmers found bugs in
+their code (and I wasn’t always convinced of the correctness
+of the code in which no bugs were found).
+
+I found this amazing: only about 10 percent of professional
+programmers were able to get this small program right. But
+they aren’t the only ones to find this task difficult. In the
+history in Section 6.2.1 of his Sorting and Searching, Knuth
+points out that while the first binary search was published in
+1946, the first published binary search without bugs did not
+appear until 1962.
+
+Writing The Program
+
+The key idea of binary search is that we always know that if
+T is anywhere in X[1.. NJ, then it must be in a certain range
+of X. We'll use the shorthand MustBe(range) to mean that if T
+is anywhere in the array, then it must be in range. With this
+notation, it’s easy to convert the above description of binary
+search into a program sketch.
+
+initialize range to designate x[1..N]
+loop
+{ invariant: MustBe(range) }
+if range is empty,
+return that T is nowhere in the
+array
+compute M, the middle of the range
+use M as a probe to shrink the range
+if T is found during the
+shrinking process, return its
+position
+endloop
+
+The crucial part of this program is the loop invariant, which
+is enclosed in {}’s. This is an assertion about the program state
+that is invariantly true at the beginning and end of each
+iteration of the loop (hence its name); it formalizes the intui-
+tive notion we had above.
+
+We'll now refine the program, making sure that all our
+actions respect the invariant. The first issue we must face is
+the representation of range: we'll use two indices L and U (for
+“lower” and “upper”) to represent the range L .. U. (There are
+other possible representations for a range, such as its begin-
+
+December 1983 Volume 26 Number 12
+
+ 
+ENDELEMENT 
+
+‘I've assigned this problem [binary search] in courses at Bell
+Labs and IBM. Professional programmers had a couple of
+hours to convert the description into a programming
+language of their choice; a high-level pseudo code was
+rine... Ninety percent of the programmers found bugs in
+their programs (and | wasn't always convinced of the
+correctness of the code in which no bugs were found)”
+
+— Jon Bentley, Programming Pearls
+
+ 
+ENDELEMENT 
+
+‘| want to nire the other ten percent:
+— Mark Hamburg, Photoshop Lead
+
+ 
+ENDELEMENT 
+
+ 
+
+ 
+
+Jon Bentley’s Solution (translated to C++)
+int binary_search(int x[], int n, int v) ¢
+
+int l = Q;
+int u =n;
+
+while (true) { \
+if (tl > u) return -1;
+
+int m= (l + .u) / 2;
+
+if (x[m] < v) L=ame+4+t1;
+else if (x[m] == v) return om;
+else /*x (x[m] > v) */ u=m-— 1:
+
+ 
+ENDELEMENT 
+
+STL implementation
+
+template <class I, // I models ForwardIterator
+class T> // T is vate type (1)
+I lower_bound(I f, I l, const T& v) {
+while (f != 1) ¢q
+auto m = next(f, distance(f, 1) / 2);
+
+if (*m < v) f = next(m):
+else lL =m:
+
+}
+
+return fT;
+
+ 
+ENDELEMENT 
+
+1998
+
+© 2018 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENT 
+
+© 2018 Adobe. All Rights Reserved.
+
+ 
+
+INTERNATIONAL ISO/AEC
+STANDARD 14882
+
+First edition
+1998-09-01
+
+ 
+
+ 
+
+ 
+
+Programming languages — C++
+
+Langages de programmation — C++
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Processed and adopted by ASC X3 and approved by ANSI
+as an American National Standard.
+
+Date of ANSI Approval: 7/27/98
+
+Published by American National Standards Institute,
+11 West 42nd Street, New York, New York 10036
+
+Copyright ©1998 by Information Technology Industry Council
+(ITI). All rights reserved.
+
+These materials are subject to copyright claims of International
+Standardization Organization (ISO), International
+Electrotechnical Commission (IEC), American National
+Standards Institute (ANSI), and Information Technology
+Industry Council (ITI). Not for resale. No part of this
+publication may be reproduced in any form, including an
+electronic retrieval system, without the prior written permission
+of ITI. All requests pertaining to this standard should be
+submitted to ITI, 1250 Eye Street NW, Washington, DC 20005.
+
+Printed in the United States of America
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Reference number
+ISO/IEC 14882:1998(E)
+ENDELEMENT 
+
+© 2018 Adobe. All Rights Reserved.
+
+ 
+
+Exception-Safety in Generic Components
+
+Lessons Learned from Specifying Exception-Safety
+for the C++ Standard Library
+
+David Abrahams
+
+Dragon Systems
+David_Abrahams@dragonsys.com
+
+Abstract. This paper represents the knowledge accumulated in response
+to a real-world need: that the C++ Standard Template Library exhibit
+useful and well-defined interactions with exceptions, the error-handling
+mechanism built-in to the core C++ language. It explores the meaning of
+exception-safety, reveals surprising myths about exceptions and generic-
+ity, describes valuable tools for reasoning about program correctness, and
+outlines an automated testing procedure for verifying exception-safety.
+
+Keywords: exception-safety, exceptions, STL, C++
+
+1 What Is Exception-Safety?
+
+Informally, exception-safety in a component means that it exhibits reasonable
+behavior when an exception is thrown during its execution. For most people,
+the term “reasonable” includes all the usual expectations for error-handling:
+that resources should not be leaked, and that the program should remain in a
+well-defined state so that execution can continue. For most components, it also
+includes the expectation that when an error is encountered, it is reported to the
+caller.
+
+More formally, we can describe a component as minimally exception-safe
+if, when exceptions are thrown from within that component, its invariants are
+intact. Later on we’ll see that at least three different levels of exception-safety
+can be usefully distinguished. These distinctions can help us to describe and
+reason about the behavior of large systems.
+
+In a generic component, we usually have an additional expectation of excep-
+tion-neutrality, which means that exceptions thrown by a component’s type pa-
+rameters should be propagated, unchanged, to the component’s caller.
+
+2 Myths and Superstitions
+
+Exception-safety seems straightforward so far: it doesn’t constitute anything
+more than we’d expect from code using more traditional error-handling tech-
+niques. It might be worthwhile, however, to examine the term from a psycholog-
+ical viewpoint. Nobody ever spoke of “error-safety” before C++ had exceptions.
+
+M. Jazayeri, R. Loos, D. Musser (Eds.): Generic Programming ’98, LNCS 1766, pp. 69-79, 2000.
+© Springer-Verlag Berlin Heidelberg 2000
+ENDELEMENTFundamentals of Generic Programming
+
+James C. Dehnert and Alexander Stepanov
+
+Silicon Graphics, Inc.
+dehnertj@acm.org, stepanov @attlabs.att.com
+
+Keywords: Generic programming, operator semantics, concept, regular type.
+
+Abstract. Generic programming depends’ on_ the
+decomposition of programs into components which may be
+developed separately and combined arbitrarily, subject only
+to well-defined interfaces. Among the interfaces of interest,
+indeed the most pervasively and unconsciously used, are
+the fundamental operators common to all C++ built-in types,
+as extended to user-defined types, e.g. copy constructors,
+assignment, and equality. We investigate the relations which
+must hold among these operators to preserve consistency
+with their semantics for the built-in types and with the
+expectations of programmers. We can produce an
+axiomatization of these operators which yields the required
+consistency with built-in types, matches the intuitive
+expectations of programmers, and also reflects our
+underlying mathematical expectations.
+
+ 
+
+Copyright © Springer-Verlag. Appears in Lecture Notes in Computer Science
+(LNCS) volume 1766. See http://www.springer.de/comp/Incs/index.html .
+
+ 
+
+© 2018 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENT 
+
+“We call the set of axioms satisfied by a data
+type and a set of operations on it a concept:
+
+ 
+ENDELEMENT 
+
+“We call the set of axioms satisfied by a data
+type and a set of operations on it a concept’
+
+ 
+ENDELEMENT 
+
+“Since we wish to extend semantics as well as syntax from built-
+in types to user types, we introduce the idea of a regular type,
+which matches the built-in type semantics, thereby making our
+user-defined types Dehave like built-in types as well”
+
+ 
+ENDELEMENT 
+
+“Since we wish to extend semantics as well as syntax from built-
+in types to user types, we introduce the idea of a regular type,
+which matches the built-in type semantics, thereby making our
+user-defined types Dehave like built-in types as well”
+
+ 
+ENDELEMENT 
+
+2002
+
+© 2018 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENT 
+
+Software
+Technology
+
+Adobe Lab
+
+ 
+
+© 2018 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENT 
+
+© 2018 Adobe. All Rights Reserved.
+
+ 
+
+NOTES ON THE FOUNDATIONS OF PROGRAMMING
+
+ALEX STEPANOV AND MAT MARCUS,
+
+Disclaimer: Please do not redistribute. Instead, requests for a current draft should go
+to Mat Marcus. These notes are a work in progress and do not constitute a book. In
+particular, most of the current effort is directed towards writing up new material. As a
+consequence little time remains for structuring, refinement, or clean up, so please be pa-
+tient. Nevertheless, suggestions, comments and corrections are welcomed. Please reply to
+mmarcus @adobe.com and stepanov @adobe.com.
+
+1
+ENDELEMENT 
+
+2009
+
+© 2018 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENT 
+
+© 2018 Adobe. All Rights Reserved.
+
+ 
+
+ 
+
+Elements of
+Programming
+
+Alexander Stepanov
+Paul McJones
+
+ 
+ENDELEMENTtemplate <typename I, typename P>
+requires(Mutable(I) && ForwardIterator(I) &&
+UnaryPredicate(P) && ValueType(I) == Domain(P) )
+I partition_semistable(I f, I l, P p) {
+// Precondition: mutable_bounded_range(f, 1)
+I i= find_if(f, l, p);
+if (i == 1) return i;
+I j = successor(i);
+while (true) {
+j = find_if_not(j, l, p);
+if (j == l) return i;
+swap_step(i, j);
+
+ 
+ENDELEMENTAppendix B. Programming Language
+Sean Parent and Bjarne Stroustrup
+
+This appendix defines the subset of C++ used in the book. To simplify the syntax,
+we use a few library facilities as intrinsics. These intrinsics are not written in
+this subset but take advantage of other C++ features. Section B.1 defines this
+subset; Section B.2 specifies the implementation of the intrinsics.
+
+B.1 Language Definition
+Syntax Notation
+
+An Extended Backus-Naur Form designed by Niklaus Wirth is used. Wirth [1977,
+pages 822-823] describes it as follows:
+
+The word identifier is used to denote nonterminal symbol, and literal
+stands for terminal symbol. For brevity, identifier and character are not
+defined in further detail.
+
+syntax = {production}.
+
+production = identifier "=" expression ".".
+expression = term {*|" term}.
+
+term = factor {factor}.
+
+factor = identifier | literal
+
+| "(" expression ")"
+| "{" expression "]"
+| "{" expression "}".
+literal = """" character {character} """".
+
+Repetition is denoted by curly brackets, i.e., {a} stands for € |a|aa|aaa
+|.... Optionality is expressed by square brackets, i.e., [a] stands for a | €.
+Parentheses merely serve for grouping, e.g., (a]b)c stands for ac|be.
+Terminal symbols, i.e., literals, are enclosed in quote marks (and, if a
+quote mark appears as a literal itself, it is written twice).
+
+Lexical Conventions
+
+The following productions give the syntax for identifiers and literals:
+
+© 2018 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENT© 2018 Adobe. All Rights Reserved.
+
+ 
+
+The while statement repeatedly evaluates the expression and executes the
+statement as long as the expression is true. The do statement repeatedly executes
+the statement and evaluates the expression until the expression is false. In either
+case, the expression must evaluate to a Boolean.
+
+The compound statement executes the sequence of statements in order.
+
+The goto statement transfers execution to the statement following the
+corresponding label in the current function.
+
+The break statement terminates the execution of the smallest enclosing switch,
+while, or do statement; execution continues with the statement following the
+terminated statement.
+
+The typedef statement defines an alias for a type.
+Templates
+
+A template allows a structure or procedure to be parameterized by one or more
+types or constants. Template definitions and template names use < and > as
+
+delimiters. !2]
+
+[2] To disambiguate between the use of < and > as relations or as
+template name delimiters, once a structure_name or procedure_name is
+parsed as part of a template, it becomes a terminal symbol.
+
+ 
+
+template = template_decl
+(structure | procedure | specialization).
+specialization = "struct" structure_name "<" additive_list ">"
+{structure_body]
+template_decl = "template" {parameter_list] ">" [constraint].
+constraint = "requires" "(" expression ")"
+template_name = (structure_name | procedure_name)
+("<" additive_list ">"].
+additive_list = additive {"," additive}.
+
+When a template_name is used as a primary, the template definition is used to
+generate a structure or procedure with template parameters replaced by
+corresponding template arguments. These template arguments are either given
+explicitly as the delimited expression list in the template_name or, for
+procedures, may be deduced from the procedure argument types.
+ENDELEMENTThis concept describes a homogeneous functional procedure:
+
+HomogeneousFunction(F) =
+FunctionalProcedure(F )
+A Arity(F) > 0
+A (Wi, 7 € N)(i, 7 < Arity(F)) => (InputType(F, i) = InputType(F, 7)
+A Domain : HomogeneousFunction + Regular
+F ++ InputType(F, 0)
+
+© 2018 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENT 
+
+2006
+
+© 2018 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENT2018 Adobe. All Rights Reserved.
+
+ 
+
+ 
+
+Concepts: Linguistic Support for Generic Programming in C++
+
+Douglas Gregor Jaakko Jarvi Jeremy Siek
+Indiana University Texas A&M University Rice University
+dgregor@osl.iu.edu jarvi@cs.tamu.edu Jeremy.G.Siek@rice.edu
+Bjarne Stroustrup Gabriel Dos Reis Andrew Lumsdaine
+Texas A&M University Texas A&M University Indiana University
+bs@cs.tamu.edu gdr@cs.tamu.edu lums@osl.iu.edu
+Abstract bination of features that have allowed them to be used for many
+
+Generic programming has emerged as an important technique for
+the development of highly reusable and efficient software libraries.
+In C++, generic programming is enabled by the flexibility of tem-
+plates, the C++ type parametrization mechanism. However, the
+power of templates comes with a price: generic (template) libraries
+can be more difficult to use and develop than non-template libraries
+and their misuse results in notoriously confusing error messages.
+As currently defined in C++98, templates are unconstrained, and
+type-checking of templates is performed late in the compilation
+process, i.e., after the use of a template has been combined with its
+definition. To improve the support for generic programming in C++,
+we introduce concepts to express the syntactic and semantic behav-
+ior of types and to constrain the type parameters in a C++ template.
+Using concepts, type-checking of template definitions is separated
+from their uses, thereby making templates easier to use and eas-
+ier to compile. These improvements are achieved without limiting
+the flexibility of templates or decreasing their performance—in fact
+their expressive power is increased. This paper describes the lan-
+guage extensions supporting concepts, their use in the expression
+of the C++ Standard Template Library, and their implementation in
+the ConceptGCC compiler. Concepts are candidates for inclusion
+in the upcoming revision of the ISO C++ standard, C++0x.
+
+Categories and Subject Descriptors D.3.3 [Programming Lan-
+guages]: Language Constructs and Features—Abstract data types;
+
+D.3.3 [Programming Languages]: Language Constructs and Features—
+
+Polymorphism; D.2.13 [Software Engineering]: Reusable Software—
+Reusable libraries
+
+General Terms Design, Languages
+
+Keywords Generic programming, constrained generics, paramet-
+ric polymorphism, C++ templates, C++0x, concepts
+
+1. Introduction
+
+The C++ language [25, 62] supports parametrized types and func-
+tions in the form of templates. Templates provide a unique com-
+
+Permission to make digital or hard copies of all or part of this work for personal or
+classroom use is granted without fee provided that copies are not made or distributed
+for profit or commercial advantage and that copies bear this notice and the full citation
+on the first page. To copy otherwise, to republish, to post on servers or to redistribute
+to lists, requires prior specific permission and/or a fee.
+
+OOPSLA’06 October 22-26, 2006, Portland, Oregon, USA.
+
+Copyright © 2006 ACM 1-59593-348-4/06/0010. .. $5.00.
+
+different programming paradigms, including Generic Program-
+ming [3,44], Generative Programming [11], and Template Metapro-
+gramming [1,66]. Much of the flexibility of C++ templates comes
+from their unconstrained nature: a template can perform any op-
+eration on its template parameters, including compile-time type
+computations, allowing the emulation of the basic features required
+for diverse programming paradigms. Another essential part of tem-
+plates is their ability to provide abstraction without performance
+degradation: templates provide sufficient information to a com-
+piler’s optimizers (especially the inliner) to generate code that is
+optimal in both time and space.
+
+Consequently, templates have become the preferred implemen-
+tation style for a vast array of reusable, efficient C++ libraries [2,6,
+14,20,32,54, 5], many of which are built upon the Generic Pro-
+gramming methodology exemplified by the C++ Standard Template
+Library (STL) [42,60]. Aided by the discovery of numerous ad hoc
+template techniques [28, 46, 56, 66, 67], C++ libraries are becoming
+more powerful, more flexible, and more expressive.
+
+However, these improvements come at the cost of implemen-
+tation complexity [61,63]: authors of C++ libraries typically rely
+on a grab-bag of template tricks, many of which are complex and
+poorly documented. Where library interfaces are rigorously sepa-
+rated from library implementation, the complexity of implementa-
+tion of a library is not a problem for its users. However, templates
+rely on the absence of modular (separate) type-checking for flexi-
+bility and performance. Therefore, the complexities of library im-
+plementation leak through to library users. This problem manifests
+itself most visibly in spectacularly poor error messages for simple
+mistakes. Consider:
+
+ 
+
+list<int> Ist;
+sort(Ist.begin(), Ist.end());
+
+Attempting to compile this code with a recent version of the GNU
+C++ compiler [17] produces more than two kilobytes of output,
+containing six different error messages. Worse, the errors reported
+provide line numbers and file names that point to the implementa-
+tion of the STL sort() function and its helper functions. The only
+clue provided to users that this error was triggered by their own
+code (rather than by a bug in the STL implementation) is the fol-
+lowing innocuous line of output:
+
+sort_list.cpp:8: instantiated from here
+The actual error, in this case, is that the STL sort() requires a
+
+pair of Random Access Iterators, i.e., iterators that can move any
+number of steps forward or backward in constant time. The STL
+
+ 
+ENDELEMENT 
+
+2011
+
+© 2018 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENT 
+
+ 
+ENDELEMENT 
+
+2012
+
+© 2018 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENTDocument number: N3351=12-0041
+Date: 2012-01-13
+Working group: Evolution
+Reply to: Bjarne Stroustrup <bs@cs.tamu.edu>
+Andrew Sutton <asutton@cs.tamu.edu>
+
+ 
+
+A Concept Design for the STL
+
+B. Stroustrup and A. Sutton (Editors)
+Jan, 2012
+
+Participants:
+Ryan Ernst, A9.com, Inc.
+Anil Gangolli, A9.com, Inc.
+Jon Kalb, A9.com, Inc.
+Andrew Lumsdaine, Indiana University (Aug. 1-4)
+Paul McJones, independent
+Sean Parent, Adobe Systems Incorporated (Aug. 1-3)
+
+Dan Rose, A9.com, Inc.
+Alex Stepanov, A9.com, Inc.
+
+Bjarne Stroustrup, Texas A&M University (Aug. 1-3)
+Andrew Sutton, Texas A&M University
+Larisse Voufo +, Indiana University
+Jeremiah Willcock, Indiana University
+Marcin Zalewski ', Indiana University
+
+Abstract
+
+This report presents a concept design for the algorithms part of the STL and outlines the
+design of the supporting language mechanism. Both are radical simplifications of what was
+proposed in the C++0x draft. In particular, this design consists of only 41 concepts (includ-
+ing supporting concepts), does not require concept maps, and (perhaps most importantly)
+does not resemble template metaprogramming.
+
+ 
+
+ 
+
+   
+
+Contents
+1 Introduction 5
+1.1 Motivation 5
+1.2 Approach ........ 7
+1.3 Design Ideals 8
+1.4 Organization 9
+2 Algorithms 10
+2.1 Non-modifying Sequence Operations .. 2.6... ee ee 12
+2.1.1 All, Any,and None... 2... 2 ee 12
+For Each 2... 14
+The Find Family... 2... 2 2 ee 15
+The Count Family 2... 2. 2 ee 18
+2.1.5 Mismatch and Equal... 2.2... 2.2... 0.000000 000000008 18
+2.1.6 Permutations... 2... ee 19
+
+ 
+
+t+ Participated in editing of this report.
+
+© 2018 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENT 
+
+2O15
+
+© 2018 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENTALEXANDER A.
+DANIEL E. ROSE!
+
+axe \ \
+MATHEMATICS\
+
+ie
+GENERIC \
+PROGRAMMING
+
+© 2018 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENT 
+
+2016
+
+© 2018 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENT© 2018 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENT 
+
+2020
+
+© 2018 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENT© 2018 Adobe. All Rights Reserved.
+
+©ISO/IEC N4713
+
+17 Templates Itemp!]
+
+requires-clause:
+requires constraint-logical-or-expression
+
+constraint-logical-or-expression:
+constraint-logical-and-expression
+constraint-logical-or-expression || constraint-logical-and-expression
+
+constraint-logical-and-expression:
+primary-expression
+constraint-logical-and-expression && primary-expression
+
+concept-definition:
+concept concept-name = constraint-expression ;
+
+concept-name:
+identifier
+
+constexpr pauli<T> sigmal = { { 0, 1}, { 1, 0 } };
+template<class T>
+constexpr pauli<T> sigma2 = { { 0, -1i }, { 11, 0} 3;
+
+Templates 306
+
+m/\
+
+ 
+
+7 Adobe
+ENDELEMENT 
+
+© 2018 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENT 
+
+‘Generic programming Is about
+abstracting and classitying algorithms
+and data structures.
+
+ 
+ENDELEMENT 
+
+It gets its inspiration from Knuth
+and not trom type theory.
+
+ 
+ENDELEMENT 
+
+Its goal is the incremental construction otf
+systematic catalogs of useful, efficient and
+abstract algorithms and data structures.
+
+ 
+ENDELEMENT 
+
+Such an undertaking Is still a dream.
+— Alex Stepanov
+
+ 
+ENDELEMENTAN
+
+Adobe
+ENDELEMENT 
+
+References
+
+Much of the material in this talk can be found at
+
+http://stepanovpapers.com/
+
+A special thanks to Paul McJones for organizing this site
+
+Sincere apologies to anyone | left out, your contribution was important.
+
+© 2018 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENT

@@ -1,0 +1,2687 @@
+Better Code: Human Interface
+Sean Parent | Principal Scientist
+
+   
+  
+   
+
+st
+
+f
+
+ 
+
+#AdobeRemix
+
+Sougwen Chung
+ENDELEMENTy
+
+ 
+
+#AdobeRemix
+Sougwen Chung
+. —
+ENDELEMENT 
+
+Better Code: Design and Ethics
+
+Sean Parent | Principal Scientist
+
+st
+
+f
+
+™
+
+     
+   
+
+#AdobeRemix
+
+Sougwen Chung
+ENDELEMENTBetter Code: Futures are not Monads
+Sean Parent | Principal Scientist
+
+   
+  
+   
+
+st
+
+f
+
+ 
+
+#AdobeRemix
+
+Sougwen Chung
+ENDELEMENTae
+just
+
+Better Code: Futures are not | Monads
+Sean Parent | Principal Scientist
+
+ 
+
+ 
+
+#AdobeRemix
+
+Sougwen Chung
+
+ 
+ENDELEMENT 
+
+Faster Bresenhamss Algorithm
+Sean Parent | Principal Scientist
+
+VN
+
+f
+
+™
+
+     
+   
+
+#AdobeRemix
+
+Sougwen Chung
+ENDELEMENT   
+
+Old Guy Reminiscing
+
+Sean Parent | Principal Scientist
+
+a
+
+#AdobeRemix
+
+Sougwen Chung
+ENDELEMENT 
+
+A
+}
+Today's Talk
+
+ 
+    
+
+#AdobeRemix
+Sougwen Chung
+.
+ENDELEMENTBetter Code: Human Interface
+Sean Parent | Principal Scientist
+
+   
+  
+   
+
+st
+
+f
+
+ 
+
+#AdobeRemix
+
+Sougwen Chung
+ENDELEMENTSf A /) 4... Vee
+Relationship Between HI and Code
+
+“The purpose of a human interface is not to hide what the code
+does but to accurately convey what the code does.
+
+— Darin Adler (personal conversation, best of my recollection)
+
+ 
+ENDELEMENTIAN
+}
+(Cleve Dlolanm mi
+
+ 
+
+ 
+   
+
+#AdobeRemix
+Sougwen Chung
+.
+ENDELEMENTsp
+
+Diclaate
+Photoshop
+
+  
+
+#AdobeRemix
+Sougwen Chung
+.
+ENDELEMENT 
+
+ 
+ENDELEMENT 
+
+ 
+ENDELEMENTSf
+Taxonomy of Everything
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTSf
+Taxonomy of Everything
+
+= Objects
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTSf
+Taxonomy of Everything
+
+= Objects
+
+= Properties
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTSf
+Taxonomy of Everything
+
+= Collections
+= Objects
+
+= Properties
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTSf
+Taxonomy of Everything
+
+= Collections
+= Objects
+= Properties
+
+= Operations
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTSf
+Taxonomy of Everything
+
+= Collections
+= Objects
+= Properties
+= Operations
+
+= Relationships
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTJ J i}
+Model View Controller
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTJ J i}
+Model View Controller
+
+"MVC consists of three kinds of objects. The Model is the
+application object, the View is its screen presentation, and the
+Controller detines the way the user interface reacts to user input:
+
+— Design Patterns: Elements of Reusable Object-Oriented Software,
+section 1.2
+
+ 
+ENDELEMENTJ J i} zh LT £35«73&” OEE.  —~—_ee
+Model-View-Controller
+
+Controller View
+
+Model
+
+ 
+ENDELEMENTSf
+How did MVC get so Fed up?
+
+ 
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTSf
+How did MVC get so Fed up?
+
+«= http://stlab.cc/tips/about-mvc.html
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENT_ J  .}.»} = ey
+Observable Models
+
+ 
+
+= Application model is Objects + Operations + Relationships
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENT_ J  .}.»} = ey
+Observable Models
+
+ 
+
+= Application model is Objects + Operations + Relationships
+
+= Controllers bind to operations
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENT_ J  .}.»} = ey y Srl <$éesSeEPG? hh J
+Observable Models
+
+ 
+
+= Application model is Objects + Operations + Relationships
+= Controllers bind to operations
+
+«= Trivial controller binds to set property
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENT_ J  .}.»} = ey y Srl <$éesSeEPG? hh J
+Observable Models
+
+ 
+
+= Application model is Objects + Operations + Relationships
+= Controllers bind to operations
+«= Trivial controller binds to set property
+
+= Views Dind to objects and their properties
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENT_ J  .}.»} = ey y Src ieee Oe
+Observable Models
+
+ 
+
+= Application model is Objects + Operations + Relationships
+= Controllers bind to operations
+«= Trivial controller binds to set property
+
+= Views Dind to objects and their properties
+
+= A view/controller is a control or widget
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTSf
+Objects
+
+ 
+
+= Operations
+= Construct
+= Copy
+= Move
+
+= Delete
+
+= Properties
+= Location
+= Size
+
+= Name (common)
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTSf mE ET
+Objects
+
+   
+
+       
+ 
+  
+
+. Type Select Filter 3D View Window Hel
+= Operations di -
+
+ 
+ 
+        
+     
+     
+     
+     
+   
+ 
+
+ 
+
+     
+
+ 
+
+= Construct Copy CSS Saha
+Background from Layer
+= Copy Copy SVG Group...
+- Move Dupncste Layer; Group from Layers...
+Delete >
+Artboard...
+- Delete Quick Export as PNG 4}98' Artboard from Group...
+Export As... 9 9¢! Artboard from Layers...
+/
+= Properties Rename Layer... Layer Via Copy 36 J
+» Location Layer Style > Layer Via Cut 36 J
+= Size
+
+= Name (common)
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTSf mE EET
+Objects
+
+ 
+
+: We associate visual constructs, names, icons, and behaviors with semantics
+= In programs operations like construct have specific semantics
+
+= In the HI we associate semantics with controls
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTObjects
+
+ 
+
+ 
+
+ui Privoxy@privoxy-jail | _| Privoxy: Edit actions file ... | brokenclay. org/journal /... | Privoxy-Filter-Test Google Mail - Inbox | EJ
+Google Google Mail Calendar Spreadsheets all my SENVICES > gine a REYTETT@googlemail.com | Settings | Help | Sign out —
+show search options
+Goo ogle | Search Mail Search the Web | Create a filter a filter
+Mail
+Compose Mail < > Customize
+Inbox r Archive Report Spam Delete | More actions... Bd Refresh 1-30f3
+aeeiteg Select: All, None, Read, Unread, Starred, Unstarred
+Chats - ,
+Sent Mail [ ed Test - Mail integrity compromised! Yay for GMail. -- 17:05 pm
+fieste . — Google Mail Team It's stupid to switch to Google Mail and transfer mail Sep 17
+All Mail [~ — Google Mail Team Google Mail is insecure. Here's what youneedtokn Sep 1/7
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+
+ 
+ENDELEMENTSf
+Objects
+
+Google ey] x O @
+
+Gmail ~ - Cc More ~ 1-45 of many > tt ~
+| ® DreamHost Introducing the New DreamHost Newsletter 12:37 pm
+haleces ® Starbucks Rewards That one afternoon snack 11:49 am
+Starred ® Visual Studio Subscripti. New benefits and updates for October 11:33 am
+Important
+
+Sent Mail ® Erik's DeliCafé Unleash the Feast with these new sandwiches & 11:15am
+a (90) »  ahlstore.com Spooky Savings at ahlistore.com 11:01 am
+Spam
+
+Nextdoor Spring City of Morgan Hill Weekly 411, 10.30.17 10:38 am
+
+[GMail]/Notes
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTJf | --
+Collections
+
+ 
+
+= Operations
+= Insert
+
+= Remove
+
+= Properties
+
+= Count
+
+= Relationships
+= Whole/Part
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTJf | -- a Ey
+Collections
+
+ 
+
+- Large collections pose a problem
+
+= How to observe the collection interactively, allowing the user to arrange, filter, and browse
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTSf
+Observing Collections
+
+ 
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTSf
+Observing Collections
+
+ 
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTSf
+Observing Collections
+
+ 
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTSf
+Observing Collections
+
+ 
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTSf
+Observing Collections
+
+ 
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTSf
+Observing Collections
+
+ 
+
+Sf -
+nth_element(f, sf, 1);
+
+ 
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTSf
+Observing Collections
+
+ 
+
+nth_element(f, sf, 1);
+
+ 
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTSf
+Observing Collections
+
+ 
+
+Sf -
+nth_element(f, sf, 1);
+
+ 
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTSf
+Observing Collections
+
+ 
+
+f
+<*
+
+«+ —
+
+sf
+
+nth_element(f, sf, 1);
+
+ 
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTSf
+Observing Collections
+
+ 
+
+f
+<*
+
+«+ —
+
+  
+    
+
+sf
+
+nth_element(f, sf, 1);
+
+> *sf
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENT 
+
+Sf
+Observing Collections
+
+Sf -
+nth_element(f, sf, 1);
+
+sl -
+
+ 
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENT 
+
+Sf
+Observing Collections
+
+f-
+Sf -
+nth_element(f, sf, 1);
+++sSf;
+SL-
+Ll-
+
+ 
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENT 
+
+Sf
+Observing Collections
+
+sf - nth_element(f, sf, 1);
+++SFf;
+
+sl -
+
+ 
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENT 
+
+Sf
+Observing Collections
+
+f-
+
+sf - nth_element(f, sf, 1);
+++SFf;
+
+ste partial_sort(sf, sl, l);
+
+Ll-
+
+ 
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENT 
+
+Sf
+Observing Collections
+
+f-
+
+sf - nth_element(f, sf, 1);
+++SFf;
+
+ste partial_sort(sf, sl, l);
+
+Ll-
+
+ 
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENT 
+
+Sf
+Observing Collections
+
+f-
+
+sf - nth_element(f, sf, 1);
+++SFf;
+
+ste partial_sort(sf, sl, l);
+
+Ll-
+
+ 
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTSf
+Observing Collections
+
+ 
+
+if (sf == sl) return;
+
+nth_element(f, sf, 1);
+++sSf;
+
+partial_sort(sf, sl, l);
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTSf
+Observing Collections
+
+ 
+
+if (sf == sl) return;
+
+if (sf != f) {
+nth_element(f, sf, 1);
+++Sf;
+
+}
+
+partial_sort(sf, sl, 1);
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTSf A /) 4... Vee
+Observing Collections
+
+template <typename I> // I models RandomAccessIterator
+void sort_subrange(I f, I l, I sf, I sl)
+{
+
+if (sf == sl) return;
+
+if (sf != f) {
+nth_element(f, sf, 1);
+++Sf;
+
+}
+
+partial_sort(sf, sl, 1);
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENT 
+
+Sf
+Observing Collections
+
+ro sort_subrange(f, l, sf, sl);
+
+Sf -
+
+sl-
+
+ 
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENT 
+
+Sf
+Observing Collections
+
+ro sort_subrange(f, l, sf, sl);
+
+Sf -
+
+sl-
+
+ 
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENT 
+
+Sf
+Observing Collections
+
+ro sort_subrange(f, l, sf, sl);
+
+Sf -
+
+sl-
+
+nl-
+
+ 
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENT 
+
+Sf
+Observing Collections
+
+ro sort_subrange(f, l, sf, sl);
+partial_sort(sl, nl, 1);
+
+Sf -
+
+SL-
+
+nl -
+
+Ll-
+
+ 
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENT 
+
+Sf
+Observing Collections
+
+ro sort_subrange(f, l, sf, sl);
+partial_sort(sl, nl, 1);
+
+Sf -
+
+sl -
+
+nl-
+
+ 
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTOperations
+
+ 
+
+= Operations act on one or more objects
+
+= Additional arguments to the operation are bound as properties
+
+= Operations are represented by buttons, menu items, gestures, tools, direct manipulation
+= Subject or target of an operation is identified by
+
+= Selections
+
+= Direct Manipulation
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTJ J i} a Ey
+Selections
+
+ 
+
+= Selecting objects within the hierarchy specifies one or more target paths
+
+= Application->Document->Object
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTJ J i}
+Selections
+
+ 
+
+= Selecting objects within the hierarchy specifies one or more target paths
+
+= Application->Document->Object
+
+@ PhotoshopCc File Edit
+
+ 
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTJ J i}
+Selections
+
+ 
+
+- Interval sets are a good data structure to represent selections
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTSf
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+
+Gather
+
+ 
+ENDELEMENTSf
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+
+Gather
+
+ 
+ENDELEMENTGather
+
+ 
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTGather
+
+ 
+
+ 
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTJf | --
+Gather
+
+ 
+
+stable_partition(p, l, s)
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTJf | --
+Gather
+
+ 
+
+stable_partition(p, l, s)
+
+ 
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTJf | --
+Gather
+
+ 
+
+<+f-
+
+stable_partition(f, p, not1(s))
+
+<+p-
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTJf | --
+Gather
+
+ 
+
+<+f-
+
+stable_partition(f, p, not1(s))
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTJf | --
+Gather
+
+ 
+
+<«f-—
+stable_partition(f, p, not1(s))
+stable_partition(p, l, s)
+<+p-
+<=+tl-
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTJf | --
+Gather
+
+ 
+
+<«f-—
+stable_partition(f, p, not1(s))
+stable_partition(p, l, s)
+<+p-
+<=+tl-
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTJf | --
+Gather
+
+ 
+
+stable_partition(f, p, not1(s))
+stable_partition(p, l, s)
+
+ 
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTJf | --
+Gather
+
+ 
+
+return { stable_partition(f, p, noti(s)),
+stable_partition(p, l, s) };
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTJf | --
+Gather
+
+ 
+
+template <typename I, // I models BidirectionalIterator
+typename S> // S models UnaryPredicate
+auto gather(I f, I l, I p, S s) -> pair<I, I>
+
+{
+return { stable_partition(f, p, noti(s)),
+stable_partition(p, l, s) };
+}
+
+ 
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTJf | --
+Gather
+
+ 
+
++f- template <typename I, // I models BidirectionalIterator
+typename S> // S models UnaryPredicate
+auto gather(I f, I l, I p, S s) -> pair<I, I>
+{
+return { stable_partition(f, p, noti(s)),
+stable_partition(p, l, s) };
+
+}
+<+p-
+<«tl-
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTFS
+Gather
+
+template <typename I, // I models BidirectionalIterator
+typename S> // S models UnaryPredicate
+auto gather(I f, I l, I p, S s) -> pair<I, I>
+{
+return { stable_partition(f, p, noti(s)),
+stable_partition(p, l, s) };
+
+ 
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTJ J i}
+Stable Partition
+
+ 
+
+f—
+
+L-
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTJ J i}
+Stable Partition
+
+ 
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTJ J i}
+Stable Partition
+
+ 
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTJ J i}
+Stable Partition
+
+f—
+
+L-
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+
+ 
+ENDELEMENTJ J i}
+Stable Partition
+
+ 
+
+ 
+
+L-
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+
+ 
+ENDELEMENTJ J i}
+Stable Partition
+
+ 
+
+ 
+
+stable_partition(f, m, p)
+
+ 
+
+stable_partition(m, l, p)
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTJ J i}
+Stable Partition
+
+ 
+
+ 
+
+stable_partition(f, m, p)
+
+ 
+
+stable_partition(m, l, p)
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTJ J i}
+Stable Partition
+
+ 
+
+ 
+
+stable_partition(f, m, p)
+
+stable_partition(m, l, p)
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTJ J i}
+Stable Partition
+
+ 
+
+m—
+rotate(stable_partition(f, m, p),
+mM,
+stable_partition(m, 1, p));
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTJ J i}
+Stable Partition
+
+ 
+
+rotate(stable_partition(f, m, p),
+mM,
+stable_partition(m, 1, p));
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTJ J i}
+Stable Partition
+
+ 
+
+return rotate(stable_partition(f, m, p),
+mM,
+stable_partition(m, l, p));
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTJ J i}
+Stable Partition
+
+ 
+
+r-
+
+Linn '-
+Co
+
+return rotate(stable_partition(f, m, p),
+mM,
+stable_partition(m, l, p));
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTJ J i}
+Stable Partition
+
+ 
+
+inna t
+C-
+a ee if (n == 1) return f + p(*f);
+
+return rotate(stable_partition(f, m, p),
+
+m,
+stable_partition(m, 1, p));
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTJ J i}
+Stable Partition
+
+ 
+
+if (n == 1) return f + p(x*f);
+
+return rotate(stable_partition(f, m, p),
+mM,
+stable_partition(m, l, p));
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTJ J i}
+Stable Partition
+
+ 
+
+f—
+template <typename I,
+typename P>
+auto stable_partition(I f, Il, P p) - I
+{
+auto n=l - f;
+if (n == @) return f;
+if (n == 1) return f + p(x*f);
+auto m = f + (n / 2);
+return rotate(stable_partition(f, m, p),
+mM,
+stable_partition(m, l, p));
+}
+L-
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTJ J i}
+Stable Partition
+
+ 
+
+template <typename I,
+typename P>
+auto stable_partition(I f, Il, P p) - I
+
+{
+auto n=l-f;
+if (n == @) return f;
+if (n == 1) return f + p(x*f);
+auto m = f + (n / 2);
+return rotate(stable_partition(f, m, p),
+mM,
+stable_partition(m, 1, p));
+}
+
+ 
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTJ J i}
+Stable Partition
+
+ 
+
+template <typename I,
+typename P>
+auto stable_partition(I f, Il, P p) - I
+
+{
+auto n=l-f;
+if (n == @) return f;
+if (n == 1) return f + p(x*f);
+auto m = f + (n / 2);
+return rotate(stable_partition(f, m, p),
+mM,
+stable_partition(m, 1, p));
+}
+
+ 
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTJ J i}
+Stable Partition
+
+ 
+
+template <typename I,
+typename P>
+auto stable_partition(I f, Il, P p) - I
+
+{
+auto n=l-f;
+if (n == @) return f;
+if (n == 1) return f + p(x*f);
+auto m = f + (n / 2);
+return rotate(stable_partition(f, m, p),
+mM,
+stable_partition(m, 1, p));
+}
+
+ 
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTJ J i}
+Stable Partition
+
+ 
+
+template <typename I,
+typename P>
+auto stable_partition_position(I f, I l, P p) -> I
+
+{
+auto n=l - f;
+if (n == @) return f;
+if (n == 1) return f + p(f);
+auto m = f + (n / 2);
+return rotate(stable_partition_position(f, m, p),
+mM,
+stable_partition_position(m, l, p));
+}
+
+ 
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTSS |... (eee ma / OO 4E=—__—_
+Using gather_position
+interval _set<I> selection;
+| [uae
+gather_position(f, 1, p, [&](auto p) {
+
+return contains(selection, p);
+
+});
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTJ J i}
+Selections
+
+ 
+
+= Multi-select is only sporadically implemented
+
+= Always inconsistently
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTSelections
+
+117 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+
+Sf /
+
+One Way to Select Many*
+
+Jaakko Jarvi! and Sean Parent?
+
+1 Texas A&M University
+College Station, TX, USA
+jarvi@cse.tamu.edu
+
+2 Adobe Systems Inc.
+
+San Jose, CA, USA
+sparent@adobe.com
+
+Abstract
+
+Selecting items from a collection is one of the most common tasks users perform with graphical
+user interfaces. Practically every application supports this task with a selection feature different
+from that of any other application. Defects are common, especially in manipulating selections of
+non-adjacent elements, and flexible selection features are often missing when they would clearly
+be useful. As a consequence, user effort is wasted. The loss of productivity is experienced in small
+doses, but all computer users are impacted. The undesirable state of support for multi-element
+selection prevails because the same selection features are redesigned and reimplemented repeat-
+edly. This article seeks to establish common abstractions for multi-selection. It gives generic
+but precise meanings to selection operations and makes multi-selection reusable; a JavaScript
+implementation is described. Application vendors benefit because of reduced development effort.
+Users benefit because correct and consistent multi-selection becomes available in more contexts.
+
+ 
+
+ 
+
+1998 ACM Subject Classification D.2.11 Software Architectures: Domain-specific architectures;
+D.2.13 Reusable Software: Reusable libraries
+
+Keywords and phrases User interfaces, Multi-selection, JavaScript
+
+Digital Object Identifier 10.4230/LIPIcs.CVIT.2016.23
+
+7 Introduction
+
+Many, perhaps most, interactive software applications present their users one or more
+collections of elements in the form of lists, trees, grids, or otherwise arranged views, of which
+a user can select one or more elements. Examples include selecting files and folders in a
+file explorer; mail folders or mail messages in a mail client; music tracks in a media player;
+thumbnail images in a photograph organizer; “to do” list items, hours, days, weeks, or months
+in a calendar application; pages organized into “tabs” in a web browser; and electronic books
+or videos on a digital library or store. These tasks are typical daily activities for many
+computer users—we select elements from collections dozens of times per day.
+
+Regardless of which set of modern applications a user chooses for mail, music, photos,
+calendar, web browsing, books, and videos, the features for selecting elements are likely to
+differ across applications—even within a single application the selection features for different
+collections, such as the list of mail folders and list of mail messages, are likely to be different.
+
+The differences could presumably stem from optimizing the feature for the best possible
+
+ 
+
+user experience in different kinds of selection contexts, but this is not the case. The selection
+
+* This work was supported in part by NSF grants CCF-0845861 and CCF-1320092.
+
+© Jaakko Jarvi and Sean Parent ;
+
+licensed under Creative Commons License CC-BY
+
+42nd Conference on Very Important Topics (CVIT 2016)
+
+Editors: John Q. Open and Joan R. Acces; Article No. 23; pp. 23:1-23:25
+
+wy Leibniz International Proceedings in Informatics
+LIPICS Schloss Dagstuhl — Leibniz-Zentrum fiir Informatik, Dagstuhl Publishing, Germany
+
+ 
+
+ 
+ENDELEMENTSS eee ma ET
+Relationships
+
+ 
+
+= A relationship is the way two entities are connected
+= Connective tissue Detween objects and properties
+= A structure is formed by connected relationships
+
+= Architecture is the art and science of designed structures
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTSS eee ma ET
+Relationships
+
+ 
+
+= A relationship is the way two entities are connected
+= Connective tissue Detween objects and properties
+= A structure is formed by connected relationships
+
+= Architecture is the art and science of designed structures
+
+= Arelationship implies a corresponding predicate that tests if a pair exists in the relation
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTSS eee he / 4S EE
+Relationships
+
+= A relationship is the way two entities are connected
+
+= Connective tissue Detween objects and properties
+
+A structure is formed by connected relationships
+
+= Architecture is the art and science of designed structures
+= Arelationship implies a corresponding predicate that tests if a pair exists in the relation
+
+= Within an HI relationships can be challenging to represent
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTSS eee
+Relationships
+
+ 
+
+ 
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+ENDELEMENTSS eee
+Relationships
+
+ 
+
+Requirement Design
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTRelationships
+
+Requirement Design
+
+num_showers >= 1
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTSS eee ma ET 7 — —~
+Relationships
+
+Requirement Design
+
+num_showers >= 1 num_showers = 1;
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTSS eee mE EET 4 — —~
+Relationships
+
+Requirement Design
+
+num_showers >= 1 num_showers = 1;
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTSS eee ma Ey
+Relationships
+
+Requirement Design
+num_showers >= 1 num_showers = 1;
+
+num_ toilets >= 1
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTSS eee he / 4S EE
+Relationships
+
+Requirement Design
+num_showers >= 1 num_showers = 1;
+
+num_toilets >= 1 num_toilets = 1;
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTSS eee he / 4S EE
+Relationships
+
+Requirement Design
+num_showers >= 1 num_showers = 1;
+
+num_toilets >= 1 num_toilets = 1;
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENT 
+
+Relationships
+
+Requirement Design
+num_showers >= l num_showers = 1;
+num_toilets >= 1 num_toilets = 1;
+
+privacy >= O
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENT 
+
+Relationships
+
+Requirement Design
+num_showers >= 1 num_showers = 1;
+num_toilets >= 1 num_toilets = 1;
+
+privacy >= O privacy = O;
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENT 
+
+Relationships
+
+Requirement Design
+num_showers >= 1 num_showers = 1;
+num_toilets >= 1 num_toilets = 1;
+
+privacy >= O privacy = O;
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTSf mE EET
+“Simple” Relationship
+
+ 
+
+a=>b
+
+(a implies b)
+
+ 
+ENDELEMENTSf 4 . eee , CC |!)LLUCUFAe 4 —. =
+Implies (examples from the clang manual)
+
+“-gsdb, -glldb, -gsce ... Hach of these options implies -g.”
+
+“-f[_no-|]diagnostics-show-hotness ... This option is implied when -fsave-optimization-record is used.”
+“-M, --dependencies ... Like -MD, but also implies -E”
+
+“MM, --user-dependencies ... Like -MMD, but also implies -E”
+
+“-cl-unsafe-math-optimizations ... Also implies -cl-no-signed-zeros and -cl-mad-enable.”
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTUnconstrained
+
+void operation(bool a, bool b) {
+b =a || b; // a implies b
+[Luu
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTUnconstrained
+
+void operation(bool a, bool b) {
+b =a || b; // a implies b
+[Luu
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTSS }| £3} } Eee
+First Attempt
+
+— (IBAction)aChanged {
+if (_aSwitch.on) _bSwitch.on = true;
+
+}
+
+void operation(bool a, bool b) {
+assert(!a || b); // a implies b
+[Luu
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+operation
+
+ 
+ENDELEMENTSS }| £3} } Eee
+First Attempt
+
+— (IBAction)aChanged {
+if (_aSwitch.on) _bSwitch.on = true;
+
+}
+
+void operation(bool a, bool b) {
+assert(!a || b); // a implies b
+[Luu
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+operation
+
+ 
+ENDELEMENTGoal
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENT 
+
+Goal
+
+Use strong preconditions
+
+ 
+ENDELEMENTGoal
+
+Use strong preconditions
+and assert them
+
+ 
+ENDELEMENTEF ee C(t
+Disable
+— (IBAction)aChanged {
+
+_bSwitch.enabled = ! aSwitch.on; Lf q
+if (_aSwitch.on) _bSwitch.on = true;
+
+}
+
+void operation(bool a, bool b) { b
+assert(!a || b); // a implies b ;
+[Juss
+
+}
+
+operation
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTEF ee C(t
+Disable
+— (IBAction)aChanged {
+
+_bSwitch.enabled = ! aSwitch.on; Lf q
+if (_aSwitch.on) _bSwitch.on = true;
+
+}
+
+void operation(bool a, bool b) { b
+assert(!a || b); // a implies b ;
+[Juss
+
+}
+
+operation
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTSS eee he / 4S EE
+Disable + Memory
+
+(IBAction)aChanged {
+
+_bSwitch.enabled = !_aSwitch.on; » ql
+_bSwitch.on = _aSwitch.on || _b;
+
+}
+
+— (IBAction)bChanged { b
+_b = _bSwitch.on;
+
+}
+
+void operation(bool a, bool b) {
+assert(!a || b); // a implies b
+I [uns
+
+i operation
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTSS eee he / 4S EE
+Disable + Memory
+
+(IBAction)aChanged {
+
+_bSwitch.enabled = !_aSwitch.on; » ql
+_bSwitch.on = _aSwitch.on || _b;
+
+}
+
+— (IBAction)bChanged { b
+_b = _bSwitch.on;
+
+}
+
+void operation(bool a, bool b) {
+assert(!a || b); // a implies b
+I [uns
+
+i operation
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTContrapositive
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTSf
+Contrapositive
+
+ 
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTSf
+Contrapositive
+
+ 
+
+ab=>-7a
+
+(not b implies not a)
+
+ 
+ENDELEMENTSf mE ET —
+Contrapositive + Memory
+
+ 
+
+(IBAction)aChanged {
+
+_a = _aSwitch.on; () a
+_bSwitch.on = _a || _b;
+
+}
+
+— (IBAction)bChanged { b
+_b = _bSwitch.on;
+—aSwitch.on = _b && a;
+
+}
+
+void operation(bool a, bool b) {
+assert(!a || b); // a implies b
+lau
+
+operation
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTSf mE ET —
+Contrapositive + Memory
+
+ 
+
+(IBAction)aChanged {
+
+_a = _aSwitch.on; () a
+_bSwitch.on = _a || _b;
+
+}
+
+— (IBAction)bChanged { b
+_b = _bSwitch.on;
+—aSwitch.on = _b && a;
+
+}
+
+void operation(bool a, bool b) {
+assert(!a || b); // a implies b
+lau
+
+operation
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTSf A /) 4... Vee
+Contrapositive
+
+(IBAction)aChanged {
+_bSwitch.on = _aSwitch.on || _bSwitch.on a
+
+(IBAction)bChanged {
+
+—aSwitch.on = _bSwitch.on && _aSwitch.on b
+void operation(bool a, bool b) { .
+
+assert(!a || b); // a implies b
+
+I [uns
+
+operation
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTSf A /) 4... Vee
+Contrapositive
+
+(IBAction)aChanged {
+_bSwitch.on = _aSwitch.on || _bSwitch.on a
+
+(IBAction)bChanged {
+
+—aSwitch.on = _bSwitch.on && _aSwitch.on b
+void operation(bool a, bool b) { .
+
+assert(!a || b); // a implies b
+
+I [uns
+
+operation
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTSf A /) 4... Vee
+Unconstrained + Disable Operation
+
+— (IBAction)changed {
+
+_operation.enabled = a
+!_aSwitch.on || _bSwitch.on;
+}
+void operation(bool a, bool b) { b
+assert(!a || b); // a implies b k
+//uue
+}
+
+operation
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTSf A /) 4... Vee
+Unconstrained + Disable Operation
+
+— (IBAction)changed {
+
+_operation.enabled = a
+!_aSwitch.on || _bSwitch.on;
+}
+void operation(bool a, bool b) { b
+assert(!a || b); // a implies b k
+//uue
+}
+
+operation
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENT 
+
+Relationships
+
+mS
+
+ 
+
+A hidden lnpor, 6 rerma| leper
+pon Kdelom =a rool mpufrel leper what haleas fo The
+walk inv a par, Parenl Pa mated [nyer
+Phy Wale
+ache ype Is hidelen, Se tequle |x An exe |le+ Trce-
+/ Lennar Pi -
+
+will van jee
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+
+ 
+
+»~
+ENDELEMENT‘i f . — ~
+{ a, ~
+
+What is a good design?
+
+= Toggling a control should restore system to original state
+Result of a click should be predictable without knowing how current state was achieved
+
+= Guided paths are preferred so long as they don't make navigation more difficult
+
+- But there needs to be additional rules to handle conflicts
+Rules derived from
+
+= Convention
+= Experience
+= Studies
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTSS eee
+Property Models
+
+= Unconstrained
+a; b:
+
+= Disabled
+b <== a || b;
+
+= Disabled + Memory
+unlink b <== a || b;
+
+= Contrapositive + Memory
+unlink a; unlink b;
+relate {
+b <== a || Db;
+a <== b && @;
+}
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+= Contrapositive
+
+relate {
+b <== a || Db;
+a <== b && @;
+}
+
+= Unconstrained + Disable Operation
+invariant:
+valid <== !a || b;
+
+ 
+ENDELEMENTGenerating Reactive Programs for Graphical User
+Interfaces from Multi-way Dataflow Constraint Systems
+
+Gabriel Foust Jaakko Jarvi Sean Parent
+
+Texas A&M University, TX, USA
+gfoust@cse.tamu.edu
+
+Abstract
+
+For a GUI to remain responsive, it must be able to schedule lengthy
+tasks to be executed asynchronously. In the traditional approach to
+GUI implementation—writing functions to handle individual user
+events—asynchronous programming easily leads to defects. En-
+suring that all data dependencies are respected is difficult when
+new events arrive while prior events are still being handled. Re-
+active programming techniques, gaining popularity in GUI pro-
+gramming, help since they make data dependencies explicit and
+enforce them automatically as variables’ values change. However,
+data dependencies in GUIs usually change along with its state. Re-
+active programming must therefore describe a GUI as a collection
+of many reactive programs, whose interaction the programmer must
+explicitly coordinate. This paper presents a declarative approach
+for GUI programming that relieves the programmer from coordi-
+nating asynchronous computations. The approach is based on our
+prior work on “property models”, where GUI state is maintained
+by a dataflow constraint system. A property model responds to
+user events by atomically constructing new data dependencies and
+scheduling asynchronous computations to enforce those dependen-
+cies. In essence, a property model dynamically generates a reac-
+tive program, adding to it as new events occur. The approach gives
+the following guarantee: the same sequence of events produces the
+same results, regardless of the timing of those events.
+
+Categories and Subject Descriptors D.2.11 [Software Engineer-
+ing]: Software Architectures—Domain-specific architectures
+
+General Terms Design, Theory
+
+Keywords Dataflow constraint systems, Graphical user interfaces,
+asynchronous programming
+
+1. Introduction
+
+For a Graphical User Interface (GUI) to remain responsive while
+performing lengthy tasks, e.g., image processing or remote server
+communication, it must support asynchronous execution. That is, it
+must be able to begin new tasks even though not all prior tasks have
+completed. Asynchronous execution can take the form of executing
+an algorithm on a separate thread, performing other work while
+waiting on a server response, or even using time-sharing techniques
+to make progress on multiple tasks at once.
+
+Permission to make digital or hard copies of all or part of this work for personal or
+classroom use is granted without fee provided that copies are not made or distributed
+for profit or commercial advantage and that copies bear this notice and the full citation
+on the first page. Copyrights for components of this work owned by others than ACM
+must be honored. Abstracting with credit is permitted. To copy otherwise, or republish,
+to post on servers or to redistribute to lists, requires prior specific permission and/or a
+fee. Request permissions from Permissions @acm.org.
+
+GPCE’15, October 26-27, 2015, Pittsburgh, PA, USA
+
+© 2015 ACM. 978-1-4503-3687-1/15/10...$15.00
+http://dx.doi.org/10.1145/2814204.2814207
+
+Texas A&M University, TX, USA
+jarvi@cse.tamu.edu
+
+Adobe Systems, Inc.
+sparent@adobe.com
+
+ 
+
+City: ea)
+
+New York
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+index menu
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+New York
+
+ 
+
+ 
+
+New Orleans
+
+value
+
+ 
+
+ 
+
+ 
+
+(a) An auto-complete text box. (b) The data dependencies.
+Figure 1: An example of an auto-complete text box, and a diagram
+showing the data dependencies involved in its implementation.
+
+Asynchronous execution is complicated by data dependencies
+between tasks. Such dependencies mean that the execution of one
+task may affect the outcome of another; therefore running tasks in
+different orders or in parallel may yield different outcomes. The
+programmer must carefully guard against execution schedules that
+could produce incorrect results. This is not easy in the event-driven
+GUI programming paradigm, where data dependencies implicitly
+arise whenever multiple event handlers share variables.
+
+By way of illustration, we examine one common GUI element:
+the auto-complete text box. This element helps the user produce
+a string to be used as input by some part of the application. Text
+entered by the user becomes the input string, but is also used as
+a parameter in an asynchronous search for related input strings.
+Typically the search results are listed below the text box as a menu
+from which the user, with a mouse or keyboard, may select an
+alternate input string. Figure la shows an auto-complete text box
+being used to select a city as a travel destination.
+
+Figure 1b shows the dependencies that emerge in this seemingly
+simple GUI element. Text entered by the user becomes the query
+parameter, which determines the menu items. If a menu item is
+selected, the index of the selected item and the contents of the
+menu determine the input string; if no item is selected, the query
+parameter itself becomes the input string. Finally, a change in the
+contents of the menu affects the selected index: if the previously
+selected city is in the new menu, its new index should be used;
+otherwise the index should be reset. We show this dependency with
+a dashed line, as it is only in effect when the menu changes.
+
+We claim these dependencies are non-trivial, and that writing
+code that enforces them is difficult using the traditional event-
+driven programming model. To test this claim, we performed an
+informal survey of six popular commercial travel sites (expedia.
+com, orbitz.com, aa.com, united.com, hotels.com, and yahoo.com/
+travel) and found that all six contained auto-complete text boxes
+exhibiting inconsistent behavior. We define inconsistent behavior
+as the same sequence of editing operations producing different out-
+comes. In all cases, inconsistent behavior was triggered by a rapid
+
+ 
+
+ 
+
+Helping Programmers Help Users
+
+John Freeman Jaakko Jarvi
+
+Texas A&M University
+jarvi@cse.tamu.edu
+
+Texas A&M University
+jfreeman@cse.tamu.edu
+
+Mat Marcus
+
+Canyonlands Software Design
+mmarcus@emarcus.org
+
+Abstract
+
+User interfaces exhibit a wide range of features that are designed to
+assist users. Interaction with one widget may trigger value changes,
+disabling, or other behaviors in other widgets. Such automatic be-
+havior may be confusing or disruptive to users. Research literature
+on user interfaces offers a number of solutions, including interface
+features for explaining or controlling these behaviors. To help pro-
+grammers help users, the implementation costs of these features
+need to be much lower. Ideally, they could be generated for “free.”
+This paper shows how several help and control mechanisms can
+be implemented as algorithms and reused across interfaces, mak-
+ing the cost of their adoption negligible. Specifically, we describe
+generic help mechanisms for visualizing data flow and explaining
+command deactivation, and a mechanism for controlling the flow of
+data. A reusable implementation of these features is enabled by our
+property model framework, where the data manipulated through a
+user interface is modeled as a constraint system.
+
+ 
+
+Categories and Subject Descriptors H.2.2 [Software Engineer-
+ing]: Design Tools and Techniques—user interfaces
+
+General Terms Algorithms
+
+Keywords user interfaces, software reuse, constraint systems,
+software architecture
+
+1. Introduction
+
+The dull, run-of-the-mill user interfaces—dialogs, forms, and
+such—do not get much attention from the software research com-
+munity, but they collectively require a lot of attention from the
+programmer community. User interfaces abound, and they are la-
+borious to develop and difficult to get correct. As an attempt to
+reduce the cost of constructing user interfaces, we have introduced
+property models, a declarative approach to programming user in-
+terfaces [8, 9]. The long term goal of this work is to reach a point
+where most (maybe all) of the functionality that we have come to
+expect from a high quality user interface would come from reusable
+
+Permission to make digital or hard copies of all or part of this work for personal or
+classroom use is granted without fee provided that copies are not made or distributed
+for profit or commercial advantage and that copies bear this notice and the full citation
+on the first page. To copy otherwise, to republish, to post on servers or to redistribute
+to lists, requires prior specific permission and/or a fee.
+
+GPCE’11, October 22-23, 2011, Portland, Oregon, USA.
+
+Copyright © 2011 ACM 978-1-4503-0689-8/11/10...$10.00
+
+ 
+
+Wonseok Kim
+
+Texas A&M University
+guruwons@cse.tamu.edu
+
+Sean Parent
+
+Adobe Systems, Inc.
+sparent@adobe.com
+
+algorithms or components in a software library, parametrized by a
+specification of the data manipulated by the user interface. In par-
+ticular, we have described reusable implementations for the prop-
+agation of values between user interface elements, the enablement
+and disablement of user interface widgets, and the activation and
+deactivation of widgets that launch commands.
+
+This paper describes our work to direct these advances to the
+improvement of user interfaces. One purpose of a user interface is
+to provide the user with an easily interpreted view of a conceptual
+model for the internal states of the application and the interface
+itself. To the extent that the interface fails to do this, there exists
+a gulf of evaluation [7]. The gulf of evaluation exacerbates the
+cognitive effort required to understand and use an application, and
+can lead to user frustration.
+
+This paper shows that with the power of components, genera-
+tivity, and reuse we can go beyond merely implementing existing
+behavior more economically. If a user interface behavior can be
+successfully packaged into a reusable component, then we should
+explore more functionality for assisting users and closing the gulf
+of evaluation. We should aim for more consistent user interfaces
+with less surprising behavior, more explanations of why a user in-
+terface behaves the way it does, and more abilities to change the
+behavior of a user interface “on the fly” to better serve users’ goals.
+In sum, we should aim for more features that help users in their
+interactions with an interface.
+
+This paper describes several generic realizations of help and
+convenience features that could be provided as standard features
+of dialogs and forms. In particular, we focus on (1) visualizing
+how data flows in a user interface, (2) providing help messages
+for commands that are deactivated, and (3) providing the user with
+means to control the direction of the flow of data. We emphasize
+that the main contributions of the paper are the algorithms and the
+software architecture that enable implementing these features in a
+reusable manner, applicable to a large class of user interfaces with
+negligible programming effort. The realizations of these algorithms
+build on the property models approach, in which the data that a
+user interface manipulates and the dependencies within this data are
+modeled explicitly as a constraint system. Reusable user interface
+algorithms are thus algorithms that inspect and manipulate this
+constraint system.
+
+We are at an early stage in our effort. To not overstate our
+contribution, we note that we have not conducted user studies, and
+we have not applied the proposed tools and algorithms to a large
+collection of user interfaces drawn from existing software. The
+computer-human interaction (CHI) research community, however,
+has devised many help and support features for user interfaces and
+
+ 
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTAlgorithms for User Interfaces
+
+Jaakko Jarvi
+
+Texas A&M University
+jarvi@cse.tamu.edu
+
+John Freeman
+
+Texas A&M University
+jfreeman@cse.tamu.edu
+
+Abstract
+
+User interfaces for modern applications must support a rich set of
+interactive features. It is commonplace to find applications with
+dependencies between values manipulated by user interface ele-
+ments, conditionally enabled controls, and script record-ability and
+playback against different documents. A significant fraction of the
+application programming effort is devoted to implementing such
+functionality, and the resulting code is typically not reusable.
+
+This paper extends our “property models” approach to program-
+ming user interfaces. Property models allow a large part of the func-
+tionality of a user interface to be implemented in reusable libraries,
+reducing application specific code to a set of declarative rules. We
+describe how, as a by-product of computations that maintain the
+values of user interface elements, property models obtain accurate
+information of the currently active dependencies among those ele-
+ments. This information enables further expanding the class of user
+interface functionality that we can encode as generic algorithms. In
+particular, we describe automating the decisions for the enablement
+of user interface widgets and activation of command widgets. Fail-
+ing to disable or deactivate widgets correctly is a common source
+of user-interface defects, which our approach largely removes.
+
+We report on the increased reuse, reduced defect rates, and im-
+proved user interface design turnarounds in a commercial software
+development effort as a result of adopting our approach.
+
+Categories and Subject Descriptors D.2.2 [Design Tools and
+Techniques]: User interfaces; D.2.13 [Reusable Software]: Reuse
+models
+
+General Terms Algorithms, Design
+
+Keywords Software reuse, Component software, User interfaces,
+Declarative specifications, Constraint systems
+
+1. Introduction
+
+The role of a user interface, such as a dialog window, can be
+summarized as supporting the user in selecting valid values for
+
+Permission to make digital or hard copies of all or part of this work for personal or
+classroom use is granted without fee provided that copies are not made or distributed
+for profit or commercial advantage and that copies bear this notice and the full citation
+on the first page. To copy otherwise, to republish, to post on servers or to redistribute
+to lists, requires prior specific permission and/or a fee.
+
+GPCE’09, October 4-5, 2009, Denver, Colorado, USA.
+
+Copyright © 2009 ACM 978-1-60558-494-2/09/10. ..$10.00
+
+Mat Marcus
+
+mmarcus@emarcus.org
+
+Sean Parent
+
+Adobe Systems Inc.
+sparent@adobe.com
+
+Jacob Smith
+
+Texas A&M University
+jnsmith@cse.tamu.edu
+
+a command or function to be executed in a program. In modern
+applications this support may mean, for example, computing values
+of some user interface elements automatically when values of other
+elements change, storing and retrieving default values, capturing
+user actions into a replayable script, undo and redo functionality,
+disabling user interface elements when their values are irrelevant
+for a final result, etc. This list is long—it is no small task for
+programmers to implement high-quality user interfaces.
+
+In the prevailing approach to programming graphical user inter-
+faces (GUIs), one of many GUI frameworks [6, 17, 31] provides a
+selection of widgets as reusable software components, and the pro-
+grammer implements a user interface as a composition of widgets
+by specifying the interactions between the components. The in-
+teractions are typically expressed using imperative object-oriented
+code placed in event handlers. Even in user interfaces with rela-
+tively simple functionality, interactions between components are
+often surprisingly complex. Consequently, the event-handling logic
+that expresses the interactions is similarly complex, often scattered
+to many locations in the program, and seldom reusable across user
+interfaces. It is thus not surprising that user interface code can ac-
+count for 30-50% of applications’ code [21, 25], and a dispropor-
+tionately higher share of the reported defects [25].
+
+We have previously introduced property models [13], an ap-
+proach to explicitly model many commonalities in the behavior
+of a class of typical user interfaces, such as dialog windows. We
+showed how an algorithm for computing new values of user in-
+terface elements after changing values of other elements and an
+algorithm for script recording and playback can be reused across
+user interfaces. These algorithms are generic, parametrized by a
+(declaratively specified) model that represents the variables manip-
+ulated by a user interface and the functional dependencies between
+those variables. We suggested that where property models can be
+applied, the amount of code is notably reduced and software quality
+improves compared to using a traditional GUI framework.
+
+This paper develops the property models approach further. We
+focus on how to obtain, alongside computing updated values for
+user interface elements, accurate information of which functional
+dependencies between user interface elements were active in com-
+puting those values. Besides showing how to compute this informa-
+tion we explain how it enables further user interface functionality
+to be encoded as reusable algorithms. In particular, we show how
+this information gives the means for algorithms for the enablement
+and disablement of widgets when they are not relevant to the result
+of a user interface, and activation and de-activation of command
+widgets when the current result of a user interface does not satisfy
+stated conditions.
+
+ 
+
+Property Models
+
+From Incidental Algorithms to Reusable Components
+
+Jaakko Jarvi
+
+Texas A&M University
+College Station, TX, U.S.A
+
+jarvi@cs.tamu.edu
+
+John Freeman
+
+Texas A&M University
+College Station, TX, U.S.A
+
+jfreeman@cs.tamu.edu
+
+Abstract
+
+A user interface, such as a dialog, assists a user in synthesising a
+set of values, typically parameters for a command object. Code for
+“command parameter synthesis” is usually application-specific and
+non-reusable, consisting of validation logic in event handlers and
+code that controls how values of user interface elements change in
+response to a user’s actions, etc. These software artifacts are inci-
+dental—they are not explicitly designed and their implementation
+emerges from a composition of locally defined behaviors.
+
+This article presents property models to capture explicitly the
+algorithms, validation, and interaction rules, arising from command
+parameter synthesis. A user interface’s behavior can be derived
+from a declarative property model specification, with the assistance
+of a component akin to a constraint solver. This allows multiple
+interfaces, both human and programmatic, to reuse a single model
+along with associated validation logic and widget activation logic.
+
+The proposed technology is deployed in large commercial soft-
+ware application suites. Where we have applied property models,
+we have measured significant reductions in source-code size with
+equivalent or increased functionality; additional levels of reuse are
+apparent, both within single applications, and across product lines;
+and applications are able to provide more uniform access to func-
+tionality. There is potential for wide adoption: by our measure-
+ments command parameter synthesis comprises roughly one third
+of the code and notably more of the defects in desktop applications.
+
+Categories and Subject Descriptors D.2.13 [Reusable Software]:
+Reuse models; D.2.2 [Design Tools and Techniques]: User inter-
+faces
+
+General Terms Algorithms, Design
+
+Keywords Software reuse, Component software, User interfaces,
+Declarative specifications, Constraint systems
+
+© ACM, 2008. This is the author’s version of the work. It is posted here by
+permission of ACM for your personal use. Not for redistribution. The definitive version
+was published in the Proceedings of the 7th International Conference on Generative
+Programming and Component Engineering (Nashville, Tennessee, October 19-20,
+2008). GPCE °08 http: //doi.acm. org/10 .1145/1449913. 1449927
+GPCE’08, October 19-23, 2008, Nashville, Tennessee, USA.
+Copyright © 2008 ACM 978-1-60558-267-2/08/10. .. $5.00
+
+ 
+
+Mat Marcus
+
+Adobe Systems, Inc.
+Seattle, WA, U.S.A
+
+mmarcus@adobe.com
+
+Sean Parent
+
+Adobe Systems, Inc.
+San Jose, CA, U.S.A
+
+sparent@adobe.com
+
+Jacob N. Smith
+
+Texas A&M University
+College Station, TX, U.S.A
+
+jnsmith@cs.tamu.edu
+
+1. Introduction
+
+Software systems utilizing reusable components tend to be more
+robust and less costly than their hand-crafted counterparts (Basili
+et al. 1996; Frakes and Succi 2001; Nazareth and Rothenberger
+2004). Indeed, the software industry has been successful in cap-
+turing often needed functionality into reusable generic compo-
+nents, witnessed by the wide availability of software libraries in
+all mainstream programming languages and the ubiquitous use
+of components from those libraries. There are, however, domains
+commonly encountered in mainstream day-to-day programming in
+which reuse remains modest—and in which the industry continues
+to struggle with low quality, high defect rates, and low productivity.
+
+As the scale of software increases, software development re-
+lies more on reusable components—at the same time, there is an
+increase in the amount of code that composes and relates compo-
+nents. Often such code is not explicitly designed, and it is rarely
+reusable. In larger collections of components, networks of relation-
+ships between components arise. We refer to such networks as inci-
+dental data structures—data structures that emerge out of compo-
+sitions of components and have neither an explicit encoding in the
+program nor an explicit run-time representation accessible to the
+rest of the program. Consequently, such data structures cannot be
+operated on by generic, reusable algorithms. Instead, they are ma-
+nipulated with incidental algorithms, similarly emerging from the
+combined behavior of locally defined actions, and with no explicit
+encoding in the program. We believe that a large reuse potential
+exists within incidental algorithms and data structures.
+
+In this paper we describe some of the architectural challenges
+in creating reusable libraries for rich user interfaces. We identify
+the communication and relationships between different elements
+of user interfaces as an architectural domain where incidental data
+structures and algorithms are prevalent; we refer to this domain as
+command parameter synthesis. We demonstrate a dramatic increase
+in re-usability of user interface code if the incidental structures of
+command parameter synthesis are modeled explicitly. To represent
+these explicit models, we present a new implementation mecha-
+nism, property models.
+
+Command parameter synthesis assists a client in selecting and
+validating parameters for some command to be executed in the pro-
+gram. This is a common task in interactive applications—or in any
+application with a non-trivial, human or programmatic, interface.
+Typical examples of user interfaces requiring command parame-
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTSf mE EET
+Closing
+
+ 
+
+= Good code is necessary, but not sufficient, for building a good UI.
+= There is significant work in the area of data structures, algorithms to support good UI
+
+» And significant work remaining
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTFS a ey
+References
+
+ 
+
+«= http://sean-parent.stlab.cc/papers-and-presentations
+
+© 2017 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTAN
+
+Adobe
+
+MAKE ITAN EXPERIENCE
+ENDELEMENT

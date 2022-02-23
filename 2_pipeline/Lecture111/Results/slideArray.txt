@@ -1,0 +1,309 @@
+amelia.andersdotter@dataskydd .net
+
+10 augusti 2019
+
+ 
+
+amelia
+ENDELEMENT@ Best practice for identifiers
+
+© Beginning work on privacy policies
+
+@ Politics
+
+@ Conflicts
+
+@ How to absorb good technical developments
+
+@ How to block bad technical developments oa
+
+ 
+ENDELEMENT"Technology is neither good nor bad; nor is it neutral.”
+
+ 
+ENDELEMENTARTICLE19’s work...
+
+ 
+
+&® Technical design matters.
+
+ 
+ENDELEMENTTechnical design matters.
+
+Introduce diversity in design process.
+
+ 
+ENDELEMENTTechnical design matters.
+Introduce diversity in design process.
+
+Work in IETF, IEEE, 3GPP, ITU, ICANN, etc.
+
+ 
+ENDELEMENTTechnical design matters.
+
+Introduce diversity in design process.
+
+Work in IETF, IEEE, 3GPP, ITU, ICANN, etc.
+Human rights considerations
+
+e IETF RFC 8280
+IEEE 802 Privacy Recommendations (still draft)
+
+ 
+ENDELEMENTStandards are not mandatory. They are voluntary.
+Developing standards takes time, money and commitment.
+The standards are written by those who show up but...
+
+their impact is determined by whether they are implemented
+
+oa
+
+ 
+ENDELEMENT3GPP (mobile networks) and IEEE 802 (WLAN —> WiFi)
+
+ 
+ENDELEMENTRandomize MAC address pre-association
+
+Deeper overview:
+
+hietps: / mentor. 1eee.org/802.11/den/19/11~39-1627-01-Grem-do-nat~ fear-random-macs.pptx
+
+ 
+
+erada
+ENDELEMENTRandomize MAC address pre-association
+
+Not probe for specific SSIDs
+
+Deeper overview:
+
+hietps: / mentor. 1eee.org/802.11/den/19/11~39-1627-01-Grem-do-nat~ fear-random-macs.pptx
+
+ 
+
+ameLia.andersdotter@dat:
+ENDELEMENTRandomize MAC address pre-association
+Not probe for specific SSIDs
+
+Reset the sequence number counter used to identify MSDUs and MMPDUs when the MAC address changes
+
+Deeper overview:
+
+hietps: / mentor. 1eee.org/802.11/den/19/11~39-1627-01-Grem-do-nat~ fear-random-macs.pptx
+
+ 
+
+ameLia.andersdotter@dat:
+ENDELEMENTRandomize MAC address pre-association
+Not probe for specific SSIDs
+Reset the sequence number counter used to identify MSDUs and MMPDUs when the MAC address changes
+
+Reseed the OFDM scrambler when MAC address changes.
+
+Deeper overview:
+
+hietps: / mentor. 1eee.org/802.11/den/19/11~39-1627-01-Grem-do-nat~ fear-random-macs.pptx
+
+ 
+
+ameLia.andersdotter@dat:
+ENDELEMENTRandomize MAC address pre-association
+Not probe for specific SSIDs
+
+Reset the sequence number counter used to identify MSOUs and MMPDUs when the MAC address changes
+Reseed the OFDM scrambler when MAC address changes
+
+Choose random MAC address to associate to an AP and retain that MAC address during the connection to
+the ESS
+
+Deeper overview:
+
+hietps: / mentor. 1eee.org/802.11/den/19/11~39-1627-01-Grem-do-nat~ fear-random-macs.pptx
+
+ 
+
+ameLia.andersdotter@dat:
+ENDELEMENTRandomize MAC address pre-association
+Not probe for specific SSIDs
+
+Reset the sequence number counter used to identify MSOUs and MMPDUs when the MAC address changes
+Reseed the OFDM scrambler when MAC address changes
+
+Choose random MAC address to associate to an AP and retain that MAC address during the connection to
+the ESS
+
+Set MAC address to a previously used (random) MAC address when attempting to use some state on the
+[AP bound to the previous MAC address
+
+Deeper overvier
+
+hietps: / mentor. 1eee.org/802.11/den/19/11~39-1627-01-Grem-do-nat~ fear-random-macs.pptx
+
+ 
+
+ameLia.andersdotter@dat:
+ENDELEMENTOngoing scalable geolocation work
+
+ 
+
+@ Passive ranging/passive geolocation (like GPS)
+
+ 
+ENDELEMENT 
+
+Passive ranging/passive geolocation (like GPS)
+
+Bits in management frame to indicate privacy preference
+
+ 
+ENDELEMENT 
+
+Passive ranging/passive geolocation (like GPS)
+Bits in management frame to indicate privacy preference
+
+Difference between “mechanism” and “policy” (will return to this)
+
+oa
+
+ 
+ENDELEMENTBad news
+
+New documents show how the NSA infers
+relationships based on mobile location
+data
+
+Bulgarian company Global
+Innovatorin Wiretapping
+
+Intercept Implications of 4G/5G Diameter Signaling Replacing SS7
+
+ 
+ENDELEMENTBad news
+
+Council of the
+European Union
+
+ 
+
+Brussels, 6 May 2019
+(OR. en)
+
+8983/19
+
+uMITE
+
+ras
+Cosi 97
+CATS 67
+ENFOPOL 213
+TELECOM 202
+CYBER 144
+
+NOTE
+From: EU Counter-Terrorism Coordinator
+
+To: Delegations
+
+Subject: Law enforcement and judicial aspects related to 5G
+
+ 
+ENDELEMENT 
+
+European Union Member states
+Consumer, trade and
+< economic policy
+
+Industrial and
+security policy
+
+Data protection National security
+
+aA
+
+ 
+
+ 
+
+dd.net
+ENDELEMENTEnd-to-end encryption is being blocked not just by conservative
+
+companies but also by telcos terrified of losing their license.
+
+ 
+ENDELEMENTEnd-to-end encryption is being blocked not just by conservative
+
+companies but also by telcos terrified of losing their license.
+
+The “lawful intercept” working group actively encourages data
+
+maximization business models, in direct contradiction with European law,
+
+to enable more data retention
+
+oa
+
+ 
+ENDELEMENTEnd-to-end encryption is being blocked not just by conservative
+
+companies but also by telcos terrified of losing their license.
+
+The “lawful intercept” working group actively encourages data
+maximization business models, in direct contradiction with European law,
+
+to enable more data retention
+
+Proposals of dubious legality appear to be introduced as “requirements”
+
+on mobile networks, but can later come back in discussions on how laws
+should be changed (real-time access standard ETSI TS102657 is an
+
+example)
+
+oa
+
+ 
+ENDELEMENTThis is not a terrific position for mobile network equipment vendors
+
+and operators to be in.
+
+oa
+
+ 
+ENDELEMENTelopments
+
+Standards are good but how to we get them deployed?
+
+ 
+
+The distressing example of website accessibility.
+
+ 
+ENDELEMENTThe distressing example of website accessibility.
+
+Radio Equipment Directive, Art. 3.3.e (privacy requirements)
+
+Data Protection Regulation, Art. 40 or 42 (Codes of Conduct and
+
+Certification)
+
+Support public procurements, for instance WIFI4EU procurements or
+
+oa
+
+similar.
+
+ 
+ENDELEMENTProbably counter-balancing representation in 3GPP (preferably
+
+institutional, e.g. Data Protection Authorities).
+NGOs (requires a lot of resources, money and time)
+
+National security interests work really long-term — it can take 20 years
+from the construction of a standard to a policy-washing attempt
+
+European values must be supported by similarly long-term efforts.
+
+oa
+
+ 
+ENDELEMENT

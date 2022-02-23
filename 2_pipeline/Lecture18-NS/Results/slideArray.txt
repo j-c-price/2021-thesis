@@ -1,0 +1,1216 @@
+Introduction to Neural
+Computation
+
+Prof. Michale Fee
+MIT BCS 9.40 — 2018
+Lecture 4
+ENDELEMENTHodgkin-Huxley model of action potential
+generation
+
+ 
+
+Voltage and time-dependent ion channels are
+the ‘knobs’ that control membrane potential.
+
+ 
+
+ 
+
+50
+
+ 
+
+ 
+
+vmv)
+
+Removed due to copyright restrictions: Figure 1a: The first intracellular
+recording of an action potential, from squid axon. Hausser, M. "The Hodgkin-
+
+Huxley theory of the action potential." Nature Neuroscience 3 (2000).
+
+ 
+
+ 
+
+0 200 400 600 800
+
+time (ms)
+ENDELEMENTHodgkin-Huxley model of action potential
+generation
+
+ 
+
+Th, = Tyg tLe +L,
+
+This is the total membrane ionic current, and it includes the contribution
+from —sodium channels, potassium channels and a ‘leak’ conductance.
+
+The equation for our HH model neuron is
+
+1,() + C49 = 1.01)
+dt
+
+ 
+
+w
+ENDELEMENTHodgkin-Huxley model of action potential
+generation
+
+ 
+
+I, =Iy, +1, +1, 1,(t)+C 9 =1(t)
+
+ 
+
+Ing =Gy(ViI\(V-Eya) 1p =G,(VitKV-E,) 1, =G,V-E,)
+
+We can see that the membrane potential depends on current
+...which depends on all the conductances
+...which depend on the membrane potential
+ENDELEMENTWe are going to write down an algorithm for
+
+how a neuron spikes!
+Start with Ve :
+
+Compute voltage-dependent parameters using Vv
+
+Compute conductance using voltage-dependent parameters
+Compute sodium and potassium current from conductances
+Compute total membrane current
+
+Compute V and T _,
+
+Compute membrane potential Vi +71—“=V,
+ENDELEMENTLearning objectives for Lecture 2
+
+To be able to draw the circuit diagram of the HH model
+Understand what a voltage clamp is and how it works
+
+Be able to plot the voltage and time dependence of the
+potassium current and conductance
+
+Be able to explain the time and voltage dependence of the
+potassium conductance in terms of Hodgkin-Huxley gating
+variables
+ENDELEMENTOutline of HH model
+
+ 
+
+Dy = Ig tLe +L, I, =G,:(V—-E,)
+
+Ing =Gy(ViI\(V-Eya) 1p =G,(VitKV-E,) 1, =G,V-E,)
+
+The sodium conductance is The potassium conductance The leak conductance is
+time-dependent and is time-dependent and neither time-dependent
+voltage-dependent voltage-dependent nor voltage-dependent
+
+Ey, =+55mV E, =—-—75mV E,=—-50mv 7
+ENDELEMENTVoltage and Time dependence
+
+* Voltage and time-dependent ion channel conductances are the
+‘knobs’ that control membrane potential.
+
+H&H studied the properties of K and Na channels in the squid giant
+axon. In particular they wanted to study the voltage and time
+dependence of the K and Na channels.
+
+Brain
+
+Giant
+axon
+
+ 
+
+(g) Squid (mollusk)
+
+1mm diameter!
+
+Squid diagram from The CellularScale. Image of squid giant axon © Kay Cooper and Roger
+License CC BY-NC-SA. Hanlon. Used with permission.
+
+Most axons in our brain are 1um dia
+ENDELEMENTOutline of HH model
+
+The best way study the time and voltage dependent conductance of
+ionic channels is to suddenly ‘set’ the voltage at different values and
+
+measure the current required to hold that voltage. I
+
+   
+
+Then plot the I-V curve.
+
+This not easy, because as soon as
+you depolarize the axon, the axon
+begins to spike!
+
+100;
+
+ 
+
+Eo
+~ 100 1 0 300
+Time (ms)
+0 100 200 300
+ENDELEMENTVoltage Clamp
+
+A voltage clamp is a device that holds the membrane potential of a cell
+to any desired ‘command’ voltage V,, and measures the current
+required to hold that voltage.
+
+The key component is an operational amplifier
+Vou (op-amp)
+
+Lh, vf >—
+
+The basic equation of an op-amp is:
+
+ 
+
+ 
+
+R Vou = GW, —V_)
+
+where G is the gain, typically ~10° or 10°,
+
+Don’t get confused here. G is
+gain, not conductance!
+
+10
+ENDELEMENTVoltage Clamp
+
+IfV< Vv. then Ve >> 0
+
+¢ Drives current into neuron
+
+ 
+
+* Increases membrane potential
+
+l. IfV >V. then Vi << 0
+
+¢ Pulls current out of neuron
+
+ 
+
++ Decreases membrane potential
+Rin This is called ‘negative feedback’.
+
+* It is easy to show that, for large gain:
+
+Vi =v.
+
+m Cc
+
+Thus, the voltage clamp circuit drives whatever current (I,) is necessary to
+‘clamp’ the voltage of the neuron to the command voltage.
+
+During a voltage clamp experiment, we step the V, around within the
+voltage range of interest and measure I. 11
+ENDELEMENTIonic currents
+
+ 
+
+Removed due to copyright restrictions: Figure 2.6 p. 36 In: Hille, Bertil. lon Channels
+of Excitable Membranes (3rd Ed.). 2001, Sinauer / Oxford University Press.
+
+12
+ENDELEMENTIonic currents
+
+How do we figure out the contribution of Na and the contribution of K?
+
+lonic substitution (e.g. replace NaCl with choline chloride)
+
+     
+  
+    
+ 
+
+—9 mV
+Em
+K current
+15 (B) 10% Na
+Im
+(mAlem2) OPQ Of
+a4 (A) 100% Na
+(C) Difference current
+INa
+
+Na current
+
+L 1 1 1 i J
+0 I 2 3 4 5
+
+Time after start of test pulse (ms)
+
+ 
+
+-65 mV
+
+13
+ENDELEMENTK current (mA/cm?)
+
+44-—40 mV
+
+wo
+
+iN)
+
+K current
+
+ 
+
+6
+time (ms)
+
+Ionic currents
+
+Na current
+0.5;
+0}
+5-05
+<=
+E
+= -l
+s
+3-415
+s
+-2]
+-2.5 3 3
+time (ms)
+
+40 mV
+
+ 
+
+40 mV
+
+ 
+
+ 
+
+14
+ENDELEMENTIonic currents
+
+K current
+
+ 
+
+     
+
+ 
+
+ 
+
+Na current
+0.5
+0
+co a
+5 Se
+S -0.5|
+z <
+— E
+5 5
+3 3-15
+< 2
+~2 —-~40 mv
+—o0O mv
+F — 40 mv
+285 2 4 6 8 10 «12
+time (ms)
+1,(mAsem?) 1,0mavem?) |
+I Na
+sb
+Kk
+Ey Ey 50
+i , i ( fl
+0 00
+or * E, (mV) 10 V
+
+ 
+
+ 
+
+ 
+
+15
+ENDELEMENTIonic currents (voltage dependence)
+maven Lae
+
+   
+
+L(mAslem?) r IT
+r~ Na
+
+ 
+
+ 
+
+ 
+
+ 
+
+We used the voltage clamp to measure current as a function of
+voltage.
+
+But what we are really trying to extract is conductance as
+a function of voltage!
+
+IV) =G(V)(V — Ex) Iya(V) = Gy (V)(V — Ey, )
+
+G.(v) = 2 G,,(V) = ue
+
+(V—Ex) (V—Ex,) 16
+ENDELEMENTIonic currents (voltage dependence)
+sono Tg moo Ty,
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+I, =G,(V)(V—E,) Iya = Gua(V(V — Ena)
+
+<
+
+ 
+
+17
+ENDELEMENTIonic currents (voltage dependence)
+rT tonscol J
+
+   
+
+Na
+
+ 
+
+ 
+
+. [ fp fr /
+Ey f f
+{ %. j j 0 50,100
+0 50 rr) V L (mV) V
+L E,(mV)
+r Ihe
+
+Maximal G, (V) Maximal Gy, (V)
+
+conductance conductance
+
+ 
+
+ 
+
+  
+
+Sigmoidal voltage-dependence 18
+of activation
+ENDELEMENTConductance
+(relative to max)
+
+Ionic currents (Voltage dependence)
+
+Maximal
+
+conductance
+
+ 
+
+GW)
+
+ 
+
+K conductance
+
+ 
+
+< goin qs 08 490
+Sf gator
+ops
+
+GW) = am
+1 1 ee
+-50 0 50
+
+Test pulse potential (mV)
+
+Maximal
+
+conductance
+
+Conductance
+(relative to max)
+
+0.1
+
+ 
+
+0.001
+
+GyaV)
+
+ 
+
+Na conductance
+
+al. 8480 900 beso
+| 3°
+= 90
+or
+1
+H GV) x5 ew
+
+ 
+
+0
+Test pulse potential (mV)
+
+19
+ENDELEMENTIonic currents (time dependence)
+
+-9 mV
+
+Em
+-65 mV
+
+(B) 10% Na
+
+     
+   
+ 
+    
+
+ 
+
+I
+
+(mA/em?) Oe
+
+=) (A) 100% Na
+(C) Difference current
+INa
+
+0 1 2 3 4 5
+
+Time after start of test pulse (ms)
+I, (t)=G,(t)(V —E,) Tyg (t) = Gy(t)(V — Eng)
+activation activation inactivation
+
+  
+
+G,(t) Guat)
+
+   
+
+44mV
+
+  
+
+0 2 4 6 8
+Time after start Time after start
+of pulse (ms) of pulse (ms)
+
+Annotated figures on pages 19, 20, 22, 24 and 36 © Hille, Bertil. ion Channels of Excitable Membranes (3rd Ed.). 2001, Sinauer / Oxford University Press. All
+rights reserved. This content is excluded from our Creative Commons license. For more information, see https://ocw.mit.edu/help/fag-fair-use/.
+
+20
+ENDELEMENTOutline of HH model
+
+Voltage and time-dependent ion channels are
+the ‘knobs’ that control membrane potential.
+
+ 
+
+50,
+Ss 0
+£
+>
+-50 .
+0 200 400 600 800
+
+time (ms) .
+
+ 
+
+Some ion channels push the membrane
+potential positive.
+
+Other ion channels push the membrane
+potential negative.
+
+Together these channels give the neural
+machinery flexible control of voltage!
+
+21
+ENDELEMENTIonic currents
+(time and voltage dependence)
+
+ 
+
+ 
+
+Fast
+Delayed G,AV,t) activation G,,(V,t)
+activation K\"> Naw?
+20
+L 14. mV 44 mV
+J Doe io
+of <
+a 26
+oO
+os cy
+DPA Pry
+Se SE
+To TO
+cq c
+oi) Sf
+o 4 oo
+Co Oo
+£8 58
+ge 32
+f= o=
+ne ve
+oa -39 mV
+
+ 
+
+ 
+
+ 
+
+ 
+
+Time after start of pulse (ms)
+ENDELEMENTIonic Currents
+(time and voltage dependence)
+
+Now we are going to develop a detailed understanding of
+where these voltage and time-dependencies come from!
+
+We are going to derive equations for the voltage dependence
+And differential equations for the time dependence.
+
+Once we do that, we will be able to write down a system of
+equations that allows us to simulate an action potential!
+ENDELEMENTSingle Channels
+
+So far, we have been discussing total currents into a neuron. However,
+these total currents result from ionic flow through thousands of individual
+ion channels.
+
+ 
+
+ 
+
+Single channel K-current Single channel Na-current It is possible to record
+vt from single ion channels
+” using a ‘patch clamp’.
+
+Ve
+Vin J.
+— 7 3 0 5 Neher & Sakmann
+Time after start of pulse (ms) Time after start of pulse (ms)
+
+24
+ENDELEMENTIonic conductance in terms of single channels
+
+Individual ion channels are either OPEN or CLOSED.
+
+The total conductance through a membrane is given by the total
+number of open channels times the conductance one ion
+channel.
+
+probability of being ‘open’ Number of ‘open’ ion
+
+ae)
+ll
+
+total number of ion channels channels = P.N¢
+
+=
+>
+ll
+
+unitary conductance
+
+ee)
+~
+I
+
+Total K conductance: Remember, K current is:
+G, =PA(V,t) Ny && Tp =G,(V,t) V-E,x)
+
+All of the interesting time and voltage dependence
+comes from here
+ENDELEMENTIonic conductance in terms of single channels
+
+How do we describe the probability that a channel is open?
+
+Lets start with the K channel.
+
+The pore of a K* channel is formed by 4 identical subunits.
+
+Each subunit has a voltage sensor and gate to pore C)C)
+turn the channel on and off. ; ~~
+
+Each subunit has two states: ‘open’ and ‘closed’.
+‘n’ is the probability that a subunit is open.
+
+Finally, all subunits must be in the ‘open’ state for
+the channel to be permeable.
+ENDELEMENTIonic conductance in terms of single channels
+
+How do we describe the probability that a channel is open?
+
+If 'n’ is the probability that one subunit is open, then pore C)C)
+the probability that all four subunits is open is given —_=>”
+* wn OO
+_ 4 Assuming
+Py =n independence
+
+We can now write down the conductance of our K channels as:
+
+A 4 G.. is the maximal open
+Gx — Gyn «conductance
+
+And we can write the K current as:
+H &H called n the
+
+= ‘gating variable’ for the
+Te = Gyn (V _ Ex) potassium current
+
+ 
+
+ 
+
+27
+ENDELEMENTIonic conductance in terms of single channels
+
+       
+ 
+
+OPEN CLOSED
+Gating charges
+(voltage sensor) nw ~A~O Vin = TOV QAUAY Ar Vou = OV
+DAO nw »~~~O
+nw ~“~~-O
+Sie <- lon selective pore
+Intracellular CN Pees Extracellular SY YS
+
+We are going see how to derive
+the voltage-dependence from first
+
+rinciples!
+p P 28
+
+ 
+ENDELEMENTIonic conductance in terms of single channels
+lon channels are stochastic. They are either open or closed, and
+flicker back and forth between the open and closed states.
+
+Lets see if we can predict the voltage-dependence of an ion
+channel!
+
+OPEN
+
+Energy. Ym = OMV » Foyen = 1 ! OW ~XWO
+
+closed nw HO
+AU =w open | }kT = AU
+
+AU = U. ~ Uatosea 28
+
+open
+ENDELEMENTIonic conductance in terms of single channels
+lon channels are stochastic. They are either open or closed, and
+flicker back and forth between the open and closed states.
+
+Lets see if we can predict the voltage-dependence of an ion
+channel!
+
+CLOSED
+
+Energy. Ym = OMV » Foyen = 1 ! OW ~XWO
+
+closed nws5 HO
+AU =w open | }kT = AU
+
+NW 2?
+NW AO
+NnWG AO
+
+AU = U. ~ Uatosea 30
+
+open
+ENDELEMENTIonic conductance in terms of single channels
+lon channels are stochastic. They are either open or closed, and
+flicker back and forth between the open and closed states.
+
+Lets see if we can predict the voltage-dependence of an ion
+channel!
+
+CLOSED
+
+Energy nw ~ANXO
+
+closed nw nO
+open
+
+ 
+
+ 
+ENDELEMENTIonic conductance in terms of single channels
+lon channels are stochastic. They are either open or closed, and
+flicker back and forth between the open and closed states.
+
+Lets see if we can predict the voltage-dependence of an ion
+channel!
+
+OPEN
+Vn = ATS ag Vow = OMY
+Energy nw n~AnXO
+nw ~~O
+
+closed
+ENDELEMENTIonic conductance in terms of single channels
+lon channels are stochastic. They are either open or closed, and
+flicker back and forth between the open and closed states.
+
+Lets see if we can predict the voltage-dependence of an ion
+channel!
+
+OPEN
+Energy V,, =—75 mV,P,,,,, = small Vp = 75 ag Vans = OV
+
+MnO
+
+mw nn~O
+Effective ya
+gating
+charge open
+
+closed }kT <AU nw nwo
+
+ 
+
+AU =U, —U.
+
+open closed
+ENDELEMENTIonic conductance in terms of single channels
+lon channels are stochastic. They are either open or closed, and
+flicker back and forth between the open and closed states.
+
+Lets see if we can predict the voltage-dependence of an ion
+channel!
+CLOSED
+
+__ _ V,, =-75mV V,,, =OmV
+Energy V,, =-75 MV, Poien small nwr*nrmmwm_—*"
+
+Effective
+gating
+
+nw ~~
+nwWG ~~O
+
+charge \ open
+
+AU = Vm ——_
+
+| closed SkT <AU
+
+ 
+
+AU =U, —U.
+
+open closed
+ENDELEMENTTo derive the voltage dependence:
+boltzmann equation
+
+We can use the Boltzmann equation to describe the ratio of
+probabilities of being in the open or closed state:
+
+ 
+
+ 
+
+ 
+
+Vopen—U ctosed W-9.Vin
+Prren _ A . kT Proven _ { i
+closed Prrosed
+The probability of having an open subunit is:
+P 1 1
+n=ff = P = = P = 1 can dT
+oO + G 1 aE +e
+P,
+ENDELEMENTConductance
+
+(relative to max)
+
+To derive the voltage dependence:
+boltzmann equation
+
+1
+FV) = ata
+
+Is this the observed voltage-dependence? YES!
+
+K conductance
+
+ 
+    
+  
+
+P\(V) measured
+P.(V) Boltzmann
+
+ 
+ 
+
+ 
+
+/ qe 4.5e
+.O1Fy/ w=-1.7kT
+0.0014 4+_L fat _ 1 ao
+0 0 50
+Test pulse potential (mV) ~ 100 Voltage (mV) me
+ENDELEMENTNow get the time dependence!
+
+Note that for any given subunit or channel, when we change the
+voltage, the energy levels shift (nearly) instantaneously. The
+probability of making a transition changes instantly, however the
+number of open channels does not changes instantly.
+
+We still have to wait for thermal fluctuations to kick the channel or
+subunit open, or wait for the subunit to make a conformational
+change.
+This takes time!
+voltage-
+dependent!
+'closed' = ‘open’ @,,B, are transition rates
+l—n . n Probability per unit time;
+units are 1/s
+
+We are going to model the transitions between open and closed states
+with a simple rate equation. We can do this because we have many
+channels to average over.
+ENDELEMENT‘close
+
+l-n
+
+Change in the number
+of open subunits
+
+Change in the number of
+open subunits
+
+per unit time
+
+dn
+dt
+
+a
+d=!
+
+open' @,,f, are transition rates
+
+n
+
+The number of closed
+
+The number of open
+subunits that open
+
+subunits that close
+
+The number of closed subunits
+(1-n)
+times
+
+the probability that a closed
+subunit opens
+
+The number of open subunits
+(n)
+times
+
+the probability that an open
+subunit closes
+
+per unit time (,) per unit time (B,,)
+
+B,n
+
+a.,(1—n)
+
+38
+ENDELEMENTdn =a,(1-n) — Bn Remember: n is the
+dt probability that a subunit is
+
+Let's rewrite this equation as follows: open:
+
+=a, —-a,n — Bn
+
+. The steady state solution!
+
+a, — (a, + B,)n
+1 dn a
+
+n
+
+= n
+
+(a, + B,)dt (a, + B,)
+a UY
+
+Thus, we can rewrite this equation in terms of the
+steady state open probability and a time constant:
+
+ 
+
+ 
+
+ 
+
+ 
+
+dn
+T,— =n, —Nn
+dt
+But we just derived n,(V) !
+Remember... @,,8,,n,,,T, are all voltage dependent
+
+39
+ENDELEMENTResponse to voltage change
+
+How does the gating variable ‘n’ change as we step the
+membrane potential?
+
+nt)
+
+activation disactivation
+
+a, Le = -80)
+
+    
+  
+
+ny (t) = ny, [V(t)|
+
+40
+ENDELEMENTResponse to voltage change
+
+How does the ‘open’ probability change as we step the
+membrane potential?
+
+n(t) P,(t) =[n(t)|
+
+Gt)
+
+   
+
+ 
+
+ms,
+
+* The shape of the K conductance was well fit by a rising
+exponential raised to the fourth power.
+
+* H &H inferred from this that the K-current was governed by
+four independent first-order processes! (They didn’t know
+
+about the structure of K-channels at the time!) 7
+ENDELEMENTMeasuring the parameters
+
+AY P.(t)=[n(0)
+
+  
+
+* By measuring the persistent
+conductance at different voltages,
+they were able to measure n,, asa
+function of voltage.
+
+By measuring the time course of the
+conductance at onset and offset of
+
+the voltage steps, they were able to
+measure T, as a function of voltage.
+
+ 
+
+1
+nV)
+
+5
+
+500 50
+
+Membrane potential (mV)
+
+ 
+
+ 
+
+ 
+
+Time constant (ms)
+
+[o)
+
+T,(V)
+
+on
+
+-50 0 50
+Membrane potential (mV)
+
+ 
+
+ 
+
+42
+ENDELEMENTMeasuring the parameters
+
+Hodgkin and Huxley summarized their data using algebraic
+
+expressions for the rate functions a@,(V) , B,(V)
+
+a,(V)=
+
+B,(V) = 0.125 exp(-0.0125(V + 65))
+
+V isinmV
+
+. -1
+a,,,$, are in ms
+
+1—exp(-0.1(V +55)
+
+Remember that...
+
+ee
+a
+
+n
+
+(a, +B,)
+
+QT
+
+ce)
+1
+
+ 
+
+ 
+
+ 
+
+ 
+
+Cr, + B,)
+
+43
+ENDELEMENTMeasuring the parameters
+
+Why did we do all of this?
+
+Because once we have expressions for n_(V) and T,(V),
+we can integrate the differential equation for n
+
+dn
+T,—=n,-Nn
+dt
+to get the potassium conductance:
+G, =G,n"*
+
+and the potassium current:
+
+1, =G,n'(V-Ex)
+
+44
+ENDELEMENTWe are going to write down an algorithm for
+how a neuron spikes!
+For now here the parts related to the potassium current...
+
+Start with vat time step t
+
+Compute n(V) and T,(V)
+
+Integrate a one time step to get n(t)
+
+dt
+Compute K current: 7, =G,n*(V—-E,)
+
+Compute total membrane current J, =1,+J]y, +1,
+
+Compute V_
+
+dV,
+dt
+
+Integrate to get V, at next time step
+
+ 
+
+45
+ENDELEMENTLearning objectives for Lecture 2
+
+To be able to draw the circuit diagram of the HH model
+Understand what a voltage clamp is and how it works
+
+Be able to plot the voltage and time dependence of the
+potassium current and conductance
+
+Be able to explain the time and voltage dependence of the
+potassium conductance in terms of Hodgkin-Huxley gating
+variables
+
+46
+ENDELEMENTOutline of HH model
+
+ 
+
+Th, = Tyg +1 +1,
+
+1, =G,(VtV —E,)
+
+The potassium conductance
+is time-dependent and
+voltage-dependent
+
+ 
+
+E, =—75mV
+
+dV(t)
+
+oMwe=l
+T,Q)+C Ht o(t)
+
+1,=G,V-E,)
+
+The leak conductance is
+neither time-dependent
+nor voltage-dependent
+
+E, =—50mV
+
+47
+ENDELEMENTMIT OpenCourseWare
+https://ocw.mit.edu/
+
+9.40 Introduction to Neural Computation
+Spring 2018
+
+For information about citing these materials or our Terms of Use, visit: https://ocw.mit.edu/terms.
+ENDELEMENT

@@ -1,0 +1,1864 @@
+1
+00:00:10,000 --> 00:00:20,000
+welcome back to finntack shaping the world of Sydney ants today we're going to review developments and finance
+
+2
+00:00:20,000 --> 00:00:30,000
+I know what you relate to the Capital Markets and since there's so many pieces of capital market have chosen to take the time to dig more deeply into
+
+3
+00:00:30,000 --> 00:00:40,000
+two areas it's really mobile brokerage applications and wealth advice
+
+4
+00:00:40,000 --> 00:00:50,000
+through robo-advice in such a pine Broderick Capital Markets as well as a little touch you and cryptocurrencies because
+
+5
+00:00:50,000 --> 00:01:00,000
+most successful technology companies in the Capital Markets have actually been crypto exchanges and some of the
+
+6
+00:01:00,000 --> 00:01:10,000
+and Everest around cryptomarkets so if I just take a moment just to
+
+7
+00:01:10,000 --> 00:01:20,000
+sharax share my screen it share some slides and
+
+8
+00:01:20,000 --> 00:01:30,000
+will get going here this is not a new tradition it goes back actually several decades and so
+
+9
+00:01:30,000 --> 00:01:40,000
+the question is what's happened here in the last 6 or 8 years what's happened that this start of Robin Hood and others have really just
+
+10
+00:01:40,000 --> 00:01:50,000
+top Auto V the last remaining bits of of the commission structure that we pack robo-advising and then
+
+11
+00:01:50,000 --> 00:02:00,000
+markets fintech startups more generally walk will have to do a quick survey there and then a little discussion of what's happening in crypto exchanges and
+
+12
+00:02:00,000 --> 00:02:10,000
+natural ice bunny house because it's really the question will that will that actually transformed or will it stay as it is right now I'm more narrow niche
+
+13
+00:02:10,000 --> 00:02:20,000
+still a 200 Billion Dollar ASIC class environment but will some of those Technologies come into mainstream for NAS
+
+14
+00:02:20,000 --> 00:02:30,000
+the readings again were mostly focused around those two areas robo-advising and online brokerage and how Robin Hood his trance
+
+15
+00:02:30,000 --> 00:02:40,000
+the industry and help Charles schwab and other is entered into by the late part of 2019 which some call the new broke
+
+16
+00:02:40,000 --> 00:02:50,000
+import because of this financial technology along the way questions
+
+17
+00:02:50,000 --> 00:03:00,000
+going here and help me somebody wants to try me and how did online brokers emerge do again earlier Finch
+
+18
+00:03:00,000 --> 00:03:10,000
+period during the 80s 90s that sort of Internet technology fintech technology area and then how Robin Hood
+
+19
+00:03:10,000 --> 00:03:20,000
+or maybe this more recent error anybody want to dive in at all today
+
+20
+00:03:20,000 --> 00:03:30,000
+I mean everybody what will will be talking about this for the whole class but I just have anybody wants to survive after their thoughts the story and we have Michael
+
+21
+00:03:30,000 --> 00:03:40,000
+ourselves when I think the earlier said that's just the Avengers
+
+22
+00:03:40,000 --> 00:03:50,000
+PayPal just leaving Dua my demons and I'm only division 40 not sorry
+
+23
+00:03:50,000 --> 00:04:00,000
+but we can make it without having to call somebody on the phone
+
+24
+00:04:00,000 --> 00:04:10,000
+in person Robin Hood definitely was more don't think the mobile purse approach so detective weaknesses of
+
+25
+00:04:10,000 --> 00:04:20,000
+electric bike one more smoker somebody to really just tree from anywhere and then also the fee structure with
+
+26
+00:04:20,000 --> 00:04:30,000
+Jeff Beck I'm playing I'm actually Claire Michael raise PayPal because there is an allergies in that's what this class is
+
+27
+00:04:30,000 --> 00:04:40,000
+about it's fighting what's happening from a strategic point of view I'm teaching finance technology the intersection what about the strategies and there's a lot of
+
+28
+00:04:40,000 --> 00:04:50,000
+there we were in the 1990's some of it even started a little earlier and online brokerage story etrade ameritrade
+
+29
+00:04:50,000 --> 00:05:00,000
+companies similar to PayPal starting a 1998 thank you Michael pulling that together PayPal starting in 1998
+
+30
+00:05:00,000 --> 00:05:10,000
+Royal wave the internet access rather than through bricks-and-mortar or physical checks for an old credit card system
+
+31
+00:05:10,000 --> 00:05:20,000
+visa v the Payment Systems and PayPal online brokerage store does it does it take off not entirely overtime it
+
+32
+00:05:20,000 --> 00:05:30,000
+story in the Capital Markets specially retail investing and then we get to this other period a new form of Technology lordly
+
+33
+00:05:30,000 --> 00:05:40,000
+mobile phones but not entirely also related to open API and access to the data Robinhood
+
+34
+00:05:40,000 --> 00:05:50,000
+and also in the payment area we've talked about this already a few classes go a lot of these payments Taurus and Robin Hood Jen really
+
+35
+00:05:50,000 --> 00:06:00,000
+nutrients forums industry by 2019 robin bird had almost as many members
+
+36
+00:06:00,000 --> 00:06:10,000
+my mobile app was just a handful of years as he trade or many of the brokerage firms so it's it's it's got that parallels and where
+
+37
+00:06:10,000 --> 00:06:20,000
+been to how Robin Hood Crest further wondering wait or do you have a Robin Hood account
+
+38
+00:06:20,000 --> 00:06:30,000
+and why you might have the money to do it but you actually have a Robin Hood
+
+39
+00:06:30,000 --> 00:06:40,000
+account and well it's hard to do it by the show here and but I imagine that many other students in the class have downloaded the app
+
+40
+00:06:40,000 --> 00:06:50,000
+so then a little bit different area that will be shouting about is robo-advising how is that transformed the provision of
+
+41
+00:06:50,000 --> 00:07:00,000
+password management and how is big pronounced reacted and I'm wondering if anybody wants to just take up a Highway
+
+42
+00:07:00,000 --> 00:07:10,000
+I heard it that I hope so we agree papers on the topic any volunteers we
+
+43
+00:07:10,000 --> 00:07:20,000
+so how to transform people
+
+44
+00:07:20,000 --> 00:07:30,000
+behaviour from Latin are going through some devices to actually you're not going through
+
+45
+00:07:30,000 --> 00:07:40,000
+especially for the younger generations for a lot more
+
+46
+00:07:40,000 --> 00:07:50,000
+feeling like
+
+47
+00:07:50,000 --> 00:08:00,000
+take a base which are probably were
+
+48
+00:08:00,000 --> 00:08:10,000
+trying to if you like and work through some of the
+
+49
+00:08:10,000 --> 00:08:20,000
+hello flight having some canopy track
+
+50
+00:08:20,000 --> 00:08:30,000
+how to be more like 12 and 2
+
+51
+00:08:30,000 --> 00:08:40,000
+the ability to have an application on your laptop around your phone's of course robo-advising
+
+52
+00:08:40,000 --> 00:08:50,000
+patient rather than having a human but having Analytics embedded in a program give you advice that asset allocation best thing in the lake
+
+53
+00:08:50,000 --> 00:09:00,000
+second me as you said BIG4 now and big city it's in this case is asset managers generally but also the broker troops firms
+
+54
+00:09:00,000 --> 00:09:10,000
+reacting what do they do that's similar to what we see or online brokerage in Robin Hood
+
+55
+00:09:10,000 --> 00:09:20,000
+that's about course it's night just about a delivery system it's not just about mobile phones but it's also about a course point and price point
+
+56
+00:09:20,000 --> 00:09:30,000
+dive into that a little bit but robo-advisors giving access to financial advice at lower cost may be in the range of 20
+
+57
+00:09:30,000 --> 00:09:40,000
+the basis points of year Asset Management the whole field of asset management the business is accumulating assets
+
+58
+00:09:40,000 --> 00:09:50,000
+and if you accumulate 100 million dollars assets on the management and George 1% fee that's $1000000 a revenue
+
+59
+00:09:50,000 --> 00:10:00,000
+a quarter of a point that's only 250000 hour course you can multiply there's none of these firms really want to just be at 100 million.
+
+60
+00:10:00,000 --> 00:10:10,000
+asset management and the biggest of the black rocks of the world over it 567 trillion-dollars of asset management but the Robot
+
+61
+00:10:10,000 --> 00:10:20,000
+top 10 here at a lower cost white and natural that is also true on the online brokerage side
+
+62
+00:10:20,000 --> 00:10:30,000
+so it's delivery mechanisms it's user interfaces it's service and it's also a course in and
+
+63
+00:10:30,000 --> 00:10:40,000
+price points in essence can you do something better quicker cheaper that's that's coming over very simplistic way to think of
+
+64
+00:10:40,000 --> 00:10:50,000
+but any other fintech Transformers are like you're mine in the Capital Markets that remain you want to see if somebody wants to just want to capture a couple of the other
+
+65
+00:10:50,000 --> 00:11:00,000
+beyond is to warn the retail side and the volunteers
+
+66
+00:11:00,000 --> 00:11:10,000
+come on guys
+
+67
+00:11:10,000 --> 00:11:20,000
+grabs thank you
+
+68
+00:11:20,000 --> 00:11:30,000
+change to sing with good Robin Hood and whilst I'm going to his cash management of the enter the market from waking up the stock side of things and robo-advisor side of things with the symbol
+
+69
+00:11:30,000 --> 00:11:40,000
+cast bands when is the next product to even better man switch we'll talk about it
+
+70
+00:11:40,000 --> 00:11:50,000
+better man is storage and enter into the Challenger Bank area I mean you're not the only ones you have transferwise from the payment side
+
+71
+00:11:50,000 --> 00:12:00,000
+The Challenger Bank site absolutely some of these platforms you then spreading out so you could be robo-advisor first and then move it
+
+72
+00:12:00,000 --> 00:12:10,000
+something else are there trends because of data will see there's a lot of startups dozens of startups in the bin text
+
+73
+00:12:10,000 --> 00:12:20,000
+data around infrastructure about what many investors think of is the back office side of things that are
+
+74
+00:12:20,000 --> 00:12:30,000
+exchanges with the public there are many stored Ops around asset management and trying to
+
+75
+00:12:30,000 --> 00:12:40,000
+Asset Management out and this would be big who is CEO institutional asset management and not just the retail site so let's have died
+
+76
+00:12:40,000 --> 00:12:50,000
+little bit the history of Wideline company landscape and think about this for for mermaids
+
+77
+00:12:50,000 --> 00:13:00,000
+this whole thing and I put some of the foundation date and the number of customers these are the figures I could get from time to time I wasn't able to
+
+78
+00:13:00,000 --> 00:13:10,000
+find find a figure and TD ameritrade you might think of them is ameritrade both started back
+
+79
+00:13:10,000 --> 00:13:20,000
+early 1970s I mean actually free internet the idea was a lower cost brokerage but what was happening in the early nineties
+
+80
+00:13:20,000 --> 00:13:30,000
+really important part of the saga is out of the 1960s there is a movement that was ultimately cash at congressional
+
+81
+00:13:30,000 --> 00:13:40,000
+us congress going Baba Securities and exchange got to repeal fixed commission
+
+82
+00:13:40,000 --> 00:13:50,000
+UCA for decades the New York Stock Exchange had fixed commission rates set by the members of The New York Stock Exchange
+
+83
+00:13:50,000 --> 00:14:00,000
+institutional word of the Lord about the larger investors wanted discounts when it cheaper rates in India
+
+84
+00:14:00,000 --> 00:14:10,000
+1970s vs this movement to free that are not to have fixed set rates by the New York Stock Exchange
+
+85
+00:14:10,000 --> 00:14:20,000
+around this time ameritrade started later or affiliated with toronto-dominion Bank lost the Chi
+
+86
+00:14:20,000 --> 00:14:30,000
+each 50 some years later about 12 million years is each race starts in the 80s first trade
+
+87
+00:14:30,000 --> 00:14:40,000
+Interactive Brokers a remarkable company on the institutional side little less than million and and Sophie
+
+88
+00:14:40,000 --> 00:14:50,000
+moddex bitrate station but monarchs from the 90s and even tradestation earlier each of these companies
+
+89
+00:14:50,000 --> 00:15:00,000
+a little bit of the old concept of brokers and there were many challenges in the 99 is into the north between schwab
+
+90
+00:15:00,000 --> 00:15:10,000
+etrade and traditional firms like Merrill Lynch in the like the asset managers themselves the big ass
+
+91
+00:15:10,000 --> 00:15:20,000
+like fidelity and Vanguard 3 days of fidelity and also how can we in addition to wealth
+
+92
+00:15:20,000 --> 00:15:30,000
+after a online brokerage if you have an account with
+
+93
+00:15:30,000 --> 00:15:40,000
+Lord asset managers in the US it's some point in time in the last 20 is years some starting in the mid-90s some
+
+94
+00:15:40,000 --> 00:15:50,000
+eating all the way into the lead not they started the save they're going to compete with traditional Wall Street the mirror Lynch years since 04
+
+95
+00:15:50,000 --> 00:16:00,000
+and then we're going to compete by are through an online ability to buy and sell stocks garden to the business it's
+
+96
+00:16:00,000 --> 00:16:10,000
+the big bags I didn't notice in everyday and some of them even in the last 4 years started should have discount retail Apac
+
+97
+00:16:10,000 --> 00:16:20,000
+Merrylands which I keep mentioning Merrylands Edge 2010 was a product care for Merrylands was followed by Bank of America
+
+98
+00:16:20,000 --> 00:16:30,000
+America's thinking ok it's post price is it by Merrylands Merrylands has this remarkable multiple thousand person
+
+99
+00:16:30,000 --> 00:16:40,000
+organisation brokers but they do edge to be online and even Ally back alley
+
+100
+00:16:40,000 --> 00:16:50,000
+which started in the auto lending business was that first Challenger Bank 2009 by 2016
+
+101
+00:16:50,000 --> 00:17:00,000
+we can get into this till online 4 million members where are we on the story of the start of Robin Hood
+
+102
+00:17:00,000 --> 00:17:10,000
+2013 in all this packet of startups in the last 2 years really of Transport
+
+103
+00:17:10,000 --> 00:17:20,000
+what are we saying as this fintech startups primarily we think of Robin Hood but there's a bunch of others with with
+
+104
+00:17:20,000 --> 00:17:30,000
+markets like free trade and tasty works and we bought have come along partly because of mobile phones partly because
+
+105
+00:17:30,000 --> 00:17:40,000
+even the swabs and ameritrade for still charging now weather is a few pennies this year but still charging 345 censorship
+
+106
+00:17:40,000 --> 00:17:50,000
+user-interface and course provided some opportunity
+
+107
+00:17:50,000 --> 00:18:00,000
+a little bit about that the Lord companies the each race and mirror traits infidelity in the light for a moment because part of his mobile trading
+
+108
+00:18:00,000 --> 00:18:10,000
+each in this this this short that I was able to get from stockbrokers.com comparison was just like what are the apps what is
+
+109
+00:18:10,000 --> 00:18:20,000
+user-interface and this was an example by better believe that whether you're Merrylands edge or you were Robin hydrolysis thinking
+
+110
+00:18:20,000 --> 00:18:30,000
+interface well with an iPhone Android and self-worth an Apple watch I have to sort of have that connectivity and that technology to be ready
+
+111
+00:18:30,000 --> 00:18:40,000
+used on Aldi's and you can run your eye through can I have trading on each of these products mutual fight and particularly Electro
+
+112
+00:18:40,000 --> 00:18:50,000
+trading after this round etf's but not only 2 years and is the cryptocurrency space came up a number of them said what
+
+113
+00:18:50,000 --> 00:19:00,000
+cryptocurrencies as well not the each rates in America race with the ramen Hoyts in the end the disruptors were in that space
+
+114
+00:19:00,000 --> 00:19:10,000
+so it's just to have a little bit of a comparison and how some photos think recent developments are really important and the biggest one was late
+
+115
+00:19:10,000 --> 00:19:20,000
+what's called sort of the broker Wars what happened store was the episode that was Robin Hood was eating in
+
+116
+00:19:20,000 --> 00:19:30,000
+sex 7/8 million members now maybe 10 million members and as we saw the earlier number suave in America only about 12 million
+
+117
+00:19:30,000 --> 00:19:40,000
+an app that was happening ibkr which is that smaller but remarkable company institutional
+
+118
+00:19:40,000 --> 00:19:50,000
+in September of 2019 so there were going to go to freebridge for some of their accounts was in a hundred percent but there in a girl
+
+119
+00:19:50,000 --> 00:20:00,000
+and within weeks early in October 2019 swap finally said zero commission
+
+120
+00:20:00,000 --> 00:20:10,000
+I think is this is the challenge that we're here were in the challenge of or their financial services that will move to 0
+
+121
+00:20:10,000 --> 00:20:20,000
+Topline pricing and what we found whether it's in Facebook for a many many or online
+
+122
+00:20:20,000 --> 00:20:30,000
+locations outside of the world it's a zero fee environment and then a business motto was earning money summer
+
+123
+00:20:30,000 --> 00:20:40,000
+in Facebook case it's about marketing and advertising 90 + percent of the revenues really about advertising and marketing if you look at that business models
+
+124
+00:20:40,000 --> 00:20:50,000
+Marco business model but it may be on the day that it may be cross-selling in marketing it may be on the day but it may be somewhere else we're going to talk about the revenue
+
+125
+00:20:50,000 --> 00:21:00,000
+Robin Hood and the moment but Charles schwab reacted etrade TD ameritrade or within one week when
+
+126
+00:21:00,000 --> 00:21:10,000
+zero commission it being able to do the next thing which was announced
+
+127
+00:21:10,000 --> 00:21:20,000
+allgomera tree with collapsing could actually say we purchase
+
+128
+00:21:20,000 --> 00:21:30,000
+Morgan Stanley wasn't going to be outdone in early in 2020 Morgan Stanley what are the most Venerable old line investment banks or dating all the
+
+129
+00:21:30,000 --> 00:21:40,000
+back to James jpmorgan himself the industrialist that though he's deported this world many decade
+
+130
+00:21:40,000 --> 00:21:50,000
+as his name on Morgan Stanley and jpmorgan chase Morgan Stanley buy this year
+
+131
+00:21:50,000 --> 00:22:00,000
+if you would have told the Morgan Stanley executive when etrade started 30 years ago sometime they were in their future by each way they would have search scratch the
+
+132
+00:22:00,000 --> 00:22:10,000
+having said really we're going to be a Retail Online brokerage for so it sort of an interesting change in in this world
+
+133
+00:22:10,000 --> 00:22:20,000
+so what's the long road what's the warm Road of commissions this this is the march
+
+134
+00:22:20,000 --> 00:22:30,000
+sure but if you look at this grayline this commission rates from $0.25 this year down to about 3 census year in 2000
+
+135
+00:22:30,000 --> 00:22:40,000
+89 I think this short cuts off around 2008 this long more competition import
+
+136
+00:22:40,000 --> 00:22:50,000
+because of Iams as you can see on this that virons we're going up and commissions we're going down so some of it is just efficiency but it's also this
+
+137
+00:22:50,000 --> 00:23:00,000
+petition that was coming out from each raid at ameritrade on the retail side but Robin Hood sort of venture aware of it still had three four
+
+138
+00:23:00,000 --> 00:23:10,000
+sense commission Robinhood initially it was easy with a mobile
+
+139
+00:23:10,000 --> 00:23:20,000
+to start an account but what they also did he said we'll do it for free their business mail from 20
+
+140
+00:23:20,000 --> 00:23:30,000
+what do it for free and how did they do that what's the revenue model behind that anybody want to take a motor pause Romaine
+
+141
+00:23:30,000 --> 00:23:40,000
+I'm just saying remain a masterclass would think how could you be so bold as a startup venture capitalist you store
+
+142
+00:23:40,000 --> 00:23:50,000
+watch Banora laugh read free online brokerage from Beerwah anyone cheers
+
+143
+00:23:50,000 --> 00:24:00,000
+Victor you can either make a profit and a trade
+
+144
+00:24:00,000 --> 00:24:10,000
+stock high-frequency trading as some people who is doing now before you sell your Toledo
+
+145
+00:24:10,000 --> 00:24:20,000
+damaged area to make a profit out of focus on the second with the relationship
+
+146
+00:24:20,000 --> 00:24:30,000
+what day is mobile applied for it's Robin Hood and particularly and high-frequency trading card
+
+147
+00:24:30,000 --> 00:24:40,000
+was that a feature of the Capital Markets was that there were firms that would pay for water flow they would pay a very modest amount
+
+148
+00:24:40,000 --> 00:24:50,000
+maybe a paneer share but they were just to receive the order flow and this is a feature of the competitive
+
+149
+00:24:50,000 --> 00:25:00,000
+markets competitive exchange markets in the US we have $50 70 individual exchanges we take of the nearest arcade
+
+150
+00:25:00,000 --> 00:25:10,000
+think about NASDAQ and so for it but there are many other electronic markets were transactions per
+
+151
+00:25:10,000 --> 00:25:20,000
+and and and some people call them the dark markets but all of those markets might pay for order flow and then
+
+152
+00:25:20,000 --> 00:25:30,000
+virtual trading shots high-frequency trading shots my pay for order flow that means as they wanted they want to have a first look they want to have those
+
+153
+00:25:30,000 --> 00:25:40,000
+interrupt them through their algorithms and into their either exchange engines if it's an exchange that's paying for the flow
+
+154
+00:25:40,000 --> 00:25:50,000
+frequency trading shop it's paying for order flow and the exchanges have different fee structures depending upon whether you make
+
+155
+00:25:50,000 --> 00:26:00,000
+or you take a better offer you will sometimes hear discord maker and take erect making a better offer putting
+
+156
+00:26:00,000 --> 00:26:10,000
+rest in bed or resting after into a exchange engine is more valuable for the exchange because it brings other orders
+
+157
+00:26:10,000 --> 00:26:20,000
+the exchange figured out was there after the retail public something for free because
+
+158
+00:26:20,000 --> 00:26:30,000
+entered into two or three major contract with headphones with high-frequency trading shop saying we will we weren't rent to something were selling
+
+159
+00:26:30,000 --> 00:26:40,000
+autoflower firm artist amount I don't know the exact amount but let's call it a penny ashir inside the pricing of the 3 years
+
+160
+00:26:40,000 --> 00:26:50,000
+25 cents at the online brokers recharging which still very very overtime for Robin Hood and then bingo 6
+
+161
+00:26:50,000 --> 00:27:00,000
+members later account holder Slater and a good at use your face we get into the purple worse were Arthur's dropped the rates as well
+
+162
+00:27:00,000 --> 00:27:10,000
+and so that I can do this interesting zero commission model Shore talks about what
+
+163
+00:27:10,000 --> 00:27:20,000
+the cost of an answer advice the 0 Watts because of everything else and the everything else model whether it's for
+
+164
+00:27:20,000 --> 00:27:30,000
+etrade whether it's for schwab Charles schwab or whether it's for Robin Hood as Victor said
+
+165
+00:27:30,000 --> 00:27:40,000
+everything else that might be in viable for you picking up payment for order flow with the third one on this list
+
+166
+00:27:40,000 --> 00:27:50,000
+margin interest maintenance fees transaction fees servicing once you have a client there is a lot of all the revenues that can be
+
+167
+00:27:50,000 --> 00:28:00,000
+Facebook how's your information there are other revenues the Facebook and gone but in the brokerage space this is very
+
+168
+00:28:00,000 --> 00:28:10,000
+this was now in the 1960s and 1970s when the lord investment Banks would think if I have a relationship with this big and sure
+
+169
+00:28:10,000 --> 00:28:20,000
+company I can earn money and either way it's what lead in pork in the early 1970s to break the old
+
+170
+00:28:20,000 --> 00:28:30,000
+decades-old fix commission rates because laurige investment Banks wanted to discount and lower the rates for large institutions not for the retail
+
+171
+00:28:30,000 --> 00:28:40,000
+florage institutions that was 50 years ago but that was also because all this revenue potential as the
+
+172
+00:28:40,000 --> 00:28:50,000
+graphics as beneath the surface questions if I can pass a little bit because it's about the business models
+
+173
+00:28:50,000 --> 00:29:00,000
+brokerage in the business models of investment banking a few seconds in 18 years
+
+174
+00:29:00,000 --> 00:29:10,000
+slake another era questions let's take a look and then have some question when it comes to trade
+
+175
+00:29:10,000 --> 00:29:20,000
+trading platforms thanks usually make money by holding deposits and daily basis because that's a brand new to The Firm
+
+176
+00:29:20,000 --> 00:29:30,000
+especially hard to do so in us when interest rate is new 0 but in emerging markets Korea China India
+
+177
+00:29:30,000 --> 00:29:40,000
+money and you can lend it out in the net interest margin or positive E-Trade or lavender
+
+178
+00:29:40,000 --> 00:29:50,000
+transfer the money from deposit to their account and takes to 3 degrees and then to make money out of here besides this hedge fund our Deals that you have
+
+179
+00:29:50,000 --> 00:30:00,000
+so great question so the classic Commercial Bank model is exactly what
+
+180
+00:30:00,000 --> 00:30:10,000
+department is a net interest rate between the deposit is money and what you learnt it out and whether you're a trillion-dollar bank for a hunt
+
+181
+00:30:10,000 --> 00:30:20,000
+NZ dollar Bank it's basically that spread between the deposit money and watch your learning out that model spin around 4 centuries and it looks
+
+182
+00:30:20,000 --> 00:30:30,000
+a little bit more challenging and different interest rate environments but that's been there the brokerage business traditionally was making money or commissions
+
+183
+00:30:30,000 --> 00:30:40,000
+commissions was a big part of that revenue model all the way through the 1960's and 70s but there's other pieces of it is well
+
+184
+00:30:40,000 --> 00:30:50,000
+go on just the commission of as we saw natural 25 cents a share a long ago or 3 or 5 cents a share more recently the Anna
+
+185
+00:30:50,000 --> 00:31:00,000
+when you buy and sell Securities you serious what's known as a bit after spread the difference between the bedside and where
+
+186
+00:31:00,000 --> 00:31:10,000
+is Africa and a market maker can be in the middle and provide liquidity to the market get paid for taking rest it's it's a restaurateur
+
+187
+00:31:10,000 --> 00:31:20,000
+first Luke is the bed after Sprite just being in the floor in Robin Hood scourge Robin Hood said we don't have the balance
+
+188
+00:31:20,000 --> 00:31:30,000
+we're not gonna pay for the bid ask Brad but we will enter into transactions with high-frequency trading shops and effectively
+
+189
+00:31:30,000 --> 00:31:40,000
+access to this of transactions and so that's payment for order flow and the high-frequency trading shops and restaurants
+
+190
+00:31:40,000 --> 00:31:50,000
+it's happened to that bit after spread so that's it that's a dominant part of it in addition just the name Warner that with the many others in it
+
+191
+00:31:50,000 --> 00:32:00,000
+Charles schwab in Arthur's Merrylands figure this out decades ago once you have that customer relationship that customer relationship will come to
+
+192
+00:32:00,000 --> 00:32:10,000
+other things in and they will come to you to do margin lending which is a form of borrowing and so you have maybe them that that cost
+
+193
+00:32:10,000 --> 00:32:20,000
+who you can actually use your balance sheet and lend them money usually with Court margin lending so I'm just mentioning two of them BTS
+
+194
+00:32:20,000 --> 00:32:30,000
+Robin Hood was not taking that themselves they were selling that access and then the relationship that you can have on using your balance sheet and lending
+
+195
+00:32:30,000 --> 00:32:40,000
+can you tell us a little bit about the kids back Cindy presentation what's that can you tell us a little bit about the chick packs in the
+
+196
+00:32:40,000 --> 00:32:50,000
+you have my words Jason wank of ultra ultra soft white in essence there's so many different
+
+197
+00:32:50,000 --> 00:33:00,000
+you might take a customers autoflower and and so access to that
+
+198
+00:33:00,000 --> 00:33:10,000
+you might be the front anmar you could be announcing Robin Hood of Strava doing this but you can be that front and model
+
+199
+00:33:10,000 --> 00:33:20,000
+somebody else will hey you hey the swamp a the Robin Hood and so I think we're Jason Wang Q wrote this is call you that a kickback
+
+200
+00:33:20,000 --> 00:33:30,000
+pizza I saw a contractual arrangement to be have access to that customer and Airport
+
+201
+00:33:30,000 --> 00:33:40,000
+that they're selling are there as well as Google is doing it is really important date it is really important for multiple reasons why
+
+202
+00:33:40,000 --> 00:33:50,000
+the better day do you have the better trading algorithms you can create so port of the payment for order flow is to capture a video spread part of
+
+203
+00:33:50,000 --> 00:34:00,000
+order flower is the dado so that you can build your algorithms you have more day before your machine learning absolutely there is also
+
+204
+00:34:00,000 --> 00:34:10,000
+other relevant data find a man weave a date is to be a better market maker in a better investor I didn't remain there was somebody else instead of
+
+205
+00:34:10,000 --> 00:34:20,000
+yes my question is about the bird ask margin and I'm just wondering
+
+206
+00:34:20,000 --> 00:34:30,000
+suppressant like like Robin Hood because he had many customers
+
+207
+00:34:30,000 --> 00:34:40,000
+it could get better deals and they could benefit from from from from the flow of customers are they have is this how they make money
+
+208
+00:34:40,000 --> 00:34:50,000
+what's so actually the weather made money is they were getting paid for that flow because their business model early warning and others like them now
+
+209
+00:34:50,000 --> 00:35:00,000
+I said we will go to the investing public and 0 commission and somebody else will
+
+210
+00:35:00,000 --> 00:35:10,000
+a fraction of a penny at this point time would be enough but a fraction of a penny that's other party would pay us
+
+211
+00:35:10,000 --> 00:35:20,000
+route those transactions to the stock exchanges company that does paper order flowers
+
+212
+00:35:20,000 --> 00:35:30,000
+hedge Vine high-frequency shop from Chicago card citadel which I don't know it's size what used to be about a 20 billion dollar hedge
+
+213
+00:35:30,000 --> 00:35:40,000
+asset management and very active in high-frequency trading it's very public letter desk
+
+214
+00:35:40,000 --> 00:35:50,000
+answer citadel is one of those vendors on the other side of the Robinhood app
+
+215
+00:35:50,000 --> 00:36:00,000
+with Luke they find the citadel out of the word of not just said it out they fine that that water flow is then valuable for them the Rowling
+
+216
+00:36:00,000 --> 00:36:10,000
+bed to the the stock exchange and that could still be worth something it would fit into the analytics then get better sophisticated machine learning on the and
+
+217
+00:36:10,000 --> 00:36:20,000
+get in that order flow is also something that can be very valuable to an operator of a dark market one of these
+
+218
+00:36:20,000 --> 00:36:30,000
+smile electronic market because your are competing at the 6th year 70 of these small dark markets the rock competing for Vibe
+
+219
+00:36:30,000 --> 00:36:40,000
+market share and then all the sudden Robin heard has not just a few 100000 customers with their 5 or 10 million customers then they
+
+220
+00:36:40,000 --> 00:36:50,000
+ride a lot of water flour and a lot of market coverage for somebody on the other side
+
+221
+00:36:50,000 --> 00:37:00,000
+and some of the earlier on my brokers they got into the business collecting assets under management they got into the asset under management
+
+222
+00:37:00,000 --> 00:37:10,000
+inside the business is well there's a lot of other revenue streams transaction fees account maintenance fees and even
+
+223
+00:37:10,000 --> 00:37:20,000
+fees and I think you'll see merging I want to move wine now to Wealth Management I think you'll see merging
+
+224
+00:37:20,000 --> 00:37:30,000
+between the wealth management fees and the brokerage fees which is exactly what we seen overtime and the
+
+225
+00:37:30,000 --> 00:37:40,000
+brokerage fee on the traditional Brickfield for decades a broker earn commissions and then they started by the late 1990s
+
+226
+00:37:40,000 --> 00:37:50,000
+with some support from the regulators to change the riveter model the traditional Merrill Lynch broker from the 1930's to the 1980s
+
+227
+00:37:50,000 --> 00:38:00,000
+commission based broker by the 1990's they started it advisory fees meaning for instance may be 1% of the asset
+
+228
+00:38:00,000 --> 00:38:10,000
+did you wrap with them and if you leave the million dollars if you're wealthy enough to have that million dollars that means their earning $10,000 a year of when you're
+
+229
+00:38:10,000 --> 00:38:20,000
+count if you obviously had more that would even be better for mirror lounge and worse for you because you'll be leaving them a lot of money to just
+
+230
+00:38:20,000 --> 00:38:30,000
+RBA qustodio for your account lordly and to give you advice from time to time and that's kind of the setup
+
+231
+00:38:30,000 --> 00:38:40,000
+the next discussion remain any questions so advisory
+
+232
+00:38:40,000 --> 00:38:50,000
+set this up I'm going to do the same sort of landscape we had the same groups retail brokers asset managers and the banks advisory work
+
+233
+00:38:50,000 --> 00:39:00,000
+which advisory was Lord Lee for many decades the Domain of investment banks and purple dealers Marilyn Smith born
+
+234
+00:39:00,000 --> 00:39:10,000
+many many companies and they were a commission based business by the 99 is a
+
+235
+00:39:10,000 --> 00:39:20,000
+East ordered to move to a financial advisory Commission number and I can't remember exactly what year
+
+236
+00:39:20,000 --> 00:39:30,000
+99 is even a Securities and exchange commission change some rows to facilitate some of that the big asset managers coming from the
+
+237
+00:39:30,000 --> 00:39:40,000
+the big asset managers managing pension money and managing big pools of money through mutual friends also started to get into the retail
+
+238
+00:39:40,000 --> 00:39:50,000
+space and thirdly you had the broker the swabs and sell for it now I put some names here like Charles schwab intelligent portfolio
+
+239
+00:39:50,000 --> 00:40:00,000
+more recent roll out that that branding and tells me portfolio is het America's ameritrade essential portfolio
+
+240
+00:40:00,000 --> 00:40:10,000
+more recent roll out for them and they didn't reacting to this crowd this this remarkable
+
+241
+00:40:10,000 --> 00:40:20,000
+mobile app robo-advisors and what better bent in this company spanner gloves
+
+242
+00:40:20,000 --> 00:40:30,000
+and your us in Asia but what better man or not Mag and others are doing is there saying
+
+243
+00:40:30,000 --> 00:40:40,000
+we can give more finished inclusion and we can do it in a better user interface and a lower cost structure by
+
+244
+00:40:40,000 --> 00:40:50,000
+Asset Management fees for an account in the traditional brokerage environment was hovering close to 1%
+
+245
+00:40:50,000 --> 00:41:00,000
+crashing some of it was coming down into the three quarters of a percent to 1%. That means again if you were fortunate enough to
+
+246
+00:41:00,000 --> 00:41:10,000
+let's just say that you had $500,000 and you were able to have somebody invest before you advise you
+
+247
+00:41:10,000 --> 00:41:20,000
+set a 500000 is 5000 and $400 a month that you were repairing essence for somebody to give you a casual advice
+
+248
+00:41:20,000 --> 00:41:30,000
+pasterian for Europe electronic security because everything was digital by this one time it was no longer those early or days where you at festivals
+
+249
+00:41:30,000 --> 00:41:40,000
+this group came alone so maybe we could do it at a different price point about a user interface may be better at election serviced
+
+250
+00:41:40,000 --> 00:41:50,000
+somewhere between 30 to 50 basis points recorded or hair for that same that same sort of 500000 if you were to have that 500
+
+251
+00:41:50,000 --> 00:42:00,000
+doesn't cost you $5,000 4000 year but it's costing maybe 1500 year 100 months now you don't get a bill for the
+
+252
+00:42:00,000 --> 00:42:10,000
+it just comes out in each month out of your account charged as a fee
+
+253
+00:42:10,000 --> 00:42:20,000
+but there's a there's generally a different price point we haven't got all the way that we went with online brokerage to mobile brokerage disease
+
+254
+00:42:20,000 --> 00:42:30,000
+accounts zero fees for one of the great precious that have happened here as well which is off this page is
+
+255
+00:42:30,000 --> 00:42:40,000
+Asset Management fees have been coming down as well and particularly around the product part exchange traded funds and to understand the field of robo-advisors
+
+256
+00:42:40,000 --> 00:42:50,000
+mention something about exchange traded funds which is an invention of the late 1990s that was a fintech of it's time that somebody
+
+257
+00:42:50,000 --> 00:43:00,000
+the idea I can have a mutual fund I can have a mutual fund that invest in the entire market and I can do it at a low
+
+258
+00:43:00,000 --> 00:43:10,000
+nak package it through a security so let me pack that the first Innovation was an innovation of the early 19th
+
+259
+00:43:10,000 --> 00:43:20,000
+Jack Bogle who was the key innovator behind Vanguard said would it be great if we gave America the time
+
+260
+00:43:20,000 --> 00:43:30,000
+they can address the whole stock market a little bit of each company and we're not gonna manage it for them we're just gonna algorithmically
+
+261
+00:43:30,000 --> 00:43:40,000
+nearest matically pick a little bit of every start and it was quite an index fight we taken for grout to but that was kind of animal Innovation or remarkable in
+
+262
+00:43:40,000 --> 00:43:50,000
+super 1970s everybody could I have a piece of the stock market at a low cost and to this day been bored is still not a publicly traded
+
+263
+00:43:50,000 --> 00:44:00,000
+traffic company it's a mutual company bandura's held and owned by its mutual forwards their hell known by
+
+264
+00:44:00,000 --> 00:44:10,000
+Dan Innovation and let's one integration of the 99 is it said what can we do to make this even more efficient what if we take a index
+
+265
+00:44:10,000 --> 00:44:20,000
+find and take the interest in the mutual funds and make their Securities take a little change and some regulations but all the sudden we had
+
+266
+00:44:20,000 --> 00:44:30,000
+exchange-traded fights is low-cost ways to participated in the stock market the bond market some in the golden
+
+267
+00:44:30,000 --> 00:44:40,000
+market exchange traded parts all of these robo-advisors in their sort of packaging have suicide week
+
+268
+00:44:40,000 --> 00:44:50,000
+we can get you into the rest and get you out of this into this market for out of this market and use exchange traded funds the second
+
+269
+00:44:50,000 --> 00:45:00,000
+patient for robo-advisors of course is everything we talked about out of artificial intelligence and natural language programming
+
+270
+00:45:00,000 --> 00:45:10,000
+the ability to take voice for today digital and transfer that into machine
+
+271
+00:45:10,000 --> 00:45:20,000
+computer language and and the river is so robo-advisors came along at a point in time where you put basically automate us
+
+272
+00:45:20,000 --> 00:45:30,000
+not entirely entirely but we could you know step back human step back and robo-advice goes in and you could do
+
+273
+00:45:30,000 --> 00:45:40,000
+lower price point in the third Innovation was basically some simple Analytics some simple Analytics night machine learning but supply
+
+274
+00:45:40,000 --> 00:45:50,000
+next one portfolio in asset allocation some of it's related to if you're in your 20s and you're saving for retirement you could take more risk
+
+275
+00:45:50,000 --> 00:46:00,000
+higher equity share vs Bond share if you're in your 60s and you're about to retire you should be more stable little less stress baby more boards
+
+276
+00:46:00,000 --> 00:46:10,000
+equities some events that simple but they were able to basically take that answer the betterment started and then
+
+277
+00:46:10,000 --> 00:46:20,000
+find really readily available software for asset allocation they could use products like
+
+278
+00:46:20,000 --> 00:46:30,000
+fines mobile phones were around already so they had a good platform and they should have say or it will go to a lower Freeport
+
+279
+00:46:30,000 --> 00:46:40,000
+and I was suddenly struck to see a real chance of sex questions
+
+280
+00:46:40,000 --> 00:46:50,000
+Robin Hood business model from George Robin Hood and other start of starting their own high-frequency trading operations instead of
+
+281
+00:46:50,000 --> 00:47:00,000
+water flows in Endeavour Nas whether movie citadel or any other H1 spirals
+
+282
+00:47:00,000 --> 00:47:10,000
+are really great questions about the future I think that in both ways will will be
+
+283
+00:47:10,000 --> 00:47:20,000
+Brian platform that's really innocence Robin Hood and even in this robot visor space the betterment of the world the front and you
+
+284
+00:47:20,000 --> 00:47:30,000
+bass player for the 10 not have balance sheets and they turn to let somebody else here and all that Capital Markets risk
+
+285
+00:47:30,000 --> 00:47:40,000
+find it but the question here is do I see the front and sort of building balance sheet and moving into the capital
+
+286
+00:47:40,000 --> 00:47:50,000
+and do I see the capital market said that the should have bouncy risk-taking moving into the front and side and we don't know when history tells us that tents
+
+287
+00:47:50,000 --> 00:48:00,000
+at some point that there is some sort of which my calls or vertical
+
+288
+00:48:00,000 --> 00:48:10,000
+and if you really think about these be slices on this page the JP Morgan building you invest in 28
+
+289
+00:48:10,000 --> 00:48:20,000
+mirror Edge in earlier time and if I go back to the Brook Bridge side there their name products there too that's balanci coupled with front and
+
+290
+00:48:20,000 --> 00:48:30,000
+that's that's the fully integrated model but then if you look at the asset managers the asset managers black rocks the world or not actually
+
+291
+00:48:30,000 --> 00:48:40,000
+acting as a principal the acting as an advisor pure advise your pure agency business say one of the things is you just want to say
+
+292
+00:48:40,000 --> 00:48:50,000
+agent or do you actually want to invest your capital in the market and that big business decision separate some of the asset managers
+
+293
+00:48:50,000 --> 00:49:00,000
+and Anna as you mentioned the high-frequency Traders I think that of Robin Hood is going to be bought it could be bought by high-frequency trading shop
+
+294
+00:49:00,000 --> 00:49:10,000
+sounds there there is will they still get is bigger customer base me 10 million customers or is
+
+295
+00:49:10,000 --> 00:49:20,000
+more viable for one of the Lord Banks to buy one of the Lord asset managers I think of you looked at 3 to 5 years is quite like
+
+296
+00:49:20,000 --> 00:49:30,000
+guess soup you know merge stuff into something as you so Morgan Stanley buying each raid as well
+
+297
+00:49:30,000 --> 00:49:40,000
+question
+
+298
+00:49:40,000 --> 00:49:50,000
+I wonder why are platforms such as acorns and better man that you were just talking about ID like I like a mixed
+
+299
+00:49:50,000 --> 00:50:00,000
+model diggers is in one way they are a robot visor business model but they have savings and checking account
+
+300
+00:50:00,000 --> 00:50:10,000
+step in a food like into a bank in model what was the reason to merge did the toothpaste isn't one because they have the front and customer relationship and
+
+301
+00:50:10,000 --> 00:50:20,000
+some trust and and that sort of helps that something up this is a tricorn uses just and it's got some
+
+302
+00:50:20,000 --> 00:50:30,000
+here we don't know if these predictions were hold but if you see the use of the robot visors it's just getting much more comfortable that folks are being and this this
+
+303
+00:50:30,000 --> 00:50:40,000
+Levi also includes the robo-advisors at the big shots as well as the store ups but just if you have that user-interface
+
+304
+00:50:40,000 --> 00:50:50,000
+remember we talked about Challenger Banks as well camilo the Challenger Banks last session a lot of it's about trust as well once you have that user and
+
+305
+00:50:50,000 --> 00:51:00,000
+is there a certain trust and frankly stickiness to it so betterment which is looking to become a Challenger Bank can use that customer
+
+306
+00:51:00,000 --> 00:51:10,000
+then you can build the platform and back to the The Economics of platforms The Economics of platforms is you later
+
+307
+00:51:10,000 --> 00:51:20,000
+tivities on top of a platform if you can grow your user base you get more data you get more centrality there's no
+
+308
+00:51:20,000 --> 00:51:30,000
+going to be 10 years from now advisory platforms in fact in the blue device your platforms I pick the ones that are bored
+
+309
+00:51:30,000 --> 00:51:40,000
+50 to 100 of the said I haven't left it so there is going to be consolidation as sure as we were here at this moment
+
+310
+00:51:40,000 --> 00:51:50,000
+consolidation in the space and so they're trying to build a classic platform economics build activities build user basis
+
+311
+00:51:50,000 --> 00:52:00,000
+nnn this is assets under management the same website behind
+
+312
+00:52:00,000 --> 00:52:10,000
+as of a few days ago just a sense of what are the assets this is in billions so in 2021 Point
+
+313
+00:52:10,000 --> 00:52:20,000
+Australian dollars of assets under management somehow associated with robo-advisor so even a quarter percent Fiona storks
+
+314
+00:52:20,000 --> 00:52:30,000
+real dragon in light of possible Evolution I still thinking about work at this go in the future I mean where did Vikings start
+
+315
+00:52:30,000 --> 00:52:40,000
+it's just an online questionnaire about asset allocation and an online questionnaire questionnaire about products
+
+316
+00:52:40,000 --> 00:52:50,000
+and rest risk and how and then usually a list of exchange traded funds some Barnes simple
+
+317
+00:52:50,000 --> 00:53:00,000
+very accessible running financial inclusion for a lower rates and it helps a lot of people lot of investors sleep well at night
+
+318
+00:53:00,000 --> 00:53:10,000
+where is there uncertainty I'm getting some good advice about asset allocation some rest some life of that but couldn't move forward
+
+319
+00:53:10,000 --> 00:53:20,000
+that's the question can move further and exactly like Camilla said and looks really a question about other revenues can robo-advisor
+
+320
+00:53:20,000 --> 00:53:30,000
+say well will actually be the fund manager will start to actually managed the funds rather than just doing his low-cost ETS and maybe we'll start
+
+321
+00:53:30,000 --> 00:53:40,000
+actually do something more with regard to risk based portfolio allocation maybe we'll start in the circle and do a little bit of algorithms
+
+322
+00:53:40,000 --> 00:53:50,000
+in fact we will start to do trading and the principal is rather than just an agent an advisor and a light
+
+323
+00:53:50,000 --> 00:54:00,000
+is going to be more sophisticated algorithmic AI or machine learning but I don't think it's going to be highly sophisticated machine learning
+
+324
+00:54:00,000 --> 00:54:10,000
+because there's suck a certain commoditization about the advice but it is quite possible as we move forward
+
+325
+00:54:10,000 --> 00:54:20,000
+somebody will figure out what risk I should take for somebody else Angelo thanks that you can take
+
+326
+00:54:20,000 --> 00:54:30,000
+are you learning in bed in even in index form you could have inside of an index fine what a n t talks
+
+327
+00:54:30,000 --> 00:54:40,000
+is called the Freak Out factor that we all have different risk profiles when the stock market goes out down how likely are we to
+
+328
+00:54:40,000 --> 00:54:50,000
+he says freak out and want to sell and that we could based upon other aspects of their lives should have put that into a machine learning
+
+329
+00:54:50,000 --> 00:55:00,000
+and have it automatically adjust up and down questions before I think I'm going to go to the Broadley
+
+330
+00:55:00,000 --> 00:55:10,000
+Capital Markets peace
+
+331
+00:55:10,000 --> 00:55:20,000
+I'm passing here for second but we should have covered the online brokerage robo-advisor there's two big pieces as captured by Robin Hood
+
+332
+00:55:20,000 --> 00:55:30,000
+it might be the two companies that are the lids of the park but they're not alone and then they're in the wealth management side
+
+333
+00:55:30,000 --> 00:55:40,000
+it's much more evenly split where is in the mobile side in their mobile appropriate side ramen what seemed to really
+
+334
+00:55:40,000 --> 00:55:50,000
+punched ID and done well from the chat from what kind of us regulation is
+
+335
+00:55:50,000 --> 00:56:00,000
+the likes of Robin Hood to expand globally or two tracks capital from abroad
+
+336
+00:56:00,000 --> 00:56:10,000
+is a highly regulated space in both the advisory sign the bridge side and Robin Hood would certainly need to be aware of that and red
+
+337
+00:56:10,000 --> 00:56:20,000
+appropriately as a broker dealer here in the US and and then the asset management side there is a little bit different regulator
+
+338
+00:56:20,000 --> 00:56:30,000
+awesome regulated here attracting capital overseas if the capitals just investing Robyn Hyde in one of their
+
+339
+00:56:30,000 --> 00:56:40,000
+venture rounds BCD rounds because private placements lordly speaking other than the
+
+340
+00:56:40,000 --> 00:56:50,000
+regulations around sanctions and anti money laundering a be straightforward if it's actually customers using the platform customers using the
+
+341
+00:56:50,000 --> 00:57:00,000
+then a ramen word would have to be aware of the regulations in that jurisdiction whether the regulations in Europe or in your home country look in Korea
+
+342
+00:57:00,000 --> 00:57:10,000
+there is customer-facing applications Robin Hood career would have to think do they register as a broker dealer in Korea Japan and
+
+343
+00:57:10,000 --> 00:57:20,000
+as they they are in fact just a mobile application for a traditional farm investment to appropriate for
+
+344
+00:57:20,000 --> 00:57:30,000
+so against heard of trying to capture Capital Markets is a vest
+
+345
+00:57:30,000 --> 00:57:40,000
+Harry of activities from accessing capital to trading platforms like in this this slide from Mackenzie just
+
+346
+00:57:40,000 --> 00:57:50,000
+choose an earlier stage where is fintech in each of these and I'm not going to go through each of these buckets port of why I have this is it's
+
+347
+00:57:50,000 --> 00:58:00,000
+many little buckets we talked about 2 on the retail side their crowdfunding platforms literally platforms that help
+
+348
+00:58:00,000 --> 00:58:10,000
+raise money there is trade execution and I'm going to talk about a couple in a minute decentralized trading platforms like an cryptocurrencies
+
+349
+00:58:10,000 --> 00:58:20,000
+how do I say centralise trading platforms in cryptocurrencies but even in the last few years of from port icx is a stored up in Tradex
+
+350
+00:58:20,000 --> 00:58:30,000
+it's a new trading platform there is post trade services is a lot of infrastructure and operations the Capital Markets
+
+351
+00:58:30,000 --> 00:58:40,000
+multi-trillion our business Global insurance so I'm just going to quickly should have touch a pun
+
+352
+00:58:40,000 --> 00:58:50,000
+and in these next couple of slides you can see I pick some like doesn't know so firms that we're just ones I kind of like to watch and fall out
+
+353
+00:58:50,000 --> 00:59:00,000
+take any questions about each of these butter or number of them in the Wealth Management space and one of the things in Wealth Management
+
+354
+00:59:00,000 --> 00:59:10,000
+betterment is facing the retail public but there are startups that are in the wealth management face facing furniture advisor
+
+355
+00:59:10,000 --> 00:59:20,000
+thousands of financial advisers better software in in a number of other saw actually
+
+356
+00:59:20,000 --> 00:59:30,000
+forms for the Phineas advice advise you that's trying to build a business wants software and access to
+
+357
+00:59:30,000 --> 00:59:40,000
+the Capital Markets interface between the two there is a boy in it
+
+358
+00:59:40,000 --> 00:59:50,000
+collateral management in Ipswich structure cloud moorigin literally collateral management
+
+359
+00:59:50,000 --> 01:00:00,000
+you're moving on derivatives in the institutional market for collateral that you're moving even as it relates to the lounge and
+
+360
+01:00:00,000 --> 01:00:10,000
+can I store a platform that might be a little better for collateral management and take some of the Back Office cost out of it to be outdone you could have did
+
+361
+01:00:10,000 --> 01:00:20,000
+encumbrance as well as equity progress what we were talking about the stock market and this company called elephant I mention
+
+362
+01:00:20,000 --> 01:00:30,000
+Jack stored in 2012 it's to be a competitive stock market Anasta at New York Stock Exchange started by a bunch of
+
+363
+01:00:30,000 --> 01:00:40,000
+by side institutions for instance and sometimes it's just research
+
+364
+01:00:40,000 --> 01:00:50,000
+put together a remarkable database on the financial business of venture capital Branson's
+
+365
+01:00:50,000 --> 01:01:00,000
+different spaces back to sort of thinking about the different aspects of Capital Markets crowdfunding platform
+
+366
+01:01:00,000 --> 01:01:10,000
+trade execution post trade side of it I don't do this to be like a full course on Capital Markets but it's still open your server
+
+367
+01:01:10,000 --> 01:01:20,000
+I thinking too it's not just the retail in her face it's not just using a mobile phone good day good use
+
+368
+01:01:20,000 --> 01:01:30,000
+3 and lower cost and that's really the Robin Hood betterment side it's also a lot of taking the paper flows out of it all
+
+369
+01:01:30,000 --> 01:01:40,000
+process is out of the back office and trying to should have provide a service to the Capital Markets in a better way
+
+370
+01:01:40,000 --> 01:01:50,000
+Romania to anyone has a question on this topic
+
+371
+01:01:50,000 --> 01:02:00,000
+no I think we're just closed out cryptomarkets a bit and some of you take the Crypt of Finance course
+
+372
+01:02:00,000 --> 01:02:10,000
+a little bit repetitive just wondering that's interesting is this crypto market came or is there a question here
+
+373
+01:02:10,000 --> 01:02:20,000
+Luke has his hand raised
+
+374
+01:02:20,000 --> 01:02:30,000
+crypto market came alarm about a dozen years ago in by an early stage of these markets somebody said
+
+375
+01:02:30,000 --> 01:02:40,000
+can you buy and sell Bitcoin any created exchange is a new form of it's not 44
+
+376
+01:02:40,000 --> 01:02:50,000
+currency for cryptocurrencies and these exchanges act as agents matching buyers and sellers like traditional changes
+
+377
+01:02:50,000 --> 01:03:00,000
+but they also act as market makers we talked to her about capturing btspread these exchanges could also buy and sell from customers
+
+378
+01:03:00,000 --> 01:03:10,000
+all of them do but they could traditional exchanges tonight and they also acted as a custody and how is your farts and even to this day if you trade on
+
+379
+01:03:10,000 --> 01:03:20,000
+show exchange you're moving your asset through the use of what's called a private key but you're moving your asset
+
+380
+01:03:20,000 --> 01:03:30,000
+crypto exchange and there are the custody of The Custodian the public has Direct Access and this is a very different
+
+381
+01:03:30,000 --> 01:03:40,000
+traditional exchanges in the question will be will this come to traditional markets and that's why I wanted to focus on this minute in tradition
+
+382
+01:03:40,000 --> 01:03:50,000
+markets built a pine a business model that it's multiple centuries-old you and I or not members directly of the New York Stock Exchange we have to go
+
+383
+01:03:50,000 --> 01:04:00,000
+somebody to get to the New York Scottish it's got a broker it's got a member of the New York Stock Exchange of the London stock exchange of the Shanghai stock exchange
+
+384
+01:04:00,000 --> 01:04:10,000
+markets in his cryptomarkets everybody can access directly the markets the markets actually interestingly have to have a much more
+
+385
+01:04:10,000 --> 01:04:20,000
+API for the retail public the New York Stock Exchange in line it's such a change to have a robot
+
+386
+01:04:20,000 --> 01:04:30,000
+application program interface for institutions and it has to be very high volume very resilient but it could be limited to
+
+387
+01:04:30,000 --> 01:04:40,000
+hundreds are at most a couple thousands of users even if the Biomes are high these exchanges have to be open to millions
+
+388
+01:04:40,000 --> 01:04:50,000
+more from their home laptops in Melbourne farms a very different architecture where is disintermediated the broker-dealers and the question
+
+389
+01:04:50,000 --> 01:05:00,000
+which is on the ansible right now will this be something moving for will we see a direct Access model it any
+
+390
+01:05:00,000 --> 01:05:10,000
+around the cloud where will we stay in the intermediated access is a lot of regulatory reasons weed stay in the animated access for some competitive reasons brokers
+
+391
+01:05:10,000 --> 01:05:20,000
+want to have frogs going directly by the technology
+
+392
+01:05:20,000 --> 01:05:30,000
+sell these markets by the way are not well regulated and there are rife with fraud and scams and manipulation so I just want to mention
+
+393
+01:05:30,000 --> 01:05:40,000
+see if you hear it's an additional looks so maybe we should fast and still
+
+394
+01:05:40,000 --> 01:05:50,000
+so what do you think would happen if the big bang started holding more crypto in their balance sheets right if they
+
+395
+01:05:50,000 --> 01:06:00,000
+what age for example on operations regulation with this as well and therefore living Proprietary trading or do you think you'll be different
+
+396
+01:06:00,000 --> 01:06:10,000
+a lot of questions in there the lord Banks around the globe today have not been active in the ASIC
+
+397
+01:06:10,000 --> 01:06:20,000
+Claus is about 225 billion dollars as of this morning which is smaller the worldwide Capital Markets are between 3
+
+398
+01:06:20,000 --> 01:06:30,000
+100 trillion when you add equities and blinds worldwide and in comparison
+
+399
+01:06:30,000 --> 01:06:40,000
+Victoria reasons and for customer registration to large Banks haven't really can't yes it would be just
+
+400
+01:06:40,000 --> 01:06:50,000
+any other asset they have any commodity you hold Bitcoin you might think if you're joking Morgan I'm now holding it
+
+401
+01:06:50,000 --> 01:07:00,000
+Barclays bank I'm now I'm holding it what regulations if it's Bitcoin it would be very similar to the regulations around holding gold or silver maybe
+
+402
+01:07:00,000 --> 01:07:10,000
+silver futures are four contracts holding gold silver and to the extent that there was a
+
+403
+01:07:10,000 --> 01:07:20,000
+Frank if there are any rules and regulations that have died Frank that would generally ask for the trading accounts it would be a fake order these trading account
+
+404
+01:07:20,000 --> 01:07:30,000
+big challenge for big institutions as custody custody has been a challenge and was interesting as fidelity
+
+405
+01:07:30,000 --> 01:07:40,000
+SAS manage the world started something for fidelity digital asset holding I believe that's the name were there you're providing a custody Sully
+
+406
+01:07:40,000 --> 01:07:50,000
+coinbase which is a lord crypto exchange has a custody solution the order the New York Stock Exchange in a continent or exchange started back
+
+407
+01:07:50,000 --> 01:08:00,000
+the 882 Baptist trading crypto markets but also providing a custody solution and why I'm focusing on Costa de
+
+408
+01:08:00,000 --> 01:08:10,000
+one of the challenges in this small asset class is how to hold the digital asset in the traditional markets in the tradition
+
+409
+01:08:10,000 --> 01:08:20,000
+there are centralised organisation's that operators clearinghouse
+
+410
+01:08:20,000 --> 01:08:30,000
+always the odds with digital custody in the US it's got dtcc and other countries different names but how do you
+
+411
+01:08:30,000 --> 01:08:40,000
+in essence the cryptocurrency is installing and these crypto exchanges have had lots of stolen
+
+412
+01:08:40,000 --> 01:08:50,000
+cryptocurrency cos why aren't you still with god the private key that affected me the password you have the digital asset
+
+413
+01:08:50,000 --> 01:09:00,000
+is Luke's question cryptocurrency in cryptocurrency class which I don't have the luxury of taking
+
+414
+01:09:00,000 --> 01:09:10,000
+we have the app to check next semester for next year then is it because of the security
+
+415
+01:09:10,000 --> 01:09:20,000
+implement customers the option to buy us equity with bitcoin overseas because they would allow them to jump over
+
+416
+01:09:20,000 --> 01:09:30,000
+Nations regulations Chinese customer is all cream customers who wants to invest in
+
+417
+01:09:30,000 --> 01:09:40,000
+briefly I think the regulation for anyone platform my Robinhood around cryptocurrencies is a bit
+
+418
+01:09:40,000 --> 01:09:50,000
+has a manager restrictions in manager restrictions we have not got the place where you can fill half that we have Robos
+
+419
+01:09:50,000 --> 01:10:00,000
+investor protection regime on cryptocurrency and in fact in most jurisdictions it's pretty shaky it's pretty still
+
+420
+01:10:00,000 --> 01:10:10,000
+undeveloped I'm talking about investor protection so ROM Android may have made a choice if you're going to trade you in a trade
+
+421
+01:10:10,000 --> 01:10:20,000
+currency vs buying and selling stocks and that would be an appropriate business decision that they made until there is a more
+
+422
+01:10:20,000 --> 01:10:30,000
+a robust and satisfactory both investor protection and also according against the list of activity
+
+423
+01:10:30,000 --> 01:10:40,000
+cryptocurrency stored in emanated out of a little bit of an off the grid sofa Punk movement and I use the word
+
+424
+01:10:40,000 --> 01:10:50,000
+Cyberpunk with a mailing less that satoshi nakamoto uploaded that 8 page paper and 12 years ago and
+
+425
+01:10:50,000 --> 01:11:00,000
+you can track Bitcoin transaction a lot of use of bitcoin in other cryptocurrencies has been to avoid the censorship
+
+426
+01:11:00,000 --> 01:11:10,000
+the watchful eyes of the official sachar and so I would imagine I'm not I'm not talk to Robin work that they would be aware of that and they were just
+
+427
+01:11:10,000 --> 01:11:20,000
+as per the legal matter in his for reputational reasons that are not to go there in unless there is a more robust
+
+428
+01:11:30,000 --> 01:11:40,000
+yeah I should have 2 questions on Wealth Management Centre so the first question what do you think more important for a walk management centre to grow
+
+429
+01:11:40,000 --> 01:11:50,000
+the intrusion part meaning like a low minimum deposit or the user experience part that is for the first question and for the second question given the
+
+430
+01:11:50,000 --> 01:12:00,000
+broadcast management picture like well front do you think now customers priva a simple product more complex product
+
+431
+01:12:00,000 --> 01:12:10,000
+I'm not sure but I think that the better mentioned in the robot visors I can't separate the two when you're saying
+
+432
+01:12:10,000 --> 01:12:20,000
+more about user interfaces at more about pricing maybe somebody better than I think it's about but I really do think
+
+433
+01:12:20,000 --> 01:12:30,000
+I think that they have provided a lower price point which is really important but if it were only that
+
+434
+01:12:30,000 --> 01:12:40,000
+if somebody has just put out an advertisement I'm going to give you wealth advice for a quarter of a pint I don't think you could have got an adoption I think you had to
+
+435
+01:12:40,000 --> 01:12:50,000
+that user an update and I think the two of them together are really important so it's not just doing something cheaper
+
+436
+01:12:50,000 --> 01:13:00,000
+because a lot of people could say listen I'll give you wealth advice for porter replying I think the user experience these are very proud
+
+437
+01:13:00,000 --> 01:13:10,000
+sometimes it's just frankly a little easier it's interesting to just can't go to a drop down menu answer some questions feel that I'm getting the advice
+
+438
+01:13:10,000 --> 01:13:20,000
+yoghurt I'm yes getting low cost ET apps and low-cost advisory fees but I think the user experience goes hand in hand at I can't usually separate
+
+439
+01:13:20,000 --> 01:13:30,000
+let me just try to wrap up in in then and then ID remind me the second heavier question as I wrap up cos I want to make it we only ever
+
+440
+01:13:30,000 --> 01:13:40,000
+I want to just make a point behind this crypto exchanges there's a bunch of crypto landing in borrowing and why I raise this is this more
+
+441
+01:13:40,000 --> 01:13:50,000
+just like the capital market is starting to say can I rent crypto can I borrow crypto and why would you do that same reason in the car
+
+442
+01:13:50,000 --> 01:14:00,000
+land and borrow stock sometimes cause you want to buy the stocks on Moreton or sometimes you learnt it because you need to borrow against your assets to do
+
+443
+01:14:00,000 --> 01:14:10,000
+so these markets are developing that way but the thing that I wanted to mention was this question of decentralised pronounce V
+
+444
+01:14:10,000 --> 01:14:20,000
+centralise traditional this is a slide that I should have created in last 8 mine's has
+
+445
+01:14:20,000 --> 01:14:30,000
+hi Terry software Central clearing all the attributes that I list here the question is is there a market just like we talked about in landing for
+
+446
+01:14:30,000 --> 01:14:40,000
+Europe year decentralised for Nas and what we found in lending Club another company's it really haven't stayed decentralized
+
+447
+01:14:40,000 --> 01:14:50,000
+already with this concept that will be peers learning to peers and then what we found is there become more Marketplace platforms and platform economics
+
+448
+01:14:50,000 --> 01:15:00,000
+but there is business question can you be an open source software built on blockchain technology that truly peer-to-peer and you will
+
+449
+01:15:00,000 --> 01:15:10,000
+time and again is a business concept that I just want to prepare you for decentralized finance vs traditional
+
+450
+01:15:10,000 --> 01:15:20,000
+usually used in the context of blockchain Technology and The Advocate seguaci technology facilitates we can get rid
+
+451
+01:15:20,000 --> 01:15:30,000
+bags that is what they might say that's what's the Tertiary nakamoto Road in some of the Rowley emails and and so forth that we
+
+452
+01:15:30,000 --> 01:15:40,000
+disintermediation both banks and central Banks around cryptocurrency and the light that's the that's the dream but the question is
+
+453
+01:15:40,000 --> 01:15:50,000
+network economics where there's a reason and Capital Markets symphoniacs that you have heard of a hub and spoke approach rather than a decentralized approach when I say
+
+454
+01:15:50,000 --> 01:16:00,000
+spell the New York stock exchange rate one in stock exchanges in search of in the middle of the market that the bag Spectra Luca earlier question is sitting there collect
+
+455
+01:16:00,000 --> 01:16:10,000
+a net interest margin and why lendingclub is moved into a marketplace platform rather than that cute of here and said this debate
+
+456
+01:16:10,000 --> 01:16:20,000
+business concept is a relatively important wine in it in it basically goes well beyond cryptocurrencies and I wanted to mention it but in crypt
+
+457
+01:16:20,000 --> 01:16:30,000
+current season this is my last little bit is that there or defy platforms decentralised forneus will you can Pier Pier
+
+458
+01:16:30,000 --> 01:16:40,000
+use a crypto exchange by nearside xu2 swap others basically say we're not going to have a Central exchange or
+
+459
+01:16:40,000 --> 01:16:50,000
+technically a Central limit order book and I could trade and later nautical trade with Luke with somebody else but it's not
+
+460
+01:16:50,000 --> 01:17:00,000
+and similarly there is platforms maker down compound and since the next for the three big ones that are trying to do that on crypto lending and
+
+461
+01:17:00,000 --> 01:17:10,000
+there's even prediction marking markets that are trying to say Nadia can trade with Luke and make a bat
+
+462
+01:17:10,000 --> 01:17:20,000
+Victoria environment for this prediction markets is highly challenged and they might be doing things that are not strictly within the
+
+463
+01:17:20,000 --> 01:17:30,000
+what is decentralised markets are very small none of these projects are really big butts
+
+464
+01:17:30,000 --> 01:17:40,000
+projects have a few billion dollars in their crypto landing in borrowing some of these exchanges have a few $100,000 a day of trading the not big four
+
+465
+01:17:40,000 --> 01:17:50,000
+it raises this Central question of traditional Phineas v decentralized now I just wanted to capture that before we signed off
+
+466
+01:17:50,000 --> 01:18:00,000
+today
+

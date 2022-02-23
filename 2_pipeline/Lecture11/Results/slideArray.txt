@@ -1,0 +1,440 @@
+FinTech:
+Shaping the Financial World
+
+April 29, 2020
+ENDELEMENTClass 9: Overview
+
+¢ Online Brokerage
+
+¢ Robinhood & Zero Commission Trading
+¢ Robo Advisors
+
+¢ Capital Markets FinTech Startups
+
+¢ Crypto Exchanges, Lending & Decentralized Finance
+ENDELEMENTClass 9: Readings
+
+* 'How Robinhood Changed an Industry' John Divine, US News
+¢ 'Charles Schwab and the New Broker Wars’ Daren Fonda, Bloomberg
+
+* 'Robo-Advisors: Product vs. Platform' Henry O’Brien, The Startup
+ENDELEMENTClass 9: Study Questions
+
+* How did online brokers emerge during an earlier stage of FinTech
+development? How were Robinhood and this era’s FinTech startups able
+to further disrupt the brokerage world?
+
+* How are Robo Advisors transforming the provision of retail asset
+management services? How has Big Finance - incumbent asset
+managers and banks - reacted?
+
+¢ What are FinTech trends and applications affecting trading, asset
+management & capital market infrastructure?
+ENDELEMENTOnline Brokerage Company Landscape
+
+* Retail Brokers: Charles Schwab / TD Ameritrade (1971) — 12M each,
+E*TRADE (1982) — 5.2M, Firstrade (1985), Interactive Brokers (1978) —
+0.8M, LBMZ Zacks Trade (1978), Monex TradeStation (1999 / 1982)
+
+¢ Asset Managers: Fidelity (1946), Vanguard (1975)
+
+* Banks: JP Morgan You Invest (1871 / 2018), Merrill Edge (1914 / 2010),
+Ally Invest (1919 / 2016) 4M
+
+¢ FinTech Startups: Freetrade (2016), Public (2017), Robinhood (2013) -
+10M, Stash (2015) — 3.5M, Tastyworks (2017), Upstox (2012), Webull
+(2017)
+ENDELEMENTMobile Trading — App Comparison
+
+ee E*TRADE TD Ameritrade Fidelity Gaia
+Open Account Open Account Open Account Oparntkccourt
+
+iPhone App ol wv ww Vw
+Android App Ww Ww Ww Ww
+Apple Watch App ww ww a wv
+Trading - Stocks ~~ Vw a Vw
+Trading - After-Hours ~~ w il wv
+Trading - Conditional it i x< Vv
+Orders
+
+Trading - Mutual Funds ae ~x< Vw Vw
+Trading - Simple Options ~~ ww ae fl
+Trading - Complex Options a a ww Vw
+Trading - Option Rolling x< we x< x<
+Touch / Face ID - ~ ~ w
+
+Reink Media Group LLC. All rights reserved. This content is excluded from our Creative 6
+
+Commons license. For more information, see https://ocw.mit.edu/help/faq-fair-use/
+
+Source: ‘Best Stock Trading Apps for 2020’, Brian Reinkensmeyer, StockBrokers. com (April 17, 2020)
+ENDELEMENTOnline Brokerage Recent Developments
+
+Commission Free Brokerage Rates — October 2019:
+
+¢ IBKR Lite, Charles Schwab, E*Trade, TD Ameritrade, Ally,
+Fidelity
+
+Incumbent 2019 / 2020 Megadeals:
+* Charles Schwab - TD Ameritrade: $26B
+¢ Morgan Stanley — E*Trade: $13B
+
+Sources: Individual public announcements by Acquiring Companies
+ENDELEMENTCommission Rates Long Decline
+
+NYSE Trading Volume and Commision Rate
+
+ 
+
+ 
+
+ 
+
+ 
+
+120,000
+--~—~® - -Share Volume
+—_*——- Commission Rate
+100.000
+Pa S0_000
+=
+wn
+= 60,000
+Ss
+40,000
+20,000
+o
+SOS SSE SEE SE OSES SS SSE SOF SF OS SE
+
+Quarter
+
+Source: “Commission Costs, lliquidity and Stock Returns”, August 2006, Jinliang Li, Robert Mooradian,
+W. David Zhang Deutsche Bank
+
+ 
+
+Source: ‘Back In The Day, Brokers Got Away With Murder In Trading Commissions’, Rob Wile, Business Insider (March 31, 2014)
+
+8
+CFA Institute. All rights reserved. This content is excluded from our Creative Commons license. For more information, see https://ocw.mit.edu/help/faq-fair-use/
+ENDELEMENTZero Commission Revenue Models
+
+The cost of financial advice What this means for you
+
+Commissions The little it actually helps
+
+Everything else
+
+Margin inter
+
+Maintenanc ice rakichr racice soul
+saction fees could be saving
+
+Account closure
+
+Credit spread
+
+9
+Courtesy of Altruist. Used with permission. Source: ‘The real story behind commission free trading’, Jason Wenk, Altruist (October 16, 2019)
+
+ 
+ENDELEMENTRobo Advisors Company Landscape
+
+¢ Retail Brokers: Charles Schwab Intelligent Portfolios (1971), E*TRADE
+Adaptive Portfolio (1982), TD Ameritrade Essential Portfolios (1971)
+
+* Asset Managers: BlackRock FutureAdvisor (1988 / 2000), Fidelity Go
+(1946), Vanguard Digital Advisor (1975), Zacks Advantage (1978)
+
+* Banks: JP Morgan You Invest (1871 / 2018), Merrill Edge (1914 / 2010),
+Ally Invest (1919 / 2016)
+
+¢ Advisory Platforms: Acorns (2014), Betterment (2008), Blooom (2013),
+Ellevest (2014), Groww (2013), M1 Finance (2015), Motif (2012),
+Nutmeg (2012), Personal Capital (2009), SigFig (2006), SoFi (2011),
+Tastyworks, Wealthfront (2008), Wealthsimple (2014)
+ENDELEMENTNumber of users in the robo-advisors segment, in millions
+
+160
+140 .@
+
+120 <a
+
+100 a
+80 | i
+
+60 —wec
+40 om
+a
+20 eo
+0 _—
+2017 2018 2019 2020 2021 2022 2023
+
+Source: ‘Robo-advisor Industry to hit $1.4trn This Year’ Jastra llic, LearnBonds (April 15, 2020)
+
+"1
+© LearnBonds. All rights reserved. This content is excluded from our Creative Commons license. For more information, see https://ocw.mit.edu/help/faq-fair-use/
+ENDELEMENTAssets under management in the robo-advisors segment,
+in billion U.S. dollars
+
+ 
+
+2017 2018 2019 2020 2021 2022 2023
+
+Source: ‘Robo-advisor Industry to hit $1.4trn This Year’ Jastra llic, LearnBonds (April 15, 2020)
+12
+
+LearnBonds. All rights reserved. This content is excluded from our Creative Commons license. For more information, see https://ocw.mit.edu/help/faq-fair-use/
+ENDELEMENTRobo Advisory Possible Evolution
+| Rove mena a —"mad
+
+Algorithm
+based
+adjustments & (+)
+rebalancing
+felge) elost- 1b
+
+Pre-defined
+investment
+
+   
+
+   
+
+Fully-
+automated
+investments
+
+Self-learning
+
+rule-sets algorithms
+
+PeNS) colaat-l ales
+asset shifts
+
+Source: Research Nester
+Source: ‘Introduction to Robo Advisor’, Research Nester (December 30, 2019)
+
+13
+Taylor & Francis. All rights reserved. This content is excluded from our Creative Commons license. For more information, see
+ENDELEMENTCapital Markets Fintech
+
+ 
+
+y-Nolet-1-1- mi coMer-|e)ic-|| mM ie-le(-m-> <-leitiaielal Post-trade services
+Crowdfunding platforms Decentralized trading Distributed ledger
+Start-up exchange marketplaces technology-based
+venues Online auction-based clearing and settlement
+Bond issuance platforms ™arketplaces Surveillance and
+for start-ups and SMEs Cryptocurrency analytics software
+Private listing platforms exchanges Automated trade
+for SMEs reconstruction
+Initial coin offering Regulatory compliance
+platforms solutions (e.g., AML,
+
+KYC, compliance risk)
+
+ 
+   
+ 
+
+Poyer-le-ii(olal-m-lalem c-Lolalale)lofey 4
+
+Open source technology for digital assets issuance
+End-to-end trading technology
+
+ 
+ 
+    
+ 
+
+  
+
+Data, analytics, and
+information services
+
+Algorithmic and quant
+trading solutions
+
+Artificial
+intelligence-powered
+financial predictions
+Real-time market data
+platforms
+
+Nontraditional data
+aggregation and
+analytics platforms
+
+End-to-end OTC trade confirmations solutions through full process automation
+Robotics and natural-language processing technologies driving operations efficiency
+
+Cloud computing
+
+© McKinsey & Company. All rights reserved. This content is excluded from our Creative Commons license. For'4
+
+Source: McKinsey Panorama Fintech database more information, see https://ocw.mit.edu/help/faq-fair-use/
+ENDELEMENTCapital Markets FinTech Startups
+
+¢ Addepar (2009) — Wealth Management Platform for Financial Advisors
+* Capitolis (2017) — Equities & FX Infrastructure
+
+* Carta (2012) — Ownership Management Platform
+
+* Cloud9 (2013) — Digitizing Voice Trading
+
+* CloudMargin (2014) — Collateral Management
+
+* Elefant (2018) — Digital Fixed Income Broker
+
+¢ iCapital Network (2013) — Alternative Investment Platoform for
+Financial Advisors
+ENDELEMENTCapital Markets FinTech Startups
+
+¢ IEX (2012) — Stock Exchange
+
+* Kantox (2011) — Institutional FX Trading
+
+* Pitchbook (2007) — Private Capital Market Research
+* Q4 (2006) — Investment Research
+
+* Trumid (2014) — Bond Trading & Data Platform
+
+* TruValue Labs (2013) — Analytics on ESG Investing
+ENDELEMENTCrypto Exchanges
+
+Act as agents (matching buyers & sellers) -- Traditional exchanges do as well
+
+Act as market makers (buying & selling from customers) -- Traditional exchanges don’t
+
+Hold customer funds in Custody -- Traditional exchanges don’t
+
+Public has direct access -- Traditional exchanges must go through a broker
+
+Lend money to customers for margin trading -- Securities markets use brokers or banks
+Crypto fees wide vs. Traditional markets
+
+Crypto Market Largely traded on Crypto only platforms — lacking direct fiat capabilities
+
+Not regulated for market integrity rules, rife with fake volumes and manipulation
+
+List tokens for fees similar to equity markets but different than currency markets
+ENDELEMENT‘Top Tier’ Trading Volumes
+
+Crypto Exchanges
+
+Historical Monthly Top Tier Exchange Volume
+
+300
+
+So ~~]
+w So
+N N
+
+EEE 0202-2"
+WN 0202-025
+WM ozoz-ver
+
+| 6102-2
+
+HEME 6102-A0n
+
+[HE 6102-0
+HM 6L0z-des
+[EE 6102-5
+
+1 HE coer
+Vl MENGE 8102“
+MN 6102-14v
+| 6tozsew
+
+ME 6102-93
+
+WE 610z-ver
+
+[EH 81022
+
+PEE 8102-10n
+
+WEE 8102-0
+
+(EH 810z-des
+(ER 81 0z-5-v
+(EM 8102-1"
+(EE 21 0z-4rr
+VE 102-e7
+Wl EE 8102-14v
+Hi EE 2102220
+HO ME 8107:
+
+gLoz-uer
+LL02-28q
+LL02-AON
+LL02-320
+LL02-das
+| 2t0z-6ny
+LL02-1N¢
+
+MBinance MOKEX
+
+0
+
+oS
+wn
+
+150
+100
+
+(Asn suotig) awnjo, Ay UOW)
+
+@kraken MBitstamp Gemini
+Source: ‘Exchange Review March 2020’, CryptoCompare (4/20)
+
+Bi Bitfinex
+
+Coinbase
+
+Image by CryptoCompare. Used with permission .
+ENDELEMENTCrypto Lending and Borrow
+
+¢ Lending Crypto or Fiat collateralized by Crypto
+
+¢ BlockFi, Celsius, CoinLoan, Crypto.com, ETHLend,
+Genesis Capital, Nexo, Salt
+ENDELEMENTTraditional Finance vs. Decentralized Finance
+
+Proprietary software Open source
+
+(or-Talue-) ell-t-]al are) Blockchain
+Haincidaatcrelt-la(os Peer-to-peer / web
+Trust in institutions Trust in technology
+Censoreable Censorship resistant
+X=} da alissilelal=xe} Permissionless
+“Separate castles” Composable, modular
+Limited transparency Transparent
+Registered instruments Bearer instruments
+
+Credit-based assets Commodity-based assets
+
+ 
+ENDELEMENTCrypto ‘DeFi’ Platforms
+
+¢ Exchanges
+* Binance, IDEX, Uniswap
+
+¢ Crypto Lending & Borrow
+¢Compound, Dharma, InstaDapp, Maker, Nuo, REX,
+Synthetix
+
+¢ Prediction Markets
+e Augur, Hedge Trade
+ENDELEMENTMIT OpenCourseWare
+https://ocw.mit.edu/
+
+15.S08 FinTech: Shaping the Financial World
+Spring 2020
+
+For information about citing these materials or our Terms of Use, visit: https://ocw.mit.edu/terms.
+
+22
+ENDELEMENT

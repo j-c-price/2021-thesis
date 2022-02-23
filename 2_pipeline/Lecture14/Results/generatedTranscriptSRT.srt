@@ -1,0 +1,1964 @@
+1
+00:00:10,000 --> 00:00:20,000
+welcome back to finntack shaping the financial world this is our last time together
+
+2
+00:00:20,000 --> 00:00:30,000
+and so we're going to try to summarise up what the semesters been and some thoughts going for it is all of you go forth
+
+3
+00:00:30,000 --> 00:00:40,000
+and try to think about this intersection of Technology and finance and again we've we've ordered from that point of view
+
+4
+00:00:40,000 --> 00:00:50,000
+startups but how technology in finance come together in the world of finance and it's been shaping it really four centuries but the Darwin
+
+5
+00:00:50,000 --> 00:01:00,000
+so we've been talking about is the new technologies that in the last 5 to 15 years of relevant transfer forming binance
+
+6
+00:01:00,000 --> 00:01:10,000
+artificial intelligence and machine learning natural language processing having traumatic changes but also open API
+
+7
+00:01:10,000 --> 00:01:20,000
+the access to data through technological connections sometimes done by karma sometimes there
+
+8
+00:01:20,000 --> 00:01:30,000
+Factor instead of moved and pressed against it and then of course data and all the different forms of alternative datasource
+
+9
+00:01:30,000 --> 00:01:40,000
+just traditional means like whether we pay our rent on time so from social media and then we looked it in short text that I know really live
+
+10
+00:01:40,000 --> 00:01:50,000
+clear this look at insurance and find out but they're also telematics meaning of all the date of it
+
+11
+00:01:50,000 --> 00:02:00,000
+rings on it so whereabouts we wear a Fitbit error for water something for the Internet of things and then we talked about some
+
+12
+00:02:00,000 --> 00:02:10,000
+how much is that haven't yet come into the technology stack with blockchain technology and will it it's already been a Catalyst for change but will it should have come in and
+
+13
+00:02:10,000 --> 00:02:20,000
+change pronounce normally if we can report of the community and have our videos or one
+
+14
+00:02:20,000 --> 00:02:30,000
+I'm worth it all off I know that 12 lashes and it's early morning but I think if we can just try take clothes out together with their V
+
+15
+00:02:30,000 --> 00:02:40,000
+and if you have questions raising the little blue blue hands for going into the chat room and romance going to take her clothes
+
+16
+00:02:40,000 --> 00:02:50,000
+try to have a dialogue here I do have some slides to put up I'm still the same Faculty member of the other 11 classes
+
+17
+00:02:50,000 --> 00:03:00,000
+Harrison slides and Torchic
+
+18
+00:03:00,000 --> 00:03:10,000
+so we're going to shock a little bit about this technology
+
+19
+00:03:10,000 --> 00:03:20,000
+and how I see these technologies fit again the actors again and then a review of the key key
+
+20
+00:03:20,000 --> 00:03:30,000
+machine learning open API credit scoring alternative date and the question marks around watching technology and then a quick sort of sector review
+
+21
+00:03:30,000 --> 00:03:40,000
+bringing those are together and wrapping it up the study questions was really about what is Santa
+
+22
+00:03:40,000 --> 00:03:50,000
+and so I don't know if anybody just wants to have an easy hit the ball out of the park moment but you are what what is fintech and how might it
+
+23
+00:03:50,000 --> 00:04:00,000
+future is last class in your last opportunity to shine guys
+
+24
+00:04:00,000 --> 00:04:10,000
+romance RuPaul's it all out of yourself so easily Daniel the actor
+
+25
+00:04:10,000 --> 00:04:20,000
+technology to financial services and the future of money in finance in unlimited ways
+
+26
+00:04:20,000 --> 00:04:30,000
+after mess I like that I'm right you daddy unlimited way so do you think that you think will have bags in the future but let's go right to the heart
+
+27
+00:04:30,000 --> 00:04:40,000
+will we have to Marshall banks in the future I think yes I think it's hard to dislodge institutions with that much
+
+28
+00:04:40,000 --> 00:04:50,000
+but them in Outlook the way they look they may get slightly what are George APT and digital currency you they might be
+
+29
+00:04:50,000 --> 00:05:00,000
+just dropped in tax structure is so yes we'll have commercial Banks fit them in Outlook good so so like today
+
+30
+00:05:00,000 --> 00:05:10,000
+commercial banks that I think it's more than just a nurture I think that there are certain network effects that we see in 4 centuries about bringing
+
+31
+00:05:10,000 --> 00:05:20,000
+envirowaste Agata in forming the intersection of like a neck of an hourglass but forming that in a sec
+
+32
+00:05:20,000 --> 00:05:30,000
+Grands of CNN money Andres flow between depositors who have money but what a save it and Boris you want to borrow it
+
+33
+00:05:30,000 --> 00:05:40,000
+commercial Banks being back together peer to peer lending is been around now for some 15 years this concept that we don't need an intermediary in the
+
+34
+00:05:40,000 --> 00:05:50,000
+and then maybe boerewors in Landers can come together quite a technology platform and it's had some success not just here in the US but it's store
+
+35
+00:05:50,000 --> 00:06:00,000
+in Europe been here in the US spend in China with red numbers and some some challenges as well but I
+
+36
+00:06:00,000 --> 00:06:10,000
+which will be seen as by him or we still have some centralised marketplaces to come together that's not the only reason I think
+
+37
+00:06:10,000 --> 00:06:20,000
+around but I think there are significant network effects pulling at the centre how do you access the viability of a finch
+
+38
+00:06:20,000 --> 00:06:30,000
+Carlos would you like to take a Sabbath that
+
+39
+00:06:30,000 --> 00:06:40,000
+I mean there's a couple elements 1A is you know how much water to 1 degrees in an improvement
+
+40
+00:06:40,000 --> 00:06:50,000
+a traditional product how much more convenient is it for users and how much more accessible is that English important factors
+
+41
+00:06:50,000 --> 00:07:00,000
+the financial viability have to look at the accident
+
+42
+00:07:00,000 --> 00:07:10,000
+I mean I think we've seen right in the same special Last 5 Years weather centre companies can actually be
+
+43
+00:07:10,000 --> 00:07:20,000
+companies a handle themselves in the stock market is continuing very helpful
+
+44
+00:07:20,000 --> 00:07:30,000
+the first Carlos said you have to have a value proposition I'm your using my words with some translating it if that's alright
+
+45
+00:07:30,000 --> 00:07:40,000
+so what pain points are you address what gap in the current system of the ass and it might be about user-interface and user experience
+
+46
+00:07:40,000 --> 00:07:50,000
+mobile phones came along as we move from online banking on online trading to mobile banking and mobile trading Back retail for
+
+47
+00:07:50,000 --> 00:08:00,000
+many of those opportunities worry happened to not all John but maybe it is opportunities of their transition from bricks and
+
+48
+00:08:00,000 --> 00:08:10,000
+to the internet to mobile phones have happened but they create opportunities of user experience and user-interface but it has to address some pain
+
+49
+00:08:10,000 --> 00:08:20,000
+do something quicker cheaper better it's an old saw in terms of strategy but then cordless is also saying
+
+50
+00:08:20,000 --> 00:08:30,000
+we need to have finacial viability at some point I'm you have to be able to build a model revenues are more than Cross Lotto
+
+51
+00:08:30,000 --> 00:08:40,000
+what apps are looking for that sweet spot that should have Nirvana moment when you build a platformer platform economics in the network effects takeoff
+
+52
+00:08:40,000 --> 00:08:50,000
+I said you still have to have some finacial viability at some point time I think there is another handle
+
+53
+00:08:50,000 --> 00:09:00,000
+another thing that might make a break the rest profile
+
+54
+00:09:00,000 --> 00:09:10,000
+I know
+
+55
+00:09:10,000 --> 00:09:20,000
+because I'm actually going to increase the microwave
+
+56
+00:09:20,000 --> 00:09:30,000
+saying is you still have to live with the regulatory constraints and social constraints in terms of there's there's normative behaviour and this is a
+
+57
+00:09:30,000 --> 00:09:40,000
+only regulated feel good reason we're dealing with trust and trust is at the centre of the nearest Rosser dealing with other people's money
+
+58
+00:09:40,000 --> 00:09:50,000
+why we bought in savings and Investments and so there's investor protection that's consumer protection and in terms of alternative data' the bay
+
+59
+00:09:50,000 --> 00:10:00,000
+tenants around the globe that when you extend credited for office somebody insurance it should be done fairly and unbiased and
+
+60
+00:10:00,000 --> 00:10:10,000
+how do we ensure that the use of alternative data still stays within those social and legal norms about offering credit and in
+
+61
+00:10:10,000 --> 00:10:20,000
+get a 9 by Heston Fairway I think that's what you were chatting about
+
+62
+00:10:20,000 --> 00:10:30,000
+the lack of adopting crypto it's like if you just come out
+
+63
+00:10:30,000 --> 00:10:40,000
+rates of course we want to protect against ride in a Capital Markets we also protect against manipulation and ensure for investor protection
+
+64
+00:10:40,000 --> 00:10:50,000
+particularly and some fiance cryptocurrencies that the right with broad manipulation and sort of quick but artist frankly
+
+65
+00:10:50,000 --> 00:11:00,000
+and so to ensure that any long-term viability the project real viability comes within investor
+
+66
+00:11:00,000 --> 00:11:10,000
+Zoomer protection norms as well and norms about fairness inclusiveness explainability in the like in most nation
+
+67
+00:11:10,000 --> 00:11:20,000
+about it in various regulations and laws to standing up a new Alfred whether it's inside of an incompetent inside of
+
+68
+00:11:20,000 --> 00:11:30,000
+store it up you've got to look at the regulatory contacts but Michael putting out also you got to go a little further and make sure that you really serving your problem Kenya
+
+69
+00:11:30,000 --> 00:11:40,000
+community I mean I hope that we've met the goals of the class but I do I do ask you
+
+70
+00:11:40,000 --> 00:11:50,000
+today and over the next few weeks right left right b against there at MIT tidy to you and tell me you know what
+
+71
+00:11:50,000 --> 00:12:00,000
+about this the first year with start this up this class is also going to be shown publicly and mit is open courseware so those of you
+
+72
+00:12:00,000 --> 00:12:10,000
+watching this publicly write me and tell me what we can do in this class going forward and how we can make it a better product
+
+73
+00:12:10,000 --> 00:12:20,000
+I'm kinda curious whether it's made some folks were bullish or bearish on finntack getting I'm going to ask this at the end of class as well
+
+74
+00:12:20,000 --> 00:12:30,000
+anybody wants to chat now remain anybody want to take the bullets side or the Paris side
+
+75
+00:12:30,000 --> 00:12:40,000
+it depends on which how do I have on if I'm an investor or entrepreneur
+
+76
+00:12:40,000 --> 00:12:50,000
+any more polished opportunities out there if I have my citizen hat on if I met out at perished not too much on the
+
+77
+00:12:50,000 --> 00:13:00,000
+but more on its impact for me I'm certainly thrilled at the ability to access different forms of payment at lending but ultimately I think the long term
+
+78
+00:13:00,000 --> 00:13:10,000
+in terms of the day that these companies will have on me and the Justin men's role in and controller to my life iiNet out at
+
+79
+00:13:10,000 --> 00:13:20,000
+and then if I'm the Government of poly netting at it varies as well cos this is going to be in a normally set of regulations and laws to Naviti
+
+80
+00:13:20,000 --> 00:13:30,000
+the answer I see some other hands up
+
+81
+00:13:30,000 --> 00:13:40,000
+maybe you've got your middle and stuff yes we can hear
+
+82
+00:13:40,000 --> 00:13:50,000
+respond to Ltd
+
+83
+00:13:50,000 --> 00:14:00,000
+show me the underserved in crypto so the population it doesn't have to be c or whatever it's in like
+
+84
+00:14:00,000 --> 00:14:10,000
+any kind of more newest products to really targets you know population that
+
+85
+00:14:10,000 --> 00:14:20,000
+so we've got we've got or has an investor from DNA we've got bullish for
+
+86
+00:14:20,000 --> 00:14:30,000
+economic inclusion and product inclusion just now from loud but there were some berenice from DNA or data
+
+87
+00:14:30,000 --> 00:14:40,000
+and and the industry knowing so much more about us was there anybody else are remaindered wanted to add in for microphone
+
+88
+00:14:40,000 --> 00:14:50,000
+look great and then we'll move I might take Luke getting setting
+
+89
+00:14:50,000 --> 00:15:00,000
+Desperado but my thing was financial inclusion so really answering
+
+90
+00:15:00,000 --> 00:15:10,000
+I think it's in the benefit of the
+
+91
+00:15:10,000 --> 00:15:20,000
+sing about it from it that would benefit
+
+92
+00:15:20,000 --> 00:15:30,000
+I didn't have interest as well even though there were
+
+93
+00:15:30,000 --> 00:15:40,000
+so you accept a little bit a day and he was saying that for the government the official sector some of the challenges to use her
+
+94
+00:15:40,000 --> 00:15:50,000
+we're normally but there are those challenges you think to the extent that it promotes inclusion and economic activity that Innovation is a net
+
+95
+00:15:50,000 --> 00:16:00,000
+and competition if I can insert something with fintech doors is it provides an opportunity boats for incumbents and startups
+
+96
+00:16:00,000 --> 00:16:10,000
+and big competitors like big tack to start to bring competitive challenges we saw this in China with Ally pay and WeChat hey bring
+
+97
+00:16:10,000 --> 00:16:20,000
+economic challenges to the banking sector and now dominate the retail payment space but for a while all of that
+
+98
+00:16:20,000 --> 00:16:30,000
+create second job not to opportunity I say for a while because it's some point I'm then they to become a bit of an oligopoly
+
+99
+00:16:30,000 --> 00:16:40,000
+charge over time economic rats but that is certainly brought a lot of inclusion a lot of growth a lot of economic opportunity
+
+100
+00:16:40,000 --> 00:16:50,000
+are to underserved populations in that case in China and Elsa at Asia we bought the seen that across the US and you are with
+
+101
+00:16:50,000 --> 00:17:00,000
+Challenger Banks in New York bags and payment companies long ago like PayPal started 20 years ago or more recently
+
+102
+00:17:00,000 --> 00:17:10,000
+payment innovators in the space whether their day to aggregators or direct payment Solutions like toast in the restaurant business but is there
+
+103
+00:17:10,000 --> 00:17:20,000
+also the plants which were the db2 aggregators or even the credit karma is giving us free access to our credit report to Rob
+
+104
+00:17:20,000 --> 00:17:30,000
+giving us free access to trading online brokerage also they are collecting significant amount of data and whether they're commercialising that date
+
+105
+00:17:30,000 --> 00:17:40,000
+ways we understand appreciate and why Daniel celebrating that it makes a little uncomfortable as well I think we're going to close it out with
+
+106
+00:17:40,000 --> 00:17:50,000
+so I'm bullish in the long term and in in in a sensor two conditions are met the convenience and then
+
+107
+00:17:50,000 --> 00:18:00,000
+acceptance in terms of luxury and money and if people blockchain is technology as a core 2
+
+108
+00:18:00,000 --> 00:18:10,000
+text a lot of potential if not it's nothing more than making any statuscode industry more convenient
+
+109
+00:18:10,000 --> 00:18:20,000
+and more accessible so little Paris and one of the reasons your bullish is the blockchain technology
+
+110
+00:18:20,000 --> 00:18:30,000
+is is is a positive and is that pasta because you feel it's pushing at the side of Central Banks pushing at the side
+
+111
+00:18:30,000 --> 00:18:40,000
+Central payment processor is in the rest of the Nan's which I would share debut I think it's a Catalyst and it's part of why we've seen a lot of
+
+112
+00:18:40,000 --> 00:18:50,000
+patient even even at her us Federal Reserve who was thinking about doing 24-hour days 7-day week Payment Systems is rolling out something got fed
+
+113
+00:18:50,000 --> 00:19:00,000
+I think that's in Port because of this Catalyst for change but do you also think that it will be a mainstream product offering and it blocks
+
+114
+00:19:00,000 --> 00:19:10,000
+technology will roll into the what I call the technology stack in finance
+
+115
+00:19:10,000 --> 00:19:20,000
+can you use or whatever use than me take this is indeed the best technology if everyone except it so I don't see why not however it will take tremendous
+
+116
+00:19:20,000 --> 00:19:30,000
+time and energy in airport for everyone to accept didn't understand it into it takes crisis or it takes governmental instructions
+
+117
+00:19:30,000 --> 00:19:40,000
+I still haven't been convinced but you may be right I think that it is I'm I'm I'm sure it over middle of the road I'm neither of
+
+118
+00:19:40,000 --> 00:19:50,000
+store maximalist on blockchain technology but it hasn't yet because of the dominant challenges of governments how do you have multiple parties sharing a
+
+119
+00:19:50,000 --> 00:20:00,000
+and these issues are covered in snow near there just in this context of of blockchain Technology for the opportunity to have
+
+120
+00:20:00,000 --> 00:20:10,000
+data structure a shared a structural months mods for parties I think you're probably right will come into you somewhere the question
+
+121
+00:20:10,000 --> 00:20:20,000
+how broadly because you have at the Central really the only use the word normally but if I use that here normally said of government
+
+122
+00:20:20,000 --> 00:20:30,000
+choose how you have a shared a to structure a shared Ledger and then of course in cryptocurrencies is another set of challenges is a private sector
+
+123
+00:20:30,000 --> 00:20:40,000
+well if Fiat currencies are well managed monetary policy in fiscal policies real man it's probably not but then again
+
+124
+00:20:40,000 --> 00:20:50,000
+history of nations the history of finance and money is it of 200 countries there tends to be wind it's at 3 at any given time that partner
+
+125
+00:20:50,000 --> 00:21:00,000
+your parents as well last notice only when governments interest aligns with laughing because
+
+126
+00:21:00,000 --> 00:21:10,000
+centralised in black beans decentralized with we have the wide acceptance of lashing correct that's a good boy
+
+127
+00:21:10,000 --> 00:21:20,000
+the Sovereign currency is probably here unless there's some collaboration between the central authorities and the
+
+128
+00:21:20,000 --> 00:21:30,000
+technology is your point so we're going to dive in a little bit of summarising a talk about the technology stack
+
+129
+00:21:30,000 --> 00:21:40,000
+in the cloud mobile the in and out were important for it's that were added to the finance technology stack really from the 1990s all the way to
+
+130
+00:21:40,000 --> 00:21:50,000
+and if you look it big Phineas I using the in and out of course from the late 90s and into the north or pretty much roll
+
+131
+00:21:50,000 --> 00:22:00,000
+mobile applications particularly in the last 10 years often because of the pressures from store apps not so much all
+
+132
+00:22:00,000 --> 00:22:10,000
+have rolled in the cloud many big Phineas computers are still having their centralised data structures but more and more using the cloud
+
+133
+00:22:10,000 --> 00:22:20,000
+born about the cloud or is it the give stored us a real cheers to rent vs build so you don't have to build
+
+134
+00:22:20,000 --> 00:22:30,000
+find data structure put it in Microsoft as you are put it in in Amazon AWS put it in pages equivalent since 04
+
+135
+00:22:30,000 --> 00:22:40,000
+earlier Technologies fully in the finance technology stack what we've talked a lot about in this player machine learning natural language
+
+136
+00:22:40,000 --> 00:22:50,000
+critical pieces really in the last call it's 7 at 10 years that that computational power and
+
+137
+00:22:50,000 --> 00:23:00,000
+ability to analyse data and extract correlations machine learning at it's core does best it's
+
+138
+00:23:00,000 --> 00:23:10,000
+marker bullet extracting correlations pattern recognition if you wish and that pattern recognition when data has started to re
+
+139
+00:23:10,000 --> 00:23:20,000
+important nsb on a little bit more about it but it's also access to data and digital interfaces to open application
+
+140
+00:23:20,000 --> 00:23:30,000
+interfaces are 8. And you could have machine learning and natural language processing without open API but open apis are really
+
+141
+00:23:30,000 --> 00:23:40,000
+piece of glass particularly as startups try to get into the space and as we talked about some of that because the official sector says their shells
+
+142
+00:23:40,000 --> 00:23:50,000
+some of it is technologically facilitated by companies that provided that access and then many of the incumbent wanted to provide it as well
+
+143
+00:23:50,000 --> 00:24:00,000
+and then of course there's a whole bunch of things that have been in the technology stack for decades or centuries we took those as gibbets
+
+144
+00:24:00,000 --> 00:24:10,000
+I think it's some point when this course is tide in the 2030 machine learning would just be taken as a given open.at I will be given and will be new
+
+145
+00:24:10,000 --> 00:24:20,000
+no I just beyond that we talked about one that's really it's an insurance and I kid the clear as a little bit because I know the interest is be more in hey man
+
+146
+00:24:20,000 --> 00:24:30,000
+Challenger Banks in your back the why I find insurance so it arresting is it started a layer of a new technology into the techno
+
+147
+00:24:30,000 --> 00:24:40,000
+we don't see this as much and the Challenger Banks and credit but sensadata telematics in the automobile
+
+148
+00:24:40,000 --> 00:24:50,000
+wearables in the life all that remarkable amount of data to assess and under right insurance rest whether it's an honour automobile
+
+149
+00:24:50,000 --> 00:25:00,000
+hi there it's Alana home will that come into the technology stack of bags and credit card companies we haven't yet seen it
+
+150
+00:25:00,000 --> 00:25:10,000
+but other than that of social norms and regulatory reasons why when we see the dad wealth of date of from your automobile from
+
+151
+00:25:10,000 --> 00:25:20,000
+Aero bowls from out of things sensors windstar 2 in in influence and when I say infiltrate
+
+152
+00:25:20,000 --> 00:25:30,000
+until how credit Decisions are made again within within the regulatory can't stop himself for so one of the reasons why I find insurance
+
+153
+00:25:30,000 --> 00:25:40,000
+heading for another technology that they're starting the year still collect data really important and then lesly we've talked a lot about
+
+154
+00:25:40,000 --> 00:25:50,000
+technology I teach it as well I find it a fascinating area but just as that back and forth with Luke I put question marks will it come in
+
+155
+00:25:50,000 --> 00:26:00,000
+or technologist at its most definitely been a Catalyst for change it pushing it the edges of veneer it's starting to make
+
+156
+00:26:00,000 --> 00:26:10,000
+determine whether to JP Morgan thinking about a new way to do payments with something called JP Morgan coin or a whole collection of encumbered
+
+157
+00:26:10,000 --> 00:26:20,000
+around a project finality utility settlement you've foreseen how Facebook
+
+158
+00:26:20,000 --> 00:26:30,000
+radial of attention in 2019 and 2020 with the Facebook Libra project Atkins awesome to roll out a new global
+
+159
+00:26:30,000 --> 00:26:40,000
+see both Marty basket and single currency in comments and big tackle taking very close look at this and then you'll have the Central Bank of China
+
+160
+00:26:40,000 --> 00:26:50,000
+Bank of China doing something got a digital currency electronic payment program it's not using blockchain technology but for sure
+
+161
+00:26:50,000 --> 00:27:00,000
+Fire by cryptocurrencies it's for sure a higher emphasis for all Central Banks around the globe to consider
+
+162
+00:27:00,000 --> 00:27:10,000
+hide central bank digital currencies so put some question more it's cos we know it's already been a Catalyst for change will it actually be incorporated in the technology
+
+163
+00:27:10,000 --> 00:27:20,000
+remain any questions sweet just another second yes
+
+164
+00:27:20,000 --> 00:27:30,000
+yeah I just have a question now when were I'm in at the beginning of the sky he said it's not mobile
+
+165
+00:27:30,000 --> 00:27:40,000
+I mean what exactly by I mean did it more from tonight to cloud or just like a miskin allergy
+
+166
+00:27:40,000 --> 00:27:50,000
+sure because your your voice is fading at are you asking whether I think these are new technologies I think they were know when they rolled out the Internet for on demand
+
+167
+00:27:50,000 --> 00:28:00,000
+Amir too late 90s for most of veneers how to take notice but I assure you having lived it in the early nineties the internet was not
+
+168
+00:28:00,000 --> 00:28:10,000
+energy Technologies that most of it for now and start ups of the time didn't use it but many of the store apps by the late 90s
+
+169
+00:28:10,000 --> 00:28:20,000
+Amazon store in 1995 at the embedded they invaded the end of course it was work made Amazon so successful
+
+170
+00:28:20,000 --> 00:28:30,000
+PayPal stored in 1997 and 1998 for instance now you can survive if you don't use
+
+171
+00:28:30,000 --> 00:28:40,000
+so that's that's what I'm saying there and mobile phone similarly a by and lord flying at separate whiskey
+
+172
+00:28:40,000 --> 00:28:50,000
+fine line or should I say on the internet but not necessarily on a mobile app and the first mobile apps will find a man away just
+
+173
+00:28:50,000 --> 00:29:00,000
+the same that you could deal online and then you have to skip a better user interface for more ID aptible you know I guess it's something for the small screen
+
+174
+00:29:00,000 --> 00:29:10,000
+that our fingers can easily and readily on this rather than on a laptop so I'm saying that today whether you're big tech Big 4
+
+175
+00:29:10,000 --> 00:29:20,000
+or stored up you have to do this then you have to do them well or you can compete for the mentally but maybe I don't understand
+
+176
+00:29:20,000 --> 00:29:30,000
+Garmin and an army when you move to cloud is it is it like supporting the the mobile application or
+
+177
+00:29:30,000 --> 00:29:40,000
+I'm just have a different use it doesn't great question the cloud I think facilitates greater competition
+
+178
+00:29:40,000 --> 00:29:50,000
+what is a support function and also cost function of a lot of it is about trust in bed infiny answers trust
+
+179
+00:29:50,000 --> 00:30:00,000
+Jada finial firms we want that dated to be protect it now earlier Danny raise the Underbelly about how they use the day that are we
+
+180
+00:30:00,000 --> 00:30:10,000
+acted so by using the cloud any finacial competitor can better ensure for cyber security
+
+181
+00:30:10,000 --> 00:30:20,000
+the dominant things about the cloud as a can lower cost you can provide standardized form of data security or cyber security and I think
+
+182
+00:30:20,000 --> 00:30:30,000
+levels the field of competition but it's a supporting role you're right it's not something necessarily that's there for
+
+183
+00:30:30,000 --> 00:30:40,000
+uses for you and me to say but we couldn't use we couldn't use credit Karma we could use Robin heard we could use
+
+184
+00:30:40,000 --> 00:30:50,000
+the insurance apps if those venture capitalist in entrepreneurs behind it had decided to build their own dataset is they would have been able to stand up with the sea
+
+185
+00:30:50,000 --> 00:31:00,000
+scalability and same time frames at the same cost so it's facilitated a tremendous amount of competition
+
+186
+00:31:00,000 --> 00:31:10,000
+just sometimes an infrastructure technology I may consider the Cloud Infrastructure technology rather than a user facing technology but as an imp
+
+187
+00:31:10,000 --> 00:31:20,000
+technology it's door important thank you contact the boss should have said
+
+188
+00:31:20,000 --> 00:31:30,000
+there is the customer interface and an in chat and open API what we've been talking about in this in this class but it all
+
+189
+00:31:30,000 --> 00:31:40,000
+what's one that which came right before it mobile phones the Internet as we just sad and in and we've dominantly focused on customer interface and
+
+190
+00:31:40,000 --> 00:31:50,000
+management risk management what we focus on in this class machine learning dominantly sensors and telematics in the insurance field
+
+191
+00:31:50,000 --> 00:32:00,000
+you're allowed Nerang is in a risk management side but all of this built-in could not have been built without the asset-backed Securities ation and like the cloud early
+
+192
+00:32:00,000 --> 00:32:10,000
+assign if I can use that the cloud is an infrastructure technology the technology risk management that you could take up cool of mortgage
+
+193
+00:32:10,000 --> 00:32:20,000
+full of credit card receivables of Paul of Otto learns and take those and sell them into the Securities markets
+
+194
+00:32:20,000 --> 00:32:30,000
+facilitated number of startups to say look I don't need to use balance sheet I can maybe sell these pull of
+
+195
+00:32:30,000 --> 00:32:40,000
+receivables and Lawrence into the marketplace I could be more like a broker more on the front and give great customer interface and then sell into the mark
+
+196
+00:32:40,000 --> 00:32:50,000
+so some risk management stores that were inventions and new technologies of the 1970s the 99 is
+
+197
+00:32:50,000 --> 00:33:00,000
+this bill tier one of the central themes of this this class that I want you to takeaways not necessarily how machine learn
+
+198
+00:33:00,000 --> 00:33:10,000
+it's not necessarily help open API work but how new technologies come along in the p.s. and they will in the future every
+
+199
+00:33:10,000 --> 00:33:20,000
+15 years was going to be some new technology we 7 billion humans haven't stopped coming up with Innovations that are red
+
+200
+00:33:20,000 --> 00:33:30,000
+aware of as they do think about harder it opens a crack how it creates an opportunity
+
+201
+00:33:30,000 --> 00:33:40,000
+and if you're a big incompetent if you're a bank of America from it Citibank think about how it's going to create an opportunity on wait for you what your
+
+202
+00:33:40,000 --> 00:33:50,000
+and if you don't act upon the new technologies somebody will will be a new transferwise revolut for
+
+203
+00:33:50,000 --> 00:34:00,000
+Ally today that comes along to use that technology and I think they will be dominantly in these two areas customer
+
+204
+00:34:00,000 --> 00:34:10,000
+your face and then risk management we're just like the cloud there could be awesome things that are pure infrastructure and the cloud free
+
+205
+00:34:10,000 --> 00:34:20,000
+fraternity and moved financial or so that's kind of the central sort of conceptual framework that I bring to this
+
+206
+00:34:20,000 --> 00:34:30,000
+I think the finance has of fertile ground and the important opportunities and fighting at digitisation of money money is now
+
+207
+00:34:30,000 --> 00:34:40,000
+mid-morning itself is but a social construct but we used to think about it in physical ways before a few decades ago was all really
+
+208
+00:34:40,000 --> 00:34:50,000
+hey bro Mania gold silver but frankly were in the 2020 were living through this coronavirus crisis we will have accentuated that
+
+209
+00:34:50,000 --> 00:35:00,000
+is a wide public acceptance of new Tak each time there's a new check a new word interface though finances world of
+
+210
+00:35:00,000 --> 00:35:10,000
+we tend to have a lot of trust in new technology the new generation it's going to be the
+
+211
+00:35:10,000 --> 00:35:20,000
+season in NZ and the millennials before it's going to be folks in My Generation Kill a wide except in a few check look at all
+
+212
+00:35:20,000 --> 00:35:30,000
+the coronavirus crisis using zoom in on line it's not as good as being in the classroom I will tell you this is definitely not as good as being in the car
+
+213
+00:35:30,000 --> 00:35:40,000
+but will learning how to use this new chat any interface in the processing systems of the Legacy incumbents leaves opportunities for
+
+214
+00:35:40,000 --> 00:35:50,000
+and of course we talked about data I'm passing remaining case the questions
+
+215
+00:35:50,000 --> 00:36:00,000
+if you want seconds the question from Luke quick question what you think about encrypting atac to money the boxing soda
+
+216
+00:36:00,000 --> 00:36:10,000
+can I see where the public money spending can be money is spent ID create
+
+217
+00:36:10,000 --> 00:36:20,000
+I think about doing that you mention China sticking out doing that this is more possible in war of the East Asian countries vs very very high in
+
+218
+00:36:20,000 --> 00:36:30,000
+countries with just us where they might be allergic to it so you give even better the whole point you quotes in there let me just say
+
+219
+00:36:30,000 --> 00:36:40,000
+allergy has that it's a shared public lecture and some level you can make dough
+
+220
+00:36:40,000 --> 00:36:50,000
+why not that Republic you can I sell in crypt it and make it not necessarily public so it depends on your architecture
+
+221
+00:36:50,000 --> 00:37:00,000
+change technology with a shared Ledger is what's often is called temporary system temporary cistern some people say immune
+
+222
+00:37:00,000 --> 00:37:10,000
+witches and quite technically correct and so a government or even a private sector from could used to say that
+
+223
+00:37:10,000 --> 00:37:20,000
+a record of Truth that's a record that is tamper-resistant I haven't seen any government doing that
+
+224
+00:37:20,000 --> 00:37:30,000
+but it certainly can be done it's been done more in the private sector you still at the trust in the Protocol you have to trust in whatever
+
+225
+00:37:30,000 --> 00:37:40,000
+network maintain that Ledger but it's a possibility going forward to who are the actors in fintech
+
+226
+00:37:40,000 --> 00:37:50,000
+who are the bride actress we talked about a big fanny ants I like to quote the central bank Governor Brazil who gave me this little saying reset Big 4
+
+227
+00:37:50,000 --> 00:38:00,000
+fortresses they have modes and Towers and Sovereign affiliations and I thought it had I mean it breaks down a little bit too but it has some app
+
+228
+00:38:00,000 --> 00:38:10,000
+send a Towers or big Vinnie answer dominant payments they have the balance sheets they to collect data and the vs corporate structures often
+
+229
+00:38:10,000 --> 00:38:20,000
+thousand thousands legal entities around the globe is too big for it's particularly and payments and some of them or nearly
+
+230
+00:38:20,000 --> 00:38:30,000
+Winston sounds like PayPal and Square in and stripe in a life startups of just 10 and 20 years ago and now they feel a little bit like incumbents as well
+
+231
+00:38:30,000 --> 00:38:40,000
+I think big thing as we talked to really already and I think big for the ants we will still have bags and 10 and 30 years because there is net
+
+232
+00:38:40,000 --> 00:38:50,000
+economics around bowitch is there is there is just any study of diversification will tell you
+
+233
+00:38:50,000 --> 00:39:00,000
+the balance sheet has thousands of loans on it rather than a single world you can lower the rest just through the diversification of the underwriter
+
+234
+00:39:00,000 --> 00:39:10,000
+and the risk allocation also bit for hasdata but there's challenges to big pronounce Foreshore from big tap in the Bank of England
+
+235
+00:39:10,000 --> 00:39:20,000
+saddlemen types about big tech in terms of data networks and activities know the date is a little different than big finance because it includes
+
+236
+00:39:20,000 --> 00:39:30,000
+outside of the Phineas the world said they get a picture on all of our activity in a different word Google has Google Chrome and has good
+
+237
+00:39:30,000 --> 00:39:40,000
+Google Maps it has Gmail it has so many ways to assess tater phone companies like Apple have a lot of
+
+238
+00:39:40,000 --> 00:39:50,000
+how to have a lot of sensadata as well that's sent you that is currently being used in insurance but will it start to be used in credit and Payment Systems in the life
+
+239
+00:39:50,000 --> 00:40:00,000
+and then the store docs that I don't count the start-up sound but I think to think about fintech just about startups is too narrow that's why I think of
+
+240
+00:40:00,000 --> 00:40:10,000
+around these three sets of actress but startups disrupted innovators if if you throw up 104 Nan's startups
+
+241
+00:40:10,000 --> 00:40:20,000
+fintech startups 225 of breakthrough there's some answers to this that some will break through and they have Flex
+
+242
+00:40:20,000 --> 00:40:30,000
+and they're a bit of a symmetric risk takers they don't have business models to support and protect and it's often big phineas's protect
+
+243
+00:40:30,000 --> 00:40:40,000
+business model credit cards in the US or dominated by 7 big companies in those 7 big companies that dominate in the US it was
+
+244
+00:40:40,000 --> 00:40:50,000
+text some of the profit and revenue models and said that gives an opportunity for companies like toast to get into the into the restaurant
+
+245
+00:40:50,000 --> 00:41:00,000
+a little harder for a big actor to go into those individual sectors in the like they also have a bit of a symmetric risk as it relates to regulation and this is what
+
+246
+00:41:00,000 --> 00:41:10,000
+he was saying earlier it's it's neither good nor bad it's just an observation that startups often have a little bit of an attitude
+
+247
+00:41:10,000 --> 00:41:20,000
+you know try it out if it break some rules somewhere clean it off work and good faith the regulators and and
+
+248
+00:41:20,000 --> 00:41:30,000
+and because there's smaller often regulated around the globe have decided to give a little forbearance to something called regulatory Sandbox
+
+249
+00:41:30,000 --> 00:41:40,000
+promote Innovation if they will order there are be more systemic and customer facing problems
+
+250
+00:41:40,000 --> 00:41:50,000
+Sakura finance check and store apps for competing in and should try and provide better products and better opportunities and user interfaces
+
+251
+00:41:50,000 --> 00:42:00,000
+official sector cares about economic growth but they also care about financial stability and sometimes there are a little bit and conflict
+
+252
+00:42:00,000 --> 00:42:10,000
+guarding against illicit activity promoting inclusion and the tenants of investor consumer protection
+
+253
+00:42:10,000 --> 00:42:20,000
+what were the big Technologies we talked about and unless remaining menopause to see if there's any questions
+
+254
+00:42:20,000 --> 00:42:30,000
+still there yes this is I don't see anything for I just didn't want to make an accident girl so
+
+255
+00:42:30,000 --> 00:42:40,000
+now Infinity out where we see in machine learning missed extraordinary ability to extract patterns extractor correlations out-of-date
+
+256
+00:42:40,000 --> 00:42:50,000
+we seen it primarily in the middle here around fraud detection and prevention regulatory
+
+257
+00:42:50,000 --> 00:43:00,000
+credit card companies in Big Bang Theory using it to extract correlations to better to fraud protection and better do what's called any money
+
+258
+00:43:00,000 --> 00:43:10,000
+reminder ring and Compliance that big bucket is compliance I said the second most developed areas around natural language processing
+
+259
+00:43:10,000 --> 00:43:20,000
+Accor centres chatbots robo-advising we have studied together Robe advising investments like around ferns like better man
+
+260
+00:43:20,000 --> 00:43:30,000
+and wealth front I think it's called another is what robo-advising both in the Craig
+
+261
+00:43:30,000 --> 00:43:40,000
+investing space as well and Bank of America has their of voice assistant Court Erica
+
+262
+00:43:40,000 --> 00:43:50,000
+the series in a Lexus of Phineas are going to be built out in the 2020
+
+263
+00:43:50,000 --> 00:44:00,000
+I think the most interesting area which is not frankly used that much yet it's being used but not a lot is around the underwriting decisions find the right
+
+264
+00:44:00,000 --> 00:44:10,000
+insurance underwriting and credit basically how do you allocate an extended price credit or risk this is
+
+265
+00:44:10,000 --> 00:44:20,000
+the core Phineas that should have neck of the hourglass is staying in between savers and boerewors or standing between those who have a rest
+
+266
+00:44:20,000 --> 00:44:30,000
+you're a Wellington Para rest of the hourglass if you can use machine learning to better allocate price and extend
+
+267
+00:44:30,000 --> 00:44:40,000
+credit for insurance then you're going to use that technology and extracting patterns isn't
+
+268
+00:44:40,000 --> 00:44:50,000
+to do that you need to do it within the law you need to do it within these questions of fairness and explain ability but I think
+
+269
+00:44:50,000 --> 00:45:00,000
+this pro dramatically in the by the mid 2026 already there I'm not saying it's not there I'm just saying we will see machine learning use much more than
+
+270
+00:45:00,000 --> 00:45:10,000
+clear round spot Turner dictator of bed and Asset Management and trading but frankly not it's not dominating the trading for yet
+
+271
+00:45:10,000 --> 00:45:20,000
+it's not dominating the hatch finds yet and a lot of folks in the headphone community and high-frequency trading community so that there are
+
+272
+00:45:20,000 --> 00:45:30,000
+linear delivery assertive type of regressions and classic statistics are doing well enough but I think we'll
+
+273
+00:45:30,000 --> 00:45:40,000
+this traumatic Alicia and I think a time's the real question is will machine learning be better than a classic set of regression analyses eclairs
+
+274
+00:45:40,000 --> 00:45:50,000
+statistics that you can do the answer is if it's not your stick with the classic statistic it's not as if you have to throw away the classic
+
+275
+00:45:50,000 --> 00:46:00,000
+data analysis this is just a stronger toll in certain circumstances to add on top of it remain
+
+276
+00:46:00,000 --> 00:46:10,000
+it's got a few seconds 123 no question Berry
+
+277
+00:46:10,000 --> 00:46:20,000
+sometime is artificial intelligence machine learning a tool or a service is it is it itself in industry or not I find myself thinking more more
+
+278
+00:46:20,000 --> 00:46:30,000
+frankly dominantly but it is also a service at times it is a tool that is already being used
+
+279
+00:46:30,000 --> 00:46:40,000
+use more and more inside of big Phineas big tack in the disruptors but that's not to say it's not also a service it time it can be
+
+280
+00:46:40,000 --> 00:46:50,000
+thanks late I'm showing here as a compliant software so you can stand up a company that does one of these things going back you
+
+281
+00:46:50,000 --> 00:47:00,000
+sound of a company that dyes fraud detection better than the banks do right now or stands up something around
+
+282
+00:47:00,000 --> 00:47:10,000
+crowded or insurance as a number stored it's of done in the insurance field that can take data in accessdata
+
+283
+00:47:10,000 --> 00:47:20,000
+and maybe you're a day to aggregator from the payment space like cloud or day to aggregator and insurance it's taking and all that telematic date of from automobiles
+
+284
+00:47:20,000 --> 00:47:30,000
+and taking that data you can use a I as a service and some of these like anti-fraud softwares like feature space and all those
+
+285
+00:47:30,000 --> 00:47:40,000
+tractable which is doing insurance claims processing or doing AI as a service I think you'll see though the dominant wave
+
+286
+00:47:40,000 --> 00:47:50,000
+thinking about AI within a really already now but within a few years it's a toll that if you don't have it in your talk it if you don't use machine learning
+
+287
+00:47:50,000 --> 00:48:00,000
+you better data Analytics your inner for behind somewhere whether it's in your compliant side whether it's in your underwriting side
+
+288
+00:48:00,000 --> 00:48:10,000
+arborist who use machine learning walk have a more nuanced more flexible and ultimately a higher revenue potential
+
+289
+00:48:10,000 --> 00:48:20,000
+potential underwriting of insurance of credit but I think about it is both ways natural
+
+290
+00:48:20,000 --> 00:48:30,000
+assessing a form of artificial intelligence report and Slipstream it's really about taking human words and computer
+
+291
+00:48:30,000 --> 00:48:40,000
+and doing the interface contents generation contents summarisation in the life using it for
+
+292
+00:48:40,000 --> 00:48:50,000
+customer service that's chatbots in the Eric is it back of America the robot advisors in the like we're already that's a big piece but that's going to
+
+293
+00:48:50,000 --> 00:49:00,000
+YouTube facilitating girl for other one day we'll get on the phone and we won't quite now or we talking to a human or a chat bad on the other
+
+294
+00:49:00,000 --> 00:49:10,000
+Jap parts right now I can't deal with sarcasm too well so you can cut a suss it out still little bit with a little bit of sore calf
+
+295
+00:49:10,000 --> 00:49:20,000
+but I don't know what a number of years would it would be a basic process automation and an area that asset man
+
+296
+00:49:20,000 --> 00:49:30,000
+using more and more still just a little bit but using more more sentiment analysis analysing best amount of of spoken words written
+
+297
+00:49:30,000 --> 00:49:40,000
+and seeing if they can Assad to me that might be important investing in the markets
+
+298
+00:49:40,000 --> 00:49:50,000
+about a time when open API in open banking in the critical thing here is really access to date and inability to build software on
+
+299
+00:49:50,000 --> 00:50:00,000
+of platforms in this case think of big funny answers the platforms just like you might think a Facebook as a platform
+
+300
+00:50:00,000 --> 00:50:10,000
+build can you build some software on top of it maybe it's software to do one small aspect of an ants better than the big
+
+301
+00:50:10,000 --> 00:50:20,000
+form is doing right now just like him we can build it once more application on top of Facebook and say we can do something better now Facebook
+
+302
+00:50:20,000 --> 00:50:30,000
+and other technology platform sought to facilitate this to open API saying developers can build on top of our platform
+
+303
+00:50:30,000 --> 00:50:40,000
+nextmind summer BIG4 now it's wanted to promote it some didn't the official sack your step down particularly in you up with the payment systems direct
+
+304
+00:50:40,000 --> 00:50:50,000
+are the directors in the United Kingdom around open for dinner around the globe Brazil in other countries as we talked about said no
+
+305
+00:50:50,000 --> 00:51:00,000
+we got a promotes and competition here and and sharedata in essence the shared date is permission by us that means we say yes
+
+306
+00:51:00,000 --> 00:51:10,000
+you can have my Dad it's sitting there about the miracle but you can have it and this is kind of an
+
+307
+00:51:10,000 --> 00:51:20,000
+technological competition the Opera Matiz was High Commission an application my credit karma to go get my data
+
+308
+00:51:20,000 --> 00:51:30,000
+America and Bank of America did not provide an open API to credit korma or an open API possibly to plaid which is a day
+
+309
+00:51:30,000 --> 00:51:40,000
+aggregator the plaid been created data to credit karma if Bank of America said now then maybe
+
+310
+00:51:40,000 --> 00:51:50,000
+farmer with go and do something odd screen scraping literally taking pictures of screens using technology to get that data or reverse engineering
+
+311
+00:51:50,000 --> 00:52:00,000
+robotic process automation is a little bit of a competition that open apis or so as safer more secure way to do it or stay
+
+312
+00:52:00,000 --> 00:52:10,000
+do it so what we seen is Banks coming up a little bit a little bit disappointing to the business model for Banks
+
+313
+00:52:10,000 --> 00:52:20,000
+coming into this as I said many Banks thought it was a good idea to be more like Facebook and let let startups build apps on top of them some banks
+
+314
+00:52:20,000 --> 00:52:30,000
+the official sector got involved but also technological competition garden bar the screen scraping and reverse process automation
+
+315
+00:52:30,000 --> 00:52:40,000
+Roman Atwood applies any questions
+
+316
+00:52:40,000 --> 00:52:50,000
+can I ensure you that more opportunities mcreator out opened api-token bagging then we could ever talk about
+
+317
+00:52:50,000 --> 00:53:00,000
+master edit usually thought of as a little bit infrastructure a little bit back office but there is really a Central
+
+318
+00:53:00,000 --> 00:53:10,000
+around the globe that isn't talking about this thinking about this how to promote competition within the banking sectors in their countries
+
+319
+00:53:10,000 --> 00:53:20,000
+you don't have any hands up so we can continue during process automation process automation is just the start
+
+320
+00:53:20,000 --> 00:53:30,000
+using get to compete and get the data in a close close ramore resilience system that doesn't want to give them data in some countries
+
+321
+00:53:30,000 --> 00:53:40,000
+get it easily through the market structures are the official sanction open API
+
+322
+00:53:40,000 --> 00:53:50,000
+what is awesome being used by incumbents just to open accounts and I'm bored and it's basically taking something the humans were doing in automating it
+
+323
+00:53:50,000 --> 00:54:00,000
+find robotic process automation but just think of any process it can be reading documents and an omen boarding a client
+
+324
+00:54:00,000 --> 00:54:10,000
+so how does a big Wealth Management company how does an online broker a mobile broker online us now and that you can literally just scan
+
+325
+00:54:10,000 --> 00:54:20,000
+events it reads it and koala have to go to some bricks-and-mortar place and get physical
+
+326
+00:54:20,000 --> 00:54:30,000
+any longer to it's an important piece of competition in mower and course or so and enhancing user interfaces
+
+327
+00:54:30,000 --> 00:54:40,000
+let me talk about a little bit about credit scores in alternative data the fair Isaac company found in about 50 to 60 years ago
+
+328
+00:54:40,000 --> 00:54:50,000
+couple of Stanford graduate name Sarah and Isaac so that it's used in 30
+
+329
+00:54:50,000 --> 00:55:00,000
+countries are many countries that don't use it but it is a dominant way to think about credit scoring in the latter part of the 20th century and even early 24
+
+330
+00:55:00,000 --> 00:55:10,000
+and here is the ratio that the 30% and 35% of that it's very sad it's been updated about 8 times there is a roll out of a new
+
+331
+00:55:10,000 --> 00:55:20,000
+Seiko scorer this this summer of 2020 as well but alternative data might give us a better picture on somebody and we
+
+332
+00:55:20,000 --> 00:55:30,000
+24 Turner lounge or whether they're the right insurance rest answer the first rudimentary level of operative data
+
+333
+00:55:30,000 --> 00:55:40,000
+beyond Ficus or is your employment income for whether you even paid your rent on time so if I go score traditionally hasn't you
+
+334
+00:55:40,000 --> 00:55:50,000
+even whether you're paying utilities for rent shaxawan time or an WeChat pay can do look at it
+
+335
+00:55:50,000 --> 00:56:00,000
+my business and look at your cash work picture you revenues and your course or here in the US into it which into it is a company that has
+
+336
+00:56:00,000 --> 00:56:10,000
+turbotax and more recently bought some fintech startups as well that into it can see the whole cashflow picture around
+
+337
+00:56:10,000 --> 00:56:20,000
+it's a why isn't too it's starting to think about credit because they can get a really good picture around you but there's also everything we do online
+
+338
+00:56:20,000 --> 00:56:30,000
+consumption and purchase transactional d b z master corded what they know about us or whatever prank news about our consumption and purchase
+
+339
+00:56:30,000 --> 00:56:40,000
+using that to say if we buy one product for another or we are better credit rest elastic resurrect
+
+340
+00:56:40,000 --> 00:56:50,000
+in an earlier error one of the things that people would look at and this is just a narrow slice is whether you replaced your automobile Thai
+
+341
+00:56:50,000 --> 00:57:00,000
+regular basis with new tires or whether you bought reach rats literally putting rubber on the old tyres and it was founded
+
+342
+00:57:00,000 --> 00:57:10,000
+tyre purchases on a regular basis will better credits then if you bought retract that out what purchase history would tell you that somebody is a litre
+
+343
+00:57:10,000 --> 00:57:20,000
+a little bit more capable to hold allowed going forward but app usage browsing history emails
+
+344
+00:57:20,000 --> 00:57:30,000
+battery location in China we see this being used in a social credit scoring system where the government in coordination with
+
+345
+00:57:30,000 --> 00:57:40,000
+any why mine services including hourly pay WeChat pay but even extended to social
+
+346
+00:57:40,000 --> 00:57:50,000
+sites like dating apps literally the dating apps for feeding and some information into the social credit scoring system in China
+
+347
+00:57:50,000 --> 00:58:00,000
+news about extension of Predator night and then thirdly particularly out of the insurance field and insured
+
+348
+00:58:00,000 --> 00:58:10,000
+but my question is how will this be used all the way it's a credit extension as well is the information being collected through drones and Internet of things
+
+349
+00:58:10,000 --> 00:58:20,000
+sensors throughout society and we're moving into a world now worth we're all go from tens of billions of sensors around the globe
+
+350
+00:58:20,000 --> 00:58:30,000
+rough measurement now to hundreds of billions of sensors around the globe and whether it's in our refrigerators at home weather tonight
+
+351
+00:58:30,000 --> 00:58:40,000
+Automobiles whether it's wearables weather frankly 1 days in the paint with paint their houses literally
+
+352
+00:58:40,000 --> 00:58:50,000
+technology then how's it feedback and to first and insurance homeowners insurance are automobile insurance
+
+353
+00:58:50,000 --> 00:59:00,000
+health insurance for wearable data Analytics then moves into their credit scoring as well know all this
+
+354
+00:59:00,000 --> 00:59:10,000
+give me times somehow within social norms and laws about fairness and explain ability and guarding against biases and those a real
+
+355
+00:59:10,000 --> 00:59:20,000
+important issues but I think that's where we're headed with a lot of this alternative data questions the stopped the only gets a litre
+
+356
+00:59:20,000 --> 00:59:30,000
+Daniel
+
+357
+00:59:30,000 --> 00:59:40,000
+is there is a international framework of laws around the right to privacy that from the human rights please
+
+358
+00:59:40,000 --> 00:59:50,000
+are applicable to some of the emerging ways in which receives data be collected and just kept you bought some weather is he that ever really getting
+
+359
+00:59:50,000 --> 01:00:00,000
+particularly in the US have been parked in regulations around how is quite how it's used
+
+360
+01:00:00,000 --> 01:00:10,000
+I think that this is going to be an ongoing public policy debate and cultural the bay and it's not something it will settle down and just
+
+361
+01:00:10,000 --> 01:00:20,000
+I think this is a multi deck ahead of how we feel about that that as as sensors particularly
+
+362
+01:00:20,000 --> 01:00:30,000
+girl from you know where 2030 billion or so sensors are ready maybe it's maybe it's even further than that now to hundreds of
+
+363
+01:00:30,000 --> 01:00:40,000
+as they become truly ubiquitous in and and cameras in in the in the homes not like that date is going to be
+
+364
+01:00:40,000 --> 01:00:50,000
+analyse store Sass and used in somewhere to underwriting sure and son extendcredit I think that's the the law
+
+365
+01:00:50,000 --> 01:01:00,000
+cultural trend and technological financial train ride then how do we deal with that how do we feel about that coupled with all the date of it's been collected
+
+366
+01:01:00,000 --> 01:01:10,000
+as we are online in our geolocations with their self out so we seen some jurisdictions like you were a purse
+
+367
+01:01:10,000 --> 01:01:20,000
+data protection regulations udp or are we seen in the US it's more state-based California but even years ago Illinois put something in
+
+368
+01:01:20,000 --> 01:01:30,000
+place around photographs of our face that that are unique to us and so for it so
+
+369
+01:01:30,000 --> 01:01:40,000
+states in Southwick I think I'm going to keep trying to figure out what's the right balance in and even this crisis reliving through right now to coronavirus
+
+370
+01:01:40,000 --> 01:01:50,000
+about contact racing if we can save lives and we can and legitimately really save lives and have
+
+371
+01:01:50,000 --> 01:02:00,000
+you're welcome by tracing our contact out not just who we've seen in the last 2 days with the last 40
+
+372
+01:02:00,000 --> 01:02:10,000
+2 days see in how some countries like South Korea even Vietnam and elsewhere have used contact racing to some success
+
+373
+01:02:10,000 --> 01:02:20,000
+there's a lot of research be done the see how that truly playing now will we chef this this debate a little bit will we all
+
+374
+01:02:20,000 --> 01:02:30,000
+Ardeer buy a little bit of my civil liberties a little bit of my privacy for the good of the community and the good of healthcare and so forward sell
+
+375
+01:02:30,000 --> 01:02:40,000
+I think this is the player for quite some time Janet and I also think technology can provide solutions and some of it can be around blockchain technology were
+
+376
+01:02:40,000 --> 01:02:50,000
+we were talking earlier about encryption you can update on worn an immutable record record really a chip resistant record of blockchain to go on to this
+
+377
+01:02:50,000 --> 01:03:00,000
+fully public but you can I sell used various encryption that it's quite zero-knowledge groups and Isla is 220
+
+378
+01:03:00,000 --> 01:03:10,000
+make a car service a great work on this being done at MIT by Faculty members likes and apartment and Sylvia mccallion the life
+
+379
+01:03:10,000 --> 01:03:20,000
+so I think technology can help in this debate as well maybe that we share things in certain circumstances and we should have protected in order
+
+380
+01:03:20,000 --> 01:03:30,000
+so I'm sorry you're going to end up being a little nervous for a while I think technology can help us but I do think we were
+
+381
+01:03:30,000 --> 01:03:40,000
+sharing a lot more data we talked about blockchain technology that the big question to me
+
+382
+01:03:40,000 --> 01:03:50,000
+is a darshin Ras what a dressing what's it's viability what what's it's compared in viability and value proposition do we re
+
+383
+01:03:50,000 --> 01:04:00,000
+need a private currency or is the Fiat currency working just buy in private currencies for centuries in Bitcoin
+
+384
+01:04:00,000 --> 01:04:10,000
+American live for now about a dozen years as a speculative digital store value
+
+385
+01:04:10,000 --> 01:04:20,000
+other cryptocurrencies take hold in smart ecosystems whether it's all ion gaming sites are in an industry that's nearly it
+
+386
+01:04:20,000 --> 01:04:30,000
+175 200 Billion Dollar industry around the globe can it take hold an online gambling in a legal way in summer The Sketch Show
+
+387
+01:04:30,000 --> 01:04:40,000
+oriented ways private currencies in gambling be like Casino chips but again in a hopefully legal way
+
+388
+01:04:40,000 --> 01:04:50,000
+could it have some broader applications and blockchain technology has a shared database structure a shared Ledger can it promote standard
+
+389
+01:04:50,000 --> 01:05:00,000
+can I promote some coopetition were some infrastructure shared and a company's computer on top of it like in trade finance and Elsa
+
+390
+01:05:00,000 --> 01:05:10,000
+I think school still out instead of this thing that we've already seen it it's been a heck of a Catalyst for change it is
+
+391
+01:05:10,000 --> 01:05:20,000
+pushing up against big for the ants and central Banks to think about Payment Systems I think it a more inclusive or 24-hour a day
+
+392
+01:05:20,000 --> 01:05:30,000
+day a week way I think it's making payment system providers Central banks at big tech think about
+
+393
+01:05:30,000 --> 01:05:40,000
+where is to do cross border remittances and I think Facebook has both sort of put some nervousness in Central
+
+394
+01:05:40,000 --> 01:05:50,000
+but hopefully also from out them to do their payment Solutions in a better way for the public so it's been a Catalyst for change
+
+395
+01:05:50,000 --> 01:06:00,000
+but I think school still out about how how much mainstreaming adoptions and a payment system quickly do some of the sectors these result
+
+396
+01:06:00,000 --> 01:06:10,000
+10 points we talked about who were the players that we see what big city answer players in every one of these sectors I won't repeat this line but never count
+
+397
+01:06:10,000 --> 01:06:20,000
+most of these companies for spending multiple billions of dollars a year other technology budget most of these company
+
+398
+01:06:20,000 --> 01:06:30,000
+you see on the screen the back of America's the cap wines the Vanguard have not hundreds but
+
+399
+01:06:30,000 --> 01:06:40,000
+thousands of people in a date out of latex machine learning side and nearly all of them were using robo-advisor to chatbots by now
+
+400
+01:06:40,000 --> 01:06:50,000
+big Phineas is incorporating as much of this technology and but they have a legacy business models they have Legacy tech star
+
+401
+01:06:50,000 --> 01:07:00,000
+they have Legacy approaches and so that provides opportunities for big tech in and sort out
+
+402
+01:07:00,000 --> 01:07:10,000
+space we talked about it hourly pay in in Kenyan africa really got in there in an Amazon
+
+403
+01:07:10,000 --> 01:07:20,000
+himself or end in South Korea hope I have really Road and in certain countries like in Africa and Asia
+
+404
+01:07:20,000 --> 01:07:30,000
+big tech find a memory dominates the payment space around aggregation like cladding
+
+405
+01:07:30,000 --> 01:07:40,000
+and open API but also Guardian around sectors like toast in the restaurant business or so just did the job a little better
+
+406
+01:07:40,000 --> 01:07:50,000
+Phineas and hand enough time some Guardian also around cross border remittances like transferwise in the way countries like Brazil
+
+407
+01:07:50,000 --> 01:08:00,000
+pack Sakura and ptm in India so it's not it's not isolated to developed countries it's not isolated to Asia it's around the
+
+408
+01:08:00,000 --> 01:08:10,000
+the payment space has been very dynamic area credit markets credit markets we talked about the market design
+
+409
+01:08:10,000 --> 01:08:20,000
+has a lot of features and Darcy a lot of gaps in a lot of pain points whether it's around date of funding marketing channels I think a lot of it
+
+410
+01:08:20,000 --> 01:08:30,000
+unicredit areas bit about enhance user experience and user-interface but then using alternative data and on the funding side trying to
+
+411
+01:08:30,000 --> 01:08:40,000
+issuer Bank form for securitizing the story of having said it's our balance sheet
+
+412
+01:08:40,000 --> 01:08:50,000
+that's her of like a comparative advantage for now with the big financial firms and you could be an any port of this the value change
+
+413
+01:08:50,000 --> 01:09:00,000
+play from the brokerage and origination all the way down to collecting and foreclosing you'd have to pick her up where you're going to bed
+
+414
+01:09:00,000 --> 01:09:10,000
+fierce in big tack Amazon have Amazon Amazon lending apple has an apple credit card now
+
+415
+01:09:10,000 --> 01:09:20,000
+bring up the Goldman Sachs and mastracorp keto bags on top of cake ok and often leave the sea
+
+416
+01:09:20,000 --> 01:09:30,000
+case with build a payment infrastructure get in the payment side and then put credit on top of it but there's a bit of a bunch of stored opposite of sad when I gonna build the pain
+
+417
+01:09:30,000 --> 01:09:40,000
+it's already IT's already pretty darn competitive we're just going to come into the credit side and I'm just sort of thrown up the logos of 20 or 25
+
+418
+01:09:40,000 --> 01:09:50,000
+credit store apps that are the unicorn's I don't know if they're still worth over a billion dollars in the middle of the crowd of crisis but there is a lot of
+
+419
+01:09:50,000 --> 01:10:00,000
+summer just going straight at the banking model like revolut other neobanks some of come out from the the credit card space
+
+420
+01:10:00,000 --> 01:10:10,000
+some of data from low-cost credit reports like credit karma different angles
+
+421
+01:10:10,000 --> 01:10:20,000
+radian to the credits pays all of it fundamentally going back to some slice of market design
+
+422
+01:10:20,000 --> 01:10:30,000
+if you're looking at one of these businesses if you're thinking about being employed by one of these businesses think what's their business model is that this is not of fundamentally about a better user experience
+
+423
+01:10:30,000 --> 01:10:40,000
+is it about somehow doing alternative data in a way that's different of better than others is about 1 slice of the roles and their they're the best
+
+424
+01:10:40,000 --> 01:10:50,000
+Anna trying to be the best at the front and brokerage we seen in their mortgage space for 20 years now is take off for particularly posts
+
+425
+01:10:50,000 --> 01:11:00,000
+the 2008 prices the quick and learn in Teddy Mac and others now dominate the front end of mortgages no partly they're able to
+
+426
+01:11:00,000 --> 01:11:10,000
+because our government here in the US is so involved with conforming loan market and Fannie Mae and Freddie Mac in the which caused it
+
+427
+01:11:10,000 --> 01:11:20,000
+prizes and we have a really large develop 10 trillion-dollar market nearly wine mortgage security stations
+
+428
+01:11:20,000 --> 01:11:30,000
+you can be quick and brown and be at the front and say just like I might rent data storage in the cloud I'm kind of in essence renting
+
+429
+01:11:30,000 --> 01:11:40,000
+bow and she by securitizing the mortgages little tougher and some other Fields but you've seen a real take off in the US of the personal
+
+430
+01:11:40,000 --> 01:11:50,000
+Marketplace I think you can serve it vision that's going to keep competing with the credit card space as well we talked about Capital Markets
+
+431
+01:11:50,000 --> 01:12:00,000
+temperature Karalee this move 20 commissions and Leighton 2019 we saw the cervix finally the final four
+
+432
+01:12:00,000 --> 01:12:10,000
+21 my team and safe 50 year history of commissions coming down in jail starting with the early 1970s
+
+433
+01:12:10,000 --> 01:12:20,000
+when was watch and still allow for competition and commissions but it really took a story of me and Robin Hood to get to about 10 mil
+
+434
+01:12:20,000 --> 01:12:30,000
+user a free commission app Robinhood just ordered a few years ago sort of
+
+435
+01:12:30,000 --> 01:12:40,000
+computing with earlier fintech startups early your vintec storage like ameritrade and etrade
+
+436
+01:12:40,000 --> 01:12:50,000
+an last 4 of 20190 commission but I like this slide which is this iceberg
+
+437
+01:12:50,000 --> 01:13:00,000
+what about the ways to firm revenues revenue around selling the order flow is Robin Hood doors for
+
+438
+01:13:00,000 --> 01:13:10,000
+learning fees on managing and custodial side of the balance sheets for investors so I think there's a carpet
+
+439
+01:13:10,000 --> 01:13:20,000
+going online to work look like 0 commissions or 0 fees in nop other revenue models below it we all
+
+440
+01:13:20,000 --> 01:13:30,000
+send Rob advising better Manton well front in order is really gotten significantly in the robot buising 2020
+
+441
+01:13:30,000 --> 01:13:40,000
+already 5060 million accounts that have robo-advising in in there and so the Capital Markets this is this is
+
+442
+01:13:40,000 --> 01:13:50,000
+text order to remember Vanguard infidelity you're not just sleeping for t Rowe price they are moving into robo-advising as well and
+
+443
+01:13:50,000 --> 01:14:00,000
+pushing 20 fees awesome ameritrade and van gourd infidelity
+
+444
+01:14:00,000 --> 01:14:10,000
+into a more competitive space and they're building on top of another technology called exchange traded funds which was earlier error
+
+445
+01:14:10,000 --> 01:14:20,000
+is well these Low Cost Asset Management plans we talked about the asset management site itself 8 for Better Man
+
+446
+01:14:20,000 --> 01:14:30,000
+front Inner Light this is just some of the unicorns in a capital market space as well we have a bunch of crypto exchanges but it's
+
+447
+01:14:30,000 --> 01:14:40,000
+just crypto exchanges a few of these companies are outside about and then insurance oh now it didn't light up the Claus but I can't
+
+448
+01:14:40,000 --> 01:14:50,000
+Jordan Springs so much of this together and I think it's worth while studying sure check even if you're keen interest is over and credit ACT
+
+449
+01:14:50,000 --> 01:15:00,000
+if I might say because what's happening ensure attack is the opportunities real the user interfaces the user
+
+450
+01:15:00,000 --> 01:15:10,000
+your answers are a little bit frankly more stayed in a little bit more clunky of the fuel from an earlier time when you take out an insurance policy
+
+451
+01:15:10,000 --> 01:15:20,000
+the underwriting has a lot of the same issues but also the day that you can pull from a lot more later as we've talked about
+
+452
+01:15:20,000 --> 01:15:30,000
+and the current sector just like payment sector has pain points insurance sector has a lot of challenges from the fee structures
+
+453
+01:15:30,000 --> 01:15:40,000
+between 8 and 15% of the revenues go back to the agents and broker fees to the claims administration a lot of significant operating in
+
+454
+01:15:40,000 --> 01:15:50,000
+Francis and we hear this debate around healthcare policy we hear it about just how do we set a take the course out of the
+
+455
+01:15:50,000 --> 01:16:00,000
+NZ insurance for every dollar did you pay your premium a higher percentage of that data dollar goes back in claims
+
+456
+01:16:00,000 --> 01:16:10,000
+now we will always have some cost of plans management and agents & brokers in the light but how do we set a compressed claims management how do we compress the
+
+457
+01:16:10,000 --> 01:16:20,000
+so that a higher percentage of premiums ultimately goes to claims competition
+
+458
+01:16:20,000 --> 01:16:30,000
+details of the health benefit of ministration more around property and casualty because this is around automobile insurance and household insurance
+
+459
+01:16:30,000 --> 01:16:40,000
+most of the insurance store apps are focusing on the retail sector but that's also true and credit products think about where most of
+
+460
+01:16:40,000 --> 01:16:50,000
+payment and credit startups you're focusing on you and me and small businesses you're not trying to take away the the payment and credit
+
+461
+01:16:50,000 --> 01:17:00,000
+patient to Ford Motor Company they're trying to help us help the broad public with a better user interface
+
+462
+01:17:00,000 --> 01:17:10,000
+and about a product offering and in in this area these Auto insurers like route insurance can actually give us an
+
+463
+01:17:10,000 --> 01:17:20,000
+based upon the telematics and how we're driving in their core there's a little bit that they know exactly where you're driving
+
+464
+01:17:20,000 --> 01:17:30,000
+you're driving and whether you put your photo on your break to off tonight in their data Analytics model I'm not trying to George her off and then put your foot on the brake
+
+465
+01:17:30,000 --> 01:17:40,000
+but in your date Analytics model in way thanks now or in India policybazaar that really is kinda like the Expedia of insurance
+
+466
+01:17:40,000 --> 01:17:50,000
+where you can compare Rankin trust insurance is a lot of exciting things here I am going to try and get you excited
+
+467
+01:17:50,000 --> 01:18:00,000
+studying short text to say ok what can I learn from it to move back to the rest of fintech what are my credit check or investec for payment term
+
+468
+01:18:00,000 --> 01:18:10,000
+us because I think I like that's going on here will will influence back or you might say it's
+
+469
+01:18:10,000 --> 01:18:20,000
+summer what's happening insurance stack is a little later but is already happening elsewhere we close out this semester
+
+470
+01:18:20,000 --> 01:18:30,000
+left at the coronavirus crisis that I think the coronavirus crisis beyond all this huge challenges we have a healthcare and economic
+
+471
+01:18:30,000 --> 01:18:40,000
+one of your just putting it back at the contact of financial technology I think stored up should have to focus an already focusing on what we call Ron White
+
+472
+01:18:40,000 --> 01:18:50,000
+the cash the revenue the reductions at work Holden 2020 probably well in the 2020 wine venture capital investments
+
+473
+01:18:50,000 --> 01:19:00,000
+flowered and will continue to slow and evaluations nice just innovative we need to decline in this environment
+
+474
+01:19:00,000 --> 01:19:10,000
+consolidation is likely to increase is clearly going to be winners and losers are not saying anything terribly important there but this factors matter sunset
+
+475
+01:19:10,000 --> 01:19:20,000
+related to compliance that won't be pretty good but if you're you're a sector related to travel around our team in a restaurant
+
+476
+01:19:20,000 --> 01:19:30,000
+I mean self Beyond the sector is it's really bad to run where he serving the various fiscal stimulus and
+
+477
+01:19:30,000 --> 01:19:40,000
+programs in Europe the US Asia elsewhere I think the challenges you can have them out in the next 6018 months around to Lincoln seas
+
+478
+01:19:40,000 --> 01:19:50,000
+you haven't seen this hit hard yet and household sector but it's inevitable as this prices moves forward that the household sector is gonna have to
+
+479
+01:19:50,000 --> 01:20:00,000
+their balance sheets and and frankly too many people will have to declare bankruptcy of Theodore for delinquency the small business sector that a lot of
+
+480
+01:20:00,000 --> 01:20:10,000
+store apps have to prepare the balance sheets for are going to do we consume before so
+
+481
+01:20:10,000 --> 01:20:20,000
+challenges around the store up the operator in the I said it's from my time at Goldman Sachs challenging times also presented opportunities for 4 all
+
+482
+01:20:20,000 --> 01:20:30,000
+you is individuals and ask them for these companies I want to close on something that Ben Franklin said long ago about money as well paying it forward
+
+483
+01:20:30,000 --> 01:20:40,000
+turn up return to give such a detailed meal and it when you meet with another honest mean and it's similar to stress you must pay me by learning this song too
+
+484
+01:20:40,000 --> 01:20:50,000
+what her enjoying her to discharge the dead by daylight Corporation when she shall be able and shall be with another opportunity
+
+485
+01:20:50,000 --> 01:21:00,000
+Benjamin Franklin on money I would say was fintech of the 1770s to 1790s I hope it made us go
+
+486
+01:21:00,000 --> 01:21:10,000
+before it needs with an neighbours and an old English word to say for meet with a name that will stop it's progress this is a trick of mind
+
+487
+01:21:10,000 --> 01:21:20,000
+God with a little money so take this little this little saying a Benjamin Franklin late 18th century icon
+
+488
+01:21:20,000 --> 01:21:30,000
+vintag.es you just to do a little good not just because where it is coronavirus times but I so enjoyed
+
+489
+01:21:30,000 --> 01:21:40,000
+with the ATO so of you these last 12 sessions do me the favour six months from now 12 months from now ride me tell me where
+
+490
+01:21:40,000 --> 01:21:50,000
+tell me your just safe and well if you're graduating tell me that you got a job if you didn't get a job yes career advice if you're working in the fintech
+
+491
+01:21:50,000 --> 01:22:00,000
+tell me what you're doing in the fintech space I'd love to learn I've learnt so much being your family member
+

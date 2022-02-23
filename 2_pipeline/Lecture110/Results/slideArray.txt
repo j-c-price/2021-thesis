@@ -1,0 +1,2802 @@
+   
+  
+
+Attent rning
+
+(astonz@)
+
+Amazon Web Servic:
+ICML 2019, Long B
+bit.ly/2R10hTu
+
+alex.smola.org/talks/ICML19-attention.key aws
+alex.smola.org/talks/ICML19-attention.pdf ~ A
+ENDELEMENTRetina
+
+Blood vessels
+
+ 
+
+aws
+d2l.ai ——
+ENDELEMENTRetina
+
+Blood vessels
+
+ 
+
+aws
+d2l.ai ——
+ENDELEMENTRetina
+
+Blood vessels
+
+d2l.ai
+
+ 
+
+A,
+Sa
+
+ 
+ENDELEMENTRetina
+
+   
+  
+
+Blood vessels
+
+ 
+
+d2l.ai
+
+d
+Sa
+
+rN
+Lp
+
+ 
+ENDELEMENTRetina
+
+   
+  
+
+Blood vessels
+
+ 
+
+lris
+
+d2l.ai
+
+ 
+
+ 
+
+aws
+ENDELEMENT 
+ENDELEMENTAttention in Animals
+
+e Resource saving
+¢ Only need sensors where relevant bits are
+(e.g. fovea vs. peripheral vision)
+* Only compute relevant bits of information
+(e.g. fovea has many more ‘pixels’ than periphery)
+¢ Variable state manipulation
+¢ Manipulate environment (for all grains do: eat)
+¢ Learn modular subroutines (not state)
+¢ In machine learning - nonparametric
+aS 4 ~~
+
+ 
+  
+ 
+    
+
+d2l.ai
+ENDELEMENTOutline
+
+1. Watson Nadaraya Estimator
+2. Pooling
+* Single objects - Pooling to attention pooling
+¢ Hierarchical structures - Hierarchical attention networks
+3. Iterative Pooling
+Question answering / memory networks
+
+4. Iterative Pooling and Generation
+Neural machine translation
+
+5. Multiple Attention Heads
+¢ Transformers / BERT
+¢ Lightweight, structured, sparse
+
+6. Resources aws
+d2l.ai ——
+ENDELEMENTd2l.ai
+
+1. Watson Nadaraya Estimator ‘64
+
+      
+
+/
+
+\ | ‘
+
+NW \ aT} AN Ay
+Qo MAL Mai MAAN
+
+Geoffrey Watson Elizbar Nadaraya a |
+ENDELEMENTRegression Problem
+
+1.00 *
+0.75
+0.50
+0.25
+0.00
+-0.25
+—0.50
+-0.75
+
+—-1.00
+
+2.0 -15 -10 -05 00 O05 10 15 20 aws
+d2l.ai ~~
+
+ 
+ENDELEMENTSolving the regression problem
+
+ 
+
+* Data {x,....x,,} and labels {)1.---Y,,} 10
+
+* Estimate label y atnew location x ;:.
+
+0.25
+
+¢ The world’s dumbest estimator __,
+Average over all labels ~028
+
+-0.50
+
+1 m
+-0.75
+y = Yi -1.00
+Mm * 1 -20 -15 -10 -05 0.0 05 10 15 20
+i=
+
+¢ Better idea (Watson, Nadaraya, 1964)
+Weigh the labels according to location
+
+Y= Dar, xy; aws
+d2lai py —
+
+ 
+
+ 
+
+ 
+ENDELEMENTSolving the regression problem
+
+ 
+
+* Data {x,,...x,,} and labels {9).---¥} 100
+* Estimate label y at new location x —;.,
+
+0.25
+
+¢ The world’s dumbest estimator __,,, \
+
+ 
+
+Average over all labels ~028
+
+-0.50
+
+ 
+
+ 
+
+1 m
+-0.75
+y = Yi -1.00
+m 1 -20 -15 -10 -05 00 05 10 15 20
+1=
+
+¢ Better idea (Watson, Nadaraya, 1964)
+Weigh the labels according to location
+
+y= » A(x, X))Y;
+
+d2l.ai i=l
+
+  
+ 
+
+A(x, XV;
+ENDELEMENTWeighing the locations (e.g. with Gaussians)
+Lo
+0.8
+0.6
+a(x, X;) & k(x;,x)
+0.2
+
+0.0
+
+20 -15 -10 -05 00 O05 10 15 2.0 aws
+d2l.ai ~~
+
+ 
+ENDELEMENTWeighing the locations (e.g. with Gaussians)
+
+1.0
+0.8
+0.6
+0.4
+0.2
+
+0.0
+
+ 
+
+ 
+
+d2l.ai
+ENDELEMENTWeighted regression estimate
+
+-0.25
+—0.50
+-0.75
+
+-1.00
+
+ 
+
+aws
+d2l.ai , , : —
+
+ 
+ENDELEMENTWhy bother with a 55 year old algorithm?
+
+¢ Consistency
+Given enough data this algorithm converges to the
+optimal solution (can your deep net do this?)
+
+¢ Simplicity
+No free parameters - information is in the data not weights
+(or very few if we try to learn the weighting function)
+
+aws
+d2l.ai ——
+ENDELEMENTWhy bother with a 55 year old algorithm?
+
+¢ Consistency
+Given enough data this algorithm converges to the
+optimal solution (can your deep net do this?)
+¢ Simplicity
+No free parameters - information is in the data not weights
+(or very few if we try to learn the weighting function)
+¢ Deep Learning Variant
+e Learn weighting function
+e Replace averaging (pooling) by weighted pooling
+
+aws
+d2l.ai —
+ENDELEMENT 
+ENDELEMENTDeep Sets (Zaheer et al. 2017)
+
+* Deep (Networks on) Sets X = {x,,...x,}
+
+¢ Need permutation invariance for elements in set
+(e.g. LSTM doesn’t work to ingest elements)
+
+* Theorem - all functions are of the form*
+
+f(®%) =p ( » #9)
+
+xEX
+“or some combination thereof
+¢ Applications - point clouds, set extension, red shift for
+
+galaxies, text retrieval, tagging, etc.
+d2l.ai
+
+aws
+ENDELEMENTDeep Sets (Zaheer et al. 2017)
+
+Outliers in sets - learn function f(X) on set such that
+f({x} UX) eile cal +AU, x’)
+
+ 
+
+ 
+ENDELEMENTDeep Sets with Attention aka
+Multi-Instance Learning (Ilse, Tomczak, Welling, ’18)
+
+¢ Multiple Instance Problem
+Set contains one (or more) elements with desirable
+property (drug discovery, keychain). Identify those sets.
+
+* Deep Sets have trouble focusing, hence weigh it
+f(X) = o( > ws) —— FX) =p ( > HB
+xExX xEX
+
+* Attention function e.g. a(w,x) « exp (w! tanh Vx)
+
+aws
+d2l.ai ——
+ENDELEMENTDeep Sets with Attention aka
+Multi-Instance Learning (Ilse, Tomczak, Welling, ’18)
+
+Identifying sets that contain the digit ‘9’
+
+J Ale) 519) 91 5
+
+a ,=0.00002 Ja2=0.22608§ a3=0.00001 a4g=0.00008 a5=0.00001 fag=0.247669 az7=0.00008
+
+719 |2|0}5) 4
+
+ag=0.00002 |a9=0.28002 } a39=0.00006 a,;=0.00006 a;2=0.00009 fa; 3=0.24581
+ENDELEMENTDeep Sets with Attention aka
+Multi-Instance Learning (Ilse, Tomczak, Welling; 18)
+
+ 
+
+tissue windowed cancerous attention
+sample cell nuclei cells weights
+aws
+
+d2l.ai ~~
+ENDELEMENTBag of words (Salton & McGill, 1986)
+Word2Vec (Mikolov et al., 2013)
+
+* Embed each word in sentence (word2vec, binary, GRU ...)
+¢ Add them all up
+
+* Classify f(X) =p ( x #9)
+i=l
+
+The tutorial is awesome.
+
+aws
+wae
+
+d2l.ai
+ENDELEMENTBag of words (Salton & McGill, 1986)
+Word2Vec (Mikolov et al., 2013)
+
+*« Embed each word in sentence (word2vec, binary, GRU ...)
+¢ Add them all up
+
+* Classify f(X) =p ( x #)
+i=l
+
+Alex is obnoxious but the tutorial is awesome.
+
+aws
+wae
+
+d2l.ai
+ENDELEMENTBag of words (Salton & McGill, 1986)
+Word2Vec (Mikolov et al., 2013)
+
+*« Embed each word in sentence (word2vec, binary, GRU ...)
+¢ Add them all up
+
+* Classify f(X) =p ( x #)
+i=l
+
+Alex is obnoxious but the tutorial is awesome.
+
+aws
+Ne
+ENDELEMENTAttention weighting for documents (Wang et al, 16)
+fo) = (3 > 0, ) ——& foo =p ( 3 eave
+i=1
+
+word
+attention
+
+ 
+
+ 
+
+VY
+letieeietieied St aieietiemeteed | jiieieieieied Dome |
+' 1! \ ! 1
+<— «
+a t ' hoe 1 +| fear ||
+1!
+' ty
+
+word
+— encoder
+— aws
+Wer ~ I]
+
+ 
+
+ 
+
+ 
+
+d2l.ai
+ENDELEMENTHierarchical attention weighting (Yang et al. ’17)
+
+Some sentences are more important than others ...
+
+GT: 0 Prediction: 0
+terrible value .
+ordered pasta entree .
+
+GT: 4 Prediction: 4
+pork belly = delicious
+
+scallops ?
+
+ido ie $ 16.95 good taste but size was an
+even .
+
+like appetizer size
+
+scallops , and these were a-m-a-z-i-n-g .
+
+AS) land) Tasty) SORA. no salad , no bread no vegetable
+
+this was
+
+next time i ’m in phoenix , i will go .
+our and tasty cocktails
+
+back here
+highly recommend .
+
+our second visit .
+
+i will not go back . aWws
+d2l.ai ——
+ENDELEMENTHierarchical attention
+¢ Word level
+
+fs) = p| Y adv, shOv,)
+
+j=l
+¢ Sentence level
+gd) =p( Y als; dol fis)
+i=1
+¢ Embeddings e.g. via GRU
+
+d2l.ai
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+tw
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+sentence
+attention
+
+sentence
+encoder
+
+word
+attention
+
+word
+encoder
+ENDELEMENTMore Applications
+
+Squeeze Excitation Networks (Hu et al., ot
+F.. ¢,W)
+
+A H' F,, H Fscale (-") ™ LT.
+W' W a
+: a
+
+Cc
+Graph Attention
+Networks
+
+(Velickovic et al., 18)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+“©
+lay
+
+ 
+
+d2l.ai
+ENDELEMENTAttention Summary
+
+* Pooling
+f(X) =p ( » #9)
+
+xEX
+
+* Attention pooling
+f®) =p ( » «)
+
+xEX
+
+¢ Attention function (normalized to unit weight) such as
+a(x, X) « exp (w! tanh Ux)
+aws
+
+d2l.ai ——
+ENDELEMENT3. Iterative Pooling
+
+   
+
+original first attention second attention
+image layer layer AWS
+
+d2l.ai ~~
+ENDELEMENTQuestion Answering
+
+Joe went to the kitchen.
+Fred went to the kitchen.
+Joe picked up the milk.
+Joe travelled to the office.
+Joe left the milk.
+
+Joe went to the bathroom.
+
+Where is the milk?
+
+aws
+d2l.ai ——
+ENDELEMENTQuestion Answering
+
+Joe went to the kitchen.
+Fred went to the kitchen.
+
+Joe travelled to the office.
+Joe went to the bathroom.
+
+Where is the milk?
+
+aws
+d2l.ai ——
+ENDELEMENTQuestion Answering
+
+Joe went to the kitchen.
+Fred went to the kitchen.
+
+* Simple attention
+
+Joe travelled to the office. selects sentences
+with ‘milk’.
+
+Joe went to the bathroom. ¢ Attention pooling
+doesn’t help much
+
+Where is the milk? since it misses
+
+intermediate steps.
+Paws
+d2l.ai ~~
+ENDELEMENTQuestion Answering with Pooling
+(Sukhbaatar et al., ’15)
+
+ 
+
+o
+
+ 
+
+=
+UnJOS
+
+ 
+
+ 
+
+Predicted
+Answer
+S| a
+
+ 
+
+Weighted sum A_ u
+
+ 
+
+ 
+
+Embedding c
+
+* Simple attention
+selects sentences
+with ‘milk’.
+
+¢ Attention pooling
+doesn’t help much
+since it misses
+
+intermediate steps.
+Paws
+——
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+sy6iem yndyno
+
+ 
+
+Sentences c Pi a a or
+tx} 5
+‘oftmax_A
+
+ 
+
+  
+  
+
+ 
+
+ 
+
+ynduy
+
+Embedding A
+
+ 
+
+ 
+ENDELEMENTQuestion Answering with Pooling and Iteration
+
+(Sukhbaatar et al., ’15)
+
+Embedding c
+
+“sill
+
+Embedding A
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+o= » CiPi
+oO
+Weighted sum _A_
+\
+
+°
+
+=
+
+Cy 2
+Bi =
+a_i Tr mm 1G
+=
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+\
+
+alll
+
+ 
+
+ 
+
+  
+ 
+
+ 
+
+qnduy
+
+ 
+
+Sentences
+
+ 
+
+ 
+
+Ww
+
+ 
+
+ 
+
+'
+Predicted /
+WwW s Answers
+S| a o
+3
+3
+
+ 
+
+ 
+
+Hf
+
+Predicted
+
+Answer
+
+  
+
+ 
+ENDELEMENTQuestion Answering with Pooling and Iteration
+(Sukhbaatar et al., ’15)
+
+Sam walks into the kitchen. Brian is a lion.
+
+Sam picks up an apple. Julius is a lion.
+
+Sam walks into the bedroom. Julius is white.
+
+Sam drops the apple. Bernhard is green.
+
+Q: Where is the apple? Q: What color is Brian?
+A. Bedroom A. White
+
+Mary journeyed to the den.
+
+Mary went back to the kitchen.
+
+John journeyed to the bedroom.
+
+Mary discarded the milk.
+
+Q: Where was the milk before the den?
+
+A. Hallway aws
+https://d2I.ai ~~
+ENDELEMENTQuestion Answering with Pooling and Iteration
+
+(Yang etal., 16) snceuecursaratterent
+parts of image
+
+  
+ 
+
+ 
+
+CNN
+
+ 
+
+a Suey He
+Question: x .
+What are sitting 2 Answer
+in the basket on 5 dogs
+a bicycle? Seabee eal p
+ENDELEMENTQuestion Answering with Pooling and Iteration
+(Yang et al., 16)
+
+* Encode image via CNN
+¢ Encode text query via LSTM
+* Weigh patches according to attention and iterate
+
+¢ Improving it (2019 tools)
+* Convolutionalize CNN (e.g. ResNet)
+¢ BERT for query encoding
+
+* Convolutional weighting (a la SE-Net)
+
+aws
+d2l.ai ——
+ENDELEMENT(a) What are pulling aman on a wagon down on dirt road? (b) What is the color of the box ?
+Answer: horses Prediction: horses Answer: red Prediction: red
+
+ 
+
+What next to the large umbrella attached to a table? (d) How many people are going up the mountain with walking sticks?
+
+-
+
+(c) Answer: trees Prediction: tree Answer: four Prediction: four
+
+   
+
+(e) What is sitting on the handle bar of a bicycle? (f) What is the color ~ the horns?
+Answer: bird Prediction: bird Answer: red Prediction: red
+
+aws
+
+  
+ENDELEMENTWhat swim in the ocean near two large ferries? What is the color of the shirt?
+(a) Answer: ducks Prediction: boats (b) Answer: purple Prediction: green
+
+  
+
+(d) How many umbrellas with various patterns?
+
+What is the young woman eating?
+Answer: three Prediction: two
+
+Answer: banana Prediction: donut
+
+   
+
+ 
+
+What are passing underneath the walkway bridge?
+
+The very old looking what is on display?
+(e) td M ac (f) Answer: cars Prediction: trains
+
+Answer: pot Prediction: vase
+
+aws
+
+  
+ENDELEMENTIterative Attention Summary
+
+* Pooling
+f(X) =p ( » #9)
+
+xEX
+
+* Attention pooling
+f®) =p ( Y a, vo)
+
+xEX
+
+* Iterative Attention pooling
+
+ai =P( Dac, ao)
+
+xEX
+
+  
+
+aws
+——
+
+=
+ENDELEMENT 
+
+d2l.ai
+ENDELEMENTSeq2Seq for Machine Translation, Sutskever, Vinyals, Le ‘14
+
+¢ Encode source sequence s via LSTM to representation £(s)
+¢ Decode to target sequence one character at a time
+
+ 
+
+Poof fd
+
+¢ ‘The table is round.’ - ‘Der Tisch ist rund.’
+* ‘The table is very beautiful with many inlaid patterns,
+
+blah blah blah blah’ - ‘Error ...’ aws
+d2l.ai ~~
+ENDELEMENTSeq2Seq for Machine Translation, Sutskever, Vinyals, Le ‘14
+
+¢ Encode source sequence s via LSTM to representation £(s)
+¢ Decode to target sequence one character at a time
+
+Y Z <EOS>
+
+ 
+
+Poet f ~ ~— fT 1
+
+¢ ‘The table is round.’ - ‘Der Tisch ist rund.’
+* ‘The table is very beautiful with many inlaid patterns,
+
+blah blah blah blah’ - ‘Error ...’ aws
+d2l.ai ~~
+ENDELEMENTSeq2Seq for Machine Translation, Sutskever, Vinyals, Le ‘14
+
+¢ Encode source sequence s via LSTM to representation £(s)
+¢ Decode to target sequence one character at a time
+
+Y Z <EOS>
+
+ 
+
+Poet f ~ ~— fT 1
+
+A B Cc <EOS> WwW xX Y Z
+¢ ‘The table is round.’ - ‘Der Tisch ist rund.’
+
+* ‘The table is very beautiful wit
+blah blah blah blah’ - ‘Error ...
+
+d2l.ai
+
+ 
+  
+ENDELEMENTSeq2Seq for Machine Translation, Sutskever, Vinyals, Le ‘14
+
+¢ Encode source sequence s via LSTM to latent representation (s)
+¢ Decode to target sequence one character at a time
+
+w x Y Z <EOS>
+
+ 
+
+Poet f ~ ~— fT 1
+
+A B Cc <EOS> Ww xX Y Z
+« Need memory for long sequences
+
+¢ Attention to iterate over source
+
+we can look up source at any time after all
+( p y ) AWS
+d2l.ai ~~
+ENDELEMENTSeq2Seq with attention (Bahdanau, Cho, Bengio ’14)
+(Pham, Luong, Manning ’15) X Y  Z~ <eos>
+
+ 
+
+Attention Layer
+
+ 
+
+https://d2l.ai
+ENDELEMENTSeq2Seq with attention (Bahdanau, Cho, Bengio ’14)
+(Pham, Luong, Manning ’15) X Y  Z~ <eos>
+
+Attention Layer
+
+i-1>/))
+
+         
+    
+
+ij X exp(a(h
+
+ 
+
+Ji
+
+https://d2l.ai
+ENDELEMENTSeq2Seq with attention (Bahdanau, Cho, Bengio ’14)
+(Pham, Luong, Manning ’15)
+* Iterative attention model
+
+* Compute (next) attention weights
+
+* Aggregate next state
+
+¢ Emit next symbol
+
+° Repeat Key-values Query Output
+* Memory networks bss]
+emit only one symbol. LW
+* NMT with attention Seis eres
+
+emits many symbols. aWws
+
+d2l.ai ~~
+ENDELEMENTSeq2Seq with attention (Bahdanau, Cho, Bengio ’14)
+
+ 
+
+x
+fe)
+(3)
+wn
+=)
+laa) RNNsearch-50
+RNNsearch-30 |:
+RNNenc-50-— fk:
+RNNenc-30 : : : .
+0 10 20 30 40 50 60 AWS
+~~
+
+Sentence length
+ENDELEMENTVariations on a Theme
+BWV 988
+(PART I)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTPointer networks for finding convex hull
+(Vinyals et al., ‘15)
+
+Input P = {P,, ...P4}
+
+Output O = {1,4,2,1}
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+https://d2I.ai ~~
+ENDELEMENTPointer networks for finding convex hull
+(Vinyals et al., ‘15)
+
+ 
+
+ 
+
+ 
+
+ 
+
+fot ttt
+
+Input P= {Pi, Py} y , T ar
+
+Output O = {1,4,2,1} y We y 4
+| a
+
+             
+        
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+u,, = v! tanh(Wle,, di}) t if i
+Xi} |X] | Xe) |X el Xi] |X fe x,
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+D(C; | Chi-ip P) = softmax(u;) y,| ly Ya) | Yy y,| |¥4! |¥o! | ¥,
+encoder state: e; | decoder state: dj
+
+aws
+
+~~
+
+ 
+
+https://d2l.ai
+ENDELEMENTConvex hulls, Delaunay triangulation, and TSP
+
+|+@+ Ground Truth -:4-_Predictions| Predictions Predictions: tour length is 3.523
+
+on S
+ara
+
+Ser
+YEAS
+KE
+
+ 
+
+     
+      
+  
+
+  
+
+  
+
+   
+
+2019 style improvements
+* Transformer to encode inputs (and outputs)
+¢ Graph neural networks for local interactions
+
+aws
+d2kai —
+ENDELEMENTNeural Turing Machines (Graves et al., ‘14)
+
+External Input External Output
+
+or
+
+| Controller
+r— ¥ w(K, AE oS
+peat
+
+ 
+ 
+
+https://d2l.ai
+ENDELEMENTAttention weights can be stateful (values, too)
+
+Previous
+State
+
+Wi-1
+M;
+
+ 
+
+2S
+
+Controller
+Outputs:
+
+|
+|
+L
+
+Ea
+
+“ky Ea
+3, —————> Interpolation
+Mt sens
+
+2 ee
+ot Shift
+St a | seers |
+Vt FT
+
+Ea
+https://d2l.ai ——
+
+ 
+ENDELEMENTCopying a sequence (with LSTM)
+
+10 20 30 50
+08
+E —
+0.7
+0.6
+04
+EES eb se darata el eer ane
+0.3
+
+Outputs
+
+ 
+
+Time ————__> 120
+
+https://d2I.ai ~~
+ENDELEMENTCopying a sequence (with NTM)
+
+10 20 30 50
+08
+
+04
+Targets 0.3
+vane pa
+
+Time ———_————_> 120
+
+ 
+
+https://d2l.ai
+ENDELEMENT 
+ENDELEMENTMulti-head attention (Vaswani et al., ‘17)
+
+ 
+
+  
+
+Queries Keys Values
+
+ 
+
+dh,
+
+; OK’
+Attention(Q, K, V) = softmax Va V
+
+MultiHead(Q, K, V) = Concat(head,, ...head,,)W?
+
+where head, = Attention (owe, KW, vw ) aWws
+i i i a 5)
+
+https://d2l.ai
+ENDELEMENTTransformer with multi-head attention (Vaswani et al., ‘17)
+
+   
+
+Self-attention when
+query, key, and value match
+
+State
+
+Add & Norm
+
+Position-
+wise FFN
+
+Add & Norm
+
+   
+
+     
+ 
+   
+ 
+ 
+
+  
+  
+ 
+ 
+
+Add & Norm
+
+     
+  
+
+ 
+
+Position-
+wise FEN.
+
+   
+
+nx
+
+ 
+
+ 
+
+    
+
+  
+ 
+
+Add & Norm
+
+ 
+
+ 
+
+   
+
+ 
+
+=
+oT |
+
+Positional
+Encoding
+
+ 
+
+Positional
+Encoding
+
+  
+
+         
+
+ 
+
+ 
+
+ 
+
+Embedding Embedding
+f f aws
+Sources Targets ——
+
+https://d2l.ai
+ENDELEMENTSemantic Segmentation
+
+So aws
+
+d2l.ai ~~
+ENDELEMENTSemantic Segmentation
+
+aws
+d2l.ai ——
+
+ 
+ENDELEMENTSemantic Segmentation
+
+ 
+
+d2l.ai
+ENDELEMENTMulti-head attention for semantic segmentation
+
+(Zhang et al., ‘19)
+
+  
+  
+
+ 
+
+ 
+
+Ae
+=j
+
+ 
+
+Aggregated Co-occurrent Feature Module - —- — |
+a
+
+ 
+
+ 
+
+ 
+
+https://d2l.ai
+
+ 
+ 
+
+a sian
+
+aws
+I
+
+a)
+ENDELEMENTClassify pixels co-occurring with boat as sea rather than water
+
+  
+
+(a) Image (b) Ground Truth
+
+aE
+
+ 
+
+za —z
+— =)
+= 4
+
+aws
+
+httos://d21.ai (c) FCN (baseline) (d) CFNet (ours) (e) legend 7]
+ENDELEMENTBERT
+
+Bidirectional Encoder
+Representations from
+Transformers
+
+(Devlin et al, 2018)
+
+SOTA on 11 NLP tasks
+
+courses.d2I.ai/berkeley-stat-157/index.html MA a
+
+ 
+ENDELEMENTMotivation NLP
+
+CV
+. . Positive Sb
+¢ Fine-tuning for NLP
+
+(learning a prior for NLP) Classifier
+¢ Pre-trained model
+t
+
+    
+
+captures prior
+
+* Only add one (or more)
+output layers for new task
+
+| love this movie a
+aws
+
+courses.d2I.ai/berkeley-stat-157/index.html wee)
+
+Feature
+extractor
+ENDELEMENTTransfer Learning with Embeddings
+
+* Pre-trained embeddings for new models (e.g. word2vec)
+Alex is obnoxious but the tutorial is awesome.
+
+¢ Word2vec ignores sequential information entirely
+
+aWws
+
+courses.d2I.ai/berkeley-stat-157/index.html wee)
+ENDELEMENTGPT uses Transformer Decoder (Radford et al., ‘18)
+
+¢ Pre-train language model, then fine-tune on each task
+¢ Trained on full length documents
+
+¢ 12 blocks, 768 hidden units, 12 heads
+
+¢ SOTA for 9 NLP tasks
+
+¢ Language model only looks forward
+¢ I went to the bank
+¢ I went to the bank
+
+aWws
+
+courses.d2I.ai/berkeley-stat-157/index.html wee)
+ENDELEMENTArchitecture
+
+¢ (Big) transformer encoder
+
+¢ Train on large corpus (books,
+wikipedia) with > 3B words
+
+Dense Dense
+
+ 
+
+ 
+
+ 
+
+Queries Keys Values
+
+a
+units
+
+110M
+
+= 24 1024 16 340M
+aws
+
+courses.d2I.ai/berkeley-stat-157/index.html wee)
+
+  
+ENDELEMENTInput Encoding
+
+¢ Each example is a pair of sentences
+* Add aie ie and aa aa
+
+Position
+Embeddings
+
+Segment om
+Embeddings
+
+Token
+esas
+
+<bos> this movie is great <sep> i like it <sep>
+
+aWws
+
+courses.d2I.ai/berkeley-stat-157/index.html wee)
+ENDELEMENTTask 1 - Masked Language Model
+
+* Estimate pQG|%)).;-1) %i41-n)) rather than PQ; | 41.1)
+¢ Randomly mask 15% of all tokens and predict token
+* 80% of them - replace token with <mask>
+* 10% of them - replace with <random token>
+* 10% of them - replace with <token>
+
+Alex is obnoxious but the
+
+awesome.
+Alex is obnoxious but the awesome.
+Alex is obnoxious but the awesome.
+
+Alex is obnoxious but the
+
+ 
+
+awesome. aws
+
+courses.d2I.ai/berkeley-stat-157/index.html wee)
+ENDELEMENTTask 2 - Next Sentence Prediction
+
+* Predict next sentence
+* 50% of the time, replace it by random sentence
+
+¢ Feed the Transformer output into a dense layer to
+predict if it is a sequential pair.
+¢ Learn logical coherence
+
+<BOS> Alex is obnoxious <SEP>
+<BOS> Alex is obnoxious <SEP>
+aWws
+
+courses.d2I.ai/berkeley-stat-157/index.html wee)
+ENDELEMENTUsing BERT
+
+¢ BERT returns a feature
+vector for each token.
+
+¢ Embedding captures context
+
+ 
+
+courses.d2I.ai/berkeley-stat-157/index.html
+ENDELEMENTUsing BERT - Sentence Classification
+
+* BERT returns a feature
+vector for each token.
+
+¢ Embedding captures context
+
+¢ Feed <bos> embedding into
+dense layer
+
+* Works for pairs, too
+
+ 
+
+courses.d2I.ai/berkeley-stat-157/index.html
+ENDELEMENTUsing BERT - Named Entity Recognition
+
+BERT returns a feature
+
+vector for each token.
+
+Embedding captures context
+
+Identify if token is an entity
+Use embedding for each
+non-special token and
+classify via dense layer.
+
+ 
+
+courses.d2I.ai/berkeley-stat-157/index.html
+ENDELEMENTUsing BERT - Question Answering
+
+¢ Given question, find answer as segment of text
+¢ Encode question first, then text
+
+Vy Vo Vy
+Pps sPr = softmax ((s,¥1),---+(8,¥r)) | | | | |
+
+* Model sequence start & end
+probability for answer.
+
+  
+
+courses.d2I.ai/berkeley-stat-157/index.html wee)
+ENDELEMENTGPT2 (it gets even bigger, Radford et al., ‘19)
+
+* Pretrained on 8M webpages (WebText, 40GB)
+¢ Without fine-tuning SOTA on 7 language models
+
+aE: ried eons
+parameters
+units
+
+110M
+
+= 24 1024 340M
+GPT2 48 4600 1.5B
+aws
+
+d2l.ai ——
+
+ 
+ 
+ENDELEMENTGPT2 Demo (gluon-nip.mxnet.io)
+
+$python sampling _demo.py --model 117M
+
+Please type in the start of the sentence
+
+>>> average human attention span is even shorter than that of a
+goldfish
+
+aie Begin Sample © -----
+
+average human attention span is even shorter than that of a
+goldfish strutting its way down the jaws. An estimate by the USA
+TODAY Science team of 80 human-sized models reveals that a complex
+jaw becomes a grandiose mitesaur in 100 million years, less than an
+exothermic Holocene huge sea lion, and towering 500 meters tall.
+
+Similar mitesaur-sized jaws would burden as trillions
+
+Scientists would expect a lost at least four million times as much
+time in the same distances ocean as other mammals aws
+
+d2l.ai ~~
+ENDELEMENT  
+
+_ Sparse a
+* Structured Ni
+Lightweight
+ENDELEMENTHeavy parameterization in multi-head attention
+
+9. Attention Mechanism > 9.3. Transformer
+
+ 
+
+In practice, we often use pg = pe = Py = d,/h. The hyper-parameters for a multi-head attention,
+
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+  
+
+feature size d,.
+
+class MultiHeadAttention(nn.Block):
+def __init_(self, units, num_heads, dropout, #*kwargs): # units = U¢
+
+super(MultiHeadAttention, self). _init__(+*kwargs)
+assert units % num_heads == @
+
+self.num_heads = num_heads
+
+self.attention = d21.DotProductAttention(dropout)
+
+nn.Dense(units, use_bias=False, flatten=False)
+
+nn.Dense(units, use_bias=False, flatten=False)
+
+nn.Dense(units, use_bias=False, flatten=False)
+
+  
+     
+ 
+ 
+
+  
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+# query, key, and value shape: (batch_size, num_items, dim)
+
+# valid_length shape is either (bathc_size, ) or (batch_size, num_items)
+
+| def forward(self, query, key, value, valid_length):
+
+# Project and transpose from (batch_size, num_items, units) to
+
+# (batch_size * num_heads, num_items, p), where units = p * num_heads. aws
+| query, key, value = [transpose_qkv(X, self.num_heads) for X in ( =
+self.W_q(query), self.W_k(key), self.W_v(value) )] —
+
+ 
+
+ 
+ENDELEMENTQuaternion Transformer - 75% fewer parameters (Tay et al., ’19)
+
+  
+ 
+ 
+ 
+   
+ 
+  
+
+Quaternion is 4D hypercomplex number
+W=W,+ Wit W,j+ Wk
+Q=r+xit+yjt+zk
+Hamilton product
+
+W, -W, —-W, —W.] fr
+W, W, —-W, W, | le
+W, We. W, —Wel ly
+W. -W, W. W, | Lz
+ENDELEMENTHigh computational cost for a long sequence
+
+9. Attention Mechanism > 9.1. Attention Mechanis
+
+Assume Q € R”*4 contains m queries and K € R’*“ has all n keys. We can compute all mn sca
+
+a(Q, K) = QK"/Va.
+
+Now let's implement this layer that supports a batch of queries and key-value pairs. In addition, it su
+attention weights as a regularization.
+
+class DotProductAttention(nn.Block): # This class is saved in d2l.
+def __init_(self, dropout, **kwargs):
+super(DotProductAttention, self). _init__(#kkwargs)
+self.dropout = nn.Dropout(dropout)
+
+  
+ 
+ 
+ 
+ 
+  
+ 
+ 
+   
+ 
+  
+
+# query: (batch_size, #queries, d)
+
+# key: (batch_size, #kv_pairs, d)
+
+# value: (batch_size, #kv_pairs, dim_v)
+
+# valid_length: either (batch_size, ) or (batch_size, xx)
+
+def forward(self, query, key, value, valid_length=None):
+
+d = query.shape[-1]
+po
+
+ 
+
+attention_weights = self.dropout(masked_softmax(scores, valid_length) )
+
+return nd.batch_dot(attention_weights, value) ~——T
+ENDELEMENTStructured attention on long sequences (AlI-Rfou et al., ‘18)
+
+ee © © e 8 ©
+
+  
+
+ 
+
+ 
+
+ 
+
+ 
+
+d2l.ai
+ENDELEMENTTransformer-XL with recurrence (Dai et al., ‘19)
+
+Ce ee eee Oo °o
+acon st
+H Ze °
+ee CEU wee
+
+ 
+
+eS
+
+ 
+
+d2l.ai Extended Context ——
+
+ 
+ENDELEMENTSparse Transformer (Child et al., ‘19)
+
+A +--+ ei aa ei
+
+ 
+
+ 
+
+  
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ee Gee
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+d2l.ai
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTOpen Questions
+
+¢ Theory
+
+¢ Function complexity
+(design complex function via simple attention mechanism)
+
+* Convergence analysis for mechanism vs. parameters
+(similar to Watson-Nadaraya estimator)
+
+¢ Regularization
+¢ Interpretation
+« Attention vs. meaning
+(e.g. Hewitt & Manning, ’19; Coenen et al., 19 for BERT)
+¢ Multiple steps of reasoning
+Can we guide it? Structure it? Can we learn from it? aws
+d2lai —
+ENDELEMENTOpen Questions
+
+¢ Large State Spaces
+
+¢ Factorizing space
+
+(design automatically rather than manually per head)
+
+¢ Pseudorandom dense (beyond quaternions)
+
+¢ Learn sparse structure (transfer for attention?)
+¢ Computation
+
+¢ Avoid computation when no attention
+
+* Memory footprint
+¢ Low Hanging Fruit
+
+Rewrite papers with attention / Transformers / BERT
+
+d2l.ai
+
+aws
+ENDELEMENT6. Resources
+
+aws
+
+ 
+ENDELEMENT* Self-contained tutorials
+
+; ie - . ~~ * Statistics, linear algebra, optimization
+Sh Dive into Ss SoA * Machine learning basics
+; * 150+ Jupyter Notebooks, fully executed
+* GPU and parallel examples
+* Ready to use for applications
+* Teachable content
+« Adopted as a textbook or reference book
+ROSES : at Berkeley, CMU, UCLA, UIUC, Gatech,
+“Aston Zhang, Zachary C. Lipton, Shanghai Jiao Tong, Zhejiang U, USTC
+Mu Li, and Alexander Li Smola : * Slides, videos from Berkeley class
+
+. S courses.d2l.ai
+
+¢ Multilingual content EN, ZH
+
+(in progress: KO, JA, FR, TR)
+
+ad
+
+aws
+
+ 
+ENDELEMENTOne Code - Multiple Formats & Devices
+
+ 
+
+   
+
+22:304 aoe © © lecatnost.888)potehooks/chepter comolitona-made coue Bansv~ 6
+= jupyter alexnet (unsaved changes) rene
+© dai.ai o ~ ee eet an dis Not Tare ve
+
+Ce
+
+ 
+
+Activation Functions
+
+7.1.2.3. Capacity Control and
+Preprocessing
+
+‘Second, AlexNet changed the sigmoid activation function to simpler ReLU activation function. On the one hand, the
+‘computation of the ReLU activation function is simpler. For example, t does not have the exponentiation operation found in
+{he sigmoid activation function. On the other hand, the RLU activation function makes model taining easier when using
+sitferent parameter intalization methods. This is because, when the output ofthe sigmoid activation function is vary close to 0
+‘or 1, the gradient ofthese regions is almost 0, so that back propagstion cannot continue to update some of the model
+‘parameters. n contrast, the gradient of the RLU activation function in the postive Interval aways 1, Therefore, if the modal
+‘parameters are not property intatzed, the sigmoid function may obtain a gradient of almost 0 in the positive interval so that
+
+AlexNet controls the model complexity of the fully-
+connected layer by dropout (Section 4.6), whille
+
+ 
+
+LeNet only uses weight decay. To augment the date
+‘even further, the training loop of AlexNet added a
+great deal of image augmentation, such as flipping,
+clipping, and color changes. This makes the model
+more robust and the larger sample size effectively
+reduces overfitting. We will discuss data
+
+augmentation in greater detail in Section \2
+
+ 
+
+import sys
+sys.path. insert(0, 1!)
+
+import 2
+from mxnet import gluon, init, nd
+
+from mxnet.gluon import data as gdata, nn
+inport os
+
+import sys
+
+ 
+
+net = nn.Sequential()
+
+ 
+
+the model cannot be effectively trained
+
+Capacity Control and Preprocessing
+
+‘AloxNet controls the model complexlty ofthe fuly-connected layer by dropout (nunret: chapter_dropout ). while LeNet
+‘only uses weight decay. To augment the data even further, the raining oop of AlexNet added a great deal of mage
+augmentation, such as fipping, cipping, and color changes. This makes the mod! more robust and the lager sample size
+‘tfectively reduces overfting, We will discuss data augmentation In greator detail in
+
+‘numret; chapter_inage augmentation
+
+port sys
+sys.path.insert(0, |..!)
+
+Laport 421
+from mxnet import gluon, init, né
+from mxnet.gluon import data as gdat.
+Amport 08
+
+import sys
+
+   
+
+net = nn.Sequential()
+
+         
+
+not .add(nn.conv20(96, Kernel size=i1, atrides=i, activation= rel"),
+
+   
+
+‘an. MaxPoo12D (pool ti
+
+3, ateides=2),
+
+    
+
+ 
+
+ 
+
+aws
+——
+ENDELEMENTOpen Source
+
+ 
+
+d2l-ai /d2l-en
+
+ 
+
+‘© Code Pull requests 0
+
+Dive into Deep Learning, Berkeley STAT 187 (Spring 2019) textbook. With code, math, and discussions. https://d2I.ai
+
+ 
+
+lub, Ine. (USI | https:/github,com/d2\-a/a2-en t
+
+Projects 0 Insights © Settings
+
+Pullrequests Issues Marketplace Explore
+
+@owareh> 79 HUnstar 1669 YFork
+
+178 commits v2 branches 2eeleasee 88 69 contributors ‘View lcense
+ees Create newfie Uplond ies Find ile
+MB sstenznang uscate stace ma Latest commit a5811947 hors a90
+
+‘ chapter appendix
+im chapter. ttention-mechanism
+
+1m chapter.computational-pertormance
+{tm chapter.computer-vision
+
+(chapter convolutional-madern
+
+{m chapter convolutional-neural-networ
+tm chapter crashcourse
+
+tm chapter deep-tearning-computation
+fm chapter instal
+
+( chapter introduction
+
+https://d2l.ai
+
+ 
+
+ 
+
+Fix some warnings, impro
+
+   
+
+Dalbook (#26: 6 days a9
+
+Dalbook
+
+ 
+
+Datbook
+
+ 
+
+ct in batch norm re rumvet
+
+ 
+
+Datbook (#265)
+
+ 
+
+Fix some warnings, improve POF
+
+Remove repetition (#27:
+
+Merge branch ‘master! into m
+
+ 
+
+ 
+
+uetion Chapte
+
+  
+
+  
+
+len 21a
+
+  
+  
+    
+ 
+
+ 
+
+ 
+
+Dive into Deep Learning
+Release 0.7
+
+Aston Zhang, Zack C. Lipton, Mu Li, Alex J. Smola
+
+ 
+ENDELEMENT 
+
+ove es aes kk
+
+ 
+
+ 
+
+Syllabus Date Topics
+Assignments 1/22 Logistics, Software, Linear Algebra
+Projects nd " i
+1/24 Probability and Statistics (Bayes Rule, Sampling Naive Bayes, Sampling)
+Units ~
+1/29 __ Gradients, Chain Rule, Automatic differentiation
+FAQ
+
+1/31 Linear Regression, Basic Optimization
+
+ 
+
+ 
+
+2/5 Likelihood, Loss Functions, Logisitic Regression, Information Theory
+2/7 Multilayer Perceptron
+
+2/12 Model! Selection, Weight Decay, Dropout
+
+ 
+
+ 
+
+ 
+
+2/14 Numerical Stability, Hardware
+
+2/19 Environment
+
+ 
+
+2/21 Layers, Parameters, GPUs
+
+9/96 Convolutional Lavers
+ENDELEMENT120+ Videos on YouTube (+20 slide decks)
+
+= ¢ @ https://www.youtube.com/playlist?list=PLZSO_6-bSqGHQHBC bad
+= Premium Search
+t
+peer
+6
+Trending
+o
+
+Subscriptions
+
+Originals
+
+Library
+
+> PLAY ALL
+
+ 
+
+Deep Learning UC Berkeley STAT-
+157 2019
+
+128 videos + 17,182 views + Updated 4 days ago
+
+“
+
+© Alex Smola
+
+# eit
+
+°qQ@e?rtoue a
+
+ 
+
+Q x
+
+L1/1 Logistics
+
+Alex Smola
+
+ 
+
+L1/2 Deep Learning Overview
+2 Alex Smola
+
+L1/3 Software
+
+Alex Smola
+
+ 
+
+ia “"" 11/4 Linear Algebra
+
+Alex Smola
+
+ 
+
+ 
+
+L1/5 Linear Algebra in Jupyter
+
+5 Alex Smola
+
+ae =
+
+0 £®
+
+Added by
+Alex Smola
+
+Added by
+Alex Smola
+
+Added by
+Alex Smola
+
+Added by
+Alex Smola
+
+Added by
+‘Alex Smola
+
+aws
+——
+ENDELEMENT“ gluon-cv.mxnet.io
+~~ Computer Vision —_giuon-nip.mxnet.io
+—— Natural Language
+
+ 
+  
+ 
+  
+  
+  
+
+gluon-ts.mxnet.io
+Time Series Prediction
+
+7 tvm.ai
+
+Deep Learning
+
+e i i .
+Aston Zhang, Gait (on Lipton, mxnet.lo Compiler
+
+Mu Li, and Alexander J Smolé Imperative & Symbolic |
+=; =<.
+
+dgl.ai
+
+Deep Learning on
+Graphs aWws
+ENDELEMENTReferences
+
+Zaheer, Manzil, et al. "Deep sets." Advances in neural information processing systems. 2017.
+
+Ilse, Maximilian, Jakub M. Tomczak, and Max Welling. "Attention-based deep multiple instance learning." arXiv preprint arXiv:
+1802.04712 (2018).
+
+Salton, Gerard, and Michael J. McGill. "Introduction to modern information retrieval." (1986).
+
+Mikolov, Tomas, et al. "Distributed representations of words and phrases and their compositionality." Advances in neural information
+processing systems. 2013.
+
+Wang, Yequan, Minlie Huang, and Li Zhao. "Attention-based LSTM for aspect-level sentiment classification." Proceedings of the
+2016 conference on empirical methods in natural language processing. 2016.
+
+Yang, Zichao, et al. "Hierarchical attention networks for document classification." Proceedings of the 2016 Conference of the North
+American Chapter of the Association for Computational Linguistics: Human Language Technologies. 2016.
+
+Hu, Jie, Li Shen, and Gang Sun. "Squeeze-and-excitation networks." Proceedings of the IEEE conference on computer vision and
+pattern recognition. 2018.
+
+Velickovic, Petar, et al. "Graph attention networks." arXiv preprint arXiv:1710.10903 (2017).
+
+Sukhbaatar, Sainbayar, Jason Weston, and Rob Fergus. "End-to-end memory networks." Advances in neural information processing
+systems. 2015.
+
+Yang, Zichao, et al. "Stacked attention networks for image question answering." Proceedings of the IEEE conference on computer
+vision and pattern recognition. 2016.
+
+Sutskever, Ilya, Oriol Vinyals, and Quoc V. Le. "Sequence to sequence learning with neural networks." Advances in neural
+information processing systems. 2014.
+
+Tay et al. "Lightweight and Efficient Neural Natural Language Processing with Quaternion Networks", Proceedings of the 57th
+Annual Meeting of the Association for Computational Linguistics (ACL), 2019
+
+aws
+d2l.ai ——
+ENDELEMENTReferences
+
+Bahdanau, Dzmitry, Kkyunghyun Cho, and Yoshua Bengio. "Neural machine translation by jointly learning to align and
+translate." arXiv preprint arXiv:1409.0473 (2014).
+
+Luong, Minh-Thang, Hieu Pham, and Christopher D. Manning. "Effective approaches to attention-based neural machine
+translation." arXiv preprint arXiv:1508.04025 (2015).
+
+Vinyals, Oriol, Meire Fortunato, and Navdeep Jaitly. "Pointer networks." Advances in Neural Information Processing
+Systems. 2015.
+
+Graves, Alex, Greg Wayne, and Ivo Danihelka. "Neural turing machines." arXiv preprint arXiv:1410.5401 (2014).
+
+Vaswani, Ashish, et al. "Attention is all you need." Advances in neural information processing systems. 2017.
+
+Zhang et al. Co-occurrent Features in Semantic Segmentation. IEEE Conference on Computer Vision and Pattern
+Recognition (CVPR), 2019
+
+Devlin, Jacob, et al. "Bert: Pre-training of deep bidirectional transformers for language understanding." arXiv preprint arXiv:
+1810.04805 (2018).
+
+Radford, Alec, et al. "Improving language understanding by generative pre-training." URL https://s3-us-west-2. amazonaws.
+com/openai-assets/research-covers/languageunsupervised/language understanding paper. pdf (2018).
+
+Radford, Alec, et al. "Language models are unsupervised multitask learners." OpenAl Blog 1.8 (2019).
+
+Al-Rfou, Rami, et al. "Character-level language modeling with deeper self-attention." arXiv preprint arXiv:1808.04444 (2018).
+Dai, Zihang, et al. "Transformer-xl: Attentive language models beyond a fixed-length context." arXiv preprint arXiv:
+1901.02860 (2019).
+
+Child, Rewon, et al. "Generating long sequences with sparse transformers." arXiv preprint arXiv:1904.10509 (2019).
+
+aws
+d2l.ai ——
+ENDELEMENT

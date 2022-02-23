@@ -1,0 +1,981 @@
+Introduction to Neural
+Computation
+
+Prof. Michale Fee
+MIT BCS 9.40 — 2018
+Lecture 5
+ENDELEMENTHodgkin-Huxley model of action potential
+generation
+
+ 
+
+Voltage and time-dependent ion channels are
+the ‘knobs’ that control membrane potential.
+
+ 
+
+ 
+
+50
+
+ 
+
+ 
+
+vmv)
+
+Removed due to copyright restrictions: Figure 1a: The first intracellular
+recording of an action potential, from squid axon. Hausser, M. "The Hodgkin-
+
+Huxley theory of the action potential." Nature Neuroscience 3 (2000).
+
+ 
+
+ 
+
+0 200 400 600 800
+
+time (ms)
+ENDELEMENTHodgkin-Huxley model of action potential
+generation
+
+ 
+
+[, = Tyg tLe +L,
+
+This is the total membrane ionic current, and it includes the contribution
+from —sodium channels, potassium channels and a ‘leak’ conductance.
+
+The equation for our HH model neuron is
+
+1,() + C49 = 1.01)
+dt
+
+ 
+
+w
+ENDELEMENTVoltage and Time dependence
+
+* Voltage and time-dependent ion channels are the ‘knobs’ that
+control membrane potential.
+
+H&H studied the properties of K and Na channels in the squid giant
+axon. In particular they wanted to study the voltage and time
+dependence of the K and Na channels.
+
+Removed due to copyright restrictions: Figure 1a: The
+
+ 
+
+Brain
+first intracellular recording of an action potential, from
+squid axon. Hausser, M. "The Hodgkin-Huxley theory
+of the action potential." Nature Neuroscience 3 (2000).
+Giant
+axon
+(g) Squid (mollusk)
+1mm diameter! Hodgkin and Huxley, 1938
+
+Squid diagram from The CellularScale. Image of squid giant axon © Kay Cooper and Roger
+License CC BY-NC-SA. Hanlon. Used with permission.
+ENDELEMENTIonic currents
+
+ 
+
+Removed due to copyright restrictions: Figure 2.6 p. 36 In: Hille, Bertil. lon Channels
+of Excitable Membranes (3rd Ed.). 2001, Sinauer / Oxford University Press.
+ENDELEMENTIonic currents
+
+How do we figure out the contribution of Na and the contribution of K?
+
+lonic substitution (e.g. replace NaCl with choline chloride)
+
+     
+  
+    
+ 
+
+ 
+
+-9 mV
+Em
+-65 mV
+K current
+15 (B) 10% Na
+Im
+(mAlem2) OPQ Of
+aa (A) 100% Na
+1 (C) Difference current
+Ne Na current
+L L 1 L 1 J
+0 1 2 3 4 5
+
+Time after start of test pulse (ms)
+
+Annotated figure © Hille, Bertil. lon Channels of Excitable Membranes (3rd Ed.). 2001, Sinauer / Oxford University Press. All rights reserved.
+This content is excluded from our Creative Commons license. For more information, see https://ocw.mit.edu/help/faq-fair-use/.
+ENDELEMENTIonic currents
+
+K current
+
+ 
+
+Na current
+5
+05
+44 —40 mv 0
+Ca —
+E <
+S
+z3 8 0.5
+& é
+§ = -1
+5, :
+3 5
+¥ 8-15
+=< ©
+Zz
+' -2| —-40 mv
+—o0O mv
+0 > — 40 mv
+° mes 8 aad 2 4 6 8 10 12
+time (ms) time (ms)
+
+40 mV 40 mV
+
+ 
+
+ 
+
+ 
+ENDELEMENTIonic currents
+
+K current
+
+ 
+
+     
+
+Na current
+0.5
+0
+co a
+5 Se
+S -0.5|
+z <
+E £
+5 5
+3 3-15
+x [J
+Zz
+~2 —-40 mv
+—o0O mv
+F — 40 mv
+285 2 4 6 8 10 «12
+time (ms)
+1,(mAsem?) 1,0mavem?) |
+I Na
+
+En 59
+
+1 4 L 1
+0 50 700 V 0 00
+
+E,(mV)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTIonic currents (Voltage dependence)
+
+1, (maven) Tx [ TNa
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+
+I, =G,(V)(V—E,) Iya = Gua(V(V — Ena)
+
+<
+
+ 
+ENDELEMENTIonic currents
+(time and voltage dependence)
+
+ 
+
+Fast
+Delayed G,AV,t) activation
+activation K\Y>
+t 44 mV
+of £
+SE Se
+c & co
+Bo 82
+3é 36
+me}
+c g c &
+ou gu |
+1s) 2mV
+o & ve @
+ec © 8 !
+GB So
+32 (9)
+o= o= r 27 mV
+ne ve Fin On
+
+ 
+
+Time after start of pulse (ms)
+
+Annotated figure © Hille, Bertil. lon Channels of Excitable Membranes (3rd Ed.). 2001, Sinauer / Oxford University Press. All rights reserved.
+This content is excluded from our Creative Commons license. For more information, see https://ocw.mit.edu/help/faq-fair-use/.
+
+10
+ENDELEMENTVoltage-dependent conductance use voltage sensors
+
+CLOSED
+V,, =—-75mV Vou = OmMV
+Onw ”»~O
+Oonw9§ nH
+Onw§ nO
+Gate < lon selective pore
+© lpabinve oO
+Intracellular CN, NO Extracellular
+
+11
+ENDELEMENTVoltage-dependent conductance use voltage sensors
+
+OPEN
+
+  
+  
+
+Gate < lon selective pore
+
+© Lipid bilayer ©
+nw n»~O
+
+Intracellular Extracellular
+
+12
+ENDELEMENTK and Na conductances
+
+We modeled changes in conductance as transitions between ‘closed’
+
+and ‘open’ states of ion channels.
+
+K-conductance
+
+ 
+
+ 
+
+‘closed’ —“* 'open'
+l-n " n
+a
+T,—=n,-n _ x
+"di “ (a, + B,)
+
+nw)
+
+5
+
+O00 50
+
+Membrane potential (mV)
+
+ 
+
+ 
+
+ 
+
+Na-conductance
+
+ 
+
+‘closed’ —“= 'open'
+l—m m m
+7 im maf
+"ape a, + By)
+Lm)
+
+0 =—
+
+0 50
+\viemprane potential (MV)
+
+ 
+
+ 
+
+ 
+
+ 
+
+13
+ENDELEMENTGating variables
+
+The activation of both Na and K conductances is
+represented by ‘gating variables’ m and n
+
+K-conductance Na-conductance
+_ 4 3
+n(t) Pc) = [no] mt) Pa &[m(0)] a
+7; Inactivation
+
+ 
+
+ 
+
+Activation Inactivation
+gating variable , WA gating variable
+
+Py, = mh
+
+a
+ENDELEMENTSodium channel inactivation
+
+HH postulated an additional voltage-dependent
+inactivation gate.
+CLOSED
+OPEN (intactivated)
+P-~O
+
+On
+V,=+10mV QnnnWrOO
+NW RO
+
+     
+   
+   
+
+Inactivation
+
+rticl
+Panes Nn nO Nn n~™O
+On n~O nw nO
+Intracellular Orv ~~ Extracellular Orv ~O
+a
+'closed' = ‘open T, dh =h,—-h
+
+l-h ' h dt 15
+ENDELEMENTSodium channel inactivation
+
+Dynamics of inactivation are captured by a new gating
+variable ‘h’. Gy,(Vt)
+
+1h -h K\-
+
+‘co
+
+   
+
+ 
+
+of .
+inactivation g 5 mV
+A(t) disinactivation co
+2A >
+1e} iS =
+3
+Bo
+oil |
+r a 2mvV
+ov
+€ 8
+5
+g-
+Opa Mn Tle Fe [ee
+10 -
+39 mV
+) laqen-O-O-0 og,
+0 bogeeo OO
+0 ”
+3 Annotated figure © Hille, Bertil. lon Channels of Excitable Membranes
+P. = m h (3rd Ed.). 2001, Sinauer / Oxford University Press. All rights reserved.
+
+Na This content is excluded from our Creative Commons license. For more
+
+information, see https://ocw.mit.edu/help/faq-fair-use/. 16
+ENDELEMENTHow do we measure inactivation and recovery from inactivation?
+
+Measuring the parameters
+
+1. Hold V,, at different values
+2. Let the Na channels inactivate
+3. Then measure the Na current!
+
+Vi)
+
+ 
+
++40mV
+
+holding
+potential
+50
+
+measurement
+step
+
+ 
+
+ 
+
+ 
+
+h “ _ h,, ~~
+
+1 h,(V)
+0.5
+
+0
+
+50
+Membrane potential (mV)
+
+ 
+
+ 
+ENDELEMENTThe sodium conductance
+
+Putting our two Na-channel gating variables together, we get:
+
+The probability of having a Na channel open is:
+
+_ 3 <— Note independence
+Py, =nvh
+The sodium conductance is: NOT!
+_ But it’s not so
+Gy = Gy,m-h bad
+
+And the sodium current is:
+
+Tyg = Gy, AV — Ey,)
+ENDELEMENTPutting it all together!
+
+Start with initial contition y =y, at time step to
+
+Compute:
+n,(V) and T,(V) m,(V) and T,,(V) h,(V) and T,(V)
+
+n(f)=ntt—)+ eat m(t)=m(t-D+ eas h(t)= hr — 1) at
+dt dt dt
+1, =G,n'(V-Ex) Tq = Gy AV — Ey.) 1,=G,V-E,)
+Total membrane current J, =J,+J1,,+I,
+Compute T,,,, and V,,
+
+Vi O=V,,(t- +e 7 At
+ENDELEMENTPutting it all together!
+
+50 50
+S S
+—e ° —e °
+> -50 > -50
+1005 — 10 20 100 5 10 15 20
+time (ms) time (ms)
+«40
+5 G,(t)
+Q 20 Gy, (t)
+oD
+% 10 20 o 5
+
+ 
+
+5 10 1
+time (ms)
+
+time (ms)
+ENDELEMENTV (mV)
+
+Spike refractory period
+
+zl
+05 5 10 15
+
+time(ms)
+
+20
+ENDELEMENTSpike refractory period due to sodium
+
+channel inactivation
+
+-100
+0 5 _ 10
+time(ms)
+
+coat
+
+time( (ms)
+ENDELEMENT_ Diseases related to defects
+in sodium channel inactivation
+
+Fainting Goats Video from National Geographic
+
+ 
+ENDELEMENT_ Diseases related to defects
+in sodium channel inactivation
+
+Hyperkalemic Periodic Paralysis — Hyper PP
+
+See Lecture video to view clip
+ENDELEMENT 
+
+Structure of Muscle Fiber
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Myofibrils
+
+ 
+
+Transverse
+A tubules Sarcolemma (muscle fiber membrane)
+
+myofibrils
+
+\|
+\
+
+50-100 um
+
+ 
+
+filament  Mitochondrion =,”
+\
+
+ 
+
+ 
+
+Annotated Figure © Kandel, E.R, J.H. Schwartz, and T.M Jessell. Principles of Neural Science 3rd ed. 1991, McGraw-Hill.
+
+25
+ENDELEMENTMuscle Fiber AP Leads to Ca Release in
+Myofibrils
+
+Terminal Transverse Sacroplasmic Sarcolemma
+cistern tubules reticulum (muscle fiber membrane)
+
+ 
+
+Myofibriis—
+
+ 
+
+ 
+
+ 
+
+ 
+
+Annotated Figure © Kandel, E.R, J.H. Schwartz, and T.M Jessell. Principles of Neural Science 3rd ed. 1991, McGraw-Hill. 6
+ENDELEMENT_ Diseases related to defects
+in sodium channel inactivation
+
+Myotonia and Periodic Paralysis are
+associated with mutations of the Na channel
+(skeletal isoform only)
+
+Feu @ removed due to conv right e2:C
+iodic Paralysis. 19 (1996) ala,
+
+ 
+ENDELEMENTSodium channel mutations
+
+wild-type human M1592V mutation
+
+Figure removed due to copyright restrictions. See Figure 3: Cannon, S. "Sodum Channel Defects in Myotonia and
+Periodic Paralysis.” Annu. Rev. Neurosci. 19 (1996):141-44,
+
+29
+ENDELEMENT_ Diseases related to defects
+in sodium channel inactivation
+
+Sea anemone toxin (ATXII, 10uM) partially
+blocks sodium channel inactivation.
+
+Figure removed due to copyright restrictions. See Figure Sa: Cannon, S. "Sodum Channel
+Defects in Myotonia and Periodic Paralysis." Annu. Rev. Neurosci. 19 (1996):141-64.
+
+ 
+
+ 
+
+Sea anemone image is in the public domain.
+Source: heartypanther on Flickr.
+
+ 
+
+30
+ENDELEMENT_ Diseases related to defects
+in sodium channel inactivation
+
+Sea anemone toxin (ATXII) also prolongs
+muscle fiber twitch duration.
+
+Figure removed due to copyright restrictions. See Figure 5b: Cannon, S. "Sodum Channel
+Defects in Myotonia and Periodic Paralysis." Annu. Rev. Neurosci. 19 (1996):141-64.
+ENDELEMENT_ Diseases related to defects
+in sodium channel inactivation
+
+Sea anemone toxin (ATXII) prolongs spiking
+in muscle fiber.
+
+ 
+
+ 
+
+Control ATXII Myotonic
+° Stimulus “° soma run
+fimulus
+20: 50 nA 20 50 nA
+o 80 nA 0 —
+my “20
+-40.
+-60
+-80
+100
+5 eee
+60 msec
+40 Detubulated
+Osmotic shock breaks T-tubules ° stimulus
+mV
+and eliminates myotonic run -40
+-80
+LT ——
+60ms
+Annotated figure © Cannon, S. "Sodum Channel Defects in Myotonia and Periodic Paralysis." Annu. Rev. Neurosci. 19 (1996):141-64. All rights reserved. 32
+
+ 
+
+This content is excluded from our Creative Commons license. For more information, see https://ocw.mit.edu/help/faq-fair-use/.
+ENDELEMENT_ Diseases related to defects
+in sodium channel inactivation
+
+Hypothesis for how persistent sodium leads to persistent
+
+muscle activation. M
+otor neuron
+synapse
+. Nat
+Muscle fiber membrane
+
+oO
+Cc
+g
+me}
+&
+oO
+&
+a)
+i)
+a
+i)
+2
+
+ 
+ENDELEMENT_ Diseases related to defects
+in sodium channel inactivation
+
+Hypothesis for how persistent sodium leads to persistent
+
+muscle activation. M
+otor neuron
+Kt synapse
+Muscle fiber membrane
+
+oO
+Cc
+g
+me}
+&
+oO
+&
+a)
+i)
+a
+i)
+2
+
+ 
+ENDELEMENT_ Diseases related to defects
+in sodium channel inactivation
+
+Hypothesis for how persistent sodium leads to persistent
+muscle activation. M
+otor neuron
+synapse
+. Nat
+Muscle fiber membrane
+
+Failure of Na to
+inactivate leads to...
+
+... extra spikes!
+
+oO
+Cc
+g
+me}
+&
+oO
+&
+a)
+i)
+a
+i)
+2
+
+ 
+ENDELEMENT_ Diseases related to defects
+in sodium channel inactivation
+
+Hypothesis for how persistent sodium leads to persistent
+
+muscle activation.
+
+Muscle fiber membrane
+
+T-tubule membrane
+
+ 
+
+ 
+ 
+ 
+
+Motor neuron
+synapse
+
+Extra spiking leads
+to...
+
+... accumulation
+of extra Kt ions in
+T-tubules
+ENDELEMENT_ Diseases related to defects
+in sodium channel inactivation
+
+Hypothesis for how persistent sodium leads to persistent
+
+muscle activation. M
+otor neuron
+synapse
+Muscle fiber membrane
+Vn
+
+... leads to even
+more spiking!
+
+oO
+Cc
+g
+me}
+&
+oO
+&
+a)
+i)
+a
+i)
+2
+
+ 
+ENDELEMENT_ Diseases related to defects
+in sodium channel inactivation
+
+Equivalent circuit model of muscle fiber membrane and T-
+
+tubule.
+
+FIGURE 1 Equivalent circuit diagram for the
+model of the electrical behavior of a muscle fiber.
+The voltage and time dependence of the variable
+conductances are given by Eqs. 6, 7, 9, and 10.
+y is the ratio of the T-tubular membrane area to
+surface membrane area. The 7s represent the den-
+sity of ion channels in the T-tubular membrane
+relative to that of the surface membrane.
+
+surface membrane
+
+ 
+
+  
+
+ 
+
+ 
+
+T-tubule membrane
+
+  
+
+Courtesy of Elsevier, Inc., https://www.sciencedirect.com. Used with permission.
+
+38
+ENDELEMENT_ Diseases related to defects
+in sodium channel inactivation
+
+Hypothesis for how persistent sodium leads to persistent
+
+muscle activation. M
+otor neuron
+[K] K+ synapse
+Muscle fiber membrane
+
+oO
+Cc
+g
+me}
+&
+oO
+&
+a)
+i)
+a
+i)
+2
+
+ 
+ENDELEMENT_ Diseases related to defects
+in sodium channel inactivation
+
+Hypothesis for how persistent sodium leads to persistent
+
+muscle activation. M
+otor neuron
+synapse
+Muscle fiber membrane
+
+I, = K-current into T-tubule
+
+ 
+
+ 
+
+ 
+
+ 
+
+alk], o I, C E, is a function of [K];!!
+dt Kt
+[, =G,(V — E,)
+d[K], | K*
+Kt
+dt “i Fi aK, tg yp (LAL
+& = volume of T-tubule a EF * “ 5
+
+ 
+
+F = Faraday constant (C/mol)
+= 9,6x10* (C/mol) 40
+ENDELEMENT_ Diseases related to defects
+in sodium channel inactivation
+
+Computer model of effects of defective Na-
+channel inactivation
+
+Fraction of Na channels that fail to
+
+inactivate
+a J
+
+ 
+
+ 
+
+ 
+
+40 f= 0.001 f= 0.02 500
+‘normal: myotonia
+20, ) (my ) 400 «
+0 5
+- 300
+= 20 <=
+> 40 200
+60 00 @
+-80 4 | Lo _| 1 ~
+100 J SE | 0
+T 7 T T T T T T T 1
+© 100 200 0 100 200 300 400 500 600 700
+msec msec
+
+Annotated figure © Cannon, S. "Sodum Channel Defects in Myotonia and Periodic Paralysis." Annu. Rev. Neurosci. 19 (1996):141-64. Alll rights reserved
+This content is excluded from our Creative Commons license. For more information, see https://ocw.mit.edu/help/faq-fair-use/.
+
+ 
+
+Failure to inactivate was modeled by
+settting h=1 for a fraction of the
+
+channels a1
+ENDELEMENT_ Diseases related to defects
+in sodium channel inactivation
+
+Computer model of effects of defective Na-channel
+inactivation showing transition from myotonia to paralysis
+
+Figure rem ved due to copyr iehtre estrictions. Figue 6: Cannon, S. "Sodum Channel
+Defects nvyo otonia and Periodic Paralysis." ann ju. Rev. Neu ci. 19 (1996):141-64.
+ENDELEMENTMIT OpenCourseWare
+https://ocw.mit.edu/
+
+9.40 Introduction to Neural Computation
+Spring 2018
+
+For information about citing these materials or our Terms of Use, visit: https://ocw.mit.edu/terms.
+ENDELEMENT

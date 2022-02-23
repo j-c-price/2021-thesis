@@ -1,0 +1,922 @@
+Introduction to Neural
+Computation
+
+Michale Fee
+MIT BCS 9.40 — 2018
+Video Module on Nernst Potential
+Part 1
+ENDELEMENTA mathematical model of a neuron
+
+* Equivalent circuit model
+
+ 
+
+Time (ms) Alan Hodgkin
+Andrew Huxley, 1952
+
+ 
+ENDELEMENTA neuron is a leaky capacitor
+
+intracellular
+
+I, = membrane capacitive current
+
+I, = membrane ionic current
+
+ 
+
+extracellular
+
+V 4 in ey where T=R,C
+
+_ dt © V(t)=R, L(t)
+
+w
+ENDELEMENTResponse to current injection
+
+Let's see what happens when we inject current into our
+model neuron with a leak conductance.
+
+ 
+ENDELEMENTA neuron is a leaky capacitor
+
+ 
+ENDELEMENTOutline of HH model
+
+Voltage and time-dependent ion channels are
+the ‘knobs’ that control membrane potential.
+
+ 
+
+50
+Ss 0
+£
+>
+-5O| °
+0 200 400 600 800
+time (ms) .
+
+ 
+
+Some ion channels push the membrane
+potential positive.
+
+Other ion channels push the membrane
+potential negative.
+
+Together these channels give the neural
+machinery flexible control of voltage!
+ENDELEMENTWhere do the batteries of a neuron come from?
+
+1) lon concentration gradients
+
+2) lon-selective permeability of ion
+channels
+
+ 
+ENDELEMENTNeurons have batteries
+
+‘Non-selective’ pore
+[K] passes all ions
+
+  
+ 
+
+[K]eo=[K]o/2 — -->
+
+ 
+
+: Wasise
+Time
+
+(a long time)
+ENDELEMENT   
+      
+
+Neurons have batteries
+
+‘lon-selective’ pore
+passes only K* ions
+
+Why does the concentration
+stop changing here?
+
+Time
+(a short time)
+
+ 
+
+Why do the ions stop flowing
+from side 1 to side 2?
+
+Time
+ENDELEMENTNeurons have batteries
+
+‘lon-selective’ pore
+passes only K* ions
+
+time
+
+AV=V,-V>
+
+   
+  
+
+ 
+
+The voltage difference changes in a
+direction that opposes the flow of ions.
+
+c This voltage difference is a
+K
+
+\ It reaches an ‘equilibrium potential’ at a
+value that gives zero net flow of ionic
+current.
+
+battery for our model neuron!!
+
+10
+ENDELEMENTNeurons have batteries
+
+K+ K+ ——>
+Kt
+Kt | |
+V(x) Vout
+Vin —eE
+
+ 
+
+There will be some electric field strength such that the
+‘drift’ will exactly balance the diffusion produced by the
+
+concentration gradient...
+
+Nernst Potential 4
+ENDELEMENTNeurons have batteries
+
+Where do the ‘batteries’ of a
+neuron come from?
+
+1) lon concentration gradients
+
+2) lon-selective pores (channels)
+
+How big is the battery (how
+many volts?)
+
+ 
+
+This is determined by a balance
+between diffusion down a concentration
+gradient balanced by ‘drift’ in the
+opposing electric field.
+
+12
+ENDELEMENTElectrodiffusion and the Nernst Potential
+One can use Ohm's law and Fick's first law to derive the Nernst
+potential
+
+— At this voltage, the drift current in the electric field exactly
+balances current due to diffusion
+
+I = 0
+
+Tot Drift + I Diffusion
+
+Ohm's Law Fick's First Law
+
+_ Aq’y(x)D AV
+
+ 
+
+L pipfusion = —AqD og
+
+Drift kT L Ox
+AV= te 2a at equilibrium
+q Pin
+
+ 
+ENDELEMENTDerive Nernst potential using the
+Boltzmann equation
+
+The Boltzmann equation describes the ratio of probabilities of a
+particle being in any two states, at thermal equilibrium:
+UUs
+
+Pvatet _ ol iT ) k =Boltzmann constant (J/K)
+
+state2
+
+T =temperature (K) = 273 + T,
+
+Energy kT =thermal energy (J)
+
+state 1
+state 2
+
+kT =0
+
+Patel - 0
+P.
+
+state2
+
+14
+ENDELEMENTDerive Nernst potential using the
+Boltzmann equation
+
+The Boltzmann equation describes the ratio of probabilities of a
+particle being in any two states, at thermal equilibrium:
+
+U,-U
+Pvatet _ ol rr 2) k =Boltzmann constant (J/K)
+
+state2
+
+T =temperature (K)
+
+Energy kT =thermal energy (J)
+Ut. ——— ®
+state 1 ° ©
+Us @*e®9 2 SAT
+state 2
+kT >0
+Patel > 0
+
+P.
+
+state2
+
+15
+ENDELEMENTDerive Nernst potential using the
+Boltzmann equation
+
+The Boltzmann equation describes the ratio of probabilities of a
+particle being in any two states, at thermal equilibrium:
+
+Energy
+U,
+state 1 °
+°
+a)
+Ur 2°00 9% pir
+state 2
+AU >> kT
+P
+state1
+<i! 0)
+
+state2
+
+ 
+
+U,-U.
+P. -( 1 2)
+state1 kT
+— =e
+
+state2
+
+Energy
+U, 2
+O°
+state 1 4 © eo
+U, @*o®o © SkT
+state 2
+AU = 2kT
+Patel 2
+——“—=e
+state2
+
+Energy
+
+°
+@ 20 ©
+
+state 1 State 2
+
+AU <kT
+
+Patel ~ 1.0
+
+state2
+
+@ }kT
+
+16
+ENDELEMENTNernst Potential
+
+We can compute the equilibrium potential using the Boltzmann
+equation:
+
+ 
+
+P GinVour —qVin=Vour) U =qV = electrical potential (J)
+in = e kT = e kT
+P, q= charge of ion
+
+- q= 1.6x10-°C for monovalent ion
+
+ 
+
+17
+ENDELEMENTNernst Potential
+
+We can compute the equilibrium potential using the Boltzmann
+equation:
+
+ 
+
+ 
+
+P GinVour —qVin=Vour) U =qV = electrical potential (J)
+in =e kT =e kT
+P. q= charge of ion
+kT P q= 1.6x107'°C for monovalent ion
+Vi, Vout = In ~
+q Pau
+kT
+— = 25mV for monovalent ion
+P q
+AV = V,-V,, =25mV in(
+
+LK].
+
+AV = 25 mV n( [K], ~ Ex yQ Don't get confused by this notation. Ex is the
+
+equilibrium potential (voltage) for the K ion. 18
+‘E' here does not refer to an electric field.
+ENDELEMENTThe Nernst potential for potassium
+
+Intracellular and extracellular concentrations of ionic
+species, and the Nernst potential
+
+ 
+
+Cytoplasm Extracellular Nernst
+(uh) (uh) (mV)
+Kt 400 20 -75
+
+ 
+
+ 
+
+ 
+
+E,= —lIn —— =25mV at 300K (room temp)
+qd qd for monovalent ion
+
+kT | 20 | kT
+400
+
+Ex = 25mV(—3.00) = —75mV
+
+19
+ENDELEMENTHow to implement an ion specific conductance
+as a battery in our model neuron
+
+ 
+ENDELEMENTIntroduction to Neural
+Computation
+
+Michale Fee
+MIT BCS 9.40 — 2018
+Video Module on Nernst Potential
+Part 2
+ENDELEMENTThe Nernst potential for potassium
+
+Intracellular and extracellular concentrations of ionic
+species, and the Nernst potential
+
+ 
+
+Cytoplasm Extracellular Nernst
+(uh) (uh) (mV)
+Kt 400 20 -75
+
+ 
+
+ 
+
+ 
+
+AT = 25mV at 300K (room temp)
+
+qd for monovalent ion
+
+ 
+
+ 
+
+Ex = 25mV(—3.00) = —75mV
+
+22
+ENDELEMENTHow to implement an ion specific conductance
+as a battery in our model neuron
+
+ 
+ENDELEMENTPotassium I-V relation
+
+One of the best ways to study the function of an ion channel is
+to plot the current-voltage relation (I-V curve). This can be
+
+measured as the current required to hold the neuron at a given
+voltage. he
+
+ 
+
+For a potassium conductance
+
+* If you hold the voltage above the
+equilibrium potential, K current will flow out I
+through the membrane (positive current) K
+
+* If you hold the cell below E,, then the
+current will flow into the cell.
+
+     
+
+Ex
+
+Note that the current reverses at the equilibrium potential, so this
+
+is often referred to as the ‘reversal potential’ 24
+ENDELEMENTI-V relation
+
+This relation turns out to be monotonic and Tx
+roughly linear for ion channels in the open
+state. So we can write:
+
+V
+-1 Ex
+T.=G.V-E,), G.=R,
+We can model this as a battery in series with a resistor! Why?
+Av =4«
+Gx Vn Vz = Ey +8 BD Ie = GV Ex)
+
+AV = Ex | driving potential
+wenn eee e eee 25
+ENDELEMENTOur equation is now:
+
+dV
+I, +C—=I1
+K dt e
+
+dV
+
+OV -E)+C7 =, By R,=G, By
+
+dV
+Vtro Ext Rel,
+
+Y-~
+
+V.
+
+log)
+
+ 
+
+ 
+
+T=R.C
+
+K
+
+26
+ENDELEMENTResponse to current injection
+
+Ex =—75mV
+
+ 
+
+ 
+  
+
+V(t) = Ey + Ry L(t)
+
+ 
+ENDELEMENTA mathematical model of a neuron
+
+* Equivalent circuit model
+
+ 
+
+Time (ms) Alan Hodgkin
+Andrew Huxley, 1952
+
+ 
+ENDELEMENTThe Nernst Potential is different for
+different ions
+
+Intracellular and extracellular concentrations of ionic
+species, and the Nernst potential
+
+Cytoplasm Extracellular Nernst
+a) (mM) (mV)
+Kt 400 20 -75
+
+ 
+
+ 
+
+ 
+
+Nat 50 440 fh Nat
+Ey, = 2smv io 22) = 25mV (2.17) =54.3mV
+
+ 
+
+29
+ENDELEMENTThe Nernst Potential is different for
+different ions
+
+Intracellular and extracellular concentrations of ionic
+species, and the Nernst potential
+
+Cytoplasm Extracellular Nernst
+(mM) (mM) (mV)
+Kt 400 20 -75
+
+ 
+
+Nat 50 440 +54 cr cr
+
+cr 52 560 cr
+
+ 
+
+ 
+
+ 
+
+<e = -25mV (2.38) =-59.4mV
+
+52,
+
+The negative here comes from the negative charge of the Cl ion (q=-e) 30
+
+Ey = -gsnr |
+ENDELEMENTThe Nernst Potential is different for
+
+different ions
+
+Intracellular and extracellular concentrations of ionic
+
+Nat*
+ck
+
+Ca*t
+
+species, and the Nernst potential
+
+Cytoplasm Extracellular Nernst
+(mM) (mM) (mV)
+Kt 400 20 -75
+
+50
+52
+10%
+
+E,, =12.5mV In|
+0001
+
+Why is this 12.5mV?
+
+ 
+
+440
+560
+2
+
+|- 124mV
+
++55
+-59
++124
+
+ 
+
+ 
+
+Ca cans
+
+ 
+
+31
+
+ 
+ENDELEMENTOutline of HH model
+
+ 
+
+Voltage and time-dependent ion channels are
+the ‘knobs’ that control membrane potential.
+
+ 
+
+50
+
+ 
+
+ 
+
+ 
+
+0 .
+* Natchannels push the membrane potential
+toward +50mV.
+
+-50
+_——— as * K* channels push the membrane potential
+0 200 400 600 800 toward -80mV.
+time (ms)
+
+v(mv)
+
+ 
+
+* Together these channels give the neural
+machinery flexible control of voltage!
+
+° - for example to generate an action potential
+
+32
+ENDELEMENTIntroduction to Neural
+Computation
+
+Michale Fee
+MIT BCS 9.40
+
+Video Module on Integrate and Fire
+Neuron
+ENDELEMENTOutline of HH model
+
+ 
+
+Voltage and time-dependent ion channels are
+the ‘knobs’ that control membrane potential.
+
+50
+
+ 
+
+ 
+
+ 
+
+ 
+
++ Na* conductance pushes the membrane
+potential toward +55mvV.
+
+-50
+L$ ___— * _K* conductance pushes the membrane
+
+0 200 400 600 800 potential toward -75mV.
+time (ms)
+
+v(mv)
+
+ 
+
+* Together these conductances (and
+batteries) give the neuron flexible control
+of voltage!
+
+° - for example to generate an action potential
+
+34
+ENDELEMENTIntegrate and Fire model of a neuron
+
+ 
+
+ 
+
+We are going to replace the fancy spike generating mechanism in a
+real neuron with a simplified ‘spike generator’.
+
+Spike
+
+generator
+
+ 
+
+Louis Lapique, 1907
+Knight, 1972 35
+ENDELEMENTA simplified model of a neuron
+
+Membrane Potential [mV]
+
+ 
+
+spikes as 6 — functions
+
+* While APs (spikes) are important, they are not what neurons spend most of
+their time doing. Spikes are very fast (~1ms in duration).
+
+* This is much shorter than the typical interval between spikes (~100ms). Most
+of the time, a neuron is ‘integrating’ its inputs. (Separation of timescales)
+
+* All spikes are the same. (No information carried in the details of action
+potential waveforms.)
+
+* Spikes tend to occur when the voltage in a neuron reaches a particular
+
+membrane potential, called the spike threshold. 36
+ENDELEMENTIntegrate and Fire model of a neuron
+
+The spike generator is very
+simple. When the voltage
+reaches the threshold V,,, it generator
+resets the neuron to a hyper-
+polarized voltage V,.s-
+
+Spike
+
+ 
+
+Removed due to copyright restrictions: Figure 2D1: Subthreshold
+membrane potential oscillations in RA neuron. Mooney, R. "Synaptic
+basis for developmental plasticity in a birdsong nucleus." Journal of
+Neuroscience 1 July 1992, 12 (7) 2464-2477.
+
+ 
+
+37
+ENDELEMENTIntegrate and Fire model of a neuron
+
+* Let's calculate the firing rate of our neuron
+
+ 
+
+ae ‘ We'll first consider the case
+eee y where there is no leak.
+1
+TT AV =V,, —Vys
+|. dv _AV
+Ar dt At
+Ven cM, CMa
+dt . At
+
+ 
+ENDELEMENTIntegrate and Fire model of a neuron
+
+* Let's calculate the firing rate of our neuron
+
+We'll first consider the case
+where there is no leak.
+
+Spike
+
+generator
+
+ 
+
+ 
+ENDELEMENTIntegrate and Fire model of a neuron
+
+Now we'll put our leak
+conductance back in.
+
+ 
+  
+ 
+    
+
+   
+
+Spike
+
+Think of this G, like a small
+generator
+
+potassium conductance that is
+constantly on. It has no voltage
+dependence and no time
+dependence. E, = -75mV.
+
+  
+ 
+ 
+    
+
+1 _-- What happens when
+
+° V..<V,, ?
+
+40
+ENDELEMENTIntegrate and fire with leak
+
+What happens just at threshold?
+
+  
+
+fr.
+The time to reach threshold\y _ ) is:
+* very long
+* very sensitive to injected current 0 T
+ENDELEMENTIntegrate and fire with leak
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Veo EE eft _— V.. _ Vin
+Vijpcoeeee eee lee nee VV,
+At = rn] Yoo — Vis |
+View a a Vi ~~ V, S
+v.-v.)\l-
+VIQ-V = -VaJet fae! = rin Ye
+| | | oo|~=6 th
+
+V,, —V,. — (V. —Vije™”
+
+res
+
+42
+ENDELEMENTIntegrate and fire
+
+-1
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+At high input currents, the solution tn vo Vee
+. . . =|T
+has a simple approximation Vi. — Vy,
+V.. > Vi Ves Ind + a) ~a
+
+ 
+
+os ! (1.-1n) 1, =G_,(V,,—E,)
+
+ 
+
+43
+ENDELEMENTIntegrate and fire
+
+This equation is linear in injected current I, , just like the case of no leak!
+
+ 
+
+The F-I curve of many neurons look approximately like this!
+
+70
+
+      
+
+© L2MN
+© 12/3RS
+
+{01° 6 0102030405 Luo et al 2017
+
+Current (nA)
+
+Figure courtesy of Luo, et al. License: CC BY. Source: "Comparison of the Upper Marginal Neurons of Cortical
+Layer 2 with Layer 2/3 Pyramidal Neurons in Mouse Temporal Cortex." Front. Neuroanat., 21 December 2017.
+
+ 
+
+44
+ENDELEMENTIntegrate and Fire model of a neuron
+
+ 
+
+ 
+
+We have replaced the fancy spike generating mechanism in a real
+neuron with a simplified ‘spike generator’.
+
+Spike
+
+generator
+
+ 
+
+Louis Lapique, 1907
+Knight, 1972 45
+ENDELEMENTMIT OpenCourseWare
+https://ocw.mit.edu/
+
+9.40 Introduction to Neural Computation
+Spring 2018
+
+For information about citing these materials or our Terms of Use, visit: https://ocw.mit.edu/terms.
+ENDELEMENT

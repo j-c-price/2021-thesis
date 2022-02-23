@@ -1,0 +1,1566 @@
+— ae | Bloomberg Viavevo:
+—f i | — 2)
+
+OA Le NY ee — 4 eS
+
+   
+
+Keynote:
+Better Code: Relationships
+
+Sati, peel < W a
+mj HIN) ~ ~ hi Se oc —.
+
+FI Fpy yi
+
+i
+
+ 
+     
+
+Us
+
+v7 Mees
+
+a l4hd aA WE ig Si i
+
+“. over ere
+CX
+3.8 0 0 o, 016 .6-6'6
+
+ 
+   
+
+@@e@ee@e0e6a—
+ENDELEMENTBetter Code: Relationships
+
+Sean Parent | Senior Principal Scientist, Photoshop
+
+ 
+
+ 
+
+#AdobeRemix
+
+ipa -Mitsume Takahashi
+
+ 
+ENDELEMENT(Erey]ba Non Ge) aiigclel(qiilelars
+
+ 
+
+ 
+   
+
+na we pant og - as = = #AdobeRemix
+
+2 eens | ___ Hiroyuki-Mitsume Takahashi
+ENDELEMENT 
+
+‘A novice sees only the chessmen.
+An amateur sees the board.
+A master sees the game.
+— Unknown
+
+ 
+
+ 
+ENDELEMENT‘Computer scientists are Dad at
+relationsnips.
+— Me
+
+ 
+
+ 
+ENDELEMENTThe Pieces
+Relationships
+
+ 
+
+_ a <a
+dyUuki-Mitsume Takahashi
+Ts — ~ —_
+ENDELEMENTee
+Relations in Math
+
+» A relation is a set of ordered pairs mapping entities from a domain to a range
+
+= Distinct from a function in that the first entity does not uniquely determine the second
+
+= A relationship is the way two entities are connected
+
+(Xo, Yo)s (€1, Yr), (2, Ya),
+
+ 
+ENDELEMENTee
+Predicates
+
+= A relation implies a corresponding predicate that tests if a pair exists in the relation
+
+: |f itis true, the relationship is satisfied or holds
+
+= John is married to Jane
+
+= Is John married to Jane?
+
+ 
+ENDELEMENTDD
+Constraints
+
+= Aconstraint is a relationship which must be satisfied
+
+= For another relationship to be satisfied
+
+= The denominator must not be 0 for the result of division to be defined
+
+ 
+ENDELEMENT 
+
+Implication
+a=>b
+o>» ae
+0 0 1
+
+(a implies b)
+
+ 
+
+0 1 1
+
+1 O 0
+
+ 
+ENDELEMENT 
+
+A simple, but incomplete, notation
+
+- Entities are represented with a rectangle, and relationships with a circle
+
+» This forms a bipartite graph
+
+ 
+ENDELEMENT 
+
+A simple notation
+
+= Implication is represented with directional edges
+
+ 
+
+= This is shorthand for given entities b and c, a is any entity such that R holds
+
+= Read as, band c imply a
+
+ 
+ENDELEMENTSS
+Relationships and Objects
+
+= As soon as we have two entities we have implicit relationships
+= Amemory space Is an entity
+
+= When an object is copied or moved, any relationship that object was involved in Is either
+maintained or severed with respect to the destination object
+
+= When an object is destructed, any relationship that object was involved in is severed
+
+ 
+ENDELEMENTa
+Witnessed Relationships
+
+= Awitnessed relationship is a relationship represented by an object
+» Asan object, a witnessed relationship is copyable and equality comparable
+
+= When an object is copied or moved, any witnessed relationship that object was involved in is
+either maintained, severed, or invalidated
+
+» When an object is destructed, any witnessed relationship that object was involved in is either
+severed, or invalidated.
+
+= We may choose not to implement copy or move for witnessed relationships
+
+- This is how we get iterator invalidation “at a distance’
+
+ 
+ENDELEMENTEiatcusier-ice
+
+Structures
+
+ 
+
+_ a <a
+dyUuki-Mitsume Takahashi
+Ts — ~ —_
+ENDELEMENTA structure on a set consists of
+additional entities that, in some
+manner, relate to the set,
+endowing the collection with
+meaning or significance.
+
+ 
+ENDELEMENT| This slide intentionally left void |
+ENDELEMENTENDELEMENTENDELEMENT 
+ENDELEMENTENDELEMENTENDELEMENTENDELEMENTDow
+
+O
+
+O
+
+ri
+re
+©
+©
+ENDELEMENTBoo
+
+O
+
+re
+ri
+©
+©
+ENDELEMENT            
+
+hash ( != hash
+
+ 
+
+) )
+ENDELEMENTMemory Space
+
+© 2019 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENTMemory Space
+
+ 
+
+Adobe
+ENDELEMENTa
+Safety
+
+= An object instance, without meaning, is invalid
+= An object in an invalid state, must either be restored to a valid state, or destroyed
+= This is related to the idea of a partially formed object
+
+= An operation which leaves an object in an invalid state is unsafe
+
+= std: :move() is an unsafe operation
+
+ 
+ENDELEMENTDD
+C+420
+
+= Two new features specifically about relationships
+= Concepts
+
+= Contracts
+
+© 2019 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENTDD
+C+420
+
+= FweOne new features specifically about relationships
+= Concepts
+= Contracts
+
+© 2019 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENT 
+
+ 
+
+© 2019 Adobe. All Rights Reserved.
+
+ 
+
+Fundamentals of Generic Programming
+
+James C. Dehnert and Alexander Stepanov
+
+Silicon Graphics, Inc.
+dehnertj@acm.org, stepanov@attlabs.att.com
+
+Copyright © Springer-Verlag. Appears in Lecture Notes in Computer Science 1998
+(LNCS) vo veume 1766. See http://www.springer.de/comp/Incs/index.html .
+
+ 
+ENDELEMENT 
+
+‘We call the set of axioms satistied
+by a data type and a Set of
+operations on it a concept:
+
+ 
+ENDELEMENT 
+
+‘We call the set of axioms satistied
+by a data type and a Set of
+operations on it a concept:
+
+ 
+ENDELEMENTAn Axiomatic Basis for
+Computer Programming
+
+C. A. R. Hoare
+The Queen’s University of Belfast,* Northern Ireland
+
+ 
+
+© 2019 Adobe. All Rights Reserved.
+
+ 
+
+of purely deductive reasoning. Deductive reasoning in-
+volves the application of valid rules of inference to sets of
+valid axioms. It is therefore desirable and interesting to
+elucidate the axioms and rules of inference which underlie
+our reasoning about computer programs. The exact choice
+of axioms will to some extent depend on the choice of
+programming language. For illustrative purposes, this
+paper is confined to a very simple language, which is effec-
+tively a subset of all current procedure-oriented languages.
+
+2. Computer Arithmetic
+
+The first requirement in valid reasoning about a pro-
+gram is to know the properties of the elementary operations
+which it invokes, for example, addition and multiplication
+of integers. Unfortunately, in several respects computer
+arithmetic is not the same as the arithmetic familiar to
+mathematicians, and it is necessary to exercise some care
+in selecting an appropriate set of axioms. For example, the
+axioms displayed in Table I are rather a small selection
+of axioms relevant to integers. From this incomplete set
+
+ 
+
+* Department of Computer Science
+
+576 Communications of the ACM
+
+It is interesting to note that the different systems satisfy-
+ing axioms Al to A9 may be rigorously distinguished from
+each other by choosing a particular one of a set of mutually
+exclusive supplementary axioms. For example, infinite
+arithmetic satisfies the axiom:
+
+Al0; =3rVy (y <x),
+where all finite arithmetics satisfy:
+Al0y Wa (a < max)
+
+where “max” denotes the largest integer represented.
+
+Similarly, the three treatments of overflow may be
+distinguished by a choice of one of the following axioms
+relating to the value of max + 1:
+
+Alls -3e (x = max + 1) (strict interpretation )
+Ally» max +1 = max (firm boundary )
+Ally max+1=0 (modulo arithmetic )
+
+Having selected one of these axioms, it is possible to
+use it in deducing the properties of programs; however,
+
+Volume 12 / Number 10 / October, 1969
+
+1969
+ENDELEMENTa
+Equality
+
+= Two objects are equal iff their values correspond to the same entity
+
+- From this definition we can derive the following properties:
+
+(Va)a =a. (Reflexivity)
+(Va, b)a=b>b=a. (Symmetry)
+(Va,b,cla=bAb=c>a=c. (Transitivity)
+
+ 
+ENDELEMENTSS
+Concepts
+
+= Axioms follow from the definition
+
+= A collection of connected axioms form an algebraic structure
+
+= Connected type requirements form a concept
+
+ 
+ENDELEMENTa
+Copy and Assignment
+
+- Properties of copy and assignment:
+b> as>a=b (copies are equal)
+a=b=cAdfad-asaFfbAb=c (copies are disjoint)
+
+= Copy Is connected to equality
+
+ 
+ENDELEMENTee
+Natural Total Order
+
+= The natural total order is a total order that respects the other fundamental operations of the
+type
+A total order has the following properties:
+
+(Va, b)exactly one of the following holds:
+
+a<b,b<a,ora=b. (Trichotomy)
+(Va,b,clax<bAb<csSa<e. (Transitivity)
+
+ 
+ENDELEMENTee
+Natural Total Order
+
+= Example: Integer < is consistent with addition.
+
+(Vn € Z)n < (n+1).
+
+ 
+ENDELEMENTSS
+Concepts
+
+= Quantified axioms are (generally) not actionable
+
+= Concepts in C++20 work by associating semantics with the name of an operation
+
+ 
+ENDELEMENTSottware is defined on Algebraic Structures
+
+ 
+ENDELEMENTApplying “Design by
+Contract”
+
+Bertrand Meyer
+
+Interactive Software Engineering
+
+© The cornerstone of object-oriented technology is reuse. For reusable compo-
+nents, which may be used in thousands of different applications, the potential
+consequences of incorrect behavior are even more serious than for application
+specific developments.
+¢ Proponents of object-oriented methods make strong claims about their bene-
+ee Se ee ee ficial effect on software quality. Reliability is certainly a central component of
+. any reasonable definition of quality as applied to software.
+
+o pepe © The object-oriented approach, based on the theory of abstract data types,
+Reliability Is even more provides a particularly appropriate framework for discussing and enforcing
+
+important in object- reliability
+
+oriented programming The pragmatic techniques presented in this article, while certainly not providing
+
+h 1 h hi infallible ways to guarantee reliability, may help considerably toward this goal
+than elsewhere. This They rely on the theory of design by contract. which underlies the design of the
+’ ) &
+
+article shows how to Eiffel analysis, design, and programming language’ and of the supporting libraries, e e
+aS from which a number of examples will be drawn.
+reduce bugs by building The contributions of the work reported below include O r | gl Nn a
+software components ea coherent set of methodological principles helping to produce correct and
+on the basis of carefully —_ "bust seliware:
+
+‘ © a systematic approach to the delicate problem of how to deal with abnormal
+designed contracts. cases, leading to a simple and powerful exception-handling mechanism: and
+P pe P is
+
+ 
+
+40 PRIS en a COMPUTER
+
+© 2019 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENTAn Axiomatic Basis for
+Computer Programming
+
+C. A. R. Hoare
+The Queen’s University of Belfast,* Northern Ireland
+
+ 
+
+© 2019 Adobe. All Rights Reserved.
+
+ 
+
+of purely deductive reasoning. Deductive reasoning in-
+volves the application of valid rules of inference to sets of
+valid axioms. It is therefore desirable and interesting to
+elucidate the axioms and rules of inference which underlie
+our reasoning about computer programs. The exact choice
+of axioms will to some extent depend on the choice of
+programming language. For illustrative purposes, this
+paper is confined to a very simple language, which is effec-
+tively a subset of all current procedure-oriented languages.
+
+2. Computer Arithmetic
+
+The first requirement in valid reasoning about a pro-
+gram is to know the properties of the elementary operations
+which it invokes, for example, addition and multiplication
+of integers. Unfortunately, in several respects computer
+arithmetic is not the same as the arithmetic familiar to
+mathematicians, and it is necessary to exercise some care
+in selecting an appropriate set of axioms. For example, the
+axioms displayed in Table I are rather a small selection
+of axioms relevant to integers. From this incomplete set
+
+ 
+
+* Department of Computer Science
+
+576 Communications of the ACM
+
+It is interesting to note that the different systems satisfy-
+ing axioms Al to A9 may be rigorously distinguished from
+each other by choosing a particular one of a set of mutually
+exclusive supplementary axioms. For example, infinite
+arithmetic satisfies the axiom:
+
+Al0; =3rVy (y <x),
+where all finite arithmetics satisfy:
+Al0y Wa (a < max)
+
+where “max” denotes the largest integer represented.
+
+Similarly, the three treatments of overflow may be
+distinguished by a choice of one of the following axioms
+relating to the value of max + 1:
+
+Alls -3e (x = max + 1) (strict interpretation )
+Ally» max +1 = max (firm boundary )
+Ally max+1=0 (modulo arithmetic )
+
+Having selected one of these axioms, it is possible to
+use it in deducing the properties of programs; however,
+
+Volume 12 / Number 10 / October, 1969
+
+1969
+ENDELEMENTDD
+Contracts
+
+* Originally part of the Eiffel language
+= Contracts allow the specification of constraints
+= Preconditions (require)
+
+= Postconditions (ensure)
+
+= Class Invariants
+
+ 
+ENDELEMENTDD
+Contracts
+
+= Contracts are actionable predicates on values
+
+© 2019 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENT‘In some cases, one might want to use
+quantified expressions of the form ‘For
+all x of type T, p(x) holds” or “There exists
+x of type T, such that p(x) holds,” where p
+Is a certain Boolean property. Such
+expressions are not available in Eiffel”
+
+ 
+ENDELEMENTSS
+Concepts and Contracts
+
+= Concepts describe relationships between operations on a type
+
+= Contracts describe relationships between values
+
+= The distinction is not always clear
+
+= Le. The comparison operation passed to std: : sort must implement a strict weak ordering
+relation over the values being sorted
+
+ 
+ENDELEMENTSS
+Pattern Matching
+
+= Concepts are used as a compile time constraint to select an appropriate operation
+
+= Contracts assert at runtime if an operations preconditions are not met
+
+= Aruntime constraint to select an appropriate operation is known as pattern matching
+
+void f(auto i) requires requires { !(i < @) }
+void f(int i) [[expects !(i < 0)]]
+void f(int i) requires !(i < @) // Not yet in C++..
+
+ 
+ENDELEMENT 
+
+Whole-Part Relationships and Composite Objects
+
+= Connected
+= Noncircular
+
+" Logically Disjoint
+
+ 
+
+* Owning
+
+= Standard Containers are Composite Objects
+
+" Composite objects allow us to reason about a collection of objects as a single entity
+
+Elements of Programming, Chapter 12
+
+© 2019 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENT 
+
+No Incidental Data Structures
+
+class view {
+
+std::list<std:: view>> _children;
+std::weak sadobe VIEWS  /iew>
+Mf oo
+
+h;
+
+© 2019 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENT 
+
+No Raw Loops
+
+// Next, check if the panel has moved to the other side of another panel.
+const int center_x = fixed_panel->cur_panel_center();
+for (size_t i = @; i < expanded_panels_.size(); ++i) {
+Panelx panel = expanded_panels_[il.get();
+if (center_x <= panel->cur_panel_center() | |
+i == expanded_panels_.size() - 1) {
+if (panel != fixed_panel) {
+// If it has, then we reorder the ls.
+ref_ptr<Panel> ref = e%opg. 6p , 7
+expanded_panels_.erase(expanded_p _«begin() + fixed_index);
+if (i < expanded_panels_.size()) {
+expanded_panels_.insert(expanded_panels_.begin() + i, ref);
+} else {
+expanded_panels_.push_back(ref);
+}
+}
+
+break;
+
+© 2019 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENTalatsmGr-laars
+
+Architecture
+
+ 
+
+i <a
+9yuki-Mitsume Takahashi
+Ts — ~ a
+ENDELEMENTClients
+
+Product
+
+Dependencies
+
+© 2019 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENT 
+
+Foundation
+
+© 2019 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENTTwo adults Iguana
+
+Utilities
+
+Lumber Sheet Rock Gravel
+
+© 2019 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENT 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+  
+
+. 1. MMR NOON SUN SECTION 1 SUMMER
+FOR SECURTY alam SYSTEM EO OTOVOLTAR ARRAY AGING SOUTH FOR MAcBIM SOL Ak DOSE
+HOUSE TO BE HaRD WIRED ONLY 2, RAINWATER COLLECTION FROM ROOF, PUMPED TO LANDSCAPE AMD TORT USt
+FIRECLAY PUUE 4 HG4 ALBEDO SURFACE REFLECTS SOLAR HEAT FROM ARSOREIW) INTO ROOFING MATERGAL
+aQJaCENT TO GaS Fire 125mm Ole 5 CVERIANGS AND LIT SHELVES SHADOW HGH SUMMER SUN AND REFRACT INOWRECT
+
+YEnT FOR COMBUSTION AiR > UGit WO De TERR
+yY Rw (6 GPEN FLOOR PLAN, CONNECTING POR. (OW OPT RARE BINDOW'S, POCd CLES FANS
+fo moo” AND OPERARLE CLERESTORY WINDOWS CREATE A CROSS VENTILATION AND STACK EFFECT
+7. GEO- THERMAL HEAT PUM FOR SUPPLEMENTARY COOLING
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+RODOING EYE
+
+90.825
+INSPECTION CoamaiR
+
+ 
+
+ 
+
+ 
+
+SECTION 1 WINTER
+
+WHITER SG SORT
+
+PHOTOVOLTAIC ARRAY FACING SOUTH FOR MAXIMUM SOLAR EXPOSURE
+ARONATER COLLECTION (ROM ROOF, PUMPED TO LANDSCASE AMD TORET USE
+SOLAR HEAT GAIN FROM LARGE SOUTHERN WEROOWS
+
+GH CHR) FANS ORCULATE HEATED AiR THROUGH CLERESTORY SPACE
+GEOTHERMAL HEAT PUMP FOR SUPPLEMENTARY HEATING
+
+Hy 40.355
+ROODING EYE
+SINGLE SOCKET
+
+ 
+
+ 
+
+Py PRN=
+
+ 
+
+ 
+
+FIRE RESISTANT STUD WaLL
+"0 PENETRaTIONS TO Half HOUR
+
+ 
+
+ 
+
+ 
+
+Gareqe
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+HIGH & LOW. HIGH & LOW
+
+2152150mm Fal's 21SetSOmm Fal's
+
+AT CUENTS DISCRESSION
+
+GaS aND ELECTRIC wETERS RECESSED
+
+ 
+
+ 
+
+4) a - -
+INSPECTION CHamBeR
+CAST IRON
+
+ 
+
+SINGLE SOCKET
+
+3
+NSPECTION CHamGER
+CaST iRON% COVER
+
+ 
+
+ 
+
+© 2019 Adobe. All Rights Reserved.
+ENDELEMENT© 2019 Adobe. All Rights Reserved.
+
+«model» Multi-Layered Application
+
+User Presentation
+Interface Logic
+
+Business
+Workflow
+
+Data Layer /\
+
+Data Access
+
+External
+Systems
+
+Services Layer
+
+Service
+Interfaces
+
+Application
+
+Facade
+
+Business Business
+Components Entities
+
+External A
+Services
+
+A
+
+Message
+Types
+
+Cross Cutting /\
+
+Operational
+Management
+
+Communication
+
+© uml-diagrams.org
+
+ 
+ENDELEMENT© 2019 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENT© 2019 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENT 
+
+|
+ma
+
+ 
+
+© 2019 Adobe. All Rights Reserved.
+ENDELEMENT 
+ENDELEMENT 
+
+ 
+
+a)
+oO
+
+© 2019 Adobe. All Rights Reserv
+
+ 
+ENDELEMENT 
+
+     
+
+foreground background
+
+ 
+
+preview
+
+© 2019 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENTRenderer
+
+Surface Core Render Coroutine
+
+visible area changed
+
+start
+
+es)
+Core and Render Coroutines exec synchronously on the
+core thread. A single headed arrow between them is
+transfer of control, a double headed arrow is a
+synchronous function call.
+visible area changed (via channel)
+render forground
+set foreground layer
+yield
+operation that dirties document
+mark dirty
+resume
+render forground
+set foreground layer
+yield
+resume
+render background
+set background layer
+
+end
+
+Ss
+Surface Core Render Coroutine
+
+wavewire SWimlanes.io
+
+© 2019 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENT© 2019 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENT© 2019 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENTArchitecture is the art and
+Dractice of designing and
+constructing structures.
+
+ 
+ENDELEMENTLarge structures are built by
+combining smaller structures
+which are Duilt by combining
+
+even smaller structures
+
+ 
+ENDELEMENTee
+Task
+
+= Save the document every 5 minutes, after the application has Deen idle for at least 5 seconds.
+
+© 2019 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENTee
+Task
+
+= Save the document every 5 minutes, after the application has been idle for at least 5 seconds.
+
+© 2019 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENTee
+Task
+
+- SavethedecumenteveryS minutes, after the application has been idle for at least 5 seconds.
+
+© 2019 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENT 
+
+Task
+
+= After the application has Deen idle for at least n seconds do something
+
+<=> extern system clock::time point last idle;
+void invoke _after(system_clock::duration, function<void()>);
+
+template <class F> // F is task of the form void()
+void after idle(F task, system clock::duration delay) {
+auto when = delay - (system clock::now() - last idle);
+
+if (system clock: :duration::zero() < when) {
+
+invoke after(when, [=]{ after idle(task, delay); });
+} else {
+
+task();
+
+}
+
+© 2019 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENT 
+
+Visualizing the Relationships
+
+- The structure, ignoring the recursion in invoke_after'
+
+_last_idle
+
+    
+ENDELEMENT 
+
+Visualizing the Relationships
+
+= The arguments and dependencies
+
+_last_idle
+
+    
+ENDELEMENTVisualizing the Relationships
+
+= Two operations
+
+eemrmrrmrrrrr rrr rrr rrr rr rr rawr aanrnene st
+
+when
+task
+
+&
+Oo
+_!
+2)
+&
+
+ 
+
+ 
+ENDELEMENT 
+
+Visualizing the Relationships
+
+auto when = delay - (system clock::now() - _last idle);
+
+_last_idle
+
+  
+ 
+
+© 2019 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENTa
+Visualizing the Relationships
+
+auto when = delay - (system clock::now() - _last idle);
+
+© 2019 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENT 
+
+On Expiration
+
+© 2019 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENT 
+
+On Expiration
+
+)— +[reante | 3)
+
+© 2019 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENT 
+
+On Expiration
+
+template <class S, class T, class F>
+—=> void on expiration (S scheduler, T timer, F task) {
+
+auto remaining = timer();
+
+if (decltype(remaining){0} < remaining) {
+scheduler(remaining, [=] {
+on expiration (scheduler, timer, task);
+});
+} else {
+task();
+
+}
+
+© 2019 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENTOn Expiration
+
+template <class S, class T, class F>
+void on expiration (S scheduler, T timer, F task) {
+
+auto remaining = timer();
+
+if (decltype(remaining){0} < remaining) {
+
+scheduler(remaining, [=] {
+on expiration (scheduler, timer, task);
+
+});
+
+} else {
+task();
+
+}
+
+}
+
+template <class S, class T, class F>
+void on expiration(S scheduler, T timer, F task) {
+scheduler(timer(), [=] { on expiration (scheduler, timer, task); });
+
+}
+
+© 2019 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENTee
+Architecture
+
+= By looking at the structure of the function we can design a better function
+= Note that on_expiration has no external dependencies
+
+= No std: :chrono
+
+- Nostd::function
+
+- Orinvoke afteror last idle
+
+= Requirements are the semantics of the operations and the relationship between arguments
+
+ 
+ENDELEMENTa
+Registry
+
+- A registry is a container supporting the following operations
+= Add an object, and obtain a receipt
+= Use the receipt to retrieve the object or remove it
+
+= Operate on the objects in the registry
+
+= Example: signal handler
+
+ 
+ENDELEMENT 
+
+Registry
+
+template <class T>
+
+class registry {
+unordered
+Size t
+
+public:
+auto appe
+
+ 
+ 
+  
+ 
+ 
+   
+
+ 
+
+ip
+
+void erase
+
+template
+void for
+for
+
+   
+
+const auto& e€ : map)
+(e.second);
+
+(
+f
+
+© 2019 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENTa
+Russian Coat Check Algorithm
+
+= Receipts are ordered
+= Coats always appended with stub
+- Binary search to retrieve coat by matching receipt to stub
+
+= When more than half the slot are empty, compact the coats
+
+= Coats are always ordered by receipt stubs
+
+= As an additional useful properties coats are always ordered by insertion
+
+ 
+ENDELEMENTa
+Russian Coat Check Algorithm
+
+template <class T>
+
+class registry {
+vector<pair<size t, optional<T>>> map;
+Size t size = 0;
+Size t id = 0;
+
+public:
+// oes
+
+© 2019 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENTa
+Russian Coat Check Algorithm
+
+auto append(T element) -> size t {
+_map.emplace back( id, move(element) );
+++ size;
+return idt++;
+
+© 2019 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENT 
+
+Russian Coat Check Algorithm
+
+ 
+ENDELEMENT 
+
+Russian Coat Check Algorithm
+
+<=> void erase(size t id) {
+
+auto p = lower bound (
+begin(_ map), end(_ map), id,
+[](const auto& a, const auto& b) { return a.first < b; });
+
+if (p == end(_map) || p->first != id || !p->second) return;
+
+p->second.reset();
+-- size;
+
+if (_size < (_map.size() / 2)) {
+_Map.erase(remove if(begin( map), end( map),
+[](const auto& e) { return !e.second; }),
+end(_map));
+
+© 2019 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENT 
+
+Russian Coat Check Algorithm
+
+ 
+ENDELEMENT 
+
+Russian Coat Check Algorithm
+
+ 
+ENDELEMENT 
+
+Russian Coat Check Algorithm
+
+ 
+ENDELEMENTa
+Russian Coat Check Algorithm
+
+template <typename F>
+void for _ each(F f) {
+for (const auto& e : map) {
+if (e.second) f(*e.second);
+
+}
+
+© 2019 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENTa
+Russian Coat Check Algorithm
+
+3000
+2500
+2000
+1500
+1000
+
+500
+
+ 
+
+reg_unordered_map reg_vector
+
+ratio (CPU time / Noop time)
+Lower is faster
+
+© 2019 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENT 
+
+Russian Coat Check Algorithm
+
+3000
+2500
+2000
+640
+1500
+
+1000
+
+500
+
+ 
+
+reg_unordered_map reg_vector reg_for_each
+
+ratio (CPU time / Noop time)
+Lower is faster
+
+© 2019 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENTRussian Coat Check Algorithm
+
+    
+  
+
+unordered_map
+
+Allocations
+
+ 
+ 
+
+vector
+
+Elements
+
+ 
+ENDELEMENTRussian Coat Check Algorithm
+
+Allocations
+
+Elements
+
+ 
+ENDELEMENTee
+Architecture
+
+= Relationships can be exploited tor performance
+
+- Understanding the relationship between the cost of operations is important
+
+ 
+ENDELEMENT(Erey]ba Non Ge) aiigclel(qiilelars
+
+ 
+
+ 
+   
+
+na we pant og - as = = #AdobeRemix
+
+2 eens | ___ Hiroyuki-Mitsume Takahashi
+ENDELEMENTa
+Double-entry bookkeeping
+
+= Double-entry bookkeeping is an accounting tool for error detection and fraud prevention
+= Relies on the accounting equation
+assets = liabilities + equity
+- An example of equational reasoning
+= Pioneered in the 11th century by the Jewish banking community
+Likely developed independently in Korea in the same time period
+= In the 14th century, double-entry bookkeeping was adopted by the Medici bank
+Credited with establishing the Medici bank as reliable and trustworthy
+
+= Leading to the rise of one of the most powerful family dynasties in history
+
+= Double-entry bookkeeping was codified by Luca Pacioli (the Father of Accounting) in 1494
+
+ 
+ENDELEMENT 
+
+Luca Pacioli
+
+© 2019 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENTDouble-entry bookkeeping
+
+- Every transaction is entered twice, into at least two separate accounts
+= There are 5 standard accounts, Assets, Capital, Liabilities, Revenues, and Expenses
+
+- This ensures the mechanical process of entering a transaction is done in two distinct ways
+
+- Ifthe accounting equation is not satisfied, then we have a contradiction
+
+ 
+ENDELEMENT 
+
+Contradictions
+
+» When two relationships imply the same entity has different values
+
+= Relationships are consistent if they imply the same entity has the same value
+
+Entity
+
+ 
+ENDELEMENT 
+
+Data Race
+
+= When two or more threads access the same object concurrently and at least one is writing
+
+ 
+ENDELEMENT 
+
+Data Race
+
+= We can resolve the race with a mutex
+
+= But what does it mean?
+
+© 2019 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENTNo Raw Synchronization Primitives
+
+ 
+
+ 
+ENDELEMENT 
+
+Null Pointer Dereference
+
+= C++ Specification: dereferencing a null pointer is undefined behavior
+
+ 
+ENDELEMENT 
+
+Null Pointer Dereference
+
+= C++ Specification: dereferencing a null pointer is undefined behavior
+
+if (p) p->member();
+
+ 
+ENDELEMENTSS
+Null Pointers or Optional Objects
+
+= The graceful handling of nothing as a limit is important
+
+= empty ranges, Q, etc.
+
+» Removing sections of code to avoid a crash is likely only moving the contradiction
+
+ 
+ENDELEMENTa
+Pro TIp
+
+- Use strong preconditions to move the issue to the caller
+
+void f(type* p) {
+Lf o 0 <
+if (p) p->member();
+
+© 2019 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENTee
+Pro Tip
+
+- Use strong preconditions to move the issue to the caller
+
+void f(type& p) {
+VI OO
+p-member();
+VSO
+
+© 2019 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENT 
+
+Setting a Property
+
+- Two functions setting the same value through a shared pointer
+
+p->set property(value);
+
+// Someplace else...
+p->set_ property(other value);
+
+© 2019 Adobe. All Rights Reserved.
+
+ 
+ENDELEMENTSS
+Setting a Property
+
+= Possible meanings:
+= Code is redundant
+: Different aspects of the same relationship, represented in disparate sections of code
+" value is a * b when a changes
+" other value is a * b when b changes
+«= Different, mutually exclusive, relationships with non-local control
+= Implied “last in wins” relationship
+= An incidental algorithm - property will converge to the correct value
+= Property is not a simple property Dut a stream, trigger, or latch
+
+= Or, it is just wrong
+
+ 
+
+ 
+ENDELEMENTNo Raw Pointers
+
+ 
+
+ 
+ENDELEMENTSS
+Play the Game
+
+= Consider the essential relationships
+
+= Learn to see structure
+
+= Architect code
+
+ 
+ENDELEMENTsean-parent.stlab.cc
+
+ 
+
+ 
+ENDELEMENTphotoshopishiring.com
+
+ 
+
+ 
+ENDELEMENTA
+
+Adobe
+ENDELEMENT

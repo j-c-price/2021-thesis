@@ -1,0 +1,764 @@
+1
+00:00:10,000 --> 00:00:20,000
+today we're going to dive into a topic that is relevant to all of us right now is the coronavirus crisis and put those watching
+
+2
+00:00:20,000 --> 00:00:30,000
+in the future these recordings will see how many of these predictions my come true but we're going to try to a frame
+
+3
+00:00:30,000 --> 00:00:40,000
+finntack in this crisis and it's both a healthcare crisis and economic crisis I thought that I would
+
+4
+00:00:40,000 --> 00:00:50,000
+little bit of time in this class talking about some furniture crazies in the past talk about the 2008 crisis more specifically
+
+5
+00:00:50,000 --> 00:01:00,000
+take a look at some of the economic forecast here in May of 2020 request or is looking in the future or
+
+6
+00:01:00,000 --> 00:01:10,000
+look back and say hi was it better was it worse I have some points of you about that and I'm sure there is open late and then we'll sort of finalize about
+
+7
+00:01:10,000 --> 00:01:20,000
+what this means for finntack and some of the factors in sub-sectors within the space
+
+8
+00:01:20,000 --> 00:01:30,000
+so with that I may try to share some slides and get going
+
+9
+00:01:30,000 --> 00:01:40,000
+so that's the overview of what we're going to try to do and looking a little bit of
+
+10
+00:01:40,000 --> 00:01:50,000
+is the 08 crisis as I said grounded what's happening today glad to take questions at any point in time
+
+11
+00:01:50,000 --> 00:02:00,000
+this is a little bit more relevant today so much brighter than just finntack
+
+12
+00:02:00,000 --> 00:02:10,000
+show me the readings were around what's happening in financial technology the interviews that TechCrunch put out of 8 top Finch
+
+13
+00:02:10,000 --> 00:02:20,000
+bc's in whatever I also close this discussion with something the Boston Consulting Group just put out
+
+14
+00:02:20,000 --> 00:02:30,000
+2020 so just a few questions to get going and see you remain has all the phone with
+
+15
+00:02:30,000 --> 00:02:40,000
+calling on plugs wet how's the coronavirus coronavirus crisis affecting the financial services world more broadly night fintech but the financial
+
+16
+00:02:40,000 --> 00:02:50,000
+Rhonda Bradley and it wasn't in a readings many of your studying for me and said her from the world of any and so these are these could be
+
+17
+00:02:50,000 --> 00:03:00,000
+personal opinions of course good morning everyone this is one of your last
+
+18
+00:03:00,000 --> 00:03:10,000
+shine Olivia Jarvis or so with the stock market
+
+19
+00:03:10,000 --> 00:03:20,000
+taking in the past few months that would impact any business that manages financial assets au
+
+20
+00:03:20,000 --> 00:03:30,000
+mutual funds has friends Blake the vast majority of them probably
+
+21
+00:03:30,000 --> 00:03:40,000
+how's there are some beers declining in a somewhat way they're all working remote as well so
+
+22
+00:03:40,000 --> 00:03:50,000
+you could think of ways that may impact other services companies that may be or not quite as technologically Savvy as
+
+23
+00:03:50,000 --> 00:04:00,000
+are there receptors but basically any business so could be insurance it could be banking
+
+24
+00:04:00,000 --> 00:04:10,000
+redial the asset but they hold on their balance sheets as just 4 seconds
+
+25
+00:04:10,000 --> 00:04:20,000
+really important see what is the volatility and that's the actual services really stands in our economy
+
+26
+00:04:20,000 --> 00:04:30,000
+is managing and helping the economy more broadly manage risk taking in rest and and transferring at rest and pricing rest so but
+
+27
+00:04:30,000 --> 00:04:40,000
+artillery itself has Commodore rims off a or something as well when I was at Goldman Sachs there was a saying I didn't create this saying is the voice
+
+28
+00:04:40,000 --> 00:04:50,000
+he was Fran what was our friend if we could manage it well not if we stumbled along the way finacial firms are often in the business
+
+29
+00:04:50,000 --> 00:05:00,000
+managing risk whether insurance companies investment banks in an Alexa that's one thing that Olivia mention but she's awesome pension assets
+
+30
+00:05:00,000 --> 00:05:10,000
+and in two different ways I just want to highlight assets under management for the wealth management resume management feel restaurant Hobart
+
+31
+00:05:10,000 --> 00:05:20,000
+extended Black Rock used to be maybe 7 trillion dollars of assets and maybe 6 trillion or 6 going to 5 that's your assets on a management
+
+32
+00:05:20,000 --> 00:05:30,000
+I think the second piece that Olivia mansion is really critical is valuing those assets pretty really let's say you were in a commercial banking field or you're in a fin
+
+33
+00:05:30,000 --> 00:05:40,000
+god making Lowndes the actual loan side of the balance sheet you're saying that commercial back after commercial bank is
+
+34
+00:05:40,000 --> 00:05:50,000
+taking losses on those loans in anticipation of the delinquencies and device that will come so that's a re-evaluation of their loan portfolio
+
+35
+00:05:50,000 --> 00:06:00,000
+continue I think I saw Danielle stand up as well maybe in there yesterday
+
+36
+00:06:00,000 --> 00:06:10,000
+is a change in a piece of investment in Japan tech firms that probably tomorrow and crossed the bus in portfolio
+
+37
+00:06:10,000 --> 00:06:20,000
+struggling with finding places to invest with the new remote operations as well as from Shepparton to looking more internally
+
+38
+00:06:20,000 --> 00:06:30,000
+and within the ventricle space their spins and advising startups to focus more on their core business operations scale back
+
+39
+00:06:30,000 --> 00:06:40,000
+and generally have just returned to just the way it's all of these were one is
+
+40
+00:06:40,000 --> 00:06:50,000
+play that the the funding the funding coming in to finntack and the venture capital firms themselves
+
+41
+00:06:50,000 --> 00:07:00,000
+2 points are really looking at things differently the best IT companies need to look at their operations and look at Core operations or talk a lot about the
+
+42
+00:07:00,000 --> 00:07:10,000
+whether it's in fintech or more broadly in the economy the company is that were being funded by the venture capital field generally or not yet cast
+
+43
+00:07:10,000 --> 00:07:20,000
+I mean Samoa it went there a series see your dear even around but it's only early in their lives a general
+
+44
+00:07:20,000 --> 00:07:30,000
+are cash flow negative and so how much runway they have how much time they have in essence to turn the corner to get cash for parsley
+
+45
+00:07:30,000 --> 00:07:40,000
+and of course the venture field itself is being more cautious and so funding is slowing now you said
+
+46
+00:07:40,000 --> 00:07:50,000
+quasi cell Adam good morning so my closer to
+
+47
+00:07:50,000 --> 00:08:00,000
+search Australian Financial Services so I mean to Kumara based and paper for customer
+
+48
+00:08:00,000 --> 00:08:10,000
+burning oil prices Adam sitting on your video so with you the thing is I would like to see you there
+
+49
+00:08:10,000 --> 00:08:20,000
+alright so that's keep you awake so so since you can you stop producing all is like most of the vowels in the
+
+50
+00:08:20,000 --> 00:08:30,000
+debate structure to Candice it's not a switch that you can shut off and I love you know we don't drive as much now I'm didn't go outside
+
+51
+00:08:30,000 --> 00:08:40,000
+Airlines are obviously don't operate with the same capacity before 7 on Tuesday will be still producing almost the same manner
+
+52
+00:08:40,000 --> 00:08:50,000
+before or prior to come major major hair forcing a lot of the Augusta shut down probably
+
+53
+00:08:50,000 --> 00:09:00,000
+just because it's not necessarily possible to reopen small of hours and I think the hall and restructure it just
+
+54
+00:09:00,000 --> 00:09:10,000
+pause on for for a bit longer might be completely like the way it was before coronavirus to the complete the new after
+
+55
+00:09:10,000 --> 00:09:20,000
+because a lot of a lot of player forced out the the USS place as the biggest exporter might be you know
+
+56
+00:09:20,000 --> 00:09:30,000
+so can we Circle that back to finacial services that what you're saying is the commodity field
+
+57
+00:09:30,000 --> 00:09:40,000
+Factor is taking quite a head to there there is a demand shock what are the most serious to me and sharks that we've seen in
+
+58
+00:09:40,000 --> 00:09:50,000
+decades one-way even say 100 years for energy and many other physical
+
+59
+00:09:50,000 --> 00:10:00,000
+any energy and in the medial space leso and agriculture answer that has led to a pressure
+
+60
+00:10:00,000 --> 00:10:10,000
+price of had a bit of a scuffle between Russia and Saudi Arabia in terms of oil production in the life and so how does that circle
+
+61
+00:10:10,000 --> 00:10:20,000
+council services field and your mind Adam
+
+62
+00:10:20,000 --> 00:10:30,000
+interested in a lot of space and a lot of
+
+63
+00:10:30,000 --> 00:10:40,000
+your stock MHz the biggest the biggest companies in in in energy is Zimmer partners
+
+64
+00:10:40,000 --> 00:10:50,000
+25 year track record of 4th of August 20% average turn so pretty pretty impressive firm
+
+65
+00:10:50,000 --> 00:11:00,000
+55% loss in the first quarter the most renown
+
+66
+00:11:00,000 --> 00:11:10,000
+bring it out of it can I just bring it's true because we don't have a love type it up it's moving in
+
+67
+00:11:10,000 --> 00:11:20,000
+demand shark pressure and it's moving into financial services with returns for the asset managers and hedge finance in the commodity space
+
+68
+00:11:20,000 --> 00:11:30,000
+Catherine yeah absolutely thank you we talked a little bit about how it's
+
+69
+00:11:30,000 --> 00:11:40,000
+heading towards finntack it sell some of the funding side we're going to want to go into that more of a what about the passing of
+
+70
+00:11:40,000 --> 00:11:50,000
+are there any positive translate leave to emerge out of there for financial technology firms
+
+71
+00:11:50,000 --> 00:12:00,000
+would you like to get a shot from here
+
+72
+00:12:00,000 --> 00:12:10,000
+seriously as we know there is been a huge emotions and sent across all these pieces and you know that we're not comfortable
+
+73
+00:12:10,000 --> 00:12:20,000
+the positive trend is that with I think discipline underwriting as long as actually working business model will emerge from the studio
+
+74
+00:12:20,000 --> 00:12:30,000
+I'm not answering but probably get any more market share and Darling Downs actually think that's a positive I think just the general market because it is a
+
+75
+00:12:30,000 --> 00:12:40,000
+Ibis highlighted it's a highly saturated field but for those who have a truly viable business
+
+76
+00:12:40,000 --> 00:12:50,000
+that made Play-Doh there about it were asking to talk about various factors that way it might play their advantage as well and I think there is another hand up
+
+77
+00:12:50,000 --> 00:13:00,000
+yeah so life insurance I can talk about my country machine
+
+78
+00:13:00,000 --> 00:13:10,000
+when would this birdemic I've noticed that people who are not use different Technologies are now
+
+79
+00:13:10,000 --> 00:13:20,000
+are you still with taking advantage of this kind of services so I think that's even after the
+
+80
+00:13:20,000 --> 00:13:30,000
+because all the people forever trance
+
+81
+00:13:30,000 --> 00:13:40,000
+we've already been over the last 3 years for decades digitising the economies but not uniformly around the globe and so
+
+82
+00:13:40,000 --> 00:13:50,000
+accentuate that tried to digitisation and it sent you a trend towards online commas and in
+
+83
+00:13:50,000 --> 00:14:00,000
+there is trans there were happening already but I think Hassan's race a really important point it accelerates some of those trends and those will create opportunities
+
+84
+00:14:00,000 --> 00:14:10,000
+NZ challenges and I'll be winners and losers it was we talked about so I would have died then she'll sector Christ
+
+85
+00:14:10,000 --> 00:14:20,000
+night now is just a sampling of aliased by an even in 2008 we were followed by
+
+86
+00:14:20,000 --> 00:14:30,000
+Dec races in 2009 in 2012 and so the question will be is nice just this crisis 2020 is
+
+87
+00:14:30,000 --> 00:14:40,000
+why is it the 2022 does it out there for a shark's beyond now I'm here to say it's not just the 2020 prices but I think
+
+88
+00:14:40,000 --> 00:14:50,000
+I knew that already but I'm also that's why it's very nature tends to have Christ is every
+
+89
+00:14:50,000 --> 00:15:00,000
+1015 years and each time people have some conversation about this is the worst crisis in 50 or 100 years
+
+90
+00:15:00,000 --> 00:15:10,000
+seems like we get the once in a 50 year crisis every 5 to 15 years and then you'll probably see five or six more
+
+91
+00:15:10,000 --> 00:15:20,000
+now god willing there won't be driven by a pandemic and there won't be millions of people 400
+
+92
+00:15:20,000 --> 00:15:30,000
+answer people put out of work through a locked out to protect yourself against a virus but you will see other than the actual price
+
+93
+00:15:30,000 --> 00:15:40,000
+along the way I have a I didn't work in the 1970s but from the nineteen eighties wine and some were more severe than others core
+
+94
+00:15:40,000 --> 00:15:50,000
+the furniture prices in LA just to remind you when I can't dive and deeply we got under riding a lot of easy credit
+
+95
+00:15:50,000 --> 00:16:00,000
+poor risk management and then multiple failures around this is what was quite systemic risk emanating
+
+96
+00:16:00,000 --> 00:16:10,000
+barista out of the US and the housing markets and housing markets had an asset bubble but it was also true and
+
+97
+00:16:10,000 --> 00:16:20,000
+so true and other European countries that was not only isolated the US put in a finneas that's not a healthcare centre
+
+98
+00:16:20,000 --> 00:16:30,000
+we Americans in a couple other markets like Spain and elsewhere should have propagated out to other markets a Contagion if you wish
+
+99
+00:16:30,000 --> 00:16:40,000
+finacial Contagion to the rest of the world know some countries like China Australia Canada should have weather the Phineas
+
+100
+00:16:40,000 --> 00:16:50,000
+loud but there were still hit with an economic shot you couldn't you couldn't avoid it in a sense because we're so interconnected economically round gloves
+
+101
+00:16:50,000 --> 00:17:00,000
+and what was the result after that crisis just for a moment there is fitting answer reform around the globe primarily in Europe Canada Australia
+
+102
+00:17:00,000 --> 00:17:10,000
+the US Japan had to put in place a stronger set of regulations it didn't change the fundamental basic
+
+103
+00:17:10,000 --> 00:17:20,000
+Victoria bayramin but more capital more shock absorbers within the banking sector more transparency in the derivatives markets
+
+104
+00:17:20,000 --> 00:17:30,000
+and the like
+
+105
+00:17:30,000 --> 00:17:40,000
+oh you mean the SATA board had no just a little later and I mean we could have done a pole and ask how many people think that's me
+
+106
+00:17:40,000 --> 00:17:50,000
+I'm sorry I let you down that's been Bernacki the chairman of the Federal Reserve I think I am in the bottom right hand corner
+
+107
+00:17:50,000 --> 00:18:00,000
+so I think I'm I'm still not in the front row with the chairman of better Reserve I think I was in about the third row is my memory serves me
+
+108
+00:18:00,000 --> 00:18:10,000
+backyard of the commodity futures trading commission at the time that Sarah for
+
+109
+00:18:10,000 --> 00:18:20,000
+set up report arms I should have give you a here for a 4 year old child out of a law firm Davis Polk the kept track of these tags but those dodd-frank before
+
+110
+00:18:20,000 --> 00:18:30,000
+we're around transparency in the derivatives market asset-backed Securities ations there should have resiliency of banking
+
+111
+00:18:30,000 --> 00:18:40,000
+and a lot about consumer protection mortgage market reforms and the like and systemic risk
+
+112
+00:18:40,000 --> 00:18:50,000
+instead of just give you a sense of all the different slipstreams that came out at reform many people with the back row
+
+113
+00:18:50,000 --> 00:19:00,000
+started in the financial sector is not quite sure is the housing sector and Asset bubble in the housing sector easy
+
+114
+00:19:00,000 --> 00:19:10,000
+and certainly the financial sector was at the centre of it but it's the mix of Housing finance and frankly a feel your
+
+115
+00:19:10,000 --> 00:19:20,000
+Washington and in London and elsewhere to stay abreast and help Regulate the market so failure in the Capital Markets
+
+116
+00:19:20,000 --> 00:19:30,000
+but I still feel you're a public policy that God behind and loosened our relation to finesse
+
+117
+00:19:30,000 --> 00:19:40,000
+living in a different set of crazies now I would say fintech fertile ground we've talked about this for The Whole Ten
+
+118
+00:19:40,000 --> 00:19:50,000
+sweetheart but in the midst of the Corona prices I think for four of the fertile ground that we've already talked about
+
+119
+00:19:50,000 --> 00:20:00,000
+accentuated digitisation of money we still have paper money I think we're going to move even faster
+
+120
+00:20:00,000 --> 00:20:10,000
+iiNet what's an interesting thing in the last 7 weeks the US Federal Reserve is actually continue to issue paper mining
+
+121
+00:20:10,000 --> 00:20:20,000
+he has significantly but he's grown close to for 5% outstanding about might be a flight to quality
+
+122
+00:20:20,000 --> 00:20:30,000
+play Never Be drug runner if you want paper money wide acceptance of NuTech I think that we already were
+
+123
+00:20:30,000 --> 00:20:40,000
+sickly in a mobile phone mobile delivery user and user ID in effects but I think that's accentuate I think we were
+
+124
+00:20:40,000 --> 00:20:50,000
+created these trans about laurige pools of date and the value of those forms of data so what do we say in terms of finntack incumbents
+
+125
+00:20:50,000 --> 00:21:00,000
+and a big tack will big Phineas we talked about huge volumes and the Capital Markets government debt markets they're working on the stimulus loan
+
+126
+00:21:00,000 --> 00:21:10,000
+and they've also boosted their allocations alone last with her so I think we're still 6 to 18 months away
+
+127
+00:21:10,000 --> 00:21:20,000
+significant delinquencies the corporate sector in the leveraged loan market place will see some of those earlier the high yield debt market small business
+
+128
+00:21:20,000 --> 00:21:30,000
+market will see those in 2020 I think of the household sector will peak in 2021 I could be wrong and when people are
+
+129
+00:21:30,000 --> 00:21:40,000
+thanks for the Aston a future there in a look back and say why he took some rest but I'm willing to take some rest where I think there's some challenges I think
+
+130
+00:21:40,000 --> 00:21:50,000
+reliance of connectivity these trading floors if you went into a trading floor in London and New York you would see hundreds of people on a trading floor
+
+131
+00:21:50,000 --> 00:22:00,000
+and now they're dispersed and the New York Stock Exchange went to electronic trading will they ever even come back with physical
+
+132
+00:22:00,000 --> 00:22:10,000
+market makers on the floor of the New York Stock Exchange maybe not maybe not I'll be willing to make that prediction by big
+
+133
+00:22:10,000 --> 00:22:20,000
+reliance of connectivity big tac significant online growth and you have different port of big tech you have the wines
+
+134
+00:22:20,000 --> 00:22:30,000
+really focus on data and Analytics like Google and they do their they're being called more into the into the fray
+
+135
+00:22:30,000 --> 00:22:40,000
+to use that day that help protect the public through something like contact racing in the like you have the online market shops
+
+136
+00:22:40,000 --> 00:22:50,000
+Alibaba and Amazon huge growth of course so significant online and then we go
+
+137
+00:22:50,000 --> 00:23:00,000
+deferred tax startups and I say the real focus on the fintech startups is number one point what your runway a term that we haven't talked about this
+
+138
+00:23:00,000 --> 00:23:10,000
+runway is what you burn rates early start of not Justin financial technology early start of usually or spending more than the revenues
+
+139
+00:23:10,000 --> 00:23:20,000
+try to work to that sweet spot when they can get your place and be really successful Workforce revenue some more than course but also
+
+140
+00:23:20,000 --> 00:23:30,000
+a platform built-in started commercialising network economics and by network Economics of platform economics
+
+141
+00:23:30,000 --> 00:23:40,000
+ringing two sides of a marketplace together building a platform in between it but there's a big focus on revenue models and
+
+142
+00:23:40,000 --> 00:23:50,000
+and if you recently raise money you're a better shape then if you have it so it's not about whether you're at the seed round or
+
+143
+00:23:50,000 --> 00:24:00,000
+see your dear meaning you've done three or 4 rounds of funding it's really how much cash do you have what's your burn rate
+
+144
+00:24:00,000 --> 00:24:10,000
+and conquering down initial public offering probably off the table for the rest of 2020 and maybe well in the 21
+
+145
+00:24:10,000 --> 00:24:20,000
+your tapulous will talk as you say sign is readings that they are investing but they're going to be slow and cautious and valuations
+
+146
+00:24:20,000 --> 00:24:30,000
+just like the public markets down but if you don't have an IPO take out if you can't axit in the public market if you can readily
+
+147
+00:24:30,000 --> 00:24:40,000
+convince your venture capital West about your revenue models your evaluations are coming off I think consolidation increase
+
+148
+00:24:40,000 --> 00:24:50,000
+I think that the fact is matter and it's going to be winners vs lyricist I think anybody that's deeply relying on
+
+149
+00:24:50,000 --> 00:25:00,000
+action figures particularly in a payment space that's a challenge right now business is the second matters even more like if you were toast
+
+150
+00:25:00,000 --> 00:25:10,000
+service in the restaurant field I have not talked to them since this crisis started but I think that's it challenging that you could be at transaction based business
+
+151
+00:25:10,000 --> 00:25:20,000
+open reshape and January and really pretty lousy sheep right now so some areas like retail travel bags are obviously
+
+152
+00:25:20,000 --> 00:25:30,000
+Melville trading Melville trading on the other hand might be up the Robin Hood numbers and others like them Wealth Management like better
+
+153
+00:25:30,000 --> 00:25:40,000
+we talked about Maddie but if you're like root insurance if you're an auto insurance tac and people and driving
+
+154
+00:25:40,000 --> 00:25:50,000
+the otherwise so sector matters a lot compliance international cross border remittances Bible
+
+155
+00:25:50,000 --> 00:26:00,000
+like we have some possibility but I still think runway matters and consolidation increases and a couple other thoughts additional
+
+156
+00:26:00,000 --> 00:26:10,000
+I think this additional opportunities if you're serving those tapping into the fiscal stimulus and learn programs so what you seen around the globe
+
+157
+00:26:10,000 --> 00:26:20,000
+where is PayPal so far of is saying we will help a small business revolut in your up we will help a small business
+
+158
+00:26:20,000 --> 00:26:30,000
+after forms apply for the programs here in the US programs and you are and that's an opportunity to actually build customer
+
+159
+00:26:30,000 --> 00:26:40,000
+numerous amongst the fintech startups here in the US have raised her hand and said that the small business administration can we be basically part of
+
+160
+00:26:40,000 --> 00:26:50,000
+PP program I don't mean receive a forgivable or I mean help issue forgivable loans
+
+161
+00:26:50,000 --> 00:27:00,000
+activity in the chat room and just see if there's a general question for Rosanna on whether there is a chance of this crisis will impact the stability of the u.s.
+
+162
+00:27:00,000 --> 00:27:10,000
+I think the great question when you say stability of I think of volatility but Rosanna do you mean
+
+163
+00:27:10,000 --> 00:27:20,000
+do you mean it's guests at reality in the world trading system I think Central at the in the world trade system
+
+164
+00:27:20,000 --> 00:27:30,000
+the crazies like there's usually history shows this time and again it's flight to quality it's a right now the US dollar is
+
+165
+00:27:30,000 --> 00:27:40,000
+quality asset he's got huge challenges but I'm seeing the vehicle
+
+166
+00:27:40,000 --> 00:27:50,000
+compared to other Fiat currencies I don't give still see in the flight to quality and the US dollar I do think that if you go out
+
+167
+00:27:50,000 --> 00:28:00,000
+for decades as a public policy matter people will be looking how did our government respond
+
+168
+00:28:00,000 --> 00:28:10,000
+healthcare crisis in and I don't mean in the middle right right now there's going to be those two beds in the influence all sorts of things like the November election I'm talking
+
+169
+00:28:10,000 --> 00:28:20,000
+lime return longer-term how did we as a society Haddad weird as a government handle this prices and in Isaac the stories
+
+170
+00:28:20,000 --> 00:28:30,000
+even though right now but you know there's a lot there's a lot of reasons I think we didn't handle things well and Jan you're in February more we don't know about the real
+
+171
+00:28:30,000 --> 00:28:40,000
+but the US dollar which is probably over health depending upon which statistic you want to pick between here and 2/3
+
+172
+00:28:40,000 --> 00:28:50,000
+trade the foreign currency markets the central bank reserves around the globe or on the US dollar
+
+173
+00:28:50,000 --> 00:29:00,000
+raise a great question will it changed the US dollar is the the world sort of leading currency my guess is probably no
+
+174
+00:29:00,000 --> 00:29:10,000
+I think we're still mods for decades away I think it's China wants to take that role at some point I'm probably late the twenty-first century
+
+175
+00:29:10,000 --> 00:29:20,000
+they have to really it just themselves to having up open capital market the US stop the roll from the
+
+176
+00:29:20,000 --> 00:29:30,000
+just about the same time as the last big pandemic the 100 years ago the Spanish flu
+
+177
+00:29:30,000 --> 00:29:40,000
+so you're right to raise it but I don't think shine is in the position they don't have free and open Capital Markets the US had three and opened Capital Markets then on Frank
+
+178
+00:29:40,000 --> 00:29:50,000
+the same legal system that we had and so the UK was in relative decline of the US are ready I don't think it was the Spanish flu
+
+179
+00:29:50,000 --> 00:30:00,000
+what's the chance to take over World War One did give us a chance to take over and so you're right some future crisis might be that wrong but I don't
+
+180
+00:30:00,000 --> 00:30:10,000
+this is that moment you think also like that I've got 3 minutes to finish off
+
+181
+00:30:10,000 --> 00:30:20,000
+can we do this at offline by there is also additional challenges on delinquencies and apart so I think for fintech companies they have to be
+
+182
+00:30:20,000 --> 00:30:30,000
+very aware especially if you're in consumer or small business lending that the fist delinquencies into farts will go up
+
+183
+00:30:30,000 --> 00:30:40,000
+I just think and if you have a business model related to float because interest rates went down so this is where I'm going to close is this Shore
+
+184
+00:30:40,000 --> 00:30:50,000
+Boston Consulting Group brakes subfactors and again in this clears I constantly your focus fine granularity
+
+185
+00:30:50,000 --> 00:31:00,000
+strategic but you have to be taxed for you gotta get down to each sector in payments trade finance is probably at hira
+
+186
+00:31:00,000 --> 00:31:10,000
+but other areas might be ok account2account personal person like fan mail paypal's webmail might be in
+
+187
+00:31:10,000 --> 00:31:20,000
+works in lending unsecured personal landing Boston Consulting Group says a problem but there are reports like landing on in
+
+188
+00:31:20,000 --> 00:31:30,000
+might be ok so you've gotta get granular got to think about each Factor individually insurance I also think
+
+189
+00:31:30,000 --> 00:31:40,000
+interesting to see what happens to some of the auto insurance that BCG hasn't put on his truck everybody's gonna have the different short this is not to say this is the actor chart
+
+190
+00:31:40,000 --> 00:31:50,000
+Raise This Boston Consulting Group short because I want to always remind it's granularity Universe strategy and tactics and
+
+191
+00:31:50,000 --> 00:32:00,000
+enter where the cracks are in the system
+

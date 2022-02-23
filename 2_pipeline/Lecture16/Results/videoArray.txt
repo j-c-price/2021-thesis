@@ -1,0 +1,5323 @@
+The audio quality of this video
+is the best available given the source.
+ENDELEMENTIntroduction to Neural
+Computation
+
+Michale Fee
+MIT BCS 9.40
+Lecture 2 - RC Neuron Model
+
+ 
+ENDELEMENTA mathematical model of a neurc
+
+* Equivalent circuit model
+
+L @) Ma
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+  
+ENDELEMENTA mathematical model of a neuron
+
++ Equivalent circuit model
+
+Ea
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+‘Alan Hodgkin
+‘Andrew Huxley, 1952
+
+ 
+
+ 
+ENDELEMENTA mathematical model of a neuron
+
++ Equivalent circuit model
+
+aa
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+‘Alan Hodgkin
+‘Andrew Huxley, 1952
+
+ 
+
+ 
+ENDELEMENTA mathematical model of a neurc
+
+* Equivalent circuit model
+
+L @) Ma
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+  
+ENDELEMENTA mathematical model of a neuron
+
++ Equivalent circuit model
+
+ea
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+‘Alan Hodgkin
+‘Andrew Huxley, 1952
+
+ 
+
+ 
+ENDELEMENTA mathematical model of a neuron
+
++ Equivalent circuit model
+
+ati
+
+ 
+
+ 
+
+ 
+
+ 
+
+‘Alan Hodgkin
+‘Andrew Huxley, 1952
+
+ 
+
+ 
+ENDELEMENTA mathematical model of a neurc
+
++ Equivalent circuit model
+THEO.
+aa j
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Alan Hodgkin
+ENDELEMENTLearning objectives for Lecture 2
+
++ To understand how neuron respond to injected curents
+
+ 
+
+ 
+ENDELEMENTLearning objectives for Lecture 2
+
++ To understand how neurons respond to injected currents
+
++ Tounderstand how membrane capacitance and resistance allo
+neurons to integrate or smooth their inputs over time (RC mode
+ENDELEMENTLearning objectives for Lecture 2
+
++ To understand how neurons respond to injected currents
+
++ Tounderstand how membrane capacitance and resistance allo
+neurons to integrate or smooth their inputs over time (RC mode
+ENDELEMENTLearning objectives for Lecture 2
+
++ To understand how neuron respond to injected curents
+
++ To understand how membrane capactance and resistance allows
+
+‘neurons to integrate or smooth thew inputs overtime (RC model
+
+ 
+
+ 
+ENDELEMENTLearning objectives for Lecture 2
+
++ To understand now neuron respond to injected curents
+
+‘neurons to integrate or smooth thew inputs overtime (RC model
+
++ To understand how to dorv the diferent equations forthe RC
+
+ 
+
+ 
+ENDELEMENTLearning objectives for Lecture 2
+
+To understand how neurons respond to injected currents
+
+To understand how membrane capacitance and resistance allo\
+neurons to integrate or smooth their inputs over time (RC mode
+
+To understand how to derive the differential equations for the Ri
+model
+
+‘To be able to sketch the response of an RC neuron to different
+current inputs
+ENDELEMENTLearning objectives for Lecture 2
+
+To understand how neurons respond to injected currents
+
+To understand how membrane capacitance and resistance allo\
+neurons to integrate or smooth their inputs over time (RC mode
+
+To understand how to derive the differential equations for the Ri
+model
+
+To be able to sketch the response of an RC neuron to different
+current inputs
+ENDELEMENTLearning objectives for Lecture 2
+
++ To understand how neuron respond t injected curents
+
+‘neurons to integrate or smooth thew inputs overtime (RC model
+
+Tounderstand how to derive th diferent equations fr the RC
+
+Tobe able to sketch he response ofan RC neuron to diferent
+curent inputs,
+
+ 
+
+ 
+ENDELEMENTWhy understand how neurons respond to
+injected current?
+
+ 
+
+ 
+ENDELEMENTWhy understand how neurons respond to
+injected current?
+
+ 
+
+ 
+ENDELEMENTWhy understand how neurons respond |
+injected current?
+ENDELEMENTWhy understand how neurons respond to
+injected current?
+
+ 
+
+ 
+ENDELEMENTWhy understand how neurons respond to
+injected current?
+
+ 
+
+ 
+ENDELEMENTWhy understand how neurons respond to
+injected current?
+
+ 
+
+ 
+ENDELEMENTWhy understand how neurons respond to
+injected current?
+
+ 
+
+ 
+ENDELEMENTWhy understand how neurons respond to
+injected current?
+
+ 
+
+ 
+ENDELEMENTWhy understand how neurons respond to
+injected current?
+
+ 
+
+ 
+ENDELEMENTWhy understand how neurons respond to
+injected current?
+
+ 
+
+ 
+ENDELEMENTWhy understand how neurons respond to
+injected current?
+
+ 
+
+ 
+ENDELEMENTWhy understand how neurons respond to
+injected current?
+
+ 
+
+ 
+ENDELEMENTWhy understand how neurons respond to
+injected current?
+
+ 
+
+ 
+ENDELEMENTWhy understand how neurons respond to
+injected current?
+
+ 
+
+ 
+ENDELEMENTWhy understand how neurons respond to
+injected current?
+
+EN
+oN
+
+ 
+
+ 
+ENDELEMENTWhy understand how neurons respond to
+injected current?
+
+ 
+
+ 
+ENDELEMENTWhy understand how neurons respond to
+injected current?
+
+ 
+
+ 
+ENDELEMENTWhy understand how neurons respond to
+injected current?
+
+ 
+
+ 
+ENDELEMENTWhy understand how neurons respond to
+injected current?
+
+ 
+
+ 
+ENDELEMENTWhy understand how neurons respond to
+injected current?
+
+ 
+
+ 
+ENDELEMENTWhy understand how neurons respond to
+injected current?
+
+“\
+\
+aN
+
+ 
+
+ 
+ENDELEMENTWhy understand how neurons respond to
+injected current?
+
+ 
+
+ 
+ENDELEMENTWhy understand how neurons respond to
+injected current?
+
+ 
+
+ 
+ENDELEMENTWhy understand how neurons respond to
+injected current?
+
+ 
+
+ 
+ENDELEMENTWhy understand how neurons respond to
+injected current?
+
+Je
+
+Nes ‘ff
+
+Votogsi= fc
+
+ 
+
+ 
+
+ 
+ENDELEMENTWhy understand how neurons respond to
+injected current?
+
+ 
+
+ 
+
+ 
+ENDELEMENTWhy understand how neurons respond |
+injected current?
+
+ 
+
+Neurons can perform analog numerical 6
+integration over time T_time
+
+Gia feet
+
+ 
+ENDELEMENTWhy understand how neurons respond to
+injected current?
+
+ 
+
+ 
+
+ 
+ENDELEMENTAneuron is a capacitor
+
+ 
+
+ 
+ENDELEMENTAneuron is a capacitor
+
+ 
+
+ 
+ENDELEMENTAneuron is a capacitor
+
+ 
+
+ 
+ENDELEMENTAneuron is a capacitor
+
+ 
+
+ 
+ENDELEMENTAneuron is a capacitor
+
+ 
+
+ 
+ENDELEMENTAneuron is a capacitor
+
+ 
+
+ 
+ENDELEMENTAneuron is a capacitor
+
+ 
+
+ 
+ENDELEMENTAneuron is a capacitor
+
+ 
+
+ 
+ENDELEMENTAneuron is a capacitor
+
+ 
+
+ 
+ENDELEMENTAneuron is a capacitor
+
+ 
+
+ 
+ENDELEMENTAneuron is a capacitor
+
+ 
+
+ 
+ENDELEMENTAneuron is a capacitor
+
+ 
+
+ 
+ENDELEMENTA neuron is a capacitor
+
+ 
+ENDELEMENTAneuron is a capacitor
+
+ 
+
+ 
+ENDELEMENTAneuron is a capacitor
+
+ 
+
+ 
+ENDELEMENTAneuron is a capacitor
+
+ 
+
+ 
+ENDELEMENTAneuron is a capacitor
+
+ 
+
+ 
+ENDELEMENTAneuron is a capacitor
+
+ 
+
+ 
+ENDELEMENTAneuron is a capacitor
+
+ 
+
+ 
+ENDELEMENTAneuron is a capacitor
+
+ 
+
+ 
+ENDELEMENTAneuron is a capacitor
+
+ 
+
+ 
+ENDELEMENTAneuron is a capacitor
+
+ 
+
+ 
+ENDELEMENTA neuron is a capacitor
+
+ 
+
+Why is this a capacitor?
+‘A capacitor is two conductors
+separated by an insulator
+
+  
+ENDELEMENTAneuron is a capacitor
+
+Why is this a capacitor?
+
+ 
+
+ 
+ENDELEMENTAneuron is a capacitor
+
+Why is this a capacitor?
+
+ 
+
+ 
+ENDELEMENT 
+   
+ 
+     
+ 
+       
+   
+
+Aneuron is a capacitor
+
+ 
+
+Why is this a capacitor?
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTA neuron is a capacitor
+
+ 
+
+Equivalent circurt
+
+intracellular
+
+ 
+
+ 
+
+Why is this a capacitor?
+‘A capacitor is two conductors
+separated by an insulator
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+‘extracellular
+
+ 
+ENDELEMENTAneuron is a capacitor
+
+ 
+
+Why is this a capacitor?
+
+ 
+
+ 
+
+ 
+
+ 
+
+(VS
+
+ 
+
+ 
+ENDELEMENTAneuron is a capacitor
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENT 
+   
+  
+    
+
+Aneuron is a capacitor
+
+ 
+
+Why is this a capacitor?
+
+   
+ 
+   
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTA neuron is a capacitor
+
+ 
+
+Equivalent circurt
+
+intracellular
+
+ 
+
+ 
+
+Why is this a capacitor?
+‘A capacitor is two conductors
+separated by an insulator
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+‘extracellular
+
+ 
+ENDELEMENTAneuron is a capacitor
+
+ 
+
+Why i this a capacitor?
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTAneuron is a capacitor
+
+ 
+
+Why is this a capacitor?
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTAneuron is a capacitor
+
+ 
+
+Why is this a capacitor?
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENT 
+   
+ 
+     
+ 
+   
+     
+    
+
+Aneuron is a capacitor
+
+ 
+
+Why i this a capacitor?
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTAneuron is a capacitor
+
+ 
+
+Why i this a capacitor?
+
+P i.
+US
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENT  
+    
+      
+     
+      
+
+Aneuron is a capacitor
+
+ 
+
+ 
+
+ay
+
+   
+
+ 
+
+xo \
+LI Df 4 quvalent eur
+
+ 
+
+Why is this a capacitor?
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENT 
+   
+ 
+     
+ 
+       
+   
+
+Aneuron is a capacitor
+
+ 
+
+Why i this a capacitor?
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTAneuron is a capacitor
+
+ 
+
+Why is this a capacitor?
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTAneuron is a capacitor
+
+ 
+
+Why is this a capacitor?
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTAneuron is a capacitor
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTAneuron is a capacitor
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTAneuron is a capacitor
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTAneuron is a capacitor
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTA neuron is a capacitor
+
+intracellular
+
+ 
+
+ 
+
+ 
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+
+extracellular
+
+‘As positive charges build up on the
+inside of the membrane, they repel
+positive charges away from the
+‘pieiey of dw abiirens:
+ENDELEMENTAneuron is a capacitor
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTAneuron is a capacitor
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTAneuron is a capacitor
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTAneuron is a capacitor
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTA neuron is a capacitor
+
+intracellular
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+extracellular
+
+‘As positive charges build up on the
+inside of the membrane, they repel
+positive charges away from the
+putida ofthe manivens:
+ENDELEMENTAneuron is a capacitor
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTAneuron is a capacitor
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTAneuron is a capacitor
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTAneuron is a capacitor
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTAneuron is a capacitor
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTAneuron is a capacitor
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTAneuron is a capacitor
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTAneuron is a capacitor
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+swipe ateence AV
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTAneuron is a capacitor
+
+ 
+
+ 
+
+wipe aterence AV
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTAneuron is a capacitor
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTAneuron is a capacitor
+
+ 
+
+ 
+
+wig ateence AV
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTAneuron is a capacitor
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTA neuron is a capacitor
+
+intracellular Charge imbalan¢
+
+  
+
+extracellular
+
+‘As positive charges build up on the
+
+fe of the membrane, they repel
+positive charges away from the
+‘pumeite akties ciniabrats
+
+ 
+
+ 
+ENDELEMENTA neuron is a capacitor
+
+intracellular Charge imbalan¢
+
+  
+
+extracellular
+
+‘As positive charges build up on the
+
+fe of the membrane, they repel
+positive charges away from the
+Sieiaor die nba
+
+ 
+
+ 
+ENDELEMENTAneuron is a capacitor
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+AQ=C-aVv
+
+ 
+
+ 
+ENDELEMENTAneuron is a capacitor
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+40=C-av
+
+ 
+ENDELEMENTA neuron is a capacitor
+
+intracellular Charge imbalan¢
+
+  
+
+extracellular
+
+‘As positive charges build up on the
+
+fe of the membrane, they repel
+positive charges away from the
+‘pumeite akties ciniabrats
+
+ 
+
+ 
+ENDELEMENTAneuron is a capacitor
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+AQ-C-av
+
+ 
+
+ 
+ENDELEMENTAneuron is a capacitor
+
+ 
+
+AQ=C-av
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTA neuron is a capacitor
+
+intracellular
+
+ 
+
+AQ=C-AV
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+extracellular
+ENDELEMENTAneuron is a capacitor
+
+80 =C-AV
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTAneuron is a capacitor
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTAneuron is a capacitor
+
+intracellular
+
+ 
+
+AQ=C-AV
+
+° Definition of capacitive current
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+‘extracellular
+ENDELEMENTA neuron is a capacitor
+
+intracellular
+
+ 
+
+AQ=C-AV
+
+° Definition of capacitive current
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+‘extracellular
+ENDELEMENT 
+
+ 
+
+Aneuron is a capacitor
+
+AQ=C-AV
+
+2 _ civ
+
+ 
+
+ 
+
+ 
+ENDELEMENTAneuron is a capacitor
+
+ 
+
+AQ=C-av
+
+ 
+
+ 
+
+do _ oa
+
+ 
+
+ 
+
+ 
+ENDELEMENTA neuron is a capacitor
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+intracellular
+AQ=C-AV
+° Ve
+° Definition of capacitive current
+1m = 2 = cM
+exracelular dt dt
+
+But, Kirchoffs current law tells us that the sum of all
+currents into a node is zero
+
+141,
+
+ 
+ENDELEMENT 
+
+ 
+
+Aneuron is a capacitor
+
+AQ =C-AV
+
+2 _ oi
+
+ 
+
+ 
+
+ 
+ENDELEMENTA neuron is a capacitor
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+intracellular
+AQ=C-AV
+° Ve
+° Definition of capacitive current
+1m = 2 = cM
+exracelular dt dt
+
+But, Kirchoffs current law tells us that the sum of all
+currents into a node is zero
+
+141,
+
+ 
+ENDELEMENTAneuron is a capacitor
+
+ 
+
+AQ=C-av
+
+ 
+
+ 
+
+do _ oa
+
+ 
+
+ 
+
+ 
+ENDELEMENTAneuron is a capacitor
+
+intracellular
+
+ 
+
+AQ=C-AV
+
+° Definition of capacitive current
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+extracellular
+
+But, Kirchoffs current law tells us that the sum of all
+‘currents into a node is zero
+
+141,
+
+ 
+
+Thus, we can write the differential equation that describes the change
+‘emiage ol sul nerdbcnpacsralivinjectedcixiert
+ENDELEMENTAneuron is a capacitor
+
+AQ=C-AV
+
+ 
+
+ 
+
+do _ cd
+
+ 
+
+1+1=0
+
+ 
+
+ 
+ENDELEMENTcapacitor
+Response of a to injected current
+
+no=c™
+a
+
+ 
+
+ 
+ENDELEMENTcapacitor
+Response of a to injected current
+
+av
+Lw=c
+a
+
+ 
+
+ 
+ENDELEMENTcapacitor
+Response of a neuen to injected current
+
+dV,
+L@=c
+L()=C at
+
+We can integrate ths differential equation over time, stating with
+initial voltage Vo at time zero.
+
+VO=Wd Juma
+ENDELEMENTcapacitor
+Response of a to injected current
+
+no=c%
+a
+
+ 
+
+ 
+ENDELEMENTcapacitor
+Response of a to injected current
+
+no=c™
+a
+
+ 
+
+ 
+ENDELEMENTcapacitor
+Response of a to injected current
+
+av
+
+1=¢
+a
+
+ 
+
+ 
+ENDELEMENTcapacitor
+Response of a to injected current
+
+no=c%
+a
+
+ 
+
+ 
+ENDELEMENTcapacitor
+Response of a to injected current
+
+no=c™
+a
+
+ 
+
+ 
+ENDELEMENT      
+     
+       
+            
+ 
+    
+
+capacitor
+Response of a to injected current
+av
+he
+wo=c%
+
+Jucar = 30
+
+ 
+ENDELEMENTcapacitor
+Response of a neuen to injected current
+
+a,
+Lec"
+
+We can integrate this differential equation over time, starting with
+initial voltage Vo at time zero.
+
+V,0=% +h Juma
+
+“wn
+
+Think about the integral as adding up all the current from time 0 to
+time t
+
+‘Thus, the total change in voltage is just given by
+ENDELEMENTcapacitor
+Response of a to injected current
+
+ay
+a
+
+Lo:
+
+30
+
+ 
+
+ 
+ENDELEMENTcapacitor
+Response of a to injected current
+
+n=c%
+at
+
+Jusnae = 0
+
+ 
+
+ 
+ENDELEMENTAneuron is a capacitor
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+swig aterence AV
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTAneuron is a capacitor
+
+ 
+
+t
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+AQ=C-av
+
+ 
+
+ 
+ENDELEMENTSome examples
+
+ 
+
+ 
+
+ 
+ENDELEMENTSome examples
+
+I
+vo=Vt ee
+Va=ME
+
+time
+ENDELEMENTSome examples
+
+ 
+
+ 
+
+ 
+ENDELEMENTSome examples
+
+ 
+
+ 
+
+ 
+ENDELEMENTSome examples
+
+ 
+
+ 
+
+ 
+ENDELEMENTSome examples
+
+ 
+
+ 
+
+ 
+ENDELEMENTSome examples
+
+ 
+
+ 
+
+ 
+ENDELEMENTSome examples
+
+ 
+
+ 
+
+ 
+ENDELEMENTSome examples
+
+ 
+
+ 
+
+ 
+ENDELEMENTcapacitor
+Response of a to injected current
+av
+at
+
+Lo:
+
+werd fcr Juco = 30
+
+a)
+
+ 
+
+ 
+ENDELEMENTcapacitor
+Response of a neuen to injected current
+
+a,
+Lec"
+
+We can integrate this differential equation over time, starting with
+initial voltage Vo at time zero.
+
+V,0=% +h Juma
+
+“wn
+
+Think about the integral as adding up all the current from time 0 to
+time t
+
+‘Thus, the total change in voltage is just given by
+ENDELEMENTcapacitor
+Response of a to injected current
+
+av
+Lw=c
+at
+
+Juseae = 0
+
+ 
+
+ 
+ENDELEMENTcapacitor
+Response of a to injected current
+av
+at
+
+Lo:
+
+Jucar = 30
+
+ 
+
+ 
+ENDELEMENTSome examples
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTSome examples
+
+Vn
+
+ 
+
+ 
+
+ 
+ENDELEMENTSome examples
+
+ 
+
+ 
+
+ 
+ENDELEMENTAneuron is a capacitor
+
+ 
+
+AQ=C-av
+
+ 
+
+ 
+
+do _ od
+
+ 
+
+ 
+
+ 
+ENDELEMENT 
+
+ 
+
+Aneuron is a capacitor
+
+AQ=C-AV
+
+Te Wet
+
+ 
+
+ 
+
+ 
+ENDELEMENT 
+
+ 
+
+Aneuron is a capacitor
+
+AQ=C-AV
+
+toe mem
+
+ 
+
+ 
+
+ 
+ENDELEMENTAneuron is a capacitor
+
+ 
+
+ao-c
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTAneuron is a capacitor
+
+ 
+
+AQ=C-av
+
+ 
+
+ 
+
+do _ oa
+
+ 
+
+ 
+
+ 
+ENDELEMENTSome examples
+
+ 
+
+ 
+
+ 
+ENDELEMENTSome examples
+
+ 
+
+ 
+
+ 
+ENDELEMENTSome examples
+
+ 
+
+Vn Vn
+vin= ree
+OK +8
+° °
+time T time
+0
+
+ 
+ENDELEMENTSome examples
+
+y,
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTSome examples
+
+V,
+
+I
+vo=Ve+ 0
+Va(=ME
+
+°
+
+ 
+
+time
+
+i
+
+ 
+ENDELEMENTSome examples
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTAneuron is a capacitor
+
+ 
+
+ 
+ENDELEMENTSome examples
+
+ 
+
+ 
+
+ 
+ENDELEMENTAneuron is a leaky capacitor
+
+ 
+
+ 
+ENDELEMENTAneuron is a capacitor
+
+ 
+
+ 
+ENDELEMENTAneuron is a capacitor
+
+ 
+
+ 
+ENDELEMENTAneuron is a capacitor
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTA neuron is a leaky capacitor
+
+ 
+
+intracellular
+
+ 
+
+jen chenvels
+(). mm the call
+
+1, = membrane capacitiv
+
+1, = membrane ionic cur
+ENDELEMENTOur equation for our model becomes:
+
+|
+
+ 
+
+ 
+
+ 
+ENDELEMENTOur equation for our model becomes:
+
+7
+
+intracelu
+
+ 
+
+1,+1,=1,
+
+  
+
+dv
++ C=], ie ¢
+I dt I. 1
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+exraceT
+ENDELEMENTOur equation for our model becomes:
+
+7
+
+intracelu
+
+ 
+
+1,+1,=1,
+
+  
+
+dv
++ C=], ie ¢
+I dt I. 1
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+exraceT
+ENDELEMENTOur equation for our model becomes:
+
+|
+
+ 
+
+ 
+
+ 
+ENDELEMENTOur equation for our model becomes:
+
+|
+
+ 
+
+ 
+
+ 
+ENDELEMENTOur equation for our model becomes:
+
+ 
+
+|
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTOur equation for our model becomes:
+
+intracelu
+
+ 
+
+    
+
+i+f,
+av t
+I+ Cua | e Ne ¢
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+earaceT
+| electrode current
+
+membrane capacitive current
+
+membrane ionic current
+
+~_—
+ENDELEMENTOur equation for our model becomes:
+
+|
+
+ 
+
+Se
+
+ 
+
+ 
+ENDELEMENTOur equation for our model becomes:
+
+ 
+
+|
+
+ 
+
+ 
+
+ 
+
+ 
+
+—
+
+ 
+
+ 
+ENDELEMENTOur equation for our model becomes:
+
+ 
+
+|
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+—_
+
+ 
+
+ 
+ENDELEMENTSimple case: a leak
+
+ 
+
+ 
+ENDELEMENTSimple case: a leak
+
+We are going to begin by considering the simplest case of a membrane curre
+simple leak (ike a hole in the membrane)
+
+In this case, the current through the ion channel can be modeled using Ohm's
+
+ 
+ENDELEMENTSimple case: a leak
+
+ 
+
+ 
+ENDELEMENTSimple case: a leak
+
+We are going to begin by considering the simplest case of a membrane curre
+simple leak (ike a hole in the membrane)
+
+In this case, the curtent through the ion channel can be modeled using Ohm's
+
+ 
+
+Ma
+R,
+Plugging this into our equation above, we get I, +. = I,
+May Mn =
+
+Rd
+ENDELEMENTSimple case: a leak
+
+ 
+
+ 
+ENDELEMENTSimple case: a leak
+
+We are going to begin by considering the simplest case of a membrane currer
+simple leak (ike a hole in the membrane)
+
+In this case, the current through the ion channel can be modeled using Ohm's
+
+ 
+
+Ma
+R,
+Plugging ths into our equation above, we get. I, +. =I.
+May CMe =
+
+Rd
+ENDELEMENTSimple case: a leak
+
+ 
+
+ 
+ENDELEMENTWhat isthe steady-state solution to this equation?
+
+ 
+
+ 
+ENDELEMENTact = Ri,
+at
+
+What isthe steady-state solution to this equation?
+
+ 
+
+ 
+ENDELEMENTace = Ky,
+at
+
+What isthe steady-state solution to this equation?
+
+ 
+
+ 
+ENDELEMENTWhat isthe steady-state solution to this equation?
+
+ 
+
+ 
+ENDELEMENTWhat isthe steady-state solution to this equation?
+
+set dV, /di = 0
+
+ 
+
+ 
+ENDELEMENTa
+a
+
+=Rl.
+
+What isthe steady-state solution to this equation?
+
+set dV, /dt = 0
+
+ 
+
+ 
+ENDELEMENTa,
+Vv, +RC— = RI,
+m + RCO = RI
+What is the steady-state solution to this equation?
+Set dV,,/dt = 0
+ENDELEMENTWhat isthe steady-state solution to this equation?
+
+set dV, /dt = 0
+
+ 
+
+ 
+ENDELEMENTOur equation for our model becomes:
+
+1 |
+J
+
+ 
+
+t
+
+ 
+
+ 
+
+ 
+
+SS
+
+ 
+
+ 
+ENDELEMENTOur equation for our model becomes:
+
+intracelu
+
+ 
+
+    
+
+i+f,
+av t
+n+ C= ih e “Ee 49
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+earaceT
+| electrode current
+
+membrane capacitive current
+
+membrane ionic current
+
+~_—
+ENDELEMENTOur equation for our model becomes:
+
+: i
+
+ 
+
+eens
+
+ 
+
+ 
+ENDELEMENTOur equation for our model becomes:
+
+ 
+
+|
+
+ 
+
+ 
+
+ 
+
+—
+
+ 
+
+ 
+ENDELEMENTOur equation for our model becomes:
+
+ 
+
+|
+
+ 
+
+ 
+
+ 
+
+ 
+
+—
+
+ 
+
+ 
+ENDELEMENTOur equation for our model becomes:
+
+|
+
+ 
+
+Se
+
+ 
+
+ 
+ENDELEMENTOur equation for our model becomes:
+
+|
+
+ 
+
+Se
+
+ 
+
+ 
+ENDELEMENTOur equation for our model becomes:
+
+ 
+
+1
+
+ 
+
+ 
+
+ 
+
+ 
+
+—_
+
+ 
+
+ 
+ENDELEMENTSimple case: a leak
+
+ 
+
+ 
+ENDELEMENTdv,
+Vv, +RC—"* =R1,
+mn + ROT vd
+
+What is the steady-state solution to this equation?
+Set dV,,/dt = 0
+
+We find that:
+ENDELEMENTWhat isthe steady-state solution to this equation?
+
+set dV, /dt = 0
+
+We find that:
+
+ 
+
+ 
+ENDELEMENTdv,
++RC—™ =R1,
+LC vd
+
+J,
+
+What is the steady-state solution to this equation?
+Set dV,,/dt = 0
+
+We find that:
+
+Thus, we can rewrite our equation as follows
+ENDELEMENTay
+a
+
+RI,
+
+What isthe steady-state solution to this equation?
+
+set dV, /dt = 0
+
+We find that
+Rl,
+
+Thus, we can rewrite our equation as follows
+
+rt where
+
+dt
+
+ 
+
+ 
+ENDELEMENTac = Ri,
+ar
+
+What isthe steady-state solution to this equation?
+
+set dV, /d = 0
+
+We find that
+
+=Rl,
+
+Thus, we can rewrite ur equation as follows
+
+Me ey
+
+T=RC
+
+ 
+
+ 
+ENDELEMENTnce = Ky,
+ar
+
+What isthe steady-state solution to this equation?
+
+set d¥,/d = 0
+
+We find that:
+
+Thus, we can rewrite our equation as follows
+
+where
+v
+
+T=RC
+
+ 
+
+ 
+ENDELEMENT{an aside about first-order linear differential equations
+
+av
+
+ 
+
+ 
+ENDELEMENT{An aside about first-order linear differential equations
+
+av
+
+ 
+
+ 
+ENDELEMENTace = Ky,
+at
+
+What isthe steady-state solution to this equation?
+
+set dV, /d = 0
+
+We find that:
+
+ 
+
+ 
+ENDELEMENTWhat isthe steady-state solution to this equation?
+
+set dV, /ar = 0
+
+We find that
+
+ 
+
+ 
+ENDELEMENTWhat isthe steady-state solution to this equation?
+
+set dV, /dt = 0
+
+We find that
+
+ 
+
+ 
+ENDELEMENTdv,
+Vv, +RC—"* =R1,
+mn + ROT vd
+
+What is the steady-state solution to this equation?
+Set dV,,/dt = 0
+
+We find that:
+ENDELEMENTWhat isthe steady-state solution to this equation?
+
+set dV, /d = 0
+
+We find that:
+
+Thus, we can rewrite our equation as follows
+
+where
+v
+dt
+
+T=RC
+
+ 
+
+ 
+ENDELEMENT{an aside about first-order linear differential equations
+
+av
+
+ 
+
+ 
+ENDELEMENT{An aside about first-order linear differential equations
+
+a
+a
+
+1
+(v-v)
+
+ 
+
+ 
+ENDELEMENTpel mp
+a
+
+What isthe steady-state solution to this equation?
+
+set dV, /d = 0
+
+We find that:
+
+Thus, we can rewrite our equation as follows
+
+where
+v
+
+ 
+
+ 
+ENDELEMENTAn aside about first-order linear differential equations
+
+We can rewrite our equation in the following form:
+
+We soe thatthe diva
+
+oe inagatve fV > V
+DW zl yey,) 1 positive #V<V
+dt we
+
+de
+ENDELEMENT{an aside about first-order linear differential equations
+
+av oe
+
+ 
+
+ 
+ENDELEMENT{An aside about first-order linear differential equations
+
+av
+
+ 
+
+ 
+ENDELEMENTAn aside about first-order linear differential equations
+
+We can rewrite our equation in the following form:
+
+We soe thatthe diva
+
+oe inagatve fV > V
+DW zl yey,) 1 positive #V<V
+dt we
+
+de
+ENDELEMENT{an aside about first-order linear differential equations
+
+av ce
+
+ 
+
+ 
+ENDELEMENT{An aside about first-order linear differential equations
+
+ 
+
+ 
+ENDELEMENT{An aside about first-order linear differential equations
+
+av eve >
+
+ 
+
+ 
+ENDELEMENT{an aside about first-order linear differential equations
+
+av os
+
+ 
+
+ 
+ENDELEMENT{An aside about first-order linear differential equations
+
+av cate
+
+ 
+
+ 
+ENDELEMENT{An aside about first-order linear differential equations
+
+fe poneriast
+
+ 
+
+ 
+ENDELEMENT{an aside about first-order linear differential equations
+
+av
+
+ 
+
+ 
+ENDELEMENT{an aside about first-order linear differential equations
+
+ 
+
+ 
+ENDELEMENTAn aside about first-order linear differential equations
+
+ 
+
+We can rewrite our equation in the following for
+
+We see that the derivativ
+
+ inagatve fV > V
+& sal (yay) 1 positive #V<V
+dt w
+Thus, the voltage always approaches the
+value Vas
+a
+‘And it approaches at a rate proportional -
+tohow far V is from Vu,
+veo
+veo
+Yo Vo smaller 7
+
+   
+
+What kind of function i this?
+ENDELEMENT{an aside about first-order linear differential equations
+
+ 
+
+ 
+ENDELEMENT{an aside about first-order linear differential equations
+
+av
+
+ 
+
+ 
+ENDELEMENT{An asde about first-order linear differential equations
+
+ 
+
+ 
+ENDELEMENT{An aside about first-order linear differential equations
+
+a te
+
+ 
+
+ 
+ENDELEMENT{an aside about first-order linear differential equations
+
+av
+
+ 
+
+ 
+ENDELEMENT{An aside about first-order linear differential equations
+
+ 
+
+ 
+ENDELEMENT{An aside about first-order linear differential equations
+
+ 
+
+ 
+ENDELEMENT‘Thus, under the condition that I, is constant (and thus V..) is con:
+
+VQ@)-V, = V-V.Je""
+
+‘While this solution applies only in the case of constant Vi, it can
+very useful
+ENDELEMENTVV. = (%-V.de
+
+ 
+
+ 
+ENDELEMENT‘Thus, under the condition that I, is constant (and thus V..) is con:
+
+VQ@)-V, = V-V.Je""
+
+‘While this solution applies only in the case of constant Vi, it can
+very useful
+ENDELEMENTResponse to current injection
+
+Let's see what happens when we inject current into our model
+‘neuron witha leak conductance
+
+ 
+
+ 
+ENDELEMENTResponse to current injection
+
+Let's see what happens when we inject current into our model
+‘neuron witha leak conductance
+
+ 
+
+ 
+ENDELEMENTResponse to current injection
+
+Let's see what happens when we inject current into our model
+‘neuron witha leak conductance
+
+ 
+
+ 
+ENDELEMENTResponse to current injection
+
+Let's see what happens when we inject current into our model
+neuron with a leak conductance.
+
+ 
+
+ 
+ENDELEMENTResponse to current injection
+
+Let's see what happens when we inject current into ot
+model neuron with a leak conductance.
+
+Vat)
+
+V= RL
+
+ 
+ENDELEMENTResponse to current injection
+
+Let's see what happens when we inject current into our model
+‘neuron witha leak conductance
+
+ 
+
+ 
+ENDELEMENTResponse to current injection
+
+Let's see what happens when we inject current into ot
+model neuron with a leak conductance.
+
+ 
+
+V= R10
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTResponse to current injection
+
+Let's see what happens when we inject current into our model
+‘neuron witha leak conductance
+
+ 
+
+ 
+ENDELEMENTResponse to current injection
+
+Let's see what happens when we inject current into our model
+neuron with a leak conductance.
+
+ 
+
+ 
+ENDELEMENTResponse to current injection
+
+Let's see what happens when we inject current into our model
+neuron with a leak conductance,
+
+ 
+
+ 
+ENDELEMENTResponse to current injection
+
+Let's see what happens when we inject current into ot
+model neuron with a leak conductance.
+
+V(t)
+
+ 
+
+ 
+
+VO= RL
+
+ 
+
+ 
+
+ 
+
+ 
+
+   
+ENDELEMENTResponse to current injection
+
+Let's see what happens when we inject current into our model
+‘neuron witha leak conductance
+
+v0 f
+
+ 
+
+ 
+ENDELEMENTResponse to current injection
+
+Let's see what happens when we inject current into our model
+neuron with a leak conductance,
+
+v0 f
+
+Voi) 5 hut
+
+(ies
+
+=
+
+ 
+
+ 
+ENDELEMENTResponse to current injection
+
+Let's see what happens when we inject current into our model
+‘neuron witha leak conductance
+
+v0,
+
+la
+
+ 
+
+ 
+ENDELEMENTResponse to current injection
+
+Let's see what happens when we inject current into our model
+‘neuron witha leak conductance
+
+v0 t
+
+ 
+
+ 
+ENDELEMENTResponse to current injection
+
+Let's see what happens when we inject current into our model
+‘neuron witha leak conductance
+
+v0}
+
+ 
+
+ 
+ENDELEMENTResponse to current injection
+
+Le’s see what happens when we inject current into our model
+neuron with a leak conductance.
+
+V0 f
+
+ 
+
+ 
+ENDELEMENTResponse to current injection
+
+Let's see what happens when we inject current into our model
+‘neuron witha leak conductance
+
+v0 f
+
+~ i r=Re
+Ne
+
+ 
+
+ 
+ENDELEMENTResponse to current injection
+
+Let's see what happens when we inject current into our model
+‘neuron witha leak conductance
+
+v0 f
+
+ 
+
+ 
+ENDELEMENTResponse to current injection
+
+Let's see what happens when we inject current into our model
+‘neuron witha leak conductance
+
+v0,
+
+(_\
+
+ 
+
+ 
+ENDELEMENTResponse to current injection
+
+Le’s see what happens when we inject current into our model
+‘neuron witha leak conductance
+
+v0 f
+
+ 
+
+ 
+ENDELEMENTResponse to current injection
+
+Let's see what happens when we inject current into our model
+‘neuron witha leak conductance
+
+v0 t
+
+ 
+
+ 
+ENDELEMENTAn RC neuron acts like a filter
+
+ 
+
+ 
+ENDELEMENTAn RC neuron acts like a filter
+
+ 
+
+ 
+ENDELEMENTAn RC neuron acts like a filter
+
+fesponding wellto inputs slower than bat ot tong
+
+ 
+
+ 
+ENDELEMENTAn RC neuron acts like a filter
+
+Responding well to inputs slower than 7 , but not to inputs faster t
+
+7 Missed curent Voltage response
+
+TN nz
+
+ 
+
+ 
+ENDELEMENTAn RC neuron acts like a filter
+
+fesponding wellto inputs slower han bt not toinpus faster tha
+
+ 
+
+ 
+ENDELEMENTAn RC neuron acts like a filter
+
+Responding well to inputs slower than 7 , but not to inputs faster t
+
+7 Missed curent Voltage response
+
+TN nz
+
+ 
+
+ 
+ENDELEMENTAn RC neuron acts like a filter
+
+ 
+
+ 
+ENDELEMENTAn RC neuron acts like a filter
+
+fesponding wellto inputs slower han tpt not toinpus faster tha
+
+ 
+
+ 
+ENDELEMENTAn RC neuron acts like a filter
+
+fespondng wellto inputs slower than pt not faster than
+
+iw
+
+ 
+
+ 
+ENDELEMENTAn RC neuron acts like a filter
+
+fesponding ello inputs slower than bat not toinpus faster than
+
+1
+
+ 
+
+ 
+ENDELEMENTAn RC neuron acts like a filter
+
+fesponding welto inputs slower han bat not toinpus faster tha
+
+ 
+
+ 
+ENDELEMENTAn RC neuron acts like a filter
+
+ 
+
+ 
+ENDELEMENTAn RC neuron acts like a filter
+
+fesponding wellto inputs slower than tt not faster than
+
+ 
+
+ 
+ENDELEMENTAn RC neuron acts like a filter
+
+fesponding wellto inputs slower than tpt not oinputs faster tha
+
+adporgy ssc
+
+ 
+
+ 
+ENDELEMENTAn RC neuron acts like a filter
+
+ 
+
+ 
+ENDELEMENTAn RC neuron acts like a filter
+
+Responding welltc inputs slower than bat not toinpus faster than
+
+ 
+
+ 
+ENDELEMENTAn RC neuron acts like a filter
+
+Responding wellto inputs slower han bat not toinpus faster than
+
+ 
+
+ 
+ENDELEMENTAn RC neuron acts like a filter
+
+ 
+
+ 
+ENDELEMENTAn RC neuron acts like a filter
+
+Responding ello inputs slower than bat not toinpus faster than
+
+ 
+
+ 
+ENDELEMENTAn RC neuron acts like a filter
+
+fesponding welltc inputs slower than bat not toinpus faster than
+
+ 
+
+ 
+ENDELEMENT‘Thus, under the condition that I, is constant (and thus V..) is con:
+
+V@)-V, = (V-V.Je""
+
+‘While this solution applies only in the case of constant Vex, it can
+very useful
+ENDELEMENTV(n)-V. = (%-V.de
+
+ 
+
+ 
+ENDELEMENTVV. = (-Vde
+
+ 
+
+ 
+ENDELEMENTVV. = (Vide
+
+ 
+
+ 
+ENDELEMENTVin)-V. = -Vide
+
+ 
+
+ 
+ENDELEMENTVV. = -V.de
+
+ 
+
+ 
+ENDELEMENTVV. = - Vide
+
+ 
+
+ 
+ENDELEMENTV(n)-V. = (-V.de
+
+ 
+
+ 
+ENDELEMENTResponse to current injection
+
+Let's see what happens when we inject current into ot
+model neuron with a leak conductance.
+
+V(t)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+VO= RL
+
+ 
+
+   
+ENDELEMENT 
+
+The first-order linear differential equation is fundamental to understandi
+‘many processes in physics, chemistry, biology and neural computation
+
+ 
+
+ 
+ENDELEMENT 
+
+ 
+ENDELEMENT 
+
+ 
+ENDELEMENT 
+
+ 
+ENDELEMENT 
+
+ 
+ENDELEMENTvar
+di
+
+Vn=V_ +(Y-VJe""
+
+ 
+
+ 
+ENDELEMENTOrigin of 10 millisecond time scale
+
+R~10'2=10MQ.
+
+C=10"F
+
+°C ~10ms
+
+ 
+
+ 
+ENDELEMENTOrigin of 10 millisecond time scale
+
+R~10'2=10MQ.
+
+C=10"F
+
+£=RC~10ms
+
+ 
+
+ 
+ENDELEMENTOrigin of 10 millisecond time scale
+
+R=10°Q=100MQ
+Cs10°F
+
+t=RC~10ms
+ENDELEMENTOrigin of 10 millisecond time scale
+
+R~10'2=100MQ
+
+C=10"F
+
+:C~10ms
+
+ 
+
+ 
+ENDELEMENTOrigin of 10 millisecond time scale
+
+R~10'2=10MQ.
+
+C=10"F
+
+°C ~10ms
+
+ 
+
+ 
+ENDELEMENTOrigin of 10 millisecond time scale
+
+R~10'2=100MQ.
+
+C=10"F
+
+:C~10ms
+
+ 
+
+ 
+ENDELEMENTOrigin of 10 millisecond time scale
+
+R~10'2=100MQ
+
+C=10"F
+
+°C ~10ms
+
+ 
+
+ 
+ENDELEMENTA closer look at membrane resistance
+
+We have described the relation between voltage and current using Ohms
+
+(V=1R)
+
+1,=R'V
+ENDELEMENTAcloser look at membrane resistance
+
+ 
+
+ 
+ENDELEMENTAcloser look at membrane resistance
+
+ 
+
+ 
+ENDELEMENTA closer look at membrane resistance
+
+We have described the relation between voltage and current using Ohms
+(vahR)
+LaF.
+
+We can rewrite Ohm's Law in terms of a quantity called G _
+‘conductance.”
+
+1,=G,V
+ENDELEMENTA closer look at membrane resistance
+
+has units of Ohms (0)
+
+ 
+
+ 
+ENDELEMENTConductances in parallel add
+wid nf
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTConductances in parallel add
+nid nf
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTConductances in parallel add
+
+wbell
+
+ 
+
+Lv
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTConductances in parallel add
+nid nf
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTConductances in parallel add
+
+uflal
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTConductances in parallel add
+
+uflnl
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTConductances in parallel add
+udu
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTConductances in parallel add
+nid uf
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTConductances in parallel add
+
+ufbul
+
+oe
+
+twice the conductance, twice the
+current at a given voltage
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTConductances in parallel add
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTConductances in parallel add
+
+ufbul
+
+a
+
+twice the conductance, twice the
+current at a given voltage
+
+ 
+
+ie
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+1,=G,V,
+=AB.V,
+ae
+ENDELEMENTConductances in parallel add
+nid nf
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTConductances in parallel add
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTConductances in parallel add
+nid uf
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTConductances in parallel add
+nid nf
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTConductances in parallel add
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTConductances in parallel add
+
+ufbul
+
+aa
+Li ‘Twice the area, twice the holes,
+
+twice the conductance, twice the
+current at a given voltage
+
+ 
+
++
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+1,=G,V,
+=AB.V,
+ae
+
+ 
+ENDELEMENTConductances in parallel add
+wid nf
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTAccloser look at membrane capacitance
+
+CCapacitances in parallel add
+
+ 
+
+ 
+ENDELEMENTA closer look at membrane capacitanc
+
+Fo = Tey Fea
+
+GE aa GEG toon,
+
+c+e)e C=C,
+
+ 
+
+Capacitances in parallel add!
+ENDELEMENTAcloser look at membrane capacitance
+
+CCapacitances in parallel add
+
+ 
+
+ 
+ENDELEMENTAcloser look at membrane capacitance
+
+CCapacitances in parallel ada
+
+ 
+
+ 
+ENDELEMENTA closer look at membrane capacitanc
+
+ 
+
+lan (CHF C=C,
+
+Capacitances in parallel add!
+
+Thus, the capacitance of a cell depends linearly on surface area
+
+C=c,A  A=4nr?
+z= ry
+ENDELEMENTAcloser look at membrane capacitance
+
+CCapacitances in parallel ada
+
+4nr
+
+ 
+
+ 
+ENDELEMENTA closer look at membrane capacitanc
+
+ 
+
+lan (CHF C=C,
+
+Capacitances in parallel add!
+
+Thus, the capacitance of a cell depends linearly on surface area
+
+C=c,A  A=4nr?
+z= ry
+ENDELEMENTAcloser look at membrane capacitance
+
+Capacitances in parallel add
+
+C=c,A 4ar
+
+ 
+
+ 
+ENDELEMENTA closer look at membrane capacitance
+
+CCapacitances in parallel add
+
+ 
+
+ 
+ENDELEMENTAcloser look at membrane capacitance
+
+CCapacitances in parallel add
+
+C=cA A
+
+ 
+
+ 
+ENDELEMENTMembrane time constant
+
+Neuron time constant
+
+ 
+
+ 
+ENDELEMENTMembrane time constant
+
+Neuron time constant
+
+ 
+
+ 
+ENDELEMENTMembrane time constant
+
+Neuron time constant
+
+ 
+
+ 
+ENDELEMENTMembrane time constant
+
+Neuron time constant
+
+ 
+
+ 
+ENDELEMENTMembrane time constant
+
+Neuron time constant
+
+ 
+
+ 
+ENDELEMENTMembrane time constant
+
+Neuron time constant
+
+ 
+
+ 
+ENDELEMENTMembrane time constant
+
+Neuron time constant
+
+ 
+
+ 
+ENDELEMENTMembrane time constant
+
+Neuron time constant
+
+ 
+
+ 
+ENDELEMENTMembrane time constant
+
+Neuron time constant:
+
+ 
+
+ 
+ENDELEMENTMembrane time constant
+
+Neuron time constant
+
+ 
+
+ 
+ENDELEMENTMembrane time constant
+
+Neuron time constant
+
+ 
+
+ 
+ENDELEMENTMembrane time constant
+
+Neuron time constant
+
+Thus, the time constant of a neuron sa property ofthe membrane,
+not dependent on cel geometry (st, shape, et),
+
+ 
+
+ 
+ENDELEMENTMembrane time constant
+
+Neuron time constant
+
+not dependent on cell geometry (siz, shape ee)
+
+ 
+
+ 
+ENDELEMENTMembrane time constant
+
+Neuron time constant
+
+not dependent on cel geometry (sie, shape ec)
+
+ 
+
+ 
+ENDELEMENTLet's add a battery to our neuron!
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTLet’s add a battery to our neuron!
+
+ 
+
+ 
+
+AM
+{I
+ol
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTLet’s add a battery to our neuron!
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTLet's add a battery to our neuron!
+
+ 
+
+ 
+
+ 
+
+ 
+
+‘
+
+ 
+
+ 
+
+ 
+ENDELEMENTLet's add a battery to our neuron!
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTLet’s add a battery to our neuron!
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTLet's add a battery to our neuron!
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTLet’s add a battery to our neuron!
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTOutline of HH model
+
+ 
+
+ 
+
+ 
+ENDELEMENTOutline of HH model
+
+ 
+
+ 
+
+ 
+ENDELEMENTOutline of HH model
+
+Voltage and time-dependent ion channels are
+the ‘knobs’ that control membrane potential
+
+ 
+
+  
+
+time (ne) F
+
+ 
+
+ 
+
+eu
+
+‘Some ion channels push the mi
+potential positive.
+
+ 
+
+ 
+
+ 
+
+ther ion channels push the m
+potential negative.
+
+Together these channels give
+ENDELEMENTOutline of HH model
+
+ 
+
+ 
+
+ 
+ENDELEMENTOutline of HH model
+
+Voltage and time-dependent ion channels are
+the ‘knobs’ that control membrane potential
+
+ 
+
+  
+
+time (ne) F
+
+ 
+
+ 
+
+ree
+
+‘Some ion channels push the mi
+potential positive.
+
+ 
+
+ 
+
+ 
+
+ther ion channels push the m
+potential negative.
+
+Together these channels give
+ENDELEMENTOutline of HH model
+
+ 
+
+ 
+ENDELEMENTVoltage and time-dependent ion channels are
+the ‘knobs’ that control membrane potential
+
+vio)
+
+ 
+
+ 
+
+Outline of HH model
+
+if
+
+ 
+
+ 
+
+ee
+
+ 
+
+ 
+
+ 
+
++ Some ion channels push the
+
+potential postive
+
++ Otherion channels push the m
+
+potential negative.
+
+these c
+
+     
+ENDELEMENTOutline of HH model
+
+ 
+
+ 
+
+ 
+ENDELEMENTOutline of HH model
+
+ 
+
+ 
+ENDELEMENTOutline of HH model
+
+ 
+
+ 
+ENDELEMENTOutline of HH model
+
+ 
+
+ 
+
+ 
+ENDELEMENTOutline of HH model
+
+ 
+
+ 
+
+ 
+ENDELEMENTOutline of HH model
+
+ 
+
+ 
+ENDELEMENTOutline of HH model
+
+ 
+
+ 
+
+ 
+ENDELEMENTWhere do the batteries of a neuron come from?
+
+1) lon concentration gradients
+
+2) on-selective permeability of ion
+channels
+
+ 
+
+ 
+ENDELEMENTWhere do the batteries of a neuron come fro
+
+:
+
+2) lon-selective permeability of ion i
+
+1) lon concentration gradients
+v
+channels
+ENDELEMENTWhere do the batteries of a neuron come from?
+
+1) lon concentration gradients
+
+2) on-selective permeability of ion
+
+ 
+
+ 
+ENDELEMENTWhere do the batteries of a neuron come from?
+
+1) lon concentration gradients
+
+2) on-selective permeability of ion
+channels
+
+ 
+
+ 
+ENDELEMENTWhere do the batteries of a neuron come from?
+
+1) lon concentration gradients
+
+2) on-selective permeability of ion
+channels
+
+ 
+
+ 
+ENDELEMENTWhere do the batteries of a neuron come fro
+
+1) lon concentration gradients
+
+2) lon-selective permeability of ion
+channels
+
+ 
+ENDELEMENTNeurons have batteries
+
+ 
+
+ 
+ENDELEMENTNeurons have batteries
+
+ 
+
+ 
+ENDELEMENTNeurons have batteries
+
+ 
+
+ 
+ENDELEMENTNeurons have batteries
+
+'Non-selective’ pore
+
+i passes all ions
+cc
+Ky
+tata >
+Kha
+
+ 
+
+Time
+ENDELEMENTNeurons have batteries
+
+ 
+
+ 
+ENDELEMENTNeurons have batteries
+
+ 
+
+ 
+ENDELEMENTNeurons have batteries
+
+ 
+
+ 
+ENDELEMENTNeurons have batteries
+
+ 
+
+ 
+ENDELEMENTNeurons have batteries
+
+ 
+
+ 
+ENDELEMENTNeurons have batteries
+
+‘lon-selective’ pore
+passes only K* ions
+
+  
+ENDELEMENTNeurons have batteries
+
+ 
+
+ 
+ENDELEMENTNeurons have batteries
+
+ 
+
+ 
+ENDELEMENTNeurons have batteries
+
+ 
+
+ 
+ENDELEMENTNeurons have batteries
+
+‘lon-selective’ pore
+passes only K* ions
+
+   
+ENDELEMENTNeurons have batteries
+
+ 
+
+ 
+ENDELEMENTNeurons have batteries
+
+ 
+
+ 
+ENDELEMENTNeurons have batteries
+
+‘lon-selective’ pore
+( passes only K* ions
+
+      
+      
+
+Why does the concentration
+stop changing here?
+
+Time
+
+he iN {a short time)
+ENDELEMENTNeurons have batteries
+
+ 
+
+ 
+ENDELEMENTNeurons have batteries
+
+ 
+
+ 
+ENDELEMENTNeurons have batteries
+
+‘lon-selective’ pore
+
+rr) passes only K* ions
+
+  
+
+time
+
+AV=VeVe
+t time
+
+ 
+ENDELEMENTNeurons have batteries
+
+ 
+
+ 
+ENDELEMENTNeurons have batteries
+
+ 
+
+ 
+ENDELEMENTNeurons have batteries
+
+ 
+
+ 
+ENDELEMENTNeurons have batteries
+
+ 
+
+ 
+ENDELEMENTNeurons have batteries
+
+ 
+
+ 
+ENDELEMENTNeurons have batteries
+
+‘lon-selective’ pore
+
+rt) passes only K* ions
+
+  
+
+time
+
+AV=VeVe
+time
+
+ 
+ENDELEMENTNeurons have batteries
+
+ 
+
+ 
+ENDELEMENTNeurons have batteries
+
+ 
+
+ 
+ENDELEMENTNeurons have batteries
+
+ 
+
+ 
+ENDELEMENTNeurons have batteries
+
+ 
+
+ 
+ENDELEMENTNeurons have batteries
+
+ 
+
+ 
+ENDELEMENTNeurons have batteries
+
+‘lon-selective’ pore
+
+rt) passes only K* ions
+
+  
+
+time
+
+Av=VeVe
+
+time
+of >
+
+‘The voltage diference changes in 9
+rection that opposes the few of ons.
+
+ 
+ENDELEMENTNeurons have batteries
+
+ 
+
+ 
+ENDELEMENTNeurons have batteries
+
+ 
+
+ 
+ENDELEMENTNeurons have batteries
+
+ 
+
+ 
+ENDELEMENTNeurons have batteries
+
+ 
+
+ 
+ENDELEMENTNeurons have batteries
+
+ 
+
+ 
+ENDELEMENTNeurons have batteries
+
+‘act balnce the dision produced by the concentration
+
+ 
+
+ 
+ENDELEMENTNeurons have batteries
+
+ 
+
+ 
+ENDELEMENTNeurons have batteries
+
+ 
+
+ 
+ENDELEMENTNeurons have batteries
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+vy, | <<-E
+
+ 
+
+ 
+
+There will be some electric field strength such that the
+ENDELEMENTElectrodiffusion and the Nernst Potential
+
+‘One can use Ohm’ aw and Fk’ fist law to derive the Nernst
+potential
+
+ 
+
+ 
+ENDELEMENTElectrodiffusion and the Nernst Potential
+One can use Ohm's law and Fick’s first law to derive the Ner
+potential
+
+— At this voltage, the drift current in the electric field exactly balar
+current due to diffusion
+
+Tra = Tong + Toiguion = ©
+ENDELEMENTElectrodiffusion and the Nernst Potential
+One can use Ohm's law and Fick's first law to derive the Ner
+potential
+
+— At this voltage, the drift current in the electric field exactly balar
+current due to diffusion
+
+Tra = Tong + Toiguion = ©
+
+‘Ohm's Law
+
+= 4¢9()D AY
+AT L
+
+ 
+ENDELEMENTElectrodiffusion and the Nernst Potential
+
+‘One can use Ohm's aw and Fk’ fist law to derive the Nernst
+potential
+
+ 
+
+ 
+ENDELEMENTElectrodiffusion and the Nernst Potential
+
+‘One can use Ohm's aw and Fk’ fist law to derive the Nernst
+potential
+
+Ohms aw
+
+aL
+
+ 
+
+ 
+ENDELEMENTElectrodiffusion and the Nernst Potential
+
+‘One can use Ohm’ aw and Fick’ fist law to derive the Nernst
+potential
+
+Ohms aw
+
+aL
+
+ 
+
+ 
+ENDELEMENTElectrodiffusion and the Nernst Potential
+
+‘One can use Ohm's aw and Fk’ fist law to derive the Nernst
+potential
+
+ 
+
+ 
+ENDELEMENTElectrodiffusion and the Nernst Potential
+One can use Ohm's law and Fick’s first law to derive the Ner
+potential
+
+— At this voltage, the drift current in the electric field exactly balar
+current due to diffusion
+
+Tron = Toon + Toigion = ©
+Ohm's Law Fick's First Law
+_ Ag o(s)D Av Toon =—AQd 22
+
+ 
+
+AT L Ox
+ENDELEMENTElectrodiffusion and the Nernst Potential
+One can use Ohm's law and Fick’s first law to derive the Ner
+potential
+
+— At this voltage, the drift current in the electric field exactly balar
+current due to diffusion
+
+Tra = Ton + Toigion = ©
+Ohm's Law Fick's First Law
+_ Aged Av Toon =—AQD 22
+
+ 
+
+AT L Ox
+ENDELEMENTElectrodiffusion and the Nernst Potential
+
+‘One can use Ohm's aw and Fk’ fist law to derive the Nernst
+potential
+
+ar
+
+ 
+
+ 
+ENDELEMENTElectrodiffusion and the Nernst Potential
+
+‘One can use Ohm’ aw and Fk’ fist law to derive the Nernst
+potential
+
+ur
+
+ 
+
+ 
+ENDELEMENTElectrodiffusion and the Nernst Potential
+‘One can use Ohm's aw and Fick’ fist law to derive the Nernst
+potential
+
+Ohms aw Fes at aw
+
+aL
+
+ago”
+
+ir
+ay =!2 nl?
+
+ 
+
+ 
+ENDELEMENTElectrodiffusion and the Nernst Potential
+‘One can use Ohm's aw and Fk’ fist law to derive the Nernst
+potential
+
+ur
+
+ 
+
+ 
+ENDELEMENTDerive Nernst potential using the
+Boltzmann equation
+
+The Boltzmann equation describes the ratio of
+
+probabilities of a particle being in any two states, at
+
+thermal equilibrium on
+we) k =Boltzmann const
+
+  
+
+Pred
+
+ 
+
+T = temperature (K):
+
+Energy KT =themmal energy (
+
+ 
+ENDELEMENTDerive Nernst potential using the
+Boltzmann equation
+
+The Boltzmann equation describes the ratio of probabilities of a
+particle being in any two states, at thermal equilibrium:
+
+ 
+
+ 
+ENDELEMENTDerive Nernst potential using the
+Boltzmann equation
+
+The Boltzmann equation describes the ratio of probabilities of a
+Particle being in any two states, at thermal equilibrium
+
+ 
+
+ 
+ENDELEMENTDerive Nernst potential using the
+Boltzmann equation
+
+The Boltzmann equation describes the ratio of
+
+probabilities of a particle being in any two states, at
+
+thermal equilibrium on
+we) k =Boltzmann const
+
+  
+
+Pred
+
+ 
+
+T = temperature (K):
+
+Energy KT =themmal energy (
+
+ 
+ENDELEMENTDerive Nernst potential using the
+Boltzmann equation
+
+The Boltzmann equation describes the ratio of probabilities of a
+particle being in any two states, at thermal equilibrium
+
+ 
+
+ 
+ENDELEMENTDerive Nernst potential using the
+Boltzmann equation
+
+The Boltzmann equation describes the ratio of probabilities ofa
+Particle being in any two states, at thermal equilibrium
+
+ 
+
+ 
+ENDELEMENTDerive Nernst potential using the
+Boltzmann equation
+
+The Boltzmann equation describes the ratio of probabilities of a
+particle being in any two states, at thermal equilibrium:
+
+ 
+
+ 
+ENDELEMENTDerive Nernst potential using the
+Boltzmann equation
+
+The Boltzmann equation describes the ratio of probabilities of a
+particle being in any two states, at thermal equilibrium:
+
+ 
+
+ 
+ENDELEMENTDerive Nernst potential using the
+Boltzmann equation
+
+The Boltzmann equation describes the ratio of probabilities of a
+Particle being in any two states, at thermal equilibrium
+
+ 
+
+ 
+ENDELEMENTDerive Nernst potential using the
+Boltzmann equation
+
+The Boltzmann equation describes the ratio of
+
+probabilities of a particle being in any two states, at
+
+thermal equilibrium
+k =Boltzmann const
+
+ 
+
+T =temperature (K)
+
+Energy KT =themmal energy (
+
+ 
+ENDELEMENTDerive Nernst potential using the
+Boltzmann equation
+
+The Boltzmann equation describes the ratio of probabilities of a
+Particle being in any two states, at thermal equilibrium
+
+ 
+
+ 
+ENDELEMENTDerive Nernst potential using the
+Boltzmann equation
+
+The Boltzmann equation describes the ratio of
+
+probabilities of a particle being in any two states, at
+
+thermal equilibrium
+k =Boltzmann const
+
+ 
+
+T =temperature (K)
+
+Energy KT =thermal energy (
+
+ 
+ENDELEMENTDerive Nernst potential using the
+Boltzmann equation
+
+The Boltzmann equation describes the ratio of
+probabilities of a particle being in any two states, at
+thermal equilibrium
+
+ 
+ENDELEMENTDerive Nernst potential using the
+Boltzmann equation
+
+The Boltzmann equation describes the ratio of probabilities of a
+particle being in any two states, at thermal equilibrium:
+
+ 
+
+ 
+ENDELEMENTDerive Nernst potential using the
+Boltzmann equation
+
+The Boltzmann equation describes the ratio of
+probabilities of a particle being in any two states, at
+thermal equilibrium:
+
+  
+
+Energy Energy Enorgy
+
+ 
+
+io
+ENDELEMENTDerive Nernst potential using the
+Boltzmann equation
+
+The Boltzmann equation describes the ratio of
+probabilities of a particle being in any two states, at
+thermal equilibrium
+
+ 
+
+Energy Energy Enorgy
+
+ 
+
+ 
+
+Ra sete a
+ENDELEMENTNernst Potential
+
+We can compute the equilibrium potential using the Boltzm
+equation:
+
+ 
+
+ 
+ENDELEMENTNernst Potential
+
+We can compute the equilbrium potential using the Boltrmann
+equation
+
+ 
+
+ 
+ENDELEMENTNernst Potential
+
+We can compute the equilbrium potential using the Boltzmann
+equation
+
+ 
+
+ 
+ENDELEMENTNernst Potential
+
+We can compute the eq)
+equation:
+
+ 
+
+rium potential using the Boltzm
+
+U = qV = clectical potent
+
+ 
+
+Pe
+P, a= charge of on
+
+= 1.6x10°"C for monov:
+
+ 
+ENDELEMENTNernst Potential
+
+We can compute the equilibrium potential using the Boltrmann
+equation
+
+ 
+
+ 
+ENDELEMENTNernst Potential
+
+We can compute the eq)
+equation:
+
+ 
+
+rium potential using the Boltzm
+
+U = qV = clectical potent
+
+ 
+
+Pe
+P, a= charge of ion
+
+= 1.6s10°"C for monov:
+
+#  a5mv for monovaten
+q
+
+ 
+ENDELEMENTNernst Potential
+
+We can compute the equilbrium potential using the Boltzmann
+equation
+
+ 
+
+ 
+ENDELEMENTNernst Potential
+
+We can compute the equilibrium potential using the Boltrmann
+equation
+
+ 
+
+ 
+ENDELEMENTThe Nernst potential for potassium
+
+Intracellular and extracellular concentrations of ionic species,
+and the Nernst potential
+
+A= Ei 2304 room tm)
+
+B, =25mV(-30)
+
+ 
+
+ 
+ENDELEMENTThe Nernst potential for potassium
+
+Intracellular and extracellular concentrations of ionic specie
+and the Nernst potential
+
+Hy 20) AT asm
+
+E
+
+F, =25mV(-3.00) = —75mV
+
+ 
+
+ 
+ENDELEMENTThe Nernst potential for potassium
+
+Intracellular and extracellular concentrations of ionic species,
+and the Nernst potential
+
+=! 4g{ 20) AL 25m e300 oom tom)
+
+ 
+
+ 
+ENDELEMENTThe Nernst potential for potassium
+
+Intracellular and extracellular concentrations of ionic species,
+and the Nernst potential
+
+fe Hee a IE smu x 30% 00m er9)
+
+ 
+
+ 
+ENDELEMENTThe Nernst potential for potassium
+
+Intracellular and extracellular concentrations of ionic species,
+and the Nernst potential
+
+ 
+
+ 
+ENDELEMENTThe Nernst potential for potassium
+
+Intracellular and extracellular concentrations of ionic species,
+and the Nernst potential
+
+B=! ip 2) AL rsa 20 oom to)
+
+ 
+
+ 
+ENDELEMENTThe Nernst potential for potassium
+
+Intracellular and extracellular concentrations of ionic species,
+and the Nernst potential
+
+B=! p22) AL ers 20 oom to)
+
+ 
+
+ 
+ENDELEMENTThe Nernst potential for potassium
+
+Intracellular and extracellular concentrations of ionic species,
+nd the Nernst potential
+
+E
+
+F, =25mV(-3.00) = —75mV
+
+ 
+
+ 
+ENDELEMENTThe Nernst potential for potassium
+
+Intracellular and extracellular concentrations of ionic species,
+and the Nernst potential
+
+ET sm a 3004 0m em)
+
+F, =25nV(-3.00) = ~75mV
+
+ 
+
+ 
+ENDELEMENTLearning objectives for Lecture 2
+
+ 
+
+ 
+ENDELEMENTLearning objectives for Lecture 2
+
+To understand how membrane capacitance and resistanc
+allows neurons to integrate or smooth their inputs over ti
+(RC model)
+
+To understand how to derive the differential equations fo
+RC model
+
+To be able to sketch the response of an RC neuron to
+different current inputs
+
+Te TE ae Fe, eee ee er eee eee oe
+ENDELEMENTLearning objectives for Lecture 2
+
+To understand how membrane capacitance and resistance
+allows neurons to integrate or smooth their inputs overtime
+(RC model)
+
+‘To understand how to derive the differential equation
+RC model
+
+To be able to sketch the response of an RC neuron to diferent
+current inputs
+
+To understand where the ‘batteries’ of a neuron come from
+
+ 
+
+ 
+ENDELEMENT

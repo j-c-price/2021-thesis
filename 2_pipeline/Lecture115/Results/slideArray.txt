@@ -1,0 +1,2383 @@
+(AN ML)
+
+ 
+
+4 NX
+Sia =
+
+SAE Y
+SSS - —Y3Ae—eZz3zzZ”i
+ENDELEMENTBetter Code
+
+- Regular Types
+Goal: No Incomplete Types
+- Algorithms
+Goal: No Raw Loops
+- Data Structures
+Goal: No Incidental Data Structures
+» Runtime Polymorphism
+Goal: No Raw Pointers
+= Concurrency
+Goal: No Raw Synchronization Primitives
+
+https://github.com/sean-parent/sean-parent.github.io/wiki/Papers-and-Presentations
+
+2016 Adobe Systems Incorporated. All Rights Reserved.
+
+2
+
+Adobe
+ENDELEMENT7. fing yy
+
+VJ;
+Tl TZ
+
+ 
+ENDELEMENT© 2016 Adobe Systems Incorporated. All Rights Reserved. y ‘|
+
+ 
+
+Adobe
+ENDELEMENT© 2016 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENT© 2016 Adobe Systems Incorporated. All Rights Reserved. y ‘|
+
+ 
+
+Adobe
+ENDELEMENT© 2016 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENT© 2016 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENTNorthwood
+
+Hayes
+
+=st Drayton
+
+M4 |
+
+mondsworth
+
+Bthrow Airport
+
+ 
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. 6
+
+ 
+
+ 
+ENDELEMENT© 2016 Adobe Systems Incorporated. All Rights Reserved.
+
+ 
+ENDELEMENT 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+     
+      
+  
+   
+   
+   
+
+ 
+
+    
+ 
+
+ 
+
+ 
+
+  
+
+     
+     
+
+   
+     
+       
+   
+  
+
+     
+
+      
+       
+
+                     
+
+ 
+
+ 
+
+  
+
+    
+
+ 
+
+   
+ 
+
+       
+  
+   
+  
+
+   
+
+     
+  
+   
+  
+
+    
+  
+
+ 
+
+ 
+
+      
+  
+
+   
+   
+
+   
+
+      
+
+    
+   
+
+ 
+   
+        
+      
+
+ 
+
+ 
+
+     
+
+     
+   
+   
+
+  
+   
+
+ 
+
+ 
+
+   
+
+ 
+
+   
+
+ 
+
+    
+   
+
+ 
+
+ 
+
+        
+  
+
+  
+  
+ 
+   
+
+ 
+
+ 
+
+      
+     
+ 
+   
+
+    
+      
+ 
+  
+ 
+     
+  
+ 
+
+  
+
+     
+   
+
+    
+
+        
+  
+    
+
+ 
+
+ 
+
+ 
+
+    
+  
+ 
+
+ 
+  
+
+      
+  
+ 
+ 
+ 
+ 
+ 
+    
+
+ 
+
+ 
+
+ 
+
+ 
+
+    
+  
+
+    
+ 
+ 
+ 
+  
+
+  
+ 
+
+  
+  
+  
+ 
+
+   
+  
+
+     
+
+      
+      
+    
+    
+  
+
+        
+
+     
+
+ 
+
+ 
+
+  
+     
+
+ 
+
+     
+
+ 
+
+   
+  
+   
+
+    
+
+ 
+
+      
+
+     
+
+    
+
+   
+
+     
+  
+
+    
+  
+
+ 
+
+      
+ 
+  
+   
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+    
+   
+ 
+ 
+  
+  
+
+ 
+
+ 
+
+ 
+
+ 
+
+   
+
+   
+ 
+    
+  
+
+   
+
+      
+     
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+   
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Cheshi (S) Cheshunt = @Epping
+jesham @®Watford Junction = ,
+Chalfont & Enfield Town. Theydon Bois
+Latimer = Theobalds Grove
+AQ © Watford [pee Bush Hill Debden = Shent
+core . @ High Barnet Cockfosters Park Turkey Street oust B) A
+a loughton
+Chorleywood Opushey= i } Lo
+Croxley Totteridge & Whetstone Oakwood @) Southbury @©chingfora Buckhurst Hill S
+Rickmansworth’
+() Carpenders Park Oymancane Southgate Brentwood!
+Moor Park Edmonton Green = Roding Grange
+Hatch End Hill East’ Valley Hill
+Northwood * (0) Wast Finchley Arnos Grove: Silver street @)Highams Park ‘
+= West Ruistip Q 7 L ane Edgware | Bounds Green Chigwell Harold Wood
+Northwood Hi p Headstone. | White Hart Lane i
+Hillingdon Ruislip Harrow & (3 Stanmore @) Finchley Central Wood Green @)Hainauit Gidea Park
+@mm) fuisip Manor NypP'nner Wealdstone canons Part Burnt Oak’ Haringay |} Bruce Grove Wood Street RD (fRomtors=
+(waite Ickenham Eastcote North Harrow na Colindale East Finchley Turnpike Lane Lanes South Tottenham ines
+Queensbury ) Barkingside +
+Emerson Park
+= Harrow- Preston Hendon Central Highgate — Crouch Tottenh:
+b ‘on-the-Hill Road Kingescry Hill, ore Blackhorse Newbury
+0a
+Ruislip Rayners Lane O Brent Cross Archway r=. O Walthamstow Redbridge J) Park
+B oats. West Northwick Curl 24D central feoodmapet 0
+Harrow Park Golders Green ‘Oak Upper Hollowa \ ) Wanstead Gants () B
+emlnrene Hampstead Pps y 7 ‘lL ‘Upminster
+jouth Kenton Neasden mestead | stamford — watthamstow if ‘Seven Kings
+Wembley Park Hampstead Hilt Queen's Road Leyton Leytonstone
+North Wembley is Hi Midland Road ‘Upminster Bridge
+Dollis Hill Finsbury Stoke \
+= Wembley Central (8) Park Newington Toyottonel wanes ‘Manor Park Hornchurch
+7 Willesden Green Finchley Road St. James Street Leytonstone | Wanstead
+Sudbury Hill Stonebridge Park ey rognal High Road Park Elm Park
+Woodgrange
+Harlesden Kilburn Highbury & —atstor Leyton pane
+Kensal Brondesbury Islington Kingsland = strevord ‘Dagenham
+Northol i i ise ark ratfor
+Sudbury Town (8) Willesden Junction West Hampstead = ma Tree eeat East
+Brondesbury ‘Road a Dagenham Heathway
+Conese) Becontree
+CO) aueen’s Park Kilburn South Rey Goucesa Gad
+®) High Road Hampstead King’s Cross London Fields T rc Upney
+By Stratford
+oenford St. Pancras ‘Cambridge Heath T © high street Barking =
+Baker Great Portland Euston
+¢ Sereet Street = Bethnal Green East Ham c
+Perivale’ oS Bethnal
+iv Avenue i
+© old street = Green Mile End ppren
+Plaistow
+Hanger Lane’
+Park Royal
+North Ealing @ star Lane
+SEO Lancaster Canning
+T
+Broadway West Queensway Gate St. Paul's A" Royal
+Acton Victoria
+Hyde Park Corner
+Piccadilly Cannon Street c for Ex
+D Shepherd's = Hifh Street Kensington Gireus Monument Tower Blackwall East ustom House for ExCeL.
+Ealing Common C) Bush Market" Kensington. SS Hill India D
+t Knightsbridge, Mansion House <= tenure Sot
+Goldhawk Road nightsbridg
+South py Barons Gloucester = = Blackfriars River Thames
+Ealing bss Hammersmith Court ep = |] St-James's
+Victoria} Park Canary Wharf #3
+— oe AQ, peckton Park
+mirates "3
+Northfields Chiswick (/ Turnham Stamford Ravenscourt West south London Cae North h Ponto!
+ark (| “Green Brook Park Kensington Keneitton Square arse rmondsey “Water Heron Quays @) | StPEMMIC | Sonim ESS A cyprus
+Boston Mano I ; Q Q
+Scien OC) Gunnersbury South Quay @ London A, Galtions Reach
+= West Brompton @) i City Airport 4 "5
+Hounslow East Crossharbour & AQ peckton
+Hounstow Central Southwark H King Feorge V @
+Mudchute @
+A, (6) Kew Gardens ll
+Hounslow ) Futham Broadway () Lambeth North Island Gardens @
+Heathrow Hatton Cross Oman Parsons Green Imperial Wharf <= 6 q
+Terminals 2&3,
+erminal 3, Putney Bridge fa) Cutty Sark for Woolwich
+Maritime Greenwich <= arcana
+>= Queens Road
+as East Putney Cosi = New ) @©) Greenwich =
+\o” PF etephant & Castle = Cross Gate © ) r
+o toe Southfields (8) Fe New Cross €@) Deptford Bridge
+) leathrow
+Brockley (&) |
+Heathrow Terminal 4 i
+Gory ‘Wimbledon Park 3) onmineton Godot i e Elverson Road
+laph Wandsworth \\ Honor Oak Park i
+a = Wimbledon @) Thane toad ® ©) Lewisham =
+LF stockwett
+Clapham High Street f Denmark Hill = Forest nm
+,
+Clapham North Sydenham) ;
+canhaniconmen _ Key to symbols Explanation of zones
+Deri Penge West i
+Clapham South Brixton == 3 © interchange stations 9 Station in Zone 9
+= Balham @)Anertey © step-free access from street to train 8 Ff Station in Zones
+cya Paace > - ® Step-free access from street to platform 7 [Station nZone 7
+@) Sanaa) Lets Station in both zones
+FE ‘Tooting Bec | = National Rail © Eb station in Zone 6
+@© West Croydon = aia F
+Tooting Broadway = Riverboat services 5 Station in Zone $
+4. f Station in Zone 4
+‘Colliers Wood ata Trams Station in both zones
+ir 3 jon in Zone
+‘South Wimbledon A Airport Station in Zone $
+on | 2 f station in zone 2
+Morden (i Victoria Coach Station Station in both zones
+@ Emirates Air Line 1 F Station in Zone 1
+© Transport for London January 2016
+1 2: 3 4 5: 6: 7- 8. 9:
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. 7 y. \
+A
+
+Adobe
+ENDELEMENT—
+
+?
+y,
+
+le
+STRATFORD ||
+
+ie B
+
+g yk
+
+ 
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. 8
+ENDELEMENT    
+  
+ 
+
+ 
+   
+
+Bovingdon
+
+   
+   
+ 
+ 
+ 
+ 
+ 
+
+nc ‘ London * au Inewryate oucee
+Kings Langley ‘A Colney ;
+
+‘ Goff's Oak”
+
+Epping Green
+orth Weald e/,
+7 Bassett hipping=——_
+
+Ongar
+
+       
+ 
+  
+   
+   
+   
+     
+    
+ 
+ 
+  
+  
+ 
+     
+ 
+   
+   
+   
+
+Chipperfield i
+
+a
+Eppin i
+Potters Bar pping Toot Hill
+
+ 
+ 
+
+Kelvedor
+a ' ‘ Hatch
+Navestock
+Abridge Side
+Stapleford
+; Abbotts
+oe "4 Lanai de
+iles ¥y n
+of ° Noak Hi
+Seer Green Chalfont € are Lo 2 E | 3 ? ?. M25
+\ St Peter J A we
+Beaconsfield X i ; Z y c 7
+> ry 4 5 7
+, | f Gallows
+n M40 MA (3 Corne i
+P . > "
+ae crogs ; —s \ : Romford
+a : ay , 5 p om*frort
+) ' — Py
+a Fulm Jie M40 im : ' 7 Ok J ; P Hornchurch
+= hd A © nn =] Opminster
+Stoke Poges « i : . a, :
+‘urmham E A q
+4 _ aA
+> baa oy =
+h i vt r s
+> : Rainham — Nia Oc
+Te > 2
+s . M4 “ - ——. —_
+reys— - er endl =, . 5 4
+\ Y Nessie ane
+NP SY ets \
+"Windsor V a\A &
+
+     
+  
+
+ 
+
+fey)
+
+f 7 f
+TEAS ATES
+
+0 3 > z
+Sy A ae .
+3. as / 7
+of ae
+
+   
+ 
+
+Hounslow
+YS) 7
+
+“To ‘Feltham ~~. Twickenham. Bichinaed
+
+  
+ 
+   
+
+         
+
+  
+
+  
+    
+ 
+
+   
+
+  
+   
+ 
+
+ 
+
+ORE! iki A
+‘ : Hin 5 A i. ’ - ]
+Eghan BL" “ « WEST NORWOOD BN bal
+<4
+: = ¥ , 2) WIMBLEDON
+_ - 1 Kingston — aN
+t =f Virginia Water & CH us oS upon Thames : {I 4 My
+s / - East Molesey New Malder Mitcham =~
+- =! A Sa IRN Pan ail Aia a “Gta Swanlev 4
+© 2016 Adobe Systems Incorporated. All Rights Reserved. 8
+
+n\
+
+Adobe
+ENDELEMENT7. afpiny yy
+
+VJ);
+Clo TZ:
+
+ 
+ENDELEMENTLower Bound
+
+template <class ForwardIterator, class T,
+ForwardIterator lower_bound(ForwardIterator first, ForwardIterator last,
+
+const T& value, Compare comp)
+
+{
+
+auto n = distance(first, last);
+
+while (n !
+auto h .
+m ext(first, h);
+if (comp(*m, value)) {
+first = next(m);
+—= h + 1;
+} else { n=h; }
+
+return first;
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved.
+
+class Compare>
+
+nN
+Adobe
+ENDELEMENT© 2016 Adobe Systems Incorporated. All Rights Reserved.
+
+Undo Typing
+Can't Repeat
+
+Paste Special...
+Paste and Match Formatting
+
+Clear
+Select All
+
+Find
+Links...
+
+Start Dictation
+Emoji & Symbols
+
+ 
+
+A
+ENDELEMENT 
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. 12 y. ‘|
+A
+
+Adobe
+ENDELEMENT 
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. 13 y. ‘|
+4
+
+Adobe
+ENDELEMENT 
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. 14 y ‘
+A
+
+Adobe
+ENDELEMENT© 2016 Adobe Systems Incorporated. All Rights Reserved.
+
+Undo Typing
+Can't Repeat
+
+Paste Special...
+Paste and Match Formatting
+
+Clear
+Select All
+
+Find
+Links...
+
+Start Dictation
+Emoji & Symbols
+
+ 
+
+A
+ENDELEMENT 
+
+Good Code
+
+Good code |s correct
+
+© 2016 Adobe SystemsJncorporated. All Rights Reserved. Adobe Confidential:
+
+ 
+
+Ps
+ENDELEMENT 
+
+Good Code
+
+Good code Is correct
+Consistent; without contradiction
+
+© 2016 Adobe SystemsJncorporated. All Rights Reserved. Adobe Confidential:
+
+ 
+
+Ps
+ENDELEMENTSimple Bug
+
+void print_string(const charx s) {
+while (*s '= '\O') {
+cout << *S++;
+
+}
+
+int main() {
+print_string(nullptr);
+}
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved.
+
+mn
+
+Adobe
+ENDELEMENTSimple Bug
+
+void print_string(const charx s) {
+
+while (xs '= '\@') { Thread 1: EXC_BAD_ACCESS (code=1, address=0x0)
+COUt << *S++;
+
+}
+
+int main() {
+print_string(nullptr);
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. 18
+
+AN
+
+Adobe
+ENDELEMENTSimple Bug
+
+void print_string(const charx s) {
+while (*s '= '\O') {
+cout << *S++;
+
+}
+
+int main() {
+print_string(nullptr);
+}
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. 19
+
+mn
+
+Adobe
+ENDELEMENTSimple Bug
+
+void print_string(const charx s) {
+while (*s '= '\O') {
+cout << *S++;
+
+}
+
+int main() {
+print_string(nullptr); // FORCE CRASH!
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. 19
+
+mn
+
+Adobe
+ENDELEMENTSubtle defects
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. / ‘
+A
+
+Adobe
+ENDELEMENTSubtle defects
+
+Consistency requires context
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. / ‘
+4
+
+Adobe
+ENDELEMENTSubtle defects
+Consistency requires context
+
+template<class T> const T& min(const T& a, const T& b);
+Returns: The smaller value.
+
+Remarks: Returns the first argument when the arguments are equivalent.
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved.
+
+AN
+
+Adobe
+ENDELEMENTSubtle defects
+Consistency requires context
+
+template<class T> const T& min(const T& a, const T& b);
+Returns: The smaller value.
+
+Remarks: Returns the first argument when the arguments are equivalent.
+
+temp Late<class T> const T& max(const T& a, const T& b);
+Returns: The larger value.
+
+Remarks: Returns the first argument when the arguments are equivalent.
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. y ‘
+4
+
+Adobe
+ENDELEMENTSubtle defects
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. / ‘
+A
+
+Adobe
+ENDELEMENTSubtle defects
+
+temp late<typename T>
+const T& clamp(const T& a, const T& lo, const T& hi)
+{
+
+return min(max(lo, a), hi);
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. y ‘
+A
+
+Adobe
+ENDELEMENTSubtle defects
+
+temp late<typename T>
+const T& clamp(const T& a, const T& lo, const T& hi)
+{
+
+return min(max(lo, a), hi);
+
+temp lLate<typename T, typename Compare>
+const T& clamp(const T& a, const T& lo, const T& hi, Compare comp)
+
+return min(max(lo, a, comp), hi, comp);
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. y ‘
+4
+
+Adobe
+ENDELEMENTSubtle defects
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. / ‘
+A
+
+Adobe
+ENDELEMENTSubtle defects
+
+int main() {
+uSing pair = pair<int, string>;
+
+pair a= {1, "OK" };
+
+{ 1, "FAIL: LO" };
+{ 2, "FAIL: HI" };
+
+pair lo
+pair hi
+
+a = clamp(a, lo, hi, [](const auto& a, const auto& b) {
+return a.first < b.first;
+});
+
+cout << a.second << endl;
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. / ‘
+4
+
+Adobe
+ENDELEMENTSubtle defects
+
+int main() {
+uSing pair = pair<int, string>;
+
+pair a= {1, "OK" };
+
+{ 1, "FAIL: LO" };
+{ 2, "FAIL: HI" };
+
+pair lo =
+
+pair hi =
+
+a = clamp(a, lo, hi, [](const auto& a, const auto& b) {
+return a.first < b.first;
+
+});
+
+cout << a.second << endl;
+};
+FAIL: LO
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. / ‘
+4
+
+Adobe
+ENDELEMENTSubtle defects
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. / ‘
+A
+
+Adobe
+ENDELEMENTSubtle defects
+
+temp late<typename T>
+const T& clamp(const T& a, const T& lo, const T& hi)
+{
+
+return min(max(a, lo), hi);
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. y ‘
+A
+
+Adobe
+ENDELEMENTSubtle defects
+
+temp late<typename T>
+const T& clamp(const T& a, const T& lo, const T& hi)
+{
+
+return min(max(a, lo), hi);
+
+temp lLate<typename T, typename Compare>
+const T& clamp(const T& a, const T& lo, const T& hi, Compare comp)
+
+return min(max(a, lo, comp), hi, comp);
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. y ‘
+4
+
+Adobe
+ENDELEMENTSubtle defects
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. / ‘
+A
+
+Adobe
+ENDELEMENTSubtle defects
+
+template<class T> const T& min(const T& a, const T& b);
+Returns: The smaller value.
+
+Remarks: Returns the first argument when the arguments are equivalent.
+
+temp Late<class T> const T& max(const T& a, const T& b);
+Returns: The larger value.
+
+Remarks: Returns the second argument when the arguments are equivalent.
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved.
+
+AN
+
+Adobe
+ENDELEMENTSubtle defects
+
+template<class T> const T& min(const T& a, const T& b);
+Returns: The smaller value.
+
+Remarks: Returns the first argument when the arguments are equivalent.
+
+temp Late<class T> const T& max(const T& a, const T& b);
+Returns: The larger value.
+
+Remarks: Returns the second argument when the arguments are equivalent.
+
+template <class T> const T& max(const T& a, const T& b, const T& c);
+Returns: The larger value.
+
+Remarks: ???
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved.
+
+AN
+
+Adobe
+ENDELEMENTRules are Contentious
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved.
+ENDELEMENTRules are Contentious
+
+“Names should not be associated with semantics because everybody has their
+own hidden assumptions about what semantics are, and they clash, causing
+comprehension problems without knowing why. This is why it's valuable to
+
+write code to reflect what code is actually doing, rather than what code ‘means:
+it's hard to have conceptual clashes about what code actually does:
+— Craig Silverstein, Google
+
+Adobe
+ENDELEMENT7. Goafpiny yy
+
+VJ);
+Tl Z
+
+ 
+ENDELEMENTHow can notning be something?
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved.
+
+nN
+Adobe
+ENDELEMENTHow can notning be something?
+
+int x;
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved.
+ENDELEMENTHow can notning be something?
+
+int x;
+// indeterminate value
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. 27 y. \
+A
+
+Adobe
+ENDELEMENTHow can notning be something?
+int x;
+// indeterminate value
+
+int x =1/@;
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. 27
+
+mn
+
+Adobe
+ENDELEMENTHow can notning be something?
+
+int x;
+// indeterminate value
+
+int x = 1 / @Q;
+// undefined behavior
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved.
+
+AN
+
+Adobe
+ENDELEMENTHow can notning be something?
+int x;
+// indeterminate value
+
+int x = 1 / @Q;
+// undefined behavior
+
+double x = 1.0 / 0.Q;
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved.
+
+AN
+
+Adobe
+ENDELEMENTHow can notning be something?
+int x;
+// indeterminate value
+
+int x = 1 / @Q;
+// undefined behavior
+
+double x = 1.0 / 0.Q;
+// inf
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved.
+Adobe
+ENDELEMENTHow can notning be something?
+int x;
+// indeterminate value
+
+int x = 1 / @Q;
+// undefined behavior
+
+double x = 1.0 / 0.Q;
+// inf
+
+double x = @.0 / 0.Q;
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. 27 y. ‘|
+A
+Adobe
+ENDELEMENTHow can notning be something?
+int x;
+// indeterminate value
+
+int x = 1 / @Q;
+// undefined behavior
+
+double x = 1.0 / 0.Q;
+// inf
+
+double x = @.0 / 0.Q;
+// NaN
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. 27 y. ‘|
+A
+Adobe
+ENDELEMENTHow can notning be something?
+int x;
+// indeterminate value
+
+int x = 1 / @Q;
+// undefined behavior
+
+double x = 1.0 / 0.Q;
+// inf
+
+double x = @.0 / 0.Q;
+// NaN
+
+struct empty { };
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. 27
+
+AN
+
+Adobe
+ENDELEMENTHow can notning be something?
+int x;
+// indeterminate value
+
+int x = 1 / @Q;
+// undefined behavior
+
+double x = 1.0 / 0.Q;
+// inf
+
+double x = @.0 / 0.Q;
+// NaN
+
+struct empty { };
+// sizeof(empty) ==
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. 27 y. ‘|
+A
+Adobe
+ENDELEMENTHow can notning be something?
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved.
+
+nN
+Adobe
+ENDELEMENTHow can notning be something?
+
+int a[Q];
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. / ‘
+4
+
+Adobe
+ENDELEMENTHow can notning be something?
+
+int al@];
+// Error
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved.
+ENDELEMENTHow can notning be something?
+
+int a[Q];
+// Error
+// but common extension
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved.
+ENDELEMENTHow can notning be something?
+
+int a[Q];
+
+// Error
+
+// but common extension
+using empty = int[Q];
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. y ‘
+A
+
+Adobe
+ENDELEMENTHow can notning be something?
+
+int a[Q];
+
+// Error
+
+// but common extension
+using empty = int[Q];
+// sizeof(empty) ==
+empty a[2];
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. y ‘
+A
+
+Adobe
+ENDELEMENTHow can notning be something?
+
+int a[Q];
+
+// Error
+
+// but common extension
+using empty = int[Q];
+// sizeof(empty) ==
+empty a[2];
+
+// &al[0] == &al[1]
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. y ‘
+A
+Adobe
+ENDELEMENTHow can notning be something?
+
+int a[Q];
+
+// Error
+
+// but common extension
+using empty = int[Q];
+// sizeof(empty) ==
+empty a[2];
+
+// &al[0] == &al[1]
+
+void f() { return void(); }
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. y ‘
+4
+Adobe
+ENDELEMENTHow can notning be something?
+
+int a[Q];
+
+// Error
+
+// but common extension
+using empty = int[Q];
+// sizeof(empty) ==
+empty a[2];
+
+// &al[0] == &al[1]
+
+void f() { return void(); }
+// OK
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. y ‘
+4
+Adobe
+ENDELEMENTHow can notning be something?
+
+int a[Q];
+
+// Error
+
+// but common extension
+using empty = int[Q];
+// sizeof(empty) ==
+empty a[2];
+
+// &al[0] == &al[1]
+
+void f() { return void(); }
+// OK
+
+void x = f();
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved.
+
+nN
+Adobe
+ENDELEMENTHow can notning be something?
+
+int a[Q];
+
+// Error
+
+// but common extension
+using empty = int[Q];
+// sizeof(empty) ==
+empty a[2];
+
+// &al[0] == &al[1]
+
+void f() { return void(); }
+// OK
+
+void x = f();
+// Error
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved.
+
+nN
+Adobe
+ENDELEMENTHow can notning be something?
+
+int a[Q];
+
+// Error
+
+// but common extension
+using empty = int[Q];
+// sizeof(empty) ==
+empty a[2];
+
+// &al[0] == &al[1]
+
+void f() { return void(); }
+// OK
+
+void x = f();
+// Error
+// but void* is a pointer to anything..
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. y ‘
+4
+
+Adobe
+ENDELEMENTHow can notning be something?
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved.
+
+nN
+Adobe
+ENDELEMENTHow can notning be something?
+
+std::vector<int> x = { 1, 2, 3};
+try {
+x. insert(x.begin(), @);
+} catch (...) {
+std::cout << x.size() << std::endl;
+}
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. / ‘
+A
+Adobe
+ENDELEMENTHow can notning be something?
+
+std::vector<int> x = { 1, 2, 3};
+try {
+x. insert(x.begin(), @);
+} catch (...) {
+std::cout << x.size() << std::endl;
+}
+
+// Basic Exception Guarantee:
+// Valid but unspecified
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. / ‘
+4
+Adobe
+ENDELEMENTHow can notning be something?
+
+std::vector<int> x = { 1, 2, 3};
+try {
+x. insert(x.begin(), @);
+} catch (...) {
+std::cout << x.size() << std::endl;
+}
+
+// Basic Exception Guarantee:
+// Valid but unspecified
+
+std::vector<int> y = std:i:move(x);
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved.
+
+mn
+
+Adobe
+ENDELEMENTHow can notning be something?
+
+std::vector<int> x = { 1, 2, 3};
+try {
+
+x. insert(x.begin(), @);
+} catch (...) {
+
+}
+// Basic Exception Guarantee:
+// Valid but unspecified
+
+std::cout << x.size() << std::endl;
+
+std::vector<int> y = std:i:move(x);
+// Moved from object, x, is valid but
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved.
+
+unspecified
+
+AN
+
+Adobe
+ENDELEMENT 
+
+Good Code
+
+© 2016 Adobe SystemsJncorporated. All Rights Reserved. Adobe Confidential:
+
+ 
+
+TT” “a
+ENDELEMENT 
+
+Good Code
+
+Good code Is correct
+Consistent; without contradiction
+
+© 2016 Adobe SystemsJncorporated. All Rights Reserved. Adobe Confidential:
+
+ 
+
+Ps
+ENDELEMENT 
+
+Good Code
+
+Good code Is correct
+Consistent; without contradiction
+
+Good code has meaning
+
+© 2016 Adobe SystemsJncorporated. All Rights Reserved. Adobe Confidential:
+
+ 
+
+Ps
+ENDELEMENT 
+
+Good Code
+
+Good code Is correct
+Consistent; without contradiction
+
+Good code has meaning
+Correspondence to an entity; specified, defined
+
+© 2016 Adobe SystemsJncorporated. All Rights Reserved. Adobe Confidential:
+
+ 
+
+rs
+ENDELEMENT 
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. 31 y. ‘|
+A
+
+Adobe
+ENDELEMENTCategories of nothing
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved.
+ENDELEMENTCategories of nothing
+
+Absence of something
+0, ©, [p, p), void
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. / ‘
+A
+
+Adobe
+ENDELEMENTCategories of nothing
+
+Absence of something
+0, @, [p, p), void
+
+Absence of meaning
+NaN, undefined, indeterminate
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved.
+
+nN
+Adobe
+ENDELEMENTHow can notning be something?
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved.
+
+nN
+Adobe
+ENDELEMENTHow can notning be something?
+
+int x;
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved.
+ENDELEMENTHow can notning be something?
+
+int x;
+// Partially formed; assign value or destruct
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. 33 y. ‘|
+A
+
+Adobe
+ENDELEMENTHow can notning be something?
+
+int x;
+// Partially formed; assign value or destruct
+
+int x =1/@;
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. 33 y. ‘|
+A
+
+Adobe
+ENDELEMENTHow can notning be something?
+int x;
+// Partially formed; assign value or destruct
+
+int x =1/@;
+// undefined behavior; reading from meaningless value
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved.
+Adobe
+ENDELEMENTHow can notning be something?
+int x;
+// Partially formed; assign value or destruct
+
+int x =1/@;
+// undefined behavior; reading from meaningless value
+
+double x = 1.0 / 0.Q;
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved.
+Adobe
+ENDELEMENTHow can notning be something?
+int x;
+// Partially formed; assign value or destruct
+
+int x =1/@;
+// undefined behavior; reading from meaningless value
+
+double x = 1.0 / 0.0;
+// inf; OK, approximation for underflow
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved.
+Adobe
+ENDELEMENTHow can notning be something?
+int x;
+// Partially formed; assign value or destruct
+
+int x =1/@;
+// undefined behavior; reading from meaningless value
+
+double x = 1.0 / 0.0;
+// inf; OK, approximation for underflow
+
+double x = @.0 / 0.Q;
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. 33 y. ‘|
+A
+Adobe
+ENDELEMENTHow can notning be something?
+int x;
+// Partially formed; assign value or destruct
+
+int x =1/@;
+// undefined behavior; reading from meaningless value
+
+double x = 1.0 / 0.0;
+// inf; OK, approximation for underflow
+
+double x = 0.0 / 0.0;
+// NaN; OK, though undefined behavior would also be
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved.
+
+nN
+Adobe
+ENDELEMENTHow can notning be something?
+int x;
+// Partially formed; assign value or destruct
+
+int x =1/@;
+// undefined behavior; reading from meaningless value
+
+double x = 1.0 / 0.0;
+// inf; OK, approximation for underflow
+
+double x = 0.0 / 0.0;
+// NaN; OK, though undefined behavior would also be
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved.
+
+nN
+Adobe
+ENDELEMENTHow can notning be something?
+int x;
+// Partially formed; assign value or destruct
+
+int x =1/@;
+// undefined behavior; reading from meaningless value
+
+double x = 1.0 / 0.0;
+// inf; OK, approximation for underflow
+
+double x = 0.0 / 0.0;
+// NaN; OK, though undefined behavior would also be
+
+struct empty : void { };
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. 33
+
+nN
+Adobe
+ENDELEMENTHow can notning be something?
+int x;
+// Partially formed; assign value or destruct
+
+int x =1/@;
+// undefined behavior; reading from meaningless value
+
+double x = 1.0 / 0.0;
+// inf; OK, approximation for underflow
+
+double x = 0.0 / Q0.Q;
+// NaN; OK, though undefined behavior would also be
+
+struct empty : void { };
+// sizeof(empty) == Q;
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. 33
+
+nN
+Adobe
+ENDELEMENTHow can notning be something?
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved.
+
+nN
+Adobe
+ENDELEMENTHow can notning be something?
+
+int a[Q];
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. / ‘
+4
+
+Adobe
+ENDELEMENTHow can notning be something?
+
+int al@];
+// OK
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. / ‘
+4
+
+Adobe
+ENDELEMENTHow can notning be something?
+
+int alQ@];
+// OK
+using empty = int[Ql;
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved.
+ENDELEMENTHow can notning be something?
+
+int al@];
+
+// OK
+
+using empty = int[Ql;
+// sizeof(empty) ==
+empty a[2];
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved.
+ENDELEMENTHow can notning be something?
+
+int alQl];
+
+// OK
+
+using empty = int[Ql;
+// sizeof(empty) ==
+empty a[2];
+
+// Sal@] == &a[1]
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved.
+ENDELEMENTHow can notning be something?
+
+int alQl];
+
+// OK
+
+using empty = int[Ql;
+// sizeof(empty) ==
+empty a[2];
+
+// Sal@] == &a[1]
+
+void f() { return void(); }
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved.
+ENDELEMENTHow can notning be something?
+
+int alQl];
+
+// OK
+
+using empty = int[Ql;
+// sizeof(empty) ==
+empty a[2];
+
+// Sal@] == &a[1]
+
+void f() { return void(); }
+// OK
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved.
+ENDELEMENTHow can notning be something?
+
+int alQl];
+
+// OK
+
+using empty = int[Ql;
+// sizeof(empty) ==
+empty a[2];
+
+// Sal@] == &a[1]
+
+void f() { return void(); }
+// OK
+
+void x = f();
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved.
+ENDELEMENTHow can notning be something?
+
+int alQl];
+
+// OK
+
+using empty = int[Ql;
+// sizeof(empty) == @
+empty a[2];
+
+// Sal@] == &a[1]
+
+void f() { return void(); }
+// OK
+
+void x = f();
+
+// OK
+// void* is OK
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. y ‘
+4
+Adobe
+ENDELEMENTHow can notning be something?
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved.
+
+nN
+Adobe
+ENDELEMENTHow can notning be something?
+
+std::vector<int> x = { 1, 2, 3};
+try {
+x. insert(x.begin(), @);
+} catch (...) {
+std::cout << x.size() << std::endl;
+}
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. / ‘
+A
+Adobe
+ENDELEMENTHow can notning be something?
+
+std::vector<int> x = { 1, 2, 3};
+try {
+x. insert(x.begin(), @);
+} catch (...) {
+std::cout << x.size() << std::endl;
+}
+
+// Basic Exception Guarantee:
+// Partially formed object. Reading is undefined behavior
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. y ‘
+A
+Adobe
+ENDELEMENTHow can notning be something?
+
+std::vector<int> x = { 1, 2, 3};
+try {
+x. insert(x.begin(), @);
+} catch (...) {
+std::cout << x.size() << std::endl;
+}
+
+// Basic Exception Guarantee:
+// Partially formed object. Reading is undefined behavior
+
+std::vector<int> y = std:i:move(x);
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. / ‘
+A
+Adobe
+ENDELEMENTHow can notning be something?
+
+std::vector<int> x = { 1, 2, 3};
+try {
+x. insert(x.begin(), @);
+} catch (...) {
+std::cout << x.size() << std::endl;
+}
+
+// Basic Exception Guarantee:
+// Partially formed object. Reading is undefined behavior
+
+std::vector<int> y = std:i:move(x);
+// Moved from object, x, is partially formed
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. y ‘
+4
+
+Adobe
+ENDELEMENTZ W/E yy
+
+Seven
+
+ 
+ENDELEMENTThe Permutation Paradox
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved.
+
+nN
+Adobe
+ENDELEMENTThe Permutation Paradox
+
+=
+Pp} LEE ELT
+wy,
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. A
+
+Adobe
+ENDELEMENTThe Permutation Paradox
+
+=
+PieL EE ET
+wy,
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved.
+
+nN
+Adobe
+ENDELEMENTThe Permutation Paradox
+
+nothing = unsafe
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved.
+
+nN
+Adobe
+ENDELEMENTThe Permutation Paradox
+
+nothing = unsafe
+something = inefficient
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved.
+
+nN
+Adobe
+ENDELEMENTThe Permutation Paradox
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved.
+ENDELEMENTThe Permutation Paradox
+
+“There is a duality between transformations and the corresponding actions: An action is
+definable in terms of a transformation and vice versa:
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. y ‘
+A
+Adobe
+ENDELEMENTThe Permutation Paradox
+
+“There is a duality between transformations and the corresponding actions: An action is
+definable in terms of a transformation and vice versa:
+
+void a(T& x) { x = f(x); } // action from transformation
+and
+
+T f(T x) { a(x); return x; } // transformation from action
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. / ‘
+A
+
+Adobe
+ENDELEMENTThe Permutation Paradox
+
+“There is a duality between transformations and the corresponding actions: An action is
+definable in terms of a transformation and vice versa:
+
+void a(T& x) { x = f(x); } // action from transformation
+and
+T f(T x) { a(x); return x; } // transformation from action
+Despite this duality, independent implementations are sometimes more efficient, in which case
+
+both action and transformation need to be provided.’
+~ Elements of Programming (section 2.5)
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. y ‘
+A
+Adobe
+ENDELEMENT 
+
+AML) yy
+
+t that I'm lazy, i's that
+
+ 
+ENDELEMENT 
+
+Good Code
+
+© 2016 Adobe SystemsJncorporated. All Rights Reserved. Adobe Confidential:
+
+ 
+
+TT” “a
+ENDELEMENT 
+
+Good Code
+
+Good code Is correct
+Consistent; without contradiction
+
+Good code has meaning
+Correspondence to an entity; specified, defined
+
+© 2016 Adobe SystemsJncorporated. All Rights Reserved. Adobe Confidential:
+
+ 
+
+rs
+ENDELEMENT 
+
+Good Code
+
+Good code Is correct
+Consistent; without contradiction
+
+Good code has meaning
+Correspondence to an entity; specified, defined
+
+Good code is efficient
+
+© 2016 Adobe SystemsJncorporated. All Rights Reserved. Adobe Confidential:
+
+ 
+
+rs
+ENDELEMENT 
+
+Good Code
+
+Good code Is correct
+Consistent; without contradiction
+
+Good code has meaning
+Correspondence to an entity; specified, defined
+
+Good code is efficient
+Maximum effect with minimum resources
+
+© 2016 Adobe SystemsJncorporated. All Rights Reserved. Adobe Confidential:
+
+ 
+
+rs
+ENDELEMENTEfficiency
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. A
+
+Adobe
+ENDELEMENTEfficiency
+
+Choice of data structures and algorithms
+
+Choice of what to optimize for
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. y ‘
+A
+Adobe
+ENDELEMENTEfficiency
+
+|
+BEBE
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. A
+
+Adobe
+ENDELEMENTEfficiency
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. A
+
+Adobe
+ENDELEMENTEfficiency
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. A
+
+Adobe
+ENDELEMENTEfficiency
+
+template <class ForwardIterator>
+void reverse(Forwarditerator f, Forwarditerator 1)
+auto n = distance(f, 1);
+if (n == || n == 1) return;
+auto m = next(f, n / 2);
+reverse(f, m);
+
+reverse(m, 1);
+rotate(f, m, 1);
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved.
+
+AN
+
+Adobe
+ENDELEMENTEfficiency
+
+template <class ForwardIterator>
+void reverse(ForwardiIterator f, ForwardIterator 1) {
+auto n = distance(f, 1);
+if (n == || n == 1) return;
+auto m = next(f, n / 2);
+reverse(f, m);
+
+reverse(m, 1);
+rotate(f, m, 1);
+
+O(n log n)
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved.
+
+AN
+
+Adobe
+ENDELEMENTEfficiency
+
+bed te dete
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. A
+
+Adobe
+ENDELEMENTEfficiency
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. A
+
+Adobe
+ENDELEMENTSimple Word Model
+
+Wo, id
+References Mailings Review View
+
+ 
+
+Insert Design Layout
+
+r 7 o Calibri (Body) * 12 > A* Ar ha’ hy = ’ 2= ya—-v =
+t=, & 2 ee
+
+ 
+
+til
+Il
+¢
+i
+
+Pate 6B OT Ure X x Ar x+y A+ [El=
+
+Hello World!
+
+46
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved.
+
+n\
+ENDELEMENTSimple Word Model
+
+«= Current Document
+= Selection
+» Provides a range; an empty range denotes a location
+
+ 
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. 47
+
+n\
+
+Adobe
+ENDELEMENTMore Complex Word Model
+
+- Need to be able to set the selection in “constant” time
+= This would imply a vector data structure
+
+- Also need constant time insert and erase
+= This would imply a list data structure
+
+= Solution: a more complex data structure such as a rope
+
+ 
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. 48
+ENDELEMENT 
+
+Z V/A Sy yy
+
+50/50
+
+ 
+ENDELEMENT 
+
+Good Code
+
+Good code Is correct
+Consistent; without contradiction
+
+Good code has meaning
+Correspondence to an entity; specified, defined
+
+Good code is efficient
+Maximum effect with minimum resources
+
+Good code is reusable
+Applicable to multiple problems; general in purpose
+
+© 2016 Adobe SystemsJncorporated. All Rights Reserved. Adobe Confidential:
+
+ 
+
+ff
+ENDELEMENTReusable
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. / ‘
+A
+
+Adobe
+ENDELEMENTReusable
+
+Concrete but of general use, i.e. numeric algorithms, utf conversions, ...
+
+Generic when algorithm is useful with different models
+Sometimes faster to convert one model to another
+
+Runtime dispatched when types not known at compile time
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. y ‘
+4
+Adobe
+ENDELEMENTReusable
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. / ‘
+A
+
+Adobe
+ENDELEMENTReusable
+
+Minimize client dependencies and intrusive requirements
+
+Separate data structures trom algorithms
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. y ‘
+4
+
+Adobe
+ENDELEMENTReusable
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. / ‘
+A
+
+Adobe
+ENDELEMENTReusable
+
+template <class T, class InputIterator, class OutputIterator>
+OutputIterator copy_utf(InputIterator first, InputIterator last,
+OutputIterator result);
+
+const char str[] = u8"Hello World!";
+vector<uintl16 t> out;
+copy_utf<uint16_t>(begin(str), end(str), back_inserter(out));
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved.
+
+AN
+
+Adobe
+ENDELEMENTe in the
+
+Y ay :
+
+ELL Lg MUNI
+
+ 
+ENDELEMENTWhy Status Quo Will Fail
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved.
+ENDELEMENTWhy Status Quo Will Fail
+
+‘I've assigned this problem [binary search] in courses at Bell Labs and IBM.
+Professional programmers had a couple of hours to convert the description into
+a programming language of their choice; a high-level pseudo code was fine...
+Ninety percent of the programmers found bugs in their programs (and | wasn't
+always convinced of the correctness of the code in which no bugs were found)’
+
+— Jon Bentley, Programming Pearls, 1986
+
+Adobe
+ENDELEMENTWhy Status Quo Will Fail
+int* lower_bound(intx* first, int* last, int value)
+while (first != last)
+int* middle = first + (last - first) / 2:
+if (*xmiddle < value) first = middle + 1;
+
+else last = middle;
+
+return first;
+
+Adobe
+ENDELEMENTSigns of Hope
+Elements of Programming
+
+Concepts aren't dead yet in C++
+
+Increased interest in new languages and formalisms
+
+Renewed interest in Communication Sequential Processes
+Renewed interest in Functional Programming ideas
+
+Rise of Reactive Programming & Functional Reactive Programming
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved.
+
+Adobe
+ENDELEMENTWork Continues
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. A
+
+Adobe
+ENDELEMENTWork Continues
+
+Generating Reactive Programs for Graphical User Interfaces from Multi-way Dataflow Constraint
+Systems, GPCE 2015, Gabriel Foust, Jaakko Jarvi, Sean Parent
+
+One Way To Select Many, ECOOP 2016, Jaakko Jarvi, Sean Parent
+
+https://github.com/sean-parent/sean-parent.github.io/wiki/Papers-and-Presentations
+https://github.com/stlab
+
+© 2016 Adobe Systems Incorporated. All Rights Reserved. y ‘
+4
+
+Adobe
+ENDELEMENTA ME MEAL L 1/1) Ma hs l,l A A A a Mr rr es © fe
+
+ 
+ENDELEMENTA
+
+Adobe
+ENDELEMENT

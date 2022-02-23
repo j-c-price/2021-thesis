@@ -1,0 +1,1584 @@
+1
+00:00:10,000 --> 00:00:20,000
+ok good morning everybody the we're going to continue
+
+2
+00:00:20,000 --> 00:00:30,000
+today developing a model of again this is called the equivalent Circuit model in it was developed by Alan Hart
+
+3
+00:00:30,000 --> 00:00:40,000
+Huxley in the 40s and 50s give a brief recap of what we've covered in the last couple
+
+4
+00:00:40,000 --> 00:00:50,000
+so weapon analysing a n or an with an imagining a an experiment in which we have a nor on in a dish
+
+5
+00:00:50,000 --> 00:01:00,000
+Northwest extracellular solution which is a salt solution we have a electrode in the cell that's measuring the voltage difference between
+
+6
+00:01:00,000 --> 00:01:10,000
+inside in the outside of the salsa we have the electrode connected to an amplifier a different lamprophyre and a wire in the bath connected to the other side
+
+7
+00:01:10,000 --> 00:01:20,000
+and we have a current source which are injects current into the cell and we imagine that as the experimenter we have our
+
+8
+00:01:20,000 --> 00:01:30,000
+a knob that we can adjust the amount of current that's been injected into the south we describe the ne on basically as a capacitor because it
+
+9
+00:01:30,000 --> 00:01:40,000
+it's 2 conductors separated by an insulator so we have a conductor one conductor inside the cell which is the conductive intracellular salts
+
+10
+00:01:40,000 --> 00:01:50,000
+another conductor outside the south which is the conductive extracellular solution and those two conductors are separated by an insulator which is a fast forward
+
+11
+00:01:50,000 --> 00:02:00,000
+down the equivalent Circuit for this which for this situation right here it has a voltage measure
+
+12
+00:02:00,000 --> 00:02:10,000
+device that represents the Membrane potential as the difference between the intracellular voltage and the extracellular bolted voltage we have
+
+13
+00:02:10,000 --> 00:02:20,000
+sorry is here and we've represented owner on so far as a capacitor then introduce the idea of
+
+14
+00:02:20,000 --> 00:02:30,000
+channels are conductances of pores in the Membrane that allow ions to pass through the Membrane through this little pores and we describe the eyes
+
+15
+00:02:30,000 --> 00:02:40,000
+we talked about the idea that there are many different kinds of ions ion channels that have different interesting prop
+
+16
+00:02:40,000 --> 00:02:50,000
+so with an extended our analysis of an Iran in the dish to include these ion channels
+
+17
+00:02:50,000 --> 00:03:00,000
+down by putting by representing ion channels as a resistance that connects the intracellular space in the extracellular space this
+
+18
+00:03:00,000 --> 00:03:10,000
+sister is in parallel with our capacitor and we represented the current going through that resistance which we called the leak resistance art
+
+19
+00:03:10,000 --> 00:03:20,000
+we represented the current as a leak current Isa Bell are noted that we were going
+
+20
+00:03:20,000 --> 00:03:30,000
+are all this week resistance using Ohm's law so we wrote down that current that leak current as the Membrane potential v device
+
+21
+00:03:30,000 --> 00:03:40,000
+by the leak resistance this is just Onslow and we also rewrote are the quality one over R1 over the
+
+22
+00:03:40,000 --> 00:03:50,000
+resistance as the leak conductance so delete current is just delete conductance time's the Membrane potential
+
+23
+00:03:50,000 --> 00:04:00,000
+also introduced the idea of an IV curve which plots the amount of current flowing through this through our leak conductance
+
+24
+00:04:00,000 --> 00:04:10,000
+as a function of the Membrane potential is v and for the case of a resistor for the case for modelling
+
+25
+00:04:10,000 --> 00:04:20,000
+Elite conductance with Ohm's law that the current as a function of voltage is a straight line going through the origin whose slope is just
+
+26
+00:04:20,000 --> 00:04:30,000
+we conducted questions about that ok then we derive the simply quote
+
+27
+00:04:30,000 --> 00:04:40,000
+for how The Membrane potential evolves over time as a function of the injected current and we did that using kirkovski
+
+28
+00:04:40,000 --> 00:04:50,000
+I would says that the sum of all the currents into a node has two equal the sum of currents out of a node or node here means a wire
+
+29
+00:04:50,000 --> 00:05:00,000
+tell the some of these currencies = 0 is a minus sign here because this current the electrode injected current as
+
+30
+00:05:00,000 --> 00:05:10,000
+time does positive going into the cell and these currents are to find a positive when they go out of the south substituted for
+
+31
+00:05:10,000 --> 00:05:20,000
+current the expression from Onslow so into this part of the equation here this term we substitute VM over arse about
+
+32
+00:05:20,000 --> 00:05:30,000
+can I apologise for the slight inconsistency in notation here sometimes I'm using VM and sometimes I'm using v altrider fix that
+
+33
+00:05:30,000 --> 00:05:40,000
+boat VR miss the same as v and in what you've seen so far and we also have an expression here for
+
+34
+00:05:40,000 --> 00:05:50,000
+the capacitive current capacity capacity of current through this capacitor is just CDT the we put those two expressions those
+
+35
+00:05:50,000 --> 00:06:00,000
+substitutions and we have this expression are that relates the voltage in the cell to the injected current weary wrote this a little bit by multiplying
+
+36
+00:06:00,000 --> 00:06:10,000
+by the leak resistance and we are rewrote this again making a couple substitutions we use
+
+37
+00:06:10,000 --> 00:06:20,000
+how are in place of RC so that becomes a time constant and the infinity is this expression on the right are leak
+
+38
+00:06:20,000 --> 00:06:30,000
+the injected current so the equation that we now have the differential equation that we now have for the dependence of the Membrane potential on injected current looks like
+
+39
+00:06:30,000 --> 00:06:40,000
+we pass powder VT is equal to the infinity when we inject current into the cell or changing the infinity
+
+40
+00:06:40,000 --> 00:06:50,000
+and then the voltage evolves as described by this different workwear Asian
+
+41
+00:06:50,000 --> 00:07:00,000
+alright so we're going to plot a bunch of things the infinity and the voltage in the
+
+42
+00:07:00,000 --> 00:07:10,000
+as we interact the pulse of currents are we start out with injected current equal to 0 with Step Up 2 I not hold a car
+
+43
+00:07:10,000 --> 00:07:20,000
+injector current I not for some period of time and then reset the current back to 0 so what does the infinity do as a function of time
+
+44
+00:07:20,000 --> 00:07:30,000
+anybody remember it does the same thing but
+
+45
+00:07:30,000 --> 00:07:40,000
+pied by our saval very good ok and what does what does the Membrane potential do so let's start the Membrane potential is 0
+
+46
+00:07:40,000 --> 00:07:50,000
+starting here what does the Membrane potential do as a function of what's your name
+
+47
+00:07:50,000 --> 00:08:00,000
+yes there's a 0 good it what's the what
+
+48
+00:08:00,000 --> 00:08:10,000
+say how do we say exponentially toward the infinity very good so it relaxes exponentially toward the infinity which is here and then what happens
+
+49
+00:08:10,000 --> 00:08:20,000
+and it does it relaxes with a time constant of RC and what that means is that the time it takes for
+
+50
+00:08:20,000 --> 00:08:30,000
+the one over ear bits original distance from the infinity is is given by towel
+
+51
+00:08:30,000 --> 00:08:40,000
+and you can solve this differential equation that was on the previous slide for periods worthy inject
+
+52
+00:08:40,000 --> 00:08:50,000
+is constant where the infinity is constant and what you can see is that the voltage difference from the current v Infinity relaxes
+
+53
+00:08:50,000 --> 00:09:00,000
+sleep 20 boats out at the initial voltage minus the infinity and you multiply that difference times and
+
+54
+00:09:00,000 --> 00:09:10,000
+the Dickies 20 and so the voltage difference between the voltage and the Infinity the game
+
+55
+00:09:10,000 --> 00:09:20,000
+we are we then introduced the idea that Lauren's have batteries where do the batteries of Anna Ron come from anybody remember Stacey I Remember You
+
+56
+00:09:20,000 --> 00:09:30,000
+the batteries of an Iran come from that's what the battery producers
+
+57
+00:09:30,000 --> 00:09:40,000
+the battery producers of voltage difference but by physically what causes that voltage different
+
+58
+00:09:40,000 --> 00:09:50,000
+ion selective pours good that's one component and there's another important component somewhere else want to answer but excellent so we
+
+59
+00:09:50,000 --> 00:10:00,000
+components ion concentration gradients and ion selective pours so basically if you have a high concentration of
+
+60
+00:10:00,000 --> 00:10:10,000
+ask him inside the cell when you open up a potassium selective ion channel the potassium ions diffuse out of the cell
+
+61
+00:10:10,000 --> 00:10:20,000
+an excess of negative charges inside the cell that causes the voltage inside the cell to go down until
+
+62
+00:10:20,000 --> 00:10:30,000
+there is a sufficient voltage gradient that the drift of potassium ions back into the cell driven by the voltage gradient is equal to the diffusion
+
+63
+00:10:30,000 --> 00:10:40,000
+read of ions out of the cell produced by the protected by the concentration gradient OK at equilibrium
+
+64
+00:10:40,000 --> 00:10:50,000
+at the equilibrium potential there is a particular voltage at which there's no net current into potassium current into or out of the cell
+
+65
+00:10:50,000 --> 00:11:00,000
+ok and that's what we mean by equilibrium potential otherwise known as the nernst potential last time we derive the nurse potential using the ball
+
+66
+00:11:00,000 --> 00:11:10,000
+equation we are the boltzmann equation gives us the ratio of the probability of finding an iron inside or outside of the South
+
+67
+00:11:10,000 --> 00:11:20,000
+and that's equal to eat to the minus energy difference of an ion inside and outside of the cells / Katie the energy difference is given by the
+
+68
+00:11:20,000 --> 00:11:30,000
+how much time is the voltage difference to charge of the ion that were considering x the voltage difference so we took the log of both sides of four VN -
+
+69
+00:11:30,000 --> 00:11:40,000
+and we found that the voltage difference at equilibrium this is at thermal equilibrium that's what the boltzmann equation tells us at thermal equilibrium what's the ratio
+
+70
+00:11:40,000 --> 00:11:50,000
+abilities at thermal equilibrium and the voltage difference is 25 ml bolts x the log the natural log of the concentration of
+
+71
+00:11:50,000 --> 00:12:00,000
+freshens and that's ok is the if you put in the the the potassium concentrations here that give
+
+72
+00:12:00,000 --> 00:12:10,000
+equilibrium potential for potassium or the north potential for potassium so so
+
+73
+00:12:10,000 --> 00:12:20,000
+Iran's here on earth are kinda like it's on that caesium irons on the alien planet potassium potassium
+
+74
+00:12:20,000 --> 00:12:30,000
+sensation inside of a cell is around 400 mm and I think this is for squid giant axon she's a little bit earlier but
+
+75
+00:12:30,000 --> 00:12:40,000
+yes guy so so if
+
+76
+00:12:40,000 --> 00:12:50,000
+about the probability of finding a potassium ion inside of a cell and finding a potassium ion outside
+
+77
+00:12:50,000 --> 00:13:00,000
+the ratio of probabilities is going to be proportional to the ratio of concentrations does that make sense
+
+78
+00:13:00,000 --> 00:13:10,000
+ok so given these concentrations a high concentration of positive potassium ions inside the cell a low
+
+79
+00:13:10,000 --> 00:13:20,000
+outside the cell we can take the ratio of those concentrations take the natural log of that that's about 3 log units
+
+80
+00:13:20,000 --> 00:13:30,000
+the sign is negative because this is this ratio is smaller than 1 so the equilibrium potential for potassium that's about 25
+
+81
+00:13:30,000 --> 00:13:40,000
+waltz Katie of acute for a monovalent is $25 volts so that nerds potential
+
+82
+00:13:40,000 --> 00:13:50,000
+5 mil millivolts x -3 so that equilibrium potential is about -75 in 10
+
+83
+00:13:50,000 --> 00:14:00,000
+ok so let's now look at a different iron sodium so sodium has a very low
+
+84
+00:14:00,000 --> 00:14:10,000
+inside a cell compared to outside that ratio is about a factor of 10 but not
+
+85
+00:14:10,000 --> 00:14:20,000
+father of 10 is about to log units right so what's the equilibrium potential for sodium
+
+86
+00:14:20,000 --> 00:14:30,000
+yep + 4 - so it's
+
+87
+00:14:30,000 --> 00:14:40,000
+it's about to login it's x 25 North Ryde so it's plus plus 50 years so how about chloride so this is
+
+88
+00:14:40,000 --> 00:14:50,000
+chloride is a negative ion it has a high concentration outside the cell and a low concentration inside the cell so when when we open up a chloride Chan
+
+89
+00:14:50,000 --> 00:15:00,000
+what happens to the chloride ions which way do they go into the cellar out of the song
+
+90
+00:15:00,000 --> 00:15:10,000
+are there negative so what is that going to do to the voltage inside the cell or negative good
+
+91
+00:15:10,000 --> 00:15:20,000
+turn the ratio of concentrations here is about 10 so like of 10 it's 2ish so what's that
+
+92
+00:15:20,000 --> 00:15:30,000
+about -50 exactly if you plug in the actual numbers it's -60 great
+
+93
+00:15:30,000 --> 00:15:40,000
+here's an interesting one calcium-calcium is a captain in extremely low concentration inside of cells because it's use
+
+94
+00:15:40,000 --> 00:15:50,000
+signalling molecule when calcium comes into a cell it actually does things important so the so the cell buffers calcium it it's a quest
+
+95
+00:15:50,000 --> 00:16:00,000
+calcium into the endoplasmic reticulum and keeps the concentration in the cytoplasm very low the concentration outside the cell is about to the ratio
+
+96
+00:16:00,000 --> 00:16:10,000
+is a pretty big number so if you are ok why is why is the
+
+97
+00:16:10,000 --> 00:16:20,000
+coffee machine hair Katie over Q why is that 12 mm bolts here instead of 25
+
+98
+00:16:20,000 --> 00:16:30,000
+excellent so it's Katie over 2 times the electron charge pay so that's $12 very good and so the equilibrium potential for calcium
+
+99
+00:16:30,000 --> 00:16:40,000
+is very positive great any questions about that so these are
+
+100
+00:16:40,000 --> 00:16:50,000
+most important ions that we have to think about in terms of ionic conductances across across the Membrane
+
+101
+00:16:50,000 --> 00:17:00,000
+question ok so let's go back to our Lauren in the dish and we're going to
+
+102
+00:17:00,000 --> 00:17:10,000
+consider on that has a a potassium conductance and a high potassium concentration inside the cell remember we can write down that the
+
+103
+00:17:10,000 --> 00:17:20,000
+magnitude of that conductances ji-sub Kay and now we're going to do an experiment or going to measure the voltage in our sell the Steady State
+
+104
+00:17:20,000 --> 00:17:30,000
+as a function of the amount of current that is either being injected or passing through the Membrane ok it's steady-state those two things are the same
+
+105
+00:17:30,000 --> 00:17:40,000
+sorry going to plot the potassium current through the Membrane as a function of the voltage of the South
+
+106
+00:17:40,000 --> 00:17:50,000
+so let's say that we inject 0 current what's the Steady State voltage in the cell going to be
+
+107
+00:17:50,000 --> 00:18:00,000
+just went through the
+
+108
+00:18:00,000 --> 00:18:10,000
+I have to call ok I have a volunteer about you
+
+109
+00:18:10,000 --> 00:18:20,000
+are white white 25 ml bolts and with will assume the channels open
+
+110
+00:18:20,000 --> 00:18:30,000
+so what is the answer is that if you inject 0 current the the voltage is going to be the north potential
+
+111
+00:18:30,000 --> 00:18:40,000
+ask him and dad is correct but what is the actual number it's going to be around -75
+
+112
+00:18:40,000 --> 00:18:50,000
+Sophie inject 0 current voltage of an Iran is going to be around UK or -75 novels
+
+113
+00:18:50,000 --> 00:19:00,000
+let's start injecting current into the cell until the voltage gets to 0 K now
+
+114
+00:19:00,000 --> 00:19:10,000
+going to be injecting positive current into the shopping - what do we have to do injector positive or negative current to make the voltage get up to 0
+
+115
+00:19:10,000 --> 00:19:20,000
+positive right because the voltage inside is negative so we need to inject positive charges and how much current do we need to inject
+
+116
+00:19:20,000 --> 00:19:30,000
+the conductance SG how much current to interact
+
+117
+00:19:30,000 --> 00:19:40,000
+v v is the voltage inside of a cell so you're getting there you're really close what's the answer
+
+118
+00:19:40,000 --> 00:19:50,000
+hey x g ok so we're going to end the current into herself until the voltage gets to 0 and if we inject different amounts of current into the cell
+
+119
+00:19:50,000 --> 00:20:00,000
+and measure what the voltage is we get kind of a straight line for potassium
+
+120
+00:20:00,000 --> 00:20:10,000
+if you hold the voltage positive above the equilibrium potential potassium ions are going to flow out through the member
+
+121
+00:20:10,000 --> 00:20:20,000
+is that clear let's hold the let's hold the voltage at 0 which way are ions flowing so the ions are going to be
+
+122
+00:20:20,000 --> 00:20:30,000
+out hold the voltage at EK what happens to the potassium current
+
+123
+00:20:30,000 --> 00:20:40,000
+because you're now it's enormous potential and if you hold the voltage below that the inside of the
+
+124
+00:20:40,000 --> 00:20:50,000
+is now a negative relative to the nearest potential and currents gonna flow in the notice that the current actually were vs sign around EK
+
+125
+00:20:50,000 --> 00:21:00,000
+ok and so sometimes this voltage is called the reversal potential ok so you're here me sometimes referred to the reversal potential and that
+
+126
+00:21:00,000 --> 00:21:10,000
+what's the same as the Norris potential or the equilibrium potential ok so the equation for something
+
+127
+00:21:10,000 --> 00:21:20,000
+like this a straight line That's offset from zero is Justice so this expression right here is going to be our basic model for Howie
+
+128
+00:21:20,000 --> 00:21:30,000
+the current through an iron as a function of the voltage of the Membrane so current the potassium current is just the potassium conductance
+
+129
+00:21:30,000 --> 00:21:40,000
+* the difference of the Membrane potential from the river so potential ok so i k it was GK x
+
+130
+00:21:40,000 --> 00:21:50,000
+minor CK we also have a circuit a little simple equivalent Circuit that describes this relation and this
+
+131
+00:21:50,000 --> 00:22:00,000
+it looks like we have a what we're going to do to discussed include the effects of this
+
+132
+00:22:00,000 --> 00:22:10,000
+iron this iron specific conductance in the presence of a concentration gradient is to take our conductor
+
+133
+00:22:10,000 --> 00:22:20,000
+this to hear a conductance and put it in series with a battery so that's the basic Circuit element that describes this kind of ivy
+
+134
+00:22:20,000 --> 00:22:30,000
+why is that ok so let's break this down a little bit basically what we're going to do is we're going to equate this membrane potential difference
+
+135
+00:22:30,000 --> 00:22:40,000
+clean the inside in the outside of the cell is potential difference to the sum of the voltage drops across these two elements is it 1
+
+136
+00:22:40,000 --> 00:22:50,000
+bolts the same as the battery in here what is it
+
+137
+00:22:50,000 --> 00:23:00,000
+exactly so the voltage drop across this battery is EK what's the voltage drop across this resistor this potassium conductance
+
+138
+00:23:00,000 --> 00:23:10,000
+what is it depend on what is the current is 0 what's the voltage drop across a resistor whose current is 0
+
+139
+00:23:10,000 --> 00:23:20,000
+Onslow rate what is it at arbitrary current what's the voltage drop across resistor as a
+
+140
+00:23:20,000 --> 00:23:30,000
+good can somebody tell me what it is in terms of the quantities that we have looking for a
+
+141
+00:23:30,000 --> 00:23:40,000
+severe crosshair ok so VM the Membrane potential has two just equal the sum of those two voltage
+
+142
+00:23:40,000 --> 00:23:50,000
+severe me cos EK plus IKEA Ridge EK and now it's just saw this for ok
+
+143
+00:23:50,000 --> 00:24:00,000
+this little Circuit element describes our the conductance that's the equation that goes with it question
+
+144
+00:24:00,000 --> 00:24:10,000
+alright what's push on this quantity right here by the way V - EK is called the driving
+
+145
+00:24:10,000 --> 00:24:20,000
+FV is equal to EK than the driving potential is 0 and there's no cracked
+
+146
+00:24:20,000 --> 00:24:30,000
+the current through the channel is proportional to the driving potential
+
+147
+00:24:30,000 --> 00:24:40,000
+alright let's let's just so there is our new circuit diagram for our cell that's a capacitor who's
+
+148
+00:24:40,000 --> 00:24:50,000
+rain has little leaks in it where there is a ion-specific permeability of the poor and iron
+
+149
+00:24:50,000 --> 00:25:00,000
+fresh ingredients to produce a battery Circuit you can see that we're getting off Lee close now to the hole
+
+150
+00:25:00,000 --> 00:25:10,000
+equivalent Circuit model that hodgkin-huxley wrote down ok so let's let's just flat out this equation here
+
+151
+00:25:10,000 --> 00:25:20,000
+what is Isa k k is just hopefully my CK very good
+
+152
+00:25:20,000 --> 00:25:30,000
+that the resistance RK is just one over GK and towel again is RK x c so let's massage that's a little bit more
+
+153
+00:25:30,000 --> 00:25:40,000
+we're going to write this down as v + DVD t = EK +
+
+154
+00:25:40,000 --> 00:25:50,000
+what is that that is very good
+
+155
+00:25:50,000 --> 00:26:00,000
+who won CY that's the infinity because if you set divinity equal to 0
+
+156
+00:26:00,000 --> 00:26:10,000
+virsa call to ik arcade Eyecare Plus rkip if you inject a constant current
+
+157
+00:26:10,000 --> 00:26:20,000
+at Steady State DVD take 40 you can see that the injected current is just equal to the potassium current leaking out through the
+
+158
+00:26:20,000 --> 00:26:30,000
+that all makes great sense so that's the infinity the voltage is just the difference equation is v Plus
+
+159
+00:26:30,000 --> 00:26:40,000
+the infinity exactly the same equation we had before so you know that every moment v is going to be doing what
+
+160
+00:26:40,000 --> 00:26:50,000
+everybody together relaxing toward the infinity right ok where that's our
+
+161
+00:26:50,000 --> 00:27:00,000
+Infinity the we're going to play the Rihanna do the same experiment again here's our pulse of injected Kurt v Infinity is now starting at
+
+162
+00:27:00,000 --> 00:27:10,000
+jumps up to EK plus rki not and it goes back down and voltage of the cell is relaxing toward the in
+
+163
+00:27:10,000 --> 00:27:20,000
+adding that just shifted
+
+164
+00:27:20,000 --> 00:27:30,000
+this voltage Trace down from 0 number this before this was sitting at 0 and now it's sitting at -75 ml bolts
+
+165
+00:27:30,000 --> 00:27:40,000
+any questions
+
+166
+00:27:40,000 --> 00:27:50,000
+alright so we're going to come back in a minute
+
+167
+00:27:50,000 --> 00:28:00,000
+finished washing out this model
+
+168
+00:28:00,000 --> 00:28:10,000
+where are we make those conductances depend on time as a way of describing the spikes that in Iran produces
+
+169
+00:28:10,000 --> 00:28:20,000
+but before we do that we're going to talk about it a much simpler model of how how was spiking around behave basically what word
+
+170
+00:28:20,000 --> 00:28:30,000
+still as we're going to instead of write down a biophysical model of action potentials which is where we're heading
+
+171
+00:28:30,000 --> 00:28:40,000
+we're just going to ask some simple questions about our spiking around behaves notice that action
+
+172
+00:28:40,000 --> 00:28:50,000
+a really important right that there are the way Normans communicate with other Norris they send a signal down your axon to listen or transmitter another na runs but
+
+173
+00:28:50,000 --> 00:29:00,000
+what's the time in Iran is not spiking what is it doing
+
+174
+00:29:00,000 --> 00:29:10,000
+well could be another thoughts certainly sometimes it could be
+
+175
+00:29:10,000 --> 00:29:20,000
+great it's well and and how did you do that
+
+176
+00:29:20,000 --> 00:29:30,000
+it's part of it but yes integrating is inputs
+
+177
+00:29:30,000 --> 00:29:40,000
+and it integrates is important and eventually it's bikes ok so so we're going to develop a model or look at a model now
+
+178
+00:29:40,000 --> 00:29:50,000
+cob not surprisingly integrate-and-fire ok that captures exactly that idea that are more on spends most of
+
+179
+00:29:50,000 --> 00:30:00,000
+I'm integrating it's input making a decision about when the Spike and then spiking over again
+
+180
+00:30:00,000 --> 00:30:10,000
+other a crucial piece of this is that for most types of Nerang the spikes are really all the same
+
+181
+00:30:10,000 --> 00:30:20,000
+the spike waveform don't carry extra information Beyond the fact that there's a spike we're going to treat our spikes as Delta functions just disco
+
+182
+00:30:20,000 --> 00:30:30,000
+events at single time and the spikes are going to occur when the voltage in the Run
+
+183
+00:30:30,000 --> 00:30:40,000
+which is a particular membrane potential called this bike threshold no that's a reasonable approximation for many Lawrence it's not absolute
+
+184
+00:30:40,000 --> 00:30:50,000
+Facebook Medina on spike when the Northern reaches of particular voltage threshold and that's captured in this model called
+
+185
+00:30:50,000 --> 00:31:00,000
+Dr integrate-and-fire know what we're going to do if we're going to take our hodgkin-huxley model and we're going to replace this
+
+186
+00:31:00,000 --> 00:31:10,000
+sodium and potassium conductance is that actually generate the spike work in a replace that with a very simplified model of a spike generator look like
+
+187
+00:31:10,000 --> 00:31:20,000
+basically the idea is that the south gets input from either an electrode or from a
+
+188
+00:31:20,000 --> 00:31:30,000
+chicken pot and it integrates that import until it reaches a voltage called the threshold and once it reaches
+
+189
+00:31:30,000 --> 00:31:40,000
+baffled we simply reset the voltage back down to so about you called the reset ok and then we just
+
+190
+00:31:40,000 --> 00:31:50,000
+do you want to we can test draw a line at a time and that's the spike what really happens to the voltage
+
+191
+00:31:50,000 --> 00:32:00,000
+set once the voltage hits be threshold begets reset back down to any questions
+
+192
+00:32:00,000 --> 00:32:10,000
+that kind of behaviour is not it's fairly common or on so there's
+
+193
+00:32:10,000 --> 00:32:20,000
+example of does the voltage in a cell in motor cortex of the Songbird in this is from a paper from Rich movies lab back in the back in 9
+
+194
+00:32:20,000 --> 00:32:30,000
+2 and you can see that if you inject current the voltage in the cell ramps up until it hits a threshold voltage it makes a spike which is very narrow in time but then
+
+195
+00:32:30,000 --> 00:32:40,000
+multifaceted down to a lower voltage just repeats over and over again
+
+196
+00:32:40,000 --> 00:32:50,000
+what we're going to do is work going to calculate the rate at which another on fires as a function of how much
+
+197
+00:32:50,000 --> 00:33:00,000
+gets injected into the see how much import a cell cats start by considering the case where the
+
+198
+00:33:00,000 --> 00:33:10,000
+I has no leaks and it's Moreno conductances alright so let's plot voltage as a function of time so this is voltage as a function of time when we
+
+199
+00:33:10,000 --> 00:33:20,000
+act a step of current into the song so what's going to happen and the current turns on
+
+200
+00:33:20,000 --> 00:33:30,000
+some fresh
+
+201
+00:33:30,000 --> 00:33:40,000
+excellent bike that
+
+202
+00:33:40,000 --> 00:33:50,000
+then what's going to happen
+
+203
+00:33:50,000 --> 00:34:00,000
+excellent like that and then what's going to happen
+
+204
+00:34:00,000 --> 00:34:10,000
+current into our cell in our cell is going to generate bikes action potentials at regular intervals
+
+205
+00:34:10,000 --> 00:34:20,000
+and the interval between those spikes is going to be controlled by how long it takes that passador to charge up from the reset
+
+206
+00:34:20,000 --> 00:34:30,000
+to the threshold so we can actually just very simply calculate the firing rate of this Laurent as a function of how much current we injector
+
+207
+00:34:30,000 --> 00:34:40,000
+so the firing rate is just one over that interval between the spikes
+
+208
+00:34:40,000 --> 00:34:50,000
+so now what do we do gas what the next step is
+
+209
+00:34:50,000 --> 00:35:00,000
+how do we figure out how long it takes we know this distance
+
+210
+00:35:00,000 --> 00:35:10,000
+some third grade word problem here come on somebody help me out across the river your paddling you know one that can
+
+211
+00:35:10,000 --> 00:35:20,000
+the river is 10 metres across
+
+212
+00:35:20,000 --> 00:35:30,000
+how about Racer
+
+213
+00:35:30,000 --> 00:35:40,000
+wait shirt what do you think it's not worth trying to calculate
+
+214
+00:35:40,000 --> 00:35:50,000
+time it takes for the voltage to go from here to here
+
+215
+00:35:50,000 --> 00:36:00,000
+what would it depend on
+
+216
+00:36:00,000 --> 00:36:10,000
+what what are you doing
+
+217
+00:36:10,000 --> 00:36:20,000
+but what are you cut your calculating white and you're using what about this line
+
+218
+00:36:20,000 --> 00:36:30,000
+welp exactly great so if we knew the slope of this line we can calculate how long it takes to go from here to here
+
+219
+00:36:30,000 --> 00:36:40,000
+great let's do that so we have this equation CD DVD was Isa me what's the slope of this line
+
+220
+00:36:40,000 --> 00:36:50,000
+it's just DVD tea good so
+
+221
+00:36:50,000 --> 00:37:00,000
+Stevie t that's Delta v over delta t delta v is just this voltage difference right and delta T is what we're trying to calculate
+
+222
+00:37:00,000 --> 00:37:10,000
+are we just solved which is plug this into here and we just saw for one over delta T and that's just seed out
+
+223
+00:37:10,000 --> 00:37:20,000
+times the injected current that's probably what you were saying write any questions about that
+
+224
+00:37:20,000 --> 00:37:30,000
+ok so let's look at what that looks like the firing rate is proportional to the Detectives
+
+225
+00:37:30,000 --> 00:37:40,000
+because 2080 injected current the voltage is constant and the Nerang never fire but if we inject a tiny bit of current the vault
+
+226
+00:37:40,000 --> 00:37:50,000
+slowly ramp up and it will eventually hit the threshold and then reset the vault the fire rate is proportional to the injected current Club one over
+
+227
+00:37:50,000 --> 00:38:00,000
+Delta v if the capacitor is much bigger what happens to the foreign rate close down because as you were
+
+228
+00:38:00,000 --> 00:38:10,000
+current the voltage increases more slowly because the capacitance is bigger right now
+
+229
+00:38:10,000 --> 00:38:20,000
+let's add our our a leak conductance back in
+
+230
+00:38:20,000 --> 00:38:30,000
+Stockton we're going to think of it as a potassium conductance ok so I'm gonna call Angelique because I'm going to use something
+
+231
+00:38:30,000 --> 00:38:40,000
+at leader in the hodgkin-huxley model but you should think about it just as a potassium conduct alright so what
+
+232
+00:38:40,000 --> 00:38:50,000
+let's go to work at a voltage as a function of time during our injected current let's say that we start at the reset
+
+233
+00:38:50,000 --> 00:39:00,000
+our our voltage of the reset
+
+234
+00:39:00,000 --> 00:39:10,000
+so let's start it now what happened yes
+
+235
+00:39:10,000 --> 00:39:20,000
+the voltage starts here cos there's 0 injected current as soon as you inject current the infinity
+
+236
+00:39:20,000 --> 00:39:30,000
+it's up to hear would say the voltage relaxes exponentially toward the infinity until it hits the threshold very good
+
+237
+00:39:30,000 --> 00:39:40,000
+then what happened somebody else but you in the grey shirt
+
+238
+00:39:40,000 --> 00:39:50,000
+Sophie know the answer raise your hand will go much faster ok so at this point it will jump back down
+
+239
+00:39:50,000 --> 00:40:00,000
+great and then why else if you know the answer is your hand just ok let's just do an exercise
+
+240
+00:40:00,000 --> 00:40:10,000
+raise your hand everybody who knows your hand up high ok now one of you say it
+
+241
+00:40:10,000 --> 00:40:20,000
+everybody sad music to my ears ok it relaxes exponentially back to the in
+
+242
+00:40:20,000 --> 00:40:30,000
+ok and tell it's threshold and it comes back ok keeps no what happens here the car
+
+243
+00:40:30,000 --> 00:40:40,000
+turns off what happens that question it out
+
+244
+00:40:40,000 --> 00:40:50,000
+back to why is it
+
+245
+00:40:50,000 --> 00:41:00,000
+VE reset snow cone injected battery Infinity so that's why it relaxes back to to Ely
+
+246
+00:41:00,000 --> 00:41:10,000
+any question it's pretty simple right ok so it's pretty simple and we can
+
+247
+00:41:10,000 --> 00:41:20,000
+derive the expression now for this delta-t and therefore we can drive the equation for the firing rate as a function of injected it's a little more complicated
+
+248
+00:41:20,000 --> 00:41:30,000
+turn the other one I'm going to go through it in a little bit less detailed ok because the answer turns out to actually be pretty simple
+
+249
+00:41:30,000 --> 00:41:40,000
+so we're going to calculate the phone rate which is just one over this delta-t here before we actually get into the math what happens if the infinity is die
+
+250
+00:41:40,000 --> 00:41:50,000
+I know the answer to that question is your hands
+
+251
+00:41:50,000 --> 00:42:00,000
+I want spike right good ok so the infinity actually has to be above the threshold in order for that
+
+252
+00:42:00,000 --> 00:42:10,000
+spike that make sense ok so something is different already because because before we found it currently in Jack
+
+253
+00:42:10,000 --> 00:42:20,000
+the soul would eventually spike but now what we see as when we have A-League the v-infinity actually has to be above the threshold and so that means there is going to be so
+
+254
+00:42:20,000 --> 00:42:30,000
+shuffle current below which the Nerang wants bike that's pretty cool we can see that right away so I just I just define one
+
+255
+00:42:30,000 --> 00:42:40,000
+decode the rear base ok and that is that current at which the Nerang begins to spike so if we start our soul
+
+256
+00:42:40,000 --> 00:42:50,000
+at the reset because I said just spiked it relaxes exponentially toward me infinity but let's say that the infinity is right at 3
+
+257
+00:42:50,000 --> 00:43:00,000
+you can see that the time to reach the threshold is actually very long it if the infinity is equal to the threshold it will never actually reach it even
+
+258
+00:43:00,000 --> 00:43:10,000
+Infinity is equal to view threshold the phone Raiders zero because if you inject just a tiny bit more current now it'll be in the spike right
+
+259
+00:43:10,000 --> 00:43:20,000
+we can calculate the injector current required to reach threshold that's called the real base we just set v-infinity equal to the threshold right
+
+260
+00:43:20,000 --> 00:43:30,000
+and we use our equation for that's the infinity and we just said it equal the threshold now we just drive the injected can't we just saw
+
+261
+00:43:30,000 --> 00:43:40,000
+I see that's the injected current required to make the infinity reach the threshold and you can see that it's just Julie
+
+262
+00:43:40,000 --> 00:43:50,000
+time to be threshold - all that I threshold
+
+263
+00:43:50,000 --> 00:44:00,000
+what's the firing rate of this Lauren is 04 low current as you inject more current the infinity increases but
+
+264
+00:44:00,000 --> 00:44:10,000
+I still can't reach the threshold until you inject an amount of current such that the infinity reaches be threshold and then it begins to
+
+265
+00:44:10,000 --> 00:44:20,000
+and the phone rate increases rapidly have that
+
+266
+00:44:20,000 --> 00:44:30,000
+I've having a threshold current above which you have to below which the someone's bike
+
+267
+00:44:30,000 --> 00:44:40,000
+so now that's actually derive this equation for this
+
+268
+00:44:40,000 --> 00:44:50,000
+as a function of injected current going to do that and we're going to calculate the amount of time before the cell spikes
+
+269
+00:44:50,000 --> 00:45:00,000
+so we're gonna start the voltage at be reset we know that at some injected current above threshold the cell relaxes exponentially to the infinity and
+
+270
+00:45:00,000 --> 00:45:10,000
+can you calculate how long it takes equal to threshold so you know that that's an exponential right in fact we wrote down the solution to that exponential a bunch of times
+
+271
+00:45:10,000 --> 00:45:20,000
+the difference from v to be Infinity decreases exponentially but we know a bunch of these values right we know where we know that we're calculating these
+
+272
+00:45:20,000 --> 00:45:30,000
+wentao = sorry 20 = delta T at we know the initial voltage that's be reset
+
+273
+00:45:30,000 --> 00:45:40,000
+we know the voltage at time delta T and has just equal to the threshold so we can just substitute those quantities into this equation
+
+274
+00:45:40,000 --> 00:45:50,000
+now we have the pub minus the infinity equals we reset - be infinity x eater the - delta T over town that make sense
+
+275
+00:45:50,000 --> 00:46:00,000
+I just did you just calculating this time that it takes the Nerang to relax exponentially from the reset to be threshold
+
+276
+00:46:00,000 --> 00:46:10,000
+we know all these quantities so we just stick them into this equation and what are we sell for
+
+277
+00:46:10,000 --> 00:46:20,000
+so we take the natural log of while we divide through by the the reset - the infinity take the natural log
+
+278
+00:46:20,000 --> 00:46:30,000
+Alpha delta T so delta T = minor style natural log the infinity minus threshold over the infinity minus be reset
+
+279
+00:46:30,000 --> 00:46:40,000
+it's kind of messy I don't know the shape of that doesn't really lip to my mind ok so we're going to
+
+280
+00:46:40,000 --> 00:46:50,000
+is actually just simplify this expression in a limit in the limit that the in
+
+281
+00:46:50,000 --> 00:47:00,000
+is lard what what happens here when the injected Crown is large what what gets big me in
+
+282
+00:47:00,000 --> 00:47:10,000
+get back when you inject a lot of current the infinity is very high and went the infinity is really big this is
+
+283
+00:47:10,000 --> 00:47:20,000
+action approach is white and what is the log of 1
+
+284
+00:47:20,000 --> 00:47:30,000
+expression this expression approaches one and this expression the log of that approach is 0 ok so we can do is do a linear
+
+285
+00:47:30,000 --> 00:47:40,000
+summation of this work in the limited the infinity is much bigger than be reset R&B
+
+286
+00:47:40,000 --> 00:47:50,000
+we're going to use the approximation that log of 1 + Alpha is just Alpha
+
+287
+00:47:50,000 --> 00:48:00,000
+approaches one you can write it is 1 + Alpha call thing there are approximately 2 Alpha ok and when you do that and you solve for the phone
+
+288
+00:48:00,000 --> 00:48:10,000
+what you find is that the firing rate is just one over see Delta v times the injected current minus the threshold Perth
+
+289
+00:48:10,000 --> 00:48:20,000
+show current is just the rear base that we calculated before what does that look like but what is the first of all this is I can't
+
+290
+00:48:20,000 --> 00:48:30,000
+simplified this abet what is the fire rate when the current is below a threshold and then if it's a bar
+
+291
+00:48:30,000 --> 00:48:40,000
+hi thresholds for this expression that I wrote right here is true only injected current greater than a threshold 0 below that so now what is this look like
+
+292
+00:48:40,000 --> 00:48:50,000
+pirate is 0 until you hit threshold and then what
+
+293
+00:48:50,000 --> 00:49:00,000
+this equation is linearly in the injected current are at the slope is actually exactly the same as it was for the case where there was no
+
+294
+00:49:00,000 --> 00:49:10,000
+Mick ok so the phone rate is 0 once you hit the threshold the the final rate of
+
+295
+00:49:10,000 --> 00:49:20,000
+increases approximately linearly ok for large currents and if you look down here what you see is that
+
+296
+00:49:20,000 --> 00:49:30,000
+the current actually the actual solution is that the phone Ray jumps up at threshold and then tracks along the linear approximation
+
+297
+00:49:30,000 --> 00:49:40,000
+that the dash line there is the actual solution that the solid line is that the new approximate ok and that right there it is really
+
+298
+00:49:40,000 --> 00:49:50,000
+a very good model for a lot of Nora sort of saturated a little bit though
+
+299
+00:49:50,000 --> 00:50:00,000
+define that kind of flattens out a little bit as you go to very high farm rates but that's a pretty good approximation yes
+
+300
+00:50:00,000 --> 00:50:10,000
+heavy is the is the difference from v reset to v threshold
+
+301
+00:50:10,000 --> 00:50:20,000
+the model was another question here
+
+302
+00:50:20,000 --> 00:50:30,000
+anything else that's the integrated that's probably the most
+
+303
+00:50:30,000 --> 00:50:40,000
+commonly used model of Lawrence in neuroscience simple
+
+304
+00:50:40,000 --> 00:50:50,000
+I should say that's the most commonly used model of spiking mirror actually taken around that behave like this
+
+305
+00:50:50,000 --> 00:51:00,000
+assemble them into complex networks and study how network interactions occur with a spiking model and this
+
+306
+00:51:00,000 --> 00:51:10,000
+this model captures most of the interesting important behaviour of of spiking neurones
+
+307
+00:51:10,000 --> 00:51:20,000
+Russian Daniel Miller questions
+
+308
+00:51:20,000 --> 00:51:30,000
+ok alright let's come back to our
+
+309
+00:51:30,000 --> 00:51:40,000
+Huxley model equivalent Circuit so we just described was a model Nerang in which will replace these
+
+310
+00:51:40,000 --> 00:51:50,000
+potassium conductance is that actually produced his action potentials with a very simple spike generator but now we're going to do is we're going to come
+
+311
+00:51:50,000 --> 00:52:00,000
+to our model and we're going to flush out the biophysical details that allow these to conductances her to producer
+
+312
+00:52:00,000 --> 00:52:10,000
+potential fact most most of the time when we model network
+
+313
+00:52:10,000 --> 00:52:20,000
+simplify the spike generator to something like a integrate-and-fire spike generator Park than hodgkin-huxley develop
+
+314
+00:52:20,000 --> 00:52:30,000
+describing time-dependent and voltage-dependent conductance is so powerful and commonly used
+
+315
+00:52:30,000 --> 00:52:40,000
+describe conductance is that it's really worth understanding that that mathematical description that physical description of
+
+316
+00:52:40,000 --> 00:52:50,000
+ionic conductance is in highly dependent voltage and type
+
+317
+00:52:50,000 --> 00:53:00,000
+sing we do if we noticed that in the hodgkin-huxley model we have three conductances we have conductance which is
+
+318
+00:53:00,000 --> 00:53:10,000
+very much like the leak conductance that we just used in the integrated fire model ok it has a reversal potential of around minor
+
+319
+00:53:10,000 --> 00:53:20,000
+50 mil bolts and it's just always on it's just a constant conductance we have this to other conductances are sodium candle
+
+320
+00:53:20,000 --> 00:53:30,000
+potassium conductance that are both time-dependent and voltage-dependent each one of those conductances has a current affair
+
+321
+00:53:30,000 --> 00:53:40,000
+the weather currents flowing through ion channel the total membrane is just the sum of all of those currents that's just
+
+322
+00:53:40,000 --> 00:53:50,000
+ionic membrane current it's just the sum of contributions from sodium channels potassium channels and
+
+323
+00:53:50,000 --> 00:54:00,000
+equation for a hodgkin-huxley model using kirkus current like the sum of all the
+
+324
+00:54:00,000 --> 00:54:10,000
+into these no testicles zero so the Membrane ionic current plus the capacitive current equals the injected electric car
+
+325
+00:54:10,000 --> 00:54:20,000
+each one of these conductances each one of these currents can be written down in the same form that we developed
+
+326
+00:54:20,000 --> 00:54:30,000
+for potassium conductance ok it's just a sorry for the potassium current so the sodium current is just a c
+
+327
+00:54:30,000 --> 00:54:40,000
+skin conductance x what what is that driving potential the driving potential for sodium but
+
+328
+00:54:40,000 --> 00:54:50,000
+the saw doctors now is voltage and time-dependent and it's that voltage and time-dependent that gives sodium can soda
+
+329
+00:54:50,000 --> 00:55:00,000
+channel properties that they need to generate action potential it's just an Alex to what we already did before
+
+330
+00:55:00,000 --> 00:55:10,000
+super casting conductor ok and potassium current it's just GK times to driving potential for potassium and the potassium
+
+331
+00:55:10,000 --> 00:55:20,000
+Arkansas voltage and time-dependent 75 DNA is plus 55 conductance
+
+332
+00:55:20,000 --> 00:55:30,000
+delete current rather is just the leak conductance time's the driving potential for the leak current the difference is that in this model
+
+333
+00:55:30,000 --> 00:55:40,000
+now the Lee conductances just constant is no time to Pennant it's always there and it's voltage are any questions but
+
+334
+00:55:40,000 --> 00:55:50,000
+the name of the game here in understanding how this thing works is to figure out
+
+335
+00:55:50,000 --> 00:56:00,000
+where this time dependence and voltage-dependent comes from
+
+336
+00:56:00,000 --> 00:56:10,000
+you're very close
+
+337
+00:56:10,000 --> 00:56:20,000
+equilibrium potential is always very close to -75 in Sumner aren't it might be as low as -95 but it
+
+338
+00:56:20,000 --> 00:56:30,000
+in that range the sodium reversal potential is so with you know + 58
+
+339
+00:56:30,000 --> 00:56:40,000
+well it's highly consistent across mammal and the numbers for squid are pretty close to the
+
+340
+00:56:40,000 --> 00:56:50,000
+I think these are the numbers for squid came from that come from how to get huxleys
+
+341
+00:56:50,000 --> 00:57:00,000
+ok now how do these things generate
+
+342
+00:57:00,000 --> 00:57:10,000
+action potential just in principle how do you think about conductances like this generator
+
+343
+00:57:10,000 --> 00:57:20,000
+action potential here 020
+
+344
+00:57:20,000 --> 00:57:30,000
+mean like variable or adjustable so we can imagine that we have a knob a hand on the knob and let's just turn off both down to 0 so what
+
+345
+00:57:30,000 --> 00:57:40,000
+the voltage in the sound going to be what is the sound
+
+346
+00:57:40,000 --> 00:57:50,000
+just not saying it
+
+347
+00:57:50,000 --> 00:58:00,000
+so roughly the it's it's closer it's -
+
+348
+00:58:00,000 --> 00:58:10,000
+OK good so if these conductances are 0 then the cell is going to be sitting at the of this battery
+
+349
+00:58:10,000 --> 00:58:20,000
+0.30 state 0 current the voltage drop across here is 0 cos there's 0 current and saw the inside of the cell at better be sitting at
+
+350
+00:58:20,000 --> 00:58:30,000
+voltage of flat battery which is -50 what happens if we suddenly turn on a conductance
+
+351
+00:58:30,000 --> 00:58:40,000
+turn by turn on a conductance we make the resistance really small or we make the conductance really big right so what are we doing let's turn that conductor
+
+352
+00:58:40,000 --> 00:58:50,000
+as much as possible which means resetting that resistor 20 if this resistance is 0
+
+353
+00:58:50,000 --> 00:59:00,000
+then the voltage drop across that the voltage inside has to just be
+
+354
+00:59:00,000 --> 00:59:10,000
+it has to be set to that the voltage of that battery that makes it
+
+355
+00:59:10,000 --> 00:59:20,000
+if we have no conductance here then the inside the cell wall relaxed toward
+
+356
+00:59:20,000 --> 00:59:30,000
+but if we now turn on this conductance we set that resistor 20 voltage
+
+357
+00:59:30,000 --> 00:59:40,000
+jump up Baltic that resistor back up to some big value what's the voltage gonna do
+
+358
+00:59:40,000 --> 00:59:50,000
+arcs back to us about this nice simulation of what happened so here is what is going to happen these conductances are going to
+
+359
+00:59:50,000 --> 01:00:00,000
+0 we're going to awake these conductances are going to start at zero and then we're going to make this
+
+360
+01:00:00,000 --> 01:00:10,000
+small 0 but small or big and we're going to make that resistor small
+
+361
+01:00:10,000 --> 01:00:20,000
+so the conductances are going to be parted along the bottom and the voltage of the cell is going to be parted as a function of time
+
+362
+01:00:20,000 --> 01:00:30,000
+add the green and red show the reversal potentials for the sodium and potassium
+
+363
+01:00:30,000 --> 01:00:40,000
+where are the sodium conductance just got turned on in what happened the voltage of the South
+
+364
+01:00:40,000 --> 01:00:50,000
+turn on the potassium conductance and we turn off the sodium conductance and the voltage gets dragged down
+
+365
+01:00:50,000 --> 01:01:00,000
+and when we turn off the potassium conductance the voltage relaxes back up to
+
+366
+01:01:00,000 --> 01:01:10,000
+are just knobs that allow the cell to control is vaulted
+
+367
+01:01:10,000 --> 01:01:20,000
+weight of planet you can control the voltage of the Sower just by setting those
+
+368
+01:01:20,000 --> 01:01:30,000
+our use of those resistors if you make this resistor really small and that resistor big the voltage jumps up toward DNA
+
+369
+01:01:30,000 --> 01:01:40,000
+why is that because you're connecting the inside of the cell to that battery turn that off and then turn on this setting that
+
+370
+01:01:40,000 --> 01:01:50,000
+Mr to be very small now you're connecting the inside yourself to this battery which is negative don't here you can just control of the Sower up and
+
+371
+01:01:50,000 --> 01:02:00,000
+just by twiddling these knobs ok to think about it is this if this resistor is big
+
+372
+01:02:00,000 --> 01:02:10,000
+Dan if you set that resistor to be really small than this the voltage here dominus
+
+373
+01:02:10,000 --> 01:02:20,000
+over the time scale of any process that were considering hear the ionic concentration
+
+374
+01:02:20,000 --> 01:02:30,000
+inside the sign outside of the salt don't change that make sense
+
+375
+01:02:30,000 --> 01:02:40,000
+so you said both of these 20
+
+376
+01:02:40,000 --> 01:02:50,000
+the conductance is really high that means setting the resistor is really small that that's a great question what happens
+
+377
+01:02:50,000 --> 01:03:00,000
+that's exactly right if you said both of these if you turn on both of these conductances then the voltage goes somewhere in the middle and the voltage that it
+
+378
+01:03:00,000 --> 01:03:10,000
+what's 2 is actually you have to potential that we calculated is
+
+379
+01:03:10,000 --> 01:03:20,000
+is calculated only for the case where you have one iron if you want to calculate the equilibrium potential when you have multiple pores open
+
+380
+01:03:20,000 --> 01:03:30,000
+then you have to use you have to use a different method of calculating actually calculate the currents flowing and it's one of those channels
+
+381
+01:03:30,000 --> 01:03:40,000
+and based on the permeabilities of the channels and you get a different expression are called the Goldman Hodgkin
+
+382
+01:03:40,000 --> 01:03:50,000
+equation ok but the bottom line is if you open up both of those princess it's somewhere in the middle and if you want to get the exact right answers
+
+383
+01:03:50,000 --> 01:04:00,000
+is the jet courier quote
+
+384
+01:04:00,000 --> 01:04:10,000
+almost we're not quite there yet we're going to get there but you can see what happens here is that
+
+385
+01:04:10,000 --> 01:04:20,000
+these conductances are actually voltage-dependent so for example the sodium conductance turns on at higher voltages when this
+
+386
+01:04:20,000 --> 01:04:30,000
+Stockton starts getting bigger what happens to the voltage in the cell it's going up right but if this is voltage-dependent and it turns on at higher voltage
+
+387
+01:04:30,000 --> 01:04:40,000
+what happens to the conductance when the voltage gets a little bit bigger what happens to the conductive to the voltage makes it go up
+
+388
+01:04:40,000 --> 01:04:50,000
+faster this runaway process where where the boat were the disc inductance turns on very quickly in the voltage jump start
+
+389
+01:04:50,000 --> 01:05:00,000
+ok that's the essence of the action potential ok but the essential picture that I wanted you to get from this from this slide
+
+390
+01:05:00,000 --> 01:05:10,000
+these are just knobs and when you turn the knobs you can change the vote that controls the voltage in the cell
+
+391
+01:05:10,000 --> 01:05:20,000
+which one of these is causing the cell to be dragged toward it's reversal potential
+
+392
+01:05:20,000 --> 01:05:30,000
+inductance is big this conductances big that voltage in the south-west drag tour DNA
+
+393
+01:05:30,000 --> 01:05:40,000
+voltage in the cell gets dragged 40K next time we're going to go through
+
+394
+01:05:40,000 --> 01:05:50,000
+the are the process for a describe the process to drive the voltage dependence of
+
+395
+01:05:50,000 --> 01:06:00,000
+I am check the sodium and potassium ion channels to derive the voltage dependent and the time dependence that explains how you get this action potential
+
+396
+01:06:00,000 --> 01:06:10,000
+so that's next Tuesday
+

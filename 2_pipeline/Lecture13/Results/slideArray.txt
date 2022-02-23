@@ -1,0 +1,339 @@
+FinTech:
+Shaping the Financial World
+
+May 6, 2020
+ENDELEMENTClass 11: Overview
+
+¢ Financial Sector Crises
+
+¢ 2008 Financial Crisis & Post Crisis Reform
+* Coronavirus Crisis Economic Forecasts
+
+¢ Financial Market Reactions
+
+e Risks & Scenarios
+
+¢ Economic Policy Responses
+
+* Coronavirus & FinTech
+ENDELEMENTClass 11: Readings
+
+?
+
+° '8 top Fintech VCs discuss COVID-19 trends, signals and opportunities
+TechCrunch
+
+* ‘Is the Coronavirus Killing Off Cash?’ Politico
+
+¢ 'Fintech firms race to plug gaps in UK’s coronavirus relief measures’
+CNBC
+
+* ‘7 VCs look into the future of Fintech’ TechCrunch
+ENDELEMENTClass 11: Study Questions
+
+* How is the Coronavirus Crisis affecting the Financial Services world?
+
+¢ What will this crisis do to existing trends affecting FinTech? What new
+trends are likely to emerge?
+
+¢ What opportunities and challenges has the crisis presented for specific
+companies? Which companies are more likely to be winners or losers?
+ENDELEMENTFinancial Sector Crises
+
+* Latin American Debt Crisis — late 1970s
+
+* Continental Illinois - 1984
+
+* Black Monday — 1987
+
+* Savings & Loan Crisis — 1986 — 1995
+
+* Asian & Russian Debt Crisis — 1997 — 1998
+¢ Subprime Mortgage Crisis — 2008
+
+* European Debt Crisis — 2009 — 2012
+
+* Coronavirus Crisis — 2020 - ???
+ENDELEMENT2008 Financial Crisis
+
+* Weak Underwriting & Predatory Lending =>
+Subprime Mortgage Crisis & Housing Bubble
+
+* Easy Credit & Financial Derivatives =>
+Increased Leverage & Interconnectedness
+
+* Poor Risk Management & Incentive Structures =>
+Many Vulnerable Financial Institutions
+
+* Multiple Failures => Systemic Loss of Funding & Liquidity =>
+Contagion & Near Collapse in Highly Interconnected System
+ENDELEMENTPost Crisis Reform
+
+ 
+ENDELEMENTDavis Polk
+
+Asset-Backed Securities Offerings
+Banking Regulations
+
+Cofirs Amendment
+
+Consumer Protection
+
+(Credit Rating Agencies
+
+Dervatives
+
+Executive Comp. /Corp. Governance
+
+Mortgage Reforms
+
+| |
+
+Dodd-Frank Rulemaking Progress
+
+14
+
+14
+
+oma sey ET 16
+Investment Advisers / Private Funds SS 7
+Investor Protection / Securities Laws | i 1
+
+Systemic Fisk
+
+Used with permission.
+‘© Davis Pow & Wardwell LLP
+
+in Select Categories
+As of July 19, 2016
+
+63
+
+87
+
+= Finalized
+
+= Missed Deadline: Proposed
+
+= Missed Deadline: Not Proposed
+= Future Deadline: Proposed
+
+«= Future Deadline: Not Proposed
+
+ 
+
+°
+
+10
+
+20
+ENDELEMENTDodd-Frank Rulemaking Progress by Agency
+
+As of July 19, 2016
+
+    
+ 
+ 
+
+Davis Polk
+Bank Regulators (132)
+Future Deadline:
+Proposed, 2
+Future Deadline: N
+Not Proposed,
+22
+Missed ovasine. a
+Proposed, 7
+
+  
+
+Missed Deadine:
+Not Proposed, 7
+
+Future SEC (94)
+
+Deadline:
+Future \
+
+Proposed, 3
+Deadine: Not —
+Proposed, 7
+
+Missed_—|
+Deadline:
+Proposad, 10
+
+Missed. of
+
+Deadline: Not
+
+ 
+  
+     
+
+Finalized, 67
+
+Proposed, 7
+
+© Davis Po & Warawet LLP Used with permission.
+
+CFTC (59)
+
+Finalized, 51
+
+ 
+
+Other (105) Missed
+
+Deadline: Not
+Proposed, 17
+
+   
+
+Missed
+Deadline:
+Proposed, 6
+
+— ...
+Deadline: Not
+
+Future Proposed, 18
+Deadline:
+Proposed, 2
+
+Finslized, 62
+
+Dodd-Frank Rulemaking Progress
+
+Missed Proposed, 29
+
+Deadiine: Not
+Proposed, 32
+
+As of July 19, 2016
+
+Missed
+Deadline:
+
+    
+   
+  
+
+Future
+Deadline: Not
+Proposed, 48 psig
+
+Deadiine:
+
+A Proposed, 7
+
+Finalized, 274
+ENDELEMENTFinTech - Finance’s Fertile Ground
+
+Coronavirus Crisis
+° Digitalization of Money, Securities and Credit
+¢ Wide Public Acceptance of New Tech
+¢ Legacy Customer Interface and Processing Systems
+¢ Vast and Expanding Amounts of Customer Data
+* Rapid Expansion of Computational & Analytical Power
+¢ Reliance on Multiple Systems of Ledgers
+¢ Infrastructure Systems’ Costs and Counterparty Risks
+¢ Economic Rents and Centralized Concentrated Risks
+ENDELEMENTCoronavirus: FinTech Incumbents & Tech
+
+* Big Finance
+* Volumes: Capital Markets, Government Debt
+¢ Stimulus Loan Programs
+* Allocations for Loan Loss Reserves
+* Reliance on Connectivity
+
+* Big Tech
+* Significant Online Growth
+* Possible Shifts in Views on Data Usage - Contact Tracing
+ENDELEMENTCoronavirus: FinTech Startups
+
+* Runway: Burn Rates, Cash, Revenue Model & Adoption Rates
+¢ IPOs on Hold
+
+¢ VC Investment will Slow
+
+¢ Valuations Decline
+
+* Consolidation Increases
+¢ Sector Matters:
+* Transaction fees & Consumer Credit?
+* Retail, Travel, Events, Restaurants?
+¢ Mobile Trading, Remittances, Compliance
+ENDELEMENTCoronavirus: FinTech
+
+¢ Additional Opportunities
+¢ Serving Those Tapping Fiscal Stimulus & Loan Programs
+* Consumer & SME Refinancing's & Consolidation Loans
+¢ New uses & sources of Alternative Data
+
+¢ Additional Challenges
+* Delinquencies & Defaults
+* Loan Servicing
+¢ Business Models relying on Float
+ENDELEMENTCoronavirus: FinTech
+
+Accounts Trading and
+
+Payments Lending Tartele- tale — Blot al ale) Col=3'g Support
+
+and Savings Investment
+
+ 
+
+Life and
+Personal Blockchain BPO
+
+Digital
+Trade Finance Consumer SME Neobanks Investment
+lending management
+
+Unsecured
+
+insurance
+
+   
+
+ 
+
+ 
+
+   
+
+Cross border Unsecured SME Retail ees Health Data and
+5 Trading and s : a CRM
+payments lending Neobanks - insurance Analytics
+Brokerage
+wed Financial Core Tradin:
+POS Consumer = s P&C insurance Infrastructure Compliance
+. planning Tech
+iC Tateilared
+Digital retail Secured SME Multiline ar A Risk
+Payments lending insurance Bist ae ice ny Management
+PSP HEOGIEE Security
+
+Infrastructure
+
+Negative Impact
+Payments 8 Pp
+
+Infrastructure ; | Very High | | High Medium Limited i Positive
+
+© Boston Consulting Group. All rights reserved. This content is
+
+excluded from our Creative Commons license. For more
+information, see https://ocw.mit.edu/help/faq-fair-use/ Source: ‘What the Covid-19 Crisis Means for FinTech’, Boston Consulting Group (May 2020)
+
+14
+ENDELEMENTMIT OpenCourseWare
+https://ocw.mit.edu/
+
+15.S08 FinTech: Shaping the Financial World
+Spring 2020
+
+For information about citing these materials or our Terms of Use, visit: https://ocw.mit.edu/terms.
+ENDELEMENT
