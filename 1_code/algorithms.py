@@ -130,7 +130,7 @@ def srtAndCATS(srtFilename, SlideArray, baseDir):
             count += 1
         f.close()
         process = subprocess.Popen(["java", "-jar",
-                                    "..\\SimpTextAlignCode\\out\\artifacts\\simplifiedTextAlignment_jar\\simplifiedTextAlignment.jar",
+                                    "..\\ThesisUpdate-SimpTextAlign\\out\\artifacts\\simplifiedTextAlignment_jar\\simplifiedTextAlignment.jar",
                                     "Lecture1" + "\\CATS\\" + str(i) + ".txt"], stdout=subprocess.PIPE,
                                    stderr=subprocess.PIPE)
         result = process.communicate()
