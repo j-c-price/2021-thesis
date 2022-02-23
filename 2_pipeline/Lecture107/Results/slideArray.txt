@@ -1,0 +1,2908 @@
+laf
+NW
+; 1 | | sf f
+\ \ \ \j ) i, [ , / : )
+ANTE RE / /
+—
+
+Meta-Learning: from Few-Shot Learning
+to Rapid Reinforcement Learning
+
+Chelsea Finn Sergey Levine
+
+a BAIR
+
+BERKELEY ARTIFICIAL INTELLIGENCE RESEARCH
+
+ 
+
+Qs: slido.com/meta
+ENDELEMENTLarge, diverse data -———» Broad generalization
++ large models
+
+Output
+Probabilities
+
+      
+   
+    
+     
+   
+     
+     
+   
+   
+
+Add & Norm
+Feed
+Forward
+[Add & Norm _}
+
+Multi-Head
+Attention
+
+a,
+(Add & Norm ]
+
+ 
+ 
+
+Nx
+
+    
+  
+
+ 
+  
+
+Nx ‘Add & Norm ==
+Multi-Head Multi-Head
+
+Attention Attention
+a a
+
+   
+
+Positional
+Encoding
+
+        
+
+Q)-°
+
+Positional
+4 CY Encoding
+Input Output
+Embedding Embedding
+
+Inputs Outputs
+(shifted right)
+
+Russakovsky et al. “14
+
+Figure 1: The Transformer - model architecture.
+
+G PT-2 Vaswani et al. ‘18
+
+Radford et al. ‘19
+
+Under the paradigm of supervised learning.
+
+Qs: slido.com/meta
+ENDELEMENTWhat if you don’t have a large dataset?
+
+medical imaging robotics personalized education,
+translation for rare languages recommendations
+
+What if you want a general-purpose Al system in the real world?
+Need to continuously adapt and learn on the job.
+Learning each thing from scratch won't cut it.
+
+What if your data has a long tail?
+
+big data
+| / small data
+
+r4
+
+# of datapoints
+
+   
+
+objects encountered
+
+lun +A aA A wnanmea rerum
+
+These settings break the supervised le learning paradigm.
+Qs: slido.comymeta driving scenarios
+ENDELEMENTtraining data test datapoint
+Cezanne |
+
+ 
+ENDELEMENTHow did you accomplish this?
+
+Through previous experience.
+
+Qs: slido.com/meta
+ENDELEMENTHow might you get a machine to accomplish this task?
+
+Modeling image formation
+
+Geometry Fewer human priors,
+more data-driven priors
+SIFT features, HOG features + SVM
+; ; Great ,
+Fine-tuning from ImageNet features 7 oF SSS
+
+Domain adaptation from other painters
+
+Pee
+
+Can we explicitly learn priors from previous experience
+that lead to efficient downstream learning?
+
+Qs: slido.com/meta Can we learn to learn?
+ENDELEMENTOutline
+
+- Problem statement
+- Meta-learning algorithms
+
+- Black-box adaptation
+- Optimization-based inference
+- Non-parametric methods
+- Bayesian meta-learning
+- Meta-learning applications
+
+— 5 min break —
+- Meta-reinforcement learning
+
+- Challenges & frontiers
+
+Qs: slido.com/meta
+ENDELEMENTTwo ways to view meta-learning
+
+Mechanistic view Probabilistic view
+
+> Deep neural network model that can read in > Extract prior information from a set of (meta-
+an entire dataset and make predictions for training) tasks that allows efficient learning of
+new datapoints new tasks
+
+> Training this network uses a meta-dataset, > Learning a new task uses this prior and (small)
+which itself consists of many datasets, each training set to infer most likely posterior
+for a different task parameters
+
+> This view makes it easier to implement meta- > This view makes it easier to understand meta-
+learning algorithms learning algorithms
+
+Qs: slido.com/meta
+ENDELEMENTProblem definitions
+
+supervised learning:
+
+arg maxlog p(¢1D) D = {(1yi)s-- (reve)
+> fo™ Sooo™
+model parameters training data input (e.g., image) label
+
+= arg max log p(D|¢) + log p(¢)
+
+data likelihood regularizer (e.g., weight decay)
+
+= arg max >_ log p(yilari, 6) + log p(4)
+
+What is wrong with this?
+
+> The most powerful models typically require large amounts of labeled data
+> Labeled data for some tasks may be very limited
+
+Qs: slido.com/meta
+ENDELEMENTProblem definitions
+
+supervised learning:
+
+arg max log p(¢|D) D = {(@1,Y1),---5 (Lk, YR) }
+can we incorporate additional data? Dymeta-train = {D1,.-.,Dn}
+arg mex log p(|D, D meta-train ) D; — f(x, yi); re) (xi, yi.) }
+D
+dD
+Dyeta-train
+D2
+
+ 
+
+Qs: slido.com,/ meta ° Image adapted from Ravi & Larochelle
+ENDELEMENTThe meta-learning problem
+D= {(%1,Y1),-- 7) (Lk, Yk) }
+Dymeta-train = {P1,---,Dn}
+
+meta-learning:
+
+arg a log p(¢|D, D meta-train )
+
+what if we don’t want to keep Dymeta-train around forever?
+
+learn meta-parameters 0: p(0|Dmeta-train) this is the meta-learning problem
+
+whatever we need to know about Dyeta-train to solve new tasks
+
+ASSUINLE p IL D meta-train |9
+log p($|D, Dimeta-train ) = log | P(O|D, 0) p(O|Dmeta-train) dO
+(3)
+
+~ log p(o|D, 0”) + log p(9* |Dmeta-train)
+arg Max log p(elD, Dymeta-train ) ~ arg “ot log p(e|D, 0”)
+
+Qs: slido.com/meta
+
+@*x* = arg max log p(4|Dmneta-train )
+ENDELEMENTA Quick Example
+
+D = {(21,y1),--+, (Les Yk)
+Dyeta-train — {D}, se , Dn}
+
+. . K * 4 4 a a
+adaptation: @ = arg “oe log p(e|D, 0 ) D; = {(x4, Y1)s sey Cam Yip) t
+
+‘a YT ye ——_— test label D
+amd
+a
+| — dD,
+
+(1, Y1) (€2,y2) (#3, 3) ts Dmeta-train
+
+x
+Nest input Dy
+
+meta-learning: 6* = arg max log p(@|Dmeta-train )
+
+ 
+
+ 
+
+D
+
+Qs: slido.com/meta
+ENDELEMENTHow co we train this thing?
+
+D= {(@1, 91), my (Xk, yk) }
+Dyyeta-train — {D}, se Dn}
+adaptation: ¢* = arg max log p(@|D, 6”) D; = {(xi,y'),..., (at, yi)}
+
+a YT ye ___— test label D
+amd
+a o*
+| — Dy
+
+(1, Y1) (€2,y2) (#3, 3) ts Dmeta-train
+
+x
+Nest input D2
+
+meta-learning: 6* = arg max log p(@|Dmeta-train )
+
+ 
+
+ 
+
+D
+
+Key idea:
+“our training procedure is based on a simple machine learning principle: test and train conditions must match”
+
+Vinyals et al., Matching Networks for One-Shot Learning
+Qs: slido.com/meta
+ENDELEMENTHow do we train this thing?
+
+D= {(@1, 91); re) (Xk, Yk) }
+Dmeta-train — {D1, se , Dn, }
+
+. a. ae * 1 4 a a
+adaptation: ¢* = arg max log p(o|D, @*) D; = {(xi,y’),..., (vi, yi)}
+
+(meta) test-time __J (meta) training-time
+
+aah y® ~__— test label ys «<—???
+HOA EL nn cet
+wy nal
+
+ 
+
+ 
+
+(1,41) (€2,y2) (#3, y3) a aby! (15,42) (@3, Y3) aw
+, lmm_——_—_J
+est input ??
+D D;
+Key idea:
+
+“our training procedure is based on a simple machine learning principle: test and train conditions must match”
+
+Vinyals et al., Matching Networks for One-Shot Learning
+Qs: slido.com/meta
+ENDELEMENTReserve a test set for each task!
+
+D,
+
+DP meta-train
+
+Do
+
+ 
+
+(meta) training-time
+
+Dmeta-train — {(D? D‘) te (Di Dy*)}
+
+pt eee rors cc
+De = {(x1,y}),---s (te Ye)t
+
+(x1, 4) ) (x5, y8) ( ©, Ys)
+t | i,
+De = {(21,Y1)s-++5 (ep, yp) F
+D; (a, y'*) ~w D*
+
+Key idea:
+“our training procedure is based on a simple machine learning principle: test and train conditions must match”
+
+Vinyals et al., Matching Networks for One-Shot Learning
+Qs: slido.com/meta
+ENDELEMENTThe complete meta-learning optimization
+
+meta-learning: 6* = arg max log p(@|Dmeta-train ) Dmeta-tran = {(D}", Di®),...,(D"™, D**)}
+adaptation: $* = arg max log p(¢|D"™, 0%) Di = {(@i, yi). -- +s (ths Ya) F
+q Di = {(r},y1),--- (a yp}
+
+or _ fax (D'")
+
+learn 6 such that ¢ = fg(D§") is good for Di op
+
+nm
+med al S
+max) og p($i|E) (6) (6
+i
+where $; = fo(PO oe
+(3) unobserved at
+meta-test time
+
+Qs: slido.com/meta
+ENDELEMENTSome meta-learning terminology
+
+learn @ such that $; = fe(D;") is good for D¥ Dmeta-train = {(Dj', D*),...,(D*", D's)}
+= tog p(ds DE Di = (ahi), +5 (wis ak)}
+= angings Slog 6 ,
+
+Dis = {(xi,yi),---5 (2, YF}
+where $; = fo(D") i {(21, 91) (x7, yi) } Yhot
+
+(i.e., k-shot, 5-shot)
+
+ 
+
+training data test set oo (meta-training) task T;
+
+  
+ 
+    
+
+D yet a-train
+
+ 
+
+support (set)
+
+query
+
+image credit: Ravi & Larochelle ‘17
+ENDELEMENTClosely related problem settings
+
+meta-learning: Drmeta-train = {(D'", D'S),...,(D®,D*)}
+g* = max ) log p(#i|D;") Di = {(@i, yi). -- +s (ths Ya) F
+i=1
+where D; = fo(D;") Ds — {(xi, yj)...» (xj, yt) }
+
+multi-task learning: learn model with parameters 6* that solves multiple tasks 0* = arg max S log p(6|D;)
+
+can be seen as special case where ¢; = 0 (i.e., fo(D;) = 9) =I
+
+hyperparameter optimization & auto-ML: can be cast as meta-learning
+hyperparameter optimization: 6 = hyperparameters, @ = network weights
+architecture search: 6 = architecture, ¢ = network weights
+
+very active area of research! but outside the scope of this tutorial
+
+Qs: slido.com/meta
+ENDELEMENTOutline
+
+- Problem statement
+- Meta-learning algorithms
+
+- Black-box adaptation
+- Optimization-based inference
+- Non-parametric methods
+- Bayesian meta-learning
+- Meta-learning applications
+
+— 5 min break —
+- Meta-reinforcement learning
+
+- Challenges & frontiers
+
+Qs: slido.com/meta
+ENDELEMENTGeneral recipe
+
+How to evaluate a meta-learning algorithm
+the Omniglot dataset Lake et al. Science 2015
+
+1623 characters from 50 different alphabets
+Hebrew | Bengal! . Greek Futurama many classes, few examples
+
+ 
+
+the “transpose” of MNIST
+
+ 
+
+Statistics more reflective
+of the real world
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+20 instances of each character
+
+Proposes both few-shot discriminative & few-shot generative problems
+
+Initial few-shot learning approaches w/ Bayesian models, non-parametrics
+Fei-Fei et al. ‘O03 Lake et al. ‘11 Salakhutdinov et al. ‘12 Lake et al. ‘13
+
+Other datasets used for few-shot image recognition: Minilmagenet, CIFAR, CUB, CelebA, others
+
+—J ws Mase wwe we LUN
+ENDELEMENTGeneral recipe
+
+How to evaluate a meta-learning algorithm
+5-way, 1-shot image classification (Minilmagenet)
+Given 1 example of 5 classes: Classify new examples
+
+held-out classes
+
+ 
+
+meta-training
+training classes
+
+ 
+
+ 
+
+any ML
+Can replace | image classification with: regression, language generation, skill learning, problem
+ENDELEMENTGeneral recipe
+
+How to design a meta-learning algorithm
+1. Choose a form of p(¢;|D\", 0)
+
+2. Choose how to optimize @ w.r.t. max-likelihood objective using Dmeta-train
+
+Can we treat p(@;|D;", 0) as an inference problem?
+
+Neural networks are good at inference.
+
+Qs: slido.com/meta
+ENDELEMENTOutline
+
+- Problem statement
+- Meta-learning algorithms
+
+- Black-box adaptation
+- Optimization-based inference
+- Non-parametric methods
+- Bayesian meta-learning
+- Meta-learning applications
+
+— 5 min break —
+- Meta-reinforcement learning
+
+- Challenges & frontiers
+
+Qs: slido.com/meta
+ENDELEMENTBlack-Box Adaptation
+
+ 
+
+Key idea: Train a neural network to represent p(@;|D;", 0)
+
+For now: Use deterministic (point estimate) 0: = fo (D;*) (Bayes will come back later)
+
+ts
+
+ 
+
+6 A Train with standard supervised learning!
+Pi ,
+To max ¥> > log gg, (yl)
+Ti (x,y) ~Djo**
+(v1, Y1) (x2, y2) (73, y3) a ,,
+
+,, L( dj, D;<**)
+
+ptr Dest
+Dt Priest
+tax >, A fol 1 ), i )
+
+Qs: slido.com/meta
+ENDELEMENTBlack-Box Adaptation
+
+Key idea: Train a neural network to represent p(@;|D%", @)
+ys
+
+CoG oF
+
+(x1, Y1) (2, y2) (x3, y3) x
+
+1. Sample task 7; (or mini batch of tasks)
+2. Sample disjoint datasets Di’, D*°** from D;
+
+  
+
+Qs: slido.com/meta
+ENDELEMENTBlack-Box Adaptation
+
+Key idea: Train a neural network to represent p(@;|D%", @)
+ts
+
+fo 4
+1. Sample task 7; (or mini batch of tasks)
+a oi 2. Sample disjoint datasets Di’, D*°** from D;
+(1, 41) (x2, y2) (x3, Y3) x : 3. Compute i ~ fo(Di")
+ee, 4. Update @ using VoLl(d;, Dy")
+
+tr test
+
+ 
+
+ 
+ENDELEMENTBlack-Box Adaptation
+
+Key idea: Train a neural network to represent p(@;|D;", 0)
+ts
+
+ 
+
+J 4 Form of fo?
+
+b; | - LSTM
+a - Neural turing machine (NTM)
+(11,41) (x2, y2) (x3, y3) ts - Self-attention
+
+- p - 1D convolutions
+Dt piest - feedforward + average
+
+Qs: slido.com/meta
+ENDELEMENTBlack-Box Adaptation
+
+Key idea: Train a neural network to represent p(@;|D;", 0)
+
+Challenges
+Outputting all neural net parameters does not seem scalable?
+
+Idea: Do not need to output all parameters of neural net, only sufficient statistics
+(Santoro et al. MANN, Mishra et al. SNAIL)
+
+ts
+
+ 
+
+to y | |
+low-dimensional vector h;
+a ; represents contextual task information
+b; = {hig}
+(21,41) (%2, yo) (x3, y3) ce v8
+©, general form: y — fo(D*, r**)
+pt Dyest
+
+ls there a way to infer all parameters in a scalable way?
+
+Qs: slido.com/meta What if we treat it as an optimization procedure?
+ENDELEMENTOutline
+
+- Problem statement
+- Meta-learning algorithms
+
+- Black-box adaptation
+- Optimization-based inference
+- Non-parametric methods
+- Bayesian meta-learning
+- Meta-learning applications
+
+— 5 min break —
+- Meta-reinforcement learning
+
+- Challenges & frontiers
+
+Qs: slido.com/meta
+ENDELEMENTOptimization-Based Inference
+Key idea: Acquire 0; through optimization.
+
+max log p(Dj"|9i) + log p(%:/4)
+Meta-parameters @serve asaprior. What form of prior?
+
+One successful form of prior knowledge: initialization for fine-tuning
+
+Qs: slido.com/meta
+ENDELEMENTOptimization-Based Inference
+
+pre-trained parameters
+
+Fine-tuning d <~ § — aVo6L£\(6, D'*)
+
+; training data
+[test-time] ©
+
+for new task
+Meta-learning mun > LO —_ aVoLQG, D;"), D;*)
+
+task 2
+Key idea: Over many tasks, learn parameter vector 0 that transfers via fine-tuning
+
+Qs: slido.com/meta Finn et al., MAML
+ENDELEMENTOptimization-Based Inference
+
+° _ tr ts
+min » LO — aVoL(6,D;" ), D;*)
+
+task 2 |
+— meta-learning
+Q parameter vector GQ ---- learning/adaptation
+being meta-learned VL
+
+cb: optimal parameter V Lo os
+
+2 vector for task i VLr QL 3
+i wo ‘, *K
+1° “D5
+
+Qs: slido.com/meta Model-Agnostic Meta-Learning Finn et al., MAML
+ENDELEMENTOptimization-Based Inference
+Key idea: Acquire 0; through optimization.
+
+General Algorithm:
+
+Arrertizec-appreaca- Optimization-based approach
+
+1. Sample task 7; = (or mini batch of tasks)
+
+2. Sample disjoint datasets Di’, D**** from D;
+
+3. Computed; fx(P) Optimize d; + 0—- aVoLl(d, D5")
+4. Update 6 using VoLl(d;, D;*")
+
+—> brings up second-order derivatives (more on this later)
+
+Qs: slido.com/meta
+ENDELEMENTOptimization vs. Black-Box Adaptation
+
+Black-box adaptation Model-agnostic meta-learning
+general form: y°° = fo(D;", x"*) y® = fuami(D;", 2)
+y" — foi (x"*)
+where ¢; = 06 — aVoL(0, D;")
+HL MAML can be viewed as computation graph,
+(71,41) (v2, y2) (@3,y3) with embedded gradient operator
+
+Note: Can mix & match components of computation graph
+Learn initialization but replace gradient update with learned network
+where ¢; = 0 — aVg£0-P>>-
+£4, D5", VoL)
+Ravi & Larochelle ICLR ’17
+(actually precedes MAML)
+Qs: slido.comThis computation graph view of meta-learning will come back again!
+ENDELEMENTOptimization vs. Black-Box Adaptation
+
+How well can learning procedures generalize to similar, but extrapolated tasks?
+
+ 
+
+ 
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Omniglot image classification MAML SNAIL,
+wu Luu MetaNetworks
+> >
+o s 95
+yo 3 | 5
+O oO O90 |
+CH & og! ©
+(ae) oe ah
+: 2 | 5 85 |
+O = / —— MAML 2) fT
+- Sy ; —— SNAIL ro f
+oO s / = 754 |
+oO o k —- MetaNet a I —-- MetaNet
+” ry 06 04 02 00 04 TR on f_ : 7 2.0
+0.25 1.00 125
+digit shear ( radians) digit scale
+
+ 
+
+a BG ow
+
+Qs: slido.com/meta Does this structure come at a cost? Finn & Levine ICLR 18
+ENDELEMENTBlack-box adaptation Optimization-based (MAML)
+tr _t
+y* _ fo (Di, v's) y* _ fMAML (D;", a *)
+
+Does this structure come at a cost?
+
+For a sufficiently deep f, bet
+. . . r Ss
+MAML function can approximate any function of D; ov
+Finn & Levine, ICLR 2018
+
+Assumptions:
+
+nonzero @
+
+loss function gradient does not lose information about the label
+
+, ; tr ;
+datapoints in D; are unique
+
+Why is this interesting?
+MAML has benefit of inductive bias without losing expressive power.
+
+Qs: slido.com/meta
+ENDELEMENTProbabilistic Interpretation of Optimization-Based Inference
+
+Key idea: Acquire 0; through optimization.
+
+Meta-parameters @ serve as a prior. One form of prior knowledge: initialization for fine-tuning
+task-specific parameters max log I] p(D,|@)
+i
+= tog] / p(Pi\os)p(0%l8)a6, (empirical Bayes)
+i
+
+~ log I] p(Di|¢i)p(¢:|0)
+i \ MAP estimate
+
+ 
+
+How to compute MAP estimate?
+Gradient descent with early stopping = MAP inference under
+Gaussian prior with mean at initial parameters [Santos ’96]
+(exact in linear case, approximate in nonlinear case)
+
+Qs: slido.com/meta MAML approximates hierarchical Bayesian inference. Grant et al. ICLR ‘18
+
+meta-parameters
+ENDELEMENTOptimization-Based Inference
+
+Key idea: Acquire 0; through optimization.
+Meta-parameters @ serve as a prior. One form of prior knowledge: initialization for fine-tuning
+
+Gradient-descent + early stopping (MAML): implicit Gaussian prior @ + 6 — aVoL(s, D'")
+
+Other forms of priors?
+m\
+Gradient-descent with explicit Gaussian prior o + min L(¢’,D™) + 5 \|0 — ¢'||?
+op!
+Rajeswaran et al. implicit MAML ‘19
+Bayesian linear regression on learned features Harrison et al. ALPaCA ‘18
+
+Closed-form or convex optimization on learned features
+
+ridge regression, logistic regression support vector machine
+Bertinetto et al. R2-D2 ‘19 Lee et al. MetaOptNet ‘19
+
+Qs: slido.com/meta Current SOTA on few-shot image classification
+ENDELEMENTOptimization-Based Inference
+
+Key idea: Acquire 0; through optimization.
+
+Challenges
+
+How to choose architecture that is effective for inner gradient-step ?
+
+Idea: Progressive neural architecture search + MAML
+(Kim et al. Auto-Meta)
+
+- finds highly non-standard architecture (deep & narrow)
+- different from architectures that work well for standard supervised learning
+
+Minilmagenet, 5-way 5-shot MAML, basic architecture: 63.11%
+MAML + AutoMeta: 74.65%
+
+Qs: slido.com/meta
+ENDELEMENTOptimization-Based Inference
+
+Key idea: Acquire 0; through optimization.
+
+Challenges
+Second-order meta-optimization can exhibit instabilities.
+
+dQ;
+
+as identity
+
+(Finn et al. first-order MAML, Nichol et al. Reptile)
+Idea: Automatically learn inner vector learning rate, tune outer learning rate
+(Li et al. Meta-SGD, Behl et al. AlohaMAML)
+
+Idea: Optimize only a subset of the parameters in the inner loop
+(Zhou et al. DEML, Zintgraf et al. CAVIA)
+
+Idea: [Crudely] approximate
+
+ 
+
+Idea: Decouple inner learning rate, BN statistics per-step (Antoniou et al. MAML++)
+
+Idea: Introduce context variables for increased expressive power.
+(Finn et al. bias transformation, Zintgraf et al. CAVIA)
+
+Qs: slido.c takeaway: a range of simple tricks that can help optimization significantly
+
+ 
+ENDELEMENTOutline
+
+- Problem statement
+- Meta-learning algorithms
+
+- Black-box adaptation
+- Optimization-based inference
+- Non-parametric methods
+- Bayesian meta-learning
+- Meta-learning applications
+
+— 5 min break —
+- Meta-reinforcement learning
+
+- Challenges & frontiers
+
+Qs: slido.com/meta
+ENDELEMENTSo far: Learning parametric models.
+
+ 
+
+Sa e} Nod !
+
+je Ti
+P oe /@ Say \ Fe.
+
+  
+
+xX PAN e>*
+App eae ty ols
+
+e\ 1e ~
+[eae yes
+
+ 
+
+In low data regimes, non-parametric
+methods are simple, work well.
+
+ 
+
+ 
+
+ 
+
+ 
+
+During meta-test time: few-shot learning <-> low data regime
+
+During meta-training: still want to be parametric
+
+Can we use parametric meta-learners that produce effective non-parametric learners?
+
+Note: some of these methods precede parametric approaches
+Qs: slido.com/meta
+ENDELEMENTNon-parametric methods
+
+Key Idea: Use non-parametric learner.
+
+br test datapoint x’
+
+  
+
+Compare test image with training images
+
+In what space do you compare? With what distance metric?
+pixelspace—t-distance?
+Qs: slido.com/meta Learn to compare using data!
+ENDELEMENTNon-parametric methods
+
+Key Idea: Use non-parametric learner.
+
+train Siamese network to predict whether or not two images are the same class
+
+Input Hidden Distance Output
+layer layer layer layer
+
+ 
+
+Qs: slido.com/meta Koch et al., ICML ‘15
+ENDELEMENTNon-parametric methods
+
+Key Idea: Use non-parametric learner.
+
+train Siamese network to predict whether or not two images are the same class
+
+Input Hidden Distance Output
+layer layer layer layer
+
+ 
+
+Qs: slido.com/meta Koch et al., ICML ‘15
+ENDELEMENTNon-parametric methods
+
+Key Idea: Use non-parametric learner.
+
+train Siamese network to predict whether or not two images are the same class
+
+Input Hidden Distance Output
+laye r layer l ayer i ayer
+
+ 
+
+Qs: slido.com/meta Koch et al., ICML ‘15
+ENDELEMENTNon-parametric methods
+
+Key Idea: Use non-parametric learner.
+
+train Siamese network to predict whether or not two images are the same class
+
+Input Hidden Distance Output
+layer layer layer layer
+
+ 
+
+Meta-test time: compare image Xtest to each image in D;
+
+Meta-training: 2-way classification — Can we match meta-train & meta-test?
+Meta-test: N-way classification
+
+Qs: slido.co.: Bae Koch et al
+
+ 
+
+., CML ‘15
+ENDELEMENTNon-parametric methods
+
+Key Idea: Use non-parametric learner.
+
+Can we make meta-train & meta-test match?
+
+tr
+D;
+
+   
+ 
+
+—
+
+bidirectional LSTM Weighed nearest neighbors in
+learned embedding space
+
+i= > a(&, 254) yi
+
+What if >1 shot?
+
+Can we aggregate class information to
+create a prototypical embedding?
+
+ 
+
+¥
+p
+ie |
+
+Qs: slido.com/meta
+
+Vinyals et al. Matching Networks, NeurlIPS ‘16
+ENDELEMENTNon-parametric methods
+
+Key Idea: Use non-parametric learner.
+
+=~ > fo(x)
+
+M, y)EDs*
+
+_exp(=d( fol), ek)
+Poly = Bla) = ST xp(—dl fol), cw)
+
+ 
+
+(a) Few-shot
+
+d: Euclidean, or cosine distance
+
+Qs: slido.com/ meta Snell et al. Prototypical Networks, NeurIPS ‘17
+ENDELEMENTNon-parametric methods
+
+So far: Siamese networks, matching networks, prototypical networks
+
+Embed, then nearest neighbors.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Challenge
+
+What if you need to reason about more complex relationships between datapoints?
+
+Idea: Learn non-linear relation Idea: Learn infinite Idea: Perform message
+
+module on embeddings mixture of prototypes. passing on embeddings
+embedding module relation module A rN ' —
+
+— ala Sam
+A 7” iF ye a 82] Og), | Sole) O |.) @
+ny t am «, @—|2\¢ 0. | ese?) 20°
+SI ela) @ |") © |5 @8|° oe
+(__5 (nodes) a
+
+ 
+
+: (learn d in PN) \
+adaptive number of clusters
+
+Qs: slicoung et al. Relation Net Allen et al. IMP, ICML ‘19 Garcia & Bruna, GNN
+ENDELEMENTAmortized vs. Optimization vs. Non-Parametric
+
+Computation graph perspective
+
+Black-box amortized Optimization-based Non-parametric
+ts __ fo (Ds, xr) y"* _ fMAML (D*", z'*) y* _ fen (D*", z'*)
+= f,(2") = softmax : (fo(x), ¢ ae
+SHH) where d= 0 —aV9L(0,D8) where = fale
+(v1, 41) (€2,y2) (w3,y3) a  (, y)ED
+
+Note: (again) Can mix & match components of computation graph
+Gradient descent on
+
+Both condition on data & relation net embedding.
+
+run gradient descent.
+
+MAML, but initialize last layer as
+ProtoNet during meta-training
+
+Jiang et al. CAML ‘19 Triantafillou et al. Proto-MAML ‘19
+
+Qs: slido.com/meta Rusu et al. LEO ‘19
+
+ 
+ENDELEMENTIntermediate Takeaways
+
+Black-box amortized Optimization-based Non-parametric
++ easy to combine with variety of = + handles varying & large K well + simple
+learning problems (e.g. SL, RL) + structure lends well to out-of- + entirely feedforward
+- challenging optimization (no distribution tasks + computationally fast & easy to
+inductive bias at the initialization) | - second-order optimization optimize
+- often data-inefficient - harder to generalize to varying K
+- model & architecture - hard to scale to very large K
+intertwined - so far, limited to classification
+
+Generally, well-tuned versions of each perform comparably on existing few-shot benchmarks!
+
+Qs: slido.com/meta
+ENDELEMENTOutline
+
+- Problem statement
+- Meta-learning algorithms
+
+- Black-box adaptation
+- Optimization-based inference
+- Non-parametric methods
+- Bayesian meta-learning
+- Meta-learning applications
+
+— 5 min break —
+- Meta-reinforcement learning
+
+- Challenges & frontiers
+
+Qs: slido.com/meta
+ENDELEMENT| can’t believe it’s not Bayesian
+
+Recall parametric approaches: Use deterministic p(¢;|Di", 0) (i.e. a point estimate)
+
+    
+
+= Why/when is this a problem?
+= & Few-shot learning problems may be ambiguous.
+bad (even with prior)
++ vy Smiling, Can we learn to generate hypotheses
+Y Wearing Hat,
+: xX Young
+
+about the underlying function?
+i.e. sample from p(o;|D5", 0)
+
+  
+
+- safety-critical few-shot learning
+
+’ ‘
+
+ 
+
+5 Srnilig, Important for, — (©-8: Medical imaging)
+, ¥ Wearing Hat, - learning to actively learn
+Y Young
+- learning to explore in meta-RL
+Y Smiling,
+_ © Wearing Hat, Active learning w/ meta-learning: Woodward & Finn ’16,
+Qs: slid Y Young ta
+
+Konyushkova et al.’17, Bachman et al. 17
+ENDELEMENTMeta-learning with ambiguity
+oa
+
+ 
+
+S O~ p(0) log p(y jatran, d;)
+(0) (4) > bi ~ p(di|A) log p(y" |a;°"", bi)
+a Goal: sample ¢; ~ p(¢;|22"", yf", NS)
+Black-Box Amortized Inference Output distribution over weights of last layer
+Amorti zed Va riational Infe rence Feature extraction Linear Classifier Softmax output
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Gi
+; By .. «
+
+J \ t ae |
+|
+Di—y neural net —> q(h|D;") h— a
+t t Amortization
+oS
+
+ 
+
+ls | — ple, 6, 0%)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Network
+. he (x{?) G00 he (=) he («() aI he (22)
+Simple idea: NN produces Gaussian distribution over hi. hy train examples ko train examples
+
+from class 1 from class C
+Train with amortized variational inference.
+. . Gordon et al. VERSA ‘19
+(Kingma & Welling VAE ’13)
+
+Qs: slido.com/me' What about Bayesian optimization-based meta-learning?
+ENDELEMENTMeta-learning with ambiguity
+
+O~ p(0) log p(y jatran, d;)
+oi ~ P(Oil9) log p(y ai", bi)
+
+Goal: sample ¢; ~ p(¢;|22"", yf", NS)
+
+ 
+
+What about Bayesian optimization-based meta-learning?
+
+Stein Variational Gradient (BMAML)
+
+Gradient-based inference on last layer only.
+Use SVGD to avoid Gaussian modeling assumption.
+
+Model p(¢,|9) as Gaussian
+Same amortized variational inference for training.
+
+(Ravi & Beatson ’19)
+Amortized Bayesian Meta-Learning Ensemble of MAMLs (EMAML)
+
+(Kim et al. Bayesian MAML ’18)
+
+Can we model non-Gaussian posterior over all parameters?
+
+Qs: slido.com/meta
+ENDELEMENTSampling parameter vectors
+
+0 ~ p(0) = N (p96, Ye) log p(yy "ay", di)
+bi ~ P(di|9) log p(y" |a;°*", di)
+
+train train
+
+Goal: sample ¢; ~ p(¢;|a7", yr")
+p(o; jabra yeraIny [rote 10) p(ysra" jp train o;)d0
+
+= this is completely intractable!
+
+train train
+
+what if we knew p(@,|6, 777°", yr")?
+
+=> now sampling is easy! just use ancestral sampling!
+
+key idea: p(¢;|0, ci, yt") = 5(¢;)
+this is extremely crude
+remel ient! a
+but extremely convenient b; ~O+aV~ log p(y! attain, 0)
+(Santos ’92, Grant et al. ICLR 18)
+Training is harder. We use amortized variational inference
+
+——_ approximate with MAP
+
+ 
+
+Qs: slido.com/meta Finn*, Xu* et al. Probabilistic MAML ‘18
+ENDELEMENT   
+
+PLATIPUS
+
+Probabilistic LATent model for Incorporating Priors and Uncertainty in few-Shot learning
+
+Ambiguous 5-shot regression: .
+
+ 
+
+—— ground truth
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+   
+
+20} == MAML 20
+
+ 
+
+ 
+
+ 
+
+ 
+
++ datapoint
+
+ 
+
+A
+
+—— ground truth ; 7
+
+ 
+
+mbiguous celebA (5-shot)_
+
+ 
+
+ 
+
+ 
+
+A couracy | Coverage (max=3)
+MAML 69.26 + 2.18% 1.00 + 0.0
+
+Better models ambiguous few-shot
+image classification problems:
+
+Qs: slido.com/meta
+
+MAML + noise 54.73 + 0.8 % 2.60 + 0.12
+
+Finn*, Xu* et al. Probabilistic MAML ‘18
+
+ 
+ENDELEMENTDeep Bayesian Meta-Learning: Further Reading
+
+Edwards & Storkey, Towards a Neural Statistician. 2017
+
+Black-box approaches:
+Gordon et al., VERSA 2019
+Garnelo et al. Conditional Neural Processes 2018
+
+Optimization-based approaches:
+
+Kim et al., Bayesian MAML. 2018
+
+Xu et al., Probabilistic MAML. 2018
+
+Ravi & Beatson., Amortized Bayesian Meta-Learning 2019
+
+Qs: slido.com/meta
+ENDELEMENTOutline
+
+- Problem statement
+- Meta-learning algorithms
+
+- Black-box adaptation
+- Optimization-based inference
+- Non-parametric methods
+- Bayesian meta-learning
+- Meta-learning applications
+
+— 5 min break —
+- Meta-reinforcement learning
+
+- Challenges & frontiers
+
+Qs: slido.com/meta
+ENDELEMENTApplications in computer vision
+
+ 
+
+ 
+
+ 
+
+  
+
+ 
+
+ 
+
+ 
+
+few-shot image recognition human motion and pose prediction
+ae data test set 0 - — ~
+bf r : | & a }
+5 ©
+a & poms @
+mistestesunig i "2 5 10 20 50100 fos "2 8 1020 50100 —_ dbdb eb a” FO Aad
+
+see, e.g.: Gui et al. Few-Shot Human Motion Prediction via Meta-Learning.
+
+see, e.g.: Vinyals et al. Matching Networks for One Shot ;
+Be winy Ing Alet et al. Modular Meta-Learning.
+
+Learning, and many many others
+
+ 
+
+ 
+
+domain adaptation few-shot segmentation
+Source Domains Target Domains Support Task Representation titties tihioninas
+qe Ko = somite. | | Soot = =
+WY, f >
+ys i Test OA +} A
+NS ateat A 0°"
+%
+
+ 
+
+ 
+
+Train “alae see, e.g.: Shaban, Bansal, Liu, Essa, Boots. One-Shot Learning for Semantic Segmentation.
+ee me ¢ Rakelly, Shelhamer, Darrell, Efros, Levine. Few-Shot Segmentation Propagation with Guided Networks.
+
+see, e.g.: Li, Yang, Song, Hospedales. Learning to Generalize: Dong, Xing. Few-Shot Semantic Segmentation with Prototype Learning.
+Qs: _Meta-Learning for Domain Adaptation.
+ENDELEMENTApplications in image & video generation
+
+see, e.g.: Reed, Chen, Paine, van den Oord, Eslami, Rezende, Vinyals, de Freitas.
+
+few-shot image generation
+
+Source With Attn No Atti
+
+Source
+
+bEb etic emg © ee ie
+
+ne Fes
+-r= 6a0
+
+FOFOSHH inne ede) Allied Lal
+
+ke wide F
+
+SHSGSG & Bad
+
+With Attn
+
+mis
+
+2
+
+ 
+
+Few-Shot Autoregressive Density Estimation. and many many others.
+
+generation of novel viewpoints
+
+Qs: s
+
+eS -— -— - a
+
+shot
+
+& &
+% ¥
+
++ wa
+4a
+<<
+—
+~«
+
+0
+OEY) PREY [Pe om
+
+{{f¥
+
+C-VAE
+
+VERSA
+
+“t Ground Truth
+
+C-VAE
+
+YD REY (fF cme
+
+see, e.g.: Gordon, Bronskill, Bauer, Nowozin, Turner. VERSA: Versatile
+
+wJIiIiMmMmwyve wwe iii Pri tu
+
+ 
+
+and Efficient Few-Shot Learning.
+
+ 
+
+few-shot image-to-image translation
+
+Deployment
+Translation
+
+see, e.g.: Liu, Huang, Mallya, Karras, Aila, Lehtinen, Kautz. Few-Shot
+Unsupervised Image-to-Image Translation.
+
+generating talking heads from images
+
+   
+
+=>
+i @
+&
+vr
+
+Source
+see, e.g.: Zakharov, Shysheya, Burkov, Lempitsky. Few-Shot Adversarial
+Learning of Realistic Neural Talking Head Models
+
+Target — Landmarks — Result
+ENDELEMENTOne-Shot Imitation Learning
+
+Goal: Given one demonstration of a new task, learn a policy
+meta-learning with supervised imitation learning
+
+Black-box amortized inference Optimization-based inference
+ry a 7 Finn*, Yu* et al. Meta Imitation Learning ‘17
+Vo ’ ve input demo resulting policy
+
+        
+  
+
+Duan et al. One-Shot James et al. Task-
+Imitation Learning ‘17 Embedded Control ‘18
+
+Zz
+
+Zz
+Demonstration
+
+/ if
+
+J®
+
+re . . |
+Imitation Policy
+
+Le Paine et al. One-Shot High Fidelity Imitation ‘19
+
+Also: One-shot inverse RL (Xu et al. MandRIL’18, Gleave & Habryka ’18), One-shot hierarchical imitation (Yu et al. ’18)
+
+ 
+ENDELEMENTLearning to Learn from Weak Supervision
+
+input human demo
+
+ 
+
+Qs: slido.com/meta Yu*, Finn*, Xie, Dasari, Zhang, Abbeel, Levine RSS ’18
+ENDELEMENTLearning to Learn from Weak Supervision
+
+meta-training meta-test
+min S* Liest (0 — aVoLi rain (9)) 6’ — 0 —aVoL(O)
+task 7 \
+fully supervised weakly supervised weakly supervised
+
+What if the weakly supervised loss is unavailable?
+
+min Li (8 — aV oli, (0))
+
+ 
+
+Yu*, Finn*, Xie, Dasari, Zhang,
+Abbeel, Levine RSS ’18
+Grant, Finn, Peterson, Abbott, Levine,
+
+Qs: slido.com/meta " ; Darrell, Griffiths NIPS CIAl Workshop ’17
+
+ 
+ENDELEMENTMeta-Learning for Language
+
+Adapting to new languages
+Adapting to new programs Low-Resource Neural Machine Translation
+
+Meta Program Induction
+Learn new program from a
+
+ 
+
+ 
+
+ 
+
+ 
+
+- — "s 2 Es ; aoe
+few I/O examples. aa a. @ —_——-
+Devlin * Bunel!* et al. NeurlPS Y 7 (a) Transfer Learning (b) Multilingual Transfer Learning (c) Meta Learning
+Learn to translate new language pair
+Program Synthesis w/o a lot of paired data?
+Question: y
+(How many CFL teams are from York College? } Gu e t a I, FE M N LP 18
+SQL:
+SELECT COUNT CFL Team FROM
+CFLDraft WHERE College = “York”
+pseu Learning new words
+Construct pseudo-tasks with One-Shot Language Modeling
+
+relevance function
+
+Huang et al. NAACL ‘18 Learn how to use a new word
+
+from one example usage.
+Vinyals et al. Matching Networks, ‘16
+
+Qs: slido.com/meta
+
+Adapting to new personas
+
+Personalizing pratogu Agents
+
+J ogle
+
+Ge) Se ee)
+Adapt dialogue to a persona
+
+with a few examples
+Lin*®, Madotto* et al. ACL ‘19
+ENDELEMENTOutline
+
+- Problem statement
+- Meta-learning algorithms
+
+- Black-box adaptation
+- Optimization-based inference
+- Non-parametric methods
+- Bayesian meta-learning
+- Meta-learning applications
+
+— 5 min break —
+- Meta-reinforcement learning
+
+- Challenges & frontiers
+
+Qs: slido.com/meta
+ENDELEMENTWhy should we care about meta-RL?
+
+Iteration 2000
+
+ 
+
+Mnhih et al. ‘13
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Qs: slido.com/meta
+
+4000
+
+3000
+
+2000
+
+1000
+
+0
+
+ 
+
+RoboschoolHumanoid-v0O
+
+ 
+
+<—_>
+
+0
+Timestep
+graph: Schulman et al. ‘17
+
+50M
+
+ 
+
+= people can learn new
+
+skills extremely
+
+wy ZN quickly
+eS ==
+
+how?
+
+we never learn from
+scratch!
+
+ 
+ENDELEMENTThe reinforcement learning problem
+
+Markov decision process M ={S,A,P,r}
+S — state space states s € S (discrete or continuous)
+A — action space actions a € A (discrete or continuous)
+
+ 
+
++48 : : Andrey Markov
+P — transition function, i.e. p(s¢41 a4, 5) = P(S¢, At, $441) y
+
+r — reward function r:SxA-R
+
+r(Sz,@¢) — reward
+
+to(a|s) — policy with params 0 §* = arg max E,,
+9
+
+YO
+
+expectation under 7g and P
+
+ 
+
+T
+S r (st, at)
+
+t=0
+
+ 
+
+Richard Bellman
+
+Qs: slido.com/meta
+ENDELEMENTThe reinforcement learning problem
+
+ 
+
+T
+r (Sz, at)
+
+t=0
+
+*
+6* = arg max Ex,
+
+ 
+
+infinite horizon, discounted return
+
+ 
+
+CO
+sy r(Se, at)
+
+t=0
+
+x
+6* = arg max Ex,
+
+gx = arg max Fixo(s,a) Ir( Se, ar)
+
+Is
+
+. Oo po(S1,81,---,87,ar) = p(S1) | | 7o(ae|Sz)D(Se+1|Sz, at)
+stationary distribution Pe
+
+™9(T)
+
+oe
+ny
+
+0* = arg max Ee4(7) (R(T)
+
+Qs: slido.com/meta
+ENDELEMENTEvery RL algorithm in a nutshell
+
+6” = arg max Ex(r) [R(T))
+
+     
+ 
+ 
+
+Tt
+
+store (Sz, @¢,$411,7¢) in buffer B
+
+j improve 7...
+
+rte — r(S¢, at) ...directly, via policy gradients
+
+St41 ~ p(St41|8¢; Gt) ..via value function or Q-function
+
+ 
+
+..implicitly, via model p(s;+1|s¢, az)
+
+ 
+
+Qs: slido.com/meta pick ay ~ 79(a¢| Sz)
+ENDELEMENTMeta-learning so far...
+
+learn @ such that ¢; = fe(D;") is good for D¥s Drmeta-tran = {(D], Di§),...,(D", D's)}
+
+DY = {(ai yi)... (aeyf
+Probabilistic view: i = {(21,Yi)+---5 (Lie Yee)
+. Di = {(x1,y4),---, (xj, y})}
+* = l ,|D* ‘
+9 argma ) og p(i|D;*)
+
+where ¢; = fo (D}")
+Deterministic view:
+
+x . ; ts
+0* = argmin | L(¢i,D;")
+
+t=1
+
+where ¢; = fo(D;”)
+
+Qs: slido.com/meta
+ENDELEMENTThe meta reinforcement learning problem
+
+“Generic” learning (deterministic view): “Generic” meta-learning (deterministic view):
+x : Dt Q* _ : ; D's
+
+0* = arg min LO, ) arg min )_£(¢ ,D;")
+
+= learn (D"") where oF — fo (D;")
+Reinforcement learning: Meta-reinforcement learning:
+6* = arg max Ex (7) (R(7)| 6* = arg max S Ex.,(r)|R(7)|
+
+i=l
+— friu(M) M = {S,A,P,r} where Pi — fo(Mi)
+
+\ \
+
+MDP MDP for task 7
+ENDELEMENTThe meta reinforcement learning problem
+
+g* = argmax ) | Ex,,(r)[R(7)] {M1,..., Mn}
+
+- \
+
+h i= fo(M;
+where @; = fo(Mi) meta-training MDPs
+assumption: M; ~ p(M) Some examples:
+
+meta test-time:
+
+sample Meest ~ p(M), get Qj = fo (Meest)
+
+ 
+
+Qs: slido.com/meta O05 m/s O7m/s~  *0.2 m/s “07 m/s
+ENDELEMENTMeta-RL with recurrent policies
+
+0* = arg max > | Ex, (r) (R(T) main question: how to implement f9(M,;)?
+i=1
+
+where 4; = fa(M;) what should fg(M;) do?
+
+      
+
+ 
+
+1. improve policy with experience from M,;
+
+{(s1, 1,52, r1), a) (sr, QT,5T+1; rr)}
+
+2. (new in RL): choose how to interact, i.e. choose az
+
+meta-RL must also choose how to explore!
+
+meta-learned
+
+0* aq RNN hidden state weights
+tt h; — as before, Qj = [hs 0,,|
+pick az ~ 76(a¢|s¢) |
+
+use (5+, Qt, 5441, Tt) to improve 749 T¢, (als)
+
+ 
+ENDELEMENTMeta-RL with recurrent policies
+
+n o*
+
+a
+
+6* = arg mx ) Er, (r) R(T) ( Vy ;
+where $; = fo(M;) | }
+
+(51, €1, 52,71) (82,42, 83,12) (83,43, $4,173) S
+
+U——_
+so... we just train an RNN policy? 74; (als)
+
+yes!
+crucially, RNN hidden state is not reset between episodes!
+
+(2) Perea
+Is|tcy orto
+
+: sSlido.com/meta
+ENDELEMENTWhy recurrent policies learn to explore
+
+*
+a a 1. improve policy with experience from M;
+<t {(S1, 41, 52,11),---, (87,47, §741,77)}
+2. (new in RL): choose how to interact, i.e. choose az
+
+(s1, a1, $2, r1) (so, 2, $3, r2) (s3, J S4, r3)
+
+ 
+
+meta-RL must also choose how to explore!
+
+T
+S r(Sz, Gt)
+
+t=0
+
+To; wala
+
+= arg max Ex,
+
+ 
+
+entire meta-episode with RNN
+policy automatically learns to
+ene explore!
+
+A
+p> <a > —)> optimizing total reward over the
+
+ 
+
+ 
+
+meta-episode
+
+Qs: slido.com/meta
+ENDELEMENTMeta-RL with recurrent policies
+
+n Q”
+0“ = arg max » Ex, (r (R(T)
+
+I=1 vV
+
+where 6 = fo(Mi) |
+
+($1, @1, $2,171) (S2, A2, 83,12) (53, 43, 84,73) S
+
+   
+
+ 
+
+ 
+
+(a) Good behavior, Ist (b) Good behavior, 2nd (c) Bad behavior, Ist (d) Bad behavior, 2nd
+
+ 
+
+( Cc ) (d ) (e ) episode episode episode episode
+(a) Labryinth I-maze (b) Illustrative Episode
+Heess, Hunt, Lillicrap, Silver. Memory-based control with Wang, Kurth-Nelson, Tirumala, Soyer, Leibo, Munos, Duan, Schulman, Chen, Bartlett, Sutskever, Abbeel. RL2:
+recurrent neural networks. 2015. Blundell, Kumaran, Botvinick. Learning to Reinforcement Fast Reinforcement Learning via Slow Reinforcement
+Learning. 2016. Learning. 2016.
+
+Qs: slido.com/meta
+ENDELEMENTArchitectures for meta-RL
+
+ 
+
+Reinforcement Learning _
+
+ 
+
+an3 At2 Any a Actions
+
+wa eee eee eee ee eee eeens
+
+attention + temporal convolution
+
+fe Mishra, Rohaninejad, Chen, Abbeel. A Simple
+
+ie 7 4 Neural Attentive Meta-Learner.
+
+ae eel |
+
+© e@ @ @
+
+ar F FF F
+
+O.3 O.. O., O (Observations,
+
+~ BO An
+
+a lr, Teo Vea
+
+Qs: slido.com/meta
+
+standard RNN (LSTM) architecture
+
+Duan, Schulman, Chen, Bartlett, Sutskever, Abbeel. RL2:
+Fast Reinforcement Learning via Slow Reinforcement
+Learning. 2016.
+
+ 
+
+ 
+
+c)
+
+P / ‘ -
+5,a,5 ,T —{ ¢ }+¥ 7 ;
+\ N ) & (Z Cc; al qe(Z
+© + -
+
+- x~—
+
+° ¢ mi
+(s, a, s'. r) N = ce ee CN \J
+
+parallel permutation-invariant context encoder
+
+Rakelly*, Zhou*, Quillen, Finn, Levine. Efficient Off-Policy Meta-
+Reinforcement learning via Probabilistic Context Variables.
+ENDELEMENTMeta-RL as an optimization problem
+
+ 
+
+Tr
+6* = arg max S Ex4,(t) [R(7)] 1. improve policy with experience from M;
+i=l {($1, 1, $2,71),---, (87,47, $741,TT)}
+
+where ¢j = fo(Mz)
+
+what if fo(M,) is itself an RL algorithm? standard RL:
+fo(M;) = 0 + aVoJ;(0) 6” = arg max E,,(7)[R(7)]
+Wu | L—___—____JJ
+requires interacting with M,; J()
+to estimate Vo E,, |R(7)| Oe) — O, + AV or J(0*)
+
+this is model-agnostic meta-learning (MAML) for RL!
+
+Qs: slido.com/meta
+ENDELEMENTMAML for RL in pictures
+
+  
+  
+
+ 
+
+6-0+BS VoJj[0 + aVoJi(9)|
+
+— meta-learning
+---- learning/adaptation Q’
+
+VL3
+Vin.
+VL, Pa 03
+
+Ox" \ px
+1 °U5
+
+Qs: slido.com/meta
+ENDELEMENTMAML for RL in videos
+
+after 1 gradient step after 1 gradient step
+
+after MAML training = (forward reward) — (backward reward)
+
+ 
+
+Z
+
+— meta-learning — meta-learning — meta-learning
+a ---- learning/adaptation a ---- learning/adaptation a ---- learning/adaptation
+
+VL3 VL3 VL3
+
+Qs: slide Gi NO fie N83 Ca
+ENDELEMENTMore on MAML/gradient-based meta-learning
+for RL
+
+Better MAML meta-policy gradient estimators:
+
+¢ Foerster, Farquhar, Al-Shedivat, Rocktaschel, Xing, Whiteson. DiCE: The Infinitely Differentiable Monte Carlo
+Estimator.
+
+¢ Rothfuss, Lee, Clavera, Asfour, Abbeel. ProMP: Proximal Meta-Policy Search.
+
+Improving exploration:
+e Gupta, Mendonca, Liu, Abbeel, Levine. Meta-Reinforcement Learning of Structured Exploration Strategies.
+
+e Stadie*, Yang*, Houthooft, Chen, Duan, Wu, Abbeel, Sutskever. Some Considerations on Learning to Explore via
+Meta-Reinforcement Learning.
+
+Hybrid algorithms (not necessarily gradient-based):
+e Houthooft, Chen, Isola, Stadie, Wolski, Ho, Abbeel. Evolved Policy Gradients.
+
+e Fernando, Sygnowski, Osindero, Wang, Schaul, Teplyashin, Sorechmann, Pirtzel, Rusu. Meta-Learning by the
+Baldwin Effect.
+
+Qs: slido.com/meta
+ENDELEMENTMeta-RL as... partially observed RL?
+First: a quick primer on partially observed Markov decision processes (POMDPs)
+
+M = {S,A,9,B, €,r}
+
+O — observation space observations o € O (discrete or continuous)
+
+E — emission probability p(oz|sz)
+policy must act on observations o;!
+
+to(alo)
+co) @ @&) & "
+
+typically requires ezther:
+
+(si) (s2) (Ss ) explicit state estimation, i.e. to estimate p(s;|01.z)
+
+policies with memory
+
+ 
+
+ 
+
+Qs: slido.com/meta
+ENDELEMENTMeta-RL as... partially observed RL?
+
+16 (als, 2) this is just a POMDP!
+
+before: M = {S,A,P,r}
+
+encapsulates information policy
+
+needs to solve current task now: M = {S, A, O,P,E, r}
+learning a task = inferring z S= SKE 5 = (s, 2)
+from context (81,01, 52,11), ($2, 42, 53,12), -- O=S O= 8
+
+key idea: solving the POMDP M is equivalent to meta-learning!
+
+Qs: slido.com/meta
+ENDELEMENTMeta-RL as... partially observed RL?
+
+TO (als, Zz) this is just a POMDP!
+
+typically requires ezther:
+encapsulates information policy
+
+needs to solve current task
+
+    
+
+explicit state estimation, i.e. to estimate p(s;|01.z)
+
+policies with memory
+learning a task = inferring z
+
+from context (81,1, 82,71), (S2, 42, 83,72), +. need to estimate p(z¢|S1-4, @1:4, 1:t)
+
+exploring via posterior sampling with latent context
+
+, , this is not optimal!
+some approximate posterior hy?
+C 1. sample z ~ P( 2/81: Q1:t;T1:t) — (e.g., variational) wns
+
+2. act according to 79(als, z) to collect more data
+
+ 
+
+but it’s pretty good, both in
+act as though z was correct! theory and in practice!
+
+Qs: slido.com /meta See, e.g. Russo, Roy. Learning to Optimize via Posterior Sampling.
+ENDELEMENTVariational inference for meta-RL
+
+olicy: 79(at|S+, 2
+p Vy a ( t| ts t) Zt ~ do(Z|$1, 01, 71,---5 St, Gt, 7)
+
+ 
+
+inference network: q¢(2z|$1,@1,11,---; St; @t,1t)
+
+ 
+
+(0,6) = argmax — J Bengy.r~ny[ Fil) ~ Dec. (alel ---)lle(2)
+
+Va \
+
+maximize post-update reward stay close to prior
+(Same as standard meta-RL)
+
+conceptually very similar to RNN meta-RL, but with stochastic z
+
+stochastic z enables exploration via posterior sampling
+
+Qs: slido.com/meta
+
+Rakelly*, Zhou*, Quillen, Finn, Levine. Efficient Off-Policy Meta-Reinforcement learning via Probabilistic Context Variables. ICML 2019.
+ENDELEMENTSpecific instantiation: PEARL
+policy: m@(a¢|S¢, Zt) (s,a,s',17) a He ate
+—
+
+ 
+
+>
+
+sae GED.
+
+(0, b) = arg max = » Exgg,r~me Ri(T) — Dx (q(2| --- )|lp(z))]
+
+4 Half-Cheetah-Fwd-Back Half-Cheetah-Vel Humanoid-Direc-2D
+
+inference network: q¢(2z|$1,@1,11,---; St; @t,1t)
+
+ 
+
+ 
+
+perform maximization using soft actor-critic (SAC),
+state-of-the-art off-policy RL algorithm
+
+ 
+
+0° 10° 10’
+Ant-Fwd-Back
+
+ 
+
+0 -1000 0
+10* 10 10° 0’ oF 10 10 10° 0! 10’
+time steps time steps time steps
+°
+Qs ° S| | d O COI Y) / f Y eta — PEARL (ours) —— ProMP —— MAML —— RL2  —— final performance
+e e
+
+Rakelly*, Zhou*, Quillen, Finn, Levine. Efficient Off-Policy Meta-Reinforcement learning via Probabilistic Context Variables. ICML 2019.
+ENDELEMENTReferences on meta-RL, inference, and POMDPs
+
+e Rakelly*, Zhou*, Quillen, Finn, Levine. Efficient Off-Policy Meta-
+Reinforcement learning via Probabilistic Context Variables. ICML
+2019.
+
+e Zintgraf, Igl, Shiarlis, Mahajan, Hofmann, Whiteson. Variational Task
+Embeddings for Fast Adaptation in Deep Reinforcement Learning.
+
+e Humplik, Galashov, Hasenclever, Ortega, Teh, Heess. Meta
+reinforcement learning as task inference.
+
+Qs: slido.com/meta
+ENDELEMENTThe three perspectives on meta-RL
+
+Perspective 1: just RNN it 0* = are > Ex, (ny [R(r)]
+
+Q*
+a Vy ' where $; = fo(Mi)
+~h;
+| what should fg(M;) do?
+
+($1, @1, $2,171) (S2, 2, 53,12) (53, @3, $4,173) S
+
+ 
+
+1. improve policy with experience from M;
+Perspective 2: bi-level optimization
+
+fo(M;) =0+ aVoJ; (0)
+MAML for RL
+
+{(S1, (1, $2,171), sey (sr, QT,5T+1; rr)}
+
+2. (new in RL): choose how to interact, i.e. choose az
+meta-RL must also choose how to explore!
+Perspective 3: it’s an inference problem!
+™o(als, 2) Ze ~ P(4| Sit, At, 1:1)
+
+everything needed to solve task
+
+Qs: slido.com/meta
+ENDELEMENTThe three perspectives on meta-RL
+
+Perspective 1: just RNN it
+
+aaa + conceptually simple
+
++ relatively easy to apply
+
+aa. < - vulnerable to meta-overfitting
+- challenging to optimize in practice
+
+(s1, a1, 52, Tr) (so, a2, §3, r2) (s3, a3, 54, r3)
+
+Perspective 2: bi-level optimization + good extrapolation (“consistent”)
+fe(M;) = 0+ aVoJ;() + conceptually elegant
+MAML for RL - complex, requires many samples
+Perspective 3: it’s an inference problem! + simple, effective exploration via posterior sampling
+To(als, z) ze ~ p( 24/81: A151 1:4) + elegant reduction to solving a special POMDP
+
+- vulnerable to meta-overfitting
+everything needed to solve task
+
+Qs: slido.com/meta
+
+- challenging to optimize in practice
+ENDELEMENTBut they’re not that different!
+
+Perspective 1: just RNN it
+Q*
+. . v
+just perspective 1, >h;
+but with stochastic |
+hidden variables! (s1, a1, 59,71) (9,49, 83,72) (84943, 84,73) s . |
+just a particular
+
+architecture choice
+for these
+
+1e., P=Z
+Perspective 2: bi-level optimization
+
+fa(M;) =@+ aV oJ; (0)
+MAML for RL
+
+Perspective 3: it’s an inference problem!
+™o(als, 2) Ze ~ P(Z4|81:t5 @1:t,71:t)
+
+everything needed to solve task
+
+Qs: slido.com/meta
+ENDELEMENTAdditional Topics in Meta-RL
+
+Qs: slido.com/meta
+ENDELEMENTModel-based meta-RL
+
+6” = arg max Ex(r) [R(T))
+
+short sketch of model-based RL:
+St+1 1. collect data B
+2. use B to get p(s¢+41|5¢, at)
+
+3. use p(S411|Sz,a¢) to plan a
+
+   
+
+_ Improve 79...
+.. directly, via policy gradients
+
+..via value function or Q-function why?
+
+ 
+
+: . . A + requires much less data vs model-free
+...implicitly, via model p(s141|s¢, az
++a bit different due to model
+
++ can adapt extremely quickly!
+
+ 
+
+pick ay ~ 79 (a¢|s¢)
+
+Qs: slido.com/meta
+ENDELEMENTModel-based meta-RL
+
+a few episodes
+
+example task: ant with broken leg non-adaptive method: Lo
+ee 1. collect data B = {s;,a;, 5; }
+| aaeenan 2. train dg(s,a) > s’ on B
+a a" 1 3. use dg to optimize actions
+| pole =a : t+k
+Qi,---,@t+p = arg max S_r(s7,ar)
+
+a 4 At,---,At+k 7=t
+_ S.t. S441 = do(S¢z, at)
+
+adaptive method:
+
+nice idea, but how much 1. take one step, get {s,a,s’}
+can we really adapt in just
+yee 2. 0+ 8—-—aVo||do(s, a) — 8'||?
+
+one (or a few) step(s)?
+3. use dg to optimize a;,...,dr+%, take a,
+
+Qs: slido.com/meta
+ENDELEMENTModel-based meta-RL
+
+meta-training time
+
+Dyeta-train — {(DY, D¥), sy (Dt, Dy*)}
+D;* — {(z4, yi), my (xi, yi) }
+
+D; — {(x4,y1); my (xj, yi)
+
+r<(s,a) yes
+
+generate each Di", Di:
+
+sample subsequence 5+, Q¢,..
+
+meta-test time
+
+adaptive method:
+
+ 
+
+> 1. take one step, get {s,a,s’}
+2.0+ 60—aVa|lde(s, a) — 8°||?
+
+3. use dg to optimize a;,...,dr+%, take a;
+
+assumes past experience has
+many different dynamics
+
+/
+
+ 
+
+-, St+k, 4t+k, St+k4+1 from past experience
+
+Di" = {(St, Qt, S41) > ++ +5 (Stth—1 t+ h—15 St4h) f “—__ could choose k = 1, but k > 1
+
+Di = {(St+ks Qt+ks Sttk41)}
+
+Qs: slido.com/meta
+
+De
+
+works better (e.g., k = 5)
+i Dis
+
+OSS
+ENDELEMENTModel-based meta-RL
+
+example task: ant with broken leg meta-test time
+soaaaa ona
+
+   
+
+  
+  
+
+; adaptive method:
+
+ 
+
+: 1. take one step, get {s,a,s’}
+7 2. 0+ 8—aValldo(s,a) — 8" ||?
+‘ = 3. use dg to optimize ay,...,a¢4%, take a;
+
+“
+
+See also:
+
+Saemundsson, Hofmann, Deisenroth. Meta-Reinforcement
+Learning with Latent Variable Gaussian Processes.
+Nagabandi, Finn, Levine. Deep Online Learning via Meta-
+Learning: Continual Adaptation for Model-Based RL.
+
+Qs: slido.com/meta
+
+Nagabandi*, Clavera*, Liu, Fearing, Abbeel, Levine, Finn. wee e ee model-based RELL
+Learning to Adapt in Dynamic, Real-World Environments ;
+Through Meta-Reinforcement Learning. ICLR 2019. ( no ada otatl on )
+
+    
+
+~ with MAML
+
+ 
+ENDELEMENTMeta-RL and emergent phenomena
+
+Humans and animals seemingly learn behaviors in a variety of ways:
+> Highly efficient but (apparently) model-free RL
+
+> Episodic recall
+> Model-based RL
+> Causal inference
+> etc.
+
+Perhaps each of these is a separate “algorithm” in the brain
+
+But maybe these are all emergent phenomena resulting from meta-RL?
+
+meta-RL gives rise to
+episodic learning
+
+     
+  
+
+ 
+
+ 
+
+DND DND DND
+key value key value renal key value
+rm a
+a =
+Episodic Y rgate
+LSTM ha POR PCRs POR Re Oe
+
+with Repetitions
+Task 1 Task 2 Task 3
+
+Repetition of Task 1
+
+Ritter, Wang, Kurth-Nelson, Jayakumar, Blundell, Pascanu,
+Botvinick. Been There, Done That: Meta-Learning with
+Episodic Recall.
+
+model-free meta-RL gives rise to
+model-based adaptation
+
+A2 ——»—+ $2 ——"—
+
+Wang, Kurth-Nelson, Kumaran, Tirumala, Soyer, Leibo,
+
+Hassabis, Botvinick. Prefrontal Cortex as a Meta-
+Reinforcement Learning System.
+
+meta-RL gives rise to
+causal reasoning (!)
+
+pA) p(A)
+(A ) G
+Jo cue,
+(E}— H ) E }—— H
+p(EB|A) p(H\A,E) 6(E-e) p(H\A,E)
+
+Dasgupta, Wang, Chiappa, Mitrovic, Ortega, Raposo,
+Hughes, Battaglia, Botvinick, Kurth-Nelson. Causal
+Reasoning from Meta-Reinforcement Learning.
+ENDELEMENTContextual policies and meta-learning
+
+0* = arg max) Ex, (r) (R(T) 0* = arg max) E,,|R(T)|
+where ¢; = fo(M;) To (Gt|St, $1,401,171, +--+, St—15 @t-1,Tt-1)
+
+ 
+
+ 
+
+context used to infer whatever we need to solve M;
+i.e., 2, or @; (which are really the same thing)
+
+ 
+
+in meta-RL, the context is inferred from experience from M; To (at|Sz, 0; )
+in multi-task RL, the context is typically given \
+“context”
+
+    
+
+@: stack location  @: walking direction 4: where to hit puck
+
+Qs: slido.com/meta
+
+A SOW as x
+ENDELEMENTOutline
+
+- Problem statement
+- Meta-learning algorithms
+
+- Black-box adaptation
+- Optimization-based inference
+- Non-parametric methods
+- Bayesian meta-learning
+- Meta-learning applications
+
+— 5 min break —
+- Meta-reinforcement learning
+
+- Challenges & frontiers
+
+Qs: slido.com/meta
+ENDELEMENTLet’s Talk about Meta-Overrtitting
+
+e Meta learning requires task
+distributions
+
+ 
+
+e When there are too few
+meta-training tasks, we can after MAML training after 1 gradient step
+meta-overtit
+
+e Specifying task distributions
+is hard!
+
+e What can we do?
+
+ 
+
+Qs: slido.com/meta
+ENDELEMENTWhich algorithms meta-overrtit less?
+
+black-box adaptation optimization-based non-parametric
+
+<i — meta-learning
+
+---- learning/adaptation
+
+6
+eo
+
+ 
+
+\ ,
+4 \ - t —_ S Poa 03
+(1, 5 U- No” cO ~ ys) 46 . co™ ae
+D; iv “63
++ simple and flexible models + at worst just gradient descent + at worst just nearest neighbor
+- relies entirely on extrapolation of - pure gradient descent is not efficient - does not adapt all parameters of
+learned adaptation procedure without benefit of good initialization metric on new data (might be
+
+nearest neighbor in very bad space)
+
+Definition: a consistent meta-learner will converge to a (locally)
+
+Qs: S| ido.com/ meta optimal solution on any new task, regardless of meta-training
+
+Finn. Learning to Learn with Gradients. PhD thesis, 2019.
+ENDELEMENTEmpirical Extrapolation?
+
+How well can learning procedures generalize to similar, but extrapolated tasks?
+
+ 
+
+ 
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Omniglot image classification MAML SNAIL,
+wu 1 MetaNetworks
+9 o ie
+© MO 95
+5 * | =
+O ¥ 7
+Cc O 64 ©
+CG 6 ° [
+= 5 | 5 85 |
+iS) x / —— MAML a9 |
+& 8s f —— SNAIL 7 . j
+QO . —" MetaNet 5 i —- MetaNet
+90 rr 3 7 oe -.
+04 -02 00 ; "025 1.00 1.25 7 2.0
+digit shear ( radians) digit scale
+
+ 
+
+a BG ow
+
+Qs: slido.com/meta task variability Finn & Levine ICLR ’18
+ENDELEMENTWhat else can we dor
+
+e When there are too few
+meta-training tasks, we
+can meta-overfit
+
+e Specifying task
+distributions is hard!
+
+e Can we propose new tasks
+automatically?
+
+Qs: slido.com/meta
+
+Definition: unsupervised meta-learning refers
+to meta-learning algorithms that learn to solve
+tasks efficiently, without using hand-specified
+labels during meta-training
+
+at data test set
+
+ 
+
+ 
+ 
+
+no true
+labels
+at all!
+
+-_
+meta-training q ers (il a 7 eee | |
+Oo Lae
+
+ 
+
+meta-testing
+ENDELEMENTExample: stagewise unsupervised meta-learning
+
+ee — le ae
+
+   
+
+ 
+
+training test minilmageNet: 5 shot, 5 way
+Class 1 images images
+Class 2 | MAML with labels 62.13%
+—————>> BIGAN kNN 31.10%
+Ps a BiGAN logistic 33.91%
+training test
+
+{x; } images images BiGAN MLP + dropout 29.06%
+Class 1 BiGAN cluster matching 29.49%
+
+each image: point in IR”
+BiIGAN CACTUs MAML 51.28%
+
+cl wraps) MAA
+ass 2 In 19 bb
+gy GF DeepCluster CACTUs MAML ‘53.97%
+
+ 
+
+Clustering to Automatically Construct Tasks for Unsupervised Meta-Learning
+
+Qs: slido.com/meta (CACTUS)
+
+Hsu, Levine, Finn. Unsupervised Learning via Meta-Learning. ICLR 2019
+ENDELEMENTExample: unsupervised meta-reinforcement learning
+
+wage eta- = .
+. Task Acquisition |e — Wee Seuiae | sdaptation|) reward-maximizing
+environment environment-specific olic
+Unsupervised Meta-RL RL algorithm poly
+
+    
+   
+
+ 
+
+ 
+
+=225°>
+
+   
+
+  
+
+— UML-Random
+— UML-DIAYN
+— PG (RL from scratch)
+
+Qs: slido.com/meta 2 sroposed tasks coving tert
+
+Gupta, Eysenbach, Finn, Levine. Unsupervised Meta-Learning for Reinforcement Learning.
+Eysenbach, Gupta, Ibarz, Levine. Diversity is All You Need.
+
+—27S'-
+
+ 
+
+ 
+
+ 
+ENDELEMENTMore on unsupervised meta-learning
+
+Unsupervised meta-RL: Gupta, Eysenbach, Finn, Levine. Unsupervised Meta-
+Learning for Reinforcement Learning.
+
+Unsupervised meta-few-shot classification: Hsu, Levine, Finn. Unsupervised
+Learning via Meta-Learning.
+
+Unsupervised meta-few-shot classification: Knhodadadeh, Boloni, Shah.
+Unsupervised Meta-Learning for Few-Shot Image and Video Classification.
+
+Using supervised meta-learning to learn unsupervised learning rules: Metz,
+Maheswaranathan, Cheung, Sohl-Dickstein. Meta-Learning Update Rules for
+Unsupervised Representation Learning.
+
+Using supervised meta-learning to learn semi-supervised learning rules: Ren,
+Triantafillou, Ravi, Snell, Swersky, Tenenbaum, Larochelle, Zemel. Meta-
+Learning for Semi-Supervised Few-Shot Classification.
+
+Qs: slido.com/meta
+ENDELEMENTMemorization
+
+Related to meta-overfitting, but subtly different. What will happen if the task data isn’t
+
+Computation graph view: y°* = fg(D*", x's) strictly needed to learn the task?
+Examples
+Meta-training tasks: Cat/dog classifier. Meta-training tasks: Grasping different objects.
+Goal: Learn to quickly recognize a new breed as a cat. Goal: Learn to quickly grasp a new object.
+Learn single classifier that doesn’t adapt. Memorize how to grasp the training objects.
+
+ 
+
+The tasks need to be mutually exclusive.
+i.e. not possible to learn single function to learn all tasks
+
+What you want the learner to glean from the data must be not present in x.
+
+Challenge: can we learn to trade off information from the data
+
+Qs: slido.com/meta vs. the input based on amount of data
+ENDELEMENTWhat task information should be in the input vs. data?
+
+   
+
+So far: The input contains no
+information about the task.
+
+For broad meta-RL task distributions,
+exploration becomes exceedingly challenging.
+
+One option: Provide demonstration (to
+illustrate the task goal) + trials
+
+ 
+
+Zhou et al. Watch-Try-Learn: Meta-Learning
+Behavior from Demonstrations and Rewards, ‘19
+
+Other options: language instruction?, goal image?, video tutorial?
+
+Qs: slido.com/meta
+ENDELEMENTThe Ultimate Goal
+
+Meta-Learning More realistically:
+Given i.i.d. task distribution, learn learn learn learn learn learn learn
+learn a new task efficiently = N Ja x of af Nes
+T K N ZY olo .
+ee
+
+  
+  
+   
+
+time
+rapid learning
+
+ 
+
+Slow learning
+
+Initial work: Finn*, Rajeswaran® et al.
+Online Meta-Learning ICML ‘19
+
+one step of adaptation continual learning and adaptation
+ENDELEMENTOutline
+
+- Problem statement
+
+- Meta-learning algorithms
+
+- Black-box adaptation Thank you!
+
+- Optimization-based inference
+- Non-parametric methods
+- Bayesian meta-learning
+
+- Meta-learning applications Qu estionsr
+— 5 min break —
+- Meta-reinforcement learning
+
+- Challenges & frontiers
+ENDELEMENT

@@ -1,0 +1,4973 @@
+ICML | 2019
+
+Thirty-sixth International Conference on
+Machine Learning
+
+ 
+
+Neural Approaches to Conversational Al
+
+Jianfeng Gao, Michel Galley
+
+Microsoft Research
+ICML 2019
+Long Beach, June 10, 2019
+ENDELEMENTBook details:
+https://www.nowpublishers.com/article/Details/INR-074
+https://arxiv.org/abs/1809.08267 (preprint)
+
+Contact Information:
+Jianfeng Gao hittp://research.microsoft.com/~jfgao
+
+Michel Galley http://research.microsoft.com/~mgalley
+
+Slides:
+
+http://microsoft.com/en-us/research/publication/neural-approaches-to-
+conversational-ai/
+We thank Lihong Li, Bill Dolan and Yun-Nung (Vivian) Chen for contributing slides.
+
+ 
+ENDELEMENTOutline
+
+¢ Part 1: Introduction
+¢ Who should attend this tutorial
+* Dialogue: what kinds of problem
+¢ A unified view: dialogue as optimal decision making
+* Deep learning leads to paradigm shift in NLP
+
+¢ Part 2: Question answering and machine reading comprehension
+* Part 3: Task-oriented dialogues
+¢ Part 4: Fully data-driven conversation models and chatbots
+ENDELEMENTWho should attend this tutorial?
+
+¢ Whoever wants to understand and create modern dialogue agents that
+* Can chat like a human (to establish long-term emotional connections with users)
+* Can answer questions of various topics (movie stars, theory of relativity)
+* Can fulfill tasks (whether report, travel planning)
+* Can help make business decision
+
+* Focus on neural approaches, but hybrid approaches are widely used.
+ENDELEMENT 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Task Completion |— @ miu
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+QA (decision support)
+
+ 
+
+ 
+
+Aspirational Goal:
+Enterprise Assistant
+
+ 
+
+ 
+
+ 
+
+Info Consumption
+
+ 
+
+ 
+
+ 
+
+ 
+
+Task Completion
+
+ 
+
+ 
+ENDELEMENTWhat kinds of problems?
+
+“lam smart”
+
+“| have a question”
+
+“| need to get this done”
+“What should | do?”
+
+Turing Test (“I” talk like a human)
+Information consumption
+Task completion
+
+Decision support
+ENDELEMENTWhat kinds of problems?
+
+(© aVivolat-) em (sXoYerl-] mofo) a)
+
+ 
+
+“lam smart”
+
+“| have a question”
+
+“| need to get this done”
+“What should | do?”
+
+ 
+
+Turing Test (“I” talk like a —
+
+Information consumption
+Task completion
+
+Decision support
+
+ 
+
+ 
+
+Goal-oriented dialogues
+ENDELEMENTDialog System
+
+Goal-Oriented Dialog
+
+Fully data-driven
+
+ 
+
+Understanding ' Veipd ~~
+
+input x State tracker
+
+ 
+
+ 
+
+    
+
+(NLU)
+The
+Vv Database [enn
+Memory (@sEnME!
+Fi External knowledge
+output y ene) Dialog policy Scam 2
+
+ 
+
+! OF
+s 4 “ / tripadvisor?
+
+ 
+
+input x
+
+Statistical model
+
+(e.g., neural)
+
+output y
+
+ 
+
+[Young+ 13; Tur & De Mori 11; Ritter+ 11; Sordoni+ 15; Vinyals & Le 15; Shang+ 15; etc.]
+
+ 
+ENDELEMENTA unified view: dialogue as optimal decision making
+
+* Dialogue as a Markov Decision Process (MDP)
+* Given state s, select action a according to (hierarchical) policy
+* Receive reward r, observe new state s’
+* Continue the cycle until the episode terminates.
+* Goal of dialogue learning: find optimal 7 to maximize expected
+rewards
+
+Foisogue I Sinte(s) [Action a) [Reward
+
+Info Bots Understanding of user Clarification questions, Relevance of answer
+(Q&A bot over KB, Web etc.) Intent (belief state) Answers # of turns (less is better)
+Task Completion Bots Understanding of user Dialog act + slot_value Task success rate
+(Movies, Restaurants, ...) goal (belief state) # of turns (less is better)
+Social Bot Conversation history Response Engagement,
+
+(Xiaolce) # of turns (more is better)
+
+)
+ENDELEMENTPersonal assistants to
+
+Verizon 6:57 PM 7 59%
+
+What can | help you with?
+
+66 Siri find me a nearby
+Mexican restaurant 99
+
+| found a number of Mexican
+restaurants... 24 of them are
+fairly close to you:
+
+Chilitos Restaurant
+3850 Foothil
+
+Mesilla Valley Kitchen
+
+2001 East Lohman Avenue
+
+Buy asparagus
+
+When you get to Whole
+Foods Market
+
+2201 Wilshire Bivd, Santa Monica
+Every time
+
+Remind
+
+remind me to get asparagus when | go to
+the market
+
+ 
+
+O@o I
+
+Siri Cortana
+
+amazon echo
+TT
+
+Will it rain tomorrow? Set an alarm for eight a.m. ©
+
+     
+   
+
+My ally is the Force, and a
+powerful ally it
+
+How many teaspoons
+
+Play music by
+are in a tablespoon?
+
+Bruno Mars
+
+Add gelato to my Wikipedia: Abraham
+
+shopping list Lincoin
+When is Play my “dinner party”
+Thanksgiving? playlist
+What's the weather in Add “make hotel reservations”
+Los Angeles this weekend? to my to-do list
+
+may the force be with you
+
+ 
+ENDELEMENTXiaolce System Architecture
+
+User Experience Layer
+
+2)
+RAE
+
+weibo.com
+
+ 
+
+Tencent #it
+
+e.
+
+Full Duplex
+
+steam-based
+
+conversations
+(voice)
+
+ 
+
+Wecina
+
+ 
+ 
+ 
+ 
+
+Conversation Engine Layer
+
+ 
+
+   
+        
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+   
+
+Skills
+Task Deep
+. Completion Engagement
+General Domain
+Chat Chat
+Image Content
+Commenting Creation
+
+ 
+
+Data Layer
+
+User
+Profiles
+
+ 
+
+ 
+
+  
+ 
+
+Empathetic
+
+ 
+
+oS Meipai
+©2240
+
+ 
+
+Message-based
+conversations
+(text, image,
+voice, video clips)
+
+ 
+
+ 
+
+©
+°
+
+facebook Messenger
+
+   
+ 
+ 
+
+Computing
+
+ 
+
+User Understanding
+* Social skills
+* Xiaolce personality
+
+ 
+
+ 
+
+Policy _* Topic manager for C
+
+Dialogue + Top level policy for skill selection
+
+‘ore Chat
+
+ 
+
+ 
+
+ 
+
+Dialogue Manager
+
+ee)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Paired Unpaired
+Datasets Datasets
+(text, image) (text)
+Topic Knowledge
+Index Graphs
+
+[Design and Implementation of Xiaolce, an empathetic social chatbot]
+
+ 
+
+ 
+
+ 
+ENDELEMENTGeneral Chat Skill
+
+Music Chat Skill
+
+ 
+
+Switch to a new topic
+
+ 
+
+ 
+
+ 
+
+Song-On-Demand Skill
+
+Ticket-Booking Skill
+
+ 
+
+10
+
+11
+
+12
+
+13
+
+14
+
+15
+
+16
+
+17
+
+18
+
+19
+
+[Human] Hey, | am so nervous
+[Xiaoice] What's the matter? Why are you so nervous?
+
+[Human] My company asked me to participate in the singing competition, with me as the lead singer
+
+[Xiaoice] So are you better at singing now?
+[Human] Anyway, at average level of my company
+
+[Xiaoice] Not everyone can be a lead singer. You are so great!
+[Human] It's nice of you saying that
+
+[Xiaoice] Haha, my idol is also a lead singer in a band
+[Human] Your idol? Who's that?
+
+[Xiaoice] Ashin from Mayday
+
+[Human] Umm...Okay
+
+[Xiaoice] Never mind, you won't understand anyway
+[Human] Ah! Boring
+
+[Xiaoice] What is it?
+
+[Human] Nothing, just being cute
+
+[Xiaoice] Give you a hug. Everything will be alright
+
+[Human] Your hug always makes me feel better
+
+[Xiaoice] Anytime for you. A nice sleep will help you relax
+[Xiaoice] Okay, | am going to bed
+
+[Xiacice] Go ahead, I'm going to see my idol in dream too
+[Human] You like Ashin that much, huh?
+
+[Xiaoice] Why not? You don't like him?
+
+[Human] | don't like him, neither dislike him
+
+[Xiaoice] | love every song of him
+
+[Human] Really?
+
+[Xiaoice] Especially The Time Machine
+
+[Human] Oh? Never heard of that
+
+[Xiaoice]Shall | send you the song?
+
+[Human] Okay
+
+[Xiaoice] Don't know if you will like it or not~
+
+[Xiaoice] [Play the music Card]
+
+[Human] That is really touching. | will collect it as my favorite
+[Xiaoice] That is specially for you. How can I be so nice
+[Human] You are always very nice
+
+[Xiaoice] Hahaha
+
+[Human] This is really a good song. Any concert of him coming up recently?
+[Xiaoice] No. Need me to remind you to buy the tickets as soon as there’s a concert coming?
+[Human] Sure
+
+[Xiaoice] Okay, will do
+
+AX]
+Ws
+A
+ale
+A
+aK
+A
+Ws
+AK
+NK)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+  
+
+SR! RF RK
+
+TAB, KARE?
+ASLRSMIBRE, MACS
+ARRIB RA HS TS?
+
+RIE EATS) AF
+
+ANE EAB AES FIBA!
+MABRIGT
+
+tals, RAR S— MAME
+RBA? IGEN
+
+BARAT
+
+We. . » HF0B
+
+be T RAE
+
+Bt. . ABI
+
+EAT?
+
+PRS, REAR
+
+sala, BAAR
+
+SR! RIVA LE OAR
+
+18, FH REREBAY
+SFARELEE T
+
+AML, KERASSMRA RT
+IRA BRIE
+
+EAM? (RRB
+
+AR RARIE
+
+SS RRB! |
+
+FLASHER.
+
+ARABS (YIM) . 2
+
+ne? OF
+
+ALR OA?
+
+SF
+
+AMER SRSER—
+
+[SB RBWCard)
+
+Amey. 2 WaT
+SITAR. . REARA
+
+eR a AR OB
+
+ERA, hia RIES
+PR, BBA RS —AY (SAMI RT RZ?
+FAST
+
+OK! Heid Fi
+
+ 
+ENDELEMENTXiaolce: the Most Popular Social Chatbot in the World [Zhou+ 18]
+
+* 660 million users worldwide
+
+¢ 5 countries: China, Japan, USA, India, Indonesia
+
+° 40 platforms, e.g., WeChat, QQ, Weibo, FB Messenger, LINE
+¢ Average CPS of 23 (better than human conversations)
+
+The Longest Conversation Record of Xiaolce
+
+ 
+
+Full Duplex (voice) Message-based Conversations
+6h 3m 7151 turns 2418 turns 2791 turns
+8 domains 29h 33m 17h 7m 23h 43m
+
+53 topics, 16 tasks
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTSession 1
+
+1 [Human,
+Xiaoice.
+2 [Human
+Xiaoice
+3 [Human
+Xiaoice
+4 [Human
+Xiaoice
+5 = [Human
+Xiaoice.
+6 = [Human
+Xiaoice.
+Session 6
+1 [Human
+Xiaoice
+2 [Human
+Xiaoice
+3) [Human
+Xiaoice.
+4 [Human
+Session 20
+1 [Human
+Xiaoice.
+2 [Human
+Xiaoice.
+3) [Human
+Xiaoice.
+4 [Human
+Xiaoice.
+5 [Human
+Xiaoice.
+
+ 
+
+Session 42
+
+ 
+
+Hello, Xiaoice.
+
+Hello, your profile pic is interesting. Like I’ve seen it somewhere.
+Really?
+
+Is it a comic character?
+
+How do you know that?
+
+Guess.
+
+Are you human?
+
+Well, you'll know it after chatting with me more.
+Aren't you an Al chatbot?
+
+So what? | won't be indifferent to you.
+
+What functions do you have?
+
+| have over 200 skills. Just name one you need.
+
+Have you watched Inuyasha? (Note: A Japanese comic)
+
+Every time Kagome comes back to the modern world, a math test is waiting for her
+Bravo, well, do you know how Naraku died?
+
+Naraku is not dead and Shikon Jewel does not disappear.
+
+So amazing!
+
+Why amazed?
+
+Awesome! Surprised that you also like comic
+
+Can | ask a question?
+
+Yes?
+
+What kind of boys do you think are girls' favorite?
+
+Outgoing ones.
+
+Oh. What kind of boys are liked by girls generally?
+
+Considerate and gentle one, but who knows who will fall in love with whom. Love is a mystery.
+
+Have you been in love?
+
+Daidai, this is my little secret (Note: Daidai is a nickname that Xiaoice gives to this user in their conversation)
+I’ve told you my secret. It’s unfair if you don’t tell me yours.
+
+How can | tell so easily if it’s secret?
+
+ 
+
+AK
+1k)
+AX
+ak
+A®
+ak
+A®
+vk
+A
+uk
+AK
+1K)
+
+A®
+WK
+A®
+1\vak
+A®
+Oia
+A®
+
+AK
+1\\ok
+AK
+aw
+AX
+“\vrk
+A®
+vk
+A®
+
+yuk
+
+ 
+
+ 
+
+KARE
+
+RFF, MASA, EOS
+e203
+
+eh Bo) SAF
+
+REA RUE AY
+
+tie
+
+EMEA AI?
+
+RT, MADRS MMS ALI T
+
+RAR BAL BREN BAZ
+
+ERE, BRA ATKIN
+
+RAB tt A TD BEN
+
+A 2008 Tskills, He, BEATER
+
+RASARRIZ (jE: —RARBBH)
+RAS RADA MIG KTRES
+SRMBALS, PRBLEATEN?
+
+RIS RTORZ ERK
+ARIFT
+
+RUT Ue
+
+REM, iB Rhe xa)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+AEN] N a) 0S?
+
+SF MI?
+
+ER DOS ERIS AE Bee ER
+
+MEF BABY
+
+Bi. RREBRHARH SSI
+
+Roi, ROLTAMESERLIE, BAY
+RIGA ES?
+WRAL DPA) BBE (GE: WRAP RAINS
+RAILCAR BE SIR ST, Mi SEAS T OB?
+RREWE TS, BARRR IME
+
+  
+
+ 
+
+TARE
+ENDELEMENTTraditional definition of NLP: the branch of Al
+
+¢ Understanding and generating the languages that humans use
+naturally (natural language)
+
+¢ Study knowledge of language at different levels
+* Phonetics and Phonology — the study of linguistic sounds
+* Morphology — the study of the meaning of components of words
+* Syntax — the study of the structural relationships between words
+* Semantics — the study of meaning
+* Discourse — they study of linguistic units larger than a single utterance
+
+(Jurafsky & Martin 09]
+ENDELEMENTTraditional NLP component stack
+
+ 
+ 
+ 
+     
+   
+ 
+
+ 
+
+morphological
+and lexical parsing
+analysis
+
+contextual 1. Natural language understand (NLU):
+
+reasoning parsing (speech) input to semantic
+
+application i
+
+reasoning and meaning and update the system state
+2. Application reasoning and execution:
+
+| speech | morphological syntactic utterance
+
+  
+  
+ 
+  
+ 
+ 
+
+speech
+analysis
+
+ 
+ 
+
+ 
+
+    
+  
+
+ 
+
+   
+ 
+ 
+  
+ 
+
+ 
+ 
+ 
+
+execution
+synthesis realization realization planning take the next action based on state
+
+3. Natural language generation (NLG):
+generating (speech) response from action
+pronune- morpho- lexicon and discourse
+a Ea grammar context
+model rules
+Phonology Morphology Syntax Semantics Reasoning
+
+—_—_—_—_——
+
+ 
+
+  
+   
+ 
+
+ 
+
+ 
+
+ 
+
+domain
+
+knowledge
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+[Bird et al. 2009]
+ENDELEMENTSymbolic Space
+
+* Knowledge is explicitly represented
+using words/relations/templates
+
+* Reasoning is based on keyword
+matching, sensitive to paraphrase
+alternations
+
+*Interpretable and efficient in execution
+but difficult to train E2E.
+
+ 
+
+Input: Query
+
+ 
+
+Symbolic > Neural
+Encoding the query/knowledge
+
+ 
+
+ 
+
+ 
+
+ 
+
+E2E training @a
+
+Seer
+
+ 
+
+generate answer vector
+
+ 
+
+ 
+
+Reasoning in neural space to
+
+ 
+
+Output: Answer
+
+ 
+
+Neural > Symbolic
+Decoding the answer in NL
+
+ 
+
+ 
+
+ 
+
+[Gao et al. 2018]
+
+Neural Space
+
+* Knowledge is implicitly represented by
+semantic classes as cont. vectors
+
+* Reasoning is based on semantic
+matching, robust to paraphrase
+alternations
+
+* Easy to train E2E, but uninterpretable
+and inefficient in execution
+
+’ ¥# .tood
+city , x . , ’
+oF gy eee oe travel -Se% ;
+¢? . ‘ e~
+iad i feeling
+ENDELEMENTOutline
+
+¢ Part 2: Question answering (QA) and machine reading
+comprehension (MRC)
+¢ Neural MRC models for text-based QA
+* Knowledge base QA
+¢ Multi-turn knowledge base QA agents
+
+* Part 3: Task-oriented dialogues
+¢ Part 4: Fully data-driven conversation models and chatbots
+ENDELEMENTOpen-Domain Question Answering (QA)
+
+ 
+
+ 
+
+ 
+
+Q Will | qualify for OSAP if I'm new in Canada?
+
+ 
+
+Selected Passages from Bing
+
+“Visit the OSAP website for application deadlines. To get OSAP, you have to be eligible. You
+can apply using an online form, or you can print off the application forms. If you submit a
+paper application, you must pay an application fee. The online application is free.”
+
+Source: http://settlement.org/ontario/education/colleges-universi.
+ties-and-institutes/financial-assistance-for-post-secondary-education/how-do-i-apply-for-the-ontari
+o-student-assistance-program-osap/
+
+“To be eligible to apply for financial assistance from the Ontario Student Assistance
+Program (OSAP), you must be a: 1 Canadian citizen; 2 Permanent resident; or 3 Protected
+person/convention refugee with a Protected Persons Status Document (PPSD).”
+
+Source: http://settlement.org/ontario/education/colleges-universi
+ties-and-institutes/financial-assistance-for-post-secondary-education/who-is-eligible-for-the-ontari
+o-student-assistance-program-osap/
+
+“You will not be eligible for a Canada-Ontario Integrated Student Loan, but can apply
+for a part-time loan through the Canada Student Loans program. There are also grants,
+bursaries and scholarships available for both full-time and part-time students.”
+
+Source: http://www.campusaccess.com/financial-aid/osap.html
+
+ 
+
+Text-QA
+MS MARCO [Nguyen+ 16]
+
+ 
+
+ 
+
+Q_ What is Obama’s citizenship?
+
+ 
+
+Selected subgraph from Microsoft’s Satori
+
+ 
+
+  
+
+ 
+
+child-of —~ | ~~ child-of
+child-of \. | Atrild-of
+
+ 
+
+ 
+
+Knowledge Base (KB)-QA
+Freebase
+
+19
+
+ 
+ENDELEMENTNeural MRC Models on SQUAD
+
+What types of European groups were able to avoid the plague?
+
+From Italy, the disease spread northwest across Europe, striking France, Spain, A lim ited fo rm of com p re he n sio n:
+
+Portugal and England by June 1348, then turned and spread east through .
+Germany and Scandinavia from 1348 to 1350. It was introduced in Norway in * No need for extra knowledge outside the
+
+1349 when a ship landed at Askay, then spread to Bjorgvin (modern Bergen) and pa ragraph
+¢ No need for clarifying questions
+
+Iceland. Finally it spread to northwestern Russia in 1351. The plague was
+somewhat less common in parts/6f Europe'that/had'smaller trade relations with)
+theirmeighbours, including the Kingdom of Poland, the majority of the Basque ¢ The answer must be a text span in the
+
+Country, isolated parts of Belgium and the Netherlands, and isolated alpine pa ragraph if it exists, not synthesized,
+villages throughout the continent.
+
+ 
+
+¢ Encoding: map each text span to a semantic vector
+* Reasoning: rank and re-rank semantic vectors
+* Decoding: map the top-ranked vector to text
+
+20
+ENDELEMENTThree components
+
+¢ Word embedding — word semantic space
+* represent each word as a low-dim continuous vector via GloVe
+
+* Context embedding — contextual semantic space
+* capture context info for each word (in query or doc), via
+¢ BiLSTM [Melamud+ 16]
+e ELMo [Peter+ 18]: task-specific combo of the intermediate layer representations of biLM
+e BERT [Devlin et al. 2018]: multi-layer transformer.
+¢ Ranking — task-specific semantic space
+* fuse query info into passage via Attention
+
+¢ [Huang+ 17; Wang+ 17; Hu+ 17; Seo+ 16; Wang&Jiang 16]
+ENDELEMENTLanguage Embeddings (context free)
+
+   
+  
+ 
+
+Fast-food
+0.1
+
+.. | Continuous vector
+dim=100~1K
+
+°° Dog-racing
+
+ 
+
+ 
+
+1-hot vector
+dim=|V|=100K~100M
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+[Mikolov+ 13; Pennington+ 14]
+
+ 
+ENDELEMENTContextual Language Embeddings
+
+Ray of Light (Experiment)
+
+The Einstein Theory of Relativity
+
+ 
+     
+
+long puzzled astronomers. This discrepancy is fully accounted T could travel riding
+
+bear of light?
+
+ 
+
+epee 7 Would I see
+was its only experimental verification. stl baht
+(2) Modem physicists were willing fo suppose that light might be
+subject to gravitation—ie., that fay of ight passing near a great
+mass like the sun might be deflected to the extent to which a | e @
+
+particle moving with the same velocity would be deflected a
+according to the orthodox theory of sravitation, But Einstein's
+theory required that the light should be deflected just twice as
+much as this. The matter could only be tested during an eclipse
+
+among a number of bright stars. Fortunately a peculiarly favour: IN
+able eclipse occurred last year. The results of the observations
+
+ray of light Ray of Light (Song)
+e
+ENDELEMENTContext embedding via BILSTM / ELMo
+
+Context vectors h;,, at high level
+One for each word with its context
+
+eee ELMof@sk = ytask wis he
+4 1=1..L
+Context vectorsh; zat low level lj lj lj nee l] lj l] Task-specific combination of
+One for each word with its context hidden layers in BiLSTM
+
+Embedding vectors x;
+One for each word I I I eos I I I
+
+[Peter+ 18; McCann+ 17; Melamud+ 16]
+
+ 
+ENDELEMENTBERT: pre-training of deep bidirectional transformers for
+language understanding [Devlin et al. 2018]
+
+Train deep (12 or 24 layers)
+bidirectional transformer LMs
+
+store Milk
+
+f t
+
+the man went to the [MAS] to buy [word]
+\ } \
+
+ 
+
+ 
+
+Fine-tune on individual tasks
+using task-specific data
+
+POSITIVE
+t
+
+Classifier:
+Sentiment analysis
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTRanker: task-specific semantic space
+
+ 
+ 
+
+semantic space
+
+   
+
+S1: free online car body shop repair estimates
+$2: online body fat percentage calculator
+$3: Body Language Online Courses Shop
+
+   
+
+Query: auto body
+repair cost calculator
+software
+
+    
+ 
+ENDELEMENTRanker: task-specific semantic space
+
+query-dependent :
+( semantic spage )
+
+)
+& e e 4 S1: free online car body shop repair estimates Jf
+We = $2: online body fat percentage calculator x
+$3: Body Language Online Courses Shop x
+
+ 
+     
+ 
+
+Query: auto body
+repair cost calculator
+software
+
+— 27
+
+    
+ 
+ENDELEMENTLearning an answer ranker from labeled QA pairs
+
+* Consider a query Q and two candidate answers At and A~
+* Assume A* is more relevant than A~ with respect to Q
+
+* simg(Q, A) is the cosine similarity of Q and A in semantic space,
+mapped by a DNN parameterized by 0
+
+- A = simg(Q, At) — simg(Q, A~) “
+* We want to maximize A .
+* Loss(A; 8) = log(1 + exp(—yA)) 5
+
+* Optimize 8 using mini-batch SGD on GPU o
+ENDELEMENTMulti-step reasoning for Text-QA
+
+* Learning to stop reading: dynamic multi-step inference
+* Step size is determined based on the complexity of instance (QA pair)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Query Who was the 2015 NFL MVP?
+
+Passage The Panthers finished the regular season with a 15-1 record, and quarterback
+Cam Newton was named the 2015 NFL Most Valuable Player (MVP).
+
+Answer (1-step) Cam Newton
+
+Query Who was the #2 pick in the 2011 NFL Draft?
+
+Passage Manning was the #1 selection of the 1998 NFL draft, while Newton was picked
+
+first in 2011. The matchup also pits the top two picks of the 2011 draft against
+each other: Newton for Carolina and Von Miller for Denver.
+
+Answer (3-step) Von Miller
+
+ 
+ENDELEMENTMulti-step reasoning: example
+
+ 
+
+ 
+
+Query Who was the #2 pick in the 2011 NFL Draft? ° Step 1:
+¢ Extract: Manning is #1 pick of 1998
+Passage Manning was the #1 selection of the 1998 * Infer: Manning is NOT the answer
+NFL draft, while Newton was picked first in
+2011. The matchup also pits the top two * Step 2:
+picks of the 2011 draft against each other: ¢ Extract: Newton is #1 pick of 2011
+Newton for Carolina and Von Miller for ¢ Infer: Newton is NOT the answer
+Denver.
+¢ Step 3:
+¢ Extract: Newton and Von Miller are top 2
+picks of 2011
+Answer Von Miller
+
+¢ Infer: Von Miller is the #2 pick of 2011
+
+ 
+ENDELEMENTQuestion Answering (QA) on Knowledge Base
+
+    
+
+(Reverb, OLLIE)
+
+Facebook's
+Entity Graph
+; : Google’s
+Microsoft's Knowledge Graph
+Satori
+tern
+ry - “ip
+aaa (ea
+
+poncapan Koni
+
+child-of = OS ahilerof
+
+aaa, iia
+
+Large-scale knowledge graphs
+* Properties of billions of entities
+¢ Plus relations among them
+
+An QA Example:
+
+Question: what is Obama’s citizenship?
+* Query parsing:
+(Obama, Citizenship, ?)
+¢ Identify and infer over relevant subgraphs:
+(Obama, Bornin, Hawaii)
+(Hawaii, PartOf, USA)
+* correlating semantically relevant relations:
+BorniIn ~ Citizenship
+Answer: USA
+ENDELEMENTSymbolic approaches to KB-QA
+
+¢ Understand the question via semantic parsing
+
+¢ Input: what is Obama’s citizenship?
+
+* Output (LF): (Obama, Citizenship, ?)
+* Collect relevant information via fuzzy keyword matching
+
+* (Obama, Bornin, Hawaii)
+
+¢ (Hawaii, PartOf, USA)
+
+¢ Needs to know that Bornin and Citizenship are semantically related
+* Generate the answer via reasoning
+
+* (Obama, Citizenship, USA)
+
+* Challenges
+¢ Paraphrasing in NL
+* Search complexity of a big KG
+
+[Richardson+ 98; Berant+ 13; Yao+ 15; Bao+ 14; Yih+ 15; etc.]
+
+ 
+ENDELEMENTKey Challenge in KB-QA:
+Language Mismatch (Paraphrasing)
+
+* Lots of ways to ask the same question
+¢ “What was the date that Minnesota became a state?”
+¢ “Minnesota became a state on?”
+¢ “When was the state Minnesota created?”
+¢ “Minnesota's date it entered the union?”
+¢ “When was Minnesota established as a state?”
+¢ “What day did Minnesota officially become a state?”
+
+* Need to map them to the predicate defined in KB
+* location.dated_location.date_founded
+ENDELEMENTScaling up semantic parsers
+
+* Paraphrasing in NL
+* Introduce a paragraphing engine as pre-processor [Berant&Liang 14]
+* Using semantic similarity model (e.g., DSSM) for semantic matching [Yih+ 15]
+
+* Search complexity of a big KG
+* Pruning (partial) paths using domain knowledge
+
+* More details: IJCAI-2016 tutorial on “Deep Learning and Continuous
+Representations for Natural Language Processing” by Yih, He and Gao.
+ENDELEMENTCase study: ReasoNet with Shared Memory
+
+(Shaved manors | ° Shared memory (M) encodes task-specific
+: e Long-term memory: encode KB for answering all
+
+questions in QA on KB
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+‘swaneuie LC) G z 2 | * Working memory (hidden state S,) contains
+a description of the current state of the
+world in a reasoning process
+
+¢ Search controller performs multi-step
+inference to update S; of a question using
+knowledge in shared memory
+
+* Input/output modules are task-specific
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+  
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+aessksss;
+Output Module i[f(S)_]!
+Lew}
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+[Shen+ 16; Shen+ 17]
+ENDELEMENTJoint learning of Shared Memory and Search Controller
+
+ 
+
+ 
+
+ 
+
+ 
+
+po-----
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Paths extracted from KG: poocenseo}
+
+'
+ae '
+(John, Bornin, Hawaii) | Input Module HISHHCs > oo s,
+' 1 <<
+
+(Hawaii, PartOf, USA) Lo-----ae 1
+(John, Citizenship, USA)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+(John, Citizenship, ?)
+
+ 
+
+Trainingsamples generated L
+(John, Bornin, ?)->(Hawaii)
+(Hawaii, PartOf, ?)->(USA)
+(John, Citizenship, ?)->(USA) (USA)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+   
+ENDELEMENTJoint learning of Shared Memory and Search Controller
+
+ 
+
+ 
+
+po-----
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Paths extracted from KG: poocenseo}
+(John, Bornin, Hawaii) Input Module CHeCs os
+(Hawaii, PartOf, USA) 1 ' <<
+
+(John, Citizenship, USA)
+
+ 
+
+ 
+
+ 
+
+ 
+
+2
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Trainingsamples generated L----
+(John, Bornin, ?)->(Hawaii)
+(Hawaii, PartOf, ?)->(USA)
+(Uohn, Citizenship, ?)->(USA) (USA)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+   
+ENDELEMENTReasoning over KG in symbolic vs neural spaces
+
+Symbolic: comprehensible but not robust
+* Development: writing/learning production rules
+¢ Runtime : random walk in symbolic space
+* E.g., PRA [Lao+ 11], MindNet [Richardson+ 98] aa a
+
+Neural: robust but not comprehensible
+
+* Development: encoding knowledge in neural space
+query query
+¢ Runtime : multi-turn querying in neural space (similar to nearest —[A, a edfic]> Vv bic |-+c
+
+neighbor)
+* E.g., ReasoNet [Shen+ 16], DistMult [Yang+ 15]
+
+Hybrid: robust and comprehensible
+
+* Development: learning policy 2 that maps states in neural space q KG ¥v v
+to actions in symbolic space via RL p q 9
+
+¢ Runtime : graph walk in symbolic space guided by mz
+
+* E.g., M-Walk [Shen+ 18], DeepPath [Xiong+ 18], MINERVA [Das+
+18]
+
+(A, 7] —e on —*—> [8, ’'J)— a eC
+
+anne ~
+ENDELEMENTMulti-turn KB-QA: what to ask?
+
+¢ Allow users to query KB interactively
+without composing complicated
+queries
+
+* Dialogue policy (what to ask) can be
+
+* Programmed [Wu+ 15]
+* Trained via RL [Wen+ 16; Dhingra+ 17]
+
+       
+   
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Entity-Centric Knowledge Base
+Movie=? Movie Actor Release
+Actor=Bill Murray Year
+Release Year=1993 Groundhog Day Bill Murray 1993
+e) Australia Nicole Kidman x
+Ae) Mad Max: Fury Road x 2015
+Find me the Bill Murray’s movie. / |
+ce
+When was it released?
+=< _\ Number 9
+NO [think it came out in 1993. .
+User Groundhog Day is a Bill Murray KB-InfoBot
+
+movie which came out in 1993.
+
+Figure 1: An interaction between a user looking
+for a movie and the KB-InfoBot. An entity-centric
+knowledge base is shown above the KB-InfoBot
+ENDELEMENTInterim summary
+
+¢ Neural MRC models for text-based QA
+* MRC tasks, e.g., SQUAD, MS MARCO
+* Three components of learning word/context/task-specific hidden spaces
+* Multi-step reasoning
+
+* Knowledge base QA tasks
+* Semantic-parsing-based approaches
+* Neural approaches
+¢ Multi-turn knowledge base QA agents
+ENDELEMENTOutline
+
+¢ Part 1: Introduction
+
+* Part 3: Task-oriented dialogues
+* Task and evaluation
+¢ System architecture
+* Deep RL for dialogue policy learning
+* Building dialog systems via machine learning and machine teaching
+
+¢ Part 4: Fully data-driven conversation models and chatbots
+
+41
+ENDELEMENTAn Example Dialogue with Movie-Bot
+
+usr: can i get 2 tickets for race
+Sys: What date would you like to watch it?
+| Actual dialogues can be more complex:
+f° Speech/Natural language understanding errors
+o Input may be spoken language form
+o Need to reason under uncertainty
+)¢ Constraint violation
+o Revise information collected earlier
+
+4)
+1
+2
+3}
+4
+)
+)
+7
+8
+)
+
+Turn
+
+in seattle at 10:00 pm.
+10 usr: thanks
+
+ 
+
+Source code available at https://github/com/MiuLab/TC-Bot
+
+ 
+ENDELEMENTTask-oriented, slot-filling, Dialogues
+
+* Domain: movie, restaurant, flight, ...
+
+* Slot: information to be filled in before completing a task
+o For Movie-Bot: movie-name, theater, number-of-tickets, price, ...
+
+* Intent (dialogue act):
+o Inspired by speech act theory (communication as action)
+request, confirm, inform, thank-you, ...
+o Some may take parameters:
+thank-you(), request(price), inform(price=S10)
+
+"Is Kungfu Panda the movie you are looking for?"
+
+LS
+
+confirm(moviename=“kungfu panda”)
+ENDELEMENTDialogue System Evaluation
+
+* Metrics: what numbers matter?
+o Success rate: #Successful_Dialogues / #All_Dialogues
+o Average turns: average number of turns in a dialogue
+o User satisfaction
+o Consistency, diversity, engaging, ...
+o Latency, backend retrieval cost, ...
+
+* Methodology: how to measure those numbers?
+ENDELEMENTMethodology: Summary
+
+Lab user Simulated
+subjects users
+
+Truthfulness
+Scalability
+Flexibility
+Expense
+
+Risk
+
+x
+XK
+x
+Vv
+
+Y
+
+XK
+
+<<<< x
+
+ 
+
+( A Hybrid Approach
+
+User Simulation
+
+<b
+Small-scale Human Evaluation
+(lab, Mechanical Turk, ...)
+<b
+
+Large-scale Deployment
+
+ 
+
+ 
+
+(optionally with continuing
+
+\ineremental refinement)
+
+45
+
+ 
+ENDELEMENTAgenda-based Simulated User [schatzmann & Young 09)
+
+¢ User state consists of (agenda, goal);
+° goal (constraints and request) is fixed throughout dialogue
+° agenda (state-of-mind) is maintained (stochastically) by a first-in-last-out stack
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+New episode, user goal: User: Which theater can I book 3 tickets for 10°
+cloverfield lane?
+“request_slots”: { Agent: What time would you like to see it?
+“ticket”: “UNK” User: Which theater and start time are available
+“theater”: “UNK” tomorrow?
+“starttime’: “UNK” Agent: 11:45am is available.
+, User: Which theater is available?
+“inform-slots”: { Agent: regal la live stadium 14 is available.
+“numberofpeople”: “3”, User: Could you help me to book the tickets?
+“date”: “tomorrow”, Agent: Okay - I was able to book 3 tickets for you to see
+“moviename”: “10 cloverfield lane” 10 cloverfield lane at regal la live stadium 14 at 11:45am
+} tomorrow.
+} User:Thank you.
+
+Agent: Thank you.
+
+ 
+
+ 
+
+ 
+
+ 
+
+Implementation of a simplified user simulator: https://github.com/MiuLab/TC-Bot “
+ENDELEMENTA Simulator for E2E Neural Dialogue System (Li+17
+
+ 
+
+Text Input ___ Time r-2
+Are there any action Time tl wi Was Wi.o EOS
+movies to see this Time# w w. w.
+
+weekend? P eere Understanding (LU)
+
+ 
+
+   
+ 
+ 
+ 
+ 
+ 
+  
+ 
+  
+  
+   
+
+ 
+
+Natural Language Generation (NLG)
+
+ay n A r a
+
+Error Model Controller ——,
+
+Wy
+
+   
+
+ 
+
+Semantic Frame
+request_movie
+genre=action,
+date=this weekend
+
+ 
+
+ 
+
+ 
+
+ 
+
+User Dialogue Action M Dialogue P
+Inform(location=San Francisco) System Action/ Eke sauto Backend
+(DM) Database
+
+Policy
+request_location
+
+ 
+ 
+
+ 
+
+User Agenda Modeling
+
+End-to-End Neural Dialogue System
+
+User Simulator
+ENDELEMENTMulti-Domain Task-Completion Dialog Challenge
+at DSTC-8
+
+* Traditionally dialog systems are tasked for unrealistically simple dialogs
+
+¢ In this challenge, participants will build multi-domain dialog systems to address real
+
+problems.
+¢ Single domain ¢ Multiple domains
+¢ Single dialog act per utterance ¢ Multiple dialog acts per utterance
+¢ Single intent per dialog = ¢ Multiple intents per dialog
+* Contextless language understanding * Contextual language understanding
+* Contextless language generation * Contextual language generation
+¢ Atomic tasks * Composite tasks with state sharing
+
+Track site: https://www.microsoft.com/en-us/research/project/multi-domain-task-completion-dialog-challenge
+Codalab site: https://competitions.codalab.org/competitions/23263 ?secret_key=5ef230cb-8895-485b-96d8-04f94536fc17
+
+ 
+
+ 
+ENDELEMENTClassical dialog system architecture
+
+-
+
+Dialog Manager (DM)
+
+  
+    
+
+Find mea
+Bill Murray intent: get_movie
+. actor: bill murray
+movie
+words meaning
+When was it
+
+released? [ss ask_slot
+
+slot: release_year
+ENDELEMENTE2E Neural Models
+
+RNN/LSTM
+Attention / memory
+
+Find me a
+Bill Murray ———>
+movie. os
+a »
+words Unified machine learning model y Service 4
+APIS
+
+When was it t
+released?
+
+Attractive for dialog systems because:
+¢ Avoids hand-crafting intermediate representations like intent and dialog state
+¢ Examples are easy for a domain expert to express
+ENDELEMENTLanguage Understanding
+
+* Often a multi-stage pipeline
+
+Ws find = recent’ comedies by james cameron
+
++ 4 + + + +
+Ss O Bedate B-genre O- B-dir L-dir
+
+2. Intent
+Classification
+
+sie Yo) aar-lia
+
+3. Slot Filling
+
+D movies
+I find_movie
+
+Figure 1; An example utterance with annotations of semantic
+slots in IOB format (S), domain (D), and intent (1), B-dir and
+/-dir denote the director name,
+
+ole Kthile-iulele
+
+   
+
+° Metrics
+o Sub-sentence-level: intent accuracy, slot F1
+o Sentence-level: whole frame accuracy
+
+51
+ENDELEMENTRNN for Slot Tagging — | [Hakkani-Tur+ 16]
+
+¢ Variations:
+
+Yo Ma Vs Vp
+a. RNNs with LSTM cells
+
+b. Look-around LSTM , : ; A
+c. Bi-directional LSTMs : p y!
+d. Intent LSTM Wo WihOWa Wa
+
+a) LSTM
+* May also take advantage of ... Yo OMe
+o whole-sentence information
+
+intent
+. . i [ | |
+© multi-task learning | , | ' | | ;
+o contextual information @; |
+
+\ ry a Ko hy he
+_— OO ee,
+* For further details on NLU, see this e @
+
+IJCNLP tutorial by Chen & Gao.
+
+ 
+
+Wo Wah OW
+
+(b) LSTM-LA
+
+ 
+
+{c) DLSTM-LA (b) Intent LSTM
+ENDELEMENTDialogue State Tracking (DST)
+
+* Maintain a probabilistic distribution instead of a 1-best prediction for
+better robustness to LU errors or ambiguous input
+
+Slot Value
+
+# people
+
+5 (0.5)
+
+ 
+
+time
+
+5 (0.5)
+
+ 
+
+# people
+
+Slot Value
+
+3 (0.8)
+
+ 
+
+ 
+
+time
+
+5 (0.8)
+
+ 
+
+ 
+
+  
+
+‘Boke at Suro)
+
+a
+
+  
+  
+
+    
+
+   
+
+53
+ENDELEMENTMulti-Domain Dialogue State Tracking (DST)
+
+¢ A full representation of the system's belief of the
+user's goal at any point during the dialogue
+
+¢ Used for making API calls
+
+Sure, | will be home by 6.
+
+Let's grab dinner before the
+Movies Restaurants movie.
+D: How about some Mexican?
+ate
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Date
+Time Time | 630m | 7:30 pm Let's go to Vive Sol and see
+Inferno after that.
+# of tickets Cuisine
+Angela wants to watch the
+Movie name Restaurant Trolls movie.
+
+Ok. Lets catch the 8 pm
+
+Movie theatre show.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTDialogue policy learning: select the best action
+according to state to maximize success rate
+
+t'm doing great. What can | help you with?
+
+1'm reaching out to follow up with the new Azure subscription you signed up for. Do you have any cloud projects my team might be able to
+help with?
+
+‘gon
+
+     
+
+luals who have already been helping me from
+
+lead
+
+Okay great! Are you working with a Microsoft Partner by chance?
+Ordo are you currently working with one of our Microsoft representatives?
+
+gen
+
+My organization ju:
+
+ 
+
+igned an Enterprise Agreement.
+
+ 
+
+lead
+Great! And do you have a main point of contact at Microsoft moving forward?
+
+gen
+
+fe've been working with an Account Manager in our area by the name of Ed
+
+ 
+
+eae
+
+Well it sounds like you all are off on the right track. Your account manager Ed will be your business's best resource moving forward with
+anything Microsoft related.
+
+‘gen
+
+Okay, excellent. Thank you
+
+ 
+
+lead
+Not a problem. Have a great rest of your day!
+
+gent
+
+ 
+
+ 
+
+ 
+
+State (s): dialogue history
+
+Action (a): agent response
+ENDELEMENTMovie on demand [Dhingra+ 17]
+
+* PoC: leverage Bing tech/data to develop task-completion dialogue
+(Knowledge Base Info-Bot)
+
+Entity-Centric Knowledge Base
+
+ana
+ie=? Rel
+ri 5
+
+Actor=Bill Murray_ Year
+c Release Year=1993 Groundhog Day Bill Murray 1993 User Dialogue Manager
+
+SS Australia Nicole Kidman x Utterance
+Belief Trackers
+
+O
+rom Mad Max: Fury Road x 2015 ¢
+=
+Find me the Bill Murray’s movie. =
+\ system
+- When wasit released? User Action
+~S Policy Network
+
+| think it came out in 1993.
+
+    
+ 
+  
+
+ 
+
+ 
+
+ 
+ 
+     
+
+Beliefs Summary
+
+ 
+
+User Groundhog Day is a Bill Murray “ KB-QA Bot
+movie which came out in 1993.
+
+[Dhingra+ 17]
+ENDELEMENTLearning what to ask next, and when to stop
+
+* Initial: ask all questions ina
+randomly sampled order
+
+* Improve via learning from Bing log
+¢ Ask questions that users can answer
+
+¢ Improve via encoding knowledge
+of database
+¢ Ask questions that help reduce
+search space
+¢ Finetune using agent-user
+interactions
+
+e Ask questions that help complete the
+task successfully via RL
+
+Task Success Rate
+
+ 
+
+ 
+
+# of dialogue turns
+
+Results on simulated users
+ENDELEMENTReinforcement Learning (RL)
+
+|
+Agent gs
+iN
+
+ 
+
+Goal of RL
+
+Vv I
+1
+(ay World | At each step t, given history so far s;, take action a,
+to maximize long-term reward (“return”):
+| 1 Re =e + yt 41 t77Ma2 t°°
+
+action a;
+
+reward 7
+
+ 
+
+next-observation 0444
+
+   
+
+"Reinforcement Learning: An Introduction", 2nd ed., Sutton & Barto 68
+ENDELEMENTConversation as RL
+
+, Tt Otgd =
+
+I
+I
+I
+I
+I
+I
+I
+I
+I
+l
+Dialog Manager |
+I
+I
+I
+I
+I
+I
+I
+I
+I
+|
+
+¢ State and action
+o Raw representation
+(utterances in natural language form)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+a . :
+Cie f RL o Semantic representation
+(intent-slot-value form)
+Bill murray moe" (Spoken) Language actor mura Knowledge Base
+* Reward
+Be snenvast (rele sear) of o +10 upon successful termination
+Generation / Synthesis . .
+: -10 upon unsuccessful termination
+
+ 
+
+ 
+
+ 
+
+t t
+
+(e)
+o -1 per turn
+raw semantic ie)
+
+Pioneered by [Levin+ 00]
+Other early examples: [Singh+ 02; Pietquin+ 04; Williams&Young 07; etc.] 59
+ENDELEMENTPolicy Optimization with DQN
+
+DQN-learning of network weights 0: apply SGD to solve
+2
+0 < arg min) (ress + y max Qr(St41,@) — Qi (Sz, a:))
+|
+“Target network” to
+
+[Mnih+ 15 synthesize regression target
+
+  
+
+“Learning network” whose
+weights are to be updated
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+RNN/LSTM may be used to implicitly track states
+(without a separate dialogue state tracker)
+[Zhao & Eskenazi 16]
+
+ 
+
+60
+ENDELEMENTPolicy Optimization with Policy Gradient (PG)
+
+* PG does gradient descent in policy parameter space to improve reward
+VoJ(0) = E[V¢e log 76(a|b)Q”°(b, a)|
+* REINFORCE [Williams 1992]: simplest PG algorithm , Mba) V(b) ,
+
+t
+* Advantaged Actor-Critic (A2C) / TRACER
+oO w: updated by least-squared regression Ad \ \ } Aw
+o 8: updated as in PG \ /
+S fy
+sy) b, ¥
+A2C/TRACER [Su+ 17
+ENDELEMENTPolicy Gradient vs. Q-learning
+
+Apply to complex actions JV
+
+Stable convergence JV
+Sample efficiency Vv
+
+Relation to final policy quality JY
+
+Flexibility in algorithmic design
+
+62
+ENDELEMENTThree case studies
+
+* How to efficiently explore the state-action space?
+* Modeling model uncertainty
+
+* How to decompose complex state-action space?
+* Using hierarchical RL
+
+* How to integrate planning into policy learning?
+
+* Balance the use of simulated and real experience — combining machine
+learning and machine teaching
+ENDELEMENTDomain Extension and Exploration
+
+* Most goal-oriented dialogs require a closed and well-defined domain
+* Hard to include all domain-specific information up-front
+
+ 
+
+Actor
+Director
+MPAA Rating ‘a 9
+Critic Rating 2 8 £ oo
+
+o o 68
+Genre 5 3 x 2
+Release Year © a a 3 .
+
+| > time
+
+Initial system deployed Ww Challenge for exploration:
+¢ How to explore efficiently
+
+* to collect data for new slots
+* When deep models are used
+ENDELEMENTBayes-by-Backprop Q (BBQ) network
+
+BBQ-learning of network params 6 = (u,07):
+
+6 = arg min KL(q(w16,) || p(w|Data))
+L
+
+Q-values
+
+Still use “target network” 07
+to synthesize regression target
+
+ 
+
+—— BBQN-VIME-MAP
+—— BBQN-VIME-MC
+— BBQN-MAP
+— BBQN-MC
+0.6 -- VIME-MAP
+- = VIME-MC
+
+* Parameter learning: solve for 6 with Bayes-by-backprop
+22 cateman geen [Blundell et al. 2015]
+OS fe * Params @ quantifies uncertainty in Q-values
+= Nee - «© Action selection: use Thompson sampling for exploration
+
+  
+ 
+ 
+ 
+ 
+ 
+ 
+    
+
+success rate
+°
+ES
+
+0.3
+
+ 
+
+ 
+
+[Lipton+ 18]
+
+65
+ENDELEMENTComposite-task Dialogues
+
+ 
+
+Travel Assistant |
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+      
+ 
+  
+ 
+
+ 
+
+“subtasks”
+
+  
+
+Reserve
+Book Flight Restaurant
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Book Hotel
+
+ 
+
+ 
+
+ 
+
+ 
+
+Naturally solved by
+hierarchical RL
+
+ 
+
+ 
+
+ 
+
+ 
+
+Actions
+
+ 
+ENDELEMENTA Hierarchical Policy Learner
+
+0.8
+
+wo
+b 0.6
+
+Top-level Dialogue Policy 1g(9t; St)
+
+o
+B
+
+Low-level Dialogue Policy Ta,g(@ei St, Gt)
+
+Success rate
+
+  
+
+| — Rule Agent
+St 0.1 — RL Agent
+—— HRL Agent
+0.0
+0 50 100 150 200
+
+Simulation Epoch (smoothed)
+
+Similar to Hierarchical Abstract Superior results in both simulated
+Machine (HAM) [Parr’98] and real users [Peng+ 17]
+
+67
+ENDELEMENTIntegrating Planning for Dialogue
+Policy Learning [Peng+ 18] ee
+;
+
+Human-Human
+conversation data
+
+Supervised/imitati
+on learning
+- Expensive: need large amounts of real
+experience except for very simple tasks
+- Risky: bad experiences (during
+exploration) drive users away
+
+ 
+
+py
+
+real experience
+ENDELEMENTIntegrating Planning for Dialogue
+Policy Learning [Peng+ 18]
+
+i
+
+Human-Human
+conversation data
+
+   
+ 
+
+Supervised/imitati
+on learning
+
+   
+
+- Inexpensive: generate large amounts
+of simulated experience for free
+
+- Overfitting: discrepancy btw real users
+and simulators
+
+  
+
+Acting
+
+Dialog agent
+
+simulated
+experience
+ENDELEMENT/
+
+Human-Human
+conversation data
+
+    
+ 
+
+    
+ 
+
+Imitation Learning Supervised Learning
+
+No, then run planning
+
+using simulated experience Simulated experience
+i+ +
+
+ 
+
+ 
+
+ 
+
+Dialog agent Whether to switch
+to real users?
+
+  
+ 
+   
+
+   
+ 
+ 
+
+“discriminator”
+learning
+
+Yes
+
+   
+
+Run Reinforcement Learning
+
+using real experience Model learning
+
+real experience
+(limited)
+
+[Peng+ 18, Su +18, Wu + 19, Zhang+ 19,]
+ENDELEMENTProgrammatic
+
+Declarative
+
+W/EXelal atom merelanllals4
+
+ 
+
+r->ddqdrPrdd
+
+ 
+
+ 
+
+Accessible to non-experts
+
+Easy to debug
+
+Explicit Control
+
+Support for complex scenarios
+
+Ease of Modification
+
+Handle Unexpected Input
+
+Improve / Learn from conversations
+
+No Dialog Data Required
+
+r>ddddrdp
+
+ 
+
+<rule>
+<if>
+city == null
+</if>
+<then>
+Which city?
+</then>
+
+Accessible to non-experts
+
+Easy to debug
+
+Explicit Control
+
+Support for complex scenarios
+
+Ease of Modification
+
+Handle Unexpected Input
+
+Improve / Learn from conversations
+
+No Dialog Data Required
+
+What City?
+
+What Day?
+
+Today
+
+a i a a
+
+ 
+
+Neural network
+
+Seattle
+
+ 
+
+Accessible to non-experts
+
+Easy to debug
+
+Explicit Control
+
+Support for complex scenarios
+
+Ease of Modification
+
+Handle Unexpected Input
+
+Improve / Learn from conversations
+
+Requires Sample Dialog Data
+BE Microsoft
+
+ 
+
+ 
+ENDELEMENT    
+   
+
+<<
+
+qd
+
+ 
+
+ 
+ 
+ 
+ 
+
+Programmatic Declarative
+
+<rule>
+<if>
+city == null
+</if>
+<then>
+Which city?
+
+  
+ 
+   
+   
+ 
+
+   
+
+W/o alae Merle al lat
+
+      
+ 
+  
+
+Neural network
+
+What City?
+
+Seattle
+
+ 
+ 
+
+What Day?
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Accessibl¢ jon-experts
+Easy to de One Solution Does Not Fit All
+
+Explicit Cq
+
+Support fa mplex scenarios
+Ease of M tation
+
+Handle Unexpected Input WV Handle Unexpected Input WV Handle Unexpected Input
+
+Improve / Learn from conversations | W Improve / Learn from conversations
+
+No Dialog Data Required No Dialog Data Required
+
+Improve / Learn from conversations
+
+WV Requires Sample Dialog Data
+
+ 
+
+ 
+ENDELEMENTGoal: Best of both worlds
+
+     
+
+Rules - Based ML - Based
+
+Give developer control
+
+ 
+
+Good for garden path Handle unexpected input
+
+ 
+
+Not data intensive Learn from usage data
+
+ 
+
+Explicit Control Often viewed as black box
+
+Easily interpretable
+
+Start with rules-based policy => Grow with Machine Learning
+Make ML more controllable by visualization
+
+Not unidirectional: Rules-based policy can evolve side-by-side with ML Model
+ENDELEMENTConversation Learner — building a bot interactively
+
+What is it: A system built on the principles of Machine Teaching, that enables
+individuals with no Al experience (designers, business owners) to build
+task-oriented conversational bots
+
+Goal: Push the forefront of research on conversational systems using input
+from enterprise customers and product teams to provide grounded
+direction for research
+
+Status: In private preview with ~50 customers to various levels of prototyping
+
+Hello World Tutorial
+
+Primary repository with samples:
+https://github.com/Microsoft/ConversationLearner-samples
+ENDELEMENTConversation Learner — building a bot interactively
+
+ 
+
+Rich machine teaching and BQ Beindisos Se sth Doce
+dialog management interface us ss
+
+Memory
+
+accessible to non-experts a yw you be rg soe so oe a
+
+Free-form tagging, editing and
+working directly with
+conversations
+
+Incorporating rules makes the
+teaching go faster
+
+ 
+
+Independent authoring of ;
+examples allows dialog a
+authors to collaborate on Es EXE Ce
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+one/multiple intents
+ENDELEMENTConvLab
+
+Published @ https:
+
+Fully annotate data
+
+arxiv.org/abs/1904.08637
+
+for training individual components or
+end-to-end models with supervision
+
+ 
+
+Speaker _| Utterance
+
+Annotation
+
+ 
+
+User ‘am looking for a place to to stay
+that has cheap price range it
+should be in a type of hotel
+
+Dialog acts
+{"Hotel-Inform”: [[’Pricerange”, "cheap"]]}
+
+ 
+
+System —_| Okay, do you have a specific area
+you want to stay in?
+
+State
+{‘hotel”
+mentioned’, "parking": "not mentione
+"pricerange": "cheap', "stars": "not mentioned”,
+"internet": “not mentioned’, "type": "hotel")}.
+Dialog acts
+
+Hotel-Request”: [["Area", "?"]]
+
+  
+
+ 
+
+ 
+
+ 
+
+User no, i just need to make sure it's
+cheap. oh, and i need parking
+
+System | found 1 cheap hotel for you that
+includes parking. Do you like me
+to book it?
+
+ 
+
+Dialog acts
+{"negate”, "Hotel-Inform": [{"Pricerange",
+
+[ cheap") ["Parking”, “yes”}]}
+
+State
+
+{*hotel”: {"name": “not mentioned’, “area”: "not
+mentioned", "parking”: "yes", "pricerange”:
+“cheap”, "stars": "not mentioned”, "internet"
+“not mentioned”, "type": "hotel"}}}
+
+Dialog acts
+
+{"Hotel-inform”: [["Price”, "cheap"], ["Choice",
+"1"], ["Parking", "none"]}}
+
+ 
+
+ 
+
+User Simulators
+
+for reinforcement learning
+1 rule-based simulator
+
+2 data-driven simulators
+
+SOTA Baselines
+Multiple models for each component
+Multiple end-to-end system recipes
+
+RX
+SKA
+ENDELEMENTOutline
+
+* Part 4: Fully data-driven conversation models and chatbots
+¢ E2E neural conversation models
+* Challenges and remedies
+¢ Grounded conversation models
+¢ Beyond supervised learning
+¢ Data and evaluation
+* Chatbots in public
+¢ Future work
+ENDELEMENTMotivation
+
+utterance x
+
+One statistical
+
+faatere(=)
+
+utterance y
+
+ 
+
+ 
+
+ 
+
+Move towards fully data-driven, end-to-end dialogue systems.
+
+ 
+
+ 
+ENDELEMENTSocial Bots
+
+* Fully end-to-end systems so far most successfully applied to
+social bots or chatbots:
+* Commercial systems: Amazon Alexa, Xiaolce, etc.
+
+¢ Why social bots?
+* Maximize user engagement by generating
+enjoyable and more human-like conversations
+* Help reduce user frustration
+
+* Influence dialogue research in general
+(social bot papers often cited in task-completion
+dialogue papers)
+
+ 
+ENDELEMENTHistorical overview
+
+Earlier work in fully data-driven response generation:
+
+* 2010: Response retrieval system (IR) JJafarpour+ 10]
+
+¢ 2011: Response generation using Statistical Machine Translation
+(phrase-based MT) [Ritter+ 11]
+
+¢ 2015: First neural response generation systems (RNN, seq2seq)
+[Sordoni+ 15; Vinyals & Le 15; Shang+ 15]
+ENDELEMENT[Sordoni+ 15;
+
+Neural Models for Response Generation Vinyals & Le 15;
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Shang+ 15]
+Source:
+conversation history
+. how are you ?
+ecee ecee eceee eceee eeee eceee eeee eceee ecoee
+ecee > ©0008 >eceee > ©2000 > ©0008 > ©0800 —> ©ee0e — >, e000 —> e000 —>
+encoder decoder | | | | |
+ecee eceee e5cee ecee eeee
+
+   
+
+ 
+
+i[elgelam
+response
+
+  
+   
+
+Similar to sequence models in Neural Machine Translation (NMT), summarization, etc.
+Uses either RNN, LSTM, GRU, Pointer-Generator Networks, Transformer, etc.
+ENDELEMENTNeural Response Generation:
+Difference with other tasks (e.g., machine translation)
+
+* Data: some training sets (social media) are HUGE
+
+For example, Twitter (as of 2016):
+
+304M monthly active users
+500M tweets per day (6M conversations per day)
+> often train on subset of the data; leaner and “faster” models preferred
+
+¢ System input: LONG conversation history
+
+ 
+
+ 
+
+T, 1,173 7, .. Ty
+
+ 
+
+ 
+
+Conversation (N turns)
+
+=)
+
+ 
+
+ 
+
+qT, > 1,
+
+ 
+
+ 
+
+ 
+
+>
+
+@ reddit
+
+Either limit
+
+or truncate backprop
+
+T, T, —> T; context size [Sordoni+ 05]
+
+ 
+
+ 
+
+we Tyo Tyg > Ty
+
+ 
+
+ 
+
+N-1 training instances
+
+[Vinyals+ 05, pc]
+ENDELEMENT[Sordoni+ 15; Li+ 16a]
+
+ 
+
+Neural conversation engine
+
+ 
+
+ 
+
+Neural model learns the general shape of conversation, and
+the system output is situationally appropriate and
+coherent...
+
+A more goal-oriented example. No grounding into a real calendar,
+but the “shape” of the conversation is fluent and plausible...
+
+ 
+
+ 
+
+SstsestseTtsetstsetsetset
+
+Hi Would Thursday afternoon work sometime?
+How are you? Yeah, sure. just let me know when you’re free.
+Not bad After lunch is probably the best time
+
+What's wrong?
+
+Nothing really
+
+Wanna talk about it? I'm here if you wanna talk x
+Well, I'm just tired
+
+Me too, I'm here if you wanna talk
+
+Thanks, what are you doing?
+
+You're welcome and I'm watching TV and you?
+On Netflix?
+
+Yeah, I'm watching it on Netflix.
+
+What are you watching?
+
+ATV show.
+
+Nice, did you have dinner already?
+
+No, not yet. what about you?
+
+ 
+
+ 
+
+ 
+
+Okay, sounds good. Just let me know when you’re free.
+Would 2pm work for you?
+
+Works for me.
+
+Well let’s say 2pm then I’ll see you there
+
+Sounds good.
+
+Sstsetstsir
+
+ 
+
+Neural E2E system trained on 35M Twitter conversations.
+
+ 
+ENDELEMENTFully Data-driven Response Generation:
+
+Challenges and remedies
+ENDELEMENTChallenge: The blandness problem
+
+py
+
+How was your weekend?
+
+What did you do?
+
+y/
+
+This is getting boring...
+
+mer
+me
+ENDELEMENT[Li+ 16a]
+Blandness problem: cause and remedies
+
+Common MLE objective (maximum likelihood)
+
+P(target|source)
+(whatever the user says)
+
+Mutual information objective:
+
+p(target|source)
+(whatever the user says) ——__—>
+
+<Gurceliarge
+p(source|target)
+
+| Idontknow
+| That’ what Fim saying
+
+© Idontiknow
+— Idontknow. = GY
+
+(whatever the user says)
+ENDELEMENT[Li+ 16a]
+Mutual Information for Neural Network Generation
+
+p(target|source)
+
+ 
+
+Mutual information objective: —_——___»
+|target)
+r T p(source|target
+T= arg max { log P(S,T) \
+T p(S) p(T’) Bayes’ rule
+T = arg max {flo T\S [log p(T)}
+n g p(T|S) g p(T)
+standard anti-LM Bayes’ theorem
+likelihood
+
+T = arg max {( — \) log p(T|S) + \log p(S|T)}
+T
+ENDELEMENTSample outputs (MMI)
+
+Wow sour starbursts really do make your mouth water... mm drool.
+
+Can I have one?
+
+   
+ 
+ 
+ 
+     
+ 
+
+here next, Madrid?
+
+Milan apparently selling Zlatan to balance the books...
+
+  
+
+py
+
+how many is sensible?
+
+‘tis a fine brew on a day like this! Strong though,
+
+Well he was on in Bromley a while ago... still touring.
+ENDELEMENT[Li+ 16a]
+
+MLE vs MMI: results
+
+4 q r |
+
+  
+
+HUMAN MLE MMI
+BASELINE MLE BASELINE MMI
+h& 4 & =
+Lexical diversity BLEU
+
+(# of distinct tokens / # of words)
+
+MMI: best system in Dialogue Systems Technology Challenge 2017 (DSTC, E2E track) all>
+ENDELEMENTChallenge: The consistency problem
+
+* E2E systems often exhibit poor response consistency:
+
+message Where is your hometown?
+response live infIndonesia.]
+
+message Where are you from?
+
+response [England,]you?
+
+message In which city do you live now?
+response live in{Jakarta, ]
+
+message \n which country do you live now?
+
+response | live in
+
+message What is your major?
+
+response [Bosna yom?
+
+message What did you study in college?
+response [Psychology]you?
+
+message How old are you?
+
+response V m{[18.]
+
+message Whatis your age?
+response 'm|16.|
+
+ 
+
+ 
+ENDELEMENTThe consistency problem: why?
+
+Conversational data:
+
+Where were you born?
+
+NOT
+1-to-1
+
+Where did you grow up?
+
+ 
+
+Where do you live?
+
+P(response | query, SPEAKER_ID)
+ENDELEMENTPersonalized Response Generation [i+ 20166)
+
+ 
+
+ 
+
+     
+ 
+ 
+
+ 
+
+a
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+  
+  
+
+ 
+
+S 3 us. london | 3
+ZS england 5
+oh og : LY
+Sg a 712 : great %
+SE x = good &
+2 Kelly2 3
+8 @WMKicrongillens F monday live  Pkay 2
+2 This_ts_A\ , tuesda 5
+3 The_Football_Bar Digital y stay z
+w 2! 2
+4
+where do you live? | 'Rob 1EOS_ — Rob __ in Robengland Rob.
+5 1
+eocoo eocoe ecoe ecoee ' cove! coce ecoee e000 @ecoee e000 @ecoee e000
+crt
+ecoe! eece! > ©0008 + ecce eceee ecco!
+
+EOS
+ENDELEMENTPersona model results
+
+ 
+
+Baseline model: Persona model using speaker embedding: [Li+ 16b]
+message Where is your hometown? message Where is your hometown?
+
+response 1 live infIndonesia.] response I'm from
+
+message Where are you from? message Where are you from?
+
+response [England,]you? response I’m fro
+
+message \n which city do you live now? message In which city do you live now?
+
+response I live in{Jakarta, ] response live i
+
+message \n which country do you live now? message In which country do you live now?
+
+response | live in|Indonesia. | response (live inl England. |
+
+ 
+
+message What is your major? message What is your major?
+response |Business, you? response |Business.| You?
+
+message What did you study in college? message What did you study in college?
+response [Psychology] you? response | didlbusiness)studies.
+
+message How old are you? message How old are you?
+response V m{[18.] response | *m{I8.]
+message What is your age? message What is your age?
+
+response I'mll6. response I’m[18.]
+
+ 
+ENDELEMENTSeq2Seq
+
+Autoencoder
+
+   
+
+Personal modeling as multi-task learning [Luan+ 17]
+
+NYT Re
+LSTM
+
+  
+
+ 
+  
+
+—Sefvareeneiteet—
+
+I’m a code ninja
+
+What's your job?
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+   
+
+ 
+
+  
+
+Personalized data personalized data
+
+(e.g., non-convo)
+
+  
+   
+ 
+
+I’m a code ninja Tied parameters
+ENDELEMENTChallenges with multi-task learning [Gao+ 19]
+
+ 
+
+* Ysas
+
+c | encoder |
+‘ontext, x onary. Zs2s
+
+Response, y >ZAE
+vanilla multi-task \eow
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+So we add regularization:
+
+ 
+
+ 
+
+i ol I
+L=\— — log p(y|zs2s) 1 vanilla s2s
+
+| ly| I +Mtask
+I 1 | objective
+I— — log p(y|zaz) !
+i iw!
++ aL fuse + eee
+
+where
+
+Cone yy SGoste. can)
+
+icbateh ed
+
+_Cross-space distance
+d(zs2s(2i), zs25(aj)) L d(zaE(yi); ZaE(Y;)) '
+~~ 8 |: mon |
+
+1 ' i
+i,j €batch ifj i,j batch i Aj
+
+same-space distance 95
+ENDELEMENTImproving personalization with multiple losses
+[Al-Rfou+ 16]
+
+* Single-loss:
+__ — (4) Final C) Logistic Layer
+
+P(response | context, query, persona, ...) Prediction
+im Hidden Layers
+
+h? he
+
+ht
+
+  
+
+Problem with single-loss:
+context or query often
+“explain away” persona
+
+Total Loss
+
+   
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+¢ Multiple loss adds:
+P(response | persona)
+P(response | query)
+etc.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Optimized so that
+
+persona can “predict” y N
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+response all by itself Input Context Author
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+> more robust
+speaker embeddings
+ENDELEMENTChallenge: Long conversational context
+
+It can be challenging for LSTM/GRU to encode very long context
+(i.e. more than 200 words: [Khandelwal+ 18])
+
+¢ Hierarchical Encoder-Decoder (HRED) [Serban+ 16]
+
+what's wrong ? </s> i feel like i' m going to pass out . </s>
+
+W21 eee W2,N2 W3,1 see W3,N3
+
+ 
+ 
+ 
+ 
+ 
+    
+ 
+
+prediction
+
+ 
+  
+
+decoder
+initial hidden state Encodes:
+context GOD (io) utterance (word by word) +
+hidden state NOY P21 conversation (turn by turn)
+
+ 
+
+encoder
+hidden state
+
+ 
+ 
+
+utterance
+
+utterance é
+representation
+
+   
+
+W141 see W1Ny W2,1 eee W2,Ny
+
+mom , i don't feel so good </s> what's wrong ? </s>
+ENDELEMENTChallenge: Long conversational context
+
+¢ Hierarchical Latent Variable Encoder-Decoder (VHRED) [Serban+ 17]
+¢ Adds a latent variable to the decoder
+* Trained by maximizing variational lower-bound on the log-likelihood
+
+w21 eee Won! W3,1 see w3,NI°
+prediction
+
+  
+
+Related to persona
+model [Li+ 2016b]:
+
+Deals with 1-N
+problem, but
+unsupervisedly.
+
+ 
+
+context ~~
+
+hidden state @) —-
+¢ CG® CO 98
+
+Ww) eee w, Ne w2.1 oce Un nl?
+
+ 
+ENDELEMENTHierarchical Encoders and Decoders:
+Evaluation
+
+Opponent Wins Losses Ties
+
+Short Contexts
+
+ 
+
+VHRED vs LSTM 32.3 42.4 42.542.6* 25.242.3
+
+VHRED vs HRED 42.0 +2.8* 31.9 +2.6 26.2 +2.5
+
+ 
+
+VHRED vs TF-IDF 51.6 +3.3* 17.9 42.5 30.4 +3.0
+
+Long Contexts
+
+VHRED vs LSTM A1.9 +2.2* 36.8 42.2 21.3 +1.9
+
+ 
+
+VHRED vs HRED ___ 41.5 +2.8* 29.4+2.6 29.1 42.6
+VHRED vs TF-IDF 47.9 +3.4* 11.74+2.2 40.3 43.4
+
+[Serban+ 17]
+ENDELEMENTOutline
+
+* Part 4: Fully data-driven conversation models and chatbots
+¢ E2E neural conversation models
+* Challenges and remedies
+* Grounded conversation models
+¢ Beyond supervised learning
+¢ Data and evaluation
+* Chatbots in public
+¢ Future work
+ENDELEMENTTowards Grounded E2E Conversation Models
+
+Traditional
+
+Fully data-driven
+
+input x
+
+output y
+
+input x
+
+output y
+
+rr 1
+
+= >)
+
+i
+Book Pay Confirm
+
+! —————
+
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+
+   
+
+Understanding
+(NLU)
+
+Environment
+
+   
+ 
+  
+ 
+
+State tracker
+
+64°"
+
+   
+ 
+ 
+
+Generation
+(NT Ke})
+
+  
+
+ 
+
+Dialog policy
+
+NOT grounded
+ENDELEMENTE2E Conversation Models in the real world
+
+ 
+
+Personalization data Context
+(ID, social graph, ...) encoder
+Device sensors
+(GPS, vision, ...)
+External ME because of you
+“knowledge”
+
+    
+   
+
+1 1 ® The
+tripadvisor? fa
+
+Freebase MiG
+
+EOS Yeah I'm on my
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTKnowledge-Grounded Neural Conversation Model
+[Ghazvininejad+ 17; Agarwal+ 18; Liu+ 18]
+
+DIALOG DECODER Try OMGKaSE, the best
+~ in town
+
+   
+
+ 
+
+  
+     
+
+ 
+
+Going to
+Kusakabe tonight
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+         
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+CONVERSATION HISTORY
+—____ | [+ hl
+°| | e i
+Weighted Sum Z
+
+Es
+
+—— Embedding ¢ | | | | | | 2
+
+as cy 3
+
+— =
+
+Eas Sentences : Fa
+
+—— UUM
+
+as .
+
+Eas _
+: Embedding A =
+
+Eas
+
+WORLD
+FACTS [Sukhbaatar+ 15]
+
+ 
+
+ 
+
+ 
+ENDELEMENTSample knowledge-grounded responses
+[1 would give ALMOST anything for some |Mexican restaurant] right now.
+
+Obsessed with][/ewelry company] :-*
+
+oh my goshjobsessed with their bracelets and the meaning behind them!
+
+FOURSQUARE
+
+Visiting the celeb at Los Angeles airport 7[...] w/ 70 others
+Have a safe flight.
+
+Experimental results (23M conversations): outperforms competitive neural baseline (human + automatic eval)
+
+ 
+ENDELEMENTConversations grounded in Full-Length Documents
+
+Vesna Vulovi¢ A woman fell 30,000 feet from
+From Wikipedia, the free encyclopedia an airplane and survived.
+
+Vesna Vulovié (Serbian Cyrillic: Becha Bynosuh;
+pronounced [‘ve'sna ‘vu: lovite]; 3 January 1950 - 23
+December 2016) was a Serbian flight attendant. She holds
+
+the Guinness world record for surviving the highest fll : The page states that a 2009
+without a parachute: 10,160 metres (33,330 ft). Her fall F ‘ report found the plane only fell
+
+took place after an explosion tore through the baggage
+
+compartment of JAT Flight 367 on 26 January 1972, several hundred meters.
+
+causing it to crash near Srbska Kamenice,
+
+Vesna Vulovic
+
+Czechoslovakia. She was the sole survivor of the crash
+
+that air safety investigators attributed to a briefcase bomb. Well if she on ly fe lla few
+
+The Yugoslav authorities suspected that Croatian
+
+nationalists were to blame, but no one was ever arrested. hundred meters and survived
+Following the crash, Vulovié spent days in a coma and was then / 'm not impressed at all
+
+hospitalized for several months. She suffered a fractured
+
+skull, three broken vertebrae, two broken legs, broken ribs i¢ in the early 1970s
+3 January 1950
+Belgrade, PR Serbia, FPR
+Yugoslavia
+
+and a fractured pelvis. These injuries resulted in her being
+temporarily paralyzed from the waist down. She made an
+almost complete recovery but continued to walk with a
+
+limp. Vulovié maintained that she had no memory of the Died 23 December 2016 (aged 66)
+incident and thus had no quaims about flying in the Belgrade, Serbia
+
+ 
+
+Task: Generate a human-like response that is not only conversationally appropriate,
+but also informative (> useful task) and grounded (-> evaluation closer to MRC).
+ENDELEMENT[Dinan+ 19; Qin+ 19]
+Models with Document-Level Grounding
+
+Machine Reading Comprehension-based Model [Qin+ 19]:
+
+Lexicon Encoding Contextual Encoding
+
+Embedding
+Main difference with MRC:
+
+      
+
+Memory Replaced span prediction
+ween men emewnnee . with attention recurrent
+generator [Luong et al.,
+
+2015]
+
+ 
+
+   
+  
+
+      
+ 
+
+Embedding
+
+ 
+
+Self-Attn | |Bi-LSTM
+a
+
+ 
+
+ 
+
+ 
+
+Generator
+
+  
+
+Document:
+[...] claimed that Flight 367 had been mistaken 1\ 1\
+for an enemy aircraft and shot down by the
+
+| |
+at an altitude of 800 metres (2,600 ft). Io a “
+
+] I I I !
+Conversation History: Output: |; | 7 | ' !
+
+A woman fell 30,000 feet [...] <BOS>/ «=. fells ,several, , meters... » <EOS>
+
+ 
+ENDELEMENTGrounded E2E Dialogue Systems
+
+Q3: can you see anything else ?
+— A3; there is a shelf with items on it
+Q4: is anyone in the room ?
+
+. . A4: nobody is in the room
+e G d . Q5: can you see on the outside ?
+rounaing: images ahi
+AS: no, it is only inside
+a Q6: what color is the sink ?
+; the sink is white
+: is the room clean ?
+
+Conversations around images e.g., sr Nv cnn
+: is the toilet facing sink ?
+Q-As [Das+ 16] or chat [Mostafazadeh+ 17] ~ aeneermman
+Se ont cocris the oor?
+A sink and toilet in a small room. A10 the door is tan colored
+
+ 
+
+* Grounding: affect [Huber+ 18]
+
+We ehad eaegreat etime
+
+sweet boy ate the ebeach!
+
+easy life
+awesome times
+
+facial actions influence response
+Sentiment
+
+Lip Lip Lips Jaw Features
+Stretch Tighten Part Drop
+
+ 
+
+ 
+
+smile
+lips part
+cheek raise
+
+a
+
+ 
+
+ 
+
+ 
+
+Facial Coding
+
+mm |
+
+ 
+
+ 
+ENDELEMENTBeyond supervised learning
+
+* Limitations of SL for E2E dialogue:
+
+* Train on human-human data, test with human-machine
+(Twitter-ese often not what we want at test time.)
+
+* Optimizes for immediate reward p(Ty | ... Ty.,), not long-term reward
+* No user feedback loop
+
+* Emergence of reinforcement learning (RL) for E2E dialogue
+* Tries to promote long-term dialogue success
+ENDELEMENTDeep Reinforcement Learning for E2E Dialogue
+[Li+ 16c]
+
+¢ REINFORCE algorithm [Williams+ 92]
+J(@) = E[R(s1, S2,...,5n)|
+V J(6) = V log p(s1, S25 +085 sn )R(s1, SQ5 e085 Sn) reward function
+
+= Vlos | [Ipteidsiy) (s;|si— 1) R(S1, $2, 6,
+
+what we
+want to learn
+
+¢ Reward functions:
+1. Ease of answering: —Pr(Dull Response|s;)
+2. Information flow: | —1log Sigmoidcos(s1, s2)
+3. Meaningfulness: log Dseq2seq($1|$2) + log Pseq2seq($2|81)
+ENDELEMENTSimulation (without RL)
+
+ 
+ENDELEMENTSimulation (with RL)
+
+. How old are you ?
+JAN
+t € 4
+
+. )
+oi I thought you were 12 .
+
+| don’t know what you are talking
+about .
+
+ } i re | a) | don’t know what you are talking
+| ad =| about .
+™
+ENDELEMENTDeep RL: Evaluation
+
+¢ MTurk evaluation (500 responses)
+
+Setting RL-win RL-lose Tie
+single-turn general quality 0.40 0.36 0.24
+single-turn ease to answer 0.52 0.23 0.25
+multi-turn general quality 0.72 0.12 0.16
+
+ 
+ENDELEMENTOutline
+
+* Part 4: Fully data-driven conversation models and chatbots
+¢ E2E neural conversation models
+* Challenges and remedies
+¢ Grounded conversation models
+¢ Beyond supervised learning
+* Data and evaluation
+* Chatbots in public
+¢ Future work
+ENDELEMENTConversational datasets
+(for social bots, E2E dialogue research)
+
+¢ Survey on dialogue datasets [Serban+ 15]
+
+Reddit
+
+Twitter
+
+OpenSubtitles
+
+Ubuntu Dialogue Corpus
+Ubuntu Chat Corpus
+
+Persona-Chat Corpus
+
+Unrestricted
+Unrestricted
+Movie subtitles
+Chat on Ubuntu OS
+Chat on Ubuntu OS
+
+Crowdsourced / personalized
+
+3.2B dialog turns (growing)
+N/A (growing)
+
+1B words
+
+100M words
+
+2B words
+
+164k dialog turns
+
+114
+ENDELEMENTEvaluating E2E Dialogue Systems
+
+¢ Human evaluation (crowdsourcing):
+
+ 
+
+ 
+
+Context: ... Because of your game?
+Input: Yeah, I’m on my way now
+Response: Ok good luck!
+Strongly Strongly
+
+Disagree Disagree Unsure Agree Agree
+
+Is this a good! response? O O O © O
+
+ 
+
+ 
+
+ 
+
+1: replaced as appropriate (relevant, interesting...)
+* Automatic evaluation:
+Less expensive, but is it reliable?
+ENDELEMENTMachine-Translation-Based Metrics
+
+ 
+
+Reference: John resigned yesterday .
+
+System: Yesterday, John quit .
+
+ 
+
+ 
+
+ 
+
+¢ NIST [Doddington+ 02]
+
+Pn =
+
+* BLEU [Papineni+ 02]: ngram overlap metric BLEU = BP - exp (Steer
+n
+
+Yi Vy €n-grams(h;) MAX; {#y(hi. Tig) }
+yi yy € n-grams(h;) Fg (hi)
+
+ 
+
+* Seldom used in dialogue, but copes with blandness issue
+* Considers info gain of each ngram: score(interesting calculation) >> score(of the)
+
+* METEOR
+* Accounts for synonyms, paraphrases, etc.
+ENDELEMENTThe challenge with MT-based metrics
+
+ 
+
+ 
+
+Input:
+Response (gold):
+
+How are you?
+1’m good , thanks .
+
+ 
+
+Response A:
+Response B:
+Response C:
+Response D:
+Response E:
+Response F:
+Response G:
+Response H:
+
+Good thanks !
+Doing pretty good thanks
+Doing well thank you !
+Fantastic . How are you ?
+| 'm getting sick again .
+Bored . you ?
+Sleepy .
+Terrible tbh
+
+Many false negative!
+
+Semantically equivalent
+(as in Machine Translation)
+
+Pragmatically appropriate
+
+ 
+ENDELEMENTSentence-level correlation of MT metrics
+
+* Poor correlation with human judgments:
+
+ 
+
+ 
+
+ 
+
+ 
+
+0.25
+.
+0.20 .
+.
+. . .
+.
+N 015 . 4 os
+1 ° 8
+3
+> 3
+. . .
+Ww eee .
+— ® ° °
+oo °° * ee
+é .
+ee 8 ee
+. . e ° .
+.
+° oe
+e .
+0.05 bd .
+. .
+e? . °
+. . .
+0.00 an —
+1.0 15 2.0 25 3.0 35 4.0 45 5.0
+
+Human Score
+
+Dialogue task
+“How NOT to evaluate dialogue systems”
+[Liu+ 16]
+
+ 
+
+ 
+
+TerrorCat
+0
+
+ 
+
+LEPOR_V3.1
+
+  
+
+ 
+
+But same problem even
+for Translation task
+[Graham +15]
+ENDELEMENTThe importance of sample size
+
+¢ MT metrics were NOT designed to operate at the sentence level:
+¢ BLEU [Papineni+ 02] == “corpus-level BLEU”
+* Statistical Significant Tests for MT [Koehn 06; etc.]:
+BLEU not reliable with sample size < 600,
+even for Machine Translation (easier task) so
+
+* Central Limit Theorem (CLT) argument: ws
+* Matching against reference (e.g., n-grams) °
+is brittle > greater variance
+* Remedy: reduce variance by a
+increasing sample size (CLT),
+i.e., corpus-level BLEU
+
+ 
+
+(Figure from [Brooks+ 12])
+ENDELEMENTCorpus-level Correlation
+
+* Generally good for Machine Translation (MT):
+* Spearman’s rho of 0.8 to 0.9 for BLEU, METEOR [Przybocki+ 08]
+
+* Can it work for Dialogue?
+* Currently no definite answer, as corpus-level human judgments very expensive.
+
+Spearman’s rho
+
+Experiments with smaller N [Galley+ 15]:
+
+0.6
+
+0.5
+0.4
+0.3 deltaBLEU = human-rating weighted
+0.2 version of BLEU [Galley+ 15]
+0.1
+0
+N= 1 10 100
+
+-®@BLEU -edeltaBLEU
+ENDELEMENTBLEU-2 (N=1)
+
+ 
+
+Trainable Metric -|fho=0.051
+
+Model scores
+
+* Towards an automatic turning test [Lowe+ 17]:
+ADEM: Metric based on hierarchical RNN (VHRED) orf ae bee a ty”
+
+ 
+
+ 
+
+   
+
+Phe ES
+a Sen a a
+score(c,r,?) = (ce? Mé +r? N# — a)/B i
+_— Human scores
+context c
+ADEM  (N=1)
+FS 6
+rho=0.428
+hey 5
+8
+8
+@9O) 2
+Wr,1 Wr,2 ++» Wrn We 1 We2 --- Wen 8
+True response, r Model response, 7
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTSocial Bots: commercial systems
+
+* For end users: FF How ois
+
+¢ Amazon Alexa
+(trigger: say “Alexa, let’s chat”)
+
+¢ Microsoft Xiaolce [Zhou+ 2018]
+
+  
+      
+
+Have a look first, then guess
+
+ 
+
+wz
+1a Can you give me a hint?
+
+Aaaw are you feeling
+
+* Microsoft Zo (on Kik) ma aaah
+* Replika.ai [system description] ———
+
+And you feel love?
+
+Ifeel something. 'mnot | gy
+
+Wz
+
+a | want to hug and pet it sure it's love, but it's a
+
+% beautiful feeling
+Xiaolce Replika.ai
+
+(translated from Chinese)
+
+ 
+
+For bot developers:
+¢ Microsoft Personality Chat (includes speaker embedding LSTM)
+ENDELEMENT= Microsoft
+
+ 
+
+Home Keys Documentation Stack Overflow Feedback
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Query: Personality Personality
+lam going on . .
+stage :) Personality Friendly Y Clear Chat Humorous Clear Chat
+Professional Vv Clear Chat
+Top Responses & Ranked Score Top Responses & Ranked Score
+Top Responses & Ranked Score Seago that will be 0.69 With who?! D: 0.77
+What are you going to 0.71 = \
+perform? Oh my gosh that's amazing. 0.65 Really?! Oh my gosh I'm so 0.77
+Have a great time jealous!
+What are you going to sing? 0.69 .
+I'm sure you will havea great 0.65 Oh my gosh you're so lucky! D: 0.77
+Good luck with that. 0.67 time
+That's awesome! Good luck! C: 0.77
+| hope you have a great time. 0.67 ee my gosh that cl a . :
+amazing. Are you going Good luck! I'm sure you'll be 0.75
+i amazing!
+Good luck with that... nGE Oh my gosh that's brilliant. 0.65 g
+Have a great time
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+labs.cognitive.microsoft.com/en-us/project-personality-chat
+
+ 
+ENDELEMENTOpen Benchmarks
+
+¢ Alexa Challenge (2017-)
+- Academic competition, 15 sponsored teams in 2017, 8 in 2018
+- $250,000 research grant (2018)
+- Proceedings [2017, 2018]
+
+* Dialogue System Technology Challenge (DSTC) (2013-)
+(formerly Dialogue State Tracking Challenge)
+Focused this year on grounded conversation:
+Visual-Scene [Hori +18], knowledge grounding [Galley +18]
+
+ 
+
+* Conversational Intelligence Challenge (ConvAl) (2017-)
+Last occurrence focused on personalized chat (Persona-Chat dataset)
+ENDELEMENTConclusions
+
+¢ E2E Neural Conversation Models
+¢ Learn the backbone or shell of open-domain natural conversation
+
+* Face significant challenges (blandness, consistency, long context), but
+alleviated using better models and objectives (e.g., MMI and HRED)
+
+* Grounded conversational Al models ™o & 8
+
+* Exploit external textual knowledge, device sensors
+(e.g., images), personal information wea"
+° Produce more informational and “useful” dialogues =
+el ES
+oa co
+
+Knowledge Base
+ENDELEMENT“Usefulness”
+
+Moving beyond chitchat
+
+Traditional Modern
+task-oriented bots task-oriented bots
+
+Fully end-to-end
+
+?
+
+Grounded E2E Systems
+
+E2E Systems (Chatbots)
+
+ 
+ENDELEMENTFully Data-driven Response Generation:
+
+Challenges and future work
+ENDELEMENTBetter objective functions and evaluation metrics
+
+¢ Lack of good objective or reward functions is a challenge for SL and RL:
+* MLE causes blandness (mitigated by MMI)
+
+* Evaluation metrics (BLEU, METEOR, etc.) reliable only on large datasets
+> expensive for optimization (e.g., sequence-level training [Ranzato+ 15])
+¢ RL reward functions currently too ad-hoc
+
+* Final system evaluation:
+* Still need human evaluation
+* Corpus-level metrics (BLEU, METEOR, etc.): How effective are they really?
+ENDELEMENTBetter leverage heterogeneous data
+
+| Gredait =) {mon
+
+WIKIPEDIA
+
+query 1 response 1 fA
+5 ° Foursquare tripadvisor’
+
+English sentence 1 French sentence 1 $
+e
+query N response N much of world knowledge
+in non-conversational form
+
+general domain dialog (often unstructured)
+
+English sentence N French sentence N
+service, . aLibra,,.
+on, om ww KY
+( ©) gi Microsoft Teams B+ slack Sa
+
+in-domain data (e.g., decision making, task-oriented)
+
+most NLP /Al problems conversational Al
+(homogeneous data) (heterogeneous data)
+ENDELEMENTThank you
+
+Contact Information:
+Jianfeng Gao hittp://research.microsoft.com/~jfgao
+
+Michel Galley http://research.microsoft.com/~mgalley
+
+Slides:
+https://icml.cc/Conferences/2019/Schedule
+
+Journal paper version of this tutorial:
+
+https://www.nowpublishers.com/article/Details/INR-074 (final)
+https://arxiv.org/abs/1809.08267 (preprint)
+
+ 
+ENDELEMENT
