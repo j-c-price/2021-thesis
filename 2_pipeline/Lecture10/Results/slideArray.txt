@@ -1,0 +1,748 @@
+FinTech:
+Shaping the Financial World
+
+April 27, 2020
+ENDELEMENTClass 8: Overview
+
+° Credit Scoring & Alternative Data
+
+¢ Challenges of Traditional Banking
+¢ Online Banking
+
+¢ Neo & Challenger Banks
+
+¢ Funding & Valuations
+
+* Traditional Banks Mobile Offerings
+ENDELEMENTFICO Scores
+30%
+
+Amounts Owed
+
+10:
+
+New Credit
+
+    
+    
+      
+
+15s,
+
+Length of
+Credit History
+
+10:
+
+Credit Mix
+
+FICOSCORE
+
+35%
+
+Payment History
+
+3
+© FICO. All rights reserved. This content is excluded from our Creative Commons license. For more information, see ’ ne , . .
+https://ocw.mit.edu/help/faq-fair-use/ Source: ‘What’s in my FICO. Scores?’, myFICO, Fair Isaac Corporation
+ENDELEMENTAlternative Data
+
+¢ Bank, Checking, Employment, Income, Insurance, Tenant, Utilities
+* Cash Flow Underwriting
+
+* Consumption and Purchase Transactional Data
+
+¢ App Usage, Browsing History, Email Receipt, Geolocation, Social Media Data,
+* Educational Background, Employer, Occupation, Work History
+ENDELEMENTAlternative Data FinTech Landscape
+
+Alternative Data Sources
+
+      
+     
+
+    
+   
+  
+  
+
+   
+
+SATELLITE DATA
+
+oO Orbital Insight
+A spire
+Ursa
+DO Bbirics
+
+US urthecast
+
+1
+= WINDWARD
+
+WEB/APP/SOCIAL MEDIA DATA WEATHER DATA
+
+yipitests- =7PARK App Aunic xs as STORY
+
+@D>secenty SDeataminr DATASIFT actima & THE CLIMATE
+
+CORPORATION
+
+  
+
+ 
+ 
+
+    
+    
+ 
+
+LOCATION/FOOT TRAFFIC
+
+Pe
+
+FOURSQUARE
+
+   
+   
+   
+
+  
+
+Created By
+
+@=® CBinsicuts
+
+ALTERNATIVE DATA
+MONETIZERS/ AGGREGATORS
+
+    
+ 
+
+@ P ) placemeter
+
+@)) airrage
+
+  
+   
+
+STREETLIGHTDATA
+
+   
+      
+
+  
+ 
+
+CREDIT CARD
+TRANSACTIONS
+
+earnest
+
+  
+   
+   
+ 
+
+   
+ 
+ 
+
+    
+  
+ 
+  
+
+Eagle Alpha
+
+   
+
+ 
+ 
+  
+  
+
+4«“. SECOND MEASURE
+reas a
+eS Sentieo data
+
+ 
+
+™§ PREMISE
+
+ 
+ 
+
+ENVESTNET
+YODLeS
+
+SHISC=<N
+
+ 
+ 
+  
+ 
+
+ 
+
+5
+© CB Insights. All rights reserved. This content is excluded from our Creative Commons license. For Source: ‘Alternative Data Goes Mainstream in Financial Services’, Datanami (11/21/19)
+more information, see https://ocw.mit.edu/help/faq-fair-use/ . ,
+ENDELEMENTClass 8: Readings
+
+° 'The Challenger Banks That Threaten to Disrupt Financial Institutions
+Bill Streeter, The Financial Brand
+
+* 'Dawn of The Neobank: The Fintechs Trying to Kill the Corner Bank'
+Forbes
+
+¢ '2020 will be a challenging year for challenger banks' Romain Dillet,
+TechCrunch
+ENDELEMENTClass 8: Study Questions
+
+¢ What are Challenger or Neobanks?
+
+¢ What gaps or ‘pain points’ in traditional banking might Challenger Banks
+be addressing? What challenges face these new banks?
+
+* How might Challenger or Neobanks affect the banking landscape?
+ENDELEMENTChallenges of Traditional Banking
+
+* Legacy Branch Networks
+
+* Legacy Tech
+
+* Product Commoditization
+
+* Competitive Landscape
+
+* Costs & Fees
+
+¢ User Interface and User Experience
+* Trust
+ENDELEMENTHistory of Online Banking
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+  
+
+ 
+
+ 
+
+ 
+
+4
+$ 1
+tefebank Pstantorg WELLS FARGO \
+In 1983 Bank of Scotland Founded in 1990, Telebank In 1994, the Stanford Federal In 1995, Wells Fargo began \
+offered UK customers was a completely branchless Credit Union launched the first offering customers online access
+Homelink, which enabled bank, initially operating via the online banking website to their accounts, becoming the }
+consumers to send transfers phone and later online first major bank to do so /
+and pay bills via a television set /
+and a telephone ys
+ger 1999 y 1999 ] 199 1996 om
+a |
+i Y@DLEE DIRECT Net.Benk
+| Founded in 1999 as the first Launched in 1999 by Bank One ING launched its branchless Online only NetBank was
+\ account aggregation platform with the slogan “If your bank could online retail bank in 1997 founded in 1996 and went
+\ 2001: Acquired Vertical One start over, this is what it would be” 2011: Capital One acquired US public in 1997
+\ 2015: Acquired by Envestnet for division for $9 bn
+‘a approximately $600 mm
+2006 2009 2009 al
+Bankof America > mint Aldermere ally BANK.
+In 2001 Bank of America reached Launched in 2006, quickly became a UK Based online bank founded Transformed from GMAC
+3 million online customers (20% big player in the new wave of PFM in 2009 focused on helping Bank to Ally Bank in 2009 as
+of its customer base) 2009: Acquired by Intuit SMEs access lending products an online only bank
+9
+
+Courtesy of FT Partners. Used with permission. Source: ‘The Rise of Challenger Banks: Are the Apps Taking Over?’, FT Partners (January 2020)
+ENDELEMENT 
+
+  
+     
+   
+
+Top reasons consumers adopt
+challenger bank solutions
+
+ 
+
+Easy to set up an account
+
+More attractive fees/rates
+i ko)
+Access to different products/services
+
+12%
+
+Better experience
+
+a -)
+
+Better quality of services
+
+10%
+
+More innovative products than available from banks
+
+6%
+— = = a The Financial Brand. All rights reserved. This content is excluded from
+Greater level of trust than traditional institutions our Creative Commons license. For more information, see
+
+https://ocw.mit.edu/help/faq-fair-use/
+Mi 2:
+
+Source: ‘The Challenger Banks That Threatef? to Disrupt
+SOURCE: Cornerstone Advisors © February 2020 The Financial Brand Financial Institutions’, The Financial Brand (2/18/20)
+ENDELEMENTNeo and Challenger Banks
+
+¢ Ally Bank (2009) * KakaoBank (2016)
+¢ Aspiration (2013) ° Marcus (2016 by
+
+¢ Atom Bank (2016) Goldman Sachs)
+
+¢ Axos (1999) * MoneyLion (2013)
+¢ BankMobile (2015) * Monese (2015)
+
+¢ BigPay (2018) * Monzo (2015)
+
+* Bung (2012) * N26 (2016)
+
+¢ Chime (2013) ¢ Nubank (2013)
+
+° Dave (2016) * OakNorth (2015)
+
+Revolut (2015)
+
+SoFi (2011)
+
+Starling Bank (2014)
+Tandem (2015)
+TymeBank (2015)
+Uala (2017)
+
+Varo (2015)
+
+Volt (2017)
+
+WeBank (2015)
+ENDELEMENTNeo and Challenger Banks
+
+KOHO
+
+mary LD
+H
+
+MOGO b
+. UNG
+© Moneytion  Aspir eee C=
+
+, hufsy
+BankMobile _§ # Empower — eer ae Bao
+© simpte ae Dd : N26 Gir (Ptalkbank
+
+% 7 Naigicen eqonto PENA © Poxereanx
+SoFi#? zero 3 Rulld BN-XT Shine & —
+Varo Moven. [%|azlo ollo tl = L Soutsikoraa ]
+Dough Petal @APITAL kakaobank
+
+  
+
+in
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+. Fv ed WeBank ]bank
+chime Gebank Jike 4 CearBank rin Qs AES — =—
+SJusser QJ upgrade Pp & Pockit TANDEM
+
+STASH occ Boaescrn er” Agron PEPPER. +ime
+
+= @pmonzo 7O~ a
+
+tide Vive Coconut.
+
+oe Dri @erercncenne gy Pavtmse valt
+er (C cashplus &@ monese €.rektes WF FEB. som p BigPay Xe XINJA
+Gurve BBABBO©:°69°  Etymcn AP Ame —
+Moon Aigio : airtel Giro
+QCOO Bikicinar @ uno
+vala
+inter
+
+ 
+
+12
+
+Courtesy of FT Partners. Used with permission. Source: ‘The Rise of Challenger Banks: Are the Apps Taking Over?’, FT Partners (January 2020)
+ENDELEMENTProduct Offerings
+
+role [WTes Revenue Stream
+
+ 
+
+Checking / Savings
+Accounts & Debit
+/ Prepaid Cards
+
++ Interchange
++Fee Income
+
+Investment
+
+Productd +Fee Income
+
+Interest Income (if on
+balance sheet)
++Gain on Sale / Servicing Fees
+
+Installment Loans
+
+Interest Income (if on
+balance sheet)
++ Gain on Sale / Servicing Fees
+
+Student
+Loans
+
++Interchange
++Interest Income
++ Servicing Fees
+
+Credit Cards
+
++ Interest Income
++Gain on Sale
++ Servicing Fees
+
+Home Mortgages
+
++ Interest Income
++Gai
++Servicing Fees
+
+HELOC / Home
+
+Equity Loans on Sale
+
+Tzu. Fee
+
+oO
+@
+@
+
+Coming in 2020
+Currently only offered in Germany
+Not offering Complete challenger bank solutions, only home equity loans at the moment
+
+Courtesy of FT Partners. Used with permission.
+
+Example Companies (> Indicates Starting Product Catego
+
+BankMobile” Aspiration® Garth @ srr em” ~SOFIKE STASH
+Aro” TANDEM” §=—-26* — @ monzo” UB parade" A
+© Moneytion Varo ~ Sf monese* © simpe ~
+
+ 
+
+. *
+@anitat chime
+
+© Moneytion Aspiration SoFi#? @anTit” N26? STASH~
+
+© Moneytion” YW upsrade Varo SoFi st Sonkwobile N26 TANDEM
+
+SoFi##~ earnest™
+|deserve’ OILO* BankMobile TANDEM N26 9 upgrade
+SoFis? Agscm TANDEM
+o *
+FIGURE
+FT PARTNERS RESEARCH 33
+13
+
+Source: ‘The Rise of Challenger Banks: Are the Apps Taking Over?’, FT Partners (January 2020)
+ENDELEMENTNumber of customers - Selected top 8 bank challengers in Europe
+In million
+
+26.7
+
+7
+Radin TransferWise
+
+N26 (@&s monzo
+®
+
+4 monese STARLING BANK
+
+Gurve TANDEM
+
+ 
+
+2.6
+
+ 
+
+2016 2017 2018 2019 PENONGPERVESSON
+
+Source: ‘Bank Challengers in Europe’, Inteliace Research, SlideShare (January 6, 2020)
+
+as, . . 7 © Inteliace Research. All rights reserved. This content is excluded from our Creative Commons license. For moré4nformation,
+including: Revolut, N26, TransfeWise, Monzo, Starling, Monese, Tandem, Curve see https://ocw.mit.edu/help/faq-fair-use/
+
+Source: Inteliace Research
+ENDELEMENTCustomer Accounts
+
+Founded Bank
+el )——e lkakaobank)
+[—® &@ monese
+
+-—® © monzo
+
+'—e STASH
+-—~- Raewhe
+
+—S G@ =tarcine sank
+
+uv
+
+(© Aspiagion
+l—e ©} MoneyLion
+SEED MU eon
+-—e wAPITiLL
+| »
+
+TANDEM
+
+ 
+
+Le chime
+
+Source: All figures based off latest publicly available
+Note: (1) Includes all members across MoneyLion platform
+
+Courtesy of FT Partners. Used with permission.
+
+Country
+
+ 
+
+ 
+
+Current Number of Customer Accounts
+
+eee & © C&C CSC SO @ owition
+aan ee @ @ @ @ @ =
+
+500 Thousand
+
+@
+a
+
+a ™
+
+= 1 Million
+
+2 =. 2 Million
+
+eeee '
+
+=— ae am a AMillon +
+
+eeeeee ;
+
+= ae ae a ee ee Milllicr
+
+EA 1 Million
+
+ % A 1.5 Million
+
+eeeee 5 Million
+
+a 2 & = &
+
+SSS Sesion
+ceeee#ee#eseee8& © © © COC @ @ @ gs jition
+eee @& ff @ @ @ @ @ @ @ =e
+oa @
+
+= <r 1.8 Million
+
+3
+
+a
+
+oe
+
+=
+
+os 2s @  6sMilli
+_— a am @ a ton
+
+FT PARTNERS RESEARCH 31
+15
+
+Source: ‘The Rise of Challenger Banks: Are the Apps Taking Over?’, FT Partners (January 2020)
+ENDELEMENTChallenger Bank Valuations
+
+6
+
+ 
+
+@ Valuation (SBILLIONS)
+
+Sources: the companies, CB Insights, PitchBook.
+
+4 . .
+Forbes. All rights reserved. This content is excluded from our Creative Commons license. For more information, Source: Dawn Of The Neobank: The Fintechs Trying
+see https://ocw.mit.edu/help/faq-fair-use/ To Kill The Corner Bank‘, Forbes (11/4/19)
+ENDELEMENTFunding to Date
+
+ 
+
+ 
+
+Post Money Valuation Ay bank
+Ay $10,400 ; $906
+Woar July 29, 2019 chime
+$5,800 _ $805
+chime December 5, 2019 N26
+N $3,500
+N 26 July 18, 2019 $683
+@monzo S28
+Ravcle peas viii
+April 25, 2018
+Race
+la $1,000 $413
+vala November 25, 2019 $353
+o © Moneytion
+TANDEM w SINGH valé
+praden SsPistion Wem Varo TU cies step S194
+Gurve Dave Bx monese PFA 4 $142 $143
+111
+- = I | ai a | | i
+2 «& Z @®e 2nrteea G&£&tzteetose
+<b =z > = — == = <ab + - => ww — <b <b =
+Amounts represent cumulative funding as of January 2020 $ in millions
+
+Courtesy of FT Partners. Used with permission. Source: ‘The Rise of Challenger Banks: Are the Apps Taking Over?’, FT Partners (January 2020)
+ENDELEMENTSelected European bank challengers: Customers PARTIALLY ESTIMATES
+
+Number of customers, (no common definition] Company valuation per customer
+Company in million, as of Dec. 2019* Focus post money, in ‘000 US$, as of Dec 2019*
+Radi Revolut CES asad
+rranctywice TransferWise Payments, fx
+N 26 N26 Earcoskotes
+
+Accounts, payments,
+
+es monzo- monzo toans, business banking,
+other
+&@ monese monese Transfers, Accounts
+
+6 Starling
+
+STARLING BANK
+
+Accounts, payments,
+loans, business banking
+
+Payments, fx. card
+aggregation
+
+Gurve_ cure
+
+Savings, credit cards
+
+TANDEM = Tandem
+
+  
+
+Average for top 7
+Source: ‘The Challenger Banks That Threaten to Disrupt Financial Institutions’, The Financial Brand (2/18/20)
+
+© The Financial Brand. All rights reserved. This content is excluded from our Creative Commons license. For more information, see
+https://ocw.mit.edu/help/faq-fair-use/
+ENDELEMENTTraditional Banks Mobile Offerings
+
+Traditional banks have started responding to Challenger Banks by offering competing online / mobile solutions
+
+Customers Customers launches JPMORGAN JPMorgan aunches Wells Fargo launches
+CHASE & CO. Finn by Chase) Greenhouse in lt states
+
+W
+r SunTrust launches
+SUNTRUST Lightstean Bank BarkMobie
+
+  
+  
+
+   
+
+NAPA
+
+ 
+
+Oct. 2018
+
+   
+
+Jul, 2018
+
+   
+
+Jun, 2018
+
+    
+
+Oct. 2016
+
+|
+X Citizens citizens launches PN PNC aunces PNC
+0 C High Yield Savings
+
+CIT launches high-yield ea Goldman launches
++ savings product CIT Savings HUN Marcus fowslGon' Ctizen Access
+
+Source: ‘The Rise of Challenger Banks: Are the Apps Taking Over?’, FT Partners (January 2020)
+
+   
+
+Jan, 2015
+
+   
+     
+
+Jan, 2012
+
+ 
+
+Courtesy of FT Partners. Used with permission.
+ENDELEMENTMIT OpenCourseWare
+https://ocw.mit.edu/
+
+15.S08 FinTech: Shaping the Financial World
+Spring 2020
+
+For information about citing these materials or our Terms of Use, visit: https://ocw.mit.edu/terms.
+
+20
+ENDELEMENT

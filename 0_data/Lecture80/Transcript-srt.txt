@@ -1,0 +1,8439 @@
+1
+00:00:00,150 --> 00:00:02,550
+The following content is
+provided under a Creative
+
+2
+00:00:02,550 --> 00:00:04,090
+Commons license.
+
+3
+00:00:04,090 --> 00:00:06,390
+Your support will help
+MIT OpenCourseWare
+
+4
+00:00:06,390 --> 00:00:10,780
+continue to offer high-quality
+educational resources for free.
+
+5
+00:00:10,780 --> 00:00:13,380
+To make a donation or
+view additional materials
+
+6
+00:00:13,380 --> 00:00:17,340
+from hundreds of MIT courses,
+visit MIT OpenCourseWare
+
+7
+00:00:17,340 --> 00:00:22,340
+at ocw.mit.edu
+
+8
+00:00:22,340 --> 00:00:24,560
+WILL MA: OK, so today
+I'm going to take a more
+
+9
+00:00:24,560 --> 00:00:25,790
+empirical approach.
+
+10
+00:00:25,790 --> 00:00:28,210
+I feel like I've done a lot
+of theory in this class,
+
+11
+00:00:28,210 --> 00:00:31,730
+so today I'm going to
+play through the hands
+
+12
+00:00:31,730 --> 00:00:34,190
+of an online tourney,
+so that I played,
+
+13
+00:00:34,190 --> 00:00:36,890
+and sort of show you the
+most interesting hands
+
+14
+00:00:36,890 --> 00:00:38,314
+and show you exactly what I did.
+
+15
+00:00:38,314 --> 00:00:40,730
+I don't think I'm going to
+finish the whole tourney today.
+
+16
+00:00:40,730 --> 00:00:43,040
+But I'm going to go
+through the first part,
+
+17
+00:00:43,040 --> 00:00:46,070
+and I'm only going to talk about
+a few [INAUDIBLE] concepts,
+
+18
+00:00:46,070 --> 00:00:48,710
+but mostly just go
+through the hands.
+
+19
+00:00:48,710 --> 00:00:50,510
+OK.
+
+20
+00:00:50,510 --> 00:00:55,910
+So it's a $55 buy-in
+tournament on Party Poker.
+
+21
+00:00:55,910 --> 00:00:57,330
+And it's a fairly small field.
+
+22
+00:00:57,330 --> 00:00:59,100
+So this is a tournament
+I played recently.
+
+23
+00:01:02,260 --> 00:01:04,720
+OK, so let's just
+get into the hands.
+
+24
+00:01:04,720 --> 00:01:08,780
+I'm only going to show you the
+hands where I did something
+
+25
+00:01:08,780 --> 00:01:09,620
+at the start.
+
+26
+00:01:09,620 --> 00:01:11,430
+And we will start with
+a bit of theory, OK.
+
+27
+00:01:11,430 --> 00:01:13,700
+So this is the situation.
+
+28
+00:01:13,700 --> 00:01:17,450
+It's folded to this player and--
+
+29
+00:01:17,450 --> 00:01:19,040
+so we have king and queen here.
+
+30
+00:01:19,040 --> 00:01:22,290
+And it's at hand where
+we're in position,
+
+31
+00:01:22,290 --> 00:01:25,430
+and he raised from
+late enough position
+
+32
+00:01:25,430 --> 00:01:28,410
+where I think our hand
+is too good to fold.
+
+33
+00:01:28,410 --> 00:01:31,640
+So if Dreams crushed,
+if the guy who raised
+
+34
+00:01:31,640 --> 00:01:36,860
+was from under the gun, let's
+say, then I might have--
+
+35
+00:01:36,860 --> 00:01:38,306
+I probably would have folded.
+
+36
+00:01:38,306 --> 00:01:39,930
+Because against an
+under-the-gun range,
+
+37
+00:01:39,930 --> 00:01:41,930
+king-queen off suit
+kind of gets crushed.
+
+38
+00:01:41,930 --> 00:01:45,490
+But against a range from high
+jack minus one or low jack,
+
+39
+00:01:45,490 --> 00:01:47,750
+I think king-queen is
+good enough to play.
+
+40
+00:01:47,750 --> 00:01:50,270
+But the question is
+sort of what do we do.
+
+41
+00:01:50,270 --> 00:01:51,260
+Do we raise?
+
+42
+00:01:51,260 --> 00:01:52,464
+Do we call?
+
+43
+00:01:52,464 --> 00:01:54,380
+I don't think folding
+is the end of the world.
+
+44
+00:01:54,380 --> 00:01:56,257
+I think it's slightly
+profitable to play,
+
+45
+00:01:56,257 --> 00:01:58,340
+but it's not like you're
+giving up a ton of equity
+
+46
+00:01:58,340 --> 00:01:59,480
+by folding this.
+
+47
+00:01:59,480 --> 00:02:00,420
+So what do we do?
+
+48
+00:02:00,420 --> 00:02:03,470
+OK, so I'm going to start
+out with a bit of theory.
+
+49
+00:02:03,470 --> 00:02:07,415
+So I haven't really
+talked about this.
+
+50
+00:02:07,415 --> 00:02:11,360
+I want to talk a bit about
+preflop re-raising theory.
+
+51
+00:02:11,360 --> 00:02:13,424
+So in this situation,
+I don't want
+
+52
+00:02:13,424 --> 00:02:15,590
+to just talk about what to
+do with this hand, right.
+
+53
+00:02:15,590 --> 00:02:16,965
+This is how
+throughout this class
+
+54
+00:02:16,965 --> 00:02:18,965
+I've been saying we
+shouldn't think about poker.
+
+55
+00:02:18,965 --> 00:02:21,170
+We should always think
+about the general situation.
+
+56
+00:02:21,170 --> 00:02:23,240
+What's the range of
+hands we could have?
+
+57
+00:02:23,240 --> 00:02:25,010
+What's the range of
+hands they could have?
+
+58
+00:02:25,010 --> 00:02:28,100
+And how should both players
+play their overall strategy
+
+59
+00:02:28,100 --> 00:02:31,430
+with their entire
+range of hands?
+
+60
+00:02:31,430 --> 00:02:34,150
+OK, so there's a few interesting
+things to think about here.
+
+61
+00:02:34,150 --> 00:02:35,550
+So there's sort of a dilemma.
+
+62
+00:02:35,550 --> 00:02:37,960
+So if we think about
+our overall strategy--
+
+63
+00:02:37,960 --> 00:02:42,580
+so first thing you notice is how
+many bets deep is it effective.
+
+64
+00:02:42,580 --> 00:02:44,210
+What's the stack
+size effectively?
+
+65
+00:02:44,210 --> 00:02:47,910
+It's about, it's about
+28, right, I think.
+
+66
+00:02:47,910 --> 00:02:49,910
+So yeah, we have about
+the same amount of chips.
+
+67
+00:02:49,910 --> 00:02:51,740
+We have like 28
+and 1/2 big blinds.
+
+68
+00:02:51,740 --> 00:02:53,176
+That's clear to everyone?
+
+69
+00:02:53,176 --> 00:02:55,050
+So it's important that
+it's fairly deep here.
+
+70
+00:02:55,050 --> 00:02:57,450
+So the stack size, the
+effective stack size
+
+71
+00:02:57,450 --> 00:02:59,350
+is 28 and 1/2 big blinds.
+
+72
+00:03:01,940 --> 00:03:02,780
+So what's the issue?
+
+73
+00:03:02,780 --> 00:03:04,910
+It's sometimes in
+this spot, we have
+
+74
+00:03:04,910 --> 00:03:07,100
+a hand that's good
+enough implied odds
+
+75
+00:03:07,100 --> 00:03:08,510
+to play in position.
+
+76
+00:03:08,510 --> 00:03:10,377
+But it's not really
+like a good hand
+
+77
+00:03:10,377 --> 00:03:12,710
+that we're trying to raise
+and make the pot bigger with.
+
+78
+00:03:12,710 --> 00:03:14,970
+Like an example of this
+is like king-jack suited
+
+79
+00:03:14,970 --> 00:03:17,440
+or like king-queen off, I
+think, is a good example, too.
+
+80
+00:03:17,440 --> 00:03:18,860
+It's a hand that's
+good enough to play,
+
+81
+00:03:18,860 --> 00:03:20,235
+but not a hand
+that's good enough
+
+82
+00:03:20,235 --> 00:03:24,500
+that we'd necessarily want to
+raise and make the pot bigger.
+
+83
+00:03:24,500 --> 00:03:26,960
+On the other hand,
+sometimes we have a hand
+
+84
+00:03:26,960 --> 00:03:29,720
+that you want to raise and hope
+you get all-in with, like aces,
+
+85
+00:03:29,720 --> 00:03:30,219
+right.
+
+86
+00:03:30,219 --> 00:03:32,720
+So we have these sort
+of two types of hands
+
+87
+00:03:32,720 --> 00:03:34,790
+that we want to play
+in this situation.
+
+88
+00:03:34,790 --> 00:03:37,100
+But if we play
+according to our hand,
+
+89
+00:03:37,100 --> 00:03:39,530
+it can become too
+predictable, right.
+
+90
+00:03:39,530 --> 00:03:42,409
+So this is like a somewhat
+intuitive strategy.
+
+91
+00:03:42,409 --> 00:03:44,450
+So you know, let's suppose
+this was our strategy.
+
+92
+00:03:44,450 --> 00:03:46,774
+Let's suppose our strategy
+was with the best hands
+
+93
+00:03:46,774 --> 00:03:48,440
+that we're hoping to
+get an all-in with,
+
+94
+00:03:48,440 --> 00:03:51,950
+let's say in this spot,
+pocket 10s plus and ace-king.
+
+95
+00:03:51,950 --> 00:03:55,610
+I think that's reasonable
+as the set of hands
+
+96
+00:03:55,610 --> 00:03:58,160
+we're willing to and
+happy to go all-in with.
+
+97
+00:03:58,160 --> 00:04:00,620
+So pocket 10s plus,
+ace-king, and then
+
+98
+00:04:00,620 --> 00:04:04,550
+we call with pocket
+fives plus, ace-jack off,
+
+99
+00:04:04,550 --> 00:04:08,760
+ace-10 suited, king-queen off.
+
+100
+00:04:08,760 --> 00:04:12,240
+I'd say this is a
+reasonable strategy to play.
+
+101
+00:04:12,240 --> 00:04:15,260
+But what are some
+problems with this sort
+
+102
+00:04:15,260 --> 00:04:17,209
+of intuitive,
+exploitative strategy?
+
+103
+00:04:20,100 --> 00:04:20,600
+Yeah?
+
+104
+00:04:20,600 --> 00:04:22,860
+AUDIENCE: People are just
+going to fold to your aces
+
+105
+00:04:22,860 --> 00:04:26,475
+and pick up money from you when
+you don't have the top hands.
+
+106
+00:04:26,475 --> 00:04:28,310
+WILL MA: OK, great, yeah, good.
+
+107
+00:04:28,310 --> 00:04:30,050
+So that's a good point.
+
+108
+00:04:30,050 --> 00:04:35,619
+So basically, if we only
+raise with pocket 10s plus,
+
+109
+00:04:35,619 --> 00:04:37,160
+people could just
+fold pretty easily,
+
+110
+00:04:37,160 --> 00:04:39,770
+because they know that we have
+a great hand whenever we raise.
+
+111
+00:04:39,770 --> 00:04:40,640
+Good.
+
+112
+00:04:40,640 --> 00:04:41,870
+OK, what's another issue?
+
+113
+00:04:41,870 --> 00:04:43,570
+This one's a bit more subtle.
+
+114
+00:04:43,570 --> 00:04:45,289
+What's sort of another issue?
+
+115
+00:04:45,289 --> 00:04:47,080
+So one issue is when
+we raise, it's obvious
+
+116
+00:04:47,080 --> 00:04:48,620
+that we have a great hand.
+
+117
+00:04:48,620 --> 00:04:50,830
+And so on a similar
+line, another-- yeah.
+
+118
+00:04:53,417 --> 00:04:54,250
+I'm sorry, did you--
+
+119
+00:04:54,250 --> 00:04:56,621
+AUDIENCE: Yeah, if we call
+them, they know we're weaker.
+
+120
+00:04:56,621 --> 00:04:57,620
+WILL MA: Right, exactly.
+
+121
+00:04:57,620 --> 00:04:58,340
+OK, good.
+
+122
+00:04:58,340 --> 00:05:01,790
+So an almost bigger
+issue here is
+
+123
+00:05:01,790 --> 00:05:03,710
+if we play like
+this, when we call,
+
+124
+00:05:03,710 --> 00:05:05,540
+people know we can't have aces.
+
+125
+00:05:05,540 --> 00:05:08,090
+So you know one of the
+guys behind, like this guy,
+
+126
+00:05:08,090 --> 00:05:10,220
+[? Aight ?] might
+just be able to raise.
+
+127
+00:05:10,220 --> 00:05:12,660
+And they're going to know
+we're going to be fairly weak.
+
+128
+00:05:12,660 --> 00:05:15,500
+And we're going to have
+to fold most of the time.
+
+129
+00:05:15,500 --> 00:05:18,930
+So basically, this is not
+a really balanced strategy.
+
+130
+00:05:18,930 --> 00:05:21,450
+So what can we do?
+
+131
+00:05:21,450 --> 00:05:24,080
+Well, we could raise
+some assortment of hands
+
+132
+00:05:24,080 --> 00:05:26,120
+from the call category
+to balance it out.
+
+133
+00:05:26,120 --> 00:05:29,390
+We could call some hands
+from the raise category
+
+134
+00:05:29,390 --> 00:05:32,240
+a small percent of the time,
+like play randomized strategy
+
+135
+00:05:32,240 --> 00:05:34,580
+where you raise
+aces 80% of the time
+
+136
+00:05:34,580 --> 00:05:38,730
+and call aces 20% of the
+time to balance it out.
+
+137
+00:05:38,730 --> 00:05:40,317
+There's some other
+more extreme things
+
+138
+00:05:40,317 --> 00:05:42,650
+you can do that I don't think
+are good in this situation
+
+139
+00:05:42,650 --> 00:05:45,560
+but are reasonable when the
+stack size is different.
+
+140
+00:05:45,560 --> 00:05:48,680
+So I think if it's shallow or,
+let's say, only 20 big blinds
+
+141
+00:05:48,680 --> 00:05:50,900
+deep, then just
+raising all hands,
+
+142
+00:05:50,900 --> 00:05:54,470
+just raising the top X percent
+of hands is a decent strategy,
+
+143
+00:05:54,470 --> 00:05:58,160
+because 20 big blinds is
+sort of shallow enough
+
+144
+00:05:58,160 --> 00:06:00,710
+where if you raise,
+you're kind of committing
+
+145
+00:06:00,710 --> 00:06:02,210
+your whole stack anyway.
+
+146
+00:06:02,210 --> 00:06:06,230
+And if it's deeper, like if
+it's 100 big blinds deep,
+
+147
+00:06:06,230 --> 00:06:08,810
+some players will like to
+call 100% of the hands.
+
+148
+00:06:08,810 --> 00:06:10,805
+They'll just never raise.
+
+149
+00:06:10,805 --> 00:06:12,680
+I don't think it's like
+the optimal strategy,
+
+150
+00:06:12,680 --> 00:06:15,470
+but it's not an
+unreasonable strategy.
+
+151
+00:06:15,470 --> 00:06:18,230
+If you're 100 big blinds
+deep, and you have position,
+
+152
+00:06:18,230 --> 00:06:19,320
+it's not terrible.
+
+153
+00:06:19,320 --> 00:06:21,399
+And then your range is
+completely disguised,
+
+154
+00:06:21,399 --> 00:06:23,690
+because you're playing all
+your hands the same preflop.
+
+155
+00:06:23,690 --> 00:06:28,140
+So these are some
+reasonable solution ideas.
+
+156
+00:06:28,140 --> 00:06:32,070
+So here's sort of
+a better solution.
+
+157
+00:06:32,070 --> 00:06:36,430
+So this will sound really cool
+compared to the previous slide,
+
+158
+00:06:36,430 --> 00:06:41,810
+which is instead of raising some
+of the call hands as a bluff
+
+159
+00:06:41,810 --> 00:06:43,930
+essentially to balance
+out the times we raise
+
+160
+00:06:43,930 --> 00:06:46,520
+with a good hand, what
+if we actually-- we
+
+161
+00:06:46,520 --> 00:06:50,510
+bluff-raise the best hands that
+aren't good enough to call.
+
+162
+00:06:50,510 --> 00:06:52,790
+So let me just, so we can
+look at this again, right.
+
+163
+00:06:52,790 --> 00:06:55,810
+So our strategy was
+we're raising for value,
+
+164
+00:06:55,810 --> 00:06:57,710
+aka we're raising,
+hoping to get called
+
+165
+00:06:57,710 --> 00:06:59,320
+with 10s plus and ace-king.
+
+166
+00:06:59,320 --> 00:07:01,820
+We're calling with sort of the
+pretty good hands like pocket
+
+167
+00:07:01,820 --> 00:07:05,750
+fives plus, ace-jack, ace-10
+suited, king-queen off.
+
+168
+00:07:05,750 --> 00:07:10,280
+And then we're going to
+bluff-raise hands that
+
+169
+00:07:10,280 --> 00:07:13,760
+aren't positive expectancy to
+call, so like pocket fours,
+
+170
+00:07:13,760 --> 00:07:15,620
+ace-10 off, ace-nine
+suited, hands
+
+171
+00:07:15,620 --> 00:07:19,040
+that are even weaker than the
+call hands, but in some sense,
+
+172
+00:07:19,040 --> 00:07:21,350
+if we bluff-raise
+with these hands,
+
+173
+00:07:21,350 --> 00:07:24,860
+the benefit is we're sort
+of not wasting them, right.
+
+174
+00:07:24,860 --> 00:07:27,380
+Like let's say with
+these better hands,
+
+175
+00:07:27,380 --> 00:07:29,120
+like let's say
+with ace-jack off,
+
+176
+00:07:29,120 --> 00:07:30,850
+I raise, and my
+opponent goes all in.
+
+177
+00:07:30,850 --> 00:07:32,990
+Well, I'm probably
+going to have to fold
+
+178
+00:07:32,990 --> 00:07:36,140
+in this situation for
+28 and 1/2 big blinds.
+
+179
+00:07:36,140 --> 00:07:38,720
+So I sort of like
+wasted my ace-jack,
+
+180
+00:07:38,720 --> 00:07:42,110
+whereas if I did it
+with ace-10 instead,
+
+181
+00:07:42,110 --> 00:07:44,860
+then I get to call with
+my ace-jack, which I know
+
+182
+00:07:44,860 --> 00:07:49,910
+is plus EV to call and not waste
+such a good hand bluff-raising.
+
+183
+00:07:49,910 --> 00:07:52,100
+So this is a very
+important concept in poker.
+
+184
+00:07:52,100 --> 00:07:54,950
+It's called polarizing.
+
+185
+00:07:54,950 --> 00:07:57,620
+And in general, you know,
+it's a sound strategy, right.
+
+186
+00:07:57,620 --> 00:07:59,900
+By this wasting
+argument, I'm saying,
+
+187
+00:07:59,900 --> 00:08:01,700
+I'm talking about--
+polarizing sounds
+
+188
+00:08:01,700 --> 00:08:03,110
+like a pretty reasonable
+strategy, right.
+
+189
+00:08:03,110 --> 00:08:04,526
+Because it ensures
+that you're not
+
+190
+00:08:04,526 --> 00:08:10,130
+wasting your medium-strength
+hands to bluff-raise.
+
+191
+00:08:10,130 --> 00:08:13,700
+So what's an issue with it?
+
+192
+00:08:13,700 --> 00:08:20,200
+It can be exploited if your
+opponent calls your three-bet.
+
+193
+00:08:20,200 --> 00:08:22,290
+So does anyone
+actually see, does
+
+194
+00:08:22,290 --> 00:08:24,290
+anyone actually see, so
+let's say, in this case,
+
+195
+00:08:24,290 --> 00:08:26,720
+suppose this was my strategy.
+
+196
+00:08:26,720 --> 00:08:32,860
+So I'm raising pocket
+10s plus and ace-king.
+
+197
+00:08:32,860 --> 00:08:37,520
+And I'm bluff-raising the
+hands that I listed here.
+
+198
+00:08:37,520 --> 00:08:40,080
+OK, I'll give a $20
+gift certificate to you.
+
+199
+00:08:40,080 --> 00:08:43,640
+So like what's a specific
+board, let's say,
+
+200
+00:08:43,640 --> 00:08:45,680
+where someone can explain
+my strategy if this
+
+201
+00:08:45,680 --> 00:08:46,805
+was my specific strategy?
+
+202
+00:08:49,980 --> 00:08:51,830
+This is just for illustration.
+
+203
+00:08:51,830 --> 00:08:54,810
+So look at my exact
+range, and can someone
+
+204
+00:08:54,810 --> 00:08:58,025
+say sort of what's a very
+bad flop for my range?
+
+205
+00:09:03,360 --> 00:09:04,330
+Yeah.
+
+206
+00:09:04,330 --> 00:09:06,756
+AUDIENCE: If flop's high
+cards, because they'll
+
+207
+00:09:06,756 --> 00:09:09,350
+be thinking your range
+is generally high cards,
+
+208
+00:09:09,350 --> 00:09:12,830
+but those are a bit lower.
+
+209
+00:09:12,830 --> 00:09:15,040
+WILL MA: Right, so if
+there's high cards,
+
+210
+00:09:15,040 --> 00:09:16,670
+but we do have lots
+of aces and kings.
+
+211
+00:09:16,670 --> 00:09:20,090
+Like if the flop comes,
+like if there's an ace,
+
+212
+00:09:20,090 --> 00:09:21,740
+then it's pretty
+good for our range,
+
+213
+00:09:21,740 --> 00:09:24,170
+right, even though they
+might be able to fold easily,
+
+214
+00:09:24,170 --> 00:09:27,260
+but we're still
+going to win the pot.
+
+215
+00:09:27,260 --> 00:09:30,375
+But what is like a specific,
+what's a specific issue-- yeah.
+
+216
+00:09:30,375 --> 00:09:32,500
+AUDIENCE: Well, if five,
+six, seven, or in between.
+
+217
+00:09:32,500 --> 00:09:35,070
+WILL MA: OK, good, so five, six,
+seven is kind of bad for us,
+
+218
+00:09:35,070 --> 00:09:35,570
+right.
+
+219
+00:09:35,570 --> 00:09:37,590
+Because our range
+basically contains
+
+220
+00:09:37,590 --> 00:09:40,460
+no fives, no sixes, no sevens.
+
+221
+00:09:40,460 --> 00:09:43,700
+But even five, six, seven, we
+still have like a bigger pair
+
+222
+00:09:43,700 --> 00:09:44,600
+quite often.
+
+223
+00:09:44,600 --> 00:09:46,110
+So what's like an
+even worse case?
+
+224
+00:09:46,110 --> 00:09:46,980
+Yeah.
+
+225
+00:09:46,980 --> 00:09:50,297
+AUDIENCE: High flush draw
+or a high straight draw.
+
+226
+00:09:50,297 --> 00:09:52,130
+WILL MA: Yeah, but we
+can have those, right.
+
+227
+00:09:52,130 --> 00:09:53,640
+We have ace-nine
+suit in our range.
+
+228
+00:09:53,640 --> 00:09:56,240
+We got king-10
+suited in our range.
+
+229
+00:09:56,240 --> 00:10:00,550
+AUDIENCE: So then like a low
+pair, like four-four or eight.
+
+230
+00:10:00,550 --> 00:10:02,670
+WILL MA: Yeah, we don't
+have fours or eights,
+
+231
+00:10:02,670 --> 00:10:05,520
+but you know on those
+boards, like pocket jacks,
+
+232
+00:10:05,520 --> 00:10:08,110
+even like ace-king high is a
+pretty good hand and pocket
+
+233
+00:10:08,110 --> 00:10:08,634
+jacks.
+
+234
+00:10:08,634 --> 00:10:10,550
+There's something very
+specific we're missing.
+
+235
+00:10:10,550 --> 00:10:14,140
+I mean this is just for
+this example, but yeah.
+
+236
+00:10:14,140 --> 00:10:16,009
+AUDIENCE: Maybe
+a pair of queens.
+
+237
+00:10:16,009 --> 00:10:17,050
+WILL MA: Right, OK, good.
+
+238
+00:10:17,050 --> 00:10:18,758
+So that's sort of what
+I was looking for.
+
+239
+00:10:18,758 --> 00:10:20,740
+You can come get
+this now if you want.
+
+240
+00:10:20,740 --> 00:10:23,660
+Essentially, suppose this
+was our exact strategy.
+
+241
+00:10:23,660 --> 00:10:27,640
+If the board comes queen
+high, then essentially they
+
+242
+00:10:27,640 --> 00:10:31,400
+know that our range is pretty
+bad, because we don't ever
+
+243
+00:10:31,400 --> 00:10:32,080
+have a queen.
+
+244
+00:10:34,640 --> 00:10:36,120
+I mean we could
+have kings or aces,
+
+245
+00:10:36,120 --> 00:10:39,350
+but all of our other pairs are
+going to be smaller than queen.
+
+246
+00:10:39,350 --> 00:10:41,610
+So I mean this is just
+a specific example,
+
+247
+00:10:41,610 --> 00:10:43,962
+but I'm saying polarizing
+is, in general,
+
+248
+00:10:43,962 --> 00:10:45,920
+a good concept by this
+argument that you're not
+
+249
+00:10:45,920 --> 00:10:47,870
+wasting your good hands.
+
+250
+00:10:47,870 --> 00:10:50,810
+But it can be exploited
+if your opponent knows
+
+251
+00:10:50,810 --> 00:10:53,300
+the specific way in
+which you're polarizing,
+
+252
+00:10:53,300 --> 00:10:56,029
+and they just call your
+reraise and see the flop.
+
+253
+00:10:56,029 --> 00:10:58,070
+And they'll be able to
+play very well on the flop
+
+254
+00:10:58,070 --> 00:11:02,510
+still, even if you have some
+good hands and some bluffs.
+
+255
+00:11:02,510 --> 00:11:05,290
+It can also be bad against
+unpredictable opponents,
+
+256
+00:11:05,290 --> 00:11:09,860
+because by the ace-jack,
+ace-10 argument again,
+
+257
+00:11:09,860 --> 00:11:12,060
+let's say you
+three-bet with ace-10
+
+258
+00:11:12,060 --> 00:11:14,429
+instead of ace-jack as
+an attempt to polarize.
+
+259
+00:11:14,429 --> 00:11:16,220
+But let's say your
+opponent is kind of bad,
+
+260
+00:11:16,220 --> 00:11:20,990
+and they might make a loose call
+in this situation with ace-10.
+
+261
+00:11:20,990 --> 00:11:23,680
+Then you would have
+really hoped to have
+
+262
+00:11:23,680 --> 00:11:25,550
+ace-jack instead of
+ace-10 if they're going
+
+263
+00:11:25,550 --> 00:11:28,190
+to call your raise with ace-10.
+
+264
+00:11:28,190 --> 00:11:30,140
+So if you're
+polarizing, you're sort
+
+265
+00:11:30,140 --> 00:11:33,000
+of assuming your opponent
+is going to play reasonably.
+
+266
+00:11:33,000 --> 00:11:35,330
+So the point is the
+reason why I don't
+
+267
+00:11:35,330 --> 00:11:37,460
+want to sort of waste
+ace-jack by raising
+
+268
+00:11:37,460 --> 00:11:39,920
+is because my opponent's
+probably going to fold ace-10.
+
+269
+00:11:39,920 --> 00:11:41,600
+But what if they
+might call ace-10?
+
+270
+00:11:41,600 --> 00:11:46,669
+Then I really would have wished
+I reraised with ace-jack.
+
+271
+00:11:46,669 --> 00:11:48,210
+OK, the short answer
+is I'm not going
+
+272
+00:11:48,210 --> 00:11:51,620
+to give a conclusive formula
+on how to play this situation,
+
+273
+00:11:51,620 --> 00:11:53,750
+because the short answer
+is it's complicated.
+
+274
+00:11:53,750 --> 00:11:56,150
+And I don't think anyone
+essentially knows what
+
+275
+00:11:56,150 --> 00:11:58,520
+the optimal strategy is yet.
+
+276
+00:11:58,520 --> 00:12:02,620
+But in practice, I think
+just raising a mix of hands
+
+277
+00:12:02,620 --> 00:12:05,880
+from the call category,
+mostly the off-suit hands
+
+278
+00:12:05,880 --> 00:12:08,180
+which have worse
+implied odds, is
+
+279
+00:12:08,180 --> 00:12:11,180
+pretty good as part of
+your bluff-raising range.
+
+280
+00:12:11,180 --> 00:12:13,830
+And calling the best hands
+from the raise category,
+
+281
+00:12:13,830 --> 00:12:16,640
+like aces, like trapping a
+small percent of the time,
+
+282
+00:12:16,640 --> 00:12:19,210
+just calling aces maybe
+a fifth of the time,
+
+283
+00:12:19,210 --> 00:12:21,750
+so that sometimes you
+have it when you call,
+
+284
+00:12:21,750 --> 00:12:25,670
+so that people can't just
+reraise when you call.
+
+285
+00:12:25,670 --> 00:12:27,584
+And also raise some
+of the best hands
+
+286
+00:12:27,584 --> 00:12:28,750
+that aren't plus EV to call.
+
+287
+00:12:28,750 --> 00:12:30,200
+So polarize a bit.
+
+288
+00:12:30,200 --> 00:12:34,034
+Essentially, the short
+answer is it's complicated.
+
+289
+00:12:34,034 --> 00:12:35,450
+You need to do a
+bit of everything
+
+290
+00:12:35,450 --> 00:12:37,280
+with all sorts of hands.
+
+291
+00:12:37,280 --> 00:12:40,700
+But I just wanted to sort of
+talk about how complicated
+
+292
+00:12:40,700 --> 00:12:42,560
+this situation can be.
+
+293
+00:12:42,560 --> 00:12:45,290
+All right, so OK, so let's
+get back to the hand.
+
+294
+00:12:45,290 --> 00:12:48,360
+So what I decided to
+do here was following
+
+295
+00:12:48,360 --> 00:12:52,910
+the thing I said about
+reraising with off-suit hands,
+
+296
+00:12:52,910 --> 00:12:57,050
+I decided to, so I decided
+to raise here to 555.
+
+297
+00:12:57,050 --> 00:12:59,910
+And so I think this is
+about the right sizing,
+
+298
+00:12:59,910 --> 00:13:03,110
+because we're making it
+about 2.5 times his raise.
+
+299
+00:13:03,110 --> 00:13:05,000
+And essentially
+we're bluffing here.
+
+300
+00:13:05,000 --> 00:13:06,380
+And our hand is
+good enough where
+
+301
+00:13:06,380 --> 00:13:08,270
+it's not the end of
+the world if they call,
+
+302
+00:13:08,270 --> 00:13:11,540
+because we have a lot of
+chances to hit top pair.
+
+303
+00:13:11,540 --> 00:13:13,250
+And if we do, we're
+probably good,
+
+304
+00:13:13,250 --> 00:13:15,440
+because they're
+probably going all in
+
+305
+00:13:15,440 --> 00:13:17,330
+with ace-king or
+ace-queen preflop.
+
+306
+00:13:17,330 --> 00:13:18,990
+But essentially we're bluffing.
+
+307
+00:13:18,990 --> 00:13:22,700
+I'm definitely hoping
+he folds, and he does.
+
+308
+00:13:22,700 --> 00:13:24,020
+So OK, we take down the pot.
+
+309
+00:13:26,890 --> 00:13:29,370
+OK so the very next
+hand, I actually
+
+310
+00:13:29,370 --> 00:13:32,164
+just noticed this
+during, when I was
+
+311
+00:13:32,164 --> 00:13:33,330
+replaying through the hands.
+
+312
+00:13:33,330 --> 00:13:35,070
+So I didn't notice this.
+
+313
+00:13:35,070 --> 00:13:38,610
+I didn't notice this during
+the tournament actually.
+
+314
+00:13:38,610 --> 00:13:40,260
+So what do you notice?
+
+315
+00:13:40,260 --> 00:13:43,484
+We're actually in the exact
+same situation again, right.
+
+316
+00:13:43,484 --> 00:13:44,650
+But we have different cards.
+
+317
+00:13:44,650 --> 00:13:46,941
+So it's good that we thought
+about our overall strategy
+
+318
+00:13:46,941 --> 00:13:48,540
+when we played that
+hand, because you
+
+319
+00:13:48,540 --> 00:13:50,130
+will end up in
+the same situation
+
+320
+00:13:50,130 --> 00:13:52,380
+again with different cards.
+
+321
+00:13:52,380 --> 00:13:54,900
+OK, so along the same lines--
+
+322
+00:13:54,900 --> 00:13:58,270
+but at the time I was probably
+playing like 15 tables or more.
+
+323
+00:13:58,270 --> 00:14:01,245
+So I wasn't really
+paying attention.
+
+324
+00:14:01,245 --> 00:14:03,495
+I probably didn't remember
+that I reraised my opponent
+
+325
+00:14:03,495 --> 00:14:04,710
+the hand before.
+
+326
+00:14:04,710 --> 00:14:07,650
+But playing through
+this, it actually yielded
+
+327
+00:14:07,650 --> 00:14:10,440
+a really good result.
+Because what happened was
+
+328
+00:14:10,440 --> 00:14:13,560
+they didn't believe my three-bet
+the second time around,
+
+329
+00:14:13,560 --> 00:14:16,740
+and they went all in
+with pocket sevens.
+
+330
+00:14:16,740 --> 00:14:18,960
+It's not a terrible hand,
+but it's definitely,
+
+331
+00:14:18,960 --> 00:14:21,551
+I think, a weaker hand than they
+would usually go all in there
+
+332
+00:14:21,551 --> 00:14:22,050
+with.
+
+333
+00:14:22,050 --> 00:14:24,630
+But I guess they didn't
+believe my reraise
+
+334
+00:14:24,630 --> 00:14:26,070
+after the previous hand.
+
+335
+00:14:26,070 --> 00:14:29,010
+So this also sort of
+illustrates the importance
+
+336
+00:14:29,010 --> 00:14:32,650
+of like you said, of sometimes
+having a bad hand when
+
+337
+00:14:32,650 --> 00:14:34,830
+you reraise, so that
+people will give you
+
+338
+00:14:34,830 --> 00:14:37,330
+action when you do have a
+good hand like pocket jacks.
+
+339
+00:14:41,480 --> 00:14:43,290
+OK, so let's go on.
+
+340
+00:14:43,290 --> 00:14:44,880
+I'm only playing
+through the hands
+
+341
+00:14:44,880 --> 00:14:49,410
+that I essentially played at
+the start of the tournament.
+
+342
+00:14:49,410 --> 00:14:50,130
+So we doubled up.
+
+343
+00:14:50,130 --> 00:14:51,540
+The starting stack was 3,000.
+
+344
+00:14:51,540 --> 00:14:53,340
+We've got 6,000 now.
+
+345
+00:14:53,340 --> 00:14:58,530
+We get ace-queen, we raise,
+and we get called here.
+
+346
+00:14:58,530 --> 00:15:01,260
+And here, this guy makes it--
+so this is a different player,
+
+347
+00:15:01,260 --> 00:15:03,600
+because we eliminated the
+guy who used to sit here.
+
+348
+00:15:03,600 --> 00:15:06,870
+And they make it 755.
+
+349
+00:15:06,870 --> 00:15:07,990
+I decide to fold here.
+
+350
+00:15:07,990 --> 00:15:10,700
+I think ace-queen offsuit
+is just a bit too weak.
+
+351
+00:15:10,700 --> 00:15:13,080
+I think going all in is--
+
+352
+00:15:13,080 --> 00:15:15,580
+it wouldn't be
+terrible, but I think
+
+353
+00:15:15,580 --> 00:15:17,910
+when we raised from
+fairly early position,
+
+354
+00:15:17,910 --> 00:15:19,260
+under-the-gun plus one.
+
+355
+00:15:19,260 --> 00:15:21,660
+And this high jack called.
+
+356
+00:15:21,660 --> 00:15:24,550
+They're not going to be doing
+this as a bluff very often.
+
+357
+00:15:24,550 --> 00:15:28,380
+And their reraise to 755 I
+think usually commits them.
+
+358
+00:15:28,380 --> 00:15:32,560
+It's not guaranteed that they're
+going to go all in if we--
+
+359
+00:15:32,560 --> 00:15:34,420
+they're going to call
+us if we go all in.
+
+360
+00:15:34,420 --> 00:15:36,000
+But I think most
+likely they will,
+
+361
+00:15:36,000 --> 00:15:38,500
+and they're going to
+be ahead of our range.
+
+362
+00:15:38,500 --> 00:15:40,160
+So I decide to fold.
+
+363
+00:15:40,160 --> 00:15:41,470
+It's a fairly tight fold.
+
+364
+00:15:41,470 --> 00:15:44,195
+So it is a stack.
+
+365
+00:15:44,195 --> 00:15:46,320
+I'm just going to continue
+playing through my hands
+
+366
+00:15:46,320 --> 00:15:47,153
+from the tournament.
+
+367
+00:15:47,153 --> 00:15:51,822
+If you have any questions,
+just stop me and ask.
+
+368
+00:15:51,822 --> 00:15:53,780
+So this is sort of a
+weird hand, and I actually
+
+369
+00:15:53,780 --> 00:15:55,640
+think I played this
+hand quite terribly.
+
+370
+00:15:55,640 --> 00:15:59,270
+So this guy calls, which
+I said we should never do,
+
+371
+00:15:59,270 --> 00:16:01,150
+but I guess he
+doesn't take my class.
+
+372
+00:16:03,980 --> 00:16:05,270
+We get queen-10 here.
+
+373
+00:16:05,270 --> 00:16:07,460
+We check, we see a flop.
+
+374
+00:16:07,460 --> 00:16:10,490
+So we flop two over cards,
+a backdoor flush draw
+
+375
+00:16:10,490 --> 00:16:13,640
+and a gutter straight draw.
+
+376
+00:16:13,640 --> 00:16:17,570
+So I decide to lead into it,
+sort of lead my draws out,
+
+377
+00:16:17,570 --> 00:16:18,920
+hope he folds.
+
+378
+00:16:18,920 --> 00:16:22,490
+He calls, and the
+turn is a three.
+
+379
+00:16:22,490 --> 00:16:24,980
+And then here, so this
+is where I sort of,
+
+380
+00:16:24,980 --> 00:16:26,390
+he decided he suffered at me.
+
+381
+00:16:26,390 --> 00:16:28,570
+So I talked about how he
+should only be doing this
+
+382
+00:16:28,570 --> 00:16:29,690
+if he doesn't respect me.
+
+383
+00:16:29,690 --> 00:16:32,390
+Because I mean in
+this case, it's
+
+384
+00:16:32,390 --> 00:16:35,050
+not a completely insignificant
+fraction of the pot.
+
+385
+00:16:35,050 --> 00:16:36,290
+It's like one sixth.
+
+386
+00:16:36,290 --> 00:16:39,350
+So he is actually getting
+some substantial payment
+
+387
+00:16:39,350 --> 00:16:41,460
+into the pot, but it's
+still fairly small.
+
+388
+00:16:41,460 --> 00:16:43,490
+And the main thing it
+does is it gives me
+
+389
+00:16:43,490 --> 00:16:45,400
+an opportunity to check-raise.
+
+390
+00:16:45,400 --> 00:16:46,820
+But I'm not going to.
+
+391
+00:16:46,820 --> 00:16:49,020
+I don't think they're
+going to fold often enough.
+
+392
+00:16:49,020 --> 00:16:50,580
+There's a lot of draws
+they're going to call me with,
+
+393
+00:16:50,580 --> 00:16:52,663
+and I'm going to have to
+bluff again on the river.
+
+394
+00:16:52,663 --> 00:16:55,807
+So I decide to just call,
+which is reasonable.
+
+395
+00:16:55,807 --> 00:16:57,890
+So this is where I think
+I played the hand poorly.
+
+396
+00:16:57,890 --> 00:17:00,470
+So the river completes
+a lot of draws,
+
+397
+00:17:00,470 --> 00:17:03,130
+but it doesn't complete my hand.
+
+398
+00:17:03,130 --> 00:17:04,730
+And I just check it down.
+
+399
+00:17:04,730 --> 00:17:07,430
+I just check it,
+which at the time
+
+400
+00:17:07,430 --> 00:17:11,329
+I didn't lead out, because
+I thought the fact that I
+
+401
+00:17:11,329 --> 00:17:13,220
+only called the turn
+and suddenly decided
+
+402
+00:17:13,220 --> 00:17:15,680
+to bet big on the river
+would probably get called.
+
+403
+00:17:15,680 --> 00:17:18,319
+But I think it's just not a
+balanced way to play the hand,
+
+404
+00:17:18,319 --> 00:17:21,170
+because plenty of times
+I will have clubs,
+
+405
+00:17:21,170 --> 00:17:23,300
+or I'll have jack-10
+or something.
+
+406
+00:17:23,300 --> 00:17:25,819
+I'll have a jack, and I
+will want to bet for value.
+
+407
+00:17:25,819 --> 00:17:28,040
+And here when I have a
+hand that essentially
+
+408
+00:17:28,040 --> 00:17:31,010
+has no chance of winning
+the hand at showdown.
+
+409
+00:17:31,010 --> 00:17:33,320
+Like essentially, I'm
+giving up the pot for sure
+
+410
+00:17:33,320 --> 00:17:35,930
+if I check, because my queen
+high will never be good.
+
+411
+00:17:35,930 --> 00:17:37,700
+I should definitely be bluffing.
+
+412
+00:17:37,700 --> 00:17:40,580
+So I didn't, which I regret,
+because I let him take down
+
+413
+00:17:40,580 --> 00:17:44,220
+the pot with a pair of threes.
+
+414
+00:17:44,220 --> 00:17:46,220
+Yeah, I guess he kind of
+played that hand well.
+
+415
+00:17:46,220 --> 00:17:48,440
+He called eight-three suited.
+
+416
+00:17:48,440 --> 00:17:50,810
+I guess he made money from
+me, because I didn't play
+
+417
+00:17:50,810 --> 00:17:53,760
+very well from the big blind.
+
+418
+00:17:53,760 --> 00:17:58,610
+OK so the next hand, we
+get king-jack offsuit here.
+
+419
+00:17:58,610 --> 00:18:00,710
+We open, probably one
+of the weakest hands
+
+420
+00:18:00,710 --> 00:18:02,180
+I'm opening from this position.
+
+421
+00:18:02,180 --> 00:18:03,944
+I think probably in
+my recommendations,
+
+422
+00:18:03,944 --> 00:18:05,360
+this is not in the
+list you should
+
+423
+00:18:05,360 --> 00:18:08,930
+open from, high jack minus one.
+
+424
+00:18:08,930 --> 00:18:11,390
+But I decide to open,
+because I'm bored I guess.
+
+425
+00:18:11,390 --> 00:18:15,250
+And we get three callers.
+
+426
+00:18:15,250 --> 00:18:19,190
+OK, so the flop is four,
+six, four with two hearts.
+
+427
+00:18:19,190 --> 00:18:21,200
+So I decide to
+continuation bet here.
+
+428
+00:18:21,200 --> 00:18:23,000
+I think it's a
+fairly marginal spot.
+
+429
+00:18:23,000 --> 00:18:25,400
+I think just giving up is OK.
+
+430
+00:18:25,400 --> 00:18:29,390
+I definitely wouldn't
+have stabbed at the pot
+
+431
+00:18:29,390 --> 00:18:31,520
+if I didn't have
+the King of Hearts.
+
+432
+00:18:31,520 --> 00:18:34,820
+But the fact that I have a
+backdoor pretty good flush
+
+433
+00:18:34,820 --> 00:18:38,840
+draw, I decided to bet and
+just hope that everyone folds.
+
+434
+00:18:38,840 --> 00:18:41,960
+And we do get that
+which is pretty nice.
+
+435
+00:18:44,540 --> 00:18:48,167
+OK, so you know our stack is
+hovering around the same size.
+
+436
+00:18:48,167 --> 00:18:49,750
+We won some hands
+and lost some hands.
+
+437
+00:18:49,750 --> 00:18:51,310
+It's still early
+in the tournament.
+
+438
+00:18:51,310 --> 00:18:53,830
+The blinds have gone up a
+bit, but it's still far away
+
+439
+00:18:53,830 --> 00:18:56,560
+from the payouts.
+
+440
+00:18:56,560 --> 00:19:00,240
+OK, so we get we
+queen-jack on the button.
+
+441
+00:19:00,240 --> 00:19:04,705
+And this guy just goes
+all in for a lot of bets.
+
+442
+00:19:04,705 --> 00:19:05,830
+I guess it's not that many.
+
+443
+00:19:05,830 --> 00:19:08,350
+It's like 35.
+
+444
+00:19:08,350 --> 00:19:11,770
+No, sorry, it's-- yeah, it's
+it's about 30, 35 right.
+
+445
+00:19:14,290 --> 00:19:16,540
+So I fold here obviously.
+
+446
+00:19:16,540 --> 00:19:18,940
+But I thought a bit
+about his range,
+
+447
+00:19:18,940 --> 00:19:23,310
+and you know it's possible
+his range is like entirely--
+
+448
+00:19:23,310 --> 00:19:25,390
+so I talked about this
+in a previous class.
+
+449
+00:19:25,390 --> 00:19:28,900
+When do you want to be going
+all in for a huge size?
+
+450
+00:19:28,900 --> 00:19:32,260
+It's essentially what hands
+that are pretty good to get all
+
+451
+00:19:32,260 --> 00:19:36,550
+in with preflop but have
+terrible post-flop implied odds
+
+452
+00:19:36,550 --> 00:19:37,730
+in this situation.
+
+453
+00:19:37,730 --> 00:19:40,200
+And what were the
+hands I listed there?
+
+454
+00:19:40,200 --> 00:19:43,510
+It's essentially small
+pairs, like pocket twos,
+
+455
+00:19:43,510 --> 00:19:45,020
+you really don't
+want to see a flop.
+
+456
+00:19:45,020 --> 00:19:47,427
+It's quite a good hand
+preflop but you really
+
+457
+00:19:47,427 --> 00:19:49,510
+don't want to see a flop,
+because it's pretty much
+
+458
+00:19:49,510 --> 00:19:51,340
+always three higher
+cards are going to come,
+
+459
+00:19:51,340 --> 00:19:53,631
+and you're just going to be
+playing this guessing game,
+
+460
+00:19:53,631 --> 00:19:55,690
+trying to guess whether
+your opponent has a pair.
+
+461
+00:19:55,690 --> 00:19:59,230
+And the other type of hand
+is like ace-two offsuit
+
+462
+00:19:59,230 --> 00:20:03,135
+where once again, you have an
+ace preflop which is decent.
+
+463
+00:20:03,135 --> 00:20:05,260
+But you're just going to
+be playing a guessing game
+
+464
+00:20:05,260 --> 00:20:06,280
+on most flops.
+
+465
+00:20:06,280 --> 00:20:10,180
+So you know probably if I had
+a very strong read on him,
+
+466
+00:20:10,180 --> 00:20:13,300
+and if I had
+jack-10 suited here,
+
+467
+00:20:13,300 --> 00:20:16,030
+calling is maybe not that bad,
+because you're like a coin
+
+468
+00:20:16,030 --> 00:20:17,650
+flip against ace-two offsuit.
+
+469
+00:20:17,650 --> 00:20:20,560
+And you're like 54% favored
+against pocket threes.
+
+470
+00:20:20,560 --> 00:20:23,462
+So I folded here, because
+my hand isn't suited,
+
+471
+00:20:23,462 --> 00:20:25,420
+and just because there's
+a small chance they're
+
+472
+00:20:25,420 --> 00:20:26,420
+going to have ace-queen.
+
+473
+00:20:26,420 --> 00:20:28,640
+And my read was nowhere
+near strong enough
+
+474
+00:20:28,640 --> 00:20:30,500
+to conclude that for sure.
+
+475
+00:20:30,500 --> 00:20:33,645
+There range was only
+small pairs and a six.
+
+476
+00:20:36,210 --> 00:20:38,770
+OK, so we lose a bit of chips.
+
+477
+00:20:38,770 --> 00:20:40,630
+We're blinding down a bit.
+
+478
+00:20:40,630 --> 00:20:44,450
+Here we get 10-2 suited, so I
+call from the big blind with 4
+
+479
+00:20:44,450 --> 00:20:45,372
+and 1/2 to 1 odds.
+
+480
+00:20:45,372 --> 00:20:47,830
+I think this is probably one
+of the weakest hands I'd call.
+
+481
+00:20:47,830 --> 00:20:50,572
+I might not call eight-two
+suited although it's close.
+
+482
+00:20:50,572 --> 00:20:53,030
+I mean, you could make a case
+for calling eight-two suited.
+
+483
+00:20:53,030 --> 00:20:55,700
+So once again, my
+odds were really good,
+
+484
+00:20:55,700 --> 00:20:59,800
+but the reverse implied odds
+do sort of work against me
+
+485
+00:20:59,800 --> 00:21:02,080
+quite a bit since I'm going
+to be out of position,
+
+486
+00:21:02,080 --> 00:21:04,240
+and I have small cards
+which will usually
+
+487
+00:21:04,240 --> 00:21:06,480
+make a smaller pair than them.
+
+488
+00:21:06,480 --> 00:21:09,520
+But I decide to call, and
+we flopped a flush draw,
+
+489
+00:21:09,520 --> 00:21:10,820
+which is pretty good.
+
+490
+00:21:10,820 --> 00:21:13,030
+But I'm still going
+to check, because this
+
+491
+00:21:13,030 --> 00:21:15,820
+is a board where I'm just going
+to check to the pre-flop raiser
+
+492
+00:21:15,820 --> 00:21:17,710
+and let them continuation bet.
+
+493
+00:21:17,710 --> 00:21:20,320
+So I talked about leading
+in an earlier class,
+
+494
+00:21:20,320 --> 00:21:23,440
+and I don't think
+this is a board where
+
+495
+00:21:23,440 --> 00:21:24,780
+we should be leading.
+
+496
+00:21:24,780 --> 00:21:27,340
+I think never leading
+is OK as well, so.
+
+497
+00:21:27,340 --> 00:21:29,830
+I decide to check,
+and they check back.
+
+498
+00:21:29,830 --> 00:21:33,700
+So we turn the flush,
+which is great.
+
+499
+00:21:33,700 --> 00:21:36,760
+We bet 600 into 1080.
+
+500
+00:21:36,760 --> 00:21:40,210
+So unfortunately, we
+don't get any action.
+
+501
+00:21:40,210 --> 00:21:41,080
+So we take it down.
+
+502
+00:21:46,350 --> 00:21:47,730
+So for the next--
+
+503
+00:21:47,730 --> 00:21:51,220
+I think this is one
+more a bit later.
+
+504
+00:21:51,220 --> 00:21:53,400
+So under-the-gun raises,
+small blind queue
+
+505
+00:21:53,400 --> 00:21:54,640
+is very, very short.
+
+506
+00:21:54,640 --> 00:21:59,430
+He only has 7 and
+1/2 big blind calls.
+
+507
+00:21:59,430 --> 00:22:01,530
+And we decide to
+call with our 7--
+
+508
+00:22:01,530 --> 00:22:07,400
+with our 6 and 1/2 to one
+odds here, or six to one odds.
+
+509
+00:22:07,400 --> 00:22:10,010
+So we flop queen, jack, five.
+
+510
+00:22:10,010 --> 00:22:12,650
+So we have second pair with
+a backdoor straight draw
+
+511
+00:22:12,650 --> 00:22:14,900
+and a backdoor flush draw.
+
+512
+00:22:14,900 --> 00:22:20,360
+And the small blind goes
+all in for 1054 into 1380.
+
+513
+00:22:20,360 --> 00:22:23,030
+So this is sort of I
+think a pretty close spot.
+
+514
+00:22:23,030 --> 00:22:26,850
+I think if I knew for
+sure that Arden1977
+
+515
+00:22:26,850 --> 00:22:30,360
+didn't have a hand here, I think
+calling is definitely fine.
+
+516
+00:22:30,360 --> 00:22:34,220
+We're given about
+2.3 to one odds.
+
+517
+00:22:34,220 --> 00:22:36,680
+And I think second pair
+with these backdoor
+
+518
+00:22:36,680 --> 00:22:40,114
+draws is more than good
+enough against his range.
+
+519
+00:22:40,114 --> 00:22:41,780
+Because I think his
+range will mostly be
+
+520
+00:22:41,780 --> 00:22:46,050
+draws and top pairs and second
+pairs, probably not bottom pair
+
+521
+00:22:46,050 --> 00:22:48,920
+that often, because
+they did call preflop
+
+522
+00:22:48,920 --> 00:22:51,680
+from the small blind,
+which I don't expect
+
+523
+00:22:51,680 --> 00:22:55,010
+most players would do with a
+hand like seven-five suited.
+
+524
+00:22:55,010 --> 00:22:58,310
+So we're not even that happy
+to call him to be honest,
+
+525
+00:22:58,310 --> 00:23:00,500
+but I probably would call.
+
+526
+00:23:00,500 --> 00:23:02,320
+But the fact that this
+guy here is behind,
+
+527
+00:23:02,320 --> 00:23:04,490
+and they could raise,
+or they could call,
+
+528
+00:23:04,490 --> 00:23:07,880
+and we'd have to make more
+decisions on future streets,
+
+529
+00:23:07,880 --> 00:23:09,170
+I think really hurts us.
+
+530
+00:23:09,170 --> 00:23:12,330
+And I think we
+should have folded.
+
+531
+00:23:12,330 --> 00:23:15,137
+At the time I decided to call.
+
+532
+00:23:15,137 --> 00:23:17,470
+I don't know why, but I don't
+think this is a good play.
+
+533
+00:23:17,470 --> 00:23:20,090
+I think it's just too
+risky essentially.
+
+534
+00:23:20,090 --> 00:23:22,700
+It'll work most of the time.
+
+535
+00:23:22,700 --> 00:23:24,200
+Because most of the
+time [? Arton ?]
+
+536
+00:23:24,200 --> 00:23:25,570
+will fold, because
+they're going to see
+
+537
+00:23:25,570 --> 00:23:26,960
+two players putting money in.
+
+538
+00:23:26,960 --> 00:23:29,180
+But the times where
+they do have something,
+
+539
+00:23:29,180 --> 00:23:32,300
+I'm going to have to fold,
+and it's going to suck.
+
+540
+00:23:32,300 --> 00:23:33,630
+So we do call.
+
+541
+00:23:33,630 --> 00:23:36,140
+They actually had
+the same hand as us.
+
+542
+00:23:36,140 --> 00:23:37,532
+It worked out well.
+
+543
+00:23:37,532 --> 00:23:38,990
+I guess we sort of
+took a bad beat,
+
+544
+00:23:38,990 --> 00:23:41,570
+because we could've made a
+flush, and they couldn't have.
+
+545
+00:23:41,570 --> 00:23:45,640
+We were technically ahead,
+but we get half the pot.
+
+546
+00:23:51,360 --> 00:23:53,620
+So I'm not going through
+my tournament history
+
+547
+00:23:53,620 --> 00:23:57,820
+from one month ago and saying
+I played every hand perfectly.
+
+548
+00:23:57,820 --> 00:23:59,710
+When I look through
+here, I definitely--
+
+549
+00:23:59,710 --> 00:24:01,496
+there's a lot of mistakes.
+
+550
+00:24:01,496 --> 00:24:03,370
+There's a lot of hands
+I wish I could replay.
+
+551
+00:24:07,150 --> 00:24:10,540
+So this hand, I guess,
+is fairly simple.
+
+552
+00:24:10,540 --> 00:24:13,360
+So we have ace-king, and I think
+it's definitely good enough
+
+553
+00:24:13,360 --> 00:24:14,980
+to get it all in here with.
+
+554
+00:24:14,980 --> 00:24:18,107
+So as far as what my
+range is I think--
+
+555
+00:24:18,107 --> 00:24:22,112
+[INAUDIBLE] I think-- sorry.
+
+556
+00:24:22,112 --> 00:24:23,320
+Did you have a suggestion or?
+
+557
+00:24:23,320 --> 00:24:26,780
+AUDIENCE: Oh, no, no, I
+just saw this guy's handle,
+
+558
+00:24:26,780 --> 00:24:29,615
+and I thought it was funny.
+
+559
+00:24:32,800 --> 00:24:36,132
+OK, so you thought it was who?
+
+560
+00:24:36,132 --> 00:24:38,340
+AUDIENCE: Funny.
+
+561
+00:24:38,340 --> 00:24:39,590
+WILL MA: Sorry, sorry.
+
+562
+00:24:39,590 --> 00:24:41,560
+OK.
+
+563
+00:24:41,560 --> 00:24:43,440
+No, yeah, don't ask
+me what my hand means.
+
+564
+00:24:43,440 --> 00:24:44,370
+My handle is--
+
+565
+00:24:44,370 --> 00:24:45,550
+AUDIENCE: What does it mean?
+
+566
+00:24:45,550 --> 00:24:47,631
+[LAUGHTER]
+
+567
+00:24:47,631 --> 00:24:48,880
+WILL MA: I can't even read it.
+
+568
+00:24:53,700 --> 00:24:55,050
+I think it stood for something.
+
+569
+00:24:55,050 --> 00:24:56,790
+I probably made it
+when I was like 17,
+
+570
+00:24:56,790 --> 00:25:00,170
+and I think it
+stood for something.
+
+571
+00:25:00,170 --> 00:25:04,550
+I probably don't remember
+what it stands for, OK.
+
+572
+00:25:04,550 --> 00:25:05,909
+So we go all in here.
+
+573
+00:25:05,909 --> 00:25:07,450
+So this is sort of
+a no-brainer hand,
+
+574
+00:25:07,450 --> 00:25:10,620
+but let's stop and think a bit
+about what our range should be.
+
+575
+00:25:10,620 --> 00:25:14,100
+So I think with ace-king,
+ace-king and pocket tens,
+
+576
+00:25:14,100 --> 00:25:16,050
+I think it's fairly
+easy get it all in.
+
+577
+00:25:16,050 --> 00:25:20,660
+I think with ace-queen
+suited, I would get it in.
+
+578
+00:25:20,660 --> 00:25:24,460
+I think if I had ace-queen
+offsuit, I would probably fold.
+
+579
+00:25:24,460 --> 00:25:29,120
+Although with ace-queen suited
+actually if this Jet Ski Fun
+
+580
+00:25:29,120 --> 00:25:33,810
+guy had as many chips as us,
+then maybe I would have folded.
+
+581
+00:25:33,810 --> 00:25:36,060
+But the fact that we're
+actually not risking
+
+582
+00:25:36,060 --> 00:25:40,650
+our entire 6250 against the
+two players who are in the pot
+
+583
+00:25:40,650 --> 00:25:41,700
+is very relevant.
+
+584
+00:25:41,700 --> 00:25:44,310
+Because [? Armond ?] covers
+us, and they could in theory
+
+585
+00:25:44,310 --> 00:25:45,330
+pick up pocket aces.
+
+586
+00:25:45,330 --> 00:25:47,490
+But it's much less
+likely for them
+
+587
+00:25:47,490 --> 00:25:50,280
+to pick up pocket aces
+than this Jet Ski Fun
+
+588
+00:25:50,280 --> 00:25:51,602
+guy who's already in the pot.
+
+589
+00:25:51,602 --> 00:25:53,310
+So the fact that they
+may have [? SEAM ?]
+
+590
+00:25:53,310 --> 00:25:56,550
+less than 20 big blinds as
+well helps our case a lot.
+
+591
+00:25:56,550 --> 00:26:00,450
+So I would probably get it
+in with ace-queen suited plus
+
+592
+00:26:00,450 --> 00:26:03,300
+and then pocket
+nines plus, probably,
+
+593
+00:26:03,300 --> 00:26:06,510
+is what I would get
+it in with here.
+
+594
+00:26:06,510 --> 00:26:14,340
+So we go all in, and we beat
+ace-jack, which is good.
+
+595
+00:26:14,340 --> 00:26:17,445
+So I think ace-jack is
+slightly on the loose side.
+
+596
+00:26:17,445 --> 00:26:19,820
+I mean, I think it's a fine
+play definitely to get it all
+
+597
+00:26:19,820 --> 00:26:23,457
+in with ace-jack, but
+maybe they could have--
+
+598
+00:26:23,457 --> 00:26:25,540
+because they do have more
+than 20 big blinds here.
+
+599
+00:26:25,540 --> 00:26:28,220
+So I think maybe they could have
+considered calling or raising
+
+600
+00:26:28,220 --> 00:26:31,340
+small and folding if someone
+like us entered the pot.
+
+601
+00:26:31,340 --> 00:26:33,860
+But nonetheless, I think
+they played their hand fine.
+
+602
+00:26:37,150 --> 00:26:39,680
+OK, so the next hand
+we have a pocket nines.
+
+603
+00:26:39,680 --> 00:26:41,664
+So [? Manny, ?]
+this guy, raises.
+
+604
+00:26:41,664 --> 00:26:44,080
+So we're getting deeper now,
+because we won the last hand.
+
+605
+00:26:44,080 --> 00:26:48,560
+So now we've got, we've got
+40 big blinds, and we call.
+
+606
+00:26:48,560 --> 00:26:51,530
+This guy also calls
+and [? Liamkid ?]
+
+607
+00:26:51,530 --> 00:26:55,580
+goes all in for 30 big blinds.
+
+608
+00:26:55,580 --> 00:26:57,290
+So they get out of the way.
+
+609
+00:26:57,290 --> 00:27:00,540
+I think this is actually
+a very close spot.
+
+610
+00:27:00,540 --> 00:27:03,640
+I do think one big
+incentive to get
+
+611
+00:27:03,640 --> 00:27:05,990
+it all in is I
+think it's not that
+
+612
+00:27:05,990 --> 00:27:09,039
+likely that [? Liamkid ?] has
+pocket kings or pocket aces.
+
+613
+00:27:09,039 --> 00:27:10,580
+Because I think
+there's a good chance
+
+614
+00:27:10,580 --> 00:27:14,220
+they would just raised smaller,
+maybe, to try to sucker people
+
+615
+00:27:14,220 --> 00:27:14,720
+in.
+
+616
+00:27:14,720 --> 00:27:17,850
+So I actually think I'm not
+losing to too much here.
+
+617
+00:27:17,850 --> 00:27:20,150
+And same with [? Armond. ?]
+I think it's also very hard
+
+618
+00:27:20,150 --> 00:27:21,691
+for [? Armond ?] to
+have a good hand.
+
+619
+00:27:21,691 --> 00:27:23,510
+So even though in
+the first example,
+
+620
+00:27:23,510 --> 00:27:28,040
+we talked about how sometimes
+calling with pocket aces
+
+621
+00:27:28,040 --> 00:27:31,349
+here is a good play, but you
+know, I said if one guy raised,
+
+622
+00:27:31,349 --> 00:27:33,140
+and you're the second
+guy, you should maybe
+
+623
+00:27:33,140 --> 00:27:35,840
+call with pocket aces
+like 20% of the time.
+
+624
+00:27:35,840 --> 00:27:37,880
+When it's two guys who have--
+
+625
+00:27:37,880 --> 00:27:41,330
+like when it's one guy who
+has raise, me who has called,
+
+626
+00:27:41,330 --> 00:27:44,570
+and now you're deciding
+what to do with pocket aces.
+
+627
+00:27:44,570 --> 00:27:47,870
+Instead of 20% you should be
+calling, it's literally like,
+
+628
+00:27:47,870 --> 00:27:51,350
+maybe like 2% or 1% we should
+be calling with pocket aces.
+
+629
+00:27:51,350 --> 00:27:54,770
+So if you multiply
+1% by the probability
+
+630
+00:27:54,770 --> 00:27:58,130
+of getting dealt pocket aces,
+which is around one in 200,
+
+631
+00:27:58,130 --> 00:28:00,590
+it's literally like
+one out of 20,000
+
+632
+00:28:00,590 --> 00:28:02,320
+that he has pocket aces here.
+
+633
+00:28:02,320 --> 00:28:05,000
+So I'm not too afraid of him.
+
+634
+00:28:05,000 --> 00:28:07,380
+So I really think
+getting it in is fine.
+
+635
+00:28:07,380 --> 00:28:10,910
+But at the same time, I don't
+think I'm ever a favorite here.
+
+636
+00:28:10,910 --> 00:28:13,640
+I think their range is
+essentially ace-king,
+
+637
+00:28:13,640 --> 00:28:17,570
+ace-queen, maybe ace-jack
+suited, and then, essentially,
+
+638
+00:28:17,570 --> 00:28:20,720
+pocket 10s, pocket nines,
+pocket jacks, pocket queens,
+
+639
+00:28:20,720 --> 00:28:22,370
+maybe occasionally
+pocket eights.
+
+640
+00:28:22,370 --> 00:28:25,070
+So I could have done an
+exact equity calculation
+
+641
+00:28:25,070 --> 00:28:26,229
+on PokerStove.
+
+642
+00:28:26,229 --> 00:28:28,520
+If I did, it probably would
+have been very, very close.
+
+643
+00:28:28,520 --> 00:28:32,080
+But I decided to fold, and
+they take down the pot.
+
+644
+00:28:37,730 --> 00:28:39,770
+OK, so the next hand
+we get a ace-jack.
+
+645
+00:28:39,770 --> 00:28:41,320
+We raise from under-the-gun.
+
+646
+00:28:41,320 --> 00:28:45,150
+This guy goes all in
+for six big blinds.
+
+647
+00:28:45,150 --> 00:28:46,650
+We're basically
+committed here, even
+
+648
+00:28:46,650 --> 00:28:48,870
+if we think he's crushing us.
+
+649
+00:28:48,870 --> 00:28:52,350
+So I call, and we
+lose to ace-king.
+
+650
+00:28:52,350 --> 00:28:54,960
+Not really too much
+we can do here.
+
+651
+00:28:54,960 --> 00:28:57,930
+Although this does
+illustrate one concept, which
+
+652
+00:28:57,930 --> 00:29:01,280
+is when there are stacks
+behind like [? Zarbizan ?] who
+
+653
+00:29:01,280 --> 00:29:04,410
+are short enough that they can
+commit you by going all in,
+
+654
+00:29:04,410 --> 00:29:06,930
+you should be slightly
+less incentivized to open
+
+655
+00:29:06,930 --> 00:29:08,040
+speculative hands here.
+
+656
+00:29:08,040 --> 00:29:11,520
+Like say I had 10-nine suited,
+I think while normally I
+
+657
+00:29:11,520 --> 00:29:15,450
+would consider opening 10-nine
+suited here as a steal.
+
+658
+00:29:15,450 --> 00:29:18,540
+It's a huge disincentive to
+steal here with 10-nine suited
+
+659
+00:29:18,540 --> 00:29:20,520
+when someone like
+[? Zarbizan ?] can just
+
+660
+00:29:20,520 --> 00:29:23,640
+pick up even a hand as
+weak as ace-jack suited
+
+661
+00:29:23,640 --> 00:29:28,430
+or ace-jack offsuit and go all
+and beat our 10-nine suited.
+
+662
+00:29:28,430 --> 00:29:31,800
+But ace-jack is more than good
+enough to still raise here.
+
+663
+00:29:31,800 --> 00:29:33,910
+We unfortunately
+run into ace-king.
+
+664
+00:29:40,460 --> 00:29:43,210
+Next hand we get ace-jack again.
+
+665
+00:29:43,210 --> 00:29:46,800
+The same guy who just doubled
+up through us goes all in,
+
+666
+00:29:46,800 --> 00:29:48,900
+and here I call him.
+
+667
+00:29:48,900 --> 00:29:51,810
+Because even though
+there's more chips,
+
+668
+00:29:51,810 --> 00:29:54,760
+the positions are a lot
+later, and specifically,
+
+669
+00:29:54,760 --> 00:29:57,676
+they went all in for
+14 big blinds when
+
+670
+00:29:57,676 --> 00:29:58,800
+no one else was in the pot.
+
+671
+00:29:58,800 --> 00:30:02,580
+So their range is, their
+range isn't super duper wide,
+
+672
+00:30:02,580 --> 00:30:06,120
+but it's definitely wide
+enough that ace-jack I'm
+
+673
+00:30:06,120 --> 00:30:08,160
+happy to call here.
+
+674
+00:30:08,160 --> 00:30:12,150
+As far as what my
+range is, I think
+
+675
+00:30:12,150 --> 00:30:13,650
+I wouldn't call
+with ace-10 offsuit,
+
+676
+00:30:13,650 --> 00:30:15,270
+but I would call
+with ace-10 suited.
+
+677
+00:30:15,270 --> 00:30:18,650
+So probably ace-10
+suited, and I think
+
+678
+00:30:18,650 --> 00:30:21,360
+I'd call with king-queen suited
+but not king-queen offsuit.
+
+679
+00:30:21,360 --> 00:30:23,820
+And the smallest
+pair I get it in with
+
+680
+00:30:23,820 --> 00:30:31,092
+is probably pocket sixes, I
+think, maybe pocket five is OK.
+
+681
+00:30:31,092 --> 00:30:32,800
+Yeah, probably pocket
+fives is too loose,
+
+682
+00:30:32,800 --> 00:30:33,716
+probably pocket sixes.
+
+683
+00:30:36,280 --> 00:30:37,300
+So we call.
+
+684
+00:30:37,300 --> 00:30:39,160
+So unfortunately, we
+lose to king-10 suited.
+
+685
+00:30:39,160 --> 00:30:41,110
+So he doubles up
+through us again,
+
+686
+00:30:41,110 --> 00:30:44,845
+and we're kind of short now.
+
+687
+00:30:44,845 --> 00:30:46,210
+AUDIENCE: I have a question.
+
+688
+00:30:46,210 --> 00:30:49,120
+On that last hand, why
+go all in yourself?
+
+689
+00:30:49,120 --> 00:30:50,641
+Why not just call his all in?
+
+690
+00:30:50,641 --> 00:30:51,890
+WILL MA: Oh OK, good question.
+
+691
+00:30:51,890 --> 00:30:54,020
+So yeah, this is
+a good question.
+
+692
+00:30:54,020 --> 00:30:56,020
+So in this case, the
+two plays I'd say
+
+693
+00:30:56,020 --> 00:30:58,300
+are fairly close to equivalent.
+
+694
+00:30:58,300 --> 00:31:00,130
+Because OK, so what's
+the defense, right?
+
+695
+00:31:00,130 --> 00:31:02,170
+They're going to be
+the same almost always,
+
+696
+00:31:02,170 --> 00:31:05,384
+because Check Raise
+is just going to fold.
+
+697
+00:31:05,384 --> 00:31:07,030
+[LAUGHTER]
+
+698
+00:31:08,009 --> 00:31:09,050
+So what's the difference?
+
+699
+00:31:09,050 --> 00:31:10,930
+The difference is if
+we don't go all in,
+
+700
+00:31:10,930 --> 00:31:13,810
+then Check Raise let's say,
+he picks up aces, right.
+
+701
+00:31:13,810 --> 00:31:16,570
+Then he can just go all in, and
+we're basically forced to call
+
+702
+00:31:16,570 --> 00:31:17,620
+him, because we can't--
+
+703
+00:31:17,620 --> 00:31:22,480
+if we put in 4,118,
+and they go all in,
+
+704
+00:31:22,480 --> 00:31:25,240
+we can't really fold
+for only 3,000 more.
+
+705
+00:31:25,240 --> 00:31:28,060
+We can't really fold preflop
+with four to one odds.
+
+706
+00:31:28,060 --> 00:31:29,350
+AUDIENCE: Would that change
+if you're the big stack?
+
+707
+00:31:29,350 --> 00:31:31,720
+If like, you had the Check Raise
+stack, and he had your stack?
+
+708
+00:31:31,720 --> 00:31:32,500
+WILL MA: Oh yeah, for sure.
+
+709
+00:31:32,500 --> 00:31:33,791
+Yeah, that's a very good point.
+
+710
+00:31:33,791 --> 00:31:34,490
+Yeah, for sure.
+
+711
+00:31:34,490 --> 00:31:37,450
+So if we had the same
+stack as Check Raise here,
+
+712
+00:31:37,450 --> 00:31:38,650
+I would just call.
+
+713
+00:31:38,650 --> 00:31:41,436
+And then if Check Raise goes
+all in, I would probably fold.
+
+714
+00:31:41,436 --> 00:31:43,810
+But I mean, I'm also going to
+call here with pocket aces,
+
+715
+00:31:43,810 --> 00:31:47,050
+so they can't just look down
+at pocket twos and go all in
+
+716
+00:31:47,050 --> 00:31:48,440
+and bully me around.
+
+717
+00:31:48,440 --> 00:31:50,440
+So my strategy if
+we had their stack
+
+718
+00:31:50,440 --> 00:31:55,630
+would be to call my entire
+range that I plan on playing.
+
+719
+00:31:55,630 --> 00:31:57,940
+But in this case, the
+only thing calling does
+
+720
+00:31:57,940 --> 00:31:59,330
+is it gives him more options.
+
+721
+00:31:59,330 --> 00:32:02,200
+Like let's say they had a
+very marginal situation,
+
+722
+00:32:02,200 --> 00:32:04,090
+like let's say they
+had king-queen suited.
+
+723
+00:32:04,090 --> 00:32:06,970
+I think if I only
+called, they could maybe
+
+724
+00:32:06,970 --> 00:32:09,580
+argue for calling themselves
+with king-queen suited
+
+725
+00:32:09,580 --> 00:32:10,630
+and seeing a flop.
+
+726
+00:32:10,630 --> 00:32:12,550
+Whereas if I go all in,
+I think they're forced
+
+727
+00:32:12,550 --> 00:32:13,200
+to fold king-queen suited.
+
+728
+00:32:13,200 --> 00:32:13,990
+AUDIENCE: Basically,
+you have a better chance
+
+729
+00:32:13,990 --> 00:32:15,242
+at making him fold.
+
+730
+00:32:15,242 --> 00:32:15,950
+WILL MA: Exactly.
+
+731
+00:32:15,950 --> 00:32:17,370
+I'm just giving
+him fewer options.
+
+732
+00:32:17,370 --> 00:32:18,700
+But it's very, very marginal.
+
+733
+00:32:18,700 --> 00:32:21,810
+It affects it basically
+specifically for me
+
+734
+00:32:21,810 --> 00:32:25,090
+the king-queen suited, like it
+effects basically for one hand
+
+735
+00:32:25,090 --> 00:32:27,040
+or maybe like two
+or three hands.
+
+736
+00:32:30,090 --> 00:32:32,110
+But you might as well
+minimize the options
+
+737
+00:32:32,110 --> 00:32:35,410
+you give your opponent.
+
+738
+00:32:35,410 --> 00:32:38,940
+Yeah, like I'd say the
+minimum stack size I would
+
+739
+00:32:38,940 --> 00:32:44,910
+need before I call instead
+of go all in with is maybe,
+
+740
+00:32:44,910 --> 00:32:47,100
+I think maybe like 13,000.
+
+741
+00:32:47,100 --> 00:32:49,530
+I think at 13,000,
+it's sort of more
+
+742
+00:32:49,530 --> 00:32:51,835
+than I want to risk
+against the pot.
+
+743
+00:32:56,390 --> 00:32:57,760
+So now we're kind of short.
+
+744
+00:32:57,760 --> 00:32:59,030
+So we blind out for a bit.
+
+745
+00:32:59,030 --> 00:32:59,986
+We don't get cards.
+
+746
+00:32:59,986 --> 00:33:01,860
+And when you don't get
+cards in a tournament,
+
+747
+00:33:01,860 --> 00:33:05,260
+there's not really much you
+can do other than blind down,
+
+748
+00:33:05,260 --> 00:33:08,390
+not just go all in with
+crap and just lose.
+
+749
+00:33:08,390 --> 00:33:10,100
+So we blind down
+for a bit, but we're
+
+750
+00:33:10,100 --> 00:33:11,467
+fortunate to pick up kings.
+
+751
+00:33:11,467 --> 00:33:12,800
+So this is sort of a no-brainer.
+
+752
+00:33:12,800 --> 00:33:13,380
+We go all in.
+
+753
+00:33:13,380 --> 00:33:15,130
+There's no point
+trapping, because they're
+
+754
+00:33:15,130 --> 00:33:16,780
+guaranteed to call us.
+
+755
+00:33:16,780 --> 00:33:19,910
+And we get called by ace-five,
+and we win, which is good.
+
+756
+00:33:24,650 --> 00:33:27,230
+The next hand we get
+eight-seven offsuit,
+
+757
+00:33:27,230 --> 00:33:31,160
+and against a button raise,
+I think calling is fine.
+
+758
+00:33:31,160 --> 00:33:34,340
+I think their range is just
+going to be wide enough, where
+
+759
+00:33:34,340 --> 00:33:36,620
+even though the reverse
+implied odds, once again,
+
+760
+00:33:36,620 --> 00:33:38,390
+really don't work in
+our favor, we just
+
+761
+00:33:38,390 --> 00:33:41,630
+have to sort of realize
+the equity from 4 and 1/2
+
+762
+00:33:41,630 --> 00:33:45,450
+to 1 odds, so I'm going to call.
+
+763
+00:33:45,450 --> 00:33:46,630
+So we flop nothing.
+
+764
+00:33:46,630 --> 00:33:48,810
+I'm planning to just check-fold.
+
+765
+00:33:48,810 --> 00:33:49,440
+So I check.
+
+766
+00:33:49,440 --> 00:33:50,970
+They check back.
+
+767
+00:33:50,970 --> 00:33:51,840
+The turn's a four.
+
+768
+00:33:51,840 --> 00:33:53,430
+Once again, we have nothing.
+
+769
+00:33:53,430 --> 00:33:56,250
+I could bluff here, but
+I figure I'm not really
+
+770
+00:33:56,250 --> 00:33:58,050
+looking to make a big
+bluff with this hand,
+
+771
+00:33:58,050 --> 00:33:59,720
+because I have no draw, no pair.
+
+772
+00:33:59,720 --> 00:34:01,500
+There's no point.
+
+773
+00:34:01,500 --> 00:34:04,000
+But I will probably look to
+make a bluff on the river
+
+774
+00:34:04,000 --> 00:34:06,090
+if they also check,
+just because whenever
+
+775
+00:34:06,090 --> 00:34:10,830
+you have no chance of winning
+the pot and it's the river,
+
+776
+00:34:10,830 --> 00:34:13,071
+then making a bluff
+is not unreasonable.
+
+777
+00:34:13,071 --> 00:34:14,820
+But in this case,
+bluffing is kind of bad,
+
+778
+00:34:14,820 --> 00:34:17,659
+because with any club,
+they might just call me.
+
+779
+00:34:17,659 --> 00:34:21,400
+Because any club is going
+to have some equity.
+
+780
+00:34:21,400 --> 00:34:22,150
+So I check.
+
+781
+00:34:22,150 --> 00:34:23,114
+They check back.
+
+782
+00:34:23,114 --> 00:34:25,030
+The river is a fourth
+club, which is, I think,
+
+783
+00:34:25,030 --> 00:34:26,590
+a pretty good card for me.
+
+784
+00:34:26,590 --> 00:34:29,800
+Because I can easily represent
+a small club, and if I did
+
+785
+00:34:29,800 --> 00:34:32,179
+have a small club, I am
+definitely value betting.
+
+786
+00:34:32,179 --> 00:34:34,389
+So it's a pretty good
+card for me to bluff,
+
+787
+00:34:34,389 --> 00:34:38,130
+and they're probably going
+to have to fold king high.
+
+788
+00:34:38,130 --> 00:34:40,480
+So I bet, and I don't
+think I bet fairly big.
+
+789
+00:34:40,480 --> 00:34:42,650
+I'm just looking
+for a size where
+
+790
+00:34:42,650 --> 00:34:44,420
+they have to fold
+sometimes, and they'll
+
+791
+00:34:44,420 --> 00:34:49,659
+have to pay me off sometimes
+when I have a small club.
+
+792
+00:34:49,659 --> 00:34:54,010
+So they raised me here,
+which is pretty weird.
+
+793
+00:34:54,010 --> 00:34:57,540
+I still don't really have a good
+idea of what I think he has.
+
+794
+00:34:57,540 --> 00:35:00,110
+I mean I'm certain
+they have me beat.
+
+795
+00:35:00,110 --> 00:35:02,679
+You know so I just fold.
+
+796
+00:35:02,679 --> 00:35:04,720
+We could think a bit about
+doing something crazy,
+
+797
+00:35:04,720 --> 00:35:07,210
+like go all in, but it
+would just be weird.
+
+798
+00:35:07,210 --> 00:35:08,640
+I think it's unnecessary.
+
+799
+00:35:08,640 --> 00:35:09,840
+We've got nothing.
+
+800
+00:35:09,840 --> 00:35:10,697
+So I just fold.
+
+801
+00:35:10,697 --> 00:35:11,530
+I don't really know.
+
+802
+00:35:11,530 --> 00:35:13,750
+Maybe they just had like
+a slow played flush.
+
+803
+00:35:13,750 --> 00:35:16,090
+It's possible they had like
+a king high flush here.
+
+804
+00:35:16,090 --> 00:35:18,460
+And they slow-played the flop.
+
+805
+00:35:18,460 --> 00:35:20,830
+They decided to
+slow-play the turn again,
+
+806
+00:35:20,830 --> 00:35:24,370
+because the turn sort
+of didn't hit anybody.
+
+807
+00:35:24,370 --> 00:35:25,990
+Yeah, I'm not sure.
+
+808
+00:35:25,990 --> 00:35:27,460
+So I fold here.
+
+809
+00:35:27,460 --> 00:35:29,800
+I mean, it's possible
+they just had a high club.
+
+810
+00:35:29,800 --> 00:35:31,510
+But I feel like
+with a high club,
+
+811
+00:35:31,510 --> 00:35:33,820
+they should have
+bet at some point,
+
+812
+00:35:33,820 --> 00:35:37,840
+just because a good flush
+draw is just as enough equity.
+
+813
+00:35:37,840 --> 00:35:41,170
+But nonetheless, I
+guess we'll never know.
+
+814
+00:35:41,170 --> 00:35:42,420
+That's one benefit of calling.
+
+815
+00:35:42,420 --> 00:35:46,030
+You get to find out
+what your opponent had.
+
+816
+00:35:46,030 --> 00:35:47,980
+So the next hand,
+we have queen-jack.
+
+817
+00:35:47,980 --> 00:35:49,070
+We've got 12 bets.
+
+818
+00:35:49,070 --> 00:35:49,870
+I just go all in.
+
+819
+00:35:49,870 --> 00:35:52,420
+12 is around the cut
+off, like I said,
+
+820
+00:35:52,420 --> 00:35:55,270
+12 is sort of the cutoff where
+if you have 12 bets or less,
+
+821
+00:35:55,270 --> 00:35:57,620
+instead of raising,
+just go all in.
+
+822
+00:35:57,620 --> 00:35:59,680
+And that's what we do.
+
+823
+00:35:59,680 --> 00:36:01,390
+So we get called, but--
+
+824
+00:36:01,390 --> 00:36:03,180
+so this is actually
+a pretty sick board.
+
+825
+00:36:03,180 --> 00:36:04,710
+Yeah, so they
+flopped a full house,
+
+826
+00:36:04,710 --> 00:36:06,704
+but we rivered a
+higher full house.
+
+827
+00:36:06,704 --> 00:36:07,970
+[LAUGHTER]
+
+828
+00:36:07,970 --> 00:36:10,360
+Yeah, it's sort of a
+waste, because normally
+
+829
+00:36:10,360 --> 00:36:13,570
+if this happens, you can win
+like 100 big blinds from them
+
+830
+00:36:13,570 --> 00:36:14,500
+probably.
+
+831
+00:36:14,500 --> 00:36:18,700
+But instead we only won
+how many, eight big blinds.
+
+832
+00:36:18,700 --> 00:36:20,280
+So it's sort of a
+waste but whatever.
+
+833
+00:36:24,830 --> 00:36:28,250
+OK so the next hand,
+I got pocket fives,
+
+834
+00:36:28,250 --> 00:36:33,330
+and we raise to a thousand.
+
+835
+00:36:33,330 --> 00:36:35,440
+And [? Liamkid ?]
+goes all in again.
+
+836
+00:36:35,440 --> 00:36:40,000
+And you know, it's irritating,
+but once again, I have to fold.
+
+837
+00:36:40,000 --> 00:36:40,890
+I think I just--
+
+838
+00:36:40,890 --> 00:36:44,290
+I don't have enough equity
+to call, given his range.
+
+839
+00:36:44,290 --> 00:36:46,980
+Once again it's a situation
+where it's a fairly big all in.
+
+840
+00:36:46,980 --> 00:36:50,190
+So I could maybe not
+put them on aces,
+
+841
+00:36:50,190 --> 00:36:52,360
+although given that
+they've done this once,
+
+842
+00:36:52,360 --> 00:36:54,870
+they're more likely to just do
+this with their entire range
+
+843
+00:36:54,870 --> 00:36:56,820
+and play a strategy
+where they're just
+
+844
+00:36:56,820 --> 00:36:58,110
+going on preflop a lot.
+
+845
+00:36:58,110 --> 00:37:00,240
+So maybe they could have
+aces in their range,
+
+846
+00:37:00,240 --> 00:37:03,260
+but nonetheless, regardless, I
+think it's not even that close.
+
+847
+00:37:03,260 --> 00:37:04,950
+I just fold.
+
+848
+00:37:04,950 --> 00:37:07,440
+Yeah, we don't really want
+to call in frustration,
+
+849
+00:37:07,440 --> 00:37:09,960
+because you saw what happened
+to the guy with pocket sevens
+
+850
+00:37:09,960 --> 00:37:14,739
+when he ran into our pocket
+jacks in the earlier hand.
+
+851
+00:37:14,739 --> 00:37:16,280
+OK, so I'll take a
+short break there.
+
+852
+00:37:16,280 --> 00:37:18,740
+And then I'll finish up
+the rest of the hands
+
+853
+00:37:18,740 --> 00:37:19,970
+in like two minutes.
+
+854
+00:37:24,440 --> 00:37:26,210
+OK, so I'm going to get started.
+
+855
+00:37:30,350 --> 00:37:33,965
+The next hand we get
+we king-eight offsuit.
+
+856
+00:37:33,965 --> 00:37:36,110
+And once again, it's one
+of these situations where
+
+857
+00:37:36,110 --> 00:37:38,240
+we're not thrilled
+to be calling,
+
+858
+00:37:38,240 --> 00:37:40,850
+especially now that our
+odds are even a bit worse,
+
+859
+00:37:40,850 --> 00:37:43,640
+because they actually made it
+2.25x, actually a bit more,
+
+860
+00:37:43,640 --> 00:37:47,360
+like 2.35x instead of 2x.
+
+861
+00:37:47,360 --> 00:37:50,660
+So against Degenerated,
+but king-eight offsuit, two
+
+862
+00:37:50,660 --> 00:37:54,370
+big cards, I think, with when
+we're sort of not that deep,
+
+863
+00:37:54,370 --> 00:37:58,610
+the reverse implied odds don't
+work against us that much,
+
+864
+00:37:58,610 --> 00:38:00,590
+so we call.
+
+865
+00:38:00,590 --> 00:38:02,710
+And we get a good preflop.
+
+866
+00:38:02,710 --> 00:38:03,650
+[LAUGHTER]
+
+867
+00:38:03,650 --> 00:38:07,130
+So we check, because once again,
+I'm checking my entire range.
+
+868
+00:38:07,130 --> 00:38:09,440
+That's how I choose
+to play my strategy.
+
+869
+00:38:09,440 --> 00:38:11,570
+And they bet.
+
+870
+00:38:11,570 --> 00:38:14,690
+And so this sort
+of, I think this
+
+871
+00:38:14,690 --> 00:38:20,750
+is a somewhat close situation,
+because there are some draws.
+
+872
+00:38:20,750 --> 00:38:22,250
+There is a flush
+draw, and there are
+
+873
+00:38:22,250 --> 00:38:23,750
+a bunch of straight
+draws if someone
+
+874
+00:38:23,750 --> 00:38:26,330
+has jack-10 or
+queen-jack or queen-10.
+
+875
+00:38:26,330 --> 00:38:28,490
+So I do think there is a
+decent amount of incentive
+
+876
+00:38:28,490 --> 00:38:29,870
+to just check-raise all in.
+
+877
+00:38:29,870 --> 00:38:31,550
+So on the second
+lecture, I showed you
+
+878
+00:38:31,550 --> 00:38:34,560
+a bunch of examples where
+on boards like this,
+
+879
+00:38:34,560 --> 00:38:36,920
+you can check-raise all
+in with your good hands
+
+880
+00:38:36,920 --> 00:38:38,870
+and check-raise all
+in with your draws,
+
+881
+00:38:38,870 --> 00:38:41,210
+and it's a pretty
+balanced strategy.
+
+882
+00:38:41,210 --> 00:38:44,010
+Because when you have a good
+hand, you have a good hand.
+
+883
+00:38:44,010 --> 00:38:45,635
+And when you have a
+draw, you have lots
+
+884
+00:38:45,635 --> 00:38:47,960
+of outs when you get called.
+
+885
+00:38:47,960 --> 00:38:51,610
+And another advantage
+of going all in is--
+
+886
+00:38:51,610 --> 00:38:54,680
+let's say I had like
+10-nine, I would probably
+
+887
+00:38:54,680 --> 00:38:55,510
+want to be raising.
+
+888
+00:38:55,510 --> 00:38:57,260
+Because with 10-nine,
+even though we
+
+889
+00:38:57,260 --> 00:39:00,500
+have a pretty good hand, we sort
+of want to protect our hand.
+
+890
+00:39:00,500 --> 00:39:03,190
+We don't really want a
+jack or queen or an ace
+
+891
+00:39:03,190 --> 00:39:04,590
+to come that much.
+
+892
+00:39:04,590 --> 00:39:08,210
+So it's close, but in the
+end, I decided to call.
+
+893
+00:39:08,210 --> 00:39:10,490
+And I think I decided
+I'm just going
+
+894
+00:39:10,490 --> 00:39:14,420
+to play pretty close, pretty
+much my entire strategy,
+
+895
+00:39:14,420 --> 00:39:15,890
+I'm just going to call here.
+
+896
+00:39:15,890 --> 00:39:21,320
+As tempting as it is, like let's
+say I had ace, Two of Diamonds,
+
+897
+00:39:21,320 --> 00:39:24,530
+or let's say like queen, Six of
+Diamonds to check-raise all in,
+
+898
+00:39:24,530 --> 00:39:27,140
+I think it's a board
+where it's already paired.
+
+899
+00:39:27,140 --> 00:39:29,180
+And if I have a
+flush draw, I still
+
+900
+00:39:29,180 --> 00:39:32,150
+have lots of opportunities
+to bluff on the river.
+
+901
+00:39:32,150 --> 00:39:33,950
+And if I have a
+good hand, there's
+
+902
+00:39:33,950 --> 00:39:36,470
+not that many outs,
+especially when I have a king.
+
+903
+00:39:36,470 --> 00:39:38,970
+So I'm just going to call and
+hope that the board comes out
+
+904
+00:39:38,970 --> 00:39:40,460
+well, which I guess it does.
+
+905
+00:39:43,000 --> 00:39:45,770
+So I check again, because this
+is how I'm playing jack-10.
+
+906
+00:39:45,770 --> 00:39:48,830
+This is how I'm playing
+all my hands essentially.
+
+907
+00:39:48,830 --> 00:39:50,150
+So they check back.
+
+908
+00:39:50,150 --> 00:39:51,720
+The river is kind of bad for us.
+
+909
+00:39:51,720 --> 00:39:54,590
+But I think it's hard for them
+to have a king at this point,
+
+910
+00:39:54,590 --> 00:39:59,090
+so I just bet out about
+a bit more than half
+
+911
+00:39:59,090 --> 00:40:03,980
+the pot, maybe 60% of
+the pot, yeah, 60%.
+
+912
+00:40:03,980 --> 00:40:06,332
+Oh, so they actually call
+me with ace-seven, which
+
+913
+00:40:06,332 --> 00:40:07,540
+I think is pretty reasonable.
+
+914
+00:40:07,540 --> 00:40:12,560
+I think ace-seven is a fine
+call against my strategy,
+
+915
+00:40:12,560 --> 00:40:14,480
+because I could have
+easily had jack-10
+
+916
+00:40:14,480 --> 00:40:17,797
+or queen-10 or queen-jack here.
+
+917
+00:40:17,797 --> 00:40:19,880
+Although I probably also
+play a nine the same way,
+
+918
+00:40:19,880 --> 00:40:24,080
+so they are also
+paying off my nines.
+
+919
+00:40:24,080 --> 00:40:25,280
+So one good thing, actually.
+
+920
+00:40:25,280 --> 00:40:27,950
+So this is one
+interesting thing to think
+
+921
+00:40:27,950 --> 00:40:30,050
+about that's sort of
+advanced, but I think
+
+922
+00:40:30,050 --> 00:40:33,590
+it's cool is the fact that
+they have ace-seven, I think,
+
+923
+00:40:33,590 --> 00:40:36,230
+makes their call a lot
+better than if they had,
+
+924
+00:40:36,230 --> 00:40:38,420
+say, ace-10 or ace-jack.
+
+925
+00:40:38,420 --> 00:40:40,920
+And the reason for-- so even
+the ace-seven is in some sense
+
+926
+00:40:40,920 --> 00:40:43,270
+a worse hand than
+ace-10 and ace-jack,
+
+927
+00:40:43,270 --> 00:40:45,080
+they're the same on this board.
+
+928
+00:40:45,080 --> 00:40:47,735
+And the problem with
+ace-10 and ace-jack
+
+929
+00:40:47,735 --> 00:40:50,180
+is if they have a
+10 or a jack, it's
+
+930
+00:40:50,180 --> 00:40:52,760
+less likely I have
+a 10 or a jack.
+
+931
+00:40:52,760 --> 00:40:54,572
+So when they're
+calling with ace-seven,
+
+932
+00:40:54,572 --> 00:40:56,030
+essentially what
+they're hoping for
+
+933
+00:40:56,030 --> 00:40:59,720
+is hoping for me to have jack-10
+or queen-10 or queen-jack.
+
+934
+00:40:59,720 --> 00:41:02,664
+So if they have a 10 or a jack,
+it just decreases that chance.
+
+935
+00:41:02,664 --> 00:41:04,580
+So it's almost like
+ace-seven is a better hand
+
+936
+00:41:04,580 --> 00:41:06,206
+to call with then ace-jack.
+
+937
+00:41:06,206 --> 00:41:08,330
+But nonetheless, with any
+ace, I think calling here
+
+938
+00:41:08,330 --> 00:41:10,840
+is reasonable, because I
+do have plenty of bluffs.
+
+939
+00:41:10,840 --> 00:41:12,850
+Any missed straight draw,
+any missed flush draw,
+
+940
+00:41:12,850 --> 00:41:15,880
+I will bluff in the
+same way on this river.
+
+941
+00:41:19,210 --> 00:41:21,710
+OK, so the next hand.
+
+942
+00:41:21,710 --> 00:41:23,430
+We won a bunch of
+pots, which is nice.
+
+943
+00:41:23,430 --> 00:41:25,220
+So we built our stack up.
+
+944
+00:41:25,220 --> 00:41:30,560
+So we get pocket fours here,
+and this guy raises it to 1,200.
+
+945
+00:41:30,560 --> 00:41:32,180
+Pocket fours is
+definitely a hand
+
+946
+00:41:32,180 --> 00:41:35,070
+where I want to be
+bluff-reraising with.
+
+947
+00:41:35,070 --> 00:41:38,390
+So I'm not I'm not hoping to
+get called when I reraise here,
+
+948
+00:41:38,390 --> 00:41:42,290
+but it's a hand that does quite
+well against the range of hands
+
+949
+00:41:42,290 --> 00:41:44,510
+I get called by, because
+a lot of times it'll just
+
+950
+00:41:44,510 --> 00:41:46,010
+be ace-king, ace-queen.
+
+951
+00:41:46,010 --> 00:41:51,000
+And they will fold quite a
+large percent of the time.
+
+952
+00:41:51,000 --> 00:41:52,250
+So I definitely want to raise.
+
+953
+00:41:52,250 --> 00:41:54,410
+The only question is
+how do I raise, right.
+
+954
+00:41:54,410 --> 00:41:58,130
+I could just go all in, which
+has the benefit that they can't
+
+955
+00:41:58,130 --> 00:41:59,360
+call and try to hit a pair.
+
+956
+00:41:59,360 --> 00:42:00,818
+Because that would
+actually be bad.
+
+957
+00:42:00,818 --> 00:42:03,939
+Let's say I only
+reraised to 3,000 here.
+
+958
+00:42:03,939 --> 00:42:05,480
+It's actually kind
+of bad if this guy
+
+959
+00:42:05,480 --> 00:42:07,790
+calls with this queen-jack
+trying to hit a pair.
+
+960
+00:42:07,790 --> 00:42:09,590
+Because that's actually
+the best strategy.
+
+961
+00:42:09,590 --> 00:42:11,240
+Basically, their
+obvious strategy
+
+962
+00:42:11,240 --> 00:42:12,710
+is good against my hand.
+
+963
+00:42:12,710 --> 00:42:17,190
+So I want to either go all
+in, which sort of denies them
+
+964
+00:42:17,190 --> 00:42:21,570
+that opportunity, but the
+problem with going all in
+
+965
+00:42:21,570 --> 00:42:24,110
+is let's suppose Check
+Raise picks up a hand.
+
+966
+00:42:24,110 --> 00:42:26,340
+Then I'm going to be losing
+with my pocket fours.
+
+967
+00:42:26,340 --> 00:42:30,024
+So there is this
+delicate balance here.
+
+968
+00:42:30,024 --> 00:42:32,190
+And this is why I think
+tournaments are interesting,
+
+969
+00:42:32,190 --> 00:42:34,800
+because there's plays that
+are good against big stacks
+
+970
+00:42:34,800 --> 00:42:36,720
+and plays that are good
+against small stacks.
+
+971
+00:42:36,720 --> 00:42:38,345
+But in reality in a
+tournament, there's
+
+972
+00:42:38,345 --> 00:42:41,040
+going to be big stacks and
+small stacks at the table,
+
+973
+00:42:41,040 --> 00:42:43,770
+and often you do have to
+compromise between the lesser
+
+974
+00:42:43,770 --> 00:42:44,850
+of two evils.
+
+975
+00:42:44,850 --> 00:42:46,380
+And that's sort
+of what I do here.
+
+976
+00:42:46,380 --> 00:42:50,019
+So I decide to raise to
+3,600, which is bigger
+
+977
+00:42:50,019 --> 00:42:51,060
+than I'd usually make it.
+
+978
+00:42:51,060 --> 00:42:53,400
+Usually, I'd make
+it maybe like 3,000.
+
+979
+00:42:53,400 --> 00:43:00,570
+But when this guy is this
+short, [? RoflLolBoom, ?] I
+
+980
+00:43:00,570 --> 00:43:02,700
+don't really want to
+let them just call,
+
+981
+00:43:02,700 --> 00:43:06,440
+but on the other hand, I want to
+be able to fold if one of these
+
+982
+00:43:06,440 --> 00:43:09,090
+two guys, Check Raise or
+[? Vampson ?] picks up a hand.
+
+983
+00:43:09,090 --> 00:43:12,290
+So I sort of compromise
+between making it 3,600.
+
+984
+00:43:12,290 --> 00:43:13,570
+They both folded.
+
+985
+00:43:13,570 --> 00:43:21,390
+This guy also folds, which
+is, I guess, an ideal result.
+
+986
+00:43:21,390 --> 00:43:24,510
+The next hand we have
+eight-queen offsuit,
+
+987
+00:43:24,510 --> 00:43:27,540
+and we make it 1,600.
+
+988
+00:43:27,540 --> 00:43:31,650
+So I know I said make it
+2.25x, and I stand by that.
+
+989
+00:43:31,650 --> 00:43:33,190
+I think that's a good strategy.
+
+990
+00:43:33,190 --> 00:43:35,719
+I think at the time I'm
+just, so once again, I'm
+
+991
+00:43:35,719 --> 00:43:38,260
+probably still playing a lot of
+tables, and I'm kind of lazy.
+
+992
+00:43:38,260 --> 00:43:41,520
+So I'm too lazy to
+type in 1,800 manually,
+
+993
+00:43:41,520 --> 00:43:44,100
+whereas the software
+defaults to just 2x.
+
+994
+00:43:44,100 --> 00:43:46,740
+So I tend to just
+2x, but I think
+
+995
+00:43:46,740 --> 00:43:49,350
+it's probably not the
+theoretical optimal strategy.
+
+996
+00:43:49,350 --> 00:43:54,660
+I would guess that the optimal
+thing to do is closer to 2.25x.
+
+997
+00:43:54,660 --> 00:43:58,410
+So [? Vampson ?]
+calls us in position.
+
+998
+00:43:58,410 --> 00:44:01,620
+So immediately I could think of
+it like, what is their range?
+
+999
+00:44:01,620 --> 00:44:03,400
+Because it's a
+spot where I expect
+
+1000
+00:44:03,400 --> 00:44:05,940
+him to go all in with
+most of their good hands.
+
+1001
+00:44:05,940 --> 00:44:07,920
+So the question is
+are they trapping me,
+
+1002
+00:44:07,920 --> 00:44:09,750
+or do they literally
+just always have
+
+1003
+00:44:09,750 --> 00:44:13,500
+a hand like jack-10 suited,
+king-queen, or something
+
+1004
+00:44:13,500 --> 00:44:14,570
+like that.
+
+1005
+00:44:14,570 --> 00:44:17,370
+So immediately, it's sort
+of an interesting spot,
+
+1006
+00:44:17,370 --> 00:44:20,220
+because I expect them to
+mostly be raising when
+
+1007
+00:44:20,220 --> 00:44:22,960
+they want to play their hand.
+
+1008
+00:44:22,960 --> 00:44:26,250
+So we flop four, 10, nine.
+
+1009
+00:44:26,250 --> 00:44:29,760
+And it's definitely a pretty
+bad board for us, overall.
+
+1010
+00:44:29,760 --> 00:44:34,040
+Like I think if, like
+regardless of their strategy,
+
+1011
+00:44:34,040 --> 00:44:36,450
+like if their strategy
+is to trap us sometimes,
+
+1012
+00:44:36,450 --> 00:44:38,940
+then this board
+is just terrible.
+
+1013
+00:44:38,940 --> 00:44:41,100
+And even if their
+strategy isn't to trap us,
+
+1014
+00:44:41,100 --> 00:44:43,200
+they've always got a
+straight draw on this board,
+
+1015
+00:44:43,200 --> 00:44:45,720
+because they're going to
+have king-queen or queen-jack
+
+1016
+00:44:45,720 --> 00:44:46,680
+or something.
+
+1017
+00:44:46,680 --> 00:44:49,080
+So I think objectively,
+it's a pretty bad board.
+
+1018
+00:44:49,080 --> 00:44:51,694
+Maybe they could have ace-jack
+or ace-queen themselves.
+
+1019
+00:44:51,694 --> 00:44:53,610
+Although ace-queen, I
+think they're definitely
+
+1020
+00:44:53,610 --> 00:44:57,540
+raising preflop, so
+probably just ace-jack.
+
+1021
+00:44:57,540 --> 00:44:59,940
+I do think we're not
+in great shape here,
+
+1022
+00:44:59,940 --> 00:45:03,720
+but I decide to bet anyway,
+essentially just banking
+
+1023
+00:45:03,720 --> 00:45:04,800
+on my Ace of Clubs.
+
+1024
+00:45:04,800 --> 00:45:07,800
+I definitely wouldn't be betting
+this without Ace of Clubs.
+
+1025
+00:45:07,800 --> 00:45:11,310
+But my strategy is to
+bet, and if I get called,
+
+1026
+00:45:11,310 --> 00:45:14,990
+I'm going to go all in on any
+club turn, any jack, queen,
+
+1027
+00:45:14,990 --> 00:45:16,080
+or ace turn.
+
+1028
+00:45:16,080 --> 00:45:18,940
+So essentially, any club turn
+I'll have the nut flush draw.
+
+1029
+00:45:18,940 --> 00:45:22,740
+Any jack turn, I have
+a good straight draw
+
+1030
+00:45:22,740 --> 00:45:24,890
+with two overcards,
+and any queen or ace
+
+1031
+00:45:24,890 --> 00:45:27,480
+turn pairs with my hand.
+
+1032
+00:45:27,480 --> 00:45:29,310
+So I just think
+there's enough turns
+
+1033
+00:45:29,310 --> 00:45:31,460
+where I can basically
+continue bluffing, continue
+
+1034
+00:45:31,460 --> 00:45:32,460
+barreling on.
+
+1035
+00:45:32,460 --> 00:45:34,264
+That one barrel has to be OK.
+
+1036
+00:45:34,264 --> 00:45:35,930
+But I'm only making
+this play, because I
+
+1037
+00:45:35,930 --> 00:45:37,230
+have the Ace of Clubs.
+
+1038
+00:45:37,230 --> 00:45:39,420
+Even with the Queen
+of Clubs, I probably
+
+1039
+00:45:39,420 --> 00:45:41,760
+would've just
+given up this hand.
+
+1040
+00:45:41,760 --> 00:45:42,787
+But we do get a fold.
+
+1041
+00:45:42,787 --> 00:45:44,370
+So I guess they
+probably had ace-jack.
+
+1042
+00:45:44,370 --> 00:45:45,995
+That's probably their
+most likely hand,
+
+1043
+00:45:45,995 --> 00:45:49,740
+maybe something like
+pocket sevens they folded.
+
+1044
+00:45:49,740 --> 00:45:52,260
+Yeah, so that sort of shows
+you the importance sometimes
+
+1045
+00:45:52,260 --> 00:45:53,820
+of backdoor draws.
+
+1046
+00:45:53,820 --> 00:45:56,422
+Because let's say they
+had pocket sevens here.
+
+1047
+00:45:56,422 --> 00:45:58,380
+Let's say they called
+with pocket sevens, which
+
+1048
+00:45:58,380 --> 00:46:00,774
+I don't think is unreasonable.
+
+1049
+00:46:00,774 --> 00:46:02,190
+If I didn't have
+the Ace of Clubs,
+
+1050
+00:46:02,190 --> 00:46:05,504
+I'm going to just have to end up
+giving up on a bunch of turns,
+
+1051
+00:46:05,504 --> 00:46:07,920
+and they would take down the
+pot with their pocket sevens.
+
+1052
+00:46:07,920 --> 00:46:09,700
+But because I have
+the Ace of Clubs,
+
+1053
+00:46:09,700 --> 00:46:11,700
+it's just very, very
+unlikely they end up
+
+1054
+00:46:11,700 --> 00:46:13,408
+winning the hand with
+the pair of sevens.
+
+1055
+00:46:13,408 --> 00:46:15,000
+Because I'm going
+to shove a lot of
+
+1056
+00:46:15,000 --> 00:46:17,230
+turns, and they're just
+going to have to fold.
+
+1057
+00:46:22,830 --> 00:46:25,970
+OK, so the next hand we
+get queen-jack again.
+
+1058
+00:46:25,970 --> 00:46:28,490
+And we raise here.
+
+1059
+00:46:28,490 --> 00:46:31,550
+And so this same guy,
+[? Vampson, ?] they call.
+
+1060
+00:46:31,550 --> 00:46:35,150
+And we get a good flop.
+
+1061
+00:46:35,150 --> 00:46:37,330
+So I bet-- OK, so I'm
+going to talk about this.
+
+1062
+00:46:37,330 --> 00:46:40,770
+So I bet 1,600 here,
+which is quite small.
+
+1063
+00:46:40,770 --> 00:46:41,670
+It's like 40%.
+
+1064
+00:46:41,670 --> 00:46:43,730
+It's like less than
+40% of the pot.
+
+1065
+00:46:43,730 --> 00:46:46,220
+I might have done
+it out of laziness,
+
+1066
+00:46:46,220 --> 00:46:48,350
+or I might have just done
+it because of my cards,
+
+1067
+00:46:48,350 --> 00:46:49,975
+because I have two
+pair, and I'm trying
+
+1068
+00:46:49,975 --> 00:46:53,330
+to sucker him in and get him to
+put in all this money slowly.
+
+1069
+00:46:53,330 --> 00:46:55,580
+But looking back,
+I definitely don't
+
+1070
+00:46:55,580 --> 00:46:58,460
+think this is how I want to
+be playing my entire strategy
+
+1071
+00:46:58,460 --> 00:46:59,660
+on this flop.
+
+1072
+00:46:59,660 --> 00:47:02,960
+I think I want to be betting at
+least half the pot when there's
+
+1073
+00:47:02,960 --> 00:47:06,920
+a flush draw, a straight draw,
+like a bunch of straight draws.
+
+1074
+00:47:06,920 --> 00:47:09,500
+I definitely think this
+bet is way too small.
+
+1075
+00:47:09,500 --> 00:47:11,930
+On average, even if I
+have a pretty good hand,
+
+1076
+00:47:11,930 --> 00:47:14,270
+let's say like
+queen-nine, there's
+
+1077
+00:47:14,270 --> 00:47:16,070
+just a lot of bad
+cards for me that I
+
+1078
+00:47:16,070 --> 00:47:18,380
+don't want to be betting
+this small on this board.
+
+1079
+00:47:18,380 --> 00:47:21,560
+I don't know if at the time I
+just misclicked and messed up,
+
+1080
+00:47:21,560 --> 00:47:24,380
+or I was lazy and I just
+wanted to make it 2x,
+
+1081
+00:47:24,380 --> 00:47:27,522
+or I specifically had a
+read that I could exploit
+
+1082
+00:47:27,522 --> 00:47:28,730
+this player by betting small.
+
+1083
+00:47:28,730 --> 00:47:32,850
+But this is not how I would
+like to balance my strategy.
+
+1084
+00:47:32,850 --> 00:47:35,690
+And If you ever see me
+doing this, most likely
+
+1085
+00:47:35,690 --> 00:47:39,320
+I had a really good hand,
+as I do in this case.
+
+1086
+00:47:39,320 --> 00:47:41,229
+So unfortunately
+it doesn't work.
+
+1087
+00:47:41,229 --> 00:47:43,020
+So I'm going to talk
+about this a bit more.
+
+1088
+00:47:43,020 --> 00:47:47,757
+So I'm going to jump back
+to theory just for a bit.
+
+1089
+00:47:47,757 --> 00:47:49,590
+I don't think I've
+talked about this before,
+
+1090
+00:47:49,590 --> 00:47:52,370
+but I want to say that
+bet sizing depends
+
+1091
+00:47:52,370 --> 00:47:53,690
+on board texture.
+
+1092
+00:47:53,690 --> 00:47:55,650
+So let me explain
+what I mean here.
+
+1093
+00:47:55,650 --> 00:47:58,180
+So essentially, there's
+two types of boards.
+
+1094
+00:47:58,180 --> 00:48:01,880
+There's dry boards
+and drawy boards.
+
+1095
+00:48:01,880 --> 00:48:03,660
+So I hate this
+terminology, because these
+
+1096
+00:48:03,660 --> 00:48:05,690
+are two words that
+mean opposite things,
+
+1097
+00:48:05,690 --> 00:48:07,572
+and they sound very
+similar, especially
+
+1098
+00:48:07,572 --> 00:48:08,530
+if you don't enunciate.
+
+1099
+00:48:08,530 --> 00:48:11,590
+But it's dry and drawy.
+
+1100
+00:48:11,590 --> 00:48:14,130
+Maybe I can't
+pronounce them well.
+
+1101
+00:48:14,130 --> 00:48:17,420
+Dry boards is basically boards
+where the winner is mostly
+
+1102
+00:48:17,420 --> 00:48:19,460
+decided before the
+river, and you're either
+
+1103
+00:48:19,460 --> 00:48:21,010
+way ahead or way behind.
+
+1104
+00:48:21,010 --> 00:48:23,685
+Drawy boards is basically
+boards with a lot of flush
+
+1105
+00:48:23,685 --> 00:48:26,720
+draws, straight draws,
+where every subsequent card
+
+1106
+00:48:26,720 --> 00:48:28,370
+can change the board a lot.
+
+1107
+00:48:28,370 --> 00:48:30,650
+And it's hard to fold,
+because all hands have equity.
+
+1108
+00:48:30,650 --> 00:48:33,320
+So in reality, most boards,
+they're somewhere in between.
+
+1109
+00:48:33,320 --> 00:48:35,480
+It's a spectrum.
+
+1110
+00:48:35,480 --> 00:48:37,479
+So what are some
+characteristics of dry boards?
+
+1111
+00:48:37,479 --> 00:48:39,020
+Well, a board tends
+to be dry if it's
+
+1112
+00:48:39,020 --> 00:48:41,120
+paired, like four, four, eight.
+
+1113
+00:48:41,120 --> 00:48:44,080
+That tends to be pretty dry,
+because not much is going in.
+
+1114
+00:48:44,080 --> 00:48:46,210
+Most will have
+missed that board.
+
+1115
+00:48:46,210 --> 00:48:48,200
+A board is dry if the
+highest card is big.
+
+1116
+00:48:48,200 --> 00:48:51,230
+Like if the highest card is
+an ace, then against someone
+
+1117
+00:48:51,230 --> 00:48:53,840
+with an ace, if you don't have
+a face flush or straight draw,
+
+1118
+00:48:53,840 --> 00:48:56,970
+you're already kind of
+drawing close to dead.
+
+1119
+00:48:56,970 --> 00:49:00,140
+Whereas if the highest card is
+a 10, then if you have a queen,
+
+1120
+00:49:00,140 --> 00:49:04,760
+you always have an opportunity
+to turn a queen and beat them.
+
+1121
+00:49:04,760 --> 00:49:07,070
+It's dry if there's no middle
+cards for straight draws,
+
+1122
+00:49:07,070 --> 00:49:09,980
+if there's no
+flush draws, or I'd
+
+1123
+00:49:09,980 --> 00:49:12,740
+say, if there's already four
+to a flush or already four
+
+1124
+00:49:12,740 --> 00:49:15,632
+to a straight, then it's
+also sort of dry, because--
+
+1125
+00:49:15,632 --> 00:49:17,340
+like if there's already
+Four of Diamonds,
+
+1126
+00:49:17,340 --> 00:49:19,890
+then it's also sort of
+decided who wins already.
+
+1127
+00:49:19,890 --> 00:49:22,070
+Like if you have a
+big diamond, you're
+
+1128
+00:49:22,070 --> 00:49:26,002
+pretty much guaranteed to
+win, barring some full house.
+
+1129
+00:49:26,002 --> 00:49:27,210
+Same with four to a straight.
+
+1130
+00:49:27,210 --> 00:49:29,400
+If it's like nine,
+10, jack, queen.
+
+1131
+00:49:29,400 --> 00:49:33,480
+If you have a king, you're just
+pretty much guaranteed to win.
+
+1132
+00:49:33,480 --> 00:49:35,680
+And so on the other hand,
+what are drawy boards?
+
+1133
+00:49:35,680 --> 00:49:37,054
+It's sort of the
+opposite, right.
+
+1134
+00:49:37,054 --> 00:49:38,500
+Small cards, why small cards?
+
+1135
+00:49:38,500 --> 00:49:41,450
+Because everyone's going to have
+overcards, which is six outs.
+
+1136
+00:49:41,450 --> 00:49:44,160
+Flush draws or three to a
+flush is also very drawy,
+
+1137
+00:49:44,160 --> 00:49:46,060
+because if there's
+three to a flush,
+
+1138
+00:49:46,060 --> 00:49:50,420
+then someone with just any card
+of that suit has a flush draw.
+
+1139
+00:49:50,420 --> 00:49:52,070
+Boards with straight draws.
+
+1140
+00:49:52,070 --> 00:49:55,610
+So how should your play change
+on these two types of boards?
+
+1141
+00:49:55,610 --> 00:49:59,735
+Well, on dry boards, you can
+bet pretty small fractions
+
+1142
+00:49:59,735 --> 00:50:02,000
+of the pot on the flop and turn.
+
+1143
+00:50:02,000 --> 00:50:04,100
+And your opponent might
+not have the odds to call.
+
+1144
+00:50:04,100 --> 00:50:08,210
+So like if the flop is
+ace, ace, two or maybe ace,
+
+1145
+00:50:08,210 --> 00:50:10,070
+ace, seven with no
+flush draws, you
+
+1146
+00:50:10,070 --> 00:50:13,274
+can bet like a fifth of
+the pot, and your opponent
+
+1147
+00:50:13,274 --> 00:50:15,440
+is still going to have to
+fold a lot of their hands.
+
+1148
+00:50:15,440 --> 00:50:19,650
+Because if you've got an
+ace, they're just way behind.
+
+1149
+00:50:19,650 --> 00:50:21,290
+What's another characteristic?
+
+1150
+00:50:21,290 --> 00:50:24,200
+Is any draw might be good
+enough to make a bluff.
+
+1151
+00:50:24,200 --> 00:50:28,070
+So like if the board is ace,
+ace, seven with no flush draw,
+
+1152
+00:50:28,070 --> 00:50:31,280
+and you've got like eight, nine
+with a backdoor flush draw,
+
+1153
+00:50:31,280 --> 00:50:33,050
+that's a pretty good
+hand to make a bluff.
+
+1154
+00:50:33,050 --> 00:50:35,840
+Because you've got three
+to a straight and three
+
+1155
+00:50:35,840 --> 00:50:37,970
+to a flush, which
+is sort of the most
+
+1156
+00:50:37,970 --> 00:50:40,810
+you could possibly ask for
+on that flop with respect
+
+1157
+00:50:40,810 --> 00:50:42,170
+to draws.
+
+1158
+00:50:42,170 --> 00:50:45,890
+And another aspect of playing
+dry boards is slow playing.
+
+1159
+00:50:45,890 --> 00:50:47,460
+Tricky plays are good.
+
+1160
+00:50:47,460 --> 00:50:50,300
+Because the thing that matters
+isn't preventing your opponent
+
+1161
+00:50:50,300 --> 00:50:52,940
+from seeing the turn and river
+and not letting them see outs.
+
+1162
+00:50:52,940 --> 00:50:56,180
+The thing that matters is sort
+of convincing your opponent
+
+1163
+00:50:56,180 --> 00:50:58,670
+that you have a good hand when
+you don't or convincing them
+
+1164
+00:50:58,670 --> 00:51:00,380
+that you don't have a
+good hand when you do.
+
+1165
+00:51:00,380 --> 00:51:02,088
+So it's all about
+tricking your opponent,
+
+1166
+00:51:02,088 --> 00:51:03,710
+disguising these tricky--
+
+1167
+00:51:03,710 --> 00:51:05,520
+I mean, I shouldn't say that.
+
+1168
+00:51:05,520 --> 00:51:07,820
+Simple play can still
+be good on dry boards,
+
+1169
+00:51:07,820 --> 00:51:10,949
+but in general, slow
+playing is reasonable
+
+1170
+00:51:10,949 --> 00:51:12,740
+And tricking, trying
+to trick your opponent
+
+1171
+00:51:12,740 --> 00:51:14,390
+is more important.
+
+1172
+00:51:14,390 --> 00:51:16,320
+Whereas on drawy
+boards, you just
+
+1173
+00:51:16,320 --> 00:51:19,100
+want to bet large fractions
+of the pot before the river,
+
+1174
+00:51:19,100 --> 00:51:21,024
+because every hand
+has so many outs.
+
+1175
+00:51:21,024 --> 00:51:23,440
+You really don't want to be
+giving them good odds to call.
+
+1176
+00:51:23,440 --> 00:51:26,180
+And on the flop and turn,
+if you don't have anything,
+
+1177
+00:51:26,180 --> 00:51:27,620
+then just don't
+put any money in.
+
+1178
+00:51:27,620 --> 00:51:30,470
+Because bluffing is pretty
+moot, because so many hands
+
+1179
+00:51:30,470 --> 00:51:32,216
+aren't folding,
+because they have outs.
+
+1180
+00:51:32,216 --> 00:51:33,590
+And yeah, don't
+really slow play.
+
+1181
+00:51:33,590 --> 00:51:35,162
+If you have a good
+hand, similarly,
+
+1182
+00:51:35,162 --> 00:51:37,370
+just put all the money in
+right away, because they're
+
+1183
+00:51:37,370 --> 00:51:38,960
+going to call very often,
+because they're always
+
+1184
+00:51:38,960 --> 00:51:40,220
+going to have some outs.
+
+1185
+00:51:40,220 --> 00:51:44,521
+So that's roughly
+how the play changes.
+
+1186
+00:51:44,521 --> 00:51:45,770
+OK, so I'll come back to this.
+
+1187
+00:51:45,770 --> 00:51:47,150
+We'll see these hands in a bit.
+
+1188
+00:51:47,150 --> 00:51:49,520
+So coming back to
+this queen-jack hand,
+
+1189
+00:51:49,520 --> 00:51:51,890
+the reason why I think
+my bet is too small
+
+1190
+00:51:51,890 --> 00:51:54,470
+is because I would
+consider this queen, jack,
+
+1191
+00:51:54,470 --> 00:51:57,950
+three with a flush draw to be
+a fairly drawy board, fairly
+
+1192
+00:51:57,950 --> 00:52:01,130
+close to the drawy
+end of the spectrum.
+
+1193
+00:52:01,130 --> 00:52:04,250
+And I said you have to bet
+big fractions of the pot
+
+1194
+00:52:04,250 --> 00:52:07,250
+and here I am betting close to
+a third of the pot on the flop.
+
+1195
+00:52:07,250 --> 00:52:09,510
+So I think it is
+not a good strategy,
+
+1196
+00:52:09,510 --> 00:52:12,189
+but I take the pot down.
+
+1197
+00:52:16,980 --> 00:52:23,420
+OK, so the next hand, we
+have ace-queen offsuit.
+
+1198
+00:52:23,420 --> 00:52:25,910
+So this guy calls.
+
+1199
+00:52:25,910 --> 00:52:31,520
+My rule was roughly
+raising it to 3x plus one.
+
+1200
+00:52:31,520 --> 00:52:34,711
+So you could count how many
+limpers there are before you,
+
+1201
+00:52:34,711 --> 00:52:36,710
+and you add three to that,
+and you multiply that
+
+1202
+00:52:36,710 --> 00:52:38,751
+by the big blind is roughly
+what you raise it to.
+
+1203
+00:52:38,751 --> 00:52:40,550
+So in this case, 4,000.
+
+1204
+00:52:40,550 --> 00:52:43,430
+I make it 4,250.
+
+1205
+00:52:43,430 --> 00:52:45,670
+If they decide to do some
+weird plays, by the way,
+
+1206
+00:52:45,670 --> 00:52:48,320
+like if they go all in here,
+I'm definitely calling.
+
+1207
+00:52:48,320 --> 00:52:49,820
+I am just not going
+to believe them,
+
+1208
+00:52:49,820 --> 00:52:52,694
+and ace-queen offsuit is
+definitely good enough.
+
+1209
+00:52:52,694 --> 00:52:54,110
+So they decide to
+just call, which
+
+1210
+00:52:54,110 --> 00:52:57,210
+is a bit weird considering
+their odds aren't that good,
+
+1211
+00:52:57,210 --> 00:53:00,800
+and they're out of position.
+
+1212
+00:53:00,800 --> 00:53:03,260
+We flop three hearts, and
+we have the Queen of Hearts.
+
+1213
+00:53:03,260 --> 00:53:06,590
+And in this situation,
+I'm just betting
+
+1214
+00:53:06,590 --> 00:53:08,000
+pretty big into the pot.
+
+1215
+00:53:08,000 --> 00:53:10,820
+So I consider this to
+be a fairly drawy flop,
+
+1216
+00:53:10,820 --> 00:53:13,780
+so I bet big.
+
+1217
+00:53:13,780 --> 00:53:15,860
+Even though I'm in
+position-- so position
+
+1218
+00:53:15,860 --> 00:53:17,840
+is sort of an incentive
+to maybe bet smaller,
+
+1219
+00:53:17,840 --> 00:53:20,300
+because you have position
+on later streets.
+
+1220
+00:53:20,300 --> 00:53:23,150
+And you can control the betting
+better on later streets.
+
+1221
+00:53:23,150 --> 00:53:26,180
+So this is a fairly big bet
+considering I'm in position.
+
+1222
+00:53:26,180 --> 00:53:29,450
+But I'm just happy
+to get it in here.
+
+1223
+00:53:29,450 --> 00:53:31,400
+So contrast this
+with an earlier hand.
+
+1224
+00:53:31,400 --> 00:53:35,540
+I think I also had
+ace-queen, except I only
+
+1225
+00:53:35,540 --> 00:53:36,770
+had three to a flush.
+
+1226
+00:53:36,770 --> 00:53:39,440
+And I said it was very important
+that I had the ace of the suit.
+
+1227
+00:53:39,440 --> 00:53:42,890
+But here it's just very hard
+for me to be in terrible shape.
+
+1228
+00:53:42,890 --> 00:53:45,680
+Like in theory they
+could have, I suppose,
+
+1229
+00:53:45,680 --> 00:53:47,630
+ace-nine with an Ace of Hearts.
+
+1230
+00:53:47,630 --> 00:53:49,130
+Like that hand would
+be crushing me,
+
+1231
+00:53:49,130 --> 00:53:51,520
+because I would be drawing
+to literally three outs
+
+1232
+00:53:51,520 --> 00:53:52,760
+to carry my queen.
+
+1233
+00:53:52,760 --> 00:53:55,010
+But it's just there's not
+that many combinations,
+
+1234
+00:53:55,010 --> 00:53:57,860
+because it would involve an
+offsuit hand, which they're
+
+1235
+00:53:57,860 --> 00:54:00,740
+way less likely to have when
+they call me out of position.
+
+1236
+00:54:00,740 --> 00:54:02,780
+Or it would involve a
+hand like pocket kings
+
+1237
+00:54:02,780 --> 00:54:06,080
+with the King of Hearts,
+which is also pretty unlikely,
+
+1238
+00:54:06,080 --> 00:54:08,810
+because they probably would
+have done some raising preflop.
+
+1239
+00:54:08,810 --> 00:54:11,270
+So I just think no
+matter what they have,
+
+1240
+00:54:11,270 --> 00:54:13,030
+I'm going to be in
+great shape here.
+
+1241
+00:54:13,030 --> 00:54:16,060
+I just have more than
+enough outs to just gamble.
+
+1242
+00:54:16,060 --> 00:54:17,390
+And so they fold.
+
+1243
+00:54:23,660 --> 00:54:26,530
+OK, the next hand
+we had queen-10 off.
+
+1244
+00:54:26,530 --> 00:54:28,510
+So I opened from under the gun.
+
+1245
+00:54:28,510 --> 00:54:29,440
+I think it's fine.
+
+1246
+00:54:29,440 --> 00:54:31,750
+It looks a bit loose,
+and it is, but I
+
+1247
+00:54:31,750 --> 00:54:36,380
+think in terms of raising some
+smaller cards to balance it,
+
+1248
+00:54:36,380 --> 00:54:38,824
+so that I will sometimes have
+smaller cards in my hand.
+
+1249
+00:54:38,824 --> 00:54:40,990
+You know you can't really
+ask for more than a suited
+
+1250
+00:54:40,990 --> 00:54:42,070
+connector.
+
+1251
+00:54:42,070 --> 00:54:44,380
+So queen-10 suited, I
+raise from under the gun.
+
+1252
+00:54:44,380 --> 00:54:47,276
+And the big blind calls
+when they only start
+
+1253
+00:54:47,276 --> 00:54:50,920
+the hand being 18 bets deep.
+
+1254
+00:54:50,920 --> 00:54:53,050
+So we flop two, two, 10.
+
+1255
+00:54:53,050 --> 00:54:57,400
+So this is a good example of a
+very dry board, where there's
+
+1256
+00:54:57,400 --> 00:55:00,220
+really not much going on.
+
+1257
+00:55:00,220 --> 00:55:02,350
+And it is possible
+they have a deuce,
+
+1258
+00:55:02,350 --> 00:55:05,770
+but just in general, there is no
+straight draws, no flush draws.
+
+1259
+00:55:05,770 --> 00:55:07,610
+I guess there are
+some overcards,
+
+1260
+00:55:07,610 --> 00:55:12,280
+but still, it's pretty close
+to as dry as you can get.
+
+1261
+00:55:12,280 --> 00:55:14,440
+And they checked
+to me, and I bet
+
+1262
+00:55:14,440 --> 00:55:17,039
+2,000, which I think is
+actually too big here.
+
+1263
+00:55:17,039 --> 00:55:19,330
+To be honest, I don't think
+I needed to risk this much.
+
+1264
+00:55:19,330 --> 00:55:23,230
+I mean, I have a good hand
+but if I didn't have a pair,
+
+1265
+00:55:23,230 --> 00:55:26,110
+I only want to be
+betting like 1,500.
+
+1266
+00:55:26,110 --> 00:55:27,390
+I think that's a fine size.
+
+1267
+00:55:27,390 --> 00:55:29,920
+I think betting 1,500 is more
+than enough on this board,
+
+1268
+00:55:29,920 --> 00:55:33,750
+just because there's
+really nothing going on.
+
+1269
+00:55:33,750 --> 00:55:34,930
+But I guess I was lazy.
+
+1270
+00:55:34,930 --> 00:55:40,860
+I bet 2,000, and they call.
+
+1271
+00:55:40,860 --> 00:55:43,000
+So as you can see,
+there's a huge difference
+
+1272
+00:55:43,000 --> 00:55:45,010
+between my flop bet
+sizing depending
+
+1273
+00:55:45,010 --> 00:55:46,420
+on the texture of the board.
+
+1274
+00:55:46,420 --> 00:55:48,490
+And that's sort of--
+
+1275
+00:55:48,490 --> 00:55:50,410
+that's the point I
+wanted to drive across
+
+1276
+00:55:50,410 --> 00:55:52,640
+through some of these examples.
+
+1277
+00:55:52,640 --> 00:55:53,710
+So they call me.
+
+1278
+00:55:53,710 --> 00:55:57,432
+So we turn a six,
+and they check.
+
+1279
+00:55:57,432 --> 00:55:59,140
+I'm just going to keep
+it simple and bet.
+
+1280
+00:55:59,140 --> 00:56:00,880
+I'm not going to
+try anything tricky.
+
+1281
+00:56:00,880 --> 00:56:05,640
+And obviously I'm not folding
+with top pair and a flush draw.
+
+1282
+00:56:05,640 --> 00:56:06,780
+So they go all in.
+
+1283
+00:56:06,780 --> 00:56:08,290
+I call.
+
+1284
+00:56:08,290 --> 00:56:10,440
+So we river a flush,
+and it turned out
+
+1285
+00:56:10,440 --> 00:56:13,470
+to actually be necessary,
+because they had a deuce.
+
+1286
+00:56:13,470 --> 00:56:17,670
+So it is possible here, I
+think, for them to have a deuce.
+
+1287
+00:56:17,670 --> 00:56:22,050
+I think their play preflop is a
+bit loose with two-nine suited
+
+1288
+00:56:22,050 --> 00:56:23,860
+but not completely terrible.
+
+1289
+00:56:23,860 --> 00:56:26,550
+Because with 4.5
+to 1 odds, nothing
+
+1290
+00:56:26,550 --> 00:56:27,870
+is really that terrible.
+
+1291
+00:56:27,870 --> 00:56:29,550
+But I guess we get lucky.
+
+1292
+00:56:29,550 --> 00:56:31,560
+But I do think their
+call is a bit marginal.
+
+1293
+00:56:31,560 --> 00:56:35,040
+Because we are under the gun,
+so our range is fairly strong.
+
+1294
+00:56:38,749 --> 00:56:39,790
+That's a nice pot to win.
+
+1295
+00:56:39,790 --> 00:56:43,210
+So we're a fairly big stack now.
+
+1296
+00:56:43,210 --> 00:56:45,370
+I guess we're chip
+leader at the table.
+
+1297
+00:56:45,370 --> 00:56:49,650
+And Check Raise
+mid-raises from there.
+
+1298
+00:56:49,650 --> 00:56:51,400
+And we have pocket deuces.
+
+1299
+00:56:51,400 --> 00:56:53,590
+I think definitely
+our hand is too weak
+
+1300
+00:56:53,590 --> 00:56:56,680
+to go all in with as a bluff
+against an under-the-gun
+
+1301
+00:56:56,680 --> 00:56:57,670
+opening range.
+
+1302
+00:56:57,670 --> 00:57:01,210
+So the only options
+really are call or fold.
+
+1303
+00:57:01,210 --> 00:57:04,042
+Basically our hand does have
+terrible reverse implied odds
+
+1304
+00:57:04,042 --> 00:57:04,750
+post-flop though.
+
+1305
+00:57:04,750 --> 00:57:08,710
+So I think if you wanted to fold
+here, it wouldn't be terrible.
+
+1306
+00:57:08,710 --> 00:57:12,100
+But I guess I think calling
+is fine, too, with 4.5 to 1.
+
+1307
+00:57:12,100 --> 00:57:16,060
+And also in some sense, you
+do have odds to set mine here
+
+1308
+00:57:16,060 --> 00:57:18,316
+I think.
+
+1309
+00:57:18,316 --> 00:57:20,857
+The chances of hitting a third
+deuce on the flop is about one
+
+1310
+00:57:20,857 --> 00:57:21,970
+in eight.
+
+1311
+00:57:21,970 --> 00:57:26,830
+My odds are only 4.5 to 1,
+but there are implied odds
+
+1312
+00:57:26,830 --> 00:57:28,000
+in the case I do hit a set.
+
+1313
+00:57:28,000 --> 00:57:31,200
+So literally if my
+strategy is call and fold
+
+1314
+00:57:31,200 --> 00:57:32,980
+unless the flop
+has a two on it, I
+
+1315
+00:57:32,980 --> 00:57:34,960
+don't think I'm losing
+a ton of money there.
+
+1316
+00:57:34,960 --> 00:57:38,530
+And if there ever is a
+case where they check down,
+
+1317
+00:57:38,530 --> 00:57:41,560
+and I get to take down the
+pot with just a pair of twos,
+
+1318
+00:57:41,560 --> 00:57:44,700
+then I'm just printing
+money by calling.
+
+1319
+00:57:44,700 --> 00:57:47,560
+So I decided to call.
+
+1320
+00:57:47,560 --> 00:57:49,870
+The flop doesn't have
+a two, so it's bad.
+
+1321
+00:57:49,870 --> 00:57:53,140
+But out of the flops that don't
+have a two, it's probably not
+
+1322
+00:57:53,140 --> 00:57:55,810
+that bad, considering
+the three and seven
+
+1323
+00:57:55,810 --> 00:57:58,660
+is not that likely to pair
+him when he's under the gun.
+
+1324
+00:57:58,660 --> 00:58:00,630
+But nonetheless I fold.
+
+1325
+00:58:00,630 --> 00:58:03,100
+You know like if I could do
+the cheat I talked about where
+
+1326
+00:58:03,100 --> 00:58:05,350
+I could disconnect and
+call and see the river,
+
+1327
+00:58:05,350 --> 00:58:06,400
+I definitely would.
+
+1328
+00:58:06,400 --> 00:58:09,727
+But if I call, I have to
+decide again on the turn
+
+1329
+00:58:09,727 --> 00:58:12,310
+whether to call and decide again
+on the river whether to call,
+
+1330
+00:58:12,310 --> 00:58:15,490
+and it's just not going to
+be a good situation, even
+
+1331
+00:58:15,490 --> 00:58:18,580
+though for this immediate
+bet, I think I definitely
+
+1332
+00:58:18,580 --> 00:58:21,520
+have odds to call with
+a backdoor flush draw,
+
+1333
+00:58:21,520 --> 00:58:24,070
+and often they're just
+going to have ace-king.
+
+1334
+00:58:24,070 --> 00:58:26,350
+It's just impossible
+to play the hand good.
+
+1335
+00:58:26,350 --> 00:58:29,110
+This sort of just
+demonstrates why
+
+1336
+00:58:29,110 --> 00:58:31,560
+it's very risky when you decide
+to play a hand like pocket
+
+1337
+00:58:31,560 --> 00:58:33,268
+deuces out of position,
+because it's just
+
+1338
+00:58:33,268 --> 00:58:34,500
+very easy to get roped in.
+
+1339
+00:58:34,500 --> 00:58:37,560
+Like let's say I call here, and
+then I call the flop thinking
+
+1340
+00:58:37,560 --> 00:58:38,670
+they might have ace-king.
+
+1341
+00:58:38,670 --> 00:58:40,630
+They bet small, so
+I have good odds,
+
+1342
+00:58:40,630 --> 00:58:42,100
+and I have a
+backdoor flush draw.
+
+1343
+00:58:42,100 --> 00:58:44,590
+So let's say I call,
+and then the turn
+
+1344
+00:58:44,590 --> 00:58:46,790
+is like the Five of
+Clubs or something,
+
+1345
+00:58:46,790 --> 00:58:48,690
+and they bet like
+40% of the pot.
+
+1346
+00:58:48,690 --> 00:58:52,440
+Well, am I going to talk
+myself into a call again?
+
+1347
+00:58:52,440 --> 00:58:54,520
+Maybe, because now
+I hit a third club.
+
+1348
+00:58:54,520 --> 00:58:57,880
+But if I do then, if the
+river's something random--
+
+1349
+00:58:57,880 --> 00:58:59,690
+it's just all these
+decisions that I'm not
+
+1350
+00:58:59,690 --> 00:59:00,940
+going to be able to make well.
+
+1351
+00:59:00,940 --> 00:59:03,587
+Whereas for my opponent,
+it's going to be fairly easy.
+
+1352
+00:59:03,587 --> 00:59:05,420
+They're going to just
+bluff their bad hands,
+
+1353
+00:59:05,420 --> 00:59:08,020
+value bet their good hands,
+and check down the hands
+
+1354
+00:59:08,020 --> 00:59:09,330
+in the middle which beat me.
+
+1355
+00:59:12,820 --> 00:59:17,000
+OK, so the next hand we
+get ace-king offsuit,
+
+1356
+00:59:17,000 --> 00:59:20,210
+and we raise, and
+the big blind calls.
+
+1357
+00:59:20,210 --> 00:59:22,430
+The flop is nine, two, seven.
+
+1358
+00:59:22,430 --> 00:59:24,800
+So note that the big blind
+just got moved to the table,
+
+1359
+00:59:24,800 --> 00:59:25,940
+and they actually cover us.
+
+1360
+00:59:25,940 --> 00:59:28,330
+So they're probably
+one of the biggest
+
+1361
+00:59:28,330 --> 00:59:31,080
+stacks in the tournament.
+
+1362
+00:59:31,080 --> 00:59:32,640
+So they check to us.
+
+1363
+00:59:32,640 --> 00:59:34,472
+I decide to check
+back here, which
+
+1364
+00:59:34,472 --> 00:59:36,180
+I don't think is
+terrible, but I think is
+
+1365
+00:59:36,180 --> 00:59:39,790
+a bit of a scared play that I--
+
+1366
+00:59:39,790 --> 00:59:42,680
+I think I would have
+rather saw myself bet.
+
+1367
+00:59:42,680 --> 00:59:47,420
+If I was shallower, like let's
+say we only had 20,000 chips,
+
+1368
+00:59:47,420 --> 00:59:49,750
+then I think just
+checking is good.
+
+1369
+00:59:49,750 --> 00:59:51,204
+Because if I bet,
+they're probably
+
+1370
+00:59:51,204 --> 00:59:53,620
+going to be check-raising with
+a lot of their flush draws,
+
+1371
+00:59:53,620 --> 00:59:55,130
+straight draws,
+and then like pairs
+
+1372
+00:59:55,130 --> 00:59:56,780
+of nines or pairs of sevens.
+
+1373
+00:59:56,780 --> 00:59:59,300
+And I'm going to have to
+fold with a pretty good hand
+
+1374
+00:59:59,300 --> 01:00:02,720
+where I have two good overcards
+and a backdoor flush draw,
+
+1375
+01:00:02,720 --> 01:00:06,686
+but when it's this deep, they
+really can't just check-raise
+
+1376
+01:00:06,686 --> 01:00:08,810
+a nine, because they're
+going to have to be worried
+
+1377
+01:00:08,810 --> 01:00:10,910
+about pocket aces on our part.
+
+1378
+01:00:10,910 --> 01:00:12,400
+So I think it's--
+
+1379
+01:00:12,400 --> 01:00:14,540
+we're not going to get
+check-raised that often,
+
+1380
+01:00:14,540 --> 01:00:16,940
+and by betting, we just
+make the pot bigger
+
+1381
+01:00:16,940 --> 01:00:19,850
+when we do hit a king
+or an ace and also
+
+1382
+01:00:19,850 --> 01:00:21,950
+make it more likely
+that we can bluff them
+
+1383
+01:00:21,950 --> 01:00:24,380
+off a nine or a
+seven by the river.
+
+1384
+01:00:24,380 --> 01:00:26,510
+So I would have liked
+to see myself bet,
+
+1385
+01:00:26,510 --> 01:00:28,250
+but I don't think
+checking is terrible,
+
+1386
+01:00:28,250 --> 01:00:31,280
+by the argument that I
+will most of the time,
+
+1387
+01:00:31,280 --> 01:00:33,207
+you know by betting
+I am folding out
+
+1388
+01:00:33,207 --> 01:00:34,790
+basically all the
+hands that I've beat
+
+1389
+01:00:34,790 --> 01:00:37,820
+and keeping in all the
+hands that beat me.
+
+1390
+01:00:37,820 --> 01:00:40,280
+It's close but I would have
+liked to see myself bet.
+
+1391
+01:00:40,280 --> 01:00:42,949
+But as played, you know, if
+I'm going to check the flop,
+
+1392
+01:00:42,949 --> 01:00:44,240
+I'm not going to bet this turn.
+
+1393
+01:00:44,240 --> 01:00:46,070
+Because the whole point
+of betting the flop
+
+1394
+01:00:46,070 --> 01:00:49,100
+is so that I could potentially
+bet the turn and bet the river
+
+1395
+01:00:49,100 --> 01:00:52,070
+and get him to fold a pair
+of nines or a pair of sevens,
+
+1396
+01:00:52,070 --> 01:00:54,137
+but by now I'm not
+going to really
+
+1397
+01:00:54,137 --> 01:00:55,970
+have any hope of getting
+him to fold a nine.
+
+1398
+01:00:55,970 --> 01:01:00,290
+And I'm just trying to win
+the pot with my ace-king high.
+
+1399
+01:01:00,290 --> 01:01:02,130
+And so yeah, I
+just check it down.
+
+1400
+01:01:02,130 --> 01:01:04,130
+The river check, I think,
+is very, very obvious,
+
+1401
+01:01:04,130 --> 01:01:06,505
+because I'm literally only
+getting called by better hands
+
+1402
+01:01:06,505 --> 01:01:08,970
+if I bet the river.
+
+1403
+01:01:08,970 --> 01:01:10,430
+They have queen-10.
+
+1404
+01:01:10,430 --> 01:01:12,680
+I think they probably should
+have bluffed the river.
+
+1405
+01:01:12,680 --> 01:01:14,730
+I think queen-10 is
+weak enough where
+
+1406
+01:01:14,730 --> 01:01:17,780
+they're just very rarely winning
+the pot with queen-10 high.
+
+1407
+01:01:17,780 --> 01:01:21,470
+They basically need to bluff
+and then put me to a decision.
+
+1408
+01:01:21,470 --> 01:01:23,120
+But nice to win that.
+
+1409
+01:01:26,520 --> 01:01:29,090
+The next hand we have
+jack-10, not too exciting.
+
+1410
+01:01:29,090 --> 01:01:33,090
+So this same guy who's now the
+button, raises from the button.
+
+1411
+01:01:33,090 --> 01:01:35,644
+And we call, and
+we flop nothing.
+
+1412
+01:01:35,644 --> 01:01:37,810
+So the best thing to do is
+bluff off all your chips,
+
+1413
+01:01:37,810 --> 01:01:39,738
+but no, I just fold.
+
+1414
+01:01:39,738 --> 01:01:41,184
+[LAUGHTER]
+
+1415
+01:01:43,600 --> 01:01:47,404
+OK, so the next hand, it's also
+against this [? GarlaEDU. ?]
+
+1416
+01:01:47,404 --> 01:01:48,820
+So the two big
+stacks at the table
+
+1417
+01:01:48,820 --> 01:01:51,610
+are actually playing a lot
+of hands against each other.
+
+1418
+01:01:51,610 --> 01:01:53,870
+I just call here with jacks.
+
+1419
+01:01:53,870 --> 01:01:56,606
+I don't think it would be
+terrible to just raise and bet
+
+1420
+01:01:56,606 --> 01:02:02,620
+it all in, but I think it is
+sort of unnecessarily risky.
+
+1421
+01:02:02,620 --> 01:02:04,730
+I think it wouldn't
+be a terrible play
+
+1422
+01:02:04,730 --> 01:02:07,150
+to just raise and get it all
+in, but it's definitely thin.
+
+1423
+01:02:07,150 --> 01:02:10,270
+Like you're not printing value
+by raising and getting it
+
+1424
+01:02:10,270 --> 01:02:12,542
+all in, because if
+they reraise all in,
+
+1425
+01:02:12,542 --> 01:02:14,250
+their range is going
+to be pretty strong.
+
+1426
+01:02:14,250 --> 01:02:18,040
+And pocket jacks is not
+really crushing them.
+
+1427
+01:02:18,040 --> 01:02:20,950
+I think you need to
+have queens or better
+
+1428
+01:02:20,950 --> 01:02:25,270
+to really be hoping to get it
+all in against this guy here.
+
+1429
+01:02:25,270 --> 01:02:26,800
+So with jacks I just call.
+
+1430
+01:02:26,800 --> 01:02:29,420
+And also, you know, this
+protects my calling range
+
+1431
+01:02:29,420 --> 01:02:30,130
+of it.
+
+1432
+01:02:30,130 --> 01:02:34,070
+Let's say, like Check Raise
+thinks I'm weak and decides
+
+1433
+01:02:34,070 --> 01:02:35,230
+to make a play here.
+
+1434
+01:02:35,230 --> 01:02:40,450
+And they reraise to like 10,000,
+then if [? GarlaEDU ?] folds,
+
+1435
+01:02:40,450 --> 01:02:43,110
+I can come back around and go
+all in and sort of surprise
+
+1436
+01:02:43,110 --> 01:02:44,050
+them.
+
+1437
+01:02:44,050 --> 01:02:47,041
+So it does protect my
+calling range a bit as well.
+
+1438
+01:02:47,041 --> 01:02:47,540
+I call.
+
+1439
+01:02:47,540 --> 01:02:51,160
+We get a nine, six, five flop.
+
+1440
+01:02:51,160 --> 01:02:52,970
+They check, and I bet.
+
+1441
+01:02:52,970 --> 01:02:55,270
+I think betting is a
+fairly natural play.
+
+1442
+01:02:55,270 --> 01:02:56,820
+I don't want to
+give ace-king outs.
+
+1443
+01:02:56,820 --> 01:02:58,780
+And I just want to
+win the pot right now,
+
+1444
+01:02:58,780 --> 01:03:01,360
+but I was thinking
+to myself after
+
+1445
+01:03:01,360 --> 01:03:05,590
+that if they check-raised here,
+that's really a gross spot.
+
+1446
+01:03:05,590 --> 01:03:08,841
+Actually, I would hate my
+life if they check-raised me.
+
+1447
+01:03:08,841 --> 01:03:10,840
+Because I literally don't
+know what I should do.
+
+1448
+01:03:13,540 --> 01:03:16,990
+On one hand, I would
+be inclined to fold,
+
+1449
+01:03:16,990 --> 01:03:18,640
+because it's kind
+of weird for them
+
+1450
+01:03:18,640 --> 01:03:23,980
+to want to check-raise
+me here without having
+
+1451
+01:03:23,980 --> 01:03:26,710
+like a bigger pair or a
+flush draw with lots of outs.
+
+1452
+01:03:26,710 --> 01:03:28,780
+But at the same
+time, it's just why
+
+1453
+01:03:28,780 --> 01:03:31,470
+would they check pocket
+aces to me here, maybe
+
+1454
+01:03:31,470 --> 01:03:32,810
+to try to trap me.
+
+1455
+01:03:32,810 --> 01:03:34,810
+It would have been a
+really gross spot, I think,
+
+1456
+01:03:34,810 --> 01:03:36,100
+if I got check-raised.
+
+1457
+01:03:36,100 --> 01:03:39,730
+And by that argument, I think
+against a very tricky player,
+
+1458
+01:03:39,730 --> 01:03:42,110
+if you could be
+check-raising here as a trap
+
+1459
+01:03:42,110 --> 01:03:45,520
+and as a bluff with a balance
+strategy, maybe checking
+
+1460
+01:03:45,520 --> 01:03:47,660
+is better just to
+protect myself from that.
+
+1461
+01:03:47,660 --> 01:03:51,190
+But I think against him, I was
+reasonably confident nothing
+
+1462
+01:03:51,190 --> 01:03:52,835
+crazy was going to happen.
+
+1463
+01:03:52,835 --> 01:03:53,960
+And yes, so they just fold.
+
+1464
+01:03:59,432 --> 01:04:00,890
+OK, so it's against
+this guy again.
+
+1465
+01:04:00,890 --> 01:04:03,550
+I guess we're playing a lot of
+pots against the same player.
+
+1466
+01:04:03,550 --> 01:04:05,440
+I think it's getting fairly
+late into the tournament
+
+1467
+01:04:05,440 --> 01:04:06,090
+at this point.
+
+1468
+01:04:06,090 --> 01:04:08,610
+It's not a huge tournament,
+maybe like 80, 90 players,
+
+1469
+01:04:08,610 --> 01:04:12,027
+and it's probably down to
+like 20, 25 at this point.
+
+1470
+01:04:12,027 --> 01:04:12,610
+So they raise.
+
+1471
+01:04:12,610 --> 01:04:14,260
+We call with queen-eight off.
+
+1472
+01:04:14,260 --> 01:04:16,810
+We're a bit deep here, so
+our reverse implied odds
+
+1473
+01:04:16,810 --> 01:04:17,890
+are actually sort of bad.
+
+1474
+01:04:17,890 --> 01:04:23,290
+But we decide to call, and
+we flop two, three, five.
+
+1475
+01:04:23,290 --> 01:04:25,190
+So I'm just going to fold here.
+
+1476
+01:04:25,190 --> 01:04:27,110
+But they decide to check.
+
+1477
+01:04:27,110 --> 01:04:29,800
+And then we turn a flush
+draw, but I'm still just going
+
+1478
+01:04:29,800 --> 01:04:34,810
+to check and basically bet
+pretty much every river, maybe
+
+1479
+01:04:34,810 --> 01:04:36,640
+not an eight river.
+
+1480
+01:04:36,640 --> 01:04:39,520
+So we river a six, and I
+essentially bet as a bluff,
+
+1481
+01:04:39,520 --> 01:04:44,382
+because our hand has no hope of
+winning if it gets a showdown.
+
+1482
+01:04:44,382 --> 01:04:45,340
+And it works this time.
+
+1483
+01:04:45,340 --> 01:04:47,870
+So yeah, we played a
+lot of pots against him.
+
+1484
+01:04:47,870 --> 01:04:51,050
+And it seems like they
+are fairly willing to just
+
+1485
+01:04:51,050 --> 01:04:53,510
+check and fold their hands,
+so not too aggressive.
+
+1486
+01:04:53,510 --> 01:04:55,540
+So I guess one thing
+to keep in mind
+
+1487
+01:04:55,540 --> 01:05:01,720
+is maybe we can get out of the
+way if we do see them raising.
+
+1488
+01:05:01,720 --> 01:05:05,302
+OK, so this situation is
+similar to the situation
+
+1489
+01:05:05,302 --> 01:05:06,760
+in the very first
+hand we discussed
+
+1490
+01:05:06,760 --> 01:05:10,690
+where we had king-queen, and
+we had roughly 30 big blinds.
+
+1491
+01:05:10,690 --> 01:05:12,460
+And I talked sort of
+about the benefits
+
+1492
+01:05:12,460 --> 01:05:14,170
+of raising versus calling.
+
+1493
+01:05:14,170 --> 01:05:16,580
+It's pretty much the
+exact same situation.
+
+1494
+01:05:16,580 --> 01:05:19,870
+And I decided to sort of
+raise, essentially as a bluff,
+
+1495
+01:05:19,870 --> 01:05:23,710
+but also king-queen plays
+pretty well when they do call.
+
+1496
+01:05:23,710 --> 01:05:26,950
+Because I'm always good
+when I hit top pair.
+
+1497
+01:05:26,950 --> 01:05:29,590
+So make it 8,000.
+
+1498
+01:05:29,590 --> 01:05:31,890
+But unfortunately, this
+time this [? GerarDocks ?]
+
+1499
+01:05:31,890 --> 01:05:32,860
+goes all in.
+
+1500
+01:05:32,860 --> 01:05:35,160
+So we basically
+just have to fold.
+
+1501
+01:05:35,160 --> 01:05:38,200
+Yeah, unfortunately,
+8,000 is small enough
+
+1502
+01:05:38,200 --> 01:05:40,700
+where we can just
+happily get away here.
+
+1503
+01:05:40,700 --> 01:05:42,880
+And it actually turns
+out this guy also
+
+1504
+01:05:42,880 --> 01:05:45,980
+goes on, which makes the
+decision even easier.
+
+1505
+01:05:45,980 --> 01:05:49,230
+So it looks like we ran into
+pocket aces and pocket kings
+
+1506
+01:05:49,230 --> 01:05:50,645
+that time.
+
+1507
+01:05:50,645 --> 01:05:53,878
+It doesn't always work when
+you reraise with king-queen.
+
+1508
+01:05:56,972 --> 01:05:58,555
+All right, so still
+at the same table,
+
+1509
+01:05:58,555 --> 01:06:01,500
+we get ace-jack
+offsuit, under the gun.
+
+1510
+01:06:01,500 --> 01:06:06,260
+We reraise, and this
+[? GerarDocks ?] guy calls.
+
+1511
+01:06:06,260 --> 01:06:08,690
+We flop king, nine,
+deuce with two hearts,
+
+1512
+01:06:08,690 --> 01:06:13,280
+and I think this is sort of
+pretty much the worst flop, one
+
+1513
+01:06:13,280 --> 01:06:16,250
+of the worst flops I could get.
+
+1514
+01:06:16,250 --> 01:06:19,340
+If there was like two higher
+cards like a king and a queen,
+
+1515
+01:06:19,340 --> 01:06:21,320
+I would have a
+gutshot straight draw.
+
+1516
+01:06:21,320 --> 01:06:24,080
+And if it was all low cards,
+I'd have two overcards,
+
+1517
+01:06:24,080 --> 01:06:27,260
+but here there's a flush
+draw that I have no part of.
+
+1518
+01:06:27,260 --> 01:06:30,050
+And also, they are somewhat
+likely to have a king,
+
+1519
+01:06:30,050 --> 01:06:32,810
+and if they do, I only have
+three outs and my aces,
+
+1520
+01:06:32,810 --> 01:06:34,850
+so I'm just going give this up.
+
+1521
+01:06:34,850 --> 01:06:37,220
+So I talk about the power
+of continuation betting
+
+1522
+01:06:37,220 --> 01:06:39,500
+before where continuation
+betting is good,
+
+1523
+01:06:39,500 --> 01:06:41,780
+because my range is
+stronger than theirs.
+
+1524
+01:06:41,780 --> 01:06:42,710
+I could have aces.
+
+1525
+01:06:42,710 --> 01:06:44,129
+I can bluff, et cetera.
+
+1526
+01:06:44,129 --> 01:06:45,920
+And yeah, in general,
+continuation betting,
+
+1527
+01:06:45,920 --> 01:06:47,870
+being aggressive,
+especially when
+
+1528
+01:06:47,870 --> 01:06:49,830
+you're the pre-flop
+aggressor, is very good.
+
+1529
+01:06:49,830 --> 01:06:52,070
+But I think this is just
+one of the worst flops,
+
+1530
+01:06:52,070 --> 01:06:54,740
+and I'm just going to give up.
+
+1531
+01:06:54,740 --> 01:06:55,730
+So I check.
+
+1532
+01:06:55,730 --> 01:06:57,980
+They bet, and I fold.
+
+1533
+01:06:57,980 --> 01:07:00,830
+I mean, I think sometimes I will
+check a reasonably good hand
+
+1534
+01:07:00,830 --> 01:07:03,180
+here to protect the times--
+
+1535
+01:07:03,180 --> 01:07:06,320
+so that they can't just
+bet here with any two cards
+
+1536
+01:07:06,320 --> 01:07:07,580
+and know for sure I'll fold.
+
+1537
+01:07:07,580 --> 01:07:09,330
+But most of the time
+if I'm checking here,
+
+1538
+01:07:09,330 --> 01:07:12,350
+I'm going to be fairly weak,
+which is maybe exploitable.
+
+1539
+01:07:12,350 --> 01:07:14,210
+But I give up the hand.
+
+1540
+01:07:17,000 --> 01:07:18,800
+So eight-five suited.
+
+1541
+01:07:18,800 --> 01:07:20,860
+I decide to call
+on the small blind.
+
+1542
+01:07:20,860 --> 01:07:22,610
+I know this goes against
+my recommendation
+
+1543
+01:07:22,610 --> 01:07:23,930
+from the first class.
+
+1544
+01:07:23,930 --> 01:07:26,540
+I think calling from the
+small blind is actually,
+
+1545
+01:07:26,540 --> 01:07:28,340
+both theoretically
+and practically,
+
+1546
+01:07:28,340 --> 01:07:30,846
+a pretty good strategy
+for a lot of cases,
+
+1547
+01:07:30,846 --> 01:07:31,970
+but it's a bit complicated.
+
+1548
+01:07:31,970 --> 01:07:36,210
+Because you have to sometimes
+limp raise as a bluff.
+
+1549
+01:07:36,210 --> 01:07:38,567
+You have to sometimes limp
+raise and trap with aces.
+
+1550
+01:07:38,567 --> 01:07:39,650
+So it's a bit complicated.
+
+1551
+01:07:39,650 --> 01:07:43,170
+So I just said for simplicity,
+you should just raise or fold,
+
+1552
+01:07:43,170 --> 01:07:44,720
+which is still a
+reasonable I think.
+
+1553
+01:07:44,720 --> 01:07:48,560
+But I decide to call
+here, and it's checked.
+
+1554
+01:07:48,560 --> 01:07:50,310
+We get a pretty good
+flop for our hands
+
+1555
+01:07:50,310 --> 01:07:52,710
+but probably a better
+flop for his range,
+
+1556
+01:07:52,710 --> 01:07:56,330
+because when we call, we're
+less likely to have really
+
+1557
+01:07:56,330 --> 01:07:57,860
+small cards than he does.
+
+1558
+01:07:57,860 --> 01:08:00,020
+But I mean, we have a
+good flop for our hand,
+
+1559
+01:08:00,020 --> 01:08:02,780
+so I am still going
+to bet my hand.
+
+1560
+01:08:02,780 --> 01:08:06,386
+So I bet half pot,
+which is maybe not big
+
+1561
+01:08:06,386 --> 01:08:07,760
+enough, to be
+honest, considering
+
+1562
+01:08:07,760 --> 01:08:09,740
+how dry the board is.
+
+1563
+01:08:09,740 --> 01:08:11,210
+And we get a call.
+
+1564
+01:08:11,210 --> 01:08:16,422
+We turn a nine, which is a
+great card, because it gives--
+
+1565
+01:08:16,422 --> 01:08:17,880
+not only does it
+complete our hand,
+
+1566
+01:08:17,880 --> 01:08:20,689
+there's lot of draws out there,
+and I bet quite big here.
+
+1567
+01:08:20,689 --> 01:08:23,359
+So this is where I was talking
+about if the board is drawy,
+
+1568
+01:08:23,359 --> 01:08:26,270
+you need to bet big and not
+give your opponent odds.
+
+1569
+01:08:26,270 --> 01:08:30,622
+So I bet 688 into 10,800.
+
+1570
+01:08:30,622 --> 01:08:32,330
+The reason for the
+eights is because it's
+
+1571
+01:08:32,330 --> 01:08:35,760
+easier to type
+like 688 then 6800,
+
+1572
+01:08:35,760 --> 01:08:37,370
+so you'll see that quite a lot.
+
+1573
+01:08:40,609 --> 01:08:43,059
+And we get called.
+
+1574
+01:08:43,059 --> 01:08:45,350
+Yeah, and another, sometimes
+you can get more creative,
+
+1575
+01:08:45,350 --> 01:08:47,470
+you can do like 1234567.
+
+1576
+01:08:47,470 --> 01:08:50,090
+That's a popular bet, because
+you can just slide your finger
+
+1577
+01:08:50,090 --> 01:08:52,130
+across the keyboard.
+
+1578
+01:08:52,130 --> 01:08:54,890
+Yeah, there's a lot of
+weird idiosyncrasies, OK,
+
+1579
+01:08:54,890 --> 01:09:01,410
+so I bet 15,555
+here, and he folds.
+
+1580
+01:09:01,410 --> 01:09:03,720
+I'm playing like this with
+my missed spade draws,
+
+1581
+01:09:03,720 --> 01:09:06,620
+and I missed heart draws.
+
+1582
+01:09:06,620 --> 01:09:08,564
+Unfortunately, we
+don't get paid off.
+
+1583
+01:09:11,800 --> 01:09:14,210
+OK, so jack-eight suited here.
+
+1584
+01:09:14,210 --> 01:09:15,890
+The small blind raises.
+
+1585
+01:09:15,890 --> 01:09:21,025
+Definitely I'm going to
+call, and we flop top pair.
+
+1586
+01:09:21,025 --> 01:09:25,420
+They bet, and-- so I think this
+is a spot where I think my hand
+
+1587
+01:09:25,420 --> 01:09:26,149
+is--
+
+1588
+01:09:26,149 --> 01:09:29,020
+there's benefits of raising
+and benefits of calling.
+
+1589
+01:09:29,020 --> 01:09:31,750
+And overall, I decided
+the benefits of raising
+
+1590
+01:09:31,750 --> 01:09:32,398
+were higher.
+
+1591
+01:09:32,398 --> 01:09:33,939
+So I decided to
+raise and just get it
+
+1592
+01:09:33,939 --> 01:09:37,240
+all in, although I think
+calling is not unreasonable,
+
+1593
+01:09:37,240 --> 01:09:39,790
+because your hand sort
+of isn't good enough
+
+1594
+01:09:39,790 --> 01:09:42,760
+where you are just really,
+really happy to get it all in.
+
+1595
+01:09:42,760 --> 01:09:45,176
+I mean, it's good enough where
+I'm going to get it all in,
+
+1596
+01:09:45,176 --> 01:09:47,740
+but I'm not like thrilled
+if they go all in,
+
+1597
+01:09:47,740 --> 01:09:48,729
+and I have to call.
+
+1598
+01:09:48,729 --> 01:09:51,460
+So that's one disadvantage
+of getting it all in,
+
+1599
+01:09:51,460 --> 01:09:55,630
+but I just think compared to
+the advantage of not giving them
+
+1600
+01:09:55,630 --> 01:09:58,436
+a chance to suck out
+on me and beat me
+
+1601
+01:09:58,436 --> 01:10:00,580
+in the hand is a
+pretty big advantage,
+
+1602
+01:10:00,580 --> 01:10:04,387
+not letting a queen,
+king, or ace roll off.
+
+1603
+01:10:04,387 --> 01:10:06,970
+Another advantage of calling is
+being able to pick off bluffs.
+
+1604
+01:10:06,970 --> 01:10:09,250
+But I just think in
+this spot, I want
+
+1605
+01:10:09,250 --> 01:10:12,430
+to play a strategy where I'm
+going to raise to a small size
+
+1606
+01:10:12,430 --> 01:10:15,370
+and put him to the decision,
+both with my top pairs
+
+1607
+01:10:15,370 --> 01:10:19,360
+like jacks and also my hands
+like seven-nine or whatever.
+
+1608
+01:10:19,360 --> 01:10:22,210
+So I decided to
+raise, but I think
+
+1609
+01:10:22,210 --> 01:10:24,395
+calling would have been
+fine and [INAUDIBLE]..
+
+1610
+01:10:27,879 --> 01:10:29,170
+The next hand we have ace-king.
+
+1611
+01:10:29,170 --> 01:10:31,547
+All right, so we got like
+seven more hands to get to.
+
+1612
+01:10:31,547 --> 01:10:33,130
+I'll go a bit quickly
+here at the end,
+
+1613
+01:10:33,130 --> 01:10:35,340
+but I think we'll get
+through all the hands.
+
+1614
+01:10:35,340 --> 01:10:36,430
+This hand is fairly easy.
+
+1615
+01:10:36,430 --> 01:10:39,250
+They make it 5,000,
+and we have ace-king,
+
+1616
+01:10:39,250 --> 01:10:40,750
+and we just go all in.
+
+1617
+01:10:40,750 --> 01:10:43,690
+There's no point slow
+playing essentially,
+
+1618
+01:10:43,690 --> 01:10:45,520
+especially when if
+they have jack-10,
+
+1619
+01:10:45,520 --> 01:10:46,880
+they have lots of outs.
+
+1620
+01:10:46,880 --> 01:10:48,599
+So we go all in, and they fold.
+
+1621
+01:10:48,599 --> 01:10:50,890
+So it is a bit curious here,
+because they actually only
+
+1622
+01:10:50,890 --> 01:10:52,112
+had 12 big blinds here.
+
+1623
+01:10:52,112 --> 01:10:54,070
+So they could have just
+went all in themselves,
+
+1624
+01:10:54,070 --> 01:10:56,890
+but they decided
+to raise small, so
+
+1625
+01:10:56,890 --> 01:10:59,470
+that they could fold if someone
+behind picks up a monster.
+
+1626
+01:10:59,470 --> 01:11:01,632
+And I guess they were
+paid off this time.
+
+1627
+01:11:06,830 --> 01:11:09,110
+But yeah, like for this
+hand, like one disadvantage
+
+1628
+01:11:09,110 --> 01:11:11,882
+of their play, suppose
+we had king-two suited.
+
+1629
+01:11:11,882 --> 01:11:13,590
+We would have folded
+if they went all in,
+
+1630
+01:11:13,590 --> 01:11:16,300
+but now we can call
+and see a flop.
+
+1631
+01:11:16,300 --> 01:11:18,710
+But because we had
+ace-king, I guess
+
+1632
+01:11:18,710 --> 01:11:23,190
+they profited from not
+committing their whole stack.
+
+1633
+01:11:23,190 --> 01:11:25,200
+OK, we have king-jack offsuit.
+
+1634
+01:11:25,200 --> 01:11:30,630
+We make it 6,000, and
+this guy goes all in.
+
+1635
+01:11:30,630 --> 01:11:31,330
+I fold here.
+
+1636
+01:11:31,330 --> 01:11:32,660
+I think it's not that close.
+
+1637
+01:11:32,660 --> 01:11:34,410
+I think with king-jack
+suited, it's close.
+
+1638
+01:11:34,410 --> 01:11:36,390
+But I'd still fold
+with king-jack suited.
+
+1639
+01:11:36,390 --> 01:11:39,480
+I'd probably call with
+ace-jack offsuit plus.
+
+1640
+01:11:39,480 --> 01:11:41,940
+I would probably call
+with ace-10 suited,
+
+1641
+01:11:41,940 --> 01:11:44,430
+and I'd call with king-queen
+suited and probably
+
+1642
+01:11:44,430 --> 01:11:46,680
+king-queen offsuit as well.
+
+1643
+01:11:46,680 --> 01:11:50,520
+In this case-- so in the last
+class, I said being suited
+
+1644
+01:11:50,520 --> 01:11:52,950
+is very important
+when you're behind.
+
+1645
+01:11:52,950 --> 01:11:54,570
+But when you're
+potentially ahead,
+
+1646
+01:11:54,570 --> 01:11:57,170
+just having a slightly better
+hand is very important.
+
+1647
+01:11:57,170 --> 01:12:00,390
+So I think in this situation,
+I would fold king-jack suited
+
+1648
+01:12:00,390 --> 01:12:02,490
+but call with
+king-queen offsuit,
+
+1649
+01:12:02,490 --> 01:12:04,650
+because a decent
+part of his range
+
+1650
+01:12:04,650 --> 01:12:06,908
+is hands like king-jack
+and king-queen.
+
+1651
+01:12:10,660 --> 01:12:14,206
+Here I have king-queen
+and Degenerated-- so
+
+1652
+01:12:14,206 --> 01:12:16,580
+for some reason, I love making
+this play with king-queen.
+
+1653
+01:12:16,580 --> 01:12:18,340
+It's actually not
+that unfounded.
+
+1654
+01:12:18,340 --> 01:12:21,900
+It's just a good hand to bluff
+with that at the same time
+
+1655
+01:12:21,900 --> 01:12:25,020
+sort of protects your range
+in the case that he calls,
+
+1656
+01:12:25,020 --> 01:12:28,290
+and also your hand doesn't play
+that well if you just call.
+
+1657
+01:12:28,290 --> 01:12:31,620
+Because you're not suited,
+so it really is king-queen--
+
+1658
+01:12:31,620 --> 01:12:34,870
+I mean in this
+tournament, we've happened
+
+1659
+01:12:34,870 --> 01:12:36,600
+to have been dealt
+king-queen a lot
+
+1660
+01:12:36,600 --> 01:12:40,170
+and gotten into situations where
+we can reraise-bluff people.
+
+1661
+01:12:40,170 --> 01:12:44,100
+But it really is my favorite
+hand to do this with.
+
+1662
+01:12:44,100 --> 01:12:45,780
+It might even be
+too predictable,
+
+1663
+01:12:45,780 --> 01:12:49,464
+because I just always have
+king-queen whenever I do this.
+
+1664
+01:12:49,464 --> 01:12:50,630
+But we do take it down here.
+
+1665
+01:12:54,230 --> 01:12:55,410
+Ace-jack offsuit.
+
+1666
+01:12:55,410 --> 01:12:57,872
+This guy, so this
+Degenerated guy who we just--
+
+1667
+01:12:57,872 --> 01:13:00,330
+at this point, it's probably
+late enough in the tournament.
+
+1668
+01:13:00,330 --> 01:13:03,360
+I am paying attention, and I
+am aware that I just reraised
+
+1669
+01:13:03,360 --> 01:13:05,410
+this guy three hands earlier.
+
+1670
+01:13:05,410 --> 01:13:07,760
+So they make a big
+raise here, do 9,000.
+
+1671
+01:13:07,760 --> 01:13:13,070
+And I call with ace-jack,
+which I regret quite a bit.
+
+1672
+01:13:13,070 --> 01:13:14,820
+I think it's just too
+weak a hand to play.
+
+1673
+01:13:14,820 --> 01:13:17,940
+And if I'm going to play it, I
+think I should just go all in
+
+1674
+01:13:17,940 --> 01:13:19,470
+and try to win the hand preflop.
+
+1675
+01:13:19,470 --> 01:13:21,750
+Even though I'm in
+position, I think it's just
+
+1676
+01:13:21,750 --> 01:13:23,940
+going to be hard to play.
+
+1677
+01:13:23,940 --> 01:13:25,340
+Even when I hit
+an ace or a jack,
+
+1678
+01:13:25,340 --> 01:13:28,150
+I'm still going to
+quite often be behind.
+
+1679
+01:13:28,150 --> 01:13:30,740
+And if I don't hit
+an ace or a jack,
+
+1680
+01:13:30,740 --> 01:13:33,030
+I'm pretty much always
+just going to have to fold.
+
+1681
+01:13:33,030 --> 01:13:34,920
+And that's basically
+what happens.
+
+1682
+01:13:34,920 --> 01:13:41,070
+So I don't know why I just
+gave away 9,000 chips there.
+
+1683
+01:13:41,070 --> 01:13:44,320
+OK, so queen-jack suited.
+
+1684
+01:13:44,320 --> 01:13:46,930
+I just go all in from the
+small blind, because it's--
+
+1685
+01:13:46,930 --> 01:13:49,780
+so even though we have 15 big
+blinds, which is more than 12,
+
+1686
+01:13:49,780 --> 01:13:52,510
+I said last class that
+from the small blind,
+
+1687
+01:13:52,510 --> 01:13:54,580
+you're really, really
+incentivized to go
+
+1688
+01:13:54,580 --> 01:13:57,040
+all in, because
+if you don't then
+
+1689
+01:13:57,040 --> 01:13:58,540
+the other guy has position.
+
+1690
+01:13:58,540 --> 01:14:01,060
+Whereas like from the
+button, if you just raise,
+
+1691
+01:14:01,060 --> 01:14:02,740
+the big blind calls,
+you have position.
+
+1692
+01:14:02,740 --> 01:14:04,410
+So I go all in.
+
+1693
+01:14:04,410 --> 01:14:06,610
+Queen-jack suited is
+more than good enough.
+
+1694
+01:14:06,610 --> 01:14:11,000
+And we get a fold.
+
+1695
+01:14:11,000 --> 01:14:12,750
+And the next hand, OK,
+so this is actually
+
+1696
+01:14:12,750 --> 01:14:13,625
+a great illustration.
+
+1697
+01:14:13,625 --> 01:14:15,740
+The very next hand we
+get queen-jack off,
+
+1698
+01:14:15,740 --> 01:14:17,540
+and we just raise
+from the button.
+
+1699
+01:14:17,540 --> 01:14:20,160
+And it's exactly the reason I
+said, because we have position.
+
+1700
+01:14:20,160 --> 01:14:24,230
+So we don't mind if the
+pot gets played post-flop.
+
+1701
+01:14:24,230 --> 01:14:25,850
+So the small blind goes all in.
+
+1702
+01:14:25,850 --> 01:14:28,970
+And note that they're
+actually fairly short here.
+
+1703
+01:14:28,970 --> 01:14:31,640
+They only have 14 big
+blinds to start the hand.
+
+1704
+01:14:31,640 --> 01:14:34,420
+So I would have easily
+with queen-jack suited.
+
+1705
+01:14:34,420 --> 01:14:38,510
+Even with queen-jack
+off, I'm not certain
+
+1706
+01:14:38,510 --> 01:14:41,246
+that folding is a better
+play than calling.
+
+1707
+01:14:41,246 --> 01:14:43,370
+It's just your odds are
+basically good enough here,
+
+1708
+01:14:43,370 --> 01:14:45,860
+and their range
+will be fairly loose
+
+1709
+01:14:45,860 --> 01:14:47,522
+when I raise from the button.
+
+1710
+01:14:47,522 --> 01:14:49,730
+Because they're going to
+think I don't have much when
+
+1711
+01:14:49,730 --> 01:14:50,729
+I raise from the button.
+
+1712
+01:14:50,729 --> 01:14:52,759
+So it's quite
+possible calling here
+
+1713
+01:14:52,759 --> 01:14:54,050
+would have been the right play.
+
+1714
+01:14:54,050 --> 01:14:54,960
+It's very close.
+
+1715
+01:14:54,960 --> 01:14:57,980
+I think I would definitely
+called with ace-nine offsuit.
+
+1716
+01:14:57,980 --> 01:15:01,690
+I would have definitely
+called with king-10 offsuit.
+
+1717
+01:15:01,690 --> 01:15:02,690
+Yeah, it's pretty close.
+
+1718
+01:15:02,690 --> 01:15:03,560
+I decided to fold.
+
+1719
+01:15:03,560 --> 01:15:06,380
+Maybe I also knew that
+they were kind of tight.
+
+1720
+01:15:06,380 --> 01:15:08,270
+Normally when I play
+but I'm not showing here
+
+1721
+01:15:08,270 --> 01:15:10,870
+is I have like statistics
+on every player,
+
+1722
+01:15:10,870 --> 01:15:13,550
+of like overall the hands,
+what percent of the time
+
+1723
+01:15:13,550 --> 01:15:15,200
+they raised, what
+percent they folded.
+
+1724
+01:15:15,200 --> 01:15:18,300
+So I have a rough
+idea while I'm playing
+
+1725
+01:15:18,300 --> 01:15:22,320
+of how tight everyone is, and
+maybe I just knew he was tight.
+
+1726
+01:15:22,320 --> 01:15:25,202
+Actually let me see if I
+can turn it back on here.
+
+1727
+01:15:25,202 --> 01:15:25,910
+Yeah, let me see.
+
+1728
+01:15:25,910 --> 01:15:26,760
+That might be why.
+
+1729
+01:15:29,500 --> 01:15:32,060
+So OK, so these numbers--
+
+1730
+01:15:32,060 --> 01:15:33,410
+Actually, he's fairly loose.
+
+1731
+01:15:33,410 --> 01:15:34,910
+Actually, I'm not
+sure why I folded.
+
+1732
+01:15:34,910 --> 01:15:38,140
+So this 10.7 is his
+reraise percentage,
+
+1733
+01:15:38,140 --> 01:15:41,580
+and what this says is
+10.7% of the time he could
+
+1734
+01:15:41,580 --> 01:15:44,190
+have reraised, he reraised.
+
+1735
+01:15:44,190 --> 01:15:48,010
+It's only over a sample
+of 187 hands, but it's--
+
+1736
+01:15:48,010 --> 01:15:51,502
+Yeah, I think it's definitely
+looser than average.
+
+1737
+01:15:51,502 --> 01:15:53,210
+Although it's a bit
+biased, because we're
+
+1738
+01:15:53,210 --> 01:15:55,220
+playing at a five-handed table.
+
+1739
+01:15:55,220 --> 01:15:56,390
+Nonetheless, it's close.
+
+1740
+01:15:56,390 --> 01:15:59,420
+I think calling probably
+would've been OK, but I folded.
+
+1741
+01:15:59,420 --> 01:16:00,300
+Let me turn this off.
+
+1742
+01:16:00,300 --> 01:16:01,133
+It's quite annoying.
+
+1743
+01:16:04,900 --> 01:16:06,470
+So this is near the
+final table now.
+
+1744
+01:16:06,470 --> 01:16:08,178
+This is, I think, the
+second final table.
+
+1745
+01:16:08,178 --> 01:16:09,970
+There's maybe like
+11 or 12 left,
+
+1746
+01:16:09,970 --> 01:16:11,886
+and I'm just going to
+show you the final hands
+
+1747
+01:16:11,886 --> 01:16:13,460
+before the final table.
+
+1748
+01:16:13,460 --> 01:16:14,630
+This hand is a no-brainer.
+
+1749
+01:16:14,630 --> 01:16:21,190
+We go all in, and fortunately,
+we hold against pocket twos.
+
+1750
+01:16:21,190 --> 01:16:25,610
+OK, so the very last hand,
+also fairly no-brainer.
+
+1751
+01:16:25,610 --> 01:16:26,810
+This guy goes on.
+
+1752
+01:16:26,810 --> 01:16:30,080
+So yeah, poker is easy if you
+just get dealt pocket jacks,
+
+1753
+01:16:30,080 --> 01:16:31,809
+pocket aces all the time.
+
+1754
+01:16:31,809 --> 01:16:32,600
+So we win this one.
+
+1755
+01:16:32,600 --> 01:16:35,050
+OK so, this is the last
+hand before the final table.
+
+1756
+01:16:35,050 --> 01:16:38,090
+So in a future class, not
+the Friday class, because
+
+1757
+01:16:38,090 --> 01:16:39,770
+Jennifer Shahade is speaking.
+
+1758
+01:16:39,770 --> 01:16:42,890
+But in a future class I'll
+go through the final table,
+
+1759
+01:16:42,890 --> 01:16:45,650
+and I'll maybe also go through
+all the hands, not just
+
+1760
+01:16:45,650 --> 01:16:48,090
+the hands where I
+got in a big pot.
+
+1761
+01:16:48,090 --> 01:16:51,005
+So let me just quickly
+go back to the slides.
+
+1762
+01:16:54,040 --> 01:16:57,987
+Right, so I really only
+talked about two concepts
+
+1763
+01:16:57,987 --> 01:16:58,570
+in this class.
+
+1764
+01:16:58,570 --> 01:17:02,130
+It was this drawy
+versus dry boards.
+
+1765
+01:17:02,130 --> 01:17:05,060
+So try to remember that
+while you guys are playing,
+
+1766
+01:17:05,060 --> 01:17:06,590
+changing your bet
+sizing depending
+
+1767
+01:17:06,590 --> 01:17:08,060
+on the board pressure.
+
+1768
+01:17:08,060 --> 01:17:11,152
+And also this pre-flop
+reraising strategy,
+
+1769
+01:17:11,152 --> 01:17:13,110
+even though I didn't give
+you a conclusion here
+
+1770
+01:17:13,110 --> 01:17:15,380
+on what you reraise with.
+
+1771
+01:17:15,380 --> 01:17:17,960
+I should give you some rough
+guidelines and the advantages
+
+1772
+01:17:17,960 --> 01:17:20,570
+and disadvantages of each play.
+
+1773
+01:17:20,570 --> 01:17:22,870
+Yeah, OK, cool, so that's it.
+
+1774
+01:17:22,870 --> 01:17:24,020
+Come on Friday's class.
+
+1775
+01:17:24,020 --> 01:17:25,640
+It should be really exciting.
+
+1776
+01:17:25,640 --> 01:17:28,520
+Jennifer Shahade, she'll
+probably talk a bit about chess
+
+1777
+01:17:28,520 --> 01:17:30,710
+as well, but I'll
+convince her not
+
+1778
+01:17:30,710 --> 01:17:33,000
+to talk too much about chess
+when it's a poker class.
+
+1779
+01:17:33,000 --> 01:17:36,190
+But thanks, guys.

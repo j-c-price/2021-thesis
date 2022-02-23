@@ -1,0 +1,1227 @@
+A Primer on PAC-Bayesian Learning
+
+Benjamin Guedj John Shawe-Taylor
+
+ICML 2019
+June 10, 2019
+
+Coeca— WET
+
+ 
+ENDELEMENTWhat to expect
+
+We will...
+
+m Provide an overview of what PAC-Bayes is
+
+@ Illustrate its flexibility and relevance to tackle modern machine
+learning tasks, and rethink generalization
+
+m Cover main existing results and key ideas, and briefly sketch some
+proofs
+
+We won't...
+
+@ Cover all of Statistical Learning Theory: see the NeurlIPS 2018
+tutorial "Statistical Learning Theory: A Hitchhiker's guide”
+(Shawe-Taylor and Rivasplata)
+
+m Provide an encyclopaedic coverage of the PAC-Bayes literature
+(apologies!)
+ENDELEMENTIn a nutshell
+
+J
+PAC-Bayes is a generic framework to efficiently rethink generalization for
+numerous machine learning algorithms. It leverages the flexibility of
+Bayesian learning and allows to derive new learning algorithms.
+ENDELEMENTThe plan
+
+Elements of Statistical Learning
+The PAC-Bayesian Theory
+
+State-of-the-art PAC-Bayes results: a case study
+m Localized PAC-Bayes: data- or distribution-dependent priors
+m Stability and PAC-Bayes
+m PAC-Bayes analysis of deep neural networks
+ENDELEMENTThe plan
+
+Elements of Statistical Learning
+ENDELEMENTError distribution
+20
+
+ 
+
+Parzen window
+Linear SVM
+
+   
+   
+
+95% confidence
+
+95% confidence
+
+ 
+
+ 
+
+ 
+
+° 0.2 0.4 0.6 0.8 1
+
+mean}
+mean
+ENDELEMENTLearning is to be able to generalize
+
+From examples, what can a system
+learn about the underlying
+phenomenon?
+
+Memorizing the already seen data is
+usually bad —> overfitting
+
+Generalization is the ability to
+*perform’ well on unseen data.
+
+ 
+
+[Figure trom Wikipedia]
+ENDELEMENTStatistical Learning Theory is about high confidence
+For a fixed algorithm, function class and sample size, generating random
+samples —- distribution of test errors
+
+@ Focusing on the mean of the error distribution?
+> can be misleading: learner only has one sample
+
+@ Statistical Learning Theory: tail of the distribution
+> finding bounds which hold with high probability
+over random samples of size m
+
+m= Compare to a statistical test - at 99% confidence level
+> chances of the conclusion not being true are less than 1%
+
+m PAC: probably approximately correct (Valiant, 1984)
+Use a ‘confidence parameter’ 5: P™(large error] < &
+6 is the probability of being misled by the training set
+
+m Hence high confidence: P’”[approximately correct] > 1—&
+ENDELEMENTMathematical formalization
+
+Learning algorithm A : 2 + 3
+
+eo 2Z=XxY e 3 = hypothesis class
+X = set of inputs = Set of predictors
+Y = set of outputs (e.g. (e.g. classifiers)
+labels) functions X — Y
+
+Training set (aka sample): Sm = ((X1, Ys), .--5 (Xm Ym))
+
+a finite sequence of input-output examples.
+Classical assumptions:
+e A data-generating distribution P over 2.
+e Learner doesn’t know P, only sees the training set.
+e The training set examples are i.i.d. from P: S, ~ P”
+> these can be relaxed (mostly beyond the scope of this tutorial)
+ENDELEMENTWhat to achieve from the sample?
+
+Use the available sample to:
+learn a predictor
+certify the predictor’s performance
+
+Learning a predictor:
+e algorithm driven by some learning principle
+e informed by prior knowledge resulting in inductive bias
+
+Certifying performance:
+e what happens beyond the training set
+e generalization bounds
+
+Actually these two goals interact with each other!
+ENDELEMENTRisk (aka error) measures
+
+A loss function ((h{X), Y) is used to measure the discrepancy between
+a predicted output A(X) and the true output Y.
+
+Empirical risk: Rin(h) = 7 Lia (A(X), Y/)
+(in-sample)
+
+Theoretical risk: Rour(h) = E[e(h(X), Y)]
+(out-of-sample)
+
+Samples’
+e(A(X), y, = 1[h(X) 4 Y] : 0-1 loss (classification)
+0(A(X), Y) = (Y — A(X))?_ : square loss (regression)
+(A(X), , = (1— Yh(X)), +: hinge loss
+(A(X), 1) = —log(h(X)) : log loss (density estimation)
+ENDELEMENTGeneralization
+
+If predictor h does well on the in-sample (X, Y) pairs...
+..-Will it still do well on out-of-sample pairs?
+
+Generalization gap: A(h) = Rout(A) — Rin(h)
+
+Upper bounds: w.h.p. A(h) < e(m,8)
+Pm Rout(h) < Fin(h) + e(m, 3)
+
+Lower bounds: w.h.p. A(h) > é(m, 4)
+
+Flavours:
+@ distribution-free @ distribution-dependent
+@ algorithm-free @ algorithm-dependent
+ENDELEMENTWhy you should care about generalization bounds
+
+Generalization bounds are a safety check: give a theoretical guarantee
+on the performance of a learning algorithm on any unseen data.
+
+Generalization bounds:
+
+™ may be computed with the training sample only, do not depend on
+
+any test sample
+
+@ provide a computable control on the error on any unseen data with
+prespecified confidence
+explain why specific learning algorithms actually work
+and even lead to designing new algorithm which scale to more
+complex settings
+ENDELEMENTBuilding block: one single hypothesis
+For one fixed (non data-dependent) h
+
+E(Rin(h)] =E [4 24 (A(X), ¥)] = Roush)
+
+> PMA(h) > €] = P™[E[Rin(h)] — Rin(h) > | deviation ineq.
+&(h(X;), Yj) are independent r.v’s
+m IfO0 < (h(X), Y) < 1, using Hoeffding’s inequality:
+P™[A(h) > e] < exp {—2me?} =6
+
+» Given 5 € (0,1), equate RHS to 5, solve equation for e, get
+
+pm [ain > (172m) log(1/8)] <5
+
+> with probability >1—8, — Rout(h) < Rin(h) + Vv am 08 (3)
+ENDELEMENTFinite function class
+
+Algorithm A: 2 — 5 Function class 3 with |J{| < co
+Aim for a uniform bound: P™|VfeH, Alf) <e] >1—5
+
+Basic tool: P(E; or Eo or ---) < P™(E,) + P™(E2) +
+known as the union bound (aka countable sub-additivity)
+
+Pmlare st, A( A(f) >e] < Drea P mal >e|
+
+< |Hlexp {—2me?} = 8
+
+wp.>1—8 VRE, Roulh) <Aia(h )+ yates ("S)
+
+This is a worst-case approach, as it considers uniformly all hypotheses.
+ENDELEMENTTowards non-uniform learnability
+
+A route to improve this is to consider data-dependent hypotheses h;,
+associated with prior distribution P = (pj); (structural risk minimization):
+
+21=8, VMK Rouslhi) < Rin(hi) + 9/24 log (#5)
+Note that we can also write
+wp.>1-8, Vhed,
+Rout (hi) < Rin (hi) + Vom (KL(Dirac(hj) ||P) + log ($))
+
+ 
+
+@ First attempt to introduce hypothesis-dependence
+(ie. complexity depends on the chosen function)
+
+m This leads to a bound-minimizing algorithm:
+—————
+/1 1
+Rin (hi =! —
+{ kin (i) + \ Bm (8 (4:)}
+
+return arg min
+nex
+ENDELEMENTUncountably infinite function class?
+Algorithm A: 2 — 5 Function class + with |F| > |N|
+
+@ Vapnik & Chervonenkis dimension: for 1( with d = VC(H) finite, for
+any m, for any 5 € (0, 1),
+
+wp.>1-8, VheH, ACh) < \/8 log(22™) + 8 log(4)
+
+The bound holds for all functions in the class (uniform over S) and
+for all distributions (uniform over P)
+
+ 
+
+m Rademacher complexity (measures how well a function can align
+with randomly perturbed labels — can be used to take advantage of
+margin assumptions)
+
+These approaches are suited to analyse the performance of
+individual functions, and take some account of correlations
+
+—+ Extension: PAC-Bayes allows to consider distributions over
+hypotheses.
+ENDELEMENTThe plan
+
+The PAC-Bayesian Theory
+ENDELEMENTThe PAC-Bayes framework
+
+= Before data, fix a distribution P © M,(H) > ‘prior’
+m Based on data, learn a distribution Q € M;(H) p ‘posterior’
+
+= Predictions:
+e draw h ~ Qand predict with the chosen h.
+e each prediction with a fresh random draw.
+
+The risk measures Ri, (h) and Rout(h) are extended by averaging:
+
+Rin(Q) = Sag Rin(h) dQ(h) Rout (Q) = Jy Rout) AQ(h)
+
+KL(Q\|P) = ,E,In Sint is the Kullback-Leibler divergence.
+
+Recall the bound for data-dependent hypotheses hj associated with prior
+weights pj:
+
+wp. 21-8, Wh ex,
+
+Rout (hi) < Pin(hi) + Vas (KL (Dirac(hj)||P) + log ($))
+
+ 
+ENDELEMENTPAC-Bayes aka Generalized Bayes
+Bayesian inference
+
+Unique
+
+—_
+Statistical modelling
+(likelihood)
+
+PAC-Bayes
+
+Model-free
+—__ OS™
+
+Inspired by the
+Bayesian update
+principle - Only
+depends on loss
+
+*Prior”: exploration mechanism of H
+*Posterior” is the twisted prior after confronting with data
+ENDELEMENTPAC-Bayes bounds vs. Bayesian learning
+
+@ Prior
+
+e PAC-Bayes bounds: bounds hold even if prior incorrect
+e Bayesian: inference must assume prior is correct
+
+= Posterior
+e PAC-Bayes bounds: bound holds for all posteriors
+e Bayesian: posterior computed by Bayesian inference, depends on
+statistical modeling
+
+= Data distribution
+e PAC-Bayes bounds: can be used to define prior, hence no need to be
+known explicitly
+e Bayesian: input effectively excluded from the analysis, randomness
+lies in the noise model generating the output
+ENDELEMENTA history of PAC-Bayes
+
+Pre-history: PAC analysis of Bayesian estimators
+Shawe-Taylor and Williamson (1997); Shawe-Taylor et al. (1998)
+
+Birth: PAC-Bayesian bound
+McAllester (1998, 1999)
+
+McAllester Bound
+For any prior P, any 5 € (0, 1], we have
+
+KL(Q||P) + In 2
+e(vooe Rour(Q) < Rn(Q) + ope) > 1-5,
+
+2m
+ENDELEMENTA history of PAC-Bayes
+
+Introduction of the kl form
+Langford and Seeger (2001); Seeger (2002, 2003); Langford (2005)
+
+1ME-Talo edge -Uale Ms1-1-10(-1m sie. are
+
+For any prior P, any 5 € (0, 1], we have
+
+m to = 5
+K(Fin(Q)||Rour(@)) < 4 [KL(Q|P) + n2¥2] ) 7 1~°»
+
+where —kI(q||p) © = ging +(1— g)In n= 2(q—p)’.
+
+ 
+ENDELEMENTA General PAC-Bayesian Theorem
+
+ 
+
+A-function: “distance” between Fi,(Q) and Rout(Q)
+
+Convex function A : {0, 1] x [0,1] > R.
+
+General theorem Bégin et al. (2014, 2016); Germain (2015)
+
+For any prior P on 1, for any 5 €(0, 1], and for any A-function, we have, with
+probability at least 1—6 over the choice of Sm ~ P”,
+
+VOonX: A(Rn(Q),Aow(Q)) < 2 |KL(Q|P) +I
+
+<a sanattn|
+
+where
+
+samy = suo | Se
+
+re€l0,1] | x=
+
+ 
+
+Bin : im, =
+
+ 
+ENDELEMENTGeneral theorem
+
+pn (vaon: A(Rin(@), Rout(Q)) < 7 Kua) + m2] > 1-8.
+
+Proof ideas.
+
+Change of Measure Inequality (Csiszar, 1975; Donsker and Varadhan, 1975)
+For any P and Q on ‘H, and for any measurable function ¢ : 1 + R, we have
+
+(h) < KL(Q\|P) tn)
+Eo(h) < KL(QIIP) 4 n(E,e )
+
+Markov's inequality
+
+P(X>a)S®X => P(X< FX) D1-5
+
+Probability of observing k misclassifications among m examples
+Given a voter h, consider a binomial variable of m trials with success R,,..;(h):
+
+Pm(Ra(h)=&) = (7) (Ross(t)) (1 —Rowe(h))” _ Bin (k;m, Foue(M))
+ENDELEMENTey oP Rr a ET)
+> (vaon se: A(Ain(Q), Rout(Q)) L(Q||P) +n 2 |) >1-8.
+
+ 
+
+ 
+
+Proof
+A(E, Ril), ,E, Rouc(h))
+
+< Em A(Rin(h), Foue())
+BEE <0) +n Boor)
+Sis KLQIP) tint EE er AlFin (Mi Fousin
+B speem mp
+h~P Si~P
+
+_ ACH Rous
+| Binomialiaw Kuo in! gS antimaine ( tm)
+
+KLQ|P) + Int sup Dd Bin( (k;m, nema?)
+re 0,1
+
+IN
+
+= — KL(Q\P) +In E3a(m). o
+ENDELEMENTGeneral theorem
+Ja(m)
+
+Pp” (vaonse: A(Fin(Q), Four(Q)) < 3 [KuI°) +6 “)) > 1-5.
+
+Corollary
+[...] with probability at least 1—8 over the choice of S,, ~ P”, for all Q on KH :
+
+o 1a(Fin()), Rou(Q)) at [KL(Q|P) +n a Langford and Seeger (2001)
+
+B® Rour(Q) < Rin(Q)+ 4/3 [KL(Q|P) +1 “), McAllester (1999, 2003a)
+
+   
+
+ 
+
+   
+
+Rour(Q) S gots (6+ Rin(Q) + 4 [KL(Q||P) + In 3]), Catoni (2007)
+Rour(Q) S Rin(Q) + x [KL(Q||P) + In § + f(A, m)] . Alquier et al. (2016)
+kK(g.p) & qin? +(1—q)In=2 > 2A(q~—p)*,
+
+A.(qp) & =Inlt—(1-e°)-pl—c-g,
+Aap) 2 A(p—a)
+ENDELEMENTRecap
+
+What we've seen so far
+
+@ Statistical learning theory is about high confidence control of
+generalization
+
+m PAC-Bayes is a generic, powerful tool to derive generalization
+bounds
+
+What is coming next
+m PAC-Bayes application to large classes of algorithms
+m PAC-Bayesian-inspired algorithms
+@ Case studies
+ENDELEMENTA flexible framework
+
+Since 1997, PAC-Bayes has been successfully used in many machine
+learning settings.
+
+Statistical learning theory Shawe-Taylor and Williamson (1997); McAllester
+(1998, 1999, 2003a,b); Seeger (2002, 2003); Maurer (2004); Catoni
+(2004, 2007); Audibert and Bousquet (2007); Thiemann et al. (2017)
+
+SVMs & linear classifiers Langford and Shawe-Taylor (2002); McAllester
+(2003a); Germain et al. (2009a)
+
+Supervised learning algorithms reinterpreted as bound minimizers
+Ambroladze et al. (2007); Shawe-Taylor and Hardoon (2009); Germain
+et al. (2009b)
+
+High-dimensional regression Alquier and Lounici (2011); Alquier and Biau
+(2013); Guedj and Alquier (2013); Li et al. (2013); Guedj and Robbiano
+(2018)
+
+Classification Langford and Shawe-Taylor (2002); Catoni (2004, 2007);
+Lacasse et al. (2007); Parrado-Hernandez et al. (2012)
+ENDELEMENTA flexible framework
+
+Transductive learning, domain adaptation Derbeko et al. (2004); Bégin
+et al. (2014); Germain et al. (2016)
+
+Non-iid or heavy-tailed data Lever et al. (2010); Seldin et al. (2011, 2012);
+Alquier and Guedj (2018)
+
+Density estimation Seldin and Tishby (2010); Higgs and Shawe-Taylor (2010)
+
+Reinforcement learning Fard and Pineau (2010); Fard et al. (2011); Seldin
+et al. (2011, 2012); Ghavamzadeh et al. (2015)
+
+Sequential learning Gerchinovitz (2011); Li et al. (2018)
+
+Algorithmic stability, differential privacy London et al. (2014); London
+(2017); Dziugaite and Roy (2018a,b); Rivasplata et al. (2018)
+
+Deep neural networks Dziugaite and Roy (2017); Neyshabur et al. (2017)
+ENDELEMENTPAC-Bayes-inspired learning algorithms
+In all the previous bounds, with an arbitrarily high probability and for any
+posterior distribution Q,
+
+Error on unseen data
+
+Row(Q)
+
+Error on sample + complexity term
+
+<
+< Rin(Q) + F(Q,-)
+
+This defines a principled strategy to obtain new learning algorithms:
+
+h~Q
+Qe arginf { Rin(Q) + F(Q,}
+Q«P
+
+(optimization problem which can be solved or approximated by
+[stochastic] gradient descent-flavored methods, Monte Carlo Markov
+Chain, Variational Bayes...)
+ENDELEMENTPAC-Bayes interpretation of celebrated algorithms
+
+SVM with a sigmoid loss and KL-regularized Adaboost have been
+reinterpreted as minimizers of PAC-Bayesian bounds.
+
+Ambroladze et al. (2007), Shawe-Taylor and Hardoon (2009), Germain et al.
+(2009b)
+
+For any A > 0, the minimizer of
+
+{An(a) +S.
+
+A
+is the celebrated Gibbs posterior
+
+Qy(h) x exp(—ARin(h)) P(A), Whe KH.
+
+Extreme cases: A > 0 (flat posterior) and A — oo (Dirac mass on
+ERMs). Note: continuous version of the exponentially weighted
+aggregate (EWA).
+ENDELEMENTVariational definition of KL-divergence (Csiszar, 1975; Donsker and
+Varadhan, 1975; Catoni, 2004).
+
+Let (A, A) be a measurable space.
+
+(i) For any probability P on (A, A) and any measurable function
+& : A- R such that J (expo t)dP < 0,
+
+log [lewoar = sup {| ea- KL(Q, Pi}
+
+a«P
+
+(ii) If @ is upper-bounded on the support of P, the supremum is
+reached for the Gibbs distribution G given by
+
+dG exp of(a)
+
+dP) Tlepogyae 7° 4
+ENDELEMENTlog f(expo)dP = sup {fdQ—KL(Q,P)}, 4G= Tea
+Q<P
+Proof: let Q << P.
+
+—KL(Q, G@) = -| log (S338) dQ
+
+== [0g (33) dQ+ [08 (33) dQ
+=—KL(Q,P) + | dp — log | (expo) dP.
+
+KL(., -) is non-negative, Q++ —KL(Q, G) reaches its max. in Q = G:
+
+0= sup {{ oo-Kua, Pi} log | (exp) aP.
+Q«<P \ J
+
+Take @ = —ARin,
+
+Qy x exp (—ARin) P = arg inf {Ania +
+
+KL(Q, =I
+Q«P ,
+ENDELEMENTPAC-Bayes for non-iid or heavy-tailed data
+We drop the iid and bounded loss assumptions. For any integer p,
+
+Mp = [ecm — Rout (h)|P) dP(h).
+
+Csiszar f-divergence: let f be a convex function with f(1) = 0,
+
+D;(Q, P) = iG (33) dP
+
+when Q < P and D;(Q, P) = +00 otherwise.
+
+The KL is given by the special case KL(Q\|P) = Dy tog(x)(Q, P).
+ENDELEMENTPAC-Bayes with f-divergences Alquier and Gueqj (2078)
+Let pp: x x?. Fixp>1,q= rast and 5 € (0, 1). With probability at
+least 1 — 5 we have for any distribution Q
+Mag\#
+i) a 1
+[Rau (Q) ~ Fn(Q)) < (ea) (Dy, 10, P) +1)*.
+The bound decouples
+@ the moment Mg (which depends on the distribution of the data)
+@ and the divergence Dy, 1(Q, P) (measure of complexity).
+Corolloray: with probability at least 1 — 5, for any Q,
+
+Mg
+3
+
+ 
+
+Rour(Q) < Rin(Q) + ( ) (Dy,-1(@,P) +1)?
+
+Again, strong incitement to define the posterior as the minimizer of the
+right-hand side!
+ENDELEMENTProof
+Let A(h) := |Rin(A) — Rout (A)I-
+
+Jensen
+
+<
+=m -
+a <
+
+ 
+
+Rowe | Rd)
+
+AdQ
+
+dQ
+<P
+AP
+
+Jove) ([(ie) e)
+
+ 
+
+«, El58#)(|(88) 9)
+
+(Dy,-1(Q, P) +1)?
+
+Mag
+5
+ENDELEMENTOracle bounds
+
+Catoni (2004, 2007) further derived PAC-Bayesian bound for the Gibbs
+posterior
+Qy x exp (—ARin) P.
+
+Assume that the loss is upper-bounded by B, for any A > 0, with
+probability greater that 1 — 5
+
+3/%
+sins
+
+Rol) < dof, { nel) +22 + (Kula, P) + log? :)}
+
+(can be optimized with respect to A)
+Pros: Qy now enjoys stronger guarantees as its performance is
+
+comparable to the (forever unknown) oracle.
+Cons: the right-hand side is no longer computable.
+ENDELEMENTThe plan
+
+State-of-the-art PAC-Bayes results: a case study
+m Localized PAC-Bayes: data- or distribution-dependent priors
+m Stability and PAC-Bayes
+m PAC-Bayes analysis of deep neural networks
+ENDELEMENTThe plan
+
+State-of-the-art PAC-Bayes results: a case study
+m Localized PAC-Bayes: data- or distribution-dependent priors
+
+ 
+ENDELEMENTData- or distribution-dependent priors
+PAC-Bayesian bounds express a tradeoff between empirical accuracy
+and a measure of complexity
+
+KL(Q||P) +1
+2m
+
+ 
+
+Rout(Q) < Fin(Q) +
+
+How can this complexity be controlled?
+m An important component in the PAC-Bayes analysis is the choice of
+the prior distribution
+m The results hold whatever the choice of prior, provided that it is
+chosen before seeing the data sample
+mw Are there ways we can choose a ‘better’ prior?
+g Will explore:
+@ using part of the data to /earn the prior for SVMs, but also more
+interestingly and more generally
+@ defining the prior in terms of the data generating distribution (aka
+localised PAC-Bayes).
+ENDELEMENTSVM Application
+
+Prior and posterior distributions are spherical Gaussians:
+
+m Prior centered at the origin
+
+@ Posterior centered at a scaling 1 of the unit SVM weight vector
+Implies KL term is 12/2
+We can compute the stochastic error of the posterior distribution
+exactly and it behaves like a soft margin, scaling 1 trades between
+margin loss and KL
+Bound holds for all 11, so choose to optimise the bound
+
+= Generalization of deterministic classifier can be bounded by twice
+stochastic error
+
+ 
+ENDELEMENTLearning the prior for SVMs
+m Bound depends on the distance between prior and posterior
+= Better prior (closer to posterior) would lead to tighter bound
+m Learn the prior P with part of the data
+g Introduce the learnt prior in the bound
+m= Compute stochastic error with remaining data: PrPAC
+m We can go a step further:
+@ Consider scaling the prior in the chosen direction: t-PrPAC
+@ adapt the SVM algorithm to optimise the new bound: n-Prior SVM
+m We present some results to show the bounds and their use in model
+
+selection (regularisation and band-width of kernel).
+ENDELEMENTResults
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Classifier
+SVM nPrior SVM
+
+Problem 2FCV | 10FCV | PAC | PrPAC | PrPAC | t-PrPAC
+digits Bound - - 0.175 | 0.107 | 0.050 0.047
+TE 0.007 | 0.007 | 0.007 | 0.014 | 0.010 0.009
+waveform | Bound = = 0.203 | 0.185 | 0.178 0.176
+TE 0.090 | 0.086 | 0.084 | 0.088 | 0.087 0.086
+pima Bound - - 0.424 | 0.420 | 0.428 0.416
+TE 0.244 | 0.245 | 0.229 | 0.229 | 0.233 0.233
+ringnorm | Bound - - 0.203 | 0.110 | 0.053 0.050
+TE 0.016 | 0.016 | 0.018 | 0.018 | 0.016 0.016
+spam Bound - - 0.254 | 0.198 | 0.186 0.178
+TE 0.066 | 0.063 | 0.067 | 0.077 | 0.070 0.072
+
+ 
+
+ 
+ENDELEMENTResults
+
+m Bounds are remarkably tight: for final column average factor
+between bound and TE is under 3.
+
+m= Model selection from the bounds is as good as 10FCV: in fact all but
+one of the PAC-Bayes model selections give better averages for TE.
+
+m The better bounds do not appear to give better model selection -
+best model selection is from the simplest bound.
+Ambroladze et al. (2007), Germain et al. (2009a)
+ENDELEMENTDistribution-defined priors
+
+m Consider P and Q are Gibbs-Boltzmann distributions
+1 1
+Py(h) = Fie YR Qy(h) = se rnin
+
+@ These distributions are hard to work with since we cannot apply the
+bound to a single weight vector, but the bounds can be very tight:
+
+ 
+
+1 / 8 2 4
+k1(in(Qy) ll Roue(@Qy)) < ¥( Sale vn + a +In |
+
+with the only uncertainty the dependence on y.
+Catoni (2003), Catoni (2007), Lever et al. (2010)
+ENDELEMENTObservations
+
+m We cannot compute the prior distribution P or even sample from it:
+@ Note that this would not be possible to consider in normal Bayesian
+inference;
+@ Trick here is that the error measures only depend on the posterior Q,
+while the bound depends on KL between posterior and prior: an
+estimate of this KL is made without knowing the prior explicitly
+
+@ The Gibbs distributions are hard to sample from so not easy to work
+with this bound.
+
+ 
+ENDELEMENTOther distribution defined priors
+
+@ An alternative distribution defined prior for an SVM is to place
+symmetrical Gaussian at the weight vector:
+Wp = Egy)~o(¥ 6(x)) to give distributions that are easier to work
+with, but results not impressive...
+
+m What if we were to take the expected weight vector returned from a
+random training set of size m: then the KL between posterior and
+prior is related to the concentration of weight vectors from different
+training sets
+
+@ This is connected to stability...
+ENDELEMENTThe plan
+
+State-of-the-art PAC-Bayes results: a case study
+
+m Stability and PAC-Bayes
+
+ 
+ENDELEMENTStability
+
+Uniform hypothesis sensitivity 8 at sample size m:
+
+| AlZism) = AlZtm) |] < BL Wz A 27)
+
+ 
+
+(21,---,2m) :
+@ A(Z-m) € H normed space @ Lipschitz
+@ Wm = A(Z1:m) ‘weight vector’ =m smoothness
+
+Uniform loss sensitivity B at sample size m:
+
+€(A(Zt:m), 2) — C(A(Z4sm)s ZI < BLE, zi A 2)
+™@ worst-case @ distribution-insensitive
+@ data-insensitive m Open: data-dependent?
+ENDELEMENTGeneralization from Stability
+
+If A has sensitivity at sample size m, then for any 5 € (0,1),
+wp. 21-8,  Rout(h) < Rin(h) + e(B, m3)
+
+Bousquet and Elisseeff (2002)
+
+@ the intuition is that if individual examples do not affect the loss of an
+algorithm then it will be concentrated
+
+™ can be applied to kernel methods where f is related to the
+regularisation constant, but bounds are quite weak
+
+@ question: algorithm output is highly concentrated
+==> stronger results?
+ENDELEMENTStability + PAC-Bayes
+
+If A has uniform hypothesis stability 8 at sample size m, then
+for any 5 € (0,1), wp. > 1—28,
+
+2
+ate (1+ \/$log(t) ) + los (+)
+
+K1(Rin(Q)||Fout(Q)) < m
+
+ 
+
+Gaussian randomization
+e P=N(E[Wm], 07!) 1
+KL(Q\|P) = 53]||Wm—EIMl||?
+SO =N(Wg. 2) 7 KECQIP) = goal MEIN
+Main proof components:
+( met
+m wp. 21-5, Kl(Fy(Q)|) nel Q)) < Seialeoesl"s")
+
+m wp. 21—8, ||Wm—ElWnll) < vm B (1+ y/$l08(4))
+
+Dziugaite and Roy (2018a), Rivasplata et al. (2018)
+
+ 
+ENDELEMENTThe plan
+
+State-of-the-art PAC-Bayes results: a case study
+
+m PAC-Bayes analysis of deep neural networks
+ENDELEMENTIs deep learning breaking the statistical paradigm we
+know?
+
+Neural networks architectures trained on massive datasets achieve zero
+training error which does not bode well for their performance...
+
+... yet they also achieve remarkably low errors on test sets!
+
+PAC-Bayes is a solid candidate to better understand how deep nets
+generalize.
+
+ 
+ENDELEMENTThe celebrated bias-variance tradeoff
+
+under-fitting : over-fitting
+
+: Test risk
+
+     
+ 
+
+N
+
+~ ‘Training risk
+sweet spot. + ~
+
+~~ >>
+Complexity of H
+
+Belkin et al. (2018)
+ENDELEMENTTowards a better understanding of deep nets
+
+    
+    
+
+under-parameterized
+
+Test risk
+“classical”
+regime
+
+over-parameterized
+
+“modern”
+interpolating regime
+
+    
+
+    
+
+‘ \ Training risk:
+
+interpolation threshold
+
+ 
+
+Complexity of H.
+
+ 
+
+Belkin et al. (2018)
+
+ 
+ENDELEMENTPerformance of deep nets
+
+m Deep learning has thrown down a challenge to Statistical Learning
+Theory: outstanding performance with overly complex hypothesis
+classes (most bounds turn vacuous)
+
+m For SVMs we can think of the margin as capturing an accuracy with
+which we need to estimate the weights
+
+mw If we have a deep network solution with a wide basin of good
+performance we can take a similar approach using PAC-Bayes with
+a broad posterior around the solution
+ENDELEMENTPerformance of deep nets
+
+@ Dziugaite and Roy (2017), Neyshabur et al. (2017) have derived some
+of the tightest deep learning bounds in this way
+@ by training to expand the basin of attraction
+@ hence not measuring good generalisation of normal training
+m Dziugaite and Roy (2017) have also tried to apply the Lever et al.
+(2013) bound but observed cannot measure generalisation correctly
+for deep networks as has no way of distinguishing between
+successful fitting of true and random labels
+m There have also been suggestions that stability of SGD is important
+in obtaining good generalization (see Dziugaite and Roy (2018b))
+
+m We presented stability approach combining with PAC-Bayes: this
+results in a new learning principle linked to recent analysis of
+information stored in weights
+ENDELEMENTInformation contained in training set
+
+@ Achille and Soatto (2018) studied the amount of information stored in
+the weights of deep networks
+
+@ Overfitting is related to information being stored in the weights that
+encodes the particular training set, as opposed to the data
+generating distribution
+
+@ This corresponds to reducing the concentration of the distribution of
+weight vectors output by the algorithm
+
+m@ They argue that the Information Bottleneck criterion introduced by
+Tishby et al. (1999) can control this information: hence could
+potentially lead to a tighter PAC-Bayes bound
+
+@ Potential for algorithms that optimize the bound
+ENDELEMENTConclusion
+
+m PAC-Bayes arises from two fields:
+
+@ Statistical learning theory
+@ Bayesian learning
+
+= As such, it generalizes both in interesting and promising directions.
+
+m We believe PAC-Bayes can be an inspiration towards
+
+@ new theoretical analyses
+@ but also drive novel algorithms design, especially in settings where
+theory has proven difficult.
+ENDELEMENTAcknowledgments
+
+We warmly thank our many co-authors on PAC-Bayes, with a special
+mention to Omar Rivasplata, Francois Laviolette and Pascal Germain
+who helped shape this tutorial.
+We both acknowledge the generous support of
+
+m UK Defence Science and Technology Laboratory (Dstl)
+
+m Engineering and Physical Research Council (EPSRC)
+
+Benjamin also acknowledges support from the French funding Agency
+(ANR) and Inria.
+
+Thank you!
+
+Slides available on
+https: //bguedj .github.io/icm12019/index.html
+ENDELEMENTReferences |
+
+A. Achille and S. Soatto. Emergence of invariance and disentanglement in deep representations. Journal of Machine Learning
+Research, 19(50):1~34, 2018. URL http: //jmlr.org/papers/vi9/ 17-646. html.
+
+P. Alguier and G. Biau. Sparse single-index madel. Journal of Machine Learning Research, 14:243-280, 2013,
+. Alguier and B. Guedj. Simpler PAC-Bayesian bounds for hostile data. Machine Learning, 107(5):887-802, 2018.
+
+P. Alguier and K. Lounici. PAC-Bayesian theorems for sparse regression estimation with exponential weights. Electronic Journal of
+Statistics, 5127-145, 2011
+
+P. Alguier, J. Ridgway, and N. Chopin. On the properties of variational approximations of Gibbs posteriors. The Journal of Machine
+Learning Research, 17(1)'8374-8414, 2016.
+
+‘A, Ambroladze, E, Parrado-Hernandez, and J. Shawe-taylor. Tighter PAC-Bayes bounds. In Advances in Neural Information
+Processing Systems, NIPS, pages 9-16, 2007,
+
+4J-Y. Audibert and O. Bousquet. Combining PAC-Bayesian and generic chaining bounds. Journal of Machine Learning Research,
+2007.
+
+LL Bégin, P. Germain, F Laviolette, and J.-F. Roy. PAC-Bayesian theory for transductive learning. In AISTATS, 2014.
+LL Bégin, P. Germain, F Laviolette, and J.-F. Roy. PAC-Bayesian bounds based on the Rényi divergence. In AISTATS, 2016,
+
+M. Belkin, D. Hsu, S. Ma, and S, Mandal, Reconciling madern machine learning and the bias-variance trade-off. arXiv preprint
+arXiv:1812,11118, 2018,
+
+©. Bousquet and A. Elisseett. Stabilty and generalization. Journal of machine learning research, 2(Mat):499-526, 2002
+©. Catoni. A PAC-Bayesian approach to adaptive classification, 2003.
+©. Catoni. Statistical Learning Theory and Stochastic Optimization. Ecole d'Eté de Probabilités de Saint-Flour 2001. Springer, 2004.
+
+©. Catoni. PAC-Bayesian Supervised Classification: The Thermodynamics of Statistical Learning, volume $6 of Lecture notes ~
+‘Monograph Series. Institute of Mathematical Statistics, 2007.
+
+|. Csiszar. divergence geometry of probability distributions and minimization problems. Annals of Probabilly, 3:146~188, 1975.
+
+P. Derbeko, R. El-Yaniy, and R. Meir, Explicit learning curves for transduction and application to clustering and compression
+algorithms. J Art Intell. Res. (JAIR), 22, 2004,
+ENDELEMENTReferences II
+
+M.D. Donsker and S. S. Varadhan. Asymptotic evaluation of certain Markov process expectations for large time. Communications on
+Pure and Applied Mathematics, 28, 1975,
+
+G. K. Dziugaite and D. M. Roy. Computing nonvacuous generalization bounds for deep (stochastic) neural networks with many more
+parameters than training data. In Proceedings of Uncertainty in Artificial Inteligence (UAI), 2017.
+
+K. Dziugaite and D. M, Roy. Data-dependent PAC-Bayes priors via differential privacy. In NeurlPS, 2018
+
+K. Dziugaite and D. M. Roy. Entropy-SGD optimizes the prior of a PAC-Bayes bound: Generalization properties of Entropy-SGD
+‘and data-dependent priors. In International Conference on Machine Learning, pages 1376-1385, 2018b.
+
+29
+
+M.M, Fard and J. Pineau. PAC-Bayesian model selection for reinforcement learning. In Advances in Neural Information Processing
+‘Systems (NIPS), 2010,
+
+M.M. Fard, J. Pineau, and C. Szepesvari. PAC-Bayesian Policy Evaluation for Reinforcement Leaming. In UAI, Proceedings of the
+Twenty: Seventh Conference on Uncertainty in Artificial inteligence, pages 195-202, 2011.
+
+S. Gerchinovitz. Prédiction de suites individuelles et cade statistique classique : étude de quelques liens autour de fa régression
+‘parcimonieuse et des techniques d'agrégation. PhD thesis, Université Paris-Sud, 2011.
+
+P. Germain. Généralisations de la théorie PAC-bayésienne pour lapprentissage induct, apprentissage transductif et adaptation de
+domaine. PhD thesis, Université Laval, 2015.
+
+P. Germain, A. Lacasse, F Laviolette, and M. Marchand. PAC-Bayesian learning of linear classifiers. In Proceedings of the 26th
+‘Annual International Conference on Machine Learning, ICML, 2009a,
+
+P. Germain, A. Lacasse, M. Marchand, 8, Shanian, and F. Laviolette, From PAC-Bayes bounds to KL regularization. In Advances in
+‘Neural Information Processing Systems, pages 603-610, 2009.
+
+P. Germain, A. Habrard, F. Laviolette, and E. Morvant. A new PAC-Bayesian perspective on domain adaptation. In Proceedings of
+International Conference on Machine Learning, volume 48, 2016.
+
+M. Ghavamzadeh, S. Mannor, J. Pineau, and A. Tamar. Bayesian reinforcement learning: A survey. Foundations and Trends in
+‘Machine Learning, 8(5-6):359-483, 2015.
+
+B, Guedj and P. Alquier. PAC-Bayesian estimation and prediction in sparse additive models. Electron. J. Statist, 7:264-281, 2013.
+ENDELEMENTReferences III
+
+8B. Guedj and S, Robbiano. PAC-Bayesian high dimensional bipartite ranking. Journal of Statistical Planning and Inference, 196:70 —
+86, 2018. ISSN 0378-3758.
+
+M. Higgs and J. Shawe-Taylor. A PAC-Bayes bound for tallored density estimation. In Proceedings of the International Conference
+‘on Algorithmic Learning Theory (ALT). 2010.
+
+A. Lacasse, F Laviolette, M. Marchand, P. Germain, and N. Usunier. PAC-Bayes bounds for the risk of the majority vote and the:
+variance of the Gibbs classifier. In Advances in Neural information processing systems, pages 769-776, 2007.
+
+J. Langford. Tutorial on practical prediction theory for classification. Journal of Machine Learning Research, 2005,
+
+J. Langford and M. Seeger. Bounds for averaging classifiers. Technical report, Carnegie Mellon, Departement of Computer Science,
+2001
+
+J. Langford and J. Shawe-Taylor. PAC-Bayes & margins. In Advances in Neural Information Processing Systems (NIPS), 2002.
+
+G. Lever, F Laviolette, and J. Shawe-Taylor. Distribution-dependent PAC-Bayes priors. In International Conference on Algorithmic
+Learning Theory, pages 119-133. Springer, 2010.
+
+G. Lever, F Laviolette, and J. Shawe-Taylor. Tighter PAC-Bayes bounds through distribution-dependent priors, Theoretical Computer
+‘Soience, 473:4-28, 2013,
+
+Li, W. Jiang, and M, Tanner. General oracle inequalities for Gibbs posterior with application to ranking. In Conference on Learning
+Theory, pages 612-521, 2013.
+
+LU, B. Gued, and S, Loustau. A quasi-Bayesian perspective to online clustering. Electron. J. Statist, 12(2):3071-3113, 2018,
+
+B, London, A PAC-Bayesian analysis of randomized learning with application to stochastic gradient descent. In Advances in Neural
+Information Processing Systems, pages 2931-2940, 2017,
+
+B. London, B, Huang, B. Taskar, and L. Getoor. PAC-Bayesian collective stabil. In Artificial Inteligence and Statistics, pages
+585-504, 2014,
+
+‘A. Maurer. A note on the PAC-Bayesian Theorem. arXiv preprint cs/041 1099, 2004.
+
+. McAlester. Some PAC-Bayesian theorems, In Proceedings of the International Conference on Computational Learning Theory
+(COLT), 1998.
+
+, McAlester. Some PAC-Bayesian theorems, Machine Learning, 37, 1999.
+ENDELEMENTReferences IV
+
+D. McAlester. PAC-Bayesian stochastic model selection. Machine Learning, 51(1), 2003a,
+D. McAlester. Simplified PAC-Bayesian margin bounds. In COLT, 2003b.
+
+B. Neyshabur, S. Bhojanapall, D. A. McAllester, and N. Srebro. Exploring generalization in deep learning. In Advances in Neural
+Information Processing Systems, pages 5947-5956, 2017.
+
+E. Parrado-Hernandez, A. Ambroladze, J. Shawo-Taylor, and S. Sun. PAC-Bayes bounds with data dependent priors. Journal of
+‘Machine Learning Research, 13:3507~3531, 2012.
+
+©. Rivasplata, E. Parrado-Hernandez, J. Shawe-Taylor, S. Sun, and C. Szepesvari. PAC-Bayes bounds for stable algorithms with
+instance-dependent priors. In Advances in Neural Information Processing Systems, pages 9214-9224, 2018,
+
+IM. Seeger. PAC-Bayesian generalization bounds for gaussian processes. Journal of Machine Learning Research, 3:283-269, 2002.
+
+M, Seeger. Bayesian Gaussian Process Models: PAC-Bayesian Generalisation Error Bounds and Sparse Approximations. PhD
+thesis, University of Edinburgh, 2003
+
+Y. Soldin and N. Tishby. PAC-Bayesian analysis of co-clustering and beyond. Journal of Machine Learning Research, 11:3595-3646,
+2010.
+
+¥. Soldin, P. Auer, F Laviolete, J. Shawe-Taylor, and R. Ortner. PAC-Bayesian analysis of contextual bandits. In Advances in Neural
+Information Processing Systems (NIPS), 2011
+
+Y. Seldin, F. Laviolette, N. Cesa-Bianchi, J. Shawe-Taylor, and P. Auer. PAC-Bayesian inequalities for martingales. IEEE Transactions
+(on Information Theory, 58(12):7086-7093, 2012
+
+4J. Shawe-Taylor and D. Hardoon. Pac-bayes analysis of maximum entropy classification. In Proceedings on the International
+Conference on Artificial Inteligence and Statistics (AISTATS), 2009.
+
+4J. Shawe-Taylor and R. C. Williamson. A PAC analysis of a Bayes estimator. In Proceedings of the 10th annual conference on
+‘Computational Learning Theory, pages 2-8. ACM, 1997. doi: 10.1145/267460.267466.
+
+J. Shawe-Taylor,P.L. Bartlett, R.C. Williamson, and M. Anthony. Structural risk minimization over data-dependent hierarchies. EEE
+Transactions on Information Theory, 44(5), 1988.
+
+N. Thiemann, C. Igel, O. Wintenberger, and Y. Seldin. A Strongly Quasiconvex PAC-Bayesian Bound. In International Conference on
+Algorithmic Learning Theory, ALT, pages 486-492, 2017.
+
+NN. Tishby, F. Pereira, and W. Bialek. The information bottleneck method. In Allerton Conference on Communication, Control and
+‘Computation, 1998,
+
+LG. Valiant. A theory of the learnable. Communications of the ACM, 27(11):1134-1142, 1984,
+ENDELEMENT

@@ -1,0 +1,1548 @@
+1
+00:00:10,000 --> 00:00:20,000
+Welcome to fintax affecting the world are we going to talk about Challenger Banks today
+
+2
+00:00:20,000 --> 00:00:30,000
+about credit payment before that but showers your bags is an interesting topic that I thought we should take a moment and just talk about
+
+3
+00:00:30,000 --> 00:00:40,000
+this is this concert Delta permanent building a bank that's internet only
+
+4
+00:00:40,000 --> 00:00:50,000
+your bank that has no bricks and mortar office actually
+
+5
+00:00:50,000 --> 00:01:00,000
+about what was happening given the 99th from the 2000s when or online banking storage challenges
+
+6
+00:01:00,000 --> 00:01:10,000
+another related term neovax relates to something a little bit later
+
+7
+00:01:10,000 --> 00:01:20,000
+which used to be the old order lending part of General Motors the lord is that 1.1.4 disorder manufacturer in the year
+
+8
+00:01:20,000 --> 00:01:30,000
+la banque 2009 decided it was not just to be an order lender that have become a bank in 2009 is there going to be
+
+9
+00:01:30,000 --> 00:01:40,000
+internet on me back over and European particularly the United Kingdom many people say challenge your bank started in Europe in the United Kingdom
+
+10
+00:01:40,000 --> 00:01:50,000
+when the official Secret Garden bar and through something called the Payment Systems directive with the payment system directed to and then later in the United Kingdom
+
+11
+00:01:50,000 --> 00:02:00,000
+dancing with talk about this about open apis that it opened up the system a little bit and by 2013 the
+
+12
+00:02:00,000 --> 00:02:10,000
+50 and you saw a slow of these Challenger bags and neobanks getting into the space first particular
+
+13
+00:02:10,000 --> 00:02:20,000
+URL in the US now around the globe you can find Challenger Banks in your bank in Brazil and India in South East
+
+14
+00:02:20,000 --> 00:02:30,000
+in China some of them have been sorted by big tech companies and in the last 2 years you have big Phineas reacting as well like
+
+15
+00:02:30,000 --> 00:02:40,000
+meant sacked starting Marcus and so now the term gets a little loose is a Challenger back in a New York Bank Goldman Sachs story
+
+16
+00:02:40,000 --> 00:02:50,000
+that doesn't feel like a Challenger back on its axis established 140 150 year old investment back so it's a little blurry
+
+17
+00:02:50,000 --> 00:03:00,000
+and methods in the space that sometimes terms going well together but remain is
+
+18
+00:03:00,000 --> 00:03:10,000
+questions this week sorry nothing so far
+
+19
+00:03:10,000 --> 00:03:20,000
+so where can I where can I go back to a topic that we don't have quite enough time to finish and clear 7 credit score
+
+20
+00:03:20,000 --> 00:03:30,000
+I need of data and it's an important topic that underlies some of what's going on with challenge backs not everything and they were to talk about some traditional banking
+
+21
+00:03:30,000 --> 00:03:40,000
+why online banking as it should have began in the late nineties and have a knot and what is this new wave knee or challenging bags
+
+22
+00:03:40,000 --> 00:03:50,000
+there are funded in 10 and their own evaluations and then the big Big 4 Nan's reacting to back to date
+
+23
+00:03:50,000 --> 00:04:00,000
+there is a company many of us now it is 5 girl it's actually called the fair Isaac company started 60 cm
+
+24
+00:04:00,000 --> 00:04:10,000
+sorry by to Stanford graduates not am I but very good institution and they were more
+
+25
+00:04:10,000 --> 00:04:20,000
+beta Analytics and remember credit cards and stored in the 1950's and here it was the late 50s early 60s a fintech company of it
+
+26
+00:04:20,000 --> 00:04:30,000
+I'm trying to do a now assist on deda name fair and a gentleman named Isaac I don't recall there for a snake
+
+27
+00:04:30,000 --> 00:04:40,000
+Bill Isaac start this company it's a day to Analytics company and by the 19 late 1970s it had taken hold in by the
+
+28
+00:04:40,000 --> 00:04:50,000
+it was the dominant player for consumer credit ratings and their system is now used inside
+
+29
+00:04:50,000 --> 00:05:00,000
+2 countries and many other companies are using the fico score system but it's only one system and this gives you a little bit
+
+30
+00:05:00,000 --> 00:05:10,000
+background it's about what you're amounts that you are the payment history or knows credit cards and other bank
+
+31
+00:05:10,000 --> 00:05:20,000
+are you taking out new credit we could do a whole class just on fico scores they have updated it at least 8 times and Anna summer of
+
+32
+00:05:20,000 --> 00:05:30,000
+I think the rolling up like 09.00 it's possibly Quaker 10 point so it's not but it's built in another era
+
+33
+00:05:30,000 --> 00:05:40,000
+what's an error about your payment history around your bank credit it doesn't include many of the things that we would normally say
+
+34
+00:05:40,000 --> 00:05:50,000
+and so what is it that it we're going through now we're going through a period of time where folks are saying will wait a minute maybe there are other ways or turtle
+
+35
+00:05:50,000 --> 00:06:00,000
+to figure out in a SAS you are credit
+
+36
+00:06:00,000 --> 00:06:10,000
+fico might be using this could be your bank checking employment income insurance tenant utilities all of this currently is not in fico score
+
+37
+00:06:10,000 --> 00:06:20,000
+some countries employment date and income data is already and has been for decades used for Consumer Credit underwriting
+
+38
+00:06:20,000 --> 00:06:30,000
+in the US and Optus 30 other countries using the faker scores a lot of this even this clear sick information like did you pay your
+
+39
+00:06:30,000 --> 00:06:40,000
+time time did you pay your utilities on time is not necessarily included in flake it was partly because they didn't have the day that nit
+
+40
+00:06:40,000 --> 00:06:50,000
+when fair in Isaac we're doing this and 8 versions later they still haven't included a lot of utility in tenants
+
+41
+00:06:50,000 --> 00:07:00,000
+secondly do something called cash flow underwriting and if we go to China and we go to payment while it's around the global let's stay with China Ali
+
+42
+00:07:00,000 --> 00:07:10,000
+and we chat hey now I can really see a lot of your cash flow not just your expenditures but your ravenous if you're moving your
+
+43
+00:07:10,000 --> 00:07:20,000
+on some regular basis into a wallet and cash flow underwriting is even more relevant again let's stay with Ali pain
+
+44
+00:07:20,000 --> 00:07:30,000
+for a moment about smile and medium-sized Enterprises so whether it's hourly pay in China or toast the payment store
+
+45
+00:07:30,000 --> 00:07:40,000
+the restaurant business here in the US toast in store to see all the revenues and expenditures of a restaurant instead of make a crepe
+
+46
+00:07:40,000 --> 00:07:50,000
+session based upon now so cashflow under writings are very important thing you don't necessarily need machine learning or AI to incorporate
+
+47
+00:07:50,000 --> 00:08:00,000
+data but the alternative data is something that fighter doesn't do in classic banking doing small
+
+48
+00:08:00,000 --> 00:08:10,000
+medium sized landing doesn't necessarily do good cash flow underwriting remain any questions
+
+49
+00:08:10,000 --> 00:08:20,000
+no Safari on this topic we got one question from Luke that price you can touch it on later on why online banking started in Europe vs other regions
+
+50
+00:08:20,000 --> 00:08:30,000
+let me hold the loop question when we get into that as well you're consumption your purchase date of VZ MasterCard arterial
+
+51
+00:08:30,000 --> 00:08:40,000
+best to cross sell to us in others are looking at it across South if you're buying sports equipment or hiking equipment wheel
+
+52
+00:08:40,000 --> 00:08:50,000
+advertising for it but can alternative data like what you buy relate to your credit well let's talk about something that's been known for
+
+53
+00:08:50,000 --> 00:09:00,000
+I don't know how many of you would have ever when you went to replace an automobile tire decide to get it retreaded
+
+54
+00:09:00,000 --> 00:09:10,000
+early a retread is putting rubber new rubber on the old tyre now retreads are some
+
+55
+00:09:10,000 --> 00:09:20,000
+then we don't usually talk about in a finance course why it is been showing that those who buy retreads or a little bit more susceptible
+
+56
+00:09:20,000 --> 00:09:30,000
+credit risk meaning default there are higher risk credit what if you could track people's purchases whether it's automobile
+
+57
+00:09:30,000 --> 00:09:40,000
+retreads vs new tires you see the difference or anything else that in the purchase history gives you a sense is this a higher risk
+
+58
+00:09:40,000 --> 00:09:50,000
+federal RSL credit you can take purchase and consumption data entire to other higher insurance risk or they are higher
+
+59
+00:09:50,000 --> 00:10:00,000
+credit to be careful be careful to comply with local law and ansys I don't know
+
+60
+00:10:00,000 --> 00:10:10,000
+about night using alternative date of it might be suggestive of something else that might be suggested of cultural differences of
+
+61
+00:10:10,000 --> 00:10:20,000
+for gender ethnic background or sexual orientation and if your consumption of purchased data has to do with that and you end up with something
+
+62
+00:10:20,000 --> 00:10:30,000
+you asked you could easily be on the wrong side of what's called the equal credit opportunity act that you have to basically be fair and unbiased in your extend
+
+63
+00:10:30,000 --> 00:10:40,000
+unless it's sort of it the cutting ground of alternative data is how does alternative day to get you but not in it
+
+64
+00:10:40,000 --> 00:10:50,000
+me or worse purposely trip of fairness and biases and we saw that recently with apple credit card
+
+65
+00:10:50,000 --> 00:11:00,000
+Apple credit card rolled out in the spring of 2019 between Apple Goldman Sachs is Marcus and master
+
+66
+00:11:00,000 --> 00:11:10,000
+a new innovative thing that big tech was rolling out with big fanfare in the spring of 2019 and all the sudden adventure occur
+
+67
+00:11:10,000 --> 00:11:20,000
+run into the Apple credit card and science that he and his spouse we're going to get 10 times different credit
+
+68
+00:11:20,000 --> 00:11:30,000
+tax returns together there were together apparently worth many millions of dollars may be sent to Millionaire and he starts to advertise on
+
+69
+00:11:30,000 --> 00:11:40,000
+improv with the Apple credit card and had a problem and then Steve Wozniak the co-founder of Apple publicly announced that he ran into the same
+
+70
+00:11:40,000 --> 00:11:50,000
+with his wife and himself again they father taxes together the birth extraordinarily wealthy why would one have 10 times or 20 times more the credit
+
+71
+00:11:50,000 --> 00:12:00,000
+there seem to be for whatever reason some gender bias in the Apple credit allocation alternative dated system
+
+72
+00:12:00,000 --> 00:12:10,000
+we are now yeah to this day what it was but what we do now is that Apple credit card stop their toe on the rollout sometimes it's
+
+73
+00:12:10,000 --> 00:12:20,000
+sometimes though it's about business sometimes it's about breaking societal norms but it that case Apple had a top roll out
+
+74
+00:12:20,000 --> 00:12:30,000
+Apple credit card and yes they have the co-founder former founder of Apple sank not so fast you've got a problem here the other
+
+75
+00:12:30,000 --> 00:12:40,000
+data is our social footprint our social media footprint app usage browsing history the white geolocation Cetera in this world
+
+76
+00:12:40,000 --> 00:12:50,000
+coronavirus in the crisis we know that geo-locations going to be used in is already likely being used for a lot of contact tracing
+
+77
+00:12:50,000 --> 00:13:00,000
+countries certainly in Korea from the news reports and I'm guessing Luke to tell us more about that but we know that
+
+78
+00:13:00,000 --> 00:13:10,000
+contact tracing and all the attributes of figure out who we or as an individual or being traced more more
+
+79
+00:13:10,000 --> 00:13:20,000
+I know there's a social credit scoring system that is an official sport of the government's approach to
+
+80
+00:13:20,000 --> 00:13:30,000
+credit it might be whether you can buy an airline ticket and maybe whether you could even get on the commuter Rail System depending upon your app usage and that
+
+81
+00:13:30,000 --> 00:13:40,000
+uses in China even includes as I understand it not just your what you doing on hourly pay which I pay but also what you doing on dating website
+
+82
+00:13:40,000 --> 00:13:50,000
+literally a creepy find dating websites and whether and how you're on any website or any app could be a little
+
+83
+00:13:50,000 --> 00:14:00,000
+tyre retreading that you might be you might find through the alternative data that there's a little different here in
+
+84
+00:14:00,000 --> 00:14:10,000
+where are many fintech companies approaching the regulators and say we don't want a trip up and be on the wrong side of the equal credit opportunity ACT
+
+85
+00:14:10,000 --> 00:14:20,000
+inside of other laws like fair credit reporting truth in lending act in and if series are the laws please help us regulators interpret
+
+86
+00:14:20,000 --> 00:14:30,000
+you can use alternative data how we can actually be more inclusive provide more and better for the Astor Moore
+
+87
+00:14:30,000 --> 00:14:40,000
+at a lower cost but not be on the wrong side of these important societal and legal norms so it's a very interesting
+
+88
+00:14:40,000 --> 00:14:50,000
+I use one example from a conversation with lendingclub I had the honour to be honest
+
+89
+00:14:50,000 --> 00:15:00,000
+before the crisis one of the last conference this was at MIT fintech conference and I was on the stage with the CEO of lending club and having a good interview
+
+90
+00:15:00,000 --> 00:15:10,000
+fireside chat alternative and how they use they use it but what they find isn't using
+
+91
+00:15:10,000 --> 00:15:20,000
+and that Marketplace learning company they then use machine learning on the alternative data they find some some
+
+92
+00:15:20,000 --> 00:15:30,000
+they believed to be correlations and then they just use straight up regression analysis once they identify an attribute
+
+93
+00:15:30,000 --> 00:15:40,000
+they put the machine learning to the side they've used it but then they they should have then go to the downscaled old we're just straight up
+
+94
+00:15:40,000 --> 00:15:50,000
+an attribute with a downer fly tyre retreads matter let's just use it that way so they do it
+
+95
+00:15:50,000 --> 00:16:00,000
+try to find some attributes and then move one as I understood the conversation ecosystem an alternative date
+
+96
+00:16:00,000 --> 00:16:10,000
+this just a slide that called you can readily get these types of slides on the internet but this is from see be inside as alternative datasources this is
+
+97
+00:16:10,000 --> 00:16:20,000
+companies I wouldn't necessarily colour fintech startups with the companies trying to service here's how we can help you I either with machine learning AI
+
+98
+00:16:20,000 --> 00:16:30,000
+Ashley sources of data in this whole space into discussion
+
+99
+00:16:30,000 --> 00:16:40,000
+your questions I have looked at a question but that was really that Challenger bank so remain High
+
+100
+00:16:40,000 --> 00:16:50,000
+how many forget just elaborate on cash flow and writing I do not quite get it
+
+101
+00:16:50,000 --> 00:17:00,000
+use Ida the example of toast in the US with restaurants or almost any business at hourly pay as the wallet
+
+102
+00:17:00,000 --> 00:17:10,000
+what hourly pair your toast and say on that small business restaurant is they can see the revenues and they can see their expenditure
+
+103
+00:17:10,000 --> 00:17:20,000
+extend it's kept inside that payment architecture so an alley tide they've incentivised the millions of merchants
+
+104
+00:17:20,000 --> 00:17:30,000
+we paid not only to receive revenues into the rally pay wallet but also to pay their suppliers with the hourly pay wallet so
+
+105
+00:17:30,000 --> 00:17:40,000
+Ally pegs and do and does deal is there constore to see the entire picture or 80 or 90% of the picture they might not see
+
+106
+00:17:40,000 --> 00:17:50,000
+a picture but they can literally build a whole 360° around or take something like into a hero
+
+107
+00:17:50,000 --> 00:18:00,000
+which is the company that was founded 20 + years ago that has the most Darwin instead of tax software turbotax
+
+108
+00:18:00,000 --> 00:18:10,000
+which word is also in the fintech space the recently announced buying credit karma for billions of dollars and they also bother other of
+
+109
+00:18:10,000 --> 00:18:20,000
+car brands with a committee build a greater picture I call a cash flow underwriting it means underwriting assessing the risk
+
+110
+00:18:20,000 --> 00:18:30,000
+you can see the revenues and expenditures and build in essence and income statement on the merchant Amazon
+
+111
+00:18:30,000 --> 00:18:40,000
+some of that night completely as well as Ali but I am so I can do some of that through Amazon Prime and what they can see or the merchant
+
+112
+00:18:40,000 --> 00:18:50,000
+that help thank you and it gives them a competitive advantage and it's part of why getting into the payment space
+
+113
+00:18:50,000 --> 00:19:00,000
+before getting into the credit space is a business model a particularly big tac now I'm not saying that's what was the initial reason
+
+114
+00:19:00,000 --> 00:19:10,000
+I got into the payment space helipad was trying to promote their all mine site for Amazon got into the payment space to promote the online platform
+
+115
+00:19:10,000 --> 00:19:20,000
+how is the restaurant software business Gardens the restaurant business to sell tablets they were thinking will sell the better
+
+116
+00:19:20,000 --> 00:19:30,000
+where to the restaurant tours cos this tablet was important for the service but we might call waiters and waitresses war
+
+117
+00:19:30,000 --> 00:19:40,000
+around the restaurant but would they quickly found is that the toast this is example they pivoted from being a hardware tablet business to being a
+
+118
+00:19:40,000 --> 00:19:50,000
+business and then they start to be a credit business as well because the date are there receiving in a partial cash flow underwriting then I have a full
+
+119
+00:19:50,000 --> 00:20:00,000
+60 allowed just direct to underwrite and that business and frankly there likely to be able to do it better than a traditional back
+
+120
+00:20:00,000 --> 00:20:10,000
+bank that might get annual or quarterly financials will not have quite the up-to-date sensitivity as hell about restaurants
+
+121
+00:20:10,000 --> 00:20:20,000
+wake me up never question from Danielle about Dita aggregators on the slide are the different
+
+122
+00:20:20,000 --> 00:20:30,000
+it is for the purposes of selling to fintech customers or for selling to companies who want to use the data for personalised advertising and if yes
+
+123
+00:20:30,000 --> 00:20:40,000
+why do you have to submit any consultation in terms again or not
+
+124
+00:20:40,000 --> 00:20:50,000
+well defy the db2 aggregators that could be there as Daniel points out to cross market to sell and even
+
+125
+00:20:50,000 --> 00:21:00,000
+use credit karma for a minute credit karma and nationally was about providing free access to your credit report that was there in
+
+126
+00:21:00,000 --> 00:21:10,000
+Insight what they found everytime is there could cross and become a friendly website for free
+
+127
+00:21:10,000 --> 00:21:20,000
+view access to credit they were cross-selling but then they were also collecting a fig and they were collecting more data and
+
+128
+00:21:20,000 --> 00:21:30,000
+weather head off 100 + million files even though they had customers to aggregation could also come from another space
+
+129
+00:21:30,000 --> 00:21:40,000
+plaid Galileo and others we call them or so day to aggregators and they started as software providers to provide an
+
+130
+00:21:40,000 --> 00:21:50,000
+API as we discussed but then they create a date of Warehouse and they become that aggregator so the term date aggregator can be used
+
+131
+00:21:50,000 --> 00:22:00,000
+one small way can be used is the second way down your mansion and it's kind of mentioned on this life but what sort of data you're some companies
+
+132
+00:22:00,000 --> 00:22:10,000
+we will collect data and have utility data will collect the utility date and rental payment date
+
+133
+00:22:10,000 --> 00:22:20,000
+leave it will be coming alternative dater aggregator so they're yes they're did aggregator but they're there collecting data with the clear my
+
+134
+00:22:20,000 --> 00:22:30,000
+they're going to enhance credit scoring in the Challenger bags challenge we don't have the ability and
+
+135
+00:22:30,000 --> 00:22:40,000
+Worst Year even maybe 10 years of business to be the wine collecting all that utility and rent payment or social media data we want to turn this
+
+136
+00:22:40,000 --> 00:22:50,000
+you might create a business simply to say we are going to be a day to aggregator to enhance the underwriting of these bags
+
+137
+00:22:50,000 --> 00:23:00,000
+hundreds of Challenger Banks I want to be a service provider to those Challenger Banks so Daniel good question it could be one marketing it could be that you got there but
+
+138
+00:23:00,000 --> 00:23:10,000
+you ran the business of something else payments or credit scoring my credit karma or you could specifically say I just want to
+
+139
+00:23:10,000 --> 00:23:20,000
+businessman or simply about an alternative date of field that I think and my machine learning my tell me that alternative date of heel is going to
+
+140
+00:23:20,000 --> 00:23:30,000
+underwriting and then I will sell to all the other fintax I will service bin text by collecting data remain anything else
+
+141
+00:23:30,000 --> 00:23:40,000
+we have Nikhil and Brian with your hands up around the rating based on cash flows
+
+142
+00:23:40,000 --> 00:23:50,000
+so I wrote my different washing updater and something that came out with most of the alternative landing from this location small this intensity Amazon
+
+143
+00:23:50,000 --> 00:24:00,000
+is 4 and there is there a regulation in the US it's preventing a cash flow based underwriting for customers
+
+144
+00:24:00,000 --> 00:24:10,000
+Kenya have it with them Sorry by The Pirate you know something so just curious what what's limiting
+
+145
+00:24:10,000 --> 00:24:20,000
+underwriting in the US specifically I think it's a great question I think it's it's not just regulatory it's also that
+
+146
+00:24:20,000 --> 00:24:30,000
+as of now as of now that the folks they could probably do the best cash flow underwriting
+
+147
+00:24:30,000 --> 00:24:40,000
+are the banks themselves that that your bank of America City sees your rent payments
+
+148
+00:24:40,000 --> 00:24:50,000
+is your visa payments going out and see if you're your wages coming at literally the banks themselves
+
+149
+00:24:50,000 --> 00:25:00,000
+yeah they have night is I understand it yeah don't it falls 360 cash flow underwriting a number of them Orange
+
+150
+00:25:00,000 --> 00:25:10,000
+single credit car products and enhancing the price by taking the fico scores and it survived flaco plus a little but interesting with a big bags of collect
+
+151
+00:25:10,000 --> 00:25:20,000
+the other and form something advantage which is a is a competitive fight girl it it's should I consume on some big banks but it doesn't
+
+152
+00:25:20,000 --> 00:25:30,000
+will include the income side and I think it does relate to some of the regulatory issues that here in the US in the earlier way
+
+153
+00:25:30,000 --> 00:25:40,000
+earlier wave of data Analytics in the 1960s remember credit cards came along in the 50s and 60s we PS2 really important laws
+
+154
+00:25:40,000 --> 00:25:50,000
+buy Ascot equal credit opportunity act and what about credit reporting agencies is companies like transunion and equifax
+
+155
+00:25:50,000 --> 00:26:00,000
+they're regulated under the fair credit reporting act and a lot of banks just trying to work through those issues
+
+156
+00:26:00,000 --> 00:26:10,000
+again this sets up the Challenger Bank discussion it's part of why Challenger Banks around the globe is storied more in Europe but the Challenger Bank
+
+157
+00:26:10,000 --> 00:26:20,000
+around the globe had an alternative this is one of the reasons I think that they have a bit of an alternative I think this is where we're headed we were
+
+158
+00:26:20,000 --> 00:26:30,000
+as individuals be more looked at this way one little story there is one of the question remain I'm sorry who was it
+
+159
+00:26:30,000 --> 00:26:40,000
+Brian and that one little story clothes that alternative data could you please talk about how such as GDP are in other similar
+
+160
+00:26:40,000 --> 00:26:50,000
+vision is affected this space so great question is also privacy concerns about sharing my date and then we all Sarah
+
+161
+00:26:50,000 --> 00:27:00,000
+that that's sort of horses at boring then Society wait what's your protection here Europe at the forefront of this page
+
+162
+00:27:00,000 --> 00:27:10,000
+GDP or the general directive and the Pea is not privacy I'm sorry I can't remember
+
+163
+00:27:10,000 --> 00:27:20,000
+action taxation regulation dataprotect general data protection regulation and APS GDP
+
+164
+00:27:20,000 --> 00:27:30,000
+basically the rate of people died in the race about your information the rater basically review it and sell for it it has some
+
+165
+00:27:30,000 --> 00:27:40,000
+those laws that were way back in the 1970s called fair credit reporting act but a lot further
+
+166
+00:27:40,000 --> 00:27:50,000
+and what these privacy laws and more recently in the US the California consumer protection act or ccpa and we all got notices in
+
+167
+00:27:50,000 --> 00:28:00,000
+recording from Google and others about the ccpa what they've done is they've they've leaned into an ability for you to review your date
+
+168
+00:28:00,000 --> 00:28:10,000
+potentially edit your dad and delete some of what's being trapped it does raise some of the boar for dataprotection
+
+169
+00:28:10,000 --> 00:28:20,000
+general data protection regulation but it doesn't go to the horde of weather using the day 2
+
+170
+00:28:20,000 --> 00:28:30,000
+is going to lead to biased outcomes which is about fairness and people credit or whether you're going to be regulated like
+
+171
+00:28:30,000 --> 00:28:40,000
+credit agency so I think the GDP are nccpa better protect the public they also raise some of the
+
+172
+00:28:40,000 --> 00:28:50,000
+Imperial entry in this field so there's some economic still it I think they might also attend a little bit towards than
+
+173
+00:28:50,000 --> 00:29:00,000
+generic out cards meaning that all the banks will be doing similar things to protect themselves in the regulatory environment
+
+174
+00:29:00,000 --> 00:29:10,000
+consideration it doesn't necessarily slow this down it's also an opportunity for fintech startup if you think you can be GDP or ccpa comply
+
+175
+00:29:10,000 --> 00:29:20,000
+and still be a really talented alternative Dieter aggregator that's an opportunity for you if you're ahead of the regulatory curve
+
+176
+00:29:20,000 --> 00:29:30,000
+and lower regulatory risk for the other startups that's enough for one little comments and alternative dated I like to match
+
+177
+00:29:30,000 --> 00:29:40,000
+in and I don't remember where I read this so I apologise I can quote this play the study accurately but there has been a study of
+
+178
+00:29:40,000 --> 00:29:50,000
+credit as it relates to charging your phone's it's so I just passed the salon to you but if some alternative
+
+179
+00:29:50,000 --> 00:30:00,000
+provider and 08 ternative day to underwriter wants to assess whether you are a good credit repair
+
+180
+00:30:00,000 --> 00:30:10,000
+play if one charges your phone every night were more likely to repair your credit card in person allowance
+
+181
+00:30:10,000 --> 00:30:20,000
+that's fine with me that's totally fine but apparently you're a little bit higher risk
+
+182
+00:30:20,000 --> 00:30:30,000
+that's what wine survey has show and I called as I just don't remember all the things I've read where I read this and
+
+183
+00:30:30,000 --> 00:30:40,000
+so what have some dinner Challenger bang just tracks whether you tried your phone by the way that's not hard the deal it's it's
+
+184
+00:30:40,000 --> 00:30:50,000
+these phones are really quite sophisticated geolocation track and contact tracing everything about the readings
+
+185
+00:30:50,000 --> 00:31:00,000
+I'm not going to dive into a put the Rosary readings about Challenger Banks neobanks and some of the challenges going forward in this
+
+186
+00:31:00,000 --> 00:31:10,000
+what is a Challenger bad for Neo back and since we were I don't want to run out of time let me just
+
+187
+00:31:10,000 --> 00:31:20,000
+shower and your bank are often used interchangeably but they're actually to the more sort of specific there are
+
+188
+00:31:20,000 --> 00:31:30,000
+neobank is something that is acting like a bag but is not yet registered or licensed there's a bank in it
+
+189
+00:31:30,000 --> 00:31:40,000
+Direction and it's Challenger Bank more technically would be something that has a licence now most people use these terms interchangeably
+
+190
+00:31:40,000 --> 00:31:50,000
+slight differences do they have yet registered and Challenger Banks and neobanks are used to talk about this thing that happened in this last
+
+191
+00:31:50,000 --> 00:32:00,000
+7 to 10 years I'm in in a in a little bit talk about how this relates to the online banking the came before it
+
+192
+00:32:00,000 --> 00:32:10,000
+the pain points in traditional Bank we're going to dive into this in a minute a few slide so I'll hold off but those pain points about the cost of the Big Bang
+
+193
+00:32:10,000 --> 00:32:20,000
+the bricks-and-mortar Legacy business that they have the Legacy technology or real and they've provided some opportunity to Challenger Bank
+
+194
+00:32:20,000 --> 00:32:30,000
+and the question is how or Challenger Banks near Banks affect the landscape so one is what is this phenomena to wipe
+
+195
+00:32:30,000 --> 00:32:40,000
+they've been able to tap into this what's the traditional Banks problems and 3 what's it mean for the future that's what we're going to try to cover going forward
+
+196
+00:32:40,000 --> 00:32:50,000
+the challenges I mentioned a couple of them but we are now it in the US there's about 78000 branches still in the u.s.
+
+197
+00:32:50,000 --> 00:33:00,000
+down for about 82 or 3000 watt will that number be in 10 years it's not declining Leaps and Bounds but particularly after the coronavirus
+
+198
+00:33:00,000 --> 00:33:10,000
+Grace's whenever we get to the other side of this where the optimistically is in mind sir or more realistically
+
+199
+00:33:10,000 --> 00:33:20,000
+the years we all the social distancing and starts the move around and we start to get out there this
+
+200
+00:33:20,000 --> 00:33:30,000
+do we need a more and yet surveys of of the public still people like to have a physical Brett for that occasional time you go into a Facebook rep
+
+201
+00:33:30,000 --> 00:33:40,000
+Legacy technology the products themselves are somewhat commoditized a mortgage is a mortgage by margin Auto loan even a small
+
+202
+00:33:40,000 --> 00:33:50,000
+assistant commoditization a payments and credit and how when you still have 45000 banks in the u.s.
+
+203
+00:33:50,000 --> 00:34:00,000
+many countries still hundreds of banks how do they literally compete with each other on a product that is some white commoditized
+
+204
+00:34:00,000 --> 00:34:10,000
+the new competitor with the new competitor then comes in as well maybe I can only provide something to the restaurant business so I can provide something that is really a great
+
+205
+00:34:10,000 --> 00:34:20,000
+user-interface and and the cost and fears are real to the traditional banking not just because of the branch network of nearly
+
+206
+00:34:20,000 --> 00:34:30,000
+thousand branches in the US but also because of their employment because of their fees a lot of the Challenger Banks Broken by saying
+
+207
+00:34:30,000 --> 00:34:40,000
+when I can ensure do the same over 3 of these or late fees and if you do a deep dive and a deep started on consumer banking
+
+208
+00:34:40,000 --> 00:34:50,000
+award of the revenue is on when fix whether it's overdraft late fees in the like and so sounds your bank sources of we can
+
+209
+00:34:50,000 --> 00:35:00,000
+go in there and try to challenge point line in a different way and of course provide greater user-interface I think to Luke Sara Lee a question partly why
+
+210
+00:35:00,000 --> 00:35:10,000
+my Challenger Bank started in Europe was partly because of the payment system directive there is first PDS payment system directive
+
+211
+00:35:10,000 --> 00:35:20,000
+wine and PST to I think it's partly because of the payment system directive but partly the 2008 crisis
+
+212
+00:35:20,000 --> 00:35:30,000
+bank here in the US technically was the first one in 2009 here but a lot of people don't say that was the first wife but that
+
+213
+00:35:30,000 --> 00:35:40,000
+have to the crisis and then you saw a spirit them in the early teens they came along and I think a lot of it had to do with trust and the year
+
+214
+00:35:40,000 --> 00:35:50,000
+situation was going through the European debt crisis all the way through 2012 2030 in and you saw an enormous number of the star
+
+215
+00:35:50,000 --> 00:36:00,000
+2011 and 2015 this is a little bit the history of other mine banking and and and I take this
+
+216
+00:36:00,000 --> 00:36:10,000
+rft partner's which is financial technology partner's which is a small investment Bank started by a former Wall Street Banks
+
+217
+00:36:10,000 --> 00:36:20,000
+copy and for from Goldman and Me Morgan Stanley and then we can go through each of these what the bank of Scotland actually started to do online
+
+218
+00:36:20,000 --> 00:36:30,000
+back in 1983 anything you think is no has some something way back Bank of America was already online by
+
+219
+00:36:30,000 --> 00:36:40,000
+how's the new wine Yardley which is a is we talk about Yardley when we talk about API head already been in this business and ing
+
+220
+00:36:40,000 --> 00:36:50,000
+I have a big insurance company started retail banking in the late 90s the internet came along and earlier way with intact developed in online banking Camelot
+
+221
+00:36:50,000 --> 00:37:00,000
+most of it most of it related to traditional bikes in the Distinction that I draw between online banking
+
+222
+00:37:00,000 --> 00:37:10,000
+Challenger banking it's a bit late Distinction but an appointment online banking generally was related to companies that had bricks
+
+223
+00:37:10,000 --> 00:37:20,000
+traditional business models generally not always not always and and meant was launched in 2006 later acquire
+
+224
+00:37:20,000 --> 00:37:30,000
+that tax software company acquired meant ING insurance company has something the Capital One voice for 9 billion dollars in 2011
+
+225
+00:37:30,000 --> 00:37:40,000
+so the earlier wave of non banking online banking not 9 trishul banking like ING Direct and
+
+226
+00:37:40,000 --> 00:37:50,000
+we required they were eating up taking up an Ally Ally was an auto lending company formed 100 years ago
+
+227
+00:37:50,000 --> 00:38:00,000
+General Motors it was the first captive Auto lending company at this stage to what if I just ordered something but now
+
+228
+00:38:00,000 --> 00:38:10,000
+had a banking licence never had a bricks-and-mortar it's just the stored up I'm just going to go into some of these cracks some of
+
+229
+00:38:10,000 --> 00:38:20,000
+opportunities the traditional bags of course fees trust user-interface and I'm going to start something and so what are the reasons in a from a server
+
+230
+00:38:20,000 --> 00:38:30,000
+a different route to finish your brand is it just some of the reasons people are saying it's easy to set up an account account I like the fees and
+
+231
+00:38:30,000 --> 00:38:40,000
+better experience quality service in one survey a couple months ago he is well
+
+232
+00:38:40,000 --> 00:38:50,000
+there is a last you could make the list so much longer there's hundreds of other companies but what I try to do in this is sort of stick to around the
+
+233
+00:38:50,000 --> 00:39:00,000
+different Banks la back from 11 years ago but look at this stage of store apps in 2013 to 2015 is 16
+
+234
+00:39:00,000 --> 00:39:10,000
+now some of these for new like big K and India Summer them or multi-billion dollar valuation companies already like
+
+235
+00:39:10,000 --> 00:39:20,000
+Brazil started about 7 years ago there is a box of them from the UK like oaknorth now revolut is in 30
+
+236
+00:39:20,000 --> 00:39:30,000
+is now one of the earliest and largest out of Europe summer coming from other fintech space Lakes
+
+237
+00:39:30,000 --> 00:39:40,000
+why didn't stork is what people would traditionally call a Challenger bank so fight gonna start it is an online lending platform not quite peer-to-peer
+
+238
+00:39:40,000 --> 00:39:50,000
+but then so far is moving over you can put on this list betterment that we will talk about in the next letter that does Wealth Management
+
+239
+00:39:50,000 --> 00:40:00,000
+is starting to move into this space plan has started to say the will move into the space and then we bank has an interesting one it's
+
+240
+00:40:00,000 --> 00:40:10,000
+formed by a bunch of commercial banks in China where can I just have an online platform is it really
+
+241
+00:40:10,000 --> 00:40:20,000
+those commercial Banks is it separately a Challenger back so I've got a lot going on and keiko back which is started by
+
+242
+00:40:20,000 --> 00:40:30,000
+text forums I chose not to put a Anthony actual on here but you could arguably say Anthony and she'll part about leap I was trying to stick the things that are really
+
+243
+00:40:30,000 --> 00:40:40,000
+classically cold shower to renew your bank so the vocabulary is a little loose most people when they think of Challenger new Banksy think of rev
+
+244
+00:40:40,000 --> 00:40:50,000
+in Europe if you want to study a case closely look at revolut now and 30 countries but a lot about
+
+245
+00:40:50,000 --> 00:41:00,000
+to try to get in transferwise from the payments Peso some from the payment space some from the big tac like a call back some from commercial
+
+246
+00:41:00,000 --> 00:41:10,000
+something investment banks at Goldman Sachs George Marcus like going on nearly every country
+
+247
+00:41:10,000 --> 00:41:20,000
+is represented here China Southeast Asia and the like gives you a map of it back to that FTP
+
+248
+00:41:20,000 --> 00:41:30,000
+biscuit yellow clothes it up even more just with their logos what you can see it's really around the club right now kinda was
+
+249
+00:41:30,000 --> 00:41:40,000
+play it out of Europe populated out of the US and then all the sudden you just saw a current all around the globe Brazil enormous contribution
+
+250
+00:41:40,000 --> 00:41:50,000
+Rozelle in the business models as well ptm out of India's well
+
+251
+00:41:50,000 --> 00:42:00,000
+I should have mentioned quotas of interesting and this will be up in campus of course so what are the product offerings what are the
+
+252
+00:42:00,000 --> 00:42:10,000
+any bank has the same service the product offerings of course and it's just one example can from this FG partner's checking and savings
+
+253
+00:42:10,000 --> 00:42:20,000
+Challenger Bank it's usually rate there somewhere in debit cards credit cards checking savings and basically they they would say it was easy to open an account
+
+254
+00:42:20,000 --> 00:42:30,000
+when we were actually pay you something stored in the cross-border payment area and basically said you could have an account you can have one Kung
+
+255
+00:42:30,000 --> 00:42:40,000
+can you have an account in multiple currencies traditional banking as a single currency product partly regulation partly
+
+256
+00:42:40,000 --> 00:42:50,000
+revolut says word online you can have multiple currencies and we weren't sure if you all of that cross border cost when my
+
+257
+00:42:50,000 --> 00:43:00,000
+what is a payment company but it was really are offering you accounts as well and this idea barfing remember the term Neo bank and change
+
+258
+00:43:00,000 --> 00:43:10,000
+often used interchangeably but neobank is something that's not yet licensed you see a speed of companies in the United Kingdom getting licence from 26th
+
+259
+00:43:10,000 --> 00:43:20,000
+2019 Manny that were not licensed as traditional Banks then filed for the banking licences and you've seen that happening along the way
+
+260
+00:43:20,000 --> 00:43:30,000
+when will so fight for instance had their banking licence in the USA speaker you'll see that sort of going along the way as well
+
+261
+00:43:30,000 --> 00:43:40,000
+Romaine obvious apostra questions to see little and Gage here and then I'm going to go to their their
+
+262
+00:43:40,000 --> 00:43:50,000
+play some talk about their account base and then will turn to funding valuations in a little bit help traditional Banks reactik
+
+263
+00:43:50,000 --> 00:44:00,000
+you want to go yet thank you the question is for credit cards the often partner up with
+
+264
+00:44:00,000 --> 00:44:10,000
+just because of regulatory issues or Banksia tissues great question it's really both and it's not just
+
+265
+00:44:10,000 --> 00:44:20,000
+it's not just in the credit card business you found that Marketplace land is also partnered up with Banks
+
+266
+00:44:20,000 --> 00:44:30,000
+entering quarterfinal Nas you always have a decision in any business of buy vs build or rent V
+
+267
+00:44:30,000 --> 00:44:40,000
+you can do this with your cloud storage do I want to build my data warehouse or read by and large if you're a fan text or if you want a rent your clouds
+
+268
+00:44:40,000 --> 00:44:50,000
+your datawarehouse you might similarly rent somebody else is balance sheet and support of what you've seen is about
+
+269
+00:44:50,000 --> 00:45:00,000
+and she you store a business and you try find some funding but you don't have the fun and yourself you don't have balance sheets and you can get a warehouse
+
+270
+00:45:00,000 --> 00:45:10,000
+play napredak and you can use the asset securitization market as well to offload those credit card receivable so's order receivable student
+
+271
+00:45:10,000 --> 00:45:20,000
+of course mortgage receipt
+
+272
+00:45:20,000 --> 00:45:30,000
+mortgage as my call or ternative forneus quick and loan pennymac and Oliver's have built very significant
+
+273
+00:45:30,000 --> 00:45:40,000
+50% of mortgages in the US now 50 to 60% originated by the 9 Banks because they can readily
+
+274
+00:45:40,000 --> 00:45:50,000
+offload the balance sheet issues in the credit card space and in the peer to peer
+
+275
+00:45:50,000 --> 00:46:00,000
+in Space without a bank licence it's hard to do all the pieces you need to do and without kind of diving into each of the rabbit
+
+276
+00:46:00,000 --> 00:46:10,000
+reasons why it's turned to Amazon for good with synchrony for instance and subsequent it looks like they may have also partnered with
+
+277
+00:46:10,000 --> 00:46:20,000
+Morgan Chase when credit card offerings and their banks like synchrony and others that will say will basically White Label you know some of them I think
+
+278
+00:46:20,000 --> 00:46:30,000
+tell Bree an Amazon synchrony some will say will just be in the background and they're actually some licence banks that make a business at a service
+
+279
+00:46:30,000 --> 00:46:40,000
+send tech companies and there's a whole there's a whole group of of licensed banks that in in both you up in the US feel that's that's a lot of
+
+280
+00:46:40,000 --> 00:46:50,000
+turn it up it's l thank you yes I am with so many ones and we show me similar
+
+281
+00:46:50,000 --> 00:47:00,000
+how do you see the differentiation will happen and this is a very exciting space but it's got a Shakedown
+
+282
+00:47:00,000 --> 00:47:10,000
+it's it's hard to imagine that I'll be there there is there's one website I
+
+283
+00:47:10,000 --> 00:47:20,000
+put it up here than actually follows the top 10 Challenger Banks by every 6 months they posted who's getting them
+
+284
+00:47:20,000 --> 00:47:30,000
+ab traffic if you're so far and when you're you get the most web traffic but three years later people
+
+285
+00:47:30,000 --> 00:47:40,000
+website that say that's a problem I'm acting so fine yet has a problem but yeah that's so the way that is come
+
+286
+00:47:40,000 --> 00:47:50,000
+Davies started a little different some stored in a slice of a domain like revolut with the cross-border some come out it from the 8th open API
+
+287
+00:47:50,000 --> 00:48:00,000
+some come from from the the low-cost said they find one pain point and I tried to do that well all of them
+
+288
+00:48:00,000 --> 00:48:10,000
+SAS for now pretty much started between 2013 and 2018 so it's a little harder to think someone's going to get it now but it might be a geography it might be
+
+289
+00:48:10,000 --> 00:48:20,000
+wake big pay which I think is in Southeast Asia you know it might be like a geography as well but I do think there's going to be there for
+
+290
+00:48:20,000 --> 00:48:30,000
+yeah I am even even amongst the unicorns those that are valued over a billion dollars customers Madre maybe this sets up this is I'm gonna show
+
+291
+00:48:30,000 --> 00:48:40,000
+computing charts on shower just you up is just your but you see the grouting and customers
+
+292
+00:48:40,000 --> 00:48:50,000
+n26 just as remarkable growth of Christmas that's getting murdered
+
+293
+00:48:50,000 --> 00:49:00,000
+National Parks you get five 10 million customer accounts that's that's that's a remarkable thing to happen we'll talk more about the
+
+294
+00:49:00,000 --> 00:49:10,000
+we do asset management in the next lecture but most of the biggest or 9 brokers to give you a scaling or somewhere between 6 and
+
+295
+00:49:10,000 --> 00:49:20,000
+million customer account any trade and Anna like TD ameritrade
+
+296
+00:49:20,000 --> 00:49:30,000
+sinus scared of customer account this started to really get noticed in another customer account or different service
+
+297
+00:49:30,000 --> 00:49:40,000
+now whether these numbers are accurate but these are self-reported by the companies this is by year of crap the 2013 startups new bank
+
+298
+00:49:40,000 --> 00:49:50,000
+tandem chime 15 million customer accounts are kayco Bank in Korea getting a 10 million customers chimes
+
+299
+00:49:50,000 --> 00:50:00,000
+5 million from morning line revolut 6 and some other figures show revolut might be closer to 9 million now
+
+300
+00:50:00,000 --> 00:50:10,000
+these are significant of themselves that they can get it out so part of the business model here you can see hundreds of challenge
+
+301
+00:50:10,000 --> 00:50:20,000
+install only have 100000 to 400000 accounts but you can't get further
+
+302
+00:50:20,000 --> 00:50:30,000
+and it's in the venture capitalist behind it have to decide what's the wrecks IT strategy can you sell this to somebody else is trying to get a foothold in this space or night
+
+303
+00:50:30,000 --> 00:50:40,000
+istash by the way that's listed here is more in the order online brokerage business that it is an online banking so I chose not to list it all
+
+304
+00:50:40,000 --> 00:50:50,000
+tandem on Warehouse 4 million customer is a really big one in the UK which Starling bags and revolut
+
+305
+00:50:50,000 --> 00:51:00,000
+Rebecca so how does how does tandem break through when you go out for 5 that are bigger just as an example in in in the UK
+
+306
+00:51:00,000 --> 00:51:10,000
+and incident evaluations and it's really hard to get behind valuations all of this is before before the Quran
+
+307
+00:51:10,000 --> 00:51:20,000
+Asus somebody's remember when is summer then going to be looser is this one taken from a Forbes order call in late 2019 baseball
+
+308
+00:51:20,000 --> 00:51:30,000
+update from the earliest funding round but let's go back new bank 15 or so million
+
+309
+00:51:30,000 --> 00:51:40,000
+new bank spend the big success story here if that's a true number from the last funding round seems that seems a little
+
+310
+00:51:40,000 --> 00:51:50,000
+out of what the the customer numbers or I might be an added 8 figure valuations or clear this is not stock market valuation
+
+311
+00:51:50,000 --> 00:52:00,000
+to give you another take on this is where is this is the actual funding back to the FG partner's survey this is actual funding with these come
+
+312
+00:52:00,000 --> 00:52:10,000
+and then what they're there was a cop pre-money valuations of new bank and shine and some of the others so these are not insignificant
+
+313
+00:52:10,000 --> 00:52:20,000
+it's in the market if you're thinking about going to work first one of these it would be an exciting career path but even the new bags and chimes in and 20
+
+314
+00:52:20,000 --> 00:52:30,000
+have to figure out how they stay viable how they stay vibrant against the traditional players and the the
+
+315
+00:52:30,000 --> 00:52:40,000
+big tech companies and if you're all the way at the other end if you're a company like Dave and Dave is thought of this just maybe a unicorn and it's
+
+316
+00:52:40,000 --> 00:52:50,000
+race 76 million at the number matter if you're Dave and you're there was a couple hundred employees will it be there
+
+317
+00:52:50,000 --> 00:53:00,000
+what's the rats IT strategy so I think you've raised the right question about all of these history of banking
+
+318
+00:53:00,000 --> 00:53:10,000
+we do have $5,000 so in the US but they're community Banks they locally serve in and really work hard in their communities
+
+319
+00:53:10,000 --> 00:53:20,000
+the business community they know that and they have some bricks and mortar is an online space we know that network effects matter and with network effects
+
+320
+00:53:20,000 --> 00:53:30,000
+how many these will exist this great question but questions is I thought
+
+321
+00:53:30,000 --> 00:53:40,000
+is kind of interesting I don't necessarily subscribe to it but they is one side serve said let's take a look at the funding numbers what what are the
+
+322
+00:53:40,000 --> 00:53:50,000
+finding number is n and how many customers do have so you take what the latest valuation number is divided by the customer is
+
+323
+00:53:50,000 --> 00:54:00,000
+they come up with this concept that customers worth about $730 a piece you know if you just average everything you divide the evaluation by the
+
+324
+00:54:00,000 --> 00:54:10,000
+well that it doesn't work perfectly it it doesn't but you can get a sense of this is about an account
+
+325
+00:54:10,000 --> 00:54:20,000
+navigation bar can you build a count get to a million can you get to five return million and actually service and provide so what's
+
+326
+00:54:20,000 --> 00:54:30,000
+is a lot of these companies are negative funding what the really doing is there offering products
+
+327
+00:54:30,000 --> 00:54:40,000
+public but not covering all of the course they might be offering interest rates on the deposits they might be having
+
+328
+00:54:40,000 --> 00:54:50,000
+lower cost in fees lower late fees and account maintenance fees they might not have it count mean it's a lot
+
+329
+00:54:50,000 --> 00:55:00,000
+well are you having Essence micropayment in micro accounts but how their funding that is the venture capitalist the funding it basically because what the
+
+330
+00:55:00,000 --> 00:55:10,000
+is build valuation the whole model is about building value and then exiting somehow
+
+331
+00:55:10,000 --> 00:55:20,000
+judging when to do that accent now some of them will get to be income positive but those that right now art in the car
+
+332
+00:55:20,000 --> 00:55:30,000
+environment coronavirus crisis there's a new term that you're here it makes venture capitalist is Runway
+
+333
+00:55:30,000 --> 00:55:40,000
+White Runway does IT company have does it did it last funding round do they raise enough money to sustain them for 6
+
+334
+00:55:40,000 --> 00:55:50,000
+more or 2 years more a lot relates to one was the last funding round around was in the last 6 months and they have enough run
+
+335
+00:55:50,000 --> 00:56:00,000
+enough cash cash burn they can last 2 or 3 years that's more optimistic than if they're their Runway
+
+336
+00:56:00,000 --> 00:56:10,000
+they haven't done the last finding it's been a year old girl they did their around but they haven't done it be around there done that surround haven't done that derailed
+
+337
+00:56:10,000 --> 00:56:20,000
+an innocence they have to a lot of these companies in the middle of the coronavirus crisis have to figure out how to extend the runway
+
+338
+00:56:20,000 --> 00:56:30,000
+maybe do a suboptimal new funding round that doesn't booster valuation merger consolidate
+
+339
+00:56:30,000 --> 00:56:40,000
+so it's also a challenging time depending upon what they had anticipated quote how much run were they have when was released by underground in the lake
+
+340
+00:56:40,000 --> 00:56:50,000
+Ann and have they gone cash will pass that most of these have not necessarily gone cashflow positive Romaine apostle
+
+341
+00:56:50,000 --> 00:57:00,000
+I'm going to talk about traditional Banks just answer the question from a leader in the chat asking whether this model is profitable
+
+342
+00:57:00,000 --> 00:57:10,000
+a leader it is profitable in terms of selling equity to venture capitalist it is profitable for some of the banks that have been
+
+343
+00:57:10,000 --> 00:57:20,000
+even more times to traditional banks and in on bottom wine has crossed over his
+
+344
+00:57:20,000 --> 00:57:30,000
+we don't have any exhaust for the hundreds of Challenger near bags but by and large most before the coronavirus crisis
+
+345
+00:57:30,000 --> 00:57:40,000
+they're in a negative space and what they're trying to do is basically Bill digital footprint build customer base
+
+346
+00:57:40,000 --> 00:57:50,000
+get to that first TF million to get it out for a smelly and to get to the 5 and 10 million round you get five or 10 million customers what you built as you've
+
+347
+00:57:50,000 --> 00:58:00,000
+are you saying that somebody else might want to buy you've tended to them to get to cash deposit by then but we don't have the financials
+
+348
+00:58:00,000 --> 00:58:10,000
+NBA what I tell you which ones are be smart players are yet cash deposit I will say this 3 to 6 months from
+
+349
+00:58:10,000 --> 00:58:20,000
+more of them will consolidate go out of business or get cash for past it have a I need to as I say extend not Runway
+
+350
+00:58:20,000 --> 00:58:30,000
+then we have a current swimmers and Em
+
+351
+00:58:30,000 --> 00:58:40,000
+these Bank Cinderella v developing markets and the extent of the unbanked 200 Bank population in
+
+352
+00:58:40,000 --> 00:58:50,000
+especially because when you show the valuations right lady in a lot of people that
+
+353
+00:58:50,000 --> 00:59:00,000
+is the bank account for a significant I mean
+
+354
+00:59:00,000 --> 00:59:10,000
+using new Banksy in development stage are you being a low interest rate environment by de la Frontera or less interesting actually holding on switch accounts V
+
+355
+00:59:10,000 --> 00:59:20,000
+I think you're right but there is one other aspect that you can fly but you did explicitly say it's
+
+356
+00:59:20,000 --> 00:59:30,000
+structure and the competitive structure and the country's so taking Brazil Brazil is a very high class banking sector it has a low
+
+357
+00:59:30,000 --> 00:59:40,000
+historic reasons about the concentration that has to do with the government involvement but of not just Latin America but around the globe it has
+
+358
+00:59:40,000 --> 00:59:50,000
+if not the highest one of the highest net interest margin this is the margin that the traditional banks like it to another spray butter charged
+
+359
+00:59:50,000 --> 01:00:00,000
+my Dale and money add and what they're for my that's called the net interest margin and if in the US and even in Mexico and Canada off were running
+
+360
+01:00:00,000 --> 01:00:10,000
+take around 300 basis points meaning what you pay the pastor vs what you learnt on the other side in Brazil it's possible so that even for
+
+361
+01:00:10,000 --> 01:00:20,000
+corporate Borrowers it's more than that but for small and medium-sized businesses in the public it's like close to 10 times that meaning
+
+362
+01:00:20,000 --> 01:00:30,000
+20 to 30% net interest margin for for a certain sector of the market so I think new bank and and the 45
+
+363
+01:00:30,000 --> 01:00:40,000
+Brazil had an opportunity because it's a highly inefficient consumer banking and small the medium-sized bag
+
+364
+01:00:40,000 --> 01:00:50,000
+rakaia from earliest clear I said that's in tech companies lordly focused on the household sector whether it's mortgages
+
+365
+01:00:50,000 --> 01:01:00,000
+credit for it's in the life they focused on that concern sector of savings accounts and credit card Provisions in the lake
+
+366
+01:01:00,000 --> 01:01:10,000
+and it's focused on small medium sized business tonight trying to compete new bank is not trying to compete with a bow out the big corporate lending and they're not going to computer
+
+367
+01:01:10,000 --> 01:01:20,000
+as about here for the hair for the landing at the big corporate love always from basically government Banks government backed bags
+
+368
+01:01:20,000 --> 01:01:30,000
+so I said when you look at the developed world that you are the US and so for it we have challenges and our banking system
+
+369
+01:01:30,000 --> 01:01:40,000
+butter it's it's it's around those pain points I talked about it really about Legacy systems and Legacy user interfaces and
+
+370
+01:01:40,000 --> 01:01:50,000
+sometimes high fees and so far but every country you have to look at what's the inefficiency of the of the current traditional banking system and it's all
+
+371
+01:01:50,000 --> 01:02:00,000
+banking is that an opportunity to share a coarsely branch network shed coarsely Legacy systems
+
+372
+01:02:00,000 --> 01:02:10,000
+or for frankly just do it better cheaper ultimately that's what it is about being an option or can you do a better cheaper faster
+
+373
+01:02:10,000 --> 01:02:20,000
+and so how have the traditional back shred reacted not staying still all the way back from the online bank
+
+374
+01:02:20,000 --> 01:02:30,000
+they were right right Foursquare in the on my back in movement of the 1990's to the late North what have they done in the last decade
+
+375
+01:02:30,000 --> 01:02:40,000
+I did say maybe we have two rebranded do something different comment sacks is not the only one with Marcus the comment section investment Bank they were not protecting their brand
+
+376
+01:02:40,000 --> 01:02:50,000
+they said cap one in 2011 bought this big ING Direct the cap wanted for 9 billion we can move to this other area
+
+377
+01:02:50,000 --> 01:03:00,000
+are there is a starting to have named branded products jpmorgan and others are saying we maybe should do something but
+
+378
+01:03:00,000 --> 01:03:10,000
+I can even use a different name and call it something else and react so I wouldn't
+
+379
+01:03:10,000 --> 01:03:20,000
+down any of these big traditional bags and where we are in 3 or 5 years is going to be interesting I also would encourage you to think
+
+380
+01:03:20,000 --> 01:03:30,000
+tap Apple credit card is not quite a challenge your back Amazon Prime is not quite a challenge or back but when did they
+
+381
+01:03:30,000 --> 01:03:40,000
+Alibaba file for a banking licence Lake Ali Baba dead got here in Korea
+
+382
+01:03:40,000 --> 01:03:50,000
+has died and I already is just getting huge market share so I don't think that
+
+383
+01:03:50,000 --> 01:04:00,000
+too much in a different future I think that's near term that will see that now we have different traditions in the
+
+384
+01:04:00,000 --> 01:04:10,000
+we have a tradition both in culture and in bed in law about separation of banking and Commerce and we went through this in the 1980
+
+385
+01:04:10,000 --> 01:04:20,000
+29 is when the department store change like Walmart wanted to get in the bank King and they there is all this sort of back and forth about whether they can have banking licences what type
+
+386
+01:04:20,000 --> 01:04:30,000
+licence and industrial companies and other things really in the intricacy of banking licensing we will have some of those
+
+387
+01:04:30,000 --> 01:04:40,000
+dates and shower and chest as well as I believe Amazon and apple in others and Google get further into the space
+

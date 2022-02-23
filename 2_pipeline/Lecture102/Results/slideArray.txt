@@ -1,0 +1,1208 @@
+Stanford! ENGINEERING © Gj) SambaNova
+
+ElectricalEngineering = s
+Computer Science
+
+ 
+
+Designing Computer
+Systems for Software 2.0
+
+Kunle Olukotun
+Stanford University
+SambaNova Systems
+
+NeurIPS Invited Lecture, December 6, 2018
+ENDELEMENTTwo Big Trends in Computing
+
+m Success of Machine Learning
+
+= Incredible advances in image recognition, natural language processing,
+and knowledge base creation
+
+= Society-scale impact: autonomous vehicles, scientific discovery, and
+personalized medicine
+
+= Insatiable computing demands for training and inference
+
+= Moore’s Law is slowing down
+m Dennard scaling is dead
+= Computation is now limited by power
+= Conventional computer systems (CPU) stagnate
+
+Demands a new approach to designing computer systems for ML
+ENDELEMENTThe Rise of Machine Learning
+
+1980s Today
+' More !
+
+=
+
+   
+ 
+    
+
+Neural networks
+1
+\
+1
+1
+1
+1
+1
+!
+
+| Conventional algorithms
+
+Accuracy
+
+Data size, model complexity Adapted from Jeff Dean
+HotChips 2017
+ENDELEMENTSoftware 1.0 vs Software 2.0
+
+ 
+
+= Written in code (C++, ...) = Written in the weights of a neural
+m Requires domain expertise network model by optimization
+
+1. Decompose the problem
+
+2. Design algorithms
+
+3. Compose into a system Andrej Karpathy
+
+Scaled ML 2018 talk
+ENDELEMENTSoftware 2.0 is Eating Software 1.0
+
+Easier to build and deploy
+¢ Build products faster
+¢ Predictable runtimes and memory use: easier qualification
+
+    
+
+1000x Productivity: Google
+shrinks language translation
+code from 500k LoC to 500
+
+Classical problems
+¢ Data cleaning (Holoclean.io)
+¢ Self-driving DBMS (Peloton)
+¢ Self-driving networks (Pensieve)
+
+https://jack-clark.net/2017/10/09/import-ai-63-google-shrinks-language-translation-code-
+from-500000-to-500-lines-with-ai-only-25-of-surveyed-people-believe-automationbetter-jobs
+ENDELEMENTSoftware 2.0: Programming is Changing
+
+na6no
+
+cmp WACEEUBE amp & op = £2993
+
+a™
+Wy DATA AUGMENTATION
+
+S teu a Seee
+
+DATA RESHAPING
+
+ML developers increasingly program Software 2.0 stacks by creating and
+engineering training data
+
+snorkel.stanford.edu
+
+ae
+7. Ss
+mal PROGRAMMATIC LABELING Ry ° I DATA _ =
+° I
+° 1 =
+1
+I
+ENDELEMENTSQL Queries in Inner ML Training Loops
+
+Complex structured data stored in RDBMS
+epoch (n_epochs):
+
+batch in (0, n, batch_size):
+
+ 
+
+ 
+
+ 
+
+X_train, Y_train = load_data(
+offset=batch,
+limit=batch_size
+
+ 
+
+)
+
+X_train = augment (X_train)
+
+  
+
+loss. backward() snorkel
+
+ 
+
+Loaded dynamically during training
+
+(Pulling training points from a database backend)
+ENDELEMENTSparsity is becoming a desi an objective for neural
+networks of all types...
+
+ 
+
+“(SHS se ae"...
+
+Sparsely connected network layers can maintain
+performance while reducing parameter number
+
+Mocanu, D. Cet al. (2018). Nature Communications, 9(1), 2383.; Left panel from https://tkipf.github.io/graph-convolutional-networks,
+
+ 
+
+et al, 2018
+
+Figure from Mocanu
+ENDELEMENTGraph Neural Networks (GNNs) are increasingly
+opular for network-structured data
+
+ 
+
+ 
+
+Techniques like neural message passing
+algorithms \everage sparse graph structure and
+data access patterns
+
+* Figure from https://tkipf.github.io/graph-convolutional-networks,
+
+ 
+ENDELEMENTIncreasing Model Complexity
+
+7 ExaFLOPS 20 ExaFLOPS 100 ExaFLOPS
+60 Million Parameters 300 Million Parameters 8.7 Billion Parameters
+
+ 
+
+2015 - Microsoft ResNet 2016 - Baidu Deep Speech 2 2017 - Google Neural Machine Translation
+Superhuman Image Recognition Superhuman Voice Recognition Near Human Language Translation
+
+Source: Bill Dally, Scaled ML 2018
+ENDELEMENTML Training is Limited by Computation
+
+From EE Times — September 27, 2016
+
+“Today the job of training machine learning models is limited by compute,
+if we had faster processors we’d run bigger models...in practice we train
+on a reasonable subset of data that can finish in a matter of months. We
+could use improvements of several orders of magnitude — 100x or
+greater.”
+
+Greg Diamos, Senior Researcher, SVAIL, Baidu
+ENDELEMENTMicroprocessor Trends
+
+Multicore research Moores Law
+
+Transistors
+(thousands)
+
+Single-Thread
+Performance a
+(SpecINT x 10”)
+
+Frequency (MHz)
+
+Typical Power
+(Watts)
+
+Number of
+Logical Cores
+
+Power wall
+
+ 
+
+1970 1980 1990 2000 2010 2020
+
+Year
+
+Original data up to the year 2010 collected and plotted by M. Horowitz, F. Labonte, O. Shacham, K. Olukotun, L. Hammond, and C. Batten
+New plot and data collected for 2010-2017 by K. Rupp
+ENDELEMENTPower and Performance
+
+Energy
+Performance efficiency
+
+Ops , Joules
+second Op
+
+FIXED | J
+
+Specialization (fixed function) > better energy efficiency
+
+Power =
+ENDELEMENTKey Questions
+
+= How do we speed up machine learning by 100x?
+= Moore’s law slow down and power wall
+m >100x improvement in performance/watt
+= Enable new ML applications and capabilities
+
+= How do we balance performance and programmability?
+a Fixed-function ASIC-like performance/Watt
+= Processor-like flexibility
+
+= Need a “full-stack” integrated solution
+1. MLAlgorithms
+2. Domain Specific Languages and Compilers
+3. Hardware
+ENDELEMENTML Algorithms
+ENDELEMENTComputational Models
+
+= Software 1.0 model
+= Deterministic computations with algorithms
+= Computation must be correct for debugging
+
+= Software 2.0 model
+= Probabilistic machine-learned models trained from data
+
+= Computation only has to be statistically correct
+
+m Creates many opportunities for improved performance
+ENDELEMENTSGD: The Key Algorithm in Machine Learning
+
+Billions Loss function
+NO
+Optimization Problem: min, > f(x, y)~ Data
+i=l Model
+
+E.g.: Classification, Recommendation, Deep Learning
+
+Solving large-scale problems:
+Stochastic Gradient Descent (SGD)
+
+k+l kK k Select one term, j, and
+x =x! —GINVACE | Simategiene
+
+Billions of tiny sequential iterations
+ENDELEMENTSGD: Two Kinds of Efficiency
+
+= Statistical efficiency: how many iterations do we need to get
+the desired accuracy level?
+
+= Depends on the problem and implementation
+
+= Hardware efficiency: how long it takes to run each iteration?
+= Depends on the hardware and implementation
+
+trade off hardware and statistical efficiency
+
+to maximize performance
+
+ 
+
+ 
+
+ 
+
+Ce Zhang and Christopher Ré.. DimmWitted: Proc. VLDB “14
+
+ 
+
+ 
+ENDELEMENTLow Precision: The Pros
+
+   
+
+Microsoft Brainwave
+(FPGA)
+ENDELEMENTLow Precision: The Con
+
+- 2 Accuracy
+
+Low precision works for inference (e.g. TPU, Brainwave)
+
+ 
+
+Training usually requires at least 16 bit floating point
+numbers
+ENDELEMENTHigh Accuracy Low Precision (HALP) SGD
+Bit Centering: bound, re-center, re-scale
+
+tighten
+bound on
+solution
+
+=>
+
+* global solution O bound on solution
+
+   
+
+= The gradients get smaller as we approach the optimum
+= Dynamically rescale the fixed-point representation (in higher precision)
+= Get less error with the same number of bits
+
+Chris De Sa| Chris Aberger | Megan Leszczynski | Jian Zhang | Alana Marzoev | Kunle Olukotun | Chris Ré
+ENDELEMENTHALP Training
+
+Test Accuracy
+
+0.93
+0.92
+0.91
+
+0.9
+0.89
+0.88
+0.87
+0.86
+0.85
+
+MNIST (Multinomial Logistic Regression)
+
+’ tl, ==0=0jCFR—
+ee
+ee
+
+e
+e
+e
+e ae Seo] ev
+° ea aoe eo .
+a wee ee SVRG 64-bit
+e e
+: gf = SGD 10-bit
+¢
+f SVRG 10-bit
+id@ HALP 10-bit
+1 2 3 4 5 6 7 8 9
+
+Epoch
+
+HALP provably converges at a linear rate
+ENDELEMENTCNN: HALP versus Full-Precision Algorithms
+
+14-layer ResNet on CIFAR10
+1.4 0.85
+—— sgd (32)
+—e— halp (8)
+
+      
+    
+
+—— sgd (32)
+—e— halp (8)
+
+   
+
+o
+©0
+
+Training Loss
+r
+
+N he
+
+ul W
+
+Validation Accuracy
+
+1.204 10k 20k 30k 40k 50k °°” %k 10k 20k 30k 40k 50k 60k
+Iterations Iterations
+
+= HALP has better statistical efficiency than SGD!
+ENDELEMENTRelax, It’s Only Machine Learning
+
+m Relax precision: small integers are better
+mu HALP [De Sa, Aberger, et. al.] 9
+m Relax synchronization: data races are better ee,
+= HogWild! [De Sa, Olukotun, Ré: /CML 2016, ICML Best Paper]
+m Relax cache coherence: incoherence is better
+m [De Sa, Feldman, Ré, Olukotun: ISCA 2017] a
+m Relax communication: sparse communication is better more tan
+
+m [Lin, Han et. al.: /CLR 18]
+
+ 
+     
+
+Better hardware efficiency t4
+
+A i
+Chris Aberger
+
+with negligible impact on statistical efficiency
+
+ 
+ENDELEMENTDomain Specific Languages
+and Compilers
+ENDELEMENTDomain Specific Languages
+
+= Domain Specific Languages (DSLs)
+
+= Programming language with restricted expressiveness for a particular
+domain (operators and data types)
+
+= High-level, usually declarative, and deterministic
+= Focused on productivity not usually performance
+= High-performance DSLs (e.g. OptiML) = performance and productivity
+
+oenGL. & SQL
+ENDELEMENTK-means Clustering in OptiML
+
+ 
+ 
+     
+ 
+ 
+ 
+
+ 
+
+assign each sample to the closest mean
+untilconverged(kMeans, tol){kMeans =>
+
+val clusters = samples.groupRowsBy { sample =>
+kMeans.mapRows(mean => dist(sample, mean) ).minIndex
+}
+
+val newKmeans = clusters.map(e => e.sum / e.
+
+calculate distances to
+newKmeans
+
+current means
+
+ 
+
+ 
+
+ 
+
+ 
+
+    
+
+* No explicit parallelism
++ No distributed data structures (e.g. RDDs)
+¢ Efficient multicore, GPU and cluster execution
+
+  
+
+move each cluster centroid to the
+mean of the points assigned to it
+
+ 
+
+ 
+
+ 
+
+A. Sujeeth et. al.,
+“OptiML:An Implicitly
+
+ 
+
+., Parallel Domain-
+sae Specific Language for
+= ., Machine Learning,”
+
+ 
+
+ICML, 2011.
+
+ 
+
+ 
+
+ 
+ENDELEMENTK-means Clustering in  TensorFlow
+
+points = tf.constant(np.random.uniform(0, 10, (points_n, 2)))
+
+centroids = tf.Variable(tf.slice(tf.random_shuffle(points), [0, 0], [clusters_n, -1]))
+
+ 
+     
+   
+ 
+
+points_expanded = tf.expand_dims (points, 0)
+centroids expanded = tf.expand_dims(centroids, 1)
+
+  
+
+calculate distances to
+current means
+
+distances = tf.reduce_sum(tf.square(tf.sub(points_expanded, centroids_expanded)), 2)
+assignments = tf.argmin(distances, 0)
+
+ 
+
+each sample to the closest mean
+means = []
+
+for c in xrange (clusters_n) :
+means .append (tf. reduce_mean (
+
+tf gather (point, Open, standard software for
+.gather (points, c °
+t£. reshape ( general machine learning
+
+tf .where (
+
+£ 1 . move each cluster centroid to the
+t£.equal (assignments, c) mean of the points assigned to it
+
+toa one. Jeep Learning in
+) ,reduction_indices=[1])) particular
+
+new_centroids = tf.concat(0, means)
+
+First released Nov 2015
+
+update_centroids = tf.assign(centroids, new_centroids)
+ENDELEMENTCompiler Architecture
+
+DSL application
+
+ 
+
+ 
+
+Dataflow graph of .
+Weight Lweett domain-specific operators % ¥
+j ov uese
+ies eorny Pool Conv Norm sum ae
+* IR Translation
+Weight Map
+
+Hierarchical dataflow Parallel Pattern IR
+Input graph of parallel patterns
+
+Data High-level Compiler
+
+m Build a full compiler stack to compile high level DSLs to
+accelerator hardware
+ENDELEMENTParallel Patterns
+
+= Most data analytic computations including ML can be expressed as functional data
+parallel patterns on collections (e.g. sets, arrays, tables, n-d matrices)
+
+= Looping abstractions with extra information about parallelism and access patterns
+
+    
+
+ 
+
+ko ky k
+
+   
+
+-——
+ae... a Yoo Yor MM Yno Ya Yno|
+ko Eee ... i)
+7 8 2 1195
+Map Zip Reduce FlatMa = os m4
+element-wise element-wise combine all element-wise GroupBy
+function f function f elements with f function group elements
+(multi-collection) (fis associative) 20 values out into buckets
+per element based on key
+y = vector + 4 y = vecA + vecB y = vector.sum SELECT * FROM vector vector.groupBy{e => e % 3}
+y = vector * 10 y = vecA / vecB y = vector.product WHERE elem < 5
+y = sigmoid(vector) y = max(vecA, vecB) y = max(vector)
+ENDELEMENTParallel Pattern Language > High Level Parallel ISA
+"= Exampleapplication:kK-means ss si(‘SOét;O™;™”!;!O!O!O!O!OO!OOOOOOU
+= A data-parallel language that supports nested parallel patterns {{{}}}
+
+= Hierarchical dataflow graph of parallel patterns
+
+val clusters = samples GroupBy { sample =>
+val dists = kMeans Map { mean =>
+mean.Zip(sample){ (a,b) => sq(a - b) } Reduce { (a,b) => a + b }
+}
+Range(®, dists.length) Reduce { (i,j) =>
+if (dists(i) < dists(j)) i else j
+}
+}
+
+val newKmeans = clusters Map { e =>
+val sum = e Reduce { (v1,v2) => v1.Zip(v2){ (a,b) => a + b } }
+val count = e Map { v => 1 } Reduce { (a,b) => a + b }
+
+sum Map { a => a / count }
+
+}
+ENDELEMENTHigh-Level Compiler
+
+= Optimizing locality
+= Tiling needed for finite on-chip memory and compute resources
+= Fuse loops to eliminate intermediate buffers
+
+a Existing methods for tiling and fusing (i.e. polyhedral analysis) can
+operate only on code sections with affine data access patterns
+
+= Exploiting parallelism
+a Need to maximize utilization of all accelerator compute
+
+= Overlap compute with coarse-grain data dependencies (prefetching turns
+out to be a special case of metapipelining)
+
+= Hierarchical pipelining: Metapipelining
+ENDELEMENTMSM Builder Using OptiML
+
+with Viiay Pande
+
+Markov State Models (MSMs)
+MSMs are a powerful means of
+modeling the structure and
+dynamics of molecular systems,
+like proteins
+
+MSMbuilder Kinetic Clustering high prod, high perf
+
+C+, x86 ASM low prod, high perf
+Python high prod, low perf
+
+o 500 1000 1500 2000 2500 3000 3500 4000
+Relative Speed
+
+ 
+
+ 
+
+   
+
+Opti
+ENDELEMENTHardware
+ENDELEMENTML Accelerators Today
+
+ 
+   
+
+   
+
+Xeon
+Procese
+
+   
+
+CPU GPU
+@ Threads ™@ Massive threads
+—@ SIMD = SIMD
+
+= HBM
+
+ 
+
+TPU
+@ MM unit
+™@ SW Cache
+
+What next?
+ENDELEMENTWhat to Accelerate? ML Arxiv Papers Per Year
+
+ML Arxiv Papers
+
+20,000 = MLArxiv Papers @ Moore's Law | 120
+
+  
+ 
+
+ 
+
+15,000 15
+10,000 10
+ad
+al
+ASIC Design Time
+5,000
+0 0
+2009 2011 2013 2015 2017
+
+Year
+
+Relative Number of ML Arxiv Papers to 2009
+
+Adapted from Jeff Dean
+Scaled ML 2018
+
+ 
+ENDELEMENTML Accelerators for Tomorrow
+
+ 
+
+The Future of ML Algorithms
+ENDELEMENTNext-Gen ML Accelerators: Native Support for
+
+m Hierarchical parallel pattern dataflow
+= Natural ML programming model
+m= Dynamic precision
+mu HALP
+m Sparsity
+= Graph based neural networks
+= Data processing
+m SQL in inner loop of ML training
+ENDELEMENTThe Instruction Set Architecture (ISA) Bottleneck
+
+m= Programming model => Interface > Hardware
+
+= Today
+a C++ > x86, ARM > CPU
+m CUDA = PTX > GPU
+
+@ ISA limitations
+= Fixed set of operations
+= Low level
+
+a Inefficient
+
+ssssss.
+ML S3E8eS8ofcccc cee ML
+Algorithms esse? Hardware
+ENDELEMENTBreaking the ISA Bottleneck
+
+= Programming model > Interface > Hardware
+
+Hierarchical parallel patterns
+
+  
+
+U
+ee
+ee
+
+U Algorithms
+
+Hardware
+
+ 
+ENDELEMENTSpatial: Accelerator IR
+
+m IR for hierarchical coarse-grain dataflow
+= Constructs to express:
+= Parallel patterns as parallel and pipelined datapaths
+= Explicit memory hierarchies
+= Hierarchical control
+= Explicit parameters
+
+& Allows high-level compilers to focus on specifying
+parallelism and locality se.
+
+ 
+
+Matt Feldman
+
+spatial-lang.org
+
+ 
+
+ 
+
+D. Koeplinger et. al.,“Spatial: A Language and Compiler for Application Accelerators” PLDI 2018.
+
+ 
+
+ 
+ENDELEMENT12/5/18
+
+ 
+
+Tiled Dot Product
+output = vecA. (vecB){(a,b) => a * b} {(a,b) => a+
+val vecA = DRAM[Float](N)
+vecA vecB val vecB —=_ DRAM[ Float] (N)
+EERE GEE 36 val out = Reg[ Float]
+
+Reduce(N by B)(out) { i =>
+TEC) EE) GO
+val tB SRAM[ Float ] (B)
+val acc = Reg[Float]
+Load tA, tB
+
+tA load vecA(i :: i+B)
+Reduce (+) tB load vecB(i :: i+B)
+
+*K
+
+ 
+
+ 
+
+Reduce(B by 1)(acc){ j =>
+tA(j) * tB(j)
+}{a, b => a + b}
+H out }{a, b => a + b}
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTTiled Dot Product
+
+ 
+
+val vecA = DRAM[Float](N) vecA vecB
+val vecB = =_DRAM[ Float] (N) | |
+val out = Reg[Float]
+
+Load vecA(i :: i+B) Load vecB(i :: i+B)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Reduce(N by B)(out) { i => <a ra
+val tA SRAM[ Float ] (B)
+SRAM[ Float ] (B) _ Om L
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+val tB =
+val acc = Reg[Float ] tA(j..j+3) tB(j..j+3)
+tA load vecA(i :: i+B)
+
+ 
+
+ 
+
+tB load vecB(i :: i+B)
+
+Reduce(B by 1)(acc){ j =>
+tA(j) * tB(j)
+}{a, b => a + b}
+}{a, b => a + b}
+
+ 
+
+ 
+
+ 
+ENDELEMENT 
+
+val vecA = DRAM[Float](N)
+val vecB = DRAM[Float](N)
+val out = Reg[Float]
+
+Reduce(N by B)(out) { i =>
+val tA = SRAM[Float](B)
+val tB SRAM[ Float ] (B)
+val acc Reg[Float ]
+
+tA load vecA(i :: i+B)
+tB load vecB(i :: i+B)
+
+Reduce(B by 1)(acc){ j =>
+tA(j) * tB(j)
+}{a, b => a + b}
+}{a, b => a + b}
+
+ 
+   
+
+Tiled Dot Product Design Parameters
+
+Parallelism
+factor #2
+
+      
+  
+
+Parallelism factor #1
+
+ 
+  
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+   
+
+Spatial compiler
+optimizes parameters
+
+ 
+
+ 
+
+ 
+ENDELEMENTCompiler Architecture
+
+Weight
+
+Line Buffer
+
+Reg File
+
+  
+ 
+
+Dataflow graph of
+domain-specific operators
+
+ 
+
+ 
+
+Shift Reg
+
+ 
+
+Hierarchical dataflow
+graph of parallel patterns
+
+Hierarchical dataflow
+graph of tiled pipelines
+Memory hierarchy
+
+DSL application
+
+ 
+
+IR Translation
+
+Parallel Pattern IR
+
+High-level Compiler
+
+Spatial IR a
+
+Spatial Compiler
+
+Accelerator Hardware
+
+Start from productive,
+high level DSLs
+
+Use a common parallel
+pattern representation
+across DSLs
+
+Tile and metapipeline
+
+Spatial: captures
+memory hierarchy, design
+parameters, arbitrarily
+nested pipelines
+
+Map to accelerator
+hardware
+ENDELEMENTPlasticine: A Reconfigurable Architecture for Parallel
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Patterns
+High-level Parallel Patterns (Spatial) Plasticine Architecture
+© “© ee Mu Pou PMU bear=-ted
+sail rou Puy peu
+& ~
+=n (2 serra [S)omen —[ pau | Memon [r= | gore
+| key! k
+a? i
+
+Tiled architecture with reconfigurable SIMD pipelines,
+distributed scratchpads, and statically programmed switches
+
+Prabhakar, Zhang, et. al. ISCA 2017
+
+High Performance
+
+Energy Efficiency
+
+Up to 95x Performance
+
+= Up to 77X Perf/W
+
+vs. Stratix V FPGA
+
+ 
+
+Raghu Prabhakar Yaqi Zhang
+ENDELEMENTCompiler Architecture
+
+DSL application
+
+Dataflow graph of
+domain-specific operators
+
+ 
+   
+  
+
+ 
+
+Norm sum
+IR Translation
+
+ 
+
+Weight
+
+   
+   
+
+Hierarchical dataflow Parallel Pattern IR
+
+graph of parallel patterns
+
+Input
+Dati 7
+a High-level Compiler
+
+Hierarchical dataflow Spatial IR
+Line Buffer 5 graph of tiled pipelines [PEM
+Memory hierarchy
+Reg File Spatial Compiler
+Plasticine IR
+Memory and compute units PIR Mapper
+
+Control information
+
+Plasticine Configuration
+ENDELEMENTMapping Spatial to Plasticine
+
+ 
+
+vecA (i) vecB
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Address “raw | enon
+tnt ea) oo &) sweh [em | Unie [~]& a
+
+ 
+
+Dot Product
+ENDELEMENTEfficiency vs. Flexibility
+
+Software Defined Hardware (SDH)
+
+10,000
+
+ASIC
+1,000
+
+SDH
+
+Fixed-function
+400 Coarse-grain dataflow
+
+10
+
+Energy Efficiency (MOPS/mW)
+
+Instruction-based
+
+ 
+
+0.1
+103 106 10°
+Reprogramming Time (seconds)
+
+ee)
+(Not reprogrammable)
+ENDELEMENTWe Can Have It All with Software 2.0!
+
+ 
+
+Productivity
+
+Power
+
+Performance
+
+Programmability
+
+Portability
+
+ML Algorithms (e.g. Hogwild!, HALP)
+
+ML Developer
+
+High Performance DSLs (e.g. OptiML, TensorFlow, PyTorch)
+
+High-Le ompiler
+
+Accelerator IR (e.g. Spatial)
+
+Low-Level Compiler
+
+Hardware Architectures (e.g. SDH)
+ENDELEMENTThank You!
+
+=m Questions?
+ENDELEMENT

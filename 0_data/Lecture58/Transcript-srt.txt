@@ -1,0 +1,6230 @@
+1
+00:00:01,640 --> 00:00:04,040
+The following and content
+is provided under a Creative
+
+2
+00:00:04,040 --> 00:00:05,580
+Commons license.
+
+3
+00:00:05,580 --> 00:00:07,880
+Your support will help
+MIT OpenCourseWare
+
+4
+00:00:07,880 --> 00:00:12,270
+continue to offer high-quality,
+educational resources for free.
+
+5
+00:00:12,270 --> 00:00:14,870
+To make a donation or
+view additional materials
+
+6
+00:00:14,870 --> 00:00:18,830
+from hundreds of MIT courses,
+visit MIT OpenCourseWare
+
+7
+00:00:18,830 --> 00:00:22,370
+at ocw.mit.edu.
+
+8
+00:00:22,370 --> 00:00:24,170
+HYNEK HERMANSKY: I'm
+basically an engineer.
+
+9
+00:00:24,170 --> 00:00:26,720
+And I'm working on
+speech recognition.
+
+10
+00:00:26,720 --> 00:00:29,600
+And so you may wonder, so
+what is there to work on?
+
+11
+00:00:29,600 --> 00:00:32,119
+Because you have a cell
+phone in your pocket,
+
+12
+00:00:32,119 --> 00:00:37,300
+and you speak to it, and Siri
+answers you and everything.
+
+13
+00:00:37,300 --> 00:00:40,085
+And the whole thing is
+working very basic principles.
+
+14
+00:00:40,085 --> 00:00:41,085
+You start with a signal.
+
+15
+00:00:41,085 --> 00:00:42,780
+It goes to signal processing.
+
+16
+00:00:42,780 --> 00:00:44,840
+There's some pattern
+classification.
+
+17
+00:00:44,840 --> 00:00:47,040
+Of course, deep
+neural nets as usual.
+
+18
+00:00:47,040 --> 00:00:50,270
+And so this recognizes
+the message.
+
+19
+00:00:50,270 --> 00:00:52,850
+This recognizes
+what you are saying,
+
+20
+00:00:52,850 --> 00:00:56,240
+so the question is, what is it
+that is fighter of the boat?
+
+21
+00:00:56,240 --> 00:01:00,410
+Why not keep going, and try
+just to improve the error rates,
+
+22
+00:01:00,410 --> 00:01:04,040
+and improve them
+basically step by step?
+
+23
+00:01:04,040 --> 00:01:05,730
+Because we have a
+good thing going.
+
+24
+00:01:05,730 --> 00:01:08,210
+We have something which
+is already out there.
+
+25
+00:01:08,210 --> 00:01:09,560
+And it's working.
+
+26
+00:01:09,560 --> 00:01:11,480
+But you may know
+the answer, so this
+
+27
+00:01:11,480 --> 00:01:15,500
+is, imagine that you are, sort
+of, skiing or going on a sled.
+
+28
+00:01:15,500 --> 00:01:17,010
+And suddenly, you
+come somewhere.
+
+29
+00:01:17,010 --> 00:01:18,260
+And you have to start pushing.
+
+30
+00:01:18,260 --> 00:01:21,380
+You don't want to do that,
+but you do it for the reason,
+
+31
+00:01:21,380 --> 00:01:24,790
+because there may be some--
+another kind of slope going out
+
+32
+00:01:24,790 --> 00:01:25,400
+there.
+
+33
+00:01:25,400 --> 00:01:28,350
+And that's the way I feel
+about the speech recognition.
+
+34
+00:01:28,350 --> 00:01:31,370
+So basically, sometimes we
+need to push a little bit up
+
+35
+00:01:31,370 --> 00:01:34,310
+and maybe go slightly
+out of our comfort zone
+
+36
+00:01:34,310 --> 00:01:36,160
+in order to get further.
+
+37
+00:01:38,680 --> 00:01:41,269
+Speech is not what we are--
+
+38
+00:01:41,269 --> 00:01:42,810
+it's not the thing
+which we are using
+
+39
+00:01:42,810 --> 00:01:44,690
+for communicating with Siri.
+
+40
+00:01:44,690 --> 00:01:45,710
+Speech is this.
+
+41
+00:01:45,710 --> 00:01:47,690
+Basically, people
+speak the way I do.
+
+42
+00:01:47,690 --> 00:01:49,220
+They hesitate.
+
+43
+00:01:49,220 --> 00:01:51,710
+There's a lot of
+fillers, interruptions.
+
+44
+00:01:51,710 --> 00:01:54,230
+And I don't finish
+the sentences.
+
+45
+00:01:54,230 --> 00:01:57,620
+I speak with a strong
+accent, and so on.
+
+46
+00:01:57,620 --> 00:02:00,620
+I become excited,
+and so on, and so on.
+
+47
+00:02:00,620 --> 00:02:02,780
+And we would like to
+put a machine there
+
+48
+00:02:02,780 --> 00:02:04,340
+instead of the other person.
+
+49
+00:02:04,340 --> 00:02:07,070
+Basically, this is what a
+speech recognition ultimately
+
+50
+00:02:07,070 --> 00:02:07,640
+is, right?
+
+51
+00:02:07,640 --> 00:02:11,380
+I mean, and actually, if you see
+what government is supporting,
+
+52
+00:02:11,380 --> 00:02:14,000
+what the big companies
+are working on,
+
+53
+00:02:14,000 --> 00:02:17,110
+this is what we
+are worried about.
+
+54
+00:02:17,110 --> 00:02:19,940
+We are worried about
+the real speech
+
+55
+00:02:19,940 --> 00:02:24,770
+produced by real people in the
+real communications by speech.
+
+56
+00:02:24,770 --> 00:02:29,120
+And you know, I didn't mention
+all the disturbing things
+
+57
+00:02:29,120 --> 00:02:33,000
+like noises, and so on, and so
+on, but we will get into that.
+
+58
+00:02:33,000 --> 00:02:35,780
+So I believe that
+we don't only need
+
+59
+00:02:35,780 --> 00:02:38,300
+signal processing, and
+information theory,
+
+60
+00:02:38,300 --> 00:02:40,520
+and machine
+learning, but we also
+
+61
+00:02:40,520 --> 00:02:42,050
+need the other disciplines.
+
+62
+00:02:42,050 --> 00:02:44,810
+And this is where you
+guys are coming in.
+
+63
+00:02:44,810 --> 00:02:46,340
+So that's what I believe in.
+
+64
+00:02:46,340 --> 00:02:49,310
+We should be working
+together, engineering and life
+
+65
+00:02:49,310 --> 00:02:52,820
+sciences working together.
+
+66
+00:02:52,820 --> 00:02:54,650
+At least we should try.
+
+67
+00:02:54,650 --> 00:02:56,030
+We should at least
+try to be-- we
+
+68
+00:02:56,030 --> 00:03:00,590
+engineers should be try to
+inspired by life sciences.
+
+69
+00:03:00,590 --> 00:03:03,500
+And as far as
+inspiration is concerned,
+
+70
+00:03:03,500 --> 00:03:07,040
+I have a story to start with.
+
+71
+00:03:07,040 --> 00:03:11,010
+There was a guy who won the
+lottery by using numbers 1, 2,
+
+72
+00:03:11,010 --> 00:03:13,250
+3, 6, 7, 49.
+
+73
+00:03:13,250 --> 00:03:16,070
+And they said, well, this is
+of course unusual sequence
+
+74
+00:03:16,070 --> 00:03:18,950
+of numbers, so they say, how
+did you ever get to that?
+
+75
+00:03:18,950 --> 00:03:20,750
+He says, I'm the first child.
+
+76
+00:03:20,750 --> 00:03:23,570
+My mother was my
+mother's second marriage
+
+77
+00:03:23,570 --> 00:03:25,190
+and my father's third marriage.
+
+78
+00:03:25,190 --> 00:03:27,120
+And I was born on
+the 6th of July.
+
+79
+00:03:27,120 --> 00:03:31,340
+And of course, 6 by 7 is 49.
+
+80
+00:03:31,340 --> 00:03:34,010
+And that's sometimes I
+feel, I'm getting this sort
+
+81
+00:03:34,010 --> 00:03:35,680
+of inspiration from you people.
+
+82
+00:03:35,680 --> 00:03:37,040
+I may not get it right.
+
+83
+00:03:37,040 --> 00:03:42,480
+I may not get it right, but as
+long as it works, I'm happy.
+
+84
+00:03:42,480 --> 00:03:45,350
+You know, I'm not being
+paid for being smart
+
+85
+00:03:45,350 --> 00:03:47,830
+and being knowledgeable
+about biology.
+
+86
+00:03:47,830 --> 00:03:51,420
+I'm being, really, paid for
+making something which works.
+
+87
+00:03:51,420 --> 00:03:53,900
+Anyways, so this is
+just the warm up.
+
+88
+00:03:53,900 --> 00:03:56,270
+I thought that you will
+still be drinking a coffee,
+
+89
+00:03:56,270 --> 00:03:59,160
+so I decided to
+start with a joke.
+
+90
+00:03:59,160 --> 00:04:00,820
+But anyway, but it's
+an inspiring joke.
+
+91
+00:04:00,820 --> 00:04:02,650
+I mean, it's about inspiration.
+
+92
+00:04:02,650 --> 00:04:05,390
+And I would maybe point out
+to some of the inspiration
+
+93
+00:04:05,390 --> 00:04:08,330
+points, which I, of course,
+didn't get it right,
+
+94
+00:04:08,330 --> 00:04:11,370
+but still, it was working.
+
+95
+00:04:11,370 --> 00:04:13,330
+Why do we have audition?
+
+96
+00:04:13,330 --> 00:04:14,960
+Josh already told
+us-- because we
+
+97
+00:04:14,960 --> 00:04:16,829
+want to survive in this world.
+
+98
+00:04:16,829 --> 00:04:19,715
+I mean, this is a little ferret
+or whatever, and there is--
+
+99
+00:04:19,715 --> 00:04:21,360
+he's getting something now.
+
+100
+00:04:21,360 --> 00:04:22,670
+And there is a object.
+
+101
+00:04:22,670 --> 00:04:25,186
+And ferret is worrying,
+is this something
+
+102
+00:04:25,186 --> 00:04:26,810
+I should be friendly
+with or I should--
+
+103
+00:04:26,810 --> 00:04:32,630
+it should be something
+which I run away.
+
+104
+00:04:32,630 --> 00:04:34,850
+So what is the message
+in this signal?
+
+105
+00:04:34,850 --> 00:04:37,910
+Is it a danger or
+is a opportunity?
+
+106
+00:04:37,910 --> 00:04:40,550
+Well, the same way,
+how do we survive
+
+107
+00:04:40,550 --> 00:04:43,050
+in this world as human beings?
+
+108
+00:04:43,050 --> 00:04:47,070
+So there is my wife who has
+some message in her head.
+
+109
+00:04:47,070 --> 00:04:49,700
+And so she wants to
+tell me, eat vegetables,
+
+110
+00:04:49,700 --> 00:04:52,340
+they are good for you,
+so she's using speech.
+
+111
+00:04:52,340 --> 00:04:54,012
+And speech is
+actually amazing sort
+
+112
+00:04:54,012 --> 00:04:57,759
+of mechanism for sharing
+the experiences and for--
+
+113
+00:04:57,759 --> 00:04:59,300
+actually, without
+speech, we wouldn't
+
+114
+00:04:59,300 --> 00:05:01,090
+be where we are, I
+can guarantee you,
+
+115
+00:05:01,090 --> 00:05:05,720
+because that allows us to tell
+the other people things what
+
+116
+00:05:05,720 --> 00:05:08,420
+they should do without
+going through much trouble
+
+117
+00:05:08,420 --> 00:05:12,110
+like a ferret with the bird.
+
+118
+00:05:12,110 --> 00:05:14,780
+That we may not
+have to be eaten,
+
+119
+00:05:14,780 --> 00:05:18,125
+maybe we just die a little early
+if we don't get this right,
+
+120
+00:05:18,125 --> 00:05:19,830
+if we don't get this message.
+
+121
+00:05:19,830 --> 00:05:24,030
+So she says this thing, and
+hopefully, I get the message.
+
+122
+00:05:24,030 --> 00:05:25,760
+So this is what
+speech is about, but I
+
+123
+00:05:25,760 --> 00:05:28,550
+wanted to say, the speech
+is an important thing,
+
+124
+00:05:28,550 --> 00:05:31,790
+because it allows us to
+communicate abstract ideas
+
+125
+00:05:31,790 --> 00:05:33,470
+like good for you.
+
+126
+00:05:33,470 --> 00:05:35,950
+And that's sort of not only
+vegetable, vegetable is saying,
+
+127
+00:05:35,950 --> 00:05:39,920
+but a lot of abstract ideas
+can be conveyed by speech.
+
+128
+00:05:39,920 --> 00:05:45,020
+And that's why I think
+it's kind of exciting.
+
+129
+00:05:45,020 --> 00:05:49,280
+Why do we work on machine
+recognition of speech?
+
+130
+00:05:49,280 --> 00:05:52,490
+Well, first one is just
+like Edmund Hillary
+
+131
+00:05:52,490 --> 00:05:54,120
+said, because it's there.
+
+132
+00:05:54,120 --> 00:05:56,330
+They are asking, why did
+you climb Mount Everest?
+
+133
+00:05:56,330 --> 00:05:57,746
+He said, well,
+because it's there.
+
+134
+00:05:57,746 --> 00:05:59,390
+I mean, it's a challenge, right?
+
+135
+00:05:59,390 --> 00:06:02,120
+Spoken language is one of
+the most amazing things,
+
+136
+00:06:02,120 --> 00:06:05,330
+I already told you
+before, of human race
+
+137
+00:06:05,330 --> 00:06:07,580
+so there would be
+hell if we can't build
+
+138
+00:06:07,580 --> 00:06:09,920
+a machine which understands it.
+
+139
+00:06:09,920 --> 00:06:12,740
+And we don't have an
+easy time so far yet.
+
+140
+00:06:12,740 --> 00:06:15,680
+In addition, when you
+are addressing speech,
+
+141
+00:06:15,680 --> 00:06:18,140
+you are really addressing
+the generic problems
+
+142
+00:06:18,140 --> 00:06:21,470
+which we have in processing
+of other cognitive signals.
+
+143
+00:06:21,470 --> 00:06:25,550
+And we touched it to some
+extent during this panel,
+
+144
+00:06:25,550 --> 00:06:27,890
+because, you know, problems
+which we have in speech,
+
+145
+00:06:27,890 --> 00:06:30,200
+we have the similar
+problems in perceiving
+
+146
+00:06:30,200 --> 00:06:32,390
+images and perceiving smells.
+
+147
+00:06:32,390 --> 00:06:35,300
+All these cognitive
+signals, basically, machines
+
+148
+00:06:35,300 --> 00:06:36,697
+are not very good at it.
+
+149
+00:06:36,697 --> 00:06:37,280
+Let's face it.
+
+150
+00:06:37,280 --> 00:06:40,550
+Machines can add 10 billion
+numbers very quickly,
+
+151
+00:06:40,550 --> 00:06:43,590
+but they cannot tell my
+grandmother from the monkey,
+
+152
+00:06:43,590 --> 00:06:44,090
+right?
+
+153
+00:06:44,090 --> 00:06:48,670
+I mean, so this is
+actually important thing.
+
+154
+00:06:48,670 --> 00:06:50,840
+There are also practical
+applications, obviously--
+
+155
+00:06:50,840 --> 00:06:52,710
+access to information.
+
+156
+00:06:52,710 --> 00:06:56,510
+Voice interaction with
+machines extracting information
+
+157
+00:06:56,510 --> 00:06:59,840
+from speech, given how much
+speech is out there now with--
+
+158
+00:06:59,840 --> 00:07:02,360
+I don't know how
+much we are adding
+
+159
+00:07:02,360 --> 00:07:06,897
+every second through the
+YouTube and that sort of things,
+
+160
+00:07:06,897 --> 00:07:08,480
+but there's a lot
+of speech out there.
+
+161
+00:07:08,480 --> 00:07:10,400
+It would be good if
+information can actually
+
+162
+00:07:10,400 --> 00:07:13,270
+extract information from that.
+
+163
+00:07:13,270 --> 00:07:16,100
+And I tell always the students,
+there is a job security.
+
+164
+00:07:16,100 --> 00:07:18,470
+It's not going to be solved
+during your lifetime,
+
+165
+00:07:18,470 --> 00:07:19,695
+certainly not during mine.
+
+166
+00:07:19,695 --> 00:07:22,040
+I mean, sort of, if
+you get into it--
+
+167
+00:07:22,040 --> 00:07:26,690
+in addition, I mean, I know
+that this is maybe on YouTube,
+
+168
+00:07:26,690 --> 00:07:30,860
+but also, if you don't like
+it, you can get fantastic jobs.
+
+169
+00:07:30,860 --> 00:07:33,470
+There is a half of
+the IBM group ended up
+
+170
+00:07:33,470 --> 00:07:36,920
+on the Wall Street making
+insane amount of money.
+
+171
+00:07:36,920 --> 00:07:38,550
+So I mean, you
+know, what skills we
+
+172
+00:07:38,550 --> 00:07:42,290
+should get in recognizing
+speech, working on the speech,
+
+173
+00:07:42,290 --> 00:07:44,510
+can be also applied
+in other areas.
+
+174
+00:07:44,510 --> 00:07:49,700
+Obviously it can be applied in
+vision, and so on, and so on.
+
+175
+00:07:49,700 --> 00:07:52,040
+Speech has been produced
+to be perceived.
+
+176
+00:07:52,040 --> 00:07:57,020
+Here is Roman Jakobson,
+the great Harvard, MIT guy,
+
+177
+00:07:57,020 --> 00:07:58,660
+passed away unfortunately.
+
+178
+00:07:58,660 --> 00:08:00,710
+He would be now a
+hundred and something.
+
+179
+00:08:00,710 --> 00:08:02,750
+He says, we speak in
+order to be heard,
+
+180
+00:08:02,750 --> 00:08:04,430
+in order to be understood.
+
+181
+00:08:04,430 --> 00:08:07,680
+Speech has been produced
+to be perceived.
+
+182
+00:08:07,680 --> 00:08:11,460
+And over the millennia
+of the human evolution,
+
+183
+00:08:11,460 --> 00:08:14,010
+it evolved this way
+so that it reflects
+
+184
+00:08:14,010 --> 00:08:16,190
+properties of human hearing.
+
+185
+00:08:16,190 --> 00:08:18,620
+And so I'm very
+much also with Josh.
+
+186
+00:08:18,620 --> 00:08:21,050
+If you build up a machine
+which recognizes speech,
+
+187
+00:08:21,050 --> 00:08:24,420
+you may be verifying some of the
+theories of speech perception.
+
+188
+00:08:24,420 --> 00:08:28,230
+And I'll point out
+that along the way.
+
+189
+00:08:28,230 --> 00:08:32,929
+How do I know that the speech
+evolved to fit the hearing
+
+190
+00:08:32,929 --> 00:08:34,169
+and not the other way around?
+
+191
+00:08:34,169 --> 00:08:37,460
+I got some big people arguing
+over that, because they say,
+
+192
+00:08:37,460 --> 00:08:40,280
+you don't know, I mean,
+basically, but I know.
+
+193
+00:08:40,280 --> 00:08:40,970
+I think.
+
+194
+00:08:40,970 --> 00:08:43,760
+Well, I think that
+I know, right?
+
+195
+00:08:43,760 --> 00:08:47,000
+Every single organ which is
+used for speech production
+
+196
+00:08:47,000 --> 00:08:49,780
+is also used for something
+much more useful,
+
+197
+00:08:49,780 --> 00:08:52,560
+like, sort of typically,
+eating and breathing.
+
+198
+00:08:52,560 --> 00:08:57,440
+So this is the organs of speech
+production-- lungs, the lips,
+
+199
+00:08:57,440 --> 00:09:03,470
+teeth, nose, and velum,
+and so on, and so on.
+
+200
+00:09:03,470 --> 00:09:07,740
+Everything is being used for
+some life-sustaining functions,
+
+201
+00:09:07,740 --> 00:09:08,970
+including speaking.
+
+202
+00:09:08,970 --> 00:09:12,825
+So I know that it's not
+the same in hearing.
+
+203
+00:09:12,825 --> 00:09:15,330
+Hearing has evolved
+to hear, for hearing.
+
+204
+00:09:15,330 --> 00:09:18,290
+Maybe there are some
+organs of balance,
+
+205
+00:09:18,290 --> 00:09:20,870
+and that sort of thing,
+but mostly, you do hear.
+
+206
+00:09:20,870 --> 00:09:23,780
+In the speech, everything,
+what is being used,
+
+207
+00:09:23,780 --> 00:09:25,520
+has been used for--
+
+208
+00:09:25,520 --> 00:09:27,310
+it's used for
+something else also,
+
+209
+00:09:27,310 --> 00:09:30,590
+so clearly, we just
+learned how to speak
+
+210
+00:09:30,590 --> 00:09:33,530
+because we had the
+appropriate hardware there,
+
+211
+00:09:33,530 --> 00:09:35,630
+and we learned how to use it.
+
+212
+00:09:35,630 --> 00:09:42,410
+So in order to get
+the message, you
+
+213
+00:09:42,410 --> 00:09:44,030
+use some cognitive
+aspects, which
+
+214
+00:09:44,030 --> 00:09:45,360
+I won't be talking much about.
+
+215
+00:09:45,360 --> 00:09:47,750
+So you have to use
+the common language.
+
+216
+00:09:47,750 --> 00:09:50,390
+You have to have some
+context of the conversation.
+
+217
+00:09:50,390 --> 00:09:53,120
+You have to have some
+common set of priors,
+
+218
+00:09:53,120 --> 00:09:56,450
+some common experience, and
+so on, and so on, but mainly
+
+219
+00:09:56,450 --> 00:09:58,430
+what I will be
+talking about, you
+
+220
+00:09:58,430 --> 00:10:02,210
+need the reliable signal
+which carries the message,
+
+221
+00:10:02,210 --> 00:10:05,620
+because the message
+is in the signal.
+
+222
+00:10:05,620 --> 00:10:07,760
+It's also in your
+head, but the signal
+
+223
+00:10:07,760 --> 00:10:11,240
+supports what is
+happening in your head.
+
+224
+00:10:11,240 --> 00:10:14,370
+So how much information
+is in speech signal?
+
+225
+00:10:14,370 --> 00:10:18,690
+This is, I have stolen I believe
+from George Miller, I think.
+
+226
+00:10:18,690 --> 00:10:21,080
+So if you look at
+Shannon's theory,
+
+227
+00:10:21,080 --> 00:10:24,860
+I mean, there will be about
+80 kilobytes per second.
+
+228
+00:10:24,860 --> 00:10:27,980
+And indeed, you can
+generate a reasonable signal
+
+229
+00:10:27,980 --> 00:10:30,030
+without being very
+smart about it
+
+230
+00:10:30,030 --> 00:10:34,220
+just by coding it to 11 bits
+at 8 kilohertz per second, 80
+
+231
+00:10:34,220 --> 00:10:35,240
+kilobits per second.
+
+232
+00:10:35,240 --> 00:10:36,710
+This verifies it.
+
+233
+00:10:36,710 --> 00:10:40,160
+So this is how much information
+might be in the signal.
+
+234
+00:10:40,160 --> 00:10:42,620
+How much is in the
+speech is actually very--
+
+235
+00:10:42,620 --> 00:10:46,010
+it's, sort of, not very
+clear, but at least we
+
+236
+00:10:46,010 --> 00:10:48,590
+can estimate it to some extent.
+
+237
+00:10:48,590 --> 00:10:52,220
+If you say, I would like to
+transcribe the signal in terms
+
+238
+00:10:52,220 --> 00:10:55,250
+of the speech sounds,
+phonemes, so there is maybe
+
+239
+00:10:55,250 --> 00:11:01,070
+about 40 to 49 phonemes,
+or something, 41 phonemes.
+
+240
+00:11:01,070 --> 00:11:03,350
+So if you look at
+the entropy of that,
+
+241
+00:11:03,350 --> 00:11:05,970
+it comes to about
+80 bits per second.
+
+242
+00:11:05,970 --> 00:11:08,840
+So there is three orders
+of magnitude difference.
+
+243
+00:11:08,840 --> 00:11:11,610
+If you push a
+little bit further--
+
+244
+00:11:11,610 --> 00:11:16,430
+indeed, I mean, if you speak
+with about 150,000 words, that
+
+245
+00:11:16,430 --> 00:11:19,490
+means about 80 bits,
+30 words per minute,
+
+246
+00:11:19,490 --> 00:11:23,390
+again, it comes to
+less than 100 bits.
+
+247
+00:11:23,390 --> 00:11:25,130
+So there's, as I
+said, there's a number
+
+248
+00:11:25,130 --> 00:11:28,340
+of ways how you can argue about
+this amount of information.
+
+249
+00:11:28,340 --> 00:11:31,300
+If you start thinking about
+dependencies between phonemes,
+
+250
+00:11:31,300 --> 00:11:35,300
+it can go as low as
+10, 20 bits per second.
+
+251
+00:11:35,300 --> 00:11:39,980
+No question that there is much
+more information in the signal
+
+252
+00:11:39,980 --> 00:11:43,830
+than it is in useful message
+which we would like to get out.
+
+253
+00:11:43,830 --> 00:11:46,520
+And we'll get into that.
+
+254
+00:11:46,520 --> 00:11:50,090
+Because what is in the
+message, there is not only
+
+255
+00:11:50,090 --> 00:11:52,040
+information about the
+message, but there
+
+256
+00:11:52,040 --> 00:11:54,230
+is a lot of other information.
+
+257
+00:11:54,230 --> 00:11:58,808
+There's information about health
+of the speaker, about which
+
+258
+00:11:58,808 --> 00:12:00,620
+language the speaker
+is using, what
+
+259
+00:12:00,620 --> 00:12:03,380
+are-- what emotions,
+there is who is speaking,
+
+260
+00:12:03,380 --> 00:12:07,190
+speaker-dependent
+information, what is the mood,
+
+261
+00:12:07,190 --> 00:12:09,030
+and so on, and so on.
+
+262
+00:12:09,030 --> 00:12:11,360
+And there is a lot
+of noise coming
+
+263
+00:12:11,360 --> 00:12:14,030
+from around, reverberations.
+
+264
+00:12:14,030 --> 00:12:16,610
+We talk about it quite
+a lot in the morning,
+
+265
+00:12:16,610 --> 00:12:18,080
+all kinds of other noises.
+
+266
+00:12:18,080 --> 00:12:21,350
+So what I call
+noise in general, I
+
+267
+00:12:21,350 --> 00:12:23,430
+call everything
+what we don't want
+
+268
+00:12:23,430 --> 00:12:26,240
+besides the signal, which,
+in speech recognition,
+
+269
+00:12:26,240 --> 00:12:27,960
+is the message.
+
+270
+00:12:27,960 --> 00:12:30,020
+So when I talk
+about the noise, it
+
+271
+00:12:30,020 --> 00:12:34,070
+can be information about who is
+speaking, about their emotions,
+
+272
+00:12:34,070 --> 00:12:37,020
+about the fact that
+maybe my voice is going,
+
+273
+00:12:37,020 --> 00:12:38,030
+and so on, and so on.
+
+274
+00:12:42,020 --> 00:12:44,860
+To my mind, purpose
+of perception is
+
+275
+00:12:44,860 --> 00:12:50,340
+get the information
+which carries--
+
+276
+00:12:50,340 --> 00:12:54,520
+get the signal which carries
+the desired information
+
+277
+00:12:54,520 --> 00:12:58,450
+and suppress the noise,
+eliminate the noise.
+
+278
+00:12:58,450 --> 00:13:01,130
+So the purpose of perception,
+being a little bit vulgar
+
+279
+00:13:01,130 --> 00:13:05,620
+about it, is how to get rid
+of most of the information
+
+280
+00:13:05,620 --> 00:13:09,640
+very quickly, because otherwise,
+your brain would go bananas.
+
+281
+00:13:09,640 --> 00:13:12,970
+So you basically want to focus
+on what you want to hear,
+
+282
+00:13:12,970 --> 00:13:17,480
+and you want to ignore, if
+possible, everything else.
+
+283
+00:13:17,480 --> 00:13:19,690
+And it's not, of course,
+easy, but we discuss that
+
+284
+00:13:19,690 --> 00:13:23,540
+again in the morning, about some
+techniques how to go about it.
+
+285
+00:13:23,540 --> 00:13:26,350
+And I will mention a
+few more techniques
+
+286
+00:13:26,350 --> 00:13:28,960
+which we are working on.
+
+287
+00:13:28,960 --> 00:13:33,100
+But this a key thing,
+is, purpose of perception
+
+288
+00:13:33,100 --> 00:13:37,011
+is to get what you need and
+not to get what you don't need,
+
+289
+00:13:37,011 --> 00:13:39,010
+because otherwise, your
+brain would be too busy.
+
+290
+00:13:41,980 --> 00:13:44,710
+Speech happens in many--
+it's a very simple example.
+
+291
+00:13:44,710 --> 00:13:47,380
+Speech happens in many,
+many environments.
+
+292
+00:13:47,380 --> 00:13:50,300
+And there is a lot of
+stuff happening around it,
+
+293
+00:13:50,300 --> 00:13:52,340
+so the very simple
+example, which I actually
+
+294
+00:13:52,340 --> 00:13:55,310
+used when I was giving a talk to
+some grandmothers in the Czech
+
+295
+00:13:55,310 --> 00:13:58,580
+Republic is that, what
+you can already use
+
+296
+00:13:58,580 --> 00:14:02,270
+is the fact that things
+happen at different levels.
+
+297
+00:14:02,270 --> 00:14:05,810
+And they happen at
+different frequencies,
+
+298
+00:14:05,810 --> 00:14:09,140
+so perception is selective.
+
+299
+00:14:09,140 --> 00:14:12,190
+Every perceptual mode is
+selective and attends only
+
+300
+00:14:12,190 --> 00:14:15,290
+to part of the world.
+
+301
+00:14:15,290 --> 00:14:17,210
+You know, we don't
+hear the radio--
+
+302
+00:14:17,210 --> 00:14:18,740
+we don't see the radio waves.
+
+303
+00:14:18,740 --> 00:14:21,080
+And we don't hear
+the ultrasound,
+
+304
+00:14:21,080 --> 00:14:25,830
+and so does all the lower
+elements, and so on, and so on.
+
+305
+00:14:25,830 --> 00:14:27,390
+So there are
+different frequencies,
+
+306
+00:14:27,390 --> 00:14:30,470
+different sound intensities
+are in the first approximation.
+
+307
+00:14:30,470 --> 00:14:31,580
+This is what you may use.
+
+308
+00:14:31,580 --> 00:14:34,857
+If something is too
+weak, I don't care.
+
+309
+00:14:34,857 --> 00:14:36,440
+If something has too
+high frequencies,
+
+310
+00:14:36,440 --> 00:14:38,930
+I don't care, and
+so on, and so on.
+
+311
+00:14:38,930 --> 00:14:41,960
+There are also different
+spectral and temporal dynamics
+
+312
+00:14:41,960 --> 00:14:45,260
+to speech, which we are
+learning about that quite a lot.
+
+313
+00:14:45,260 --> 00:14:48,095
+It happens at different
+locations of the space.
+
+314
+00:14:48,095 --> 00:14:53,010
+Again, this is the reason why
+we have a spatial directivity.
+
+315
+00:14:53,010 --> 00:14:54,870
+That's why we have two ears.
+
+316
+00:14:54,870 --> 00:14:57,620
+That's why we have a
+specifically-shaped ears,
+
+317
+00:14:57,620 --> 00:14:59,060
+and so on, and so on.
+
+318
+00:14:59,060 --> 00:15:01,540
+There are also other
+cognitive aspects,
+
+319
+00:15:01,540 --> 00:15:03,610
+I mean, sort of, like,
+the selective attention.
+
+320
+00:15:03,610 --> 00:15:05,510
+Again, we talk about
+it, that people
+
+321
+00:15:05,510 --> 00:15:09,230
+appear to be able to
+modify the properties
+
+322
+00:15:09,230 --> 00:15:11,135
+of your cognitive
+processing depending
+
+323
+00:15:11,135 --> 00:15:12,660
+on what you want to listen to.
+
+324
+00:15:12,660 --> 00:15:16,460
+And my friend Nima
+Mesgarani with Eddie Chang,
+
+325
+00:15:16,460 --> 00:15:19,010
+who was supposed to
+be here instead of me,
+
+326
+00:15:19,010 --> 00:15:22,210
+just had a major paper in Nature
+about that, and so on, and so
+
+327
+00:15:22,210 --> 00:15:22,710
+on.
+
+328
+00:15:22,710 --> 00:15:26,200
+There's a number of ways how
+we can modify the selectivity.
+
+329
+00:15:26,200 --> 00:15:29,490
+We talk about this sharpening
+the cochlear filters,
+
+330
+00:15:29,490 --> 00:15:32,180
+I mean, depending on the
+signal from the brain.
+
+331
+00:15:32,180 --> 00:15:35,000
+So speech happens like
+this, start with a message.
+
+332
+00:15:35,000 --> 00:15:38,130
+You have a linguistic code,
+maybe 50 bits per second.
+
+333
+00:15:38,130 --> 00:15:39,380
+There are some motor controls.
+
+334
+00:15:39,380 --> 00:15:42,110
+Speech production comes
+to a speech signal,
+
+335
+00:15:42,110 --> 00:15:46,850
+which has three orders of
+magnitude larger information
+
+336
+00:15:46,850 --> 00:15:47,690
+content.
+
+337
+00:15:47,690 --> 00:15:49,880
+Through speech perception
+and cognitive processes,
+
+338
+00:15:49,880 --> 00:15:52,040
+we get, somehow, back
+to the linguistic code
+
+339
+00:15:52,040 --> 00:15:55,070
+and extract the
+message, so this is
+
+340
+00:15:55,070 --> 00:15:58,060
+important-- from the small,
+low bit-rate, to high bit-rate,
+
+341
+00:15:58,060 --> 00:16:00,200
+to the low bit-rate.
+
+342
+00:16:00,200 --> 00:16:01,790
+In production,
+actually, I don't want
+
+343
+00:16:01,790 --> 00:16:04,780
+to pretend it happens
+in such a linear way.
+
+344
+00:16:04,780 --> 00:16:07,070
+There are also
+feedbacks, so there
+
+345
+00:16:07,070 --> 00:16:10,610
+is a feedback from you listen to
+yourself when you are speaking.
+
+346
+00:16:10,610 --> 00:16:13,060
+You can control how you speak.
+
+347
+00:16:13,060 --> 00:16:14,810
+And you can also
+actually change the code,
+
+348
+00:16:14,810 --> 00:16:16,640
+because you realize,
+oh, I should have
+
+349
+00:16:16,640 --> 00:16:19,040
+said it somehow differently.
+
+350
+00:16:19,040 --> 00:16:23,170
+In speech perception, again, we
+just talked about it, you can,
+
+351
+00:16:23,170 --> 00:16:24,950
+if the message is
+not getting through,
+
+352
+00:16:24,950 --> 00:16:28,020
+you may be able to tune
+the system in some ways.
+
+353
+00:16:28,020 --> 00:16:31,610
+You may be changing
+the things, you know?
+
+354
+00:16:31,610 --> 00:16:34,820
+And you may also use the
+very mechanical techniques,
+
+355
+00:16:34,820 --> 00:16:38,360
+as I told you, close the
+window, or walk away.
+
+356
+00:16:38,360 --> 00:16:41,970
+There is also feedback
+through the dialogue,
+
+357
+00:16:41,970 --> 00:16:43,790
+so from-- between
+message and message,
+
+358
+00:16:43,790 --> 00:16:45,980
+depending what
+I'm hearing, I may
+
+359
+00:16:45,980 --> 00:16:47,960
+be asking a different
+kind of question,
+
+360
+00:16:47,960 --> 00:16:50,900
+so which also modifies
+the message of the sender.
+
+361
+00:16:54,030 --> 00:16:56,290
+How do we produce speech?
+
+362
+00:16:56,290 --> 00:16:58,510
+So we speak in order
+to be heard, in order
+
+363
+00:16:58,510 --> 00:16:59,725
+to be understood.
+
+364
+00:16:59,725 --> 00:17:02,710
+So very quickly,
+I want to go back
+
+365
+00:17:02,710 --> 00:17:05,440
+to something which people
+already forgot a big way, which
+
+366
+00:17:05,440 --> 00:17:06,730
+is Homer Dudley.
+
+367
+00:17:06,730 --> 00:17:09,410
+He was a great researcher
+at Bell Laboratories
+
+368
+00:17:09,410 --> 00:17:10,810
+before the Second World War.
+
+369
+00:17:10,810 --> 00:17:13,950
+He retired I think
+sometime early in '50s.
+
+370
+00:17:13,950 --> 00:17:16,030
+He passed away in the '60s.
+
+371
+00:17:16,030 --> 00:17:20,579
+He was saying message is in the
+movements of the vocal tract
+
+372
+00:17:20,579 --> 00:17:24,069
+which modulates the carrier,
+so message in the speech
+
+373
+00:17:24,069 --> 00:17:26,020
+is not in fundamental
+frequency, it's
+
+374
+00:17:26,020 --> 00:17:28,420
+not the way you are
+exciting your vocal tract.
+
+375
+00:17:28,420 --> 00:17:32,860
+Message is how you shape the
+organs of speech production.
+
+376
+00:17:32,860 --> 00:17:37,270
+Proof for that is that you
+can whisper and you can still
+
+377
+00:17:37,270 --> 00:17:39,700
+understand, so you don't--
+
+378
+00:17:39,700 --> 00:17:41,980
+how you excite the vocal
+tract is secondary.
+
+379
+00:17:41,980 --> 00:17:47,900
+How do you generate this
+audible carrier is secondary.
+
+380
+00:17:47,900 --> 00:17:51,190
+You know, you can use
+the artificial larynx,
+
+381
+00:17:51,190 --> 00:17:54,160
+so there is this idea,
+there's a message.
+
+382
+00:17:54,160 --> 00:17:55,420
+A message is being--
+
+383
+00:17:55,420 --> 00:18:00,790
+goes through modulator into
+carrier, comes out as speech.
+
+384
+00:18:00,790 --> 00:18:03,970
+So this modulation actually
+has been used a long time ago,
+
+385
+00:18:03,970 --> 00:18:06,710
+and excuse me for being maybe
+a little bit simplistic,
+
+386
+00:18:06,710 --> 00:18:08,920
+but it's actually, in
+some ways, interesting.
+
+387
+00:18:08,920 --> 00:18:13,030
+So this was the speech
+production mechanism
+
+388
+00:18:13,030 --> 00:18:17,200
+which was developed in some
+time in the 18th century
+
+389
+00:18:17,200 --> 00:18:21,760
+by the guy Johannes Wolfgang
+Ritter von Kempelen.
+
+390
+00:18:21,760 --> 00:18:24,100
+And he actually had it right.
+
+391
+00:18:24,100 --> 00:18:26,050
+The only problem is
+nobody trusted him,
+
+392
+00:18:26,050 --> 00:18:29,170
+because he also invented
+Mechanical Turk, which
+
+393
+00:18:29,170 --> 00:18:30,970
+was playing the chess.
+
+394
+00:18:30,970 --> 00:18:32,680
+And so he was
+caught as a cheater,
+
+395
+00:18:32,680 --> 00:18:35,830
+so when he was showing
+his synthesizer,
+
+396
+00:18:35,830 --> 00:18:37,450
+nobody believed him.
+
+397
+00:18:37,450 --> 00:18:42,220
+But anyways, he was
+definitely a smart guy.
+
+398
+00:18:42,220 --> 00:18:45,570
+So he used already the
+principle which is now used.
+
+399
+00:18:45,570 --> 00:18:49,930
+This is a linear model of speech
+production developed actually
+
+400
+00:18:49,930 --> 00:18:51,790
+before the Second World
+War, really, again,
+
+401
+00:18:51,790 --> 00:18:54,280
+Bell Laboratories
+should get the credit.
+
+402
+00:18:54,280 --> 00:19:00,890
+I believe this is stolen
+from Dudley's paper.
+
+403
+00:19:00,890 --> 00:19:03,680
+So there is a source,
+and you can change it.
+
+404
+00:19:03,680 --> 00:19:06,700
+It periodic signals
+out random noise,
+
+405
+00:19:06,700 --> 00:19:10,540
+if you are producing voice
+signal or unvoice signal.
+
+406
+00:19:10,540 --> 00:19:13,190
+And then there is
+a resonance control
+
+407
+00:19:13,190 --> 00:19:17,320
+which goes into amplifier,
+and it produces the speech.
+
+408
+00:19:17,320 --> 00:19:20,110
+So this is the key here,
+this a key to the point
+
+409
+00:19:20,110 --> 00:19:23,410
+that Dudley developed
+for this called a voder.
+
+410
+00:19:23,410 --> 00:19:26,710
+And he trained the lady who
+spent a year or something
+
+411
+00:19:26,710 --> 00:19:27,370
+to play it.
+
+412
+00:19:27,370 --> 00:19:29,650
+It was played like a organ.
+
+413
+00:19:29,650 --> 00:19:31,990
+And she was changing
+the resonance properties
+
+414
+00:19:31,990 --> 00:19:33,715
+of this system here.
+
+415
+00:19:33,715 --> 00:19:40,060
+And she was creating excitation
+by pushing on a pitch pedal
+
+416
+00:19:40,060 --> 00:19:42,220
+and switching on the big--
+
+417
+00:19:42,220 --> 00:19:44,110
+on the wrist bar.
+
+418
+00:19:44,110 --> 00:19:48,730
+And if it works well, we may
+even be able to make the sound.
+
+419
+00:19:48,730 --> 00:19:50,878
+This is a test.
+
+420
+00:19:50,878 --> 00:19:52,790
+[AUDIO PLAYBACK]
+
+421
+00:19:52,790 --> 00:19:55,665
+- Will you please make the voder
+say, for our Eastern listeners,
+
+422
+00:19:55,665 --> 00:19:56,540
+good evening, Radio--
+
+423
+00:19:56,540 --> 00:19:56,982
+HYNEK HERMANSKY:
+This is a real--
+
+424
+00:19:56,982 --> 00:19:57,125
+- --audience.
+
+425
+00:19:57,125 --> 00:19:58,208
+HYNEK HERMANSKY: --speech.
+
+426
+00:19:58,208 --> 00:20:00,687
+- Good evening, radio audience.
+
+427
+00:20:00,687 --> 00:20:01,770
+HYNEK HERMANSKY: This is--
+
+428
+00:20:01,770 --> 00:20:03,780
+- And now, for our
+Western listeners,
+
+429
+00:20:03,780 --> 00:20:06,731
+say, good afternoon,
+radio audience.
+
+430
+00:20:06,731 --> 00:20:10,460
+- Good afternoon,
+radio audience.
+
+431
+00:20:10,460 --> 00:20:11,460
+[END PLAYBACK]
+
+432
+00:20:11,460 --> 00:20:12,960
+HYNEK HERMANSKY:
+Good enough, right?
+
+433
+00:20:12,960 --> 00:20:17,080
+I mean, sort of--
+so already, 1940s,
+
+434
+00:20:17,080 --> 00:20:20,850
+This was the demonstrated
+at a trade fair.
+
+435
+00:20:20,850 --> 00:20:24,790
+And the lady was trained so
+well that, in the '50s, when
+
+436
+00:20:24,790 --> 00:20:27,090
+Dudley was retiring,
+they brought her in.
+
+437
+00:20:27,090 --> 00:20:29,434
+She was already retired
+a long time ago.
+
+438
+00:20:29,434 --> 00:20:30,600
+And she still could play it.
+
+439
+00:20:34,250 --> 00:20:35,480
+How the speech works--
+
+440
+00:20:35,480 --> 00:20:38,090
+I mean, maybe-- oh, I wanted
+to jump this, but anyways,
+
+441
+00:20:38,090 --> 00:20:39,800
+let's go very
+quickly through that.
+
+442
+00:20:39,800 --> 00:20:40,925
+So this is a speech signal.
+
+443
+00:20:40,925 --> 00:20:43,070
+This is a acoustic signal.
+
+444
+00:20:43,070 --> 00:20:46,250
+It changes in-- this is a
+sinusoid, high pressure,
+
+445
+00:20:46,250 --> 00:20:48,530
+low pressure, high
+pressure, low pressure.
+
+446
+00:20:48,530 --> 00:20:52,220
+If you put somewhere
+in the in the path,
+
+447
+00:20:52,220 --> 00:20:56,010
+some barrier, what happens is
+you generate a standing wave.
+
+448
+00:20:56,010 --> 00:21:00,280
+A standing wave
+stands in a space.
+
+449
+00:21:00,280 --> 00:21:02,780
+And there are high pressures,
+low pressures, high pressures,
+
+450
+00:21:02,780 --> 00:21:03,655
+low pressures.
+
+451
+00:21:03,655 --> 00:21:06,140
+And the frequency depends
+on the frequency--
+
+452
+00:21:06,140 --> 00:21:08,990
+I mean, the size of
+this standing wave
+
+453
+00:21:08,990 --> 00:21:13,620
+depends on the
+frequency of the signal.
+
+454
+00:21:13,620 --> 00:21:17,680
+So if I put it into
+something like a vocal tract,
+
+455
+00:21:17,680 --> 00:21:18,960
+which we have here--
+
+456
+00:21:18,960 --> 00:21:19,910
+so this is a glottis.
+
+457
+00:21:19,910 --> 00:21:21,201
+This is where it gets exciting.
+
+458
+00:21:21,201 --> 00:21:23,000
+This is a very simple
+model of vocal tract.
+
+459
+00:21:23,000 --> 00:21:24,740
+And here I have a lips.
+
+460
+00:21:24,740 --> 00:21:28,970
+So it takes certain time to
+provide this through the tube.
+
+461
+00:21:28,970 --> 00:21:34,310
+And the tube will have a maximum
+velocity at certain point for--
+
+462
+00:21:34,310 --> 00:21:37,120
+so that it will be
+resonating in a quarter
+
+463
+00:21:37,120 --> 00:21:41,660
+wavelength of the signal, 3/4 of
+the wavelength of the signals,
+
+464
+00:21:41,660 --> 00:21:47,100
+in 5/4 of the wavelength of the
+signal, and so on, and so on.
+
+465
+00:21:47,100 --> 00:21:49,720
+So we can compute
+which frequencies
+
+466
+00:21:49,720 --> 00:21:53,780
+this tube will be resonating.
+
+467
+00:21:53,780 --> 00:21:56,210
+This is a very simplistic
+way of producing speech,
+
+468
+00:21:56,210 --> 00:22:00,000
+but you can generate reasonable
+speech sounds with that.
+
+469
+00:22:00,000 --> 00:22:03,350
+So if we start putting a
+constriction there somewhere,
+
+470
+00:22:03,350 --> 00:22:06,530
+which emulates the way,
+very simple the way
+
+471
+00:22:06,530 --> 00:22:10,890
+how we can speak by moving
+the tongue against the palate
+
+472
+00:22:10,890 --> 00:22:13,700
+or making of constrictions
+in the speech--
+
+473
+00:22:13,700 --> 00:22:16,410
+so when the tube
+is open like this,
+
+474
+00:22:16,410 --> 00:22:19,556
+it resonates at
+500, 1,500, 2,500
+
+475
+00:22:19,556 --> 00:22:22,160
+if the tube is 17
+centimeters long,
+
+476
+00:22:22,160 --> 00:22:26,960
+which is a typical length
+for the vocal tract.
+
+477
+00:22:26,960 --> 00:22:29,570
+So if I put a constriction
+here, everything
+
+478
+00:22:29,570 --> 00:22:32,810
+moves down because there is
+such a thing like perturbation
+
+479
+00:22:32,810 --> 00:22:34,940
+theory, which says
+that, if you are putting
+
+480
+00:22:34,940 --> 00:22:38,930
+a constriction through the point
+of the maximum velocity, which
+
+481
+00:22:38,930 --> 00:22:42,760
+is, of course, at the opening,
+all the modes will go down.
+
+482
+00:22:42,760 --> 00:22:47,960
+And as you go on, basically,
+the whole thing keeps changing.
+
+483
+00:22:47,960 --> 00:22:51,320
+The point is that, almost
+in every position of the,
+
+484
+00:22:51,320 --> 00:22:54,530
+say, this tongue, all
+the resonance frequencies
+
+485
+00:22:54,530 --> 00:22:57,650
+are changing, so the whole
+spectrum is being affected.
+
+486
+00:22:57,650 --> 00:23:02,280
+And that may become useful
+to explain something later.
+
+487
+00:23:02,280 --> 00:23:03,350
+But we go like this.
+
+488
+00:23:03,350 --> 00:23:08,035
+At the end, you end up, again,
+in the same frequencies.
+
+489
+00:23:08,035 --> 00:23:09,430
+These are called nomograms.
+
+490
+00:23:09,430 --> 00:23:12,620
+And they will be heavily
+worked on at the Speech Group
+
+491
+00:23:12,620 --> 00:23:16,790
+at MIT and at Stockholm.
+
+492
+00:23:16,790 --> 00:23:19,140
+So you can see how the
+formants are moving.
+
+493
+00:23:19,140 --> 00:23:22,210
+And you can see that, for every
+position of the [INAUDIBLE],,
+
+494
+00:23:22,210 --> 00:23:25,670
+here we have a distance of a
+constriction from the lips.
+
+495
+00:23:25,670 --> 00:23:29,840
+For every position, we are
+having all the formants moving,
+
+496
+00:23:29,840 --> 00:23:34,160
+so information about what I'm
+doing with my vocal organs
+
+497
+00:23:34,160 --> 00:23:37,100
+is actually at all frequencies,
+all audible frequencies
+
+498
+00:23:37,100 --> 00:23:39,660
+in different ways, but
+it's there everywhere.
+
+499
+00:23:39,660 --> 00:23:42,980
+It's not a single frequency
+which would carry information
+
+500
+00:23:42,980 --> 00:23:44,360
+about something.
+
+501
+00:23:44,360 --> 00:23:48,130
+All the audible frequencies
+carry information about speech.
+
+502
+00:23:48,130 --> 00:23:49,150
+That's important.
+
+503
+00:23:49,150 --> 00:23:51,230
+You can also look at
+it and you can say,
+
+504
+00:23:51,230 --> 00:23:52,620
+you know, what is the--
+
+505
+00:23:52,620 --> 00:23:55,140
+where the front
+cavity resonates,
+
+506
+00:23:55,140 --> 00:23:56,590
+the back cavity resonates.
+
+507
+00:23:56,590 --> 00:23:58,190
+Again, this front
+cavity resonance
+
+508
+00:23:58,190 --> 00:24:01,900
+may become interesting a little
+bit later if we get to that.
+
+509
+00:24:01,900 --> 00:24:05,720
+But this is a very simplistic
+model of the speech production,
+
+510
+00:24:05,720 --> 00:24:12,380
+but pretty much contains all the
+basic elements of the speech.
+
+511
+00:24:12,380 --> 00:24:16,370
+Point here is that, depending on
+the length of the vocal tract,
+
+512
+00:24:16,370 --> 00:24:18,650
+even when you keep the
+constriction at the same
+
+513
+00:24:18,650 --> 00:24:22,070
+position-- this is how long
+is this front part before
+
+514
+00:24:22,070 --> 00:24:23,810
+the construction is--
+
+515
+00:24:23,810 --> 00:24:25,670
+so all the resonances
+are moving,
+
+516
+00:24:25,670 --> 00:24:28,860
+but a shorter vocal tract, like
+the children's vocal tract,
+
+517
+00:24:28,860 --> 00:24:31,730
+or even in a number of
+females, they typically
+
+518
+00:24:31,730 --> 00:24:34,940
+have a shorter vocal
+tract than the males,
+
+519
+00:24:34,940 --> 00:24:37,340
+there's a different
+number of resonances.
+
+520
+00:24:37,340 --> 00:24:39,500
+So if somebody is telling
+you the information
+
+521
+00:24:39,500 --> 00:24:42,830
+is in the formants of
+speech, question it,
+
+522
+00:24:42,830 --> 00:24:49,340
+because it's actually impossible
+to generate the same speech
+
+523
+00:24:49,340 --> 00:24:52,340
+being two different
+people, especially
+
+524
+00:24:52,340 --> 00:24:54,690
+having two different
+lengths of the vocal tract.
+
+525
+00:24:54,690 --> 00:25:00,020
+And we get into it when we talk
+about the speaker dependencies.
+
+526
+00:25:00,020 --> 00:25:03,420
+Second part is-- of the
+equation is hearing.
+
+527
+00:25:03,420 --> 00:25:05,870
+So we speak in order
+to be heard, in order
+
+528
+00:25:05,870 --> 00:25:07,080
+to be understood.
+
+529
+00:25:07,080 --> 00:25:12,740
+And again, thanks to Josh, he
+spent more than sufficient time
+
+530
+00:25:12,740 --> 00:25:15,380
+explaining you enough
+what I wanted to say.
+
+531
+00:25:15,380 --> 00:25:18,350
+I will just add something--
+some very, very small things.
+
+532
+00:25:18,350 --> 00:25:21,040
+So just to summarize,
+Josh was telling you
+
+533
+00:25:21,040 --> 00:25:24,880
+the theory works basically
+like a bank of bandpass filters
+
+534
+00:25:24,880 --> 00:25:28,220
+with a changing
+frequency and output
+
+535
+00:25:28,220 --> 00:25:30,530
+depending on sound
+level intensity.
+
+536
+00:25:30,530 --> 00:25:32,520
+There are many
+caveats to that, but I
+
+537
+00:25:32,520 --> 00:25:35,720
+mean, in a first
+approximation, I 100%
+
+538
+00:25:35,720 --> 00:25:38,070
+agree this is enough
+for us to follow
+
+539
+00:25:38,070 --> 00:25:40,280
+for all the rest of the talk.
+
+540
+00:25:40,280 --> 00:25:42,780
+Second thing which Josh
+mentioned very briefly,
+
+541
+00:25:42,780 --> 00:25:47,750
+but I want to stress it, because
+it is important, firing rates--
+
+542
+00:25:47,750 --> 00:25:50,240
+because you know the
+cochlea communicates
+
+543
+00:25:50,240 --> 00:25:58,110
+with the rest of the
+system through the firings,
+
+544
+00:25:58,110 --> 00:26:00,170
+through the impulses.
+
+545
+00:26:00,170 --> 00:26:02,810
+Firing rates on
+the auditory nerve
+
+546
+00:26:02,810 --> 00:26:07,170
+are of the order of 1 kilohertz
+every one millisecond.
+
+547
+00:26:07,170 --> 00:26:09,920
+But as you go up and
+up in the system,
+
+548
+00:26:09,920 --> 00:26:12,691
+already here on the colliculus
+is maybe order of magnitude
+
+549
+00:26:12,691 --> 00:26:13,190
+less.
+
+550
+00:26:13,190 --> 00:26:15,620
+And the order in the
+level of auditory cortex
+
+551
+00:26:15,620 --> 00:26:19,280
+is 2 orders of magnitude less.
+
+552
+00:26:19,280 --> 00:26:22,620
+So of course, I mean, you know,
+this is how the brain works.
+
+553
+00:26:22,620 --> 00:26:26,780
+I mean, so here we have
+from periphery up to cortex,
+
+554
+00:26:26,780 --> 00:26:29,320
+but also, I think it was
+mentioned very briefly,
+
+555
+00:26:29,320 --> 00:26:34,280
+if you look at it, number of
+neurons increase more than
+
+556
+00:26:34,280 --> 00:26:38,780
+actually decrease in the firing
+rates, because if we have--
+
+557
+00:26:38,780 --> 00:26:41,360
+again, those are just
+orders of magnitude--
+
+558
+00:26:41,360 --> 00:26:47,000
+100,000 neurons maybe on
+the level of auditory nerve,
+
+559
+00:26:47,000 --> 00:26:51,980
+or colliculus nucleus, and you
+have 100 million neurons maybe
+
+560
+00:26:51,980 --> 00:26:53,450
+on the level of the brain.
+
+561
+00:26:53,450 --> 00:26:55,430
+And this can become
+handy later, when,
+
+562
+00:26:55,430 --> 00:26:58,170
+if I get all the way
+to the end of the talk,
+
+563
+00:26:58,170 --> 00:27:03,120
+I will recall this
+piece of information.
+
+564
+00:27:03,120 --> 00:27:05,450
+Another thing which was
+mentioned a number of times
+
+565
+00:27:05,450 --> 00:27:08,090
+is that there are not the
+only connections from ear,
+
+566
+00:27:08,090 --> 00:27:10,700
+from the periphery to
+the brain, but there
+
+567
+00:27:10,700 --> 00:27:13,010
+is, by some estimates,
+many, many more--
+
+568
+00:27:13,010 --> 00:27:15,290
+I mean, again, I mean
+the estimates vary,
+
+569
+00:27:15,290 --> 00:27:18,530
+but this is something which I
+have heard somewhere-- maybe
+
+570
+00:27:18,530 --> 00:27:20,750
+there is maybe almost 10
+times more connections
+
+571
+00:27:20,750 --> 00:27:23,900
+going from brain to the ear
+than from the ear to the brain.
+
+572
+00:27:23,900 --> 00:27:26,240
+And typically, the
+nature hardly ever
+
+573
+00:27:26,240 --> 00:27:28,050
+builds anything
+without a reason,
+
+574
+00:27:28,050 --> 00:27:30,110
+so there must be
+some reason for that.
+
+575
+00:27:30,110 --> 00:27:34,050
+And perhaps we
+will get into that.
+
+576
+00:27:34,050 --> 00:27:37,790
+Josh didn't talk much about the
+level of the-- on the cortex.
+
+577
+00:27:37,790 --> 00:27:41,610
+So what's happening on the
+lower levels, on the periphery?
+
+578
+00:27:41,610 --> 00:27:43,430
+They are just these
+simple increases
+
+579
+00:27:43,430 --> 00:27:48,410
+of auditory-- of firing rate.
+
+580
+00:27:48,410 --> 00:27:51,830
+There is a certain
+enhancement of the changes.
+
+581
+00:27:51,830 --> 00:27:54,710
+So at the beginning of the
+tone-- this is a tone--
+
+582
+00:27:54,710 --> 00:27:56,990
+the beginning of
+the tone, there is
+
+583
+00:27:56,990 --> 00:27:58,850
+more firing on auditory nerve.
+
+584
+00:27:58,850 --> 00:28:02,840
+At the end of the tone,
+there is some deflection.
+
+585
+00:28:02,840 --> 00:28:06,080
+But when you look at a
+higher level of the cortex,
+
+586
+00:28:06,080 --> 00:28:08,060
+all these wonderful
+curves, which
+
+587
+00:28:08,060 --> 00:28:10,010
+are sort of increasing
+with intensity
+
+588
+00:28:10,010 --> 00:28:13,720
+like it would if you had
+a simple bandpass filter,
+
+589
+00:28:13,720 --> 00:28:15,070
+start looking quite differently.
+
+590
+00:28:15,070 --> 00:28:16,920
+So we measure
+majority-- what I heard,
+
+591
+00:28:16,920 --> 00:28:23,810
+the majority of the
+cortical neurons
+
+592
+00:28:23,810 --> 00:28:25,790
+are selective to certain levels.
+
+593
+00:28:25,790 --> 00:28:28,460
+Basically, the firing
+increases to a certain level,
+
+594
+00:28:28,460 --> 00:28:30,350
+and then it decreases again.
+
+595
+00:28:30,350 --> 00:28:34,970
+And they are, of course,
+selective at different levels.
+
+596
+00:28:34,970 --> 00:28:37,880
+Also, I mean, you don't see,
+just these simple things
+
+597
+00:28:37,880 --> 00:28:42,160
+like here, that your firing
+starts as a tone starts.
+
+598
+00:28:42,160 --> 00:28:45,740
+But they are neurons like
+that, but there are also
+
+599
+00:28:45,740 --> 00:28:48,470
+neurons which just are
+interested at the beginning
+
+600
+00:28:48,470 --> 00:28:49,580
+of the signal.
+
+601
+00:28:49,580 --> 00:28:51,950
+There are neurons which
+are interested in beginning
+
+602
+00:28:51,950 --> 00:28:52,610
+and ends.
+
+603
+00:28:52,610 --> 00:28:54,920
+There are neurons which
+are interested only
+
+604
+00:28:54,920 --> 00:28:59,280
+at the ends of the signals,
+and so on, and so on.
+
+605
+00:28:59,280 --> 00:29:02,690
+Receptive fields, again, has
+been mentioned already before.
+
+606
+00:29:05,360 --> 00:29:08,810
+Just as we have a receptive
+field in the visual cortex,
+
+607
+00:29:08,810 --> 00:29:11,660
+we have also receptive
+fields in auditory cortex.
+
+608
+00:29:11,660 --> 00:29:13,540
+Here we don't have the--
+
+609
+00:29:13,540 --> 00:29:18,010
+here we have a frequency and a
+time, unlike x and y, receptive
+
+610
+00:29:18,010 --> 00:29:19,960
+fields which are
+typical, sort of,
+
+611
+00:29:19,960 --> 00:29:23,080
+first thing you are
+hearing about when you
+
+612
+00:29:23,080 --> 00:29:25,780
+talk about visual perception.
+
+613
+00:29:25,780 --> 00:29:29,430
+They come in all
+kinds of colors.
+
+614
+00:29:29,430 --> 00:29:32,860
+They tend to be
+quite long, meaning
+
+615
+00:29:32,860 --> 00:29:35,790
+they can be sensitive for
+about quarter of the second--
+
+616
+00:29:35,790 --> 00:29:38,410
+not all of them,
+but certainly, there
+
+617
+00:29:38,410 --> 00:29:42,520
+are many, many different
+cortical receptive fields.
+
+618
+00:29:42,520 --> 00:29:45,970
+So some people are
+suggesting, given the richness
+
+619
+00:29:45,970 --> 00:29:49,150
+of the neurons in
+auditory cortex,
+
+620
+00:29:49,150 --> 00:29:51,310
+it's a very legal
+thing to suggest
+
+621
+00:29:51,310 --> 00:29:54,780
+that maybe the sounds are
+processing in following way,
+
+622
+00:29:54,780 --> 00:29:57,100
+not only that you
+do the frequency
+
+623
+00:29:57,100 --> 00:30:00,460
+analysis in the cochlea, but
+then, on the higher levels,
+
+624
+00:30:00,460 --> 00:30:05,650
+you are creating many
+pictures of the outside world.
+
+625
+00:30:05,650 --> 00:30:07,670
+And then, of course, only
+the question is here,
+
+626
+00:30:07,670 --> 00:30:10,600
+if answer, this is Murray
+Sachs' paper from their labs,
+
+627
+00:30:10,600 --> 00:30:14,500
+from Johns Hopkins in 1988.
+
+628
+00:30:14,500 --> 00:30:16,270
+They just simply said
+pattern recognition,
+
+629
+00:30:16,270 --> 00:30:18,040
+but I believe there
+is a mechanism which
+
+630
+00:30:18,040 --> 00:30:21,730
+picks up the best streams
+and leaves out not so
+
+631
+00:30:21,730 --> 00:30:24,340
+useful things, but
+the concept was here
+
+632
+00:30:24,340 --> 00:30:27,320
+around for a long time.
+
+633
+00:30:27,320 --> 00:30:30,130
+So this was physiology 101.
+
+634
+00:30:30,130 --> 00:30:35,760
+Psychophysics is saying that you
+play the signals to listeners,
+
+635
+00:30:35,760 --> 00:30:38,390
+and you ask them what they hear.
+
+636
+00:30:38,390 --> 00:30:41,140
+But we want to know what is
+the response of the organism
+
+637
+00:30:41,140 --> 00:30:44,860
+to the incoming stimulus, so
+simply, you play the stimulus
+
+638
+00:30:44,860 --> 00:30:46,781
+and you ask what
+is the response.
+
+639
+00:30:46,781 --> 00:30:49,280
+First thing which you can ask,
+do you hear something or not?
+
+640
+00:30:49,280 --> 00:30:52,020
+And you already will discover
+some interesting stuff.
+
+641
+00:30:52,020 --> 00:30:55,000
+Hearing is not
+equally-sensitive everywhere.
+
+642
+00:30:55,000 --> 00:30:56,350
+It's selective.
+
+643
+00:30:56,350 --> 00:30:58,210
+And it's more
+sensitive in the area
+
+644
+00:30:58,210 --> 00:31:02,050
+somewhere between
+1 and 4 kilohertz.
+
+645
+00:31:02,050 --> 00:31:04,690
+It's much less sensitive
+at the lower frequencies.
+
+646
+00:31:04,690 --> 00:31:06,170
+This is a threshold.
+
+647
+00:31:06,170 --> 00:31:07,466
+On the threshold level--
+
+648
+00:31:07,466 --> 00:31:08,840
+here's another
+interesting thing.
+
+649
+00:31:08,840 --> 00:31:18,370
+If you just apply the signals
+in different ears, as long
+
+650
+00:31:18,370 --> 00:31:21,520
+as the signals happen within a
+certain period, about a couple
+
+651
+00:31:21,520 --> 00:31:23,760
+of hundred millisecond,
+and if couple of hundred
+
+652
+00:31:23,760 --> 00:31:27,250
+millisecond you hear from
+your ear would be more often,
+
+653
+00:31:27,250 --> 00:31:28,420
+the thresholds are half.
+
+654
+00:31:28,420 --> 00:31:30,010
+Basically, neither
+of these signals
+
+655
+00:31:30,010 --> 00:31:32,710
+would be heard if you
+applied only a single one,
+
+656
+00:31:32,710 --> 00:31:37,990
+but when, if you apply both of
+them, basically you hear them.
+
+657
+00:31:37,990 --> 00:31:41,560
+If you play the signals
+of different frequencies,
+
+658
+00:31:41,560 --> 00:31:43,260
+if these signals
+are close enough,
+
+659
+00:31:43,260 --> 00:31:46,890
+close so that, as Josh
+mentioned about the beats,
+
+660
+00:31:46,890 --> 00:31:48,640
+they happen within
+one critical band,
+
+661
+00:31:48,640 --> 00:31:52,390
+again, neither blue
+or green signal
+
+662
+00:31:52,390 --> 00:31:54,110
+would be heard on its own.
+
+663
+00:31:54,110 --> 00:31:56,440
+But if you play them
+together, you hear them.
+
+664
+00:31:56,440 --> 00:32:00,160
+But if they are further in
+frequency, you don't hear them.
+
+665
+00:32:00,160 --> 00:32:03,190
+Same thing if these guys
+are further in time,
+
+666
+00:32:03,190 --> 00:32:04,360
+you wouldn't hear them.
+
+667
+00:32:04,360 --> 00:32:07,000
+So this subthreshold
+perception actually
+
+668
+00:32:07,000 --> 00:32:08,170
+is kind of interesting.
+
+669
+00:32:08,170 --> 00:32:09,690
+And we will use it.
+
+670
+00:32:09,690 --> 00:32:11,680
+Which we didn't
+talk much about is
+
+671
+00:32:11,680 --> 00:32:15,160
+that there are obvious
+ways how you can modify
+
+672
+00:32:15,160 --> 00:32:17,610
+the threshold of hearing.
+
+673
+00:32:17,610 --> 00:32:18,789
+Here we have a target.
+
+674
+00:32:18,789 --> 00:32:20,830
+And since it is higher
+than threshold of hearing,
+
+675
+00:32:20,830 --> 00:32:22,010
+you hear it.
+
+676
+00:32:22,010 --> 00:32:25,030
+But if you play another
+sound called masker,
+
+677
+00:32:25,030 --> 00:32:27,640
+you will not hear it, because
+your threshold basically
+
+678
+00:32:27,640 --> 00:32:28,290
+is modified.
+
+679
+00:32:28,290 --> 00:32:30,370
+It's called the mask threshold.
+
+680
+00:32:30,370 --> 00:32:32,440
+And this part is suddenly not--
+
+681
+00:32:32,440 --> 00:32:34,680
+this target is not heard.
+
+682
+00:32:34,680 --> 00:32:37,060
+The target can be
+something useful,
+
+683
+00:32:37,060 --> 00:32:39,850
+but in mp3, it can
+be pretty annoying,
+
+684
+00:32:39,850 --> 00:32:41,530
+because it's typically noise.
+
+685
+00:32:41,530 --> 00:32:43,960
+You try to figure
+out how you can mask
+
+686
+00:32:43,960 --> 00:32:45,810
+the noise by the useful signal.
+
+687
+00:32:45,810 --> 00:32:49,940
+You're computing these
+masked thresholds on the fly.
+
+688
+00:32:49,940 --> 00:32:52,210
+The initial
+experiment with this,
+
+689
+00:32:52,210 --> 00:32:54,950
+what is called simultaneous
+masking, was following,
+
+690
+00:32:54,950 --> 00:32:58,970
+and, again, was Bell Labs,
+Fletcher, and his people.
+
+691
+00:32:58,970 --> 00:33:01,060
+They would figure out
+what is the threshold
+
+692
+00:33:01,060 --> 00:33:02,960
+of certain frequency
+without the noise.
+
+693
+00:33:02,960 --> 00:33:04,990
+But then they would
+put noise around it,
+
+694
+00:33:04,990 --> 00:33:08,260
+and the threshold had to go
+up, because there was a noise,
+
+695
+00:33:08,260 --> 00:33:10,300
+so there was masking.
+
+696
+00:33:10,300 --> 00:33:14,627
+Then they made a broader noise,
+and threshold was going up,
+
+697
+00:33:14,627 --> 00:33:15,460
+as you would expect.
+
+698
+00:33:15,460 --> 00:33:19,420
+There was more noise, so you
+had to make the signal stronger.
+
+699
+00:33:19,420 --> 00:33:21,700
+And you made it to
+a certain point,
+
+700
+00:33:21,700 --> 00:33:24,940
+when you start making the
+band of noise too wide,
+
+701
+00:33:24,940 --> 00:33:27,440
+suddenly it's not
+happening anymore.
+
+702
+00:33:27,440 --> 00:33:29,710
+There is no more
+masking anymore.
+
+703
+00:33:29,710 --> 00:33:32,770
+That's how they came with
+this concept of critical band.
+
+704
+00:33:32,770 --> 00:33:37,490
+Critical band is what happens
+inside the critical band
+
+705
+00:33:37,490 --> 00:33:43,900
+matters, basically, influences
+the decoding of the signal
+
+706
+00:33:43,900 --> 00:33:45,040
+within a critical band.
+
+707
+00:33:45,040 --> 00:33:48,580
+But if it happens outside the
+critical band, it doesn't.
+
+708
+00:33:48,580 --> 00:33:51,970
+So essentially, if the signals
+are far away in frequency,
+
+709
+00:33:51,970 --> 00:33:53,746
+they don't interact
+with each other.
+
+710
+00:33:53,746 --> 00:33:55,120
+And again, this
+is a useful thing
+
+711
+00:33:55,120 --> 00:33:56,440
+for speech recognition people.
+
+712
+00:33:56,440 --> 00:34:01,000
+They didn't much realize
+that this is the main outcome
+
+713
+00:34:01,000 --> 00:34:02,990
+of the masking.
+
+714
+00:34:02,990 --> 00:34:05,870
+Critical bands, I mean, again,
+I mean, discussions are here,
+
+715
+00:34:05,870 --> 00:34:09,670
+but this is a Bark scale which
+has been developed in Germany
+
+716
+00:34:09,670 --> 00:34:11,780
+by Zwicker and his colleagues.
+
+717
+00:34:11,780 --> 00:34:16,600
+It's pretty much regarded to be
+from about 600, 700 hertz up.
+
+718
+00:34:16,600 --> 00:34:24,070
+And it's approximately
+constant up to 600, 700 hertz.
+
+719
+00:34:24,070 --> 00:34:26,549
+If you talk to Cambridge people,
+Brian Moore, and that sort
+
+720
+00:34:26,549 --> 00:34:28,215
+of logarithmic it's
+pretty much regarded
+
+721
+00:34:28,215 --> 00:34:30,000
+to be pretty much everywhere.
+
+722
+00:34:30,000 --> 00:34:34,000
+But not really, but
+the critical bands,
+
+723
+00:34:34,000 --> 00:34:37,030
+remember, critical bands
+from the subthreshold things?
+
+724
+00:34:37,030 --> 00:34:38,740
+Again, the critical
+band is masking.
+
+725
+00:34:38,740 --> 00:34:40,389
+It's starting it
+with things happen
+
+726
+00:34:40,389 --> 00:34:42,010
+within the critical band.
+
+727
+00:34:42,010 --> 00:34:43,239
+They integrate.
+
+728
+00:34:43,239 --> 00:34:44,800
+They happen outside the--
+
+729
+00:34:44,800 --> 00:34:46,900
+each of them outside
+the critical band,
+
+730
+00:34:46,900 --> 00:34:48,590
+they don't interact.
+
+731
+00:34:48,590 --> 00:34:52,030
+Another masking is
+temporal masking.
+
+732
+00:34:52,030 --> 00:34:53,600
+So you have a signal--
+and of course,
+
+733
+00:34:53,600 --> 00:34:58,010
+if you put a mask on it,
+it's simultaneous masking.
+
+734
+00:34:58,010 --> 00:34:59,465
+You have to make it much--
+
+735
+00:34:59,465 --> 00:35:02,470
+the signal much stronger in
+order for you to hear it.
+
+736
+00:35:02,470 --> 00:35:05,260
+But it also influences
+things in time.
+
+737
+00:35:05,260 --> 00:35:07,210
+This is what is called
+forward masking.
+
+738
+00:35:07,210 --> 00:35:09,460
+And this is the one which
+is probably more interesting
+
+739
+00:35:09,460 --> 00:35:12,830
+and more useful.
+
+740
+00:35:12,830 --> 00:35:15,580
+It's also backward masking,
+when a masker happens
+
+741
+00:35:15,580 --> 00:35:18,699
+after the signal,
+but it probably
+
+742
+00:35:18,699 --> 00:35:20,490
+has a different origin,
+more like cognitive
+
+743
+00:35:20,490 --> 00:35:23,230
+rather than earlier.
+
+744
+00:35:23,230 --> 00:35:24,440
+So there is still a masker.
+
+745
+00:35:24,440 --> 00:35:28,660
+You have to make the signal
+stronger up to a certain point.
+
+746
+00:35:28,660 --> 00:35:32,560
+When the distance between
+masker and the signal
+
+747
+00:35:32,560 --> 00:35:35,260
+is more than 200
+milliseconds, there
+
+748
+00:35:35,260 --> 00:35:36,990
+is like there's
+no masker anymore.
+
+749
+00:35:36,990 --> 00:35:39,250
+Basically, there is no
+temporal masking anymore,
+
+750
+00:35:39,250 --> 00:35:43,820
+but it is within this
+interval of 200 milliseconds.
+
+751
+00:35:43,820 --> 00:35:47,040
+If you make mask stronger,
+masking is stronger initially,
+
+752
+00:35:47,040 --> 00:35:49,070
+but it also decays faster.
+
+753
+00:35:49,070 --> 00:35:53,140
+And again, it decays after
+about 200 milliseconds.
+
+754
+00:35:53,140 --> 00:35:57,170
+So whatever happens outside
+this critical interval,
+
+755
+00:35:57,170 --> 00:35:59,980
+about a couple of
+hundred millisecond,
+
+756
+00:35:59,980 --> 00:36:01,570
+it doesn't integrate.
+
+757
+00:36:01,570 --> 00:36:04,560
+But if it happens inside
+this critical interval,
+
+758
+00:36:04,560 --> 00:36:06,400
+that seems to be influencing--
+
+759
+00:36:06,400 --> 00:36:10,120
+these signals seem to be
+influencing each other.
+
+760
+00:36:10,120 --> 00:36:11,620
+And again, I mean,
+you know, I talk
+
+761
+00:36:11,620 --> 00:36:14,620
+about the subthreshold
+perception--
+
+762
+00:36:14,620 --> 00:36:18,220
+if there were two tones which
+happen within 200 millisecond,
+
+763
+00:36:18,220 --> 00:36:20,540
+neither of them would
+be heard in isolation,
+
+764
+00:36:20,540 --> 00:36:24,350
+but they are heard if
+you play them together.
+
+765
+00:36:24,350 --> 00:36:26,290
+Another part which is
+kind of interesting
+
+766
+00:36:26,290 --> 00:36:28,730
+is that loudness
+depends, of course,
+
+767
+00:36:28,730 --> 00:36:31,660
+on the intensity of the sound,
+but it doesn't depend linearly
+
+768
+00:36:31,660 --> 00:36:32,440
+on that.
+
+769
+00:36:32,440 --> 00:36:35,120
+It depends with
+about cubic root,
+
+770
+00:36:35,120 --> 00:36:38,080
+so in order to make a
+signal twice as loud,
+
+771
+00:36:38,080 --> 00:36:40,510
+you have to make it
+about 10 times more
+
+772
+00:36:40,510 --> 00:36:43,190
+in intensity for
+stimuli which are longer
+
+773
+00:36:43,190 --> 00:36:46,710
+than 200 milliseconds.
+
+774
+00:36:46,710 --> 00:36:50,440
+Equal loudness curves,
+this is a threshold curve,
+
+775
+00:36:50,440 --> 00:36:55,830
+but these equal loudness
+curve are telling you what
+
+776
+00:36:55,830 --> 00:36:58,260
+the intensity of
+the sound-- sorry--
+
+777
+00:36:58,260 --> 00:37:02,100
+would need to be in order
+to hear it equally loud.
+
+778
+00:37:02,100 --> 00:37:06,080
+So it's saying that, if you have
+a 40 dB signal at 1 kilohertz,
+
+779
+00:37:06,080 --> 00:37:08,750
+and you want to make it
+equally loud at 100 hertz,
+
+780
+00:37:08,750 --> 00:37:13,800
+you have to make it
+60 dB, and so on.
+
+781
+00:37:13,800 --> 00:37:16,805
+These curves become flatter
+and flatter, most pronounced
+
+782
+00:37:16,805 --> 00:37:19,470
+at the threshold at lower
+levels, but they are there.
+
+783
+00:37:19,470 --> 00:37:22,410
+And they are actually kind
+of interesting and important.
+
+784
+00:37:22,410 --> 00:37:25,410
+Hearing is rather non-linear.
+
+785
+00:37:25,410 --> 00:37:28,915
+Properties depend
+on the intensity.
+
+786
+00:37:28,915 --> 00:37:31,290
+Speech of course is happening
+somewhere around here where
+
+787
+00:37:31,290 --> 00:37:32,540
+the hearing is more sensitive.
+
+788
+00:37:32,540 --> 00:37:34,350
+That was the point here.
+
+789
+00:37:34,350 --> 00:37:36,630
+Modulations, again, we
+didn't talk much about that,
+
+790
+00:37:36,630 --> 00:37:38,730
+but modulations
+are very important.
+
+791
+00:37:38,730 --> 00:37:42,460
+Since 1923, it's
+known that hearing
+
+792
+00:37:42,460 --> 00:37:45,090
+is the most sensitive to
+certain rate of modulations
+
+793
+00:37:45,090 --> 00:37:48,050
+around 4, 5 hertz.
+
+794
+00:37:48,050 --> 00:37:52,740
+These are experiments from Bell
+Labs repeated number of times.
+
+795
+00:37:52,740 --> 00:37:55,350
+So this is this for
+a, a modulations.
+
+796
+00:37:55,350 --> 00:37:58,020
+This experiment, what you do
+is, that you modulate a signal,
+
+797
+00:37:58,020 --> 00:38:00,840
+and change the depth,
+and change the frequency.
+
+798
+00:38:00,840 --> 00:38:03,090
+And you are asking, do
+you hear the modulation
+
+799
+00:38:03,090 --> 00:38:05,040
+or don't you hear
+the modulation?
+
+800
+00:38:05,040 --> 00:38:07,260
+Very interesting--
+interesting thing
+
+801
+00:38:07,260 --> 00:38:09,780
+is, if you look
+at-- again, I mean,
+
+802
+00:38:09,780 --> 00:38:12,360
+I refer to what Josh was
+telling you in the morning.
+
+803
+00:38:12,360 --> 00:38:15,605
+If you just take one
+trajectory of the spectrum,
+
+804
+00:38:15,605 --> 00:38:18,660
+you treat it as a time domain
+signal, remove the mean
+
+805
+00:38:18,660 --> 00:38:21,360
+and compute its Fourier
+components-- frequency
+
+806
+00:38:21,360 --> 00:38:24,810
+components, they peak
+somewhere around 4 hertz,
+
+807
+00:38:24,810 --> 00:38:28,380
+just where the hearing
+is the most sensitive.
+
+808
+00:38:28,380 --> 00:38:31,210
+So hearing is not very
+sensitive, obviously,
+
+809
+00:38:31,210 --> 00:38:34,080
+to when the signal
+is non-modulated,
+
+810
+00:38:34,080 --> 00:38:37,950
+but also there is-- there
+are almost no components
+
+811
+00:38:37,950 --> 00:38:40,890
+in the signal which would be
+non-modulated, because when I
+
+812
+00:38:40,890 --> 00:38:42,490
+talk to you, I move the mouth.
+
+813
+00:38:42,490 --> 00:38:44,010
+I mean, I change the things.
+
+814
+00:38:44,010 --> 00:38:48,300
+And I change the things about
+four times a second, mainly.
+
+815
+00:38:51,820 --> 00:38:54,280
+When it comes to speech,
+you can also compute--
+
+816
+00:38:54,280 --> 00:38:57,210
+music, you can also
+figure out what
+
+817
+00:38:57,210 --> 00:39:00,370
+are the natural
+rhythms in the music.
+
+818
+00:39:00,370 --> 00:39:04,210
+I stole this from, I
+believe, the Munich group,
+
+819
+00:39:04,210 --> 00:39:08,020
+from [INAUDIBLE].
+
+820
+00:39:08,020 --> 00:39:10,100
+He played 60 pieces of music.
+
+821
+00:39:10,100 --> 00:39:14,230
+And then he asked people to
+tap to the rhythm of the music.
+
+822
+00:39:14,230 --> 00:39:16,300
+And this is the
+histogram of tapping.
+
+823
+00:39:16,300 --> 00:39:18,790
+Most of the people,
+for most of the music,
+
+824
+00:39:18,790 --> 00:39:21,190
+tapping was about
+four times a second.
+
+825
+00:39:21,190 --> 00:39:23,890
+This is where the hearing
+is most sensitive.
+
+826
+00:39:23,890 --> 00:39:29,950
+And this is modulation
+frequency of this music.
+
+827
+00:39:29,950 --> 00:39:33,180
+So people play
+music in such a way
+
+828
+00:39:33,180 --> 00:39:35,580
+that we hear it well,
+that it basically
+
+829
+00:39:35,580 --> 00:39:38,510
+resonates with the
+natural frequency which
+
+830
+00:39:38,510 --> 00:39:40,020
+we are perceiving.
+
+831
+00:39:40,020 --> 00:39:42,250
+You can also ask
+the similar thing.
+
+832
+00:39:42,250 --> 00:39:45,120
+So, in speech, you can
+play the speech sentences.
+
+833
+00:39:45,120 --> 00:39:47,860
+And you ask people to tap in
+to the rhythm of the sentences.
+
+834
+00:39:47,860 --> 00:39:49,990
+Of course, what gets out
+is the syllabic rate.
+
+835
+00:39:49,990 --> 00:39:53,210
+And syllabic rate
+is about 4 hertz.
+
+836
+00:39:53,210 --> 00:39:55,530
+Where is the
+information in speech?
+
+837
+00:39:55,530 --> 00:39:58,140
+Well, we know what
+the ear is doing.
+
+838
+00:39:58,140 --> 00:40:02,940
+It analyzes signal into
+individual frequency bands.
+
+839
+00:40:02,940 --> 00:40:06,360
+We know what Homer
+Dudley was telling us.
+
+840
+00:40:06,360 --> 00:40:08,880
+When messages and
+modulations of these
+
+841
+00:40:08,880 --> 00:40:10,920
+frequencies-- as
+a matter of fact,
+
+842
+00:40:10,920 --> 00:40:14,250
+that was the base
+of his vocoder.
+
+843
+00:40:14,250 --> 00:40:17,190
+What he also did was that
+he designed-- actually,
+
+844
+00:40:17,190 --> 00:40:18,544
+it wasn't only him.
+
+845
+00:40:18,544 --> 00:40:19,710
+There was another technique.
+
+846
+00:40:19,710 --> 00:40:22,500
+This one is, kind of,
+somehow cleaner thing,
+
+847
+00:40:22,500 --> 00:40:24,930
+which is called the
+spectrograph, which tells you
+
+848
+00:40:24,930 --> 00:40:27,480
+about the spectrum of
+frequency components
+
+849
+00:40:27,480 --> 00:40:30,272
+of the acoustic signal.
+
+850
+00:40:30,272 --> 00:40:31,230
+So you take the signal.
+
+851
+00:40:31,230 --> 00:40:33,750
+You put it through a
+bank of bandpass filters.
+
+852
+00:40:33,750 --> 00:40:37,470
+And then here, you
+basically display,
+
+853
+00:40:37,470 --> 00:40:42,420
+on the z-axis, intensity
+in each frequency band.
+
+854
+00:40:42,420 --> 00:40:45,200
+This was, I heard,
+used for listening
+
+855
+00:40:45,200 --> 00:40:48,300
+for German submarines,
+because they
+
+856
+00:40:48,300 --> 00:40:54,270
+wanted to-- they knew that
+acoustic signatures were
+
+857
+00:40:54,270 --> 00:40:57,120
+different for friendly
+submarines and enemy
+
+858
+00:40:57,120 --> 00:40:58,260
+submarines.
+
+859
+00:40:58,260 --> 00:41:00,570
+People listen to it--
+for it, but also people
+
+860
+00:41:00,570 --> 00:41:03,310
+realized it may be useful
+to look at the signal--
+
+861
+00:41:03,310 --> 00:41:04,335
+acoustic signal somehow.
+
+862
+00:41:04,335 --> 00:41:07,000
+Waveform, it wasn't making
+all that much sense,
+
+863
+00:41:07,000 --> 00:41:09,270
+but the spectrogram was.
+
+864
+00:41:09,270 --> 00:41:13,140
+Danger there was that the people
+who were working in speech
+
+865
+00:41:13,140 --> 00:41:14,850
+got hold of it.
+
+866
+00:41:14,850 --> 00:41:17,280
+And then they start, sort of,
+looking at the spectrograms.
+
+867
+00:41:17,280 --> 00:41:19,950
+And they say, haha, we are
+seeing the information here.
+
+868
+00:41:19,950 --> 00:41:23,130
+We are seeing the
+information in waves.
+
+869
+00:41:23,130 --> 00:41:26,910
+The spectrum is changing,
+because not only that this
+
+870
+00:41:26,910 --> 00:41:28,800
+was the way the origin
+of the spectrogram
+
+871
+00:41:28,800 --> 00:41:32,880
+was developed, that you
+were displaying changes
+
+872
+00:41:32,880 --> 00:41:36,710
+in energy in individual
+frequency bands,
+
+873
+00:41:36,710 --> 00:41:38,000
+but you can also look at this.
+
+874
+00:41:38,000 --> 00:41:40,375
+This when you get to what is
+called a short-term spectrum
+
+875
+00:41:40,375 --> 00:41:42,030
+of speech.
+
+876
+00:41:42,030 --> 00:41:44,540
+And people said, oh,
+this short-term spectrum
+
+877
+00:41:44,540 --> 00:41:46,410
+looks different
+for R than for E,
+
+878
+00:41:46,410 --> 00:41:49,440
+so maybe this is the
+way to recognize speech.
+
+879
+00:41:49,440 --> 00:41:51,000
+So indeed, I mean,
+those are two ways
+
+880
+00:41:51,000 --> 00:41:52,870
+of generating the spectrograms.
+
+881
+00:41:52,870 --> 00:41:56,210
+I mean, this was the original
+one, bank of bandpass filters.
+
+882
+00:41:56,210 --> 00:41:59,790
+And you were displaying the
+energy as a function of time.
+
+883
+00:41:59,790 --> 00:42:02,130
+This is what your ear is doing.
+
+884
+00:42:02,130 --> 00:42:03,330
+That's what I'm saying.
+
+885
+00:42:03,330 --> 00:42:05,900
+This is not what
+your ear is doing,
+
+886
+00:42:05,900 --> 00:42:08,850
+that if you take a short
+segments of the signal,
+
+887
+00:42:08,850 --> 00:42:10,890
+and you compute the
+Fourier transform,
+
+888
+00:42:10,890 --> 00:42:15,400
+then you display the Fourier
+transform one frame at a time,
+
+889
+00:42:15,400 --> 00:42:18,480
+but this is the way most of
+the speech recognition systems
+
+890
+00:42:18,480 --> 00:42:19,950
+work.
+
+891
+00:42:19,950 --> 00:42:24,750
+And I'm suggesting that maybe we
+should think about other ways.
+
+892
+00:42:27,270 --> 00:42:30,260
+So now we have to deal
+with all these problems.
+
+893
+00:42:30,260 --> 00:42:35,060
+So we have a number
+of things coming
+
+894
+00:42:35,060 --> 00:42:40,040
+in in the form of the message
+with all these chunk around it.
+
+895
+00:42:40,040 --> 00:42:42,030
+And machine
+recognition of speech
+
+896
+00:42:42,030 --> 00:42:45,170
+would like to transcribe the
+code which carries the message.
+
+897
+00:42:45,170 --> 00:42:47,870
+This is a typical example
+of the application
+
+898
+00:42:47,870 --> 00:42:48,830
+of speech recognition.
+
+899
+00:42:48,830 --> 00:42:50,690
+I'm not saying this
+is the only one.
+
+900
+00:42:50,690 --> 00:42:53,840
+There are attempts to
+recognize just some key words.
+
+901
+00:42:53,840 --> 00:42:55,790
+There are attempts
+to actually generate
+
+902
+00:42:55,790 --> 00:42:58,580
+the understanding of what
+people are saying, and so on,
+
+903
+00:42:58,580 --> 00:43:01,340
+but we would be
+happy, in most cases,
+
+904
+00:43:01,340 --> 00:43:05,340
+just to transcribe the speech.
+
+905
+00:43:05,340 --> 00:43:07,860
+Speech has been produced
+to be perceived.
+
+906
+00:43:07,860 --> 00:43:09,080
+We already talked about it.
+
+907
+00:43:09,080 --> 00:43:13,570
+It evolved over millennia to
+fit the properties of hearing.
+
+908
+00:43:13,570 --> 00:43:16,470
+So this is-- I'm sort of
+seconding what Josh was saying.
+
+909
+00:43:16,470 --> 00:43:19,350
+Josh was saying, you can
+learn about the hearing
+
+910
+00:43:19,350 --> 00:43:21,150
+by synthesizing stuff.
+
+911
+00:43:21,150 --> 00:43:23,700
+I'm saying you of learn
+about hearing by trying
+
+912
+00:43:23,700 --> 00:43:25,940
+to recognize the stuff.
+
+913
+00:43:25,940 --> 00:43:31,470
+So if you put something in
+and it works, and it supports
+
+914
+00:43:31,470 --> 00:43:36,090
+some theory of hearing, you may
+be kind of reasonably confident
+
+915
+00:43:36,090 --> 00:43:38,980
+that it was something
+which has been useful.
+
+916
+00:43:38,980 --> 00:43:41,730
+Actually there's a paper
+about that, which, of course,
+
+917
+00:43:41,730 --> 00:43:43,860
+I'm co-author, but I
+didn't want to show that.
+
+918
+00:43:43,860 --> 00:43:45,270
+I thought I would
+leave this one,
+
+919
+00:43:45,270 --> 00:43:48,750
+but I didn't do
+it at last minute.
+
+920
+00:43:48,750 --> 00:43:52,340
+Anyways, speech
+recognition-- speech signal
+
+921
+00:43:52,340 --> 00:43:54,730
+has high bit-rate,
+recognizer comes
+
+922
+00:43:54,730 --> 00:43:57,240
+in, information, low bit-rate.
+
+923
+00:43:57,240 --> 00:43:59,040
+So what you are doing
+here, you are trying
+
+924
+00:43:59,040 --> 00:44:01,020
+to reorganize your stuff.
+
+925
+00:44:01,020 --> 00:44:04,240
+You are trying to
+reduce the entropy.
+
+926
+00:44:04,240 --> 00:44:06,510
+If you are reducing
+the entropy, you better
+
+927
+00:44:06,510 --> 00:44:09,360
+know what you are doing,
+because otherwise, you
+
+928
+00:44:09,360 --> 00:44:10,990
+get real garbage.
+
+929
+00:44:10,990 --> 00:44:13,410
+I mean, that's, kind of, like,
+one of these common sense
+
+930
+00:44:13,410 --> 00:44:15,210
+things, right?
+
+931
+00:44:15,210 --> 00:44:16,910
+So you want to use
+some knowledge.
+
+932
+00:44:16,910 --> 00:44:18,930
+You have plenty of knowledge
+in this recognizer.
+
+933
+00:44:18,930 --> 00:44:20,722
+Where does this
+knowledge come from?
+
+934
+00:44:20,722 --> 00:44:22,180
+We keep discussing
+it all the time.
+
+935
+00:44:22,180 --> 00:44:27,310
+It came from textbooks,
+teachers, intuitions, beliefs,
+
+936
+00:44:27,310 --> 00:44:28,530
+and so on.
+
+937
+00:44:28,530 --> 00:44:31,110
+And its a good thing
+about that, that you
+
+938
+00:44:31,110 --> 00:44:34,950
+can hardwire this
+knowledge so that you
+
+939
+00:44:34,950 --> 00:44:39,630
+don't have to learn it, relearn
+it next time based on the data.
+
+940
+00:44:39,630 --> 00:44:43,170
+Of course, problem is that this
+knowledge may be incomplete,
+
+941
+00:44:43,170 --> 00:44:47,550
+irrelevant, can be plain
+wrong, because, you know,
+
+942
+00:44:47,550 --> 00:44:49,470
+who can say that whatever
+teachers tell you,
+
+943
+00:44:49,470 --> 00:44:53,880
+or textbooks tell, or your
+intuitions or beliefs is always
+
+944
+00:44:53,880 --> 00:44:54,840
+true?
+
+945
+00:44:54,840 --> 00:44:58,200
+Much more often now,
+what people are using
+
+946
+00:44:58,200 --> 00:45:01,770
+is that they-- that knowledge
+comes directly from the data.
+
+947
+00:45:01,770 --> 00:45:05,355
+Such knowledge is
+relevant and unbiased,
+
+948
+00:45:05,355 --> 00:45:09,020
+but the problem is that you
+need a lot of training data.
+
+949
+00:45:09,020 --> 00:45:13,650
+And it's very hard to get
+architecture of the recognizer
+
+950
+00:45:13,650 --> 00:45:16,560
+from the data, at
+least, I don't know
+
+951
+00:45:16,560 --> 00:45:18,640
+quite well how to do it yet.
+
+952
+00:45:18,640 --> 00:45:19,710
+So these are two things.
+
+953
+00:45:19,710 --> 00:45:22,680
+And again, I mean, let
+me go back to '50s.
+
+954
+00:45:22,680 --> 00:45:26,900
+First knowledge-based recognizer
+was based on the spectrograms.
+
+955
+00:45:26,900 --> 00:45:28,820
+There was Richard Galt.
+
+956
+00:45:28,820 --> 00:45:30,870
+And he was looking
+at spectrograms
+
+957
+00:45:30,870 --> 00:45:33,660
+and trying to figure out how
+this short-term spectrum looked
+
+958
+00:45:33,660 --> 00:45:35,740
+like for different
+speech sounds.
+
+959
+00:45:35,740 --> 00:45:38,130
+Then he thought he would make
+this finite state machine,
+
+960
+00:45:38,130 --> 00:45:41,100
+which will generate the text.
+
+961
+00:45:41,100 --> 00:45:43,500
+Needless to say, it
+didn't work too well.
+
+962
+00:45:43,500 --> 00:45:48,270
+He got beaten by data-driven
+approach, where people
+
+963
+00:45:48,270 --> 00:45:51,760
+took a high-pass filter
+speech, low-pass filter speech,
+
+964
+00:45:51,760 --> 00:45:55,200
+displayed energies from
+these to two channels
+
+965
+00:45:55,200 --> 00:45:58,510
+on, at the time it
+was oscilloscope.
+
+966
+00:45:58,510 --> 00:46:00,960
+And they tried to figure
+out what are the patterns.
+
+967
+00:46:00,960 --> 00:46:02,490
+They tried to
+memorize the patterns,
+
+968
+00:46:02,490 --> 00:46:06,000
+make the templates
+from the training data.
+
+969
+00:46:06,000 --> 00:46:09,650
+And they tried to match it for
+the test data was recognized,
+
+970
+00:46:09,650 --> 00:46:11,210
+which was recognizing
+ten digits.
+
+971
+00:46:11,210 --> 00:46:12,930
+And it was working
+reasonably well,
+
+972
+00:46:12,930 --> 00:46:16,440
+better than 90% of the time for
+a single speaker, and so on,
+
+973
+00:46:16,440 --> 00:46:17,500
+and so on.
+
+974
+00:46:17,500 --> 00:46:21,200
+But it's interesting
+that, already in '50s,
+
+975
+00:46:21,200 --> 00:46:25,230
+the data-driven
+approach got beat
+
+976
+00:46:25,230 --> 00:46:29,250
+by the knowledge-based approach,
+because knowledge maybe wasn't
+
+977
+00:46:29,250 --> 00:46:31,500
+exactly what you needed to use.
+
+978
+00:46:31,500 --> 00:46:34,220
+You were looking at the shapes
+of the short-term spectra
+
+979
+00:46:34,220 --> 00:46:36,920
+basically.
+
+980
+00:46:36,920 --> 00:46:40,460
+Of course, now, we are
+in 21st century, finally.
+
+981
+00:46:40,460 --> 00:46:43,460
+Number of people say,
+this is the real way
+
+982
+00:46:43,460 --> 00:46:44,990
+of recognizing speech.
+
+983
+00:46:44,990 --> 00:46:48,470
+You take the signal as it
+comes with the microphone.
+
+984
+00:46:48,470 --> 00:46:50,930
+You take the neural net.
+
+985
+00:46:50,930 --> 00:46:53,960
+You put a lot of
+training data, which
+
+986
+00:46:53,960 --> 00:46:58,000
+contain all sources of unwanted
+variability, basically, what
+
+987
+00:46:58,000 --> 00:46:58,630
+you--
+
+988
+00:46:58,630 --> 00:47:01,490
+all possible ways of--
+
+989
+00:47:01,490 --> 00:47:08,700
+you can disturb the speech and
+comes out the speech message.
+
+990
+00:47:08,700 --> 00:47:11,080
+The key thing is, I'm not
+saying that this is wrong,
+
+991
+00:47:11,080 --> 00:47:14,330
+but I'm saying that, maybe this
+is not the most efficient way
+
+992
+00:47:14,330 --> 00:47:17,010
+of going about it,
+because, in this case,
+
+993
+00:47:17,010 --> 00:47:19,455
+you would have to retrain
+the recognizer every time.
+
+994
+00:47:19,455 --> 00:47:21,205
+It's a little bit like,
+sort of, you know,
+
+995
+00:47:21,205 --> 00:47:24,760
+if you look at the hearing
+system, or the simple animal
+
+996
+00:47:24,760 --> 00:47:25,430
+system--
+
+997
+00:47:25,430 --> 00:47:26,780
+this is a moth here.
+
+998
+00:47:29,990 --> 00:47:33,610
+Here it changes in
+acoustic pressure
+
+999
+00:47:33,610 --> 00:47:36,780
+to changes in firing rate.
+
+1000
+00:47:36,780 --> 00:47:39,590
+It goes to very simple
+brain, very small one.
+
+1001
+00:47:39,590 --> 00:47:42,430
+You know, this is not the way
+the human hearing is working.
+
+1002
+00:47:42,430 --> 00:47:44,870
+Human hearing is
+much more complex.
+
+1003
+00:47:44,870 --> 00:47:47,190
+And again, Josh already
+told us a lot about it,
+
+1004
+00:47:47,190 --> 00:47:48,830
+so I won't spend much time.
+
+1005
+00:47:48,830 --> 00:47:52,580
+The point here is, the human
+hearing is frequency-selective.
+
+1006
+00:47:52,580 --> 00:47:54,760
+It goes through a
+number of levels.
+
+1007
+00:47:54,760 --> 00:47:58,940
+This is very much along the deep
+net and that sort of things.
+
+1008
+00:47:58,940 --> 00:48:01,220
+But still, there is
+a lot of structure
+
+1009
+00:48:01,220 --> 00:48:04,070
+there in the hearing system.
+
+1010
+00:48:04,070 --> 00:48:07,370
+So it makes at least
+some sense to me,
+
+1011
+00:48:07,370 --> 00:48:10,470
+if you want to do what people
+are doing more and more,
+
+1012
+00:48:10,470 --> 00:48:13,410
+and there will be a whole
+special session next week
+
+1013
+00:48:13,410 --> 00:48:17,600
+at Interspeech on how to
+train the things directly
+
+1014
+00:48:17,600 --> 00:48:20,750
+from the data, probably
+you want to have
+
+1015
+00:48:20,750 --> 00:48:23,330
+highly-structured environment.
+
+1016
+00:48:23,330 --> 00:48:26,690
+You want to have a convoluted
+pre-processing recursive
+
+1017
+00:48:26,690 --> 00:48:30,420
+structures, and so on, and
+long, short-term memory.
+
+1018
+00:48:30,420 --> 00:48:32,540
+Yeah, here are actually
+some, but all these things
+
+1019
+00:48:32,540 --> 00:48:33,360
+are being used.
+
+1020
+00:48:33,360 --> 00:48:37,310
+And I think this is
+the direction to go.
+
+1021
+00:48:37,310 --> 00:48:39,810
+But I still argue
+that maybe it's
+
+1022
+00:48:39,810 --> 00:48:42,060
+a better-- there's a
+better way to go about it.
+
+1023
+00:48:42,060 --> 00:48:44,980
+A better way to go
+about it is that you
+
+1024
+00:48:44,980 --> 00:48:49,270
+try first to do some
+pre-processing of the signal
+
+1025
+00:48:49,270 --> 00:48:53,110
+and derive some way of
+describing the signal more
+
+1026
+00:48:53,110 --> 00:48:58,750
+efficiently, using the
+features, and so on, and so on.
+
+1027
+00:48:58,750 --> 00:49:02,920
+Here you put all the
+knowledge which you possibly
+
+1028
+00:49:02,920 --> 00:49:04,320
+may want to--
+
+1029
+00:49:04,320 --> 00:49:05,950
+you already have.
+
+1030
+00:49:05,950 --> 00:49:10,830
+This knowledge can be derived
+from some development data,
+
+1031
+00:49:10,830 --> 00:49:14,020
+but you don't want to use
+directly the speech signal
+
+1032
+00:49:14,020 --> 00:49:15,295
+every time you are using--
+
+1033
+00:49:19,390 --> 00:49:21,010
+you don't want to
+retrain, basically,
+
+1034
+00:49:21,010 --> 00:49:23,110
+every time, directly
+from the speech signal.
+
+1035
+00:49:23,110 --> 00:49:26,440
+You want to reserve
+your training
+
+1036
+00:49:26,440 --> 00:49:29,860
+data, the task-specific
+training data,
+
+1037
+00:49:29,860 --> 00:49:32,120
+to deal with the effects
+of the noise which
+
+1038
+00:49:32,120 --> 00:49:33,610
+you don't understand.
+
+1039
+00:49:33,610 --> 00:49:36,462
+This is where the
+machine learning comes.
+
+1040
+00:49:36,462 --> 00:49:38,920
+I'm not saying that this is
+not a part of machine learning,
+
+1041
+00:49:38,920 --> 00:49:40,240
+but, I mean, this is--
+
+1042
+00:49:40,240 --> 00:49:44,240
+there are two different things
+which you are going to do.
+
+1043
+00:49:44,240 --> 00:49:45,990
+I was just looking
+for some support.
+
+1044
+00:49:45,990 --> 00:49:49,270
+This one came from Stu
+Geman from Brown University
+
+1045
+00:49:49,270 --> 00:49:51,010
+and his colleagues.
+
+1046
+00:49:51,010 --> 00:49:53,780
+Stu Geman is a machine
+learning person, definitely,
+
+1047
+00:49:53,780 --> 00:49:58,570
+but he says, we feel that
+meat is in the features
+
+1048
+00:49:58,570 --> 00:50:01,150
+rather than in the
+machine learning,
+
+1049
+00:50:01,150 --> 00:50:03,250
+because they go
+overboard, basically,
+
+1050
+00:50:03,250 --> 00:50:06,970
+explaining that, if you just
+rely on machine learning, sure,
+
+1051
+00:50:06,970 --> 00:50:09,040
+you have a neural net
+which can approximate just
+
+1052
+00:50:09,040 --> 00:50:11,380
+about any function,
+given that you
+
+1053
+00:50:11,380 --> 00:50:14,980
+have infinite amount of data
+an infinitely large neural net.
+
+1054
+00:50:14,980 --> 00:50:18,250
+And they say, infinite is a
+kind of not useful engineering
+
+1055
+00:50:18,250 --> 00:50:19,240
+concepts.
+
+1056
+00:50:19,240 --> 00:50:23,470
+So they feel like that, if
+representations actually are--
+
+1057
+00:50:23,470 --> 00:50:25,030
+I hope they still feel the same.
+
+1058
+00:50:25,030 --> 00:50:27,040
+I didn't talk to
+them now, but it
+
+1059
+00:50:27,040 --> 00:50:30,340
+seems like that there is some
+support in this notion, what
+
+1060
+00:50:30,340 --> 00:50:31,794
+I'm saying.
+
+1061
+00:50:31,794 --> 00:50:33,460
+But of course, problem
+with the features
+
+1062
+00:50:33,460 --> 00:50:38,480
+is following, whatever you
+stripped on the features,
+
+1063
+00:50:38,480 --> 00:50:39,820
+this is a bottleneck.
+
+1064
+00:50:39,820 --> 00:50:43,990
+Whatever you decide that is
+not important is lost forever.
+
+1065
+00:50:43,990 --> 00:50:46,000
+You will never recover
+from it, right?
+
+1066
+00:50:46,000 --> 00:50:48,590
+Because I'm asking for
+feature extraction.
+
+1067
+00:50:48,590 --> 00:50:52,270
+I'm asking for this emulation
+of the human perception, which
+
+1068
+00:50:52,270 --> 00:50:55,360
+strips out a lot of
+information, but I still
+
+1069
+00:50:55,360 --> 00:50:56,830
+think that we need
+to do it if we
+
+1070
+00:50:56,830 --> 00:51:01,150
+want to design a useful
+engineering representations.
+
+1071
+00:51:01,150 --> 00:51:05,410
+The other problem, of course,
+is whatever you leave in,
+
+1072
+00:51:05,410 --> 00:51:09,520
+the noise, the information which
+is not relevant to your task,
+
+1073
+00:51:09,520 --> 00:51:11,950
+you will have to
+deal with it later.
+
+1074
+00:51:11,950 --> 00:51:15,160
+You will need to train
+the old machine on that,
+
+1075
+00:51:15,160 --> 00:51:16,990
+so you want to be
+very, very careful.
+
+1076
+00:51:16,990 --> 00:51:20,272
+You are walking
+a thin line here.
+
+1077
+00:51:20,272 --> 00:51:21,730
+What is it that I
+should leave out?
+
+1078
+00:51:21,730 --> 00:51:23,640
+What is it that
+I should keep in?
+
+1079
+00:51:23,640 --> 00:51:27,390
+It's always safer to keep a
+little bit more in, obviously.
+
+1080
+00:51:27,390 --> 00:51:30,710
+But this is the goal
+which we have here.
+
+1081
+00:51:30,710 --> 00:51:33,130
+And I wanted to say,
+features can be designed
+
+1082
+00:51:33,130 --> 00:51:35,000
+using development data.
+
+1083
+00:51:35,000 --> 00:51:37,510
+And when I'm saying use
+the development data,
+
+1084
+00:51:37,510 --> 00:51:39,940
+design your features
+and use them.
+
+1085
+00:51:39,940 --> 00:51:42,650
+Don't use this
+development data anymore.
+
+1086
+00:51:42,650 --> 00:51:45,550
+We have a lot of data for the
+designing of good features.
+
+1087
+00:51:45,550 --> 00:51:47,897
+And I think that, again,
+is happening in the field--
+
+1088
+00:51:50,806 --> 00:51:51,306
+good.
+
+1089
+00:51:54,230 --> 00:51:58,200
+How the speech recognition
+was done in 20th century,
+
+1090
+00:51:58,200 --> 00:52:02,840
+this is what I know, maybe, the
+most, so we'll spend some time.
+
+1091
+00:52:02,840 --> 00:52:06,110
+And it's still done largely in--
+
+1092
+00:52:06,110 --> 00:52:10,070
+there are some variants of this
+recognition that's still done.
+
+1093
+00:52:10,070 --> 00:52:11,120
+You take the signal.
+
+1094
+00:52:11,120 --> 00:52:13,700
+And you derive the features.
+
+1095
+00:52:13,700 --> 00:52:15,620
+In the first place,
+you derive what
+
+1096
+00:52:15,620 --> 00:52:17,810
+is called short-term
+features, so you
+
+1097
+00:52:17,810 --> 00:52:20,000
+take short segments of
+the signal, about 10
+
+1098
+00:52:20,000 --> 00:52:21,560
+to 20 milliseconds.
+
+1099
+00:52:21,560 --> 00:52:25,040
+And you derive some
+features from that.
+
+1100
+00:52:25,040 --> 00:52:26,670
+That was in 20th century.
+
+1101
+00:52:26,670 --> 00:52:28,400
+Now we are taking
+much longer segments,
+
+1102
+00:52:28,400 --> 00:52:29,930
+but we'll get into that.
+
+1103
+00:52:29,930 --> 00:52:32,150
+But you derive it
+with about 100 hertz
+
+1104
+00:52:32,150 --> 00:52:35,060
+sampling every 10
+millisecond, so you
+
+1105
+00:52:35,060 --> 00:52:39,520
+turn the one-dimensional signal
+into two-dimensional signal.
+
+1106
+00:52:39,520 --> 00:52:42,060
+And here, typically, the
+first step is the frequency,
+
+1107
+00:52:42,060 --> 00:52:45,420
+so those may be-- imagine
+those are frequency vectors,
+
+1108
+00:52:45,420 --> 00:52:47,920
+or something derived
+from frequency vectors,
+
+1109
+00:52:47,920 --> 00:52:49,770
+gets through or stuff like that.
+
+1110
+00:52:49,770 --> 00:52:53,130
+Those are just tricks,
+signal processing tricks
+
+1111
+00:52:53,130 --> 00:52:54,295
+which people use--
+
+1112
+00:52:54,295 --> 00:52:57,300
+but one-dimensional
+to two-dimensional.
+
+1113
+00:52:57,300 --> 00:53:01,700
+Next thing is, you estimate the
+likelihood of the sounds each
+
+1114
+00:53:01,700 --> 00:53:03,430
+10 millisecond.
+
+1115
+00:53:03,430 --> 00:53:04,500
+So here, what I--
+
+1116
+00:53:04,500 --> 00:53:08,490
+imagine that here we have
+different, say, speech sounds,
+
+1117
+00:53:08,490 --> 00:53:13,050
+maybe 41 phonemes, maybe 3,000
+context-dependent phonemes,
+
+1118
+00:53:13,050 --> 00:53:14,370
+and so on, depends on--
+
+1119
+00:53:14,370 --> 00:53:19,610
+but those are parts of speech
+which makes some sense.
+
+1120
+00:53:19,610 --> 00:53:23,190
+And they come, typically,
+from phonetics theory.
+
+1121
+00:53:23,190 --> 00:53:25,700
+And we know that
+you can generate
+
+1122
+00:53:25,700 --> 00:53:29,550
+different words putting phonemes
+together in different ways,
+
+1123
+00:53:29,550 --> 00:53:30,950
+and so on, and so on.
+
+1124
+00:53:30,950 --> 00:53:33,200
+So suppose for the
+simplicity that they
+
+1125
+00:53:33,200 --> 00:53:35,060
+are-- there's 41 phonemes.
+
+1126
+00:53:35,060 --> 00:53:38,960
+And so if there
+is a red one, red
+
+1127
+00:53:38,960 --> 00:53:44,090
+means that, probably,
+posterior probability of the--
+
+1128
+00:53:44,090 --> 00:53:45,440
+actually, we need them more.
+
+1129
+00:53:45,440 --> 00:53:47,420
+We need the likelihoods
+rather than posteriors,
+
+1130
+00:53:47,420 --> 00:53:52,690
+so with your posteriors, we
+just divided it by priors
+
+1131
+00:53:52,690 --> 00:53:57,470
+to get the likelihoods, so
+meaning that this phoneme has
+
+1132
+00:53:57,470 --> 00:53:59,480
+a high likelihood
+and white ones don't
+
+1133
+00:53:59,480 --> 00:54:02,700
+have a likelihood at this time.
+
+1134
+00:54:02,700 --> 00:54:07,980
+So next step is that
+you do the search on it.
+
+1135
+00:54:07,980 --> 00:54:09,140
+This is a painful part.
+
+1136
+00:54:09,140 --> 00:54:10,910
+And I won't be spending
+much time on that.
+
+1137
+00:54:10,910 --> 00:54:13,910
+I just want to give you
+some flavor of this.
+
+1138
+00:54:13,910 --> 00:54:19,790
+You try to find the best
+path through this lattice
+
+1139
+00:54:19,790 --> 00:54:22,260
+of the likelihoods.
+
+1140
+00:54:22,260 --> 00:54:24,930
+And if you are lucky,
+the best part, then,
+
+1141
+00:54:24,930 --> 00:54:28,240
+is going to present
+your speech sounds.
+
+1142
+00:54:28,240 --> 00:54:32,090
+So then the next thing is only
+that you look and transcribe
+
+1143
+00:54:32,090 --> 00:54:36,420
+to go from phonemic
+representation from
+
+1144
+00:54:36,420 --> 00:54:39,720
+into lexical
+representation, basically,
+
+1145
+00:54:39,720 --> 00:54:41,910
+because you know there
+is typically one-to-one
+
+1146
+00:54:41,910 --> 00:54:43,456
+relations--
+
+1147
+00:54:43,456 --> 00:54:45,130
+Well, should be
+careful, one-to-one,
+
+1148
+00:54:45,130 --> 00:54:51,810
+but it is a relation, known
+relation between phonemes
+
+1149
+00:54:51,810 --> 00:54:54,250
+and the transcription.
+
+1150
+00:54:54,250 --> 00:54:56,760
+So we know what has been said.
+
+1151
+00:54:56,760 --> 00:54:58,878
+So this is how the speech
+recognition is done.
+
+1152
+00:55:03,280 --> 00:55:05,320
+Talking about this
+part, I mean, here we
+
+1153
+00:55:05,320 --> 00:55:09,070
+have to deal with one
+major problem, which is,
+
+1154
+00:55:09,070 --> 00:55:12,790
+like, the speech doesn't
+come out this way.
+
+1155
+00:55:12,790 --> 00:55:16,900
+It doesn't come out as a
+sequences of individual speech
+
+1156
+00:55:16,900 --> 00:55:20,860
+sounds, but, since I'm talking
+to you, I'm moving the mouse.
+
+1157
+00:55:20,860 --> 00:55:23,390
+I'm moving the
+mouse continuously.
+
+1158
+00:55:23,390 --> 00:55:27,580
+There is a thing that first I
+can make certain sounds longer,
+
+1159
+00:55:27,580 --> 00:55:30,070
+certain sounds shorter.
+
+1160
+00:55:30,070 --> 00:55:33,080
+And then I add some noise to it.
+
+1161
+00:55:33,080 --> 00:55:37,600
+Finally, because of what
+is called co-articulation,
+
+1162
+00:55:37,600 --> 00:55:43,660
+each target phonemes gets spread
+in time, so you get a mess.
+
+1163
+00:55:43,660 --> 00:55:46,150
+But people say--
+sometimes, people
+
+1164
+00:55:46,150 --> 00:55:49,360
+like to say, speech recognition,
+this is our biggest problem.
+
+1165
+00:55:49,360 --> 00:55:52,670
+I claim to say this
+is not the problem.
+
+1166
+00:55:52,670 --> 00:55:53,690
+It is a feature.
+
+1167
+00:55:53,690 --> 00:55:58,330
+And feature is important,
+because it comes quite handy
+
+1168
+00:55:58,330 --> 00:55:58,930
+later.
+
+1169
+00:55:58,930 --> 00:56:01,285
+Hopefully, I will
+convince you about it.
+
+1170
+00:56:01,285 --> 00:56:05,570
+But what we get is a mess, so
+this is not easy to recognize,
+
+1171
+00:56:05,570 --> 00:56:06,070
+right?
+
+1172
+00:56:06,070 --> 00:56:07,111
+We have co-articulations.
+
+1173
+00:56:07,111 --> 00:56:11,330
+We have speaker dependencies,
+noise from the environment,
+
+1174
+00:56:11,330 --> 00:56:13,180
+and so on, and so on.
+
+1175
+00:56:13,180 --> 00:56:15,730
+So the way to deal
+with it is to recognize
+
+1176
+00:56:15,730 --> 00:56:18,970
+that different people
+may sound different,
+
+1177
+00:56:18,970 --> 00:56:21,720
+communication and
+environment may differ,
+
+1178
+00:56:21,720 --> 00:56:24,610
+so the features will be
+dependent on a number
+
+1179
+00:56:24,610 --> 00:56:27,580
+of things, on
+environmental problems,
+
+1180
+00:56:27,580 --> 00:56:29,920
+on who are saying
+things, and so on.
+
+1181
+00:56:29,920 --> 00:56:32,970
+People say same things
+in different speech.
+
+1182
+00:56:32,970 --> 00:56:34,990
+I can speak faster,
+I can speak slower,
+
+1183
+00:56:34,990 --> 00:56:39,790
+still, the message is the same.
+
+1184
+00:56:39,790 --> 00:56:46,060
+So we use what is called the
+Hidden Markov Model, where
+
+1185
+00:56:46,060 --> 00:56:53,350
+you try to find such a sequence
+of the phonemes which optimizes
+
+1186
+00:56:53,350 --> 00:57:00,250
+the conditional probability
+of the model, given the data.
+
+1187
+00:57:00,250 --> 00:57:02,830
+And models you
+generate, on the fly,
+
+1188
+00:57:02,830 --> 00:57:05,999
+as many models as possible,
+actually, an infinite number
+
+1189
+00:57:05,999 --> 00:57:07,540
+of models, but, of
+course, again, you
+
+1190
+00:57:07,540 --> 00:57:10,810
+can't do it infinitely, so
+you do it in some smart ways.
+
+1191
+00:57:10,810 --> 00:57:15,370
+And this is being computed
+through modified Bayes' rule.
+
+1192
+00:57:15,370 --> 00:57:18,760
+Modified is because,
+for one, I mean,
+
+1193
+00:57:18,760 --> 00:57:22,100
+you would need a prior
+probability of the signal,
+
+1194
+00:57:22,100 --> 00:57:22,600
+and so on.
+
+1195
+00:57:22,600 --> 00:57:23,840
+We don't use that.
+
+1196
+00:57:23,840 --> 00:57:29,010
+But also, what we are doing, we
+are somehow arbitrarily scale
+
+1197
+00:57:29,010 --> 00:57:32,020
+the things which are called the
+language model, because this
+
+1198
+00:57:32,020 --> 00:57:35,650
+is a prior probability of
+the particular utterance.
+
+1199
+00:57:35,650 --> 00:57:39,790
+This is the likelihoods
+coming from the data,
+
+1200
+00:57:39,790 --> 00:57:43,960
+combining these two things
+together, and finding the best
+
+1201
+00:57:43,960 --> 00:57:50,000
+match, you get the output
+which best matches the things.
+
+1202
+00:57:50,000 --> 00:57:53,950
+Model parameters are typically
+derived from the training data.
+
+1203
+00:57:53,950 --> 00:57:57,700
+Problem is, how to find
+the unknown utterance.
+
+1204
+00:57:57,700 --> 00:58:00,010
+You don't know what is
+the form of the model.
+
+1205
+00:58:00,010 --> 00:58:03,410
+And you don't know
+what is the data.
+
+1206
+00:58:03,410 --> 00:58:05,740
+So we are dealing with
+what is called the Doubly
+
+1207
+00:58:05,740 --> 00:58:09,140
+stochastic model, a
+Hidden Markov model.
+
+1208
+00:58:09,140 --> 00:58:13,620
+Speech is a sequence-- it's
+a sequence of hidden states.
+
+1209
+00:58:13,620 --> 00:58:15,780
+You don't see this hidden state.
+
+1210
+00:58:15,780 --> 00:58:20,626
+And also, you don't know
+what comes from any state.
+
+1211
+00:58:20,626 --> 00:58:24,180
+So it somehow-- so you don't
+know for sure in which state
+
+1212
+00:58:24,180 --> 00:58:24,960
+you are on.
+
+1213
+00:58:24,960 --> 00:58:28,580
+You don't know for sure what
+comes out, but you know that--
+
+1214
+00:58:28,580 --> 00:58:30,540
+well, you know, you
+assume that this
+
+1215
+00:58:30,540 --> 00:58:32,160
+is how the speech looks like.
+
+1216
+00:58:32,160 --> 00:58:34,950
+So here I have a
+picture a little bit.
+
+1217
+00:58:34,950 --> 00:58:37,080
+I apologize for being
+trivial about this,
+
+1218
+00:58:37,080 --> 00:58:39,630
+but imagine that you
+have a string of--
+
+1219
+00:58:39,630 --> 00:58:40,800
+group of people.
+
+1220
+00:58:40,800 --> 00:58:43,670
+They are-- some are
+female, some are male.
+
+1221
+00:58:43,670 --> 00:58:46,740
+They are groups of
+males, groups of females.
+
+1222
+00:58:46,740 --> 00:58:48,220
+And each of them says something.
+
+1223
+00:58:48,220 --> 00:58:49,120
+He says, hi.
+
+1224
+00:58:49,120 --> 00:58:50,370
+And you can measure something.
+
+1225
+00:58:50,370 --> 00:58:52,260
+This is a fundamental frequency.
+
+1226
+00:58:52,260 --> 00:58:56,594
+You get some measurement out of
+that, but you don't see them.
+
+1227
+00:58:56,594 --> 00:58:59,170
+But what you know is that
+they interleave, basically.
+
+1228
+00:58:59,170 --> 00:59:01,420
+For a while, there
+is a group of males,
+
+1229
+00:59:01,420 --> 00:59:04,780
+then there is a-- then the
+speech is to a group of female.
+
+1230
+00:59:04,780 --> 00:59:07,540
+And then you stay for a
+while in a group of female,
+
+1231
+00:59:07,540 --> 00:59:08,650
+and so on, and so on.
+
+1232
+00:59:08,650 --> 00:59:12,490
+So basically-- and
+you know what is
+
+1233
+00:59:12,490 --> 00:59:14,680
+the probability of the
+fundamental frequency
+
+1234
+00:59:14,680 --> 00:59:16,380
+for males, so some distribution.
+
+1235
+00:59:16,380 --> 00:59:18,850
+So you know what is the path
+on the fundamental frequency
+
+1236
+00:59:18,850 --> 00:59:20,860
+for females.
+
+1237
+00:59:20,860 --> 00:59:24,790
+You know what is the probability
+of the first group being male.
+
+1238
+00:59:24,790 --> 00:59:28,790
+Subsequently, you also know
+what is the probability of the
+
+1239
+00:59:28,790 --> 00:59:30,275
+[AUDIO OUT]
+
+1240
+00:59:34,235 --> 00:59:36,924
+Because, to me, the features
+are the important as I
+
+1241
+00:59:36,924 --> 00:59:41,020
+told you, in which
+we don't need,
+
+1242
+00:59:41,020 --> 00:59:44,476
+but we don't want to take
+out stuff that you may need.
+
+1243
+00:59:47,927 --> 00:59:49,948
+I told you that that
+one important role
+
+1244
+00:59:49,948 --> 00:59:51,820
+of the perception
+is to eliminate
+
+1245
+00:59:51,820 --> 00:59:53,692
+some of this information.
+
+1246
+00:59:53,692 --> 00:59:57,804
+Basically that's to so,
+eliminate irrelevant focus
+
+1247
+00:59:57,804 --> 01:00:00,600
+on irrelevant stuff.
+
+1248
+01:00:00,600 --> 01:00:05,250
+So this is where I feel the
+properties of perception
+
+1249
+01:00:05,250 --> 01:00:09,680
+can come in very strongly,
+because this is what emulates
+
+1250
+01:00:09,680 --> 01:00:12,500
+this basic process
+of the speech,
+
+1251
+01:00:12,500 --> 01:00:15,826
+of the extraction of
+information [INAUDIBLE]..
+
+1252
+01:00:15,826 --> 01:00:18,742
+Especially about the
+Hidden Markov models,
+
+1253
+01:00:18,742 --> 01:00:22,180
+that speech consists of
+the sequences of sounds
+
+1254
+01:00:22,180 --> 01:00:24,895
+and they can be previously
+different speed,
+
+1255
+01:00:24,895 --> 01:00:25,970
+and other things.
+
+1256
+01:00:25,970 --> 01:00:27,010
+It's important.
+
+1257
+01:00:27,010 --> 01:00:32,830
+But here, we can use
+a lot of our model.
+
+1258
+01:00:32,830 --> 01:00:38,612
+Those features which can be
+also designed based on the data.
+
+1259
+01:00:38,612 --> 01:00:41,057
+And what comes out
+is probably going
+
+1260
+01:00:41,057 --> 01:00:42,640
+to be irrelevant to
+speech perception,
+
+1261
+01:00:42,640 --> 01:00:48,924
+so this is my point for how
+you can use your engineering
+
+1262
+01:00:48,924 --> 01:00:53,326
+to verify our theories
+of speech perception.
+
+1263
+01:00:53,326 --> 01:00:57,240
+We use largely,
+nowadays, the neural
+
+1264
+01:00:57,240 --> 01:01:01,150
+nets to derive the features.
+
+1265
+01:01:01,150 --> 01:01:04,450
+So how we do it is that we
+sort of-- because we know
+
+1266
+01:01:04,450 --> 01:01:11,123
+that best set of features are
+posteriors of the class we want
+
+1267
+01:01:11,123 --> 01:01:15,175
+to recognize our speech sounds,
+maybe it's going to be useful.
+
+1268
+01:01:15,175 --> 01:01:16,945
+If you do a good
+job, actually you
+
+1269
+01:01:16,945 --> 01:01:19,840
+can do the reasonable sound.
+
+1270
+01:01:19,840 --> 01:01:22,295
+So if you take a signal, you
+do something processing--
+
+1271
+01:01:22,295 --> 01:01:25,860
+and I will be talking about
+signal processing quite a lot.
+
+1272
+01:01:25,860 --> 01:01:30,625
+But then it goes into neural
+net, nowadays, deep neural net,
+
+1273
+01:01:30,625 --> 01:01:34,150
+and you estimate a posterior
+use of different speech sounds.
+
+1274
+01:01:34,150 --> 01:01:36,350
+And then what comes out,
+whatever, it's always
+
+1275
+01:01:36,350 --> 01:01:39,175
+is the high posterior
+probability of the phoneme,
+
+1276
+01:01:39,175 --> 01:01:44,540
+so we have you do it [INAUDIBLE]
+sequence of the phoneme.
+
+1277
+01:01:48,150 --> 01:01:50,360
+As the classes you can
+use, directly context
+
+1278
+01:01:50,360 --> 01:01:55,020
+independent in this
+example, small number.
+
+1279
+01:01:55,020 --> 01:01:57,880
+You can use context
+dependent phonemes, which
+
+1280
+01:01:57,880 --> 01:02:01,180
+I use quite a lot, because
+they've tried to optimize this
+
+1281
+01:02:01,180 --> 01:02:03,450
+despite that, if the
+phoneme is produced
+
+1282
+01:02:03,450 --> 01:02:07,052
+depends on what happened
+inside, in the neighborhood,
+
+1283
+01:02:07,052 --> 01:02:09,680
+[INAUDIBLE]
+
+1284
+01:02:13,150 --> 01:02:17,390
+These posteriors can be
+directly used with our research.
+
+1285
+01:02:17,390 --> 01:02:22,949
+This is the search through
+the lattice of the likelihoods
+
+1286
+01:02:22,949 --> 01:02:24,280
+in recognition.
+
+1287
+01:02:24,280 --> 01:02:26,236
+And again, I mean,
+it's coming back.
+
+1288
+01:02:26,236 --> 01:02:29,750
+This was the late 1990,
+but this is the way
+
+1289
+01:02:29,750 --> 01:02:32,500
+that most of this
+recognizers work.
+
+1290
+01:02:32,500 --> 01:02:35,325
+This is the major way now how
+you do this feature cognition.
+
+1291
+01:02:35,325 --> 01:02:37,820
+There's another way, which is
+called bottleneck or tandem--
+
+1292
+01:02:37,820 --> 01:02:40,420
+we were involved in that too--
+
+1293
+01:02:40,420 --> 01:02:43,720
+which was the way to make the
+neural nets friendly to people
+
+1294
+01:02:43,720 --> 01:02:48,280
+who were used to old
+generative HMM models,
+
+1295
+01:02:48,280 --> 01:02:50,440
+because you
+basically convert it,
+
+1296
+01:02:50,440 --> 01:02:52,690
+your outputs from
+the posteriors,
+
+1297
+01:02:52,690 --> 01:02:56,520
+into some features which
+your generative HMM
+
+1298
+01:02:56,520 --> 01:02:59,050
+model would like for you.
+
+1299
+01:02:59,050 --> 01:03:01,270
+What you did for you
+de- correlated them,
+
+1300
+01:03:01,270 --> 01:03:05,410
+you coercionized them so that
+they have a normal distribution
+
+1301
+01:03:05,410 --> 01:03:07,070
+and use it as a features.
+
+1302
+01:03:07,070 --> 01:03:11,350
+And bottom line is, if you
+get the good posteriors,
+
+1303
+01:03:11,350 --> 01:03:13,110
+you will get the good features.
+
+1304
+01:03:13,110 --> 01:03:14,700
+And we know how to use them.
+
+1305
+01:03:14,700 --> 01:03:17,910
+And this is pretty much
+the mainstream now.

@@ -92,7 +92,7 @@ def fixNumberOrder(array):
     return newArray
 
 
-def createTimeTranscriptPairing(array, transcript, timing):
+def createTimeTranscriptPairing(array, timing):
     arrayTime = {}
     current_i = 0
     count = 1
@@ -111,7 +111,69 @@ def createTimeTranscriptPairing(array, transcript, timing):
 
 
 if __name__ == "__main__":
-    dataGroup = ["Lecture1", "Lecture2"]
+    #Work with 10
+    #dataGroupDone = ["Lecture1", "Lecture2",
+    #             "Lecture3", "Lecture4","Lecture5",
+    #             "Lecture6","Lecture7","Lecture8",
+    #             "Lecture9","Lecture10","Lecture11","Lecture12",
+    #             "Lecture13","Lecture14","Lecture15","Lecture16",
+    #             "Lecture17","Lecture18","Lecture19","Lecture20","Lecture21",
+    #             "Lecture22","Lecture23","Lecture24","Lecture25","Lecture26",
+     #            "Lecture27","Lecture28","Lecture29_c28","Lecture30","Lecture31",
+     #            "Lecture32_c31", "Lecture33", "Lecture34", "Lecture35_c34",
+     #            "Lecture36_c34", "Lecture37","Lecture38_c37", "Lecture39",
+    #             "Lecture40", "Lecture41", "Lecture42", "Lecture43", "Lecture44",
+    #             "Lecture45", "Lecture46", "Lecture47", "Lecture48", "Lecture49",
+    #             "Lecture50", "Lecture51", "Lecture52", "Lecture53", "Lecture54_c53",
+    #             "Lecture55", "Lecture56_c55", "Lecture57", "Lecture58", "Lecture59_c58",
+    #             "Lecture60", "Lecture61", "Lecture62", "Lecture63", "Lecture64",
+    #             "Lecture65", "Lecture66", "Lecture67", "Lecture68", "Lecture69",
+    #             "Lecture70", "Lecture71", "Lecture72", "Lecture73", "Lecture74",
+    #             "Lecture75", "Lecture76", "Lecture77", "Lecture78", "Lecture79",
+    #             "Lecture80", "Lecture81", "Lecture82", "Lecture83", "Lecture84"]
+    dataGroup = ["Lecture86", "Lecture87", "Lecture88", "Lecture89", "Lecture90", "Lecture91",
+                 "Lecture92", "Lecture93", "Lecture94", "Lecture95", "Lecture96", "Lecture97",
+                 "Lecture98", "Lecture99", "Lecture100", "Lecture101", "Lecture102", "Lecture103",
+                 "Lecture104", "Lecture105", "Lecture106", "Lecture107", "Lecture108", "Lecture109",
+                 "Lecture110", "Lecture111", "Lecture112", "Lecture113", "Lecture114", "Lecture115",
+                 "Lecture116", "Lecture117", "Lecture118", "Lecture119"]
+
+    dataGroup2 = ["Lecture1", "Lecture2",
+                 "Lecture3", "Lecture4","Lecture5",
+                 "Lecture6","Lecture7","Lecture8",
+                 "Lecture9","Lecture10","Lecture11","Lecture12",
+                 "Lecture13","Lecture14", "Lecture26",
+                 "Lecture27","Lecture28","Lecture29_c28","Lecture30","Lecture31",
+                 "Lecture32_c31", "Lecture33", "Lecture34", "Lecture35_c34",
+                 "Lecture36_c34", "Lecture37","Lecture38_c37", "Lecture39",
+                 "Lecture40", "Lecture41", "Lecture42", "Lecture43", "Lecture44",
+                 "Lecture45", "Lecture46", "Lecture47", "Lecture48", "Lecture49",
+                 "Lecture50", "Lecture51", "Lecture52", "Lecture53", "Lecture54_c53",
+                 "Lecture55", "Lecture56_c55", "Lecture57", "Lecture58", "Lecture59_c58",
+                 "Lecture60", "Lecture61", "Lecture62", "Lecture63", "Lecture64",
+                 "Lecture65", "Lecture66", "Lecture67", "Lecture68", "Lecture69",
+                 "Lecture70", "Lecture71", "Lecture72", "Lecture73", "Lecture74",
+                 "Lecture76", "Lecture78", "Lecture79",
+                 "Lecture80", "Lecture81", "Lecture82", "Lecture83"]
+    dataGroup1 = ["Lecture1", "Lecture2",
+                 "Lecture3", "Lecture4","Lecture5",
+                 "Lecture6","Lecture7","Lecture8",
+                 "Lecture9","Lecture10","Lecture11","Lecture12",
+                 "Lecture13","Lecture14","Lecture15","Lecture16",
+                 "Lecture17","Lecture18","Lecture19","Lecture20","Lecture21",
+                 "Lecture22","Lecture23","Lecture24","Lecture25","Lecture26",
+                 "Lecture27","Lecture28","Lecture29_c28","Lecture30","Lecture31",
+                 "Lecture32_c31", "Lecture33", "Lecture34", "Lecture35_c34",
+                 "Lecture36_c34", "Lecture37","Lecture38_c37", "Lecture39",
+                 "Lecture40", "Lecture41", "Lecture42", "Lecture43", "Lecture44",
+                 "Lecture45", "Lecture46", "Lecture47", "Lecture48", "Lecture49",
+                 "Lecture50", "Lecture51", "Lecture52", "Lecture53", "Lecture54_c53",
+                 "Lecture55", "Lecture56_c55", "Lecture57", "Lecture58", "Lecture59_c58",
+                 "Lecture60", "Lecture61", "Lecture62", "Lecture63", "Lecture64",
+                 "Lecture65", "Lecture66", "Lecture67", "Lecture68", "Lecture69",
+                 "Lecture70", "Lecture71", "Lecture72", "Lecture73", "Lecture74",
+                 "Lecture75", "Lecture76", "Lecture77", "Lecture78", "Lecture79",
+                 "Lecture80", "Lecture81", "Lecture82", "Lecture83", "Lecture84", "Lecture85"]
 
     for i in dataGroup:
         inputLocation = "..\\0_data" + "\\" + i
@@ -134,10 +196,11 @@ if __name__ == "__main__":
             #screenshots of videos
             get_frames(inputLocation + "\\Video.mp4", outputLocation + "\\VideoScreenshots", 10)
 
-            #Create a transcription
-            transcribe_video(outputLocation + "\\Video.wav",
-                             inputLocation + "\\Video.mp4",
-                             outputLocation + "\\Results" + "\\generatedTranscript.txt")
+            #Create a transcription - do this later
+            #transcribe_video(outputLocation + "\\Video.wav",
+            #                 inputLocation + "\\Video.mp4",
+            #                 outputLocation + "\\Results" + "\\generatedTranscript.txt",
+            #                 outputLocation + "\\Results" + "\\genSRT.srt")
 
             #text on each screenshot
             SlideText = textOnSlideCrop(outputLocation + "\\VideoScreenshots")
@@ -157,12 +220,30 @@ if __name__ == "__main__":
         videoArrayFile.close()
 
         array = matchSlideToVideo(pdfArray, videoArray)
-        fixedArray = fixNumberOrder(array)
-
-        timingDict = createTimeTranscriptPairing(fixedArray, fixedArray, 10)
-
-        dict = splitSubtitles(timingDict, inputLocation + "\\Transcript-srt.txt")
-        textfile = open(outputLocation + "\\Results" + "\\FinalAlignment.txt", "w")
-        for text in dict:
-            json.dump(dict, textfile)
+        #fixedArray = fixNumberOrder(array)
+        textfile = open(outputLocation + "\\Results" + "\\alignmentUnfixedArray.txt", "w")
+        for text in array:
+            textfile.write(str(text) + "\n")
         textfile.close()
+
+        # #Read in fixed align
+        # textfile = open(outputLocation + "\\Results" + "\\fixedalign.txt", "r")
+        # fixedalignarray = []
+        # for text in textfile:
+        #     fixedalignarray.append(int(text.rstrip("\n")))
+        # textfile.close()
+        # print(fixedalignarray)
+        #
+        # timingDict = createTimeTranscriptPairing(fixedalignarray, 10)
+        #
+        # dict = splitSubtitles(timingDict, inputLocation + "\\Transcript-srt.txt", fixedalignarray[0])
+        # textfile = open(outputLocation + "\\Results" + "\\FinalAlignmentBestSRT.txt", "w")
+        # dict2 = splitSubtitles(timingDict, outputLocation + "\\Results" + "\\generatedTranscriptSRT.srt", fixedalignarray[0])
+        #
+        # json.dump(dict, textfile)
+        # textfile.close()
+        #
+        # textfile = open(outputLocation + "\\Results" + "\\FinalAlignmentPoorSRT.txt", "w")
+        #
+        # json.dump(dict2,textfile)
+        # textfile.close()

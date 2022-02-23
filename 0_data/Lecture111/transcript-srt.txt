@@ -1,0 +1,6235 @@
+1
+00:00:13,940 --> 00:00:17,110
+[Applause]
+
+2
+00:00:44,810 --> 00:00:44,810
+ 
+
+3
+00:00:44,820 --> 00:00:51,670
+ all right please welcome our next
+
+4
+00:00:48,480 --> 00:00:51,670
+ 
+
+5
+00:00:48,490 --> 00:00:55,650
+ speaker Amelia andersdotter we will talk
+
+6
+00:00:51,660 --> 00:00:55,650
+ 
+
+7
+00:00:51,670 --> 00:00:55,650
+ about adventures in hard westernization
+
+8
+00:00:57,820 --> 00:00:57,820
+ 
+
+9
+00:00:57,830 --> 00:01:04,660
+[Applause]
+
+10
+00:00:59,990 --> 00:01:04,660
+ 
+
+11
+00:01:00,000 --> 00:01:06,729
+ yeah so I'm back and today I have slides
+
+12
+00:01:04,650 --> 00:01:06,729
+ 
+
+13
+00:01:04,660 --> 00:01:09,030
+ so for everyone who likes pictures
+
+14
+00:01:06,719 --> 00:01:09,030
+ 
+
+15
+00:01:06,729 --> 00:01:11,979
+ that's a very good that's very good news
+
+16
+00:01:09,020 --> 00:01:11,979
+ 
+
+17
+00:01:09,030 --> 00:01:14,500
+ this is a table of contents which
+
+18
+00:01:11,969 --> 00:01:14,500
+ 
+
+19
+00:01:11,979 --> 00:01:16,240
+ doesn't actually list the first three
+
+20
+00:01:14,490 --> 00:01:16,240
+ 
+
+21
+00:01:14,500 --> 00:01:18,820
+ slides because I ended up having
+
+22
+00:01:16,230 --> 00:01:18,820
+ 
+
+23
+00:01:16,240 --> 00:01:21,940
+ formatting problems I'll be talking
+
+24
+00:01:18,810 --> 00:01:21,940
+ 
+
+25
+00:01:18,820 --> 00:01:24,880
+ about some good news from Hardware
+
+26
+00:01:21,930 --> 00:01:24,880
+ 
+
+27
+00:01:21,940 --> 00:01:27,340
+ standardization where companies are
+
+28
+00:01:24,870 --> 00:01:27,340
+ 
+
+29
+00:01:24,880 --> 00:01:29,680
+ trying to address real privacy problems
+
+30
+00:01:27,330 --> 00:01:29,680
+ 
+
+31
+00:01:27,340 --> 00:01:32,110
+ that we have had in Wireless local area
+
+32
+00:01:29,670 --> 00:01:32,110
+ 
+
+33
+00:01:29,680 --> 00:01:34,900
+ networks in particular and then I'll be
+
+34
+00:01:32,100 --> 00:01:34,900
+ 
+
+35
+00:01:32,110 --> 00:01:37,060
+ talking about some bad news which is
+
+36
+00:01:34,890 --> 00:01:37,060
+ 
+
+37
+00:01:34,900 --> 00:01:39,190
+ that other companies are trying to make
+
+38
+00:01:37,050 --> 00:01:39,190
+ 
+
+39
+00:01:37,060 --> 00:01:41,860
+ real tangible privacy and security
+
+40
+00:01:39,180 --> 00:01:41,860
+ 
+
+41
+00:01:39,190 --> 00:01:43,330
+ improvements in mobile networks but
+
+42
+00:01:41,850 --> 00:01:43,330
+ 
+
+43
+00:01:41,860 --> 00:01:46,229
+ they're not allowed to continue those
+
+44
+00:01:43,320 --> 00:01:46,229
+ 
+
+45
+00:01:43,330 --> 00:01:49,870
+ endeavors from their political masters
+
+46
+00:01:46,219 --> 00:01:49,870
+ 
+
+47
+00:01:46,229 --> 00:01:52,180
+ I'll also be trying to cover some ideas
+
+48
+00:01:49,860 --> 00:01:52,180
+ 
+
+49
+00:01:49,870 --> 00:01:54,970
+ about what we can do as a community to
+
+50
+00:01:52,170 --> 00:01:54,970
+ 
+
+51
+00:01:52,180 --> 00:01:57,250
+ ensure that good developments get the
+
+52
+00:01:54,960 --> 00:01:57,250
+ 
+
+53
+00:01:54,970 --> 00:01:59,680
+ policy support that they need and the
+
+54
+00:01:57,240 --> 00:01:59,680
+ 
+
+55
+00:01:57,250 --> 00:02:04,030
+ bad developments get the type of counter
+
+56
+00:01:59,670 --> 00:02:04,030
+ 
+
+57
+00:01:59,680 --> 00:02:05,680
+ pushes that they deserve but first I
+
+58
+00:02:04,020 --> 00:02:05,680
+ 
+
+59
+00:02:04,030 --> 00:02:07,510
+ wanted to talk a bit about the
+
+60
+00:02:05,670 --> 00:02:07,510
+ 
+
+61
+00:02:05,680 --> 00:02:09,869
+ organization that has enabled me to be
+
+62
+00:02:07,500 --> 00:02:09,869
+ 
+
+63
+00:02:07,510 --> 00:02:11,560
+ here today to talk about this topic
+
+64
+00:02:09,859 --> 00:02:11,560
+ 
+
+65
+00:02:09,869 --> 00:02:14,290
+ article 19
+
+66
+00:02:11,550 --> 00:02:14,290
+ 
+
+67
+00:02:11,560 --> 00:02:17,230
+ it's a uk-based freedom of speech
+
+68
+00:02:14,280 --> 00:02:17,230
+ 
+
+69
+00:02:14,290 --> 00:02:19,900
+ organization that has for five years
+
+70
+00:02:17,220 --> 00:02:19,900
+ 
+
+71
+00:02:17,230 --> 00:02:22,660
+ been running a program on human rights
+
+72
+00:02:19,890 --> 00:02:22,660
+ 
+
+73
+00:02:19,900 --> 00:02:25,750
+ and technical standards so the work of
+
+74
+00:02:22,650 --> 00:02:25,750
+ 
+
+75
+00:02:22,660 --> 00:02:27,640
+ article 19 starts from this idea of
+
+76
+00:02:25,740 --> 00:02:27,640
+ 
+
+77
+00:02:25,750 --> 00:02:30,310
+ which is really formulated by Krantz
+
+78
+00:02:27,630 --> 00:02:30,310
+ 
+
+79
+00:02:27,640 --> 00:02:32,200
+ burg in the 1980s that technology might
+
+80
+00:02:30,300 --> 00:02:32,200
+ 
+
+81
+00:02:30,310 --> 00:02:36,549
+ be neither good or bad but it's also not
+
+82
+00:02:32,190 --> 00:02:36,549
+ 
+
+83
+00:02:32,200 --> 00:02:38,830
+ neutral so if technologies aren't
+
+84
+00:02:36,539 --> 00:02:38,830
+ 
+
+85
+00:02:36,549 --> 00:02:40,450
+ neutral that means from the perspective
+
+86
+00:02:38,820 --> 00:02:40,450
+ 
+
+87
+00:02:38,830 --> 00:02:44,680
+ of human rights the technical design
+
+88
+00:02:40,440 --> 00:02:44,680
+ 
+
+89
+00:02:40,450 --> 00:02:46,630
+ also matters we tried to introduce
+
+90
+00:02:44,670 --> 00:02:46,630
+ 
+
+91
+00:02:44,680 --> 00:02:48,670
+ diversity into the technical design
+
+92
+00:02:46,620 --> 00:02:48,670
+ 
+
+93
+00:02:46,630 --> 00:02:50,890
+ process and a focus on Human Rights
+
+94
+00:02:48,660 --> 00:02:50,890
+ 
+
+95
+00:02:48,670 --> 00:02:53,350
+ values and what they mean for engineers
+
+96
+00:02:50,880 --> 00:02:53,350
+ 
+
+97
+00:02:50,890 --> 00:02:55,419
+ and how engineers can reflect upon human
+
+98
+00:02:53,340 --> 00:02:55,419
+ 
+
+99
+00:02:53,350 --> 00:02:56,590
+ rights when they are making the next
+
+100
+00:02:55,409 --> 00:02:56,590
+ 
+
+101
+00:02:55,419 --> 00:03:00,129
+ generation of
+
+102
+00:02:56,580 --> 00:03:00,129
+ 
+
+103
+00:02:56,590 --> 00:03:01,900
+ products that say we've been doing work
+
+104
+00:03:00,119 --> 00:03:01,900
+ 
+
+105
+00:03:00,129 --> 00:03:03,819
+ in a range of organization over these
+
+106
+00:03:01,890 --> 00:03:03,819
+ 
+
+107
+00:03:01,900 --> 00:03:07,510
+ years we started out that the internet
+
+108
+00:03:03,809 --> 00:03:07,510
+ 
+
+109
+00:03:03,819 --> 00:03:09,129
+ Engineering Task Force IETF and I can
+
+110
+00:03:07,500 --> 00:03:09,129
+ 
+
+111
+00:03:07,510 --> 00:03:11,080
+ which of course deals with the DNS
+
+112
+00:03:09,119 --> 00:03:11,080
+ 
+
+113
+00:03:09,129 --> 00:03:13,299
+ system back in 2014
+
+114
+00:03:11,070 --> 00:03:13,299
+ 
+
+115
+00:03:11,080 --> 00:03:16,180
+ since then the activities have been
+
+116
+00:03:13,289 --> 00:03:16,180
+ 
+
+117
+00:03:13,299 --> 00:03:19,510
+ expanded into the Institute of the
+
+118
+00:03:16,170 --> 00:03:19,510
+ 
+
+119
+00:03:16,180 --> 00:03:22,090
+ electric and electronical engineers the
+
+120
+00:03:19,500 --> 00:03:22,090
+ 
+
+121
+00:03:19,510 --> 00:03:23,500
+ 3gpp which does mobile network standards
+
+122
+00:03:22,080 --> 00:03:23,500
+ 
+
+123
+00:03:22,090 --> 00:03:25,269
+ and also the International
+
+124
+00:03:23,490 --> 00:03:25,269
+ 
+
+125
+00:03:23,500 --> 00:03:28,180
+ Telecommunications Union which is a
+
+126
+00:03:25,259 --> 00:03:28,180
+ 
+
+127
+00:03:25,269 --> 00:03:30,220
+ United Nations body that roughly they're
+
+128
+00:03:28,170 --> 00:03:30,220
+ 
+
+129
+00:03:28,180 --> 00:03:33,819
+ responsible for land area codes and
+
+130
+00:03:30,210 --> 00:03:33,819
+ 
+
+131
+00:03:30,220 --> 00:03:35,650
+ telephone numbers we've been working on
+
+132
+00:03:33,809 --> 00:03:35,650
+ 
+
+133
+00:03:33,819 --> 00:03:37,540
+ developing human rights considerations
+
+134
+00:03:35,640 --> 00:03:37,540
+ 
+
+135
+00:03:35,650 --> 00:03:40,959
+ that are meant to assist the technical
+
+136
+00:03:37,530 --> 00:03:40,959
+ 
+
+137
+00:03:37,540 --> 00:03:43,329
+ design process in the IETF we have RFC
+
+138
+00:03:40,949 --> 00:03:43,329
+ 
+
+139
+00:03:40,959 --> 00:03:45,280
+ 80 to 80 which codifies human rights
+
+140
+00:03:43,319 --> 00:03:45,280
+ 
+
+141
+00:03:43,329 --> 00:03:47,620
+ considerations for protocol developers
+
+142
+00:03:45,270 --> 00:03:47,620
+ 
+
+143
+00:03:45,280 --> 00:03:49,360
+ and in the I Triple E we have these
+
+144
+00:03:47,610 --> 00:03:49,360
+ 
+
+145
+00:03:47,620 --> 00:03:52,030
+ previously recommendations which are
+
+146
+00:03:49,350 --> 00:03:52,030
+ 
+
+147
+00:03:49,360 --> 00:03:54,010
+ still in a draft form but they've been
+
+148
+00:03:52,020 --> 00:03:54,010
+ 
+
+149
+00:03:52,030 --> 00:03:55,840
+ making big advancements in the last two
+
+150
+00:03:54,000 --> 00:03:55,840
+ 
+
+151
+00:03:54,010 --> 00:03:58,540
+ years and we're hoping that at least in
+
+152
+00:03:55,830 --> 00:03:58,540
+ 
+
+153
+00:03:55,840 --> 00:04:01,450
+ the next year a couple of years they
+
+154
+00:03:58,530 --> 00:04:01,450
+ 
+
+155
+00:03:58,540 --> 00:04:03,220
+ might make it into a final kind of
+
+156
+00:04:01,440 --> 00:04:03,220
+ 
+
+157
+00:04:01,450 --> 00:04:04,900
+ standards format where they can be
+
+158
+00:04:03,210 --> 00:04:04,900
+ 
+
+159
+00:04:03,220 --> 00:04:08,980
+ actually applied and referred to as an
+
+160
+00:04:04,890 --> 00:04:08,980
+ 
+
+161
+00:04:04,900 --> 00:04:10,480
+ authoritative I Triple E document when I
+
+162
+00:04:08,970 --> 00:04:10,480
+ 
+
+163
+00:04:08,980 --> 00:04:12,130
+ want to give some words of caution about
+
+164
+00:04:10,470 --> 00:04:12,130
+ 
+
+165
+00:04:10,480 --> 00:04:15,250
+ considerations and technical design
+
+166
+00:04:12,120 --> 00:04:15,250
+ 
+
+167
+00:04:12,130 --> 00:04:17,169
+ process processes one of them is that
+
+168
+00:04:15,240 --> 00:04:17,169
+ 
+
+169
+00:04:15,250 --> 00:04:19,060
+ standards are not mandatory all
+
+170
+00:04:17,159 --> 00:04:19,060
+ 
+
+171
+00:04:17,169 --> 00:04:21,370
+ standards that are made are voluntary
+
+172
+00:04:19,050 --> 00:04:21,370
+ 
+
+173
+00:04:19,060 --> 00:04:24,639
+ for private sector parties to apply or
+
+174
+00:04:21,360 --> 00:04:24,639
+ 
+
+175
+00:04:21,370 --> 00:04:27,310
+ not developing the standards in spite of
+
+176
+00:04:24,629 --> 00:04:27,310
+ 
+
+177
+00:04:24,639 --> 00:04:31,120
+ this limitation takes time money and
+
+178
+00:04:27,300 --> 00:04:31,120
+ 
+
+179
+00:04:27,310 --> 00:04:32,680
+ commitment in many cases technical
+
+180
+00:04:31,110 --> 00:04:32,680
+ 
+
+181
+00:04:31,120 --> 00:04:34,870
+ standards are simply written by those
+
+182
+00:04:32,670 --> 00:04:34,870
+ 
+
+183
+00:04:32,680 --> 00:04:36,820
+ who show up so those that have the money
+
+184
+00:04:34,860 --> 00:04:36,820
+ 
+
+185
+00:04:34,870 --> 00:04:39,070
+ to have a lot of Engineers to attend
+
+186
+00:04:36,810 --> 00:04:39,070
+ 
+
+187
+00:04:36,820 --> 00:04:42,460
+ standards bodies and make proposals and
+
+188
+00:04:39,060 --> 00:04:42,460
+ 
+
+189
+00:04:39,070 --> 00:04:44,110
+ research what barriers different aspects
+
+190
+00:04:42,450 --> 00:04:44,110
+ 
+
+191
+00:04:42,460 --> 00:04:48,099
+ and developments need to be inserted to
+
+192
+00:04:44,100 --> 00:04:48,099
+ 
+
+193
+00:04:44,110 --> 00:04:50,740
+ make next generation technologies but
+
+194
+00:04:48,089 --> 00:04:50,740
+ 
+
+195
+00:04:48,099 --> 00:04:52,690
+ then there is a final kind of challenge
+
+196
+00:04:50,730 --> 00:04:52,690
+ 
+
+197
+00:04:50,740 --> 00:04:54,220
+ of working with standards is that even
+
+198
+00:04:52,680 --> 00:04:54,220
+ 
+
+199
+00:04:52,690 --> 00:04:55,599
+ if you have the most perfect standard
+
+200
+00:04:54,210 --> 00:04:55,599
+ 
+
+201
+00:04:54,220 --> 00:04:57,310
+ ever written and then it takes into
+
+202
+00:04:55,589 --> 00:04:57,310
+ 
+
+203
+00:04:55,599 --> 00:04:59,610
+ account all of the human rights and
+
+204
+00:04:57,300 --> 00:04:59,610
+ 
+
+205
+00:04:57,310 --> 00:05:01,720
+ privacy considerations you could imagine
+
+206
+00:04:59,600 --> 00:05:01,720
+ 
+
+207
+00:04:59,610 --> 00:05:06,280
+ the fact is your standards is not
+
+208
+00:05:01,710 --> 00:05:06,280
+ 
+
+209
+00:05:01,720 --> 00:05:08,110
+ impactful if it's not implemented so the
+
+210
+00:05:06,270 --> 00:05:08,110
+ 
+
+211
+00:05:06,280 --> 00:05:09,570
+ article 19 we try to have this holistic
+
+212
+00:05:08,100 --> 00:05:09,570
+ 
+
+213
+00:05:08,110 --> 00:05:11,250
+ approach where it's
+
+214
+00:05:09,560 --> 00:05:11,250
+ 
+
+215
+00:05:09,570 --> 00:05:14,190
+ that if the technology is not designed
+
+216
+00:05:11,240 --> 00:05:14,190
+ 
+
+217
+00:05:11,250 --> 00:05:15,510
+ to respect human rights probably human
+
+218
+00:05:14,180 --> 00:05:15,510
+ 
+
+219
+00:05:14,190 --> 00:05:18,540
+ rights will not be respected by
+
+220
+00:05:15,500 --> 00:05:18,540
+ 
+
+221
+00:05:15,510 --> 00:05:20,550
+ deploying the technology but also only
+
+222
+00:05:18,530 --> 00:05:20,550
+ 
+
+223
+00:05:18,540 --> 00:05:22,890
+ having the design in place is not enough
+
+224
+00:05:20,540 --> 00:05:22,890
+ 
+
+225
+00:05:20,550 --> 00:05:25,710
+ you need to have this holistic approach
+
+226
+00:05:22,880 --> 00:05:25,710
+ 
+
+227
+00:05:22,890 --> 00:05:29,310
+ to the entire process of the product
+
+228
+00:05:25,700 --> 00:05:29,310
+ 
+
+229
+00:05:25,710 --> 00:05:30,930
+ from design to market that sounds like
+
+230
+00:05:29,300 --> 00:05:30,930
+ 
+
+231
+00:05:29,310 --> 00:05:36,210
+ I'm a marketing consultant consultant
+
+232
+00:05:30,920 --> 00:05:36,210
+ 
+
+233
+00:05:30,930 --> 00:05:38,130
+ but bear with me yeah so my work for the
+
+234
+00:05:36,200 --> 00:05:38,130
+ 
+
+235
+00:05:36,210 --> 00:05:39,600
+ past two years with article 19 has been
+
+236
+00:05:38,120 --> 00:05:39,600
+ 
+
+237
+00:05:38,130 --> 00:05:41,940
+ mostly oriented towards hardware
+
+238
+00:05:39,590 --> 00:05:41,940
+ 
+
+239
+00:05:39,600 --> 00:05:44,580
+ standards that means I have worked a lot
+
+240
+00:05:41,930 --> 00:05:44,580
+ 
+
+241
+00:05:41,940 --> 00:05:47,250
+ in I Tripoli 802 with the standard that
+
+242
+00:05:44,570 --> 00:05:47,250
+ 
+
+243
+00:05:44,580 --> 00:05:49,530
+ is formally called Wireless local area
+
+244
+00:05:47,240 --> 00:05:49,530
+ 
+
+245
+00:05:47,250 --> 00:05:51,330
+ networks but in practice most of us
+
+246
+00:05:49,520 --> 00:05:51,330
+ 
+
+247
+00:05:49,530 --> 00:05:54,300
+ encounter it in our day-to-day lives as
+
+248
+00:05:51,320 --> 00:05:54,300
+ 
+
+249
+00:05:51,330 --> 00:05:57,030
+ Wi-Fi so Wi-Fi is actually a brand it's
+
+250
+00:05:54,290 --> 00:05:57,030
+ 
+
+251
+00:05:54,300 --> 00:05:58,440
+ maintained by the Wi-Fi Alliance which
+
+252
+00:05:57,020 --> 00:05:58,440
+ 
+
+253
+00:05:57,030 --> 00:06:00,810
+ is a separate organization from the
+
+254
+00:05:58,430 --> 00:06:00,810
+ 
+
+255
+00:05:58,440 --> 00:06:02,880
+ after plate I Triple E 802 but I think
+
+256
+00:06:00,800 --> 00:06:02,880
+ 
+
+257
+00:06:00,810 --> 00:06:06,330
+ for conceptual purposes it's fine if to
+
+258
+00:06:02,870 --> 00:06:06,330
+ 
+
+259
+00:06:02,880 --> 00:06:09,270
+ think of I Triple E 802 11 as Wi-Fi
+
+260
+00:06:06,320 --> 00:06:09,270
+ 
+
+261
+00:06:06,330 --> 00:06:12,030
+ standards body for the past seven months
+
+262
+00:06:09,260 --> 00:06:12,030
+ 
+
+263
+00:06:09,270 --> 00:06:13,140
+ or so I have also been following 3gpp
+
+264
+00:06:12,020 --> 00:06:13,140
+ 
+
+265
+00:06:12,030 --> 00:06:15,330
+ which is the third generation
+
+266
+00:06:13,130 --> 00:06:15,330
+ 
+
+267
+00:06:13,140 --> 00:06:17,670
+ partnership project it's like this big
+
+268
+00:06:15,320 --> 00:06:17,670
+ 
+
+269
+00:06:15,330 --> 00:06:18,840
+ global organization of mobile network
+
+270
+00:06:17,660 --> 00:06:18,840
+ 
+
+271
+00:06:17,670 --> 00:06:20,790
+ equipment manufacturers
+
+272
+00:06:18,830 --> 00:06:20,790
+ 
+
+273
+00:06:18,840 --> 00:06:23,130
+ telecommunications operators and a few
+
+274
+00:06:20,780 --> 00:06:23,130
+ 
+
+275
+00:06:20,790 --> 00:06:25,350
+ others including governments as we will
+
+276
+00:06:23,120 --> 00:06:25,350
+ 
+
+277
+00:06:23,130 --> 00:06:27,930
+ see and they make mobile network
+
+278
+00:06:25,340 --> 00:06:27,930
+ 
+
+279
+00:06:25,350 --> 00:06:30,540
+ standards they were originally formed to
+
+280
+00:06:27,920 --> 00:06:30,540
+ 
+
+281
+00:06:27,930 --> 00:06:32,490
+ develop the 3g standard which or you
+
+282
+00:06:30,530 --> 00:06:32,490
+ 
+
+283
+00:06:30,540 --> 00:06:34,560
+ know UMTS these kind of things that were
+
+284
+00:06:32,480 --> 00:06:34,560
+ 
+
+285
+00:06:32,490 --> 00:06:37,500
+ deployed way back when now they also
+
+286
+00:06:34,550 --> 00:06:37,500
+ 
+
+287
+00:06:34,560 --> 00:06:38,970
+ deal with 4G and 5g but they didn't
+
+288
+00:06:37,490 --> 00:06:38,970
+ 
+
+289
+00:06:37,500 --> 00:06:44,940
+ update the name and so that's why it
+
+290
+00:06:38,960 --> 00:06:44,940
+ 
+
+291
+00:06:38,970 --> 00:06:46,410
+ sound kind of a anachronistic but
+
+292
+00:06:44,930 --> 00:06:46,410
+ 
+
+293
+00:06:44,940 --> 00:06:49,290
+ without we can move on to the good news
+
+294
+00:06:46,400 --> 00:06:49,290
+ 
+
+295
+00:06:46,410 --> 00:06:51,150
+ slides I'll try not to speak too long
+
+296
+00:06:49,280 --> 00:06:51,150
+ 
+
+297
+00:06:49,290 --> 00:06:53,460
+ there is actually been a number of good
+
+298
+00:06:51,140 --> 00:06:53,460
+ 
+
+299
+00:06:51,150 --> 00:06:55,080
+ developments in the I Triple E 802 group
+
+300
+00:06:53,450 --> 00:06:55,080
+ 
+
+301
+00:06:53,460 --> 00:06:58,080
+ from the time that I've monitored them
+
+302
+00:06:55,070 --> 00:06:58,080
+ 
+
+303
+00:06:55,080 --> 00:06:59,460
+ in 2017 one of them is the dot eleven
+
+304
+00:06:58,070 --> 00:06:59,460
+ 
+
+305
+00:06:58,080 --> 00:07:00,810
+ eight you previously enhancements
+
+306
+00:06:59,450 --> 00:07:00,810
+ 
+
+307
+00:06:59,460 --> 00:07:03,540
+ amendments which deals with some
+
+308
+00:07:00,800 --> 00:07:03,540
+ 
+
+309
+00:07:00,810 --> 00:07:05,790
+ geolocation or tracking issues that have
+
+310
+00:07:03,530 --> 00:07:05,790
+ 
+
+311
+00:07:03,540 --> 00:07:08,220
+ been raised by researchers and privacy
+
+312
+00:07:05,780 --> 00:07:08,220
+ 
+
+313
+00:07:05,790 --> 00:07:11,790
+ technologies for the past six or seven
+
+314
+00:07:08,210 --> 00:07:11,790
+ 
+
+315
+00:07:08,220 --> 00:07:14,700
+ years it introduces MAC address pre
+
+316
+00:07:11,780 --> 00:07:14,700
+ 
+
+317
+00:07:11,790 --> 00:07:16,680
+ Association randomization so basically
+
+318
+00:07:14,690 --> 00:07:16,680
+ 
+
+319
+00:07:14,700 --> 00:07:19,850
+ when you're not what it says is that
+
+320
+00:07:16,670 --> 00:07:19,850
+ 
+
+321
+00:07:16,680 --> 00:07:22,290
+ your mobile phone or connected equipment
+
+322
+00:07:19,840 --> 00:07:22,290
+ 
+
+323
+00:07:19,850 --> 00:07:23,240
+ should randomized it's layer two
+
+324
+00:07:22,280 --> 00:07:23,240
+ 
+
+325
+00:07:22,290 --> 00:07:24,620
+ identifier
+
+326
+00:07:23,230 --> 00:07:24,620
+ 
+
+327
+00:07:23,240 --> 00:07:28,460
+ as long as you're not associated to the
+
+328
+00:07:24,610 --> 00:07:28,460
+ 
+
+329
+00:07:24,620 --> 00:07:31,220
+ network it also fixes some other things
+
+330
+00:07:28,450 --> 00:07:31,220
+ 
+
+331
+00:07:28,460 --> 00:07:33,849
+ like asks the chip and the management
+
+332
+00:07:31,210 --> 00:07:33,849
+ 
+
+333
+00:07:31,220 --> 00:07:36,740
+ frame not to probe for specific SSIDs
+
+334
+00:07:33,839 --> 00:07:36,740
+ 
+
+335
+00:07:33,849 --> 00:07:40,340
+ reset sequence number counters to ensure
+
+336
+00:07:36,730 --> 00:07:40,340
+ 
+
+337
+00:07:36,740 --> 00:07:41,569
+ that you can't track the equipment by
+
+338
+00:07:40,330 --> 00:07:41,569
+ 
+
+339
+00:07:40,340 --> 00:07:42,590
+ ancillary attacks that have been
+
+340
+00:07:41,559 --> 00:07:42,590
+ 
+
+341
+00:07:41,569 --> 00:07:45,289
+ described in literature
+
+342
+00:07:42,580 --> 00:07:45,289
+ 
+
+343
+00:07:42,590 --> 00:07:46,940
+ I mean basically it does a lot of the
+
+344
+00:07:45,279 --> 00:07:46,940
+ 
+
+345
+00:07:45,289 --> 00:07:49,069
+ privacy enhancements amendments and dot
+
+346
+00:07:46,930 --> 00:07:49,069
+ 
+
+347
+00:07:46,940 --> 00:07:52,699
+ 11 aq which was already passed last year
+
+348
+00:07:49,059 --> 00:07:52,699
+ 
+
+349
+00:07:49,069 --> 00:07:54,130
+ in June introduces a lot of fixes the
+
+350
+00:07:52,689 --> 00:07:54,130
+ 
+
+351
+00:07:52,699 --> 00:07:57,550
+ problems that have been raised
+
+352
+00:07:54,120 --> 00:07:57,550
+ 
+
+353
+00:07:54,130 --> 00:08:00,050
+ persistently by researchers since 2013
+
+354
+00:07:57,540 --> 00:08:00,050
+ 
+
+355
+00:07:57,550 --> 00:08:02,030
+ this is a very positive development
+
+356
+00:08:00,040 --> 00:08:02,030
+ 
+
+357
+00:08:00,050 --> 00:08:04,039
+ we now have a standard which describes
+
+358
+00:08:02,020 --> 00:08:04,039
+ 
+
+359
+00:08:02,030 --> 00:08:06,800
+ how we could mitigate a lot of the
+
+360
+00:08:04,029 --> 00:08:06,800
+ 
+
+361
+00:08:04,039 --> 00:08:08,539
+ serious privacy concerns that previously
+
+362
+00:08:06,790 --> 00:08:08,539
+ 
+
+363
+00:08:06,800 --> 00:08:11,800
+ have been kind of built in to the
+
+364
+00:08:08,529 --> 00:08:11,800
+ 
+
+365
+00:08:08,539 --> 00:08:14,539
+ technical architecture of our devices
+
+366
+00:08:11,790 --> 00:08:14,539
+ 
+
+367
+00:08:11,800 --> 00:08:16,400
+ I've included on this slide a link to a
+
+368
+00:08:14,529 --> 00:08:16,400
+ 
+
+369
+00:08:14,539 --> 00:08:18,949
+ presentation made by one of my
+
+370
+00:08:16,390 --> 00:08:18,949
+ 
+
+371
+00:08:16,400 --> 00:08:22,490
+ colleagues at 802 dot 11 which explains
+
+372
+00:08:18,939 --> 00:08:22,490
+ 
+
+373
+00:08:18,949 --> 00:08:24,319
+ the general dot 11 AQ canny features in
+
+374
+00:08:22,480 --> 00:08:24,319
+ 
+
+375
+00:08:22,490 --> 00:08:25,849
+ a more comprehensive format I realize
+
+376
+00:08:24,309 --> 00:08:25,849
+ 
+
+377
+00:08:24,319 --> 00:08:27,380
+ you may not be able to copy it from the
+
+378
+00:08:25,839 --> 00:08:27,380
+ 
+
+379
+00:08:25,849 --> 00:08:28,820
+ screen but if you contact me afterwards
+
+380
+00:08:27,370 --> 00:08:28,820
+ 
+
+381
+00:08:27,380 --> 00:08:33,440
+ I'll send you the link and I'm sure
+
+382
+00:08:28,810 --> 00:08:33,440
+ 
+
+383
+00:08:28,820 --> 00:08:35,570
+ you'll find it all very interesting so
+
+384
+00:08:33,430 --> 00:08:35,570
+ 
+
+385
+00:08:33,440 --> 00:08:37,310
+ other things that are going on with
+
+386
+00:08:35,560 --> 00:08:37,310
+ 
+
+387
+00:08:35,570 --> 00:08:40,370
+ Wireless local area networks which are
+
+388
+00:08:37,300 --> 00:08:40,370
+ 
+
+389
+00:08:37,310 --> 00:08:41,779
+ interesting is scalable geolocation this
+
+390
+00:08:40,360 --> 00:08:41,779
+ 
+
+391
+00:08:40,370 --> 00:08:43,909
+ again comes into the tracking
+
+392
+00:08:41,769 --> 00:08:43,909
+ 
+
+393
+00:08:41,779 --> 00:08:46,339
+ requirements but it's a very well
+
+394
+00:08:43,899 --> 00:08:46,339
+ 
+
+395
+00:08:43,909 --> 00:08:48,680
+ studied problem and literature so it's
+
+396
+00:08:46,329 --> 00:08:48,680
+ 
+
+397
+00:08:46,339 --> 00:08:50,329
+ very for me heartening to see that
+
+398
+00:08:48,670 --> 00:08:50,329
+ 
+
+399
+00:08:48,680 --> 00:08:52,550
+ privacy enhancing technologies research
+
+400
+00:08:50,319 --> 00:08:52,550
+ 
+
+401
+00:08:50,329 --> 00:08:54,200
+ is now being actually adopted by
+
+402
+00:08:52,540 --> 00:08:54,200
+ 
+
+403
+00:08:52,550 --> 00:08:56,420
+ industry and their practical processes
+
+404
+00:08:54,190 --> 00:08:56,420
+ 
+
+405
+00:08:54,200 --> 00:08:58,430
+ one of them is passive ranging or
+
+406
+00:08:56,410 --> 00:08:58,430
+ 
+
+407
+00:08:56,420 --> 00:09:01,550
+ passive geo locations basically making
+
+408
+00:08:58,420 --> 00:09:01,550
+ 
+
+409
+00:08:58,430 --> 00:09:04,100
+ the identity or location of a device in
+
+410
+00:09:01,540 --> 00:09:04,100
+ 
+
+411
+00:09:01,550 --> 00:09:06,200
+ a network function kind of similarly to
+
+412
+00:09:04,090 --> 00:09:06,200
+ 
+
+413
+00:09:04,100 --> 00:09:07,850
+ GPS so instead of the network figuring
+
+414
+00:09:06,190 --> 00:09:07,850
+ 
+
+415
+00:09:06,200 --> 00:09:09,529
+ out where you are the network provides
+
+416
+00:09:07,840 --> 00:09:09,529
+ 
+
+417
+00:09:07,850 --> 00:09:13,550
+ you with information to help you find
+
+418
+00:09:09,519 --> 00:09:13,550
+ 
+
+419
+00:09:09,529 --> 00:09:17,660
+ yourself we had recently on the spring
+
+420
+00:09:13,540 --> 00:09:17,660
+ 
+
+421
+00:09:13,550 --> 00:09:19,399
+ some advancements to modify management
+
+422
+00:09:17,650 --> 00:09:19,399
+ 
+
+423
+00:09:17,660 --> 00:09:21,560
+ frames in such a way that it will be
+
+424
+00:09:19,389 --> 00:09:21,560
+ 
+
+425
+00:09:19,399 --> 00:09:25,250
+ easier for an end user device to
+
+426
+00:09:21,550 --> 00:09:25,250
+ 
+
+427
+00:09:21,560 --> 00:09:26,630
+ indicate policy preferences this is also
+
+428
+00:09:25,240 --> 00:09:26,630
+ 
+
+429
+00:09:25,250 --> 00:09:28,730
+ something that's been addressed in
+
+430
+00:09:26,620 --> 00:09:28,730
+ 
+
+431
+00:09:26,630 --> 00:09:29,959
+ literature I know especially at INRIA in
+
+432
+00:09:28,720 --> 00:09:29,959
+ 
+
+433
+00:09:28,730 --> 00:09:31,730
+ France
+
+434
+00:09:29,949 --> 00:09:31,730
+ 
+
+435
+00:09:29,959 --> 00:09:34,430
+ and I was very happy to see this being
+
+436
+00:09:31,720 --> 00:09:34,430
+ 
+
+437
+00:09:31,730 --> 00:09:36,200
+ taken up by the group in in May although
+
+438
+00:09:34,420 --> 00:09:36,200
+ 
+
+439
+00:09:34,430 --> 00:09:37,970
+ a word of caution
+
+440
+00:09:36,190 --> 00:09:37,970
+ 
+
+441
+00:09:36,200 --> 00:09:40,310
+ is that it's not yet in the actual
+
+442
+00:09:37,960 --> 00:09:40,310
+ 
+
+443
+00:09:37,970 --> 00:09:42,560
+ standards yes the proposal the amendment
+
+444
+00:09:40,300 --> 00:09:42,560
+ 
+
+445
+00:09:40,310 --> 00:09:44,690
+ is not adopted
+
+446
+00:09:42,550 --> 00:09:44,690
+ 
+
+447
+00:09:42,560 --> 00:09:46,580
+ of course when your market standards is
+
+448
+00:09:44,680 --> 00:09:46,580
+ 
+
+449
+00:09:44,690 --> 00:09:47,990
+ such a low level you also need to take
+
+450
+00:09:46,570 --> 00:09:47,990
+ 
+
+451
+00:09:46,580 --> 00:09:50,030
+ into account that there's a difference
+
+452
+00:09:47,980 --> 00:09:50,030
+ 
+
+453
+00:09:47,990 --> 00:09:53,660
+ between a mechanism for expressing a
+
+454
+00:09:50,020 --> 00:09:53,660
+ 
+
+455
+00:09:50,030 --> 00:09:55,580
+ policy and the policy as such so you can
+
+456
+00:09:53,650 --> 00:09:55,580
+ 
+
+457
+00:09:53,660 --> 00:09:57,920
+ have an indication in a management frame
+
+458
+00:09:55,570 --> 00:09:57,920
+ 
+
+459
+00:09:55,580 --> 00:09:59,870
+ that you have a specific policy
+
+460
+00:09:57,910 --> 00:09:59,870
+ 
+
+461
+00:09:57,920 --> 00:10:01,880
+ preference but the I Triple E 8:02
+
+462
+00:09:59,860 --> 00:10:01,880
+ 
+
+463
+00:09:59,870 --> 00:10:04,940
+ normally does not set for instance
+
+464
+00:10:01,870 --> 00:10:04,940
+ 
+
+465
+00:10:01,880 --> 00:10:08,270
+ defaults default values or what should
+
+466
+00:10:04,930 --> 00:10:08,270
+ 
+
+467
+00:10:04,940 --> 00:10:10,310
+ be how should this bit be set when it
+
+468
+00:10:08,260 --> 00:10:10,310
+ 
+
+469
+00:10:08,270 --> 00:10:11,870
+ shipped to consumers so I will return to
+
+470
+00:10:10,300 --> 00:10:11,870
+ 
+
+471
+00:10:10,310 --> 00:10:13,970
+ this and the third section of this talk
+
+472
+00:10:11,860 --> 00:10:13,970
+ 
+
+473
+00:10:11,870 --> 00:10:16,490
+ because the fact that they define the
+
+474
+00:10:13,960 --> 00:10:16,490
+ 
+
+475
+00:10:13,970 --> 00:10:19,520
+ mechanisms but the actual defaults are
+
+476
+00:10:16,480 --> 00:10:19,520
+ 
+
+477
+00:10:16,490 --> 00:10:20,990
+ then left to other processes makes a big
+
+478
+00:10:19,510 --> 00:10:20,990
+ 
+
+479
+00:10:19,520 --> 00:10:26,060
+ difference especially in the European
+
+480
+00:10:20,980 --> 00:10:26,060
+ 
+
+481
+00:10:20,990 --> 00:10:28,580
+ regulatory framework so on to the bad
+
+482
+00:10:26,050 --> 00:10:28,580
+ 
+
+483
+00:10:26,060 --> 00:10:30,650
+ news I will actually go back to a
+
+484
+00:10:28,570 --> 00:10:30,650
+ 
+
+485
+00:10:28,580 --> 00:10:33,590
+ presentation made by a Nokia Belle ABS
+
+486
+00:10:30,640 --> 00:10:33,590
+ 
+
+487
+00:10:30,650 --> 00:10:35,930
+ engineer last year at the Etsy security
+
+488
+00:10:33,580 --> 00:10:35,930
+ 
+
+489
+00:10:33,590 --> 00:10:37,400
+ week it's an annual event organized by
+
+490
+00:10:35,920 --> 00:10:37,400
+ 
+
+491
+00:10:35,930 --> 00:10:39,560
+ the European technical standards
+
+492
+00:10:37,390 --> 00:10:39,560
+ 
+
+493
+00:10:37,400 --> 00:10:42,560
+ Institute which was formed in the 1980s
+
+494
+00:10:39,550 --> 00:10:42,560
+ 
+
+495
+00:10:39,560 --> 00:10:44,600
+ and has some form of statutory base it's
+
+496
+00:10:42,550 --> 00:10:44,600
+ 
+
+497
+00:10:42,560 --> 00:10:46,250
+ free to attend for anyone who can afford
+
+498
+00:10:44,590 --> 00:10:46,250
+ 
+
+499
+00:10:44,600 --> 00:10:48,220
+ to go to the south of France for a week
+
+500
+00:10:46,240 --> 00:10:48,220
+ 
+
+501
+00:10:46,250 --> 00:10:50,960
+ and chill out
+
+502
+00:10:48,210 --> 00:10:50,960
+ 
+
+503
+00:10:48,220 --> 00:10:52,940
+ but this presentation I was there last
+
+504
+00:10:50,950 --> 00:10:52,940
+ 
+
+505
+00:10:50,960 --> 00:10:54,650
+ year I saw this being presented live and
+
+506
+00:10:52,930 --> 00:10:54,650
+ 
+
+507
+00:10:52,940 --> 00:10:56,480
+ it really alerted me to something being
+
+508
+00:10:54,640 --> 00:10:56,480
+ 
+
+509
+00:10:54,650 --> 00:10:59,390
+ extremely wrong in mobile network
+
+510
+00:10:56,470 --> 00:10:59,390
+ 
+
+511
+00:10:56,480 --> 00:11:01,220
+ standards organization so Nokia Bell
+
+512
+00:10:59,380 --> 00:11:01,220
+ 
+
+513
+00:10:59,390 --> 00:11:03,970
+ Labs many of you will know was a really
+
+514
+00:11:01,210 --> 00:11:03,970
+ 
+
+515
+00:11:01,220 --> 00:11:07,250
+ big company right Nokia is not a small
+
+516
+00:11:03,960 --> 00:11:07,250
+ 
+
+517
+00:11:03,970 --> 00:11:08,780
+ institutional actor also Bell Labs I
+
+518
+00:11:07,240 --> 00:11:08,780
+ 
+
+519
+00:11:07,250 --> 00:11:10,670
+ would not call one of these you know
+
+520
+00:11:08,770 --> 00:11:10,670
+ 
+
+521
+00:11:08,780 --> 00:11:15,740
+ small and medium-sized enterprises that
+
+522
+00:11:10,660 --> 00:11:15,740
+ 
+
+523
+00:11:10,670 --> 00:11:17,570
+ do not have any market leverage so what
+
+524
+00:11:15,730 --> 00:11:17,570
+ 
+
+525
+00:11:15,740 --> 00:11:20,990
+ she appears to be describing here is
+
+526
+00:11:17,560 --> 00:11:20,990
+ 
+
+527
+00:11:17,570 --> 00:11:23,420
+ that there are some reality of attacks
+
+528
+00:11:20,980 --> 00:11:23,420
+ 
+
+529
+00:11:20,990 --> 00:11:25,820
+ against mobile networks which include
+
+530
+00:11:23,410 --> 00:11:25,820
+ 
+
+531
+00:11:23,420 --> 00:11:30,350
+ intelligence communities military and
+
+532
+00:11:25,810 --> 00:11:30,350
+ 
+
+533
+00:11:25,820 --> 00:11:32,060
+ law enforcement and they're stopping our
+
+534
+00:11:30,340 --> 00:11:32,060
+ 
+
+535
+00:11:30,350 --> 00:11:33,860
+ companies from developing but their
+
+536
+00:11:32,050 --> 00:11:33,860
+ 
+
+537
+00:11:32,060 --> 00:11:35,750
+ privacy and security mechanisms by
+
+538
+00:11:33,850 --> 00:11:35,750
+ 
+
+539
+00:11:33,860 --> 00:11:37,760
+ showing up at the standards meetings and
+
+540
+00:11:35,740 --> 00:11:37,760
+ 
+
+541
+00:11:35,750 --> 00:11:39,650
+ objecting to features that would
+
+542
+00:11:37,750 --> 00:11:39,650
+ 
+
+543
+00:11:37,760 --> 00:11:42,530
+ otherwise protect us from being
+
+544
+00:11:39,640 --> 00:11:42,530
+ 
+
+545
+00:11:39,650 --> 00:11:44,720
+ introduced now actually we have
+
+546
+00:11:42,520 --> 00:11:44,720
+ 
+
+547
+00:11:42,530 --> 00:11:46,520
+ documented evidence now from brussels
+
+548
+00:11:44,710 --> 00:11:46,520
+ 
+
+549
+00:11:44,720 --> 00:11:48,380
+ institutions that this is not just at
+
+550
+00:11:46,510 --> 00:11:48,380
+ 
+
+551
+00:11:46,520 --> 00:11:50,120
+ the 3gpp that these law enforcement
+
+552
+00:11:48,370 --> 00:11:50,120
+ 
+
+553
+00:11:48,380 --> 00:11:52,130
+ institutions show up
+
+554
+00:11:50,110 --> 00:11:52,130
+ 
+
+555
+00:11:50,120 --> 00:11:53,480
+ well so the I should say also that the
+
+556
+00:11:52,120 --> 00:11:53,480
+ 
+
+557
+00:11:52,130 --> 00:11:56,360
+ other significant thing about this
+
+558
+00:11:53,470 --> 00:11:56,360
+ 
+
+559
+00:11:53,480 --> 00:11:58,460
+ though Nokia Belle abs being a big
+
+560
+00:11:56,350 --> 00:11:58,460
+ 
+
+561
+00:11:56,360 --> 00:12:01,130
+ company if they are objecting to this
+
+562
+00:11:58,450 --> 00:12:01,130
+ 
+
+563
+00:11:58,460 --> 00:12:03,050
+ then we know if we like privacy and
+
+564
+00:12:01,120 --> 00:12:03,050
+ 
+
+565
+00:12:01,130 --> 00:12:05,390
+ security that we have some strong allies
+
+566
+00:12:03,040 --> 00:12:05,390
+ 
+
+567
+00:12:03,050 --> 00:12:07,280
+ which aren't just this is not just an
+
+568
+00:12:05,380 --> 00:12:07,280
+ 
+
+569
+00:12:05,390 --> 00:12:09,560
+ idealist ik interest these industries
+
+570
+00:12:07,270 --> 00:12:09,560
+ 
+
+571
+00:12:07,280 --> 00:12:10,880
+ are trying to make security improvements
+
+572
+00:12:09,550 --> 00:12:10,880
+ 
+
+573
+00:12:09,560 --> 00:12:15,010
+ but they are finding themselves
+
+574
+00:12:10,870 --> 00:12:15,010
+ 
+
+575
+00:12:10,880 --> 00:12:17,720
+ challenged by the powers that be and
+
+576
+00:12:15,000 --> 00:12:17,720
+ 
+
+577
+00:12:15,010 --> 00:12:19,430
+ they're also challenged at the Council
+
+578
+00:12:17,710 --> 00:12:19,430
+ 
+
+579
+00:12:17,720 --> 00:12:21,530
+ of Ministers so this is the report that
+
+580
+00:12:19,420 --> 00:12:21,530
+ 
+
+581
+00:12:19,430 --> 00:12:24,800
+ came from I think Europe all and euro
+
+582
+00:12:21,520 --> 00:12:24,800
+ 
+
+583
+00:12:21,530 --> 00:12:28,220
+ just in May of 2019 where they are
+
+584
+00:12:24,790 --> 00:12:28,220
+ 
+
+585
+00:12:24,800 --> 00:12:30,710
+ trying to take the endeavors of industry
+
+586
+00:12:28,210 --> 00:12:30,710
+ 
+
+587
+00:12:28,220 --> 00:12:32,570
+ to improve privacy and security all the
+
+588
+00:12:30,700 --> 00:12:32,570
+ 
+
+589
+00:12:30,710 --> 00:12:34,580
+ way up to the council of ministers of
+
+590
+00:12:32,560 --> 00:12:34,580
+ 
+
+591
+00:12:32,570 --> 00:12:36,620
+ the European Union because they are
+
+592
+00:12:34,570 --> 00:12:36,620
+ 
+
+593
+00:12:34,580 --> 00:12:40,190
+ finding industry endeavors to improve
+
+594
+00:12:36,610 --> 00:12:40,190
+ 
+
+595
+00:12:36,620 --> 00:12:42,590
+ privacy and security bad and they wanted
+
+596
+00:12:40,180 --> 00:12:42,590
+ 
+
+597
+00:12:40,190 --> 00:12:45,500
+ to be politically stopped because merely
+
+598
+00:12:42,580 --> 00:12:45,500
+ 
+
+599
+00:12:42,590 --> 00:12:47,030
+ exercise saying resistance against such
+
+600
+00:12:45,490 --> 00:12:47,030
+ 
+
+601
+00:12:45,500 --> 00:12:49,730
+ improvements in the standards
+
+602
+00:12:47,020 --> 00:12:49,730
+ 
+
+603
+00:12:47,030 --> 00:12:52,700
+ organisations apparently was not good
+
+604
+00:12:49,720 --> 00:12:52,700
+ 
+
+605
+00:12:49,730 --> 00:12:55,550
+ enough for them and so this is quite
+
+606
+00:12:52,690 --> 00:12:55,550
+ 
+
+607
+00:12:52,700 --> 00:12:58,400
+ serious psyche Bazaar is struggle really
+
+608
+00:12:55,540 --> 00:12:58,400
+ 
+
+609
+00:12:55,550 --> 00:13:01,640
+ between European values and member state
+
+610
+00:12:58,390 --> 00:13:01,640
+ 
+
+611
+00:12:58,400 --> 00:13:03,290
+ values it's as if our companies have
+
+612
+00:13:01,630 --> 00:13:03,290
+ 
+
+613
+00:13:01,640 --> 00:13:05,600
+ been told by the data protection
+
+614
+00:13:03,280 --> 00:13:05,600
+ 
+
+615
+00:13:03,290 --> 00:13:07,490
+ regulation for instance that you need to
+
+616
+00:13:05,590 --> 00:13:07,490
+ 
+
+617
+00:13:05,600 --> 00:13:09,260
+ protect personal data and you need to
+
+618
+00:13:07,480 --> 00:13:09,260
+ 
+
+619
+00:13:07,490 --> 00:13:10,760
+ have better data security or we will
+
+620
+00:13:09,250 --> 00:13:10,760
+ 
+
+621
+00:13:09,260 --> 00:13:12,950
+ give you a four percent fine of your
+
+622
+00:13:10,750 --> 00:13:12,950
+ 
+
+623
+00:13:10,760 --> 00:13:15,710
+ annual turnover for not doing your due
+
+624
+00:13:12,940 --> 00:13:15,710
+ 
+
+625
+00:13:12,950 --> 00:13:17,060
+ diligence on the one hand but then on
+
+626
+00:13:15,700 --> 00:13:17,060
+ 
+
+627
+00:13:15,710 --> 00:13:18,770
+ the other hand you get these weird
+
+628
+00:13:17,050 --> 00:13:18,770
+ 
+
+629
+00:13:17,060 --> 00:13:20,540
+ political conflicts where public
+
+630
+00:13:18,760 --> 00:13:20,540
+ 
+
+631
+00:13:18,770 --> 00:13:22,130
+ authorities make angry documents with
+
+632
+00:13:20,530 --> 00:13:22,130
+ 
+
+633
+00:13:20,540 --> 00:13:24,620
+ politicians saying that our life is
+
+634
+00:13:22,120 --> 00:13:24,620
+ 
+
+635
+00:13:22,130 --> 00:13:26,360
+ destroyed and terrorism will haven't
+
+636
+00:13:24,610 --> 00:13:26,360
+ 
+
+637
+00:13:24,620 --> 00:13:27,860
+ happen if in every corner if these
+
+638
+00:13:26,350 --> 00:13:27,860
+ 
+
+639
+00:13:26,360 --> 00:13:30,430
+ companies actually act on this
+
+640
+00:13:27,850 --> 00:13:30,430
+ 
+
+641
+00:13:27,860 --> 00:13:33,680
+ legislative imperative that we gave them
+
+642
+00:13:30,420 --> 00:13:33,680
+ 
+
+643
+00:13:30,430 --> 00:13:35,960
+ I interpret this to be a conflict
+
+644
+00:13:33,670 --> 00:13:35,960
+ 
+
+645
+00:13:33,680 --> 00:13:37,610
+ between the slightly idealistic consumer
+
+646
+00:13:35,950 --> 00:13:37,610
+ 
+
+647
+00:13:35,960 --> 00:13:40,840
+ trade in economics environment to
+
+648
+00:13:37,600 --> 00:13:40,840
+ 
+
+649
+00:13:37,610 --> 00:13:43,340
+ Brussels pulling in one direction
+
+650
+00:13:40,830 --> 00:13:43,340
+ 
+
+651
+00:13:40,840 --> 00:13:45,470
+ various member states with more sinister
+
+652
+00:13:43,330 --> 00:13:45,470
+ 
+
+653
+00:13:43,340 --> 00:13:47,930
+ and national security and interests are
+
+654
+00:13:45,460 --> 00:13:47,930
+ 
+
+655
+00:13:45,470 --> 00:13:50,360
+ pulling in another direction and our
+
+656
+00:13:47,920 --> 00:13:50,360
+ 
+
+657
+00:13:47,930 --> 00:13:52,190
+ companies they're sort of stuck in
+
+658
+00:13:50,350 --> 00:13:52,190
+ 
+
+659
+00:13:50,360 --> 00:13:56,150
+ between they're getting pushed in both
+
+660
+00:13:52,180 --> 00:13:56,150
+ 
+
+661
+00:13:52,190 --> 00:13:58,460
+ directions at the same time there are
+
+662
+00:13:56,140 --> 00:13:58,460
+ 
+
+663
+00:13:56,150 --> 00:14:00,140
+ some weird consequences of this one of
+
+664
+00:13:58,450 --> 00:14:00,140
+ 
+
+665
+00:13:58,460 --> 00:14:02,180
+ them is that end-to-end encryption is
+
+666
+00:14:00,130 --> 00:14:02,180
+ 
+
+667
+00:14:00,140 --> 00:14:03,680
+ being blocked not just by conservative
+
+668
+00:14:02,170 --> 00:14:03,680
+ 
+
+669
+00:14:02,180 --> 00:14:05,570
+ companies which can
+
+670
+00:14:03,670 --> 00:14:05,570
+ 
+
+671
+00:14:03,680 --> 00:14:07,430
+ sometimes be reluctant to make changes
+
+672
+00:14:05,560 --> 00:14:07,430
+ 
+
+673
+00:14:05,570 --> 00:14:10,279
+ in their architecture but it's also
+
+674
+00:14:07,420 --> 00:14:10,279
+ 
+
+675
+00:14:07,430 --> 00:14:12,470
+ blocked by telcos who will frequently in
+
+676
+00:14:10,269 --> 00:14:12,470
+ 
+
+677
+00:14:10,279 --> 00:14:14,029
+ 3gpp meetings raise objections like we
+
+678
+00:14:12,460 --> 00:14:14,029
+ 
+
+679
+00:14:12,470 --> 00:14:15,740
+ cannot do that for lawful intercept
+
+680
+00:14:14,019 --> 00:14:15,740
+ 
+
+681
+00:14:14,029 --> 00:14:17,720
+ reasons we cannot do this we cannot do
+
+682
+00:14:15,730 --> 00:14:17,720
+ 
+
+683
+00:14:15,740 --> 00:14:20,810
+ the other security improvement because
+
+684
+00:14:17,710 --> 00:14:20,810
+ 
+
+685
+00:14:17,720 --> 00:14:22,399
+ if telcos do not say that governments
+
+686
+00:14:20,800 --> 00:14:22,399
+ 
+
+687
+00:14:20,810 --> 00:14:24,500
+ can revoke their licenses and they can
+
+688
+00:14:22,389 --> 00:14:24,500
+ 
+
+689
+00:14:22,399 --> 00:14:27,170
+ no longer operate on the market for many
+
+690
+00:14:24,490 --> 00:14:27,170
+ 
+
+691
+00:14:24,500 --> 00:14:29,240
+ telcos that means real investment losses
+
+692
+00:14:27,160 --> 00:14:29,240
+ 
+
+693
+00:14:27,170 --> 00:14:30,830
+ of billions of euros so they simply
+
+694
+00:14:29,230 --> 00:14:30,830
+ 
+
+695
+00:14:29,240 --> 00:14:34,940
+ can't afford to stand up to the
+
+696
+00:14:30,820 --> 00:14:34,940
+ 
+
+697
+00:14:30,830 --> 00:14:36,860
+ government's in these cases there's also
+
+698
+00:14:34,930 --> 00:14:36,860
+ 
+
+699
+00:14:34,940 --> 00:14:39,770
+ some weird consequences of lawful
+
+700
+00:14:36,850 --> 00:14:39,770
+ 
+
+701
+00:14:36,860 --> 00:14:41,330
+ intercept working group at 3gpp actively
+
+702
+00:14:39,760 --> 00:14:41,330
+ 
+
+703
+00:14:39,770 --> 00:14:45,170
+ pushing companies to develop data
+
+704
+00:14:41,320 --> 00:14:45,170
+ 
+
+705
+00:14:41,330 --> 00:14:47,000
+ maximization business models so that's a
+
+706
+00:14:45,160 --> 00:14:47,000
+ 
+
+707
+00:14:45,170 --> 00:14:49,190
+ direct contradiction with European law
+
+708
+00:14:46,990 --> 00:14:49,190
+ 
+
+709
+00:14:47,000 --> 00:14:51,110
+ actually because data minimization is
+
+710
+00:14:49,180 --> 00:14:51,110
+ 
+
+711
+00:14:49,190 --> 00:14:52,580
+ one of the core principles of European
+
+712
+00:14:51,100 --> 00:14:52,580
+ 
+
+713
+00:14:51,110 --> 00:14:54,649
+ data protection law and one of the
+
+714
+00:14:52,570 --> 00:14:54,649
+ 
+
+715
+00:14:52,580 --> 00:14:56,089
+ things which if you do not implement you
+
+716
+00:14:54,639 --> 00:14:56,089
+ 
+
+717
+00:14:54,649 --> 00:15:02,360
+ can have a four percent annual turnover
+
+718
+00:14:56,079 --> 00:15:02,360
+ 
+
+719
+00:14:56,089 --> 00:15:05,029
+ fine I found this so this second point I
+
+720
+00:15:02,350 --> 00:15:05,029
+ 
+
+721
+00:15:02,360 --> 00:15:06,770
+ should mention is also I only know of
+
+722
+00:15:05,019 --> 00:15:06,770
+ 
+
+723
+00:15:05,029 --> 00:15:09,830
+ this point because I was in a meeting
+
+724
+00:15:06,760 --> 00:15:09,830
+ 
+
+725
+00:15:06,770 --> 00:15:11,270
+ where this was said so to my best of
+
+726
+00:15:09,820 --> 00:15:11,270
+ 
+
+727
+00:15:09,830 --> 00:15:13,370
+ knowledge this isn't written down
+
+728
+00:15:11,260 --> 00:15:13,370
+ 
+
+729
+00:15:11,270 --> 00:15:15,380
+ anywhere but it was a fascinating
+
+730
+00:15:13,360 --> 00:15:15,380
+ 
+
+731
+00:15:13,370 --> 00:15:17,029
+ exchange between you know law
+
+732
+00:15:15,370 --> 00:15:17,029
+ 
+
+733
+00:15:15,380 --> 00:15:19,880
+ enforcement going maybe you can tie to
+
+734
+00:15:17,019 --> 00:15:19,880
+ 
+
+735
+00:15:17,029 --> 00:15:24,709
+ maximise an industry saying oh it's not
+
+736
+00:15:19,870 --> 00:15:24,709
+ 
+
+737
+00:15:19,880 --> 00:15:27,260
+ really foreseen there's a third problem
+
+738
+00:15:24,699 --> 00:15:27,260
+ 
+
+739
+00:15:24,709 --> 00:15:29,120
+ which is that government authorities who
+
+740
+00:15:27,250 --> 00:15:29,120
+ 
+
+741
+00:15:27,260 --> 00:15:31,459
+ participate in the 3gpp standards
+
+742
+00:15:29,110 --> 00:15:31,459
+ 
+
+743
+00:15:29,120 --> 00:15:36,020
+ framework put forward proposals of
+
+744
+00:15:31,449 --> 00:15:36,020
+ 
+
+745
+00:15:31,459 --> 00:15:38,660
+ really dubious legal of legal dubious
+
+746
+00:15:36,010 --> 00:15:38,660
+ 
+
+747
+00:15:36,020 --> 00:15:40,580
+ legality so one of the really good
+
+748
+00:15:38,650 --> 00:15:40,580
+ 
+
+749
+00:15:38,660 --> 00:15:44,630
+ examples of this is a real-time access
+
+750
+00:15:40,570 --> 00:15:44,630
+ 
+
+751
+00:15:40,580 --> 00:15:47,630
+ standard at CTS 102 six five seven which
+
+752
+00:15:44,620 --> 00:15:47,630
+ 
+
+753
+00:15:44,630 --> 00:15:50,150
+ enables police forces to go in real time
+
+754
+00:15:47,620 --> 00:15:50,150
+ 
+
+755
+00:15:47,630 --> 00:15:52,040
+ in a telecommunications operator network
+
+756
+00:15:50,140 --> 00:15:52,040
+ 
+
+757
+00:15:50,150 --> 00:15:55,700
+ and access customer data without the
+
+758
+00:15:52,030 --> 00:15:55,700
+ 
+
+759
+00:15:52,040 --> 00:15:57,950
+ telco knowing it was developed in 1997
+
+760
+00:15:55,690 --> 00:15:57,950
+ 
+
+761
+00:15:55,700 --> 00:15:59,690
+ when in most European countries that
+
+762
+00:15:57,940 --> 00:15:59,690
+ 
+
+763
+00:15:57,950 --> 00:16:01,370
+ kind of real-time access to data would
+
+764
+00:15:59,680 --> 00:16:01,370
+ 
+
+765
+00:15:59,690 --> 00:16:04,959
+ not have been legal for law enforcement
+
+766
+00:16:01,360 --> 00:16:04,959
+ 
+
+767
+00:16:01,370 --> 00:16:08,540
+ to do and I know at least in the Swedish
+
+768
+00:16:04,949 --> 00:16:08,540
+ 
+
+769
+00:16:04,959 --> 00:16:10,399
+ context we had huge discussions in 2012
+
+770
+00:16:08,530 --> 00:16:10,399
+ 
+
+771
+00:16:08,540 --> 00:16:13,279
+ about whether this technology should be
+
+772
+00:16:10,389 --> 00:16:13,279
+ 
+
+773
+00:16:10,399 --> 00:16:16,160
+ legalized because it exists so it's
+
+774
+00:16:13,269 --> 00:16:16,160
+ 
+
+775
+00:16:13,279 --> 00:16:17,390
+ almost as if sometimes these government
+
+776
+00:16:16,150 --> 00:16:17,390
+ 
+
+777
+00:16:16,160 --> 00:16:20,240
+ authorities the participe
+
+778
+00:16:17,380 --> 00:16:20,240
+ 
+
+779
+00:16:17,390 --> 00:16:22,310
+ in 3gpp are using the platform as a
+
+780
+00:16:20,230 --> 00:16:22,310
+ 
+
+781
+00:16:20,240 --> 00:16:24,710
+ reverse policy washing platform
+
+782
+00:16:22,300 --> 00:16:24,710
+ 
+
+783
+00:16:22,310 --> 00:16:26,300
+ they create the technical requirement
+
+784
+00:16:24,700 --> 00:16:26,300
+ 
+
+785
+00:16:24,710 --> 00:16:28,070
+ which isn't lawful in order to be able
+
+786
+00:16:26,290 --> 00:16:28,070
+ 
+
+787
+00:16:26,300 --> 00:16:31,580
+ to go to legislators and ask them to
+
+788
+00:16:28,060 --> 00:16:31,580
+ 
+
+789
+00:16:28,070 --> 00:16:33,110
+ make the bad technology lawful industry
+
+790
+00:16:31,570 --> 00:16:33,110
+ 
+
+791
+00:16:31,580 --> 00:16:35,600
+ of course is put in a terrible position
+
+792
+00:16:33,100 --> 00:16:35,600
+ 
+
+793
+00:16:33,110 --> 00:16:39,050
+ because of this I propose it's not
+
+794
+00:16:35,590 --> 00:16:39,050
+ 
+
+795
+00:16:35,600 --> 00:16:40,730
+ useful yeah because they can't really
+
+796
+00:16:39,040 --> 00:16:40,730
+ 
+
+797
+00:16:39,050 --> 00:16:42,980
+ object because they risk losing a lot of
+
+798
+00:16:40,720 --> 00:16:42,980
+ 
+
+799
+00:16:40,730 --> 00:16:45,650
+ investments so they try to make all of
+
+800
+00:16:42,970 --> 00:16:45,650
+ 
+
+801
+00:16:42,980 --> 00:16:48,380
+ these diplomatic assertions like oh it's
+
+802
+00:16:45,640 --> 00:16:48,380
+ 
+
+803
+00:16:45,650 --> 00:16:50,720
+ not foreseen this is not great
+
+804
+00:16:48,370 --> 00:16:50,720
+ 
+
+805
+00:16:48,380 --> 00:16:52,550
+ one big Mobile Equipment vendor last
+
+806
+00:16:50,710 --> 00:16:52,550
+ 
+
+807
+00:16:50,720 --> 00:16:55,010
+ year released a security strategy in
+
+808
+00:16:52,540 --> 00:16:55,010
+ 
+
+809
+00:16:52,550 --> 00:16:56,840
+ December where they committed to making
+
+810
+00:16:55,000 --> 00:16:56,840
+ 
+
+811
+00:16:55,010 --> 00:16:58,550
+ end-to-end encryption available for
+
+812
+00:16:56,830 --> 00:16:58,550
+ 
+
+813
+00:16:56,840 --> 00:17:01,190
+ Internet of Things devices because
+
+814
+00:16:58,540 --> 00:17:01,190
+ 
+
+815
+00:16:58,550 --> 00:17:02,540
+ actually how else to secure them but
+
+816
+00:17:01,180 --> 00:17:02,540
+ 
+
+817
+00:17:01,190 --> 00:17:04,820
+ they specifically do not make that
+
+818
+00:17:02,530 --> 00:17:04,820
+ 
+
+819
+00:17:02,540 --> 00:17:07,010
+ commitment for n for end consumer
+
+820
+00:17:04,810 --> 00:17:07,010
+ 
+
+821
+00:17:04,820 --> 00:17:08,630
+ communications and I believe it's
+
+822
+00:17:07,000 --> 00:17:08,630
+ 
+
+823
+00:17:07,010 --> 00:17:11,150
+ exactly because they've been put under
+
+824
+00:17:08,620 --> 00:17:11,150
+ 
+
+825
+00:17:08,630 --> 00:17:14,209
+ pressure not to not to advance such
+
+826
+00:17:11,140 --> 00:17:14,209
+ 
+
+827
+00:17:11,150 --> 00:17:16,070
+ ideas but it also ironically means then
+
+828
+00:17:14,199 --> 00:17:16,070
+ 
+
+829
+00:17:14,209 --> 00:17:17,900
+ that in their security strategy for the
+
+830
+00:17:16,060 --> 00:17:17,900
+ 
+
+831
+00:17:16,070 --> 00:17:20,810
+ entire world and billions of people and
+
+832
+00:17:17,890 --> 00:17:20,810
+ 
+
+833
+00:17:17,900 --> 00:17:22,339
+ devices this mobile equipment vendor is
+
+834
+00:17:20,800 --> 00:17:22,339
+ 
+
+835
+00:17:20,810 --> 00:17:26,110
+ saying that they prioritize my
+
+836
+00:17:22,329 --> 00:17:26,110
+ 
+
+837
+00:17:22,339 --> 00:17:28,550
+ toothbrush more than they prioritize me
+
+838
+00:17:26,100 --> 00:17:28,550
+ 
+
+839
+00:17:26,110 --> 00:17:30,650
+ this is not a good thing this is not a
+
+840
+00:17:28,540 --> 00:17:30,650
+ 
+
+841
+00:17:28,550 --> 00:17:33,140
+ good principle upon which society should
+
+842
+00:17:30,640 --> 00:17:33,140
+ 
+
+843
+00:17:30,650 --> 00:17:35,000
+ be built and it's a terrible position
+
+844
+00:17:33,130 --> 00:17:35,000
+ 
+
+845
+00:17:33,140 --> 00:17:37,190
+ actually for mobile network equipment
+
+846
+00:17:34,990 --> 00:17:37,190
+ 
+
+847
+00:17:35,000 --> 00:17:38,450
+ vendors and operators they are trying to
+
+848
+00:17:37,180 --> 00:17:38,450
+ 
+
+849
+00:17:37,190 --> 00:17:43,850
+ do the right thing they're just getting
+
+850
+00:17:38,440 --> 00:17:43,850
+ 
+
+851
+00:17:38,450 --> 00:17:45,380
+ blocked from doing the right thing but
+
+852
+00:17:43,840 --> 00:17:45,380
+ 
+
+853
+00:17:43,850 --> 00:17:47,720
+ enough about the problems in the world
+
+854
+00:17:45,370 --> 00:17:47,720
+ 
+
+855
+00:17:45,380 --> 00:17:51,620
+ actually we'll come back to them at the
+
+856
+00:17:47,710 --> 00:17:51,620
+ 
+
+857
+00:17:47,720 --> 00:17:53,470
+ later slide just kidding yeah I wanted
+
+858
+00:17:51,610 --> 00:17:53,470
+ 
+
+859
+00:17:51,620 --> 00:17:57,680
+ to talk a bit about like optimistic
+
+860
+00:17:53,460 --> 00:17:57,680
+ 
+
+861
+00:17:53,470 --> 00:18:03,830
+ views on if we have good standards how
+
+862
+00:17:57,670 --> 00:18:03,830
+ 
+
+863
+00:17:57,680 --> 00:18:06,740
+ do we get them deployed and so I was
+
+864
+00:18:03,820 --> 00:18:06,740
+ 
+
+865
+00:18:03,830 --> 00:18:08,750
+ following for some time when working in
+
+866
+00:18:06,730 --> 00:18:08,750
+ 
+
+867
+00:18:06,740 --> 00:18:10,850
+ Brussels website accessibility standards
+
+868
+00:18:08,740 --> 00:18:10,850
+ 
+
+869
+00:18:08,750 --> 00:18:12,650
+ which some of you if you work with web
+
+870
+00:18:10,840 --> 00:18:12,650
+ 
+
+871
+00:18:10,850 --> 00:18:16,220
+ front-end web development you'll know
+
+872
+00:18:12,640 --> 00:18:16,220
+ 
+
+873
+00:18:12,650 --> 00:18:18,470
+ about wcag 2.0 which is a web
+
+874
+00:18:16,210 --> 00:18:18,470
+ 
+
+875
+00:18:16,220 --> 00:18:20,810
+ accessibility standard it was developed
+
+876
+00:18:18,460 --> 00:18:20,810
+ 
+
+877
+00:18:18,470 --> 00:18:22,940
+ like ages ago it's been around for 20
+
+878
+00:18:20,800 --> 00:18:22,940
+ 
+
+879
+00:18:20,810 --> 00:18:25,130
+ years and so it could have been deployed
+
+880
+00:18:22,930 --> 00:18:25,130
+ 
+
+881
+00:18:22,940 --> 00:18:27,440
+ by any public sector institution in the
+
+882
+00:18:25,120 --> 00:18:27,440
+ 
+
+883
+00:18:25,130 --> 00:18:29,669
+ European Union for all the time but in
+
+884
+00:18:27,430 --> 00:18:29,669
+ 
+
+885
+00:18:27,440 --> 00:18:31,829
+ practice it hardly ever was
+
+886
+00:18:29,659 --> 00:18:31,829
+ 
+
+887
+00:18:29,669 --> 00:18:34,679
+ so when instead happened was that the
+
+888
+00:18:31,819 --> 00:18:34,679
+ 
+
+889
+00:18:31,829 --> 00:18:36,989
+ European Commission launched a proposal
+
+890
+00:18:34,669 --> 00:18:36,989
+ 
+
+891
+00:18:34,679 --> 00:18:39,679
+ for a directive to mandate public sector
+
+892
+00:18:36,979 --> 00:18:39,679
+ 
+
+893
+00:18:36,989 --> 00:18:43,889
+ institutions to have accessible websites
+
+894
+00:18:39,669 --> 00:18:43,889
+ 
+
+895
+00:18:39,679 --> 00:18:45,479
+ it was passed in 2015 or 2016 and then
+
+896
+00:18:43,879 --> 00:18:45,479
+ 
+
+897
+00:18:43,889 --> 00:18:47,759
+ in order to implement the directive
+
+898
+00:18:45,469 --> 00:18:47,759
+ 
+
+899
+00:18:45,479 --> 00:18:49,739
+ there needed to be a European harmonized
+
+900
+00:18:47,749 --> 00:18:49,739
+ 
+
+901
+00:18:47,759 --> 00:18:52,829
+ standard they call it which is developed
+
+902
+00:18:49,729 --> 00:18:52,829
+ 
+
+903
+00:18:49,739 --> 00:18:54,649
+ by a team so now the European
+
+904
+00:18:52,819 --> 00:18:54,649
+ 
+
+905
+00:18:52,829 --> 00:18:56,789
+ institutions are in the process of
+
+906
+00:18:54,639 --> 00:18:56,789
+ 
+
+907
+00:18:54,649 --> 00:18:58,409
+ assisting and the development of this
+
+908
+00:18:56,779 --> 00:18:58,409
+ 
+
+909
+00:18:56,789 --> 00:19:00,690
+ harmonized standard which will
+
+910
+00:18:58,399 --> 00:19:00,690
+ 
+
+911
+00:18:58,409 --> 00:19:03,419
+ eventually enable European public sector
+
+912
+00:19:00,680 --> 00:19:03,419
+ 
+
+913
+00:19:00,690 --> 00:19:04,739
+ institutions to follow WCAG web
+
+914
+00:19:03,409 --> 00:19:04,739
+ 
+
+915
+00:19:03,419 --> 00:19:06,419
+ accessibility standards
+
+916
+00:19:04,729 --> 00:19:06,419
+ 
+
+917
+00:19:04,739 --> 00:19:08,519
+ I think this is a long and fairly
+
+918
+00:19:06,409 --> 00:19:08,519
+ 
+
+919
+00:19:06,419 --> 00:19:10,169
+ tedious process which to me is not the
+
+920
+00:19:08,509 --> 00:19:10,169
+ 
+
+921
+00:19:08,519 --> 00:19:11,639
+ best effective way for the European
+
+922
+00:19:10,159 --> 00:19:11,639
+ 
+
+923
+00:19:10,169 --> 00:19:14,609
+ institutions to make use of good
+
+924
+00:19:11,629 --> 00:19:14,609
+ 
+
+925
+00:19:11,639 --> 00:19:18,690
+ industry developments so I want to
+
+926
+00:19:14,599 --> 00:19:18,690
+ 
+
+927
+00:19:14,609 --> 00:19:20,579
+ propose some other ways in relation
+
+928
+00:19:18,680 --> 00:19:20,579
+ 
+
+929
+00:19:18,690 --> 00:19:23,009
+ actually to the wireless local area
+
+930
+00:19:20,569 --> 00:19:23,009
+ 
+
+931
+00:19:20,579 --> 00:19:26,279
+ network privacy improvements that I
+
+932
+00:19:22,999 --> 00:19:26,279
+ 
+
+933
+00:19:23,009 --> 00:19:29,129
+ talked about earlier so three different
+
+934
+00:19:26,269 --> 00:19:29,129
+ 
+
+935
+00:19:26,279 --> 00:19:31,079
+ options really for ensuring that we can
+
+936
+00:19:29,119 --> 00:19:31,079
+ 
+
+937
+00:19:29,129 --> 00:19:33,539
+ make the most use of industry actors
+
+938
+00:19:31,069 --> 00:19:33,539
+ 
+
+939
+00:19:31,079 --> 00:19:35,309
+ doing not terrible things one of them is
+
+940
+00:19:33,529 --> 00:19:35,309
+ 
+
+941
+00:19:33,539 --> 00:19:36,539
+ the radio equipment directive some of
+
+942
+00:19:35,299 --> 00:19:36,539
+ 
+
+943
+00:19:35,309 --> 00:19:38,219
+ you will know about it because you've
+
+944
+00:19:36,529 --> 00:19:38,219
+ 
+
+945
+00:19:36,539 --> 00:19:42,059
+ been working with the Free Software
+
+946
+00:19:38,209 --> 00:19:42,059
+ 
+
+947
+00:19:38,219 --> 00:19:44,549
+ Foundation Europe on dynamic frequency
+
+948
+00:19:42,049 --> 00:19:44,549
+ 
+
+949
+00:19:42,059 --> 00:19:46,320
+ selection but there's other parts of the
+
+950
+00:19:44,539 --> 00:19:46,320
+ 
+
+951
+00:19:44,549 --> 00:19:50,789
+ radio equipment directive - such as
+
+952
+00:19:46,310 --> 00:19:50,789
+ 
+
+953
+00:19:46,320 --> 00:19:52,320
+ article 3 3e privacy requirements you
+
+954
+00:19:50,779 --> 00:19:52,320
+ 
+
+955
+00:19:50,789 --> 00:19:54,209
+ should be able to find it by googling
+
+956
+00:19:52,310 --> 00:19:54,209
+ 
+
+957
+00:19:52,320 --> 00:19:57,419
+ for radio equipment directive and then
+
+958
+00:19:54,199 --> 00:19:57,419
+ 
+
+959
+00:19:54,209 --> 00:19:59,789
+ locating article 3 3e so that would
+
+960
+00:19:57,409 --> 00:19:59,789
+ 
+
+961
+00:19:57,419 --> 00:20:02,309
+ basically be an at-sea like process of
+
+962
+00:19:59,779 --> 00:20:02,309
+ 
+
+963
+00:19:59,789 --> 00:20:04,409
+ being able to benefit from I Triple E
+
+964
+00:20:02,299 --> 00:20:04,409
+ 
+
+965
+00:20:02,309 --> 00:20:05,639
+ developments because you need to go
+
+966
+00:20:04,399 --> 00:20:05,639
+ 
+
+967
+00:20:04,409 --> 00:20:07,229
+ through the entire process of a
+
+968
+00:20:05,629 --> 00:20:07,229
+ 
+
+969
+00:20:05,639 --> 00:20:08,999
+ harmonized standard and I've just told
+
+970
+00:20:07,219 --> 00:20:08,999
+ 
+
+971
+00:20:07,229 --> 00:20:11,099
+ you that a website accessibility that in
+
+972
+00:20:08,989 --> 00:20:11,099
+ 
+
+973
+00:20:08,999 --> 00:20:12,839
+ Burke very well so that's why I also
+
+974
+00:20:11,089 --> 00:20:12,839
+ 
+
+975
+00:20:11,099 --> 00:20:15,029
+ have some other ideas about how we can
+
+976
+00:20:12,829 --> 00:20:15,029
+ 
+
+977
+00:20:12,839 --> 00:20:17,339
+ ensure that there is deployment of some
+
+978
+00:20:15,019 --> 00:20:17,339
+ 
+
+979
+00:20:15,029 --> 00:20:19,259
+ of these privacy features the first is
+
+980
+00:20:17,329 --> 00:20:19,259
+ 
+
+981
+00:20:17,339 --> 00:20:21,690
+ the data protection regulation articles
+
+982
+00:20:19,249 --> 00:20:21,690
+ 
+
+983
+00:20:19,259 --> 00:20:24,329
+ 40 or 42 because they deal with codes of
+
+984
+00:20:21,680 --> 00:20:24,329
+ 
+
+985
+00:20:21,690 --> 00:20:25,679
+ conduct or certification in this case we
+
+986
+00:20:24,319 --> 00:20:25,679
+ 
+
+987
+00:20:24,329 --> 00:20:28,499
+ would need to support our data
+
+988
+00:20:25,669 --> 00:20:28,499
+ 
+
+989
+00:20:25,679 --> 00:20:31,249
+ protection regulatory bodies so doctor
+
+990
+00:20:28,489 --> 00:20:31,249
+ 
+
+991
+00:20:28,499 --> 00:20:33,749
+ Tilson attend Denmark or Kiel and France
+
+992
+00:20:31,239 --> 00:20:33,749
+ 
+
+993
+00:20:31,249 --> 00:20:35,039
+ the darkness shoots I forget what
+
+994
+00:20:33,739 --> 00:20:35,039
+ 
+
+995
+00:20:33,749 --> 00:20:37,259
+ they're called in Germany and so forth
+
+996
+00:20:35,029 --> 00:20:37,259
+ 
+
+997
+00:20:35,039 --> 00:20:39,659
+ to interact with some of the industry
+
+998
+00:20:37,249 --> 00:20:39,659
+ 
+
+999
+00:20:37,259 --> 00:20:41,249
+ institutions like Wi-Fi Alliance that
+
+1000
+00:20:39,649 --> 00:20:41,249
+ 
+
+1001
+00:20:39,659 --> 00:20:44,100
+ actually sat down certification
+
+1002
+00:20:41,239 --> 00:20:44,100
+ 
+
+1003
+00:20:41,249 --> 00:20:45,750
+ requirements for Wi-Fi equipment
+
+1004
+00:20:44,090 --> 00:20:45,750
+ 
+
+1005
+00:20:44,100 --> 00:20:47,070
+ this might be able to take the form of a
+
+1006
+00:20:45,740 --> 00:20:47,070
+ 
+
+1007
+00:20:45,750 --> 00:20:49,440
+ code of conduct or a certification
+
+1008
+00:20:47,060 --> 00:20:49,440
+ 
+
+1009
+00:20:47,070 --> 00:20:52,230
+ program but I'm pretty sure that if we
+
+1010
+00:20:49,430 --> 00:20:52,230
+ 
+
+1011
+00:20:49,440 --> 00:20:55,470
+ can get if these previously enhancing
+
+1012
+00:20:52,220 --> 00:20:55,470
+ 
+
+1013
+00:20:52,230 --> 00:20:57,420
+ features were to be considered data
+
+1014
+00:20:55,460 --> 00:20:57,420
+ 
+
+1015
+00:20:55,470 --> 00:20:59,460
+ protection by design for instance that
+
+1016
+00:20:57,410 --> 00:20:59,460
+ 
+
+1017
+00:20:57,420 --> 00:21:01,170
+ would be a strong incentive on industry
+
+1018
+00:20:59,450 --> 00:21:01,170
+ 
+
+1019
+00:20:59,460 --> 00:21:04,020
+ to actually implement these features
+
+1020
+00:21:01,160 --> 00:21:04,020
+ 
+
+1021
+00:21:01,170 --> 00:21:06,180
+ which are already standardized we can
+
+1022
+00:21:04,010 --> 00:21:06,180
+ 
+
+1023
+00:21:04,020 --> 00:21:08,520
+ also support public procurements there's
+
+1024
+00:21:06,170 --> 00:21:08,520
+ 
+
+1025
+00:21:06,180 --> 00:21:11,460
+ the Wi-Fi for EU programme which hands
+
+1026
+00:21:08,510 --> 00:21:11,460
+ 
+
+1027
+00:21:08,520 --> 00:21:13,800
+ out money to municipalities so you could
+
+1028
+00:21:11,450 --> 00:21:13,800
+ 
+
+1029
+00:21:11,460 --> 00:21:15,660
+ try to assist either the European
+
+1030
+00:21:13,790 --> 00:21:15,660
+ 
+
+1031
+00:21:13,800 --> 00:21:17,880
+ Commission or municipalities that are
+
+1032
+00:21:15,650 --> 00:21:17,880
+ 
+
+1033
+00:21:15,660 --> 00:21:19,950
+ trying to access this money in putting
+
+1034
+00:21:17,870 --> 00:21:19,950
+ 
+
+1035
+00:21:17,880 --> 00:21:21,660
+ the right requirements and equipment so
+
+1036
+00:21:19,940 --> 00:21:21,660
+ 
+
+1037
+00:21:19,950 --> 00:21:23,610
+ that they request features which are
+
+1038
+00:21:21,650 --> 00:21:23,610
+ 
+
+1039
+00:21:21,660 --> 00:21:27,120
+ already under standard from the vendors
+
+1040
+00:21:23,600 --> 00:21:27,120
+ 
+
+1041
+00:21:23,610 --> 00:21:29,340
+ that sell it I think both of the two
+
+1042
+00:21:27,110 --> 00:21:29,340
+ 
+
+1043
+00:21:27,120 --> 00:21:31,410
+ latter points like either the gdpr or
+
+1044
+00:21:29,330 --> 00:21:31,410
+ 
+
+1045
+00:21:29,340 --> 00:21:33,090
+ public procurements is a quicker way of
+
+1046
+00:21:31,400 --> 00:21:33,090
+ 
+
+1047
+00:21:31,410 --> 00:21:35,370
+ me showing that we can benefit from
+
+1048
+00:21:33,080 --> 00:21:35,370
+ 
+
+1049
+00:21:33,090 --> 00:21:37,500
+ privacy standards then the radio
+
+1050
+00:21:35,360 --> 00:21:37,500
+ 
+
+1051
+00:21:35,370 --> 00:21:38,760
+ equipment directive would be but either
+
+1052
+00:21:37,490 --> 00:21:38,760
+ 
+
+1053
+00:21:37,500 --> 00:21:41,640
+ of these three methods would be
+
+1054
+00:21:38,750 --> 00:21:41,640
+ 
+
+1055
+00:21:38,760 --> 00:21:43,350
+ perfectly fine the only challenge for
+
+1056
+00:21:41,630 --> 00:21:43,350
+ 
+
+1057
+00:21:41,640 --> 00:21:45,600
+ somebody who does not regularly work
+
+1058
+00:21:43,340 --> 00:21:45,600
+ 
+
+1059
+00:21:43,350 --> 00:21:47,550
+ with regulatory authorities would be
+
+1060
+00:21:45,590 --> 00:21:47,550
+ 
+
+1061
+00:21:45,600 --> 00:21:50,100
+ that it can be a bit messy to realize
+
+1062
+00:21:47,540 --> 00:21:50,100
+ 
+
+1063
+00:21:47,550 --> 00:21:52,410
+ exactly how you get stuff moving in the
+
+1064
+00:21:50,090 --> 00:21:52,410
+ 
+
+1065
+00:21:50,100 --> 00:21:54,150
+ implementation of law interacting with
+
+1066
+00:21:52,400 --> 00:21:54,150
+ 
+
+1067
+00:21:52,410 --> 00:21:55,440
+ parliamentarians is easier because you
+
+1068
+00:21:54,140 --> 00:21:55,440
+ 
+
+1069
+00:21:54,150 --> 00:21:57,690
+ just send them an email and then it's
+
+1070
+00:21:55,430 --> 00:21:57,690
+ 
+
+1071
+00:21:55,440 --> 00:21:59,820
+ their problem regulatory authorities
+
+1072
+00:21:57,680 --> 00:21:59,820
+ 
+
+1073
+00:21:57,690 --> 00:22:02,240
+ might request you to have technical
+
+1074
+00:21:59,810 --> 00:22:02,240
+ 
+
+1075
+00:21:59,820 --> 00:22:04,680
+ knowledge or write reports and you know
+
+1076
+00:22:02,230 --> 00:22:04,680
+ 
+
+1077
+00:22:02,240 --> 00:22:09,450
+ they also have larger requirements on
+
+1078
+00:22:04,670 --> 00:22:09,450
+ 
+
+1079
+00:22:04,680 --> 00:22:11,190
+ their work in the 3gpp and mobile
+
+1080
+00:22:09,440 --> 00:22:11,190
+ 
+
+1081
+00:22:09,450 --> 00:22:12,900
+ networks I think it's more a challenge
+
+1082
+00:22:11,180 --> 00:22:12,900
+ 
+
+1083
+00:22:11,190 --> 00:22:15,510
+ of how do we ensure that European values
+
+1084
+00:22:12,890 --> 00:22:15,510
+ 
+
+1085
+00:22:12,900 --> 00:22:17,070
+ prevail because as I described there's
+
+1086
+00:22:15,500 --> 00:22:17,070
+ 
+
+1087
+00:22:15,510 --> 00:22:20,340
+ the struggle between the Member States
+
+1088
+00:22:17,060 --> 00:22:20,340
+ 
+
+1089
+00:22:17,070 --> 00:22:22,560
+ and the European values and so how can
+
+1090
+00:22:20,330 --> 00:22:22,560
+ 
+
+1091
+00:22:20,340 --> 00:22:25,290
+ you counterbalance that it's much more
+
+1092
+00:22:22,550 --> 00:22:25,290
+ 
+
+1093
+00:22:22,560 --> 00:22:26,670
+ tricky because national security
+
+1094
+00:22:25,280 --> 00:22:26,670
+ 
+
+1095
+00:22:25,290 --> 00:22:28,530
+ interests normally worked really
+
+1096
+00:22:26,660 --> 00:22:28,530
+ 
+
+1097
+00:22:26,670 --> 00:22:31,110
+ long-term it's like this real-time
+
+1098
+00:22:28,520 --> 00:22:31,110
+ 
+
+1099
+00:22:28,530 --> 00:22:35,100
+ access standard which they pass in 97
+
+1100
+00:22:31,100 --> 00:22:35,100
+ 
+
+1101
+00:22:31,110 --> 00:22:36,840
+ only to make legislative proposals 15
+
+1102
+00:22:35,090 --> 00:22:36,840
+ 
+
+1103
+00:22:35,100 --> 00:22:38,850
+ years later
+
+1104
+00:22:36,830 --> 00:22:38,850
+ 
+
+1105
+00:22:36,840 --> 00:22:41,160
+ so whatever countering strategy you have
+
+1106
+00:22:38,840 --> 00:22:41,160
+ 
+
+1107
+00:22:38,850 --> 00:22:43,020
+ for these public authorities that bully
+
+1108
+00:22:41,150 --> 00:22:43,020
+ 
+
+1109
+00:22:41,160 --> 00:22:45,120
+ companies into not developing privacy
+
+1110
+00:22:43,010 --> 00:22:45,120
+ 
+
+1111
+00:22:43,020 --> 00:22:49,140
+ and security it needs to probably be
+
+1112
+00:22:45,110 --> 00:22:49,140
+ 
+
+1113
+00:22:45,120 --> 00:22:52,070
+ like long term one of the methods that I
+
+1114
+00:22:49,130 --> 00:22:52,070
+ 
+
+1115
+00:22:49,140 --> 00:22:54,300
+ could spontaneously think of is again
+
+1116
+00:22:52,060 --> 00:22:54,300
+ 
+
+1117
+00:22:52,070 --> 00:22:57,420
+ ensuring that there's counterbalancing
+
+1118
+00:22:54,290 --> 00:22:57,420
+ 
+
+1119
+00:22:54,300 --> 00:22:57,630
+ representation in the 3gpp so NGOs can
+
+1120
+00:22:57,410 --> 00:22:57,630
+ 
+
+1121
+00:22:57,420 --> 00:22:59,940
+ do
+
+1122
+00:22:57,620 --> 00:22:59,940
+ 
+
+1123
+00:22:57,630 --> 00:23:01,799
+ like article 19 is doing of course it
+
+1124
+00:22:59,930 --> 00:23:01,799
+ 
+
+1125
+00:22:59,940 --> 00:23:02,309
+ requires a lot of resources money and
+
+1126
+00:23:01,789 --> 00:23:02,309
+ 
+
+1127
+00:23:01,799 --> 00:23:04,799
+ time
+
+1128
+00:23:02,299 --> 00:23:04,799
+ 
+
+1129
+00:23:02,309 --> 00:23:07,440
+ 3gpp is full of big companies so they
+
+1130
+00:23:04,789 --> 00:23:07,440
+ 
+
+1131
+00:23:04,799 --> 00:23:11,429
+ organize meetings all the time one could
+
+1132
+00:23:07,430 --> 00:23:11,429
+ 
+
+1133
+00:23:07,440 --> 00:23:13,860
+ spend one could not even be in enough
+
+1134
+00:23:11,419 --> 00:23:13,860
+ 
+
+1135
+00:23:11,429 --> 00:23:16,620
+ meetings to cover the 3gpp as one person
+
+1136
+00:23:13,850 --> 00:23:16,620
+ 
+
+1137
+00:23:13,860 --> 00:23:19,350
+ one would need at least three and so
+
+1138
+00:23:16,610 --> 00:23:19,350
+ 
+
+1139
+00:23:16,620 --> 00:23:21,450
+ that's a challenge for NGOs another
+
+1140
+00:23:19,340 --> 00:23:21,450
+ 
+
+1141
+00:23:19,350 --> 00:23:23,160
+ method of doing it is getting public
+
+1142
+00:23:21,440 --> 00:23:23,160
+ 
+
+1143
+00:23:21,450 --> 00:23:24,480
+ authorities to start monitoring and
+
+1144
+00:23:23,150 --> 00:23:24,480
+ 
+
+1145
+00:23:23,160 --> 00:23:25,770
+ counterbalancing other public
+
+1146
+00:23:24,470 --> 00:23:25,770
+ 
+
+1147
+00:23:24,480 --> 00:23:27,780
+ authorities like data protection
+
+1148
+00:23:25,760 --> 00:23:27,780
+ 
+
+1149
+00:23:25,770 --> 00:23:30,080
+ authorities have a real interest
+
+1150
+00:23:27,770 --> 00:23:30,080
+ 
+
+1151
+00:23:27,780 --> 00:23:32,130
+ I believe in monitoring the 3gpp
+
+1152
+00:23:30,070 --> 00:23:32,130
+ 
+
+1153
+00:23:30,080 --> 00:23:34,679
+ especially since we appear to be having
+
+1154
+00:23:32,120 --> 00:23:34,679
+ 
+
+1155
+00:23:32,130 --> 00:23:37,049
+ public authorities actively encouraging
+
+1156
+00:23:34,669 --> 00:23:37,049
+ 
+
+1157
+00:23:34,679 --> 00:23:39,210
+ or even forcing companies to reflect on
+
+1158
+00:23:37,039 --> 00:23:39,210
+ 
+
+1159
+00:23:37,049 --> 00:23:41,100
+ business models that technically are not
+
+1160
+00:23:39,200 --> 00:23:41,100
+ 
+
+1161
+00:23:39,210 --> 00:23:44,159
+ in line with what the European law
+
+1162
+00:23:41,090 --> 00:23:44,159
+ 
+
+1163
+00:23:41,100 --> 00:23:45,809
+ prescribes here again that's mostly a
+
+1164
+00:23:44,149 --> 00:23:45,809
+ 
+
+1165
+00:23:44,159 --> 00:23:47,370
+ question of being able to boost the
+
+1166
+00:23:45,799 --> 00:23:47,370
+ 
+
+1167
+00:23:45,809 --> 00:23:49,200
+ self-confidence of data protection
+
+1168
+00:23:47,360 --> 00:23:49,200
+ 
+
+1169
+00:23:47,370 --> 00:23:51,450
+ authorities which in many European
+
+1170
+00:23:49,190 --> 00:23:51,450
+ 
+
+1171
+00:23:49,200 --> 00:23:54,210
+ countries are full of lawyers lot of
+
+1172
+00:23:51,440 --> 00:23:54,210
+ 
+
+1173
+00:23:51,450 --> 00:23:57,150
+ technical persons so there's a kind of
+
+1174
+00:23:54,200 --> 00:23:57,150
+ 
+
+1175
+00:23:54,210 --> 00:23:59,640
+ knowledge gap to be divided to be
+
+1176
+00:23:57,140 --> 00:23:59,640
+ 
+
+1177
+00:23:57,150 --> 00:24:02,610
+ bridged in this case that knowledge
+
+1178
+00:23:59,630 --> 00:24:02,610
+ 
+
+1179
+00:23:59,640 --> 00:24:04,080
+ divide where more people who work with
+
+1180
+00:24:02,600 --> 00:24:04,080
+ 
+
+1181
+00:24:02,610 --> 00:24:06,120
+ the enforcement of privacy norms
+
+1182
+00:24:04,070 --> 00:24:06,120
+ 
+
+1183
+00:24:04,080 --> 00:24:07,890
+ especially the European ones need to
+
+1184
+00:24:06,110 --> 00:24:07,890
+ 
+
+1185
+00:24:06,120 --> 00:24:10,650
+ have the self confidence that they can
+
+1186
+00:24:07,880 --> 00:24:10,650
+ 
+
+1187
+00:24:07,890 --> 00:24:12,900
+ actually usefully defend them also at
+
+1188
+00:24:10,640 --> 00:24:12,900
+ 
+
+1189
+00:24:10,650 --> 00:24:14,039
+ the technical standards layers these are
+
+1190
+00:24:12,890 --> 00:24:14,039
+ 
+
+1191
+00:24:12,900 --> 00:24:15,780
+ some of the things that I've been
+
+1192
+00:24:14,029 --> 00:24:15,780
+ 
+
+1193
+00:24:14,039 --> 00:24:18,720
+ working with article 19 to develop
+
+1194
+00:24:15,770 --> 00:24:18,720
+ 
+
+1195
+00:24:15,780 --> 00:24:21,539
+ systematic approaches to but if one is
+
+1196
+00:24:18,710 --> 00:24:21,539
+ 
+
+1197
+00:24:18,720 --> 00:24:24,000
+ interested in working on this as well or
+
+1198
+00:24:21,529 --> 00:24:24,000
+ 
+
+1199
+00:24:21,539 --> 00:24:25,590
+ if you can provide technical feedback on
+
+1200
+00:24:23,990 --> 00:24:25,590
+ 
+
+1201
+00:24:24,000 --> 00:24:28,590
+ the information that we're trying to
+
+1202
+00:24:25,580 --> 00:24:28,590
+ 
+
+1203
+00:24:25,590 --> 00:24:29,970
+ compile please be please feel free to
+
+1204
+00:24:28,580 --> 00:24:29,970
+ 
+
+1205
+00:24:28,590 --> 00:24:34,909
+ reach out to me and I can send you some
+
+1206
+00:24:29,960 --> 00:24:34,909
+ 
+
+1207
+00:24:29,970 --> 00:24:37,110
+ documents over email and we can talk I
+
+1208
+00:24:34,899 --> 00:24:37,110
+ 
+
+1209
+00:24:34,909 --> 00:24:39,140
+ think that's the last one on my science
+
+1210
+00:24:37,100 --> 00:24:39,140
+ 
+
+1211
+00:24:37,110 --> 00:24:44,370
+ actually because I forgot to make the
+
+1212
+00:24:39,130 --> 00:24:44,370
+ 
+
+1213
+00:24:39,140 --> 00:24:45,600
+ final slide but those were in the things
+
+1214
+00:24:44,360 --> 00:24:45,600
+ 
+
+1215
+00:24:44,370 --> 00:24:46,830
+ that I wanted to propose and I want to
+
+1216
+00:24:45,590 --> 00:24:46,830
+ 
+
+1217
+00:24:45,600 --> 00:24:48,480
+ thank you all for your attention and
+
+1218
+00:24:46,820 --> 00:24:48,480
+ 
+
+1219
+00:24:46,830 --> 00:24:51,090
+ time and if you have any other questions
+
+1220
+00:24:48,470 --> 00:24:51,090
+ 
+
+1221
+00:24:48,480 --> 00:24:53,600
+ you can speak with me after or even ask
+
+1222
+00:24:51,080 --> 00:24:53,600
+ 
+
+1223
+00:24:51,090 --> 00:24:53,600
+ questions now
+
+1224
+00:24:54,090 --> 00:24:54,090
+ 
+
+1225
+00:24:54,100 --> 00:25:04,299
+[Applause]
+
+1226
+00:25:00,510 --> 00:25:04,299
+ 
+
+1227
+00:25:00,520 --> 00:25:04,299
+ we do have time for questions
+
+1228
+00:25:09,360 --> 00:25:09,360
+ 
+
+1229
+00:25:09,370 --> 00:25:14,810
+ I'm just thinking that the system of
+
+1230
+00:25:11,920 --> 00:25:14,810
+ 
+
+1231
+00:25:11,930 --> 00:25:17,150
+ having standardization that is not like
+
+1232
+00:25:14,800 --> 00:25:17,150
+ 
+
+1233
+00:25:14,810 --> 00:25:19,250
+ you don't need to follow it it's just
+
+1234
+00:25:17,140 --> 00:25:19,250
+ 
+
+1235
+00:25:17,150 --> 00:25:21,440
+ bound to fail in some ways because
+
+1236
+00:25:19,240 --> 00:25:21,440
+ 
+
+1237
+00:25:19,250 --> 00:25:23,660
+ what's the reason for a company choosing
+
+1238
+00:25:21,430 --> 00:25:23,660
+ 
+
+1239
+00:25:21,440 --> 00:25:28,130
+ to follow a standard the standard is
+
+1240
+00:25:23,650 --> 00:25:28,130
+ 
+
+1241
+00:25:23,660 --> 00:25:33,890
+ yeah because what do they have to lose
+
+1242
+00:25:28,120 --> 00:25:33,890
+ 
+
+1243
+00:25:28,130 --> 00:25:35,690
+ if they don't follow it well so in
+
+1244
+00:25:33,880 --> 00:25:35,690
+ 
+
+1245
+00:25:33,890 --> 00:25:38,360
+ Sweden for instance there is recently a
+
+1246
+00:25:35,680 --> 00:25:38,360
+ 
+
+1247
+00:25:35,690 --> 00:25:41,200
+ proposal just at the end of May in 2019
+
+1248
+00:25:38,350 --> 00:25:41,200
+ 
+
+1249
+00:25:38,360 --> 00:25:43,790
+ that the licenses which allow electronic
+
+1250
+00:25:41,190 --> 00:25:43,790
+ 
+
+1251
+00:25:41,200 --> 00:25:46,280
+ communications operators to to even be
+
+1252
+00:25:43,780 --> 00:25:46,280
+ 
+
+1253
+00:25:43,790 --> 00:25:47,660
+ companies and provide services would be
+
+1254
+00:25:46,270 --> 00:25:47,660
+ 
+
+1255
+00:25:46,280 --> 00:25:49,940
+ subjected to the scrutiny of
+
+1256
+00:25:47,650 --> 00:25:49,940
+ 
+
+1257
+00:25:47,660 --> 00:25:53,930
+ intelligence services and the security
+
+1258
+00:25:49,930 --> 00:25:53,930
+ 
+
+1259
+00:25:49,940 --> 00:25:55,840
+ services so I think the data protection
+
+1260
+00:25:53,920 --> 00:25:55,840
+ 
+
+1261
+00:25:53,930 --> 00:25:58,580
+ authorities in general do not have the
+
+1262
+00:25:55,830 --> 00:25:58,580
+ 
+
+1263
+00:25:55,840 --> 00:26:00,860
+ competence to block companies from
+
+1264
+00:25:58,570 --> 00:26:00,860
+ 
+
+1265
+00:25:58,580 --> 00:26:04,520
+ participating on a market but law
+
+1266
+00:26:00,850 --> 00:26:04,520
+ 
+
+1267
+00:26:00,860 --> 00:26:05,870
+ enforcement and security services do so
+
+1268
+00:26:04,510 --> 00:26:05,870
+ 
+
+1269
+00:26:04,520 --> 00:26:08,750
+ the companies have really strong
+
+1270
+00:26:05,860 --> 00:26:08,750
+ 
+
+1271
+00:26:05,870 --> 00:26:10,280
+ incentives to follow the requirements of
+
+1272
+00:26:08,740 --> 00:26:10,280
+ 
+
+1273
+00:26:08,750 --> 00:26:13,460
+ law of law enforcement and the
+
+1274
+00:26:10,270 --> 00:26:13,460
+ 
+
+1275
+00:26:10,280 --> 00:26:15,740
+ disrespect I have an idea like a
+
+1276
+00:26:13,450 --> 00:26:15,740
+ 
+
+1277
+00:26:13,460 --> 00:26:19,850
+ different kind of system because instead
+
+1278
+00:26:15,730 --> 00:26:19,850
+ 
+
+1279
+00:26:15,740 --> 00:26:22,640
+ of like punishing companies in some way
+
+1280
+00:26:19,840 --> 00:26:22,640
+ 
+
+1281
+00:26:19,850 --> 00:26:26,870
+ of not following like the idea
+
+1282
+00:26:22,630 --> 00:26:26,870
+ 
+
+1283
+00:26:22,640 --> 00:26:29,390
+ idealistic behavior and the problem
+
+1284
+00:26:26,860 --> 00:26:29,390
+ 
+
+1285
+00:26:26,870 --> 00:26:31,040
+ about that is that a somebody needs to
+
+1286
+00:26:29,380 --> 00:26:31,040
+ 
+
+1287
+00:26:29,390 --> 00:26:34,610
+ find out that they're not following this
+
+1288
+00:26:31,030 --> 00:26:34,610
+ 
+
+1289
+00:26:31,040 --> 00:26:36,800
+ as a behavior so they can just like a
+
+1290
+00:26:34,600 --> 00:26:36,800
+ 
+
+1291
+00:26:34,610 --> 00:26:39,470
+ black box and they can just hide their
+
+1292
+00:26:36,790 --> 00:26:39,470
+ 
+
+1293
+00:26:36,800 --> 00:26:41,540
+ behavior behind the facade of the
+
+1294
+00:26:39,460 --> 00:26:41,540
+ 
+
+1295
+00:26:39,470 --> 00:26:43,760
+ company right so if you make the
+
+1296
+00:26:41,530 --> 00:26:43,760
+ 
+
+1297
+00:26:41,540 --> 00:26:46,940
+ opposite make it the opposite way so you
+
+1298
+00:26:43,750 --> 00:26:46,940
+ 
+
+1299
+00:26:43,760 --> 00:26:48,410
+ actually get support from the state like
+
+1300
+00:26:46,930 --> 00:26:48,410
+ 
+
+1301
+00:26:46,940 --> 00:26:51,140
+ you get monetary support or something
+
+1302
+00:26:48,400 --> 00:26:51,140
+ 
+
+1303
+00:26:48,410 --> 00:26:52,820
+ like that from being as you can prove
+
+1304
+00:26:51,130 --> 00:26:52,820
+ 
+
+1305
+00:26:51,140 --> 00:26:54,740
+ yourself that you have a good behavior
+
+1306
+00:26:52,810 --> 00:26:54,740
+ 
+
+1307
+00:26:52,820 --> 00:26:56,150
+ so you make a good proof and every every
+
+1308
+00:26:54,730 --> 00:26:56,150
+ 
+
+1309
+00:26:54,740 --> 00:26:58,520
+ time we can make this proof that they
+
+1310
+00:26:56,140 --> 00:26:58,520
+ 
+
+1311
+00:26:56,150 --> 00:27:00,830
+ have some good behavior then you would
+
+1312
+00:26:58,510 --> 00:27:00,830
+ 
+
+1313
+00:26:58,520 --> 00:27:02,330
+ have everybody would like run towards
+
+1314
+00:27:00,820 --> 00:27:02,330
+ 
+
+1315
+00:27:00,830 --> 00:27:05,000
+ like oh yeah I can prove I'm the best
+
+1316
+00:27:02,320 --> 00:27:05,000
+ 
+
+1317
+00:27:02,330 --> 00:27:08,870
+ and then you don't need to get this body
+
+1318
+00:27:04,990 --> 00:27:08,870
+ 
+
+1319
+00:27:05,000 --> 00:27:10,700
+ that comes in and finds that the bad
+
+1320
+00:27:08,860 --> 00:27:10,700
+ 
+
+1321
+00:27:08,870 --> 00:27:15,020
+ behavior all signed they can work like
+
+1322
+00:27:10,690 --> 00:27:15,020
+ 
+
+1323
+00:27:10,700 --> 00:27:16,610
+ you can inverse the direction of it so I
+
+1324
+00:27:15,010 --> 00:27:16,610
+ 
+
+1325
+00:27:15,020 --> 00:27:18,170
+ think like the general data protection
+
+1326
+00:27:16,600 --> 00:27:18,170
+ 
+
+1327
+00:27:16,610 --> 00:27:20,390
+ regulation contains some of these
+
+1328
+00:27:18,160 --> 00:27:20,390
+ 
+
+1329
+00:27:18,170 --> 00:27:23,960
+ mechanisms codes of conducts and certain
+
+1330
+00:27:20,380 --> 00:27:23,960
+ 
+
+1331
+00:27:20,390 --> 00:27:25,850
+ occasions are really technically a part
+
+1332
+00:27:23,950 --> 00:27:25,850
+ 
+
+1333
+00:27:23,960 --> 00:27:27,650
+ of the European legislature trying to
+
+1334
+00:27:25,840 --> 00:27:27,650
+ 
+
+1335
+00:27:25,850 --> 00:27:30,440
+ say listen there are ways that you can
+
+1336
+00:27:27,640 --> 00:27:30,440
+ 
+
+1337
+00:27:27,650 --> 00:27:32,720
+ actively demonstrate compliance and ways
+
+1338
+00:27:30,430 --> 00:27:32,720
+ 
+
+1339
+00:27:30,440 --> 00:27:36,260
+ that we will accept so the legislature
+
+1340
+00:27:32,710 --> 00:27:36,260
+ 
+
+1341
+00:27:32,720 --> 00:27:38,660
+ tries but then the question is can the
+
+1342
+00:27:36,250 --> 00:27:38,660
+ 
+
+1343
+00:27:36,260 --> 00:27:40,520
+ can the regulatory bodies like the DPS
+
+1344
+00:27:38,650 --> 00:27:40,520
+ 
+
+1345
+00:27:38,660 --> 00:27:42,920
+ also effectively work with these tools
+
+1346
+00:27:40,510 --> 00:27:42,920
+ 
+
+1347
+00:27:40,520 --> 00:27:44,960
+ and I think at this particular time in
+
+1348
+00:27:42,910 --> 00:27:44,960
+ 
+
+1349
+00:27:42,920 --> 00:27:48,160
+ Europe there's been no approved code of
+
+1350
+00:27:44,950 --> 00:27:48,160
+ 
+
+1351
+00:27:44,960 --> 00:27:50,750
+ conduct under the GDP are the financial
+
+1352
+00:27:48,150 --> 00:27:50,750
+ 
+
+1353
+00:27:48,160 --> 00:27:52,610
+ mechanism that would encourage companies
+
+1354
+00:27:50,740 --> 00:27:52,610
+ 
+
+1355
+00:27:50,750 --> 00:27:55,850
+ to sign up to or create the code of
+
+1356
+00:27:52,600 --> 00:27:55,850
+ 
+
+1357
+00:27:52,610 --> 00:27:57,530
+ conduct is a bit dubious so the economic
+
+1358
+00:27:55,840 --> 00:27:57,530
+ 
+
+1359
+00:27:55,850 --> 00:28:00,170
+ model for the companies isn't really
+
+1360
+00:27:57,520 --> 00:28:00,170
+ 
+
+1361
+00:27:57,530 --> 00:28:02,900
+ there in the legislation updating the
+
+1362
+00:28:00,160 --> 00:28:02,900
+ 
+
+1363
+00:28:00,170 --> 00:28:09,320
+ GDP are with in the near future I will
+
+1364
+00:28:02,890 --> 00:28:09,320
+ 
+
+1365
+00:28:02,900 --> 00:28:10,910
+ not consider probably feasible and also
+
+1366
+00:28:09,310 --> 00:28:10,910
+ 
+
+1367
+00:28:09,320 --> 00:28:12,950
+ it is more likely actually to do damage
+
+1368
+00:28:10,900 --> 00:28:12,950
+ 
+
+1369
+00:28:10,910 --> 00:28:16,100
+ than to do good if you look at the e
+
+1370
+00:28:12,940 --> 00:28:16,100
+ 
+
+1371
+00:28:12,950 --> 00:28:17,600
+ privacy regulation and all of the member
+
+1372
+00:28:16,090 --> 00:28:17,600
+ 
+
+1373
+00:28:16,100 --> 00:28:19,610
+ states and companies that are now trying
+
+1374
+00:28:17,590 --> 00:28:19,610
+ 
+
+1375
+00:28:17,600 --> 00:28:21,110
+ to get special exceptions for themselves
+
+1376
+00:28:19,600 --> 00:28:21,110
+ 
+
+1377
+00:28:19,610 --> 00:28:22,970
+ but so there are some of those
+
+1378
+00:28:21,100 --> 00:28:22,970
+ 
+
+1379
+00:28:21,110 --> 00:28:25,940
+ mechanisms that you could work with by
+
+1380
+00:28:22,960 --> 00:28:25,940
+ 
+
+1381
+00:28:22,970 --> 00:28:27,320
+ supporting implementing bodies so rather
+
+1382
+00:28:25,930 --> 00:28:27,320
+ 
+
+1383
+00:28:25,940 --> 00:28:29,660
+ than making it a political discussion
+
+1384
+00:28:27,310 --> 00:28:29,660
+ 
+
+1385
+00:28:27,320 --> 00:28:31,340
+ you try to discuss with you know data
+
+1386
+00:28:29,650 --> 00:28:31,340
+ 
+
+1387
+00:28:29,660 --> 00:28:33,380
+ protection authorities about how do we
+
+1388
+00:28:31,330 --> 00:28:33,380
+ 
+
+1389
+00:28:31,340 --> 00:28:35,360
+ make the code of conduct codes of
+
+1390
+00:28:33,370 --> 00:28:35,360
+ 
+
+1391
+00:28:33,380 --> 00:28:38,080
+ conduct work for us can we make
+
+1392
+00:28:35,350 --> 00:28:38,080
+ 
+
+1393
+00:28:35,360 --> 00:28:40,130
+ certifications work in a good way or
+
+1394
+00:28:38,070 --> 00:28:40,130
+ 
+
+1395
+00:28:38,080 --> 00:28:43,040
+ alternatively you could support public
+
+1396
+00:28:40,120 --> 00:28:43,040
+ 
+
+1397
+00:28:40,130 --> 00:28:44,530
+ procurements so when a municipality is
+
+1398
+00:28:43,030 --> 00:28:44,530
+ 
+
+1399
+00:28:43,040 --> 00:28:47,840
+ trying to set up a public Wi-Fi network
+
+1400
+00:28:44,520 --> 00:28:47,840
+ 
+
+1401
+00:28:44,530 --> 00:28:49,880
+ that translates into the municipality
+
+1402
+00:28:47,830 --> 00:28:49,880
+ 
+
+1403
+00:28:47,840 --> 00:28:51,770
+ wanting to give somebody money right so
+
+1404
+00:28:49,870 --> 00:28:51,770
+ 
+
+1405
+00:28:49,880 --> 00:28:56,080
+ that's kind of a reward can you make
+
+1406
+00:28:51,760 --> 00:28:56,080
+ 
+
+1407
+00:28:51,770 --> 00:28:58,610
+ that reward contingent on the supplier
+
+1408
+00:28:56,070 --> 00:28:58,610
+ 
+
+1409
+00:28:56,080 --> 00:29:00,410
+ fulfilling some criteria which are
+
+1410
+00:28:58,600 --> 00:29:00,410
+ 
+
+1411
+00:28:58,610 --> 00:29:04,250
+ standardized and possible and
+
+1412
+00:29:00,400 --> 00:29:04,250
+ 
+
+1413
+00:29:00,410 --> 00:29:05,780
+ implementable by industry actors and in
+
+1414
+00:29:04,240 --> 00:29:05,780
+ 
+
+1415
+00:29:04,250 --> 00:29:07,910
+ that case how do you reach out to the
+
+1416
+00:29:05,770 --> 00:29:07,910
+ 
+
+1417
+00:29:05,780 --> 00:29:09,530
+ municipalities to tell them what the
+
+1418
+00:29:07,900 --> 00:29:09,530
+ 
+
+1419
+00:29:07,910 --> 00:29:11,090
+ good security standards are I mean for
+
+1420
+00:29:09,520 --> 00:29:11,090
+ 
+
+1421
+00:29:09,530 --> 00:29:13,010
+ Wi-Fi networks in particular there's a
+
+1422
+00:29:11,080 --> 00:29:13,010
+ 
+
+1423
+00:29:11,090 --> 00:29:15,410
+ bunch of things that you could that
+
+1424
+00:29:13,000 --> 00:29:15,410
+ 
+
+1425
+00:29:13,010 --> 00:29:17,600
+ municipalities normally do not do that
+
+1426
+00:29:15,400 --> 00:29:17,600
+ 
+
+1427
+00:29:15,410 --> 00:29:19,520
+ they could using the captive portal
+
+1428
+00:29:17,590 --> 00:29:19,520
+ 
+
+1429
+00:29:17,600 --> 00:29:21,020
+ standard from the IETF rather than
+
+1430
+00:29:19,510 --> 00:29:21,020
+ 
+
+1431
+00:29:19,520 --> 00:29:23,780
+ trying to man in the middle attack their
+
+1432
+00:29:21,010 --> 00:29:23,780
+ 
+
+1433
+00:29:21,020 --> 00:29:25,100
+ users for instance but I think in a lot
+
+1434
+00:29:23,770 --> 00:29:25,100
+ 
+
+1435
+00:29:23,780 --> 00:29:26,840
+ of the cases when they make these
+
+1436
+00:29:25,090 --> 00:29:26,840
+ 
+
+1437
+00:29:25,100 --> 00:29:28,280
+ procurements they're just not aware of
+
+1438
+00:29:26,830 --> 00:29:28,280
+ 
+
+1439
+00:29:26,840 --> 00:29:29,720
+ the technical tools that are out there
+
+1440
+00:29:28,270 --> 00:29:29,720
+ 
+
+1441
+00:29:28,280 --> 00:29:33,500
+ so they don't know what requirements to
+
+1442
+00:29:29,710 --> 00:29:33,500
+ 
+
+1443
+00:29:29,720 --> 00:29:34,260
+ put and on the European laws not in all
+
+1444
+00:29:33,490 --> 00:29:34,260
+ 
+
+1445
+00:29:33,500 --> 00:29:36,900
+ Member States
+
+1446
+00:29:34,250 --> 00:29:36,900
+ 
+
+1447
+00:29:34,260 --> 00:29:39,480
+ some significant number of member states
+
+1448
+00:29:36,890 --> 00:29:39,480
+ 
+
+1449
+00:29:36,900 --> 00:29:41,910
+ there's also this ridiculous issue that
+
+1450
+00:29:39,470 --> 00:29:41,910
+ 
+
+1451
+00:29:39,480 --> 00:29:44,670
+ they can't make in the procurement
+
+1452
+00:29:41,900 --> 00:29:44,670
+ 
+
+1453
+00:29:41,910 --> 00:29:46,920
+ requirements they can only refer to kind
+
+1454
+00:29:44,660 --> 00:29:46,920
+ 
+
+1455
+00:29:44,670 --> 00:29:51,450
+ of formally adopted harmonized standards
+
+1456
+00:29:46,910 --> 00:29:51,450
+ 
+
+1457
+00:29:46,920 --> 00:29:53,580
+ from Etsy not industry standards so one
+
+1458
+00:29:51,440 --> 00:29:53,580
+ 
+
+1459
+00:29:51,450 --> 00:29:55,350
+ could also try to work with public
+
+1460
+00:29:53,570 --> 00:29:55,350
+ 
+
+1461
+00:29:53,580 --> 00:29:56,490
+ sector institutions to see if there is a
+
+1462
+00:29:55,340 --> 00:29:56,490
+ 
+
+1463
+00:29:55,350 --> 00:29:59,700
+ way that they could benefit from
+
+1464
+00:29:56,480 --> 00:29:59,700
+ 
+
+1465
+00:29:56,490 --> 00:30:01,170
+ industry industry results rather than
+
+1466
+00:29:59,690 --> 00:30:01,170
+ 
+
+1467
+00:29:59,700 --> 00:30:03,330
+ just waiting for the European Commission
+
+1468
+00:30:01,160 --> 00:30:03,330
+ 
+
+1469
+00:30:01,170 --> 00:30:05,010
+ to issue mandates under the radio
+
+1470
+00:30:03,320 --> 00:30:05,010
+ 
+
+1471
+00:30:03,330 --> 00:30:07,440
+ equipment directive or whatever because
+
+1472
+00:30:05,000 --> 00:30:07,440
+ 
+
+1473
+00:30:05,010 --> 00:30:09,810
+ that's just really time consuming and
+
+1474
+00:30:07,430 --> 00:30:09,810
+ 
+
+1475
+00:30:07,440 --> 00:30:11,700
+ also not very cost-efficient so those
+
+1476
+00:30:09,800 --> 00:30:11,700
+ 
+
+1477
+00:30:09,810 --> 00:30:13,670
+ are the thing those are the venues that
+
+1478
+00:30:11,690 --> 00:30:13,670
+ 
+
+1479
+00:30:11,700 --> 00:30:15,990
+ I see for none of them are fairly easy
+
+1480
+00:30:13,660 --> 00:30:15,990
+ 
+
+1481
+00:30:13,670 --> 00:30:20,040
+ but they're the intuitive venues that I
+
+1482
+00:30:15,980 --> 00:30:20,040
+ 
+
+1483
+00:30:15,990 --> 00:30:22,020
+ see for getting for having this reward
+
+1484
+00:30:20,030 --> 00:30:22,020
+ 
+
+1485
+00:30:20,040 --> 00:30:24,110
+ system and having some benefit from the
+
+1486
+00:30:22,010 --> 00:30:24,110
+ 
+
+1487
+00:30:22,020 --> 00:30:25,980
+ privacy developments in standards bodies
+
+1488
+00:30:24,100 --> 00:30:25,980
+ 
+
+1489
+00:30:24,110 --> 00:30:31,560
+ 3gpp is just completely different
+
+1490
+00:30:25,970 --> 00:30:31,560
+ 
+
+1491
+00:30:25,980 --> 00:30:32,700
+ because it's because they're it's
+
+1492
+00:30:31,550 --> 00:30:32,700
+ 
+
+1493
+00:30:31,560 --> 00:30:34,710
+ actually about like a posting
+
+1494
+00:30:32,690 --> 00:30:34,710
+ 
+
+1495
+00:30:32,700 --> 00:30:37,350
+ punishments yeah and so law enforcement
+
+1496
+00:30:34,700 --> 00:30:37,350
+ 
+
+1497
+00:30:34,710 --> 00:30:39,240
+ is the more credible stick is
+
+1498
+00:30:37,340 --> 00:30:39,240
+ 
+
+1499
+00:30:37,350 --> 00:30:40,620
+ essentially the problem so you need to
+
+1500
+00:30:39,230 --> 00:30:40,620
+ 
+
+1501
+00:30:39,240 --> 00:30:42,270
+ make somebody else the more credible
+
+1502
+00:30:40,610 --> 00:30:42,270
+ 
+
+1503
+00:30:40,620 --> 00:30:44,640
+ stick because I don't think otherwise
+
+1504
+00:30:42,260 --> 00:30:44,640
+ 
+
+1505
+00:30:42,270 --> 00:30:46,260
+ you ordeal with this fact that member
+
+1506
+00:30:44,630 --> 00:30:46,260
+ 
+
+1507
+00:30:44,640 --> 00:30:48,720
+ states are not actually contributing to
+
+1508
+00:30:46,250 --> 00:30:48,720
+ 
+
+1509
+00:30:46,260 --> 00:30:49,590
+ the European legislative the
+
+1510
+00:30:48,710 --> 00:30:49,590
+ 
+
+1511
+00:30:48,720 --> 00:30:51,810
+ implementation of the European
+
+1512
+00:30:49,580 --> 00:30:51,810
+ 
+
+1513
+00:30:49,590 --> 00:30:53,700
+ legislative framework it's really
+
+1514
+00:30:51,800 --> 00:30:53,700
+ 
+
+1515
+00:30:51,810 --> 00:30:55,890
+ catastrophic even if you were not a
+
+1516
+00:30:53,690 --> 00:30:55,890
+ 
+
+1517
+00:30:53,700 --> 00:30:57,330
+ privacy friendly person or you may
+
+1518
+00:30:55,880 --> 00:30:57,330
+ 
+
+1519
+00:30:55,890 --> 00:30:59,790
+ rights friendly person I would assume
+
+1520
+00:30:57,320 --> 00:30:59,790
+ 
+
+1521
+00:30:57,330 --> 00:31:02,610
+ that you consider this a big problem
+
+1522
+00:30:59,780 --> 00:31:02,610
+ 
+
+1523
+00:30:59,790 --> 00:31:06,230
+ because you cannot have a company stuck
+
+1524
+00:31:02,600 --> 00:31:06,230
+ 
+
+1525
+00:31:02,610 --> 00:31:06,230
+ in the middle of opposing
+
+1526
+00:31:06,760 --> 00:31:06,760
+ 
+
+1527
+00:31:06,770 --> 00:31:12,120
+ opposing political directions there's
+
+1528
+00:31:10,430 --> 00:31:12,120
+ 
+
+1529
+00:31:10,440 --> 00:31:14,040
+ one thing that industry really doesn't
+
+1530
+00:31:12,110 --> 00:31:14,040
+ 
+
+1531
+00:31:12,120 --> 00:31:16,440
+ like it's normally being tugged in
+
+1532
+00:31:14,030 --> 00:31:16,440
+ 
+
+1533
+00:31:14,040 --> 00:31:21,090
+ opposite directions they want stability
+
+1534
+00:31:16,430 --> 00:31:21,090
+ 
+
+1535
+00:31:16,440 --> 00:31:22,800
+ and foreseeability I of course will
+
+1536
+00:31:21,080 --> 00:31:22,800
+ 
+
+1537
+00:31:21,090 --> 00:31:26,070
+ prefer if they ended up to the right of
+
+1538
+00:31:22,790 --> 00:31:26,070
+ 
+
+1539
+00:31:22,800 --> 00:31:28,710
+ my slides with data protection and the
+
+1540
+00:31:26,060 --> 00:31:28,710
+ 
+
+1541
+00:31:26,070 --> 00:31:30,570
+ European Union but another way to get
+
+1542
+00:31:28,700 --> 00:31:30,570
+ 
+
+1543
+00:31:28,710 --> 00:31:32,040
+ foreseeability for industry is to simply
+
+1544
+00:31:30,560 --> 00:31:32,040
+ 
+
+1545
+00:31:30,570 --> 00:31:33,510
+ go in the other direction and say we'll
+
+1546
+00:31:32,030 --> 00:31:33,510
+ 
+
+1547
+00:31:32,040 --> 00:31:34,770
+ do whatever the member states say and
+
+1548
+00:31:33,500 --> 00:31:34,770
+ 
+
+1549
+00:31:33,510 --> 00:31:36,660
+ whatever is required for national
+
+1550
+00:31:34,760 --> 00:31:36,660
+ 
+
+1551
+00:31:34,770 --> 00:31:41,360
+ security and that's a more like a macro
+
+1552
+00:31:36,650 --> 00:31:41,360
+ 
+
+1553
+00:31:36,660 --> 00:31:41,360
+ political conflict I guess
+
+1554
+00:31:44,590 --> 00:31:44,590
+ 
+
+1555
+00:31:44,600 --> 00:31:53,650
+ do we have any more questions no then
+
+1556
+00:31:51,350 --> 00:31:53,650
+ 
+
+1557
+00:31:51,360 --> 00:31:57,949
+ let's give a big applause
+
+1558
+00:31:53,640 --> 00:31:57,949
+ 
+
+1559
+00:31:53,650 --> 00:31:57,949
+[Applause]

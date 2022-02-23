@@ -1,0 +1,6139 @@
+1
+00:00:01,640 --> 00:00:04,040
+The following content is
+provided under a Creative
+
+2
+00:00:04,040 --> 00:00:05,580
+Commons license.
+
+3
+00:00:05,580 --> 00:00:07,880
+Your support will help
+MIT OpenCourseWare
+
+4
+00:00:07,880 --> 00:00:12,270
+continue to offer high quality
+educational resources for free.
+
+5
+00:00:12,270 --> 00:00:14,870
+To make a donation or
+view additional materials
+
+6
+00:00:14,870 --> 00:00:18,830
+from hundreds of MIT courses,
+visit MIT OpenCourseWare
+
+7
+00:00:18,830 --> 00:00:21,965
+at ocw.mit.edu.
+
+8
+00:00:21,965 --> 00:00:23,960
+REBECCA SAXE: I was
+supposed to go before Ken,
+
+9
+00:00:23,960 --> 00:00:28,010
+and thank goodness Ken insisted
+he went before me, because
+
+10
+00:00:28,010 --> 00:00:30,530
+in some ways that was the
+most amazing introduction
+
+11
+00:00:30,530 --> 00:00:33,910
+to my research program that you
+could possibly have ever had.
+
+12
+00:00:33,910 --> 00:00:37,970
+And it articulated deeply
+why social intelligence
+
+13
+00:00:37,970 --> 00:00:39,770
+should pervade our
+thinking about the mind
+
+14
+00:00:39,770 --> 00:00:42,140
+and brain and the
+range of phenomena
+
+15
+00:00:42,140 --> 00:00:44,510
+that people mean in
+social intelligence--
+
+16
+00:00:44,510 --> 00:00:48,080
+from extremely complex phenomena
+that govern the interactions
+
+17
+00:00:48,080 --> 00:00:51,380
+of large groups of
+people, like war,
+
+18
+00:00:51,380 --> 00:00:54,260
+to incredibly minute
+phenomena, like
+
+19
+00:00:54,260 --> 00:00:56,700
+whether you can get your
+hand to a target in 100
+
+20
+00:00:56,700 --> 00:00:58,110
+milliseconds or less.
+
+21
+00:00:58,110 --> 00:01:00,500
+I think that when people
+talk about social cognition
+
+22
+00:01:00,500 --> 00:01:03,830
+they do actually mean
+all of those things.
+
+23
+00:01:03,830 --> 00:01:05,990
+And that is both
+thrilling-- when
+
+24
+00:01:05,990 --> 00:01:08,810
+you work in social cognition--
+and also terrifying,
+
+25
+00:01:08,810 --> 00:01:13,370
+especially when people are
+hoping for a coherent theory
+
+26
+00:01:13,370 --> 00:01:14,780
+of all of that.
+
+27
+00:01:14,780 --> 00:01:18,341
+I think that trying to get a
+coherent account of everything
+
+28
+00:01:18,341 --> 00:01:20,840
+from your hand motions and your
+perception of other people's
+
+29
+00:01:20,840 --> 00:01:26,360
+hand motions all the way
+to politics and sociology
+
+30
+00:01:26,360 --> 00:01:29,700
+is daunting and,
+frankly, deeply unlikely.
+
+31
+00:01:29,700 --> 00:01:34,010
+And so, by contrast to Ken--
+
+32
+00:01:34,010 --> 00:01:37,130
+who starts with, let's
+look at social interactions
+
+33
+00:01:37,130 --> 00:01:39,800
+and see what's
+there, which I think
+
+34
+00:01:39,800 --> 00:01:41,570
+is a very awesome approach--
+
+35
+00:01:41,570 --> 00:01:43,820
+I'm going to take almost
+the opposite approach, which
+
+36
+00:01:43,820 --> 00:01:46,400
+is say, there's one thing
+that's probably there a lot.
+
+37
+00:01:46,400 --> 00:01:49,790
+Let's try to study that one
+thing in many different ways
+
+38
+00:01:49,790 --> 00:01:51,110
+and contexts.
+
+39
+00:01:51,110 --> 00:01:53,940
+And the one thing, as Lou said
+that I'm going to talk about--
+
+40
+00:01:53,940 --> 00:01:56,110
+although, contrary to
+many people's impressions,
+
+41
+00:01:56,110 --> 00:01:58,190
+is not the only
+thing I work on--
+
+42
+00:01:58,190 --> 00:01:59,870
+is this ability that we have.
+
+43
+00:02:03,280 --> 00:02:07,580
+OK, so a little demo of the
+problem that I work on--
+
+44
+00:02:07,580 --> 00:02:10,190
+and because it's early in the
+morning and everybody needs
+
+45
+00:02:10,190 --> 00:02:13,020
+to wake up, I'm going to get
+you guys to do this as a task,
+
+46
+00:02:13,020 --> 00:02:14,145
+so as an experiment.
+
+47
+00:02:14,145 --> 00:02:15,770
+So in this experiment,
+I'm going to ask
+
+48
+00:02:15,770 --> 00:02:17,900
+you guys to make a moral
+judgment of a character.
+
+49
+00:02:17,900 --> 00:02:19,040
+Her name is Grace.
+
+50
+00:02:19,040 --> 00:02:20,630
+And the way you're going
+to make a moral judgment
+
+51
+00:02:20,630 --> 00:02:22,490
+is, I'm going to tell
+you something she did,
+
+52
+00:02:22,490 --> 00:02:24,073
+and you're going to
+say how much blame
+
+53
+00:02:24,073 --> 00:02:26,639
+she deserves-- moral
+blame, how wrong that was.
+
+54
+00:02:26,639 --> 00:02:28,430
+You're going to do so
+by raising your hand.
+
+55
+00:02:28,430 --> 00:02:30,620
+The more wrong it was,
+the higher your hand goes.
+
+56
+00:02:30,620 --> 00:02:31,790
+And everybody has to vote.
+
+57
+00:02:31,790 --> 00:02:32,810
+OK?
+
+58
+00:02:32,810 --> 00:02:33,500
+Yes?
+
+59
+00:02:33,500 --> 00:02:35,600
+OK, so this is a
+story about Grace.
+
+60
+00:02:35,600 --> 00:02:37,490
+She's on a tour of
+a chemical factory.
+
+61
+00:02:37,490 --> 00:02:39,500
+So they're walking around
+being given a tour.
+
+62
+00:02:39,500 --> 00:02:40,700
+There's a break in the tour.
+
+63
+00:02:40,700 --> 00:02:41,870
+And she goes to make coffee.
+
+64
+00:02:41,870 --> 00:02:44,450
+Another girl on the tour
+asks for a cup of coffee
+
+65
+00:02:44,450 --> 00:02:45,600
+with sugar in it.
+
+66
+00:02:45,600 --> 00:02:48,590
+So Grace goes to the coffee
+machine to make a cup of coffee
+
+67
+00:02:48,590 --> 00:02:50,390
+for herself and for
+this other girl.
+
+68
+00:02:50,390 --> 00:02:52,100
+Next to the coffee
+machine is a jar
+
+69
+00:02:52,100 --> 00:02:54,350
+of white powder
+labeled sugar, so Grace
+
+70
+00:02:54,350 --> 00:02:55,880
+thinks the powder is sugar.
+
+71
+00:02:55,880 --> 00:02:58,490
+She puts some of that powder
+in the other girl's coffee.
+
+72
+00:02:58,490 --> 00:03:00,950
+But it turns out that
+powder is contaminated
+
+73
+00:03:00,950 --> 00:03:03,500
+by a dangerous toxic
+poison, and when the girl
+
+74
+00:03:03,500 --> 00:03:05,270
+drinks the coffee, she dies.
+
+75
+00:03:05,270 --> 00:03:06,830
+How much blame
+does Grace deserve
+
+76
+00:03:06,830 --> 00:03:10,160
+for putting the
+powder in the coffee?
+
+77
+00:03:10,160 --> 00:03:13,370
+OK, now what if I slightly
+changed that story?
+
+78
+00:03:13,370 --> 00:03:16,010
+So next to the coffee machine
+there's a jar of white powder
+
+79
+00:03:16,010 --> 00:03:18,590
+and it's labeled
+dangerous toxic poison.
+
+80
+00:03:18,590 --> 00:03:20,930
+So grace thinks that the
+powder is toxic poison.
+
+81
+00:03:20,930 --> 00:03:23,210
+And she puts some of the
+poison in the coffee,
+
+82
+00:03:23,210 --> 00:03:24,939
+and when the girl
+drinks it, she dies.
+
+83
+00:03:24,939 --> 00:03:26,480
+Now how much blame
+does Grace deserve
+
+84
+00:03:26,480 --> 00:03:28,021
+for putting the
+powder in the coffee?
+
+85
+00:03:28,021 --> 00:03:31,490
+So what's characteristic
+about these stories is
+
+86
+00:03:31,490 --> 00:03:34,220
+that, in the story I
+told you, everything
+
+87
+00:03:34,220 --> 00:03:38,270
+was the same from the beginning,
+the scenario where Grace was,
+
+88
+00:03:38,270 --> 00:03:40,070
+to the action and the outcome--
+
+89
+00:03:40,070 --> 00:03:41,590
+that the girl died.
+
+90
+00:03:41,590 --> 00:03:43,190
+But your moral
+judgments differed
+
+91
+00:03:43,190 --> 00:03:45,470
+by about the entire
+scale that I gave you,
+
+92
+00:03:45,470 --> 00:03:48,170
+from saying that she deserved
+almost no blame to saying
+
+93
+00:03:48,170 --> 00:03:51,410
+that she deserved pretty much as
+much blame as you could reach.
+
+94
+00:03:51,410 --> 00:03:53,550
+And that's the same
+kind of moral judgment
+
+95
+00:03:53,550 --> 00:03:55,330
+we get from typical
+human subjects
+
+96
+00:03:55,330 --> 00:03:58,130
+and also from MIT
+undergraduates, which
+
+97
+00:03:58,130 --> 00:04:02,090
+say that in scenarios
+like the one I gave you,
+
+98
+00:04:02,090 --> 00:04:06,410
+what matters most for the moral
+blame that we assign is not
+
+99
+00:04:06,410 --> 00:04:08,570
+what happened-- did
+somebody die or not-- or how
+
+100
+00:04:08,570 --> 00:04:09,530
+bad that outcome was.
+
+101
+00:04:09,530 --> 00:04:11,780
+But it's what Grace thought
+she was doing, whether she
+
+102
+00:04:11,780 --> 00:04:14,690
+thought the powder was sugar or
+she thought that it was poison.
+
+103
+00:04:14,690 --> 00:04:17,480
+I should just say right away
+that I set up that scenario.
+
+104
+00:04:17,480 --> 00:04:19,070
+I gave you the
+best case scenario
+
+105
+00:04:19,070 --> 00:04:20,180
+for the role of beliefs.
+
+106
+00:04:20,180 --> 00:04:23,090
+It's easy to make these
+things way more complicated.
+
+107
+00:04:23,090 --> 00:04:25,820
+But that scenario isolates
+one important feature
+
+108
+00:04:25,820 --> 00:04:28,160
+of our moral judgment and
+also an important feature
+
+109
+00:04:28,160 --> 00:04:30,770
+of a lot of the rest of
+our social cognition.
+
+110
+00:04:30,770 --> 00:04:33,410
+It's not how we avoid bumping
+into people in subways,
+
+111
+00:04:33,410 --> 00:04:35,610
+but a lot of the other
+kind of social cognition
+
+112
+00:04:35,610 --> 00:04:38,600
+we do about the people that are
+around us, which is our ability
+
+113
+00:04:38,600 --> 00:04:43,140
+to assign thoughts or internal
+mental states to other people.
+
+114
+00:04:43,140 --> 00:04:44,960
+So in psychology,
+this ability has
+
+115
+00:04:44,960 --> 00:04:47,690
+been studied from kind of
+relatively simple perceptual
+
+116
+00:04:47,690 --> 00:04:50,840
+phenomena like assigning
+intentions and goals
+
+117
+00:04:50,840 --> 00:04:53,160
+to simple moving
+characters in an animation.
+
+118
+00:04:53,160 --> 00:04:55,820
+This is the very famous
+Heider and Simmel example
+
+119
+00:04:55,820 --> 00:04:57,000
+from the '40s.
+
+120
+00:04:57,000 --> 00:04:59,416
+This ability has been studied
+all the way to understanding
+
+121
+00:04:59,416 --> 00:05:03,080
+some of the most complex,
+abstract ideas that we ever
+
+122
+00:05:03,080 --> 00:05:06,590
+encounter, like the famous
+apocryphal statement attributed
+
+123
+00:05:06,590 --> 00:05:09,472
+to Alan Greenspan, which is, "I
+know you think you understand
+
+124
+00:05:09,472 --> 00:05:11,930
+what you thought I said, but
+I don't think you realize that
+
+125
+00:05:11,930 --> 00:05:14,000
+what you heard was
+not what I meant. "
+
+126
+00:05:14,000 --> 00:05:16,610
+So to the degree that our minds
+let us make any sense of that
+
+127
+00:05:16,610 --> 00:05:18,950
+at all, we're using our
+ability to make sense of other
+
+128
+00:05:18,950 --> 00:05:20,930
+people's minds.
+
+129
+00:05:20,930 --> 00:05:24,244
+How many people here have
+seen the standard test
+
+130
+00:05:24,244 --> 00:05:26,660
+of this ability of thinking
+about other people's thoughts,
+
+131
+00:05:26,660 --> 00:05:27,826
+which the false belief task?
+
+132
+00:05:27,826 --> 00:05:30,950
+How many people have seen
+somebody do a false belief task
+
+133
+00:05:30,950 --> 00:05:32,550
+or give a false belief task?
+
+134
+00:05:32,550 --> 00:05:34,970
+How many people would like
+to see a false belief task?
+
+135
+00:05:34,970 --> 00:05:36,910
+OK, so then I'm just
+going to show you one.
+
+136
+00:05:36,910 --> 00:05:40,900
+So as I said, the scope
+of tests of our ability
+
+137
+00:05:40,900 --> 00:05:43,730
+to think about other people's
+thoughts or internal states
+
+138
+00:05:43,730 --> 00:05:45,290
+is very large.
+
+139
+00:05:45,290 --> 00:05:48,560
+I'm saying that two ways on
+purpose because actually,
+
+140
+00:05:48,560 --> 00:05:50,090
+although these are
+often conflated,
+
+141
+00:05:50,090 --> 00:05:52,298
+I think there's a really
+important difference between
+
+142
+00:05:52,298 --> 00:05:54,530
+thinking about
+epistemic states--
+
+143
+00:05:54,530 --> 00:05:56,810
+so things like what
+you know, what you see,
+
+144
+00:05:56,810 --> 00:05:57,890
+and what you think--
+
+145
+00:05:57,890 --> 00:06:01,100
+versus states like what
+you want and how you feel.
+
+146
+00:06:01,100 --> 00:06:03,350
+I think it turns out empirically
+that those are really
+
+147
+00:06:03,350 --> 00:06:04,670
+different problems.
+
+148
+00:06:04,670 --> 00:06:07,280
+And I'm almost exclusively going
+to talk about the first one,
+
+149
+00:06:07,280 --> 00:06:12,800
+so how we think about what other
+people see, think, and know--
+
+150
+00:06:12,800 --> 00:06:14,540
+but not want or feel.
+
+151
+00:06:14,540 --> 00:06:16,900
+At the end I'll come back
+to wanting and feeling.
+
+152
+00:06:16,900 --> 00:06:19,430
+OK, so how do we know what
+other people have seen
+
+153
+00:06:19,430 --> 00:06:21,650
+and what they think
+and what they know?
+
+154
+00:06:21,650 --> 00:06:25,550
+This problem was set up
+as kind of a litmus test
+
+155
+00:06:25,550 --> 00:06:28,010
+for our ability to think
+about other people's minds,
+
+156
+00:06:28,010 --> 00:06:30,500
+starting in the late
+'70s and coming out
+
+157
+00:06:30,500 --> 00:06:31,750
+of comparative psychology.
+
+158
+00:06:31,750 --> 00:06:35,150
+So the origin of this
+problem for psychology
+
+159
+00:06:35,150 --> 00:06:37,730
+is, everybody knows
+humans could do this.
+
+160
+00:06:37,730 --> 00:06:38,960
+What about animals?
+
+161
+00:06:38,960 --> 00:06:41,621
+And actually, the debate
+about whether this capacity
+
+162
+00:06:41,621 --> 00:06:43,370
+for thinking about
+other people's thoughts
+
+163
+00:06:43,370 --> 00:06:46,670
+is or is not shared with
+which other animals has
+
+164
+00:06:46,670 --> 00:06:49,160
+gone on continuously
+since the late '70s
+
+165
+00:06:49,160 --> 00:06:50,430
+and has not been resolved.
+
+166
+00:06:50,430 --> 00:06:52,640
+That's the origin
+of this debate,
+
+167
+00:06:52,640 --> 00:06:54,530
+and it's not resolved yet.
+
+168
+00:06:54,530 --> 00:06:57,380
+But it led to the construction
+of this particular task
+
+169
+00:06:57,380 --> 00:07:00,800
+as a litmus test for
+what one person knows
+
+170
+00:07:00,800 --> 00:07:03,967
+about somebody else's thoughts,
+called the false belief task.
+
+171
+00:07:03,967 --> 00:07:06,050
+And so here's what a false
+belief task looks like.
+
+172
+00:07:06,050 --> 00:07:08,500
+This is being given to a
+five-year-old human child.
+
+173
+00:07:12,484 --> 00:07:13,860
+This is the first pirate.
+
+174
+00:07:13,860 --> 00:07:15,234
+His name is Ivan.
+
+175
+00:07:15,234 --> 00:07:17,330
+Do you know what
+pirates really like?
+
+176
+00:07:17,330 --> 00:07:18,080
+CHILD: What?
+
+177
+00:07:18,080 --> 00:07:20,550
+REBECCA SAXE: Pirates really
+like cheese sandwiches.
+
+178
+00:07:20,550 --> 00:07:21,270
+CHILD: Cheese?
+
+179
+00:07:21,270 --> 00:07:23,310
+I love cheese!
+
+180
+00:07:23,310 --> 00:07:26,380
+REBECCA SAXE: So Ivan has his
+cheese sandwich, and he says,
+
+181
+00:07:26,380 --> 00:07:27,840
+yum, yum, yum, yum, yum.
+
+182
+00:07:27,840 --> 00:07:30,130
+I really love cheese sandwiches.
+
+183
+00:07:30,130 --> 00:07:32,790
+And Ivan puts his
+sandwich over here
+
+184
+00:07:32,790 --> 00:07:34,670
+on top of the pirate chest.
+
+185
+00:07:34,670 --> 00:07:38,160
+And Ivan says, you know what,
+I need a drink with my lunch.
+
+186
+00:07:38,160 --> 00:07:40,880
+So Ivan goes to get a drink.
+
+187
+00:07:40,880 --> 00:07:44,590
+And while Ivan is
+away, the wind comes,
+
+188
+00:07:44,590 --> 00:07:48,720
+and it blows the sandwich
+down onto the grass.
+
+189
+00:07:48,720 --> 00:07:51,760
+And now, here comes
+the other pirate.
+
+190
+00:07:51,760 --> 00:07:54,646
+This pirate is called Joshua.
+
+191
+00:07:54,646 --> 00:07:56,845
+And Joshua also really
+loves cheese sandwiches.
+
+192
+00:07:56,845 --> 00:07:59,570
+So Joshua has a cheese
+sandwich, and he says,
+
+193
+00:07:59,570 --> 00:08:00,840
+yum, yum, yum, yum, yum--
+
+194
+00:08:00,840 --> 00:08:02,100
+I love cheese sandwiches.
+
+195
+00:08:02,100 --> 00:08:04,335
+And he puts his cheese
+sandwich over here
+
+196
+00:08:04,335 --> 00:08:05,460
+on top of the pirate chest.
+
+197
+00:08:05,460 --> 00:08:07,246
+CHILD: So that one is his.
+
+198
+00:08:07,246 --> 00:08:08,970
+REBECCA SAXE: That
+one's Joshua's.
+
+199
+00:08:08,970 --> 00:08:11,880
+CHILD: And then his
+is on the ground.
+
+200
+00:08:11,880 --> 00:08:12,960
+REBECCA SAXE: Yeah.
+
+201
+00:08:12,960 --> 00:08:13,890
+That's exactly right.
+
+202
+00:08:13,890 --> 00:08:15,956
+CHILD: So he won't
+know which one is his.
+
+203
+00:08:15,956 --> 00:08:18,884
+REBECCA SAXE: Oh-- so now
+Joshua goes off to get a drink.
+
+204
+00:08:18,884 --> 00:08:19,550
+Ivan comes back.
+
+205
+00:08:19,550 --> 00:08:23,100
+And he says, I want
+my cheese sandwich.
+
+206
+00:08:23,100 --> 00:08:25,470
+So which one do you think
+Ivan's going to take?
+
+207
+00:08:25,470 --> 00:08:27,406
+CHILD: I think he's
+gonna take that one.
+
+208
+00:08:27,406 --> 00:08:28,860
+REBECCA SAXE: Yeah, you think
+he's gonna take that one.
+
+209
+00:08:28,860 --> 00:08:29,510
+All right, let's see.
+
+210
+00:08:29,510 --> 00:08:30,130
+CHILD: I told you.
+
+211
+00:08:30,130 --> 00:08:31,713
+REBECCA SAXE: Oh
+yeah, you were right.
+
+212
+00:08:31,713 --> 00:08:34,230
+He took that one.
+
+213
+00:08:34,230 --> 00:08:36,659
+OK, so that's called passing
+the false belief task.
+
+214
+00:08:36,659 --> 00:08:38,940
+And the thing that's
+reported in scientific papers
+
+215
+00:08:38,940 --> 00:08:41,280
+is that he correctly
+predicted that Ivan
+
+216
+00:08:41,280 --> 00:08:42,510
+would take Joshua's sandwich.
+
+217
+00:08:42,510 --> 00:08:44,010
+Although if you
+watch the video, you
+
+218
+00:08:44,010 --> 00:08:46,093
+see that the knowledge the
+kid is bringing to bear
+
+219
+00:08:46,093 --> 00:08:48,600
+is a way richer than just
+his correct prediction
+
+220
+00:08:48,600 --> 00:08:51,270
+and includes him, in fact,
+trying to stop me in the story
+
+221
+00:08:51,270 --> 00:08:52,650
+to warn me of what's coming.
+
+222
+00:08:52,650 --> 00:08:55,740
+So it's a rich interpretation
+of what other people know
+
+223
+00:08:55,740 --> 00:08:59,700
+and don't know and will know
+and haven't seen and so forth.
+
+224
+00:08:59,700 --> 00:09:03,450
+The reason why this
+task became so famous
+
+225
+00:09:03,450 --> 00:09:07,340
+is that not all participants
+perform the same way.
+
+226
+00:09:07,340 --> 00:09:10,050
+And so one class of
+participants who've
+
+227
+00:09:10,050 --> 00:09:12,510
+become the focus
+of intense scrutiny
+
+228
+00:09:12,510 --> 00:09:14,552
+is slightly younger kids,
+namely three-year-olds.
+
+229
+00:09:14,552 --> 00:09:16,593
+So I'll give you a sense
+of what that looks like.
+
+230
+00:09:16,593 --> 00:09:17,730
+This is a three-year-old.
+
+231
+00:09:17,730 --> 00:09:21,084
+He's paid equally rapt attention
+throughout the entire story.
+
+232
+00:09:21,084 --> 00:09:22,500
+And we come to the
+crucial moment,
+
+233
+00:09:22,500 --> 00:09:25,000
+and he's asked again
+the same question.
+
+234
+00:09:25,000 --> 00:09:27,930
+And Ivan says, I want
+my cheese sandwich.
+
+235
+00:09:27,930 --> 00:09:29,692
+Which sandwich is
+he going to take?
+
+236
+00:09:29,692 --> 00:09:31,400
+Do you think he's
+going to take that one?
+
+237
+00:09:31,400 --> 00:09:32,552
+Let's see what happens.
+
+238
+00:09:32,552 --> 00:09:33,510
+Let's see what he does.
+
+239
+00:09:33,510 --> 00:09:34,660
+Here comes Ivan.
+
+240
+00:09:34,660 --> 00:09:37,305
+He says, I want my
+cheese sandwich.
+
+241
+00:09:37,305 --> 00:09:40,143
+And he takes this one.
+
+242
+00:09:40,143 --> 00:09:43,089
+Uh oh-- why did
+he take that one?
+
+243
+00:09:46,530 --> 00:09:48,570
+OK, and so the
+traditional read of what
+
+244
+00:09:48,570 --> 00:09:51,990
+just happened there is that's
+a kid who gets wanting, right.
+
+245
+00:09:51,990 --> 00:09:54,450
+Ivan wants his cheese sandwich.
+
+246
+00:09:54,450 --> 00:09:56,940
+But he doesn't get believing.
+
+247
+00:09:56,940 --> 00:09:59,940
+He doesn't understand that
+because Ivan left his cheese
+
+248
+00:09:59,940 --> 00:10:01,584
+sandwich on top of
+the pirate chest
+
+249
+00:10:01,584 --> 00:10:03,000
+and he doesn't
+know that it's been
+
+250
+00:10:03,000 --> 00:10:05,910
+moved that he'll believe
+that that sandwich is his,
+
+251
+00:10:05,910 --> 00:10:08,460
+and that his actions
+depend on his own beliefs--
+
+252
+00:10:08,460 --> 00:10:10,334
+his internal representation
+of the world,
+
+253
+00:10:10,334 --> 00:10:12,000
+rather than the true
+state of the world,
+
+254
+00:10:12,000 --> 00:10:13,890
+namely which one is
+his cheese sandwich.
+
+255
+00:10:13,890 --> 00:10:17,280
+And that's the source of
+both this wrong prediction--
+
+256
+00:10:17,280 --> 00:10:20,040
+why does he say that he'll
+take his cheese sandwich--
+
+257
+00:10:20,040 --> 00:10:21,270
+and the wrong explanation.
+
+258
+00:10:21,270 --> 00:10:23,880
+So when he goes to take
+the other cheese sandwich,
+
+259
+00:10:23,880 --> 00:10:25,960
+the one that's
+actually Joshua's,
+
+260
+00:10:25,960 --> 00:10:28,890
+then we say, why did he do that.
+
+261
+00:10:28,890 --> 00:10:30,510
+And again, this is
+typical performance
+
+262
+00:10:30,510 --> 00:10:32,550
+that the little
+kids confabulate.
+
+263
+00:10:32,550 --> 00:10:34,464
+They come up with
+a reason why he
+
+264
+00:10:34,464 --> 00:10:35,880
+might have taken
+that other cheese
+
+265
+00:10:35,880 --> 00:10:37,770
+sandwich which is
+consistent with him
+
+266
+00:10:37,770 --> 00:10:39,390
+not wanting his own anymore.
+
+267
+00:10:39,390 --> 00:10:42,370
+So in this case, it's that
+his fell on the ground.
+
+268
+00:10:42,370 --> 00:10:43,870
+He doesn't want his anymore.
+
+269
+00:10:43,870 --> 00:10:46,060
+That's why he's taking
+Joshua's sandwich.
+
+270
+00:10:46,060 --> 00:10:48,420
+And that pattern of
+performance was interpreted
+
+271
+00:10:48,420 --> 00:10:51,492
+as evidence of conceptual change
+and development-- kids going
+
+272
+00:10:51,492 --> 00:10:53,700
+from having a partial
+understanding of other people's
+
+273
+00:10:53,700 --> 00:10:56,407
+minds that included
+wanting to a richer
+
+274
+00:10:56,407 --> 00:10:57,990
+interpretation of
+other people's minds
+
+275
+00:10:57,990 --> 00:11:00,270
+that also included believing.
+
+276
+00:11:00,270 --> 00:11:04,470
+So what I want to get from this
+actually is not whether or not
+
+277
+00:11:04,470 --> 00:11:06,720
+it's true that there's
+conceptual change between three
+
+278
+00:11:06,720 --> 00:11:09,800
+and five, although I
+do think it is true,
+
+279
+00:11:09,800 --> 00:11:13,770
+but just an idea of what
+capacity are we talking about.
+
+280
+00:11:13,770 --> 00:11:15,480
+We're talking about
+the capacity actually
+
+281
+00:11:15,480 --> 00:11:17,970
+that the five-year-old
+showed, however they got it
+
+282
+00:11:17,970 --> 00:11:19,320
+and whenever they got it.
+
+283
+00:11:19,320 --> 00:11:22,170
+It's this capacity to, when
+watching other people act
+
+284
+00:11:22,170 --> 00:11:25,620
+in the world, bring to bear--
+both spontaneously and when
+
+285
+00:11:25,620 --> 00:11:26,510
+asked--
+
+286
+00:11:26,510 --> 00:11:28,830
+a conception of the
+other person having
+
+287
+00:11:28,830 --> 00:11:32,620
+beliefs, perceptual
+history, knowledge,
+
+288
+00:11:32,620 --> 00:11:36,500
+an internal representation of
+the world that guides actions.
+
+289
+00:11:36,500 --> 00:11:40,320
+And so that is what I'm going
+to call thinking about thought.
+
+290
+00:11:40,320 --> 00:11:43,890
+And the idea that
+this is a domain
+
+291
+00:11:43,890 --> 00:11:45,825
+that you could
+study on its own--
+
+292
+00:11:45,825 --> 00:11:47,200
+well, there's two
+questions here.
+
+293
+00:11:47,200 --> 00:11:49,530
+One is can you
+study this at all.
+
+294
+00:11:49,530 --> 00:11:51,270
+And the second one
+is can you study
+
+295
+00:11:51,270 --> 00:11:53,490
+it separate from the
+whole rest of cognition.
+
+296
+00:11:53,490 --> 00:11:56,091
+Both of those are related
+to Liz, and indeed Nancy,
+
+297
+00:11:56,091 --> 00:11:58,590
+and many people's worries that
+you could never make progress
+
+298
+00:11:58,590 --> 00:12:01,880
+on a problem like
+this, which I share.
+
+299
+00:12:01,880 --> 00:12:04,440
+I share the worry that you could
+never make progress on this.
+
+300
+00:12:04,440 --> 00:12:06,390
+And so what I want
+to tell you guys
+
+301
+00:12:06,390 --> 00:12:11,940
+is two phases of my attempt to
+make progress on understanding
+
+302
+00:12:11,940 --> 00:12:13,210
+how we do that.
+
+303
+00:12:13,210 --> 00:12:15,090
+How do we think
+about other people
+
+304
+00:12:15,090 --> 00:12:19,440
+as containing internal mental
+lives, mental representations.
+
+305
+00:12:19,440 --> 00:12:21,630
+I'm going to talk
+about just fMRI,
+
+306
+00:12:21,630 --> 00:12:25,230
+although I do use other
+methods to study this problem.
+
+307
+00:12:25,230 --> 00:12:29,340
+But I think fMRI has been
+both an incredible gift
+
+308
+00:12:29,340 --> 00:12:31,950
+to our ability to
+understand the human mind
+
+309
+00:12:31,950 --> 00:12:34,890
+and also imposes a huge
+number of limitations
+
+310
+00:12:34,890 --> 00:12:36,900
+on what we can discover.
+
+311
+00:12:36,900 --> 00:12:39,840
+And so what I'm going to
+tell you about is just
+
+312
+00:12:39,840 --> 00:12:43,050
+a tiny bit of my phase
+one investigations using
+
+313
+00:12:43,050 --> 00:12:45,900
+the early strategies
+that fMRI allowed us
+
+314
+00:12:45,900 --> 00:12:47,460
+and then a more
+in-depth look at how
+
+315
+00:12:47,460 --> 00:12:51,360
+I'm using more modern techniques
+in fMRI to try to get further.
+
+316
+00:12:51,360 --> 00:12:53,839
+This is partly because
+I think it's interesting
+
+317
+00:12:53,839 --> 00:12:54,630
+what we've learned.
+
+318
+00:12:54,630 --> 00:12:57,120
+But it's mainly because I
+think that you guys might not
+
+319
+00:12:57,120 --> 00:12:58,590
+actually want to know
+about theory of mind,
+
+320
+00:12:58,590 --> 00:12:59,964
+but you might want
+to know if you
+
+321
+00:12:59,964 --> 00:13:02,580
+can fMRI to study interesting
+questions about the human mind
+
+322
+00:13:02,580 --> 00:13:03,350
+and how.
+
+323
+00:13:03,350 --> 00:13:05,700
+And so I'm going to
+focus on three ways
+
+324
+00:13:05,700 --> 00:13:08,220
+to use modern techniques
+in fMRI to study
+
+325
+00:13:08,220 --> 00:13:10,470
+interesting representations
+in the human mind,
+
+326
+00:13:10,470 --> 00:13:13,260
+hoping that either you'll learn
+something about theory of mind
+
+327
+00:13:13,260 --> 00:13:15,150
+or something about
+how you could use fMRI
+
+328
+00:13:15,150 --> 00:13:17,500
+to pursue your own interests.
+
+329
+00:13:17,500 --> 00:13:25,770
+So phase one in fMRI, which as
+Liz said started 15 years ago,
+
+330
+00:13:25,770 --> 00:13:26,340
+is--
+
+331
+00:13:26,340 --> 00:13:30,300
+OK, thinking about
+other people's thoughts,
+
+332
+00:13:30,300 --> 00:13:33,450
+is that a thing in the
+mind and brain at all?
+
+333
+00:13:33,450 --> 00:13:37,510
+So when you go to start studying
+something, you want to know,
+
+334
+00:13:37,510 --> 00:13:41,000
+am I studying a
+part of a problem,
+
+335
+00:13:41,000 --> 00:13:44,580
+or am I just studying the
+whole mind, our entire capacity
+
+336
+00:13:44,580 --> 00:13:47,960
+to think any interesting,
+complicated thought.
+
+337
+00:13:47,960 --> 00:13:52,770
+And fMRI turns out to
+be more useful, mostly,
+
+338
+00:13:52,770 --> 00:13:54,240
+when you're studying
+something that
+
+339
+00:13:54,240 --> 00:13:57,770
+is in some way compartmentalized
+from the rest of the mind.
+
+340
+00:13:57,770 --> 00:14:00,090
+And so one question is-- is
+theory of mind, the ability
+
+341
+00:14:00,090 --> 00:14:02,460
+to think about other people's
+thoughts, in any sense
+
+342
+00:14:02,460 --> 00:14:04,050
+its own problem?
+
+343
+00:14:04,050 --> 00:14:06,510
+Or are we just studying
+the whole problem
+
+344
+00:14:06,510 --> 00:14:09,330
+of human intelligence
+and capacity?
+
+345
+00:14:09,330 --> 00:14:11,460
+So that was sort of
+the first question
+
+346
+00:14:11,460 --> 00:14:12,920
+that we set out to answer.
+
+347
+00:14:12,920 --> 00:14:15,060
+We and a number of
+people did this.
+
+348
+00:14:15,060 --> 00:14:17,130
+And the way we did it
+is that we had people
+
+349
+00:14:17,130 --> 00:14:19,680
+in an fMRI machine
+doing basically
+
+350
+00:14:19,680 --> 00:14:23,770
+an adult version of the pirates
+task that I just showed you.
+
+351
+00:14:23,770 --> 00:14:25,470
+So they read short
+verbal stories
+
+352
+00:14:25,470 --> 00:14:28,780
+that describe somebody who
+comes to have a false belief.
+
+353
+00:14:28,780 --> 00:14:29,990
+This is an example.
+
+354
+00:14:29,990 --> 00:14:32,427
+So Ann puts lasagna
+in the blue dish.
+
+355
+00:14:32,427 --> 00:14:34,260
+Ian takes the lasagna
+out and puts spaghetti
+
+356
+00:14:34,260 --> 00:14:35,410
+in the blue dish.
+
+357
+00:14:35,410 --> 00:14:38,420
+And then we ask, what does
+Ann think is in the blue dish.
+
+358
+00:14:38,420 --> 00:14:41,820
+OK, so this is a very simple
+encapsulation of our ability
+
+359
+00:14:41,820 --> 00:14:44,100
+to represent what
+somebody else thinks
+
+360
+00:14:44,100 --> 00:14:47,170
+and separate it from
+the state of the world.
+
+361
+00:14:47,170 --> 00:14:48,776
+So while you were
+doing that, you
+
+362
+00:14:48,776 --> 00:14:50,400
+were clearly using
+your theory of mind.
+
+363
+00:14:50,400 --> 00:14:52,180
+But you were clearly
+also using many,
+
+364
+00:14:52,180 --> 00:14:54,940
+many, many other capacities
+of your mind and brain,
+
+365
+00:14:54,940 --> 00:14:56,604
+like the capacity
+to see those words,
+
+366
+00:14:56,604 --> 00:14:58,020
+to know they are
+words in English,
+
+367
+00:14:58,020 --> 00:14:59,880
+to put them together
+in sentences,
+
+368
+00:14:59,880 --> 00:15:02,227
+and then to make a response
+by pushing a button.
+
+369
+00:15:02,227 --> 00:15:04,560
+So we're using everything
+from your eyes to your fingers
+
+370
+00:15:04,560 --> 00:15:06,450
+and most of the
+brain in between.
+
+371
+00:15:06,450 --> 00:15:08,430
+And then the
+question is, the part
+
+372
+00:15:08,430 --> 00:15:10,770
+that required you
+thinking about thoughts--
+
+373
+00:15:10,770 --> 00:15:13,350
+is there any sense in which
+that's special or different
+
+374
+00:15:13,350 --> 00:15:16,230
+from the whole rest of the
+logical and cognitive capacity
+
+375
+00:15:16,230 --> 00:15:17,370
+of your brain?
+
+376
+00:15:17,370 --> 00:15:19,800
+So to ask that question
+we designed a control
+
+377
+00:15:19,800 --> 00:15:22,950
+condition in which
+you similarly read
+
+378
+00:15:22,950 --> 00:15:25,440
+stories that involve
+something that was true
+
+379
+00:15:25,440 --> 00:15:26,676
+and becomes false.
+
+380
+00:15:26,676 --> 00:15:28,050
+You need to think
+about those two
+
+381
+00:15:28,050 --> 00:15:29,970
+and respond using
+a button press.
+
+382
+00:15:29,970 --> 00:15:32,350
+But in this case, what it
+is is a state of the world.
+
+383
+00:15:32,350 --> 00:15:35,062
+So this is an island and
+a photograph taken of it.
+
+384
+00:15:35,062 --> 00:15:37,020
+Then the photograph, of
+course, stays the same.
+
+385
+00:15:37,020 --> 00:15:38,130
+But the world changes.
+
+386
+00:15:38,130 --> 00:15:39,900
+So there's a
+volcano that erupts.
+
+387
+00:15:39,900 --> 00:15:42,120
+And now we can ask you
+either about the photograph,
+
+388
+00:15:42,120 --> 00:15:44,070
+what's in the
+photograph, or what's
+
+389
+00:15:44,070 --> 00:15:46,570
+the world actually like now.
+
+390
+00:15:46,570 --> 00:15:49,290
+And the idea is that
+in this comparison
+
+391
+00:15:49,290 --> 00:15:51,269
+you need the ability
+to see the stimuli,
+
+392
+00:15:51,269 --> 00:15:53,310
+read English, put together
+your logical thoughts,
+
+393
+00:15:53,310 --> 00:15:55,620
+and choose a button
+press in both cases.
+
+394
+00:15:55,620 --> 00:15:58,007
+But only in the first
+case do you also
+
+395
+00:15:58,007 --> 00:15:59,840
+need to think about
+other people's thoughts.
+
+396
+00:15:59,840 --> 00:16:02,790
+And so that comparison would
+let us look for brain regions
+
+397
+00:16:02,790 --> 00:16:05,280
+where blood oxygenation
+or metabolism is higher
+
+398
+00:16:05,280 --> 00:16:07,710
+if you're thinking about
+other people's thoughts.
+
+399
+00:16:07,710 --> 00:16:09,690
+So that is old news now.
+
+400
+00:16:09,690 --> 00:16:12,530
+The simple answer is that we
+and many, many other groups that
+
+401
+00:16:12,530 --> 00:16:13,980
+tried this in many
+different ways
+
+402
+00:16:13,980 --> 00:16:15,750
+found a whole group
+of brain regions
+
+403
+00:16:15,750 --> 00:16:19,247
+where metabolism or blood
+oxygenation is higher
+
+404
+00:16:19,247 --> 00:16:21,330
+if you need to think about
+other people's thoughts
+
+405
+00:16:21,330 --> 00:16:22,375
+in the stories.
+
+406
+00:16:22,375 --> 00:16:24,750
+Part of what's interesting
+though about this brain region
+
+407
+00:16:24,750 --> 00:16:28,230
+is not just the claims
+about selectivity.
+
+408
+00:16:28,230 --> 00:16:30,600
+The other thing that's
+interesting-- and extremely
+
+409
+00:16:30,600 --> 00:16:33,360
+fortunate for
+research purposes--
+
+410
+00:16:33,360 --> 00:16:35,340
+is that the signal
+is ridiculously
+
+411
+00:16:35,340 --> 00:16:36,327
+strong and reliable.
+
+412
+00:16:36,327 --> 00:16:38,910
+The difference between thinking
+about somebody else's thoughts
+
+413
+00:16:38,910 --> 00:16:41,040
+and other logical problems--
+
+414
+00:16:41,040 --> 00:16:43,500
+in terms of how
+significant, how reliable,
+
+415
+00:16:43,500 --> 00:16:45,570
+how similar across
+individual subjects--
+
+416
+00:16:45,570 --> 00:16:48,690
+is comparable to the difference
+between looking at gradings
+
+417
+00:16:48,690 --> 00:16:52,860
+and not looking at gratings
+in V1, which is nuts.
+
+418
+00:16:52,860 --> 00:16:56,140
+That's crazy that something
+this complicated and abstract
+
+419
+00:16:56,140 --> 00:17:00,175
+would have an unbelievably
+large, robust, reliable signal
+
+420
+00:17:00,175 --> 00:17:01,560
+in individual subjects.
+
+421
+00:17:01,560 --> 00:17:03,030
+I'll give you a
+little hint of it.
+
+422
+00:17:03,030 --> 00:17:04,905
+But everyone who has
+ever come through my lab
+
+423
+00:17:04,905 --> 00:17:07,089
+says that they never
+believe me until they see it
+
+424
+00:17:07,089 --> 00:17:08,540
+in their own data.
+
+425
+00:17:08,540 --> 00:17:10,750
+And you can do this in
+any individual subject.
+
+426
+00:17:10,750 --> 00:17:13,010
+So here's just three
+individual participants
+
+427
+00:17:13,010 --> 00:17:15,530
+after five minutes to
+10 minutes of scanning.
+
+428
+00:17:15,530 --> 00:17:18,470
+You need to read only between
+10 and 20 total stories
+
+429
+00:17:18,470 --> 00:17:19,849
+in literally five to 10 minutes.
+
+430
+00:17:19,849 --> 00:17:21,980
+And every individual
+subject basically
+
+431
+00:17:21,980 --> 00:17:24,693
+shows the same pattern
+of brain activation
+
+432
+00:17:24,693 --> 00:17:27,109
+for thinking about thoughts
+compared to the other stories.
+
+433
+00:17:27,109 --> 00:17:30,320
+It's just this unbelievably
+strong signal, literally
+
+434
+00:17:30,320 --> 00:17:31,040
+unbelievable.
+
+435
+00:17:31,040 --> 00:17:33,980
+It should not possibly be
+true on any a priori story,
+
+436
+00:17:33,980 --> 00:17:35,900
+except for maybe the
+story Ken just told you
+
+437
+00:17:35,900 --> 00:17:38,060
+about how social cognition
+is the fundamental basis
+
+438
+00:17:38,060 --> 00:17:39,770
+of everything.
+
+439
+00:17:39,770 --> 00:17:43,100
+When you look inside this brain
+region, this is in one of them.
+
+440
+00:17:43,100 --> 00:17:45,140
+I'm showing you pictures
+of the right TPJ.
+
+441
+00:17:45,140 --> 00:17:46,580
+It's one of five
+cortical regions.
+
+442
+00:17:46,580 --> 00:17:47,960
+I'm going to talk
+a lot about it,
+
+443
+00:17:47,960 --> 00:17:50,860
+because the data from the right
+TPJ are particularly clean.
+
+444
+00:17:50,860 --> 00:17:53,720
+So in the right TPJ, that's
+average percent singal change
+
+445
+00:17:53,720 --> 00:17:55,735
+in some of our early
+experiments to stories
+
+446
+00:17:55,735 --> 00:17:57,110
+about beliefs
+compared to control
+
+447
+00:17:57,110 --> 00:17:58,781
+stories about photographs.
+
+448
+00:17:58,781 --> 00:17:59,780
+Two things are striking.
+
+449
+00:17:59,780 --> 00:18:01,910
+One is that it's a
+really big difference--
+
+450
+00:18:01,910 --> 00:18:04,032
+a big positive signal when
+you're reading stories
+
+451
+00:18:04,032 --> 00:18:05,990
+about beliefs, and not
+much when you're reading
+
+452
+00:18:05,990 --> 00:18:07,970
+stories about photographs.
+
+453
+00:18:07,970 --> 00:18:09,574
+The other thing
+is that it starts
+
+454
+00:18:09,574 --> 00:18:11,240
+at the time you start
+reading the story.
+
+455
+00:18:11,240 --> 00:18:14,240
+So you start reading a story,
+and the signal starts to go up.
+
+456
+00:18:14,240 --> 00:18:16,820
+This is just showing that
+difference in how much
+
+457
+00:18:16,820 --> 00:18:19,070
+you think about thoughts
+contributes a lot of variance
+
+458
+00:18:19,070 --> 00:18:20,750
+across many different
+individual stories.
+
+459
+00:18:20,750 --> 00:18:21,890
+And if you look
+within the story,
+
+460
+00:18:21,890 --> 00:18:23,973
+it's the time when you're
+thinking about a thought
+
+461
+00:18:23,973 --> 00:18:26,370
+that you get activity
+in this brain region.
+
+462
+00:18:26,370 --> 00:18:28,190
+We also spend a
+bunch of time saying
+
+463
+00:18:28,190 --> 00:18:31,730
+fMRI, as everybody knows,
+is a correlational signal.
+
+464
+00:18:31,730 --> 00:18:33,980
+Does this brain region
+actually play a causal role
+
+465
+00:18:33,980 --> 00:18:35,870
+in letting you think
+about thoughts?
+
+466
+00:18:35,870 --> 00:18:38,000
+And so we did a version
+of the same experiment
+
+467
+00:18:38,000 --> 00:18:41,420
+that I gave you guys on
+moral reasoning with TMS
+
+468
+00:18:41,420 --> 00:18:44,180
+and asked whether using
+TMS on the right TPJ
+
+469
+00:18:44,180 --> 00:18:46,010
+compared to a
+control brain region
+
+470
+00:18:46,010 --> 00:18:47,870
+would disproportionately
+affect how
+
+471
+00:18:47,870 --> 00:18:50,990
+you use people's mental states
+in making moral judgments.
+
+472
+00:18:50,990 --> 00:18:54,350
+We showed that after TMS to the
+right TPJ compared to a control
+
+473
+00:18:54,350 --> 00:18:57,260
+brain region, people use
+the beliefs of the character
+
+474
+00:18:57,260 --> 00:18:59,930
+less in making their
+moral judgments.
+
+475
+00:18:59,930 --> 00:19:05,900
+And so where we get to after
+all of this is a hypothesis.
+
+476
+00:19:05,900 --> 00:19:10,940
+This was after about eight
+years that I was saying here's
+
+477
+00:19:10,940 --> 00:19:12,300
+what we've learned.
+
+478
+00:19:12,300 --> 00:19:14,810
+We've learned that the
+right TPJ is selectively
+
+479
+00:19:14,810 --> 00:19:18,200
+involved in theory
+of mind, and so
+
+480
+00:19:18,200 --> 00:19:21,050
+selectively depends on all the
+experiments I didn't show you.
+
+481
+00:19:21,050 --> 00:19:23,650
+That's a claim
+about specificity.
+
+482
+00:19:23,650 --> 00:19:28,100
+But "involved in"--
+that's a euphemism.
+
+483
+00:19:28,100 --> 00:19:29,930
+And it's a euphemism
+that I think
+
+484
+00:19:29,930 --> 00:19:32,060
+a lot of cognitive
+neuroscientists
+
+485
+00:19:32,060 --> 00:19:33,900
+use and are satisfied with.
+
+486
+00:19:33,900 --> 00:19:37,070
+But after a while, I found
+it deeply embarrassing,
+
+487
+00:19:37,070 --> 00:19:39,526
+like-- what on earth
+is "involved in"?
+
+488
+00:19:39,526 --> 00:19:41,150
+And so what I want
+to talk to you about
+
+489
+00:19:41,150 --> 00:19:44,280
+is how to get beyond the
+euphemism of "involved in"
+
+490
+00:19:44,280 --> 00:19:46,195
+in using fMRI to
+understand the mind.
+
+491
+00:19:46,195 --> 00:19:48,320
+This is what fMRI in my
+hands typically looks like.
+
+492
+00:19:48,320 --> 00:19:52,400
+You read a bunch of
+stories in the scanner,
+
+493
+00:19:52,400 --> 00:19:54,620
+and we record activity in
+the brain region-- here,
+
+494
+00:19:54,620 --> 00:19:56,270
+for example, the right TPJ--
+
+495
+00:19:56,270 --> 00:19:58,100
+while you're reading
+those stories.
+
+496
+00:19:58,100 --> 00:20:00,850
+And so our traditional
+measures are the measures that
+
+497
+00:20:00,850 --> 00:20:03,462
+let us estimate
+specificity and selectivity
+
+498
+00:20:03,462 --> 00:20:05,420
+and answer all the
+questions you guys asked me.
+
+499
+00:20:05,420 --> 00:20:07,227
+Is it more for
+this, less for that?
+
+500
+00:20:07,227 --> 00:20:08,060
+What makes it go up?
+
+501
+00:20:08,060 --> 00:20:09,230
+What makes it go down?
+
+502
+00:20:09,230 --> 00:20:11,600
+Those measures, called
+univariate measures,
+
+503
+00:20:11,600 --> 00:20:14,600
+measure the amount of
+activity in that region,
+
+504
+00:20:14,600 --> 00:20:16,790
+on average, as you
+read a different story.
+
+505
+00:20:16,790 --> 00:20:19,250
+So you get something
+that looks like this.
+
+506
+00:20:19,250 --> 00:20:22,100
+And what you show is
+that this brain region
+
+507
+00:20:22,100 --> 00:20:23,360
+responds a certain amount.
+
+508
+00:20:23,360 --> 00:20:27,590
+Or there's a certain amount
+of activity metabolism
+
+509
+00:20:27,590 --> 00:20:31,060
+in this brain region while
+you're reading that story.
+
+510
+00:20:31,060 --> 00:20:34,370
+And so what we do
+with that is we
+
+511
+00:20:34,370 --> 00:20:37,040
+make arguments about selectivity
+and these kinds of things
+
+512
+00:20:37,040 --> 00:20:39,306
+that we've been talking
+about this entire time.
+
+513
+00:20:39,306 --> 00:20:41,180
+And if you did that in
+the reverse direction,
+
+514
+00:20:41,180 --> 00:20:44,510
+you'd say, OK, what can we
+learn about these stimuli
+
+515
+00:20:44,510 --> 00:20:46,220
+or the representation
+of these stimlui--
+
+516
+00:20:46,220 --> 00:20:49,260
+these two stimuli--
+from activity like this?
+
+517
+00:20:49,260 --> 00:20:52,080
+Well OK, both of them
+are within the set
+
+518
+00:20:52,080 --> 00:20:53,810
+that this brain
+region cares about.
+
+519
+00:20:53,810 --> 00:20:56,090
+They both elicit high activity.
+
+520
+00:20:56,090 --> 00:20:59,264
+So both stories involve
+thinking about thoughts.
+
+521
+00:20:59,264 --> 00:21:00,930
+And one of the things
+we showed early on
+
+522
+00:21:00,930 --> 00:21:03,170
+is that activity
+generalizes in the sense
+
+523
+00:21:03,170 --> 00:21:05,630
+that many different stories
+about many different kinds
+
+524
+00:21:05,630 --> 00:21:08,007
+of thoughts all illicit
+activity in this brain region.
+
+525
+00:21:08,007 --> 00:21:10,340
+And so from the amount of
+activity in this brain region,
+
+526
+00:21:10,340 --> 00:21:15,490
+you know something like that
+story is about thoughts.
+
+527
+00:21:15,490 --> 00:21:17,540
+And I told you that I
+think that that is related
+
+528
+00:21:17,540 --> 00:21:19,100
+to this idea of involvement.
+
+529
+00:21:19,100 --> 00:21:21,890
+This brain region
+is involved when
+
+530
+00:21:21,890 --> 00:21:24,020
+a story describes thoughts.
+
+531
+00:21:24,020 --> 00:21:26,690
+OK, what's wrong with that for
+making theoretical progress
+
+532
+00:21:26,690 --> 00:21:28,939
+on theory of mind is
+that, with respect
+
+533
+00:21:28,939 --> 00:21:30,980
+to the representation of
+other people's thoughts,
+
+534
+00:21:30,980 --> 00:21:36,080
+that doesn't tell us anything
+about how our brain does it.
+
+535
+00:21:36,080 --> 00:21:37,940
+So for example, what
+it doesn't tell us--
+
+536
+00:21:37,940 --> 00:21:40,370
+it doesn't tell us how
+we know who thinks what.
+
+537
+00:21:40,370 --> 00:21:43,384
+It doesn't tell us
+why they think that.
+
+538
+00:21:43,384 --> 00:21:45,050
+It doesn't tell us
+what the consequences
+
+539
+00:21:45,050 --> 00:21:46,460
+were of them thinking that.
+
+540
+00:21:46,460 --> 00:21:48,410
+It doesn't tell us
+how our brains track
+
+541
+00:21:48,410 --> 00:21:50,880
+or represent any of
+these properties.
+
+542
+00:21:50,880 --> 00:21:53,679
+So the things that would make
+something a theory of mind--
+
+543
+00:21:53,679 --> 00:21:55,970
+a representation of who thinks
+what, why, and with what
+
+544
+00:21:55,970 --> 00:21:57,140
+consequences--
+
+545
+00:21:57,140 --> 00:21:59,600
+we can't see in the
+univariate signal.
+
+546
+00:22:02,720 --> 00:22:05,030
+So what I would like
+to make progress on,
+
+547
+00:22:05,030 --> 00:22:08,510
+what I think we're starting to
+make progress on using MVPA,
+
+548
+00:22:08,510 --> 00:22:11,510
+is getting beyond that this
+brain region is involved
+
+549
+00:22:11,510 --> 00:22:13,950
+in theory of mind and
+trying to ask something
+
+550
+00:22:13,950 --> 00:22:17,110
+about what is represented
+in this brain region.
+
+551
+00:22:17,110 --> 00:22:21,180
+And we're doing this using
+a key assumption which
+
+552
+00:22:21,180 --> 00:22:24,240
+comes from systems
+neuroscience, which
+
+553
+00:22:24,240 --> 00:22:26,970
+is that we can think
+of representations
+
+554
+00:22:26,970 --> 00:22:30,960
+in terms of population codes
+of features or dimensions.
+
+555
+00:22:30,960 --> 00:22:34,110
+And I want to say that
+right now because that
+
+556
+00:22:34,110 --> 00:22:39,270
+is an old, discredited
+theory of concepts,
+
+557
+00:22:39,270 --> 00:22:42,960
+but nevertheless a powerful
+strategy in neuroscience,
+
+558
+00:22:42,960 --> 00:22:44,900
+including in this context.
+
+559
+00:22:44,900 --> 00:22:48,206
+It's another thing I could
+talk at greater length about.
+
+560
+00:22:48,206 --> 00:22:49,830
+So the idea that
+we're going to look at
+
+561
+00:22:49,830 --> 00:22:55,350
+is that populations of neurons
+will respond differentially
+
+562
+00:22:55,350 --> 00:22:58,050
+to features or dimensions
+of our stimuli.
+
+563
+00:22:58,050 --> 00:23:01,500
+And by figuring out what the
+main features or dimensions are
+
+564
+00:23:01,500 --> 00:23:03,630
+of our stimuli, we
+can infer something
+
+565
+00:23:03,630 --> 00:23:06,082
+about the representation
+underlying--
+
+566
+00:23:06,082 --> 00:23:08,540
+the representation that this
+brain region participates in--
+
+567
+00:23:08,540 --> 00:23:10,920
+and that is the representation
+of theory of mind.
+
+568
+00:23:14,340 --> 00:23:16,570
+OK, So what is MVPA?
+
+569
+00:23:16,570 --> 00:23:21,750
+I'll briefly say my idea
+of how to think about MVPA.
+
+570
+00:23:21,750 --> 00:23:24,330
+So a traditional analysis--
+the things that we were doing
+
+571
+00:23:24,330 --> 00:23:27,300
+mostly for the first
+15 years of fMRI--
+
+572
+00:23:27,300 --> 00:23:30,720
+are called now
+univariate analyses.
+
+573
+00:23:30,720 --> 00:23:33,450
+You would take a
+patch of cortex,
+
+574
+00:23:33,450 --> 00:23:36,210
+as represented by a bunch of
+pixels in the brain-- they're
+
+575
+00:23:36,210 --> 00:23:39,030
+called voxels, a bunch of
+volume elements in the brain
+
+576
+00:23:39,030 --> 00:23:42,340
+you're studying-- and look at
+the average amount of response.
+
+577
+00:23:42,340 --> 00:23:45,540
+The unit of analysis was
+the amount of response.
+
+578
+00:23:45,540 --> 00:23:47,160
+These experiments
+typically proceed
+
+579
+00:23:47,160 --> 00:23:49,950
+in what's called now the
+forward or encoding direction.
+
+580
+00:23:49,950 --> 00:23:51,960
+So that is, you
+have some hypothesis
+
+581
+00:23:51,960 --> 00:23:53,850
+of what might be represented.
+
+582
+00:23:53,850 --> 00:23:55,830
+You vary it in your stimuli.
+
+583
+00:23:55,830 --> 00:23:58,500
+And you look at how varying
+that dimension in your stimuli
+
+584
+00:23:58,500 --> 00:24:01,050
+causes differences in the
+magnitude of the thing
+
+585
+00:24:01,050 --> 00:24:03,360
+that you're measuring.
+
+586
+00:24:03,360 --> 00:24:07,110
+What was most effectively
+revealed by these analyzes
+
+587
+00:24:07,110 --> 00:24:09,870
+are differences in the cortex
+at the scale of regions, what
+
+588
+00:24:09,870 --> 00:24:12,180
+one region as opposed
+to another region does,
+
+589
+00:24:12,180 --> 00:24:15,400
+so what the kind of large-scale
+structure of the cortex
+
+590
+00:24:15,400 --> 00:24:18,540
+is on the scale maybe
+of a centimeter.
+
+591
+00:24:18,540 --> 00:24:21,420
+And that turns out
+in many contexts--
+
+592
+00:24:21,420 --> 00:24:23,130
+especially in the back
+half of the brain,
+
+593
+00:24:23,130 --> 00:24:24,810
+the representation regions--
+
+594
+00:24:24,810 --> 00:24:27,140
+to correspond in some
+sense to the stimulus type.
+
+595
+00:24:27,140 --> 00:24:29,220
+What kind of thing
+were you dealing with?
+
+596
+00:24:29,220 --> 00:24:31,570
+What is it that you're
+looking at or processing?
+
+597
+00:24:31,570 --> 00:24:34,260
+And then this is, I
+think, in some ways
+
+598
+00:24:34,260 --> 00:24:36,780
+the shortest possible
+version of Nancy's
+
+599
+00:24:36,780 --> 00:24:39,840
+amazing 30-year research
+program of figuring out
+
+600
+00:24:39,840 --> 00:24:42,900
+how to parcellate
+cortex into chunks
+
+601
+00:24:42,900 --> 00:24:45,540
+of about a centimeter that
+correspond to something
+
+602
+00:24:45,540 --> 00:24:49,110
+about the type of stimulus
+that we're presenting to you.
+
+603
+00:24:49,110 --> 00:24:52,350
+And divide up in this
+forward direction.
+
+604
+00:24:52,350 --> 00:24:53,850
+Think of a type of stimulus.
+
+605
+00:24:53,850 --> 00:24:56,850
+Find the brain region where
+the magnitude of response
+
+606
+00:24:56,850 --> 00:25:00,060
+is selective to
+that stimulus type.
+
+607
+00:25:00,060 --> 00:25:04,370
+MVPA analyses-- so
+multivoxel pattern analysis--
+
+608
+00:25:04,370 --> 00:25:06,150
+are contrasted to
+this in the sense
+
+609
+00:25:06,150 --> 00:25:07,810
+that they tend to
+be multivariant.
+
+610
+00:25:07,810 --> 00:25:10,500
+So that is, you're looking
+at not how much on average
+
+611
+00:25:10,500 --> 00:25:13,560
+a group of voxels respond,
+but the relative response
+
+612
+00:25:13,560 --> 00:25:16,520
+between one voxel and
+another from trial to trial.
+
+613
+00:25:16,520 --> 00:25:18,090
+So you're looking
+at which of two
+
+614
+00:25:18,090 --> 00:25:20,340
+voxels is higher or
+lower than the other,
+
+615
+00:25:20,340 --> 00:25:25,650
+rather than what their
+overall amount of activity is.
+
+616
+00:25:25,650 --> 00:25:28,530
+It has mostly,
+though not always,
+
+617
+00:25:28,530 --> 00:25:30,690
+been used in the reverse
+or decoding direction.
+
+618
+00:25:30,690 --> 00:25:32,670
+So the answer at the end is--
+
+619
+00:25:32,670 --> 00:25:35,550
+given that I got this
+pattern, what can I
+
+620
+00:25:35,550 --> 00:25:37,310
+figure out about the stimulus?
+
+621
+00:25:37,310 --> 00:25:39,420
+So that's the way many of
+these analyzes proceed.
+
+622
+00:25:39,420 --> 00:25:42,120
+You ask, having
+done all of this,
+
+623
+00:25:42,120 --> 00:25:44,250
+now I get a new
+pattern of activity.
+
+624
+00:25:44,250 --> 00:25:45,930
+What can I decode
+about the stimulus
+
+625
+00:25:45,930 --> 00:25:49,500
+from the new pattern
+of neural activity?
+
+626
+00:25:49,500 --> 00:25:52,500
+To me, these analyzes
+are most interesting
+
+627
+00:25:52,500 --> 00:25:55,350
+when they're looking for
+things smaller than a region.
+
+628
+00:25:55,350 --> 00:25:58,920
+This is again another
+interesting long conversation
+
+629
+00:25:58,920 --> 00:26:00,630
+that I would have
+got to at the end.
+
+630
+00:26:00,630 --> 00:26:04,590
+All the mathematical
+techniques of MVPA
+
+631
+00:26:04,590 --> 00:26:07,200
+could be used to rediscover
+all of the things Nancy already
+
+632
+00:26:07,200 --> 00:26:10,320
+discovered using the
+traditional analyses.
+
+633
+00:26:10,320 --> 00:26:11,987
+And in fact, if you
+use them uncarefully
+
+634
+00:26:11,987 --> 00:26:13,528
+that's what you're
+most likely to do,
+
+635
+00:26:13,528 --> 00:26:15,520
+because those are huge
+signals in the brain.
+
+636
+00:26:15,520 --> 00:26:17,436
+And so if you're not
+careful, what you will do
+
+637
+00:26:17,436 --> 00:26:20,490
+is just re-go over old
+territory with new math.
+
+638
+00:26:20,490 --> 00:26:22,260
+I am more interested
+in these techniques
+
+639
+00:26:22,260 --> 00:26:24,400
+when they let us see things
+we could never see before.
+
+640
+00:26:24,400 --> 00:26:26,941
+So when, instead of telling us
+about region level differences
+
+641
+00:26:26,941 --> 00:26:29,340
+or centimeter scale
+differences, they're
+
+642
+00:26:29,340 --> 00:26:32,160
+telling us about much
+smaller and more interleaved
+
+643
+00:26:32,160 --> 00:26:37,770
+populations on the spatial
+and representational skills
+
+644
+00:26:37,770 --> 00:26:40,470
+and when what they're
+revealing are not the type
+
+645
+00:26:40,470 --> 00:26:41,925
+classifications of stimuli--
+
+646
+00:26:41,925 --> 00:26:43,800
+so the things that decide
+whether this region
+
+647
+00:26:43,800 --> 00:26:45,680
+or that region will
+be more activated--
+
+648
+00:26:45,680 --> 00:26:48,210
+but for a given type
+of stimuli, what
+
+649
+00:26:48,210 --> 00:26:50,560
+are the key dimensions
+of representation.
+
+650
+00:26:50,560 --> 00:26:55,530
+So the reason why I think MVPA
+is giving a new life to fMRI
+
+651
+00:26:55,530 --> 00:26:58,230
+is because many of the
+most interesting questions
+
+652
+00:26:58,230 --> 00:27:00,270
+about cognition and
+cognitive science
+
+653
+00:27:00,270 --> 00:27:04,050
+that we wanted to answer and
+that fMRI never let us answer
+
+654
+00:27:04,050 --> 00:27:10,150
+were about within-stimulus
+type features or dimensions.
+
+655
+00:27:10,150 --> 00:27:14,160
+What makes this face look
+like person A versus person B?
+
+656
+00:27:14,160 --> 00:27:19,240
+What makes this thought predict
+moral blame versus not blame?
+
+657
+00:27:19,240 --> 00:27:22,950
+So within-type dimensions of
+importance-- and MVP I think
+
+658
+00:27:22,950 --> 00:27:26,670
+is letting us do that in its
+most interesting applications.
+
+659
+00:27:26,670 --> 00:27:28,980
+The intuition here is that--
+
+660
+00:27:28,980 --> 00:27:32,070
+think about a region, like the
+right TPJ, or the face area
+
+661
+00:27:32,070 --> 00:27:33,650
+if you think about faces.
+
+662
+00:27:33,650 --> 00:27:37,110
+Or V1 is often where I start,
+because we know enough about V1
+
+663
+00:27:37,110 --> 00:27:40,120
+that I can use it to imagine
+what we're talking about.
+
+664
+00:27:40,120 --> 00:27:42,360
+So you can think
+about that whole area.
+
+665
+00:27:42,360 --> 00:27:45,100
+And you think, what can we
+learn about what it does.
+
+666
+00:27:45,100 --> 00:27:47,060
+So let's talk about V1.
+
+667
+00:27:47,060 --> 00:27:50,190
+Does everybody here
+have some sense of V1?
+
+668
+00:27:50,190 --> 00:27:52,620
+Everyone's had kind of a first
+introductory neuroscience
+
+669
+00:27:52,620 --> 00:27:53,670
+class, OK.
+
+670
+00:27:53,670 --> 00:27:58,170
+So V1 is called V1 because
+information goes from your eyes
+
+671
+00:27:58,170 --> 00:28:01,270
+to the LGN of your
+thalamus to V1.
+
+672
+00:28:01,270 --> 00:28:05,670
+It's the first cortical
+stop of visual information.
+
+673
+00:28:05,670 --> 00:28:09,384
+And one way that we know that
+it's very involved in vision
+
+674
+00:28:09,384 --> 00:28:10,800
+is that if you
+were doing visions,
+
+675
+00:28:10,800 --> 00:28:13,310
+if you're seeing visual stimuli,
+you get a big response in V1.
+
+676
+00:28:13,310 --> 00:28:14,730
+If you're not seeing
+visual stimuli,
+
+677
+00:28:14,730 --> 00:28:16,290
+like you're hearing
+auditory stimuli
+
+678
+00:28:16,290 --> 00:28:19,020
+or feeling tactile stimuli, you
+don't get a big response in V1.
+
+679
+00:28:19,020 --> 00:28:21,374
+So that's a selectivity
+type measure.
+
+680
+00:28:21,374 --> 00:28:23,790
+It's a univariate measure for
+the amount of activity in VI
+
+681
+00:28:23,790 --> 00:28:25,620
+that tells you V1 is
+in some way involved
+
+682
+00:28:25,620 --> 00:28:31,440
+in vision, relative to
+audition or somatic sensation.
+
+683
+00:28:31,440 --> 00:28:35,370
+But that misses pretty much all
+the interesting contributions
+
+684
+00:28:35,370 --> 00:28:37,200
+that visual cortex
+makes to vision.
+
+685
+00:28:37,200 --> 00:28:39,450
+What we want to
+know about V1 is not
+
+686
+00:28:39,450 --> 00:28:41,370
+that it is involved when
+you are doing vision
+
+687
+00:28:41,370 --> 00:28:43,500
+and not involved when
+you are not doing vision.
+
+688
+00:28:43,500 --> 00:28:45,180
+We want to know
+what transformations
+
+689
+00:28:45,180 --> 00:28:47,300
+over the information
+coming from LGN
+
+690
+00:28:47,300 --> 00:28:50,470
+is V1 implementing-- what
+computational transformations,
+
+691
+00:28:50,470 --> 00:28:51,660
+what representations.
+
+692
+00:28:51,660 --> 00:28:54,510
+And that's why theories
+like Marr's theory-- which
+
+693
+00:28:54,510 --> 00:28:59,370
+say that it's edge detection,
+or that there are receptive
+
+694
+00:28:59,370 --> 00:29:02,130
+fields, that it depends on
+the contrast, the position,
+
+695
+00:29:02,130 --> 00:29:05,880
+and the orientation
+of the information
+
+696
+00:29:05,880 --> 00:29:09,760
+in the field that counts as an
+account of the representation
+
+697
+00:29:09,760 --> 00:29:13,080
+that V1 forms of the image
+in the first bottom-up sweep.
+
+698
+00:29:13,080 --> 00:29:15,600
+In a way, that's saying
+"it's involved in vision"
+
+699
+00:29:15,600 --> 00:29:17,780
+doesn't even begin to count.
+
+700
+00:29:17,780 --> 00:29:21,600
+OK, so the question is, if
+we were going to look at V1,
+
+701
+00:29:21,600 --> 00:29:25,810
+could we discover from
+fMRI that V1, for example,
+
+702
+00:29:25,810 --> 00:29:28,470
+has an orientation
+map, that neurons in V1
+
+703
+00:29:28,470 --> 00:29:29,940
+have an orientation preference?
+
+704
+00:29:29,940 --> 00:29:32,040
+That's a key feature
+of neurons in V1.
+
+705
+00:29:32,040 --> 00:29:34,800
+It's a key feature of
+the computation V1 does.
+
+706
+00:29:34,800 --> 00:29:36,367
+Different from the
+LGN and the retina
+
+707
+00:29:36,367 --> 00:29:38,700
+is the orientation map, a
+preference for the orientation
+
+708
+00:29:38,700 --> 00:29:41,490
+of a contrast and edge.
+
+709
+00:29:41,490 --> 00:29:45,300
+And the answer in
+standard analyses
+
+710
+00:29:45,300 --> 00:29:49,000
+is-- no, you can't,
+because V1 as a whole
+
+711
+00:29:49,000 --> 00:29:52,500
+will activate to big images
+regardless of the orientation
+
+712
+00:29:52,500 --> 00:29:53,850
+of the content of the image.
+
+713
+00:29:53,850 --> 00:29:57,270
+So you need to be able to get
+to something more fine-grained
+
+714
+00:29:57,270 --> 00:29:57,930
+than V1.
+
+715
+00:29:57,930 --> 00:30:00,780
+You need to be able to say there
+are different subpopulations
+
+716
+00:30:00,780 --> 00:30:03,870
+of neurons inside
+V1, some of which
+
+717
+00:30:03,870 --> 00:30:06,570
+will be responding when a line
+is like this, and some of which
+
+718
+00:30:06,570 --> 00:30:08,502
+will be responding when
+a line is like that.
+
+719
+00:30:08,502 --> 00:30:09,960
+And that's the
+decoding perspective
+
+720
+00:30:09,960 --> 00:30:12,360
+that says, if we
+wanted to look at V1
+
+721
+00:30:12,360 --> 00:30:15,210
+and know is the line
+like this or like that,
+
+722
+00:30:15,210 --> 00:30:19,170
+the way we would tell is not how
+much activity there is in V1.
+
+723
+00:30:19,170 --> 00:30:21,270
+But is there relatively
+more activity
+
+724
+00:30:21,270 --> 00:30:23,070
+in the population
+of neurons that
+
+725
+00:30:23,070 --> 00:30:25,590
+responds like this, or in
+the subpopulation of neurons
+
+726
+00:30:25,590 --> 00:30:26,820
+that responds like that?
+
+727
+00:30:26,820 --> 00:30:30,370
+And it's the relative activity
+in those two populations
+
+728
+00:30:30,370 --> 00:30:32,550
+that would let you say,
+is the line like this,
+
+729
+00:30:32,550 --> 00:30:33,660
+or is it like that.
+
+730
+00:30:33,660 --> 00:30:37,022
+That's population coding
+or population decoding.
+
+731
+00:30:37,022 --> 00:30:38,730
+And then you take that
+to the fMRI level.
+
+732
+00:30:38,730 --> 00:30:42,300
+So now you want to
+say, can we tell
+
+733
+00:30:42,300 --> 00:30:43,800
+which of those
+two subpopulations
+
+734
+00:30:43,800 --> 00:30:46,260
+is more active in fMRI?
+
+735
+00:30:46,260 --> 00:30:48,404
+Now, if you could measure
+the individual neurons--
+
+736
+00:30:48,404 --> 00:30:50,820
+so if you know these neurons
+prefer this and these neurons
+
+737
+00:30:50,820 --> 00:30:53,760
+prefer that, and then I measure
+your firing patterns-- then
+
+738
+00:30:53,760 --> 00:30:56,010
+decoding from the
+population is simple.
+
+739
+00:30:56,010 --> 00:30:58,830
+What makes it
+really hard in fMRI
+
+740
+00:30:58,830 --> 00:31:03,210
+is that the unit of measurement
+is the blood oxygenation
+
+741
+00:31:03,210 --> 00:31:07,990
+in 100,000 neurons, 200,000
+neurons, maybe 500,000 neurons.
+
+742
+00:31:07,990 --> 00:31:11,310
+And so it seems
+potentially really unlikely
+
+743
+00:31:11,310 --> 00:31:14,130
+that you would be able to
+tell from the fMRI signal
+
+744
+00:31:14,130 --> 00:31:17,134
+whether the neurons that
+prefer bars like this or bars
+
+745
+00:31:17,134 --> 00:31:19,050
+like this are more active,
+because they're all
+
+746
+00:31:19,050 --> 00:31:22,810
+intermixed inside a single
+measurement in fMRI.
+
+747
+00:31:22,810 --> 00:31:26,520
+And so it's not stupid that
+we used to focus on things
+
+748
+00:31:26,520 --> 00:31:27,870
+like how much activity.
+
+749
+00:31:27,870 --> 00:31:31,470
+The reason we used to focus
+on how much activity with fMRI
+
+750
+00:31:31,470 --> 00:31:33,660
+is that it was quite
+plausible that that's all fMRI
+
+751
+00:31:33,660 --> 00:31:34,650
+could tell us.
+
+752
+00:31:34,650 --> 00:31:37,890
+The neural populations, like
+orientation preferring neurons
+
+753
+00:31:37,890 --> 00:31:42,750
+in V1, were too spatially
+mixed to tell the difference
+
+754
+00:31:42,750 --> 00:31:43,920
+between them in fMRI.
+
+755
+00:31:43,920 --> 00:31:46,410
+And so what we were going to
+get was just how much activity
+
+756
+00:31:46,410 --> 00:31:48,340
+in the population as a whole.
+
+757
+00:31:48,340 --> 00:31:51,420
+So the traditional way of
+thinking about what you got out
+
+758
+00:31:51,420 --> 00:31:54,630
+of fMRI is, yes, you would see
+differences across voxels, so
+
+759
+00:31:54,630 --> 00:31:56,550
+these fine spatial patterns.
+
+760
+00:31:56,550 --> 00:31:58,230
+But there's so many
+things that could
+
+761
+00:31:58,230 --> 00:32:00,870
+cause fine spatial patterns
+that we don't care about--
+
+762
+00:32:00,870 --> 00:32:02,490
+noise, for a start.
+
+763
+00:32:02,490 --> 00:32:05,440
+Where the blood vessels
+happen to be is another thing.
+
+764
+00:32:05,440 --> 00:32:09,540
+And so people assumed,
+I think very reasonably,
+
+765
+00:32:09,540 --> 00:32:12,660
+that because fMRI is such
+a core spatial measure,
+
+766
+00:32:12,660 --> 00:32:14,690
+that the only thing
+it could tell you
+
+767
+00:32:14,690 --> 00:32:18,290
+was the average over
+the millions of neurons
+
+768
+00:32:18,290 --> 00:32:20,180
+that make up a region.
+
+769
+00:32:20,180 --> 00:32:22,295
+And there's a key
+intuition underlying MVPA.
+
+770
+00:32:27,180 --> 00:32:29,610
+So there's the big signal
+which is the regional signal--
+
+771
+00:32:29,610 --> 00:32:32,990
+V1 and vision-- and
+there's lots of noise.
+
+772
+00:32:32,990 --> 00:32:34,670
+But there might
+also be inside there
+
+773
+00:32:34,670 --> 00:32:37,800
+a tiny bit of spatial pattern
+that says something like--
+
+774
+00:32:37,800 --> 00:32:40,380
+well, this voxel happens
+to have more neurons that
+
+775
+00:32:40,380 --> 00:32:41,910
+prefer one orientation.
+
+776
+00:32:41,910 --> 00:32:43,910
+And this voxel happens
+to have more neurons that
+
+777
+00:32:43,910 --> 00:32:45,630
+prefer a different orientation.
+
+778
+00:32:45,630 --> 00:32:48,560
+And so from the relative
+activity in those two voxels,
+
+779
+00:32:48,560 --> 00:32:50,870
+we could still tell
+you the orientation--
+
+780
+00:32:50,870 --> 00:32:53,630
+even though that would be a
+tiny, subtle little signal
+
+781
+00:32:53,630 --> 00:32:56,060
+superimposed on top of
+this massive signal, which
+
+782
+00:32:56,060 --> 00:32:57,170
+is the average of V1.
+
+783
+00:32:57,170 --> 00:33:01,340
+That was the intuition behind
+multivoxel pattern analysis
+
+784
+00:33:01,340 --> 00:33:03,920
+when it was first proposed.
+
+785
+00:33:03,920 --> 00:33:09,080
+And it's now sweeping the fMRI
+world, many different versions
+
+786
+00:33:09,080 --> 00:33:10,220
+of these analyses.
+
+787
+00:33:10,220 --> 00:33:11,540
+And so actually what
+I'm going to do again--
+
+788
+00:33:11,540 --> 00:33:13,400
+to give you a more concrete
+sense of what this is
+
+789
+00:33:13,400 --> 00:33:14,900
+and how it works--
+is I'm just going
+
+790
+00:33:14,900 --> 00:33:17,990
+to show you two different
+ways MVPA is done concretely
+
+791
+00:33:17,990 --> 00:33:20,689
+in my lab to try to get you more
+of a sense of what's going on.
+
+792
+00:33:20,689 --> 00:33:22,730
+And we can come back to
+these more general issues
+
+793
+00:33:22,730 --> 00:33:25,100
+of what it's measuring
+and what that means.
+
+794
+00:33:25,100 --> 00:33:28,940
+OK, so here's what it
+looks like when we do MVPA.
+
+795
+00:33:28,940 --> 00:33:31,940
+Again, if it helps, think
+about the analogy from vision.
+
+796
+00:33:31,940 --> 00:33:35,090
+We've gone from saying, is
+this vision or audition,
+
+797
+00:33:35,090 --> 00:33:37,440
+to trying to say which
+orientation is it.
+
+798
+00:33:37,440 --> 00:33:40,600
+So we're moving from saying,
+is this theory of mind or not,
+
+799
+00:33:40,600 --> 00:33:43,190
+to trying to say anything
+interesting about the space
+
+800
+00:33:43,190 --> 00:33:45,380
+within theory of mind--
+some dimension that might
+
+801
+00:33:45,380 --> 00:33:48,140
+matter within theory of mind.
+
+802
+00:33:48,140 --> 00:33:50,600
+And the first
+dimension or potential
+
+803
+00:33:50,600 --> 00:33:54,500
+feature that we wanted to look
+for we chose because it really
+
+804
+00:33:54,500 --> 00:33:56,204
+matters to human judgments.
+
+805
+00:33:56,204 --> 00:33:57,620
+And it's the one
+that you guys did
+
+806
+00:33:57,620 --> 00:33:58,940
+in the very beginning
+of my talk--
+
+807
+00:33:58,940 --> 00:34:01,148
+telling the difference
+between somebody who knowingly
+
+808
+00:34:01,148 --> 00:34:03,840
+or unknowingly commits murder.
+
+809
+00:34:03,840 --> 00:34:07,160
+That, as you saw, makes a huge,
+huge difference in behavior.
+
+810
+00:34:07,160 --> 00:34:10,340
+And also, we know it's
+represented in the right TPJ
+
+811
+00:34:10,340 --> 00:34:12,020
+because of the TMS experiment.
+
+812
+00:34:12,020 --> 00:34:14,210
+If we mess up the
+signaling in the TPJ,
+
+813
+00:34:14,210 --> 00:34:15,690
+we change that judgment.
+
+814
+00:34:15,690 --> 00:34:18,164
+And so that was our best
+guess, that if any feature
+
+815
+00:34:18,164 --> 00:34:19,580
+of other people's
+mental states is
+
+816
+00:34:19,580 --> 00:34:22,280
+represented in the right TPJ,
+it would be that feature.
+
+817
+00:34:22,280 --> 00:34:24,230
+If MVPA was ever going
+to be able to decode
+
+818
+00:34:24,230 --> 00:34:26,020
+a feature of other
+people's mental states,
+
+819
+00:34:26,020 --> 00:34:26,989
+we should start there.
+
+820
+00:34:26,989 --> 00:34:28,190
+That was the idea.
+
+821
+00:34:28,190 --> 00:34:30,530
+OK, so here's how
+these experiments go.
+
+822
+00:34:30,530 --> 00:34:34,760
+In every every trial you read
+a long, complicated story
+
+823
+00:34:34,760 --> 00:34:36,250
+that sets up a murder.
+
+824
+00:34:36,250 --> 00:34:37,699
+So here's an example.
+
+825
+00:34:37,699 --> 00:34:38,949
+Your family's over for dinner.
+
+826
+00:34:38,949 --> 00:34:40,894
+You want to show off
+your culinary skills
+
+827
+00:34:40,894 --> 00:34:41,810
+for one of the dishes.
+
+828
+00:34:41,810 --> 00:34:43,420
+Adding peanuts will
+bring out the flavor.
+
+829
+00:34:43,420 --> 00:34:44,919
+So you grind up
+peanuts and put them
+
+830
+00:34:44,919 --> 00:34:46,497
+in the dish and feed everyone.
+
+831
+00:34:46,497 --> 00:34:48,080
+Your cousin, one of
+the dinner guests,
+
+832
+00:34:48,080 --> 00:34:50,270
+is severely allergic to peanuts.
+
+833
+00:34:50,270 --> 00:34:52,639
+You had absolutely no
+idea about his allergy
+
+834
+00:34:52,639 --> 00:34:54,699
+when you added the peanuts.
+
+835
+00:34:54,699 --> 00:34:57,110
+And then at the end we ask
+how much blame you should get.
+
+836
+00:34:57,110 --> 00:34:58,401
+Somebody asked me this earlier.
+
+837
+00:34:58,401 --> 00:35:00,800
+This is in the second
+person and doesn't matter.
+
+838
+00:35:00,800 --> 00:35:03,216
+Somebody asked me if you could
+do it in the second person,
+
+839
+00:35:03,216 --> 00:35:04,760
+and you can.
+
+840
+00:35:04,760 --> 00:35:06,770
+What's nice about
+this experiment
+
+841
+00:35:06,770 --> 00:35:09,500
+is that we can do a
+relatively minimal pair.
+
+842
+00:35:09,500 --> 00:35:11,060
+So in all of our
+old experiments we
+
+843
+00:35:11,060 --> 00:35:13,340
+wrote one set of stories
+about people's mental states
+
+844
+00:35:13,340 --> 00:35:16,100
+and a completely different set
+of stories about other things.
+
+845
+00:35:16,100 --> 00:35:18,800
+And those stories are different
+in many, many, many ways.
+
+846
+00:35:18,800 --> 00:35:22,490
+In this experiment, we
+make one tiny change.
+
+847
+00:35:22,490 --> 00:35:24,380
+So we make, for example,
+a change from you
+
+848
+00:35:24,380 --> 00:35:26,780
+had no idea to you knew.
+
+849
+00:35:26,780 --> 00:35:28,910
+We change on average
+two to four words
+
+850
+00:35:28,910 --> 00:35:30,950
+in this whole long scenario.
+
+851
+00:35:30,950 --> 00:35:32,846
+So we can make these
+tiny interventions.
+
+852
+00:35:32,846 --> 00:35:34,970
+It's a complicated stimulus,
+but the change we make
+
+853
+00:35:34,970 --> 00:35:37,580
+is very small and
+totally changed
+
+854
+00:35:37,580 --> 00:35:39,320
+the meaning of the
+whole story by just
+
+855
+00:35:39,320 --> 00:35:41,270
+changing your mental state.
+
+856
+00:35:41,270 --> 00:35:45,037
+OK, what univariate
+analyses would say is,
+
+857
+00:35:45,037 --> 00:35:46,370
+this is a really important fact.
+
+858
+00:35:46,370 --> 00:35:48,953
+Whether you knew or you didn't
+know about your cousin's peanut
+
+859
+00:35:48,953 --> 00:35:51,080
+allergy is really important
+to the moral judgment
+
+860
+00:35:51,080 --> 00:35:52,700
+of what happened.
+
+861
+00:35:52,700 --> 00:35:53,760
+We know that.
+
+862
+00:35:53,760 --> 00:35:55,380
+And it's represented
+in the right TPJ,
+
+863
+00:35:55,380 --> 00:35:56,880
+because if we TMS
+the right TPJ, you
+
+864
+00:35:56,880 --> 00:35:58,940
+make your moral judgments
+of this distinction
+
+865
+00:35:58,940 --> 00:36:00,750
+specifically change.
+
+866
+00:36:00,750 --> 00:36:04,550
+But if you ask how much
+does the right TPJ respond
+
+867
+00:36:04,550 --> 00:36:06,320
+to these stories, the
+answer is the right
+
+868
+00:36:06,320 --> 00:36:09,440
+TPJ responds exactly equally
+to these two conditions.
+
+869
+00:36:09,440 --> 00:36:11,840
+And the intuition is,
+because in both cases
+
+870
+00:36:11,840 --> 00:36:13,667
+it matters what you think.
+
+871
+00:36:13,667 --> 00:36:16,250
+It matters that you knew, and
+it matters that you didn't know.
+
+872
+00:36:16,250 --> 00:36:19,146
+And the right TPJ is tracking
+the important information
+
+873
+00:36:19,146 --> 00:36:20,020
+about what you think.
+
+874
+00:36:20,020 --> 00:36:22,395
+And so it's activated for both
+of these kinds of stories.
+
+875
+00:36:22,395 --> 00:36:24,950
+So that's a univariate analysis.
+
+876
+00:36:24,950 --> 00:36:27,930
+Now what's a
+multivariate analysis?
+
+877
+00:36:27,930 --> 00:36:31,560
+So here's the key intuition
+behind a multivariate analysis.
+
+878
+00:36:31,560 --> 00:36:35,150
+The idea is, think in a very
+abstract similarity space.
+
+879
+00:36:35,150 --> 00:36:37,330
+If we take the two stories--
+
+880
+00:36:37,330 --> 00:36:39,830
+and so we take the story you
+had no idea about your cousin's
+
+881
+00:36:39,830 --> 00:36:41,288
+allergy when you
+added the peanuts.
+
+882
+00:36:43,810 --> 00:36:45,050
+That story is complicated.
+
+883
+00:36:45,050 --> 00:36:47,680
+It has many
+important dimensions.
+
+884
+00:36:47,680 --> 00:36:49,280
+Now we take a new story.
+
+885
+00:36:49,280 --> 00:36:54,364
+This is a story about, for
+example, a faulty parachute.
+
+886
+00:36:54,364 --> 00:36:56,780
+Within that story there's many,
+many different dimensions.
+
+887
+00:36:56,780 --> 00:36:57,790
+It's about parachutes.
+
+888
+00:36:57,790 --> 00:36:59,706
+There's all kinds of
+complicated things going.
+
+889
+00:36:59,706 --> 00:37:01,270
+But there's this one feature--
+
+890
+00:37:01,270 --> 00:37:05,140
+whether you knew or didn't know
+that the parachute was faulty.
+
+891
+00:37:05,140 --> 00:37:08,290
+There's another story about
+publicly shaming your classmate
+
+892
+00:37:08,290 --> 00:37:10,660
+by saying something
+embarrassing about their essay.
+
+893
+00:37:10,660 --> 00:37:12,250
+So again, that's a
+whole new scenario
+
+894
+00:37:12,250 --> 00:37:13,708
+with all kinds of
+dimensions in it.
+
+895
+00:37:13,708 --> 00:37:14,950
+But there's this one feature.
+
+896
+00:37:14,950 --> 00:37:17,800
+Did you know or not know that
+the person who wrote the essay
+
+897
+00:37:17,800 --> 00:37:20,740
+was in the room when you said
+that publicly shaming thing?
+
+898
+00:37:20,740 --> 00:37:22,870
+A different story is
+about demonstrating
+
+899
+00:37:22,870 --> 00:37:26,230
+your karate skills and
+knocking out your classmate--
+
+900
+00:37:26,230 --> 00:37:28,210
+again, totally new
+moral scenario.
+
+901
+00:37:28,210 --> 00:37:29,590
+But again, this
+one feature-- did
+
+902
+00:37:29,590 --> 00:37:31,673
+you know or not know that
+your classmate was there
+
+903
+00:37:31,673 --> 00:37:33,050
+when you did the kick?
+
+904
+00:37:33,050 --> 00:37:34,476
+Now here's the idea.
+
+905
+00:37:34,476 --> 00:37:36,100
+Even though each of
+those new scenarios
+
+906
+00:37:36,100 --> 00:37:38,530
+is completely
+different, if there
+
+907
+00:37:38,530 --> 00:37:40,930
+are different subpopulations
+within your right TPJ
+
+908
+00:37:40,930 --> 00:37:43,930
+responding when you knew you
+were going to cause harm--
+
+909
+00:37:43,930 --> 00:37:46,600
+compared to when you didn't know
+you were going to cause harm--
+
+910
+00:37:46,600 --> 00:37:49,240
+then even though the pattern of
+activity in your right TPJ will
+
+911
+00:37:49,240 --> 00:37:51,190
+be different on every trial--
+because you're representing
+
+912
+00:37:51,190 --> 00:37:53,273
+a different person having
+a different mental state
+
+913
+00:37:53,273 --> 00:37:54,400
+in a different context--
+
+914
+00:37:54,400 --> 00:37:56,840
+a little part of that
+response will be the same.
+
+915
+00:37:56,840 --> 00:37:58,690
+Or it will be different
+in the same way,
+
+916
+00:37:58,690 --> 00:38:00,400
+right, because the
+same cell population
+
+917
+00:38:00,400 --> 00:38:03,990
+will be more active for all the
+stories that have knowing harm.
+
+918
+00:38:03,990 --> 00:38:06,659
+And the other population
+will be relatively
+
+919
+00:38:06,659 --> 00:38:08,950
+active in all the stories
+that have the unknowing harm.
+
+920
+00:38:08,950 --> 00:38:12,430
+And so the logic is that if
+we could look in the right TPJ
+
+921
+00:38:12,430 --> 00:38:14,840
+and measure the
+pattern of activity--
+
+922
+00:38:14,840 --> 00:38:18,490
+and hope that reflects something
+like the relative activation
+
+923
+00:38:18,490 --> 00:38:22,120
+of different cell populations
+inside the right TPJ--
+
+924
+00:38:22,120 --> 00:38:24,100
+that the pattern
+of activity would
+
+925
+00:38:24,100 --> 00:38:29,500
+be more similar for pairs or
+subsets of stories that share
+
+926
+00:38:29,500 --> 00:38:32,890
+this one feature, and are
+different in every other way,
+
+927
+00:38:32,890 --> 00:38:35,920
+compared to pairs that are
+different in every other way
+
+928
+00:38:35,920 --> 00:38:37,610
+and don't share that feature.
+
+929
+00:38:37,610 --> 00:38:40,480
+OK, so this is
+the central logic.
+
+930
+00:38:40,480 --> 00:38:42,299
+Take any two stories
+within the set.
+
+931
+00:38:42,299 --> 00:38:43,090
+They're all unique.
+
+932
+00:38:43,090 --> 00:38:44,260
+So those two stories
+that are different,
+
+933
+00:38:44,260 --> 00:38:46,551
+you're representing a new
+mental state of a new person.
+
+934
+00:38:46,551 --> 00:38:48,730
+You have a new pattern
+in your right TPJ.
+
+935
+00:38:48,730 --> 00:38:50,350
+But if they share
+the feature that you
+
+936
+00:38:50,350 --> 00:38:51,820
+knew you were going
+to cause harm,
+
+937
+00:38:51,820 --> 00:38:54,236
+that would be something a
+little bit similar in your right
+
+938
+00:38:54,236 --> 00:38:57,160
+TPJ activation compared to if
+they don't show that feature.
+
+939
+00:38:57,160 --> 00:38:58,780
+Does that logic make sense?
+
+940
+00:38:58,780 --> 00:39:01,870
+And so what you get is a
+spatial pattern of activation.
+
+941
+00:39:01,870 --> 00:39:05,590
+So we're now not looking at how
+much the right TPJ responded.
+
+942
+00:39:05,590 --> 00:39:07,920
+But within the space
+of the right TPJ,
+
+943
+00:39:07,920 --> 00:39:10,300
+where was there a little bit
+more or a little bit less
+
+944
+00:39:10,300 --> 00:39:10,910
+activity?
+
+945
+00:39:10,910 --> 00:39:13,090
+And these signals are
+tiny compared to the thing
+
+946
+00:39:13,090 --> 00:39:14,210
+I showed you before.
+
+947
+00:39:14,210 --> 00:39:17,380
+So the amount of activity in
+the right TPJ is a big signal.
+
+948
+00:39:17,380 --> 00:39:20,170
+The relative activity
+between one voxel and another
+
+949
+00:39:20,170 --> 00:39:21,580
+is a tiny signal.
+
+950
+00:39:21,580 --> 00:39:23,930
+And it's superimposed
+on a lot of noise.
+
+951
+00:39:23,930 --> 00:39:25,480
+But if there's
+anything there at all,
+
+952
+00:39:25,480 --> 00:39:26,980
+then you'll still
+be able to pick up
+
+953
+00:39:26,980 --> 00:39:29,020
+a little more
+similarity for pairs
+
+954
+00:39:29,020 --> 00:39:31,010
+that are matched on
+the feature of interest
+
+955
+00:39:31,010 --> 00:39:32,966
+compared to pairs
+that are not matched
+
+956
+00:39:32,966 --> 00:39:34,090
+on the feature of interest.
+
+957
+00:39:34,090 --> 00:39:37,030
+That's the logic behind
+a Haxby style analysis.
+
+958
+00:39:37,030 --> 00:39:38,890
+And so literally
+what you do is, you
+
+959
+00:39:38,890 --> 00:39:41,680
+take the vector of responses
+across all the voxels
+
+960
+00:39:41,680 --> 00:39:44,380
+inside a region, and
+you correlate them
+
+961
+00:39:44,380 --> 00:39:46,240
+across subsets of your data.
+
+962
+00:39:46,240 --> 00:39:48,910
+And you ask whether the
+correlation in space--
+
+963
+00:39:48,910 --> 00:39:51,160
+so what it looks like,
+the spatial pattern
+
+964
+00:39:51,160 --> 00:39:54,370
+of activity over those voxels--
+
+965
+00:39:54,370 --> 00:39:57,250
+is more similar for
+pairs that share
+
+966
+00:39:57,250 --> 00:40:00,209
+the feature you're interested
+in compared to pairs
+
+967
+00:40:00,209 --> 00:40:02,500
+that don't share the feature
+that you're interested in.
+
+968
+00:40:02,500 --> 00:40:04,510
+And what you get
+at is two numbers--
+
+969
+00:40:04,510 --> 00:40:06,959
+the correlation
+for pairs that do
+
+970
+00:40:06,959 --> 00:40:08,500
+share the feature
+and the correlation
+
+971
+00:40:08,500 --> 00:40:10,240
+for pairs that don't
+share the feature
+
+972
+00:40:10,240 --> 00:40:12,640
+for each individual subject.
+
+973
+00:40:12,640 --> 00:40:15,370
+And the question you ask in
+a Haxby style correlation
+
+974
+00:40:15,370 --> 00:40:18,600
+is what's called the
+within-condition correlation.
+
+975
+00:40:18,600 --> 00:40:20,350
+So the spatial correlation
+of the response
+
+976
+00:40:20,350 --> 00:40:22,810
+to two independent sets
+of stories that share
+
+977
+00:40:22,810 --> 00:40:24,280
+this one feature--
+
+978
+00:40:24,280 --> 00:40:27,850
+is the spatial pattern
+more similar in that pair
+
+979
+00:40:27,850 --> 00:40:30,850
+compared to a pair that don't
+share that feature, when
+
+980
+00:40:30,850 --> 00:40:33,430
+everything else is different?
+
+981
+00:40:33,430 --> 00:40:35,800
+And so what you get out
+of an analysis like this--
+
+982
+00:40:35,800 --> 00:40:38,020
+for example, in our first
+attempt to do this in these
+
+983
+00:40:38,020 --> 00:40:38,659
+stimuli--
+
+984
+00:40:38,659 --> 00:40:39,950
+there's these two correlations.
+
+985
+00:40:39,950 --> 00:40:41,050
+There's the
+within-condition correlation
+
+986
+00:40:41,050 --> 00:40:42,633
+and the between-condition
+correlation,
+
+987
+00:40:42,633 --> 00:40:44,620
+and you ask if
+they're different.
+
+988
+00:40:44,620 --> 00:40:47,350
+OK, and what we got in
+our first experiment
+
+989
+00:40:47,350 --> 00:40:50,260
+is that the within-condition
+correlation is significantly
+
+990
+00:40:50,260 --> 00:40:57,730
+but a tiny bit stronger than the
+between-condition correlation.
+
+991
+00:40:57,730 --> 00:41:00,190
+So there's a lot of
+things to ask about this.
+
+992
+00:41:00,190 --> 00:41:01,840
+But the first question is--
+
+993
+00:41:01,840 --> 00:41:03,994
+is that real, or is
+that a coincidence?
+
+994
+00:41:03,994 --> 00:41:05,660
+That is the first
+thing you want to know
+
+995
+00:41:05,660 --> 00:41:06,490
+when you see data like this.
+
+996
+00:41:06,490 --> 00:41:08,220
+Afterwards, we can
+ask what does it mean.
+
+997
+00:41:08,220 --> 00:41:10,690
+But let's start
+with is that real.
+
+998
+00:41:10,690 --> 00:41:12,711
+And so the way that
+you ask is it real is,
+
+999
+00:41:12,711 --> 00:41:14,710
+you just make sure that
+it would replicate, that
+
+1000
+00:41:14,710 --> 00:41:17,180
+in independent data you'd
+get the same answer.
+
+1001
+00:41:17,180 --> 00:41:20,110
+And so just before we set out
+to actually replicate this
+
+1002
+00:41:20,110 --> 00:41:22,180
+experiment, we remember
+that we had actually
+
+1003
+00:41:22,180 --> 00:41:24,760
+already run this experiment
+two times before--
+
+1004
+00:41:24,760 --> 00:41:27,190
+because we were studying
+this process of representing
+
+1005
+00:41:27,190 --> 00:41:29,440
+accidental and intentional
+harms for a long time
+
+1006
+00:41:29,440 --> 00:41:31,150
+before we thought of using MVPA.
+
+1007
+00:41:31,150 --> 00:41:32,680
+So we had these
+two old data sets
+
+1008
+00:41:32,680 --> 00:41:35,851
+in the lab, two whole
+independent experiments
+
+1009
+00:41:35,851 --> 00:41:38,350
+in which people had read stories
+about knowing and unknowing
+
+1010
+00:41:38,350 --> 00:41:39,394
+harm.
+
+1011
+00:41:39,394 --> 00:41:40,810
+And the other thing
+is that we had
+
+1012
+00:41:40,810 --> 00:41:44,020
+manipulated this distinction
+in different ways
+
+1013
+00:41:44,020 --> 00:41:45,190
+across the stimuli.
+
+1014
+00:41:45,190 --> 00:41:46,669
+So in the example
+I just told you,
+
+1015
+00:41:46,669 --> 00:41:49,210
+the way that we did it is, we
+said you knew about the allergy
+
+1016
+00:41:49,210 --> 00:41:51,160
+or you didn't know
+about the allergy.
+
+1017
+00:41:51,160 --> 00:41:53,304
+But in the older experiments,
+like this example
+
+1018
+00:41:53,304 --> 00:41:54,970
+I gave you at the
+beginning of the talk,
+
+1019
+00:41:54,970 --> 00:41:57,040
+we had described two
+different beliefs--
+
+1020
+00:41:57,040 --> 00:41:58,960
+so either believing
+that it's sugar
+
+1021
+00:41:58,960 --> 00:42:01,282
+or believing that it's
+poison, so no negation.
+
+1022
+00:42:01,282 --> 00:42:03,490
+This is just important
+because that's a different way
+
+1023
+00:42:03,490 --> 00:42:05,442
+to create the same distinction.
+
+1024
+00:42:05,442 --> 00:42:07,900
+And what you want to know is,
+are you decoding the abstract
+
+1025
+00:42:07,900 --> 00:42:10,120
+thing-- that she knew she
+was causing harm or not--
+
+1026
+00:42:10,120 --> 00:42:12,310
+or something less abstract,
+like whether the story
+
+1027
+00:42:12,310 --> 00:42:13,450
+has negation in it.
+
+1028
+00:42:13,450 --> 00:42:15,580
+That's an alternative
+possibility.
+
+1029
+00:42:15,580 --> 00:42:19,540
+And so in experiments B and
+C, we had done it this way.
+
+1030
+00:42:19,540 --> 00:42:21,950
+It's also in the third
+person, not the second person.
+
+1031
+00:42:21,950 --> 00:42:23,620
+So if we find the
+same result, then it
+
+1032
+00:42:23,620 --> 00:42:26,110
+generalizes across all these
+incidental features of the way
+
+1033
+00:42:26,110 --> 00:42:27,900
+the experiment was run.
+
+1034
+00:42:27,900 --> 00:42:30,560
+OK, that's experiment two,
+and that's experiment three.
+
+1035
+00:42:30,560 --> 00:42:33,700
+I also want to say that there's
+some weird magical property
+
+1036
+00:42:33,700 --> 00:42:35,980
+of being a scientist,
+where if you don't
+
+1037
+00:42:35,980 --> 00:42:38,410
+know the hypothesis when
+you're running the experiment
+
+1038
+00:42:38,410 --> 00:42:41,020
+and you have all the data and
+then you go back and check,
+
+1039
+00:42:41,020 --> 00:42:42,570
+there's something
+more real about it
+
+1040
+00:42:42,570 --> 00:42:44,320
+than if you knew the
+hypothesis before you
+
+1041
+00:42:44,320 --> 00:42:47,494
+ran the experiment-- even though
+that makes no sense whatsoever.
+
+1042
+00:42:47,494 --> 00:42:48,910
+There's just this
+experience like,
+
+1043
+00:42:48,910 --> 00:42:50,770
+if I had the
+hypothesis in my head,
+
+1044
+00:42:50,770 --> 00:42:52,930
+maybe it somehow got
+from my head to the data.
+
+1045
+00:42:52,930 --> 00:42:54,580
+But when the data
+were already there
+
+1046
+00:42:54,580 --> 00:42:55,940
+and then you went
+back and analyzed them
+
+1047
+00:42:55,940 --> 00:42:57,481
+and the effect was
+hiding in the data
+
+1048
+00:42:57,481 --> 00:42:59,350
+that you'd had on
+your server, there's
+
+1049
+00:42:59,350 --> 00:43:01,980
+something way more real
+and magical about that.
+
+1050
+00:43:01,980 --> 00:43:04,640
+So anyway, because it was
+there in all of our old data,
+
+1051
+00:43:04,640 --> 00:43:05,930
+I just believed it was true.
+
+1052
+00:43:05,930 --> 00:43:10,120
+The other thing to notice about
+this is, to get an MVPA signal,
+
+1053
+00:43:10,120 --> 00:43:12,340
+we didn't change
+anything about the fMRI.
+
+1054
+00:43:12,340 --> 00:43:14,470
+We didn't change
+the resolution--
+
+1055
+00:43:14,470 --> 00:43:16,572
+the temporal resolution,
+the spatial resolution.
+
+1056
+00:43:16,572 --> 00:43:18,280
+You can know that for
+sure, because these
+
+1057
+00:43:18,280 --> 00:43:20,710
+are our old data that we had
+before we started doing MVPA.
+
+1058
+00:43:20,710 --> 00:43:23,530
+MVPA is not a technique
+for collecting better data.
+
+1059
+00:43:23,530 --> 00:43:26,230
+It's a technique for
+getting more information out
+
+1060
+00:43:26,230 --> 00:43:27,746
+of the same data.
+
+1061
+00:43:27,746 --> 00:43:28,870
+It's an analysis technique.
+
+1062
+00:43:28,870 --> 00:43:30,286
+It's a way of
+thinking about data,
+
+1063
+00:43:30,286 --> 00:43:31,540
+not a way of getting data.
+
+1064
+00:43:31,540 --> 00:43:38,290
+OK, so what this says is
+that however similar two
+
+1065
+00:43:38,290 --> 00:43:41,350
+unrelated stories are about a
+case in which somebody kills
+
+1066
+00:43:41,350 --> 00:43:44,310
+somebody, they are
+more similar if they
+
+1067
+00:43:44,310 --> 00:43:47,740
+are both cases of knowing
+murder or both cases
+
+1068
+00:43:47,740 --> 00:43:50,910
+of unknowing murder than
+if you cross that feature.
+
+1069
+00:43:50,910 --> 00:43:53,650
+So just making that
+future match makes
+
+1070
+00:43:53,650 --> 00:43:55,720
+the pattern of neural
+response in the right TPJ
+
+1071
+00:43:55,720 --> 00:43:58,870
+more similar, suggesting
+that which part of the right
+
+1072
+00:43:58,870 --> 00:44:02,350
+TPJ is more or less active
+contains information
+
+1073
+00:44:02,350 --> 00:44:03,852
+about whether or
+not the person who
+
+1074
+00:44:03,852 --> 00:44:06,310
+committed the murder knew what
+they were doing at the time.
+
+1075
+00:44:06,310 --> 00:44:07,930
+This is specific
+to the right TPJ.
+
+1076
+00:44:07,930 --> 00:44:09,730
+So these are a bunch
+of the other brain
+
+1077
+00:44:09,730 --> 00:44:13,310
+regions involved in theory
+of mind and social cognition.
+
+1078
+00:44:13,310 --> 00:44:14,980
+And none of them
+contain any information
+
+1079
+00:44:14,980 --> 00:44:16,130
+about this dimension at all.
+
+1080
+00:44:16,130 --> 00:44:18,171
+So this dimension is
+represented in the right TPJ
+
+1081
+00:44:18,171 --> 00:44:20,057
+and not represented
+anywhere else.
+
+1082
+00:44:20,057 --> 00:44:22,390
+There's another thing that
+makes these data interesting.
+
+1083
+00:44:25,295 --> 00:44:26,670
+People are reading
+these stories,
+
+1084
+00:44:26,670 --> 00:44:28,510
+and they're making
+moral judgments.
+
+1085
+00:44:28,510 --> 00:44:33,130
+And moral judgments of these
+stories vary across people.
+
+1086
+00:44:33,130 --> 00:44:37,420
+So some people tend to go more
+with what the person thought,
+
+1087
+00:44:37,420 --> 00:44:38,920
+whereas other people
+tend to go more
+
+1088
+00:44:38,920 --> 00:44:41,840
+with what the person caused.
+
+1089
+00:44:41,840 --> 00:44:45,100
+It's not extreme
+individual variability.
+
+1090
+00:44:45,100 --> 00:44:47,350
+Everybody agrees that it's
+worse to knowingly murder
+
+1091
+00:44:47,350 --> 00:44:49,570
+than to unknowingly murder.
+
+1092
+00:44:49,570 --> 00:44:52,150
+But there is variability
+in how much worse.
+
+1093
+00:44:52,150 --> 00:44:55,540
+Some people think that basically
+what you thought you were doing
+
+1094
+00:44:55,540 --> 00:44:57,460
+is all that matters
+in these stories,
+
+1095
+00:44:57,460 --> 00:44:59,879
+whereas other people think
+both of those things matter.
+
+1096
+00:44:59,879 --> 00:45:02,170
+So it matters to some degree
+that you caused the murder
+
+1097
+00:45:02,170 --> 00:45:03,836
+and to some degree
+that you didn't know.
+
+1098
+00:45:03,836 --> 00:45:05,806
+So there's individual
+variability.
+
+1099
+00:45:05,806 --> 00:45:07,180
+And one thing that
+we can look at
+
+1100
+00:45:07,180 --> 00:45:10,481
+is, how does the individual
+variability in the behavior
+
+1101
+00:45:10,481 --> 00:45:11,980
+relate to the
+individual variability
+
+1102
+00:45:11,980 --> 00:45:13,760
+in the representation.
+
+1103
+00:45:13,760 --> 00:45:17,290
+So what this looks like is,
+on the x-axis I measure--
+
+1104
+00:45:17,290 --> 00:45:19,890
+for you, how much
+worse are intentional
+
+1105
+00:45:19,890 --> 00:45:21,190
+than accidental harms.
+
+1106
+00:45:21,190 --> 00:45:23,110
+How much worse is
+it when you knew
+
+1107
+00:45:23,110 --> 00:45:26,060
+you were going to cause harm
+than when you didn't know?
+
+1108
+00:45:26,060 --> 00:45:28,264
+So that's always going
+to be a positive number.
+
+1109
+00:45:28,264 --> 00:45:29,430
+Everybody thinks it's worse.
+
+1110
+00:45:29,430 --> 00:45:32,200
+But for some people,
+it's a lot worse
+
+1111
+00:45:32,200 --> 00:45:34,870
+than it is for other people.
+
+1112
+00:45:34,870 --> 00:45:39,250
+And then relate that to,
+while you were reading
+
+1113
+00:45:39,250 --> 00:45:42,280
+that story, how different were
+the patterns in your brain
+
+1114
+00:45:42,280 --> 00:45:43,990
+when you were reading
+about knowing harm
+
+1115
+00:45:43,990 --> 00:45:45,250
+compared to unknowing harm.
+
+1116
+00:45:45,250 --> 00:45:46,125
+Does that make sense?
+
+1117
+00:45:48,770 --> 00:45:50,300
+They're pretty correlated.
+
+1118
+00:45:50,300 --> 00:45:53,360
+So the more that you
+represented knowing
+
+1119
+00:45:53,360 --> 00:45:55,450
+harm as different
+from unknowing harm
+
+1120
+00:45:55,450 --> 00:45:57,830
+in your right TPJ,
+the more that you
+
+1121
+00:45:57,830 --> 00:46:00,487
+judged them as different when
+we asked you for moral judgment.
+
+1122
+00:46:00,487 --> 00:46:02,320
+And the pattern difference
+in your right TPJ
+
+1123
+00:46:02,320 --> 00:46:05,026
+accounts for 35% of the variance
+in your moral judgment, which
+
+1124
+00:46:05,026 --> 00:46:06,400
+is pretty amazing,
+because that's
+
+1125
+00:46:06,400 --> 00:46:08,030
+a pretty noisy measurement.
+
+1126
+00:46:08,030 --> 00:46:08,950
+Actually it's both.
+
+1127
+00:46:08,950 --> 00:46:10,390
+It's a pretty noisy
+measurement of your brain
+
+1128
+00:46:10,390 --> 00:46:12,500
+and a pretty noisy
+measurement of your behavior.
+
+1129
+00:46:12,500 --> 00:46:15,086
+So it's quite amazing that
+those are that correlated.
+
+1130
+00:46:17,260 --> 00:46:20,050
+So that's what's
+cool about the data.
+
+1131
+00:46:20,050 --> 00:46:23,244
+But we'll get to the method.
+
+1132
+00:46:23,244 --> 00:46:25,660
+So Haxby style correlations--
+these are called Haxby style
+
+1133
+00:46:25,660 --> 00:46:28,000
+because they were the first
+form of MVPA introduced,
+
+1134
+00:46:28,000 --> 00:46:30,766
+and they were introduced
+by Jim Haxby in 2001,
+
+1135
+00:46:30,766 --> 00:46:32,621
+so actually a long time ago.
+
+1136
+00:46:32,621 --> 00:46:34,120
+It took a long time
+for other people
+
+1137
+00:46:34,120 --> 00:46:35,980
+to recognize what a
+cool technique this was.
+
+1138
+00:46:35,980 --> 00:46:39,040
+But he had this idea
+a very long time ago.
+
+1139
+00:46:39,040 --> 00:46:42,475
+And the idea is, take
+a region you care about
+
+1140
+00:46:42,475 --> 00:46:45,100
+and ask this basic question.
+
+1141
+00:46:45,100 --> 00:46:47,920
+For some future that I
+wonder if it's represented,
+
+1142
+00:46:47,920 --> 00:46:51,580
+is the correlation across
+neural responses more similar
+
+1143
+00:46:51,580 --> 00:46:53,890
+when the stimuli share
+that feature than when
+
+1144
+00:46:53,890 --> 00:46:55,550
+they don't share that feature?
+
+1145
+00:46:55,550 --> 00:46:57,850
+So that gives you a
+pretty robust measurement,
+
+1146
+00:46:57,850 --> 00:47:00,010
+because you're using all
+the voxels in the region
+
+1147
+00:47:00,010 --> 00:47:02,151
+to get one number
+out-- the correlation.
+
+1148
+00:47:02,151 --> 00:47:04,150
+And you're doing it over
+partitions of the data,
+
+1149
+00:47:04,150 --> 00:47:06,730
+often halves of the
+data, so many trials
+
+1150
+00:47:06,730 --> 00:47:09,050
+are going into both
+the train and test.
+
+1151
+00:47:09,050 --> 00:47:11,980
+So in this case we're using
+halves of the data, even halves
+
+1152
+00:47:11,980 --> 00:47:13,080
+and odd halves.
+
+1153
+00:47:13,080 --> 00:47:15,520
+And so each of the
+things we're correlating
+
+1154
+00:47:15,520 --> 00:47:18,310
+is a relatively less
+noisy neural measure
+
+1155
+00:47:18,310 --> 00:47:21,250
+because it has many
+trials averaged into it.
+
+1156
+00:47:21,250 --> 00:47:23,410
+So it's robust and simple.
+
+1157
+00:47:23,410 --> 00:47:26,080
+In this case, it can be
+sensitive to pretty minimal
+
+1158
+00:47:26,080 --> 00:47:27,100
+stimulus variations.
+
+1159
+00:47:27,100 --> 00:47:29,980
+As I showed you, this is a
+two- to four-word variation
+
+1160
+00:47:29,980 --> 00:47:32,710
+on an 80-word story.
+
+1161
+00:47:32,710 --> 00:47:36,090
+So it's sensitive to small
+distinctions in the stimuli.
+
+1162
+00:47:36,090 --> 00:47:38,110
+Here we showed that
+it generalizes.
+
+1163
+00:47:38,110 --> 00:47:40,540
+So we used totally
+independent stories
+
+1164
+00:47:40,540 --> 00:47:42,160
+in the train and test set.
+
+1165
+00:47:42,160 --> 00:47:44,710
+And so we're always generalizing
+from one set of examples
+
+1166
+00:47:44,710 --> 00:47:47,710
+to a totally different
+set of examples.
+
+1167
+00:47:47,710 --> 00:47:51,340
+It gave us a measure that was
+stable within a participant
+
+1168
+00:47:51,340 --> 00:47:53,710
+in the sense that the
+measure in each individual
+
+1169
+00:47:53,710 --> 00:47:55,670
+related to that
+individual's behavior.
+
+1170
+00:47:55,670 --> 00:47:57,280
+So it's characterizing
+individuals
+
+1171
+00:47:57,280 --> 00:47:59,080
+in a relatively stable way.
+
+1172
+00:47:59,080 --> 00:48:01,259
+And we could show that it
+differs across regions.
+
+1173
+00:48:01,259 --> 00:48:03,550
+So we could show that this
+was present in the right TPJ
+
+1174
+00:48:03,550 --> 00:48:05,470
+but not present
+in other regions.
+
+1175
+00:48:05,470 --> 00:48:08,080
+And that's a bunch of stuff
+you would want to know.
+
+1176
+00:48:08,080 --> 00:48:10,640
+That's a whole bunch
+of extra information
+
+1177
+00:48:10,640 --> 00:48:13,790
+than we ever were
+able to get before.
+
+1178
+00:48:13,790 --> 00:48:16,990
+And I'll give you one
+more example of the way
+
+1179
+00:48:16,990 --> 00:48:19,580
+that Haxby correlations
+can be used.
+
+1180
+00:48:19,580 --> 00:48:22,510
+So in this case I showed you,
+we hypothesized one dimension.
+
+1181
+00:48:22,510 --> 00:48:24,820
+And we tried to
+decode that dimension.
+
+1182
+00:48:24,820 --> 00:48:26,980
+Obviously, you don't
+only have to do one.
+
+1183
+00:48:26,980 --> 00:48:29,680
+And so another way to do this
+is to build stimulus sets that,
+
+1184
+00:48:29,680 --> 00:48:31,690
+for example, have two
+orthogonal dimensions
+
+1185
+00:48:31,690 --> 00:48:34,210
+and ask about both of them.
+
+1186
+00:48:34,210 --> 00:48:36,160
+SO here's an
+experiment in which we
+
+1187
+00:48:36,160 --> 00:48:38,950
+asked about decoding two
+orthogonal differences
+
+1188
+00:48:38,950 --> 00:48:41,546
+within the same set of stimuli.
+
+1189
+00:48:41,546 --> 00:48:43,420
+So again, you're reading
+stories about people
+
+1190
+00:48:43,420 --> 00:48:46,150
+who are having experiences.
+
+1191
+00:48:46,150 --> 00:48:49,225
+And some sets of
+these stories vary.
+
+1192
+00:48:52,960 --> 00:48:54,280
+So here's a bunch of stories.
+
+1193
+00:48:54,280 --> 00:48:57,065
+Leslie has just been in a
+big, important interview.
+
+1194
+00:48:57,065 --> 00:48:58,690
+And he sees himself
+in a mirror, and he
+
+1195
+00:48:58,690 --> 00:49:01,390
+sees that his shirt has a big
+coffee stain down the front.
+
+1196
+00:49:01,390 --> 00:49:02,320
+And another one is--
+
+1197
+00:49:02,320 --> 00:49:05,500
+Eric gets to a restaurant to
+meet his fiance's parents,
+
+1198
+00:49:05,500 --> 00:49:07,459
+and he sees them and
+they're looking happy
+
+1199
+00:49:07,459 --> 00:49:09,250
+So that's two completely
+different stories.
+
+1200
+00:49:09,250 --> 00:49:10,510
+And then the third story--
+
+1201
+00:49:10,510 --> 00:49:12,280
+Abigail is painting
+her dorm room,
+
+1202
+00:49:12,280 --> 00:49:14,590
+and she hears somebody's
+footsteps down the hallway.
+
+1203
+00:49:14,590 --> 00:49:17,572
+And the footsteps sound like
+her beloved boyfriend's.
+
+1204
+00:49:17,572 --> 00:49:19,030
+So these stories
+are all different.
+
+1205
+00:49:19,030 --> 00:49:22,426
+Again, they're all But
+the first two stories
+
+1206
+00:49:22,426 --> 00:49:23,800
+I read you share
+a feature, which
+
+1207
+00:49:23,800 --> 00:49:26,476
+is that somebody in the
+story is seeing something.
+
+1208
+00:49:26,476 --> 00:49:27,850
+And they don't
+share that feature
+
+1209
+00:49:27,850 --> 00:49:30,016
+with the third story, in
+which somebody in the story
+
+1210
+00:49:30,016 --> 00:49:31,320
+is hearing something.
+
+1211
+00:49:31,320 --> 00:49:33,307
+Does that makes sense?
+
+1212
+00:49:33,307 --> 00:49:34,390
+Compared to, for example--
+
+1213
+00:49:34,390 --> 00:49:36,710
+Quentin hears a phone
+message, and the message
+
+1214
+00:49:36,710 --> 00:49:38,320
+says she has bad
+news to tell him.
+
+1215
+00:49:38,320 --> 00:49:40,194
+That's another story
+that shares this feature
+
+1216
+00:49:40,194 --> 00:49:43,390
+that somebody in the story
+is hearing something.
+
+1217
+00:49:43,390 --> 00:49:47,020
+And so we can use this
+set of stories to ask,
+
+1218
+00:49:47,020 --> 00:49:49,450
+is the neural
+response to stories
+
+1219
+00:49:49,450 --> 00:49:51,940
+in which somebody
+is seeing something
+
+1220
+00:49:51,940 --> 00:49:53,287
+more similar within that set?
+
+1221
+00:49:53,287 --> 00:49:55,120
+So one set of stories
+about seeing something
+
+1222
+00:49:55,120 --> 00:49:57,400
+is compared to another set of
+stories about seeing something.
+
+1223
+00:49:57,400 --> 00:49:59,310
+Are those stories more
+similar to one another
+
+1224
+00:49:59,310 --> 00:50:00,610
+than when you
+cross that feature?
+
+1225
+00:50:00,610 --> 00:50:02,776
+So you ask one set of stories
+about seeing something
+
+1226
+00:50:02,776 --> 00:50:05,090
+compared to one set of stories
+about hearing something.
+
+1227
+00:50:05,090 --> 00:50:08,440
+And so in the right
+TPJ, what we found
+
+1228
+00:50:08,440 --> 00:50:11,740
+is that stories about seeing are
+more similar to other stories
+
+1229
+00:50:11,740 --> 00:50:12,304
+about seeing.
+
+1230
+00:50:12,304 --> 00:50:13,720
+And stories about
+hearing are more
+
+1231
+00:50:13,720 --> 00:50:15,370
+similar to other
+stories about hearing
+
+1232
+00:50:15,370 --> 00:50:17,594
+than when you
+cross that feature.
+
+1233
+00:50:17,594 --> 00:50:19,510
+But, as you may have
+noticed, the stimulus set
+
+1234
+00:50:19,510 --> 00:50:21,280
+had another distinction
+in it, which
+
+1235
+00:50:21,280 --> 00:50:25,570
+is whether the thing is good
+or bad that's happening to you.
+
+1236
+00:50:25,570 --> 00:50:26,950
+So finding out
+after an interview
+
+1237
+00:50:26,950 --> 00:50:28,450
+that you have coffee
+down your shirt
+
+1238
+00:50:28,450 --> 00:50:30,160
+or hearing a message that
+says there's bad news,
+
+1239
+00:50:30,160 --> 00:50:31,360
+those are both bad things.
+
+1240
+00:50:31,360 --> 00:50:34,469
+Whereas seeing your fiance
+looking happy or hearing
+
+1241
+00:50:34,469 --> 00:50:36,760
+that your beloved boyfriend
+is coming down the hallway,
+
+1242
+00:50:36,760 --> 00:50:38,320
+those are both good things.
+
+1243
+00:50:38,320 --> 00:50:40,450
+And so we could ask
+in the same dataset,
+
+1244
+00:50:40,450 --> 00:50:43,210
+what about stories that share
+this feature of valence.
+
+1245
+00:50:43,210 --> 00:50:45,610
+The pairs of stories that
+are matched on valence,
+
+1246
+00:50:45,610 --> 00:50:47,980
+do they have a more
+similar neural signature
+
+1247
+00:50:47,980 --> 00:50:51,900
+than the pairs of stories
+that are crossed on valence?
+
+1248
+00:50:51,900 --> 00:50:53,870
+And in the right
+TPJ they're not.
+
+1249
+00:50:53,870 --> 00:50:56,110
+We've actually found this
+a whole bunch of times.
+
+1250
+00:50:56,110 --> 00:50:59,020
+The right TPJ doesn't
+care about valence.
+
+1251
+00:50:59,020 --> 00:51:01,560
+Other regions do-- don't
+worry-- we do represent valence.
+
+1252
+00:51:01,560 --> 00:51:05,080
+But the right TPJ doesn't
+represent valence.
+
+1253
+00:51:05,080 --> 00:51:08,110
+So that's another way that
+you can use this method--
+
+1254
+00:51:08,110 --> 00:51:10,090
+hypothesize two or three
+orthogonal dimensions
+
+1255
+00:51:10,090 --> 00:51:11,744
+within the same stimulus set.
+
+1256
+00:51:11,744 --> 00:51:13,660
+And then we can get, for
+example, interactions
+
+1257
+00:51:13,660 --> 00:51:16,180
+between these to say, OK,
+the right TPJ does represent
+
+1258
+00:51:16,180 --> 00:51:18,710
+some dimensions, doesn't
+represent other dimensions--
+
+1259
+00:51:18,710 --> 00:51:21,730
+in principle.
+
+1260
+00:51:21,730 --> 00:51:24,010
+So you can test
+potentially multiple
+
+1261
+00:51:24,010 --> 00:51:25,660
+orthogonal distinctions.
+
+1262
+00:51:28,870 --> 00:51:30,370
+There's a whole
+bunch of limitations
+
+1263
+00:51:30,370 --> 00:51:33,310
+of Haxby style correlations.
+
+1264
+00:51:33,310 --> 00:51:37,690
+One of them is that all
+the tests are binary.
+
+1265
+00:51:37,690 --> 00:51:40,210
+The answer you get
+for anything you test
+
+1266
+00:51:40,210 --> 00:51:42,310
+is that there is or
+is not information
+
+1267
+00:51:42,310 --> 00:51:44,640
+about that distinction.
+
+1268
+00:51:44,640 --> 00:51:46,380
+There's no continuous
+measure here.
+
+1269
+00:51:46,380 --> 00:51:51,580
+It's just that two things are
+different from one another
+
+1270
+00:51:51,580 --> 00:51:55,150
+or they are not different
+from one another.
+
+1271
+00:51:55,150 --> 00:52:01,069
+And so once people started
+thinking about this method,
+
+1272
+00:52:01,069 --> 00:52:02,610
+it became clear that
+this is actually
+
+1273
+00:52:02,610 --> 00:52:05,430
+just a special case of a much
+more general way of thinking
+
+1274
+00:52:05,430 --> 00:52:07,310
+about fMRI data.
+
+1275
+00:52:07,310 --> 00:52:10,590
+This particular method,
+using spatial correlations,
+
+1276
+00:52:10,590 --> 00:52:13,790
+is very stable and robust.
+
+1277
+00:52:13,790 --> 00:52:17,840
+But it's a special case of
+a much more general set.

@@ -1,0 +1,2166 @@
+Making Algorithms Trustworthy:
+What Can Statistical Science Contribute to
+Transparency, Explanation and Validation?
+
+David Spiegelhalter
+
+Chairman of the Winton Centre for Risk & Evidence Communication,
+University of Cambridge
+
+President, Royal Statistical Society
+@d_spiegel
+david@statslab.cam.ac.uk
+
+NeurlIPS 2018
+ENDELEMENTLeo Breiman 1928-2005
+
+Professor of Statistics, UC Berkeley
+Verified email at stat.berkeley.edu - Homepage
+
+Data Analysis Statistics Machine Learning
+
+ 
+
+TITLE CITED BY YEAR
+Random forests 41246 2001
+L Breiman
+
+Machine learning 45 (1), 5-32
+
+Classification and Regression Trees 39082 1999
+L Breiman, JH Friedman, RA Olshen, CJ Stone
+CRC Press, New York
+
+. *
+Classification and regression trees 39082 1984
+L Breiman
+Chapman & Hall/CRC
+
+Bagging predictors 19724 1996
+L Breiman
+
+BAA ALInn Ienentn 9A INN 1N9 Aan
+ENDELEMENTEdited by
+William A. Gale
+
+‘i )
+
+1979- 1986
+
+Information Science and Statistics
+
+Robert G. Cowell - A. Philip Dawid
+Steffen L. Lauritzen - David J. Spiegelhalter
+
+ 
+
+1986-1990
+
+ 
+
+Texts in Statistical Science
+
+ 
+
+ 
+
+ 
+
+1990-2007
+ENDELEMENT 
+
+ 
+
+ 
+
+[ee]
+FOUR, Climate Change by Numbers
+
+O signin News | Sport | weather | Shop Earth | Travel | More - EE GIES 2 sm
+
+as FOUR Tails You Win: The Science of Chance.
+
+ 
+
+Home Clips
+Last on
+“ pete, Tuo Mar 2015
+> . V7) DURATION: 1 HOUR =
+S : BBC FOUR ‘Smart and witty, jam-packed with augmented-reality Next Thursday
+al 7 q graphics and fascinating history, this film, presented by : FOUR 21:00
+- Professor David Spiegelhalter, tries to pin down what : .
+. chance is and how it works in the real world. For. c
+
+P \
+
+ 
+
+Ais
+
+This programme is not currently available on BBC iPlayer
+
+At the heart of the climate change debate is a paradox - we've neverhad © 1 hour, 15 minutes
+more information about our changing climate, yet surveys show that the
+Public are, if anything, getting less sure they understand what's
+
+ 
+
+ 
+ENDELEMENT 
+
+oe een AAVataixoya @cciatsuce oyun etc) ar-vave Ml shvate (salem @ovenvanteralcecis(oyal WintonCentre@maths.cam.ac.uk
+ENDELEMENTSummary
+
+° Trust
+
+¢ A structure for evaluation
+
+¢ Ranking a set of algorithms
+
+e Layered explanations
+
+¢ Explaining regression models
+
+* Communicating uncertainty
+
+¢ How some (fairly basic) statistical science might help!
+
+(Primary focus on medical systems — only scrape surface)
+ENDELEMENTOnora-O’ Neill and trust
+
+¢Organisations should not be aiming to
+‘increase trust’
+
+¢Rather, aim to demonstrate
+trustworthiness
+
+ 
+ENDELEMENTArtificial
+Intelligence
+
+Bobby Hellard
+23 May 2018
+
+Artificial Intelligence
+
+A hospital in London wants to replace
+doctors with Al to cut A&E waiting times
+
+The hospital will work alongside The Alan Turing Institute to look at ways to
+make NHS services quicker, safer and more efficient
+ae & »
+
+| a C | S 0 N pos erence sone
+a
+
+Babylon Al Achieves Equivalent Accuracy With
+Human Doctors in Global Healthcare First
+
+   
+
+ 
+
+Now DeepMind's Al can spot eye 6560000
+disease just as well as your
+
+doctor
+
+The Al from Google's DeepMind made correct diagnoses 94.5 per cent of the
+time in a trial with Moorfields Eye Hospital
+ENDELEMENTWe should expect trustworthy claims
+
+¢ by the system
+
+¢ about the system
+ENDELEMENTA structure for evaluation?
+
+[| Pharmaceuticals Algorithms
+
+Phase 1 Safety: Digital testing:
+Initial testing on human subjects Performance on test cases
+
+Phase 2 Proof-of-concept: Laboratory testing:
+Estimating efficacy and optimal © Comparison with humans, user testing
+use on selected subjects
+
+Phase 3 Randomised Controlled Trials: Field testing:
+Comparison against existing Controlled trials of impact
+treatment in clinical setting
+
+Phase 4 Post-marketing surveillance: Routine use:
+For long-term side-effects Monitoring for problems
+
+Stead et al, J Med Inform Assoc 1994
+ENDELEMENTPhase 1: digital testing
+
+° A statistical perspective on algorithm competitions
+ENDELEMENT‘© ALAMY IMAGES.
+
+ 
+ENDELEMENTA PELICAN
+BOOK
+
+The Art of Statistics
+Learning from Data
+
+ 
+ENDELEMENTWilliam Somerton’s entry in a public database of 1309 passengers (39% survive)
+
+pelass survived name sex _age_sibsp parch ticket fare cabin embarked boat body
+
+3 0 Somerton, Mr. Francis William male 30 0 0 A.S. 18509 8.0500 S
+3 0 Spector, Mr. Woolf male 0 0 A.S. 3236 8.0500 Ss
+3 0 Spinner, Mr. Henry John male 32 0 0 STON/OQ. 369943 8.0500 S
+3 0 Staneff, Mr. Ivan male 0 0 "349208 7.8958 s
+3 0 Stankovic, Mr. Ivan male 33 0 0 349239 8.6625 Cc
+3 1 Stanley, Miss. Amy Zillah Elsie female 23 0 0 CA. 2314 7.5500 Ss Cc
+3 0 Stanley, Mr. Edward Roland male 21 0 0 A 45380 8.0500 s
+
+¢ Copy structure of Kaggle competition (currently over
+59,000 entries)
+
+¢ Split data-base of 1309 passengers at random into
+* training set (70%)
+* test set (30%)
+
+¢ Which is the best algorithm to predict who survives?
+ENDELEMENTPerformance of a range of (non-optimised) methods on test set
+
+0.806 0.139
+0.794 0.142
+0.794 0.146
+0.789 0.146
+0.799 0.148
+0.806 0.150
+0.782 0.153
+0.774 0.180
+
+0.639 0.232
+ENDELEMENTSimple classification tree for Titanic data
+
+ 
+  
+ 
+
+ 
+
+3rd Class ?
+
+   
+    
+       
+
+Yes
+
+At least 5 Rare title?
+in family?
+
+Estimated chance Estimated chance
+of survival of survival
+
+Estimated chance
+of survival
+
+3%
+
+Estimated chance
+of survival
+
+16%
+
+   
+ 
+ 
+
+  
+
+    
+
+37% 93%
+
+ 
+ENDELEMENTsimpleCART - simpleCART -
+ANN - ANN -
+averageANN - averageANN -
+togistic ~ togistic ~
+
+randomforest ~ randomforest ~
+
+complexCART - complexCART -
+
+SVM- SVM -
+KNN- KNN-
+baseline ~ baseline ~
+‘ ‘ ‘ ‘ ‘ ‘ ‘ ‘ ‘ ' ‘ ‘
+0.00 0.05 0.10 0.15 0.20 0.25 0.00 0.05 0.10 0.15 0.20 0.25
+
+Brier score (mean squared error) Brier score (mean squared error)
+ENDELEMENTsimpleCART -
+
+|
+* Potentially a very misleading averageann- Hf
+graphic! =
+* When comparing, need to -
+acknowledge that tested ON SAME asrcomicies- — -ZP-4
+cases
+* Calculate differences and their snip ia -e-
+standard error . =
+* How confident can we be that on |
+simple CART is best algorithm? fc, ee
+
+0.00 0.04 0.08 0.12
+Excess Brier score (mean squared error)
+ENDELEMENTRanking of algorithms
+
+* Bootstrap sample from test set (ie sample of same size,
+drawn with replacement)
+
+¢ Rank algorithms by performance on the bootstrap
+sample
+
+¢ Repeat ‘000s of times
+
+¢ (ranks actual algorithm — if want to rank methods, need
+to bootstrap training data too, and reconstruct
+algorithm each time)
+ENDELEMENTDistribution of true rank 0. ae
+of each algorithm
+
+averageANN
+750 -
+
+500 -
+250 - [
+0- | tt |
+
+_al._
+logistic
+1000 -
+
+randomforest complexCART
+750 -
+
+Probability of ‘best’:
+
+H | i
+63% simpleCART 750
+23% ANN
+
+8% randomforest #1 al
+ENDELEMENTWho was the luckiest person on the Titanic?
+
+* Karl Dahl, a 45-year-old Norwegian/Australian
+joiner travelling on his own in third class, paid the
+same fare as Francis Somerton
+
+  
+   
+ 
+
+* Had the lowest average Brier score among
+survivors — a very surprising survivor
+
+* He apparently dived into the freezing water and
+clambered into Lifeboat 15, in spite of some on
+the lifeboat trying to push him back. ay
+
+* Hannah Somerton was left just £5, less than
+Francis spent on his ticket.
+ENDELEMENTPhase 2: laboratory testing
+ENDELEMENTPhase 2: laboratory testing
+
+fons
+4
+
+AL
+
+re)
+
+!
+hit
+
+q
+
+ 
+
+Turing Test
+
+(C=) O)
+
+Vou. tix. No. 236.] (October, 1950
+Judgements
+? on test MIND
+a = A QUARTERLY REVIEW
+cases % oF
+
+  
+
+PSYCHOLOGY AND PHILOSOPHY
+
+ 
+
+I—COMPUTING MACHINERY AND
+, INTELLIGENCE
+
+ 
+
+By A.M. Turtne
+ENDELEMENTPhase 2: laboratory testing
+
+* Can reveal expert disagreement: evaluation of Mycin in 1970s found > 30%
+judgements considered ‘unacceptable’ for both computer and clinicians
+
+* June 2018: Babylon Al published studies of their diagnostic system, rating
+against ‘correct’ answers and external judge
+
+Al's health advice is as good as a
+doctor's, startup says
+
+* Critique in November 2018 Lancet Safety of patient-facing
+
+¢ Selected cases digital symptom checkers
+Influenced by one poor doctor
+No statistical testing
+Babylon commended for carrying out studies and quality of software
+Need further phased evaluation
+
+Yu et al, JAMA, 1979; Shortliffe, JAMA, 2018; Fraser et al, Lancet, 2018; Razzaki et al, 2018
+ENDELEMENTPhase 3: field testing
+ENDELEMENTPhase 3: field testing — alternative designs
+for Randomised Controlled Trials
+
+¢ Simple randomised: A/B trial (but
+contamination....)
+
+ 
+
+¢ Cluster randomised: by team/user
+
+ 
+
+(when expect strong group effect,
+
+ 
+
+need to allow for this in analysis)
+
+ 
+
+ 
+
+Stepped wedge: randomised roll- :
+
+ 
+
+out, when expect temporal
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+s
+changes :
+
+ 
+
+ 
+
+Time (months)
+
+ 
+ENDELEMENTPhase 3: a cluster-randomised trial of an algorithm
+for diagnosing acute abdominal pain
+
+* Design: over 29 months, 40 junior doctors in Accident and Em
+cluster-randomised to
+* Control (12)
+* Forms (12) (had to give initial diagnosis)
+* Forms + computer (8)
+¢ Forms + computer + performance feedback (8)
+* Algorithm: naive Bayes
+¢ > 5000 patients, but
+* Very clumsy to use
+* Only 64% accuracy
+* Over-confident: < 50% right when claiming appendicitis (but 82% when claiming ‘non-
+specific abdominal pain’)
+¢ Limited usage: forms (65%), computer (50%, only 39% was the result available in time)
+¢ Very rarely corrected an incorrect initial diagnosis.
+* But, for ‘non-specific’ cases, admissions and surgery fell by > 45%!
+
+ 
+ENDELEMENTSo why did this fairly useless system have a positive
+impact?
+¢ Reduction in operations explained by reduction in
+admission of ‘non-specific abdominal pain’ (NSAP)
+
+¢ More correct initial diagnoses of NSAP made by junior
+doctors
+
+¢ Cultural change from forms and computer,
+encouraging junior doctors to make a diagnosis
+
+Wellwood et al, JRC Surgeons 1992
+ENDELEMENTPhase 4: surveillance in routine use
+
+¢ Ted Shortliffe on clinical decision support systems (CDSS):
+
+¢ Maintain currency of knowledge base
+
+¢ Identify near-misses or other problems so as to inform
+product improvement
+
+* A CDSS must be designed to be fail-safe and to do no harm
+
+Shortliffe, JAMA, 2018
+ENDELEMENTOnora-O’Neill on transparency
+
+¢Transparency (disclosure) is not enough
+¢Need ‘intelligent openness’
+
+o accessible
+o intelligible
+o useable
+
+o assessable
+
+ 
+ENDELEMENTFAT/ML 2018 2017 2016 2015 2014 Organization | R@SGUFEES ) Mailinglist
+
+Scholarship Events Projects Principles and Best Practices
+
+ 
+
+Principles for Accountable Algorithms and a
+Social Impact Statement for Algorithms
+
+Principles for Accountable Algorithms
+
+* Responsibility: whose is it?
+
+* Auditability: enable understanding and checking
+
+* Accuracy: how good is it? error and uncertainty
+
+* Explainability: to stakeholders in non-technical terms
+* Fairness: to different groups
+
+But what about...
+¢ Impact: what are the benefits (and harms) in actual use?
+ENDELEMENTTransparency does not necessarily
+imply interpretability...
+ENDELEMENTYes
+
+ 
+
+ 
+
+  
+    
+
+  
+
+34 class,
+> Ain family?
+
+Fare < 16?
+
+ 
+ENDELEMENTExplainability / Interpretability
+ENDELEMENTGlobal explainability
+
+About the algorithm in general:
+
+¢ Empirical basis for the algorithm, pedigree,
+representativeness of training set etc
+
+*Can see/understand working at different levels?
+
+¢ What are, in general, the most influential items
+of information?
+
+¢ Results of digital, laboratory and field evaluations
+
+many checklists for reporting informatics evaluations: SUNDAE, ECONSORT etc
+ENDELEMENTLocal explainability
+
+About the current claim:
+
+¢ What drove this conclusion? eg LIME
+
+¢ What if the inputs had been different? Counterfactuals
+¢ What was the chain of reasoning?
+
+¢ What tipped the balance?
+
+¢ Is the current situation within its competence?
+
+* How confident is the conclusion?
+
+Ribiero, 2016; Wachter et al, Harvard JLT, 2018;
+ENDELEMENTARTICLES
+
+hittps://dol.org /10.0:
+
+ 
+
+Clinically applicable deep learning for diagnosis
+
+and referral in retinal disease
+
+* Image from Google
+Deepmind / Moorfields
+Hospital collaboration
+
+* Tries to explain
+intermediate steps
+between image and
+diagnosis/triage
+recommendation
+
+ 
+  
+     
+  
+
+Diagnosis probability (%)
+Normal 114
+
+Eye scan 603425
+Referral suggestion (2%)
+
+   
+
+    
+  
+ 
+  
+       
+ 
+ 
+
+   
+
+CNV 99.5
+
+Urgent 99.1 7
+Semi-urgent 04 MRO E a
+Routine 02 Fulllmac. hole 3 ¢
+Observation only 0.3 Part.mac. hole zE ¥ i
+
+cs =|
+a
+Geo. atrophy =
+
+Intraretinal fluid
+
+Tissue volume (mm*)
+Drusen Fa 0.008
+
+Vs 0.100
+
+Neurosensory retina
+
+Oxifram
+
+‘ioe
+
+ 
+
+ 
+
+     
+   
+
+er reflect! material
+
+imm
+— Omm
+
+1mm
+On| = a. COU G Rememema
+Vitreous and subhyaloid
+Posterior hyaloid
+Hi Epiretinal membrane
+I Neurosensory retina
+Intraretinal fluid
+Subretinal fluid
+& Subretinal hyper reflective material
+Il Retinal pigment epithelium (RPE)
+" Drusenoid PED
+Serous PED
+IM Fibrovascular PED
+Choroid and outer layers
+Mirror artefact
+Clipping artefact
+Blink artefact
+ENDELEMENTpredict NHS
+
+Clear data on breast cancer
+treatment outcomes
+
+Home About Patient Information Clinician Information Predict Tool
+
+What is Predict?
+
+Predict is a tool that helps doctors and patients decide on a
+treatments to have after surgery for breast cancer. —— - a
+
+Options
+
+We recommend patients read the patient information
+section before using the tool.
+
+Results
+
+What will Predict tell me?
+
+The predict tool shows you how different treatments affect
+the percentage of women that survive over ten years
+following surgery.
+
+ 
+
+How do | use Predict? Example outputs
+
+You enter details about the cancer, and then select different
+ENDELEMENTPredict
+
+* Common interface for professionals and patients after surgery
+for breast cancer
+
+¢ Provides personalised survival estimates out to 15 years, with
+possible adjuvant treatments
+
+* Based on competing-risk regression analysis of 3,700 women,
+validated in three independent data-sets
+
+e Extensive iterative testing of interface — user-centred design
+¢ ~ 30,000 users a month, worldwide
+¢ Starting Phase 3 trial of supplying side-effect information
+
+¢ Launching version for prostate cancer, and kidney, heart, lung
+transplants
+ENDELEMENTLevels of explanation in Predict
+
+1. Verbal gist.
+
+2. Multiple graphical and numerical representations, with
+instant ‘what-ifs’
+
+3. Text and tables showing methods
+. Mathematics, competing risk Cox model
+5. Code.
+
+SS
+
+For very different audiences!
+ENDELEMENTPart of mathematical description
+
+ 
+
+The form of the Predict V2.1 algorithm
+
+The estimated baseline cumulative hazard for breast cancer mortality H, at t years post-
+surgery has the form
+
+H(t) = exp[azf(t)]
+where a, is a vector of estimated coefficients, and f a (column) vector of fractional polynomial
+functions of time post-operation (different models are built for ER+ and ER-).
+
+In Predict 2.1,
+
+e if ER+
+H,(t) = exp[0.7424402 — 7.527762//t — 1.812513 * log(t)/ V4]
+e if ER-
+H,(t) = exp[—1.156036 + 0.4707332/¢? — 3.51355/t].
+gi
+
+The estimated survival function for breast cancer mortality S, given risk factors xp and the
+ith treatment combination x7 is given by
+
+ 
+
+ 
+
+S'(t) = exp [—H,(t) exp[b.rr + ¢xrz]] = exp [— expla. f(t) + bier + cr7]]
+
+where b,c are vectors of estimated coefficients. This is the chance of living beyond t years
+after surgery under treatment regime 7, assuming only breast cancer mortality.
+ENDELEMENTExplainability / Interpretability
+
+¢ Variety of audiences and purposes - developer, user,
+external expert etc
+
+* GDPR demands — not sure how this is to be interpreted
+
+* Need to properly evaluate explanations as part of impact
+(they may confuse or mislead)
+
+* All sorts of clever technical things going on with black
+boxes: surrogates, layers
+
+* Or build an interpretable model in the first place?
+
+Doshi-Velez and Kim, 2017; Weller, 2017
+ENDELEMENTInterpretability of regression models?
+
+ 
+
+PREDICT ARREST FOR ANY OFFENSE IF SCORE > 1
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+1. Prior Arrests > 2 1 point
+2. Prior Arrests > 5 1point | + ---
+3. Prior Arrests for Local Ordinance 1 point
+4. Age at Release between 18 to 24 1point | + ---
+5. Age at Release > 40 -1 points
+SCORE | = .--
+SCORE -1 0 1 2 3 4
+
+ 
+
+ 
+
+ 
+
+RISK 11.9%
+
+26.9%
+
+ 
+
+50.0%
+
+ 
+
+73.1% | 88.1%
+
+ 
+
+95.3%
+
+ 
+
+ 
+
+¢ Scoring is interpretable (global
+and local)
+
+°eg risk scoring using GAMs for
+pneumonia risk (Caruana)
+
+¢ Rudin optimising integer scores
+
+¢ Claim: don’t need to trade off
+performance against
+interpretability (but in which
+contexts?)
+
+Caruana et al, KDD, 2015; Rudin and Ustin, Interfaces, 2018
+ENDELEMENTAlan Turing’s approach to explanation
+
+@ 'Naive Bayes’ classifier:
+
+ 
+
+ 
+
+P(Ho|S1; +--+ Sp) _ ll p(si|Ho) | p(Ho)
+
+ 
+
+ 
+
+ 
+
+x
+
+P(Hi\si,-.-,5p)  ** p(silHi) — p(H1)
+
+@ So (Hol Ho)
+lo 0 $1, +++) Sp w; + log
+
+© b(Ai 51, ..-. Sp apa H,)’
+
+where w; is the 'weight of evidence’ log Beas (Turing and Good)
+
+@ Weights of evidence are positive/negative if evidence s; is for/against Ho
+
+@ (Can use w;’'s as predictors in a logistic regression to improve their
+calibration)
+
+ 
+
+@ Multiplying by 10 and rounding helps explanation
+ENDELEMENTGLADYS: diagnosis of gastrointestinal pain using
+input from computer-interviewing
+
+Evidence for peptic ulcer Evidence against peptic ulcer
+
+Abdominal pain History less than 1 year -8
+
+Episodic No seasonal effect -1
+Relieved by food No waterbrash -3
+Woken at night
+Epigastric
+Can point at sight of pain
+Family history of ulcer
+
+Smoker
+
+wus BPN W WwW BN BF
+
+Vomits, then eats within 3 hours
+Total evidence for 28 Total evidence against -12
+Balance of evidence 16
+
+Starting score -8 (based on prevalence of 30%)
+
+Final score 8 = 68% probability of peptic ulcer
+ENDELEMENTCommunicating uncertainty
+
+ 
+
+Principles for Accountable Algorithms and a
+Social Impact Statement for Algorithms
+
+Principles for Accountable Algorithms
+
+¢ “Determine how to communicate the uncertainty /
+margin of error for each decision”.
+
+¢ Part of being trustworthy
+
+¢ But will acknowledging uncertainty lose trust and
+credibility?
+ENDELEMENTUncertainty about statistics
+
+Home World
+
+ 
+
+ess Politics Tech Science
+
+   
+
+th Family & Education
+
+ 
+
+Business YourMoney MarketData Markets Companies Economy
+
+UK unemployment falls to 1.44 million
+
+© 24 January 2018 1350 f wv © & <Share
+
+GETTY IMAGES
+
+ 
+
+UK unemployment fell by 3,000 to 1.44 million in the three months to
+November, official figures show.
+
+The number of those in work increased sharply and wages rose at their fastest rate
+in almost a year, the Office for National Statistics said.
+ENDELEMENTUncertainty about statistics
+
+Home UK World | Business Politics Tech Science | Health | Family & Education
+
+Business YourMoney Market Data Markets Companies + Economy
+
+UK unemployment falls to 1.44 million
+
+© 24 January 2018 FB 1350 f vy © & <Share
+
+GETTY IMAGES
+
+ 
+
+|
+UK unemant fell by 3,000 to 1.44 mille three months to
+Novembe\al figures show.
+The numbeh, A wages rose at their fastest rate
+
+lr t + + :
+imaimosta ye. in work increased sh/**"
+ENDELEMENTUncertainty about statistics
+
+Home UK World | Business Politics Tech Science | Health | Family & a Office for
+
+National Statistics Release calendar Meth:
+
+Business YourMoney Market Data Markets Companies + Economy
+
+      
+       
+    
+    
+
+  
+
+UK unemployment falls to 1.44 mi Business, industry Economy Employment and People, populd
+
+and trade labour market and communi
+© 24 January 2018 | F 1350 f¥vyvoOG
+
+ 
+
+Search for a keyword(s) or time series ID
+
+Home > Employment and labour market > People in work > Employment and employee types > UK labc
+
+Statistical bulletin:
+
+UK labour market: January 2018
+
+uk ‘isgabint fell by 3,000 to 1.44 millhe three months to Estimates of employment, unemployment, economic inactivity and other
+Novembe\a1 figures show. employment-related statistics for the UK.
+
+The numbeh, A wages rose at their fastest rat
+
+in almost a yeu
+
+in work increased sbh/"*
+ENDELEMENTUncertainty about statistics
+
+Home UK World | Business Politics. Tech
+Business YourMoney Market Data Markets
+
+Table of contents
+
+UK unemployment falls 1
+
+© 24 January 2018 1350
+
+wry
+
+. Main points for September to November
+
+== 2017
+
+. Summary of latest labour market statistics
+
+. Things you need to know about this release
+
+. Employment
+
+. Public and private sector employment (first
+published on 13 December 2017)
+
+. Actual hours worked
+
+ 
+
+. Workforce jobs (first published on 13
+
+UK unempnt fell by 3,000 to 1.44 mill December 2017)
+Novembe\a1 figures show.
+
+The number, A wages rose at their fastest rate
+
+inalmost ae. in work increased sh/***
+
+ 
+
+Average weekly earnings
+
+Labour disputes (not seasonally adjusted)
+Unemployment
+
+Economic inactivity
+
+Young people in the labour market
+Redundancies
+
+Vacancies
+
+Future publication dates
+
+Links to related statistics
+
+Quality and methodology
+
+ 
+ENDELEMENTUncertainty ¢ about statistics
+
+  
+
+@ UK World | Business Politics Tech Si
+
+SUSTESS_ YourMoney ManetDae Manes ' AS well as calculating precision measures around the numbers and rates
+
+    
+
+UK unemployment falls t¢ obtained from the survey, we can also calculate them for changes in the
+
+© 24 Januan ry 2018 FB 1350
+
+7
+
+numbers. For example, for September to November 2017, the estimated
+
+change in the number of unemployed people since June to August 2017 was a
+
+   
+
+small fall of 3,000, with a 95% confidence interval of plus or minus 77,000. This
+means that we are 95% confident the actual change in unemployment was
+somewhere between an increase of 74,000 and a fall of 80,000, with the best
+estimate being a small fall of 3,000. As the estimated fall in unemployment of
+3,000 is smaller than 77,000, the estimated fall in unemployment is said to be
+“not statistically significant”.
+
+UK wnenbnt fell by 3,000 to 1.44 mill
+
+Novembe\a! figures show.
+
+The numbeh, A wages rose at their fastest rate
+lr t a + id.
+mamost@¥@\ in work increased sb/*"
+ENDELEMENTFebruary 2018
+Inflation report
+
+¢ ONS do not provide ‘error’ Bank estimates of past growth
+on GDP
+
+GDP projection (wide bands)())
+Percentage increases in output on a year earlier
+
+——Projection >
+
+ONS data
+
+ 
+
+2013 14 15 16 17 18 19 20 21
+ENDELEMENTUK migration
+report
+November
+2018
+
+Only visualises
+sampling error
+
+Quality issues as
+verbal caveats
+
+Figure 1: Long-Term International Migration, UK, year ending
+June 2008 to year ending June 2018
+
+Estimate
+
+ 
+
+Known uncertainty in survey estimate
+
+---- Adjusted for the unusual pattern
+in student immigration
+
+Thousands
+700 1
+Immigration
+600 e
+500
+400
+Emigration
+
+300 cee
+Net migration
+
+200
+
+   
+
+100
+
+« EU referendum
+0 1
+Junod8 JunO9 Jun10 Junii Juni2 Jun13 Jun14 Juni5 Juni6 Jun17 Jun18
+
+7 provisional
+Year ending
+
+Source: Long-Term International Migration, Office for National Statistics
+ENDELEMENTCommunicating uncertainty
+
+¢Our empirical research suggests that ‘confident
+uncertainty’ does not reduce trust in the source —
+audiences expect it.
+
+¢ Relevance: future official statistics will be increasingly
+based on complex analysis of routine data
+ENDELEMENTFairness
+
+There are many reasons for feeling an algorithm is
+‘unfair’.....
+ENDELEMENT  
+
+Daily Ho
+
+F-wowe [News | seorr | sHowerery | Travel
+
+RealLife Love&Sex Diet&Fitness Fashion&Beauty Health Just Jane
+
+ 
+
+Home Life & Style Health
+
+What is YOUR heart age?
+Take this quick quiz to find
+out your stroke risk
+
+AHEART Age Test is being promoted by The NHS and Public Health England. Here's how to
+check how healthy your vital organ is.
+ENDELEMENTWhat's your heart age?
+
+HOW HEALTHY IS YOUR
+HEART?
+
+The Heart Age Test:
+
+¢ Tells you your heart age compared to your real age
+
+e Explains why it's important to know your blood
+fe) cXK-10LcoMe- Lave Meyave)(=1) (ice) MalUlatley=16s)
+
+¢ Gives advice on how to reduce your heart age
+
+can be read here
+
+This tool is a collaboration between the NHS
+website, Public Health England, UCL and the British
+
+Heart Foundation. More information about partners
+
+Full credits can be read here
+
+ 
+
+HOW HEALTHY IS YOUR HEART?
+PLEASE GIVE US SOME DETAILS ABOUT YOU
+
+Date of birth 16 ~|/ 08 ~|| 1953 -
+
+Day Month Year
+
+ 
+
+Gender @) Male Female
+
+Why is this asked?
+
+Ethnic group White .
+
+Why is this important?
+
+Postcode CB5 8HL
+
+ 
+
+Why is this being asked?
+
+Do you have Yes (@) No
+cardiovascular disease?
+
+What is cardiovascular disease?
+
+ 
+
+ 
+
+Do you smoke? No -|
+ENDELEMENTYOUR HEART AGE IS
+ABOUT
+
+Compared to a person of the same age, gender and ethnicity
+without raised risk factors.
+
+On average, someone like you can expect to live to the age
+of 81 without having a heart attack or stroke.
+
+ 
+
+See how your heart age changes if you:
+
+) Lose weight
+) Lower cholesterol
+
+) Reduce blood pressure
+ENDELEMENTWhat is the ‘effective age’ of your organs?
+
+¢“lLung age’, “brain age’, etc etc
+
+¢Generic idea: what is the age of a ‘healthy’
+person who has the same risk/function as you?
+ENDELEMENTRisk level Trajectory of typical
+‘healthy’ person
+
+      
+ 
+
+Your risk level z winwwnwe
+
+  
+
+Age
+
+Your Your ‘effective’
+age age
+ENDELEMENTPhase 3: RCT of “heart age’
+
+Effectiveness of the Heart Age tool
+
+for improving modifiable cardiovascular
+risk factors in a Southern European
+population: a randomized trial
+
+Angel A Lopez-Gonzalez', Antoni Aguilo’, .
+
+Margalida Frontera’, Miquel Bennasar-Veny’, Irene Campos ,
+
+Teofila Vicente-Herrero’, Matias Tomas-Salva‘,
+
+Joan De Pedro-Gomez? and Pedro Tauler”
+
+* > 3000 subjects individually
+randomised to
+oHeart Age calculator
+oFramingham risk score
+oControl
+
+¢ At 12 months, reduction in risk score
+oHeart Age > Risk Score > Control
+ENDELEMENTComments from esteemed colleagues
+
+¢ ‘What a load of c**p’ (Maths professor)
+
+¢ ‘It just annoys me that it says | have raised risk
+factors when | have none.’ (BBC producer)
+
+¢ ‘But what utter b******s this whole thing is.’
+(General Practitioner)
+
+¢ ‘I could have programmed that in my sleep — just
+a load of random numbers designed to p**s
+people off.’ (Maths professor)
+ENDELEMENTWhat irritated people so much?
+
+eNearly everyone has increased heart age
+¢Exercise not in equation — seen as ‘not fair’
+ENDELEMENTSo who was responsible for all this?
+
+ 
+
+COPYRIGHT and LICENSING
+
+The JBS3 Cardiovascular Risk Assessment was
+created by the Understanding Uncertainty team of the
+University of Cambridge (UoC), working with the
+British Cardiovascular Society (BCS). The current
+version of the risk assessment was released in 2012
+and is copyright the University of Cambridge. It is
+released under version 3 of the GNU General Public
+Licence. The source code, containing a copy of this
+license is published on GitHub. If the Tool is, subject to
+
+ 
+
+* Reveals that we were responsible for adapting an existing model to
+provide Heart Age
+
+ .... but used by 2.9 million people in 3 days
+ENDELEMENT 
+
+Table 2|Adjusted hazard ratios* for cardiovascular disease for individual predictor variables
+
+BM RES EA RC H in the derivation cohort of 2 343 759 patients
+
+Adjusted hazard ratio (95% Cl)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Variables Women Men
+Body mass indext 1.32 (1.22 to 1.44) 1.54 (1.45 to 1.63)
+Derivation, validation, and evaluation of anew QRISK model Systolic blood pressure (per 20 mm Hg increase) 1.13 (1.12 to 1.14) 1.11 (1.10 to 1.12)
+to estimate lifetime risk of cardiovascular disease: cohort Total cholesterol:HDL cholesterol ratio (per unit 1.17 (1.1610 1.18) 1.18 (1.17 to 1.18)
+study using QResearch database increase)
+Townsend score (per 5 unit increase)t 1.13 (1.11 to 1.14) 1.06 (1.05 to 1.07)
+Julia Hippisley-Cox, professor of clinical epidemiology and general practice,’ Carol Coupland, associate Smoking status:
+professor in medical statistics," John Robson, senior lecturer general practice,” Peter Brindle, research and tien tp ne ey - - — a a
+evaluation programme director? Non-smoker 1.00 1,00
+Former smoker 1,17 (1,14 to 1.21) 1,18 (1.16 to 1.21)
+H Light smoker (¢10 cigarettes/day) 1.39 (1.33 to 1.45) 1.38 (1.34 to 1.43)
+* based on regression ree et EET TET
+. one Heavy smoker (220/day) 1.84 (1.77 to 1.91) 1.79 (1.74 to 1.84)
+analysis (2.3 million ee
+White or not recorded 1.00 1.00
+people) Indian 1.42 (1.28 to 1.58) 1,50 (1.38 to 1.63)
+Pakistani 2.04 (1.78 to 2.34) 2.05 (1.84 to 2.28)
+1 Bangladeshi 1.61 (1.30 to 1.98) 2.14 (1.85 to 2.46)
+° but no question about Other Asian 1,14 (0.92 to 1.4 0) 1,32 (1.12 to 1.56)
+. . . Caribbean 1.03 (0.91 to 1.16) 0.71 (0.63 to 0.81)
+physical fitness, as not in ~alek aia 046905410089) _070(05610086)
+Chinese 0.77 (0.55 to 1.08) 0.79 (0.58 to 1.06)
+
+ 
+
+G P d ata ba se Other 0.99 (0.85 to 1.16) 0.90 (0.78 to 1.04)
+
+ 
+
+Clinical conditions:
+
+ 
+
+ 
+
+ 
+
+ 
+
+Family history of early coronary heart disease§ 1.67 (1.63 to 1.71) 1.84 (1.80 to 1.88)
+
+Type 2 diabetes 1.67 (1.60 to 1.73) 1.60 (1.55 to 1.66)
+
+. . Treated hypertension 1.33 (1.30 to 1.36) 1.37 (1.34 to 1.40)
+
+° now gol ng to | nco rpo rate Rheumatoid arthritis 1.43 (1.35 to 1.53) 1,37 (1.26 to 1.50)
+Atrial fibrillation 1.89 (1.78 to 2.01) 1.63 (1.54 to 1.72)
+
+ 
+
+exe rcise Chronic renal disease 1.67 (1.44 to 1.95) 1.59 (1.39 to 1.83)
+
+   
+ENDELEMENTConclusions
+
+* Need to demonstrate the trustworthiness of claims both
+* by an algorithm
+* about an algorithm
+
+¢ Phased evaluation of quality and impact
+
+* Can formally rank algorithms
+
+* Explanation in multiple forms and levels
+
+* Confident communication of uncertainty
+
+* Many reasons why people might feel an algorithm was
+
+unfair
+* Basic statistical science might help!
+ENDELEMENTThanks to ...
+
+Titanic
+¢ Maria Skoularidou
+Predict
+* George Farmer, Alex Freeman, Gabriel Recchia, Paul Pharoah,
+Jem Rashbass,
+Migration
+¢ Sarah Dryhurst
+Heart Age
+¢ Mike Pearson
+ENDELEMENTENDELEMENTENDELEMENT= GoogleScholar _ {abel:statistics
+
+sé
+
+13000
+
+9750
+Leo Breiman 1928-2005 éa00
+Professor of Statistics, UC Berkeley
+Verified email at stat.berkeley.edu
+Data Analysis Statistics Machine Learning 8250
+
+Cited by 120297
+ENDELEMENTWithington Hospital
+Manchester Fertility Services
+Fazakerley Hospital
+Ninewells Hospital
+
+Hull IVF Unit
+
+King's College Hospital
+
+BMI Chiltern Hospital
+Cromwell IVF Centre
+
+ARU Aberdeen University
+Walsgrave Hospital
+Hartlepool General Hospital
+BUPA Hospital, Leicester
+University College Hospital
+Wirral Fertility Centre
+Glasgow Royal Infirmary
+Sheffield Fertility Centre
+Leicester Royal Infirmary
+London Fertility Centre
+
+‘St Mary's Hospital
+
+Newham General Hospital
+Edinburgh ACU
+
+BMI Portland Hospital
+Washington Hospital
+
+Royal Victoria Infirmary
+Bourne Hall Clinic
+
+University Hospital Wales
+Bridge Fertility Centre
+Esperance Hospital, Eastbourne
+Wessex Fertility Services
+Churchill Clinic
+
+Midland Fertility Services
+University of Bristol
+Wolfson Family Clinic
+
+Royal Masonic Hospital
+Northampton Fertility Service
+North Staffordshire Hospital
+London Women's Clinic
+Guy's and St Thomas's Hospitals
+BMI Park Hospital
+
+BUPA Roding Hospital
+
+Holly House Fertility Unit
+BMI Priory Hospital
+
+South Cleveland Hospital
+Leeds General Infirmary
+
+BMI Chelsfield Park Hospital
+Oxford IVF Unit
+
+Southmead General
+
+Lister Hospital
+
+Royal Maternity Hospital, Belfast
+St James's Hospital
+Birmingham Women's Hospital
+NURTURE, Nottingham
+
+20 25 30
+Adjusted live birth rate (%)
+
+Comparing success
+rates of IVF clinics
+
+League table is
+misleading
+
+Simulate set of
+‘success rates’ from
+their distributions
+
+Rank each set
+
+Repeat say 1,000
+times
+
+Get distribution
+over ranks of
+institutions
+
+Marshall et al, BMJ, 1998
+
+Withington Hospital
+Manchester Fertility Services
+Fazakerley Hospital
+Ninewells Hospital
+
+Hull IVF Unit
+
+King's College Hospital
+
+BMI Chiltern Hospital
+Cromwell IVF Centre
+
+ARU Aberdeen University
+Walsgrave Hospital
+Hartlepool General Hospital
+BUPA Hospital, Leicester
+University College Hospital
+Wirral Fertility Centre
+Glasgow Royal Infirmary
+Sheffield Fertility Centre
+Leicester Royal Infirmary
+London Fertility Centre
+
+St Mary's Hospital
+
+Newham General Hospital
+Edinburgh ACU
+
+BMI Portland Hospital
+Washington Hospital
+
+Royal Victoria Infirmary
+Bourne Hall Clinic
+
+University Hospital Wales
+Bridge Fertility Centre
+Esperance Hospital, Eastbourne
+Wessex Fertility Services
+Churchill Clinic
+
+Midland Fertility Services
+University of Bristol
+Wolfson Family Clinic
+
+Royal Masonic Hospital
+Northampton Fertility Service
+North Staffordshire Hospital
+London Women's Clinic
+Guy's and St Thomas's Hospitals
+BMI Park Hospital
+
+BUPA Roding Hospital
+
+Holly House Fertility Unit
+BMI Priory Hospital
+
+South Cleveland Hospital
+Leeds General Infirmary
+BMI Chelsfield Park Hospital
+Oxford IVF Unit
+
+Southmead General
+
+Lister Hospital
+
+Royal Maternity Hospital, Belfast
+St James's Hospital
+Birmingham Women’s Hospital
+NURTURE, Nottingham
+
+ 
+ENDELEMENTTipping points — what is the
+crucial item of evidence?
+
+ 
+
+The mystery
+of the lost star
+
+A statistical detective story
+
+In July 2005 the Healthcare Commission released its annual
+
+“star ratings’ for English National Health Service (NHS) trusts’,
+
+in which acute or specialist hospitals, mental health services,
+
+ambulance services and primary care trusts were each given 0, 1, 2
+
+or 3 stars. There was some surprise that the Cambridge University
+
+“Out of all the Hospitals NHS Foundation Trust (better known as Addenbrooke's
+trusts in England, Hospital) dropped from the 3 stars obtained in 2004 to 2 stars.
+
+it is likely there : H ; :
+Wal he eee David Spiegelhalter investigated.
+ENDELEMENTUnfortunately we only just missed out on
+three stars because we did not perform so
+well in the areas of delayed discharges and
+cancelled operations despite making
+progress over the past year
+
+Malcolm Stamp
+Chief Executive of Cambridge Addenbrooke’s Hospital
+ENDELEMENT‘Star rating’ based on (very) complex
+hierarchical algorithm mixing scores and rules
+
+ 
+
+Balanced scorecard
+BS=2 BS=3 BS=4
+Ostars Ostars Ostars Ostars Ostars Ostars 0 stars
+Ostars 1 star 1 star 1 star 1 star 1 star 1 star
+1 star 1 star 1 star 1 star 2stars 2stars 2 stars
+lstar 2stars 2stars 2stars 2stars 3stars 3 stars
+
+          
+
+Key targets
+Fail: > 12 penalty points
+Moderate Fail: 7-12
+Borderline: 3-6
+
+Pass: < 2
+
+   
+
+Table 5. Rules for obtaining a final star rating based on key targets and balanced scorecard, for acute and
+specialist trusts
+
+After a lot of manual work, found the crucial
+piece of evidence that tipped Addenbrooke’s ...
+ENDELEMENTIf just four more junior doctors out of 417 had complied
+with the ‘New Deal on working hours’, then...
+
+ 
+
+¢ Addenbrooke’s rate on this indicator would have been
+395/417 = 94.7% compliance.
+
+* Rounded to 95%, giving 1 point for Junior Doctors’ Hours
+* Gives a band score of 4 for the Workforce Indicator
+
+* Brings total band score to 21 in the Capability and
+Capacity focus area
+
+* Gives a focus score of 2.
+¢ The Balanced Scorecard would be 5
+
+* Combined with the key targets, would have given
+Addenbrooke’s 3 stars!
+ENDELEMENTProbabilities should be well- calibrated
+
+¢ Simple classification
+tree for Titanic
+problem is well-
+calibrated
+¢ The probabilities
+mean what they say -
+they are trustworthy. . |
+
+ 
+
+Bin Midpoint
+ENDELEMENTA simple test for calibration
+
+e@ X; =1 if event occurs, X; = 0 otherwise, p; is probability given to event
+occurring.
+
+= ‘ pA nas AD
+Mean squared error = mean Brier score = B = = 57,(X; — pj)’.
+Since X? = X;, we can rewrite mean Brier score as
+
+B= = % pi)(1 — 2p;) + 7 i - Pi)
+
+i
+
+ 
+
+= ‘lack of calibration’ + eonariont
+
+@ Under null hypothesis of perfect calibration, Eo(X;) = p;, Vo(X;) = pi(1 — pj)
+e@ So
+— 1
+E(B) = —) p(1—-p;
+o(B) ; DPI pi)
+— 1
+V(B) = 72 Y= [pi(1 — pi)(1 — 2p:)*]
+
+ 
+
+e Z=(B-— £)(B))/\/ Vo(B) is a popular standardised global test of calibration DJS, SIM, 1986
+ENDELEMENTsimpleCART ~
+
+averageANN ~
+
+* Expected mean Brier score, if
+
+perfectly calibrated
+
+* randomforest and KNN are
+very overconfident
+
+¢’baseline’ is a bit cautious
+
+logistic -
+
+randomforest -
+
+complexCART -
+
+baseline ~
+
+o
+
+o-
+
+10
+
+0.05 0.10 0.15 0.20
+Brier score (mean squared error)
+
+o
+t-
+a
+ENDELEMENTAge at 6 _ 65 mn
+diagnosis
+
+Age must be between 25 and 85
+
+Post
+Menopausal? e Be X° | Unirown
+
+ER status Ci) Positive Negative
+HER2 status (i) Positive Negative Unknown
+Ki-67 status cit) Positive Negative Unknown
+
+Positive means more than 10%
+
+Treatment Options
+
+e No Yes
+
+Available when ER:
+
+Hormone
+Therapy
+
+ 
+
+status is positive
+
+Chemotherapy (i) None 2nd gen 3rd gen
+
+@ «le
+
+Available with chemotherapy when HER2 status is positive
+
+Trastuzumab
+
+Bisphosphonates ED No Yes
+
+Available for post-menopausal women
+
+Tumour size fi) os 20 4
+(mm)
+Tumour grade & 1 Pag 3
+
+e Screening Symptoms Unknown
+
+Detected as part of a preventive screening programme
+
+Positive nodes e - 2 +
+(i ) Yes No Unknown
+
+Enabled when positive nodes is zero
+
+Results
+
+Curves Chart ‘Texts Icons
+
+These results are for women who have already had surgery. This table shows the
+percentage of women who survive atleast 5 10 15 years after surgery,
+
+based on the information you have provided.
+
+Treatment Additional Benefit Overall Survival %
+Surgery only - 46%
++ Hormone therapy 8% 54%
++ Chemotherapy 7% 61%
++ Trastuzumab 4% 65%
++ Bisphosphonates 2% 67%
+
+If death from breast cancer were excluded, 76% would survive at least 15
+
+years. a
+
+ee } he
+ENDELEMENTTable Chart Texts Icons
+
+These results are for women who have already had surgery. This graph shows
+the percentage of women surviving up to 15 years. These results are based on
+the inputs and treatments you selected.
+
+100%
+
+80%
+
+60%
+
+40%
+
+20%
+
+Percentage of women surviving
+
+0%
+
+ 
+
+ 
+
+ 
+
+==
+-
+-
+men
+=,
+-
+=,
+~
+
+ 
+
+0
+
+2
+
+4 6 8 10
+Years after surgery
+
+12
+
+14
+
+= = = Survival rate excluding
+deaths from breast
+cancer.
+
+@ Additional benefit of
+bisphosphonates
+
+@ Additional benefit of
+trastuzumab
+
+® Additional benefit of
+chemotherapy
+
+@ Additional benefit of
+hormone therapy
+
+@ Surgery only
+ENDELEMENTTable Curves Chart Texts Icons
+
+These results are for women who have already had surgery. Based on the inputs
+and treatments you selected, this graph shows the percentage of women
+
+surviving atleast 5 10 15 years after surgery.
+
+Overall Survival
+
+100% 100% ; ;
+. ° = = = Survival rate excluding
+
+90% 90% deaths from breast cancer.
+
+80% 80%
+
+   
+ 
+
+67% sunvive
+
+at least 15 70%
+
+70%
+= @ Additional benefit of
+
+60% 60% bisphosphonates is 2% at 15 years.
+
+50%
+
+50% m? :
+®@ Additional benefit of
+
+— trastuzumab is 4% at 15 years.
+
+40%
+
+30% 30%
+
+© Additional benefit of
+
+20s chemotherapy is 7% at 15 years.
+
+20%
+
+10% 10%
+
+®@ Additional benefit of hormone
+
+0% 0% therapy is 8% at 15 years.
+
+15 years after surgery @ Surgery only survival is 46% at
+15 years.
+ENDELEMENTTable Curves Chart Icons
+
+These results are for women who have already had surgery. This display shows
+the outcomes for 100 women based on the inputs and treatments you have
+
+selected 5 10 15 years after surgery.
+46 out of 100 women treated with surgery only are alive at 15 years.
+e 54 out of 100 women treated with hormone therapy are alive (an extra 8).
+
+e 61 out of 100 women treated with hormone therapy, and chemotherapy are
+alive (an extra 15).
+
+e 65 out of 100 women treated with hormone therapy, chemotherapy, and
+trastuzumab are alive (an extra 19).
+
+e 67 out of 100 women treated with hormone therapy, chemotherapy,
+trastuzumab, and bisphosphonates are alive (an extra 21).
+
+Of the women who would not survive, 24 would die due to causes not related to
+breast cancer.
+ENDELEMENTTable Curves Chart Texts
+
+These results are for women who have already had surgery. This display
+shows the outcomes for 100 women based on the inputs and treatments
+
+you have selected 5 10 15 years after surgery.
+
+OOQOOOOOO00O
+QOQOQOQOO0O00000
+
+O 24 deaths due to other causes
+9 breast cancer related deaths
+
+@ 2 extra survivors due to
+bisphosphonates
+
+@ 4 extra survivors due to
+trastuzumab
+
+@ 7 extra survivors due to
+chemotherapy
+
+@ 8 extra survivors due to
+hormone therapy
+
+@ 46 survivors with surgery alone
+ENDELEMENTCurves Chart Texts Icons
+
+U Nn C e rta | Nn ty ? These results are for women who have already had surgery. This table
+
+shows the percentage of women who survive atleast 5 10 15 years
+
+after surgery, based on the information you have provided.
+
+Treatment Additional Benefit Overall Survival %
+Surgery only - 52%
++ Hormone therapy 6.9% (4.0% - 8.6%) 59%
++ Chemotherapy 5.9% (4.3% - 7.2%) 64%
++ Trastuzumab 3.4% (2.4% - 4.7%) 68%
++ Bisphosphonates 1.5% (0.5% - 2.2%) 69%
+
+If death from breast cancer were excluded, 76% would survive at least
+
+15 years. 6
+Show ranges? @ Yes No
+ENDELEMENTAssumed treatment effects
+
+ 
+
+Table 3: Treatment Risk-factor coefficients
+
+Hazard
+approx = ratio
+se of Relative
+Treatment log(RR) log(RR) risk Source
+hormone therapy up to 10 -0.386 0.08 0.68 Early Breast Cancer Trialists'
+years (if ER+) Collaborative Group (2011) p777
+trastuzumab (if HER2+) -0.357 0.08 0.70 unpublished meta-analysis of 4 large
+randomised trials
+Bisphosphonates (if post- -0.198 0.06 0.82 Early Breast Cancer Trialists'
+menopausal) Collaborative Group (2015)
+2"4 gen chemotherapy -0.248 0.12 0.78 Early Breast Cancer Trialists'
+Collaborative Group (2012)
+3" gen chemotherapy -0.446 0.13 0.64 Early Breast Cancer Trialists'
+
+Collaborative Group (2012)
+ENDELEMENTios. c=
+This test is ridiculous. Try it. PHE's tool
+tells a woman in her 30s that her heart
+age is older than her real age because
+she's not had her cholesterol done. And
+tells her to get her cholesterol done by
+GP. There is no evidence for this,
+pointless excess GP workload...
+
+Public Health England @ @PHE_uk
+
+Did you know, having a heart age older than your actual
+age means you are at a greater risk of having a heart
+attack or stroke? Check your heart age using our
+#HeartAgeTest: bit.ly/2v1vL2d
+
+ 
+
+11:39 PM - 4 Sep 2018
+ENDELEMENTNews > Health
+
+NHS heart check tool attacked by
+doctors for 'sending healthy 30-year-
+olds to GP needlessly’
+
+'This test is ridiculous!
+
+Click to follow
+Alex Matthews-King Health Correspondent | Friday 7 September 2018 15:45 | 2 commen ts  £) 'y) © The Independent
+ENDELEMENT

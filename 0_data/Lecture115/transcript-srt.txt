@@ -1,0 +1,4991 @@
+1
+00:00:00,330 --> 00:00:01,383
+- Welcome, everyone.
+
+2
+00:00:03,560 --> 00:00:05,350
+Thanks for showing up on a Monday
+
+3
+00:00:05,350 --> 00:00:07,630
+on the last day of the conference.
+
+4
+00:00:07,630 --> 00:00:11,223
+I'm Sean Parent, I'm a
+principle scientist at Adobe.
+
+5
+00:00:12,070 --> 00:00:13,840
+I've given a number of
+talks over the years,
+
+6
+00:00:13,840 --> 00:00:16,300
+so I know a number of you.
+
+7
+00:00:16,300 --> 00:00:18,650
+I've spoken at a lot of conferences.
+
+8
+00:00:18,650 --> 00:00:22,020
+This talk is a little outside
+the talks I usually give.
+
+9
+00:00:22,020 --> 00:00:25,650
+It's a talk on the relationship
+between better code
+
+10
+00:00:25,650 --> 00:00:27,480
+and a better human interface.
+
+11
+00:00:27,480 --> 00:00:31,513
+So it's a little outside of
+my typical better code talks.
+
+12
+00:00:33,280 --> 00:00:36,660
+When I give a talk, I like
+to give a talk that's related
+
+13
+00:00:36,660 --> 00:00:39,403
+at least congenitally
+to what I'm working on.
+
+14
+00:00:40,630 --> 00:00:44,260
+So Yen's asked me to give
+this talk a year or so ago
+
+15
+00:00:44,260 --> 00:00:47,343
+at meeting C++ and I gave it there.
+
+16
+00:00:50,311 --> 00:00:52,900
+Human interfaces, user interfaces,
+
+17
+00:00:52,900 --> 00:00:54,760
+are something I've
+spent a lot of time with
+
+18
+00:00:54,760 --> 00:00:57,333
+and that I've spent a
+lot of time working on.
+
+19
+00:00:59,840 --> 00:01:03,140
+Marshall asked me just before I came on
+
+20
+00:01:04,050 --> 00:01:06,590
+about the artwork, what this actually is.
+
+21
+00:01:06,590 --> 00:01:07,823
+They're brushstrokes.
+
+22
+00:01:09,240 --> 00:01:11,070
+I'm bringing it up only because
+
+23
+00:01:11,070 --> 00:01:12,770
+every time I give a talk somebody asks
+
+24
+00:01:12,770 --> 00:01:14,670
+where do you get your artwork?
+
+25
+00:01:14,670 --> 00:01:19,670
+Working at Adobe we have
+a collection of templates
+
+26
+00:01:19,740 --> 00:01:23,760
+that branding puts out and
+updates every six months or so.
+
+27
+00:01:23,760 --> 00:01:25,380
+And so whenever I give a talk
+
+28
+00:01:25,380 --> 00:01:28,410
+I go and I try to just
+pick one of their templates
+
+29
+00:01:29,490 --> 00:01:32,190
+that's approved that
+matches the theme somewhat.
+
+30
+00:01:32,190 --> 00:01:35,220
+So since this is about
+human interface and design
+
+31
+00:01:35,220 --> 00:01:37,870
+I thought this was a nice artistic piece
+
+32
+00:01:37,870 --> 00:01:39,143
+to go with this talk.
+
+33
+00:01:41,730 --> 00:01:44,360
+Human interfaces we bump into all the time
+
+34
+00:01:44,360 --> 00:01:47,150
+and they waste a huge amount of our time,
+
+35
+00:01:47,150 --> 00:01:49,180
+bad human interfaces do.
+
+36
+00:01:49,180 --> 00:01:51,853
+I don't think we give
+enough thought about them.
+
+37
+00:01:52,940 --> 00:01:55,350
+Just standing up here
+before the conference
+
+38
+00:01:55,350 --> 00:01:59,260
+the little device over
+here's a timer that I can see
+
+39
+00:01:59,260 --> 00:02:01,980
+and as it was leading up to the talk,
+
+40
+00:02:01,980 --> 00:02:03,920
+the background went green to let me know
+
+41
+00:02:03,920 --> 00:02:05,320
+that it was pre-talk.
+
+42
+00:02:05,320 --> 00:02:08,750
+And the numbers went red to let me know
+
+43
+00:02:08,750 --> 00:02:11,020
+that I was getting close to the time.
+
+44
+00:02:11,020 --> 00:02:13,485
+Who knows what the problem with that is?
+
+45
+00:02:13,485 --> 00:02:14,318
+(audience mumbles)
+
+46
+00:02:14,318 --> 00:02:16,220
+Yeah if I were colorblind, I don't think
+
+47
+00:02:16,220 --> 00:02:18,490
+I would have been able
+to read it at all, right?
+
+48
+00:02:18,490 --> 00:02:20,810
+I mean literally it looked
+like a test you would take
+
+49
+00:02:20,810 --> 00:02:22,822
+to see if you are colorblind.
+
+50
+00:02:22,822 --> 00:02:25,072
+(laughing)
+
+51
+00:02:26,200 --> 00:02:29,763
+So you bump into these things.
+
+52
+00:02:31,460 --> 00:02:33,160
+When I give a talk at a
+conference I also like to
+
+53
+00:02:33,160 --> 00:02:35,390
+open things up for conversation
+
+54
+00:02:35,390 --> 00:02:36,610
+for the rest of the conference.
+
+55
+00:02:36,610 --> 00:02:38,660
+Since this is not a key
+note, I'm not leading
+
+56
+00:02:38,660 --> 00:02:41,610
+off the conference, but maybe
+this will give you some ideas
+
+57
+00:02:41,610 --> 00:02:43,850
+of things to talk about during the day.
+
+58
+00:02:43,850 --> 00:02:46,610
+So these were talks that I'm not giving
+
+59
+00:02:47,910 --> 00:02:48,993
+for various reasons.
+
+60
+00:02:50,400 --> 00:02:53,010
+Better Code: Design and Ethics.
+
+61
+00:02:53,010 --> 00:02:56,460
+Question here, is there a moral imperative
+
+62
+00:02:56,460 --> 00:02:59,450
+to create better designs, better software,
+
+63
+00:02:59,450 --> 00:03:01,043
+better human interfaces?
+
+64
+00:03:01,880 --> 00:03:04,550
+I think it's an interesting topic.
+
+65
+00:03:04,550 --> 00:03:06,510
+The reason why I'm not giving this talk
+
+66
+00:03:06,510 --> 00:03:10,550
+is because today, specifically
+like at this moment
+
+67
+00:03:10,550 --> 00:03:12,640
+I think there are much
+greater moral issues
+
+68
+00:03:12,640 --> 00:03:14,080
+going on in the world.
+
+69
+00:03:14,080 --> 00:03:15,963
+So this would be a little trite.
+
+70
+00:03:17,560 --> 00:03:18,865
+Futures are not Monads.
+
+71
+00:03:18,865 --> 00:03:20,550
+(audience laughing)
+
+72
+00:03:20,550 --> 00:03:21,907
+Or maybe not just Monads.
+
+73
+00:03:25,210 --> 00:03:26,240
+Bresenham's Algorithm,
+
+74
+00:03:26,240 --> 00:03:28,550
+who knows what Bresenham's Algorithm is?
+
+75
+00:03:28,550 --> 00:03:30,280
+Yeah, an algorithm for drawing lines.
+
+76
+00:03:30,280 --> 00:03:31,430
+So I've been doing some interesting work
+
+77
+00:03:31,430 --> 00:03:35,600
+with Bresenham Algorithms and much faster
+
+78
+00:03:35,600 --> 00:03:38,653
+Bresenham Algorithms with
+no comparison no branches.
+
+79
+00:03:39,640 --> 00:03:41,080
+And I think there's an interesting talk,
+
+80
+00:03:41,080 --> 00:03:43,350
+very interesting history,
+but I haven't finished
+
+81
+00:03:43,350 --> 00:03:45,447
+the work so I'm not
+gonna give that talk yet.
+
+82
+00:03:45,447 --> 00:03:47,460
+(audience laughing)
+
+83
+00:03:47,460 --> 00:03:50,130
+Old Guy Reminiscing, my badge that I've
+
+84
+00:03:50,130 --> 00:03:51,700
+been walking around with at the conference
+
+85
+00:03:51,700 --> 00:03:54,380
+says how old is generic programming?
+
+86
+00:03:54,380 --> 00:03:57,760
+The answer I will give
+you all now is 30 years,
+
+87
+00:03:57,760 --> 00:04:00,630
+30 years ago today, or not today,
+
+88
+00:04:00,630 --> 00:04:05,630
+30 years ago this year, Dave
+Master and Alex Stepanov
+
+89
+00:04:06,370 --> 00:04:08,700
+published a paper titled
+Generic Programming.
+
+90
+00:04:08,700 --> 00:04:12,233
+that's where the term generic
+programming was coined.
+
+91
+00:04:13,610 --> 00:04:16,000
+The number of people who
+I've had conversations with
+
+92
+00:04:16,000 --> 00:04:18,250
+at this conference when
+I said it's 30 years old,
+
+93
+00:04:18,250 --> 00:04:20,450
+they're like, oh well that's
+about two or three years
+
+94
+00:04:20,450 --> 00:04:21,533
+before I was born.
+
+95
+00:04:22,680 --> 00:04:24,147
+30 years ago I worked at Apple
+
+96
+00:04:24,147 --> 00:04:25,963
+and fixed some software groups.
+
+97
+00:04:27,235 --> 00:04:30,085
+So there's lots that I can
+reminisce about as an old guy.
+
+98
+00:04:30,940 --> 00:04:34,010
+But today's talk, we're talking about
+
+99
+00:04:34,010 --> 00:04:35,653
+Better Code: Human Interface.
+
+100
+00:04:37,930 --> 00:04:40,740
+A lot of this talk comes
+out of a comment that
+
+101
+00:04:40,740 --> 00:04:42,660
+Darin Adler, I think Darin now runs
+
+102
+00:04:42,660 --> 00:04:44,320
+the Safari group at Apple,
+
+103
+00:04:44,320 --> 00:04:48,550
+he and I worked at Apple 30 years ago.
+
+104
+00:04:48,550 --> 00:04:49,640
+In fact he's one of the reasons why
+
+105
+00:04:49,640 --> 00:04:50,853
+I got my job at Apple.
+
+106
+00:04:52,193 --> 00:04:54,230
+He made this statement, at least this is
+
+107
+00:04:54,230 --> 00:04:55,550
+to the best of my recollection,
+
+108
+00:04:55,550 --> 00:04:56,800
+but I actually sent him this quote
+
+109
+00:04:56,800 --> 00:04:59,200
+and he said, yeah he
+remembers the conversation.
+
+110
+00:05:01,771 --> 00:05:04,320
+He remembers saying
+something to this effect.
+
+111
+00:05:04,320 --> 00:05:06,797
+That's, "The purpose of
+a human interface is not
+
+112
+00:05:06,797 --> 00:05:08,397
+"to hide what the code does,
+
+113
+00:05:08,397 --> 00:05:11,427
+"but to accurately convey
+what the code does."
+
+114
+00:05:12,290 --> 00:05:15,400
+What you're trying to do when
+you build a human interface
+
+115
+00:05:15,400 --> 00:05:19,030
+is create a mental
+model in the user's mind
+
+116
+00:05:19,030 --> 00:05:21,163
+of what's going on under the hood.
+
+117
+00:05:22,190 --> 00:05:24,560
+All too often I see human interfaces
+
+118
+00:05:24,560 --> 00:05:26,290
+where it's very clear that the designer
+
+119
+00:05:26,290 --> 00:05:29,800
+of the human interface never
+really talked to the engineer.
+
+120
+00:05:29,800 --> 00:05:31,770
+They never understood
+what the constraints were
+
+121
+00:05:31,770 --> 00:05:34,770
+or what it was that they
+were trying to convey.
+
+122
+00:05:34,770 --> 00:05:36,830
+They were trying to create an illusion
+
+123
+00:05:36,830 --> 00:05:40,823
+of how they wished it worked,
+not of how it actually works.
+
+124
+00:05:42,140 --> 00:05:46,390
+And the problem with that is those lies,
+
+125
+00:05:46,390 --> 00:05:48,040
+and that's what you're
+doing when you do that,
+
+126
+00:05:48,040 --> 00:05:51,023
+you are lying to the user
+about how the system works,
+
+127
+00:05:52,330 --> 00:05:55,220
+those lies don't hold up
+and they peek through.
+
+128
+00:05:55,220 --> 00:05:59,010
+And users create magical rules, right?
+
+129
+00:05:59,010 --> 00:06:02,330
+How many times have you
+talked with a family member
+
+130
+00:06:02,330 --> 00:06:05,700
+kind of not in the industry,
+and they will tell you like,
+
+131
+00:06:05,700 --> 00:06:08,840
+oh yes, whenever I save this document,
+
+132
+00:06:08,840 --> 00:06:10,200
+I do this other thing.
+
+133
+00:06:10,200 --> 00:06:11,280
+And they might as well have said,
+
+134
+00:06:11,280 --> 00:06:14,550
+you know I stand on one foot and
+
+135
+00:06:14,550 --> 00:06:16,750
+pat the top of my head because otherwise
+
+136
+00:06:16,750 --> 00:06:18,663
+it doesn't work, right?
+
+137
+00:06:20,650 --> 00:06:22,630
+They're creating a little magical thinking
+
+138
+00:06:22,630 --> 00:06:24,680
+trying to explain to
+themselves what it does
+
+139
+00:06:24,680 --> 00:06:27,020
+because when they take the set of actions,
+
+140
+00:06:27,020 --> 00:06:29,133
+once at least, it did what they wanted.
+
+141
+00:06:30,060 --> 00:06:33,700
+So we can't lie to the user.
+
+142
+00:06:33,700 --> 00:06:35,803
+So my goal is always don't lie.
+
+143
+00:06:37,100 --> 00:06:39,403
+I wanted to just add
+a little context here,
+
+144
+00:06:40,600 --> 00:06:42,150
+because I think it's important,
+
+145
+00:06:43,150 --> 00:06:45,730
+whenever somebody gives
+a talk, to understand
+
+146
+00:06:45,730 --> 00:06:47,413
+what kind of world they live in.
+
+147
+00:06:49,500 --> 00:06:51,280
+This is Photoshop.
+
+148
+00:06:51,280 --> 00:06:55,810
+When I joined Adobe 25 years
+ago, I started on this team
+
+149
+00:06:55,810 --> 00:06:57,690
+and now I've kind of
+looped back in my career
+
+150
+00:06:57,690 --> 00:06:59,310
+in the last couple of years.
+
+151
+00:06:59,310 --> 00:07:02,873
+And so now I'm working again
+with the Photoshop team.
+
+152
+00:07:03,950 --> 00:07:06,550
+This application, how many
+people here have used it?
+
+153
+00:07:07,740 --> 00:07:09,310
+Okay, almost everybody.
+
+154
+00:07:09,310 --> 00:07:11,753
+How many people here think they know it?
+
+155
+00:07:11,753 --> 00:07:12,586
+(audience laughing)
+
+156
+00:07:12,586 --> 00:07:13,653
+My hand is not up.
+
+157
+00:07:17,140 --> 00:07:19,610
+One of the greatest
+compliments of my career
+
+158
+00:07:19,610 --> 00:07:24,610
+was at one point Mark Hamburg,
+who is the lead on Photoshop,
+
+159
+00:07:27,350 --> 00:07:29,890
+somebody asked him how he could possibly
+
+160
+00:07:29,890 --> 00:07:31,570
+know so much about Photoshop.
+
+161
+00:07:31,570 --> 00:07:34,160
+And does he know
+everything about Photoshop.
+
+162
+00:07:34,160 --> 00:07:36,587
+And he said, "No I'm only able now to hold
+
+163
+00:07:36,587 --> 00:07:39,057
+"half of Photoshop in my
+head, but that's okay,
+
+164
+00:07:39,057 --> 00:07:40,747
+"Sean has the other half."
+
+165
+00:07:44,990 --> 00:07:47,740
+Great compliment, I don't
+think it was ever quite true.
+
+166
+00:07:49,460 --> 00:07:53,223
+But that was 20-something years ago.
+
+167
+00:07:54,170 --> 00:07:56,560
+This application is a beast.
+
+168
+00:07:56,560 --> 00:08:00,310
+If you just look at the windows menu,
+
+169
+00:08:00,310 --> 00:08:01,410
+I bet a few palettes up,
+
+170
+00:08:01,410 --> 00:08:03,960
+those are all the palettes in Photoshop.
+
+171
+00:08:03,960 --> 00:08:06,270
+How many people know that you can edit
+
+172
+00:08:06,270 --> 00:08:08,980
+full 3-D models in Photoshop
+
+173
+00:08:08,980 --> 00:08:11,650
+and composite them into your world?
+
+174
+00:08:11,650 --> 00:08:13,860
+I think one person, two,
+three people, right?
+
+175
+00:08:13,860 --> 00:08:16,340
+There's a complete 3-D
+engine inside Photoshop
+
+176
+00:08:16,340 --> 00:08:17,540
+if you didn't know.
+
+177
+00:08:17,540 --> 00:08:18,820
+How many people knew that you could
+
+178
+00:08:18,820 --> 00:08:21,523
+edit video inside of Photoshop?
+
+179
+00:08:22,760 --> 00:08:23,650
+One person.
+
+180
+00:08:23,650 --> 00:08:26,410
+So there's a complete timeline
+editor inside of Photoshop.
+
+181
+00:08:26,410 --> 00:08:29,570
+So if you want to do
+something like correct the
+
+182
+00:08:29,570 --> 00:08:32,750
+lens warp of a bunch of panoramic images
+
+183
+00:08:32,750 --> 00:08:35,230
+and stitch them into a video,
+
+184
+00:08:35,230 --> 00:08:37,039
+you can do that inside of Photoshop
+
+185
+00:08:37,039 --> 00:08:40,129
+or you can take your
+4k video and dump it in
+
+186
+00:08:40,130 --> 00:08:43,210
+and apply calcium blur inside of Photoshop
+
+187
+00:08:43,210 --> 00:08:44,543
+across a set of frames.
+
+188
+00:08:45,800 --> 00:08:49,053
+So there's a complete video
+editor inside of Photoshop.
+
+189
+00:08:51,150 --> 00:08:55,360
+Just things like the layer effects panel
+
+190
+00:08:55,360 --> 00:08:59,083
+inside of Photoshop, if
+I just brought this up.
+
+191
+00:09:01,080 --> 00:09:03,100
+This is probably more human interface
+
+192
+00:09:03,100 --> 00:09:07,500
+in this one dialogue box
+than most applications have
+
+193
+00:09:07,500 --> 00:09:08,900
+in their entire application.
+
+194
+00:09:12,654 --> 00:09:14,988
+So this is a huge application.
+
+195
+00:09:14,988 --> 00:09:17,683
+At one point years ago,
+
+196
+00:09:19,390 --> 00:09:24,280
+we had to send off the strings
+
+197
+00:09:24,280 --> 00:09:26,590
+for translation, they had to be redone,
+
+198
+00:09:26,590 --> 00:09:28,440
+and the translators came
+back and said, yeah,
+
+199
+00:09:28,440 --> 00:09:31,000
+we allocated a couple of weeks to go redo
+
+200
+00:09:31,000 --> 00:09:32,603
+this whole thing.
+
+201
+00:09:34,260 --> 00:09:37,060
+And we said, you understand
+that there are 10,000
+
+202
+00:09:37,060 --> 00:09:39,700
+strings in Photoshop.
+
+203
+00:09:39,700 --> 00:09:42,740
+So they were like, well no,
+we just have to translate
+
+204
+00:09:42,740 --> 00:09:44,530
+the ones that are user visible.
+
+205
+00:09:44,530 --> 00:09:48,210
+Again, there's over 10,000
+user visible strings
+
+206
+00:09:48,210 --> 00:09:49,713
+inside of Photoshop.
+
+207
+00:09:51,860 --> 00:09:53,303
+So this thing's a beast.
+
+208
+00:09:58,180 --> 00:09:59,420
+One more thing I want to mention
+
+209
+00:09:59,420 --> 00:10:02,030
+before I leave Photoshop is,
+
+210
+00:10:02,030 --> 00:10:03,640
+that kinda top right panel there.
+
+211
+00:10:03,640 --> 00:10:06,280
+That's the system that I worked on
+
+212
+00:10:06,280 --> 00:10:07,950
+in Photoshop called actions.
+
+213
+00:10:07,950 --> 00:10:09,573
+And it's a scripting system.
+
+214
+00:10:11,720 --> 00:10:15,870
+At one point, it might still even be true,
+
+215
+00:10:15,870 --> 00:10:18,330
+there were more actions for Photoshop
+
+216
+00:10:18,330 --> 00:10:23,170
+than there were in any other application
+
+217
+00:10:23,170 --> 00:10:26,420
+domain specific programming language
+
+218
+00:10:26,420 --> 00:10:29,633
+including Visual Basic for Word.
+
+219
+00:10:31,480 --> 00:10:34,253
+That may or may not be
+true today, I don't know.
+
+220
+00:10:35,550 --> 00:10:37,793
+But it certainly ranks up there.
+
+221
+00:10:39,070 --> 00:10:41,750
+An interesting thing
+about Photoshop actions
+
+222
+00:10:41,750 --> 00:10:43,910
+is there's no textual description of them
+
+223
+00:10:43,910 --> 00:10:46,300
+and there's no good way to actually go in
+
+224
+00:10:46,300 --> 00:10:48,460
+and kind of textually edit them.
+
+225
+00:10:48,460 --> 00:10:52,410
+What makes, in my opinion,
+Photoshop actions so successful
+
+226
+00:10:52,410 --> 00:10:55,960
+is that you can record what you do
+
+227
+00:10:55,960 --> 00:10:59,200
+and they capture not
+what was actually done,
+
+228
+00:10:59,200 --> 00:11:01,830
+but what the users intent was.
+
+229
+00:11:01,830 --> 00:11:03,900
+So my canonical example for that
+
+230
+00:11:03,900 --> 00:11:05,360
+is if you're resizing an image,
+
+231
+00:11:05,360 --> 00:11:07,403
+you go into a complicated dialogue,
+
+232
+00:11:08,830 --> 00:11:11,380
+you say that you, you
+know, you click around
+
+233
+00:11:11,380 --> 00:11:13,340
+on a bunch of fields, and you click on OK,
+
+234
+00:11:13,340 --> 00:11:15,310
+and what you said in that dialogue box
+
+235
+00:11:15,310 --> 00:11:16,700
+was that you wanted your document to be
+
+236
+00:11:16,700 --> 00:11:19,550
+three inches wide,
+constraining proportions.
+
+237
+00:11:19,550 --> 00:11:21,656
+What the application does,
+is it makes your document
+
+238
+00:11:21,656 --> 00:11:24,680
+500 pixels by 400 pixels.
+
+239
+00:11:24,680 --> 00:11:27,220
+But what gets recorded,
+is make your document
+
+240
+00:11:27,220 --> 00:11:30,490
+three inches wide
+constraining proportions.
+
+241
+00:11:30,490 --> 00:11:33,530
+So it has this notion
+of doing smart recording
+
+242
+00:11:33,530 --> 00:11:36,180
+so that you end up with a
+script that you can play back
+
+243
+00:11:36,180 --> 00:11:39,793
+on other documents, and it
+will do what you wanted.
+
+244
+00:11:40,648 --> 00:11:42,398
+For this we're capturing intent of.
+
+245
+00:11:46,860 --> 00:11:48,403
+So let's go back here.
+
+246
+00:11:56,370 --> 00:11:57,520
+We don't want to print.
+
+247
+00:12:02,993 --> 00:12:05,920
+When I think about user interfaces,
+I try to put things into
+
+248
+00:12:05,920 --> 00:12:07,920
+what I call, the taxonomy of everything.
+
+249
+00:12:09,280 --> 00:12:11,250
+The simple way to break down the world,
+
+250
+00:12:11,250 --> 00:12:12,790
+let's take a look at it.
+
+251
+00:12:12,790 --> 00:12:16,603
+You've got objects, you've got
+properties of those objects.
+
+252
+00:12:18,000 --> 00:12:20,223
+You've got collections of objects.
+
+253
+00:12:22,290 --> 00:12:25,103
+You've got operations on those objects.
+
+254
+00:12:26,949 --> 00:12:29,199
+And you've got relationships
+between objects.
+
+255
+00:12:31,663 --> 00:12:33,450
+So that's my taxonomy of everything.
+
+256
+00:12:33,450 --> 00:12:35,930
+You can almost describe the entire world,
+
+257
+00:12:35,930 --> 00:12:39,043
+you can describe everything
+in this room, in those terms.
+
+258
+00:12:45,060 --> 00:12:47,490
+The classic way to think about building
+
+259
+00:12:47,490 --> 00:12:50,683
+a human interface, is this,
+Model View Controller.
+
+260
+00:12:51,570 --> 00:12:54,250
+And this definition is one of the most
+
+261
+00:12:56,580 --> 00:13:01,580
+horribly abused, just MVC,
+for Model View Controller,
+
+262
+00:13:03,040 --> 00:13:06,633
+people just redefine it to
+mean what they want, right?
+
+263
+00:13:07,700 --> 00:13:08,533
+Don't do that.
+
+264
+00:13:09,400 --> 00:13:10,540
+So this is the definition that
+
+265
+00:13:10,540 --> 00:13:12,640
+comes out of the Design Patterns.
+
+266
+00:13:12,640 --> 00:13:15,310
+Which also comes directly
+from the original
+
+267
+00:13:15,310 --> 00:13:16,653
+work on Smalltalk.
+
+268
+00:13:17,620 --> 00:13:20,610
+MVC consists of three kinds of objects.
+
+269
+00:13:20,610 --> 00:13:22,723
+The Model is the application object,
+
+270
+00:13:24,590 --> 00:13:27,630
+the View is its screen presentation.
+
+271
+00:13:27,630 --> 00:13:29,870
+The View is what you see.
+
+272
+00:13:29,870 --> 00:13:33,270
+And the Controller defines
+the way the user interface
+
+273
+00:13:33,270 --> 00:13:34,843
+reacts to user input.
+
+274
+00:13:35,900 --> 00:13:38,350
+So the Controller in some
+sense is the keyboard.
+
+275
+00:13:38,350 --> 00:13:41,343
+It's the thing that's feeding
+the vents into this system.
+
+276
+00:13:44,310 --> 00:13:46,710
+So the flow of Model View Controller,
+
+277
+00:13:46,710 --> 00:13:48,130
+some could argue maybe it should be called
+
+278
+00:13:48,130 --> 00:13:50,390
+Controller Model View, but this is
+
+279
+00:13:50,390 --> 00:13:51,833
+the flow through the system.
+
+280
+00:13:54,720 --> 00:13:56,650
+Now this is not the
+definition that you'll find
+
+281
+00:13:56,650 --> 00:13:58,120
+if you look on Apple's website,
+
+282
+00:13:58,120 --> 00:14:01,230
+although after me
+complaining about it so much
+
+283
+00:14:01,230 --> 00:14:02,773
+Apple has actually changed
+their website so that
+
+284
+00:14:02,773 --> 00:14:04,680
+it's got a little footnote that says
+
+285
+00:14:04,680 --> 00:14:06,970
+this is not classic Model View Controller,
+
+286
+00:14:06,970 --> 00:14:08,210
+this is the definition of what
+
+287
+00:14:08,210 --> 00:14:09,710
+we call Model View Controller.
+
+288
+00:14:11,190 --> 00:14:12,790
+You know, you'll hear
+Microsoft say we have
+
+289
+00:14:12,790 --> 00:14:15,090
+Model View View Model,
+and there's no Controller
+
+290
+00:14:15,090 --> 00:14:17,980
+in there whatsoever, and
+that's abuse in my opinion.
+
+291
+00:14:17,980 --> 00:14:20,090
+You're taking the same terms
+and you're redefining them.
+
+292
+00:14:20,090 --> 00:14:22,110
+These are well established terms,
+
+293
+00:14:22,110 --> 00:14:24,210
+and this is actually a very solid pattern.
+
+294
+00:14:26,800 --> 00:14:28,653
+So how did it get so screwed up?
+
+295
+00:14:31,330 --> 00:14:34,840
+I had a hypothesis several years ago
+
+296
+00:14:36,500 --> 00:14:40,010
+that where Model View
+Controller got so screwed up
+
+297
+00:14:40,010 --> 00:14:41,363
+was actually with the Lisa.
+
+298
+00:14:42,350 --> 00:14:46,150
+The Lisa was created by
+the folks at Xerox Parc,
+
+299
+00:14:46,150 --> 00:14:48,860
+who worked on Smalltalk, who understood
+
+300
+00:14:48,860 --> 00:14:51,340
+Model View Controller, and they went out
+
+301
+00:14:51,340 --> 00:14:53,370
+and they created Lisa.
+
+302
+00:14:53,370 --> 00:14:55,790
+And Lisa does not follow a classic
+
+303
+00:14:55,790 --> 00:14:57,890
+Model View Controller pattern.
+
+304
+00:14:57,890 --> 00:15:00,240
+And everybody after
+the Lisa, the Mac team,
+
+305
+00:15:00,240 --> 00:15:02,420
+the Windows team, has copied what was done
+
+306
+00:15:02,420 --> 00:15:03,553
+on the Lisa team.
+
+307
+00:15:05,410 --> 00:15:10,130
+So I went to a member of
+the original Lisa team,
+
+308
+00:15:10,130 --> 00:15:13,923
+Rudi Sherry, and I asked him,
+
+309
+00:15:14,830 --> 00:15:17,740
+I said, here's my hypothesis,
+you guys understood
+
+310
+00:15:17,740 --> 00:15:19,200
+what Model View Controller was,
+
+311
+00:15:19,200 --> 00:15:21,440
+but you weren't working
+in Smalltalk anymore
+
+312
+00:15:21,440 --> 00:15:24,830
+you were working in
+Pascal, or Object Pascal
+
+313
+00:15:24,830 --> 00:15:29,460
+and so, you had huge
+difficulty writing an observer.
+
+314
+00:15:29,460 --> 00:15:31,060
+You couldn't observe your model.
+
+315
+00:15:32,660 --> 00:15:35,443
+So you lifted parts of
+the model into the UI.
+
+316
+00:15:36,430 --> 00:15:38,070
+And he said, yeah, oh yeah, exactly.
+
+317
+00:15:38,070 --> 00:15:41,883
+We cut a whole bunch of
+corners in building it, right?
+
+318
+00:15:42,890 --> 00:15:45,030
+So here's a case in history
+where you had people
+
+319
+00:15:45,030 --> 00:15:47,433
+who understood the
+correct way to do things,
+
+320
+00:15:48,530 --> 00:15:52,820
+who cut a bunch of corners and
+then for the next 30 years,
+
+321
+00:15:52,820 --> 00:15:54,920
+it'll probably be 30 plus years soon,
+
+322
+00:15:54,920 --> 00:15:58,760
+the rest of the industry
+has copied those mistakes
+
+323
+00:15:58,760 --> 00:16:01,500
+and been confused by those mistakes.
+
+324
+00:16:01,500 --> 00:16:03,700
+So I kind of encourage you
+all if you're interested
+
+325
+00:16:03,700 --> 00:16:05,523
+in user interfaces, go back to
+
+326
+00:16:05,523 --> 00:16:07,540
+some of the original Smalltalk work,
+
+327
+00:16:07,540 --> 00:16:09,680
+go back to the old Smalltalk book,
+
+328
+00:16:09,680 --> 00:16:11,480
+and read about how it was done then.
+
+329
+00:16:14,660 --> 00:16:16,970
+I wrote a whole little blog post,
+
+330
+00:16:16,970 --> 00:16:19,630
+there's the link for it, you
+can find almost everything
+
+331
+00:16:19,630 --> 00:16:22,500
+there off the stlab.cc website, or
+
+332
+00:16:22,500 --> 00:16:26,900
+Sean-Parent/stlab, these
+slides will be available
+
+333
+00:16:26,900 --> 00:16:29,620
+for you later so you don't
+have to copy that down,
+
+334
+00:16:29,620 --> 00:16:31,793
+about kind of the history of MVC.
+
+335
+00:16:35,890 --> 00:16:38,470
+So, in order to build a UI, we need to
+
+336
+00:16:38,470 --> 00:16:40,360
+build an observable model.
+
+337
+00:16:40,360 --> 00:16:42,920
+The model is the application object.
+
+338
+00:16:42,920 --> 00:16:45,883
+And a lot of people think the
+model as just being the data.
+
+339
+00:16:46,830 --> 00:16:48,070
+But it's not just the data.
+
+340
+00:16:48,070 --> 00:16:51,310
+It's the objects, it's the operations,
+
+341
+00:16:51,310 --> 00:16:53,410
+that you can perform on those objects.
+
+342
+00:16:53,410 --> 00:16:56,140
+And it's the relationship
+between those objects.
+
+343
+00:16:56,140 --> 00:17:00,030
+And you have to take that
+whole collection of things
+
+344
+00:17:00,030 --> 00:17:02,103
+and make it observable to the user.
+
+345
+00:17:04,410 --> 00:17:07,920
+So, controllers end up
+buying into our operations.
+
+346
+00:17:07,920 --> 00:17:11,113
+A trivial controller is something
+that just sets a property.
+
+347
+00:17:14,170 --> 00:17:16,500
+Views bind to objects and their properties
+
+348
+00:17:16,500 --> 00:17:17,963
+in order to display them.
+
+349
+00:17:20,569 --> 00:17:24,949
+A view/controller, unlike
+what Apple will tell you,
+
+350
+00:17:24,950 --> 00:17:29,080
+a view/controller is a control or widget,
+
+351
+00:17:29,080 --> 00:17:30,190
+something like a check-box.
+
+352
+00:17:30,190 --> 00:17:33,070
+It's a combination of the controller,
+
+353
+00:17:33,070 --> 00:17:35,760
+it's going to issue events to your model,
+
+354
+00:17:35,760 --> 00:17:39,050
+and a view, in that it's displaying, okay?
+
+355
+00:17:39,050 --> 00:17:40,370
+It's gonna have a little logic in there
+
+356
+00:17:40,370 --> 00:17:42,920
+so that it can interpret,
+so that the controller side
+
+357
+00:17:42,920 --> 00:17:46,410
+can interpret events based
+off what it's displaying
+
+358
+00:17:46,410 --> 00:17:47,513
+from the view portion.
+
+359
+00:17:52,764 --> 00:17:56,400
+So objects, objects have a
+set of operations, right?
+
+360
+00:17:56,400 --> 00:17:57,790
+And these should look very familiar.
+
+361
+00:17:57,790 --> 00:17:59,840
+These are the operations
+that you would kind of have
+
+362
+00:17:59,840 --> 00:18:02,220
+on a regular type, right?
+
+363
+00:18:02,220 --> 00:18:04,420
+You have some way to construct it.
+
+364
+00:18:04,420 --> 00:18:07,040
+You're gonna have a copy
+construct of some sort.
+
+365
+00:18:07,040 --> 00:18:08,820
+Some way to make a copy.
+
+366
+00:18:08,820 --> 00:18:11,280
+Objects exist within a space.
+
+367
+00:18:11,280 --> 00:18:14,323
+They have a location,
+therefore I can move an object.
+
+368
+00:18:15,260 --> 00:18:18,150
+I can delete or destruct an object.
+
+369
+00:18:18,150 --> 00:18:19,903
+Objects have properties.
+
+370
+00:18:20,920 --> 00:18:25,160
+All objects have a location,
+they have to exist in a space.
+
+371
+00:18:25,160 --> 00:18:28,843
+They have a size, they
+consume some amount of space.
+
+372
+00:18:30,340 --> 00:18:34,010
+And, commonly, they have a name.
+
+373
+00:18:34,010 --> 00:18:35,360
+We can call them something.
+
+374
+00:18:38,520 --> 00:18:43,520
+You see this surface
+inside of applications,
+
+375
+00:18:44,090 --> 00:18:46,800
+in the terminology that we use.
+
+376
+00:18:46,800 --> 00:18:48,390
+We're going to construct a new layer,
+
+377
+00:18:48,390 --> 00:18:50,580
+how do we do that, we do that with New,
+
+378
+00:18:50,580 --> 00:18:53,437
+which is a very programming term.
+
+379
+00:18:53,437 --> 00:18:57,060
+I want to create a new
+layer, or a new background
+
+380
+00:18:57,060 --> 00:19:00,403
+from a layer or a new group,
+or a new group from layers.
+
+381
+00:19:07,860 --> 00:19:11,100
+We associate visual constructs like names,
+
+382
+00:19:11,100 --> 00:19:14,640
+icons, and behaviors with semantics.
+
+383
+00:19:14,640 --> 00:19:17,080
+Human interface is a language,
+
+384
+00:19:17,080 --> 00:19:20,173
+it is a way to communicate with the user.
+
+385
+00:19:21,140 --> 00:19:23,730
+In program operations like construct
+
+386
+00:19:23,730 --> 00:19:26,640
+have specific semantics.
+
+387
+00:19:26,640 --> 00:19:29,890
+In the HI we associate those semantics
+
+388
+00:19:29,890 --> 00:19:31,653
+with particular controls.
+
+389
+00:19:35,490 --> 00:19:39,113
+This is an old screenshot of Gmail.
+
+390
+00:19:41,060 --> 00:19:42,840
+Why am I putting this up here?
+
+391
+00:19:42,840 --> 00:19:47,360
+Well, in 2009 I left Adobe
+
+392
+00:19:47,360 --> 00:19:50,580
+and I went to work at
+Google for about a year.
+
+393
+00:19:50,580 --> 00:19:52,560
+And this was the closest to a screenshot
+
+394
+00:19:52,560 --> 00:19:55,490
+that I could find for what
+Gmail looked like at that time.
+
+395
+00:19:55,490 --> 00:19:57,523
+This actually goes back a little older.
+
+396
+00:19:59,800 --> 00:20:01,930
+But I didn't save a
+screenshot at that time
+
+397
+00:20:01,930 --> 00:20:03,190
+so I had to hunt down something
+
+398
+00:20:03,190 --> 00:20:04,370
+that looked the same on the web.
+
+399
+00:20:04,370 --> 00:20:06,070
+So I stole this from the internet.
+
+400
+00:20:08,410 --> 00:20:11,380
+So I'm relatively new at Google,
+
+401
+00:20:11,380 --> 00:20:14,610
+I've got a meeting with
+members of the Google
+
+402
+00:20:14,610 --> 00:20:17,691
+executive staff, and it's
+an important meeting.
+
+403
+00:20:17,691 --> 00:20:19,640
+It's the kind of meeting
+where if you don't show up
+
+404
+00:20:19,640 --> 00:20:21,570
+to the meeting, you should
+probably just turn in
+
+405
+00:20:21,570 --> 00:20:23,863
+your badge and go home.
+
+406
+00:20:25,150 --> 00:20:28,810
+And I get a phone call
+for a family emergency.
+
+407
+00:20:28,810 --> 00:20:30,590
+And it's the kind of family emergency
+
+408
+00:20:30,590 --> 00:20:32,273
+where your heart stops.
+
+409
+00:20:33,820 --> 00:20:37,133
+And I have to go to address
+this family emergency.
+
+410
+00:20:39,000 --> 00:20:41,780
+So before I leave, I want to send off
+
+411
+00:20:41,780 --> 00:20:44,640
+a very quick email to just say,
+
+412
+00:20:44,640 --> 00:20:46,183
+I will not make this meeting.
+
+413
+00:20:48,480 --> 00:20:51,170
+Just one line, send it to my boss,
+
+414
+00:20:51,170 --> 00:20:53,670
+I will not make this meeting.
+
+415
+00:20:53,670 --> 00:20:57,193
+And I pull up Gmail, and
+I'm in a total utter panic.
+
+416
+00:20:59,270 --> 00:21:01,413
+And I say, how do I create a new email.
+
+417
+00:21:05,760 --> 00:21:08,050
+It wasn't the first time I had used Gmail.
+
+418
+00:21:08,050 --> 00:21:09,643
+I had been using it for awhile.
+
+419
+00:21:12,180 --> 00:21:15,670
+And I pull this up, and I look, New.
+
+420
+00:21:15,670 --> 00:21:17,740
+New, New, New, New, New, New, New.
+
+421
+00:21:17,740 --> 00:21:18,740
+Where's New?
+
+422
+00:21:18,740 --> 00:21:19,573
+I don't see New.
+
+423
+00:21:21,140 --> 00:21:23,470
+Well, New is an action,
+an action is a button,
+
+424
+00:21:23,470 --> 00:21:26,223
+where is the button to create a new email?
+
+425
+00:21:28,410 --> 00:21:30,360
+There isn't one.
+
+426
+00:21:30,360 --> 00:21:33,140
+And the clock in my head
+at least is ticking.
+
+427
+00:21:33,140 --> 00:21:35,050
+Probably seemed like 20 minutes,
+
+428
+00:21:35,050 --> 00:21:36,973
+it was probably just 30 seconds.
+
+429
+00:21:39,200 --> 00:21:40,110
+But I was in a panic.
+
+430
+00:21:40,110 --> 00:21:45,110
+How in the F do I create a new email?
+
+431
+00:21:47,230 --> 00:21:48,723
+I can't find it.
+
+432
+00:21:49,840 --> 00:21:51,820
+Why can't I find it?
+
+433
+00:21:51,820 --> 00:21:53,940
+Everybody sees it here, right?
+
+434
+00:21:53,940 --> 00:21:56,090
+There's Compose Mail.
+
+435
+00:21:56,090 --> 00:21:57,283
+But it's a link.
+
+436
+00:21:58,220 --> 00:21:59,983
+What are the semantics of a link?
+
+437
+00:22:01,290 --> 00:22:03,143
+Takes you somewhere else.
+
+438
+00:22:04,220 --> 00:22:07,633
+Construction is not a place.
+
+439
+00:22:11,210 --> 00:22:12,263
+It's not.
+
+440
+00:22:15,110 --> 00:22:17,810
+So in a panic, I couldn't find it.
+
+441
+00:22:17,810 --> 00:22:19,503
+I could not decode this UI.
+
+442
+00:22:22,630 --> 00:22:25,716
+Eventually I was like, ah there it is!
+
+443
+00:22:25,716 --> 00:22:27,027
+And then I'm cursing at my machine,
+
+444
+00:22:27,027 --> 00:22:29,020
+and I send off my email and I go off
+
+445
+00:22:29,020 --> 00:22:31,040
+and I resolve my family emergency,
+
+446
+00:22:31,040 --> 00:22:32,760
+and I come back in and I'm not fired,
+
+447
+00:22:32,760 --> 00:22:34,060
+and I'm thankful for that.
+
+448
+00:22:35,340 --> 00:22:39,193
+And I send off a flaming email, right?
+
+449
+00:22:40,350 --> 00:22:42,283
+How can anybody create this UI?
+
+450
+00:22:44,800 --> 00:22:46,883
+So this is what Gmail looks like now.
+
+451
+00:22:47,980 --> 00:22:51,380
+It's a button, that says Compose.
+
+452
+00:22:51,380 --> 00:22:53,250
+I don't know if it's red because of me,
+
+453
+00:22:53,250 --> 00:22:54,683
+but it's been red ever since.
+
+454
+00:22:54,683 --> 00:22:56,933
+(laughing)
+
+455
+00:23:03,379 --> 00:23:04,790
+That matters, right?
+
+456
+00:23:04,790 --> 00:23:06,480
+A button is an action.
+
+457
+00:23:06,480 --> 00:23:07,830
+A button does something.
+
+458
+00:23:07,830 --> 00:23:10,027
+I still think it should
+say like, new email there,
+
+459
+00:23:10,027 --> 00:23:14,323
+and not just Compose, but at
+least it's not a link anymore,
+
+460
+00:23:15,697 --> 00:23:16,530
+it is better.
+
+461
+00:23:20,829 --> 00:23:22,893
+So semantics matter.
+
+462
+00:23:23,970 --> 00:23:28,640
+So collections, if we have
+a collection of objects,
+
+463
+00:23:28,640 --> 00:23:31,580
+we have a set of operations
+on that collection, right?
+
+464
+00:23:31,580 --> 00:23:33,210
+We can insert items in the collection,
+
+465
+00:23:33,210 --> 00:23:35,540
+we can remove things from the collection.
+
+466
+00:23:35,540 --> 00:23:38,053
+There's a count of items
+within the collection.
+
+467
+00:23:39,100 --> 00:23:40,840
+And there's a whole/part relationship
+
+468
+00:23:40,840 --> 00:23:42,800
+between the objects that
+are in the collection
+
+469
+00:23:42,800 --> 00:23:44,113
+and the collection itself.
+
+470
+00:23:49,540 --> 00:23:52,743
+So large collections pose a problem.
+
+471
+00:23:54,450 --> 00:23:58,210
+How do you observe a large
+collection interactively
+
+472
+00:23:58,210 --> 00:24:01,310
+and allow the user to
+arrange and filter and browse
+
+473
+00:24:01,310 --> 00:24:02,573
+a large collection?
+
+474
+00:24:03,990 --> 00:24:06,170
+This is a very common problem in
+
+475
+00:24:06,170 --> 00:24:07,820
+building human interfaces.
+
+476
+00:24:07,820 --> 00:24:11,690
+This is largely the
+problem of search, right?
+
+477
+00:24:11,690 --> 00:24:14,440
+You go to Google and you search for things
+
+478
+00:24:14,440 --> 00:24:17,150
+and there's an infinite number of results,
+
+479
+00:24:17,150 --> 00:24:19,710
+and they have to figure
+out how do we display
+
+480
+00:24:19,710 --> 00:24:21,683
+them to you in a meaningful way,
+
+481
+00:24:22,687 --> 00:24:25,750
+with the things on top, and
+let you browse through them.
+
+482
+00:24:25,750 --> 00:24:28,180
+So they've kind of done that
+with a paging interface,
+
+483
+00:24:28,180 --> 00:24:30,183
+so you can flip through pages.
+
+484
+00:24:35,100 --> 00:24:40,100
+So, I like to give out
+some practical advice here.
+
+485
+00:24:41,520 --> 00:24:43,950
+So if you're faced with a
+large collection of things
+
+486
+00:24:43,950 --> 00:24:46,490
+a very common thing that
+you're going to want to do
+
+487
+00:24:46,490 --> 00:24:51,490
+is to be able to give the user
+a window into that collection
+
+488
+00:24:52,190 --> 00:24:55,370
+and let them operate
+just within that window.
+
+489
+00:24:55,370 --> 00:24:58,200
+And you can do that more
+efficiently than you can
+
+490
+00:24:58,200 --> 00:25:00,943
+within the collection as a whole.
+
+491
+00:25:02,000 --> 00:25:05,820
+And often times I see user
+interface's that don't scale
+
+492
+00:25:05,820 --> 00:25:08,470
+and get very slow when you
+have large collections.
+
+493
+00:25:08,470 --> 00:25:10,870
+Who's ever had an
+application where it's like,
+
+494
+00:25:10,870 --> 00:25:14,240
+oh well it worked well
+with 10 items, or 20 items,
+
+495
+00:25:14,240 --> 00:25:16,630
+but you put 1,000 items in there and the
+
+496
+00:25:16,630 --> 00:25:20,140
+user interface just slugs along, right?
+
+497
+00:25:20,140 --> 00:25:21,040
+It feels horrible.
+
+498
+00:25:22,320 --> 00:25:24,530
+So a very common thing
+that you might want to do
+
+499
+00:25:24,530 --> 00:25:28,373
+is show the user a range within
+a collection that's sorted.
+
+500
+00:25:29,940 --> 00:25:33,260
+So our challenge here, is we want to sort
+
+501
+00:25:33,260 --> 00:25:36,363
+everything from sf to sl.
+
+502
+00:25:39,580 --> 00:25:44,223
+So, how many people now
+know their STL algorithms?
+
+503
+00:25:45,850 --> 00:25:47,300
+How am I gonna do that?
+
+504
+00:25:47,300 --> 00:25:48,150
+Where do I start?
+
+505
+00:25:52,550 --> 00:25:54,823
+Nth element, and I heard a partial sort.
+
+506
+00:25:56,570 --> 00:25:59,080
+So partial sort is part of the answer,
+
+507
+00:25:59,080 --> 00:26:00,560
+but it won't give us this.
+
+508
+00:26:00,560 --> 00:26:04,163
+Nth element is where we're gonna start.
+
+509
+00:26:05,622 --> 00:26:07,240
+So what we want to do, is we want to sort
+
+510
+00:26:07,240 --> 00:26:09,140
+in the middle there.
+
+511
+00:26:09,140 --> 00:26:10,700
+As if the entire range were sorted,
+
+512
+00:26:10,700 --> 00:26:14,010
+but we don't care about
+everything above and below.
+
+513
+00:26:14,010 --> 00:26:14,884
+What's that?
+
+514
+00:26:14,884 --> 00:26:17,801
+(audience mumbles)
+
+515
+00:26:19,630 --> 00:26:21,780
+And then sort in between.
+
+516
+00:26:21,780 --> 00:26:23,280
+Let's see what we can do here.
+
+517
+00:26:24,873 --> 00:26:27,280
+So, what we want to do,
+
+518
+00:26:27,280 --> 00:26:29,150
+is we're gonna start with nth element
+
+519
+00:26:29,150 --> 00:26:31,083
+and we're gonna pin our first guy.
+
+520
+00:26:34,160 --> 00:26:36,573
+That will get six into the right place.
+
+521
+00:26:38,610 --> 00:26:41,560
+Just looking at the data there,
+that's a little grayed out,
+
+522
+00:26:42,710 --> 00:26:45,110
+nth element did something else.
+
+523
+00:26:45,110 --> 00:26:47,129
+Anybody know what it did?
+
+524
+00:26:47,129 --> 00:26:48,280
+(audience mumbling)
+
+525
+00:26:48,280 --> 00:26:49,853
+It partitioned the set.
+
+526
+00:26:51,470 --> 00:26:54,230
+You guys are way better than
+you were a few years ago.
+
+527
+00:26:54,230 --> 00:26:55,080
+Paying attention.
+
+528
+00:26:56,830 --> 00:26:58,583
+Okay, it partitioned the set.
+
+529
+00:27:01,620 --> 00:27:03,550
+So that means that everything up there
+
+530
+00:27:03,550 --> 00:27:05,163
+is less than or equal to.
+
+531
+00:27:07,597 --> 00:27:10,297
+And everything down there
+is greater than or equal to.
+
+532
+00:27:14,360 --> 00:27:18,783
+So now we still need to get those guys.
+
+533
+00:27:23,480 --> 00:27:25,880
+Partial sort, right?
+
+534
+00:27:25,880 --> 00:27:26,940
+So partial sort.
+
+535
+00:27:26,940 --> 00:27:27,880
+So we don't care about that guy
+
+536
+00:27:27,880 --> 00:27:29,510
+so we get to skip over him now.
+
+537
+00:27:29,510 --> 00:27:31,110
+He's already in the right place.
+
+538
+00:27:32,200 --> 00:27:37,200
+And now we can call partial
+sort for the remaining elements
+
+539
+00:27:37,280 --> 00:27:38,830
+and that will give us that.
+
+540
+00:27:38,830 --> 00:27:40,380
+Partial sort does what we want
+
+541
+00:27:40,380 --> 00:27:42,320
+but only at the start of a range.
+
+542
+00:27:42,320 --> 00:27:45,013
+Because nth element left
+our range partitioned,
+
+543
+00:27:46,540 --> 00:27:48,830
+we know that we can just
+now do a partial sort
+
+544
+00:27:48,830 --> 00:27:50,030
+on the remaining pieces.
+
+545
+00:27:55,116 --> 00:27:58,283
+So now if our two boundaries are equal
+
+546
+00:28:00,910 --> 00:28:02,790
+then we're just gonna return,
+
+547
+00:28:02,790 --> 00:28:04,830
+we don't have to do nth
+element if we're right
+
+548
+00:28:04,830 --> 00:28:05,730
+at the start of the range,
+
+549
+00:28:05,730 --> 00:28:07,253
+we can just do partial sort.
+
+550
+00:28:08,690 --> 00:28:10,220
+And now we got a handy little algorithm.
+
+551
+00:28:10,220 --> 00:28:12,510
+Sort subrange, Marshall can go stick this
+
+552
+00:28:12,510 --> 00:28:13,510
+in the standard now.
+
+553
+00:28:17,980 --> 00:28:18,833
+Very handy.
+
+554
+00:28:22,053 --> 00:28:24,433
+Sort subrange, that's
+exactly what we want.
+
+555
+00:28:25,460 --> 00:28:27,500
+And in practice, this will usually be
+
+556
+00:28:27,500 --> 00:28:29,300
+in order of magnitude or so faster than
+
+557
+00:28:29,300 --> 00:28:30,703
+sorting the entire sequence.
+
+558
+00:28:32,470 --> 00:28:33,800
+If you're doing graphics work
+
+559
+00:28:33,800 --> 00:28:37,530
+and you need to do
+things like take a median
+
+560
+00:28:37,530 --> 00:28:39,900
+but where you want a windowed median
+
+561
+00:28:40,740 --> 00:28:42,900
+around things, this is
+also a good technique
+
+562
+00:28:42,900 --> 00:28:45,250
+for calculating things like that.
+
+563
+00:28:45,250 --> 00:28:47,000
+Faster than sorting your entire range
+
+564
+00:28:47,000 --> 00:28:48,560
+and slicing out the data that you want
+
+565
+00:28:48,560 --> 00:28:50,010
+out of the middle.
+
+566
+00:28:51,630 --> 00:28:53,240
+And if you want to grow this window
+
+567
+00:28:53,240 --> 00:28:55,300
+because the user scrolls down,
+
+568
+00:28:55,300 --> 00:28:58,090
+you can just do additional partial sorts.
+
+569
+00:28:58,090 --> 00:29:00,810
+Because our data is still partitioned.
+
+570
+00:29:00,810 --> 00:29:02,310
+So we can still leverage that.
+
+571
+00:29:10,030 --> 00:29:12,830
+So operations act on one or more objects.
+
+572
+00:29:12,830 --> 00:29:15,680
+Additional operations to the arguments are
+
+573
+00:29:15,680 --> 00:29:20,480
+bound as, to the operations as properties.
+
+574
+00:29:20,480 --> 00:29:21,530
+What do I mean by that?
+
+575
+00:29:21,530 --> 00:29:23,590
+If you go into a user interface,
+
+576
+00:29:23,590 --> 00:29:25,290
+typically what you'll see is you
+
+577
+00:29:25,290 --> 00:29:27,510
+pull up some dialogue, right?
+
+578
+00:29:27,510 --> 00:29:30,273
+Or a visual interface
+you construct things.
+
+579
+00:29:30,273 --> 00:29:33,450
+So what you're doing
+there within the dialogue
+
+580
+00:29:33,450 --> 00:29:36,310
+is you are setting a set of properties,
+
+581
+00:29:36,310 --> 00:29:37,900
+but usually those are not properties
+
+582
+00:29:37,900 --> 00:29:39,570
+directly on the document.
+
+583
+00:29:39,570 --> 00:29:41,731
+Those are the arguments to the command
+
+584
+00:29:41,731 --> 00:29:44,150
+that you're going to issue.
+
+585
+00:29:44,150 --> 00:29:45,460
+And it doesn't matter if you go in
+
+586
+00:29:45,460 --> 00:29:47,050
+and you're dragging about handles or
+
+587
+00:29:47,050 --> 00:29:48,203
+things like that.
+
+588
+00:29:48,203 --> 00:29:51,400
+What you're doing is you're
+constructing a command
+
+589
+00:29:52,260 --> 00:29:54,860
+which you're then going to
+issue to the application.
+
+590
+00:29:56,210 --> 00:29:58,410
+Operations are represented by buttons,
+
+591
+00:29:58,410 --> 00:30:01,470
+menu items, gestures, tools, right?
+
+592
+00:30:01,470 --> 00:30:02,893
+Or direct manipulation.
+
+593
+00:30:04,110 --> 00:30:06,340
+Subject or target of an operation
+
+594
+00:30:06,340 --> 00:30:09,170
+is identified by a selection, right?
+
+595
+00:30:09,170 --> 00:30:11,030
+Or by direct manipulation.
+
+596
+00:30:11,030 --> 00:30:12,750
+I can go and select a bunch of guys,
+
+597
+00:30:12,750 --> 00:30:16,280
+or I can go and just pick one
+guy and do something with it.
+
+598
+00:30:16,280 --> 00:30:18,383
+Common metaphors in human interface.
+
+599
+00:30:21,170 --> 00:30:25,650
+So selections, selecting
+objects within a hierarchy
+
+600
+00:30:25,650 --> 00:30:29,333
+specifies one or more as target paths.
+
+601
+00:30:31,390 --> 00:30:33,680
+So you typically build a hierarchy within
+
+602
+00:30:33,680 --> 00:30:35,390
+your applications, so
+you have application,
+
+603
+00:30:35,390 --> 00:30:36,480
+which contains documents,
+
+604
+00:30:36,480 --> 00:30:38,780
+which contains objects within that.
+
+605
+00:30:38,780 --> 00:30:41,053
+Those objects may contain other objects.
+
+606
+00:30:42,490 --> 00:30:45,740
+And going back to the original Macintosh,
+
+607
+00:30:45,740 --> 00:30:48,083
+and even before that to the Lisa,
+
+608
+00:30:49,240 --> 00:30:51,483
+that got surfaced up into the menu.
+
+609
+00:30:52,440 --> 00:30:57,440
+So if you look here, on the
+left side we have Apple.
+
+610
+00:30:57,600 --> 00:30:59,220
+What does that represent?
+
+611
+00:30:59,220 --> 00:31:01,350
+It represents things that you can do
+
+612
+00:31:01,350 --> 00:31:03,143
+to the machine as a whole.
+
+613
+00:31:04,760 --> 00:31:06,400
+And then the Photoshop menu,
+
+614
+00:31:06,400 --> 00:31:10,720
+these are things that apply
+to the application as a whole.
+
+615
+00:31:10,720 --> 00:31:13,100
+And the file menu, things that apply
+
+616
+00:31:13,100 --> 00:31:15,463
+to the document as a whole.
+
+617
+00:31:17,080 --> 00:31:19,620
+And the edit menu, things that apply to
+
+618
+00:31:19,620 --> 00:31:23,563
+the currently selected
+object within that document.
+
+619
+00:31:25,440 --> 00:31:27,860
+So if you think about it,
+that currently selected
+
+620
+00:31:27,860 --> 00:31:31,580
+object within the document, is a leaf node
+
+621
+00:31:31,580 --> 00:31:35,240
+within that hierarchy that you
+can trace back to the root.
+
+622
+00:31:35,240 --> 00:31:37,170
+What document are we talking about?
+
+623
+00:31:37,170 --> 00:31:41,133
+The document that contains
+the currently selected object.
+
+624
+00:31:41,970 --> 00:31:44,970
+Not any document, we're talking
+about a particular document.
+
+625
+00:31:46,640 --> 00:31:49,653
+Within the currently selected application,
+
+626
+00:31:50,960 --> 00:31:53,010
+on the current machine, right?
+
+627
+00:31:53,010 --> 00:31:54,203
+So that creates a path.
+
+628
+00:31:58,380 --> 00:32:01,623
+Interval sets, Boost has a
+library called interval sets.
+
+629
+00:32:04,020 --> 00:32:08,070
+The Boost structure is
+a little complicated,
+
+630
+00:32:08,070 --> 00:32:09,960
+I prefer just encoding interval sets
+
+631
+00:32:09,960 --> 00:32:11,503
+directly within a vector.
+
+632
+00:32:14,611 --> 00:32:16,880
+But nevertheless, an interval set
+
+633
+00:32:16,880 --> 00:32:21,250
+is a good data structure
+to represent a selection.
+
+634
+00:32:21,250 --> 00:32:26,250
+It let's me represent
+a disjoint collection
+
+635
+00:32:27,700 --> 00:32:29,850
+of objects quite efficiently.
+
+636
+00:32:29,850 --> 00:32:32,370
+You can even create two
+dimensional interval sets.
+
+637
+00:32:32,370 --> 00:32:36,809
+For anybody who did early
+work on a Macintosh,
+
+638
+00:32:36,809 --> 00:32:39,150
+QuickDraw region is an example of the
+
+639
+00:32:39,150 --> 00:32:40,833
+two dimensional interval set.
+
+640
+00:32:45,296 --> 00:32:50,120
+So in my C++ seasoning talk,
+
+641
+00:32:52,210 --> 00:32:53,830
+in the no raw loops section,
+
+642
+00:32:53,830 --> 00:32:56,823
+I presented this algorithm,
+the Gather algorithm.
+
+643
+00:32:57,959 --> 00:33:02,163
+Marshall Clow gets credit for
+the name for this algorithm.
+
+644
+00:33:03,320 --> 00:33:04,153
+And that's what you're doing,
+
+645
+00:33:04,153 --> 00:33:05,668
+you're taking this collection of
+
+646
+00:33:05,668 --> 00:33:08,280
+disjoint selective things
+and you're dragging them
+
+647
+00:33:08,280 --> 00:33:11,110
+to a particular location
+within your collection.
+
+648
+00:33:11,110 --> 00:33:12,390
+How many people have seen that talk?
+
+649
+00:33:12,390 --> 00:33:16,090
+So, most everybody, it's a popular talk.
+
+650
+00:33:16,090 --> 00:33:17,160
+So it's done well.
+
+651
+00:33:17,160 --> 00:33:19,690
+So I'm gonna cruise
+through this kinda fast.
+
+652
+00:33:19,690 --> 00:33:22,210
+The way that this breaks down is as
+
+653
+00:33:22,210 --> 00:33:24,050
+two calls to stable partition.
+
+654
+00:33:24,050 --> 00:33:27,210
+So we can do stable
+partition on the lower half.
+
+655
+00:33:27,210 --> 00:33:29,056
+And we can invert our predicate
+
+656
+00:33:29,056 --> 00:33:31,506
+and we can do stable
+partition on the upper half.
+
+657
+00:33:32,650 --> 00:33:35,943
+And that gives us the Gather function.
+
+658
+00:33:37,600 --> 00:33:40,350
+So next time you're
+frustrated in an application
+
+659
+00:33:40,350 --> 00:33:42,690
+because you can't create
+a disjoint selection
+
+660
+00:33:42,690 --> 00:33:44,540
+and drag things to one place,
+
+661
+00:33:44,540 --> 00:33:46,330
+you can point them to my talk and say,
+
+662
+00:33:46,330 --> 00:33:49,440
+please go watch Sean's talk
+and fix your application.
+
+663
+00:33:49,440 --> 00:33:50,440
+It drives them nuts.
+
+664
+00:33:53,800 --> 00:33:54,633
+So that's that.
+
+665
+00:33:57,110 --> 00:34:00,060
+But I don't want to talk
+directly about that.
+
+666
+00:34:00,060 --> 00:34:02,100
+It also returns the two points.
+
+667
+00:34:02,100 --> 00:34:04,750
+What I really want to talk
+about is stable partition.
+
+668
+00:34:06,800 --> 00:34:09,050
+Why do I want to talk
+about stable partition?
+
+669
+00:34:11,270 --> 00:34:12,429
+So that's stable partition.
+
+670
+00:34:12,429 --> 00:34:14,679
+Who here knows how to
+write stable partition?
+
+671
+00:34:16,580 --> 00:34:17,413
+Anybody?
+
+672
+00:34:17,413 --> 00:34:19,730
+Ah, you get to learn how
+to write stable partition.
+
+673
+00:34:23,193 --> 00:34:26,750
+So, for most algorithms they fall
+
+674
+00:34:26,750 --> 00:34:28,283
+into one or two categories.
+
+675
+00:34:29,290 --> 00:34:30,907
+For most algorithms, you can either say,
+
+676
+00:34:30,907 --> 00:34:33,530
+I'm going to start at the
+beginning of my sequence
+
+677
+00:34:33,530 --> 00:34:36,570
+and I'm going to assume that now
+
+678
+00:34:36,570 --> 00:34:38,889
+I'm at some point n, and
+that everything behind me
+
+679
+00:34:38,889 --> 00:34:40,919
+magically satisfies
+whatever I'm trying to do
+
+680
+00:34:40,920 --> 00:34:43,090
+with the algorithm and so now I need to
+
+681
+00:34:43,090 --> 00:34:45,850
+figure out, how do I make
+the next guy satisfy that.
+
+682
+00:34:45,850 --> 00:34:49,219
+So I'm going to lineally go
+through my sequence and do that.
+
+683
+00:34:49,219 --> 00:34:51,279
+The other common thing is to say
+
+684
+00:34:51,280 --> 00:34:54,060
+well, what if I could
+just jump to the middle
+
+685
+00:34:54,060 --> 00:34:57,830
+everything to my left
+satisfied my algorithm,
+
+686
+00:34:57,830 --> 00:35:00,110
+and everything to the right
+satisfied my algorithm,
+
+687
+00:35:00,110 --> 00:35:02,110
+and now I just need a way to merge those
+
+688
+00:35:02,110 --> 00:35:03,790
+two things so that the whole thing
+
+689
+00:35:03,790 --> 00:35:05,950
+satisfies the algorithm.
+
+690
+00:35:05,950 --> 00:35:08,040
+Those are the two most common approaches
+
+691
+00:35:08,040 --> 00:35:11,240
+to satisfying an algorithm's job.
+
+692
+00:35:11,240 --> 00:35:12,900
+So what we're gonna do
+here, is we're gonna say
+
+693
+00:35:12,900 --> 00:35:16,123
+well imagine that we can
+just cut this thing in half.
+
+694
+00:35:18,890 --> 00:35:22,670
+And that the top half
+formed a stable partition
+
+695
+00:35:22,670 --> 00:35:24,953
+and the bottom half
+formed a stable partition.
+
+696
+00:35:26,450 --> 00:35:27,330
+How would we do that?
+
+697
+00:35:27,330 --> 00:35:30,003
+Well we would call stable
+partition on both halves.
+
+698
+00:35:33,935 --> 00:35:36,417
+Then the problem becomes how do I put
+
+699
+00:35:37,460 --> 00:35:39,563
+those pieces in the right order?
+
+700
+00:35:40,650 --> 00:35:42,450
+Between the top arrow and the bottom arrow
+
+701
+00:35:42,450 --> 00:35:44,010
+and my midpoint, those are
+
+702
+00:35:44,010 --> 00:35:46,023
+the pieces that are in the wrong order.
+
+703
+00:35:48,050 --> 00:35:51,520
+Who sees what do I call here?
+
+704
+00:35:51,520 --> 00:35:52,780
+One person.
+
+705
+00:35:52,780 --> 00:35:53,630
+I have to say it.
+
+706
+00:35:55,700 --> 00:35:57,270
+That's obviously a rotate.
+
+707
+00:35:57,270 --> 00:35:59,890
+(laughing)
+
+708
+00:35:59,890 --> 00:36:01,950
+So we're gonna call rotate.
+
+709
+00:36:01,950 --> 00:36:03,250
+Put those pieces together.
+
+710
+00:36:07,640 --> 00:36:10,303
+Rotate is gonna return
+our partition point.
+
+711
+00:36:11,934 --> 00:36:14,803
+Which is our new midpoint,
+so we can return that.
+
+712
+00:36:17,600 --> 00:36:20,103
+So now all we need is our inductive base.
+
+713
+00:36:21,680 --> 00:36:24,893
+So when we get down to
+just a one element window,
+
+714
+00:36:27,650 --> 00:36:32,090
+if it's selected, what's the answer,
+
+715
+00:36:32,090 --> 00:36:34,540
+where do we return for stable partition
+
+716
+00:36:34,540 --> 00:36:35,703
+of the selected guy?
+
+717
+00:36:40,360 --> 00:36:43,440
+If it's selected, we're
+gonna return right after it.
+
+718
+00:36:43,440 --> 00:36:46,830
+If it's not selected, we're
+just gonna return where it is.
+
+719
+00:36:46,830 --> 00:36:48,260
+So the r there is our result.
+
+720
+00:36:48,260 --> 00:36:50,600
+If it's not selected,
+we return the element
+
+721
+00:36:50,600 --> 00:36:51,433
+we're looking at.
+
+722
+00:36:51,433 --> 00:36:53,370
+If it is selected, we
+return the one after it.
+
+723
+00:36:55,630 --> 00:36:57,173
+So that's our inductive base.
+
+724
+00:36:58,560 --> 00:37:00,290
+So now we just need to fill out
+
+725
+00:37:01,630 --> 00:37:05,120
+handling ends, so that we
+can calculate our midpoint,
+
+726
+00:37:05,120 --> 00:37:06,880
+and we need to make sure that we handle
+
+727
+00:37:06,880 --> 00:37:08,810
+the zero case where things
+are completely empty
+
+728
+00:37:08,810 --> 00:37:12,433
+in which case the result
+is just returning first.
+
+729
+00:37:13,431 --> 00:37:16,310
+And that's an implementation
+of stable partition.
+
+730
+00:37:16,310 --> 00:37:17,763
+Why am I showing this to you?
+
+731
+00:37:18,620 --> 00:37:21,763
+There's something amazing
+I think in this algorithm.
+
+732
+00:37:23,811 --> 00:37:25,273
+Let's see if I can point it out here.
+
+733
+00:37:26,830 --> 00:37:28,363
+Right there.
+
+734
+00:37:29,700 --> 00:37:31,533
+What's amazing about that?
+
+735
+00:37:33,070 --> 00:37:34,530
+Every time I look at this piece of code,
+
+736
+00:37:34,530 --> 00:37:36,480
+I'm just like ah, that is so beautiful.
+
+737
+00:37:37,615 --> 00:37:39,230
+(audience mubling)
+
+738
+00:37:39,230 --> 00:37:42,610
+The predicate is called
+only once per element
+
+739
+00:37:42,610 --> 00:37:44,240
+and it's called on that element
+
+740
+00:37:44,240 --> 00:37:46,313
+before that element has moved.
+
+741
+00:37:47,750 --> 00:37:50,800
+Think about it, we're going
+to do a stable partition
+
+742
+00:37:50,800 --> 00:37:52,400
+on a bunch of selected guys.
+
+743
+00:37:52,400 --> 00:37:55,680
+We're gonna recourse all the
+way down to the leaf nodes.
+
+744
+00:37:55,680 --> 00:37:58,180
+We're gonna ask the
+element exactly one time
+
+745
+00:37:58,180 --> 00:38:00,400
+are you selected or not selected?
+
+746
+00:38:00,400 --> 00:38:02,970
+And then we're gonna put
+everything in the right place
+
+747
+00:38:02,970 --> 00:38:03,833
+back up the tree.
+
+748
+00:38:06,029 --> 00:38:09,240
+So there are only end calls to p.
+
+749
+00:38:10,710 --> 00:38:13,080
+And all of those calls happen to be for p,
+
+750
+00:38:13,080 --> 00:38:18,080
+was before the item at
+the location was moved.
+
+751
+00:38:20,140 --> 00:38:21,140
+What does that mean?
+
+752
+00:38:26,115 --> 00:38:28,280
+Here's the magic spot.
+
+753
+00:38:28,280 --> 00:38:31,030
+It means that there's another
+algorithm hidden in here.
+
+754
+00:38:32,380 --> 00:38:34,770
+It means that we can do a stable partition
+
+755
+00:38:36,410 --> 00:38:38,590
+without having to look at each item
+
+756
+00:38:38,590 --> 00:38:40,830
+to say are you selected, but to say
+
+757
+00:38:40,830 --> 00:38:43,010
+is your position selected?
+
+758
+00:38:43,010 --> 00:38:44,980
+Which means that we can keep our selection
+
+759
+00:38:44,980 --> 00:38:46,003
+out of our data.
+
+760
+00:38:48,500 --> 00:38:51,120
+So we don't have to go
+stick a bunch of Booleans
+
+761
+00:38:52,400 --> 00:38:54,020
+in our big huge list of things
+
+762
+00:38:54,020 --> 00:38:56,360
+so that we can mark them
+to say are you selected?
+
+763
+00:38:56,360 --> 00:38:59,490
+We can keep an interval
+set over on the side
+
+764
+00:38:59,490 --> 00:39:00,780
+to say are you selected?
+
+765
+00:39:00,780 --> 00:39:02,810
+And we can still apply Gather
+
+766
+00:39:02,810 --> 00:39:04,660
+to put everything in the right place.
+
+767
+00:39:07,520 --> 00:39:08,570
+I think that's very beautiful,
+
+768
+00:39:08,570 --> 00:39:10,661
+do you guys think that's beautiful?
+
+769
+00:39:10,661 --> 00:39:12,275
+Do you guys follow it?
+
+770
+00:39:12,275 --> 00:39:13,108
+Yeah?
+
+771
+00:39:16,430 --> 00:39:17,650
+So we can do something like this, right?
+
+772
+00:39:17,650 --> 00:39:20,810
+We can have our interval set
+that represents our selection.
+
+773
+00:39:20,810 --> 00:39:22,460
+The user modifies it a bunch,
+
+774
+00:39:22,460 --> 00:39:24,350
+and then we can say gather position
+
+775
+00:39:24,350 --> 00:39:26,350
+and put everything into the right place.
+
+776
+00:39:33,700 --> 00:39:35,070
+So selections.
+
+777
+00:39:35,070 --> 00:39:37,110
+Multi-select is only sporadically
+
+778
+00:39:37,110 --> 00:39:39,640
+implemented in applications.
+
+779
+00:39:39,640 --> 00:39:44,640
+It is always, and I say this
+pretty much unqualified,
+
+780
+00:39:44,720 --> 00:39:46,653
+always inconsistently.
+
+781
+00:39:47,510 --> 00:39:48,927
+How do I know that?
+
+782
+00:39:50,727 --> 00:39:53,230
+So a few years ago, Jaakko Jarvi,
+
+783
+00:39:54,840 --> 00:39:57,050
+at the time he was a
+professor at Texas A&M,
+
+784
+00:39:57,050 --> 00:39:58,810
+I think now he's at
+the University of Oslo,
+
+785
+00:39:58,810 --> 00:40:00,563
+he and I have collaborated a lot.
+
+786
+00:40:02,050 --> 00:40:05,263
+He's largely responsible
+for lambdas in C++.
+
+787
+00:40:05,263 --> 00:40:07,110
+So you have him to thank for lambdas.
+
+788
+00:40:07,110 --> 00:40:09,693
+He also wrote the lambda
+library that was in Boost.
+
+789
+00:40:13,340 --> 00:40:16,270
+He and I sat down to
+write a different paper
+
+790
+00:40:16,270 --> 00:40:20,090
+about collections and user
+interfaces on collections.
+
+791
+00:40:20,090 --> 00:40:23,770
+And we got hung up on selections.
+
+792
+00:40:23,770 --> 00:40:27,560
+What did it mean to select
+things within applications.
+
+793
+00:40:27,560 --> 00:40:29,100
+And we went and did a survey
+
+794
+00:40:29,100 --> 00:40:30,740
+of a whole bunch of applications
+
+795
+00:40:30,740 --> 00:40:32,470
+which are referenced in this paper.
+
+796
+00:40:32,470 --> 00:40:33,703
+Find it on my website.
+
+797
+00:40:34,710 --> 00:40:37,580
+And we found like every application
+
+798
+00:40:37,580 --> 00:40:40,160
+implements multiple
+selections differently.
+
+799
+00:40:40,160 --> 00:40:41,940
+And you'd think it's kind of easy, right?
+
+800
+00:40:41,940 --> 00:40:45,110
+'Cause you say, well, I
+can click on something
+
+801
+00:40:45,110 --> 00:40:47,087
+and then I can shift click someplace else
+
+802
+00:40:47,087 --> 00:40:49,311
+and that should select a range,
+
+803
+00:40:49,311 --> 00:40:51,870
+and then I can command click someplace
+
+804
+00:40:51,870 --> 00:40:53,843
+to make it a disjoint range.
+
+805
+00:40:54,840 --> 00:40:57,790
+But what happens if I shift
+click and nothing was selected?
+
+806
+00:40:58,780 --> 00:41:00,650
+Or what happens if I command click
+
+807
+00:41:00,650 --> 00:41:02,930
+on something that was already selected?
+
+808
+00:41:02,930 --> 00:41:06,020
+Or the range that I'm
+shift clicking across
+
+809
+00:41:06,020 --> 00:41:08,763
+had things that were
+selected within that range?
+
+810
+00:41:09,650 --> 00:41:12,673
+Every application implements
+those differently.
+
+811
+00:41:14,150 --> 00:41:16,800
+Call it an artifact of implementation.
+
+812
+00:41:16,800 --> 00:41:19,130
+The problem with that is, it both means
+
+813
+00:41:19,130 --> 00:41:21,900
+that there's no central design for it,
+
+814
+00:41:21,900 --> 00:41:24,540
+there's nothing that a user can rely upon
+
+815
+00:41:24,540 --> 00:41:26,483
+when a user is building selections.
+
+816
+00:41:28,090 --> 00:41:29,930
+So users find it very confusing,
+
+817
+00:41:29,930 --> 00:41:31,793
+and users don't trust the system.
+
+818
+00:41:32,920 --> 00:41:34,560
+It also means that nobody's written
+
+819
+00:41:34,560 --> 00:41:36,863
+a good generic piece of code on that.
+
+820
+00:41:38,010 --> 00:41:39,910
+So, Jaakko and I ended up not writing
+
+821
+00:41:39,910 --> 00:41:41,250
+the paper we intended to write,
+
+822
+00:41:41,250 --> 00:41:44,090
+we just wrote a paper on selections,
+
+823
+00:41:44,090 --> 00:41:46,540
+and kind of a common
+vocabulary for how you would
+
+824
+00:41:48,411 --> 00:41:50,720
+construct selections.
+
+825
+00:41:50,720 --> 00:41:53,630
+So it's a bit of a mathematical paper,
+
+826
+00:41:53,630 --> 00:41:57,100
+but it's also a universal form
+for talking about selections.
+
+827
+00:41:57,100 --> 00:41:59,530
+Whether you're selecting
+things within a sequence,
+
+828
+00:41:59,530 --> 00:42:02,300
+or objects within an arbitrary space,
+
+829
+00:42:02,300 --> 00:42:04,780
+it scales to end dimensions.
+
+830
+00:42:04,780 --> 00:42:06,840
+So it's a nice little piece of work.
+
+831
+00:42:06,840 --> 00:42:08,870
+So if you're implementing an application
+
+832
+00:42:08,870 --> 00:42:10,130
+where you have collections of things
+
+833
+00:42:10,130 --> 00:42:11,420
+and you need to select them,
+
+834
+00:42:11,420 --> 00:42:13,020
+I'd recommend reading the paper.
+
+835
+00:42:16,390 --> 00:42:18,673
+That brings us to relationships.
+
+836
+00:42:20,860 --> 00:42:24,090
+A relationship is the way that
+two entities are connected.
+
+837
+00:42:24,090 --> 00:42:26,550
+Relationships within
+software are unavoidable.
+
+838
+00:42:26,550 --> 00:42:28,390
+Relationships come up a lot in my talks.
+
+839
+00:42:28,390 --> 00:42:31,170
+I want to say, the problem
+with computer scientists
+
+840
+00:42:31,170 --> 00:42:33,577
+are that we're bad at
+relationships, right?
+
+841
+00:42:34,600 --> 00:42:35,433
+It's a joke.
+
+842
+00:42:36,390 --> 00:42:41,390
+So a structure is formed
+by connected relationships,
+
+843
+00:42:41,640 --> 00:42:43,350
+that's what a mathematical structure is,
+
+844
+00:42:43,350 --> 00:42:46,210
+it's a sack of connected relationships.
+
+845
+00:42:46,210 --> 00:42:47,950
+And architecture is the art
+
+846
+00:42:47,950 --> 00:42:50,010
+and design of designing structures.
+
+847
+00:42:50,010 --> 00:42:52,670
+That's the definition
+of architecture, right?
+
+848
+00:42:52,670 --> 00:42:57,670
+The reason why some of us are
+called software architects
+
+849
+00:42:58,290 --> 00:43:00,540
+is because we are the
+people who are worried about
+
+850
+00:43:00,540 --> 00:43:03,760
+the relationships of how
+the software is put together
+
+851
+00:43:03,760 --> 00:43:07,670
+and it's our responsibility
+to design those structures.
+
+852
+00:43:07,670 --> 00:43:11,510
+I find a lot of software
+architects with that in their title
+
+853
+00:43:11,510 --> 00:43:13,320
+who can't give me a definition of
+
+854
+00:43:13,320 --> 00:43:15,380
+what software architecture is.
+
+855
+00:43:15,380 --> 00:43:17,960
+But that's what software architecture is.
+
+856
+00:43:17,960 --> 00:43:20,520
+It's designing the
+structure of relationships.
+
+857
+00:43:20,520 --> 00:43:23,003
+How the components within
+your software connect.
+
+858
+00:43:25,800 --> 00:43:29,700
+A relationship always implies
+a corresponding predicate
+
+859
+00:43:29,700 --> 00:43:32,903
+that tests if the pair are
+in the relationship or not.
+
+860
+00:43:33,890 --> 00:43:36,410
+So, you can be in a
+relationship, I happen to know
+
+861
+00:43:36,410 --> 00:43:38,931
+that Marshall is married.
+
+862
+00:43:38,931 --> 00:43:41,880
+So Marshall is married to his wife,
+
+863
+00:43:41,880 --> 00:43:43,690
+and so there's a corresponding predicate
+
+864
+00:43:43,690 --> 00:43:45,490
+that I can ask, is Marshall married?
+
+865
+00:43:49,240 --> 00:43:50,170
+Very simple.
+
+866
+00:43:50,170 --> 00:43:54,250
+Within an HI relationships
+can be very challenging
+
+867
+00:43:54,250 --> 00:43:56,823
+to represent and to convey to the user.
+
+868
+00:44:00,770 --> 00:44:02,950
+Look at this picture for a moment.
+
+869
+00:44:02,950 --> 00:44:06,793
+So, this was my hotel room when
+I gave this talk in Berlin.
+
+870
+00:44:09,440 --> 00:44:13,230
+It's not quite as bad as the
+picture would make you think.
+
+871
+00:44:13,230 --> 00:44:15,783
+To begin with there, you're
+looking at the shower,
+
+872
+00:44:17,200 --> 00:44:18,233
+and the toilet.
+
+873
+00:44:19,370 --> 00:44:21,490
+What you can't quite see is that there is
+
+874
+00:44:22,380 --> 00:44:26,430
+a clear plane of glass
+right between the two.
+
+875
+00:44:26,430 --> 00:44:28,703
+There is no mirrors in this picture.
+
+876
+00:44:32,270 --> 00:44:33,833
+This just struck me as funny.
+
+877
+00:44:37,180 --> 00:44:39,070
+So I thought, somewhere out there,
+
+878
+00:44:39,070 --> 00:44:44,070
+there's an interior designer
+who missed their calling.
+
+879
+00:44:44,270 --> 00:44:46,398
+They should have been a software engineer.
+
+880
+00:44:46,398 --> 00:44:48,648
+(laughing)
+
+881
+00:44:50,800 --> 00:44:53,660
+Because somebody gave
+them these requirements.
+
+882
+00:44:53,660 --> 00:44:56,220
+They said I want you to design a bathroom.
+
+883
+00:44:56,220 --> 00:44:59,700
+And I want you to have at least
+one shower in the bathroom.
+
+884
+00:44:59,700 --> 00:45:01,610
+And the designer said, okay,
+
+885
+00:45:01,610 --> 00:45:03,373
+number of showers is equal to one.
+
+886
+00:45:04,380 --> 00:45:05,715
+Constraint satisfied.
+
+887
+00:45:05,715 --> 00:45:07,965
+(laughing)
+
+888
+00:45:09,550 --> 00:45:11,150
+And somebody came along and said, oh,
+
+889
+00:45:11,150 --> 00:45:14,340
+and that bathroom should
+have at least one toilet.
+
+890
+00:45:14,340 --> 00:45:16,530
+The designer said, I can do that.
+
+891
+00:45:16,530 --> 00:45:18,230
+Number of toilets is equal to one.
+
+892
+00:45:19,438 --> 00:45:21,283
+Constraint satisfied.
+
+893
+00:45:22,397 --> 00:45:25,940
+And so the owner of the
+hotel came back and said
+
+894
+00:45:25,940 --> 00:45:29,630
+and this bathroom should
+provide some privacy.
+
+895
+00:45:29,630 --> 00:45:32,733
+They said, privacy should be
+greater than or equal to zero.
+
+896
+00:45:34,298 --> 00:45:35,840
+Privacy is equal to zero.
+
+897
+00:45:35,840 --> 00:45:38,550
+(laughing)
+
+898
+00:45:38,550 --> 00:45:40,008
+Constraint satisfied.
+
+899
+00:45:40,008 --> 00:45:42,258
+(laughing)
+
+900
+00:45:46,140 --> 00:45:47,590
+Clearly missed their calling.
+
+901
+00:45:50,860 --> 00:45:52,890
+So one of the simplest relationships
+
+902
+00:45:52,890 --> 00:45:54,230
+that you'll run across in software,
+
+903
+00:45:54,230 --> 00:45:58,060
+and one of the most common
+is the implies relationship.
+
+904
+00:45:58,060 --> 00:45:59,463
+A implies b.
+
+905
+00:46:01,250 --> 00:46:02,360
+How common is this?
+
+906
+00:46:02,360 --> 00:46:05,040
+Well, I just pulled up
+the manual for clang,
+
+907
+00:46:05,040 --> 00:46:08,400
+and searched for the
+word implies or implied,
+
+908
+00:46:08,400 --> 00:46:11,303
+and this is the number
+of cases where it occurs.
+
+909
+00:46:12,580 --> 00:46:15,030
+So those options implies
+some other options.
+
+910
+00:46:15,030 --> 00:46:17,543
+This option is implied
+by some other option.
+
+911
+00:46:18,553 --> 00:46:19,390
+It comes up a lot.
+
+912
+00:46:19,390 --> 00:46:21,580
+So if you were constructing
+a user interface,
+
+913
+00:46:21,580 --> 00:46:24,110
+and putting check boxes
+on each of these options,
+
+914
+00:46:24,110 --> 00:46:25,810
+you would want some way to represent
+
+915
+00:46:25,810 --> 00:46:28,273
+that implies relationship to the user.
+
+916
+00:46:32,640 --> 00:46:34,800
+Let's take a look here.
+
+917
+00:46:34,800 --> 00:46:38,060
+I've built a little
+app, this is an IOS app
+
+918
+00:46:38,060 --> 00:46:39,440
+that I've built, and it's just gonna keep
+
+919
+00:46:39,440 --> 00:46:40,920
+running in a loop here.
+
+920
+00:46:40,920 --> 00:46:43,090
+And the user can click through things.
+
+921
+00:46:43,090 --> 00:46:45,320
+And the operation that's getting applied
+
+922
+00:46:49,360 --> 00:46:52,850
+after the dot, dot, dot
+there, we need to make sure
+
+923
+00:46:52,850 --> 00:46:56,110
+that b is consistent with
+the implies relationship.
+
+924
+00:46:56,110 --> 00:46:58,500
+So, when the code the user
+wrote this piece of code
+
+925
+00:46:58,500 --> 00:47:00,493
+for the operation, and they said oh,
+
+926
+00:47:01,620 --> 00:47:04,010
+I'm gonna take two arguments a and b,
+
+927
+00:47:04,010 --> 00:47:06,363
+but I'm gonna say b is equal to a or b.
+
+928
+00:47:07,470 --> 00:47:10,343
+Right inside, which means a implies b.
+
+929
+00:47:11,330 --> 00:47:13,600
+And I'm just gonna put an
+unconstrained user interface
+
+930
+00:47:13,600 --> 00:47:16,250
+attached to that, and the
+user can click on anything.
+
+931
+00:47:17,780 --> 00:47:20,060
+And the operation works.
+
+932
+00:47:20,060 --> 00:47:22,370
+We'll green light every
+time it does the operation.
+
+933
+00:47:22,370 --> 00:47:27,370
+The application works, but
+somebody in QE is gonna
+
+934
+00:47:27,450 --> 00:47:31,150
+come along and say, that's all very nice
+
+935
+00:47:31,150 --> 00:47:36,083
+but when I say do a and
+not b, it still does b.
+
+936
+00:47:37,680 --> 00:47:40,183
+And I didn't see that in the UI.
+
+937
+00:47:44,840 --> 00:47:49,840
+So the engineer says I can
+fix that bug, no problem.
+
+938
+00:47:50,130 --> 00:47:51,117
+Here's what I'm gonna do,
+
+939
+00:47:51,117 --> 00:47:56,117
+I'm gonna say if switch a is
+on, then set switch b to be on.
+
+940
+00:48:01,010 --> 00:48:02,113
+Fix the bug.
+
+941
+00:48:03,590 --> 00:48:06,213
+And now, I'm just gonna,
+I don't need the code
+
+942
+00:48:06,213 --> 00:48:08,850
+anymore to fix up b, so I'm just gonna
+
+943
+00:48:08,850 --> 00:48:11,963
+change it to an assert to
+make sure I got my code right.
+
+944
+00:48:14,027 --> 00:48:14,860
+Are we good?
+
+945
+00:48:16,940 --> 00:48:18,690
+Who sees the bug?
+
+946
+00:48:18,690 --> 00:48:21,490
+I knew one person laughing,
+a couple people see the bug.
+
+947
+00:48:23,450 --> 00:48:24,310
+So what happens here?
+
+948
+00:48:24,310 --> 00:48:26,800
+We can do that and we're good.
+
+949
+00:48:26,800 --> 00:48:30,460
+We can click on b, now we're still good.
+
+950
+00:48:30,460 --> 00:48:33,360
+We can un-click b and click
+a, b gets clicked over.
+
+951
+00:48:33,360 --> 00:48:34,800
+Hey, we're still good.
+
+952
+00:48:34,800 --> 00:48:39,020
+We can un-click b, boom, our assert fires.
+
+953
+00:48:39,020 --> 00:48:40,693
+Okay, and we crash.
+
+954
+00:48:41,980 --> 00:48:43,323
+Everybody see why?
+
+955
+00:48:46,230 --> 00:48:50,080
+We fixed it up, but only
+along one path and direction.
+
+956
+00:48:50,080 --> 00:48:51,393
+Only when a changed.
+
+957
+00:48:53,410 --> 00:48:55,630
+Okay, so that generates another bug,
+
+958
+00:48:55,630 --> 00:48:57,203
+it goes back to the engineer.
+
+959
+00:48:58,660 --> 00:49:01,430
+So the engineer is very
+happy that he at least got
+
+960
+00:49:01,430 --> 00:49:04,550
+the assert, so he's using
+string preconditions
+
+961
+00:49:04,550 --> 00:49:05,500
+and asserting them.
+
+962
+00:49:05,500 --> 00:49:09,640
+Soon we're gonna have design
+by contract in the language.
+
+963
+00:49:09,640 --> 00:49:11,540
+So we could have made that a contract.
+
+964
+00:49:13,609 --> 00:49:15,563
+Okay, so here's what the user does.
+
+965
+00:49:17,830 --> 00:49:22,300
+He says, okay, switch b is
+only going to be enabled
+
+966
+00:49:23,370 --> 00:49:24,603
+if a is not on.
+
+967
+00:49:25,860 --> 00:49:28,890
+And if switch a gets turned on,
+
+968
+00:49:28,890 --> 00:49:30,743
+then switch b will get set to true.
+
+969
+00:49:33,430 --> 00:49:37,480
+So now we're preventing
+that other case, right?
+
+970
+00:49:37,480 --> 00:49:38,923
+Our switch is disabling.
+
+971
+00:49:40,860 --> 00:49:42,163
+And we're happy here.
+
+972
+00:49:43,240 --> 00:49:45,300
+What's the next bug that gets generated?
+
+973
+00:49:45,300 --> 00:49:46,890
+Right, this all works, this is good,
+
+974
+00:49:46,890 --> 00:49:48,290
+you could ship this product.
+
+975
+00:49:51,540 --> 00:49:54,680
+Well, if you worked with the
+designers that I work with,
+
+976
+00:49:54,680 --> 00:49:56,260
+they're gonna come along
+and they're gonna say,
+
+977
+00:49:56,260 --> 00:50:00,420
+hey, there's a rule here
+that says that if I toggle
+
+978
+00:50:00,420 --> 00:50:04,320
+a control, if I toggle
+a checkbox on and off,
+
+979
+00:50:04,320 --> 00:50:07,723
+then the system should go
+back to it's previous state.
+
+980
+00:50:10,707 --> 00:50:11,900
+So what happens here?
+
+981
+00:50:11,900 --> 00:50:14,210
+I click a on, b goes to off.
+
+982
+00:50:14,210 --> 00:50:18,563
+I un-click a, b doesn't go
+back to it's previous state.
+
+983
+00:50:20,877 --> 00:50:24,613
+So I'm violating one
+of my designer's rules.
+
+984
+00:50:28,630 --> 00:50:30,223
+So we could fix that.
+
+985
+00:50:31,870 --> 00:50:33,160
+So what are we gonna have to do now?
+
+986
+00:50:33,160 --> 00:50:34,070
+Now we're gonna have to keep some
+
+987
+00:50:34,070 --> 00:50:37,113
+shadow state to remember
+what the state of b was.
+
+988
+00:50:38,450 --> 00:50:43,290
+And then, switch b whether
+or not it's on or off
+
+989
+00:50:43,290 --> 00:50:46,600
+is going to be, if switch
+a is on then it's on,
+
+990
+00:50:46,600 --> 00:50:49,663
+or it's going to be it's
+prior value for switch b.
+
+991
+00:50:51,110 --> 00:50:53,160
+Our logic gets a little more complicated.
+
+992
+00:50:55,470 --> 00:50:59,350
+So now it's very nice,
+if I toggle a on and off,
+
+993
+00:50:59,350 --> 00:51:01,500
+then b goes back to it's previous state,
+
+994
+00:51:01,500 --> 00:51:03,113
+regardless of what it was.
+
+995
+00:51:05,810 --> 00:51:08,113
+We're happy, we ship the product again.
+
+996
+00:51:12,440 --> 00:51:14,340
+Now the designer comes back and says,
+
+997
+00:51:14,340 --> 00:51:18,290
+you know, users have a problem,
+
+998
+00:51:18,290 --> 00:51:19,993
+they don't know why b is disabled.
+
+999
+00:51:21,260 --> 00:51:22,793
+Why can't I click on b?
+
+1000
+00:51:25,290 --> 00:51:28,053
+And the engineer says, I know logic.
+
+1001
+00:51:29,740 --> 00:51:31,983
+There's the thing called a contrapositive.
+
+1002
+00:51:32,900 --> 00:51:34,270
+Which means that if a implies b,
+
+1003
+00:51:34,270 --> 00:51:35,890
+then not b implies not a.
+
+1004
+00:51:37,140 --> 00:51:40,190
+So how about if we
+express that in the code?
+
+1005
+00:51:40,190 --> 00:51:42,220
+So not b implies not a.
+
+1006
+00:51:44,570 --> 00:51:46,530
+And I know that my toggle should always
+
+1007
+00:51:46,530 --> 00:51:48,620
+go back in the right position,
+
+1008
+00:51:48,620 --> 00:51:51,540
+so now I'm gonna keep memory on a and b,
+
+1009
+00:51:51,540 --> 00:51:53,990
+and I'm going to express
+both of those relationships
+
+1010
+00:51:53,990 --> 00:51:55,660
+and I'm going to put that together,
+
+1011
+00:51:55,660 --> 00:51:58,387
+and this is the UI that
+I'm going to build.
+
+1012
+00:51:58,387 --> 00:52:00,460
+And you can kind of
+watch this for a minute
+
+1013
+00:52:00,460 --> 00:52:02,860
+as it's clicking through
+a bunch of states here.
+
+1014
+00:52:04,300 --> 00:52:06,840
+What the hell, right?
+
+1015
+00:52:06,840 --> 00:52:08,811
+Try to predict what's going to happen.
+
+1016
+00:52:08,811 --> 00:52:11,061
+(laughing)
+
+1017
+00:52:12,700 --> 00:52:16,080
+This is completely correct,
+my operation always succeeds,
+
+1018
+00:52:16,080 --> 00:52:19,250
+I'm obeying my rule that
+says when I click on this,
+
+1019
+00:52:19,250 --> 00:52:22,350
+it toggles the user interface,
+it clicks back and forth.
+
+1020
+00:52:22,350 --> 00:52:24,700
+I don't have to explain
+to my user why my thing
+
+1021
+00:52:24,700 --> 00:52:26,620
+is disabled because it's always enabled.
+
+1022
+00:52:26,620 --> 00:52:28,700
+I can click anywhere at
+any time and something
+
+1023
+00:52:28,700 --> 00:52:30,860
+unexpected and magic will happen.
+
+1024
+00:52:30,860 --> 00:52:32,500
+And I'm standing on one foot and
+
+1025
+00:52:32,500 --> 00:52:34,213
+I'm patting myself on the head.
+
+1026
+00:52:42,828 --> 00:52:45,830
+So we can say, okay,
+okay, memory was too much,
+
+1027
+00:52:45,830 --> 00:52:47,840
+we'll go back to contrapositive, but we'll
+
+1028
+00:52:47,840 --> 00:52:51,397
+take out the memory and we'll do that.
+
+1029
+00:52:51,397 --> 00:52:54,403
+And we have another user
+interface and it works.
+
+1030
+00:52:55,440 --> 00:52:57,380
+People are somewhat happy again,
+
+1031
+00:52:57,380 --> 00:52:58,880
+and we'll ship this one again.
+
+1032
+00:53:00,040 --> 00:53:04,690
+So now we've shipped
+three versions of this.
+
+1033
+00:53:04,690 --> 00:53:06,560
+We've rejected three versions,
+
+1034
+00:53:06,560 --> 00:53:09,130
+only one of those three
+versions was buggy.
+
+1035
+00:53:09,130 --> 00:53:11,180
+And we have six versions of this code.
+
+1036
+00:53:11,180 --> 00:53:12,860
+We had two checked boxes.
+
+1037
+00:53:12,860 --> 00:53:15,150
+We have now spent days and days and days
+
+1038
+00:53:15,150 --> 00:53:17,290
+arguing about the behavior of this.
+
+1039
+00:53:18,900 --> 00:53:21,780
+And we will do it again
+the next time we have
+
+1040
+00:53:21,780 --> 00:53:23,493
+a relationship of a implies b.
+
+1041
+00:53:25,552 --> 00:53:27,600
+Because we never defined
+what the rule was.
+
+1042
+00:53:27,600 --> 00:53:29,280
+What's the correct answer?
+
+1043
+00:53:29,280 --> 00:53:32,200
+Of the three that we shipped,
+what's the correct answer?
+
+1044
+00:53:32,200 --> 00:53:33,033
+I don't know.
+
+1045
+00:53:34,530 --> 00:53:37,663
+So we'll have this
+argument every single time.
+
+1046
+00:53:39,250 --> 00:53:41,690
+While I was putting together these slides,
+
+1047
+00:53:41,690 --> 00:53:43,860
+oh I was gonna say
+another operation would be
+
+1048
+00:53:43,860 --> 00:53:48,403
+that we could do it unconstrained here.
+
+1049
+00:53:50,540 --> 00:53:52,307
+And that looks like that.
+
+1050
+00:53:53,910 --> 00:53:56,393
+Constrained, but with
+the disabling operations.
+
+1051
+00:53:57,690 --> 00:53:59,740
+While I was putting together these slides
+
+1052
+00:54:02,250 --> 00:54:04,110
+this came across our select channel.
+
+1053
+00:54:04,110 --> 00:54:06,713
+This was a sketch from
+one of our designers,
+
+1054
+00:54:06,713 --> 00:54:09,070
+it's got some humorous text
+down here at the bottom,
+
+1055
+00:54:09,070 --> 00:54:10,420
+you probably can't read it.
+
+1056
+00:54:11,257 --> 00:54:13,210
+It says a hidden layer and a normal layer
+
+1057
+00:54:13,210 --> 00:54:16,523
+and a hidden group walk into a bar.
+
+1058
+00:54:19,340 --> 00:54:22,320
+But the question here is to say, okay,
+
+1059
+00:54:22,320 --> 00:54:24,927
+I've got a layer, and I've
+got a child of the layer,
+
+1060
+00:54:24,927 --> 00:54:27,990
+and the layer is the root is hidden.
+
+1061
+00:54:27,990 --> 00:54:30,610
+So that implies that the child is hidden.
+
+1062
+00:54:30,610 --> 00:54:34,360
+And then I'm making the child layer,
+
+1063
+00:54:34,360 --> 00:54:36,500
+which is what's left in blue down below,
+
+1064
+00:54:36,500 --> 00:54:37,810
+explicitly visible.
+
+1065
+00:54:37,810 --> 00:54:40,248
+And it's actually part
+of a multiple selection.
+
+1066
+00:54:40,248 --> 00:54:42,440
+And that has an implication
+in relationships
+
+1067
+00:54:42,440 --> 00:54:46,540
+with it's parent at a, okay?
+
+1068
+00:54:46,540 --> 00:54:50,130
+So in order for the child
+to be actually visible,
+
+1069
+00:54:50,130 --> 00:54:53,210
+the parent also has to be visible.
+
+1070
+00:54:53,210 --> 00:54:56,783
+And he asks, how do I do this?
+
+1071
+00:54:58,980 --> 00:55:02,073
+My answer is I can give you a
+lot of ways you can do this.
+
+1072
+00:55:05,950 --> 00:55:08,893
+The question should be, how
+do we do this in general?
+
+1073
+00:55:09,790 --> 00:55:13,890
+What's the rule that we're
+going to follow always?
+
+1074
+00:55:13,890 --> 00:55:15,790
+Let's stop having this conversation
+
+1075
+00:55:15,790 --> 00:55:17,240
+over and over and over again.
+
+1076
+00:55:20,490 --> 00:55:22,530
+The industry is very bad at this.
+
+1077
+00:55:23,660 --> 00:55:25,403
+So what is a good design?
+
+1078
+00:55:27,160 --> 00:55:29,430
+In this context, we were
+talking toggling a control
+
+1079
+00:55:29,430 --> 00:55:31,870
+should restore a system
+to it's original state,
+
+1080
+00:55:31,870 --> 00:55:33,200
+that's a good design goal.
+
+1081
+00:55:33,200 --> 00:55:35,100
+Result of a click should be predictable
+
+1082
+00:55:35,100 --> 00:55:37,450
+without knowing how
+current state was achieved.
+
+1083
+00:55:38,480 --> 00:55:39,580
+That's a good thing, you
+ought to be able to look
+
+1084
+00:55:39,580 --> 00:55:40,970
+at a user interface and know what will
+
+1085
+00:55:40,970 --> 00:55:42,620
+happen if you click on something.
+
+1086
+00:55:43,750 --> 00:55:45,890
+Guided paths, things that direct the user
+
+1087
+00:55:45,890 --> 00:55:48,191
+when we disable controls, things like that
+
+1088
+00:55:48,191 --> 00:55:50,610
+are preferred so long as they don't make
+
+1089
+00:55:50,610 --> 00:55:51,860
+navigation difficult.
+
+1090
+00:55:51,860 --> 00:55:55,180
+The user has to understand
+why things are disabled.
+
+1091
+00:55:55,180 --> 00:55:56,980
+But there needs to be additional rules.
+
+1092
+00:55:56,980 --> 00:55:58,990
+All of these rules run into conflict
+
+1093
+00:55:58,990 --> 00:56:01,190
+as soon as you stick a simple relationship
+
+1094
+00:56:01,190 --> 00:56:04,230
+between elements under the hood, right?
+
+1095
+00:56:04,230 --> 00:56:08,300
+And the rules need to be derived
+from existing conventions,
+
+1096
+00:56:08,300 --> 00:56:11,710
+from user experience, and from studies.
+
+1097
+00:56:11,710 --> 00:56:13,850
+So if you're working with
+a user interface designer,
+
+1098
+00:56:13,850 --> 00:56:16,450
+they shouldn't be sitting
+alone coming up with
+
+1099
+00:56:16,450 --> 00:56:18,420
+what their answer should be.
+
+1100
+00:56:18,420 --> 00:56:20,730
+They have to be looking at
+what does everybody else do?
+
+1101
+00:56:20,730 --> 00:56:23,120
+What do users expect?
+
+1102
+00:56:23,120 --> 00:56:25,700
+Do a user study to come
+to an understanding
+
+1103
+00:56:25,700 --> 00:56:27,640
+of what the correct answer is,
+
+1104
+00:56:27,640 --> 00:56:30,743
+and then apply that consistently
+within the application.
+
+1105
+00:56:33,680 --> 00:56:36,640
+Now, I've spent a number of years working
+
+1106
+00:56:36,640 --> 00:56:38,660
+on a system called property models,
+
+1107
+00:56:38,660 --> 00:56:41,470
+which has some amount
+of use inside of Adobe.
+
+1108
+00:56:41,470 --> 00:56:43,733
+I wish I could spend
+more time working on it,
+
+1109
+00:56:43,733 --> 00:56:48,733
+it's open sourced off of github/stlab.
+
+1110
+00:56:48,760 --> 00:56:51,730
+But all of the examples
+that I just showed,
+
+1111
+00:56:51,730 --> 00:56:54,460
+this is the way you would express
+all of those relationships
+
+1112
+00:56:54,460 --> 00:56:55,810
+inside of a property model.
+
+1113
+00:56:55,810 --> 00:56:57,260
+They're all kind of one line.
+
+1114
+00:56:58,960 --> 00:57:00,480
+So I can build this system to let you
+
+1115
+00:57:00,480 --> 00:57:03,010
+express relationships and
+to solve these systems
+
+1116
+00:57:03,010 --> 00:57:05,610
+but I still can't tell you
+what the right answer is.
+
+1117
+00:57:07,710 --> 00:57:10,210
+So these are papers that I've
+written about property models
+
+1118
+00:57:10,210 --> 00:57:13,501
+and why they exist and how to build them.
+
+1119
+00:57:13,501 --> 00:57:16,151
+Some algorithms for user
+interfaces, property models.
+
+1120
+00:57:19,000 --> 00:57:23,130
+So closing here, good
+code is necessary, right?
+
+1121
+00:57:23,130 --> 00:57:25,610
+But it's not sufficient
+for building a good UI.
+
+1122
+00:57:25,610 --> 00:57:27,960
+There is significant work in
+the area of data structures
+
+1123
+00:57:27,960 --> 00:57:30,380
+and algorithms to really support the UI's.
+
+1124
+00:57:30,380 --> 00:57:32,310
+I don't think our platform vendors do
+
+1125
+00:57:32,310 --> 00:57:34,713
+enough to assist us in this area.
+
+1126
+00:57:35,710 --> 00:57:38,720
+And there's still
+significant work remaining.
+
+1127
+00:57:38,720 --> 00:57:41,570
+There's huge amounts of work every time I
+
+1128
+00:57:41,570 --> 00:57:43,990
+pick up a new application,
+install it on my phone
+
+1129
+00:57:43,990 --> 00:57:45,610
+or my laptop, right?
+
+1130
+00:57:45,610 --> 00:57:49,620
+I've been in this area
+of research for so long
+
+1131
+00:57:49,620 --> 00:57:51,680
+I just cringe, right?
+
+1132
+00:57:51,680 --> 00:57:54,510
+I can't make a selection,
+selections are inconsistent,
+
+1133
+00:57:54,510 --> 00:57:56,070
+if I do make a selection I can't apply
+
+1134
+00:57:56,070 --> 00:57:59,510
+the operation that I should
+be able to to the selection.
+
+1135
+00:57:59,510 --> 00:58:02,530
+I can't drag and drop, I click on things
+
+1136
+00:58:02,530 --> 00:58:05,470
+and things disable and I don't know why.
+
+1137
+00:58:05,470 --> 00:58:07,120
+One section of the application is
+
+1138
+00:58:07,120 --> 00:58:10,160
+inconsistent from the other
+section of the application.
+
+1139
+00:58:10,160 --> 00:58:12,570
+And it's true of even the
+products that I work on
+
+1140
+00:58:12,570 --> 00:58:15,930
+and I have a hand in,
+because I'm just one engineer
+
+1141
+00:58:15,930 --> 00:58:17,143
+in a large company.
+
+1142
+00:58:20,970 --> 00:58:25,890
+So some references, my slides
+will always be posted here,
+
+1143
+00:58:25,890 --> 00:58:30,890
+Sean-parent.stlab.cc/papers-and-presentations
+
+1144
+00:58:31,241 --> 00:58:34,013
+and you can find the links
+to everything from there.
+
+1145
+00:58:36,512 --> 00:58:37,406
+(clapping)
+
+1146
+00:58:37,406 --> 00:58:39,156
+Thank you for coming.
+

@@ -57,7 +57,8 @@ def checkTextPdf(inputFile):
 def checkTextPdfCrop(inputFile):
     pytesseract.pytesseract.tesseract_cmd = r'C:\\Program Files\\Tesseract-OCR\\tesseract'
     im = Image.open(inputFile)
-    im1 = im.crop((20, 10, 450, 300))
+    #im1 = im.crop((20, 10, 450, 300)
+    im1 = im.crop((20, 10, 500, 300))
     im1.save(inputFile)
     text = pytesseract.image_to_string(im1)
     #print(text + "/n" + inputFile)

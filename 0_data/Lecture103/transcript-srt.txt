@@ -1,0 +1,9123 @@
+1
+00:01:26,840 --> 00:01:31,450
+ where it is I grew eternally yeah
+
+2
+00:02:25,589 --> 00:02:25,589
+ 
+
+3
+00:02:25,599 --> 00:02:28,930
+ yeah I took
+
+4
+00:03:08,820 --> 00:03:08,820
+ 
+
+5
+00:03:08,830 --> 00:03:12,190
+ because you can't
+
+6
+00:03:26,040 --> 00:03:26,040
+ 
+
+7
+00:03:26,050 --> 00:03:28,590
+ Hey
+
+8
+00:08:33,450 --> 00:08:33,450
+ 
+
+9
+00:08:33,460 --> 00:08:36,649
+[Music]
+
+10
+00:09:50,889 --> 00:09:50,889
+ 
+
+11
+00:09:50,899 --> 00:09:56,990
+ okay please take your seats we're about
+
+12
+00:09:53,299 --> 00:09:56,990
+ 
+
+13
+00:09:53,309 --> 00:09:56,990
+ to start the second part of the tutorial
+
+14
+00:10:05,790 --> 00:10:05,790
+ 
+
+15
+00:10:05,800 --> 00:10:10,910
+ so for this half will have Benjamin
+
+16
+00:10:08,170 --> 00:10:10,910
+ 
+
+17
+00:10:08,180 --> 00:10:15,240
+ presenting and then John and will have
+
+18
+00:10:10,900 --> 00:10:15,240
+ 
+
+19
+00:10:10,910 --> 00:10:17,620
+ online questions starting around 11:15
+
+20
+00:10:15,230 --> 00:10:17,620
+ 
+
+21
+00:10:15,240 --> 00:10:23,750
+[Music]
+
+22
+00:10:17,610 --> 00:10:23,750
+ 
+
+23
+00:10:17,620 --> 00:10:26,900
+ okay welcome back so I'm going to move
+
+24
+00:10:23,740 --> 00:10:26,900
+ 
+
+25
+00:10:23,750 --> 00:10:29,060
+ to the first part of this what is coming
+
+26
+00:10:26,890 --> 00:10:29,060
+ 
+
+27
+00:10:26,900 --> 00:10:31,010
+ next section that is likewise
+
+28
+00:10:29,050 --> 00:10:31,010
+ 
+
+29
+00:10:29,060 --> 00:10:34,670
+ applications to large classes of
+
+30
+00:10:31,000 --> 00:10:34,670
+ 
+
+31
+00:10:31,010 --> 00:10:37,370
+ algorithms what we want to make as a
+
+32
+00:10:34,660 --> 00:10:37,370
+ 
+
+33
+00:10:34,670 --> 00:10:39,950
+ point here is that bikeways has this
+
+34
+00:10:37,360 --> 00:10:39,950
+ 
+
+35
+00:10:37,370 --> 00:10:42,110
+ flexibility which allows to tackle
+
+36
+00:10:39,940 --> 00:10:42,110
+ 
+
+37
+00:10:39,950 --> 00:10:47,390
+ actually a lot of machine learning
+
+38
+00:10:42,100 --> 00:10:47,390
+ 
+
+39
+00:10:42,110 --> 00:10:50,480
+ settings and problems so as a token of
+
+40
+00:10:47,380 --> 00:10:50,480
+ 
+
+41
+00:10:47,390 --> 00:10:53,420
+ this flexibility I'd like to know
+
+42
+00:10:50,470 --> 00:10:53,420
+ 
+
+43
+00:10:50,480 --> 00:10:55,850
+ briefly mention a few of the existing
+
+44
+00:10:53,410 --> 00:10:55,850
+ 
+
+45
+00:10:53,420 --> 00:10:58,700
+ results and particularly existing papers
+
+46
+00:10:55,840 --> 00:10:58,700
+ 
+
+47
+00:10:55,850 --> 00:11:02,690
+ so again by new means this is exhaustive
+
+48
+00:10:58,690 --> 00:11:02,690
+ 
+
+49
+00:10:58,700 --> 00:11:05,270
+ so apologies to those of you who might
+
+50
+00:11:02,680 --> 00:11:05,270
+ 
+
+51
+00:11:02,690 --> 00:11:08,510
+ not be listed in that first spots
+
+52
+00:11:05,260 --> 00:11:08,510
+ 
+
+53
+00:11:05,270 --> 00:11:10,910
+ we'd like to again emphasize how back
+
+54
+00:11:08,500 --> 00:11:10,910
+ 
+
+55
+00:11:08,510 --> 00:11:13,910
+ base could be twisted to many different
+
+56
+00:11:10,900 --> 00:11:13,910
+ 
+
+57
+00:11:10,910 --> 00:11:17,540
+ settings so obviously the area in which
+
+58
+00:11:13,900 --> 00:11:17,540
+ 
+
+59
+00:11:13,910 --> 00:11:20,029
+ back base has made the most significant
+
+60
+00:11:17,530 --> 00:11:20,029
+ 
+
+61
+00:11:17,540 --> 00:11:22,540
+ contributions is that's called a nakiri
+
+62
+00:11:20,019 --> 00:11:22,540
+ 
+
+63
+00:11:20,029 --> 00:11:26,660
+ so starting with the very nice papers
+
+64
+00:11:22,530 --> 00:11:26,660
+ 
+
+65
+00:11:22,540 --> 00:11:30,080
+ from John and Bob Williams David
+
+66
+00:11:26,650 --> 00:11:30,080
+ 
+
+67
+00:11:26,660 --> 00:11:33,500
+ McAllister the ended 90s and also the
+
+68
+00:11:30,070 --> 00:11:33,500
+ 
+
+69
+00:11:30,080 --> 00:11:35,630
+ series of papers of allelic attorney in
+
+70
+00:11:33,490 --> 00:11:35,630
+ 
+
+71
+00:11:33,500 --> 00:11:39,470
+ joining Cody Bell and the leader-goose
+
+72
+00:11:35,620 --> 00:11:39,470
+ 
+
+73
+00:11:35,630 --> 00:11:44,270
+ King also contributions from seeker and
+
+74
+00:11:39,460 --> 00:11:44,270
+ 
+
+75
+00:11:39,470 --> 00:11:46,760
+ more on that line of research one
+
+76
+00:11:44,260 --> 00:11:46,760
+ 
+
+77
+00:11:44,270 --> 00:11:49,910
+ particular example that will be also
+
+78
+00:11:46,750 --> 00:11:49,910
+ 
+
+79
+00:11:46,760 --> 00:11:52,640
+ tackled by John in a few minutes is the
+
+80
+00:11:49,900 --> 00:11:52,640
+ 
+
+81
+00:11:49,910 --> 00:11:55,660
+ connection to SVM's and in particular
+
+82
+00:11:52,630 --> 00:11:55,660
+ 
+
+83
+00:11:52,640 --> 00:11:59,630
+ linear classifiers so interestingly
+
+84
+00:11:55,650 --> 00:11:59,630
+ 
+
+85
+00:11:55,660 --> 00:12:01,220
+ SVM's could be rephrased as minimizes of
+
+86
+00:11:59,620 --> 00:12:01,220
+ 
+
+87
+00:11:59,630 --> 00:12:03,890
+ Pyke Bayesian bounds this is a
+
+88
+00:12:01,210 --> 00:12:03,890
+ 
+
+89
+00:12:01,220 --> 00:12:07,850
+ connection which has actually greatly
+
+90
+00:12:03,880 --> 00:12:07,850
+ 
+
+91
+00:12:03,890 --> 00:12:09,800
+ preached the gaps between actual
+
+92
+00:12:07,840 --> 00:12:09,800
+ 
+
+93
+00:12:07,850 --> 00:12:14,600
+ algorithms and bikeways inspired
+
+94
+00:12:09,790 --> 00:12:14,600
+ 
+
+95
+00:12:09,800 --> 00:12:16,480
+ algorithms in supervised learning again
+
+96
+00:12:14,590 --> 00:12:16,480
+ 
+
+97
+00:12:14,600 --> 00:12:18,940
+ a lot of our Google
+
+98
+00:12:16,470 --> 00:12:18,940
+ 
+
+99
+00:12:16,480 --> 00:12:22,230
+ algorithms have been reinterpreted as
+
+100
+00:12:18,930 --> 00:12:22,230
+ 
+
+101
+00:12:18,940 --> 00:12:25,570
+ minimizer's of pipe asian bands such as
+
+102
+00:12:22,220 --> 00:12:25,570
+ 
+
+103
+00:12:22,230 --> 00:12:28,810
+ canal regularized adaboost i will
+
+104
+00:12:25,560 --> 00:12:28,810
+ 
+
+105
+00:12:25,570 --> 00:12:30,610
+ mention this in a few slides as for
+
+106
+00:12:28,800 --> 00:12:30,610
+ 
+
+107
+00:12:28,810 --> 00:12:32,350
+ regression and particular high
+
+108
+00:12:30,600 --> 00:12:32,350
+ 
+
+109
+00:12:30,610 --> 00:12:36,820
+ dimensional regression pike base is
+
+110
+00:12:32,340 --> 00:12:36,820
+ 
+
+111
+00:12:32,350 --> 00:12:39,639
+ proven very effective to deal with the
+
+112
+00:12:36,810 --> 00:12:39,639
+ 
+
+113
+00:12:36,820 --> 00:12:43,750
+ way of bonding complexity for very high
+
+114
+00:12:39,629 --> 00:12:43,750
+ 
+
+115
+00:12:39,639 --> 00:12:46,510
+ dimensional settings in regression
+
+116
+00:12:43,740 --> 00:12:46,510
+ 
+
+117
+00:12:43,750 --> 00:12:50,079
+ additive regression logistic regression
+
+118
+00:12:46,500 --> 00:12:50,079
+ 
+
+119
+00:12:46,510 --> 00:12:52,120
+ also ranking and this is all connected
+
+120
+00:12:50,069 --> 00:12:52,120
+ 
+
+121
+00:12:50,079 --> 00:12:53,550
+ to the fact that when you pick a prior
+
+122
+00:12:52,110 --> 00:12:53,550
+ 
+
+123
+00:12:52,120 --> 00:12:56,079
+ you can actually encapsulates
+
+124
+00:12:53,540 --> 00:12:56,079
+ 
+
+125
+00:12:53,550 --> 00:12:59,199
+ interesting properties such as positive
+
+126
+00:12:56,069 --> 00:12:59,199
+ 
+
+127
+00:12:56,079 --> 00:13:01,839
+ so as positive using prior in backbase
+
+128
+00:12:59,189 --> 00:13:01,839
+ 
+
+129
+00:12:59,199 --> 00:13:06,100
+ yields bounds which are tight with
+
+130
+00:13:01,829 --> 00:13:06,100
+ 
+
+131
+00:13:01,839 --> 00:13:08,670
+ respect to the ambient dimension we also
+
+132
+00:13:06,090 --> 00:13:08,670
+ 
+
+133
+00:13:06,100 --> 00:13:11,440
+ briefly mentioned contributions to
+
+134
+00:13:08,660 --> 00:13:11,440
+ 
+
+135
+00:13:08,670 --> 00:13:14,560
+ classification so again a series of
+
+136
+00:13:11,430 --> 00:13:14,560
+ 
+
+137
+00:13:11,440 --> 00:13:18,550
+ paper drawn and co-authors and also
+
+138
+00:13:14,550 --> 00:13:18,550
+ 
+
+139
+00:13:14,560 --> 00:13:21,100
+ litigating in in transit transductive
+
+140
+00:13:18,540 --> 00:13:21,100
+ 
+
+141
+00:13:18,550 --> 00:13:24,970
+ learning and dominated asian there are
+
+142
+00:13:21,090 --> 00:13:24,970
+ 
+
+143
+00:13:21,100 --> 00:13:28,420
+ also been a lot of contributions in the
+
+144
+00:13:24,960 --> 00:13:28,420
+ 
+
+145
+00:13:24,970 --> 00:13:31,480
+ pack baseline so the idea is to extend
+
+146
+00:13:28,410 --> 00:13:31,480
+ 
+
+147
+00:13:28,420 --> 00:13:33,850
+ the general result you could have for
+
+148
+00:13:31,470 --> 00:13:33,850
+ 
+
+149
+00:13:31,480 --> 00:13:35,529
+ the example risk on one particular
+
+150
+00:13:33,840 --> 00:13:35,529
+ 
+
+151
+00:13:33,850 --> 00:13:37,870
+ distribution how can you propagate that
+
+152
+00:13:35,519 --> 00:13:37,870
+ 
+
+153
+00:13:35,529 --> 00:13:40,329
+ to the example res corresponding to a
+
+154
+00:13:37,860 --> 00:13:40,329
+ 
+
+155
+00:13:37,870 --> 00:13:42,850
+ different data generating distribution
+
+156
+00:13:40,319 --> 00:13:42,850
+ 
+
+157
+00:13:40,329 --> 00:13:48,550
+ and there are a lot of bank based
+
+158
+00:13:42,840 --> 00:13:48,550
+ 
+
+159
+00:13:42,850 --> 00:13:51,639
+ results to that matter also hints about
+
+160
+00:13:48,540 --> 00:13:51,639
+ 
+
+161
+00:13:48,550 --> 00:13:53,829
+ what's coming next on non-id or heavy
+
+162
+00:13:51,629 --> 00:13:53,829
+ 
+
+163
+00:13:51,639 --> 00:13:56,230
+ tail data we were lucky to have a lot of
+
+164
+00:13:53,819 --> 00:13:56,230
+ 
+
+165
+00:13:53,829 --> 00:13:58,329
+ questions on that during the break
+
+166
+00:13:56,220 --> 00:13:58,329
+ 
+
+167
+00:13:56,230 --> 00:14:02,600
+ so we'll commence in a few slides as
+
+168
+00:13:58,319 --> 00:14:02,600
+ 
+
+169
+00:13:58,329 --> 00:14:04,520
+ well also for density estimation
+
+170
+00:14:02,590 --> 00:14:04,520
+ 
+
+171
+00:14:02,600 --> 00:14:06,860
+ a very interesting connection with
+
+172
+00:14:04,510 --> 00:14:06,860
+ 
+
+173
+00:14:04,520 --> 00:14:09,710
+ reinforcement learning which has been
+
+174
+00:14:06,850 --> 00:14:09,710
+ 
+
+175
+00:14:06,860 --> 00:14:12,620
+ made in a series of paper of giant Pino
+
+176
+00:14:09,700 --> 00:14:12,620
+ 
+
+177
+00:14:09,710 --> 00:14:16,100
+ and co-authors yoginis L Dean they are
+
+178
+00:14:12,610 --> 00:14:16,100
+ 
+
+179
+00:14:12,620 --> 00:14:19,430
+ also including John also connections to
+
+180
+00:14:16,090 --> 00:14:19,430
+ 
+
+181
+00:14:16,100 --> 00:14:20,920
+ second row learning again which to to
+
+182
+00:14:19,420 --> 00:14:20,920
+ 
+
+183
+00:14:19,430 --> 00:14:24,980
+ which back base proves extremely
+
+184
+00:14:20,910 --> 00:14:24,980
+ 
+
+185
+00:14:20,920 --> 00:14:27,260
+ effectively adapted and last but not
+
+186
+00:14:24,970 --> 00:14:27,260
+ 
+
+187
+00:14:24,980 --> 00:14:29,390
+ least the connection to a very
+
+188
+00:14:27,250 --> 00:14:29,390
+ 
+
+189
+00:14:27,260 --> 00:14:31,580
+ interesting notion which has gotten a
+
+190
+00:14:29,380 --> 00:14:31,580
+ 
+
+191
+00:14:29,390 --> 00:14:33,560
+ lot of interest in the past years which
+
+192
+00:14:31,570 --> 00:14:33,560
+ 
+
+193
+00:14:31,580 --> 00:14:36,050
+ is differential privacy differential
+
+194
+00:14:33,550 --> 00:14:36,050
+ 
+
+195
+00:14:33,560 --> 00:14:39,530
+ privacy is very connected to algorithmic
+
+196
+00:14:36,040 --> 00:14:39,530
+ 
+
+197
+00:14:36,050 --> 00:14:41,770
+ stability as John will discuss in the
+
+198
+00:14:39,520 --> 00:14:41,770
+ 
+
+199
+00:14:39,530 --> 00:14:45,320
+ last part of a tutorial and there are
+
+200
+00:14:41,760 --> 00:14:45,320
+ 
+
+201
+00:14:41,770 --> 00:14:47,210
+ back Bayesian bounds actually leveraging
+
+202
+00:14:45,310 --> 00:14:47,210
+ 
+
+203
+00:14:45,320 --> 00:14:51,020
+ the notion of stability to prove
+
+204
+00:14:47,200 --> 00:14:51,020
+ 
+
+205
+00:14:47,210 --> 00:14:53,990
+ generalization results the teaser for
+
+206
+00:14:51,010 --> 00:14:53,990
+ 
+
+207
+00:14:51,020 --> 00:14:56,510
+ the very last case study that we will be
+
+208
+00:14:53,980 --> 00:14:56,510
+ 
+
+209
+00:14:53,990 --> 00:15:00,880
+ presenting is back Bayesian transition
+
+210
+00:14:56,500 --> 00:15:00,880
+ 
+
+211
+00:14:56,510 --> 00:15:00,880
+ bounds holding for deep neural networks
+
+212
+00:15:01,080 --> 00:15:01,080
+ 
+
+213
+00:15:01,090 --> 00:15:07,820
+ okay let me now move on to hope pack
+
+214
+00:15:04,900 --> 00:15:07,820
+ 
+
+215
+00:15:04,910 --> 00:15:12,230
+ base can actually drive the learning of
+
+216
+00:15:07,810 --> 00:15:12,230
+ 
+
+217
+00:15:07,820 --> 00:15:14,630
+ new algorithms so if you recall only
+
+218
+00:15:12,220 --> 00:15:14,630
+ 
+
+219
+00:15:12,230 --> 00:15:17,090
+ previous bounds we've discussed within
+
+220
+00:15:14,620 --> 00:15:17,090
+ 
+
+221
+00:15:14,630 --> 00:15:19,400
+ originally high probability and for any
+
+222
+00:15:17,080 --> 00:15:19,400
+ 
+
+223
+00:15:17,090 --> 00:15:22,100
+ posterior distribution q what we were
+
+224
+00:15:19,390 --> 00:15:22,100
+ 
+
+225
+00:15:19,400 --> 00:15:24,800
+ doing is to bound the error on the
+
+226
+00:15:22,090 --> 00:15:24,800
+ 
+
+227
+00:15:22,100 --> 00:15:27,560
+ unseen data by the error on the example
+
+228
+00:15:24,790 --> 00:15:27,560
+ 
+
+229
+00:15:24,800 --> 00:15:29,900
+ that you have so the error on the data
+
+230
+00:15:27,550 --> 00:15:29,900
+ 
+
+231
+00:15:27,560 --> 00:15:32,510
+ you actually collect plus a term which
+
+232
+00:15:29,890 --> 00:15:32,510
+ 
+
+233
+00:15:29,900 --> 00:15:35,720
+ is a complexity term depending both on
+
+234
+00:15:32,500 --> 00:15:35,720
+ 
+
+235
+00:15:32,510 --> 00:15:38,870
+ data and this Q distribution and this
+
+236
+00:15:35,710 --> 00:15:38,870
+ 
+
+237
+00:15:35,720 --> 00:15:41,330
+ has led to every natural ID which is
+
+238
+00:15:38,860 --> 00:15:41,330
+ 
+
+239
+00:15:38,870 --> 00:15:43,490
+ what if we optimize this bound with
+
+240
+00:15:41,320 --> 00:15:43,490
+ 
+
+241
+00:15:41,330 --> 00:15:47,060
+ respect to Q so this serves as a way to
+
+242
+00:15:43,480 --> 00:15:47,060
+ 
+
+243
+00:15:43,490 --> 00:15:48,320
+ actually derive the optimal Q in the
+
+244
+00:15:47,050 --> 00:15:48,320
+ 
+
+245
+00:15:47,060 --> 00:15:51,650
+ sense that the bound will be the
+
+246
+00:15:48,310 --> 00:15:51,650
+ 
+
+247
+00:15:48,320 --> 00:15:53,210
+ tightest and recall that when you're
+
+248
+00:15:51,640 --> 00:15:53,210
+ 
+
+249
+00:15:51,650 --> 00:15:54,980
+ doing backbase you're actually
+
+250
+00:15:53,200 --> 00:15:54,980
+ 
+
+251
+00:15:53,210 --> 00:15:57,860
+ leveraging the Bayesian principle which
+
+252
+00:15:54,970 --> 00:15:57,860
+ 
+
+253
+00:15:54,980 --> 00:16:00,640
+ is you're sampling fresh growth of
+
+254
+00:15:57,850 --> 00:16:00,640
+ 
+
+255
+00:15:57,860 --> 00:16:03,110
+ hypotheses so the way you learn is
+
+256
+00:16:00,630 --> 00:16:03,110
+ 
+
+257
+00:16:00,640 --> 00:16:05,330
+ actually collect this Q star
+
+258
+00:16:03,100 --> 00:16:05,330
+ 
+
+259
+00:16:03,110 --> 00:16:08,120
+ distribution where Q star will be the
+
+260
+00:16:05,320 --> 00:16:08,120
+ 
+
+261
+00:16:05,330 --> 00:16:09,830
+ optimal posterior basically the one
+
+262
+00:16:08,110 --> 00:16:09,830
+ 
+
+263
+00:16:08,120 --> 00:16:12,690
+ which is minimizing the right hand side
+
+264
+00:16:09,820 --> 00:16:12,690
+ 
+
+265
+00:16:09,830 --> 00:16:15,540
+ term in in those generation
+
+266
+00:16:12,680 --> 00:16:15,540
+ 
+
+267
+00:16:12,690 --> 00:16:20,150
+ and then the way you become protection
+
+268
+00:16:15,530 --> 00:16:20,150
+ 
+
+269
+00:16:15,540 --> 00:16:22,800
+ again is to sample from that posterior
+
+270
+00:16:20,140 --> 00:16:22,800
+ 
+
+271
+00:16:20,150 --> 00:16:25,440
+ so this can be rephrased as an
+
+272
+00:16:22,790 --> 00:16:25,440
+ 
+
+273
+00:16:22,800 --> 00:16:27,740
+ optimization problem and again we got a
+
+274
+00:16:25,430 --> 00:16:27,740
+ 
+
+275
+00:16:25,440 --> 00:16:30,660
+ few questions on that during the break
+
+276
+00:16:27,730 --> 00:16:30,660
+ 
+
+277
+00:16:27,740 --> 00:16:33,090
+ this optimization problem can be solved
+
+278
+00:16:30,650 --> 00:16:33,090
+ 
+
+279
+00:16:30,660 --> 00:16:34,680
+ or approximated by many different
+
+280
+00:16:33,080 --> 00:16:34,680
+ 
+
+281
+00:16:33,090 --> 00:16:36,720
+ techniques and just want to briefly
+
+282
+00:16:34,670 --> 00:16:36,720
+ 
+
+283
+00:16:34,680 --> 00:16:38,400
+ mention the ones which have been
+
+284
+00:16:36,710 --> 00:16:38,400
+ 
+
+285
+00:16:36,720 --> 00:16:41,010
+ successfully applied in the back based
+
+286
+00:16:38,390 --> 00:16:41,010
+ 
+
+287
+00:16:38,400 --> 00:16:43,710
+ literature which is MC MC so Monte Carlo
+
+288
+00:16:41,000 --> 00:16:43,710
+ 
+
+289
+00:16:41,010 --> 00:16:45,420
+ Markov chain gradient descent flavor and
+
+290
+00:16:43,700 --> 00:16:45,420
+ 
+
+291
+00:16:43,710 --> 00:16:46,080
+ methods or stochastic gradient method
+
+292
+00:16:45,410 --> 00:16:46,080
+ 
+
+293
+00:16:45,420 --> 00:16:49,590
+ for that matter
+
+294
+00:16:46,070 --> 00:16:49,590
+ 
+
+295
+00:16:46,080 --> 00:16:55,050
+ a variational base and so on so this is
+
+296
+00:16:49,580 --> 00:16:55,050
+ 
+
+297
+00:16:49,590 --> 00:16:57,540
+ a very natural and an elegant ID to
+
+298
+00:16:55,040 --> 00:16:57,540
+ 
+
+299
+00:16:55,050 --> 00:17:00,210
+ obtain new algorithms once you have a
+
+300
+00:16:57,530 --> 00:17:00,210
+ 
+
+301
+00:16:57,540 --> 00:17:02,730
+ bound you can actually leverage it to
+
+302
+00:17:00,200 --> 00:17:02,730
+ 
+
+303
+00:17:00,210 --> 00:17:04,370
+ find the most interesting in the sense
+
+304
+00:17:02,720 --> 00:17:04,370
+ 
+
+305
+00:17:02,730 --> 00:17:10,199
+ that the bandwidth with the tightest
+
+306
+00:17:04,360 --> 00:17:10,199
+ 
+
+307
+00:17:04,370 --> 00:17:12,209
+ posterior and as I mentioned briefly a
+
+308
+00:17:10,189 --> 00:17:12,209
+ 
+
+309
+00:17:10,199 --> 00:17:14,630
+ few minutes ago there has been a
+
+310
+00:17:12,199 --> 00:17:14,630
+ 
+
+311
+00:17:12,209 --> 00:17:17,400
+ backbase interpretation of several
+
+312
+00:17:14,620 --> 00:17:17,400
+ 
+
+313
+00:17:14,630 --> 00:17:20,040
+ classical algorithms so I've mentioned
+
+314
+00:17:17,390 --> 00:17:20,040
+ 
+
+315
+00:17:17,400 --> 00:17:22,860
+ that the SVM have actually been proven
+
+316
+00:17:20,030 --> 00:17:22,860
+ 
+
+317
+00:17:20,040 --> 00:17:24,810
+ to be resulting from the minimization of
+
+318
+00:17:22,850 --> 00:17:24,810
+ 
+
+319
+00:17:22,860 --> 00:17:27,300
+ several PI PI's and bounds so this has
+
+320
+00:17:24,800 --> 00:17:27,300
+ 
+
+321
+00:17:24,810 --> 00:17:30,750
+ been addressed in the in these series of
+
+322
+00:17:27,290 --> 00:17:30,750
+ 
+
+323
+00:17:27,300 --> 00:17:33,050
+ paper and I also like to focus on one
+
+324
+00:17:30,740 --> 00:17:33,050
+ 
+
+325
+00:17:30,750 --> 00:17:35,670
+ particular case of the posterior
+
+326
+00:17:33,040 --> 00:17:35,670
+ 
+
+327
+00:17:33,050 --> 00:17:40,620
+ distribution which is known as the Gibbs
+
+328
+00:17:35,660 --> 00:17:40,620
+ 
+
+329
+00:17:35,670 --> 00:17:42,600
+ posterior so if you pick lambda to be a
+
+330
+00:17:40,610 --> 00:17:42,600
+ 
+
+331
+00:17:40,620 --> 00:17:45,540
+ temperature parameter so strictly
+
+332
+00:17:42,590 --> 00:17:45,540
+ 
+
+333
+00:17:42,600 --> 00:17:47,640
+ positive and you address this
+
+334
+00:17:45,530 --> 00:17:47,640
+ 
+
+335
+00:17:45,540 --> 00:17:50,790
+ optimization problem so you want to
+
+336
+00:17:47,630 --> 00:17:50,790
+ 
+
+337
+00:17:47,640 --> 00:17:53,820
+ minimize the in-sample risk with respect
+
+338
+00:17:50,780 --> 00:17:53,820
+ 
+
+339
+00:17:50,790 --> 00:17:56,390
+ to any posterior distribution Q plus the
+
+340
+00:17:53,810 --> 00:17:56,390
+ 
+
+341
+00:17:53,820 --> 00:17:59,730
+ KL between Q and P divided by lambda
+
+342
+00:17:56,380 --> 00:17:59,730
+ 
+
+343
+00:17:56,390 --> 00:18:02,160
+ well it can be easily seen actually
+
+344
+00:17:59,720 --> 00:18:02,160
+ 
+
+345
+00:17:59,730 --> 00:18:04,830
+ prove it in a few slides that B unique
+
+346
+00:18:02,150 --> 00:18:04,830
+ 
+
+347
+00:18:02,160 --> 00:18:07,500
+ solution of that constraint problem is
+
+348
+00:18:04,820 --> 00:18:07,500
+ 
+
+349
+00:18:04,830 --> 00:18:10,020
+ what we call the gifts posterior so the
+
+350
+00:18:07,490 --> 00:18:10,020
+ 
+
+351
+00:18:07,500 --> 00:18:12,060
+ Gibbs posterior is a distribution of the
+
+352
+00:18:10,010 --> 00:18:12,060
+ 
+
+353
+00:18:10,020 --> 00:18:16,260
+ set of hypotheses which exponentially
+
+354
+00:18:12,050 --> 00:18:16,260
+ 
+
+355
+00:18:12,060 --> 00:18:18,900
+ penalizes their in-sample risk so the
+
+356
+00:18:16,250 --> 00:18:18,900
+ 
+
+357
+00:18:16,260 --> 00:18:20,820
+ Gibbs posterior is known under some
+
+358
+00:18:18,890 --> 00:18:20,820
+ 
+
+359
+00:18:18,900 --> 00:18:22,530
+ names actually and one of the most
+
+360
+00:18:20,810 --> 00:18:22,530
+ 
+
+361
+00:18:20,820 --> 00:18:23,990
+ popular is probably the exponential
+
+362
+00:18:22,520 --> 00:18:23,990
+ 
+
+363
+00:18:22,530 --> 00:18:26,720
+ weights so
+
+364
+00:18:23,980 --> 00:18:26,720
+ 
+
+365
+00:18:23,990 --> 00:18:30,200
+ I'm assuming most of you know
+
+366
+00:18:26,710 --> 00:18:30,200
+ 
+
+367
+00:18:26,720 --> 00:18:32,300
+ exponential weights and this Gibbs
+
+368
+00:18:30,190 --> 00:18:32,300
+ 
+
+369
+00:18:30,200 --> 00:18:35,660
+ posture is really a continuous version
+
+370
+00:18:32,290 --> 00:18:35,660
+ 
+
+371
+00:18:32,300 --> 00:18:38,180
+ or the exponential weights so what this
+
+372
+00:18:35,650 --> 00:18:38,180
+ 
+
+373
+00:18:35,660 --> 00:18:41,300
+ Gibbs posterior distribution does is
+
+374
+00:18:38,170 --> 00:18:41,300
+ 
+
+375
+00:18:38,180 --> 00:18:44,390
+ that it penalizes exponentially the
+
+376
+00:18:41,290 --> 00:18:44,390
+ 
+
+377
+00:18:41,300 --> 00:18:47,480
+ performance on the sample of hypotheses
+
+378
+00:18:44,380 --> 00:18:47,480
+ 
+
+379
+00:18:44,390 --> 00:18:50,090
+ and so we might maybe comment on two
+
+380
+00:18:47,470 --> 00:18:50,090
+ 
+
+381
+00:18:47,480 --> 00:18:52,550
+ extreme cases so the first one is when
+
+382
+00:18:50,080 --> 00:18:52,550
+ 
+
+383
+00:18:50,090 --> 00:18:55,340
+ this temperature lambda actually goes to
+
+384
+00:18:52,540 --> 00:18:55,340
+ 
+
+385
+00:18:52,550 --> 00:18:57,320
+ zero so what happens there if you pick
+
+386
+00:18:55,330 --> 00:18:57,320
+ 
+
+387
+00:18:55,340 --> 00:18:58,640
+ lambda to be really close to zero what's
+
+388
+00:18:57,310 --> 00:18:58,640
+ 
+
+389
+00:18:57,320 --> 00:19:02,090
+ happening is that you're actually
+
+390
+00:18:58,630 --> 00:19:02,090
+ 
+
+391
+00:18:58,640 --> 00:19:04,190
+ putting very small weight on the data so
+
+392
+00:19:02,080 --> 00:19:04,190
+ 
+
+393
+00:19:02,090 --> 00:19:07,210
+ you're actually not trusting your sample
+
+394
+00:19:04,180 --> 00:19:07,210
+ 
+
+395
+00:19:04,190 --> 00:19:11,630
+ in this exponential term basically
+
+396
+00:19:07,200 --> 00:19:11,630
+ 
+
+397
+00:19:07,210 --> 00:19:13,280
+ amounts to one so the posterior in that
+
+398
+00:19:11,620 --> 00:19:13,280
+ 
+
+399
+00:19:11,630 --> 00:19:15,890
+ sense becomes really close to the prior
+
+400
+00:19:13,270 --> 00:19:15,890
+ 
+
+401
+00:19:13,280 --> 00:19:17,990
+ so this lambda goes to zero a scenario
+
+402
+00:19:15,880 --> 00:19:17,990
+ 
+
+403
+00:19:15,890 --> 00:19:20,390
+ it's really the case where you want to
+
+404
+00:19:17,980 --> 00:19:20,390
+ 
+
+405
+00:19:17,990 --> 00:19:24,320
+ be story to be extremely closer prior if
+
+406
+00:19:20,380 --> 00:19:24,320
+ 
+
+407
+00:19:20,390 --> 00:19:29,000
+ not exactly the same so you have a flat
+
+408
+00:19:24,310 --> 00:19:29,000
+ 
+
+409
+00:19:24,320 --> 00:19:32,240
+ list area and then you have the other
+
+410
+00:19:28,990 --> 00:19:32,240
+ 
+
+411
+00:19:29,000 --> 00:19:36,470
+ extreme scenario where lambda actually
+
+412
+00:19:32,230 --> 00:19:36,470
+ 
+
+413
+00:19:32,240 --> 00:19:39,140
+ grows massively and this actually gives
+
+414
+00:19:36,460 --> 00:19:39,140
+ 
+
+415
+00:19:36,470 --> 00:19:42,140
+ a direct mass on the minimizer's of the
+
+416
+00:19:39,130 --> 00:19:42,140
+ 
+
+417
+00:19:39,140 --> 00:19:44,930
+ in-sample risk so those are known in the
+
+418
+00:19:42,130 --> 00:19:44,930
+ 
+
+419
+00:19:42,140 --> 00:19:47,180
+ literature as erm so the empirical risk
+
+420
+00:19:44,920 --> 00:19:47,180
+ 
+
+421
+00:19:44,930 --> 00:19:50,240
+ minimizes so basically you have these
+
+422
+00:19:47,170 --> 00:19:50,240
+ 
+
+423
+00:19:47,180 --> 00:19:53,240
+ two scenarios which obviously are not
+
+424
+00:19:50,230 --> 00:19:53,240
+ 
+
+425
+00:19:50,240 --> 00:19:55,490
+ ideal where you pick as a posterior
+
+426
+00:19:53,230 --> 00:19:55,490
+ 
+
+427
+00:19:53,240 --> 00:19:58,160
+ exactly your prior so basically you're
+
+428
+00:19:55,480 --> 00:19:58,160
+ 
+
+429
+00:19:55,490 --> 00:20:01,820
+ just ignoring data and the other extreme
+
+430
+00:19:58,150 --> 00:20:01,820
+ 
+
+431
+00:19:58,160 --> 00:20:03,890
+ scenario where you actually are prone to
+
+432
+00:20:01,810 --> 00:20:03,890
+ 
+
+433
+00:20:01,820 --> 00:20:06,650
+ overfitting because you're restricting
+
+434
+00:20:03,880 --> 00:20:06,650
+ 
+
+435
+00:20:03,890 --> 00:20:10,250
+ your posterior to the hypothesis which
+
+436
+00:20:06,640 --> 00:20:10,250
+ 
+
+437
+00:20:06,650 --> 00:20:12,830
+ minimize your in-sample risk and the
+
+438
+00:20:10,240 --> 00:20:12,830
+ 
+
+439
+00:20:10,250 --> 00:20:15,140
+ truth actually lies in between right so
+
+440
+00:20:12,820 --> 00:20:15,140
+ 
+
+441
+00:20:12,830 --> 00:20:17,150
+ you actually want to pick a Gibbs
+
+442
+00:20:15,130 --> 00:20:17,150
+ 
+
+443
+00:20:15,140 --> 00:20:19,250
+ posterior with a temperature which
+
+444
+00:20:17,140 --> 00:20:19,250
+ 
+
+445
+00:20:17,150 --> 00:20:21,830
+ allows you to achieve a good trade-off
+
+446
+00:20:19,240 --> 00:20:21,830
+ 
+
+447
+00:20:19,250 --> 00:20:25,820
+ between the confidence you want to keep
+
+448
+00:20:21,820 --> 00:20:25,820
+ 
+
+449
+00:20:21,830 --> 00:20:30,320
+ in your prior and the relevance you
+
+450
+00:20:25,810 --> 00:20:30,320
+ 
+
+451
+00:20:25,820 --> 00:20:33,140
+ attach to your data so this really is
+
+452
+00:20:30,310 --> 00:20:33,140
+ 
+
+453
+00:20:30,320 --> 00:20:35,300
+ the continuous version of this IVA
+
+454
+00:20:33,130 --> 00:20:35,300
+ 
+
+455
+00:20:33,140 --> 00:20:38,080
+ strategy which is the exponentially
+
+456
+00:20:35,290 --> 00:20:38,080
+ 
+
+457
+00:20:35,300 --> 00:20:41,990
+ weighted aggregate
+
+458
+00:20:38,070 --> 00:20:41,990
+ 
+
+459
+00:20:38,080 --> 00:20:44,990
+ okay let me know move on to the proof
+
+460
+00:20:41,980 --> 00:20:44,990
+ 
+
+461
+00:20:41,990 --> 00:20:47,269
+ that the Kip's posterior arises as a
+
+462
+00:20:44,980 --> 00:20:47,269
+ 
+
+463
+00:20:44,990 --> 00:20:51,260
+ very natural solution in many pankration
+
+464
+00:20:47,259 --> 00:20:51,260
+ 
+
+465
+00:20:47,269 --> 00:20:53,360
+ pounds so for that I'll go back to the
+
+466
+00:20:51,250 --> 00:20:53,360
+ 
+
+467
+00:20:51,260 --> 00:20:55,159
+ original definition of the KL which is
+
+468
+00:20:53,350 --> 00:20:55,159
+ 
+
+469
+00:20:53,360 --> 00:20:58,340
+ the result of hinted a few slides
+
+470
+00:20:55,149 --> 00:20:58,340
+ 
+
+471
+00:20:55,159 --> 00:21:00,620
+ earlier due to she's our intern square
+
+472
+00:20:58,330 --> 00:21:00,620
+ 
+
+473
+00:20:58,340 --> 00:21:04,490
+ of Arlen and the proof I'm going to
+
+474
+00:21:00,610 --> 00:21:04,490
+ 
+
+475
+00:21:00,620 --> 00:21:07,010
+ provide you now with his is largely
+
+476
+00:21:04,480 --> 00:21:07,010
+ 
+
+477
+00:21:04,490 --> 00:21:12,260
+ inspired by a proof written by Erika
+
+478
+00:21:07,000 --> 00:21:12,260
+ 
+
+479
+00:21:07,010 --> 00:21:14,120
+ Tony so what this result says is again
+
+480
+00:21:12,250 --> 00:21:14,120
+ 
+
+481
+00:21:12,260 --> 00:21:16,100
+ so this is the change of measure and
+
+482
+00:21:14,110 --> 00:21:16,100
+ 
+
+483
+00:21:14,120 --> 00:21:18,769
+ equality that I've put forward a few
+
+484
+00:21:16,090 --> 00:21:18,769
+ 
+
+485
+00:21:16,100 --> 00:21:21,679
+ slides earlier but what this says is
+
+486
+00:21:18,759 --> 00:21:21,679
+ 
+
+487
+00:21:18,769 --> 00:21:23,919
+ that for any measurable function Phi the
+
+488
+00:21:21,669 --> 00:21:23,919
+ 
+
+489
+00:21:21,679 --> 00:21:26,750
+ log of the integral of the exponential
+
+490
+00:21:23,909 --> 00:21:26,750
+ 
+
+491
+00:21:23,919 --> 00:21:29,000
+ applied to Phi with respect to the prior
+
+492
+00:21:26,740 --> 00:21:29,000
+ 
+
+493
+00:21:26,750 --> 00:21:31,580
+ distribution can actually be rewritten
+
+494
+00:21:28,990 --> 00:21:31,580
+ 
+
+495
+00:21:29,000 --> 00:21:33,649
+ as a supreme M or the quantity which
+
+496
+00:21:31,570 --> 00:21:33,649
+ 
+
+497
+00:21:31,580 --> 00:21:38,090
+ would prove to be extremely natural in
+
+498
+00:21:33,639 --> 00:21:38,090
+ 
+
+499
+00:21:33,649 --> 00:21:40,399
+ Pygmalion dance and furthermore so this
+
+500
+00:21:38,080 --> 00:21:40,399
+ 
+
+501
+00:21:38,090 --> 00:21:44,690
+ holds on the right hand side this holds
+
+502
+00:21:40,389 --> 00:21:44,690
+ 
+
+503
+00:21:40,399 --> 00:21:48,110
+ for any Q and furthermore we will prove
+
+504
+00:21:44,680 --> 00:21:48,110
+ 
+
+505
+00:21:44,690 --> 00:21:51,019
+ that the optimal Q is actually given by
+
+506
+00:21:48,100 --> 00:21:51,019
+ 
+
+507
+00:21:48,110 --> 00:21:53,559
+ this g distribution and this stands for
+
+508
+00:21:51,009 --> 00:21:53,559
+ 
+
+509
+00:21:51,019 --> 00:21:58,669
+ the gifts distribution so exponential
+
+510
+00:21:53,549 --> 00:21:58,669
+ 
+
+511
+00:21:53,559 --> 00:22:00,830
+ applied to Phi so again the proof I just
+
+512
+00:21:58,659 --> 00:22:00,830
+ 
+
+513
+00:21:58,669 --> 00:22:05,710
+ want you to briefly go over it because
+
+514
+00:22:00,820 --> 00:22:05,710
+ 
+
+515
+00:22:00,830 --> 00:22:09,799
+ it relies on very elementary results so
+
+516
+00:22:05,700 --> 00:22:09,799
+ 
+
+517
+00:22:05,710 --> 00:22:11,659
+ this is what we're trying to prove so
+
+518
+00:22:09,789 --> 00:22:11,659
+ 
+
+519
+00:22:09,799 --> 00:22:13,700
+ let's start with a post area which is
+
+520
+00:22:11,649 --> 00:22:13,700
+ 
+
+521
+00:22:11,659 --> 00:22:17,360
+ absolutely continuous with respect to P
+
+522
+00:22:13,690 --> 00:22:17,360
+ 
+
+523
+00:22:13,700 --> 00:22:20,840
+ and we'll just start with writing - the
+
+524
+00:22:17,350 --> 00:22:20,840
+ 
+
+525
+00:22:17,360 --> 00:22:23,360
+ km between NQ n G where G is given by
+
+526
+00:22:20,830 --> 00:22:23,360
+ 
+
+527
+00:22:20,840 --> 00:22:25,789
+ the formula at the top of the slide so
+
+528
+00:22:23,350 --> 00:22:25,789
+ 
+
+529
+00:22:23,360 --> 00:22:27,549
+ if we write what this is the actual
+
+530
+00:22:25,779 --> 00:22:27,549
+ 
+
+531
+00:22:25,789 --> 00:22:30,850
+ definition of the KL and we introduce
+
+532
+00:22:27,539 --> 00:22:30,850
+ 
+
+533
+00:22:27,549 --> 00:22:35,000
+ arbitrarily these P measure in between
+
+534
+00:22:30,840 --> 00:22:35,000
+ 
+
+535
+00:22:30,850 --> 00:22:38,059
+ then we can massage this term and this
+
+536
+00:22:34,990 --> 00:22:38,059
+ 
+
+537
+00:22:35,000 --> 00:22:41,990
+ yields on the left the KL between Q and
+
+538
+00:22:38,049 --> 00:22:41,990
+ 
+
+539
+00:22:38,059 --> 00:22:44,750
+ P right by definition and then if you
+
+540
+00:22:41,980 --> 00:22:44,750
+ 
+
+541
+00:22:41,990 --> 00:22:47,210
+ write what G is the difference of those
+
+542
+00:22:44,740 --> 00:22:47,210
+ 
+
+543
+00:22:44,750 --> 00:22:50,270
+ two terms is actually the density of
+
+544
+00:22:47,200 --> 00:22:50,270
+ 
+
+545
+00:22:47,210 --> 00:22:55,789
+ tree which is exponential apply to Phi
+
+546
+00:22:50,260 --> 00:22:55,789
+ 
+
+547
+00:22:50,270 --> 00:22:58,399
+ over the normalizing constant so with a
+
+548
+00:22:55,779 --> 00:22:58,399
+ 
+
+549
+00:22:55,789 --> 00:23:00,980
+ straightforward derivation of the
+
+550
+00:22:58,389 --> 00:23:00,980
+ 
+
+551
+00:22:58,399 --> 00:23:03,889
+ definition of G in the KL we actually
+
+552
+00:23:00,970 --> 00:23:03,889
+ 
+
+553
+00:23:00,980 --> 00:23:07,610
+ get this quantity now just recall that
+
+554
+00:23:03,879 --> 00:23:07,610
+ 
+
+555
+00:23:03,889 --> 00:23:10,850
+ the KL is non-negative quantity so minus
+
+556
+00:23:07,600 --> 00:23:10,850
+ 
+
+557
+00:23:07,610 --> 00:23:13,580
+ the KL is upper bounded by zero and the
+
+558
+00:23:10,840 --> 00:23:13,580
+ 
+
+559
+00:23:10,850 --> 00:23:19,520
+ element which achieves a kale which is
+
+560
+00:23:13,570 --> 00:23:19,520
+ 
+
+561
+00:23:13,580 --> 00:23:23,600
+ zero is obviously Q equals G so if we
+
+562
+00:23:19,510 --> 00:23:23,600
+ 
+
+563
+00:23:19,520 --> 00:23:26,480
+ write this result with Q equals G we get
+
+564
+00:23:23,590 --> 00:23:26,480
+ 
+
+565
+00:23:23,600 --> 00:23:28,490
+ zero on the left hand side and we get
+
+566
+00:23:26,470 --> 00:23:28,490
+ 
+
+567
+00:23:26,480 --> 00:23:35,299
+ exactly what we want on the right hand
+
+568
+00:23:28,480 --> 00:23:35,299
+ 
+
+569
+00:23:28,490 --> 00:23:39,289
+ side so now if we switch Phi to be minus
+
+570
+00:23:35,289 --> 00:23:39,289
+ 
+
+571
+00:23:35,299 --> 00:23:42,260
+ lambda the in-sample risk then we obtain
+
+572
+00:23:39,279 --> 00:23:42,260
+ 
+
+573
+00:23:39,289 --> 00:23:44,960
+ readily that the minimizer of the
+
+574
+00:23:42,250 --> 00:23:44,960
+ 
+
+575
+00:23:42,260 --> 00:23:48,529
+ in-sample risk plus the KL between Q and
+
+576
+00:23:44,950 --> 00:23:48,529
+ 
+
+577
+00:23:44,960 --> 00:23:50,809
+ P of a lambda is actually exponential
+
+578
+00:23:48,519 --> 00:23:50,809
+ 
+
+579
+00:23:48,529 --> 00:23:56,059
+ times Phi which is exponential minus
+
+580
+00:23:50,799 --> 00:23:56,059
+ 
+
+581
+00:23:50,809 --> 00:23:59,090
+ lambda in sample risk right so we
+
+582
+00:23:56,049 --> 00:23:59,090
+ 
+
+583
+00:23:56,059 --> 00:24:02,029
+ actually managed to connect this result
+
+584
+00:23:59,080 --> 00:24:02,029
+ 
+
+585
+00:23:59,090 --> 00:24:05,990
+ to a very known result which is the best
+
+586
+00:24:02,019 --> 00:24:05,990
+ 
+
+587
+00:24:02,029 --> 00:24:08,000
+ way to learn this constraint problem
+
+588
+00:24:05,980 --> 00:24:08,000
+ 
+
+589
+00:24:05,990 --> 00:24:10,399
+ which is the in-sample risk plus a
+
+590
+00:24:07,990 --> 00:24:10,399
+ 
+
+591
+00:24:08,000 --> 00:24:12,860
+ measure of discrepancy which is the KL
+
+592
+00:24:10,389 --> 00:24:12,860
+ 
+
+593
+00:24:10,399 --> 00:24:15,169
+ this is actually optimized by the Kip's
+
+594
+00:24:12,850 --> 00:24:15,169
+ 
+
+595
+00:24:12,860 --> 00:24:22,580
+ posterior and this is what is proven in
+
+596
+00:24:15,159 --> 00:24:22,580
+ 
+
+597
+00:24:15,169 --> 00:24:26,929
+ this row planner okay let me now move to
+
+598
+00:24:22,570 --> 00:24:26,929
+ 
+
+599
+00:24:22,580 --> 00:24:27,679
+ an extension of Pike base to non-id or
+
+600
+00:24:26,919 --> 00:24:27,679
+ 
+
+601
+00:24:26,929 --> 00:24:30,590
+ heavy-tailed
+
+602
+00:24:27,669 --> 00:24:30,590
+ 
+
+603
+00:24:27,679 --> 00:24:33,080
+ data so for now we're going to drop this
+
+604
+00:24:30,580 --> 00:24:33,080
+ 
+
+605
+00:24:30,590 --> 00:24:35,590
+ ID assumption we're also going to drop
+
+606
+00:24:33,070 --> 00:24:35,590
+ 
+
+607
+00:24:33,080 --> 00:24:38,600
+ the pundit loss assumption so this is
+
+608
+00:24:35,580 --> 00:24:38,600
+ 
+
+609
+00:24:35,590 --> 00:24:41,600
+ connected to a few other questions we'd
+
+610
+00:24:38,590 --> 00:24:41,600
+ 
+
+611
+00:24:38,600 --> 00:24:44,419
+ had during the break so let's just know
+
+612
+00:24:41,590 --> 00:24:44,419
+ 
+
+613
+00:24:41,600 --> 00:24:46,940
+ define two quantities this first
+
+614
+00:24:44,409 --> 00:24:46,940
+ 
+
+615
+00:24:44,419 --> 00:24:49,990
+ quantity MP that will actually
+
+616
+00:24:46,930 --> 00:24:49,990
+ 
+
+617
+00:24:46,940 --> 00:24:53,929
+ characterize the moments of the data
+
+618
+00:24:49,980 --> 00:24:53,929
+ 
+
+619
+00:24:49,990 --> 00:24:56,120
+ generating distribution in an extension
+
+620
+00:24:53,919 --> 00:24:56,120
+ 
+
+621
+00:24:53,929 --> 00:25:00,950
+ of the discrepancy measure that we use
+
+622
+00:24:56,110 --> 00:25:00,950
+ 
+
+623
+00:24:56,120 --> 00:25:01,990
+ to compare distribution which is Xi's RF
+
+624
+00:25:00,940 --> 00:25:01,990
+ 
+
+625
+00:25:00,950 --> 00:25:03,490
+ divergences
+
+626
+00:25:01,980 --> 00:25:03,490
+ 
+
+627
+00:25:01,990 --> 00:25:05,920
+ so for those of you who might not be
+
+628
+00:25:03,480 --> 00:25:05,920
+ 
+
+629
+00:25:03,490 --> 00:25:08,380
+ familiar with the concept of f
+
+630
+00:25:05,910 --> 00:25:08,380
+ 
+
+631
+00:25:05,920 --> 00:25:11,650
+ divergence this actually is a more
+
+632
+00:25:08,370 --> 00:25:11,650
+ 
+
+633
+00:25:08,380 --> 00:25:15,250
+ general version of the KL divergence so
+
+634
+00:25:11,640 --> 00:25:15,250
+ 
+
+635
+00:25:11,650 --> 00:25:17,820
+ f divergences include the KL the ki
+
+636
+00:25:15,240 --> 00:25:17,820
+ 
+
+637
+00:25:15,250 --> 00:25:20,230
+ square divergence the Rainey divergence
+
+638
+00:25:17,810 --> 00:25:20,230
+ 
+
+639
+00:25:17,820 --> 00:25:20,920
+ and several others which are used in the
+
+640
+00:25:20,220 --> 00:25:20,920
+ 
+
+641
+00:25:20,230 --> 00:25:24,220
+ literature
+
+642
+00:25:20,910 --> 00:25:24,220
+ 
+
+643
+00:25:20,920 --> 00:25:26,980
+ so it actually writes a very similar to
+
+644
+00:25:24,210 --> 00:25:26,980
+ 
+
+645
+00:25:24,220 --> 00:25:31,480
+ the KL but the log is replaced by any
+
+646
+00:25:26,970 --> 00:25:31,480
+ 
+
+647
+00:25:26,980 --> 00:25:34,140
+ convex function and so the KL is given
+
+648
+00:25:31,470 --> 00:25:34,140
+ 
+
+649
+00:25:31,480 --> 00:25:37,600
+ as a very special case of F divergences
+
+650
+00:25:34,130 --> 00:25:37,600
+ 
+
+651
+00:25:34,140 --> 00:25:41,890
+ where this F function is chosen to be X
+
+652
+00:25:37,590 --> 00:25:41,890
+ 
+
+653
+00:25:37,600 --> 00:25:44,110
+ log X so what is nice about this more
+
+654
+00:25:41,880 --> 00:25:44,110
+ 
+
+655
+00:25:41,890 --> 00:25:46,630
+ generic formulation is that it allows to
+
+656
+00:25:44,100 --> 00:25:46,630
+ 
+
+657
+00:25:44,110 --> 00:25:48,970
+ obtain back base bounds which actually
+
+658
+00:25:46,620 --> 00:25:48,970
+ 
+
+659
+00:25:46,630 --> 00:25:55,450
+ do not rely on the fact that the loss is
+
+660
+00:25:48,960 --> 00:25:55,450
+ 
+
+661
+00:25:48,970 --> 00:26:00,880
+ bounded so let me just briefly state the
+
+662
+00:25:55,440 --> 00:26:00,880
+ 
+
+663
+00:25:55,450 --> 00:26:02,530
+ results to be the generation gap that
+
+664
+00:26:00,870 --> 00:26:02,530
+ 
+
+665
+00:26:00,880 --> 00:26:04,360
+ we've seen before that is the difference
+
+666
+00:26:02,520 --> 00:26:04,360
+ 
+
+667
+00:26:02,530 --> 00:26:06,760
+ between the out sample risk and the in
+
+668
+00:26:04,350 --> 00:26:06,760
+ 
+
+669
+00:26:04,360 --> 00:26:10,120
+ sample risk is upper bounded by two
+
+670
+00:26:06,750 --> 00:26:10,120
+ 
+
+671
+00:26:06,760 --> 00:26:13,090
+ terms so what we managed to achieve here
+
+672
+00:26:10,110 --> 00:26:13,090
+ 
+
+673
+00:26:10,120 --> 00:26:15,010
+ is to decouple the effect of the data
+
+674
+00:26:13,080 --> 00:26:15,010
+ 
+
+675
+00:26:13,090 --> 00:26:17,820
+ generating function so those are the
+
+676
+00:26:15,000 --> 00:26:17,820
+ 
+
+677
+00:26:15,010 --> 00:26:19,960
+ moments of this data generating
+
+678
+00:26:17,810 --> 00:26:19,960
+ 
+
+679
+00:26:17,820 --> 00:26:23,050
+ distribution which isn't known obviously
+
+680
+00:26:19,950 --> 00:26:23,050
+ 
+
+681
+00:26:19,960 --> 00:26:25,390
+ and the discrepancy measure between the
+
+682
+00:26:23,040 --> 00:26:25,390
+ 
+
+683
+00:26:23,050 --> 00:26:30,100
+ prior and the posterior in terms of F
+
+684
+00:26:25,380 --> 00:26:30,100
+ 
+
+685
+00:26:25,390 --> 00:26:34,030
+ divergences and this decoupling allows
+
+686
+00:26:30,090 --> 00:26:34,030
+ 
+
+687
+00:26:30,100 --> 00:26:37,240
+ to consider lots of derivation for that
+
+688
+00:26:34,020 --> 00:26:37,240
+ 
+
+689
+00:26:34,030 --> 00:26:39,820
+ bound and as a lot of Kalla corollaries
+
+690
+00:26:37,230 --> 00:26:39,820
+ 
+
+691
+00:26:37,240 --> 00:26:42,490
+ actually arise from this simulation we
+
+692
+00:26:39,810 --> 00:26:42,490
+ 
+
+693
+00:26:39,820 --> 00:26:46,510
+ actually managed to obtain bounds where
+
+694
+00:26:42,480 --> 00:26:46,510
+ 
+
+695
+00:26:42,490 --> 00:26:49,059
+ the loss might be unbounded or end if
+
+696
+00:26:46,500 --> 00:26:49,059
+ 
+
+697
+00:26:46,510 --> 00:26:51,370
+ data is no longer ID so for example you
+
+698
+00:26:49,049 --> 00:26:51,370
+ 
+
+699
+00:26:49,059 --> 00:26:54,480
+ could translate this bound into bag
+
+700
+00:26:51,360 --> 00:26:54,480
+ 
+
+701
+00:26:51,370 --> 00:26:58,420
+ based bounds for heavy tail time series
+
+702
+00:26:54,470 --> 00:26:58,420
+ 
+
+703
+00:26:54,480 --> 00:27:00,700
+ so this is not displayed here but it is
+
+704
+00:26:58,410 --> 00:27:00,700
+ 
+
+705
+00:26:58,420 --> 00:27:03,429
+ in in the paper I mentioned here and
+
+706
+00:27:00,690 --> 00:27:03,429
+ 
+
+707
+00:27:00,700 --> 00:27:05,110
+ again this has a very strong incitement
+
+708
+00:27:03,419 --> 00:27:05,110
+ 
+
+709
+00:27:03,429 --> 00:27:06,880
+ to define the pastoralism minimizer of
+
+710
+00:27:05,100 --> 00:27:06,880
+ 
+
+711
+00:27:05,110 --> 00:27:10,780
+ the right hand side what is interesting
+
+712
+00:27:06,870 --> 00:27:10,780
+ 
+
+713
+00:27:06,880 --> 00:27:13,220
+ here is that the minimizer is not likely
+
+714
+00:27:10,770 --> 00:27:13,220
+ 
+
+715
+00:27:10,780 --> 00:27:15,770
+ to be the keeps post area
+
+716
+00:27:13,210 --> 00:27:15,770
+ 
+
+717
+00:27:13,220 --> 00:27:19,100
+ so the gifts posterior arises naturally
+
+718
+00:27:15,760 --> 00:27:19,100
+ 
+
+719
+00:27:15,770 --> 00:27:21,050
+ when you have the care as a discrepancy
+
+720
+00:27:19,090 --> 00:27:21,050
+ 
+
+721
+00:27:19,100 --> 00:27:23,570
+ a measure if you change the KL to
+
+722
+00:27:21,040 --> 00:27:23,570
+ 
+
+723
+00:27:21,050 --> 00:27:26,300
+ something more generic then you will
+
+724
+00:27:23,560 --> 00:27:26,300
+ 
+
+725
+00:27:23,570 --> 00:27:28,670
+ lose actually the nice effect that the
+
+726
+00:27:26,290 --> 00:27:28,670
+ 
+
+727
+00:27:26,300 --> 00:27:31,220
+ min the optimizer is the gifts
+
+728
+00:27:28,660 --> 00:27:31,220
+ 
+
+729
+00:27:28,670 --> 00:27:37,010
+ distribution that's the price to pay for
+
+730
+00:27:31,210 --> 00:27:37,010
+ 
+
+731
+00:27:31,220 --> 00:27:40,460
+ generality let me briefly sketch the
+
+732
+00:27:37,000 --> 00:27:40,460
+ 
+
+733
+00:27:37,010 --> 00:27:45,020
+ proof again so that's the transition gap
+
+734
+00:27:40,450 --> 00:27:45,020
+ 
+
+735
+00:27:40,460 --> 00:27:48,770
+ the first step is to actually use
+
+736
+00:27:45,010 --> 00:27:48,770
+ 
+
+737
+00:27:45,020 --> 00:27:52,750
+ Jensen's inequality so you upper bound
+
+738
+00:27:48,760 --> 00:27:52,750
+ 
+
+739
+00:27:48,770 --> 00:27:55,790
+ the difference between the integrated
+
+740
+00:27:52,740 --> 00:27:55,790
+ 
+
+741
+00:27:52,750 --> 00:27:58,070
+ out-of-sample risk - the integrated in
+
+742
+00:27:55,780 --> 00:27:58,070
+ 
+
+743
+00:27:55,790 --> 00:28:00,610
+ sample risk so this is about bounded by
+
+744
+00:27:58,060 --> 00:28:00,610
+ 
+
+745
+00:27:58,070 --> 00:28:04,280
+ the integral of the generalization gap
+
+746
+00:28:00,600 --> 00:28:04,280
+ 
+
+747
+00:28:00,610 --> 00:28:07,040
+ the second step as before is this change
+
+748
+00:28:04,270 --> 00:28:07,040
+ 
+
+749
+00:28:04,280 --> 00:28:11,410
+ of measure so you habit rarely include
+
+750
+00:28:07,030 --> 00:28:11,410
+ 
+
+751
+00:28:07,040 --> 00:28:16,550
+ introduce this prior distribution so P
+
+752
+00:28:11,400 --> 00:28:16,550
+ 
+
+753
+00:28:11,410 --> 00:28:20,020
+ and then we use holders inequality then
+
+754
+00:28:16,540 --> 00:28:20,020
+ 
+
+755
+00:28:16,550 --> 00:28:23,270
+ we apply Markov inequality one time and
+
+756
+00:28:20,010 --> 00:28:23,270
+ 
+
+757
+00:28:20,020 --> 00:28:25,610
+ we just rewrite terms and that's the way
+
+758
+00:28:23,260 --> 00:28:25,610
+ 
+
+759
+00:28:23,270 --> 00:28:29,480
+ it goes so this very short proof
+
+760
+00:28:25,600 --> 00:28:29,480
+ 
+
+761
+00:28:25,610 --> 00:28:31,850
+ actually encompasses lots of corollaries
+
+762
+00:28:29,470 --> 00:28:31,850
+ 
+
+763
+00:28:29,480 --> 00:28:34,220
+ in many different situations so I
+
+764
+00:28:31,840 --> 00:28:34,220
+ 
+
+765
+00:28:31,850 --> 00:28:42,620
+ mentioned heavy-tailed time series and
+
+766
+00:28:34,210 --> 00:28:42,620
+ 
+
+767
+00:28:34,220 --> 00:28:45,530
+ banded losses and so on I'd like to know
+
+768
+00:28:42,610 --> 00:28:45,530
+ 
+
+769
+00:28:42,620 --> 00:28:48,650
+ a few words about Oracle bounds or
+
+770
+00:28:45,520 --> 00:28:48,650
+ 
+
+771
+00:28:45,530 --> 00:28:51,910
+ Oracle bounds are a distinct line of
+
+772
+00:28:48,640 --> 00:28:51,910
+ 
+
+773
+00:28:48,650 --> 00:28:55,400
+ research within PAC base which is
+
+774
+00:28:51,900 --> 00:28:55,400
+ 
+
+775
+00:28:51,910 --> 00:28:59,060
+ largely due to already get any and other
+
+776
+00:28:55,390 --> 00:28:59,060
+ 
+
+777
+00:28:55,400 --> 00:29:00,950
+ co-authors in our compounds are bit
+
+778
+00:28:59,050 --> 00:29:00,950
+ 
+
+779
+00:28:59,060 --> 00:29:02,810
+ distinct actually from the bands we've
+
+780
+00:29:00,940 --> 00:29:02,810
+ 
+
+781
+00:29:00,950 --> 00:29:04,550
+ seen so far so in all the bands we've
+
+782
+00:29:02,800 --> 00:29:04,550
+ 
+
+783
+00:29:02,810 --> 00:29:07,310
+ seen so far the right hand side is
+
+784
+00:29:04,540 --> 00:29:07,310
+ 
+
+785
+00:29:04,550 --> 00:29:10,370
+ always computable right so you have this
+
+786
+00:29:07,300 --> 00:29:10,370
+ 
+
+787
+00:29:07,310 --> 00:29:12,710
+ example risk plus a term complexity term
+
+788
+00:29:10,360 --> 00:29:12,710
+ 
+
+789
+00:29:10,370 --> 00:29:16,400
+ which depends on data the prior and the
+
+790
+00:29:12,700 --> 00:29:16,400
+ 
+
+791
+00:29:12,710 --> 00:29:18,230
+ posterior in Odaiba Kotani further
+
+792
+00:29:16,390 --> 00:29:18,230
+ 
+
+793
+00:29:16,400 --> 00:29:19,850
+ derived migration bounds for this
+
+794
+00:29:18,220 --> 00:29:19,850
+ 
+
+795
+00:29:18,230 --> 00:29:22,490
+ particular choice of the posterior which
+
+796
+00:29:19,840 --> 00:29:22,490
+ 
+
+797
+00:29:19,850 --> 00:29:23,150
+ is the gifts posterior as we've seen it
+
+798
+00:29:22,480 --> 00:29:23,150
+ 
+
+799
+00:29:22,490 --> 00:29:26,720
+ has
+
+800
+00:29:23,140 --> 00:29:26,720
+ 
+
+801
+00:29:23,150 --> 00:29:29,480
+ very interesting properties in if you
+
+802
+00:29:26,710 --> 00:29:29,480
+ 
+
+803
+00:29:26,720 --> 00:29:33,220
+ assume that the loss is upon bonded by
+
+804
+00:29:29,470 --> 00:29:33,220
+ 
+
+805
+00:29:29,480 --> 00:29:35,720
+ some constants then he was able to prove
+
+806
+00:29:33,210 --> 00:29:35,720
+ 
+
+807
+00:29:33,220 --> 00:29:38,630
+ results of that flavor so what this
+
+808
+00:29:35,710 --> 00:29:38,630
+ 
+
+809
+00:29:35,720 --> 00:29:41,030
+ bound says is that the out sample risk
+
+810
+00:29:38,620 --> 00:29:41,030
+ 
+
+811
+00:29:38,630 --> 00:29:43,400
+ of the Gibbs material so this is the
+
+812
+00:29:41,020 --> 00:29:43,400
+ 
+
+813
+00:29:41,030 --> 00:29:46,460
+ true risk of the Gibson post area is
+
+814
+00:29:43,390 --> 00:29:46,460
+ 
+
+815
+00:29:43,400 --> 00:29:47,960
+ appended by a complexity term here that
+
+816
+00:29:46,450 --> 00:29:47,960
+ 
+
+817
+00:29:46,460 --> 00:29:49,910
+ I'm not gonna come at much because it's
+
+818
+00:29:47,950 --> 00:29:49,910
+ 
+
+819
+00:29:47,960 --> 00:29:52,130
+ very similar to the ones we've seen so
+
+820
+00:29:49,900 --> 00:29:52,130
+ 
+
+821
+00:29:49,910 --> 00:29:54,110
+ far what's more interesting is the first
+
+822
+00:29:52,120 --> 00:29:54,110
+ 
+
+823
+00:29:52,130 --> 00:29:56,630
+ part of the right hand side which is an
+
+824
+00:29:54,100 --> 00:29:56,630
+ 
+
+825
+00:29:54,110 --> 00:30:00,350
+ infimum over any posterior distribution
+
+826
+00:29:56,620 --> 00:30:00,350
+ 
+
+827
+00:29:56,630 --> 00:30:02,600
+ q of the out-of-sample risk this is no
+
+828
+00:30:00,340 --> 00:30:02,600
+ 
+
+829
+00:30:00,350 --> 00:30:05,240
+ longer the in-sample risk so in a sense
+
+830
+00:30:02,590 --> 00:30:05,240
+ 
+
+831
+00:30:02,600 --> 00:30:09,200
+ this gives you a much stronger guarantee
+
+832
+00:30:05,230 --> 00:30:09,200
+ 
+
+833
+00:30:05,240 --> 00:30:13,280
+ that these keeps posterior Q lambda
+
+834
+00:30:09,190 --> 00:30:13,280
+ 
+
+835
+00:30:09,200 --> 00:30:15,500
+ actually enjoys a very strong upper
+
+836
+00:30:13,270 --> 00:30:15,500
+ 
+
+837
+00:30:13,280 --> 00:30:17,360
+ bound on its out-of-sample risk because
+
+838
+00:30:15,490 --> 00:30:17,360
+ 
+
+839
+00:30:15,500 --> 00:30:20,480
+ you're basically saying that this
+
+840
+00:30:17,350 --> 00:30:20,480
+ 
+
+841
+00:30:17,360 --> 00:30:24,980
+ out-of-sample risk is lower than any
+
+842
+00:30:20,470 --> 00:30:24,980
+ 
+
+843
+00:30:20,480 --> 00:30:28,160
+ out-of-sample risk for any posterior so
+
+844
+00:30:24,970 --> 00:30:28,160
+ 
+
+845
+00:30:24,980 --> 00:30:31,700
+ this is the very nice aspect to it
+
+846
+00:30:28,150 --> 00:30:31,700
+ 
+
+847
+00:30:28,160 --> 00:30:34,370
+ the cons obviously of that is that you
+
+848
+00:30:31,690 --> 00:30:34,370
+ 
+
+849
+00:30:31,700 --> 00:30:38,660
+ actually can no longer optimize this
+
+850
+00:30:34,360 --> 00:30:38,660
+ 
+
+851
+00:30:34,370 --> 00:30:40,970
+ term to find optimal algorithms and in
+
+852
+00:30:38,650 --> 00:30:40,970
+ 
+
+853
+00:30:38,660 --> 00:30:44,780
+ particular it's not computable so this
+
+854
+00:30:40,960 --> 00:30:44,780
+ 
+
+855
+00:30:40,970 --> 00:30:46,610
+ is a distinct route but nevertheless it
+
+856
+00:30:44,770 --> 00:30:46,610
+ 
+
+857
+00:30:44,780 --> 00:30:51,320
+ has been largely addressed in the
+
+858
+00:30:46,600 --> 00:30:51,320
+ 
+
+859
+00:30:46,610 --> 00:30:54,260
+ literature okay so we're now reaching
+
+860
+00:30:51,310 --> 00:30:54,260
+ 
+
+861
+00:30:51,320 --> 00:30:57,880
+ this case study ports so I'm gonna hand
+
+862
+00:30:54,250 --> 00:30:57,880
+ 
+
+863
+00:30:54,260 --> 00:30:57,880
+ over to John now thank you
+
+864
+00:31:01,999 --> 00:31:01,999
+ 
+
+865
+00:31:02,009 --> 00:31:08,620
+ okay so hmm I'm going to speak a little
+
+866
+00:31:06,629 --> 00:31:08,620
+ 
+
+867
+00:31:06,639 --> 00:31:11,200
+ bit I'm not sure how much time I'll have
+
+868
+00:31:08,610 --> 00:31:11,200
+ 
+
+869
+00:31:08,620 --> 00:31:13,360
+ to cover in depth all of these but I'm
+
+870
+00:31:11,190 --> 00:31:13,360
+ 
+
+871
+00:31:11,200 --> 00:31:15,490
+ going to try to cover a little bit of
+
+872
+00:31:13,350 --> 00:31:15,490
+ 
+
+873
+00:31:13,360 --> 00:31:18,220
+ three case studies the first one is
+
+874
+00:31:15,480 --> 00:31:18,220
+ 
+
+875
+00:31:15,490 --> 00:31:21,100
+ so-called localized pack days which are
+
+876
+00:31:18,210 --> 00:31:21,100
+ 
+
+877
+00:31:18,220 --> 00:31:23,649
+ really about trying to think about ways
+
+878
+00:31:21,090 --> 00:31:23,649
+ 
+
+879
+00:31:21,100 --> 00:31:25,600
+ in which we can choose the prior in a
+
+880
+00:31:23,639 --> 00:31:25,600
+ 
+
+881
+00:31:23,649 --> 00:31:27,669
+ way that in somehow depends on the data
+
+882
+00:31:25,590 --> 00:31:27,669
+ 
+
+883
+00:31:25,600 --> 00:31:32,740
+ or at least the data generating
+
+884
+00:31:27,659 --> 00:31:32,740
+ 
+
+885
+00:31:27,669 --> 00:31:36,399
+ distribution so data or distribution
+
+886
+00:31:32,730 --> 00:31:36,399
+ 
+
+887
+00:31:32,740 --> 00:31:38,559
+ dependent bias so clearly pack based
+
+888
+00:31:36,389 --> 00:31:38,559
+ 
+
+889
+00:31:36,399 --> 00:31:41,350
+ bounds expressed a trade-off between the
+
+890
+00:31:38,549 --> 00:31:41,350
+ 
+
+891
+00:31:38,559 --> 00:31:43,419
+ empirical accuracy that we're able to
+
+892
+00:31:41,340 --> 00:31:43,419
+ 
+
+893
+00:31:41,350 --> 00:31:45,999
+ achieve and this measure of complexity
+
+894
+00:31:43,409 --> 00:31:45,999
+ 
+
+895
+00:31:43,419 --> 00:31:48,820
+ so we're we're you know the task is to
+
+896
+00:31:45,989 --> 00:31:48,820
+ 
+
+897
+00:31:45,999 --> 00:31:51,460
+ find a queue that does reasonably well
+
+898
+00:31:48,810 --> 00:31:51,460
+ 
+
+899
+00:31:48,820 --> 00:31:53,769
+ on the training data but isn't too far
+
+900
+00:31:51,450 --> 00:31:53,769
+ 
+
+901
+00:31:51,460 --> 00:31:56,830
+ from the prior clearly that's that's the
+
+902
+00:31:53,759 --> 00:31:56,830
+ 
+
+903
+00:31:53,769 --> 00:32:02,080
+ trade-off that a you know a pack Bayes
+
+904
+00:31:56,820 --> 00:32:02,080
+ 
+
+905
+00:31:56,830 --> 00:32:04,090
+ inspired algorithm will will make the
+
+906
+00:32:02,070 --> 00:32:04,090
+ 
+
+907
+00:32:02,080 --> 00:32:07,029
+ question and it's how can we try to
+
+908
+00:32:04,080 --> 00:32:07,029
+ 
+
+909
+00:32:04,090 --> 00:32:09,970
+ improve in the bounds that we might get
+
+910
+00:32:07,019 --> 00:32:09,970
+ 
+
+911
+00:32:07,029 --> 00:32:12,190
+ an important component in this analysis
+
+912
+00:32:09,960 --> 00:32:12,190
+ 
+
+913
+00:32:09,970 --> 00:32:14,799
+ is this choice of the prior distribution
+
+914
+00:32:12,180 --> 00:32:14,799
+ 
+
+915
+00:32:12,190 --> 00:32:17,110
+ here because clearly that's going to
+
+916
+00:32:14,789 --> 00:32:17,110
+ 
+
+917
+00:32:14,799 --> 00:32:22,960
+ really constrain us in the way in which
+
+918
+00:32:17,100 --> 00:32:22,960
+ 
+
+919
+00:32:17,110 --> 00:32:26,110
+ we can choose Q now as we emphasized at
+
+920
+00:32:22,950 --> 00:32:26,110
+ 
+
+921
+00:32:22,960 --> 00:32:29,110
+ the beginning the the choice of the
+
+922
+00:32:26,100 --> 00:32:29,110
+ 
+
+923
+00:32:26,110 --> 00:32:31,570
+ prior is up to you it doesn't have any
+
+924
+00:32:29,100 --> 00:32:31,570
+ 
+
+925
+00:32:29,110 --> 00:32:35,860
+ sort of philosophical truth or anything
+
+926
+00:32:31,560 --> 00:32:35,860
+ 
+
+927
+00:32:31,570 --> 00:32:38,769
+ to it the only constraint is that you
+
+928
+00:32:35,850 --> 00:32:38,769
+ 
+
+929
+00:32:35,860 --> 00:32:41,980
+ mustn't use the data that you are using
+
+930
+00:32:38,759 --> 00:32:41,980
+ 
+
+931
+00:32:38,769 --> 00:32:44,320
+ to measure the performance of the pack
+
+932
+00:32:41,970 --> 00:32:44,320
+ 
+
+933
+00:32:41,980 --> 00:32:47,529
+ based bound in the definition of that
+
+934
+00:32:44,310 --> 00:32:47,529
+ 
+
+935
+00:32:44,320 --> 00:32:49,499
+ prior so there are all sorts of you know
+
+936
+00:32:47,519 --> 00:32:49,499
+ 
+
+937
+00:32:47,529 --> 00:32:52,659
+ tricks you might be able to play here
+
+938
+00:32:49,489 --> 00:32:52,659
+ 
+
+939
+00:32:49,499 --> 00:32:55,360
+ and the first I'm going to talk about is
+
+940
+00:32:52,649 --> 00:32:55,360
+ 
+
+941
+00:32:52,659 --> 00:32:57,009
+ maybe we use half the data to to to
+
+942
+00:32:55,350 --> 00:32:57,009
+ 
+
+943
+00:32:55,360 --> 00:32:59,830
+ define the prior and then use the other
+
+944
+00:32:56,999 --> 00:32:59,830
+ 
+
+945
+00:32:57,009 --> 00:33:01,360
+ half to evaluate the bound so the part
+
+946
+00:32:59,820 --> 00:33:01,360
+ 
+
+947
+00:32:59,830 --> 00:33:03,999
+ that we're evaluating the bound with
+
+948
+00:33:01,350 --> 00:33:03,999
+ 
+
+949
+00:33:01,360 --> 00:33:05,830
+ hasn't been used to choose the prior but
+
+950
+00:33:03,989 --> 00:33:05,830
+ 
+
+951
+00:33:03,999 --> 00:33:07,960
+ we have used some data to choose the
+
+952
+00:33:05,820 --> 00:33:07,960
+ 
+
+953
+00:33:05,830 --> 00:33:10,430
+ prior the fact that we use all the data
+
+954
+00:33:07,950 --> 00:33:10,430
+ 
+
+955
+00:33:07,960 --> 00:33:14,210
+ to learn the
+
+956
+00:33:10,420 --> 00:33:14,210
+ 
+
+957
+00:33:10,430 --> 00:33:16,550
+ function is still okay it's just in
+
+958
+00:33:14,200 --> 00:33:16,550
+ 
+
+959
+00:33:14,210 --> 00:33:19,430
+ terms of separating out the use of the
+
+960
+00:33:16,540 --> 00:33:19,430
+ 
+
+961
+00:33:16,550 --> 00:33:22,250
+ data that is evaluating the bound from
+
+962
+00:33:19,420 --> 00:33:22,250
+ 
+
+963
+00:33:19,430 --> 00:33:24,490
+ that that is used to choose the prior so
+
+964
+00:33:22,240 --> 00:33:24,490
+ 
+
+965
+00:33:22,250 --> 00:33:29,750
+ that's one possibility
+
+966
+00:33:24,480 --> 00:33:29,750
+ 
+
+967
+00:33:24,490 --> 00:33:32,900
+ okay so this is what I'm going to call
+
+968
+00:33:29,740 --> 00:33:32,900
+ 
+
+969
+00:33:29,750 --> 00:33:36,410
+ learning the prior amble will I'll give
+
+970
+00:33:32,890 --> 00:33:36,410
+ 
+
+971
+00:33:32,900 --> 00:33:40,550
+ some examples with svms but perhaps even
+
+972
+00:33:36,400 --> 00:33:40,550
+ 
+
+973
+00:33:36,410 --> 00:33:42,710
+ more curious and potentially interesting
+
+974
+00:33:40,540 --> 00:33:42,710
+ 
+
+975
+00:33:40,550 --> 00:33:45,410
+ I think is the idea of defining the
+
+976
+00:33:42,700 --> 00:33:45,410
+ 
+
+977
+00:33:42,710 --> 00:33:48,050
+ prior in terms of the data generating
+
+978
+00:33:45,400 --> 00:33:48,050
+ 
+
+979
+00:33:45,410 --> 00:33:50,600
+ distribution and this is sometimes known
+
+980
+00:33:48,040 --> 00:33:50,600
+ 
+
+981
+00:33:48,050 --> 00:33:56,390
+ as a localized pack pace so I'll come to
+
+982
+00:33:50,590 --> 00:33:56,390
+ 
+
+983
+00:33:50,600 --> 00:33:57,740
+ that later so in the SVM application so
+
+984
+00:33:56,380 --> 00:33:57,740
+ 
+
+985
+00:33:56,390 --> 00:34:00,890
+ this is I'm just going to do a quick
+
+986
+00:33:57,730 --> 00:34:00,890
+ 
+
+987
+00:33:57,740 --> 00:34:03,230
+ recap of what how you apply pack days to
+
+988
+00:34:00,880 --> 00:34:03,230
+ 
+
+989
+00:34:00,890 --> 00:34:05,890
+ in the in the sort of standard setting
+
+990
+00:34:03,220 --> 00:34:05,890
+ 
+
+991
+00:34:03,230 --> 00:34:08,570
+ to svms
+
+992
+00:34:05,880 --> 00:34:08,570
+ 
+
+993
+00:34:05,890 --> 00:34:10,730
+ as I said we're free to choose the
+
+994
+00:34:08,560 --> 00:34:10,730
+ 
+
+995
+00:34:08,570 --> 00:34:12,950
+ distributions prior and posterior any
+
+996
+00:34:10,720 --> 00:34:12,950
+ 
+
+997
+00:34:10,730 --> 00:34:15,230
+ way we like so in order to make
+
+998
+00:34:12,940 --> 00:34:15,230
+ 
+
+999
+00:34:12,950 --> 00:34:16,970
+ computations simple we choose the prior
+
+1000
+00:34:15,220 --> 00:34:16,970
+ 
+
+1001
+00:34:15,230 --> 00:34:18,980
+ and posterior to be SEVIS fee Racal
+
+1002
+00:34:16,960 --> 00:34:18,980
+ 
+
+1003
+00:34:16,970 --> 00:34:21,230
+ gaussians the prior centered at the
+
+1004
+00:34:18,970 --> 00:34:21,230
+ 
+
+1005
+00:34:18,980 --> 00:34:24,740
+ origin and the posterior centered at
+
+1006
+00:34:21,220 --> 00:34:24,740
+ 
+
+1007
+00:34:21,230 --> 00:34:28,610
+ some scaling mu of the unit SVM weight
+
+1008
+00:34:24,730 --> 00:34:28,610
+ 
+
+1009
+00:34:24,740 --> 00:34:30,590
+ vector I'm assuming that the threshold
+
+1010
+00:34:28,600 --> 00:34:30,590
+ 
+
+1011
+00:34:28,610 --> 00:34:35,570
+ has being incorporated into the weight
+
+1012
+00:34:30,580 --> 00:34:35,570
+ 
+
+1013
+00:34:30,590 --> 00:34:37,850
+ vector who is set to zero so because of
+
+1014
+00:34:35,560 --> 00:34:37,850
+ 
+
+1015
+00:34:35,570 --> 00:34:40,220
+ the KL divergence between gaussians is
+
+1016
+00:34:37,840 --> 00:34:40,220
+ 
+
+1017
+00:34:37,850 --> 00:34:41,930
+ just the spherical Gaussian it's just
+
+1018
+00:34:40,210 --> 00:34:41,930
+ 
+
+1019
+00:34:40,220 --> 00:34:45,100
+ the Euclidean distance between there
+
+1020
+00:34:41,920 --> 00:34:45,100
+ 
+
+1021
+00:34:41,930 --> 00:34:47,690
+ means this implies that the KL term is
+
+1022
+00:34:45,090 --> 00:34:47,690
+ 
+
+1023
+00:34:45,100 --> 00:34:49,460
+ mu squared over two sorries half the
+
+1024
+00:34:47,680 --> 00:34:49,460
+ 
+
+1025
+00:34:47,690 --> 00:34:53,180
+ Euclidean distance between their means
+
+1026
+00:34:49,450 --> 00:34:53,180
+ 
+
+1027
+00:34:49,460 --> 00:34:55,310
+ and in this case we can also compute
+
+1028
+00:34:53,170 --> 00:34:55,310
+ 
+
+1029
+00:34:53,180 --> 00:34:56,720
+ exactly the stochastic error of the
+
+1030
+00:34:55,300 --> 00:34:56,720
+ 
+
+1031
+00:34:55,310 --> 00:34:58,640
+ posterior distribution so that this
+
+1032
+00:34:56,710 --> 00:34:58,640
+ 
+
+1033
+00:34:56,720 --> 00:35:02,450
+ tyria distribution is just a Gaussian
+
+1034
+00:34:58,630 --> 00:35:02,450
+ 
+
+1035
+00:34:58,640 --> 00:35:03,980
+ centered at the SVM white picture and it
+
+1036
+00:35:02,440 --> 00:35:03,980
+ 
+
+1037
+00:35:02,450 --> 00:35:06,050
+ sort of behaved like a soft margin
+
+1038
+00:35:03,970 --> 00:35:06,050
+ 
+
+1039
+00:35:03,980 --> 00:35:08,810
+ perhaps you know you could imagine it
+
+1040
+00:35:06,040 --> 00:35:08,810
+ 
+
+1041
+00:35:06,050 --> 00:35:10,640
+ the marginal distribution of a Gaussian
+
+1042
+00:35:08,800 --> 00:35:10,640
+ 
+
+1043
+00:35:08,810 --> 00:35:12,440
+ is always a Gaussian and so it's
+
+1044
+00:35:10,630 --> 00:35:12,440
+ 
+
+1045
+00:35:10,640 --> 00:35:17,540
+ actually a cumulative normal
+
+1046
+00:35:12,430 --> 00:35:17,540
+ 
+
+1047
+00:35:12,440 --> 00:35:21,140
+ distribution of the of the weight vector
+
+1048
+00:35:17,530 --> 00:35:21,140
+ 
+
+1049
+00:35:17,540 --> 00:35:23,420
+ so it's it's actually quite quite simple
+
+1050
+00:35:21,130 --> 00:35:23,420
+ 
+
+1051
+00:35:21,140 --> 00:35:25,700
+ and scaling mu
+
+1052
+00:35:23,410 --> 00:35:25,700
+ 
+
+1053
+00:35:23,420 --> 00:35:28,400
+ effectively doing this trade-off between
+
+1054
+00:35:25,690 --> 00:35:28,400
+ 
+
+1055
+00:35:25,700 --> 00:35:31,579
+ the margin loss bigger mu reduces the
+
+1056
+00:35:28,390 --> 00:35:31,579
+ 
+
+1057
+00:35:28,400 --> 00:35:34,250
+ margin loss but increases the KL clearly
+
+1058
+00:35:31,569 --> 00:35:34,250
+ 
+
+1059
+00:35:31,579 --> 00:35:37,490
+ you know Mew squared over two will
+
+1060
+00:35:34,240 --> 00:35:37,490
+ 
+
+1061
+00:35:34,250 --> 00:35:39,290
+ increase so the band holds for all Musa
+
+1062
+00:35:37,480 --> 00:35:39,290
+ 
+
+1063
+00:35:37,490 --> 00:35:44,119
+ you choose them you to optimize the
+
+1064
+00:35:39,280 --> 00:35:44,119
+ 
+
+1065
+00:35:39,290 --> 00:35:46,130
+ bound and the generalization of that you
+
+1066
+00:35:44,109 --> 00:35:46,130
+ 
+
+1067
+00:35:44,119 --> 00:35:47,780
+ get is a band on this randomized
+
+1068
+00:35:46,120 --> 00:35:47,780
+ 
+
+1069
+00:35:46,130 --> 00:35:49,970
+ classifier with the posterior
+
+1070
+00:35:47,770 --> 00:35:49,970
+ 
+
+1071
+00:35:47,780 --> 00:35:51,859
+ distribution however you can leverage
+
+1072
+00:35:49,960 --> 00:35:51,859
+ 
+
+1073
+00:35:49,970 --> 00:35:54,140
+ the fact that it's a linear function and
+
+1074
+00:35:51,849 --> 00:35:54,140
+ 
+
+1075
+00:35:51,859 --> 00:35:57,530
+ that it's a symmetrical distribution to
+
+1076
+00:35:54,130 --> 00:35:57,530
+ 
+
+1077
+00:35:54,140 --> 00:36:01,430
+ actually bound the generalization also
+
+1078
+00:35:57,520 --> 00:36:01,430
+ 
+
+1079
+00:35:57,530 --> 00:36:06,349
+ of the the SVM that you output the
+
+1080
+00:36:01,420 --> 00:36:06,349
+ 
+
+1081
+00:36:01,430 --> 00:36:09,109
+ deterministic classifier as in as at
+
+1082
+00:36:06,339 --> 00:36:09,109
+ 
+
+1083
+00:36:06,349 --> 00:36:11,359
+ most twice the generalization of the
+
+1084
+00:36:09,099 --> 00:36:11,359
+ 
+
+1085
+00:36:09,109 --> 00:36:13,339
+ stochastic in fact it may be much better
+
+1086
+00:36:11,349 --> 00:36:13,339
+ 
+
+1087
+00:36:11,359 --> 00:36:17,839
+ than that but that's the bound that you
+
+1088
+00:36:13,329 --> 00:36:17,839
+ 
+
+1089
+00:36:13,339 --> 00:36:21,140
+ get okay so what about learning the
+
+1090
+00:36:17,829 --> 00:36:21,140
+ 
+
+1091
+00:36:17,839 --> 00:36:22,220
+ prior so say the the bound depends on
+
+1092
+00:36:21,130 --> 00:36:22,220
+ 
+
+1093
+00:36:21,140 --> 00:36:24,049
+ this distance between power and
+
+1094
+00:36:22,210 --> 00:36:24,049
+ 
+
+1095
+00:36:22,220 --> 00:36:27,079
+ posterior which is just the Euclidean
+
+1096
+00:36:24,039 --> 00:36:27,079
+ 
+
+1097
+00:36:24,049 --> 00:36:28,940
+ distance over to if we could choose a
+
+1098
+00:36:27,069 --> 00:36:28,940
+ 
+
+1099
+00:36:27,079 --> 00:36:32,240
+ better prior we might get a tighter
+
+1100
+00:36:28,930 --> 00:36:32,240
+ 
+
+1101
+00:36:28,940 --> 00:36:33,950
+ bound so as I mentioned we learn the
+
+1102
+00:36:32,230 --> 00:36:33,950
+ 
+
+1103
+00:36:32,240 --> 00:36:36,010
+ prior with part of the data and then
+
+1104
+00:36:33,940 --> 00:36:36,010
+ 
+
+1105
+00:36:33,950 --> 00:36:38,630
+ introduce the learn prior into the bound
+
+1106
+00:36:36,000 --> 00:36:38,630
+ 
+
+1107
+00:36:36,010 --> 00:36:40,190
+ and then compute the stochastic error
+
+1108
+00:36:38,620 --> 00:36:40,190
+ 
+
+1109
+00:36:38,630 --> 00:36:45,380
+ with the remaining data this isn't going
+
+1110
+00:36:40,180 --> 00:36:45,380
+ 
+
+1111
+00:36:40,190 --> 00:36:48,319
+ to refer to as the prior PAC bound it's
+
+1112
+00:36:45,370 --> 00:36:48,319
+ 
+
+1113
+00:36:45,380 --> 00:36:50,900
+ just a an application of the PAC based
+
+1114
+00:36:48,309 --> 00:36:50,900
+ 
+
+1115
+00:36:48,319 --> 00:36:54,170
+ bound in that setting but we can also go
+
+1116
+00:36:50,890 --> 00:36:54,170
+ 
+
+1117
+00:36:50,900 --> 00:36:56,540
+ a step further we can consider scaling
+
+1118
+00:36:54,160 --> 00:36:56,540
+ 
+
+1119
+00:36:54,170 --> 00:36:58,579
+ the prior in the chosen direction and
+
+1120
+00:36:56,530 --> 00:36:58,579
+ 
+
+1121
+00:36:56,540 --> 00:37:01,549
+ that I'll refer to as the Tau Prout
+
+1122
+00:36:58,569 --> 00:37:01,549
+ 
+
+1123
+00:36:58,579 --> 00:37:04,549
+ prior PAC days so that's still same
+
+1124
+00:37:01,539 --> 00:37:04,549
+ 
+
+1125
+00:37:01,549 --> 00:37:08,180
+ technique but we just allow a scaling of
+
+1126
+00:37:04,539 --> 00:37:08,180
+ 
+
+1127
+00:37:04,549 --> 00:37:10,160
+ that prior and finally we can actually
+
+1128
+00:37:08,170 --> 00:37:10,160
+ 
+
+1129
+00:37:08,180 --> 00:37:12,020
+ adapt the SVM algorithm itself to
+
+1130
+00:37:10,150 --> 00:37:12,020
+ 
+
+1131
+00:37:10,160 --> 00:37:15,440
+ optimize this bound in other words
+
+1132
+00:37:12,010 --> 00:37:15,440
+ 
+
+1133
+00:37:12,020 --> 00:37:17,180
+ choose now given we've got a prior
+
+1134
+00:37:15,430 --> 00:37:17,180
+ 
+
+1135
+00:37:15,440 --> 00:37:18,710
+ Direction we can choose our weight
+
+1136
+00:37:17,170 --> 00:37:18,710
+ 
+
+1137
+00:37:17,180 --> 00:37:23,020
+ vector to try to be close to that
+
+1138
+00:37:18,700 --> 00:37:23,020
+ 
+
+1139
+00:37:18,710 --> 00:37:25,640
+ direction rather than just learn it
+
+1140
+00:37:23,010 --> 00:37:25,640
+ 
+
+1141
+00:37:23,020 --> 00:37:29,089
+ independently of that prior which is the
+
+1142
+00:37:25,630 --> 00:37:29,089
+ 
+
+1143
+00:37:25,640 --> 00:37:31,819
+ way we were doing previously so I'm just
+
+1144
+00:37:29,079 --> 00:37:31,819
+ 
+
+1145
+00:37:29,089 --> 00:37:34,549
+ I'm just showing you now some results
+
+1146
+00:37:31,809 --> 00:37:34,549
+ 
+
+1147
+00:37:31,819 --> 00:37:35,890
+ just to give you a flavor of how tight
+
+1148
+00:37:34,539 --> 00:37:35,890
+ 
+
+1149
+00:37:34,549 --> 00:37:37,869
+ these bounds are
+
+1150
+00:37:35,880 --> 00:37:37,869
+ 
+
+1151
+00:37:35,890 --> 00:37:41,920
+ what are the trade-offs between using
+
+1152
+00:37:37,859 --> 00:37:41,920
+ 
+
+1153
+00:37:37,869 --> 00:37:47,519
+ these different types of prior methods
+
+1154
+00:37:41,910 --> 00:37:47,519
+ 
+
+1155
+00:37:41,920 --> 00:37:47,519
+ so this is all fairly toy data as the
+
+1156
+00:37:47,779 --> 00:37:47,779
+ 
+
+1157
+00:37:47,789 --> 00:37:54,789
+ digits waveform Pima ring norm and spam
+
+1158
+00:37:51,569 --> 00:37:54,789
+ 
+
+1159
+00:37:51,579 --> 00:37:56,970
+ data sets I you know I'm sure you're
+
+1160
+00:37:54,779 --> 00:37:56,970
+ 
+
+1161
+00:37:54,789 --> 00:37:59,829
+ probably all familiar familiar with them
+
+1162
+00:37:56,960 --> 00:37:59,829
+ 
+
+1163
+00:37:56,970 --> 00:38:02,920
+ so there are basically two algorithms
+
+1164
+00:37:59,819 --> 00:38:02,920
+ 
+
+1165
+00:37:59,829 --> 00:38:05,950
+ there's the SVM algorithm here and the
+
+1166
+00:38:02,910 --> 00:38:05,950
+ 
+
+1167
+00:38:02,920 --> 00:38:11,140
+ this one that optimizes against the
+
+1168
+00:38:05,940 --> 00:38:11,140
+ 
+
+1169
+00:38:05,950 --> 00:38:14,140
+ prior there are the pac bound the prior
+
+1170
+00:38:11,130 --> 00:38:14,140
+ 
+
+1171
+00:38:11,140 --> 00:38:16,680
+ pack bound and then this tau prior pack
+
+1172
+00:38:14,130 --> 00:38:16,680
+ 
+
+1173
+00:38:14,140 --> 00:38:20,799
+ bound which uses this more flexible
+
+1174
+00:38:16,670 --> 00:38:20,799
+ 
+
+1175
+00:38:16,680 --> 00:38:23,140
+ prior and for each I've got the bound
+
+1176
+00:38:20,789 --> 00:38:23,140
+ 
+
+1177
+00:38:20,799 --> 00:38:27,549
+ but I've also used the bound to do model
+
+1178
+00:38:23,130 --> 00:38:27,549
+ 
+
+1179
+00:38:23,140 --> 00:38:29,589
+ selection and therefore I also not only
+
+1180
+00:38:27,539 --> 00:38:29,589
+ 
+
+1181
+00:38:27,549 --> 00:38:33,999
+ giving the bound but also the test error
+
+1182
+00:38:29,579 --> 00:38:33,999
+ 
+
+1183
+00:38:29,589 --> 00:38:36,849
+ when I've used this bound to do model
+
+1184
+00:38:33,989 --> 00:38:36,849
+ 
+
+1185
+00:38:33,999 --> 00:38:38,319
+ selection and compared it with two fold
+
+1186
+00:38:36,839 --> 00:38:38,319
+ 
+
+1187
+00:38:36,849 --> 00:38:41,019
+ cross validation and 10-fold
+
+1188
+00:38:38,309 --> 00:38:41,019
+ 
+
+1189
+00:38:38,319 --> 00:38:43,930
+ cross-validation so this is now using an
+
+1190
+00:38:41,009 --> 00:38:43,930
+ 
+
+1191
+00:38:41,019 --> 00:38:47,019
+ SVM algorithm using a PAC bound standard
+
+1192
+00:38:43,920 --> 00:38:47,019
+ 
+
+1193
+00:38:43,930 --> 00:38:51,819
+ one pack based bound I mean the one that
+
+1194
+00:38:47,009 --> 00:38:51,819
+ 
+
+1195
+00:38:47,019 --> 00:38:53,440
+ we you know for the other one and to do
+
+1196
+00:38:51,809 --> 00:38:53,440
+ 
+
+1197
+00:38:51,819 --> 00:38:55,539
+ model selection this is using the prior
+
+1198
+00:38:53,430 --> 00:38:55,539
+ 
+
+1199
+00:38:53,440 --> 00:38:59,890
+ PAC whether we used half the data to
+
+1200
+00:38:55,529 --> 00:38:59,890
+ 
+
+1201
+00:38:55,539 --> 00:39:02,170
+ train the prior this is the same way but
+
+1202
+00:38:59,880 --> 00:39:02,170
+ 
+
+1203
+00:38:59,890 --> 00:39:05,710
+ using the now the algorithm to optimize
+
+1204
+00:39:02,160 --> 00:39:05,710
+ 
+
+1205
+00:39:02,170 --> 00:39:11,130
+ the bound so a few things to take away
+
+1206
+00:39:05,700 --> 00:39:11,130
+ 
+
+1207
+00:39:05,710 --> 00:39:13,930
+ from this I think the first thing to say
+
+1208
+00:39:11,120 --> 00:39:13,930
+ 
+
+1209
+00:39:11,130 --> 00:39:15,640
+ and I'll just go to the next slide I'll
+
+1210
+00:39:13,920 --> 00:39:15,640
+ 
+
+1211
+00:39:13,930 --> 00:39:17,650
+ come back just so you can look at it
+
+1212
+00:39:15,630 --> 00:39:17,650
+ 
+
+1213
+00:39:15,640 --> 00:39:20,079
+ first thing to say is that the Barrens
+
+1214
+00:39:17,640 --> 00:39:20,079
+ 
+
+1215
+00:39:17,650 --> 00:39:22,989
+ are remarkably tight if we look at the
+
+1216
+00:39:20,069 --> 00:39:22,989
+ 
+
+1217
+00:39:20,079 --> 00:39:25,390
+ final column the average factor between
+
+1218
+00:39:22,979 --> 00:39:25,390
+ 
+
+1219
+00:39:22,989 --> 00:39:27,430
+ the bound and the test error is under
+
+1220
+00:39:25,380 --> 00:39:27,430
+ 
+
+1221
+00:39:25,390 --> 00:39:31,359
+ three so when I say that I mean this
+
+1222
+00:39:27,420 --> 00:39:31,359
+ 
+
+1223
+00:39:27,430 --> 00:39:36,160
+ column here if you look at the bounds
+
+1224
+00:39:31,349 --> 00:39:36,160
+ 
+
+1225
+00:39:31,359 --> 00:39:38,499
+ and the test error the average ratio is
+
+1226
+00:39:36,150 --> 00:39:38,499
+ 
+
+1227
+00:39:36,160 --> 00:39:40,839
+ about three in some cases it's a little
+
+1228
+00:39:38,489 --> 00:39:40,839
+ 
+
+1229
+00:39:38,499 --> 00:39:43,779
+ bit this one's a little worse but not
+
+1230
+00:39:40,829 --> 00:39:43,779
+ 
+
+1231
+00:39:40,839 --> 00:39:47,450
+ much so I I mean if you're not familiar
+
+1232
+00:39:43,769 --> 00:39:47,450
+ 
+
+1233
+00:39:43,779 --> 00:39:50,690
+ with when I started you know factors
+
+1234
+00:39:47,440 --> 00:39:50,690
+ 
+
+1235
+00:39:47,450 --> 00:39:53,089
+ a million were considered good in ratios
+
+1236
+00:39:50,680 --> 00:39:53,089
+ 
+
+1237
+00:39:50,690 --> 00:39:55,130
+ between test errors and generalization
+
+1238
+00:39:53,079 --> 00:39:55,130
+ 
+
+1239
+00:39:53,089 --> 00:39:57,500
+ bounds but so you know this is this is
+
+1240
+00:39:55,120 --> 00:39:57,500
+ 
+
+1241
+00:39:55,130 --> 00:39:59,540
+ remarkable and you also need to remember
+
+1242
+00:39:57,490 --> 00:39:59,540
+ 
+
+1243
+00:39:57,500 --> 00:40:01,700
+ that in there there's a factor two that
+
+1244
+00:39:59,530 --> 00:40:01,700
+ 
+
+1245
+00:39:59,540 --> 00:40:04,630
+ is probably pretty loose because of the
+
+1246
+00:40:01,690 --> 00:40:04,630
+ 
+
+1247
+00:40:01,700 --> 00:40:07,670
+ factor two in this going from the
+
+1248
+00:40:04,620 --> 00:40:07,670
+ 
+
+1249
+00:40:04,630 --> 00:40:10,700
+ randomized to the chat the deterministic
+
+1250
+00:40:07,660 --> 00:40:10,700
+ 
+
+1251
+00:40:07,670 --> 00:40:13,400
+ classifier so that I mean I think is is
+
+1252
+00:40:10,690 --> 00:40:13,400
+ 
+
+1253
+00:40:10,700 --> 00:40:16,790
+ is certainly reassuring it's not deep
+
+1254
+00:40:13,390 --> 00:40:16,790
+ 
+
+1255
+00:40:13,400 --> 00:40:19,130
+ nets of course the second thing is that
+
+1256
+00:40:16,780 --> 00:40:19,130
+ 
+
+1257
+00:40:16,790 --> 00:40:22,970
+ model selection from the bounds is as
+
+1258
+00:40:19,120 --> 00:40:22,970
+ 
+
+1259
+00:40:19,130 --> 00:40:25,099
+ good as 10-fold cross-validation in fact
+
+1260
+00:40:22,960 --> 00:40:25,099
+ 
+
+1261
+00:40:22,970 --> 00:40:28,040
+ in all but one of the pack based model
+
+1262
+00:40:25,089 --> 00:40:28,040
+ 
+
+1263
+00:40:25,099 --> 00:40:31,609
+ selections gave better results for test
+
+1264
+00:40:28,030 --> 00:40:31,609
+ 
+
+1265
+00:40:28,040 --> 00:40:34,910
+ error so here the one that actually I
+
+1266
+00:40:31,599 --> 00:40:34,910
+ 
+
+1267
+00:40:31,609 --> 00:40:36,230
+ think didn't do so well I'm probably
+
+1268
+00:40:34,900 --> 00:40:36,230
+ 
+
+1269
+00:40:34,910 --> 00:40:39,470
+ going to get it wrong but I think it was
+
+1270
+00:40:36,220 --> 00:40:39,470
+ 
+
+1271
+00:40:36,230 --> 00:40:42,349
+ this prior prior pack but you can see
+
+1272
+00:40:39,460 --> 00:40:42,349
+ 
+
+1273
+00:40:39,470 --> 00:40:44,780
+ the pack B's actually has got as good as
+
+1274
+00:40:42,339 --> 00:40:44,780
+ 
+
+1275
+00:40:42,349 --> 00:40:47,359
+ 10-fold cross-validation here slightly
+
+1276
+00:40:44,770 --> 00:40:47,359
+ 
+
+1277
+00:40:44,780 --> 00:40:50,540
+ better here and significantly better
+
+1278
+00:40:47,349 --> 00:40:50,540
+ 
+
+1279
+00:40:47,359 --> 00:40:52,430
+ here and slightly worse here and
+
+1280
+00:40:50,530 --> 00:40:52,430
+ 
+
+1281
+00:40:50,540 --> 00:40:53,930
+ slightly worse here so naturally it's
+
+1282
+00:40:52,420 --> 00:40:53,930
+ 
+
+1283
+00:40:52,430 --> 00:40:55,400
+ more consistent and it does
+
+1284
+00:40:53,920 --> 00:40:55,400
+ 
+
+1285
+00:40:53,930 --> 00:40:58,849
+ significantly better on one occasion
+
+1286
+00:40:55,390 --> 00:40:58,849
+ 
+
+1287
+00:40:55,400 --> 00:41:03,559
+ basically and as I said on average all
+
+1288
+00:40:58,839 --> 00:41:03,559
+ 
+
+1289
+00:40:58,849 --> 00:41:07,930
+ but one of these give better test errors
+
+1290
+00:41:03,549 --> 00:41:07,930
+ 
+
+1291
+00:41:03,559 --> 00:41:11,049
+ than 10-fold cross-validation and
+
+1292
+00:41:07,920 --> 00:41:11,049
+ 
+
+1293
+00:41:07,930 --> 00:41:13,309
+ finally the sort of slightly
+
+1294
+00:41:11,039 --> 00:41:13,309
+ 
+
+1295
+00:41:11,049 --> 00:41:15,440
+ disappointing perhaps thing is that the
+
+1296
+00:41:13,299 --> 00:41:15,440
+ 
+
+1297
+00:41:13,309 --> 00:41:18,079
+ better bounds did not appear to give
+
+1298
+00:41:15,430 --> 00:41:18,079
+ 
+
+1299
+00:41:15,440 --> 00:41:20,240
+ better model selection so actually the
+
+1300
+00:41:18,069 --> 00:41:20,240
+ 
+
+1301
+00:41:18,079 --> 00:41:22,040
+ best model selection is given by that
+
+1302
+00:41:20,230 --> 00:41:22,040
+ 
+
+1303
+00:41:20,240 --> 00:41:24,890
+ first column here this sorry the first
+
+1304
+00:41:22,030 --> 00:41:24,890
+ 
+
+1305
+00:41:22,040 --> 00:41:28,400
+ one driven by bounds this one actually
+
+1306
+00:41:24,880 --> 00:41:28,400
+ 
+
+1307
+00:41:24,890 --> 00:41:31,160
+ gives the best I mean this one isn't so
+
+1308
+00:41:28,390 --> 00:41:31,160
+ 
+
+1309
+00:41:28,400 --> 00:41:33,349
+ bad it's a bit worse but you know the
+
+1310
+00:41:31,150 --> 00:41:33,349
+ 
+
+1311
+00:41:31,160 --> 00:41:35,390
+ interesting thing is this gives much
+
+1312
+00:41:33,339 --> 00:41:35,390
+ 
+
+1313
+00:41:33,349 --> 00:41:38,569
+ tighter bounds but the bounds don't
+
+1314
+00:41:35,380 --> 00:41:38,569
+ 
+
+1315
+00:41:35,390 --> 00:41:42,319
+ translate into better model selection so
+
+1316
+00:41:38,559 --> 00:41:42,319
+ 
+
+1317
+00:41:38,569 --> 00:41:43,640
+ there's a kind of mismatch here it does
+
+1318
+00:41:42,309 --> 00:41:43,640
+ 
+
+1319
+00:41:42,319 --> 00:41:46,160
+ appear that we're not completely
+
+1320
+00:41:43,630 --> 00:41:46,160
+ 
+
+1321
+00:41:43,640 --> 00:41:49,940
+ capturing the right the right thing in
+
+1322
+00:41:46,150 --> 00:41:49,940
+ 
+
+1323
+00:41:46,160 --> 00:41:51,740
+ the bounds but overall I think you know
+
+1324
+00:41:49,930 --> 00:41:51,740
+ 
+
+1325
+00:41:49,940 --> 00:41:54,829
+ it's kind of reassuring that we are
+
+1326
+00:41:51,730 --> 00:41:54,829
+ 
+
+1327
+00:41:51,740 --> 00:41:57,260
+ getting really quite reliable estimates
+
+1328
+00:41:54,819 --> 00:41:57,260
+ 
+
+1329
+00:41:54,829 --> 00:41:59,690
+ of generalization so now I'm going to
+
+1330
+00:41:57,250 --> 00:41:59,690
+ 
+
+1331
+00:41:57,260 --> 00:42:02,230
+ move on to what I think is possibly a
+
+1332
+00:41:59,680 --> 00:42:02,230
+ 
+
+1333
+00:41:59,690 --> 00:42:04,609
+ more interesting direction for future
+
+1334
+00:42:02,220 --> 00:42:04,609
+ 
+
+1335
+00:42:02,230 --> 00:42:08,569
+ research and that's this distribution
+
+1336
+00:42:04,599 --> 00:42:08,569
+ 
+
+1337
+00:42:04,609 --> 00:42:10,190
+ defined priors so I'm going to start
+
+1338
+00:42:08,559 --> 00:42:10,190
+ 
+
+1339
+00:42:08,569 --> 00:42:13,069
+ with an example and it's actually the
+
+1340
+00:42:10,180 --> 00:42:13,069
+ 
+
+1341
+00:42:10,190 --> 00:42:14,950
+ oldest example which is again linking
+
+1342
+00:42:13,059 --> 00:42:14,950
+ 
+
+1343
+00:42:13,069 --> 00:42:21,160
+ back to the Gibbs distributions that
+
+1344
+00:42:14,940 --> 00:42:21,160
+ 
+
+1345
+00:42:14,950 --> 00:42:23,750
+ Benjamin referred to so here's a kind of
+
+1346
+00:42:21,150 --> 00:42:23,750
+ 
+
+1347
+00:42:21,160 --> 00:42:26,780
+ conundrum that you would think would not
+
+1348
+00:42:23,740 --> 00:42:26,780
+ 
+
+1349
+00:42:23,750 --> 00:42:29,680
+ work so here I'm defining the prior as
+
+1350
+00:42:26,770 --> 00:42:29,680
+ 
+
+1351
+00:42:26,780 --> 00:42:35,030
+ the gibbs distribution but with the
+
+1352
+00:42:29,670 --> 00:42:35,030
+ 
+
+1353
+00:42:29,680 --> 00:42:37,510
+ out-of-sample risk with some temperature
+
+1354
+00:42:35,020 --> 00:42:37,510
+ 
+
+1355
+00:42:35,030 --> 00:42:41,799
+ or inverse temperature parameter gamma
+
+1356
+00:42:37,500 --> 00:42:41,799
+ 
+
+1357
+00:42:37,510 --> 00:42:47,000
+ okay and said primed is a normalization
+
+1358
+00:42:41,789 --> 00:42:47,000
+ 
+
+1359
+00:42:41,799 --> 00:42:50,030
+ constant and the posterior distribution
+
+1360
+00:42:46,990 --> 00:42:50,030
+ 
+
+1361
+00:42:47,000 --> 00:42:54,290
+ is the same distribution but now defined
+
+1362
+00:42:50,020 --> 00:42:54,290
+ 
+
+1363
+00:42:50,030 --> 00:42:57,250
+ with the sample error okay so now this
+
+1364
+00:42:54,280 --> 00:42:57,250
+ 
+
+1365
+00:42:54,290 --> 00:43:00,200
+ distribution this prior distribution
+
+1366
+00:42:57,240 --> 00:43:00,200
+ 
+
+1367
+00:42:57,250 --> 00:43:02,960
+ depends on the data generating
+
+1368
+00:43:00,190 --> 00:43:02,960
+ 
+
+1369
+00:43:00,200 --> 00:43:05,780
+ distribution but it doesn't depend on
+
+1370
+00:43:02,950 --> 00:43:05,780
+ 
+
+1371
+00:43:02,960 --> 00:43:07,430
+ the data this obviously clearly depends
+
+1372
+00:43:05,770 --> 00:43:07,430
+ 
+
+1373
+00:43:05,780 --> 00:43:09,319
+ on the data generating distribution as
+
+1374
+00:43:07,420 --> 00:43:09,319
+ 
+
+1375
+00:43:07,430 --> 00:43:11,990
+ well but it's defined in terms of the
+
+1376
+00:43:09,309 --> 00:43:11,990
+ 
+
+1377
+00:43:09,319 --> 00:43:14,720
+ actual sample that were generated so
+
+1378
+00:43:11,980 --> 00:43:14,720
+ 
+
+1379
+00:43:11,990 --> 00:43:18,770
+ this is now dependent on the sample this
+
+1380
+00:43:14,710 --> 00:43:18,770
+ 
+
+1381
+00:43:14,720 --> 00:43:20,450
+ is not now from I think from us
+
+1382
+00:43:18,760 --> 00:43:20,450
+ 
+
+1383
+00:43:18,770 --> 00:43:23,260
+ classical Bayesian perspective this
+
+1384
+00:43:20,440 --> 00:43:23,260
+ 
+
+1385
+00:43:20,450 --> 00:43:26,859
+ would be very unusual to define a
+
+1386
+00:43:23,250 --> 00:43:26,859
+ 
+
+1387
+00:43:23,260 --> 00:43:29,599
+ distribution and you know the problem
+
+1388
+00:43:26,849 --> 00:43:29,599
+ 
+
+1389
+00:43:26,859 --> 00:43:31,609
+ defining it is one thing working with it
+
+1390
+00:43:29,589 --> 00:43:31,609
+ 
+
+1391
+00:43:29,599 --> 00:43:33,380
+ is another I mean there's no we have no
+
+1392
+00:43:31,599 --> 00:43:33,380
+ 
+
+1393
+00:43:31,609 --> 00:43:37,270
+ knowledge of this distribution or how to
+
+1394
+00:43:33,370 --> 00:43:37,270
+ 
+
+1395
+00:43:33,380 --> 00:43:42,829
+ actually compute it nonetheless
+
+1396
+00:43:37,260 --> 00:43:42,829
+ 
+
+1397
+00:43:37,270 --> 00:43:46,280
+ kotomi and has was able and following
+
+1398
+00:43:42,819 --> 00:43:46,280
+ 
+
+1399
+00:43:42,829 --> 00:43:50,329
+ his lead we also you know produced
+
+1400
+00:43:46,270 --> 00:43:50,329
+ 
+
+1401
+00:43:46,280 --> 00:43:53,599
+ results that bound the the PAC Bayes
+
+1402
+00:43:50,319 --> 00:43:53,599
+ 
+
+1403
+00:43:50,329 --> 00:43:56,359
+ bound for these two distributions this
+
+1404
+00:43:53,589 --> 00:43:56,359
+ 
+
+1405
+00:43:53,599 --> 00:43:58,220
+ prior and this posterior so the first
+
+1406
+00:43:56,349 --> 00:43:58,220
+ 
+
+1407
+00:43:56,359 --> 00:44:01,190
+ thing to note is the the left hand side
+
+1408
+00:43:58,210 --> 00:44:01,190
+ 
+
+1409
+00:43:58,220 --> 00:44:03,380
+ here depends only on this distribution
+
+1410
+00:44:01,180 --> 00:44:03,380
+ 
+
+1411
+00:44:01,190 --> 00:44:05,770
+ the posterior distribution and you know
+
+1412
+00:44:03,370 --> 00:44:05,770
+ 
+
+1413
+00:44:03,380 --> 00:44:07,810
+ in principle that is computable it's
+
+1414
+00:44:05,760 --> 00:44:07,810
+ 
+
+1415
+00:44:05,770 --> 00:44:09,790
+ it may be hard because you've got the
+
+1416
+00:44:07,800 --> 00:44:09,790
+ 
+
+1417
+00:44:07,810 --> 00:44:11,020
+ normalizing constant but in principle
+
+1418
+00:44:09,780 --> 00:44:11,020
+ 
+
+1419
+00:44:09,790 --> 00:44:13,750
+ you should be able to compute with it
+
+1420
+00:44:11,010 --> 00:44:13,750
+ 
+
+1421
+00:44:11,020 --> 00:44:17,860
+ and the right hand side does not depend
+
+1422
+00:44:13,740 --> 00:44:17,860
+ 
+
+1423
+00:44:13,750 --> 00:44:20,920
+ on this prior at all so it's an upper
+
+1424
+00:44:17,850 --> 00:44:20,920
+ 
+
+1425
+00:44:17,860 --> 00:44:22,840
+ bound that has effectively computed the
+
+1426
+00:44:20,910 --> 00:44:22,840
+ 
+
+1427
+00:44:20,920 --> 00:44:25,990
+ KL divergence between these two
+
+1428
+00:44:22,830 --> 00:44:25,990
+ 
+
+1429
+00:44:22,840 --> 00:44:30,490
+ distributions in a way that doesn't
+
+1430
+00:44:25,980 --> 00:44:30,490
+ 
+
+1431
+00:44:25,990 --> 00:44:32,800
+ actually require knowledge of ability to
+
+1432
+00:44:30,480 --> 00:44:32,800
+ 
+
+1433
+00:44:30,490 --> 00:44:35,890
+ work with this distribution so it's kind
+
+1434
+00:44:32,790 --> 00:44:35,890
+ 
+
+1435
+00:44:32,800 --> 00:44:40,330
+ of a you know one might say a little bit
+
+1436
+00:44:35,880 --> 00:44:40,330
+ 
+
+1437
+00:44:35,890 --> 00:44:44,230
+ of magic going on and the found it is
+
+1438
+00:44:40,320 --> 00:44:44,230
+ 
+
+1439
+00:44:40,330 --> 00:44:46,990
+ really very tight in terms of the role
+
+1440
+00:44:44,220 --> 00:44:46,990
+ 
+
+1441
+00:44:44,230 --> 00:44:49,600
+ at least of the sample size M so
+
+1442
+00:44:46,980 --> 00:44:49,600
+ 
+
+1443
+00:44:46,990 --> 00:44:52,600
+ normally you would expect sample size 1
+
+1444
+00:44:49,590 --> 00:44:52,600
+ 
+
+1445
+00:44:49,600 --> 00:44:54,940
+ on M plus some constants which depend on
+
+1446
+00:44:52,590 --> 00:44:54,940
+ 
+
+1447
+00:44:52,600 --> 00:44:58,030
+ complexity here we've got 1 on M and
+
+1448
+00:44:54,930 --> 00:44:58,030
+ 
+
+1449
+00:44:54,940 --> 00:45:00,550
+ then 1 on root M here and 1 on M here
+
+1450
+00:44:58,020 --> 00:45:00,550
+ 
+
+1451
+00:44:58,030 --> 00:45:03,580
+ and the bit that doesn't have a 1 on M
+
+1452
+00:45:00,540 --> 00:45:03,580
+ 
+
+1453
+00:45:00,550 --> 00:45:05,650
+ is only you know very it's only has no
+
+1454
+00:45:03,570 --> 00:45:05,650
+ 
+
+1455
+00:45:03,580 --> 00:45:08,110
+ complexity term the complexity terms
+
+1456
+00:45:05,640 --> 00:45:08,110
+ 
+
+1457
+00:45:05,650 --> 00:45:10,030
+ essentially a gamma and so there is a
+
+1458
+00:45:08,100 --> 00:45:10,030
+ 
+
+1459
+00:45:08,110 --> 00:45:11,350
+ dependence on gamma and I'll come back
+
+1460
+00:45:10,020 --> 00:45:11,350
+ 
+
+1461
+00:45:10,030 --> 00:45:14,260
+ to that later when we talk about
+
+1462
+00:45:11,340 --> 00:45:14,260
+ 
+
+1463
+00:45:11,350 --> 00:45:17,200
+ deepness so this is I think you know a
+
+1464
+00:45:14,250 --> 00:45:17,200
+ 
+
+1465
+00:45:14,260 --> 00:45:19,690
+ very interesting direction and one that
+
+1466
+00:45:17,190 --> 00:45:19,690
+ 
+
+1467
+00:45:17,200 --> 00:45:22,270
+ is very counterintuitive for a more
+
+1468
+00:45:19,680 --> 00:45:22,270
+ 
+
+1469
+00:45:19,690 --> 00:45:29,470
+ classical Bayesian way of thinking about
+
+1470
+00:45:22,260 --> 00:45:29,470
+ 
+
+1471
+00:45:22,270 --> 00:45:31,600
+ things so even though we cannot compute
+
+1472
+00:45:29,460 --> 00:45:31,600
+ 
+
+1473
+00:45:29,470 --> 00:45:34,750
+ the prior distribution or even sample
+
+1474
+00:45:31,590 --> 00:45:34,750
+ 
+
+1475
+00:45:31,600 --> 00:45:36,280
+ from it it would be possible something
+
+1476
+00:45:34,740 --> 00:45:36,280
+ 
+
+1477
+00:45:34,750 --> 00:45:38,350
+ that would not be possible in a normal
+
+1478
+00:45:36,270 --> 00:45:38,350
+ 
+
+1479
+00:45:36,280 --> 00:45:40,540
+ Bayesian inference but the trick here is
+
+1480
+00:45:38,340 --> 00:45:40,540
+ 
+
+1481
+00:45:38,350 --> 00:45:43,240
+ that the error measures only depend on
+
+1482
+00:45:40,530 --> 00:45:43,240
+ 
+
+1483
+00:45:40,540 --> 00:45:45,850
+ that on Q and we are able to bound this
+
+1484
+00:45:43,230 --> 00:45:45,850
+ 
+
+1485
+00:45:43,240 --> 00:45:50,440
+ chaos I vergence between this unknown
+
+1486
+00:45:45,840 --> 00:45:50,440
+ 
+
+1487
+00:45:45,850 --> 00:45:52,180
+ prior and the known posterior however as
+
+1488
+00:45:50,430 --> 00:45:52,180
+ 
+
+1489
+00:45:50,440 --> 00:45:54,550
+ I mentioned the gibbs distribution is
+
+1490
+00:45:52,170 --> 00:45:54,550
+ 
+
+1491
+00:45:52,180 --> 00:45:56,080
+ hard to sample from and so may not be so
+
+1492
+00:45:54,540 --> 00:45:56,080
+ 
+
+1493
+00:45:54,550 --> 00:45:58,810
+ easy to work with this band I'll mention
+
+1494
+00:45:56,070 --> 00:45:58,810
+ 
+
+1495
+00:45:56,080 --> 00:46:00,240
+ some work that was done with this bound
+
+1496
+00:45:58,800 --> 00:46:00,240
+ 
+
+1497
+00:45:58,810 --> 00:46:03,940
+ later
+
+1498
+00:46:00,230 --> 00:46:03,940
+ 
+
+1499
+00:46:00,240 --> 00:46:05,770
+ so can we do something that's a little
+
+1500
+00:46:03,930 --> 00:46:05,770
+ 
+
+1501
+00:46:03,940 --> 00:46:08,760
+ easier to compute with but has that same
+
+1502
+00:46:05,760 --> 00:46:08,760
+ 
+
+1503
+00:46:05,770 --> 00:46:13,150
+ flavor and so one thing we tried was to
+
+1504
+00:46:08,750 --> 00:46:13,150
+ 
+
+1505
+00:46:08,760 --> 00:46:16,300
+ take this as a prior distribution which
+
+1506
+00:46:13,140 --> 00:46:16,300
+ 
+
+1507
+00:46:13,150 --> 00:46:17,960
+ is the weight vector that's the expected
+
+1508
+00:46:16,290 --> 00:46:17,960
+ 
+
+1509
+00:46:16,300 --> 00:46:20,750
+ value under the
+
+1510
+00:46:17,950 --> 00:46:20,750
+ 
+
+1511
+00:46:17,960 --> 00:46:23,660
+ true distribution of Y times 5x and
+
+1512
+00:46:20,740 --> 00:46:23,660
+ 
+
+1513
+00:46:20,750 --> 00:46:26,240
+ again we can work out some bounds for
+
+1514
+00:46:23,650 --> 00:46:26,240
+ 
+
+1515
+00:46:23,660 --> 00:46:28,099
+ the KL in terms of that which depend
+
+1516
+00:46:26,230 --> 00:46:28,099
+ 
+
+1517
+00:46:26,240 --> 00:46:31,250
+ only on empirically measured stuff
+
+1518
+00:46:28,089 --> 00:46:31,250
+ 
+
+1519
+00:46:28,099 --> 00:46:38,359
+ however the results were not good in
+
+1520
+00:46:31,240 --> 00:46:38,359
+ 
+
+1521
+00:46:31,250 --> 00:46:40,790
+ that case so if what if we were able to
+
+1522
+00:46:38,349 --> 00:46:40,790
+ 
+
+1523
+00:46:38,359 --> 00:46:43,130
+ take the expected weight vector returned
+
+1524
+00:46:40,780 --> 00:46:43,130
+ 
+
+1525
+00:46:40,790 --> 00:46:47,420
+ from a random training sample of set
+
+1526
+00:46:43,120 --> 00:46:47,420
+ 
+
+1527
+00:46:43,130 --> 00:46:50,869
+ size M so the expected weight vector
+
+1528
+00:46:47,410 --> 00:46:50,869
+ 
+
+1529
+00:46:47,420 --> 00:46:55,580
+ under you know many many runnings of the
+
+1530
+00:46:50,859 --> 00:46:55,580
+ 
+
+1531
+00:46:50,869 --> 00:46:59,960
+ algorithm put a distribution centered at
+
+1532
+00:46:55,570 --> 00:46:59,960
+ 
+
+1533
+00:46:55,580 --> 00:47:03,349
+ that point and then what would be the KL
+
+1534
+00:46:59,950 --> 00:47:03,349
+ 
+
+1535
+00:46:59,960 --> 00:47:06,410
+ divergence it would be the amount of
+
+1536
+00:47:03,339 --> 00:47:06,410
+ 
+
+1537
+00:47:03,349 --> 00:47:09,560
+ difference that you expect between your
+
+1538
+00:47:06,400 --> 00:47:09,560
+ 
+
+1539
+00:47:06,410 --> 00:47:10,970
+ X you know sort of randomly generated
+
+1540
+00:47:09,550 --> 00:47:10,970
+ 
+
+1541
+00:47:09,560 --> 00:47:13,430
+ weight vector from your training
+
+1542
+00:47:10,960 --> 00:47:13,430
+ 
+
+1543
+00:47:10,970 --> 00:47:15,490
+ algorithm and the particular weight
+
+1544
+00:47:13,420 --> 00:47:15,490
+ 
+
+1545
+00:47:13,430 --> 00:47:18,560
+ vector that you generate from one
+
+1546
+00:47:15,480 --> 00:47:18,560
+ 
+
+1547
+00:47:15,490 --> 00:47:21,890
+ training sample so the kind of
+
+1548
+00:47:18,550 --> 00:47:21,890
+ 
+
+1549
+00:47:18,560 --> 00:47:24,740
+ divergence that you expect between the
+
+1550
+00:47:21,880 --> 00:47:24,740
+ 
+
+1551
+00:47:21,890 --> 00:47:27,020
+ sort of mean of your weight vector and
+
+1552
+00:47:24,730 --> 00:47:27,020
+ 
+
+1553
+00:47:24,740 --> 00:47:30,770
+ the actual weight vectors you observe
+
+1554
+00:47:27,010 --> 00:47:30,770
+ 
+
+1555
+00:47:27,020 --> 00:47:34,070
+ from particular training sets so this is
+
+1556
+00:47:30,760 --> 00:47:34,070
+ 
+
+1557
+00:47:30,770 --> 00:47:35,119
+ actually connected to stability and so
+
+1558
+00:47:34,060 --> 00:47:35,119
+ 
+
+1559
+00:47:34,070 --> 00:47:37,670
+ I'm now going to talk briefly about
+
+1560
+00:47:35,109 --> 00:47:37,670
+ 
+
+1561
+00:47:35,119 --> 00:47:40,990
+ stability impact Bayes the second case
+
+1562
+00:47:37,660 --> 00:47:40,990
+ 
+
+1563
+00:47:37,670 --> 00:47:43,220
+ study so stability has quite a long
+
+1564
+00:47:40,980 --> 00:47:43,220
+ 
+
+1565
+00:47:40,990 --> 00:47:46,310
+ history of studying statistical learning
+
+1566
+00:47:43,210 --> 00:47:46,310
+ 
+
+1567
+00:47:43,220 --> 00:47:50,420
+ theory goes back to Bousquet and Alesi f
+
+1568
+00:47:46,300 --> 00:47:50,420
+ 
+
+1569
+00:47:46,310 --> 00:47:52,940
+ and it's a very interesting approach to
+
+1570
+00:47:50,410 --> 00:47:52,940
+ 
+
+1571
+00:47:50,420 --> 00:47:56,420
+ understanding generalization where you
+
+1572
+00:47:52,930 --> 00:47:56,420
+ 
+
+1573
+00:47:52,940 --> 00:47:59,420
+ make assumptions about the effect that
+
+1574
+00:47:56,410 --> 00:47:59,420
+ 
+
+1575
+00:47:56,420 --> 00:48:02,330
+ at replacing a single sample in your
+
+1576
+00:47:59,410 --> 00:48:02,330
+ 
+
+1577
+00:47:59,420 --> 00:48:05,510
+ training set will have on the resulting
+
+1578
+00:48:02,320 --> 00:48:05,510
+ 
+
+1579
+00:48:02,330 --> 00:48:10,880
+ weight vector so the assumption is that
+
+1580
+00:48:05,500 --> 00:48:10,880
+ 
+
+1581
+00:48:05,510 --> 00:48:14,330
+ there's AB and beta on the difference or
+
+1582
+00:48:10,870 --> 00:48:14,330
+ 
+
+1583
+00:48:10,880 --> 00:48:17,119
+ the normed distance that you will move
+
+1584
+00:48:14,320 --> 00:48:17,119
+ 
+
+1585
+00:48:14,330 --> 00:48:22,520
+ your weight vector if you replace one
+
+1586
+00:48:17,109 --> 00:48:22,520
+ 
+
+1587
+00:48:17,119 --> 00:48:25,760
+ sample only in your training set and the
+
+1588
+00:48:22,510 --> 00:48:25,760
+ 
+
+1589
+00:48:22,520 --> 00:48:27,950
+ lost sensitivity is that the loss will
+
+1590
+00:48:25,750 --> 00:48:27,950
+ 
+
+1591
+00:48:25,760 --> 00:48:33,470
+ not change by much
+
+1592
+00:48:27,940 --> 00:48:33,470
+ 
+
+1593
+00:48:27,950 --> 00:48:37,210
+ on a on a test sample if you change
+
+1594
+00:48:33,460 --> 00:48:37,210
+ 
+
+1595
+00:48:33,470 --> 00:48:40,420
+ again one sample in your training set
+
+1596
+00:48:37,200 --> 00:48:40,420
+ 
+
+1597
+00:48:37,210 --> 00:48:44,960
+ its worst case its distribution
+
+1598
+00:48:40,410 --> 00:48:44,960
+ 
+
+1599
+00:48:40,420 --> 00:48:47,060
+ insensitive and so you know this could
+
+1600
+00:48:44,950 --> 00:48:47,060
+ 
+
+1601
+00:48:44,960 --> 00:48:49,550
+ perhaps be refined but this is the
+
+1602
+00:48:47,050 --> 00:48:49,550
+ 
+
+1603
+00:48:47,060 --> 00:48:52,270
+ framework that who scandalous CF
+
+1604
+00:48:49,540 --> 00:48:52,270
+ 
+
+1605
+00:48:49,550 --> 00:48:55,310
+ developed and they were able to show
+
+1606
+00:48:52,260 --> 00:48:55,310
+ 
+
+1607
+00:48:52,270 --> 00:49:00,380
+ generalization bounds that were derived
+
+1608
+00:48:55,300 --> 00:49:00,380
+ 
+
+1609
+00:48:55,310 --> 00:49:03,140
+ from assuming beta sensitivity and again
+
+1610
+00:49:00,370 --> 00:49:03,140
+ 
+
+1611
+00:49:00,380 --> 00:49:05,690
+ with SVM's you can show that there is
+
+1612
+00:49:03,130 --> 00:49:05,690
+ 
+
+1613
+00:49:03,140 --> 00:49:08,480
+ sensitivity provided you use
+
+1614
+00:49:05,680 --> 00:49:08,480
+ 
+
+1615
+00:49:05,690 --> 00:49:12,350
+ regularization and you can derive bounds
+
+1616
+00:49:08,470 --> 00:49:12,350
+ 
+
+1617
+00:49:08,480 --> 00:49:14,420
+ that they're quite weak so the intuition
+
+1618
+00:49:12,340 --> 00:49:14,420
+ 
+
+1619
+00:49:12,350 --> 00:49:16,550
+ is that if individual samples do not
+
+1620
+00:49:14,410 --> 00:49:16,550
+ 
+
+1621
+00:49:14,420 --> 00:49:19,880
+ affect the loss of an algorithm then it
+
+1622
+00:49:16,540 --> 00:49:19,880
+ 
+
+1623
+00:49:16,550 --> 00:49:23,480
+ will be concentrated and as I said they
+
+1624
+00:49:19,870 --> 00:49:23,480
+ 
+
+1625
+00:49:19,880 --> 00:49:25,760
+ they can be applied to kernel methods so
+
+1626
+00:49:23,470 --> 00:49:25,760
+ 
+
+1627
+00:49:23,480 --> 00:49:28,220
+ what we were wondering was can we have
+
+1628
+00:49:25,750 --> 00:49:28,220
+ 
+
+1629
+00:49:25,760 --> 00:49:30,620
+ this same idea of stability saying not
+
+1630
+00:49:28,210 --> 00:49:30,620
+ 
+
+1631
+00:49:28,220 --> 00:49:32,960
+ just that the loss is not changed but
+
+1632
+00:49:30,610 --> 00:49:32,960
+ 
+
+1633
+00:49:30,620 --> 00:49:35,870
+ actually or that the effect of a single
+
+1634
+00:49:32,950 --> 00:49:35,870
+ 
+
+1635
+00:49:32,960 --> 00:49:38,690
+ example doesn't affect the output but
+
+1636
+00:49:35,860 --> 00:49:38,690
+ 
+
+1637
+00:49:35,870 --> 00:49:43,640
+ actually is the the weight vector
+
+1638
+00:49:38,680 --> 00:49:43,640
+ 
+
+1639
+00:49:38,690 --> 00:49:45,620
+ concentrated in in the space as we draw
+
+1640
+00:49:43,630 --> 00:49:45,620
+ 
+
+1641
+00:49:43,640 --> 00:49:48,890
+ many different samples so entirely
+
+1642
+00:49:45,610 --> 00:49:48,890
+ 
+
+1643
+00:49:45,620 --> 00:49:51,590
+ different samples and this is this idea
+
+1644
+00:49:48,880 --> 00:49:51,590
+ 
+
+1645
+00:49:48,890 --> 00:49:54,350
+ that you could then derive bounds that
+
+1646
+00:49:51,580 --> 00:49:54,350
+ 
+
+1647
+00:49:51,590 --> 00:49:57,200
+ would depend on the KL divergence
+
+1648
+00:49:54,340 --> 00:49:57,200
+ 
+
+1649
+00:49:54,350 --> 00:50:00,140
+ between the distribution centered at the
+
+1650
+00:49:57,190 --> 00:50:00,140
+ 
+
+1651
+00:49:57,200 --> 00:50:04,850
+ expected weight vector which I've noted
+
+1652
+00:50:00,130 --> 00:50:04,850
+ 
+
+1653
+00:50:00,140 --> 00:50:07,550
+ here by E of WM so that's your prior is
+
+1654
+00:50:04,840 --> 00:50:07,550
+ 
+
+1655
+00:50:04,850 --> 00:50:09,440
+ you you put a distribution a Gaussian
+
+1656
+00:50:07,540 --> 00:50:09,440
+ 
+
+1657
+00:50:07,550 --> 00:50:12,590
+ distribution center there and your
+
+1658
+00:50:09,430 --> 00:50:12,590
+ 
+
+1659
+00:50:09,440 --> 00:50:15,790
+ posterior is at the particular weight
+
+1660
+00:50:12,580 --> 00:50:15,790
+ 
+
+1661
+00:50:12,590 --> 00:50:18,860
+ vector for a particular training set and
+
+1662
+00:50:15,780 --> 00:50:18,860
+ 
+
+1663
+00:50:15,790 --> 00:50:22,820
+ we were able to derive bounds that again
+
+1664
+00:50:18,850 --> 00:50:22,820
+ 
+
+1665
+00:50:18,860 --> 00:50:24,800
+ had this very nice property of almost a
+
+1666
+00:50:22,810 --> 00:50:24,800
+ 
+
+1667
+00:50:22,820 --> 00:50:27,110
+ double dependence because beta would
+
+1668
+00:50:24,790 --> 00:50:27,110
+ 
+
+1669
+00:50:24,800 --> 00:50:28,130
+ typically be 1 on M a double dependence
+
+1670
+00:50:27,100 --> 00:50:28,130
+ 
+
+1671
+00:50:27,110 --> 00:50:32,300
+ on
+
+1672
+00:50:28,120 --> 00:50:32,300
+ 
+
+1673
+00:50:28,130 --> 00:50:36,860
+ one on him and were significantly
+
+1674
+00:50:32,290 --> 00:50:36,860
+ 
+
+1675
+00:50:32,300 --> 00:50:40,550
+ tighter than the results of Bousquet and
+
+1676
+00:50:36,850 --> 00:50:40,550
+ 
+
+1677
+00:50:36,860 --> 00:50:43,130
+ le CF so I think this is a very
+
+1678
+00:50:40,540 --> 00:50:43,130
+ 
+
+1679
+00:50:40,550 --> 00:50:48,050
+ interesting direction of research that I
+
+1680
+00:50:43,120 --> 00:50:48,050
+ 
+
+1681
+00:50:43,130 --> 00:50:50,270
+ think has potential for framing a
+
+1682
+00:50:48,040 --> 00:50:50,270
+ 
+
+1683
+00:50:48,050 --> 00:50:52,340
+ different style of generalization
+
+1684
+00:50:50,260 --> 00:50:52,340
+ 
+
+1685
+00:50:50,270 --> 00:50:56,290
+ analysis so I'll come back and say a
+
+1686
+00:50:52,330 --> 00:50:56,290
+ 
+
+1687
+00:50:52,340 --> 00:50:59,030
+ little bit more about that in a moment
+
+1688
+00:50:56,280 --> 00:50:59,030
+ 
+
+1689
+00:50:56,290 --> 00:51:00,800
+ so finally I'm going to move on to my
+
+1690
+00:50:59,020 --> 00:51:00,800
+ 
+
+1691
+00:50:59,030 --> 00:51:06,560
+ last case study how much time do I have
+
+1692
+00:51:00,790 --> 00:51:06,560
+ 
+
+1693
+00:51:00,800 --> 00:51:08,990
+ on is that okay good which is to see how
+
+1694
+00:51:06,550 --> 00:51:08,990
+ 
+
+1695
+00:51:06,560 --> 00:51:13,250
+ any of this might be used or is being
+
+1696
+00:51:08,980 --> 00:51:13,250
+ 
+
+1697
+00:51:08,990 --> 00:51:15,980
+ used to analyze deep neural networks so
+
+1698
+00:51:13,240 --> 00:51:15,980
+ 
+
+1699
+00:51:13,250 --> 00:51:18,920
+ in some sense we there is this feeling
+
+1700
+00:51:15,970 --> 00:51:18,920
+ 
+
+1701
+00:51:15,980 --> 00:51:20,990
+ that deep learning is breaking the the
+
+1702
+00:51:18,910 --> 00:51:20,990
+ 
+
+1703
+00:51:18,920 --> 00:51:24,830
+ mold as far as statistical learning
+
+1704
+00:51:20,980 --> 00:51:24,830
+ 
+
+1705
+00:51:20,990 --> 00:51:27,050
+ theory is concerned so typically they
+
+1706
+00:51:24,820 --> 00:51:27,050
+ 
+
+1707
+00:51:24,830 --> 00:51:29,780
+ are trained with massive data sets to
+
+1708
+00:51:27,040 --> 00:51:29,780
+ 
+
+1709
+00:51:27,050 --> 00:51:31,460
+ achieve zero training error which you
+
+1710
+00:51:29,770 --> 00:51:31,460
+ 
+
+1711
+00:51:29,780 --> 00:51:34,600
+ know from a sort of statistical learning
+
+1712
+00:51:31,450 --> 00:51:34,600
+ 
+
+1713
+00:51:31,460 --> 00:51:37,720
+ point of view sounds like bad news
+
+1714
+00:51:34,590 --> 00:51:37,720
+ 
+
+1715
+00:51:34,600 --> 00:51:40,370
+ because you would expect there would be
+
+1716
+00:51:37,710 --> 00:51:40,370
+ 
+
+1717
+00:51:37,720 --> 00:51:41,120
+ performance would degrade through
+
+1718
+00:51:40,360 --> 00:51:41,120
+ 
+
+1719
+00:51:40,370 --> 00:51:43,430
+ overfitting
+
+1720
+00:51:41,110 --> 00:51:43,430
+ 
+
+1721
+00:51:41,120 --> 00:51:47,360
+ however they achieve remarkably low
+
+1722
+00:51:43,420 --> 00:51:47,360
+ 
+
+1723
+00:51:43,430 --> 00:51:51,020
+ errors on test sets as well so the
+
+1724
+00:51:47,350 --> 00:51:51,020
+ 
+
+1725
+00:51:47,360 --> 00:51:56,150
+ question is can pack Bayes illuminate
+
+1726
+00:51:51,010 --> 00:51:56,150
+ 
+
+1727
+00:51:51,020 --> 00:52:00,770
+ this this phenomenon so here's the
+
+1728
+00:51:56,140 --> 00:52:00,770
+ 
+
+1729
+00:51:56,150 --> 00:52:03,700
+ classical you know overfitting sort of
+
+1730
+00:52:00,760 --> 00:52:03,700
+ 
+
+1731
+00:52:00,770 --> 00:52:07,400
+ plot that we've all seen I think
+
+1732
+00:52:03,690 --> 00:52:07,400
+ 
+
+1733
+00:52:03,700 --> 00:52:10,310
+ celebrate bias-variance tradeoff you've
+
+1734
+00:52:07,390 --> 00:52:10,310
+ 
+
+1735
+00:52:07,400 --> 00:52:12,890
+ got this under fitting regime and then
+
+1736
+00:52:10,300 --> 00:52:12,890
+ 
+
+1737
+00:52:10,310 --> 00:52:15,350
+ as you create more complexity in your
+
+1738
+00:52:12,880 --> 00:52:15,350
+ 
+
+1739
+00:52:12,890 --> 00:52:17,150
+ function class you over fit and your
+
+1740
+00:52:15,340 --> 00:52:17,150
+ 
+
+1741
+00:52:15,350 --> 00:52:19,160
+ chest risk goes up even though your
+
+1742
+00:52:17,140 --> 00:52:19,160
+ 
+
+1743
+00:52:17,150 --> 00:52:20,930
+ training risk goes down and you're
+
+1744
+00:52:19,150 --> 00:52:20,930
+ 
+
+1745
+00:52:19,160 --> 00:52:22,550
+ looking for this kind of trade-off and
+
+1746
+00:52:20,920 --> 00:52:22,550
+ 
+
+1747
+00:52:20,930 --> 00:52:26,000
+ your generalization bounds hopefully
+
+1748
+00:52:22,540 --> 00:52:26,000
+ 
+
+1749
+00:52:22,550 --> 00:52:29,810
+ we'll find you know a good so but this
+
+1750
+00:52:25,990 --> 00:52:29,810
+ 
+
+1751
+00:52:26,000 --> 00:52:32,570
+ is Misha Belkin and co-authors who have
+
+1752
+00:52:29,800 --> 00:52:32,570
+ 
+
+1753
+00:52:29,810 --> 00:52:35,030
+ now suggested that Ashley this is only
+
+1754
+00:52:32,560 --> 00:52:35,030
+ 
+
+1755
+00:52:32,570 --> 00:52:37,130
+ half of the picture and what actually
+
+1756
+00:52:35,020 --> 00:52:37,130
+ 
+
+1757
+00:52:35,030 --> 00:52:40,010
+ happens as you increase complexity is
+
+1758
+00:52:37,120 --> 00:52:40,010
+ 
+
+1759
+00:52:37,130 --> 00:52:41,329
+ the following that at the point at which
+
+1760
+00:52:40,000 --> 00:52:41,329
+ 
+
+1761
+00:52:40,010 --> 00:52:45,349
+ you get
+
+1762
+00:52:41,319 --> 00:52:45,349
+ 
+
+1763
+00:52:41,329 --> 00:52:48,079
+ complete zero risk on the training set
+
+1764
+00:52:45,339 --> 00:52:48,079
+ 
+
+1765
+00:52:45,349 --> 00:52:52,009
+ there's a kind of over parametrized
+
+1766
+00:52:48,069 --> 00:52:52,009
+ 
+
+1767
+00:52:48,079 --> 00:52:54,200
+ section and the generalization risk the
+
+1768
+00:52:51,999 --> 00:52:54,200
+ 
+
+1769
+00:52:52,009 --> 00:52:58,849
+ out-of-sample risk starts to decrease
+
+1770
+00:52:54,190 --> 00:52:58,849
+ 
+
+1771
+00:52:54,200 --> 00:53:01,450
+ again and this phenomenon is the one
+
+1772
+00:52:58,839 --> 00:53:01,450
+ 
+
+1773
+00:52:58,849 --> 00:53:09,049
+ that I think you know deserves
+
+1774
+00:53:01,440 --> 00:53:09,049
+ 
+
+1775
+00:53:01,450 --> 00:53:13,460
+ exploration so I think as I said it's
+
+1776
+00:53:09,039 --> 00:53:13,460
+ 
+
+1777
+00:53:09,049 --> 00:53:15,589
+ thrown down the gauntlet - and you know
+
+1778
+00:53:13,450 --> 00:53:15,589
+ 
+
+1779
+00:53:13,460 --> 00:53:17,559
+ in some sense we maybe need some new
+
+1780
+00:53:15,579 --> 00:53:17,559
+ 
+
+1781
+00:53:15,589 --> 00:53:20,450
+ principles to understand what's
+
+1782
+00:53:17,549 --> 00:53:20,450
+ 
+
+1783
+00:53:17,559 --> 00:53:24,559
+ happening so in SVM's we have this idea
+
+1784
+00:53:20,440 --> 00:53:24,559
+ 
+
+1785
+00:53:20,450 --> 00:53:28,789
+ of the margin as a way of measuring the
+
+1786
+00:53:24,549 --> 00:53:28,789
+ 
+
+1787
+00:53:24,559 --> 00:53:32,930
+ overfit and what the margin was doing
+
+1788
+00:53:28,779 --> 00:53:32,930
+ 
+
+1789
+00:53:28,789 --> 00:53:34,849
+ was saying in some sense you know the
+
+1790
+00:53:32,920 --> 00:53:34,849
+ 
+
+1791
+00:53:32,930 --> 00:53:39,109
+ degree to which you needed to specify
+
+1792
+00:53:34,839 --> 00:53:39,109
+ 
+
+1793
+00:53:34,849 --> 00:53:40,730
+ the weight vector was not as precise as
+
+1794
+00:53:39,099 --> 00:53:40,730
+ 
+
+1795
+00:53:39,109 --> 00:53:42,619
+ you were able to in that high
+
+1796
+00:53:40,720 --> 00:53:42,619
+ 
+
+1797
+00:53:40,730 --> 00:53:45,259
+ dimensional space that you're working in
+
+1798
+00:53:42,609 --> 00:53:45,259
+ 
+
+1799
+00:53:42,619 --> 00:53:47,599
+ and so effectively you're working in a
+
+1800
+00:53:45,249 --> 00:53:47,599
+ 
+
+1801
+00:53:45,259 --> 00:53:52,210
+ much lower dimensional space and so
+
+1802
+00:53:47,589 --> 00:53:52,210
+ 
+
+1803
+00:53:47,599 --> 00:53:54,589
+ you're getting a much more benign
+
+1804
+00:53:52,200 --> 00:53:54,589
+ 
+
+1805
+00:53:52,210 --> 00:53:58,339
+ generalization and this is captured as I
+
+1806
+00:53:54,579 --> 00:53:58,339
+ 
+
+1807
+00:53:54,589 --> 00:54:00,289
+ said in the in the pack Bayes bound so
+
+1808
+00:53:58,329 --> 00:54:00,289
+ 
+
+1809
+00:53:58,339 --> 00:54:02,720
+ the question would be could we do
+
+1810
+00:54:00,279 --> 00:54:02,720
+ 
+
+1811
+00:54:00,289 --> 00:54:05,180
+ something similar for deep networks is
+
+1812
+00:54:02,710 --> 00:54:05,180
+ 
+
+1813
+00:54:02,720 --> 00:54:07,369
+ there some basin of good performance
+
+1814
+00:54:05,170 --> 00:54:07,369
+ 
+
+1815
+00:54:05,180 --> 00:54:10,130
+ around a local minimum that is
+
+1816
+00:54:07,359 --> 00:54:10,130
+ 
+
+1817
+00:54:07,369 --> 00:54:12,890
+ sufficiently broad that you know think
+
+1818
+00:54:10,120 --> 00:54:12,890
+ 
+
+1819
+00:54:10,130 --> 00:54:15,019
+ of a uniform prior over all of the
+
+1820
+00:54:12,880 --> 00:54:15,019
+ 
+
+1821
+00:54:12,890 --> 00:54:17,599
+ weights now we've got this very large
+
+1822
+00:54:15,009 --> 00:54:17,599
+ 
+
+1823
+00:54:15,019 --> 00:54:19,880
+ kind of basin of Attraction as a
+
+1824
+00:54:17,589 --> 00:54:19,880
+ 
+
+1825
+00:54:17,599 --> 00:54:22,759
+ posterior perhaps the KL divergence
+
+1826
+00:54:19,870 --> 00:54:22,759
+ 
+
+1827
+00:54:19,880 --> 00:54:26,480
+ between those two is not so bad as a
+
+1828
+00:54:22,749 --> 00:54:26,480
+ 
+
+1829
+00:54:22,759 --> 00:54:28,779
+ result so certainly if you do this in a
+
+1830
+00:54:26,470 --> 00:54:28,779
+ 
+
+1831
+00:54:26,480 --> 00:54:33,589
+ naive way it don't work
+
+1832
+00:54:28,769 --> 00:54:33,589
+ 
+
+1833
+00:54:28,779 --> 00:54:36,349
+ however chakashi and roy and others have
+
+1834
+00:54:33,579 --> 00:54:36,349
+ 
+
+1835
+00:54:33,589 --> 00:54:39,529
+ derived some of the tightest deep
+
+1836
+00:54:36,339 --> 00:54:39,529
+ 
+
+1837
+00:54:36,349 --> 00:54:43,210
+ learning bounds in this way by adapting
+
+1838
+00:54:39,519 --> 00:54:43,210
+ 
+
+1839
+00:54:39,529 --> 00:54:46,220
+ the optimization to optimize for large
+
+1840
+00:54:43,200 --> 00:54:46,220
+ 
+
+1841
+00:54:43,210 --> 00:54:48,799
+ basins of attraction in their local
+
+1842
+00:54:46,210 --> 00:54:48,799
+ 
+
+1843
+00:54:46,220 --> 00:54:51,360
+ minima so they trained to expand the
+
+1844
+00:54:48,789 --> 00:54:51,360
+ 
+
+1845
+00:54:48,799 --> 00:54:54,800
+ basin of Attraction
+
+1846
+00:54:51,350 --> 00:54:54,800
+ 
+
+1847
+00:54:51,360 --> 00:54:56,400
+ and so in some sense this is great but
+
+1848
+00:54:54,790 --> 00:54:56,400
+ 
+
+1849
+00:54:54,800 --> 00:54:58,710
+ it's not
+
+1850
+00:54:56,390 --> 00:54:58,710
+ 
+
+1851
+00:54:56,400 --> 00:55:00,720
+ unfortunately capturing the good
+
+1852
+00:54:58,700 --> 00:55:00,720
+ 
+
+1853
+00:54:58,710 --> 00:55:02,250
+ performance that we see in many cases
+
+1854
+00:55:00,710 --> 00:55:02,250
+ 
+
+1855
+00:55:00,720 --> 00:55:04,080
+ where there isn't such a big basin of
+
+1856
+00:55:02,240 --> 00:55:04,080
+ 
+
+1857
+00:55:02,250 --> 00:55:06,120
+ Attraction so if you apply the it's only
+
+1858
+00:55:04,070 --> 00:55:06,120
+ 
+
+1859
+00:55:04,080 --> 00:55:09,000
+ through building this into the training
+
+1860
+00:55:06,110 --> 00:55:09,000
+ 
+
+1861
+00:55:06,120 --> 00:55:11,940
+ that you actually derive bounds that are
+
+1862
+00:55:08,990 --> 00:55:11,940
+ 
+
+1863
+00:55:09,000 --> 00:55:13,830
+ you know actually competitive and and
+
+1864
+00:55:11,930 --> 00:55:13,830
+ 
+
+1865
+00:55:11,940 --> 00:55:17,130
+ and very very impressive I should say
+
+1866
+00:55:13,820 --> 00:55:17,130
+ 
+
+1867
+00:55:13,830 --> 00:55:19,320
+ however you know it doesn't seem to be
+
+1868
+00:55:17,120 --> 00:55:19,320
+ 
+
+1869
+00:55:17,130 --> 00:55:21,300
+ capturing at least in the way it's
+
+1870
+00:55:19,310 --> 00:55:21,300
+ 
+
+1871
+00:55:19,320 --> 00:55:25,110
+ applied at the moment what's happening
+
+1872
+00:55:21,290 --> 00:55:25,110
+ 
+
+1873
+00:55:21,300 --> 00:55:28,890
+ in many practical applications they also
+
+1874
+00:55:25,100 --> 00:55:28,890
+ 
+
+1875
+00:55:25,110 --> 00:55:30,090
+ tried to apply the bound that I showed
+
+1876
+00:55:28,880 --> 00:55:30,090
+ 
+
+1877
+00:55:28,890 --> 00:55:32,700
+ at the very beginning with the Gibbs
+
+1878
+00:55:30,080 --> 00:55:32,700
+ 
+
+1879
+00:55:30,090 --> 00:55:34,920
+ distributions and had some very clever
+
+1880
+00:55:32,690 --> 00:55:34,920
+ 
+
+1881
+00:55:32,700 --> 00:55:38,610
+ ways of you know handling sampling from
+
+1882
+00:55:34,910 --> 00:55:38,610
+ 
+
+1883
+00:55:34,920 --> 00:55:40,790
+ the Gibbs distributions however they
+
+1884
+00:55:38,600 --> 00:55:40,790
+ 
+
+1885
+00:55:38,610 --> 00:55:44,130
+ made the very astute observation that
+
+1886
+00:55:40,780 --> 00:55:44,130
+ 
+
+1887
+00:55:40,790 --> 00:55:46,290
+ the the bound actually only depends on
+
+1888
+00:55:44,120 --> 00:55:46,290
+ 
+
+1889
+00:55:44,130 --> 00:55:48,720
+ this gamma and there's nothing in there
+
+1890
+00:55:46,280 --> 00:55:48,720
+ 
+
+1891
+00:55:46,290 --> 00:55:52,860
+ that would change if you applied it to
+
+1892
+00:55:48,710 --> 00:55:52,860
+ 
+
+1893
+00:55:48,720 --> 00:55:56,550
+ you know the correct training set or one
+
+1894
+00:55:52,850 --> 00:55:56,550
+ 
+
+1895
+00:55:52,860 --> 00:55:58,970
+ with randomized labels and hence the
+
+1896
+00:55:56,540 --> 00:55:58,970
+ 
+
+1897
+00:55:56,550 --> 00:56:01,440
+ bound must break down at some point
+
+1898
+00:55:58,960 --> 00:56:01,440
+ 
+
+1899
+00:55:58,970 --> 00:56:03,210
+ because we know that the randomized
+
+1900
+00:56:01,430 --> 00:56:03,210
+ 
+
+1901
+00:56:01,440 --> 00:56:05,220
+ labels we will not get a good
+
+1902
+00:56:03,200 --> 00:56:05,220
+ 
+
+1903
+00:56:03,210 --> 00:56:08,970
+ generalization whereas and yet the
+
+1904
+00:56:05,210 --> 00:56:08,970
+ 
+
+1905
+00:56:05,220 --> 00:56:11,310
+ training as we know it does succeed so
+
+1906
+00:56:08,960 --> 00:56:11,310
+ 
+
+1907
+00:56:08,970 --> 00:56:13,770
+ again you know I think it's fair to say
+
+1908
+00:56:11,300 --> 00:56:13,770
+ 
+
+1909
+00:56:11,310 --> 00:56:17,310
+ that lever a towel that that bound as
+
+1910
+00:56:13,760 --> 00:56:17,310
+ 
+
+1911
+00:56:13,770 --> 00:56:19,680
+ given is also not capturing what is
+
+1912
+00:56:17,300 --> 00:56:19,680
+ 
+
+1913
+00:56:17,310 --> 00:56:24,810
+ really going on in terms of the
+
+1914
+00:56:19,670 --> 00:56:24,810
+ 
+
+1915
+00:56:19,680 --> 00:56:26,280
+ performance of deep learning so there
+
+1916
+00:56:24,800 --> 00:56:26,280
+ 
+
+1917
+00:56:24,810 --> 00:56:28,860
+ have been suggestions that the stability
+
+1918
+00:56:26,270 --> 00:56:28,860
+ 
+
+1919
+00:56:26,280 --> 00:56:30,870
+ of SGD is important in a training cut
+
+1920
+00:56:28,850 --> 00:56:30,870
+ 
+
+1921
+00:56:28,860 --> 00:56:33,630
+ generalization and and this is really
+
+1922
+00:56:30,860 --> 00:56:33,630
+ 
+
+1923
+00:56:30,870 --> 00:56:35,880
+ the final point I'd like to make maybe
+
+1924
+00:56:33,620 --> 00:56:35,880
+ 
+
+1925
+00:56:33,630 --> 00:56:39,450
+ you know what we present it with the
+
+1926
+00:56:35,870 --> 00:56:39,450
+ 
+
+1927
+00:56:35,880 --> 00:56:41,610
+ stability approach to SVM's
+
+1928
+00:56:39,440 --> 00:56:41,610
+ 
+
+1929
+00:56:39,450 --> 00:56:46,080
+ is something like a new learning
+
+1930
+00:56:41,600 --> 00:56:46,080
+ 
+
+1931
+00:56:41,610 --> 00:56:47,970
+ principle that we could perhaps link to
+
+1932
+00:56:46,070 --> 00:56:47,970
+ 
+
+1933
+00:56:46,080 --> 00:56:50,370
+ deep learning and there has been recent
+
+1934
+00:56:47,960 --> 00:56:50,370
+ 
+
+1935
+00:56:47,970 --> 00:56:54,120
+ analysis of the information stored in
+
+1936
+00:56:50,360 --> 00:56:54,120
+ 
+
+1937
+00:56:50,370 --> 00:56:55,740
+ the weights so achillion Swatow studied
+
+1938
+00:56:54,110 --> 00:56:55,740
+ 
+
+1939
+00:56:54,120 --> 00:56:59,790
+ the amount of information stored in the
+
+1940
+00:56:55,730 --> 00:56:59,790
+ 
+
+1941
+00:56:55,740 --> 00:57:03,390
+ weights of deep networks and when by
+
+1942
+00:56:59,780 --> 00:57:03,390
+ 
+
+1943
+00:56:59,790 --> 00:57:04,480
+ that what they were doing was trying to
+
+1944
+00:57:03,380 --> 00:57:04,480
+ 
+
+1945
+00:57:03,390 --> 00:57:08,530
+ understand
+
+1946
+00:57:04,470 --> 00:57:08,530
+ 
+
+1947
+00:57:04,480 --> 00:57:13,660
+ when if you like overfitting occurs and
+
+1948
+00:57:08,520 --> 00:57:13,660
+ 
+
+1949
+00:57:08,530 --> 00:57:17,829
+ the idea is that if the information in
+
+1950
+00:57:13,650 --> 00:57:17,829
+ 
+
+1951
+00:57:13,660 --> 00:57:20,530
+ the weights is about that that has been
+
+1952
+00:57:17,819 --> 00:57:20,530
+ 
+
+1953
+00:57:17,829 --> 00:57:22,329
+ distilled by the algorithm is still is
+
+1954
+00:57:20,520 --> 00:57:22,329
+ 
+
+1955
+00:57:20,530 --> 00:57:25,000
+ is just about the distribution
+
+1956
+00:57:22,319 --> 00:57:25,000
+ 
+
+1957
+00:57:22,329 --> 00:57:27,420
+ generating the weights and not the
+
+1958
+00:57:24,990 --> 00:57:27,420
+ 
+
+1959
+00:57:25,000 --> 00:57:30,280
+ particular weights not the particular
+
+1960
+00:57:27,410 --> 00:57:30,280
+ 
+
+1961
+00:57:27,420 --> 00:57:34,240
+ sample that was used to train in that
+
+1962
+00:57:30,270 --> 00:57:34,240
+ 
+
+1963
+00:57:30,280 --> 00:57:36,040
+ instance then there is you know very
+
+1964
+00:57:34,230 --> 00:57:36,040
+ 
+
+1965
+00:57:34,240 --> 00:57:37,599
+ little information about the
+
+1966
+00:57:36,030 --> 00:57:37,599
+ 
+
+1967
+00:57:36,040 --> 00:57:40,810
+ distribution about the story the
+
+1968
+00:57:37,589 --> 00:57:40,810
+ 
+
+1969
+00:57:37,599 --> 00:57:43,660
+ training set embedded in the weights of
+
+1970
+00:57:40,800 --> 00:57:43,660
+ 
+
+1971
+00:57:40,810 --> 00:57:45,099
+ the network so the idea is that you you
+
+1972
+00:57:43,650 --> 00:57:45,099
+ 
+
+1973
+00:57:43,660 --> 00:57:46,800
+ know if you you obviously you want
+
+1974
+00:57:45,089 --> 00:57:46,800
+ 
+
+1975
+00:57:45,099 --> 00:57:49,599
+ information about the distribution
+
+1976
+00:57:46,790 --> 00:57:49,599
+ 
+
+1977
+00:57:46,800 --> 00:57:51,490
+ that's what you're trying to learn but
+
+1978
+00:57:49,589 --> 00:57:51,490
+ 
+
+1979
+00:57:49,599 --> 00:57:55,089
+ you don't want information about the
+
+1980
+00:57:51,480 --> 00:57:55,089
+ 
+
+1981
+00:57:51,490 --> 00:57:57,640
+ particular training set you know the the
+
+1982
+00:57:55,079 --> 00:57:57,640
+ 
+
+1983
+00:57:55,089 --> 00:57:59,680
+ specifics and if you think about it in
+
+1984
+00:57:57,630 --> 00:57:59,680
+ 
+
+1985
+00:57:57,640 --> 00:58:01,420
+ terms of that full of variance that you
+
+1986
+00:57:59,670 --> 00:58:01,420
+ 
+
+1987
+00:57:59,680 --> 00:58:06,430
+ might expect in the weight vector that
+
+1988
+00:58:01,410 --> 00:58:06,430
+ 
+
+1989
+00:58:01,420 --> 00:58:08,140
+ you end up with if you're you know only
+
+1990
+00:58:06,420 --> 00:58:08,140
+ 
+
+1991
+00:58:06,430 --> 00:58:10,270
+ learning from the distribution you will
+
+1992
+00:58:08,130 --> 00:58:10,270
+ 
+
+1993
+00:58:08,140 --> 00:58:12,609
+ end up at the expected value for the
+
+1994
+00:58:10,260 --> 00:58:12,609
+ 
+
+1995
+00:58:10,270 --> 00:58:13,960
+ distribution it's the specifics of the
+
+1996
+00:58:12,599 --> 00:58:13,960
+ 
+
+1997
+00:58:12,609 --> 00:58:16,060
+ training set that are going to take you
+
+1998
+00:58:13,950 --> 00:58:16,060
+ 
+
+1999
+00:58:13,960 --> 00:58:19,599
+ away from that and so that concentration
+
+2000
+00:58:16,050 --> 00:58:19,599
+ 
+
+2001
+00:58:16,060 --> 00:58:22,540
+ is likely to be much more so effective
+
+2002
+00:58:19,589 --> 00:58:22,540
+ 
+
+2003
+00:58:19,599 --> 00:58:25,930
+ if you are excluding information about
+
+2004
+00:58:22,530 --> 00:58:25,930
+ 
+
+2005
+00:58:22,540 --> 00:58:29,680
+ the particular training set and this
+
+2006
+00:58:25,920 --> 00:58:29,680
+ 
+
+2007
+00:58:25,930 --> 00:58:31,240
+ corresponds to said reducing the
+
+2008
+00:58:29,670 --> 00:58:31,240
+ 
+
+2009
+00:58:29,680 --> 00:58:32,440
+ concentration of the distribution if
+
+2010
+00:58:31,230 --> 00:58:32,440
+ 
+
+2011
+00:58:31,240 --> 00:58:34,810
+ there is information about the
+
+2012
+00:58:32,430 --> 00:58:34,810
+ 
+
+2013
+00:58:32,440 --> 00:58:36,400
+ particular and they argue that the
+
+2014
+00:58:34,800 --> 00:58:36,400
+ 
+
+2015
+00:58:34,810 --> 00:58:39,700
+ information bottleneck criterion
+
+2016
+00:58:36,390 --> 00:58:39,700
+ 
+
+2017
+00:58:36,400 --> 00:58:41,380
+ introduced by Tish be O'Doul can control
+
+2018
+00:58:39,690 --> 00:58:41,380
+ 
+
+2019
+00:58:39,700 --> 00:58:43,720
+ this information and hence would
+
+2020
+00:58:41,370 --> 00:58:43,720
+ 
+
+2021
+00:58:41,380 --> 00:58:47,109
+ potentially lead to its mitre pack base
+
+2022
+00:58:43,710 --> 00:58:47,109
+ 
+
+2023
+00:58:43,720 --> 00:58:48,579
+ bound at the type that I described so I
+
+2024
+00:58:47,099 --> 00:58:48,579
+ 
+
+2025
+00:58:47,109 --> 00:58:50,470
+ think you know that I'm going to end my
+
+2026
+00:58:48,569 --> 00:58:50,470
+ 
+
+2027
+00:58:48,579 --> 00:58:51,760
+ speculation at that point as far as deep
+
+2028
+00:58:50,460 --> 00:58:51,760
+ 
+
+2029
+00:58:50,470 --> 00:58:54,849
+ learning is concerned I think there are
+
+2030
+00:58:51,750 --> 00:58:54,849
+ 
+
+2031
+00:58:51,760 --> 00:58:56,980
+ a you know a number of potential avenues
+
+2032
+00:58:54,839 --> 00:58:56,980
+ 
+
+2033
+00:58:54,849 --> 00:58:59,410
+ but I think the jury is still out as to
+
+2034
+00:58:56,970 --> 00:58:59,410
+ 
+
+2035
+00:58:56,980 --> 00:59:01,510
+ one the one that will bear fruit and
+
+2036
+00:58:59,400 --> 00:59:01,510
+ 
+
+2037
+00:58:59,410 --> 00:59:05,530
+ will give the most insight into what's
+
+2038
+00:59:01,500 --> 00:59:05,530
+ 
+
+2039
+00:59:01,510 --> 00:59:07,569
+ happening so but there are potential for
+
+2040
+00:59:05,520 --> 00:59:07,569
+ 
+
+2041
+00:59:05,530 --> 00:59:11,280
+ algorithms then hopefully to optimize
+
+2042
+00:59:07,559 --> 00:59:11,280
+ 
+
+2043
+00:59:07,569 --> 00:59:13,810
+ the bounds so on that note I'm going to
+
+2044
+00:59:11,270 --> 00:59:13,810
+ 
+
+2045
+00:59:11,280 --> 00:59:16,329
+ just draw a few conclusions
+
+2046
+00:59:13,800 --> 00:59:16,329
+ 
+
+2047
+00:59:13,810 --> 00:59:18,180
+ I think pack Bayes arises from two
+
+2048
+00:59:16,319 --> 00:59:18,180
+ 
+
+2049
+00:59:16,329 --> 00:59:21,059
+ fields statistical learning theory
+
+2050
+00:59:18,170 --> 00:59:21,059
+ 
+
+2051
+00:59:18,180 --> 00:59:23,130
+ and Bayesian learning as such it
+
+2052
+00:59:21,049 --> 00:59:23,130
+ 
+
+2053
+00:59:21,059 --> 00:59:25,799
+ generalizes in both in interesting and
+
+2054
+00:59:23,120 --> 00:59:25,799
+ 
+
+2055
+00:59:23,130 --> 00:59:29,010
+ promising directions
+
+2056
+00:59:25,789 --> 00:59:29,010
+ 
+
+2057
+00:59:25,799 --> 00:59:31,079
+ we believe that pack Bay's can be an
+
+2058
+00:59:29,000 --> 00:59:31,079
+ 
+
+2059
+00:59:29,010 --> 00:59:34,289
+ inspiration towards new theoretical
+
+2060
+00:59:31,069 --> 00:59:34,289
+ 
+
+2061
+00:59:31,079 --> 00:59:36,329
+ analyses but also Drive novel algorithm
+
+2062
+00:59:34,279 --> 00:59:36,329
+ 
+
+2063
+00:59:34,289 --> 00:59:39,440
+ design especially in settings where
+
+2064
+00:59:36,319 --> 00:59:39,440
+ 
+
+2065
+00:59:36,329 --> 00:59:50,039
+ theory has proven difficult up until now
+
+2066
+00:59:39,430 --> 00:59:50,039
+ 
+
+2067
+00:59:39,440 --> 00:59:51,359
+ thank you we have time for some
+
+2068
+00:59:50,029 --> 00:59:51,359
+ 
+
+2069
+00:59:50,039 --> 00:59:53,190
+ questions if you get a question please
+
+2070
+00:59:51,349 --> 00:59:53,190
+ 
+
+2071
+00:59:51,359 --> 00:59:57,599
+ come up to the microphone in the center
+
+2072
+00:59:53,180 --> 00:59:57,599
+ 
+
+2073
+00:59:53,190 --> 00:59:59,220
+ or near the back okay go ahead hi yeah
+
+2074
+00:59:57,589 --> 00:59:59,220
+ 
+
+2075
+00:59:57,599 --> 01:00:00,599
+ thanks for a great tutorial so I had one
+
+2076
+00:59:59,210 --> 01:00:00,599
+ 
+
+2077
+00:59:59,220 --> 01:00:03,930
+ question about the distribution defined
+
+2078
+01:00:00,589 --> 01:00:03,930
+ 
+
+2079
+01:00:00,599 --> 01:00:06,059
+ priors so I think I guess everybody
+
+2080
+01:00:03,920 --> 01:00:06,059
+ 
+
+2081
+01:00:03,930 --> 01:00:08,420
+ would agree that Bayesian inference is
+
+2082
+01:00:06,049 --> 01:00:08,420
+ 
+
+2083
+01:00:06,059 --> 01:00:10,740
+ most correct when the prior distribution
+
+2084
+01:00:08,410 --> 01:00:10,740
+ 
+
+2085
+01:00:08,420 --> 01:00:12,869
+ somehow is true to the exact sampling
+
+2086
+01:00:10,730 --> 01:00:12,869
+ 
+
+2087
+01:00:10,740 --> 01:00:15,000
+ distribution do you think that there's
+
+2088
+01:00:12,859 --> 01:00:15,000
+ 
+
+2089
+01:00:12,869 --> 01:00:20,520
+ that this is a kind of implication that
+
+2090
+01:00:14,990 --> 01:00:20,520
+ 
+
+2091
+01:00:15,000 --> 01:00:24,029
+ the date that the data defined prior is
+
+2092
+01:00:20,510 --> 01:00:24,029
+ 
+
+2093
+01:00:20,520 --> 01:00:25,859
+ in fact Bayes is going down as well I'm
+
+2094
+01:00:24,019 --> 01:00:25,859
+ 
+
+2095
+01:00:24,029 --> 01:00:29,579
+ not quite sure what you mean by the
+
+2096
+01:00:25,849 --> 01:00:29,579
+ 
+
+2097
+01:00:25,859 --> 01:00:31,230
+ sampling distribution I mean the the the
+
+2098
+01:00:29,569 --> 01:00:31,230
+ 
+
+2099
+01:00:29,579 --> 01:00:34,410
+ sampling distribution is over the data
+
+2100
+01:00:31,220 --> 01:00:34,410
+ 
+
+2101
+01:00:31,230 --> 01:00:36,210
+ right is that what well what I'm getting
+
+2102
+01:00:34,400 --> 01:00:36,210
+ 
+
+2103
+01:00:34,410 --> 01:00:37,740
+ at is that if your prior is somehow the
+
+2104
+01:00:36,200 --> 01:00:37,740
+ 
+
+2105
+01:00:36,210 --> 01:00:40,319
+ true prior that your latent variables
+
+2106
+01:00:37,730 --> 01:00:40,319
+ 
+
+2107
+01:00:37,740 --> 01:00:42,180
+ are derived from then Bayesian inference
+
+2108
+01:00:40,309 --> 01:00:42,180
+ 
+
+2109
+01:00:40,319 --> 01:00:47,640
+ is kind of optimal in that sense right
+
+2110
+01:00:42,170 --> 01:00:47,640
+ 
+
+2111
+01:00:42,180 --> 01:00:49,829
+ so and the the prior being the the true
+
+2112
+01:00:47,630 --> 01:00:49,829
+ 
+
+2113
+01:00:47,640 --> 01:00:52,410
+ distribution over the parameters implies
+
+2114
+01:00:49,819 --> 01:00:52,410
+ 
+
+2115
+01:00:49,829 --> 01:00:54,720
+ that the kind of life your likelihood is
+
+2116
+01:00:52,400 --> 01:00:54,720
+ 
+
+2117
+01:00:52,410 --> 01:00:57,720
+ correct as well that your prior
+
+2118
+01:00:54,710 --> 01:00:57,720
+ 
+
+2119
+01:00:54,720 --> 01:00:59,130
+ distribution over the data is the true
+
+2120
+01:00:57,710 --> 01:00:59,130
+ 
+
+2121
+01:00:57,720 --> 01:01:03,809
+ distribution that your data is sampled
+
+2122
+01:00:59,120 --> 01:01:03,809
+ 
+
+2123
+01:00:59,130 --> 01:01:05,880
+ from as well so I think I mean in some
+
+2124
+01:01:03,799 --> 01:01:05,880
+ 
+
+2125
+01:01:03,809 --> 01:01:08,460
+ sense I always have thought and I'm not
+
+2126
+01:01:05,870 --> 01:01:08,460
+ 
+
+2127
+01:01:05,880 --> 01:01:09,869
+ a Bayesian so maybe I'm you know my way
+
+2128
+01:01:08,450 --> 01:01:09,869
+ 
+
+2129
+01:01:08,460 --> 01:01:12,329
+ of thinking is the wrong one but I I
+
+2130
+01:01:09,859 --> 01:01:12,329
+ 
+
+2131
+01:01:09,869 --> 01:01:15,029
+ have thought of the Bayesian as sort of
+
+2132
+01:01:12,319 --> 01:01:15,029
+ 
+
+2133
+01:01:12,329 --> 01:01:19,260
+ their belief about which function might
+
+2134
+01:01:15,019 --> 01:01:19,260
+ 
+
+2135
+01:01:15,029 --> 01:01:21,900
+ arise okay but in some sense using this
+
+2136
+01:01:19,250 --> 01:01:21,900
+ 
+
+2137
+01:01:19,260 --> 01:01:23,849
+ distribution dependent prior could give
+
+2138
+01:01:21,890 --> 01:01:23,849
+ 
+
+2139
+01:01:21,900 --> 01:01:26,160
+ you even more information you know
+
+2140
+01:01:23,839 --> 01:01:26,160
+ 
+
+2141
+01:01:23,849 --> 01:01:29,250
+ because the assumption about what might
+
+2142
+01:01:26,150 --> 01:01:29,250
+ 
+
+2143
+01:01:26,160 --> 01:01:30,810
+ arise would have to be made in some
+
+2144
+01:01:29,240 --> 01:01:30,810
+ 
+
+2145
+01:01:29,250 --> 01:01:34,470
+ sense before seeing the district
+
+2146
+01:01:30,800 --> 01:01:34,470
+ 
+
+2147
+01:01:30,810 --> 01:01:38,280
+ lucien at all what we're allowing here
+
+2148
+01:01:34,460 --> 01:01:38,280
+ 
+
+2149
+01:01:34,470 --> 01:01:40,920
+ is the algorithm almost to jumpstart and
+
+2150
+01:01:38,270 --> 01:01:40,920
+ 
+
+2151
+01:01:38,280 --> 01:01:43,890
+ get more information to effect the prior
+
+2152
+01:01:40,910 --> 01:01:43,890
+ 
+
+2153
+01:01:40,920 --> 01:01:46,130
+ then you would SPECT you know the the
+
+2154
+01:01:43,880 --> 01:01:46,130
+ 
+
+2155
+01:01:43,890 --> 01:01:51,260
+ prior is not fixed at the point when we
+
+2156
+01:01:46,120 --> 01:01:51,260
+ 
+
+2157
+01:01:46,130 --> 01:01:54,300
+ decide until we know what the actual
+
+2158
+01:01:51,250 --> 01:01:54,300
+ 
+
+2159
+01:01:51,260 --> 01:01:55,770
+ problem is we're solving if you should I
+
+2160
+01:01:54,290 --> 01:01:55,770
+ 
+
+2161
+01:01:54,300 --> 01:01:58,230
+ mean so it's actually taking into
+
+2162
+01:01:55,760 --> 01:01:58,230
+ 
+
+2163
+01:01:55,770 --> 01:02:00,120
+ account the specifics of the problem the
+
+2164
+01:01:58,220 --> 01:02:00,120
+ 
+
+2165
+01:01:58,230 --> 01:02:02,610
+ particular instance that we're solving
+
+2166
+01:02:00,110 --> 01:02:02,610
+ 
+
+2167
+01:02:00,120 --> 01:02:03,780
+ as opposed to saying okay I don't know
+
+2168
+01:02:02,600 --> 01:02:03,780
+ 
+
+2169
+01:02:02,610 --> 01:02:05,730
+ what the problem is going to be I'm
+
+2170
+01:02:03,770 --> 01:02:05,730
+ 
+
+2171
+01:02:03,780 --> 01:02:08,340
+ going to keep my options open it's
+
+2172
+01:02:05,720 --> 01:02:08,340
+ 
+
+2173
+01:02:05,730 --> 01:02:13,610
+ actually using that information at least
+
+2174
+01:02:08,330 --> 01:02:13,610
+ 
+
+2175
+01:02:08,340 --> 01:02:13,610
+ in theory okay great thanks
+
+2176
+01:02:19,540 --> 01:02:19,540
+ 
+
+2177
+01:02:19,550 --> 01:02:25,760
+ maybe I can ask a really naive question
+
+2178
+01:02:22,090 --> 01:02:25,760
+ 
+
+2179
+01:02:22,100 --> 01:02:28,640
+ so I'm a bit confused about whether PAC
+
+2180
+01:02:25,750 --> 01:02:28,640
+ 
+
+2181
+01:02:25,760 --> 01:02:29,090
+ base is in any way subjective or not at
+
+2182
+01:02:28,630 --> 01:02:29,090
+ 
+
+2183
+01:02:28,640 --> 01:02:31,670
+ all
+
+2184
+01:02:29,080 --> 01:02:31,670
+ 
+
+2185
+01:02:29,090 --> 01:02:33,350
+ because you have to pick a P in my p
+
+2186
+01:02:31,660 --> 01:02:33,350
+ 
+
+2187
+01:02:31,670 --> 01:02:37,250
+ could be different from somebody else's
+
+2188
+01:02:33,340 --> 01:02:37,250
+ 
+
+2189
+01:02:33,350 --> 01:02:39,050
+ P and we both get a different bound and
+
+2190
+01:02:37,240 --> 01:02:39,050
+ 
+
+2191
+01:02:37,250 --> 01:02:40,670
+ so is this in any way still subjective
+
+2192
+01:02:39,040 --> 01:02:40,670
+ 
+
+2193
+01:02:39,050 --> 01:02:43,340
+ ever or we consider this completely
+
+2194
+01:02:40,660 --> 01:02:43,340
+ 
+
+2195
+01:02:40,670 --> 01:02:46,790
+ frequentist and objective it's
+
+2196
+01:02:43,330 --> 01:02:46,790
+ 
+
+2197
+01:02:43,340 --> 01:02:49,880
+ completely frequency and objective in
+
+2198
+01:02:46,780 --> 01:02:49,880
+ 
+
+2199
+01:02:46,790 --> 01:02:52,100
+ the sense that if you choose two priors
+
+2200
+01:02:49,870 --> 01:02:52,100
+ 
+
+2201
+01:02:49,880 --> 01:02:53,960
+ you know you and your friend then
+
+2202
+01:02:52,090 --> 01:02:53,960
+ 
+
+2203
+01:02:52,100 --> 01:02:55,850
+ obviously if you want both of them you
+
+2204
+01:02:53,950 --> 01:02:55,850
+ 
+
+2205
+01:02:53,960 --> 01:02:58,100
+ know there's a chance that the chance
+
+2206
+01:02:55,840 --> 01:02:58,100
+ 
+
+2207
+01:02:55,850 --> 01:02:59,870
+ that you're misled is is is doubled so
+
+2208
+01:02:58,090 --> 01:02:59,870
+ 
+
+2209
+01:02:58,100 --> 01:03:03,650
+ you would have to take a smaller Delta
+
+2210
+01:02:59,860 --> 01:03:03,650
+ 
+
+2211
+01:02:59,870 --> 01:03:06,500
+ to counteract that but as long as you
+
+2212
+01:03:03,640 --> 01:03:06,500
+ 
+
+2213
+01:03:03,650 --> 01:03:10,310
+ both chose them before the data was seen
+
+2214
+01:03:06,490 --> 01:03:10,310
+ 
+
+2215
+01:03:06,500 --> 01:03:11,990
+ then they're both true of course your
+
+2216
+01:03:10,300 --> 01:03:11,990
+ 
+
+2217
+01:03:10,310 --> 01:03:13,850
+ friend may be luckier than you and have
+
+2218
+01:03:11,980 --> 01:03:13,850
+ 
+
+2219
+01:03:11,990 --> 01:03:16,160
+ chosen a better prior get a better bound
+
+2220
+01:03:13,840 --> 01:03:16,160
+ 
+
+2221
+01:03:13,850 --> 01:03:20,050
+ as a result but both bounds would be
+
+2222
+01:03:16,150 --> 01:03:20,050
+ 
+
+2223
+01:03:16,160 --> 01:03:20,050
+ true Thanks
+
+2224
+01:03:34,240 --> 01:03:34,240
+ 
+
+2225
+01:03:34,250 --> 01:03:37,890
+ so a lot of the bounds depended on the
+
+2226
+01:03:36,560 --> 01:03:37,890
+ 
+
+2227
+01:03:36,570 --> 01:03:39,240
+ kale diversions and there was part of
+
+2228
+01:03:37,880 --> 01:03:39,240
+ 
+
+2229
+01:03:37,890 --> 01:03:41,400
+ the talk where you briefly mentioned F
+
+2230
+01:03:39,230 --> 01:03:41,400
+ 
+
+2231
+01:03:39,240 --> 01:03:42,990
+ divergences alpha divergences other ways
+
+2232
+01:03:41,390 --> 01:03:42,990
+ 
+
+2233
+01:03:41,400 --> 01:03:45,030
+ of thinking about metrics between
+
+2234
+01:03:42,980 --> 01:03:45,030
+ 
+
+2235
+01:03:42,990 --> 01:03:46,910
+ distributions can you think of some
+
+2236
+01:03:45,020 --> 01:03:46,910
+ 
+
+2237
+01:03:45,030 --> 01:03:49,470
+ cases where it's been very important to
+
+2238
+01:03:46,900 --> 01:03:49,470
+ 
+
+2239
+01:03:46,910 --> 01:03:51,270
+ not use the KL diversions perhaps
+
+2240
+01:03:49,460 --> 01:03:51,270
+ 
+
+2241
+01:03:49,470 --> 01:03:53,040
+ because it provides an overly compact
+
+2242
+01:03:51,260 --> 01:03:53,040
+ 
+
+2243
+01:03:51,270 --> 01:04:02,040
+ representation or at zero forcing or
+
+2244
+01:03:53,030 --> 01:04:02,040
+ 
+
+2245
+01:03:53,040 --> 01:04:04,680
+ something else well the motivation
+
+2246
+01:04:02,030 --> 01:04:04,680
+ 
+
+2247
+01:04:02,040 --> 01:04:08,340
+ really for using different from of
+
+2248
+01:04:04,670 --> 01:04:08,340
+ 
+
+2249
+01:04:04,680 --> 01:04:10,980
+ discrepancy at KL is really to explore
+
+2250
+01:04:08,330 --> 01:04:10,980
+ 
+
+2251
+01:04:08,340 --> 01:04:14,700
+ settings in which the pack base band so
+
+2252
+01:04:10,970 --> 01:04:14,700
+ 
+
+2253
+01:04:10,980 --> 01:04:16,470
+ far or impossible to obtain on the other
+
+2254
+01:04:14,690 --> 01:04:16,470
+ 
+
+2255
+01:04:14,700 --> 01:04:18,420
+ hand what's interesting about the KL is
+
+2256
+01:04:16,460 --> 01:04:18,420
+ 
+
+2257
+01:04:16,470 --> 01:04:20,430
+ that it deals actually very interesting
+
+2258
+01:04:18,410 --> 01:04:20,430
+ 
+
+2259
+01:04:18,420 --> 01:04:22,830
+ closed form for the optimal story so for
+
+2260
+01:04:20,420 --> 01:04:22,830
+ 
+
+2261
+01:04:20,430 --> 01:04:26,370
+ example the Gibbs pastori arises with
+
+2262
+01:04:22,820 --> 01:04:26,370
+ 
+
+2263
+01:04:22,830 --> 01:04:29,670
+ the KL if you switch the KL to something
+
+2264
+01:04:26,360 --> 01:04:29,670
+ 
+
+2265
+01:04:26,370 --> 01:04:32,910
+ else you get actually much more last
+
+2266
+01:04:29,660 --> 01:04:32,910
+ 
+
+2267
+01:04:29,670 --> 01:04:36,830
+ year versions of the optimal posterior
+
+2268
+01:04:32,900 --> 01:04:36,830
+ 
+
+2269
+01:04:32,910 --> 01:04:39,180
+ I don't know that answers your questions
+
+2270
+01:04:36,820 --> 01:04:39,180
+ 
+
+2271
+01:04:36,830 --> 01:04:40,770
+ yeah so the kale is often very
+
+2272
+01:04:39,170 --> 01:04:40,770
+ 
+
+2273
+01:04:39,180 --> 01:04:45,240
+ convenient although sometimes it has
+
+2274
+01:04:40,760 --> 01:04:45,240
+ 
+
+2275
+01:04:40,770 --> 01:04:47,900
+ undesirable properties and yeah yep any
+
+2276
+01:04:45,230 --> 01:04:47,900
+ 
+
+2277
+01:04:45,240 --> 01:04:47,900
+ further questions
+
+2278
+01:04:51,670 --> 01:04:51,670
+ 
+
+2279
+01:04:51,680 --> 01:05:02,139
+ okay let's thank the speakers
+
+2280
+01:04:53,910 --> 01:05:02,139
+ 
+
+2281
+01:04:53,920 --> 01:05:02,139
+[Applause]

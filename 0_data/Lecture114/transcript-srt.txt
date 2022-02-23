@@ -1,0 +1,9459 @@
+1
+00:00:00,060 --> 00:00:06,029
+ hey welcome everyone thanks for showing
+
+2
+00:00:04,160 --> 00:00:06,029
+ 
+
+3
+00:00:04,170 --> 00:00:09,269
+ up on a Monday on the last day of the
+
+4
+00:00:06,019 --> 00:00:09,269
+ 
+
+5
+00:00:06,029 --> 00:00:12,420
+ conference I'm Sean parent I'm a
+
+6
+00:00:09,259 --> 00:00:12,420
+ 
+
+7
+00:00:09,269 --> 00:00:15,480
+ principal scientist at Adobe given a
+
+8
+00:00:12,410 --> 00:00:15,480
+ 
+
+9
+00:00:12,420 --> 00:00:17,100
+ number of talks over the years so I know
+
+10
+00:00:15,470 --> 00:00:17,100
+ 
+
+11
+00:00:15,480 --> 00:00:19,650
+ a number of you I've spoken in a lot of
+
+12
+00:00:17,090 --> 00:00:19,650
+ 
+
+13
+00:00:17,100 --> 00:00:22,410
+ conferences this talk is a little
+
+14
+00:00:19,640 --> 00:00:22,410
+ 
+
+15
+00:00:19,650 --> 00:00:24,930
+ outside the talks I usually give it's a
+
+16
+00:00:22,400 --> 00:00:24,930
+ 
+
+17
+00:00:22,410 --> 00:00:27,599
+ talk on the relationship between better
+
+18
+00:00:24,920 --> 00:00:27,599
+ 
+
+19
+00:00:24,930 --> 00:00:29,330
+ code and a better human interface so
+
+20
+00:00:27,589 --> 00:00:29,330
+ 
+
+21
+00:00:27,599 --> 00:00:33,660
+ it's a little outside points if we call
+
+22
+00:00:29,320 --> 00:00:33,660
+ 
+
+23
+00:00:29,330 --> 00:00:35,700
+ better code talks I'll when I give a
+
+24
+00:00:33,650 --> 00:00:35,700
+ 
+
+25
+00:00:33,660 --> 00:00:38,460
+ talk I like to give a talk that's
+
+26
+00:00:35,690 --> 00:00:38,460
+ 
+
+27
+00:00:35,700 --> 00:00:41,790
+ related at least tangentially to what
+
+28
+00:00:38,450 --> 00:00:41,790
+ 
+
+29
+00:00:38,460 --> 00:00:44,309
+ I'm working on and so yeah they asked me
+
+30
+00:00:41,780 --> 00:00:44,309
+ 
+
+31
+00:00:41,790 --> 00:00:50,370
+ to give this talk a year or so ago at
+
+32
+00:00:44,299 --> 00:00:50,370
+ 
+
+33
+00:00:44,309 --> 00:00:52,980
+ meeting C++ and I gave it there and you
+
+34
+00:00:50,360 --> 00:00:52,980
+ 
+
+35
+00:00:50,370 --> 00:00:54,840
+ human interfaces user interfaces are
+
+36
+00:00:52,970 --> 00:00:54,840
+ 
+
+37
+00:00:52,980 --> 00:00:58,969
+ something I spend a lot of time with and
+
+38
+00:00:54,830 --> 00:00:58,969
+ 
+
+39
+00:00:54,840 --> 00:00:58,969
+ then I spend a lot of time working on
+
+40
+00:00:59,260 --> 00:00:59,260
+ 
+
+41
+00:00:59,270 --> 00:01:06,479
+ Marshall asked me just before I came on
+
+42
+00:01:03,280 --> 00:01:06,479
+ 
+
+43
+00:01:03,290 --> 00:01:10,650
+ about the art work what this actually is
+
+44
+00:01:06,469 --> 00:01:10,650
+ 
+
+45
+00:01:06,479 --> 00:01:11,729
+ the brushstrokes I'm bringing it up only
+
+46
+00:01:10,640 --> 00:01:11,729
+ 
+
+47
+00:01:10,650 --> 00:01:13,350
+ because every time I give a talk
+
+48
+00:01:11,719 --> 00:01:13,350
+ 
+
+49
+00:01:11,729 --> 00:01:17,780
+ somebody asks where do you get your
+
+50
+00:01:13,340 --> 00:01:17,780
+ 
+
+51
+00:01:13,350 --> 00:01:20,460
+ artwork well working at Adobe we have a
+
+52
+00:01:17,770 --> 00:01:20,460
+ 
+
+53
+00:01:17,780 --> 00:01:22,920
+ collection of templates that branding
+
+54
+00:01:20,450 --> 00:01:22,920
+ 
+
+55
+00:01:20,460 --> 00:01:25,560
+ puts out in updates every six months or
+
+56
+00:01:22,910 --> 00:01:25,560
+ 
+
+57
+00:01:22,920 --> 00:01:27,420
+ so and so whenever I give a talk I go
+
+58
+00:01:25,550 --> 00:01:27,420
+ 
+
+59
+00:01:25,560 --> 00:01:31,170
+ and I try to just pick one of their
+
+60
+00:01:27,410 --> 00:01:31,170
+ 
+
+61
+00:01:27,420 --> 00:01:32,970
+ templates it's approved that matches the
+
+62
+00:01:31,160 --> 00:01:32,970
+ 
+
+63
+00:01:31,170 --> 00:01:35,460
+ theme somewhat so since this is about
+
+64
+00:01:32,960 --> 00:01:35,460
+ 
+
+65
+00:01:32,970 --> 00:01:38,100
+ human interface and design I thought
+
+66
+00:01:35,450 --> 00:01:38,100
+ 
+
+67
+00:01:35,460 --> 00:01:42,840
+ this was a nice artistic piece to go
+
+68
+00:01:38,090 --> 00:01:42,840
+ 
+
+69
+00:01:38,100 --> 00:01:45,720
+ with this talk human interface as we
+
+70
+00:01:42,830 --> 00:01:45,720
+ 
+
+71
+00:01:42,840 --> 00:01:47,820
+ bump into all the time and they waste a
+
+72
+00:01:45,710 --> 00:01:47,820
+ 
+
+73
+00:01:45,720 --> 00:01:50,220
+ huge amount of our time bad human their
+
+74
+00:01:47,810 --> 00:01:50,220
+ 
+
+75
+00:01:47,820 --> 00:01:54,119
+ faces do I don't think we give enough
+
+76
+00:01:50,210 --> 00:01:54,119
+ 
+
+77
+00:01:50,220 --> 00:01:55,860
+ thought about them just standing up here
+
+78
+00:01:54,109 --> 00:01:55,860
+ 
+
+79
+00:01:54,119 --> 00:01:58,890
+ before the conference the little device
+
+80
+00:01:55,850 --> 00:01:58,890
+ 
+
+81
+00:01:55,860 --> 00:02:02,100
+ over here is a timer that I can see and
+
+82
+00:01:58,880 --> 00:02:02,100
+ 
+
+83
+00:01:58,890 --> 00:02:03,780
+ as it was leading up to the talk the
+
+84
+00:02:02,090 --> 00:02:03,780
+ 
+
+85
+00:02:02,100 --> 00:02:06,210
+ background went green to let me know
+
+86
+00:02:03,770 --> 00:02:06,210
+ 
+
+87
+00:02:03,780 --> 00:02:08,910
+ that it was pre talk and the numbers
+
+88
+00:02:06,200 --> 00:02:08,910
+ 
+
+89
+00:02:06,210 --> 00:02:11,520
+ went red to let me know that I was
+
+90
+00:02:08,900 --> 00:02:11,520
+ 
+
+91
+00:02:08,910 --> 00:02:13,690
+ getting close to the time who knows what
+
+92
+00:02:11,510 --> 00:02:13,690
+ 
+
+93
+00:02:11,520 --> 00:02:16,150
+ the problem with that is
+
+94
+00:02:13,680 --> 00:02:16,150
+ 
+
+95
+00:02:13,690 --> 00:02:17,620
+ yeah if I were colorblind I don't think
+
+96
+00:02:16,140 --> 00:02:17,620
+ 
+
+97
+00:02:16,150 --> 00:02:19,630
+ I would have been able to read it at all
+
+98
+00:02:17,610 --> 00:02:19,630
+ 
+
+99
+00:02:17,620 --> 00:02:21,550
+ right I I mean it literally looked like
+
+100
+00:02:19,620 --> 00:02:21,550
+ 
+
+101
+00:02:19,630 --> 00:02:30,600
+ a test you would take to see if you were
+
+102
+00:02:21,540 --> 00:02:30,600
+ 
+
+103
+00:02:21,550 --> 00:02:32,680
+ colorblind so you bump into these things
+
+104
+00:02:30,590 --> 00:02:32,680
+ 
+
+105
+00:02:30,600 --> 00:02:34,390
+ when I give a talk in the conference i
+
+106
+00:02:32,670 --> 00:02:34,390
+ 
+
+107
+00:02:32,680 --> 00:02:35,980
+ also like to open things up for a
+
+108
+00:02:34,380 --> 00:02:35,980
+ 
+
+109
+00:02:34,390 --> 00:02:36,520
+ conversation for the rest of the
+
+110
+00:02:35,970 --> 00:02:36,520
+ 
+
+111
+00:02:35,980 --> 00:02:38,500
+ conference
+
+112
+00:02:36,510 --> 00:02:38,500
+ 
+
+113
+00:02:36,520 --> 00:02:40,810
+ this is not a keynote I'm not leading
+
+114
+00:02:38,490 --> 00:02:40,810
+ 
+
+115
+00:02:38,500 --> 00:02:42,190
+ off the conference but maybe this will
+
+116
+00:02:40,800 --> 00:02:42,190
+ 
+
+117
+00:02:40,810 --> 00:02:45,370
+ give you some ideas of things to talk
+
+118
+00:02:42,180 --> 00:02:45,370
+ 
+
+119
+00:02:42,190 --> 00:02:49,530
+ about during the day so these were talks
+
+120
+00:02:45,360 --> 00:02:49,530
+ 
+
+121
+00:02:45,370 --> 00:02:53,410
+ that I'm not giving for various reasons
+
+122
+00:02:49,520 --> 00:02:53,410
+ 
+
+123
+00:02:49,530 --> 00:02:56,560
+ better code design and ethics a question
+
+124
+00:02:53,400 --> 00:02:56,560
+ 
+
+125
+00:02:53,410 --> 00:02:58,960
+ here is there a moral imperative to
+
+126
+00:02:56,550 --> 00:02:58,960
+ 
+
+127
+00:02:56,560 --> 00:03:02,470
+ create better designs of better software
+
+128
+00:02:58,950 --> 00:03:02,470
+ 
+
+129
+00:02:58,960 --> 00:03:05,290
+ better human interfaces I think it's an
+
+130
+00:03:02,460 --> 00:03:05,290
+ 
+
+131
+00:03:02,470 --> 00:03:07,560
+ interesting topic the reason why I'm not
+
+132
+00:03:05,280 --> 00:03:07,560
+ 
+
+133
+00:03:05,290 --> 00:03:11,080
+ giving this talk is because today
+
+134
+00:03:07,550 --> 00:03:11,080
+ 
+
+135
+00:03:07,560 --> 00:03:12,490
+ specifically like at this moment I think
+
+136
+00:03:11,070 --> 00:03:12,490
+ 
+
+137
+00:03:11,080 --> 00:03:14,980
+ there are much greater moral issues
+
+138
+00:03:12,480 --> 00:03:14,980
+ 
+
+139
+00:03:12,490 --> 00:03:20,590
+ going on in the world so this would be a
+
+140
+00:03:14,970 --> 00:03:20,590
+ 
+
+141
+00:03:14,980 --> 00:03:25,510
+ little trite futures are not monads or
+
+142
+00:03:20,580 --> 00:03:25,510
+ 
+
+143
+00:03:20,590 --> 00:03:27,430
+ maybe not just mo Nance bresenhem's
+
+144
+00:03:25,500 --> 00:03:27,430
+ 
+
+145
+00:03:25,510 --> 00:03:30,640
+ algorithm who knows what bresenhem's
+
+146
+00:03:27,420 --> 00:03:30,640
+ 
+
+147
+00:03:27,430 --> 00:03:31,840
+ algorithm is yeah so I've been doing
+
+148
+00:03:30,630 --> 00:03:31,840
+ 
+
+149
+00:03:30,640 --> 00:03:35,950
+ some interesting work with brother name
+
+150
+00:03:31,830 --> 00:03:35,950
+ 
+
+151
+00:03:31,840 --> 00:03:37,720
+ algorithms and and much faster brezin M
+
+152
+00:03:35,940 --> 00:03:37,720
+ 
+
+153
+00:03:35,950 --> 00:03:40,330
+ algorithms with no comparison no
+
+154
+00:03:37,710 --> 00:03:40,330
+ 
+
+155
+00:03:37,720 --> 00:03:41,800
+ branches and I think there's an
+
+156
+00:03:40,320 --> 00:03:41,800
+ 
+
+157
+00:03:40,330 --> 00:03:43,540
+ interesting talk there interesting
+
+158
+00:03:41,790 --> 00:03:43,540
+ 
+
+159
+00:03:41,800 --> 00:03:47,470
+ history but I haven't finished the work
+
+160
+00:03:43,530 --> 00:03:47,470
+ 
+
+161
+00:03:43,540 --> 00:03:50,170
+ so I'm not gonna give this talk yet old
+
+162
+00:03:47,460 --> 00:03:50,170
+ 
+
+163
+00:03:47,470 --> 00:03:51,790
+ guy reminiscing my badge that I've been
+
+164
+00:03:50,160 --> 00:03:51,790
+ 
+
+165
+00:03:50,170 --> 00:03:54,430
+ walking around with at the conferences
+
+166
+00:03:51,780 --> 00:03:54,430
+ 
+
+167
+00:03:51,790 --> 00:03:57,220
+ how old is generic programming the
+
+168
+00:03:54,420 --> 00:03:57,220
+ 
+
+169
+00:03:54,430 --> 00:04:00,760
+ answer I will give you all now is 30
+
+170
+00:03:57,210 --> 00:04:00,760
+ 
+
+171
+00:03:57,220 --> 00:04:04,989
+ years 30 years ago today or not today 30
+
+172
+00:04:00,750 --> 00:04:04,989
+ 
+
+173
+00:04:00,760 --> 00:04:07,600
+ years ago this year Dave Mercer and Alec
+
+174
+00:04:04,979 --> 00:04:07,600
+ 
+
+175
+00:04:04,989 --> 00:04:10,030
+ Stepanov published a paper titled
+
+176
+00:04:07,590 --> 00:04:10,030
+ 
+
+177
+00:04:07,600 --> 00:04:13,750
+ generic programming that's where the the
+
+178
+00:04:10,020 --> 00:04:13,750
+ 
+
+179
+00:04:10,030 --> 00:04:15,160
+ term generic programming was coined the
+
+180
+00:04:13,740 --> 00:04:15,160
+ 
+
+181
+00:04:13,750 --> 00:04:16,390
+ number of people who I've had
+
+182
+00:04:15,150 --> 00:04:16,390
+ 
+
+183
+00:04:15,160 --> 00:04:18,310
+ conversations with at this conference
+
+184
+00:04:16,380 --> 00:04:18,310
+ 
+
+185
+00:04:16,390 --> 00:04:20,020
+ when I said it's 30 years old they're
+
+186
+00:04:18,300 --> 00:04:20,020
+ 
+
+187
+00:04:18,310 --> 00:04:23,289
+ like oh well that's about two or three
+
+188
+00:04:20,010 --> 00:04:23,289
+ 
+
+189
+00:04:20,020 --> 00:04:25,180
+ years before I was born 30 years ago I
+
+190
+00:04:23,279 --> 00:04:25,180
+ 
+
+191
+00:04:23,289 --> 00:04:26,919
+ worked at Apple and systems software
+
+192
+00:04:25,170 --> 00:04:26,919
+ 
+
+193
+00:04:25,180 --> 00:04:28,719
+ group so
+
+194
+00:04:26,909 --> 00:04:28,719
+ 
+
+195
+00:04:26,919 --> 00:04:32,340
+ so there's lots that I can reminisce
+
+196
+00:04:28,709 --> 00:04:32,340
+ 
+
+197
+00:04:28,719 --> 00:04:34,719
+ about the old guy but today's tough
+
+198
+00:04:32,330 --> 00:04:34,719
+ 
+
+199
+00:04:32,340 --> 00:04:39,819
+ we're talking about better code human
+
+200
+00:04:34,709 --> 00:04:39,819
+ 
+
+201
+00:04:34,719 --> 00:04:42,039
+ interface along this talk comes out of a
+
+202
+00:04:39,809 --> 00:04:42,039
+ 
+
+203
+00:04:39,819 --> 00:04:44,409
+ comment that Darren Adler I think Darren
+
+204
+00:04:42,029 --> 00:04:44,409
+ 
+
+205
+00:04:42,039 --> 00:04:47,229
+ now runs the safari group at Apple he
+
+206
+00:04:44,399 --> 00:04:47,229
+ 
+
+207
+00:04:44,409 --> 00:04:49,599
+ and I worked at Apple you know 30 years
+
+208
+00:04:47,219 --> 00:04:49,599
+ 
+
+209
+00:04:47,229 --> 00:04:53,139
+ ago fact he's one of the reasons why I
+
+210
+00:04:49,589 --> 00:04:53,139
+ 
+
+211
+00:04:49,599 --> 00:04:54,639
+ got my job at Apple I he made this
+
+212
+00:04:53,129 --> 00:04:54,639
+ 
+
+213
+00:04:53,139 --> 00:04:56,199
+ statement at least this is to the best
+
+214
+00:04:54,629 --> 00:04:56,199
+ 
+
+215
+00:04:54,639 --> 00:04:57,490
+ of my recollection but I actually sent
+
+216
+00:04:56,189 --> 00:04:57,490
+ 
+
+217
+00:04:56,199 --> 00:05:01,810
+ him this quote and he said yeah he
+
+218
+00:04:57,480 --> 00:05:01,810
+ 
+
+219
+00:04:57,490 --> 00:05:02,949
+ remembers the conversation and he
+
+220
+00:05:01,800 --> 00:05:02,949
+ 
+
+221
+00:05:01,810 --> 00:05:05,620
+ remembers saying something to this
+
+222
+00:05:02,939 --> 00:05:05,620
+ 
+
+223
+00:05:02,949 --> 00:05:07,930
+ effect that's the purpose of a human
+
+224
+00:05:05,610 --> 00:05:07,930
+ 
+
+225
+00:05:05,620 --> 00:05:10,330
+ interface is not to hide what the code
+
+226
+00:05:07,920 --> 00:05:10,330
+ 
+
+227
+00:05:07,930 --> 00:05:13,419
+ does but to accurately convey what the
+
+228
+00:05:10,320 --> 00:05:13,419
+ 
+
+229
+00:05:10,330 --> 00:05:15,069
+ code does okay what you're trying to do
+
+230
+00:05:13,409 --> 00:05:15,069
+ 
+
+231
+00:05:13,419 --> 00:05:18,339
+ when you build a human interface is
+
+232
+00:05:15,059 --> 00:05:18,339
+ 
+
+233
+00:05:15,069 --> 00:05:21,759
+ create a mental model in the users mind
+
+234
+00:05:18,329 --> 00:05:21,759
+ 
+
+235
+00:05:18,339 --> 00:05:24,310
+ of what's going on under the hood okay
+
+236
+00:05:21,749 --> 00:05:24,310
+ 
+
+237
+00:05:21,759 --> 00:05:25,960
+ all too often I see human interfaces
+
+238
+00:05:24,300 --> 00:05:25,960
+ 
+
+239
+00:05:24,310 --> 00:05:27,669
+ where it's very clear that the designer
+
+240
+00:05:25,950 --> 00:05:27,669
+ 
+
+241
+00:05:25,960 --> 00:05:30,069
+ of the human interface never really
+
+242
+00:05:27,659 --> 00:05:30,069
+ 
+
+243
+00:05:27,669 --> 00:05:31,870
+ talked to the engineer they never
+
+244
+00:05:30,059 --> 00:05:31,870
+ 
+
+245
+00:05:30,069 --> 00:05:33,389
+ understood what the constraints were or
+
+246
+00:05:31,860 --> 00:05:33,389
+ 
+
+247
+00:05:31,870 --> 00:05:36,189
+ what it was they were trying to convey
+
+248
+00:05:33,379 --> 00:05:36,189
+ 
+
+249
+00:05:33,389 --> 00:05:37,990
+ okay they were trying to create an
+
+250
+00:05:36,179 --> 00:05:37,990
+ 
+
+251
+00:05:36,189 --> 00:05:42,669
+ illusion of how they wished it worked
+
+252
+00:05:37,980 --> 00:05:42,669
+ 
+
+253
+00:05:37,990 --> 00:05:46,419
+ not of how it actually works and the
+
+254
+00:05:42,659 --> 00:05:46,419
+ 
+
+255
+00:05:42,669 --> 00:05:47,649
+ problem with that is those lies and
+
+256
+00:05:46,409 --> 00:05:47,649
+ 
+
+257
+00:05:46,419 --> 00:05:49,779
+ that's what you're doing when you do
+
+258
+00:05:47,639 --> 00:05:49,779
+ 
+
+259
+00:05:47,649 --> 00:05:53,229
+ that you are lying to the user about how
+
+260
+00:05:49,769 --> 00:05:53,229
+ 
+
+261
+00:05:49,779 --> 00:05:55,750
+ the system works those lies don't hold
+
+262
+00:05:53,219 --> 00:05:55,750
+ 
+
+263
+00:05:53,229 --> 00:05:59,169
+ up and they peek through and users
+
+264
+00:05:55,740 --> 00:05:59,169
+ 
+
+265
+00:05:55,750 --> 00:06:01,270
+ create magical rules right right how
+
+266
+00:05:59,159 --> 00:06:01,270
+ 
+
+267
+00:05:59,169 --> 00:06:02,919
+ many times have you talked with the
+
+268
+00:06:01,260 --> 00:06:02,919
+ 
+
+269
+00:06:01,270 --> 00:06:05,770
+ family members kind of not in the
+
+270
+00:06:02,909 --> 00:06:05,770
+ 
+
+271
+00:06:02,919 --> 00:06:07,689
+ industry and they will tell you like oh
+
+272
+00:06:05,760 --> 00:06:07,689
+ 
+
+273
+00:06:05,770 --> 00:06:10,389
+ yes you know whenever I save this
+
+274
+00:06:07,679 --> 00:06:10,389
+ 
+
+275
+00:06:07,689 --> 00:06:12,009
+ document I do this other thing and they
+
+276
+00:06:10,379 --> 00:06:12,009
+ 
+
+277
+00:06:10,389 --> 00:06:15,520
+ might as well said you know I stand on
+
+278
+00:06:11,999 --> 00:06:15,520
+ 
+
+279
+00:06:12,009 --> 00:06:18,210
+ one one foot and Pat the top of my head
+
+280
+00:06:15,510 --> 00:06:18,210
+ 
+
+281
+00:06:15,520 --> 00:06:22,120
+ because otherwise it doesn't work right
+
+282
+00:06:18,200 --> 00:06:22,120
+ 
+
+283
+00:06:18,210 --> 00:06:23,949
+ right they're creating a little magical
+
+284
+00:06:22,110 --> 00:06:23,949
+ 
+
+285
+00:06:22,120 --> 00:06:25,659
+ thinking trying to explain to themselves
+
+286
+00:06:23,939 --> 00:06:25,659
+ 
+
+287
+00:06:23,949 --> 00:06:28,389
+ what it does because when they take the
+
+288
+00:06:25,649 --> 00:06:28,389
+ 
+
+289
+00:06:25,659 --> 00:06:32,860
+ set of actions once at least it did what
+
+290
+00:06:28,379 --> 00:06:32,860
+ 
+
+291
+00:06:28,389 --> 00:06:37,509
+ they wanted so we can't lie to the user
+
+292
+00:06:32,850 --> 00:06:37,509
+ 
+
+293
+00:06:32,860 --> 00:06:40,090
+ so my goal is always don't lie I wanted
+
+294
+00:06:37,499 --> 00:06:40,090
+ 
+
+295
+00:06:37,509 --> 00:06:43,360
+ to set a little context here
+
+296
+00:06:40,080 --> 00:06:43,360
+ 
+
+297
+00:06:40,090 --> 00:06:45,880
+ because I think it's important whenever
+
+298
+00:06:43,350 --> 00:06:45,880
+ 
+
+299
+00:06:43,360 --> 00:06:48,820
+ somebody gives a talk to understand what
+
+300
+00:06:45,870 --> 00:06:48,820
+ 
+
+301
+00:06:45,880 --> 00:06:52,720
+ kind of world they live in
+
+302
+00:06:48,810 --> 00:06:52,720
+ 
+
+303
+00:06:48,820 --> 00:06:55,210
+ this is Photoshop when I joined Adobe
+
+304
+00:06:52,710 --> 00:06:55,210
+ 
+
+305
+00:06:52,720 --> 00:06:57,220
+ twenty-five years ago I started on this
+
+306
+00:06:55,200 --> 00:06:57,220
+ 
+
+307
+00:06:55,210 --> 00:06:59,560
+ team and now I kind of loped back in my
+
+308
+00:06:57,210 --> 00:06:59,560
+ 
+
+309
+00:06:57,220 --> 00:07:02,230
+ career in the last couple years and so
+
+310
+00:06:59,550 --> 00:07:02,230
+ 
+
+311
+00:06:59,560 --> 00:07:05,530
+ now I'm working again with the Photoshop
+
+312
+00:07:02,220 --> 00:07:05,530
+ 
+
+313
+00:07:02,230 --> 00:07:08,140
+ team this application how many people
+
+314
+00:07:05,520 --> 00:07:08,140
+ 
+
+315
+00:07:05,530 --> 00:07:09,910
+ here have used it okay
+
+316
+00:07:08,130 --> 00:07:09,910
+ 
+
+317
+00:07:08,140 --> 00:07:13,770
+ almost everybody how many people here
+
+318
+00:07:09,900 --> 00:07:13,770
+ 
+
+319
+00:07:09,910 --> 00:07:18,640
+ think they know it my hand is not up
+
+320
+00:07:13,760 --> 00:07:18,640
+ 
+
+321
+00:07:13,770 --> 00:07:22,060
+ okay I one of the greatest compliments
+
+322
+00:07:18,630 --> 00:07:22,060
+ 
+
+323
+00:07:18,640 --> 00:07:26,760
+ of my career was I one point mark
+
+324
+00:07:22,050 --> 00:07:26,760
+ 
+
+325
+00:07:22,060 --> 00:07:29,380
+ Hamburg who was the lead on on Photoshop
+
+326
+00:07:26,750 --> 00:07:29,380
+ 
+
+327
+00:07:26,760 --> 00:07:32,080
+ somebody asked him how he could possibly
+
+328
+00:07:29,370 --> 00:07:32,080
+ 
+
+329
+00:07:29,380 --> 00:07:34,300
+ know so much about Photoshop and does he
+
+330
+00:07:32,070 --> 00:07:34,300
+ 
+
+331
+00:07:32,080 --> 00:07:37,030
+ know everything about Photoshop and he
+
+332
+00:07:34,290 --> 00:07:37,030
+ 
+
+333
+00:07:34,300 --> 00:07:38,740
+ said no I'm only able now to hold half a
+
+334
+00:07:37,020 --> 00:07:38,740
+ 
+
+335
+00:07:37,030 --> 00:07:43,540
+ Photoshop in my head but that's okay
+
+336
+00:07:38,730 --> 00:07:43,540
+ 
+
+337
+00:07:38,740 --> 00:07:45,700
+ sean has the other half a very
+
+338
+00:07:43,530 --> 00:07:45,700
+ 
+
+339
+00:07:43,540 --> 00:07:49,690
+ compliment you know a great compliment I
+
+340
+00:07:45,690 --> 00:07:49,690
+ 
+
+341
+00:07:45,700 --> 00:07:53,950
+ don't think it was ever quite true but
+
+342
+00:07:49,680 --> 00:07:53,950
+ 
+
+343
+00:07:49,690 --> 00:07:57,010
+ that was 20-something years ago right
+
+344
+00:07:53,940 --> 00:07:57,010
+ 
+
+345
+00:07:53,950 --> 00:08:00,550
+ this application is a beast if you just
+
+346
+00:07:57,000 --> 00:08:00,550
+ 
+
+347
+00:07:57,010 --> 00:08:02,440
+ look at the windows menu I bet a few
+
+348
+00:08:00,540 --> 00:08:02,440
+ 
+
+349
+00:08:00,550 --> 00:08:04,780
+ pallets up those are all the palettes in
+
+350
+00:08:02,430 --> 00:08:04,780
+ 
+
+351
+00:08:02,440 --> 00:08:08,050
+ Photoshop right how many people know
+
+352
+00:08:04,770 --> 00:08:08,050
+ 
+
+353
+00:08:04,780 --> 00:08:10,180
+ that you can edit full 3d models in
+
+354
+00:08:08,040 --> 00:08:10,180
+ 
+
+355
+00:08:08,050 --> 00:08:13,330
+ Photoshop and composite them into your
+
+356
+00:08:10,170 --> 00:08:13,330
+ 
+
+357
+00:08:10,180 --> 00:08:15,250
+ world like one person to three people
+
+358
+00:08:13,320 --> 00:08:15,250
+ 
+
+359
+00:08:13,330 --> 00:08:16,840
+ right there's a complete 3d engine
+
+360
+00:08:15,240 --> 00:08:16,840
+ 
+
+361
+00:08:15,250 --> 00:08:18,940
+ inside of Photoshop if you didn't know
+
+362
+00:08:16,830 --> 00:08:18,940
+ 
+
+363
+00:08:16,840 --> 00:08:22,990
+ how many people knew that you can edit
+
+364
+00:08:18,930 --> 00:08:22,990
+ 
+
+365
+00:08:18,940 --> 00:08:24,820
+ video inside of Photoshop yeah one
+
+366
+00:08:22,980 --> 00:08:24,820
+ 
+
+367
+00:08:22,990 --> 00:08:26,920
+ person so there's a complete timeline
+
+368
+00:08:24,810 --> 00:08:26,920
+ 
+
+369
+00:08:24,820 --> 00:08:29,470
+ editor inside a Photoshop so if you want
+
+370
+00:08:26,910 --> 00:08:29,470
+ 
+
+371
+00:08:26,920 --> 00:08:32,260
+ to do something like like correct the
+
+372
+00:08:29,460 --> 00:08:32,260
+ 
+
+373
+00:08:29,470 --> 00:08:35,620
+ lens warp of a bunch of panoramic images
+
+374
+00:08:32,250 --> 00:08:35,620
+ 
+
+375
+00:08:32,260 --> 00:08:37,510
+ and stitch them into a video you can do
+
+376
+00:08:35,610 --> 00:08:37,510
+ 
+
+377
+00:08:35,620 --> 00:08:40,560
+ that inside of Photoshop or you can take
+
+378
+00:08:37,500 --> 00:08:40,560
+ 
+
+379
+00:08:37,510 --> 00:08:43,420
+ your 4k video and dump it in and apply
+
+380
+00:08:40,550 --> 00:08:43,420
+ 
+
+381
+00:08:40,560 --> 00:08:46,300
+ Gaussian blur inside a Photoshop across
+
+382
+00:08:43,410 --> 00:08:46,300
+ 
+
+383
+00:08:43,420 --> 00:08:50,370
+ the set of frames right so there is a
+
+384
+00:08:46,290 --> 00:08:50,370
+ 
+
+385
+00:08:46,300 --> 00:08:53,620
+ complete video editor inside Photoshop
+
+386
+00:08:50,360 --> 00:08:53,620
+ 
+
+387
+00:08:50,370 --> 00:08:55,750
+ just things like
+
+388
+00:08:53,610 --> 00:08:55,750
+ 
+
+389
+00:08:53,620 --> 00:09:01,180
+ the layer effects panel inside a
+
+390
+00:08:55,740 --> 00:09:01,180
+ 
+
+391
+00:08:55,750 --> 00:09:03,520
+ Photoshop if I just brought this up this
+
+392
+00:09:01,170 --> 00:09:03,520
+ 
+
+393
+00:09:01,180 --> 00:09:07,180
+ is probably more human interface in this
+
+394
+00:09:03,510 --> 00:09:07,180
+ 
+
+395
+00:09:03,520 --> 00:09:12,880
+ one dialog box in most applications have
+
+396
+00:09:07,170 --> 00:09:12,880
+ 
+
+397
+00:09:07,180 --> 00:09:16,180
+ in their entire application okay so this
+
+398
+00:09:12,870 --> 00:09:16,180
+ 
+
+399
+00:09:12,880 --> 00:09:23,140
+ is a huge application right at at one
+
+400
+00:09:16,170 --> 00:09:23,140
+ 
+
+401
+00:09:16,180 --> 00:09:25,330
+ point years ago we had to to send off
+
+402
+00:09:23,130 --> 00:09:25,330
+ 
+
+403
+00:09:23,140 --> 00:09:27,820
+ the strings for translation they had to
+
+404
+00:09:25,320 --> 00:09:27,820
+ 
+
+405
+00:09:25,330 --> 00:09:29,440
+ be redone and the translators came back
+
+406
+00:09:27,810 --> 00:09:29,440
+ 
+
+407
+00:09:27,820 --> 00:09:33,330
+ and said yeah we allocated a couple
+
+408
+00:09:29,430 --> 00:09:33,330
+ 
+
+409
+00:09:29,440 --> 00:09:35,350
+ weeks to go we do this whole whole thing
+
+410
+00:09:33,320 --> 00:09:35,350
+ 
+
+411
+00:09:33,330 --> 00:09:39,820
+ and we said you understand that there
+
+412
+00:09:35,340 --> 00:09:39,820
+ 
+
+413
+00:09:35,350 --> 00:09:42,250
+ are 10,000 strings in Photoshop so
+
+414
+00:09:39,810 --> 00:09:42,250
+ 
+
+415
+00:09:39,820 --> 00:09:44,320
+ they're like well no we just have to
+
+416
+00:09:42,240 --> 00:09:44,320
+ 
+
+417
+00:09:42,250 --> 00:09:46,600
+ translate the ones that are user visible
+
+418
+00:09:44,310 --> 00:09:46,600
+ 
+
+419
+00:09:44,320 --> 00:09:52,150
+ yeah there's over 10,000 user visible
+
+420
+00:09:46,590 --> 00:09:52,150
+ 
+
+421
+00:09:46,600 --> 00:09:58,960
+ strings inside a Photoshop okay so this
+
+422
+00:09:52,140 --> 00:09:58,960
+ 
+
+423
+00:09:52,150 --> 00:10:01,080
+ thing's a beast so one more thing I want
+
+424
+00:09:58,950 --> 00:10:01,080
+ 
+
+425
+00:09:58,960 --> 00:10:04,840
+ to mention before I leave Photoshop yes
+
+426
+00:10:01,070 --> 00:10:04,840
+ 
+
+427
+00:10:01,080 --> 00:10:06,730
+ at a top right panel there that's a
+
+428
+00:10:04,830 --> 00:10:06,730
+ 
+
+429
+00:10:04,840 --> 00:10:08,860
+ system that I worked on in Photoshop
+
+430
+00:10:06,720 --> 00:10:08,860
+ 
+
+431
+00:10:06,730 --> 00:10:14,470
+ called actions and it's a scripting
+
+432
+00:10:08,850 --> 00:10:14,470
+ 
+
+433
+00:10:08,860 --> 00:10:17,500
+ system at one point I might still even
+
+434
+00:10:14,460 --> 00:10:17,500
+ 
+
+435
+00:10:14,470 --> 00:10:22,420
+ be true there were more actions for
+
+436
+00:10:17,490 --> 00:10:22,420
+ 
+
+437
+00:10:17,500 --> 00:10:24,810
+ Photoshop than there were in any other
+
+438
+00:10:22,410 --> 00:10:24,810
+ 
+
+439
+00:10:22,420 --> 00:10:30,600
+ application domain-specific programming
+
+440
+00:10:24,800 --> 00:10:30,600
+ 
+
+441
+00:10:24,810 --> 00:10:33,070
+ language including Visual Basic for word
+
+442
+00:10:30,590 --> 00:10:33,070
+ 
+
+443
+00:10:30,600 --> 00:10:37,000
+ that may or may not be true today I
+
+444
+00:10:33,060 --> 00:10:37,000
+ 
+
+445
+00:10:33,070 --> 00:10:39,970
+ don't know but it certainly ranks up up
+
+446
+00:10:36,990 --> 00:10:39,970
+ 
+
+447
+00:10:37,000 --> 00:10:42,820
+ there an interesting thing about
+
+448
+00:10:39,960 --> 00:10:42,820
+ 
+
+449
+00:10:39,970 --> 00:10:44,800
+ Photoshop actions is there's no textual
+
+450
+00:10:42,810 --> 00:10:44,800
+ 
+
+451
+00:10:42,820 --> 00:10:46,600
+ description of them and there's no good
+
+452
+00:10:44,790 --> 00:10:46,600
+ 
+
+453
+00:10:44,800 --> 00:10:49,750
+ way to actually go in and kind of
+
+454
+00:10:46,590 --> 00:10:49,750
+ 
+
+455
+00:10:46,600 --> 00:10:51,760
+ textually edit them what makes in my
+
+456
+00:10:49,740 --> 00:10:51,760
+ 
+
+457
+00:10:49,750 --> 00:10:55,500
+ opinion Photoshop actions so successful
+
+458
+00:10:51,750 --> 00:10:55,500
+ 
+
+459
+00:10:51,760 --> 00:10:58,540
+ is that you can record what you do and
+
+460
+00:10:55,490 --> 00:10:58,540
+ 
+
+461
+00:10:55,500 --> 00:11:02,380
+ they capture not what was actually done
+
+462
+00:10:58,530 --> 00:11:02,380
+ 
+
+463
+00:10:58,540 --> 00:11:04,240
+ but what the users intent was so my
+
+464
+00:11:02,370 --> 00:11:04,240
+ 
+
+465
+00:11:02,380 --> 00:11:06,430
+ canonical example for that is if you're
+
+466
+00:11:04,230 --> 00:11:06,430
+ 
+
+467
+00:11:04,240 --> 00:11:10,839
+ resizing an image you go into a comp
+
+468
+00:11:06,420 --> 00:11:10,839
+ 
+
+469
+00:11:06,430 --> 00:11:12,370
+ dialogue you say that you you know you
+
+470
+00:11:10,829 --> 00:11:12,370
+ 
+
+471
+00:11:10,839 --> 00:11:14,290
+ click around on a bunch of fields and
+
+472
+00:11:12,360 --> 00:11:14,290
+ 
+
+473
+00:11:12,370 --> 00:11:15,820
+ you click on ok and what you said in
+
+474
+00:11:14,280 --> 00:11:15,820
+ 
+
+475
+00:11:14,290 --> 00:11:17,200
+ that dialogue box was that you wanted
+
+476
+00:11:15,810 --> 00:11:17,200
+ 
+
+477
+00:11:15,820 --> 00:11:19,600
+ your document to be 3 inches wide
+
+478
+00:11:17,190 --> 00:11:19,600
+ 
+
+479
+00:11:17,200 --> 00:11:21,010
+ constraining proportions what the
+
+480
+00:11:19,590 --> 00:11:21,010
+ 
+
+481
+00:11:19,600 --> 00:11:24,040
+ application does is it makes your
+
+482
+00:11:21,000 --> 00:11:24,040
+ 
+
+483
+00:11:21,010 --> 00:11:26,680
+ document 500 pixels by 400 pixels
+
+484
+00:11:24,030 --> 00:11:26,680
+ 
+
+485
+00:11:24,040 --> 00:11:28,810
+ well what gets recorded is make your
+
+486
+00:11:26,670 --> 00:11:28,810
+ 
+
+487
+00:11:26,680 --> 00:11:31,180
+ document 3 inches wide constraining
+
+488
+00:11:28,800 --> 00:11:31,180
+ 
+
+489
+00:11:28,810 --> 00:11:34,060
+ proportions right so it has this notion
+
+490
+00:11:31,170 --> 00:11:34,060
+ 
+
+491
+00:11:31,180 --> 00:11:35,589
+ of doing smart recording so that you end
+
+492
+00:11:34,050 --> 00:11:35,589
+ 
+
+493
+00:11:34,060 --> 00:11:38,950
+ up with a script that you can playback
+
+494
+00:11:35,579 --> 00:11:38,950
+ 
+
+495
+00:11:35,589 --> 00:11:47,200
+ on other documents and it will do what
+
+496
+00:11:38,940 --> 00:11:47,200
+ 
+
+497
+00:11:38,950 --> 00:12:04,029
+ you wanted capturing intensive so let's
+
+498
+00:11:47,190 --> 00:12:04,029
+ 
+
+499
+00:11:47,200 --> 00:12:06,010
+ go back here when I think about user
+
+500
+00:12:04,019 --> 00:12:06,010
+ 
+
+501
+00:12:04,029 --> 00:12:08,920
+ interfaces I try to put things into what
+
+502
+00:12:06,000 --> 00:12:08,920
+ 
+
+503
+00:12:06,010 --> 00:12:10,870
+ I call the taxonomy of everything ok
+
+504
+00:12:08,910 --> 00:12:10,870
+ 
+
+505
+00:12:08,920 --> 00:12:13,060
+ it's a simple way to break down the
+
+506
+00:12:10,860 --> 00:12:13,060
+ 
+
+507
+00:12:10,870 --> 00:12:15,490
+ world take a look at it you've got
+
+508
+00:12:13,050 --> 00:12:15,490
+ 
+
+509
+00:12:13,060 --> 00:12:19,150
+ objects you've got properties of those
+
+510
+00:12:15,480 --> 00:12:19,150
+ 
+
+511
+00:12:15,490 --> 00:12:24,010
+ objects you've got collections of
+
+512
+00:12:19,140 --> 00:12:24,010
+ 
+
+513
+00:12:19,150 --> 00:12:27,970
+ objects you've got operations on those
+
+514
+00:12:24,000 --> 00:12:27,970
+ 
+
+515
+00:12:24,010 --> 00:12:32,680
+ objects and you've got relationships
+
+516
+00:12:27,960 --> 00:12:32,680
+ 
+
+517
+00:12:27,970 --> 00:12:34,180
+ between objects ok so that's my taxonomy
+
+518
+00:12:32,670 --> 00:12:34,180
+ 
+
+519
+00:12:32,680 --> 00:12:36,760
+ of everything you can almost describe
+
+520
+00:12:34,170 --> 00:12:36,760
+ 
+
+521
+00:12:34,180 --> 00:12:45,070
+ the entire world describe everything in
+
+522
+00:12:36,750 --> 00:12:45,070
+ 
+
+523
+00:12:36,760 --> 00:12:47,500
+ this room in those terms right the
+
+524
+00:12:45,060 --> 00:12:47,500
+ 
+
+525
+00:12:45,070 --> 00:12:49,750
+ classic way to think about building a
+
+526
+00:12:47,490 --> 00:12:49,750
+ 
+
+527
+00:12:47,500 --> 00:12:53,380
+ human interface is this Model View
+
+528
+00:12:49,740 --> 00:12:53,380
+ 
+
+529
+00:12:49,750 --> 00:13:01,020
+ controller and this definition is one of
+
+530
+00:12:53,370 --> 00:13:01,020
+ 
+
+531
+00:12:53,380 --> 00:13:03,430
+ the most horribly abused just MVC or
+
+532
+00:13:01,010 --> 00:13:03,430
+ 
+
+533
+00:13:01,020 --> 00:13:06,779
+ Model View controller people just
+
+534
+00:13:03,420 --> 00:13:06,779
+ 
+
+535
+00:13:03,430 --> 00:13:10,060
+ redefine it to mean what they want I
+
+536
+00:13:06,769 --> 00:13:10,060
+ 
+
+537
+00:13:06,779 --> 00:13:12,730
+ don't do that so this is the definition
+
+538
+00:13:10,050 --> 00:13:12,730
+ 
+
+539
+00:13:10,060 --> 00:13:15,279
+ that comes out of design patterns which
+
+540
+00:13:12,720 --> 00:13:15,279
+ 
+
+541
+00:13:12,730 --> 00:13:19,120
+ also comes directly from the original
+
+542
+00:13:15,269 --> 00:13:19,120
+ 
+
+543
+00:13:15,279 --> 00:13:20,230
+ work on small talk MVC consists of three
+
+544
+00:13:19,110 --> 00:13:20,230
+ 
+
+545
+00:13:19,120 --> 00:13:24,010
+ kinds of objects
+
+546
+00:13:20,220 --> 00:13:24,010
+ 
+
+547
+00:13:20,230 --> 00:13:27,459
+ the model is the application object okay
+
+548
+00:13:24,000 --> 00:13:27,459
+ 
+
+549
+00:13:24,010 --> 00:13:30,130
+ the view is its screen presentation like
+
+550
+00:13:27,449 --> 00:13:30,130
+ 
+
+551
+00:13:27,459 --> 00:13:32,649
+ the view is what you see and the
+
+552
+00:13:30,120 --> 00:13:32,649
+ 
+
+553
+00:13:30,130 --> 00:13:36,010
+ controller defines the way user the user
+
+554
+00:13:32,639 --> 00:13:36,010
+ 
+
+555
+00:13:32,649 --> 00:13:37,660
+ interface reacts to user input okay so
+
+556
+00:13:36,000 --> 00:13:37,660
+ 
+
+557
+00:13:36,010 --> 00:13:39,310
+ the controller in some sense is the
+
+558
+00:13:37,650 --> 00:13:39,310
+ 
+
+559
+00:13:37,660 --> 00:13:44,889
+ keyboard it's the thing that's feeding
+
+560
+00:13:39,300 --> 00:13:44,889
+ 
+
+561
+00:13:39,310 --> 00:13:47,290
+ events into this system so the flow of
+
+562
+00:13:44,879 --> 00:13:47,290
+ 
+
+563
+00:13:44,889 --> 00:13:48,399
+ Model View controller some could argue
+
+564
+00:13:47,280 --> 00:13:48,399
+ 
+
+565
+00:13:47,290 --> 00:13:50,980
+ maybe it should be called controller
+
+566
+00:13:48,389 --> 00:13:50,980
+ 
+
+567
+00:13:48,399 --> 00:13:55,269
+ Model View but this is the flow through
+
+568
+00:13:50,970 --> 00:13:55,269
+ 
+
+569
+00:13:50,980 --> 00:13:56,769
+ the system right right now this is not
+
+570
+00:13:55,259 --> 00:13:56,769
+ 
+
+571
+00:13:55,269 --> 00:13:58,480
+ the definition that you'll find if you
+
+572
+00:13:56,759 --> 00:13:58,480
+ 
+
+573
+00:13:56,769 --> 00:14:00,850
+ look on Apple's website although after
+
+574
+00:13:58,470 --> 00:14:00,850
+ 
+
+575
+00:13:58,480 --> 00:14:02,529
+ me complaining about this much but so
+
+576
+00:14:00,840 --> 00:14:02,529
+ 
+
+577
+00:14:00,850 --> 00:14:04,029
+ much Apple has actually changed their
+
+578
+00:14:02,519 --> 00:14:04,029
+ 
+
+579
+00:14:02,529 --> 00:14:05,860
+ website so let us get a little footnote
+
+580
+00:14:04,019 --> 00:14:05,860
+ 
+
+581
+00:14:04,029 --> 00:14:07,899
+ that says this is not classic Model View
+
+582
+00:14:05,850 --> 00:14:07,899
+ 
+
+583
+00:14:05,860 --> 00:14:11,260
+ controller this is the definition of a
+
+584
+00:14:07,889 --> 00:14:11,260
+ 
+
+585
+00:14:07,899 --> 00:14:13,120
+ we call Model View controller you know
+
+586
+00:14:11,250 --> 00:14:13,120
+ 
+
+587
+00:14:11,260 --> 00:14:14,920
+ you'll hear Microsoft say we have model
+
+588
+00:14:13,110 --> 00:14:14,920
+ 
+
+589
+00:14:13,120 --> 00:14:17,529
+ view viewmodel and there's no controller
+
+590
+00:14:14,910 --> 00:14:17,529
+ 
+
+591
+00:14:14,920 --> 00:14:19,029
+ in there whatsoever and that's abuse in
+
+592
+00:14:17,519 --> 00:14:19,029
+ 
+
+593
+00:14:17,529 --> 00:14:20,199
+ my opinion you're taking the same terms
+
+594
+00:14:19,019 --> 00:14:20,199
+ 
+
+595
+00:14:19,029 --> 00:14:22,510
+ and you're redefining them these are
+
+596
+00:14:20,189 --> 00:14:22,510
+ 
+
+597
+00:14:20,199 --> 00:14:27,220
+ well established terms and this is
+
+598
+00:14:22,500 --> 00:14:27,220
+ 
+
+599
+00:14:22,510 --> 00:14:30,120
+ actually a very solid pattern so how did
+
+600
+00:14:27,210 --> 00:14:30,120
+ 
+
+601
+00:14:27,220 --> 00:14:30,120
+ it get so screwed up
+
+602
+00:14:30,630 --> 00:14:30,630
+ 
+
+603
+00:14:30,640 --> 00:14:39,010
+ I had a hypothesis several years ago
+
+604
+00:14:34,199 --> 00:14:39,010
+ 
+
+605
+00:14:34,209 --> 00:14:41,130
+ that where a Model View controller got
+
+606
+00:14:39,000 --> 00:14:41,130
+ 
+
+607
+00:14:39,010 --> 00:14:45,100
+ so screwed up was actually with the Lisa
+
+608
+00:14:41,120 --> 00:14:45,100
+ 
+
+609
+00:14:41,130 --> 00:14:47,320
+ right Lisa was created by the folks at
+
+610
+00:14:45,090 --> 00:14:47,320
+ 
+
+611
+00:14:45,100 --> 00:14:50,110
+ Xerox PARC who worked on small talk--
+
+612
+00:14:47,310 --> 00:14:50,110
+ 
+
+613
+00:14:47,320 --> 00:14:53,260
+ who understood model view controller and
+
+614
+00:14:50,100 --> 00:14:53,260
+ 
+
+615
+00:14:50,110 --> 00:14:56,079
+ they went out and they created Lisa and
+
+616
+00:14:53,250 --> 00:14:56,079
+ 
+
+617
+00:14:53,260 --> 00:14:58,420
+ Lisa does not follow a classic model
+
+618
+00:14:56,069 --> 00:14:58,420
+ 
+
+619
+00:14:56,079 --> 00:15:00,640
+ view controller pattern and everybody
+
+620
+00:14:58,410 --> 00:15:00,640
+ 
+
+621
+00:14:58,420 --> 00:15:02,560
+ after the Lisa the Mac team the windows
+
+622
+00:15:00,630 --> 00:15:02,560
+ 
+
+623
+00:15:00,640 --> 00:15:07,990
+ team has copied what was done on the
+
+624
+00:15:02,550 --> 00:15:07,990
+ 
+
+625
+00:15:02,560 --> 00:15:09,390
+ Lisa team so I went to a member of the
+
+626
+00:15:07,980 --> 00:15:09,390
+ 
+
+627
+00:15:07,990 --> 00:15:14,890
+ original Lisa team
+
+628
+00:15:09,380 --> 00:15:14,890
+ 
+
+629
+00:15:09,390 --> 00:15:17,620
+ Rudy sherry and I asked him I said
+
+630
+00:15:14,880 --> 00:15:17,620
+ 
+
+631
+00:15:14,890 --> 00:15:19,449
+ here's my hypothesis you guys understood
+
+632
+00:15:17,610 --> 00:15:19,449
+ 
+
+633
+00:15:17,620 --> 00:15:21,160
+ what model view controller was but you
+
+634
+00:15:19,439 --> 00:15:21,160
+ 
+
+635
+00:15:19,449 --> 00:15:23,290
+ weren't working in small talk anymore
+
+636
+00:15:21,150 --> 00:15:23,290
+ 
+
+637
+00:15:21,160 --> 00:15:27,279
+ you were working in Pascal or object
+
+638
+00:15:23,280 --> 00:15:27,279
+ 
+
+639
+00:15:23,290 --> 00:15:30,010
+ pascal and so you had huge difficulty
+
+640
+00:15:27,269 --> 00:15:30,010
+ 
+
+641
+00:15:27,279 --> 00:15:33,970
+ writing an observer you couldn't observe
+
+642
+00:15:30,000 --> 00:15:33,970
+ 
+
+643
+00:15:30,010 --> 00:15:36,699
+ your model okay so you lifted
+
+644
+00:15:33,960 --> 00:15:36,699
+ 
+
+645
+00:15:33,970 --> 00:15:37,930
+ to the model into the UI and they said
+
+646
+00:15:36,689 --> 00:15:37,930
+ 
+
+647
+00:15:36,699 --> 00:15:39,610
+ yo oh yeah exactly
+
+648
+00:15:37,920 --> 00:15:39,610
+ 
+
+649
+00:15:37,930 --> 00:15:43,569
+ we cut a whole bunch of corners in
+
+650
+00:15:39,600 --> 00:15:43,569
+ 
+
+651
+00:15:39,610 --> 00:15:45,009
+ building it right right so here's a case
+
+652
+00:15:43,559 --> 00:15:45,009
+ 
+
+653
+00:15:43,569 --> 00:15:47,220
+ in history where you had people who
+
+654
+00:15:44,999 --> 00:15:47,220
+ 
+
+655
+00:15:45,009 --> 00:15:50,889
+ understood the correct way to do things
+
+656
+00:15:47,210 --> 00:15:50,889
+ 
+
+657
+00:15:47,220 --> 00:15:53,290
+ okay who cut a bunch of corners and then
+
+658
+00:15:50,879 --> 00:15:53,290
+ 
+
+659
+00:15:50,889 --> 00:15:55,389
+ for the next 30 years it'll probably be
+
+660
+00:15:53,280 --> 00:15:55,389
+ 
+
+661
+00:15:53,290 --> 00:15:58,779
+ 30 plus years soon the rest of the
+
+662
+00:15:55,379 --> 00:15:58,779
+ 
+
+663
+00:15:55,389 --> 00:16:01,600
+ industry has copied those mistakes and
+
+664
+00:15:58,769 --> 00:16:01,600
+ 
+
+665
+00:15:58,779 --> 00:16:03,160
+ been confused by those mistakes right so
+
+666
+00:16:01,590 --> 00:16:03,160
+ 
+
+667
+00:16:01,600 --> 00:16:05,800
+ I kind of encourage you all if you're
+
+668
+00:16:03,150 --> 00:16:05,800
+ 
+
+669
+00:16:03,160 --> 00:16:07,540
+ interested in user interfaces go back to
+
+670
+00:16:05,790 --> 00:16:07,540
+ 
+
+671
+00:16:05,800 --> 00:16:09,670
+ some of the original small talk work to
+
+672
+00:16:07,530 --> 00:16:09,670
+ 
+
+673
+00:16:07,540 --> 00:16:15,009
+ go back to the old small talk book and
+
+674
+00:16:09,660 --> 00:16:15,009
+ 
+
+675
+00:16:09,670 --> 00:16:17,199
+ read about how it was done then I wrote
+
+676
+00:16:14,999 --> 00:16:17,199
+ 
+
+677
+00:16:15,009 --> 00:16:18,879
+ a whole little blog post there's the
+
+678
+00:16:17,189 --> 00:16:18,879
+ 
+
+679
+00:16:17,199 --> 00:16:21,399
+ link for it you can find almost
+
+680
+00:16:18,869 --> 00:16:21,399
+ 
+
+681
+00:16:18,879 --> 00:16:25,629
+ everything I there off the esti lab CC
+
+682
+00:16:21,389 --> 00:16:25,629
+ 
+
+683
+00:16:21,399 --> 00:16:27,250
+ website or Shawn - parent /st lab these
+
+684
+00:16:25,619 --> 00:16:27,250
+ 
+
+685
+00:16:25,629 --> 00:16:29,189
+ slides will be available for you later
+
+686
+00:16:27,240 --> 00:16:29,189
+ 
+
+687
+00:16:27,250 --> 00:16:33,300
+ so you don't have to copy that down
+
+688
+00:16:29,179 --> 00:16:33,300
+ 
+
+689
+00:16:29,189 --> 00:16:33,300
+ about kind of a history of MVC
+
+690
+00:16:34,970 --> 00:16:34,970
+ 
+
+691
+00:16:34,980 --> 00:16:40,750
+ so in order to build a UI we need to
+
+692
+00:16:38,429 --> 00:16:40,750
+ 
+
+693
+00:16:38,439 --> 00:16:42,970
+ build an observable model write the
+
+694
+00:16:40,740 --> 00:16:42,970
+ 
+
+695
+00:16:40,750 --> 00:16:44,649
+ model is the application object and a
+
+696
+00:16:42,960 --> 00:16:44,649
+ 
+
+697
+00:16:42,970 --> 00:16:47,350
+ lot of people think the model is just
+
+698
+00:16:44,639 --> 00:16:47,350
+ 
+
+699
+00:16:44,649 --> 00:16:47,949
+ being the data right but it's not just
+
+700
+00:16:47,340 --> 00:16:47,949
+ 
+
+701
+00:16:47,350 --> 00:16:50,399
+ the data
+
+702
+00:16:47,939 --> 00:16:50,399
+ 
+
+703
+00:16:47,949 --> 00:16:52,600
+ it's the objects it's the operations
+
+704
+00:16:50,389 --> 00:16:52,600
+ 
+
+705
+00:16:50,399 --> 00:16:54,519
+ okay that you can perform on those
+
+706
+00:16:52,590 --> 00:16:54,519
+ 
+
+707
+00:16:52,600 --> 00:16:57,160
+ objects and it's the relationship
+
+708
+00:16:54,509 --> 00:16:57,160
+ 
+
+709
+00:16:54,519 --> 00:17:00,100
+ between those objects and you have to
+
+710
+00:16:57,150 --> 00:17:00,100
+ 
+
+711
+00:16:57,160 --> 00:17:04,050
+ take that whole collection of things and
+
+712
+00:17:00,090 --> 00:17:04,050
+ 
+
+713
+00:17:00,100 --> 00:17:04,050
+ make it observable to the user so
+
+714
+00:17:04,279 --> 00:17:04,279
+ 
+
+715
+00:17:04,289 --> 00:17:09,220
+ controllers end up binding to our
+
+716
+00:17:06,329 --> 00:17:09,220
+ 
+
+717
+00:17:06,339 --> 00:17:13,500
+ operations a trivial controller is
+
+718
+00:17:09,210 --> 00:17:13,500
+ 
+
+719
+00:17:09,220 --> 00:17:15,850
+ something that just sets a property okay
+
+720
+00:17:13,490 --> 00:17:15,850
+ 
+
+721
+00:17:13,500 --> 00:17:20,409
+ view is buying two objects and their
+
+722
+00:17:15,840 --> 00:17:20,409
+ 
+
+723
+00:17:15,850 --> 00:17:23,679
+ properties in order to display them so a
+
+724
+00:17:20,399 --> 00:17:23,679
+ 
+
+725
+00:17:20,409 --> 00:17:27,819
+ view controller right unlike what Apple
+
+726
+00:17:23,669 --> 00:17:27,819
+ 
+
+727
+00:17:23,679 --> 00:17:29,500
+ will tell you a view controller is is a
+
+728
+00:17:27,809 --> 00:17:29,500
+ 
+
+729
+00:17:27,819 --> 00:17:32,320
+ controller widget something like a
+
+730
+00:17:29,490 --> 00:17:32,320
+ 
+
+731
+00:17:29,500 --> 00:17:34,539
+ checkbox it's a combination of the
+
+732
+00:17:32,310 --> 00:17:34,539
+ 
+
+733
+00:17:32,320 --> 00:17:36,880
+ controller it's going to issue a vent to
+
+734
+00:17:34,529 --> 00:17:36,880
+ 
+
+735
+00:17:34,539 --> 00:17:39,429
+ your model and a view and that it's
+
+736
+00:17:36,870 --> 00:17:39,429
+ 
+
+737
+00:17:36,880 --> 00:17:41,440
+ displaying okay it's gonna have a little
+
+738
+00:17:39,419 --> 00:17:41,440
+ 
+
+739
+00:17:39,429 --> 00:17:43,030
+ logic in there so that it can interpret
+
+740
+00:17:41,430 --> 00:17:43,030
+ 
+
+741
+00:17:41,440 --> 00:17:45,610
+ so that the controller side can
+
+742
+00:17:43,020 --> 00:17:45,610
+ 
+
+743
+00:17:43,030 --> 00:17:48,750
+ interpret events based off what it's
+
+744
+00:17:45,600 --> 00:17:48,750
+ 
+
+745
+00:17:45,610 --> 00:17:48,750
+ displaying from the view
+
+746
+00:17:50,700 --> 00:17:50,700
+ 
+
+747
+00:17:50,710 --> 00:17:56,870
+ okay so objects objects have a set of
+
+748
+00:17:55,180 --> 00:17:56,870
+ 
+
+749
+00:17:55,190 --> 00:17:58,550
+ operations right and they should look
+
+750
+00:17:56,860 --> 00:17:58,550
+ 
+
+751
+00:17:56,870 --> 00:18:00,920
+ very familiar these are the operations
+
+752
+00:17:58,540 --> 00:18:00,920
+ 
+
+753
+00:17:58,550 --> 00:18:04,250
+ you would kind of have on a regular type
+
+754
+00:18:00,910 --> 00:18:04,250
+ 
+
+755
+00:18:00,920 --> 00:18:06,050
+ right you have some way to construct it
+
+756
+00:18:04,240 --> 00:18:06,050
+ 
+
+757
+00:18:04,250 --> 00:18:08,260
+ you're gonna have a copy constructive
+
+758
+00:18:06,040 --> 00:18:08,260
+ 
+
+759
+00:18:06,050 --> 00:18:11,540
+ some some sort some way to make a copy
+
+760
+00:18:08,250 --> 00:18:11,540
+ 
+
+761
+00:18:08,260 --> 00:18:13,900
+ objects exist within a space they have a
+
+762
+00:18:11,530 --> 00:18:13,900
+ 
+
+763
+00:18:11,540 --> 00:18:17,530
+ location therefore I can move an object
+
+764
+00:18:13,890 --> 00:18:17,530
+ 
+
+765
+00:18:13,900 --> 00:18:22,010
+ okay I can delete or destruct an object
+
+766
+00:18:17,520 --> 00:18:22,010
+ 
+
+767
+00:18:17,530 --> 00:18:24,410
+ objects have properties all objects have
+
+768
+00:18:22,000 --> 00:18:24,410
+ 
+
+769
+00:18:22,010 --> 00:18:27,500
+ a location they have to exist in a space
+
+770
+00:18:24,400 --> 00:18:27,500
+ 
+
+771
+00:18:24,410 --> 00:18:32,540
+ they have a size they consume some
+
+772
+00:18:27,490 --> 00:18:32,540
+ 
+
+773
+00:18:27,500 --> 00:18:36,880
+ amount of space and commonly they have a
+
+774
+00:18:32,530 --> 00:18:36,880
+ 
+
+775
+00:18:32,540 --> 00:18:42,580
+ name okay we can call them something
+
+776
+00:18:36,870 --> 00:18:42,580
+ 
+
+777
+00:18:36,880 --> 00:18:45,050
+ like you see this surfaced inside of
+
+778
+00:18:42,570 --> 00:18:45,050
+ 
+
+779
+00:18:42,580 --> 00:18:47,810
+ applications right in the terminology
+
+780
+00:18:45,040 --> 00:18:47,810
+ 
+
+781
+00:18:45,050 --> 00:18:49,550
+ that we use we're going to construct a
+
+782
+00:18:47,800 --> 00:18:49,550
+ 
+
+783
+00:18:47,810 --> 00:18:51,830
+ new layer how do we do that we do that
+
+784
+00:18:49,540 --> 00:18:51,830
+ 
+
+785
+00:18:49,550 --> 00:18:55,670
+ with new which is a very programming
+
+786
+00:18:51,820 --> 00:18:55,670
+ 
+
+787
+00:18:51,830 --> 00:18:57,860
+ term okay I want to create a new layer
+
+788
+00:18:55,660 --> 00:18:57,860
+ 
+
+789
+00:18:55,670 --> 00:19:00,670
+ or a new background from a layer or a
+
+790
+00:18:57,850 --> 00:19:00,670
+ 
+
+791
+00:18:57,860 --> 00:19:09,770
+ new group or a new group from layers
+
+792
+00:19:00,660 --> 00:19:09,770
+ 
+
+793
+00:19:00,670 --> 00:19:11,690
+ right we associate Vigil visual
+
+794
+00:19:09,760 --> 00:19:11,690
+ 
+
+795
+00:19:09,770 --> 00:19:14,960
+ constructs like names icons and
+
+796
+00:19:11,680 --> 00:19:14,960
+ 
+
+797
+00:19:11,690 --> 00:19:17,720
+ behaviors with semantics right human
+
+798
+00:19:14,950 --> 00:19:17,720
+ 
+
+799
+00:19:14,960 --> 00:19:21,710
+ interface is a language it is a way to
+
+800
+00:19:17,710 --> 00:19:21,710
+ 
+
+801
+00:19:17,720 --> 00:19:24,860
+ communicate with the user in program
+
+802
+00:19:21,700 --> 00:19:24,860
+ 
+
+803
+00:19:21,710 --> 00:19:28,070
+ operations like construct have specific
+
+804
+00:19:24,850 --> 00:19:28,070
+ 
+
+805
+00:19:24,860 --> 00:19:29,990
+ command semantics in the H I we
+
+806
+00:19:28,060 --> 00:19:29,990
+ 
+
+807
+00:19:28,070 --> 00:19:36,140
+ associate those semantics with
+
+808
+00:19:29,980 --> 00:19:36,140
+ 
+
+809
+00:19:29,990 --> 00:19:41,720
+ particular controls this is an old
+
+810
+00:19:36,130 --> 00:19:41,720
+ 
+
+811
+00:19:36,140 --> 00:19:47,120
+ screenshot of Gmail so why am I putting
+
+812
+00:19:41,710 --> 00:19:47,120
+ 
+
+813
+00:19:41,720 --> 00:19:49,640
+ this up here well in 2009 I left Adobe
+
+814
+00:19:47,110 --> 00:19:49,640
+ 
+
+815
+00:19:47,120 --> 00:19:51,830
+ and I went to work at Google for about a
+
+816
+00:19:49,630 --> 00:19:51,830
+ 
+
+817
+00:19:49,640 --> 00:19:53,420
+ year and this was the closest to a
+
+818
+00:19:51,820 --> 00:19:53,420
+ 
+
+819
+00:19:51,830 --> 00:19:55,550
+ screenshot that I could find for what
+
+820
+00:19:53,410 --> 00:19:55,550
+ 
+
+821
+00:19:53,420 --> 00:19:59,170
+ Gmail looked like at that time this
+
+822
+00:19:55,540 --> 00:19:59,170
+ 
+
+823
+00:19:55,550 --> 00:19:59,170
+ actually goes back a little older
+
+824
+00:19:59,510 --> 00:19:59,510
+ 
+
+825
+00:19:59,520 --> 00:20:03,090
+ but I didn't save a screen shot at that
+
+826
+00:20:01,400 --> 00:20:03,090
+ 
+
+827
+00:20:01,410 --> 00:20:04,530
+ time so I had to hunt down something
+
+828
+00:20:03,080 --> 00:20:04,530
+ 
+
+829
+00:20:03,090 --> 00:20:09,059
+ that looked the same on the web so I
+
+830
+00:20:04,520 --> 00:20:09,059
+ 
+
+831
+00:20:04,530 --> 00:20:11,940
+ stole this from the internet so I'm
+
+832
+00:20:09,049 --> 00:20:11,940
+ 
+
+833
+00:20:09,059 --> 00:20:14,520
+ relatively new at Google I've got a
+
+834
+00:20:11,930 --> 00:20:14,520
+ 
+
+835
+00:20:11,940 --> 00:20:17,039
+ meeting with members of the Google
+
+836
+00:20:14,510 --> 00:20:17,039
+ 
+
+837
+00:20:14,520 --> 00:20:18,720
+ executive staff and it's an important
+
+838
+00:20:17,029 --> 00:20:18,720
+ 
+
+839
+00:20:17,039 --> 00:20:20,520
+ meeting the kind of meeting where if you
+
+840
+00:20:18,710 --> 00:20:20,520
+ 
+
+841
+00:20:18,720 --> 00:20:23,100
+ don't show up to the meeting you should
+
+842
+00:20:20,510 --> 00:20:23,100
+ 
+
+843
+00:20:20,520 --> 00:20:24,200
+ probably just turn in your badge and go
+
+844
+00:20:23,090 --> 00:20:24,200
+ 
+
+845
+00:20:23,100 --> 00:20:27,299
+ home
+
+846
+00:20:24,190 --> 00:20:27,299
+ 
+
+847
+00:20:24,200 --> 00:20:29,669
+ and I get a phone call for a family
+
+848
+00:20:27,289 --> 00:20:29,669
+ 
+
+849
+00:20:27,299 --> 00:20:34,049
+ emergency and it's the kind of family
+
+850
+00:20:29,659 --> 00:20:34,049
+ 
+
+851
+00:20:29,669 --> 00:20:36,240
+ emergency where your heart stops and I
+
+852
+00:20:34,039 --> 00:20:36,240
+ 
+
+853
+00:20:34,049 --> 00:20:41,039
+ have to go to address this family
+
+854
+00:20:36,230 --> 00:20:41,039
+ 
+
+855
+00:20:36,240 --> 00:20:43,980
+ emergency so before I leave I want to
+
+856
+00:20:41,029 --> 00:20:43,980
+ 
+
+857
+00:20:41,039 --> 00:20:47,600
+ send off a very quick email to just say
+
+858
+00:20:43,970 --> 00:20:47,600
+ 
+
+859
+00:20:43,980 --> 00:20:51,270
+ I will not make this meeting okay
+
+860
+00:20:47,590 --> 00:20:51,270
+ 
+
+861
+00:20:47,600 --> 00:20:55,320
+ just one line send it to my boss I will
+
+862
+00:20:51,260 --> 00:20:55,320
+ 
+
+863
+00:20:51,270 --> 00:20:59,970
+ not meeting and I pulled Qi mail and I'm
+
+864
+00:20:55,310 --> 00:20:59,970
+ 
+
+865
+00:20:55,320 --> 00:21:06,120
+ in a total utter panic and I say how did
+
+866
+00:20:59,960 --> 00:21:06,120
+ 
+
+867
+00:20:59,970 --> 00:21:08,520
+ I create a new email okay wasn't the
+
+868
+00:21:06,110 --> 00:21:08,520
+ 
+
+869
+00:21:06,120 --> 00:21:13,460
+ first time I used Gmail I had been using
+
+870
+00:21:08,510 --> 00:21:13,460
+ 
+
+871
+00:21:08,520 --> 00:21:18,929
+ it for a while okay and I pull this up
+
+872
+00:21:13,450 --> 00:21:18,929
+ 
+
+873
+00:21:13,460 --> 00:21:22,530
+ and I look new new where's new I don't
+
+874
+00:21:18,919 --> 00:21:22,530
+ 
+
+875
+00:21:18,929 --> 00:21:24,270
+ see new ok well new as an action an
+
+876
+00:21:22,520 --> 00:21:24,270
+ 
+
+877
+00:21:22,530 --> 00:21:28,860
+ action is a button where is the button
+
+878
+00:21:24,260 --> 00:21:28,860
+ 
+
+879
+00:21:24,270 --> 00:21:31,860
+ to create a new email right there isn't
+
+880
+00:21:28,850 --> 00:21:31,860
+ 
+
+881
+00:21:28,860 --> 00:21:34,289
+ one and the clock in my head at least is
+
+882
+00:21:31,850 --> 00:21:34,289
+ 
+
+883
+00:21:31,860 --> 00:21:38,210
+ ticking you know probably seemed like 20
+
+884
+00:21:34,279 --> 00:21:38,210
+ 
+
+885
+00:21:34,289 --> 00:21:41,549
+ minutes it was probably just 30 seconds
+
+886
+00:21:38,200 --> 00:21:41,549
+ 
+
+887
+00:21:38,210 --> 00:21:48,980
+ but I was in a panic how in the eff do I
+
+888
+00:21:41,539 --> 00:21:48,980
+ 
+
+889
+00:21:41,549 --> 00:21:52,110
+ create a new email okay I can't find it
+
+890
+00:21:48,970 --> 00:21:52,110
+ 
+
+891
+00:21:48,980 --> 00:21:53,700
+ why can't I find it all right everybody
+
+892
+00:21:52,100 --> 00:21:53,700
+ 
+
+893
+00:21:52,110 --> 00:21:58,320
+ sees it here right
+
+894
+00:21:53,690 --> 00:21:58,320
+ 
+
+895
+00:21:53,700 --> 00:22:01,740
+ there's compose mail but it's a link one
+
+896
+00:21:58,310 --> 00:22:01,740
+ 
+
+897
+00:21:58,320 --> 00:22:06,480
+ of the semantics of a link takes you
+
+898
+00:22:01,730 --> 00:22:06,480
+ 
+
+899
+00:22:01,740 --> 00:22:10,680
+ somewhere else construction is not a
+
+900
+00:22:06,470 --> 00:22:10,680
+ 
+
+901
+00:22:06,480 --> 00:22:17,100
+ place okay
+
+902
+00:22:10,670 --> 00:22:17,100
+ 
+
+903
+00:22:10,680 --> 00:22:17,730
+ it's not so in a planning I couldn't
+
+904
+00:22:17,090 --> 00:22:17,730
+ 
+
+905
+00:22:17,100 --> 00:22:21,830
+ find it
+
+906
+00:22:17,720 --> 00:22:21,830
+ 
+
+907
+00:22:17,730 --> 00:22:25,350
+ I could not decode this UI right
+
+908
+00:22:21,820 --> 00:22:25,350
+ 
+
+909
+00:22:21,830 --> 00:22:27,270
+ eventually I was like oh there it is
+
+910
+00:22:25,340 --> 00:22:27,270
+ 
+
+911
+00:22:25,350 --> 00:22:29,100
+ and then I'm cursing at my machine and I
+
+912
+00:22:27,260 --> 00:22:29,100
+ 
+
+913
+00:22:27,270 --> 00:22:31,140
+ send off my email and I go off and I
+
+914
+00:22:29,090 --> 00:22:31,140
+ 
+
+915
+00:22:29,100 --> 00:22:32,850
+ resolve my family emergency and they
+
+916
+00:22:31,130 --> 00:22:32,850
+ 
+
+917
+00:22:31,140 --> 00:22:36,060
+ come back in and I'm not fired and I'm
+
+918
+00:22:32,840 --> 00:22:36,060
+ 
+
+919
+00:22:32,850 --> 00:22:40,530
+ thankful for that and I send off a
+
+920
+00:22:36,050 --> 00:22:40,530
+ 
+
+921
+00:22:36,060 --> 00:22:45,330
+ flaming email right right how can
+
+922
+00:22:40,520 --> 00:22:45,330
+ 
+
+923
+00:22:40,530 --> 00:22:49,020
+ anybody create this UI so this is what
+
+924
+00:22:45,320 --> 00:22:49,020
+ 
+
+925
+00:22:45,330 --> 00:22:52,230
+ Gmail looks like now it's a button that
+
+926
+00:22:49,010 --> 00:22:52,230
+ 
+
+927
+00:22:49,020 --> 00:22:56,480
+ says compose I don't know if it's a red
+
+928
+00:22:52,220 --> 00:22:56,480
+ 
+
+929
+00:22:52,230 --> 00:22:56,480
+ because of me but it's been red ever sad
+
+930
+00:22:58,330 --> 00:22:58,330
+ 
+
+931
+00:22:58,340 --> 00:23:08,160
+ okay that matters right a button is an
+
+932
+00:23:05,630 --> 00:23:08,160
+ 
+
+933
+00:23:05,640 --> 00:23:10,140
+ action a button does something I still
+
+934
+00:23:08,150 --> 00:23:10,140
+ 
+
+935
+00:23:08,160 --> 00:23:12,810
+ think it should same like new email they
+
+936
+00:23:10,130 --> 00:23:12,810
+ 
+
+937
+00:23:10,140 --> 00:23:21,440
+ are not just compose but at least it's
+
+938
+00:23:12,800 --> 00:23:21,440
+ 
+
+939
+00:23:12,810 --> 00:23:26,460
+ not a link anymore okay it is better so
+
+940
+00:23:21,430 --> 00:23:26,460
+ 
+
+941
+00:23:21,440 --> 00:23:28,950
+ semantic smash so collections right if
+
+942
+00:23:26,450 --> 00:23:28,950
+ 
+
+943
+00:23:26,460 --> 00:23:30,600
+ we have a collection of objects we have
+
+944
+00:23:28,940 --> 00:23:30,600
+ 
+
+945
+00:23:28,950 --> 00:23:32,760
+ a set of operations on that collection
+
+946
+00:23:30,590 --> 00:23:32,760
+ 
+
+947
+00:23:30,600 --> 00:23:34,380
+ right we can insert items in the
+
+948
+00:23:32,750 --> 00:23:34,380
+ 
+
+949
+00:23:32,760 --> 00:23:36,450
+ collection we can remove things from the
+
+950
+00:23:34,370 --> 00:23:36,450
+ 
+
+951
+00:23:34,380 --> 00:23:39,360
+ collection there's a count of items
+
+952
+00:23:36,440 --> 00:23:39,360
+ 
+
+953
+00:23:36,450 --> 00:23:41,250
+ within the collection right and there's
+
+954
+00:23:39,350 --> 00:23:41,250
+ 
+
+955
+00:23:39,360 --> 00:23:42,840
+ a whole part relationship between the
+
+956
+00:23:41,240 --> 00:23:42,840
+ 
+
+957
+00:23:41,250 --> 00:23:46,970
+ objects that are in the collection and
+
+958
+00:23:42,830 --> 00:23:46,970
+ 
+
+959
+00:23:42,840 --> 00:23:46,970
+ the collection itself okay
+
+960
+00:23:48,610 --> 00:23:48,610
+ 
+
+961
+00:23:48,620 --> 00:23:55,680
+ so large collections pose a problem
+
+962
+00:23:52,750 --> 00:23:55,680
+ 
+
+963
+00:23:52,760 --> 00:23:58,290
+ right how do you observe a large
+
+964
+00:23:55,670 --> 00:23:58,290
+ 
+
+965
+00:23:55,680 --> 00:24:00,600
+ collection interact to interactively and
+
+966
+00:23:58,280 --> 00:24:00,600
+ 
+
+967
+00:23:58,290 --> 00:24:04,350
+ allow the user to arrange and filter and
+
+968
+00:24:00,590 --> 00:24:04,350
+ 
+
+969
+00:24:00,600 --> 00:24:06,660
+ browse a large collection right this is
+
+970
+00:24:04,340 --> 00:24:06,660
+ 
+
+971
+00:24:04,350 --> 00:24:09,120
+ a very common problem in building human
+
+972
+00:24:06,650 --> 00:24:09,120
+ 
+
+973
+00:24:06,660 --> 00:24:12,690
+ interfaces right this is largely the
+
+974
+00:24:09,110 --> 00:24:12,690
+ 
+
+975
+00:24:09,120 --> 00:24:14,880
+ problem of search right you go to Google
+
+976
+00:24:12,680 --> 00:24:14,880
+ 
+
+977
+00:24:12,690 --> 00:24:17,520
+ and you search for things and there's an
+
+978
+00:24:14,870 --> 00:24:17,520
+ 
+
+979
+00:24:14,880 --> 00:24:20,010
+ infinite number of results and they have
+
+980
+00:24:17,510 --> 00:24:20,010
+ 
+
+981
+00:24:17,520 --> 00:24:22,800
+ to figure out how do we display them to
+
+982
+00:24:20,000 --> 00:24:22,800
+ 
+
+983
+00:24:20,010 --> 00:24:24,240
+ you in a meaningful way okay with the
+
+984
+00:24:22,790 --> 00:24:24,240
+ 
+
+985
+00:24:22,800 --> 00:24:25,950
+ things on top and
+
+986
+00:24:24,230 --> 00:24:25,950
+ 
+
+987
+00:24:24,240 --> 00:24:27,540
+ let you browse through them so they've
+
+988
+00:24:25,940 --> 00:24:27,540
+ 
+
+989
+00:24:25,950 --> 00:24:37,190
+ kind of done that with a paging
+
+990
+00:24:27,530 --> 00:24:37,190
+ 
+
+991
+00:24:27,540 --> 00:24:40,230
+ interface look through pages okay so I
+
+992
+00:24:37,180 --> 00:24:40,230
+ 
+
+993
+00:24:37,190 --> 00:24:42,780
+ like to give out some practical advice
+
+994
+00:24:40,220 --> 00:24:42,780
+ 
+
+995
+00:24:40,230 --> 00:24:44,550
+ here right so if you're faced with a
+
+996
+00:24:42,770 --> 00:24:44,550
+ 
+
+997
+00:24:42,780 --> 00:24:46,470
+ large collection of things a very common
+
+998
+00:24:44,540 --> 00:24:46,470
+ 
+
+999
+00:24:44,550 --> 00:24:49,860
+ thing that you're going to want to do is
+
+1000
+00:24:46,460 --> 00:24:49,860
+ 
+
+1001
+00:24:46,470 --> 00:24:52,710
+ to be able to give the user a window
+
+1002
+00:24:49,850 --> 00:24:52,710
+ 
+
+1003
+00:24:49,860 --> 00:24:55,530
+ into that collection okay and let them
+
+1004
+00:24:52,700 --> 00:24:55,530
+ 
+
+1005
+00:24:52,710 --> 00:24:57,120
+ operate just within that window and you
+
+1006
+00:24:55,520 --> 00:24:57,120
+ 
+
+1007
+00:24:55,530 --> 00:25:00,500
+ can do that more efficiently than you
+
+1008
+00:24:57,110 --> 00:25:00,500
+ 
+
+1009
+00:24:57,120 --> 00:25:04,110
+ can within the collection as a whole
+
+1010
+00:25:00,490 --> 00:25:04,110
+ 
+
+1011
+00:25:00,500 --> 00:25:06,240
+ okay and oftentimes I see user
+
+1012
+00:25:04,100 --> 00:25:06,240
+ 
+
+1013
+00:25:04,110 --> 00:25:08,010
+ interfaces that don't scale and get very
+
+1014
+00:25:06,230 --> 00:25:08,010
+ 
+
+1015
+00:25:06,240 --> 00:25:10,590
+ slow when you have a large collection
+
+1016
+00:25:08,000 --> 00:25:10,590
+ 
+
+1017
+00:25:08,010 --> 00:25:12,929
+ who's ever had an application where it's
+
+1018
+00:25:10,580 --> 00:25:12,929
+ 
+
+1019
+00:25:10,590 --> 00:25:15,120
+ like oh well it worked well with with 10
+
+1020
+00:25:12,919 --> 00:25:15,120
+ 
+
+1021
+00:25:12,929 --> 00:25:17,040
+ items or 20 items but you put a thousand
+
+1022
+00:25:15,110 --> 00:25:17,040
+ 
+
+1023
+00:25:15,120 --> 00:25:22,650
+ items in there and the user interface
+
+1024
+00:25:17,030 --> 00:25:22,650
+ 
+
+1025
+00:25:17,040 --> 00:25:24,150
+ just slugs along right okay so a very
+
+1026
+00:25:22,640 --> 00:25:24,150
+ 
+
+1027
+00:25:22,650 --> 00:25:26,520
+ common thing that you might want to do
+
+1028
+00:25:24,140 --> 00:25:26,520
+ 
+
+1029
+00:25:24,150 --> 00:25:30,210
+ is show the user arrange within a
+
+1030
+00:25:26,510 --> 00:25:30,210
+ 
+
+1031
+00:25:26,520 --> 00:25:32,190
+ collection that's sorted right so our
+
+1032
+00:25:30,200 --> 00:25:32,190
+ 
+
+1033
+00:25:30,210 --> 00:25:40,440
+ challenge here is we want to sort
+
+1034
+00:25:32,180 --> 00:25:40,440
+ 
+
+1035
+00:25:32,190 --> 00:25:43,140
+ everything from SF to SLE okay so how
+
+1036
+00:25:40,430 --> 00:25:43,140
+ 
+
+1037
+00:25:40,440 --> 00:25:46,440
+ many people now know they're STL
+
+1038
+00:25:43,130 --> 00:25:46,440
+ 
+
+1039
+00:25:43,140 --> 00:25:53,550
+ algorithms okay how am I going to do
+
+1040
+00:25:46,430 --> 00:25:53,550
+ 
+
+1041
+00:25:46,440 --> 00:25:57,330
+ that where do I start n element and I
+
+1042
+00:25:53,540 --> 00:25:57,330
+ 
+
+1043
+00:25:53,550 --> 00:25:59,429
+ heard a partial sort okay so partial
+
+1044
+00:25:57,320 --> 00:25:59,429
+ 
+
+1045
+00:25:57,330 --> 00:26:03,300
+ sort is part of the answer but it won't
+
+1046
+00:25:59,419 --> 00:26:03,300
+ 
+
+1047
+00:25:59,429 --> 00:26:06,270
+ give us this n element is where we're
+
+1048
+00:26:03,290 --> 00:26:06,270
+ 
+
+1049
+00:26:03,300 --> 00:26:07,850
+ gonna start okay so what we want to do
+
+1050
+00:26:06,260 --> 00:26:07,850
+ 
+
+1051
+00:26:06,270 --> 00:26:10,650
+ is we want to sort in the middle there
+
+1052
+00:26:07,840 --> 00:26:10,650
+ 
+
+1053
+00:26:07,850 --> 00:26:12,000
+ okay as if the entire range were sorted
+
+1054
+00:26:10,640 --> 00:26:12,000
+ 
+
+1055
+00:26:10,650 --> 00:26:20,220
+ but we don't care about everything above
+
+1056
+00:26:11,990 --> 00:26:20,220
+ 
+
+1057
+00:26:12,000 --> 00:26:22,710
+ and below what's that and then sort in
+
+1058
+00:26:20,210 --> 00:26:22,710
+ 
+
+1059
+00:26:20,220 --> 00:26:24,050
+ between let's see what we can do here
+
+1060
+00:26:22,700 --> 00:26:24,050
+ 
+
+1061
+00:26:22,710 --> 00:26:25,960
+ okay
+
+1062
+00:26:24,040 --> 00:26:25,960
+ 
+
+1063
+00:26:24,050 --> 00:26:27,940
+ so
+
+1064
+00:26:25,950 --> 00:26:27,940
+ 
+
+1065
+00:26:25,960 --> 00:26:30,159
+ what we want to do is we're gonna start
+
+1066
+00:26:27,930 --> 00:26:30,159
+ 
+
+1067
+00:26:27,940 --> 00:26:33,730
+ with in element and we're gonna pin our
+
+1068
+00:26:30,149 --> 00:26:33,730
+ 
+
+1069
+00:26:30,159 --> 00:26:37,740
+ first guy right
+
+1070
+00:26:33,720 --> 00:26:37,740
+ 
+
+1071
+00:26:33,730 --> 00:26:40,419
+ that will get six into the right place
+
+1072
+00:26:37,730 --> 00:26:40,419
+ 
+
+1073
+00:26:37,740 --> 00:26:43,480
+ just looking at the data there that's a
+
+1074
+00:26:40,409 --> 00:26:43,480
+ 
+
+1075
+00:26:40,419 --> 00:26:47,279
+ little grayed out nth element did
+
+1076
+00:26:43,470 --> 00:26:47,279
+ 
+
+1077
+00:26:43,480 --> 00:26:51,880
+ something else anybody know what it did
+
+1078
+00:26:47,269 --> 00:26:51,880
+ 
+
+1079
+00:26:47,279 --> 00:26:54,309
+ it partitioned the set its are way
+
+1080
+00:26:51,870 --> 00:26:54,309
+ 
+
+1081
+00:26:51,880 --> 00:26:59,850
+ better than you were a few years ago pay
+
+1082
+00:26:54,299 --> 00:26:59,850
+ 
+
+1083
+00:26:54,309 --> 00:26:59,850
+ attention here okay a partition the set
+
+1084
+00:27:00,649 --> 00:27:00,649
+ 
+
+1085
+00:27:00,659 --> 00:27:07,960
+ so that means that everything up there
+
+1086
+00:27:03,149 --> 00:27:07,960
+ 
+
+1087
+00:27:03,159 --> 00:27:11,970
+ is less than or equal to and everything
+
+1088
+00:27:07,950 --> 00:27:11,970
+ 
+
+1089
+00:27:07,960 --> 00:27:11,970
+ down there is greater than or equal to
+
+1090
+00:27:12,769 --> 00:27:12,769
+ 
+
+1091
+00:27:12,779 --> 00:27:20,970
+ right so now we still need to get those
+
+1092
+00:27:17,909 --> 00:27:20,970
+ 
+
+1093
+00:27:17,919 --> 00:27:26,980
+ guys okay
+
+1094
+00:27:20,960 --> 00:27:26,980
+ 
+
+1095
+00:27:20,970 --> 00:27:28,179
+ so partial sort right so partial sort so
+
+1096
+00:27:26,970 --> 00:27:28,179
+ 
+
+1097
+00:27:26,980 --> 00:27:29,950
+ we don't care about that guy so we get
+
+1098
+00:27:28,169 --> 00:27:29,950
+ 
+
+1099
+00:27:28,179 --> 00:27:32,890
+ to skip over him now right he's already
+
+1100
+00:27:29,940 --> 00:27:32,890
+ 
+
+1101
+00:27:29,950 --> 00:27:35,890
+ in the right place and now we can call
+
+1102
+00:27:32,880 --> 00:27:35,890
+ 
+
+1103
+00:27:32,890 --> 00:27:39,130
+ partial sort for the remaining elements
+
+1104
+00:27:35,880 --> 00:27:39,130
+ 
+
+1105
+00:27:35,890 --> 00:27:40,899
+ and that will give us that right partial
+
+1106
+00:27:39,120 --> 00:27:40,899
+ 
+
+1107
+00:27:39,130 --> 00:27:43,029
+ sort does what we want but only at the
+
+1108
+00:27:40,889 --> 00:27:43,029
+ 
+
+1109
+00:27:40,899 --> 00:27:46,029
+ start of a range because nth element
+
+1110
+00:27:43,019 --> 00:27:46,029
+ 
+
+1111
+00:27:43,029 --> 00:27:48,039
+ left our range partitioned okay
+
+1112
+00:27:46,019 --> 00:27:48,039
+ 
+
+1113
+00:27:46,029 --> 00:27:51,600
+ we know that we can just now do a
+
+1114
+00:27:48,029 --> 00:27:51,600
+ 
+
+1115
+00:27:48,039 --> 00:27:51,600
+ partial sort on the remaining pieces
+
+1116
+00:27:52,789 --> 00:27:52,789
+ 
+
+1117
+00:27:52,799 --> 00:28:02,860
+ okay so now if our two boundaries are
+
+1118
+00:28:00,330 --> 00:28:02,860
+ 
+
+1119
+00:28:00,340 --> 00:28:04,600
+ equal then we're just going to return we
+
+1120
+00:28:02,850 --> 00:28:04,600
+ 
+
+1121
+00:28:02,860 --> 00:28:05,919
+ don't have to do an element if we're
+
+1122
+00:28:04,590 --> 00:28:05,919
+ 
+
+1123
+00:28:04,600 --> 00:28:09,250
+ right at the start of the range we can
+
+1124
+00:28:05,909 --> 00:28:09,250
+ 
+
+1125
+00:28:05,919 --> 00:28:10,809
+ just do partial sort and now we got a
+
+1126
+00:28:09,240 --> 00:28:10,809
+ 
+
+1127
+00:28:09,250 --> 00:28:12,640
+ handy little algorithm sorts up range
+
+1128
+00:28:10,799 --> 00:28:12,640
+ 
+
+1129
+00:28:10,809 --> 00:28:22,299
+ Marshall can go stick this in the
+
+1130
+00:28:12,630 --> 00:28:22,299
+ 
+
+1131
+00:28:12,640 --> 00:28:25,270
+ standard now okay very handy okay sub
+
+1132
+00:28:22,289 --> 00:28:25,270
+ 
+
+1133
+00:28:22,299 --> 00:28:27,309
+ range was exactly what we want right and
+
+1134
+00:28:25,260 --> 00:28:27,309
+ 
+
+1135
+00:28:25,270 --> 00:28:29,230
+ then practice this will usually be an
+
+1136
+00:28:27,299 --> 00:28:29,230
+ 
+
+1137
+00:28:27,309 --> 00:28:32,529
+ order of magnitude or so faster than
+
+1138
+00:28:29,220 --> 00:28:32,529
+ 
+
+1139
+00:28:29,230 --> 00:28:34,059
+ sorting the entire sequence right if
+
+1140
+00:28:32,519 --> 00:28:34,059
+ 
+
+1141
+00:28:32,529 --> 00:28:37,659
+ you're doing graphics work and you do
+
+1142
+00:28:34,049 --> 00:28:37,659
+ 
+
+1143
+00:28:34,059 --> 00:28:40,040
+ need to do things like take a median but
+
+1144
+00:28:37,649 --> 00:28:40,040
+ 
+
+1145
+00:28:37,659 --> 00:28:42,330
+ where you want a windowed media
+
+1146
+00:28:40,030 --> 00:28:42,330
+ 
+
+1147
+00:28:40,040 --> 00:28:43,950
+ around things this is also a good
+
+1148
+00:28:42,320 --> 00:28:43,950
+ 
+
+1149
+00:28:42,330 --> 00:28:46,230
+ technique for calculating things like
+
+1150
+00:28:43,940 --> 00:28:46,230
+ 
+
+1151
+00:28:43,950 --> 00:28:48,150
+ that okay faster than sorting your
+
+1152
+00:28:46,220 --> 00:28:48,150
+ 
+
+1153
+00:28:46,230 --> 00:28:51,810
+ entire range and slicing out the data if
+
+1154
+00:28:48,140 --> 00:28:51,810
+ 
+
+1155
+00:28:48,150 --> 00:28:53,640
+ you want out of the middle right and if
+
+1156
+00:28:51,800 --> 00:28:53,640
+ 
+
+1157
+00:28:51,810 --> 00:28:55,860
+ you want to grow this window because the
+
+1158
+00:28:53,630 --> 00:28:55,860
+ 
+
+1159
+00:28:53,640 --> 00:28:58,170
+ user Scrolls down you can just do
+
+1160
+00:28:55,850 --> 00:28:58,170
+ 
+
+1161
+00:28:55,860 --> 00:29:01,140
+ additional partial sorts right because
+
+1162
+00:28:58,160 --> 00:29:01,140
+ 
+
+1163
+00:28:58,170 --> 00:29:10,800
+ our data is still partitioned so we can
+
+1164
+00:29:01,130 --> 00:29:10,800
+ 
+
+1165
+00:29:01,140 --> 00:29:13,230
+ still leverage that okay so operations
+
+1166
+00:29:10,790 --> 00:29:13,230
+ 
+
+1167
+00:29:10,800 --> 00:29:15,420
+ act on one or more objects additional
+
+1168
+00:29:13,220 --> 00:29:15,420
+ 
+
+1169
+00:29:13,230 --> 00:29:19,680
+ lock operations to the arguments are
+
+1170
+00:29:15,410 --> 00:29:19,680
+ 
+
+1171
+00:29:15,420 --> 00:29:21,690
+ bound as as to the operation as
+
+1172
+00:29:19,670 --> 00:29:21,690
+ 
+
+1173
+00:29:19,680 --> 00:29:24,060
+ properties what do I mean by that if you
+
+1174
+00:29:21,680 --> 00:29:24,060
+ 
+
+1175
+00:29:21,690 --> 00:29:26,250
+ go into a user interface typically what
+
+1176
+00:29:24,050 --> 00:29:26,250
+ 
+
+1177
+00:29:24,060 --> 00:29:28,680
+ you'll see is you pull up some dialog
+
+1178
+00:29:26,240 --> 00:29:28,680
+ 
+
+1179
+00:29:26,250 --> 00:29:30,810
+ right right Laurie give you a visual
+
+1180
+00:29:28,670 --> 00:29:30,810
+ 
+
+1181
+00:29:28,680 --> 00:29:33,180
+ interface you construct things so what
+
+1182
+00:29:30,800 --> 00:29:33,180
+ 
+
+1183
+00:29:30,810 --> 00:29:36,000
+ you're doing there within the dialog is
+
+1184
+00:29:33,170 --> 00:29:36,000
+ 
+
+1185
+00:29:33,180 --> 00:29:37,830
+ you are our setting a set of properties
+
+1186
+00:29:35,990 --> 00:29:37,830
+ 
+
+1187
+00:29:36,000 --> 00:29:40,170
+ but usually those are not properties
+
+1188
+00:29:37,820 --> 00:29:40,170
+ 
+
+1189
+00:29:37,830 --> 00:29:42,420
+ directly on the document those are the
+
+1190
+00:29:40,160 --> 00:29:42,420
+ 
+
+1191
+00:29:40,170 --> 00:29:44,730
+ arguments to the command that you're
+
+1192
+00:29:42,410 --> 00:29:44,730
+ 
+
+1193
+00:29:42,420 --> 00:29:45,990
+ going to issue right and it doesn't
+
+1194
+00:29:44,720 --> 00:29:45,990
+ 
+
+1195
+00:29:44,730 --> 00:29:48,510
+ matter if you go in and you're dragging
+
+1196
+00:29:45,980 --> 00:29:48,510
+ 
+
+1197
+00:29:45,990 --> 00:29:50,280
+ about handles or things like that what
+
+1198
+00:29:48,500 --> 00:29:50,280
+ 
+
+1199
+00:29:48,510 --> 00:29:53,430
+ you're doing is you're constructing a
+
+1200
+00:29:50,270 --> 00:29:53,430
+ 
+
+1201
+00:29:50,280 --> 00:29:55,920
+ command which are then going to issue to
+
+1202
+00:29:53,420 --> 00:29:55,920
+ 
+
+1203
+00:29:53,430 --> 00:29:58,200
+ the application okay
+
+1204
+00:29:55,910 --> 00:29:58,200
+ 
+
+1205
+00:29:55,920 --> 00:30:01,500
+ operations are represented by buttons
+
+1206
+00:29:58,190 --> 00:30:01,500
+ 
+
+1207
+00:29:58,200 --> 00:30:05,400
+ menu items gestures tools write or
+
+1208
+00:30:01,490 --> 00:30:05,400
+ 
+
+1209
+00:30:01,500 --> 00:30:07,320
+ direct manipulation subject or target of
+
+1210
+00:30:05,390 --> 00:30:07,320
+ 
+
+1211
+00:30:05,400 --> 00:30:09,750
+ an operation is identified by a
+
+1212
+00:30:07,310 --> 00:30:09,750
+ 
+
+1213
+00:30:07,320 --> 00:30:12,000
+ selection right or by direct
+
+1214
+00:30:09,740 --> 00:30:12,000
+ 
+
+1215
+00:30:09,750 --> 00:30:13,590
+ manipulation right I can go and select a
+
+1216
+00:30:11,990 --> 00:30:13,590
+ 
+
+1217
+00:30:12,000 --> 00:30:15,620
+ bunch of guys or I can just go in and
+
+1218
+00:30:13,580 --> 00:30:15,620
+ 
+
+1219
+00:30:13,590 --> 00:30:19,070
+ pick one guy and do something with it
+
+1220
+00:30:15,610 --> 00:30:19,070
+ 
+
+1221
+00:30:15,620 --> 00:30:24,030
+ common metaphors and human interface
+
+1222
+00:30:19,060 --> 00:30:24,030
+ 
+
+1223
+00:30:19,070 --> 00:30:27,210
+ okay so selections selecting objects
+
+1224
+00:30:24,020 --> 00:30:27,210
+ 
+
+1225
+00:30:24,030 --> 00:30:32,310
+ within a hierarchy specifies one or more
+
+1226
+00:30:27,200 --> 00:30:32,310
+ 
+
+1227
+00:30:27,210 --> 00:30:33,780
+ as target paths right so you typically
+
+1228
+00:30:32,300 --> 00:30:33,780
+ 
+
+1229
+00:30:32,310 --> 00:30:35,250
+ build a hierarchy within your
+
+1230
+00:30:33,770 --> 00:30:35,250
+ 
+
+1231
+00:30:33,780 --> 00:30:36,960
+ application so you have application
+
+1232
+00:30:35,240 --> 00:30:36,960
+ 
+
+1233
+00:30:35,250 --> 00:30:39,510
+ which contains documents which contains
+
+1234
+00:30:36,950 --> 00:30:39,510
+ 
+
+1235
+00:30:36,960 --> 00:30:42,990
+ objects within those objects they
+
+1236
+00:30:39,500 --> 00:30:42,990
+ 
+
+1237
+00:30:39,510 --> 00:30:46,110
+ contain other other objects and going
+
+1238
+00:30:42,980 --> 00:30:46,110
+ 
+
+1239
+00:30:42,990 --> 00:30:50,220
+ back to the original Macintosh and even
+
+1240
+00:30:46,100 --> 00:30:50,220
+ 
+
+1241
+00:30:46,110 --> 00:30:51,980
+ before that the Lisa that got surfaced
+
+1242
+00:30:50,210 --> 00:30:51,980
+ 
+
+1243
+00:30:50,220 --> 00:30:54,590
+ up into the menu right
+
+1244
+00:30:51,970 --> 00:30:54,590
+ 
+
+1245
+00:30:51,980 --> 00:30:58,549
+ so if you look here on the left side we
+
+1246
+00:30:54,580 --> 00:30:58,549
+ 
+
+1247
+00:30:54,590 --> 00:31:01,460
+ have have Apple what does that represent
+
+1248
+00:30:58,539 --> 00:31:01,460
+ 
+
+1249
+00:30:58,549 --> 00:31:05,120
+ it represents things that you can do to
+
+1250
+00:31:01,450 --> 00:31:05,120
+ 
+
+1251
+00:31:01,460 --> 00:31:07,100
+ the machine as a whole okay and then the
+
+1252
+00:31:05,110 --> 00:31:07,100
+ 
+
+1253
+00:31:05,120 --> 00:31:10,039
+ Photoshop menu these are things that
+
+1254
+00:31:07,090 --> 00:31:10,039
+ 
+
+1255
+00:31:07,100 --> 00:31:13,309
+ apply to the application as a whole and
+
+1256
+00:31:10,029 --> 00:31:13,309
+ 
+
+1257
+00:31:10,039 --> 00:31:16,549
+ the file menu things that apply to the
+
+1258
+00:31:13,299 --> 00:31:16,549
+ 
+
+1259
+00:31:13,309 --> 00:31:19,220
+ document as a whole okay
+
+1260
+00:31:16,539 --> 00:31:19,220
+ 
+
+1261
+00:31:16,549 --> 00:31:22,370
+ and the Edit menu things that apply to
+
+1262
+00:31:19,210 --> 00:31:22,370
+ 
+
+1263
+00:31:19,220 --> 00:31:26,419
+ the currently selected object within
+
+1264
+00:31:22,360 --> 00:31:26,419
+ 
+
+1265
+00:31:22,370 --> 00:31:28,549
+ that document so if you think about it
+
+1266
+00:31:26,409 --> 00:31:28,549
+ 
+
+1267
+00:31:26,419 --> 00:31:32,059
+ that currently selected object within
+
+1268
+00:31:28,539 --> 00:31:32,059
+ 
+
+1269
+00:31:28,549 --> 00:31:34,549
+ the document is a leaf node within that
+
+1270
+00:31:32,049 --> 00:31:34,549
+ 
+
+1271
+00:31:32,059 --> 00:31:36,860
+ hierarchy that you can trace back to the
+
+1272
+00:31:34,539 --> 00:31:36,860
+ 
+
+1273
+00:31:34,549 --> 00:31:39,200
+ root what document are we talking about
+
+1274
+00:31:36,850 --> 00:31:39,200
+ 
+
+1275
+00:31:36,860 --> 00:31:42,980
+ the document that contains the currently
+
+1276
+00:31:39,190 --> 00:31:42,980
+ 
+
+1277
+00:31:39,200 --> 00:31:43,789
+ selected object right not any documents
+
+1278
+00:31:42,970 --> 00:31:43,789
+ 
+
+1279
+00:31:42,980 --> 00:31:47,480
+ we're talking about a particular
+
+1280
+00:31:43,779 --> 00:31:47,480
+ 
+
+1281
+00:31:43,789 --> 00:31:51,620
+ document right within the currently
+
+1282
+00:31:47,470 --> 00:31:51,620
+ 
+
+1283
+00:31:47,480 --> 00:31:58,159
+ selected application on the current
+
+1284
+00:31:51,610 --> 00:31:58,159
+ 
+
+1285
+00:31:51,620 --> 00:32:00,350
+ machine right so that creates a path so
+
+1286
+00:31:58,149 --> 00:32:00,350
+ 
+
+1287
+00:31:58,159 --> 00:32:07,070
+ interval sets boost has a library called
+
+1288
+00:32:00,340 --> 00:32:07,070
+ 
+
+1289
+00:32:00,350 --> 00:32:08,720
+ interval sets the boost structure is a
+
+1290
+00:32:07,060 --> 00:32:08,720
+ 
+
+1291
+00:32:07,070 --> 00:32:10,730
+ little complicated I prefer just
+
+1292
+00:32:08,710 --> 00:32:10,730
+ 
+
+1293
+00:32:08,720 --> 00:32:16,309
+ encoding interval sets directly within a
+
+1294
+00:32:10,720 --> 00:32:16,309
+ 
+
+1295
+00:32:10,730 --> 00:32:19,580
+ vector but nevertheless an interval set
+
+1296
+00:32:16,299 --> 00:32:19,580
+ 
+
+1297
+00:32:16,309 --> 00:32:25,840
+ is a good data structure to represent a
+
+1298
+00:32:19,570 --> 00:32:25,840
+ 
+
+1299
+00:32:19,580 --> 00:32:28,610
+ selection right it'll let me represent a
+
+1300
+00:32:25,830 --> 00:32:28,610
+ 
+
+1301
+00:32:25,840 --> 00:32:30,380
+ disjoint collection of objects quite
+
+1302
+00:32:28,600 --> 00:32:30,380
+ 
+
+1303
+00:32:28,610 --> 00:32:32,480
+ efficiently you can even create
+
+1304
+00:32:30,370 --> 00:32:32,480
+ 
+
+1305
+00:32:30,380 --> 00:32:35,090
+ two-dimensional interval sets for
+
+1306
+00:32:32,470 --> 00:32:35,090
+ 
+
+1307
+00:32:32,480 --> 00:32:38,210
+ anybody who did early work on a
+
+1308
+00:32:35,080 --> 00:32:38,210
+ 
+
+1309
+00:32:35,090 --> 00:32:42,490
+ Macintosh a quick-draw region is an
+
+1310
+00:32:38,200 --> 00:32:42,490
+ 
+
+1311
+00:32:38,210 --> 00:32:52,399
+ example of a 2-dimensional interval set
+
+1312
+00:32:42,480 --> 00:32:52,399
+ 
+
+1313
+00:32:42,490 --> 00:32:54,740
+ okay so in my c++ seasoning talk in the
+
+1314
+00:32:52,389 --> 00:32:54,740
+ 
+
+1315
+00:32:52,399 --> 00:32:57,679
+ Norra loop section I presented this
+
+1316
+00:32:54,730 --> 00:32:57,679
+ 
+
+1317
+00:32:54,740 --> 00:33:01,690
+ algorithm the gather algorithm like
+
+1318
+00:32:57,669 --> 00:33:01,690
+ 
+
+1319
+00:32:57,679 --> 00:33:01,690
+ marshal cloud gets credit for the name
+
+1320
+00:33:02,540 --> 00:33:02,540
+ 
+
+1321
+00:33:02,550 --> 00:33:05,850
+ okay and that's what you're doing you're
+
+1322
+00:33:04,040 --> 00:33:05,850
+ 
+
+1323
+00:33:04,050 --> 00:33:08,160
+ taking this collection of disjoint
+
+1324
+00:33:05,840 --> 00:33:08,160
+ 
+
+1325
+00:33:05,850 --> 00:33:09,870
+ selected things and you're dragging them
+
+1326
+00:33:08,150 --> 00:33:09,870
+ 
+
+1327
+00:33:08,160 --> 00:33:11,760
+ to a particular location within your
+
+1328
+00:33:09,860 --> 00:33:11,760
+ 
+
+1329
+00:33:09,870 --> 00:33:14,370
+ collection how many people have seen
+
+1330
+00:33:11,750 --> 00:33:14,370
+ 
+
+1331
+00:33:11,760 --> 00:33:17,400
+ that talk you know everybody it's a
+
+1332
+00:33:14,360 --> 00:33:17,400
+ 
+
+1333
+00:33:14,370 --> 00:33:19,170
+ popular talk so it's done well I'm gonna
+
+1334
+00:33:17,390 --> 00:33:19,170
+ 
+
+1335
+00:33:17,400 --> 00:33:22,350
+ cruise through this kind of fast right
+
+1336
+00:33:19,160 --> 00:33:22,350
+ 
+
+1337
+00:33:19,170 --> 00:33:24,540
+ the way that this breaks down is as to
+
+1338
+00:33:22,340 --> 00:33:24,540
+ 
+
+1339
+00:33:22,350 --> 00:33:26,420
+ calls to stable partitions so we can do
+
+1340
+00:33:24,530 --> 00:33:26,420
+ 
+
+1341
+00:33:24,540 --> 00:33:29,250
+ a stable partition on the lower half and
+
+1342
+00:33:26,410 --> 00:33:29,250
+ 
+
+1343
+00:33:26,420 --> 00:33:31,130
+ we can invert our predicate and we can
+
+1344
+00:33:29,240 --> 00:33:31,130
+ 
+
+1345
+00:33:29,250 --> 00:33:35,100
+ do stable partition on the upper half
+
+1346
+00:33:31,120 --> 00:33:35,100
+ 
+
+1347
+00:33:31,130 --> 00:33:38,670
+ okay and that gives us the gather
+
+1348
+00:33:35,090 --> 00:33:38,670
+ 
+
+1349
+00:33:35,100 --> 00:33:40,710
+ function okay so next time you're
+
+1350
+00:33:38,660 --> 00:33:40,710
+ 
+
+1351
+00:33:38,670 --> 00:33:42,750
+ frustrated in an application because you
+
+1352
+00:33:40,700 --> 00:33:42,750
+ 
+
+1353
+00:33:40,710 --> 00:33:45,030
+ can't create a disjoint selection and
+
+1354
+00:33:42,740 --> 00:33:45,030
+ 
+
+1355
+00:33:42,750 --> 00:33:47,100
+ drag things to one place you can point
+
+1356
+00:33:45,020 --> 00:33:47,100
+ 
+
+1357
+00:33:45,030 --> 00:33:49,380
+ them to my taco Z please go watch on
+
+1358
+00:33:47,090 --> 00:33:49,380
+ 
+
+1359
+00:33:47,100 --> 00:33:57,240
+ stock and fix your application so it
+
+1360
+00:33:49,370 --> 00:33:57,240
+ 
+
+1361
+00:33:49,380 --> 00:33:59,400
+ drives me nuts so that's that but I
+
+1362
+00:33:57,230 --> 00:33:59,400
+ 
+
+1363
+00:33:57,240 --> 00:34:02,160
+ don't want to talk directly about that
+
+1364
+00:33:59,390 --> 00:34:02,160
+ 
+
+1365
+00:33:59,400 --> 00:34:03,570
+ right it also returns the two points but
+
+1366
+00:34:02,150 --> 00:34:03,570
+ 
+
+1367
+00:34:02,160 --> 00:34:07,590
+ I really want to talk about is stable
+
+1368
+00:34:03,560 --> 00:34:07,590
+ 
+
+1369
+00:34:03,570 --> 00:34:11,850
+ partition okay why do I want to talk
+
+1370
+00:34:07,580 --> 00:34:11,850
+ 
+
+1371
+00:34:07,590 --> 00:34:13,320
+ about stable partition so that's table
+
+1372
+00:34:11,840 --> 00:34:13,320
+ 
+
+1373
+00:34:11,850 --> 00:34:18,090
+ partition who here knows how to write
+
+1374
+00:34:13,310 --> 00:34:18,090
+ 
+
+1375
+00:34:13,320 --> 00:34:22,250
+ stable partition anybody ah you get to
+
+1376
+00:34:18,080 --> 00:34:22,250
+ 
+
+1377
+00:34:18,090 --> 00:34:26,820
+ learn how to write stable partition okay
+
+1378
+00:34:22,240 --> 00:34:26,820
+ 
+
+1379
+00:34:22,250 --> 00:34:29,580
+ so so for most algorithms they fall into
+
+1380
+00:34:26,810 --> 00:34:29,580
+ 
+
+1381
+00:34:26,820 --> 00:34:31,380
+ one or two categories right for most
+
+1382
+00:34:29,570 --> 00:34:31,380
+ 
+
+1383
+00:34:29,580 --> 00:34:32,820
+ algorithms you can either say okay I'm
+
+1384
+00:34:31,370 --> 00:34:32,820
+ 
+
+1385
+00:34:31,380 --> 00:34:35,940
+ going to start at the beginning of my
+
+1386
+00:34:32,810 --> 00:34:35,940
+ 
+
+1387
+00:34:32,820 --> 00:34:37,950
+ sequence and I'm going to assume that
+
+1388
+00:34:35,930 --> 00:34:37,950
+ 
+
+1389
+00:34:35,940 --> 00:34:39,929
+ now I met some point and and that
+
+1390
+00:34:37,940 --> 00:34:39,929
+ 
+
+1391
+00:34:37,950 --> 00:34:41,070
+ everything behind me magically satisfies
+
+1392
+00:34:39,919 --> 00:34:41,070
+ 
+
+1393
+00:34:39,929 --> 00:34:43,050
+ whatever I'm trying to do with the
+
+1394
+00:34:41,060 --> 00:34:43,050
+ 
+
+1395
+00:34:41,070 --> 00:34:44,940
+ algorithm and so now I figured need to
+
+1396
+00:34:43,040 --> 00:34:44,940
+ 
+
+1397
+00:34:43,050 --> 00:34:47,100
+ figure out how do I make the next guy
+
+1398
+00:34:44,930 --> 00:34:47,100
+ 
+
+1399
+00:34:44,940 --> 00:34:50,280
+ satisfy that linearly go through my
+
+1400
+00:34:47,090 --> 00:34:50,280
+ 
+
+1401
+00:34:47,100 --> 00:34:52,200
+ sequence and do that the other common
+
+1402
+00:34:50,270 --> 00:34:52,200
+ 
+
+1403
+00:34:50,280 --> 00:34:54,690
+ thing is to say well what if I could
+
+1404
+00:34:52,190 --> 00:34:54,690
+ 
+
+1405
+00:34:52,200 --> 00:34:57,930
+ just jump to the middle everything to my
+
+1406
+00:34:54,680 --> 00:34:57,930
+ 
+
+1407
+00:34:54,690 --> 00:34:59,280
+ left satisfied my algorithm and
+
+1408
+00:34:57,920 --> 00:34:59,280
+ 
+
+1409
+00:34:57,930 --> 00:35:01,170
+ everything to the right satisfied my
+
+1410
+00:34:59,270 --> 00:35:01,170
+ 
+
+1411
+00:34:59,280 --> 00:35:03,360
+ algorithm and now I just need a way to
+
+1412
+00:35:01,160 --> 00:35:03,360
+ 
+
+1413
+00:35:01,170 --> 00:35:06,000
+ merge those two things so that the whole
+
+1414
+00:35:03,350 --> 00:35:06,000
+ 
+
+1415
+00:35:03,360 --> 00:35:08,130
+ thing satisfies the algorithm okay those
+
+1416
+00:35:05,990 --> 00:35:08,130
+ 
+
+1417
+00:35:06,000 --> 00:35:11,430
+ are the two most common approaches to
+
+1418
+00:35:08,120 --> 00:35:11,430
+ 
+
+1419
+00:35:08,130 --> 00:35:12,840
+ satisfying an algorithm job so what
+
+1420
+00:35:11,420 --> 00:35:12,840
+ 
+
+1421
+00:35:11,430 --> 00:35:15,000
+ we're gonna do here is we're gonna say
+
+1422
+00:35:12,830 --> 00:35:15,000
+ 
+
+1423
+00:35:12,840 --> 00:35:17,369
+ well imagine that we could just cut this
+
+1424
+00:35:14,990 --> 00:35:17,369
+ 
+
+1425
+00:35:15,000 --> 00:35:21,580
+ thing in half
+
+1426
+00:35:17,359 --> 00:35:21,580
+ 
+
+1427
+00:35:17,369 --> 00:35:23,349
+ okay and that the top has formed a
+
+1428
+00:35:21,570 --> 00:35:23,349
+ 
+
+1429
+00:35:21,580 --> 00:35:26,710
+ stable partition and the bottom half
+
+1430
+00:35:23,339 --> 00:35:26,710
+ 
+
+1431
+00:35:23,349 --> 00:35:28,180
+ formed is the other partition how would
+
+1432
+00:35:26,700 --> 00:35:28,180
+ 
+
+1433
+00:35:26,710 --> 00:35:34,270
+ we do that well we would call stable
+
+1434
+00:35:28,170 --> 00:35:34,270
+ 
+
+1435
+00:35:28,180 --> 00:35:37,599
+ partition on both halves okay then the
+
+1436
+00:35:34,260 --> 00:35:37,599
+ 
+
+1437
+00:35:34,270 --> 00:35:39,970
+ problem becomes how do I put those
+
+1438
+00:35:37,589 --> 00:35:39,970
+ 
+
+1439
+00:35:37,599 --> 00:35:42,099
+ pieces in the right order right right
+
+1440
+00:35:39,960 --> 00:35:42,099
+ 
+
+1441
+00:35:39,970 --> 00:35:44,080
+ between the top arrow and the bottom
+
+1442
+00:35:42,089 --> 00:35:44,080
+ 
+
+1443
+00:35:42,099 --> 00:35:47,130
+ arrow in my midpoint those are the
+
+1444
+00:35:44,070 --> 00:35:47,130
+ 
+
+1445
+00:35:44,080 --> 00:35:52,150
+ pieces that are in the wrong order right
+
+1446
+00:35:47,120 --> 00:35:52,150
+ 
+
+1447
+00:35:47,130 --> 00:35:56,470
+ who sees what do I call here one person
+
+1448
+00:35:52,140 --> 00:35:56,470
+ 
+
+1449
+00:35:52,150 --> 00:36:02,080
+ I have to say it that's obviously a
+
+1450
+00:35:56,460 --> 00:36:02,080
+ 
+
+1451
+00:35:56,470 --> 00:36:08,440
+ rotate so we're gonna call rotate put
+
+1452
+00:36:02,070 --> 00:36:08,440
+ 
+
+1453
+00:36:02,080 --> 00:36:10,859
+ those pieces together okay rotate is
+
+1454
+00:36:08,430 --> 00:36:10,859
+ 
+
+1455
+00:36:08,440 --> 00:36:14,320
+ going to return our partition point
+
+1456
+00:36:10,849 --> 00:36:14,320
+ 
+
+1457
+00:36:10,859 --> 00:36:19,210
+ which is our new middle so we can return
+
+1458
+00:36:14,310 --> 00:36:19,210
+ 
+
+1459
+00:36:14,320 --> 00:36:23,380
+ that so now all we need is our inductive
+
+1460
+00:36:19,200 --> 00:36:23,380
+ 
+
+1461
+00:36:19,210 --> 00:36:30,570
+ base okay so when we get down to just a
+
+1462
+00:36:23,370 --> 00:36:30,570
+ 
+
+1463
+00:36:23,380 --> 00:36:30,570
+ one element window okay if it's selected
+
+1464
+00:36:30,680 --> 00:36:30,680
+ 
+
+1465
+00:36:30,690 --> 00:36:36,900
+ what's the answer what do we return for
+
+1466
+00:36:33,599 --> 00:36:36,900
+ 
+
+1467
+00:36:33,609 --> 00:36:41,440
+ a stable partition of the selected guy
+
+1468
+00:36:36,890 --> 00:36:41,440
+ 
+
+1469
+00:36:36,900 --> 00:36:43,869
+ right okay if it's selected we're gonna
+
+1470
+00:36:41,430 --> 00:36:43,869
+ 
+
+1471
+00:36:41,440 --> 00:36:45,460
+ return right after it if it's not
+
+1472
+00:36:43,859 --> 00:36:45,460
+ 
+
+1473
+00:36:43,869 --> 00:36:47,830
+ selected we're just gonna return where
+
+1474
+00:36:45,450 --> 00:36:47,830
+ 
+
+1475
+00:36:45,460 --> 00:36:50,109
+ it is okay so the are there is our
+
+1476
+00:36:47,820 --> 00:36:50,109
+ 
+
+1477
+00:36:47,830 --> 00:36:51,460
+ result if it's not selected we return
+
+1478
+00:36:50,099 --> 00:36:51,460
+ 
+
+1479
+00:36:50,109 --> 00:36:55,690
+ the element we're looking at if it is
+
+1480
+00:36:51,450 --> 00:36:55,690
+ 
+
+1481
+00:36:51,460 --> 00:36:59,140
+ selected we return one after it so
+
+1482
+00:36:55,680 --> 00:36:59,140
+ 
+
+1483
+00:36:55,690 --> 00:37:02,859
+ that's our inductive base so now we just
+
+1484
+00:36:59,130 --> 00:37:02,859
+ 
+
+1485
+00:36:59,140 --> 00:37:05,800
+ need to fill out handling n so that we
+
+1486
+00:37:02,849 --> 00:37:05,800
+ 
+
+1487
+00:37:02,859 --> 00:37:07,150
+ can calculate our midpoints and we need
+
+1488
+00:37:05,790 --> 00:37:07,150
+ 
+
+1489
+00:37:05,800 --> 00:37:08,530
+ to make sure that we handle the zero
+
+1490
+00:37:07,140 --> 00:37:08,530
+ 
+
+1491
+00:37:07,150 --> 00:37:10,359
+ case where things are completely empty
+
+1492
+00:37:08,520 --> 00:37:10,359
+ 
+
+1493
+00:37:08,530 --> 00:37:13,869
+ in which case the result is just
+
+1494
+00:37:10,349 --> 00:37:13,869
+ 
+
+1495
+00:37:10,359 --> 00:37:16,450
+ returning first and that's an
+
+1496
+00:37:13,859 --> 00:37:16,450
+ 
+
+1497
+00:37:13,869 --> 00:37:18,730
+ implementation of stable partition why
+
+1498
+00:37:16,440 --> 00:37:18,730
+ 
+
+1499
+00:37:16,450 --> 00:37:20,980
+ am i showing this to you there's
+
+1500
+00:37:18,720 --> 00:37:20,980
+ 
+
+1501
+00:37:18,730 --> 00:37:23,520
+ something amazing I think in this
+
+1502
+00:37:20,970 --> 00:37:23,520
+ 
+
+1503
+00:37:20,980 --> 00:37:23,520
+ algorithm
+
+1504
+00:37:26,010 --> 00:37:26,010
+ 
+
+1505
+00:37:26,020 --> 00:37:34,310
+ right there what's amazing about that
+
+1506
+00:37:32,220 --> 00:37:34,310
+ 
+
+1507
+00:37:32,230 --> 00:37:39,260
+ every time I look at this piece of code
+
+1508
+00:37:34,300 --> 00:37:39,260
+ 
+
+1509
+00:37:34,310 --> 00:37:41,120
+ I'm just like that is so beautiful the
+
+1510
+00:37:39,250 --> 00:37:41,120
+ 
+
+1511
+00:37:39,260 --> 00:37:44,150
+ predicate is called only once per
+
+1512
+00:37:41,110 --> 00:37:44,150
+ 
+
+1513
+00:37:41,120 --> 00:37:47,900
+ element and it's called on that element
+
+1514
+00:37:44,140 --> 00:37:47,900
+ 
+
+1515
+00:37:44,150 --> 00:37:50,180
+ before that element has moved okay think
+
+1516
+00:37:47,890 --> 00:37:50,180
+ 
+
+1517
+00:37:47,900 --> 00:37:51,860
+ about it we're going to do a stable
+
+1518
+00:37:50,170 --> 00:37:51,860
+ 
+
+1519
+00:37:50,180 --> 00:37:54,650
+ partition on a bunch of selected guys
+
+1520
+00:37:51,850 --> 00:37:54,650
+ 
+
+1521
+00:37:51,860 --> 00:37:56,720
+ we're gonna recurse all the way down to
+
+1522
+00:37:54,640 --> 00:37:56,720
+ 
+
+1523
+00:37:54,650 --> 00:37:58,370
+ the leaf nodes we're gonna ask the
+
+1524
+00:37:56,710 --> 00:37:58,370
+ 
+
+1525
+00:37:56,720 --> 00:38:00,770
+ element exactly one time are you
+
+1526
+00:37:58,360 --> 00:38:00,770
+ 
+
+1527
+00:37:58,370 --> 00:38:02,450
+ selected or not selected and then we're
+
+1528
+00:38:00,760 --> 00:38:02,450
+ 
+
+1529
+00:38:00,770 --> 00:38:06,710
+ gonna put everything in the right place
+
+1530
+00:38:02,440 --> 00:38:06,710
+ 
+
+1531
+00:38:02,450 --> 00:38:11,600
+ back up the tree okay so there are only
+
+1532
+00:38:06,700 --> 00:38:11,600
+ 
+
+1533
+00:38:06,710 --> 00:38:15,530
+ n calls to P and all of those calls
+
+1534
+00:38:11,590 --> 00:38:15,530
+ 
+
+1535
+00:38:11,600 --> 00:38:20,450
+ happened before P was before the item at
+
+1536
+00:38:15,520 --> 00:38:20,450
+ 
+
+1537
+00:38:15,530 --> 00:38:22,930
+ the location was moved what does that
+
+1538
+00:38:20,440 --> 00:38:22,930
+ 
+
+1539
+00:38:20,450 --> 00:38:22,930
+ mean
+
+1540
+00:38:25,050 --> 00:38:25,050
+ 
+
+1541
+00:38:25,060 --> 00:38:30,850
+ there's the magic spot it means that
+
+1542
+00:38:28,690 --> 00:38:30,850
+ 
+
+1543
+00:38:28,700 --> 00:38:33,770
+ there's another algorithm hidden in here
+
+1544
+00:38:30,840 --> 00:38:33,770
+ 
+
+1545
+00:38:30,850 --> 00:38:37,910
+ right it means that we can do a stable
+
+1546
+00:38:33,760 --> 00:38:37,910
+ 
+
+1547
+00:38:33,770 --> 00:38:40,700
+ partition without having to look at each
+
+1548
+00:38:37,900 --> 00:38:40,700
+ 
+
+1549
+00:38:37,910 --> 00:38:43,310
+ item to say are you selected but to say
+
+1550
+00:38:40,690 --> 00:38:43,310
+ 
+
+1551
+00:38:40,700 --> 00:38:45,290
+ is your position selected which means
+
+1552
+00:38:43,300 --> 00:38:45,290
+ 
+
+1553
+00:38:43,310 --> 00:38:49,250
+ that we can keep our selection out of
+
+1554
+00:38:45,280 --> 00:38:49,250
+ 
+
+1555
+00:38:45,290 --> 00:38:52,880
+ our data okay so we don't have to go
+
+1556
+00:38:49,240 --> 00:38:52,880
+ 
+
+1557
+00:38:49,250 --> 00:38:54,800
+ stick a bunch of boolean's in our big
+
+1558
+00:38:52,870 --> 00:38:54,800
+ 
+
+1559
+00:38:52,880 --> 00:38:56,840
+ huge lists of things so that we can mark
+
+1560
+00:38:54,790 --> 00:38:56,840
+ 
+
+1561
+00:38:54,800 --> 00:38:59,750
+ them to say are you selected we can keep
+
+1562
+00:38:56,830 --> 00:38:59,750
+ 
+
+1563
+00:38:56,840 --> 00:39:02,210
+ an interval set over on the side to say
+
+1564
+00:38:59,740 --> 00:39:02,210
+ 
+
+1565
+00:38:59,750 --> 00:39:03,680
+ are you selected and we can still apply
+
+1566
+00:39:02,200 --> 00:39:03,680
+ 
+
+1567
+00:39:02,210 --> 00:39:08,090
+ gather to put everything in the right
+
+1568
+00:39:03,670 --> 00:39:08,090
+ 
+
+1569
+00:39:03,680 --> 00:39:09,800
+ place all right I think that's very
+
+1570
+00:39:08,080 --> 00:39:09,800
+ 
+
+1571
+00:39:08,090 --> 00:39:16,670
+ beautiful do you think it's beautiful
+
+1572
+00:39:09,790 --> 00:39:16,670
+ 
+
+1573
+00:39:09,800 --> 00:39:18,050
+ you guys follow it yeah okay so we can
+
+1574
+00:39:16,660 --> 00:39:18,050
+ 
+
+1575
+00:39:16,670 --> 00:39:19,460
+ do something like this right we can have
+
+1576
+00:39:18,040 --> 00:39:19,460
+ 
+
+1577
+00:39:18,050 --> 00:39:22,130
+ our interval set that represents our
+
+1578
+00:39:19,450 --> 00:39:22,130
+ 
+
+1579
+00:39:19,460 --> 00:39:24,350
+ selection the user modifies at a bunch
+
+1580
+00:39:22,120 --> 00:39:24,350
+ 
+
+1581
+00:39:22,130 --> 00:39:27,790
+ and then we can say gather position and
+
+1582
+00:39:24,340 --> 00:39:27,790
+ 
+
+1583
+00:39:24,350 --> 00:39:27,790
+ put everything into the right place
+
+1584
+00:39:31,589 --> 00:39:31,589
+ 
+
+1585
+00:39:31,599 --> 00:39:38,609
+ okay so selections multi-select has only
+
+1586
+00:39:36,209 --> 00:39:38,609
+ 
+
+1587
+00:39:36,219 --> 00:39:43,209
+ sporadically implemented in applications
+
+1588
+00:39:38,599 --> 00:39:43,209
+ 
+
+1589
+00:39:38,609 --> 00:39:47,680
+ it is always and I say this pretty much
+
+1590
+00:39:43,199 --> 00:39:47,680
+ 
+
+1591
+00:39:43,209 --> 00:39:52,479
+ unqualified always inconsistently how do
+
+1592
+00:39:47,670 --> 00:39:52,479
+ 
+
+1593
+00:39:47,680 --> 00:39:56,229
+ I know that so a few years ago Yakko
+
+1594
+00:39:52,469 --> 00:39:56,229
+ 
+
+1595
+00:39:52,479 --> 00:39:58,059
+ Garvey at the time he was professor at
+
+1596
+00:39:56,219 --> 00:39:58,059
+ 
+
+1597
+00:39:56,229 --> 00:39:58,749
+ Texas A&M I think now he's at University
+
+1598
+00:39:58,049 --> 00:39:58,749
+ 
+
+1599
+00:39:58,059 --> 00:40:02,170
+ of Oslo
+
+1600
+00:39:58,739 --> 00:40:02,170
+ 
+
+1601
+00:39:58,749 --> 00:40:04,779
+ you know I've collaborated a lot he's
+
+1602
+00:40:02,160 --> 00:40:04,779
+ 
+
+1603
+00:40:02,170 --> 00:40:07,150
+ largely responsible for lambdas and C++
+
+1604
+00:40:04,769 --> 00:40:07,150
+ 
+
+1605
+00:40:04,779 --> 00:40:08,920
+ so you have him to thank for lambdas he
+
+1606
+00:40:07,140 --> 00:40:08,920
+ 
+
+1607
+00:40:07,150 --> 00:40:15,009
+ also wrote the lamda library that was in
+
+1608
+00:40:08,910 --> 00:40:15,009
+ 
+
+1609
+00:40:08,920 --> 00:40:17,380
+ boost he and I sat down to write a
+
+1610
+00:40:14,999 --> 00:40:17,380
+ 
+
+1611
+00:40:15,009 --> 00:40:20,469
+ different paper about collections and
+
+1612
+00:40:17,370 --> 00:40:20,469
+ 
+
+1613
+00:40:17,380 --> 00:40:24,190
+ user interfaces on collections and we
+
+1614
+00:40:20,459 --> 00:40:24,190
+ 
+
+1615
+00:40:20,469 --> 00:40:26,199
+ got hung up on selections what did it
+
+1616
+00:40:24,180 --> 00:40:26,199
+ 
+
+1617
+00:40:24,190 --> 00:40:28,869
+ mean to select things within
+
+1618
+00:40:26,189 --> 00:40:28,869
+ 
+
+1619
+00:40:26,199 --> 00:40:30,759
+ applications and we went into the survey
+
+1620
+00:40:28,859 --> 00:40:30,759
+ 
+
+1621
+00:40:28,869 --> 00:40:32,829
+ of a whole bunch of applications which
+
+1622
+00:40:30,749 --> 00:40:32,829
+ 
+
+1623
+00:40:30,759 --> 00:40:35,920
+ are referenced in this paper find it on
+
+1624
+00:40:32,819 --> 00:40:35,920
+ 
+
+1625
+00:40:32,829 --> 00:40:38,650
+ my website and we found like every
+
+1626
+00:40:35,910 --> 00:40:38,650
+ 
+
+1627
+00:40:35,920 --> 00:40:40,569
+ application implements multiple
+
+1628
+00:40:38,640 --> 00:40:40,569
+ 
+
+1629
+00:40:38,650 --> 00:40:42,579
+ selections differently and you think
+
+1630
+00:40:40,559 --> 00:40:42,579
+ 
+
+1631
+00:40:40,569 --> 00:40:45,969
+ it's kind of easy right cuz you say well
+
+1632
+00:40:42,569 --> 00:40:45,969
+ 
+
+1633
+00:40:42,579 --> 00:40:47,469
+ I can click on something and then I can
+
+1634
+00:40:45,959 --> 00:40:47,469
+ 
+
+1635
+00:40:45,969 --> 00:40:49,989
+ shift-click someplace else and that
+
+1636
+00:40:47,459 --> 00:40:49,989
+ 
+
+1637
+00:40:47,469 --> 00:40:52,299
+ should select a range and then I can
+
+1638
+00:40:49,979 --> 00:40:52,299
+ 
+
+1639
+00:40:49,989 --> 00:40:55,569
+ command click someplace to make it a
+
+1640
+00:40:52,289 --> 00:40:55,569
+ 
+
+1641
+00:40:52,299 --> 00:40:57,309
+ disjoint range okay but what happens if
+
+1642
+00:40:55,559 --> 00:40:57,309
+ 
+
+1643
+00:40:55,569 --> 00:41:00,579
+ i shift-click and nothing was selected
+
+1644
+00:40:57,299 --> 00:41:00,579
+ 
+
+1645
+00:40:57,309 --> 00:41:02,049
+ right or what happens if I command click
+
+1646
+00:41:00,569 --> 00:41:02,049
+ 
+
+1647
+00:41:00,579 --> 00:41:04,779
+ on something that was already selected
+
+1648
+00:41:02,039 --> 00:41:04,779
+ 
+
+1649
+00:41:02,049 --> 00:41:06,789
+ or the range that I'm shift-clicking the
+
+1650
+00:41:04,769 --> 00:41:06,789
+ 
+
+1651
+00:41:04,779 --> 00:41:10,029
+ club across had things that were
+
+1652
+00:41:06,779 --> 00:41:10,029
+ 
+
+1653
+00:41:06,789 --> 00:41:12,369
+ selected within that range every
+
+1654
+00:41:10,019 --> 00:41:12,369
+ 
+
+1655
+00:41:10,029 --> 00:41:15,219
+ application implements those differently
+
+1656
+00:41:12,359 --> 00:41:15,219
+ 
+
+1657
+00:41:12,369 --> 00:41:18,009
+ right call it an artifact of
+
+1658
+00:41:15,209 --> 00:41:18,009
+ 
+
+1659
+00:41:15,219 --> 00:41:20,799
+ implementation the problem with that is
+
+1660
+00:41:17,999 --> 00:41:20,799
+ 
+
+1661
+00:41:18,009 --> 00:41:22,509
+ it both means that there's no central
+
+1662
+00:41:20,789 --> 00:41:22,509
+ 
+
+1663
+00:41:20,799 --> 00:41:25,059
+ design for it there's nothing that a
+
+1664
+00:41:22,499 --> 00:41:25,059
+ 
+
+1665
+00:41:22,509 --> 00:41:27,789
+ user can rely upon when a user is
+
+1666
+00:41:25,049 --> 00:41:27,789
+ 
+
+1667
+00:41:25,059 --> 00:41:30,009
+ building selections okay
+
+1668
+00:41:27,779 --> 00:41:30,009
+ 
+
+1669
+00:41:27,789 --> 00:41:31,619
+ so users find it very confusing and
+
+1670
+00:41:29,999 --> 00:41:31,619
+ 
+
+1671
+00:41:30,009 --> 00:41:34,420
+ users don't trust the system
+
+1672
+00:41:31,609 --> 00:41:34,420
+ 
+
+1673
+00:41:31,619 --> 00:41:38,109
+ okay it also means that nobody's written
+
+1674
+00:41:34,410 --> 00:41:38,109
+ 
+
+1675
+00:41:34,420 --> 00:41:39,910
+ a good generic piece of code on there so
+
+1676
+00:41:38,099 --> 00:41:39,910
+ 
+
+1677
+00:41:38,109 --> 00:41:41,559
+ yakko and I ended up not writing the
+
+1678
+00:41:39,900 --> 00:41:41,559
+ 
+
+1679
+00:41:39,910 --> 00:41:44,100
+ people we intended to write we just
+
+1680
+00:41:41,549 --> 00:41:44,100
+ 
+
+1681
+00:41:41,559 --> 00:41:46,080
+ wrote a paper on selections
+
+1682
+00:41:44,090 --> 00:41:46,080
+ 
+
+1683
+00:41:44,100 --> 00:41:48,440
+ and kind of a common vocabulary for how
+
+1684
+00:41:46,070 --> 00:41:48,440
+ 
+
+1685
+00:41:46,080 --> 00:41:51,450
+ you would constructible construct
+
+1686
+00:41:48,430 --> 00:41:51,450
+ 
+
+1687
+00:41:48,440 --> 00:41:54,180
+ selections okay so it's a bit of a
+
+1688
+00:41:51,440 --> 00:41:54,180
+ 
+
+1689
+00:41:51,450 --> 00:41:56,000
+ mathematical paper but it's also a
+
+1690
+00:41:54,170 --> 00:41:56,000
+ 
+
+1691
+00:41:54,180 --> 00:41:57,810
+ universal form for talking about
+
+1692
+00:41:55,990 --> 00:41:57,810
+ 
+
+1693
+00:41:56,000 --> 00:42:00,150
+ selections whether you're selecting
+
+1694
+00:41:57,800 --> 00:42:00,150
+ 
+
+1695
+00:41:57,810 --> 00:42:02,970
+ things within a sequence or objects
+
+1696
+00:42:00,140 --> 00:42:02,970
+ 
+
+1697
+00:42:00,150 --> 00:42:05,310
+ within an arbitrary space it scales to
+
+1698
+00:42:02,960 --> 00:42:05,310
+ 
+
+1699
+00:42:02,970 --> 00:42:07,290
+ end dimensions right so it's a nice
+
+1700
+00:42:05,300 --> 00:42:07,290
+ 
+
+1701
+00:42:05,310 --> 00:42:09,060
+ little piece of work so if you're
+
+1702
+00:42:07,280 --> 00:42:09,060
+ 
+
+1703
+00:42:07,290 --> 00:42:10,410
+ implementing an application where you
+
+1704
+00:42:09,050 --> 00:42:10,410
+ 
+
+1705
+00:42:09,060 --> 00:42:12,300
+ have collections of things and you need
+
+1706
+00:42:10,400 --> 00:42:12,300
+ 
+
+1707
+00:42:10,410 --> 00:42:14,510
+ to select them I'd recommend reading the
+
+1708
+00:42:12,290 --> 00:42:14,510
+ 
+
+1709
+00:42:12,300 --> 00:42:14,510
+ paper
+
+1710
+00:42:15,490 --> 00:42:15,490
+ 
+
+1711
+00:42:15,500 --> 00:42:22,770
+ that brings us to relationships so a
+
+1712
+00:42:20,660 --> 00:42:22,770
+ 
+
+1713
+00:42:20,670 --> 00:42:24,960
+ relationship is the way the two entities
+
+1714
+00:42:22,760 --> 00:42:24,960
+ 
+
+1715
+00:42:22,770 --> 00:42:27,060
+ are connected relationships within
+
+1716
+00:42:24,950 --> 00:42:27,060
+ 
+
+1717
+00:42:24,960 --> 00:42:28,830
+ software and avoidable relationships
+
+1718
+00:42:27,050 --> 00:42:28,830
+ 
+
+1719
+00:42:27,060 --> 00:42:31,230
+ come up a lot in my talks I would say
+
+1720
+00:42:28,820 --> 00:42:31,230
+ 
+
+1721
+00:42:28,830 --> 00:42:37,550
+ the problem with computer scientists are
+
+1722
+00:42:31,220 --> 00:42:37,550
+ 
+
+1723
+00:42:31,230 --> 00:42:40,380
+ that we're bad at relationships so a
+
+1724
+00:42:37,540 --> 00:42:40,380
+ 
+
+1725
+00:42:37,550 --> 00:42:41,910
+ structure is formed by collected by
+
+1726
+00:42:40,370 --> 00:42:41,910
+ 
+
+1727
+00:42:40,380 --> 00:42:44,400
+ connected relationships that's what a
+
+1728
+00:42:41,900 --> 00:42:44,400
+ 
+
+1729
+00:42:41,910 --> 00:42:47,100
+ mathematical structure is as a set of
+
+1730
+00:42:44,390 --> 00:42:47,100
+ 
+
+1731
+00:42:44,400 --> 00:42:49,200
+ connected relationships and architecture
+
+1732
+00:42:47,090 --> 00:42:49,200
+ 
+
+1733
+00:42:47,100 --> 00:42:50,850
+ is the art and design of designing
+
+1734
+00:42:49,190 --> 00:42:50,850
+ 
+
+1735
+00:42:49,200 --> 00:42:54,510
+ structures that's the definition of
+
+1736
+00:42:50,840 --> 00:42:54,510
+ 
+
+1737
+00:42:50,850 --> 00:42:57,900
+ architecture right the reason why some
+
+1738
+00:42:54,500 --> 00:42:57,900
+ 
+
+1739
+00:42:54,510 --> 00:43:00,240
+ of us are called software architects is
+
+1740
+00:42:57,890 --> 00:43:00,240
+ 
+
+1741
+00:42:57,900 --> 00:43:01,740
+ because were the people who are worried
+
+1742
+00:43:00,230 --> 00:43:01,740
+ 
+
+1743
+00:43:00,240 --> 00:43:04,380
+ about the relationships of how the
+
+1744
+00:43:01,730 --> 00:43:04,380
+ 
+
+1745
+00:43:01,740 --> 00:43:06,180
+ software is put together and it's our
+
+1746
+00:43:04,370 --> 00:43:06,180
+ 
+
+1747
+00:43:04,380 --> 00:43:09,600
+ responsibility to design those
+
+1748
+00:43:06,170 --> 00:43:09,600
+ 
+
+1749
+00:43:06,180 --> 00:43:11,580
+ structures I find a lot of software
+
+1750
+00:43:09,590 --> 00:43:11,580
+ 
+
+1751
+00:43:09,600 --> 00:43:13,440
+ architects with that in their title who
+
+1752
+00:43:11,570 --> 00:43:13,440
+ 
+
+1753
+00:43:11,580 --> 00:43:15,720
+ can't give me a definition of what
+
+1754
+00:43:13,430 --> 00:43:15,720
+ 
+
+1755
+00:43:13,440 --> 00:43:18,060
+ software architecture is but that's what
+
+1756
+00:43:15,710 --> 00:43:18,060
+ 
+
+1757
+00:43:15,720 --> 00:43:19,980
+ software architecture is okay it's
+
+1758
+00:43:18,050 --> 00:43:19,980
+ 
+
+1759
+00:43:18,060 --> 00:43:21,900
+ designing the structure of relationships
+
+1760
+00:43:19,970 --> 00:43:21,900
+ 
+
+1761
+00:43:19,980 --> 00:43:28,320
+ how the components within your software
+
+1762
+00:43:21,890 --> 00:43:28,320
+ 
+
+1763
+00:43:21,900 --> 00:43:30,720
+ connect a relationship always implies a
+
+1764
+00:43:28,310 --> 00:43:30,720
+ 
+
+1765
+00:43:28,320 --> 00:43:32,550
+ corresponding predicate the tests if the
+
+1766
+00:43:30,710 --> 00:43:32,550
+ 
+
+1767
+00:43:30,720 --> 00:43:35,850
+ pair are in the relationship or not
+
+1768
+00:43:32,540 --> 00:43:35,850
+ 
+
+1769
+00:43:32,550 --> 00:43:38,120
+ right so you can be in a relationship I
+
+1770
+00:43:35,840 --> 00:43:38,120
+ 
+
+1771
+00:43:35,850 --> 00:43:41,280
+ happen to know that Marshall is married
+
+1772
+00:43:38,110 --> 00:43:41,280
+ 
+
+1773
+00:43:38,120 --> 00:43:42,960
+ so so Marshall is married to his wife
+
+1774
+00:43:41,270 --> 00:43:42,960
+ 
+
+1775
+00:43:41,280 --> 00:43:44,940
+ and so there is a corresponding
+
+1776
+00:43:42,950 --> 00:43:44,940
+ 
+
+1777
+00:43:42,960 --> 00:43:49,920
+ predicate that I can ask is Marshall
+
+1778
+00:43:44,930 --> 00:43:49,920
+ 
+
+1779
+00:43:44,940 --> 00:43:52,980
+ married right very simple
+
+1780
+00:43:49,910 --> 00:43:52,980
+ 
+
+1781
+00:43:49,920 --> 00:43:55,440
+ within a tie race relationships can be
+
+1782
+00:43:52,970 --> 00:43:55,440
+ 
+
+1783
+00:43:52,980 --> 00:43:58,340
+ very challenging to represent and to
+
+1784
+00:43:55,430 --> 00:43:58,340
+ 
+
+1785
+00:43:55,440 --> 00:43:58,340
+ convey to the user
+
+1786
+00:43:59,609 --> 00:43:59,609
+ 
+
+1787
+00:43:59,619 --> 00:44:05,270
+ so look at this picture for a moment so
+
+1788
+00:44:03,040 --> 00:44:05,270
+ 
+
+1789
+00:44:03,050 --> 00:44:10,550
+ this was my hotel room when I gave this
+
+1790
+00:44:05,260 --> 00:44:10,550
+ 
+
+1791
+00:44:05,270 --> 00:44:13,250
+ talk in Berlin it's not quite as bad as
+
+1792
+00:44:10,540 --> 00:44:13,250
+ 
+
+1793
+00:44:10,550 --> 00:44:14,690
+ the picture would make you think the
+
+1794
+00:44:13,240 --> 00:44:14,690
+ 
+
+1795
+00:44:13,250 --> 00:44:19,609
+ beginning went there you're looking at
+
+1796
+00:44:14,680 --> 00:44:19,609
+ 
+
+1797
+00:44:14,690 --> 00:44:23,349
+ the shower okay and the toilet what you
+
+1798
+00:44:19,599 --> 00:44:23,349
+ 
+
+1799
+00:44:19,609 --> 00:44:25,910
+ can't quite see is there is a clear
+
+1800
+00:44:23,339 --> 00:44:25,910
+ 
+
+1801
+00:44:23,349 --> 00:44:31,450
+ plane of glass right between the two
+
+1802
+00:44:25,900 --> 00:44:31,450
+ 
+
+1803
+00:44:25,910 --> 00:44:36,250
+ there's no mirrors in this picture okay
+
+1804
+00:44:31,440 --> 00:44:36,250
+ 
+
+1805
+00:44:31,450 --> 00:44:39,200
+ this just struck me as funny all right
+
+1806
+00:44:36,240 --> 00:44:39,200
+ 
+
+1807
+00:44:36,250 --> 00:44:43,339
+ so I thought somewhere out there there's
+
+1808
+00:44:39,190 --> 00:44:43,339
+ 
+
+1809
+00:44:39,200 --> 00:44:45,410
+ an interior designer who missed their
+
+1810
+00:44:43,329 --> 00:44:45,410
+ 
+
+1811
+00:44:43,339 --> 00:44:51,950
+ calling they should have been a software
+
+1812
+00:44:45,400 --> 00:44:51,950
+ 
+
+1813
+00:44:45,410 --> 00:44:54,470
+ engineer okay because somebody gave them
+
+1814
+00:44:51,940 --> 00:44:54,470
+ 
+
+1815
+00:44:51,950 --> 00:44:56,900
+ this requirements they said I want you
+
+1816
+00:44:54,460 --> 00:44:56,900
+ 
+
+1817
+00:44:54,470 --> 00:44:58,520
+ to design a bathroom and I want you to
+
+1818
+00:44:56,890 --> 00:44:58,520
+ 
+
+1819
+00:44:56,900 --> 00:45:01,910
+ have at least one shower in the bathroom
+
+1820
+00:44:58,510 --> 00:45:01,910
+ 
+
+1821
+00:44:58,520 --> 00:45:04,819
+ and the designer said okay number of
+
+1822
+00:45:01,900 --> 00:45:04,819
+ 
+
+1823
+00:45:01,910 --> 00:45:07,450
+ showers is equal to one constraint
+
+1824
+00:45:04,809 --> 00:45:07,450
+ 
+
+1825
+00:45:04,819 --> 00:45:07,450
+ satisfied
+
+1826
+00:45:08,569 --> 00:45:08,569
+ 
+
+1827
+00:45:08,579 --> 00:45:12,970
+ and somebody came along and said oh and
+
+1828
+00:45:11,220 --> 00:45:12,970
+ 
+
+1829
+00:45:11,230 --> 00:45:15,400
+ that bathroom should have at least one
+
+1830
+00:45:12,960 --> 00:45:15,400
+ 
+
+1831
+00:45:12,970 --> 00:45:19,049
+ toilet does I understood I can do that
+
+1832
+00:45:15,390 --> 00:45:19,049
+ 
+
+1833
+00:45:15,400 --> 00:45:23,349
+ it number of toilets is equal to one
+
+1834
+00:45:19,039 --> 00:45:23,349
+ 
+
+1835
+00:45:19,049 --> 00:45:26,260
+ constraint satisfied and so the owner of
+
+1836
+00:45:23,339 --> 00:45:26,260
+ 
+
+1837
+00:45:23,349 --> 00:45:30,030
+ the hotel came back and said and this
+
+1838
+00:45:26,250 --> 00:45:30,030
+ 
+
+1839
+00:45:26,260 --> 00:45:31,960
+ bathroom should provide some privacy
+
+1840
+00:45:30,020 --> 00:45:31,960
+ 
+
+1841
+00:45:30,030 --> 00:45:37,829
+ privacy should be greater than or equal
+
+1842
+00:45:31,950 --> 00:45:37,829
+ 
+
+1843
+00:45:31,960 --> 00:45:37,829
+ to zero privacy is equal to zero
+
+1844
+00:45:38,030 --> 00:45:38,030
+ 
+
+1845
+00:45:38,040 --> 00:45:49,230
+ constraint satisfied clearly miss Nicole
+
+1846
+00:45:49,970 --> 00:45:49,970
+ 
+
+1847
+00:45:49,980 --> 00:45:54,250
+ so one of the simplest relationships
+
+1848
+00:45:52,710 --> 00:45:54,250
+ 
+
+1849
+00:45:52,720 --> 00:45:56,890
+ that you'll run acrost in software and
+
+1850
+00:45:54,240 --> 00:45:56,890
+ 
+
+1851
+00:45:54,250 --> 00:46:01,809
+ one of the most common is the implies
+
+1852
+00:45:56,880 --> 00:46:01,809
+ 
+
+1853
+00:45:56,890 --> 00:46:03,730
+ relationship a implies B okay how common
+
+1854
+00:46:01,799 --> 00:46:03,730
+ 
+
+1855
+00:46:01,809 --> 00:46:05,980
+ is this well I just pulled up the manual
+
+1856
+00:46:03,720 --> 00:46:05,980
+ 
+
+1857
+00:46:03,730 --> 00:46:09,010
+ for clang and search for the word
+
+1858
+00:46:05,970 --> 00:46:09,010
+ 
+
+1859
+00:46:05,980 --> 00:46:11,230
+ implies or implied and this is the
+
+1860
+00:46:09,000 --> 00:46:11,230
+ 
+
+1861
+00:46:09,010 --> 00:46:14,109
+ number of cases where where it occurs
+
+1862
+00:46:11,220 --> 00:46:14,109
+ 
+
+1863
+00:46:11,230 --> 00:46:16,480
+ right so those options implies another
+
+1864
+00:46:14,099 --> 00:46:16,480
+ 
+
+1865
+00:46:14,109 --> 00:46:19,450
+ option this option is implied by some
+
+1866
+00:46:16,470 --> 00:46:19,450
+ 
+
+1867
+00:46:16,480 --> 00:46:20,890
+ other option okay it comes up a lot so
+
+1868
+00:46:19,440 --> 00:46:20,890
+ 
+
+1869
+00:46:19,450 --> 00:46:22,780
+ if you were constructing a user
+
+1870
+00:46:20,880 --> 00:46:22,780
+ 
+
+1871
+00:46:20,890 --> 00:46:24,970
+ interface and putting checkboxes on each
+
+1872
+00:46:22,770 --> 00:46:24,970
+ 
+
+1873
+00:46:22,780 --> 00:46:27,309
+ of these options you would want some way
+
+1874
+00:46:24,960 --> 00:46:27,309
+ 
+
+1875
+00:46:24,970 --> 00:46:33,280
+ to represent that implies relationship
+
+1876
+00:46:27,299 --> 00:46:33,280
+ 
+
+1877
+00:46:27,309 --> 00:46:37,630
+ to the user okay so let's take a look
+
+1878
+00:46:33,270 --> 00:46:37,630
+ 
+
+1879
+00:46:33,280 --> 00:46:39,099
+ here I built a little app this is an iOS
+
+1880
+00:46:37,620 --> 00:46:39,099
+ 
+
+1881
+00:46:37,630 --> 00:46:41,349
+ app that I built and it's just gonna
+
+1882
+00:46:39,089 --> 00:46:41,349
+ 
+
+1883
+00:46:39,099 --> 00:46:43,299
+ keep running in a loop here and the user
+
+1884
+00:46:41,339 --> 00:46:43,299
+ 
+
+1885
+00:46:41,349 --> 00:46:49,750
+ can click through things and the
+
+1886
+00:46:43,289 --> 00:46:49,750
+ 
+
+1887
+00:46:43,299 --> 00:46:52,540
+ operation is getting applied after the
+
+1888
+00:46:49,740 --> 00:46:52,540
+ 
+
+1889
+00:46:49,750 --> 00:46:54,549
+ dot dot there right we need to make sure
+
+1890
+00:46:52,530 --> 00:46:54,549
+ 
+
+1891
+00:46:52,540 --> 00:46:57,369
+ that B is consistent with the implies
+
+1892
+00:46:54,539 --> 00:46:57,369
+ 
+
+1893
+00:46:54,549 --> 00:46:58,660
+ relationship so in the code that user
+
+1894
+00:46:57,359 --> 00:46:58,660
+ 
+
+1895
+00:46:57,369 --> 00:47:01,930
+ wrote this piece of code for the
+
+1896
+00:46:58,650 --> 00:47:01,930
+ 
+
+1897
+00:46:58,660 --> 00:47:04,329
+ operation and they said oh I'm gonna
+
+1898
+00:47:01,920 --> 00:47:04,329
+ 
+
+1899
+00:47:01,930 --> 00:47:08,079
+ take two arguments a and B but I'm gonna
+
+1900
+00:47:04,319 --> 00:47:08,079
+ 
+
+1901
+00:47:04,329 --> 00:47:11,650
+ say B is equal to a or b right inside
+
+1902
+00:47:08,069 --> 00:47:11,650
+ 
+
+1903
+00:47:08,079 --> 00:47:13,030
+ right you can use a implies B and I'm
+
+1904
+00:47:11,640 --> 00:47:13,030
+ 
+
+1905
+00:47:11,650 --> 00:47:14,619
+ just gonna put an unconstrained user
+
+1906
+00:47:13,020 --> 00:47:14,619
+ 
+
+1907
+00:47:13,030 --> 00:47:18,099
+ interface attached to that and the user
+
+1908
+00:47:14,609 --> 00:47:18,099
+ 
+
+1909
+00:47:14,619 --> 00:47:20,319
+ can click on anything okay and the
+
+1910
+00:47:18,089 --> 00:47:20,319
+ 
+
+1911
+00:47:18,099 --> 00:47:21,280
+ operation works right the old green
+
+1912
+00:47:20,309 --> 00:47:21,280
+ 
+
+1913
+00:47:20,319 --> 00:47:25,470
+ light it doesn't
+
+1914
+00:47:21,270 --> 00:47:25,470
+ 
+
+1915
+00:47:21,280 --> 00:47:27,820
+ operation the application works okay but
+
+1916
+00:47:25,460 --> 00:47:27,820
+ 
+
+1917
+00:47:25,470 --> 00:47:32,530
+ somebody in QE is gonna come along and
+
+1918
+00:47:27,810 --> 00:47:32,530
+ 
+
+1919
+00:47:27,820 --> 00:47:35,970
+ say say that's all very nice but when I
+
+1920
+00:47:32,520 --> 00:47:35,970
+ 
+
+1921
+00:47:32,530 --> 00:47:44,890
+ saved you a and not B it still does be
+
+1922
+00:47:35,960 --> 00:47:44,890
+ 
+
+1923
+00:47:35,970 --> 00:47:48,310
+ okay and I didn't see that in the UI so
+
+1924
+00:47:44,880 --> 00:47:48,310
+ 
+
+1925
+00:47:44,890 --> 00:47:49,260
+ the engineer says I can fix that bug no
+
+1926
+00:47:48,300 --> 00:47:49,260
+ 
+
+1927
+00:47:48,310 --> 00:47:53,940
+ problem
+
+1928
+00:47:49,250 --> 00:47:53,940
+ 
+
+1929
+00:47:49,260 --> 00:47:58,210
+ here's what I'm gonna do I'm gonna say
+
+1930
+00:47:53,930 --> 00:47:58,210
+ 
+
+1931
+00:47:53,940 --> 00:48:04,240
+ if switch a is on then set switch B to
+
+1932
+00:47:58,200 --> 00:48:04,240
+ 
+
+1933
+00:47:58,210 --> 00:48:06,610
+ be on okay fix the bug okay and now I'm
+
+1934
+00:48:04,230 --> 00:48:06,610
+ 
+
+1935
+00:48:04,240 --> 00:48:09,160
+ just gonna I don't need the code anymore
+
+1936
+00:48:06,600 --> 00:48:09,160
+ 
+
+1937
+00:48:06,610 --> 00:48:10,840
+ to fix up B so I'm just gonna change it
+
+1938
+00:48:09,150 --> 00:48:10,840
+ 
+
+1939
+00:48:09,160 --> 00:48:13,900
+ to in a search to make sure I got my
+
+1940
+00:48:10,830 --> 00:48:13,900
+ 
+
+1941
+00:48:10,840 --> 00:48:18,850
+ code right okay
+
+1942
+00:48:13,890 --> 00:48:18,850
+ 
+
+1943
+00:48:13,900 --> 00:48:20,590
+ are we good yeah who sees the bug ain't
+
+1944
+00:48:18,840 --> 00:48:20,590
+ 
+
+1945
+00:48:18,850 --> 00:48:24,280
+ no one person laughing a couple people
+
+1946
+00:48:20,580 --> 00:48:24,280
+ 
+
+1947
+00:48:20,590 --> 00:48:27,040
+ see the bug right so what happens here
+
+1948
+00:48:24,270 --> 00:48:27,040
+ 
+
+1949
+00:48:24,280 --> 00:48:30,520
+ we can do that and we're good we can
+
+1950
+00:48:27,030 --> 00:48:30,520
+ 
+
+1951
+00:48:27,040 --> 00:48:32,770
+ click on B yeah we're still good we can
+
+1952
+00:48:30,510 --> 00:48:32,770
+ 
+
+1953
+00:48:30,520 --> 00:48:35,470
+ unclick and be in click a B gets clicked
+
+1954
+00:48:32,760 --> 00:48:35,470
+ 
+
+1955
+00:48:32,770 --> 00:48:39,790
+ over hey we're still good we can unclick
+
+1956
+00:48:35,460 --> 00:48:39,790
+ 
+
+1957
+00:48:35,470 --> 00:48:44,200
+ B boom our search fires okay and we
+
+1958
+00:48:39,780 --> 00:48:44,200
+ 
+
+1959
+00:48:39,790 --> 00:48:48,280
+ crash right everybody see why right
+
+1960
+00:48:44,190 --> 00:48:48,280
+ 
+
+1961
+00:48:44,200 --> 00:48:52,740
+ right we fixed it up but only along one
+
+1962
+00:48:48,270 --> 00:48:52,740
+ 
+
+1963
+00:48:48,280 --> 00:48:55,840
+ path of direction only one a you changed
+
+1964
+00:48:52,730 --> 00:48:55,840
+ 
+
+1965
+00:48:52,740 --> 00:49:00,370
+ okay so that generates another bug comes
+
+1966
+00:48:55,830 --> 00:49:00,370
+ 
+
+1967
+00:48:55,840 --> 00:49:01,450
+ back to the engineer so the engineer is
+
+1968
+00:49:00,360 --> 00:49:01,450
+ 
+
+1969
+00:49:00,370 --> 00:49:03,610
+ very happy that he at least got the
+
+1970
+00:49:01,440 --> 00:49:03,610
+ 
+
+1971
+00:49:01,450 --> 00:49:05,650
+ assert so he's using strong
+
+1972
+00:49:03,600 --> 00:49:05,650
+ 
+
+1973
+00:49:03,610 --> 00:49:08,110
+ preconditions and asserting them soon
+
+1974
+00:49:05,640 --> 00:49:08,110
+ 
+
+1975
+00:49:05,650 --> 00:49:10,360
+ we're gonna have design by contract in
+
+1976
+00:49:08,100 --> 00:49:10,360
+ 
+
+1977
+00:49:08,110 --> 00:49:14,710
+ the language so we could have made that
+
+1978
+00:49:10,350 --> 00:49:14,710
+ 
+
+1979
+00:49:10,360 --> 00:49:20,950
+ a contract okay so here's what the user
+
+1980
+00:49:14,700 --> 00:49:20,950
+ 
+
+1981
+00:49:14,710 --> 00:49:26,470
+ does he says okay switch B is only going
+
+1982
+00:49:20,940 --> 00:49:26,470
+ 
+
+1983
+00:49:20,950 --> 00:49:29,530
+ to be enabled if a is not on okay and if
+
+1984
+00:49:26,460 --> 00:49:29,530
+ 
+
+1985
+00:49:26,470 --> 00:49:34,480
+ switch a gets turned on then switch B
+
+1986
+00:49:29,520 --> 00:49:34,480
+ 
+
+1987
+00:49:29,530 --> 00:49:35,660
+ will get set to true okay so now we're
+
+1988
+00:49:34,470 --> 00:49:35,660
+ 
+
+1989
+00:49:34,480 --> 00:49:38,180
+ preventing
+
+1990
+00:49:35,650 --> 00:49:38,180
+ 
+
+1991
+00:49:35,660 --> 00:49:43,400
+ that of the case right our switches to
+
+1992
+00:49:38,170 --> 00:49:43,400
+ 
+
+1993
+00:49:38,180 --> 00:49:45,380
+ save one and we're having here what's
+
+1994
+00:49:43,390 --> 00:49:45,380
+ 
+
+1995
+00:49:43,400 --> 00:49:47,030
+ the next bug that gets generated right
+
+1996
+00:49:45,370 --> 00:49:47,030
+ 
+
+1997
+00:49:45,380 --> 00:49:53,119
+ this all works this is good you could
+
+1998
+00:49:47,020 --> 00:49:53,119
+ 
+
+1999
+00:49:47,030 --> 00:49:54,289
+ ship this product okay well if you work
+
+2000
+00:49:53,109 --> 00:49:54,289
+ 
+
+2001
+00:49:53,119 --> 00:49:55,730
+ with the designers that I work with
+
+2002
+00:49:54,279 --> 00:49:55,730
+ 
+
+2003
+00:49:54,289 --> 00:49:58,819
+ they're gonna come along and they're
+
+2004
+00:49:55,720 --> 00:49:58,819
+ 
+
+2005
+00:49:55,730 --> 00:50:01,250
+ gonna say hey there's a rouble here that
+
+2006
+00:49:58,809 --> 00:50:01,250
+ 
+
+2007
+00:49:58,819 --> 00:50:04,490
+ says that if I toggle the control if I
+
+2008
+00:50:01,240 --> 00:50:04,490
+ 
+
+2009
+00:50:01,250 --> 00:50:06,890
+ toggle a checkbox on and off then the
+
+2010
+00:50:04,480 --> 00:50:06,890
+ 
+
+2011
+00:50:04,490 --> 00:50:12,260
+ system should go back to its previous
+
+2012
+00:50:06,880 --> 00:50:12,260
+ 
+
+2013
+00:50:06,890 --> 00:50:16,910
+ state okay so what happens here I click
+
+2014
+00:50:12,250 --> 00:50:16,910
+ 
+
+2015
+00:50:12,260 --> 00:50:20,900
+ a on B goes to off I unclick a B doesn't
+
+2016
+00:50:16,900 --> 00:50:20,900
+ 
+
+2017
+00:50:16,910 --> 00:50:26,020
+ go back to its previous state okay so
+
+2018
+00:50:20,890 --> 00:50:26,020
+ 
+
+2019
+00:50:20,900 --> 00:50:26,020
+ I'm violating one of my designers rules
+
+2020
+00:50:27,779 --> 00:50:27,779
+ 
+
+2021
+00:50:27,789 --> 00:50:33,470
+ so we could fix that okay so what are we
+
+2022
+00:50:32,230 --> 00:50:33,470
+ 
+
+2023
+00:50:32,240 --> 00:50:34,910
+ gonna have to do now now we're gonna
+
+2024
+00:50:33,460 --> 00:50:34,910
+ 
+
+2025
+00:50:33,470 --> 00:50:38,000
+ have to keep some shadow state to
+
+2026
+00:50:34,900 --> 00:50:38,000
+ 
+
+2027
+00:50:34,910 --> 00:50:42,589
+ remember what the state of B was okay
+
+2028
+00:50:37,990 --> 00:50:42,589
+ 
+
+2029
+00:50:38,000 --> 00:50:45,619
+ and then which B whether or not it's on
+
+2030
+00:50:42,579 --> 00:50:45,619
+ 
+
+2031
+00:50:42,589 --> 00:50:47,480
+ or off is going to be if switch a is on
+
+2032
+00:50:45,609 --> 00:50:47,480
+ 
+
+2033
+00:50:45,619 --> 00:50:50,839
+ then it's on or it's going to be its
+
+2034
+00:50:47,470 --> 00:50:50,839
+ 
+
+2035
+00:50:47,480 --> 00:50:54,549
+ prior value for switch B okay
+
+2036
+00:50:50,829 --> 00:50:54,549
+ 
+
+2037
+00:50:50,839 --> 00:50:57,349
+ or logic it's a little more complicated
+
+2038
+00:50:54,539 --> 00:50:57,349
+ 
+
+2039
+00:50:54,549 --> 00:51:00,500
+ so now it's very nice if I toggle eight
+
+2040
+00:50:57,339 --> 00:51:00,500
+ 
+
+2041
+00:50:57,349 --> 00:51:03,369
+ on and off then he goes back to its
+
+2042
+00:51:00,490 --> 00:51:03,369
+ 
+
+2043
+00:51:00,500 --> 00:51:07,339
+ previous state regardless of what it was
+
+2044
+00:51:03,359 --> 00:51:07,339
+ 
+
+2045
+00:51:03,369 --> 00:51:13,730
+ okay we're happy we ship the product
+
+2046
+00:51:07,329 --> 00:51:13,730
+ 
+
+2047
+00:51:07,339 --> 00:51:17,960
+ again you know the designer comes back
+
+2048
+00:51:13,720 --> 00:51:17,960
+ 
+
+2049
+00:51:13,730 --> 00:51:21,109
+ and says you know users have a problem
+
+2050
+00:51:17,950 --> 00:51:21,109
+ 
+
+2051
+00:51:17,960 --> 00:51:25,460
+ they don't know why B's disabled right
+
+2052
+00:51:21,099 --> 00:51:25,460
+ 
+
+2053
+00:51:21,109 --> 00:51:29,990
+ why can't I click on B okay and the
+
+2054
+00:51:25,450 --> 00:51:29,990
+ 
+
+2055
+00:51:25,460 --> 00:51:32,960
+ engineer says I know logic there's this
+
+2056
+00:51:29,980 --> 00:51:32,960
+ 
+
+2057
+00:51:29,990 --> 00:51:34,819
+ thing called a contrapositive okay which
+
+2058
+00:51:32,950 --> 00:51:34,819
+ 
+
+2059
+00:51:32,960 --> 00:51:38,029
+ means that if a implies B either not be
+
+2060
+00:51:34,809 --> 00:51:38,029
+ 
+
+2061
+00:51:34,819 --> 00:51:39,630
+ implies not a so how about if we express
+
+2062
+00:51:38,019 --> 00:51:39,630
+ 
+
+2063
+00:51:38,029 --> 00:51:45,479
+ that in the code
+
+2064
+00:51:39,620 --> 00:51:45,479
+ 
+
+2065
+00:51:39,630 --> 00:51:47,069
+ not B implies not a okay and I know that
+
+2066
+00:51:45,469 --> 00:51:47,069
+ 
+
+2067
+00:51:45,479 --> 00:51:49,410
+ my toggle should always go back in the
+
+2068
+00:51:47,059 --> 00:51:49,410
+ 
+
+2069
+00:51:47,069 --> 00:51:52,140
+ right position so now I'm gonna keep
+
+2070
+00:51:49,400 --> 00:51:52,140
+ 
+
+2071
+00:51:49,410 --> 00:51:54,150
+ memory on a and B and I'm gonna Express
+
+2072
+00:51:52,130 --> 00:51:54,150
+ 
+
+2073
+00:51:52,140 --> 00:51:56,099
+ both of those relationships and I'm
+
+2074
+00:51:54,140 --> 00:51:56,099
+ 
+
+2075
+00:51:54,150 --> 00:51:59,519
+ going to put that together and this is
+
+2076
+00:51:56,089 --> 00:51:59,519
+ 
+
+2077
+00:51:56,099 --> 00:52:01,079
+ the UI that's now you can kind of watch
+
+2078
+00:51:59,509 --> 00:52:01,079
+ 
+
+2079
+00:51:59,519 --> 00:52:04,589
+ this for a minute as it's clicking
+
+2080
+00:52:01,069 --> 00:52:04,589
+ 
+
+2081
+00:52:01,079 --> 00:52:07,799
+ through a bunch of stays here what the
+
+2082
+00:52:04,579 --> 00:52:07,799
+ 
+
+2083
+00:52:04,589 --> 00:52:13,349
+ hell right right try to predict what's
+
+2084
+00:52:07,789 --> 00:52:13,349
+ 
+
+2085
+00:52:07,799 --> 00:52:16,079
+ going to happen okay this is completely
+
+2086
+00:52:13,339 --> 00:52:16,079
+ 
+
+2087
+00:52:13,349 --> 00:52:18,720
+ correct my operation always succeeds I'm
+
+2088
+00:52:16,069 --> 00:52:18,720
+ 
+
+2089
+00:52:16,079 --> 00:52:20,940
+ obeying my rule that says when I click
+
+2090
+00:52:18,710 --> 00:52:20,940
+ 
+
+2091
+00:52:18,720 --> 00:52:22,979
+ on this it toggles the user interface it
+
+2092
+00:52:20,930 --> 00:52:22,979
+ 
+
+2093
+00:52:20,940 --> 00:52:24,720
+ clicks back and forth I don't have to
+
+2094
+00:52:22,969 --> 00:52:24,720
+ 
+
+2095
+00:52:22,979 --> 00:52:26,640
+ explain to my user why my thing is
+
+2096
+00:52:24,710 --> 00:52:26,640
+ 
+
+2097
+00:52:24,720 --> 00:52:28,229
+ disabled because it's always enabled I
+
+2098
+00:52:26,630 --> 00:52:28,229
+ 
+
+2099
+00:52:26,640 --> 00:52:30,029
+ can click anywhere at any time and
+
+2100
+00:52:28,219 --> 00:52:30,029
+ 
+
+2101
+00:52:28,229 --> 00:52:32,249
+ something unexpected and magical will
+
+2102
+00:52:30,019 --> 00:52:32,249
+ 
+
+2103
+00:52:30,029 --> 00:52:41,970
+ happen and I'm standing on one foot and
+
+2104
+00:52:32,239 --> 00:52:41,970
+ 
+
+2105
+00:52:32,249 --> 00:52:45,390
+ I'm patting myself on the head okay okay
+
+2106
+00:52:41,960 --> 00:52:45,390
+ 
+
+2107
+00:52:41,970 --> 00:52:47,640
+ so we can say okay okay memory was too
+
+2108
+00:52:45,380 --> 00:52:47,640
+ 
+
+2109
+00:52:45,390 --> 00:52:50,630
+ much we'll go back to contrapositive but
+
+2110
+00:52:47,630 --> 00:52:50,630
+ 
+
+2111
+00:52:47,640 --> 00:52:53,309
+ we'll take out the memory will do that
+
+2112
+00:52:50,620 --> 00:52:53,309
+ 
+
+2113
+00:52:50,630 --> 00:52:56,759
+ and we have another user interface and
+
+2114
+00:52:53,299 --> 00:52:56,759
+ 
+
+2115
+00:52:53,309 --> 00:52:59,910
+ it works people are somewhat happy again
+
+2116
+00:52:56,749 --> 00:52:59,910
+ 
+
+2117
+00:52:56,759 --> 00:53:03,869
+ and we'll ship this one again okay so
+
+2118
+00:52:59,900 --> 00:53:03,869
+ 
+
+2119
+00:52:59,910 --> 00:53:07,049
+ now we've shipped three versions of this
+
+2120
+00:53:03,859 --> 00:53:07,049
+ 
+
+2121
+00:53:03,869 --> 00:53:09,180
+ we've rejected three versions only one
+
+2122
+00:53:07,039 --> 00:53:09,180
+ 
+
+2123
+00:53:07,049 --> 00:53:11,430
+ of those three versions was buggy we
+
+2124
+00:53:09,170 --> 00:53:11,430
+ 
+
+2125
+00:53:09,180 --> 00:53:13,859
+ have six versions of this code we had
+
+2126
+00:53:11,420 --> 00:53:13,859
+ 
+
+2127
+00:53:11,430 --> 00:53:16,049
+ two checkboxes we have now spent days
+
+2128
+00:53:13,849 --> 00:53:16,049
+ 
+
+2129
+00:53:13,859 --> 00:53:19,769
+ and days and days arguing about the
+
+2130
+00:53:16,039 --> 00:53:19,769
+ 
+
+2131
+00:53:16,049 --> 00:53:21,660
+ behavior of this okay and we will do it
+
+2132
+00:53:19,759 --> 00:53:21,660
+ 
+
+2133
+00:53:19,769 --> 00:53:25,710
+ again the next time we have a
+
+2134
+00:53:21,650 --> 00:53:25,710
+ 
+
+2135
+00:53:21,660 --> 00:53:27,749
+ relationship of a implies B because we
+
+2136
+00:53:25,700 --> 00:53:27,749
+ 
+
+2137
+00:53:25,710 --> 00:53:30,029
+ never define what the rule was what's
+
+2138
+00:53:27,739 --> 00:53:30,029
+ 
+
+2139
+00:53:27,749 --> 00:53:31,829
+ the correct answer of the three that we
+
+2140
+00:53:30,019 --> 00:53:31,829
+ 
+
+2141
+00:53:30,029 --> 00:53:35,130
+ shipped what's the correct answer I
+
+2142
+00:53:31,819 --> 00:53:35,130
+ 
+
+2143
+00:53:31,829 --> 00:53:39,809
+ don't know okay so we'll have this
+
+2144
+00:53:35,120 --> 00:53:39,809
+ 
+
+2145
+00:53:35,130 --> 00:53:42,150
+ argument every single time well I was
+
+2146
+00:53:39,799 --> 00:53:42,150
+ 
+
+2147
+00:53:39,809 --> 00:53:43,680
+ putting together these slides oh I was
+
+2148
+00:53:42,140 --> 00:53:43,680
+ 
+
+2149
+00:53:42,150 --> 00:53:46,460
+ gonna say another operation would be
+
+2150
+00:53:43,670 --> 00:53:46,460
+ 
+
+2151
+00:53:43,680 --> 00:53:46,460
+ that we could do it
+
+2152
+00:53:46,870 --> 00:53:46,870
+ 
+
+2153
+00:53:46,880 --> 00:53:50,150
+ unconstrained here
+
+2154
+00:53:53,210 --> 00:53:53,210
+ 
+
+2155
+00:53:53,220 --> 00:53:58,510
+ strain but with the disabled in
+
+2156
+00:53:55,710 --> 00:53:58,510
+ 
+
+2157
+00:53:55,720 --> 00:54:03,340
+ operation well I was putting together
+
+2158
+00:53:58,500 --> 00:54:03,340
+ 
+
+2159
+00:53:58,510 --> 00:54:05,590
+ these slides this came across our slack
+
+2160
+00:54:03,330 --> 00:54:05,590
+ 
+
+2161
+00:54:03,340 --> 00:54:08,290
+ channel this is a sketch from one of our
+
+2162
+00:54:05,580 --> 00:54:08,290
+ 
+
+2163
+00:54:05,590 --> 00:54:09,580
+ designers got some humorous text down
+
+2164
+00:54:08,280 --> 00:54:09,580
+ 
+
+2165
+00:54:08,290 --> 00:54:12,490
+ here at the bottom you probably can't
+
+2166
+00:54:09,570 --> 00:54:12,490
+ 
+
+2167
+00:54:09,580 --> 00:54:15,430
+ read it you know it's a hidden layer and
+
+2168
+00:54:12,480 --> 00:54:15,430
+ 
+
+2169
+00:54:12,490 --> 00:54:21,310
+ a normal layer and the hidden group walk
+
+2170
+00:54:15,420 --> 00:54:21,310
+ 
+
+2171
+00:54:15,430 --> 00:54:23,920
+ into a bar but the question here is to
+
+2172
+00:54:21,300 --> 00:54:23,920
+ 
+
+2173
+00:54:21,310 --> 00:54:25,900
+ say okay I've got a layer and I've got a
+
+2174
+00:54:23,910 --> 00:54:25,900
+ 
+
+2175
+00:54:23,920 --> 00:54:29,110
+ child of the layer and the layer is the
+
+2176
+00:54:25,890 --> 00:54:29,110
+ 
+
+2177
+00:54:25,900 --> 00:54:32,280
+ root is hidden and so that implies that
+
+2178
+00:54:29,100 --> 00:54:32,280
+ 
+
+2179
+00:54:29,110 --> 00:54:35,260
+ the child is hidden and then I'm making
+
+2180
+00:54:32,270 --> 00:54:35,260
+ 
+
+2181
+00:54:32,280 --> 00:54:37,690
+ the child layer which is what selected
+
+2182
+00:54:35,250 --> 00:54:37,690
+ 
+
+2183
+00:54:35,260 --> 00:54:39,040
+ in blue down below explicitly visible
+
+2184
+00:54:37,680 --> 00:54:39,040
+ 
+
+2185
+00:54:37,690 --> 00:54:41,290
+ and it's actually part of a multiple
+
+2186
+00:54:39,030 --> 00:54:41,290
+ 
+
+2187
+00:54:39,040 --> 00:54:45,460
+ selection and that has an implication
+
+2188
+00:54:41,280 --> 00:54:45,460
+ 
+
+2189
+00:54:41,290 --> 00:54:49,600
+ relationships with its parent at a okay
+
+2190
+00:54:45,450 --> 00:54:49,600
+ 
+
+2191
+00:54:45,460 --> 00:54:51,520
+ so in order for the child to be actually
+
+2192
+00:54:49,590 --> 00:54:51,520
+ 
+
+2193
+00:54:49,600 --> 00:54:56,820
+ visible the parent also has to be
+
+2194
+00:54:51,510 --> 00:54:56,820
+ 
+
+2195
+00:54:51,520 --> 00:55:00,460
+ visible and he asks how do I do this
+
+2196
+00:54:56,810 --> 00:55:00,460
+ 
+
+2197
+00:54:56,820 --> 00:55:06,250
+ right my answer is I can give you a lot
+
+2198
+00:55:00,450 --> 00:55:06,250
+ 
+
+2199
+00:55:00,460 --> 00:55:09,000
+ of ways you can do this the question
+
+2200
+00:55:06,240 --> 00:55:09,000
+ 
+
+2201
+00:55:06,250 --> 00:55:11,110
+ should be how do we do this in general
+
+2202
+00:55:08,990 --> 00:55:11,110
+ 
+
+2203
+00:55:09,000 --> 00:55:14,860
+ what's the rule that we're going to
+
+2204
+00:55:11,100 --> 00:55:14,860
+ 
+
+2205
+00:55:11,110 --> 00:55:16,600
+ follow always okay let's stop having
+
+2206
+00:55:14,850 --> 00:55:16,600
+ 
+
+2207
+00:55:14,860 --> 00:55:24,100
+ this conversation over and over and over
+
+2208
+00:55:16,590 --> 00:55:24,100
+ 
+
+2209
+00:55:16,600 --> 00:55:27,940
+ again the industry is very bad so what
+
+2210
+00:55:24,090 --> 00:55:27,940
+ 
+
+2211
+00:55:24,100 --> 00:55:29,290
+ is a good design right in this context
+
+2212
+00:55:27,930 --> 00:55:29,290
+ 
+
+2213
+00:55:27,940 --> 00:55:30,970
+ we were talking toggling the control
+
+2214
+00:55:29,280 --> 00:55:30,970
+ 
+
+2215
+00:55:29,290 --> 00:55:32,740
+ should restore the system to its
+
+2216
+00:55:30,960 --> 00:55:32,740
+ 
+
+2217
+00:55:30,970 --> 00:55:34,360
+ original state that's a good design goal
+
+2218
+00:55:32,730 --> 00:55:34,360
+ 
+
+2219
+00:55:32,740 --> 00:55:36,070
+ result of the click should be
+
+2220
+00:55:34,350 --> 00:55:36,070
+ 
+
+2221
+00:55:34,360 --> 00:55:39,040
+ predictable without knowing how current
+
+2222
+00:55:36,060 --> 00:55:39,040
+ 
+
+2223
+00:55:36,070 --> 00:55:40,000
+ state was achieved that's a good thing
+
+2224
+00:55:39,030 --> 00:55:40,000
+ 
+
+2225
+00:55:39,040 --> 00:55:41,320
+ you ought to be able to look at a user
+
+2226
+00:55:39,990 --> 00:55:41,320
+ 
+
+2227
+00:55:40,000 --> 00:55:44,380
+ interface know what will happen if you
+
+2228
+00:55:41,310 --> 00:55:44,380
+ 
+
+2229
+00:55:41,320 --> 00:55:46,090
+ click on something right guided pass
+
+2230
+00:55:44,370 --> 00:55:46,090
+ 
+
+2231
+00:55:44,380 --> 00:55:48,100
+ things that direct the user when we
+
+2232
+00:55:46,080 --> 00:55:48,100
+ 
+
+2233
+00:55:46,090 --> 00:55:50,530
+ disable controls things like that are
+
+2234
+00:55:48,090 --> 00:55:50,530
+ 
+
+2235
+00:55:48,100 --> 00:55:52,420
+ our preferred so long as they don't make
+
+2236
+00:55:50,520 --> 00:55:52,420
+ 
+
+2237
+00:55:50,530 --> 00:55:54,790
+ navigation difficult the user has to
+
+2238
+00:55:52,410 --> 00:55:54,790
+ 
+
+2239
+00:55:52,420 --> 00:55:56,620
+ understand why things are disabled right
+
+2240
+00:55:54,780 --> 00:55:56,620
+ 
+
+2241
+00:55:54,790 --> 00:55:59,020
+ but there needs to be additional rules
+
+2242
+00:55:56,610 --> 00:55:59,020
+ 
+
+2243
+00:55:56,620 --> 00:56:01,030
+ all of these rules run into conflict as
+
+2244
+00:55:59,010 --> 00:56:01,030
+ 
+
+2245
+00:55:59,020 --> 00:56:03,640
+ soon as you stick a simple relationship
+
+2246
+00:56:01,020 --> 00:56:03,640
+ 
+
+2247
+00:56:01,030 --> 00:56:05,740
+ between elements under the hood right
+
+2248
+00:56:03,630 --> 00:56:05,740
+ 
+
+2249
+00:56:03,640 --> 00:56:08,650
+ and the rules need to be dry
+
+2250
+00:56:05,730 --> 00:56:08,650
+ 
+
+2251
+00:56:05,740 --> 00:56:11,800
+ from existing conventions from user
+
+2252
+00:56:08,640 --> 00:56:11,800
+ 
+
+2253
+00:56:08,650 --> 00:56:12,760
+ experience and from studies alright so
+
+2254
+00:56:11,790 --> 00:56:12,760
+ 
+
+2255
+00:56:11,800 --> 00:56:14,349
+ if you're working with you user
+
+2256
+00:56:12,750 --> 00:56:14,349
+ 
+
+2257
+00:56:12,760 --> 00:56:16,930
+ interface designer they shouldn't be
+
+2258
+00:56:14,339 --> 00:56:16,930
+ 
+
+2259
+00:56:14,349 --> 00:56:19,060
+ sitting alone coming up with what their
+
+2260
+00:56:16,920 --> 00:56:19,060
+ 
+
+2261
+00:56:16,930 --> 00:56:21,130
+ answer should be they have to be looking
+
+2262
+00:56:19,050 --> 00:56:21,130
+ 
+
+2263
+00:56:19,060 --> 00:56:24,339
+ at what does everybody else do what does
+
+2264
+00:56:21,120 --> 00:56:24,339
+ 
+
+2265
+00:56:21,130 --> 00:56:25,990
+ what two users expect do a user study to
+
+2266
+00:56:24,329 --> 00:56:25,990
+ 
+
+2267
+00:56:24,339 --> 00:56:28,320
+ come to an understanding of what the
+
+2268
+00:56:25,980 --> 00:56:28,320
+ 
+
+2269
+00:56:25,990 --> 00:56:33,820
+ correct answer is and then apply that
+
+2270
+00:56:28,310 --> 00:56:33,820
+ 
+
+2271
+00:56:28,320 --> 00:56:36,670
+ consistently than the application now
+
+2272
+00:56:33,810 --> 00:56:36,670
+ 
+
+2273
+00:56:33,820 --> 00:56:38,770
+ I've spent a number of years working on
+
+2274
+00:56:36,660 --> 00:56:38,770
+ 
+
+2275
+00:56:36,670 --> 00:56:41,170
+ a system called property models which
+
+2276
+00:56:38,760 --> 00:56:41,170
+ 
+
+2277
+00:56:38,770 --> 00:56:43,270
+ has some amount of use inside of Adobe I
+
+2278
+00:56:41,160 --> 00:56:43,270
+ 
+
+2279
+00:56:41,170 --> 00:56:47,849
+ wish I could spend more time working on
+
+2280
+00:56:43,260 --> 00:56:47,849
+ 
+
+2281
+00:56:43,270 --> 00:56:50,589
+ it it's it's open sourced github /su app
+
+2282
+00:56:47,839 --> 00:56:50,589
+ 
+
+2283
+00:56:47,849 --> 00:56:52,839
+ but all of the examples that I just
+
+2284
+00:56:50,579 --> 00:56:52,839
+ 
+
+2285
+00:56:50,589 --> 00:56:54,910
+ showed this is the way you would express
+
+2286
+00:56:52,829 --> 00:56:54,910
+ 
+
+2287
+00:56:52,839 --> 00:56:56,470
+ all of those relationships inside of a
+
+2288
+00:56:54,900 --> 00:56:56,470
+ 
+
+2289
+00:56:54,910 --> 00:56:59,619
+ property model they're all kind of one
+
+2290
+00:56:56,460 --> 00:56:59,619
+ 
+
+2291
+00:56:56,470 --> 00:57:01,570
+ line right all right so I can build a
+
+2292
+00:56:59,609 --> 00:57:01,570
+ 
+
+2293
+00:56:59,619 --> 00:57:03,369
+ system to let you express relationships
+
+2294
+00:57:01,560 --> 00:57:03,369
+ 
+
+2295
+00:57:01,570 --> 00:57:06,540
+ and to solve these systems but I still
+
+2296
+00:57:03,359 --> 00:57:06,540
+ 
+
+2297
+00:57:03,369 --> 00:57:08,830
+ can't tell you what the right answer is
+
+2298
+00:57:06,530 --> 00:57:08,830
+ 
+
+2299
+00:57:06,540 --> 00:57:11,260
+ right so these are papers that I've
+
+2300
+00:57:08,820 --> 00:57:11,260
+ 
+
+2301
+00:57:08,830 --> 00:57:13,780
+ written about property models and why
+
+2302
+00:57:11,250 --> 00:57:13,780
+ 
+
+2303
+00:57:11,260 --> 00:57:19,510
+ they exist how to build them all those
+
+2304
+00:57:13,770 --> 00:57:19,510
+ 
+
+2305
+00:57:13,780 --> 00:57:23,230
+ mean user interfaces model so closing
+
+2306
+00:57:19,500 --> 00:57:23,230
+ 
+
+2307
+00:57:19,510 --> 00:57:24,760
+ here good code is necessary right but
+
+2308
+00:57:23,220 --> 00:57:24,760
+ 
+
+2309
+00:57:23,230 --> 00:57:27,130
+ it's not sufficient for building a good
+
+2310
+00:57:24,750 --> 00:57:27,130
+ 
+
+2311
+00:57:24,760 --> 00:57:28,750
+ UI there's significant work in the area
+
+2312
+00:57:27,120 --> 00:57:28,750
+ 
+
+2313
+00:57:27,130 --> 00:57:30,820
+ of data structures and algorithms to
+
+2314
+00:57:28,740 --> 00:57:30,820
+ 
+
+2315
+00:57:28,750 --> 00:57:33,250
+ really support the UI is I don't think
+
+2316
+00:57:30,810 --> 00:57:33,250
+ 
+
+2317
+00:57:30,820 --> 00:57:36,220
+ our platform vendors do enough to assist
+
+2318
+00:57:33,240 --> 00:57:36,220
+ 
+
+2319
+00:57:33,250 --> 00:57:39,460
+ us in this area right and there's still
+
+2320
+00:57:36,210 --> 00:57:39,460
+ 
+
+2321
+00:57:36,220 --> 00:57:42,070
+ significant work remaining there's huge
+
+2322
+00:57:39,450 --> 00:57:42,070
+ 
+
+2323
+00:57:39,460 --> 00:57:43,810
+ amounts of work every time I pick up a
+
+2324
+00:57:42,060 --> 00:57:43,810
+ 
+
+2325
+00:57:42,070 --> 00:57:47,440
+ new application install it on my phone
+
+2326
+00:57:43,800 --> 00:57:47,440
+ 
+
+2327
+00:57:43,810 --> 00:57:49,690
+ or my laptop right I've been in this
+
+2328
+00:57:47,430 --> 00:57:49,690
+ 
+
+2329
+00:57:47,440 --> 00:57:52,690
+ area of research for so long I just
+
+2330
+00:57:49,680 --> 00:57:52,690
+ 
+
+2331
+00:57:49,690 --> 00:57:55,030
+ cringe right I can't make a selection
+
+2332
+00:57:52,680 --> 00:57:55,030
+ 
+
+2333
+00:57:52,690 --> 00:57:56,500
+ selections are inconsistent if I do make
+
+2334
+00:57:55,020 --> 00:57:56,500
+ 
+
+2335
+00:57:55,030 --> 00:57:58,030
+ a selection I can't apply the operation
+
+2336
+00:57:56,490 --> 00:57:58,030
+ 
+
+2337
+00:57:56,500 --> 00:58:01,030
+ but I should be able to do to this
+
+2338
+00:57:58,020 --> 00:58:01,030
+ 
+
+2339
+00:57:58,030 --> 00:58:03,460
+ selection right I can't drag and drop I
+
+2340
+00:58:01,020 --> 00:58:03,460
+ 
+
+2341
+00:58:01,030 --> 00:58:06,190
+ click on things and things disabled and
+
+2342
+00:58:03,450 --> 00:58:06,190
+ 
+
+2343
+00:58:03,460 --> 00:58:07,960
+ I don't know why right one section of
+
+2344
+00:58:06,180 --> 00:58:07,960
+ 
+
+2345
+00:58:06,190 --> 00:58:10,330
+ the application is inconsistent from the
+
+2346
+00:58:07,950 --> 00:58:10,330
+ 
+
+2347
+00:58:07,960 --> 00:58:12,099
+ other section of the application it's
+
+2348
+00:58:10,320 --> 00:58:12,099
+ 
+
+2349
+00:58:10,330 --> 00:58:13,930
+ true of even the products that they work
+
+2350
+00:58:12,089 --> 00:58:13,930
+ 
+
+2351
+00:58:12,099 --> 00:58:18,780
+ on and I have hand in because I'm just
+
+2352
+00:58:13,920 --> 00:58:18,780
+ 
+
+2353
+00:58:13,930 --> 00:58:18,780
+ one engineer right in a large company
+
+2354
+00:58:20,049 --> 00:58:20,049
+ 
+
+2355
+00:58:20,059 --> 00:58:28,529
+ so some references my slides will always
+
+2356
+00:58:24,769 --> 00:58:28,529
+ 
+
+2357
+00:58:24,779 --> 00:58:31,529
+ be posted here parent st lab got CC
+
+2358
+00:58:28,519 --> 00:58:31,529
+ 
+
+2359
+00:58:28,529 --> 00:58:35,689
+ slash papers and presentations you can
+
+2360
+00:58:31,519 --> 00:58:35,689
+ 
+
+2361
+00:58:31,529 --> 00:58:35,689
+ find links to everything from there
+
+2362
+00:58:37,000 --> 00:58:37,000
+ 
+
+2363
+00:58:37,010 --> 00:58:41,460
+[Applause]
+
+2364
+00:58:37,310 --> 00:58:41,460
+ 
+
+2365
+00:58:37,320 --> 00:58:41,460
+[Music]

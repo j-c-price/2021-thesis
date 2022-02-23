@@ -1,0 +1,2990 @@
+1
+00:00:01,640 --> 00:00:04,040
+The following content is
+provided under a Creative
+
+2
+00:00:04,040 --> 00:00:05,580
+Commons license.
+
+3
+00:00:05,580 --> 00:00:07,880
+Your support will help
+MIT OpenCourseWare
+
+4
+00:00:07,880 --> 00:00:12,270
+continue to offer high-quality,
+educational resources for free.
+
+5
+00:00:12,270 --> 00:00:14,870
+To make a donation or
+view additional materials
+
+6
+00:00:14,870 --> 00:00:18,830
+from hundreds of MIT courses,
+visit MIT OpenCourseWare
+
+7
+00:00:18,830 --> 00:00:20,000
+at ocw.mit.edu.
+
+8
+00:00:22,800 --> 00:00:24,700
+GIORGIO METTA: So
+I'll be talking
+
+9
+00:00:24,700 --> 00:00:29,080
+about my work for
+the past 11 years.
+
+10
+00:00:29,080 --> 00:00:32,110
+So this has been,
+certainly, exciting,
+
+11
+00:00:32,110 --> 00:00:34,840
+but also was long in
+duration, so we had
+
+12
+00:00:34,840 --> 00:00:38,500
+to sort of stick to the goal.
+
+13
+00:00:38,500 --> 00:00:43,690
+And I'll show you also
+a couple of things--
+
+14
+00:00:43,690 --> 00:00:46,810
+I mean, most of this
+work has been possible
+
+15
+00:00:46,810 --> 00:00:50,560
+because we have a team of
+people that contributed
+
+16
+00:00:50,560 --> 00:00:54,220
+to both the design of the
+robot and the research
+
+17
+00:00:54,220 --> 00:00:56,950
+we're doing on
+the robot, so I'll
+
+18
+00:00:56,950 --> 00:01:01,050
+be freely drawing from the
+work of these other people.
+
+19
+00:01:01,050 --> 00:01:04,090
+I just cited them
+as the iCub team,
+
+20
+00:01:04,090 --> 00:01:06,000
+because I couldn't
+list everybody there,
+
+21
+00:01:06,000 --> 00:01:07,480
+but you'll see a
+picture later that
+
+22
+00:01:07,480 --> 00:01:10,300
+shows how many people
+were actually involved
+
+23
+00:01:10,300 --> 00:01:12,520
+in developing this robot.
+
+24
+00:01:12,520 --> 00:01:16,160
+So our, let's say, goal,
+although we didn't start it
+
+25
+00:01:16,160 --> 00:01:19,580
+like this, is to build robots
+that can interact with people,
+
+26
+00:01:19,580 --> 00:01:24,610
+and maybe one day be
+commercially-available to be
+
+27
+00:01:24,610 --> 00:01:27,280
+deployed in the household.
+
+28
+00:01:27,280 --> 00:01:29,020
+Everything we've done is--
+
+29
+00:01:29,020 --> 00:01:32,770
+on the design of
+the robot has to do
+
+30
+00:01:32,770 --> 00:01:35,680
+with a platform
+capable of interacting
+
+31
+00:01:35,680 --> 00:01:39,010
+with people in a natural way.
+
+32
+00:01:39,010 --> 00:01:41,780
+And this is reflected in
+the shape of the robot,
+
+33
+00:01:41,780 --> 00:01:43,120
+that it's humanoid.
+
+34
+00:01:43,120 --> 00:01:45,370
+It's reflected in
+the type of skills
+
+35
+00:01:45,370 --> 00:01:47,200
+we tried to implement
+in the robot.
+
+36
+00:01:47,200 --> 00:01:50,500
+And overall on the
+design, the platform
+
+37
+00:01:50,500 --> 00:01:56,770
+excels in terms of strength, in
+terms of sensors, and so forth.
+
+38
+00:01:56,770 --> 00:02:01,030
+There was an, let's
+say, hidden reason.
+
+39
+00:02:01,030 --> 00:02:03,790
+We wanted to design a
+platform for research, also,
+
+40
+00:02:03,790 --> 00:02:05,590
+so when we started,
+we didn't think
+
+41
+00:02:05,590 --> 00:02:07,870
+of a specific application.
+
+42
+00:02:07,870 --> 00:02:11,320
+Our idea was to have a robot
+as complicated as possible
+
+43
+00:02:11,320 --> 00:02:17,360
+to give researchers the
+possibilities of doing whatever
+
+44
+00:02:17,360 --> 00:02:17,860
+they liked.
+
+45
+00:02:17,860 --> 00:02:22,270
+So the robot can walk, has
+cameras, tactile sensors.
+
+46
+00:02:22,270 --> 00:02:24,460
+It can manipulate objects.
+
+47
+00:02:24,460 --> 00:02:28,600
+We put a lot of effort into
+the design of the hands.
+
+48
+00:02:28,600 --> 00:02:29,530
+And it's complicated.
+
+49
+00:02:29,530 --> 00:02:34,480
+And it breaks often, so it's not
+necessarily the best platform,
+
+50
+00:02:34,480 --> 00:02:35,746
+but it's the--
+
+51
+00:02:35,746 --> 00:02:37,120
+I believe, the
+only platform that
+
+52
+00:02:37,120 --> 00:02:40,180
+can provide you with
+mobile manipulation,
+
+53
+00:02:40,180 --> 00:02:42,850
+and at the same time with
+a sophisticated oculo motor
+
+54
+00:02:42,850 --> 00:02:45,100
+system in the eyes and cameras.
+
+55
+00:02:45,100 --> 00:02:48,590
+And maybe it doesn't
+give you lasers,
+
+56
+00:02:48,590 --> 00:02:51,880
+so you have to do
+with their vision.
+
+57
+00:02:51,880 --> 00:02:56,110
+The result is this
+platform that's shown here.
+
+58
+00:02:56,110 --> 00:02:57,850
+This started as a
+European project,
+
+59
+00:02:57,850 --> 00:03:00,280
+so there was an
+initial funding that
+
+60
+00:03:00,280 --> 00:03:03,700
+allowed for basically hiring
+people to design the mechanics
+
+61
+00:03:03,700 --> 00:03:05,770
+and electronics of the robot.
+
+62
+00:03:05,770 --> 00:03:11,620
+And unfortunately, the
+robot is not very cheap.
+
+63
+00:03:11,620 --> 00:03:14,770
+I mean, the overall--
+
+64
+00:03:14,770 --> 00:03:17,120
+we tried to put the best
+components everywhere.
+
+65
+00:03:17,120 --> 00:03:20,710
+And this is reflected in
+the cost, which doesn't help
+
+66
+00:03:20,710 --> 00:03:23,020
+diffusion, to a certain extent.
+
+67
+00:03:23,020 --> 00:03:25,315
+In spite of this,
+we managed to, let's
+
+68
+00:03:25,315 --> 00:03:28,060
+say, "sell," between
+quotes, because we
+
+69
+00:03:28,060 --> 00:03:32,100
+don't make any profit out of
+it, 30 copies of the robot.
+
+70
+00:03:32,100 --> 00:03:36,550
+There are still two of them
+to be delivered this year,
+
+71
+00:03:36,550 --> 00:03:38,830
+so there are, at the
+moment, 28 around there.
+
+72
+00:03:38,830 --> 00:03:43,120
+And four of them are in
+our lab, and are used daily
+
+73
+00:03:43,120 --> 00:03:44,920
+by our researchers.
+
+74
+00:03:44,920 --> 00:03:49,180
+And given the complexity
+of the platform,
+
+75
+00:03:49,180 --> 00:03:53,710
+we managed, at best, to
+build four robots per year.
+
+76
+00:03:53,710 --> 00:03:57,990
+And at best means that we're
+always late in constructions.
+
+77
+00:03:57,990 --> 00:04:00,440
+We're always late in
+fixing the robots.
+
+78
+00:04:00,440 --> 00:04:03,790
+And that's because, I mean, we
+have a research lab trying also
+
+79
+00:04:03,790 --> 00:04:08,770
+to do-- to have this, let's say,
+more commercial side or support
+
+80
+00:04:08,770 --> 00:04:14,040
+side to the community of users,
+which, in fact, doesn't work.
+
+81
+00:04:14,040 --> 00:04:17,620
+I mean, you cannot ask your PhD
+students to go and fix a robot
+
+82
+00:04:17,620 --> 00:04:19,990
+somewhere in the world.
+
+83
+00:04:19,990 --> 00:04:25,350
+It was striking a bit that
+we managed to actually sell
+
+84
+00:04:25,350 --> 00:04:27,690
+the robot in Japan.
+
+85
+00:04:27,690 --> 00:04:29,110
+And that's because,
+you know, you
+
+86
+00:04:29,110 --> 00:04:31,370
+see Japan as the place
+of humanoid robots.
+
+87
+00:04:31,370 --> 00:04:35,740
+And having somebody asking
+a copy of our robot there
+
+88
+00:04:35,740 --> 00:04:37,790
+was a bit strange.
+
+89
+00:04:37,790 --> 00:04:41,620
+But nonetheless, the project
+is completely open-source.
+
+90
+00:04:41,620 --> 00:04:45,240
+If you go to our website, you
+can download all the CAD files
+
+91
+00:04:45,240 --> 00:04:47,470
+for the mechanics, for
+the electronics, all
+
+92
+00:04:47,470 --> 00:04:50,710
+the schematics, and
+the entire software,
+
+93
+00:04:50,710 --> 00:04:53,860
+from the lowest possible
+level up to whatever
+
+94
+00:04:53,860 --> 00:04:58,690
+latest research has been
+developed by our students.
+
+95
+00:04:58,690 --> 00:05:00,200
+Why we think the
+robot is special?
+
+96
+00:05:00,200 --> 00:05:02,920
+As I said, we wanted
+to have hands.
+
+97
+00:05:02,920 --> 00:05:06,220
+And we put considerable effort
+into the design of the hands.
+
+98
+00:05:06,220 --> 00:05:09,430
+There are nine motors
+driving each hand.
+
+99
+00:05:09,430 --> 00:05:13,420
+And-- although, there are
+five fingers and 19 joints,
+
+100
+00:05:13,420 --> 00:05:15,940
+which means some of
+the joints are coupled,
+
+101
+00:05:15,940 --> 00:05:20,150
+so the actual dexterity of the
+hand is all to be demonstrated,
+
+102
+00:05:20,150 --> 00:05:24,180
+but it works to
+a certain extent.
+
+103
+00:05:24,180 --> 00:05:25,510
+There are some sensors.
+
+104
+00:05:25,510 --> 00:05:27,190
+It's entirely human-like.
+
+105
+00:05:27,190 --> 00:05:29,410
+We don't have, for
+instance, let's say,
+
+106
+00:05:29,410 --> 00:05:31,000
+we don't have lasers.
+
+107
+00:05:31,000 --> 00:05:35,230
+We don't have ultrasound
+or other fancy sensors
+
+108
+00:05:35,230 --> 00:05:36,850
+that, from engineering
+standpoint,
+
+109
+00:05:36,850 --> 00:05:39,400
+could also be integrated.
+
+110
+00:05:39,400 --> 00:05:43,030
+But we decided to
+stick to certain subset
+
+111
+00:05:43,030 --> 00:05:44,500
+of possible sensors.
+
+112
+00:05:44,500 --> 00:05:47,630
+There's one thing that
+I think is quite unique.
+
+113
+00:05:47,630 --> 00:05:49,450
+We managed along the
+way to run a project
+
+114
+00:05:49,450 --> 00:05:51,310
+to design tactile sensors.
+
+115
+00:05:51,310 --> 00:05:53,530
+And so I think it's one
+of the few robots that
+
+116
+00:05:53,530 --> 00:05:57,520
+has almost complete body
+coverage with tactile sensors.
+
+117
+00:05:57,520 --> 00:06:01,420
+There are about 4,000 sensing
+points in the latest version.
+
+118
+00:06:01,420 --> 00:06:04,480
+And we hope to be
+able to use them.
+
+119
+00:06:04,480 --> 00:06:06,326
+I mean, you'll
+see certain things
+
+120
+00:06:06,326 --> 00:06:07,450
+that we started developing.
+
+121
+00:06:07,450 --> 00:06:08,890
+But for instance, we--
+
+122
+00:06:08,890 --> 00:06:10,900
+there was discussion
+about manipulation
+
+123
+00:06:10,900 --> 00:06:13,510
+and the availability
+of tactile sensors.
+
+124
+00:06:13,510 --> 00:06:16,720
+We just scratched the
+surface in that direction.
+
+125
+00:06:16,720 --> 00:06:20,140
+We haven't been able to
+do much more than that.
+
+126
+00:06:20,140 --> 00:06:23,230
+As I said, we designed,
+also, the electronics.
+
+127
+00:06:23,230 --> 00:06:25,570
+And the reason
+for doing this was
+
+128
+00:06:25,570 --> 00:06:28,070
+that wanted to be
+able to program
+
+129
+00:06:28,070 --> 00:06:30,640
+the very low-level of the
+controllers of the robot.
+
+130
+00:06:30,640 --> 00:06:34,330
+This didn't pay off for many
+years, but at a certain point,
+
+131
+00:06:34,330 --> 00:06:36,550
+we started doing torque control.
+
+132
+00:06:36,550 --> 00:06:40,500
+And we started hacking also
+the low-level controllers
+
+133
+00:06:40,500 --> 00:06:42,050
+of the brushless motors.
+
+134
+00:06:42,050 --> 00:06:46,915
+And so it paid off eventually,
+because that wouldn't
+
+135
+00:06:46,915 --> 00:06:49,150
+have been possible
+without the ability
+
+136
+00:06:49,150 --> 00:06:52,050
+to write low-level software.
+
+137
+00:06:52,050 --> 00:06:53,710
+Not that many
+people are modifying
+
+138
+00:06:53,710 --> 00:06:55,090
+that part of the software.
+
+139
+00:06:55,090 --> 00:06:56,650
+It's open-source,
+also, that part,
+
+140
+00:06:56,650 --> 00:07:01,660
+but it's very easy to
+burn your amplifiers
+
+141
+00:07:01,660 --> 00:07:04,040
+if you don't do the right
+thing at that level.
+
+142
+00:07:04,040 --> 00:07:06,510
+And the other thing
+is that, as I said,
+
+143
+00:07:06,510 --> 00:07:09,310
+the platform is reproducible.
+
+144
+00:07:09,310 --> 00:07:14,110
+And at the moment there
+is GitHub repository--
+
+145
+00:07:14,110 --> 00:07:17,980
+well, a number of GitHub
+repositories which contain,
+
+146
+00:07:17,980 --> 00:07:21,580
+whatever, it's some, a few
+millions of lines of code,
+
+147
+00:07:21,580 --> 00:07:22,330
+whatever it means.
+
+148
+00:07:22,330 --> 00:07:24,690
+It just means probably
+that a lot of students
+
+149
+00:07:24,690 --> 00:07:26,320
+are just committed
+to the repositories,
+
+150
+00:07:26,320 --> 00:07:29,290
+not necessarily that the
+software is super high-quality
+
+151
+00:07:29,290 --> 00:07:30,460
+at this point.
+
+152
+00:07:30,460 --> 00:07:32,830
+There are a few modules
+that are well-maintained.
+
+153
+00:07:32,830 --> 00:07:35,420
+And that's the
+low-level interfaces,
+
+154
+00:07:35,420 --> 00:07:37,390
+which is something we do.
+
+155
+00:07:37,390 --> 00:07:42,040
+Everything else can be in
+different ranges of readiness
+
+156
+00:07:42,040 --> 00:07:44,540
+to be used and things.
+
+157
+00:07:44,540 --> 00:07:46,765
+Well, why humanoids?
+
+158
+00:07:46,765 --> 00:07:50,630
+There were, at least at the
+beginning, scientific reasons.
+
+159
+00:07:50,630 --> 00:07:53,980
+One, paraphrasing Rod Brook's
+paper, Elephant's Don't
+
+160
+00:07:53,980 --> 00:07:59,320
+Play Chess, the reason of
+developing intelligence
+
+161
+00:07:59,320 --> 00:08:01,030
+in a robot that
+has a human shape
+
+162
+00:08:01,030 --> 00:08:06,040
+may give an intelligence that
+is also comparable to humans,
+
+163
+00:08:06,040 --> 00:08:09,820
+but also provides for natural
+human-robot interaction.
+
+164
+00:08:09,820 --> 00:08:12,760
+The fact the robot can move
+the eyes is very important,
+
+165
+00:08:12,760 --> 00:08:15,280
+for instance, has
+a very simple face,
+
+166
+00:08:15,280 --> 00:08:17,410
+but it's effective in
+communicating something
+
+167
+00:08:17,410 --> 00:08:21,820
+to the people the robot
+is interacting with.
+
+168
+00:08:21,820 --> 00:08:24,700
+And also, building a
+humanoid of a small size--
+
+169
+00:08:24,700 --> 00:08:27,130
+the robot is only a meter tall--
+
+170
+00:08:27,130 --> 00:08:30,260
+was very challenging from the
+mechatronics point of view.
+
+171
+00:08:30,260 --> 00:08:33,429
+So for us, engineers,
+was a lot of fun too--
+
+172
+00:08:33,429 --> 00:08:36,400
+the initial few years
+when we were designing,
+
+173
+00:08:36,400 --> 00:08:42,890
+every day was very,
+very funny, our--
+
+174
+00:08:42,890 --> 00:08:45,880
+a lot of satisfaction seeing
+that the robot was growing
+
+175
+00:08:45,880 --> 00:08:48,820
+and being built, eventually.
+
+176
+00:08:48,820 --> 00:08:51,800
+The fact that the platform
+is open-source I think
+
+177
+00:08:51,800 --> 00:08:55,960
+is also important, allows
+for repeating experiments
+
+178
+00:08:55,960 --> 00:08:59,300
+across different-- in
+different locations.
+
+179
+00:08:59,300 --> 00:09:02,680
+So we can develop
+a piece of software
+
+180
+00:09:02,680 --> 00:09:06,880
+and run exactly the same
+module somewhere else
+
+181
+00:09:06,880 --> 00:09:10,000
+across the world.
+
+182
+00:09:10,000 --> 00:09:15,790
+And this may, again, give
+advantages in-- first of all,
+
+183
+00:09:15,790 --> 00:09:19,450
+debugging was a lot easier, so
+many people complaining when we
+
+184
+00:09:19,450 --> 00:09:19,950
+do--
+
+185
+00:09:19,950 --> 00:09:25,440
+when we did something wrong,
+and allowed for also, let's say,
+
+186
+00:09:25,440 --> 00:09:30,260
+shared development, so building
+partnerships with many people,
+
+187
+00:09:30,260 --> 00:09:33,110
+mostly across Europe, because
+there was funding available,
+
+188
+00:09:33,110 --> 00:09:35,320
+so for people to work together.
+
+189
+00:09:35,320 --> 00:09:41,290
+And this may eventually enable
+better benchmarking and better
+
+190
+00:09:41,290 --> 00:09:44,050
+quality of what we do.
+
+191
+00:09:44,050 --> 00:09:50,750
+As part of the project, we
+also develop middleware.
+
+192
+00:09:50,750 --> 00:09:54,700
+So maybe you may think that
+we have been a bit crazy.
+
+193
+00:09:54,700 --> 00:09:57,205
+We went from the mechanical
+design to the research
+
+194
+00:09:57,205 --> 00:09:59,620
+on the robot, and passing
+through the software
+
+195
+00:09:59,620 --> 00:10:02,530
+development, but
+actually, this was
+
+196
+00:10:02,530 --> 00:10:07,870
+a middleware that was started
+before ROS even existed.
+
+197
+00:10:07,870 --> 00:10:11,380
+And in fact, it was a
+piece of my work at MIT
+
+198
+00:10:11,380 --> 00:10:17,520
+with a couple of the
+students there in 2001, 2002.
+
+199
+00:10:17,520 --> 00:10:20,740
+So the first version
+actually ran on COG
+
+200
+00:10:20,740 --> 00:10:24,310
+and run on QNX, a
+real-time operating system.
+
+201
+00:10:24,310 --> 00:10:28,030
+Later we did a major
+porting to Linux,
+
+202
+00:10:28,030 --> 00:10:33,110
+and Windows, and MacOS, which--
+
+203
+00:10:33,110 --> 00:10:35,500
+so we never committed
+to a single version.
+
+204
+00:10:35,500 --> 00:10:39,760
+And that because we had
+this community of developers
+
+205
+00:10:39,760 --> 00:10:41,650
+from the very
+beginning, and there
+
+206
+00:10:41,650 --> 00:10:44,830
+was no agreement on what
+development tool to use,
+
+207
+00:10:44,830 --> 00:10:49,150
+and so we say, why don't
+we cover almost everything.
+
+208
+00:10:49,150 --> 00:10:50,860
+And this part of the
+software is actually
+
+209
+00:10:50,860 --> 00:10:52,170
+very solid at the moment.
+
+210
+00:10:52,170 --> 00:10:56,470
+This has been,
+you know, growing,
+
+211
+00:10:56,470 --> 00:10:58,960
+not in size, but in
+quality, in this case,
+
+212
+00:10:58,960 --> 00:11:02,080
+so the interfaces remain
+practically the same.
+
+213
+00:11:02,080 --> 00:11:06,730
+And I think the low-level byte
+coding of the messages passing
+
+214
+00:11:06,730 --> 00:11:10,315
+across the network didn't
+change since the COG time.
+
+215
+00:11:10,315 --> 00:11:11,315
+Everything else changed.
+
+216
+00:11:11,315 --> 00:11:13,456
+It is completely new
+implementation now.
+
+217
+00:11:16,006 --> 00:11:19,930
+But it has portability,
+so as I say,
+
+218
+00:11:19,930 --> 00:11:25,210
+this was a sort of requirement
+from the researchers
+
+219
+00:11:25,210 --> 00:11:29,770
+not to commit to anything,
+and so we have developers
+
+220
+00:11:29,770 --> 00:11:33,670
+using Visual Studio on Windows
+or maybe using GCC on Windows,
+
+221
+00:11:33,670 --> 00:11:37,420
+and other developers running
+whatever IDE available
+
+222
+00:11:37,420 --> 00:11:39,160
+on Linux or MacOS.
+
+223
+00:11:39,160 --> 00:11:40,900
+And this worked pretty well.
+
+224
+00:11:40,900 --> 00:11:42,640
+And there's also
+language portability.
+
+225
+00:11:42,640 --> 00:11:45,680
+We can link-- so all
+this middleware is just
+
+226
+00:11:45,680 --> 00:11:48,040
+a set of libraries, so
+we can link the libraries
+
+227
+00:11:48,040 --> 00:11:50,170
+against any language.
+
+228
+00:11:50,170 --> 00:11:55,480
+And so we have bindings for
+whatever, Java, Perl, MATLAB,
+
+229
+00:11:55,480 --> 00:11:57,790
+and a bunch of other languages.
+
+230
+00:12:00,320 --> 00:12:03,970
+And this helped
+researchers also to do
+
+231
+00:12:03,970 --> 00:12:09,740
+some rapid prototyping maybe
+using Python and so forth.
+
+232
+00:12:09,740 --> 00:12:14,250
+As I said, the project is
+open-source, so you will find,
+
+233
+00:12:14,250 --> 00:12:17,380
+if you go to the website,
+there's a manual,
+
+234
+00:12:17,380 --> 00:12:22,090
+not particularly
+well taken care of.
+
+235
+00:12:22,090 --> 00:12:22,990
+It works.
+
+236
+00:12:22,990 --> 00:12:24,820
+At least, it works
+with our students,
+
+237
+00:12:24,820 --> 00:12:27,150
+so it should work for everybody.
+
+238
+00:12:27,150 --> 00:12:29,230
+But it also, the drawings--
+
+239
+00:12:29,230 --> 00:12:34,480
+so you can go with drawing like
+those to mechanical workshop.
+
+240
+00:12:34,480 --> 00:12:36,250
+And you get the parts in return.
+
+241
+00:12:36,250 --> 00:12:38,470
+And then from those,
+you can also figure out
+
+242
+00:12:38,470 --> 00:12:41,260
+how to assemble the components.
+
+243
+00:12:41,260 --> 00:12:43,117
+Although it's not super-easy.
+
+244
+00:12:43,117 --> 00:12:45,700
+It's not something you do, just
+because you have the drawings,
+
+245
+00:12:45,700 --> 00:12:48,620
+you do in your basement.
+
+246
+00:12:48,620 --> 00:12:51,730
+I mean, one of the groups
+in one of our projects
+
+247
+00:12:51,730 --> 00:12:52,810
+tried doing that.
+
+248
+00:12:52,810 --> 00:12:56,920
+And I think they stopped
+after building part of a arm
+
+249
+00:12:56,920 --> 00:12:59,830
+and maybe part of a leg.
+
+250
+00:12:59,830 --> 00:13:01,790
+I mean, it was very
+challenging for them.
+
+251
+00:13:01,790 --> 00:13:06,940
+And you need a very, let's
+say, a proper workshop
+
+252
+00:13:06,940 --> 00:13:11,530
+for building the components,
+so it takes time, anyway.
+
+253
+00:13:11,530 --> 00:13:17,650
+Continuing on the sensors, I
+mentioned that we have skin.
+
+254
+00:13:17,650 --> 00:13:20,660
+And I'll show you a bit
+more about that in a moment.
+
+255
+00:13:20,660 --> 00:13:22,720
+But we also have
+force-torque sensors,
+
+256
+00:13:22,720 --> 00:13:26,060
+and gyroscopes,
+and accelerometers.
+
+257
+00:13:26,060 --> 00:13:29,450
+So if you take all these pieces
+and you put them together,
+
+258
+00:13:29,450 --> 00:13:32,080
+you can actually sense
+interaction forces
+
+259
+00:13:32,080 --> 00:13:33,250
+with the environment.
+
+260
+00:13:33,250 --> 00:13:35,200
+And if you can sense
+interaction forces,
+
+261
+00:13:35,200 --> 00:13:36,850
+you can make the
+robot compliant.
+
+262
+00:13:36,850 --> 00:13:40,000
+And this has been an
+important development
+
+263
+00:13:40,000 --> 00:13:42,700
+across the past few years
+that allowed the robot
+
+264
+00:13:42,700 --> 00:13:45,370
+to move from position
+control to torque control.
+
+265
+00:13:45,370 --> 00:13:51,490
+And this has been
+needed, again, to go
+
+266
+00:13:51,490 --> 00:13:54,880
+in the direction of
+human-robot interaction.
+
+267
+00:13:54,880 --> 00:13:59,500
+And so these are standard
+force-torque sensors,
+
+268
+00:13:59,500 --> 00:14:02,010
+although we designed, as usual.
+
+269
+00:14:02,010 --> 00:14:05,436
+We spent some time and
+designed the sensors.
+
+270
+00:14:05,436 --> 00:14:06,685
+And this was a reason of cost.
+
+271
+00:14:06,685 --> 00:14:11,290
+The equivalent six-axial
+force-torque sensor,
+
+272
+00:14:11,290 --> 00:14:14,900
+commercially, cost,
+I don't know, $5,000.
+
+273
+00:14:14,900 --> 00:14:17,320
+And we managed to
+build it for $1,000.
+
+274
+00:14:17,320 --> 00:14:21,250
+So it maybe is not
+as super rock-solid
+
+275
+00:14:21,250 --> 00:14:24,040
+as the commercial component,
+but it works well.
+
+276
+00:14:24,040 --> 00:14:28,810
+And about the skin, this
+was a sensing modality
+
+277
+00:14:28,810 --> 00:14:31,960
+that wasn't available.
+
+278
+00:14:31,960 --> 00:14:35,440
+And again, we managed
+to get funding
+
+279
+00:14:35,440 --> 00:14:38,660
+for actually running a
+project for three years
+
+280
+00:14:38,660 --> 00:14:41,050
+to design the skin
+for the robot.
+
+281
+00:14:41,050 --> 00:14:43,000
+And we thought it was
+a trivial problem,
+
+282
+00:14:43,000 --> 00:14:44,680
+because at the beginning
+of the project,
+
+283
+00:14:44,680 --> 00:14:48,357
+we already had the idea
+of using capacity sensing.
+
+284
+00:14:48,357 --> 00:14:49,690
+And we actually had a prototype.
+
+285
+00:14:49,690 --> 00:14:51,090
+And we say, oh, it's trivial.
+
+286
+00:14:51,090 --> 00:14:53,710
+Then we spent three years
+to actually engineer
+
+287
+00:14:53,710 --> 00:14:56,290
+it to make it work
+properly on the robot.
+
+288
+00:14:56,290 --> 00:15:01,570
+So the idea is trivial, so
+since capacity sensing is
+
+289
+00:15:01,570 --> 00:15:07,420
+available for
+cellphones, we thought
+
+290
+00:15:07,420 --> 00:15:11,760
+of moving that into a version
+that would work for the robot.
+
+291
+00:15:11,760 --> 00:15:13,430
+There were two issues.
+
+292
+00:15:13,430 --> 00:15:15,070
+First of all, the
+robot is not flat,
+
+293
+00:15:15,070 --> 00:15:18,970
+so we can't just stick cell
+phones on the robot body
+
+294
+00:15:18,970 --> 00:15:21,490
+to obtain tactile sensing.
+
+295
+00:15:21,490 --> 00:15:23,860
+So we had to make
+everything flexible
+
+296
+00:15:23,860 --> 00:15:27,680
+so they can be conformed to
+the surface of the robot.
+
+297
+00:15:27,680 --> 00:15:30,160
+The other thing is that
+the cell phones only
+
+298
+00:15:30,160 --> 00:15:34,690
+sense objects that are
+electrically-conductive.
+
+299
+00:15:34,690 --> 00:15:37,029
+That's because the way
+the sensor is designed,
+
+300
+00:15:37,029 --> 00:15:39,070
+so we had to change that,
+because the robot might
+
+301
+00:15:39,070 --> 00:15:41,210
+be hitting objects
+that are not--
+
+302
+00:15:41,210 --> 00:15:43,370
+that are plastic, for instance.
+
+303
+00:15:43,370 --> 00:15:46,100
+So what we've done
+was to actually build
+
+304
+00:15:46,100 --> 00:15:48,730
+the capacitors over two layers.
+
+305
+00:15:48,730 --> 00:15:52,330
+There's an outer layer
+and a set of sensors
+
+306
+00:15:52,330 --> 00:15:55,570
+that are etched on a flexible
+PCB that is shown there.
+
+307
+00:15:55,570 --> 00:15:58,390
+And what the sensor
+measures is actually
+
+308
+00:15:58,390 --> 00:16:01,810
+the deflection of the outer
+layer, which is conductive,
+
+309
+00:16:01,810 --> 00:16:03,130
+towards the sensors.
+
+310
+00:16:03,130 --> 00:16:07,600
+And in between, we have
+another flexible material.
+
+311
+00:16:07,600 --> 00:16:10,660
+And that's another part of the
+reason why it took so long.
+
+312
+00:16:10,660 --> 00:16:15,820
+We started with materials like
+silicone that were very nice,
+
+313
+00:16:15,820 --> 00:16:18,280
+but unfortunately, they
+degrade very quickly,
+
+314
+00:16:18,280 --> 00:16:21,880
+so we ended up running sensors
+for a couple of months.
+
+315
+00:16:21,880 --> 00:16:24,760
+And then all of sudden they
+started failing or changing
+
+316
+00:16:24,760 --> 00:16:26,860
+their measurement properties.
+
+317
+00:16:26,860 --> 00:16:27,740
+We didn't know why.
+
+318
+00:16:27,740 --> 00:16:30,730
+We started investigating
+all possible materials
+
+319
+00:16:30,730 --> 00:16:34,540
+until we found one that
+was actually working well.
+
+320
+00:16:34,540 --> 00:16:38,080
+The other solution we
+had to, basically, design
+
+321
+00:16:38,080 --> 00:16:42,280
+was the shape of
+the flexible PCB.
+
+322
+00:16:42,280 --> 00:16:45,640
+So we had the challenge
+of taking 4,000 sensors
+
+323
+00:16:45,640 --> 00:16:49,230
+and bringing all the signals
+somewhere to the main CPU
+
+324
+00:16:49,230 --> 00:16:50,540
+inside the robot.
+
+325
+00:16:50,540 --> 00:16:54,610
+And, of course, you cannot
+just connect 4,000 wires.
+
+326
+00:16:54,610 --> 00:16:57,650
+So what we've done on
+the back side of the PCB
+
+327
+00:16:57,650 --> 00:17:00,100
+there's actually a routing
+for all the sensors
+
+328
+00:17:00,100 --> 00:17:02,350
+from one triangle to
+the next until you
+
+329
+00:17:02,350 --> 00:17:04,630
+get to a digitizing unit.
+
+330
+00:17:04,630 --> 00:17:07,960
+And-- sorry, each triangle
+digitize its own signals.
+
+331
+00:17:07,960 --> 00:17:10,960
+And they travel in digital form
+from one triangle to the next
+
+332
+00:17:10,960 --> 00:17:13,329
+until they reach a
+micro-controller that
+
+333
+00:17:13,329 --> 00:17:18,450
+takes all these numbers and
+sends them to the main CPU.
+
+334
+00:17:18,450 --> 00:17:21,550
+And this saves on
+the connection side,
+
+335
+00:17:21,550 --> 00:17:24,160
+and so it actually
+enables the installation
+
+336
+00:17:24,160 --> 00:17:26,480
+of the skin on the robot.
+
+337
+00:17:26,480 --> 00:17:30,430
+So this is a, let's say,
+industrialized version
+
+338
+00:17:30,430 --> 00:17:31,930
+of the skin.
+
+339
+00:17:31,930 --> 00:17:35,840
+And that's the customization
+we've done for a variant arm.
+
+340
+00:17:35,840 --> 00:17:39,910
+And those are parts of
+the skin for the iCub.
+
+341
+00:17:39,910 --> 00:17:44,620
+So the components that we
+just screw onto the outer body
+
+342
+00:17:44,620 --> 00:17:49,955
+and to make the iCub sensitive.
+
+343
+00:17:49,955 --> 00:17:52,480
+This is another solution,
+which is, again,
+
+344
+00:17:52,480 --> 00:17:55,600
+capacitive for the fingertips,
+simply because the triangle was
+
+345
+00:17:55,600 --> 00:17:59,290
+too big, too large for the
+size of the iCub fingertips,
+
+346
+00:17:59,290 --> 00:18:02,170
+but the principle
+is exactly the same.
+
+347
+00:18:02,170 --> 00:18:04,200
+It was just more
+difficult to design
+
+348
+00:18:04,200 --> 00:18:10,150
+these flexible materials,
+because they are just
+
+349
+00:18:10,150 --> 00:18:13,360
+more complicated to fabricate
+on those small sizes.
+
+350
+00:18:13,360 --> 00:18:16,900
+And the result, when you
+combine the force-torque sensors
+
+351
+00:18:16,900 --> 00:18:20,430
+and the tactile
+sensors is something
+
+352
+00:18:20,430 --> 00:18:24,460
+like this, which is a compliant
+controller on the iCub, where
+
+353
+00:18:24,460 --> 00:18:26,360
+you can just push
+the robot around.
+
+354
+00:18:26,360 --> 00:18:28,900
+This is in
+zero-gravity modality.
+
+355
+00:18:28,900 --> 00:18:32,450
+So you can just push the robot
+around and move it freely.
+
+356
+00:18:32,450 --> 00:18:36,460
+And this has to be compared to
+the complete stiffness in case
+
+357
+00:18:36,460 --> 00:18:38,260
+you do position control.
+
+358
+00:18:38,260 --> 00:18:42,520
+And another thing that is
+enabled by force control
+
+359
+00:18:42,520 --> 00:18:44,222
+is teaching and demonstration.
+
+360
+00:18:44,222 --> 00:18:45,430
+This is a trivial experiment.
+
+361
+00:18:45,430 --> 00:18:47,740
+We just recorded
+trajectory and repeated
+
+362
+00:18:47,740 --> 00:18:51,730
+exactly the same
+trajectory, so it's not--
+
+363
+00:18:51,730 --> 00:18:53,590
+I mean, you can do
+learning on top of that,
+
+364
+00:18:53,590 --> 00:18:54,980
+but we haven't done it.
+
+365
+00:18:54,980 --> 00:18:58,720
+It's just to show that the
+fact that you can control--
+
+366
+00:18:58,720 --> 00:19:02,140
+the robot in torque
+mode enables these type
+
+367
+00:19:02,140 --> 00:19:04,630
+of tasks, so teaching
+a new trajectory that
+
+368
+00:19:04,630 --> 00:19:07,010
+was never seen by the robot.
+
+369
+00:19:07,010 --> 00:19:10,870
+There's another less
+trivial thing you can do.
+
+370
+00:19:10,870 --> 00:19:13,600
+Since we can sense
+external forces,
+
+371
+00:19:13,600 --> 00:19:15,490
+you can do something
+like this, which
+
+372
+00:19:15,490 --> 00:19:18,820
+is, we can build
+a controller where
+
+373
+00:19:18,820 --> 00:19:20,260
+you keep the robot compliant.
+
+374
+00:19:20,260 --> 00:19:23,530
+You impose certain
+constraints on the center
+
+375
+00:19:23,530 --> 00:19:25,400
+of mass and the
+angular momentum,
+
+376
+00:19:25,400 --> 00:19:28,570
+and keep the robot, basically,
+stable in that configuration
+
+377
+00:19:28,570 --> 00:19:32,590
+like this one, in spite
+of external forces being,
+
+378
+00:19:32,590 --> 00:19:35,830
+in this case,
+generated by a person.
+
+379
+00:19:35,830 --> 00:19:40,530
+This is part of a
+project that is basically
+
+380
+00:19:40,530 --> 00:19:45,010
+trying to make the iCub walk,
+more or less, efficiently.
+
+381
+00:19:45,010 --> 00:19:47,530
+And as part of the
+project, we actually
+
+382
+00:19:47,530 --> 00:19:50,110
+also redesigned the ankles of
+the robot, because, initially,
+
+383
+00:19:50,110 --> 00:19:52,620
+we didn't think of
+bipedal walking,
+
+384
+00:19:52,620 --> 00:19:55,030
+and so they weren't
+strong enough to support
+
+385
+00:19:55,030 --> 00:19:58,000
+the weight of the robot.
+
+386
+00:20:02,150 --> 00:20:04,590
+And this is basically
+the same stuff
+
+387
+00:20:04,590 --> 00:20:09,580
+that was shown on
+the previous videos,
+
+388
+00:20:09,580 --> 00:20:11,730
+just the same
+combination of tactile
+
+389
+00:20:11,730 --> 00:20:16,050
+and force-torque sensing used
+to estimate counter forces.
+
+390
+00:20:16,050 --> 00:20:18,600
+We actually added two
+more force-torque sensors
+
+391
+00:20:18,600 --> 00:20:20,700
+in the ankles, so
+we have six overall
+
+392
+00:20:20,700 --> 00:20:24,690
+here in this version
+of the robot.
+
+393
+00:20:24,690 --> 00:20:28,500
+Now, as part of this,
+we also played a bit
+
+394
+00:20:28,500 --> 00:20:29,550
+with machine learning.
+
+395
+00:20:34,830 --> 00:20:38,130
+For mapping the tactile
+formation and force-torque
+
+396
+00:20:38,130 --> 00:20:39,730
+sensor information
+to the joints,
+
+397
+00:20:39,730 --> 00:20:43,230
+since they are not localized
+on the joints of the robot,
+
+398
+00:20:43,230 --> 00:20:44,250
+we have--
+
+399
+00:20:44,250 --> 00:20:47,460
+and also for separating what
+we measure with the sensors
+
+400
+00:20:47,460 --> 00:20:50,690
+from the forces generated
+by the movement of the robot
+
+401
+00:20:50,690 --> 00:20:52,980
+by its internal
+dynamics, we have
+
+402
+00:20:52,980 --> 00:20:55,650
+to have information
+about the robot dynamics.
+
+403
+00:20:55,650 --> 00:20:59,220
+And this is something we can
+do, or we can build a model
+
+404
+00:20:59,220 --> 00:21:02,220
+for using machine learning,
+since we have measurements
+
+405
+00:21:02,220 --> 00:21:06,330
+from the joint position
+velocities and accelerations,
+
+406
+00:21:06,330 --> 00:21:10,110
+and the torques measured from
+the force-torque sensors,
+
+407
+00:21:10,110 --> 00:21:13,050
+we can compute the
+robot dynamics.
+
+408
+00:21:13,050 --> 00:21:19,170
+And this can be done either
+using a let's say, computer
+
+409
+00:21:19,170 --> 00:21:22,660
+model from the CAD,
+or from learning
+
+410
+00:21:22,660 --> 00:21:24,840
+the model via machine learning.
+
+411
+00:21:24,840 --> 00:21:28,530
+And so we collect the
+data set from the iCub.
+
+412
+00:21:28,530 --> 00:21:30,780
+In this case, it was a
+data set for the arm,
+
+413
+00:21:30,780 --> 00:21:32,430
+for the first four joints.
+
+414
+00:21:32,430 --> 00:21:36,150
+We didn't do anything
+for the rest.
+
+415
+00:21:36,150 --> 00:21:39,850
+And in this case, we used--
+
+416
+00:21:39,850 --> 00:21:43,200
+we sort of customized a
+specific method, which
+
+417
+00:21:43,200 --> 00:21:45,990
+has custom processes,
+to be incremental,
+
+418
+00:21:45,990 --> 00:21:48,060
+and also to be
+computationally-bounded
+
+419
+00:21:48,060 --> 00:21:51,480
+in time, so we wanted
+to avoid the explosion
+
+420
+00:21:51,480 --> 00:21:53,820
+of the computational
+time due to the increase
+
+421
+00:21:53,820 --> 00:21:55,470
+in the number of samples.
+
+422
+00:21:55,470 --> 00:22:00,960
+And this was-- well, it was
+basically an interesting piece
+
+423
+00:22:00,960 --> 00:22:03,235
+of work because everything
+we do on the robot,
+
+424
+00:22:03,235 --> 00:22:06,220
+if it's inserted
+in a control loop,
+
+425
+00:22:06,220 --> 00:22:09,660
+has to have a predictable
+computation time,
+
+426
+00:22:09,660 --> 00:22:13,170
+and possibly limited enough
+so that we can run the control
+
+427
+00:22:13,170 --> 00:22:15,390
+loop at reasonable rates.
+
+428
+00:22:15,390 --> 00:22:17,470
+And this is some of the results.
+
+429
+00:22:17,470 --> 00:22:22,040
+And actually, we also compare
+with other existing methods.
+
+430
+00:22:22,040 --> 00:22:25,120
+This is just to show that
+the method we developed,
+
+431
+00:22:25,120 --> 00:22:31,570
+which uses an approximate
+kernel, works pretty much
+
+432
+00:22:31,570 --> 00:22:35,420
+as well as a standard
+Gaussian process
+
+433
+00:22:35,420 --> 00:22:37,650
+regression in this
+case, and works
+
+434
+00:22:37,650 --> 00:22:40,510
+much better than other
+methods from the literature.
+
+435
+00:22:40,510 --> 00:22:44,070
+This was just to
+have a rough idea
+
+436
+00:22:44,070 --> 00:22:47,280
+that this was entirely doable.
+
+437
+00:22:47,280 --> 00:22:49,500
+Also, by shaping
+the kernel, it's
+
+438
+00:22:49,500 --> 00:22:52,706
+possible to compensate
+for temperature drifts.
+
+439
+00:22:52,706 --> 00:22:54,330
+Unfortunately, the
+force-torque sensors
+
+440
+00:22:54,330 --> 00:22:58,055
+tend to change response
+due to temperature,
+
+441
+00:22:58,055 --> 00:23:00,300
+not that the lab is
+changing temperature,
+
+442
+00:23:00,300 --> 00:23:03,990
+but often, the electronics
+itself is heating up
+
+443
+00:23:03,990 --> 00:23:06,450
+around the robot, so
+it's making the sensor
+
+444
+00:23:06,450 --> 00:23:09,120
+read something
+different, and but it's
+
+445
+00:23:09,120 --> 00:23:12,960
+possible to show that,
+again, through learning,
+
+446
+00:23:12,960 --> 00:23:14,940
+you can build a
+compensation also
+
+447
+00:23:14,940 --> 00:23:18,990
+for the temperature
+variations just
+
+448
+00:23:18,990 --> 00:23:25,020
+by shaping the kernel to include
+a term that depends on time.
+
+449
+00:23:25,020 --> 00:23:28,140
+This is one example
+of how we've done
+
+450
+00:23:28,140 --> 00:23:30,540
+machine learning on the
+robot, although the problem is
+
+451
+00:23:30,540 --> 00:23:31,125
+fairly simple.
+
+452
+00:23:31,125 --> 00:23:32,541
+A problem that is
+more complicated
+
+453
+00:23:32,541 --> 00:23:35,110
+is learning about objects.
+
+454
+00:23:35,110 --> 00:23:37,320
+So in this scenario, we--
+
+455
+00:23:37,320 --> 00:23:40,890
+targeting is shown
+here, where we have,
+
+456
+00:23:40,890 --> 00:23:44,730
+basically, a person that
+can speak to the robot,
+
+457
+00:23:44,730 --> 00:23:47,610
+tell the robot that
+it's a new object.
+
+458
+00:23:47,610 --> 00:23:50,220
+And the robot's
+acquiring images.
+
+459
+00:23:50,220 --> 00:23:54,420
+And we hope to be able to
+learn about objects from-- just
+
+460
+00:23:54,420 --> 00:23:57,180
+from these type of images.
+
+461
+00:23:57,180 --> 00:23:59,670
+This is maybe the most
+difficult situation.
+
+462
+00:23:59,670 --> 00:24:01,370
+We can also lie
+objects on the table
+
+463
+00:24:01,370 --> 00:24:03,640
+and just tell the robot to
+look at a specific object,
+
+464
+00:24:03,640 --> 00:24:05,260
+and so forth.
+
+465
+00:24:05,260 --> 00:24:07,470
+Again, the speech
+interface is nice,
+
+466
+00:24:07,470 --> 00:24:11,250
+because you can basically
+also attach labels
+
+467
+00:24:11,250 --> 00:24:13,290
+to the objects that
+are what it's seeing.
+
+468
+00:24:13,290 --> 00:24:19,510
+The methods we tried, in the
+recent past, we've done--
+
+469
+00:24:19,510 --> 00:24:23,880
+we basically applied
+sparse coding
+
+470
+00:24:23,880 --> 00:24:30,110
+and then regularized least
+squares for classification.
+
+471
+00:24:30,110 --> 00:24:34,500
+This was basically how we
+started a couple of years ago.
+
+472
+00:24:34,500 --> 00:24:41,250
+And more recently, we used an
+off-the-shelf convolutional
+
+473
+00:24:41,250 --> 00:24:43,830
+neural network.
+
+474
+00:24:43,830 --> 00:24:47,280
+And again, the classifiers
+are linear classifiers.
+
+475
+00:24:47,280 --> 00:24:55,230
+And this, I mean, has proved
+to work particularly well,
+
+476
+00:24:55,230 --> 00:24:58,410
+but also, since we aren't
+the robot, we can, let's say,
+
+477
+00:24:58,410 --> 00:24:59,610
+play tricks.
+
+478
+00:24:59,610 --> 00:25:03,160
+One trick that is easy to
+apply, and it's very effective,
+
+479
+00:25:03,160 --> 00:25:05,280
+is actually, you're
+seeing an object,
+
+480
+00:25:05,280 --> 00:25:07,020
+but you don't have
+a single frame.
+
+481
+00:25:07,020 --> 00:25:11,460
+You can actually take subsequent
+frames, because the robot may
+
+482
+00:25:11,460 --> 00:25:16,260
+be observing the objects for
+a few moments, for seconds,
+
+483
+00:25:16,260 --> 00:25:17,190
+whatever.
+
+484
+00:25:17,190 --> 00:25:19,140
+And in fact, there's
+an improvement
+
+485
+00:25:19,140 --> 00:25:24,090
+that is shown in this plot
+there, the one to the right.
+
+486
+00:25:24,090 --> 00:25:29,519
+If you increase the
+number of seconds
+
+487
+00:25:29,519 --> 00:25:31,060
+you're allowed to
+observe the object,
+
+488
+00:25:31,060 --> 00:25:33,090
+you improve, also, performance.
+
+489
+00:25:33,090 --> 00:25:37,710
+And the plot is over
+the number of classes,
+
+490
+00:25:37,710 --> 00:25:43,020
+because we also like to improve
+on the number of classes
+
+491
+00:25:43,020 --> 00:25:45,660
+that a robot can
+actually recognize,
+
+492
+00:25:45,660 --> 00:25:52,260
+and which was limited until,
+let's say, a couple of years
+
+493
+00:25:52,260 --> 00:25:56,880
+ago, but now, with all these
+new deep-learning stuff,
+
+494
+00:25:56,880 --> 00:25:58,680
+it seems to be
+improving quite a lot,
+
+495
+00:25:58,680 --> 00:26:01,890
+and our experiments
+in that direction.
+
+496
+00:26:01,890 --> 00:26:03,730
+There's another thing
+that can be done,
+
+497
+00:26:03,730 --> 00:26:07,510
+which is try to see what
+happens if we have--
+
+498
+00:26:07,510 --> 00:26:10,350
+since we have, again, the
+robot interacting with people
+
+499
+00:26:10,350 --> 00:26:14,640
+for entire days, if we collect
+images on different days,
+
+500
+00:26:14,640 --> 00:26:19,410
+and then we can play
+with different conditions
+
+501
+00:26:19,410 --> 00:26:20,820
+on the testing case.
+
+502
+00:26:20,820 --> 00:26:25,230
+So for instance, the
+different plots here
+
+503
+00:26:25,230 --> 00:26:31,710
+show what happens if you train
+and test on the current day,
+
+504
+00:26:31,710 --> 00:26:35,590
+so you train cumulatively
+on up to four days
+
+505
+00:26:35,590 --> 00:26:38,319
+and you test on
+the last day only.
+
+506
+00:26:38,319 --> 00:26:40,110
+And you see, of course,
+performance improve
+
+507
+00:26:40,110 --> 00:26:42,570
+as you increase the train set.
+
+508
+00:26:42,570 --> 00:26:44,640
+Conditions may be slightly
+different from one day
+
+509
+00:26:44,640 --> 00:26:45,340
+to the next.
+
+510
+00:26:45,340 --> 00:26:49,900
+Light may have changed,
+just because it was more
+
+511
+00:26:49,900 --> 00:26:53,190
+a sunny day or a cloudy day.
+
+512
+00:26:53,190 --> 00:27:01,770
+And the other conditions are
+to test also on past days
+
+513
+00:27:01,770 --> 00:27:06,460
+or to test on future
+days, so where conditions
+
+514
+00:27:06,460 --> 00:27:07,710
+may have changed a lot.
+
+515
+00:27:07,710 --> 00:27:09,870
+And in fact, performance
+is slightly worse
+
+516
+00:27:09,870 --> 00:27:13,670
+in that situation.
+
+517
+00:27:13,670 --> 00:27:17,840
+OK and this is a video that
+shows, basically, the robot
+
+518
+00:27:17,840 --> 00:27:23,710
+training and some of the
+experiment on testing
+
+519
+00:27:23,710 --> 00:27:27,060
+how the robot perceives
+a number of objects.
+
+520
+00:27:27,060 --> 00:27:29,830
+And unfortunately,
+there's no speech here,
+
+521
+00:27:29,830 --> 00:27:32,060
+but this basically a
+person talking to the robot
+
+522
+00:27:32,060 --> 00:27:34,560
+and telling the robot
+what is the name
+
+523
+00:27:34,560 --> 00:27:39,390
+for this specific object, then
+putting another object there,
+
+524
+00:27:39,390 --> 00:27:43,440
+drawing the robot's attention
+to the object, and then, again,
+
+525
+00:27:43,440 --> 00:27:44,830
+telling the name.
+
+526
+00:27:44,830 --> 00:27:45,860
+This is the Lego.
+
+527
+00:27:49,492 --> 00:27:51,570
+It becomes faster in a moment.
+
+528
+00:28:14,360 --> 00:28:17,390
+OK, and then you can continue
+training basically like that.
+
+529
+00:28:17,390 --> 00:28:22,800
+And the video shows
+also testing--
+
+530
+00:28:22,800 --> 00:28:26,150
+was showing a bunch of objects
+simultaneously to the robot.
+
+531
+00:28:30,860 --> 00:28:34,400
+And here, we simply click
+on one of the objects
+
+532
+00:28:34,400 --> 00:28:36,820
+to draw the robot's attention.
+
+533
+00:28:36,820 --> 00:28:41,060
+And on the plot there,
+you see the probability
+
+534
+00:28:41,060 --> 00:28:45,010
+that a given object is being
+recognized as the correct one.
+
+535
+00:28:48,670 --> 00:28:52,410
+OK, I think I have
+to cut this short,
+
+536
+00:28:52,410 --> 00:28:55,300
+because I'm running out of time.
+
+537
+00:28:55,300 --> 00:28:56,880
+Another thing I
+wanted to show you
+
+538
+00:28:56,880 --> 00:29:03,090
+is, basically, now we have this
+ability to control the robot.
+
+539
+00:29:03,090 --> 00:29:05,350
+We have the ability
+to recognize objects.
+
+540
+00:29:05,350 --> 00:29:08,880
+We also have the ability
+to grasp objects.
+
+541
+00:29:08,880 --> 00:29:15,420
+And this is something
+that uses stereo vision.
+
+542
+00:29:15,420 --> 00:29:18,510
+And in this case,
+what we wanted to do
+
+543
+00:29:18,510 --> 00:29:21,700
+is to present an object to
+the robot, no prior knowledge
+
+544
+00:29:21,700 --> 00:29:22,950
+about the shape of the object.
+
+545
+00:29:22,950 --> 00:29:24,510
+We take a snapshot.
+
+546
+00:29:24,510 --> 00:29:26,600
+We reconstruct a stereo pair.
+
+547
+00:29:26,600 --> 00:29:28,980
+We have to construct
+the object in 3D.
+
+548
+00:29:28,980 --> 00:29:35,130
+And then we apply optimization,
+constrained optimization,
+
+549
+00:29:35,130 --> 00:29:37,950
+to figure out a
+plausible location
+
+550
+00:29:37,950 --> 00:29:41,220
+for the palm of the hand.
+
+551
+00:29:41,220 --> 00:29:44,820
+And then that will
+maximize the ability
+
+552
+00:29:44,820 --> 00:29:46,800
+to grasp the object
+by closing the finger
+
+553
+00:29:46,800 --> 00:29:48,810
+around that particular position.
+
+554
+00:29:48,810 --> 00:29:51,570
+This is our, let's say,
+definition of power grasp.
+
+555
+00:29:51,570 --> 00:29:54,090
+So put the palm of
+the hand of the robot
+
+556
+00:29:54,090 --> 00:29:57,510
+in a region of the object
+that has a surface, which
+
+557
+00:29:57,510 --> 00:30:02,160
+has a similar shape or a
+similar size of the palm itself,
+
+558
+00:30:02,160 --> 00:30:04,140
+and where the
+orientation is compatible
+
+559
+00:30:04,140 --> 00:30:06,760
+with the local orientation
+of the surface.
+
+560
+00:30:06,760 --> 00:30:09,480
+And this works
+with mixed results.
+
+561
+00:30:09,480 --> 00:30:11,625
+So it works with
+certain objects.
+
+562
+00:30:11,625 --> 00:30:13,110
+It doesn't work always.
+
+563
+00:30:13,110 --> 00:30:15,120
+There are objects that
+are intrinsically more
+
+564
+00:30:15,120 --> 00:30:18,510
+difficult for this
+procedure, so some of them
+
+565
+00:30:18,510 --> 00:30:22,920
+will only be grasped with
+65% probability, which
+
+566
+00:30:22,920 --> 00:30:24,749
+is not super-satisfactory.
+
+567
+00:30:24,749 --> 00:30:26,290
+If you run long
+experiments, you want
+
+568
+00:30:26,290 --> 00:30:29,700
+to grasp three, four objects,
+you start seeing failures.
+
+569
+00:30:29,700 --> 00:30:33,370
+It becomes boring to
+actually do the experiments.
+
+570
+00:30:33,370 --> 00:30:35,050
+So it works well
+for soft objects,
+
+571
+00:30:35,050 --> 00:30:39,220
+for instance, as expected.
+
+572
+00:30:39,220 --> 00:30:41,130
+We moved a bit
+into the direction
+
+573
+00:30:41,130 --> 00:30:44,980
+of using the tactile sensors,
+and-- but at this point,
+
+574
+00:30:44,980 --> 00:30:50,060
+we've only been able to try
+to characterize forces out
+
+575
+00:30:50,060 --> 00:30:53,080
+of the force of the
+tactile sensor measurement.
+
+576
+00:30:53,080 --> 00:30:56,480
+So we-- basically, taking a
+fingertip, we have 12 sensors,
+
+577
+00:30:56,480 --> 00:30:57,637
+and we're trying to--
+
+578
+00:30:57,637 --> 00:30:59,970
+and this is another case where
+we apply machine learning
+
+579
+00:30:59,970 --> 00:31:02,700
+trying to reconstruct
+the force direction
+
+580
+00:31:02,700 --> 00:31:06,210
+and intensity from the
+tactile sensor measurements.
+
+581
+00:31:06,210 --> 00:31:07,950
+And this is basically
+the procedure,
+
+582
+00:31:07,950 --> 00:31:10,470
+is we take the sensor.
+
+583
+00:31:10,470 --> 00:31:13,230
+We move our six-axial
+force-torque sensor.
+
+584
+00:31:13,230 --> 00:31:14,280
+We take the data.
+
+585
+00:31:14,280 --> 00:31:18,900
+And we approximate this,
+again, with a Gaussian process.
+
+586
+00:31:18,900 --> 00:31:21,110
+Just one last video, if I can.
+
+587
+00:31:26,620 --> 00:31:32,170
+OK, so basically, we've put
+together all these skills.
+
+588
+00:31:32,170 --> 00:31:36,040
+We may be able to do something
+useful with the robot.
+
+589
+00:31:36,040 --> 00:31:40,195
+In this case, the video
+shows a task where
+
+590
+00:31:40,195 --> 00:31:41,890
+the robot is cleaning a table.
+
+591
+00:31:41,890 --> 00:31:46,990
+And it's actually using
+the grasp component,
+
+592
+00:31:46,990 --> 00:31:55,480
+and the ability to move the
+object, to see the object,
+
+593
+00:31:55,480 --> 00:31:58,430
+recognize them, and
+grasp them, and put them
+
+594
+00:31:58,430 --> 00:32:01,060
+at a given location,
+which was pre-specified,
+
+595
+00:32:01,060 --> 00:32:03,160
+in this case, so
+it's not recognized
+
+596
+00:32:03,160 --> 00:32:05,000
+that this a container.
+
+597
+00:32:05,000 --> 00:32:07,060
+It's just putting things there.
+
+598
+00:32:07,060 --> 00:32:10,110
+And there's one last skill
+that I didn't have time
+
+599
+00:32:10,110 --> 00:32:14,170
+to talk about, which is
+recognizing certain objects as
+
+600
+00:32:14,170 --> 00:32:18,220
+tools, and one specific
+object, like this one.
+
+601
+00:32:25,760 --> 00:32:28,350
+An object like the
+tool here can actually
+
+602
+00:32:28,350 --> 00:32:31,110
+be used for pulling
+another object closer.
+
+603
+00:32:31,110 --> 00:32:35,010
+And this is, again,
+something that
+
+604
+00:32:35,010 --> 00:32:39,090
+can be done through learning.
+
+605
+00:32:39,090 --> 00:32:42,480
+So we learn the size of the
+sticks or set the sticks,
+
+606
+00:32:42,480 --> 00:32:46,410
+and we also learn how good
+they are for pulling something
+
+607
+00:32:46,410 --> 00:32:50,870
+closer through experience,
+by, basically, trial
+
+608
+00:32:50,870 --> 00:32:53,190
+and error over many trials.
+
+609
+00:32:53,190 --> 00:32:55,620
+And the result is
+that you can actually
+
+610
+00:32:55,620 --> 00:32:58,680
+generate a movement that
+pulls the object closer
+
+611
+00:32:58,680 --> 00:33:01,480
+so they can later be grasped.
+
+612
+00:33:01,480 --> 00:33:06,720
+And that's basically
+a couple of ideas
+
+613
+00:33:06,720 --> 00:33:10,440
+on how to exploit the
+object affordances, not
+
+614
+00:33:10,440 --> 00:33:14,340
+just recognizing
+them, but also knowing
+
+615
+00:33:14,340 --> 00:33:18,270
+that certain objects have
+certain extra functions which
+
+616
+00:33:18,270 --> 00:33:20,210
+may end up being useful.
+
+617
+00:33:20,210 --> 00:33:24,060
+OK, I just wanted to acknowledge
+the people that are actually
+
+618
+00:33:24,060 --> 00:33:25,390
+working on all this.
+
+619
+00:33:25,390 --> 00:33:27,630
+I promised that I will do that.
+
+620
+00:33:27,630 --> 00:33:31,470
+And this is actually a
+photo around Genoa showing
+
+621
+00:33:31,470 --> 00:33:35,460
+the group that has been mainly
+working on the iCub project
+
+622
+00:33:35,460 --> 00:33:36,716
+over--
+
+623
+00:33:36,716 --> 00:33:38,340
+let's say, this is
+the group last year,
+
+624
+00:33:38,340 --> 00:33:41,820
+so there may be more
+people that just left,
+
+625
+00:33:41,820 --> 00:33:45,650
+or some of them moved to MIT.
+
+626
+00:33:45,650 --> 00:33:47,760
+OK, thank you.

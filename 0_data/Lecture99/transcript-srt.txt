@@ -1,0 +1,11595 @@
+1
+00:01:29,740 --> 00:01:34,039
+ hello we're gonna start with the invited
+
+2
+00:01:32,319 --> 00:01:34,039
+ 
+
+3
+00:01:32,329 --> 00:01:37,090
+ talk in just a moment so please come on
+
+4
+00:01:34,029 --> 00:01:37,090
+ 
+
+5
+00:01:34,039 --> 00:01:37,090
+ in and find a seat
+
+6
+00:03:43,660 --> 00:03:43,660
+ 
+
+7
+00:03:43,670 --> 00:03:50,120
+ good afternoon everyone I'm Kristin
+
+8
+00:03:48,070 --> 00:03:50,120
+ 
+
+9
+00:03:48,080 --> 00:03:51,890
+ Grauman I'm a researcher at Facebook AI
+
+10
+00:03:50,110 --> 00:03:51,890
+ 
+
+11
+00:03:50,120 --> 00:03:54,080
+ research and a professor at UT Austin
+
+12
+00:03:51,880 --> 00:03:54,080
+ 
+
+13
+00:03:51,890 --> 00:03:55,610
+ and is one of the program chairs for
+
+14
+00:03:54,070 --> 00:03:55,610
+ 
+
+15
+00:03:54,080 --> 00:03:57,350
+ nerps this year I have the pleasure to
+
+16
+00:03:55,600 --> 00:03:57,350
+ 
+
+17
+00:03:55,610 --> 00:04:00,410
+ introduce our next invited speaker
+
+18
+00:03:57,340 --> 00:04:00,410
+ 
+
+19
+00:03:57,350 --> 00:04:01,910
+ professor Michael Evan Michael is a
+
+20
+00:04:00,400 --> 00:04:01,910
+ 
+
+21
+00:04:00,410 --> 00:04:04,670
+ professor biology at Tufts University
+
+22
+00:04:01,900 --> 00:04:04,670
+ 
+
+23
+00:04:01,910 --> 00:04:07,459
+ and he holds a Vannevar Bush endowed
+
+24
+00:04:04,660 --> 00:04:07,459
+ 
+
+25
+00:04:04,670 --> 00:04:09,950
+ chair he's also director of the Allen
+
+26
+00:04:07,449 --> 00:04:09,950
+ 
+
+27
+00:04:07,459 --> 00:04:11,900
+ Discovery Center at Tufts which examines
+
+28
+00:04:09,940 --> 00:04:11,900
+ 
+
+29
+00:04:09,950 --> 00:04:14,900
+ computation in the medium of living
+
+30
+00:04:11,890 --> 00:04:14,900
+ 
+
+31
+00:04:11,900 --> 00:04:18,260
+ systems his academic background is both
+
+32
+00:04:14,890 --> 00:04:18,260
+ 
+
+33
+00:04:14,900 --> 00:04:20,000
+ computer science and biology he received
+
+34
+00:04:18,250 --> 00:04:20,000
+ 
+
+35
+00:04:18,260 --> 00:04:23,480
+ his PhD from Harvard Medical School in
+
+36
+00:04:19,990 --> 00:04:23,480
+ 
+
+37
+00:04:20,000 --> 00:04:25,480
+ 1996 Michaels group does work at the
+
+38
+00:04:23,470 --> 00:04:25,480
+ 
+
+39
+00:04:23,480 --> 00:04:28,840
+ intersection of developmental biology
+
+40
+00:04:25,470 --> 00:04:28,840
+ 
+
+41
+00:04:25,480 --> 00:04:30,740
+ cognition and computational neuroscience
+
+42
+00:04:28,830 --> 00:04:30,740
+ 
+
+43
+00:04:28,840 --> 00:04:32,300
+ they are especially interested in
+
+44
+00:04:30,730 --> 00:04:32,300
+ 
+
+45
+00:04:30,740 --> 00:04:34,910
+ applications in regenerative medicine
+
+46
+00:04:32,290 --> 00:04:34,910
+ 
+
+47
+00:04:32,300 --> 00:04:36,590
+ and as we'll see in his talk today these
+
+48
+00:04:34,900 --> 00:04:36,590
+ 
+
+49
+00:04:34,910 --> 00:04:39,310
+ things can offer inspiration for new
+
+50
+00:04:36,580 --> 00:04:39,310
+ 
+
+51
+00:04:36,590 --> 00:04:41,450
+ machine learning and robotics approaches
+
+52
+00:04:39,300 --> 00:04:41,450
+ 
+
+53
+00:04:39,310 --> 00:04:42,860
+ professor Levin's research has been
+
+54
+00:04:41,440 --> 00:04:42,860
+ 
+
+55
+00:04:41,450 --> 00:04:45,500
+ recognized with a number of different
+
+56
+00:04:42,850 --> 00:04:45,500
+ 
+
+57
+00:04:42,860 --> 00:04:48,229
+ awards I'll had mentioned just a few one
+
+58
+00:04:45,490 --> 00:04:48,229
+ 
+
+59
+00:04:45,500 --> 00:04:49,940
+ is recognition as having made a
+
+60
+00:04:48,219 --> 00:04:49,940
+ 
+
+61
+00:04:48,229 --> 00:04:52,280
+ milestone in developmental biology in
+
+62
+00:04:49,930 --> 00:04:52,280
+ 
+
+63
+00:04:49,940 --> 00:04:54,530
+ the last century from the journal Nature
+
+64
+00:04:52,270 --> 00:04:54,530
+ 
+
+65
+00:04:52,280 --> 00:04:57,560
+ and that was for his work on molecular
+
+66
+00:04:54,520 --> 00:04:57,560
+ 
+
+67
+00:04:54,530 --> 00:04:59,180
+ basis of left-right asymmetry he's also
+
+68
+00:04:57,550 --> 00:04:59,180
+ 
+
+69
+00:04:57,560 --> 00:05:00,830
+ received the established investigator
+
+70
+00:04:59,170 --> 00:05:00,830
+ 
+
+71
+00:04:59,180 --> 00:05:03,350
+ award from the American Heart
+
+72
+00:05:00,820 --> 00:05:03,350
+ 
+
+73
+00:05:00,830 --> 00:05:05,060
+ Association and the scientist of vision
+
+74
+00:05:03,340 --> 00:05:05,060
+ 
+
+75
+00:05:03,350 --> 00:05:08,300
+ award from the International functional
+
+76
+00:05:05,050 --> 00:05:08,300
+ 
+
+77
+00:05:05,060 --> 00:05:09,620
+ electrical stimulation Society so we're
+
+78
+00:05:08,290 --> 00:05:09,620
+ 
+
+79
+00:05:08,300 --> 00:05:11,360
+ very excited to hear about his work
+
+80
+00:05:09,610 --> 00:05:11,360
+ 
+
+81
+00:05:09,620 --> 00:05:14,860
+ today so please join me in welcoming
+
+82
+00:05:11,350 --> 00:05:14,860
+ 
+
+83
+00:05:11,360 --> 00:05:14,860
+ professor Michael Levin
+
+84
+00:05:19,560 --> 00:05:19,560
+ 
+
+85
+00:05:19,570 --> 00:05:24,410
+ thank you so much and I'm really excited
+
+86
+00:05:22,300 --> 00:05:24,410
+ 
+
+87
+00:05:22,310 --> 00:05:27,110
+ to be able to present this work to a new
+
+88
+00:05:24,400 --> 00:05:27,110
+ 
+
+89
+00:05:24,410 --> 00:05:29,360
+ audience and I'm gonna give you the main
+
+90
+00:05:27,100 --> 00:05:29,360
+ 
+
+91
+00:05:27,110 --> 00:05:31,010
+ message of my talk right up front what I
+
+92
+00:05:29,350 --> 00:05:31,010
+ 
+
+93
+00:05:29,360 --> 00:05:33,080
+ would like to tell you about is that
+
+94
+00:05:31,000 --> 00:05:33,080
+ 
+
+95
+00:05:31,010 --> 00:05:35,300
+ biology has been computing at many
+
+96
+00:05:33,070 --> 00:05:35,300
+ 
+
+97
+00:05:33,080 --> 00:05:37,520
+ scales long before brains came on the
+
+98
+00:05:35,290 --> 00:05:37,520
+ 
+
+99
+00:05:35,300 --> 00:05:40,070
+ scene and then actually decision-making
+
+100
+00:05:37,510 --> 00:05:40,070
+ 
+
+101
+00:05:37,520 --> 00:05:42,380
+ and all body tissues are mediated by an
+
+102
+00:05:40,060 --> 00:05:42,380
+ 
+
+103
+00:05:40,070 --> 00:05:44,240
+ ancient pre neural electrical network
+
+104
+00:05:42,370 --> 00:05:44,240
+ 
+
+105
+00:05:42,380 --> 00:05:46,550
+ that is made up of all cells not just
+
+106
+00:05:44,230 --> 00:05:46,550
+ 
+
+107
+00:05:44,240 --> 00:05:48,860
+ neurons and so I think that exploiting
+
+108
+00:05:46,540 --> 00:05:48,860
+ 
+
+109
+00:05:46,550 --> 00:05:50,750
+ this kind of non neural cognition is an
+
+110
+00:05:48,850 --> 00:05:50,750
+ 
+
+111
+00:05:48,860 --> 00:05:52,190
+ exciting untapped frontier for the
+
+112
+00:05:50,740 --> 00:05:52,190
+ 
+
+113
+00:05:50,750 --> 00:05:53,930
+ development of new robust AI
+
+114
+00:05:52,180 --> 00:05:53,930
+ 
+
+115
+00:05:52,190 --> 00:05:55,070
+ technologies and I'm very interested in
+
+116
+00:05:53,920 --> 00:05:55,070
+ 
+
+117
+00:05:53,930 --> 00:05:57,320
+ talking to people about these
+
+118
+00:05:55,060 --> 00:05:57,320
+ 
+
+119
+00:05:55,070 --> 00:05:58,669
+ possibilities we're looking for experts
+
+120
+00:05:57,310 --> 00:05:58,669
+ 
+
+121
+00:05:57,320 --> 00:06:00,470
+ in machine learning to collaborate with
+
+122
+00:05:58,659 --> 00:06:00,470
+ 
+
+123
+00:05:58,669 --> 00:06:02,450
+ us to take dielectrics beyond
+
+124
+00:06:00,460 --> 00:06:02,450
+ 
+
+125
+00:06:00,470 --> 00:06:04,820
+ regenerative medicine and towards many
+
+126
+00:06:02,440 --> 00:06:04,820
+ 
+
+127
+00:06:02,450 --> 00:06:06,020
+ new exciting applications so the first
+
+128
+00:06:04,810 --> 00:06:06,020
+ 
+
+129
+00:06:04,820 --> 00:06:07,900
+ thing I would like to do is talk to you
+
+130
+00:06:06,010 --> 00:06:07,900
+ 
+
+131
+00:06:06,020 --> 00:06:12,350
+ a little bit about brain body plasticity
+
+132
+00:06:07,890 --> 00:06:12,350
+ 
+
+133
+00:06:07,900 --> 00:06:13,910
+ - and then to bring to you some examples
+
+134
+00:06:12,340 --> 00:06:13,910
+ 
+
+135
+00:06:12,350 --> 00:06:16,910
+ of somatic cognition in the body
+
+136
+00:06:13,900 --> 00:06:16,910
+ 
+
+137
+00:06:13,910 --> 00:06:19,760
+ decision-making during the self editing
+
+138
+00:06:16,900 --> 00:06:19,760
+ 
+
+139
+00:06:16,910 --> 00:06:21,350
+ of complex anatomies and then we'll talk
+
+140
+00:06:19,750 --> 00:06:21,350
+ 
+
+141
+00:06:19,760 --> 00:06:23,060
+ about bioelectric mechanisms that
+
+142
+00:06:21,340 --> 00:06:23,060
+ 
+
+143
+00:06:21,350 --> 00:06:25,550
+ underlie the ability of cells and
+
+144
+00:06:23,050 --> 00:06:25,550
+ 
+
+145
+00:06:23,060 --> 00:06:27,530
+ tissues to remodel towards large scale
+
+146
+00:06:25,540 --> 00:06:27,530
+ 
+
+147
+00:06:25,550 --> 00:06:29,120
+ goals and then I'll talk about the what
+
+148
+00:06:27,520 --> 00:06:29,120
+ 
+
+149
+00:06:27,530 --> 00:06:32,840
+ I think is the future of regenerative
+
+150
+00:06:29,110 --> 00:06:32,840
+ 
+
+151
+00:06:29,120 --> 00:06:35,960
+ medicine and an AI and related issues so
+
+152
+00:06:32,830 --> 00:06:35,960
+ 
+
+153
+00:06:32,840 --> 00:06:38,780
+ let's talk about plasticity caterpillar
+
+154
+00:06:35,950 --> 00:06:38,780
+ 
+
+155
+00:06:35,960 --> 00:06:40,820
+ start out life as a soft body robot that
+
+156
+00:06:38,770 --> 00:06:40,820
+ 
+
+157
+00:06:38,780 --> 00:06:43,070
+ crawls and choose plants during
+
+158
+00:06:40,810 --> 00:06:43,070
+ 
+
+159
+00:06:40,820 --> 00:06:44,570
+ metamorphosis its nervous system and
+
+160
+00:06:43,060 --> 00:06:44,570
+ 
+
+161
+00:06:43,070 --> 00:06:46,550
+ including its brain is basically
+
+162
+00:06:44,560 --> 00:06:46,550
+ 
+
+163
+00:06:44,570 --> 00:06:48,740
+ liquefied it's taken apart and then
+
+164
+00:06:46,540 --> 00:06:48,740
+ 
+
+165
+00:06:46,550 --> 00:06:51,440
+ reassembled into a completely different
+
+166
+00:06:48,730 --> 00:06:51,440
+ 
+
+167
+00:06:48,740 --> 00:06:53,930
+ brain that is able to run a hard robot
+
+168
+00:06:51,430 --> 00:06:53,930
+ 
+
+169
+00:06:51,440 --> 00:06:55,910
+ which flies and drinks nectar during
+
+170
+00:06:53,920 --> 00:06:55,910
+ 
+
+171
+00:06:53,930 --> 00:06:58,310
+ this process of complete nervous system
+
+172
+00:06:55,900 --> 00:06:58,310
+ 
+
+173
+00:06:55,910 --> 00:07:00,320
+ take up tape being taken apart and
+
+174
+00:06:58,300 --> 00:07:00,320
+ 
+
+175
+00:06:58,310 --> 00:07:02,360
+ putting back together the memories in
+
+176
+00:07:00,310 --> 00:07:02,360
+ 
+
+177
+00:07:00,320 --> 00:07:04,430
+ fact remain so things that the butter
+
+178
+00:07:02,350 --> 00:07:04,430
+ 
+
+179
+00:07:02,360 --> 00:07:06,020
+ that the caterpillar has learned the
+
+180
+00:07:04,420 --> 00:07:06,020
+ 
+
+181
+00:07:04,430 --> 00:07:07,250
+ butterfly will still remember and this
+
+182
+00:07:06,010 --> 00:07:07,250
+ 
+
+183
+00:07:06,020 --> 00:07:09,139
+ has been this has been as well
+
+184
+00:07:07,240 --> 00:07:09,139
+ 
+
+185
+00:07:07,250 --> 00:07:11,450
+ established and so it's very interesting
+
+186
+00:07:09,129 --> 00:07:11,450
+ 
+
+187
+00:07:09,139 --> 00:07:13,669
+ to be to start to think about how it is
+
+188
+00:07:11,440 --> 00:07:13,669
+ 
+
+189
+00:07:11,450 --> 00:07:15,080
+ that information can be stored in the
+
+190
+00:07:13,659 --> 00:07:15,080
+ 
+
+191
+00:07:13,669 --> 00:07:18,200
+ medium that is undergoing radical
+
+192
+00:07:15,070 --> 00:07:18,200
+ 
+
+193
+00:07:15,080 --> 00:07:20,389
+ deformation in work that we've done a
+
+194
+00:07:18,190 --> 00:07:20,389
+ 
+
+195
+00:07:18,200 --> 00:07:21,950
+ few years ago we show that planaria
+
+196
+00:07:20,379 --> 00:07:21,950
+ 
+
+197
+00:07:20,389 --> 00:07:23,780
+ these are the flatworms that you see
+
+198
+00:07:21,940 --> 00:07:23,780
+ 
+
+199
+00:07:21,950 --> 00:07:25,340
+ here they have this amazing property
+
+200
+00:07:23,770 --> 00:07:25,340
+ 
+
+201
+00:07:23,780 --> 00:07:27,110
+ that if you cut off their head or in
+
+202
+00:07:25,330 --> 00:07:27,110
+ 
+
+203
+00:07:25,340 --> 00:07:28,849
+ fact any part of their body they will
+
+204
+00:07:27,100 --> 00:07:28,849
+ 
+
+205
+00:07:27,110 --> 00:07:30,860
+ regenerate it they regrow their brain
+
+206
+00:07:28,839 --> 00:07:30,860
+ 
+
+207
+00:07:28,849 --> 00:07:32,030
+ and all the other organs so if you train
+
+208
+00:07:30,850 --> 00:07:32,030
+ 
+
+209
+00:07:30,860 --> 00:07:34,430
+ a flatworm to wreck
+
+210
+00:07:32,020 --> 00:07:34,430
+ 
+
+211
+00:07:32,030 --> 00:07:36,320
+ a particular location as being its home
+
+212
+00:07:34,420 --> 00:07:36,320
+ 
+
+213
+00:07:34,430 --> 00:07:38,480
+ environment and then you amputate the
+
+214
+00:07:36,310 --> 00:07:38,480
+ 
+
+215
+00:07:36,320 --> 00:07:40,430
+ brain you leave the tail and let it
+
+216
+00:07:38,470 --> 00:07:40,430
+ 
+
+217
+00:07:38,480 --> 00:07:42,290
+ regenerate a new head here what you
+
+218
+00:07:40,420 --> 00:07:42,290
+ 
+
+219
+00:07:40,430 --> 00:07:44,420
+ discover is that again these these
+
+220
+00:07:42,280 --> 00:07:44,420
+ 
+
+221
+00:07:42,290 --> 00:07:46,970
+ memories are intact so the memory of
+
+222
+00:07:44,410 --> 00:07:46,970
+ 
+
+223
+00:07:44,420 --> 00:07:49,250
+ this in this animal is in some way
+
+224
+00:07:46,960 --> 00:07:49,250
+ 
+
+225
+00:07:46,970 --> 00:07:51,560
+ imprinted on the new brain that develops
+
+226
+00:07:49,240 --> 00:07:51,560
+ 
+
+227
+00:07:49,250 --> 00:07:54,050
+ after regeneration and it challenges us
+
+228
+00:07:51,550 --> 00:07:54,050
+ 
+
+229
+00:07:51,560 --> 00:07:57,890
+ to try to understand how encoding and
+
+230
+00:07:54,040 --> 00:07:57,890
+ 
+
+231
+00:07:54,050 --> 00:08:00,790
+ decoding of complex complex memories and
+
+232
+00:07:57,880 --> 00:08:00,790
+ 
+
+233
+00:07:57,890 --> 00:08:02,840
+ learned behaviors for is able to be
+
+234
+00:08:00,780 --> 00:08:02,840
+ 
+
+235
+00:08:00,790 --> 00:08:04,790
+ propagated across this kind of radical
+
+236
+00:08:02,830 --> 00:08:04,790
+ 
+
+237
+00:08:02,840 --> 00:08:06,590
+ reconstruction of the of the memory
+
+238
+00:08:04,780 --> 00:08:06,590
+ 
+
+239
+00:08:04,790 --> 00:08:07,940
+ medium and in fact when we published
+
+240
+00:08:06,580 --> 00:08:07,940
+ 
+
+241
+00:08:06,590 --> 00:08:09,920
+ this a few years ago actually we weren't
+
+242
+00:08:07,930 --> 00:08:09,920
+ 
+
+243
+00:08:07,940 --> 00:08:12,380
+ the ones to discover this this was first
+
+244
+00:08:09,910 --> 00:08:12,380
+ 
+
+245
+00:08:09,920 --> 00:08:14,900
+ discovered by a guy named McConnell in
+
+246
+00:08:12,370 --> 00:08:14,900
+ 
+
+247
+00:08:12,380 --> 00:08:16,490
+ the 60s but we people hadn't really
+
+248
+00:08:14,890 --> 00:08:16,490
+ 
+
+249
+00:08:14,900 --> 00:08:18,080
+ looked at this for years and people got
+
+250
+00:08:16,480 --> 00:08:18,080
+ 
+
+251
+00:08:16,490 --> 00:08:20,270
+ pretty excited as you can see here I'm
+
+252
+00:08:18,070 --> 00:08:20,270
+ 
+
+253
+00:08:18,080 --> 00:08:22,160
+ on the internet when we've when we first
+
+254
+00:08:20,260 --> 00:08:22,160
+ 
+
+255
+00:08:20,270 --> 00:08:25,760
+ showed that this that this was possible
+
+256
+00:08:22,150 --> 00:08:25,760
+ 
+
+257
+00:08:22,160 --> 00:08:28,840
+ and going beyond the sort of brain body
+
+258
+00:08:25,750 --> 00:08:28,840
+ 
+
+259
+00:08:25,760 --> 00:08:31,220
+ interface and the question of how the
+
+260
+00:08:28,830 --> 00:08:31,220
+ 
+
+261
+00:08:28,840 --> 00:08:33,020
+ programs of the of the behavioral
+
+262
+00:08:31,210 --> 00:08:33,020
+ 
+
+263
+00:08:31,220 --> 00:08:35,150
+ programs of the brain interact with the
+
+264
+00:08:33,010 --> 00:08:35,150
+ 
+
+265
+00:08:33,020 --> 00:08:37,460
+ structures of the body I want to talk to
+
+266
+00:08:35,140 --> 00:08:37,460
+ 
+
+267
+00:08:35,150 --> 00:08:40,400
+ you about this kind of self editing of
+
+268
+00:08:37,450 --> 00:08:40,400
+ 
+
+269
+00:08:37,460 --> 00:08:43,250
+ anatomy there are many different types
+
+270
+00:08:40,390 --> 00:08:43,250
+ 
+
+271
+00:08:40,400 --> 00:08:45,410
+ of cognition from from very simple ones
+
+272
+00:08:43,240 --> 00:08:45,410
+ 
+
+273
+00:08:43,250 --> 00:08:47,600
+ to all the way through the kinds of
+
+274
+00:08:45,400 --> 00:08:47,600
+ 
+
+275
+00:08:45,410 --> 00:08:49,130
+ complex things that we hope to mimic
+
+276
+00:08:47,590 --> 00:08:49,130
+ 
+
+277
+00:08:47,600 --> 00:08:51,680
+ with machine learning and artificial
+
+278
+00:08:49,120 --> 00:08:51,680
+ 
+
+279
+00:08:49,130 --> 00:08:54,290
+ intelligence and there are all sorts of
+
+280
+00:08:51,670 --> 00:08:54,290
+ 
+
+281
+00:08:51,680 --> 00:08:56,930
+ living creatures that are able to
+
+282
+00:08:54,280 --> 00:08:56,930
+ 
+
+283
+00:08:54,290 --> 00:08:59,930
+ perform functions that are at various
+
+284
+00:08:56,920 --> 00:08:59,930
+ 
+
+285
+00:08:56,930 --> 00:09:02,360
+ places on this ladder of cognition so
+
+286
+00:08:59,920 --> 00:09:02,360
+ 
+
+287
+00:08:59,930 --> 00:09:03,740
+ one example for is here shown by this
+
+288
+00:09:02,350 --> 00:09:03,740
+ 
+
+289
+00:09:02,360 --> 00:09:05,870
+ unicellular creature called the
+
+290
+00:09:03,730 --> 00:09:05,870
+ 
+
+291
+00:09:03,740 --> 00:09:07,550
+ lacrimarum if you're interested in soft
+
+292
+00:09:05,860 --> 00:09:07,550
+ 
+
+293
+00:09:05,870 --> 00:09:11,360
+ body robotics take a look at this this
+
+294
+00:09:07,540 --> 00:09:11,360
+ 
+
+295
+00:09:07,550 --> 00:09:13,670
+ is a single cell okay and this organism
+
+296
+00:09:11,350 --> 00:09:13,670
+ 
+
+297
+00:09:11,360 --> 00:09:15,170
+ handles its physiology its patterning
+
+298
+00:09:13,660 --> 00:09:15,170
+ 
+
+299
+00:09:13,670 --> 00:09:16,910
+ look at the incredible control it has
+
+300
+00:09:15,160 --> 00:09:16,910
+ 
+
+301
+00:09:15,170 --> 00:09:19,370
+ this is real time by the way this is not
+
+302
+00:09:16,900 --> 00:09:19,370
+ 
+
+303
+00:09:16,910 --> 00:09:21,940
+ sped up so look at the amazing control
+
+304
+00:09:19,360 --> 00:09:21,940
+ 
+
+305
+00:09:19,370 --> 00:09:24,500
+ that this has over its structure as it
+
+306
+00:09:21,930 --> 00:09:24,500
+ 
+
+307
+00:09:21,940 --> 00:09:25,970
+ collects bacteria and as it's basically
+
+308
+00:09:24,490 --> 00:09:25,970
+ 
+
+309
+00:09:24,500 --> 00:09:28,520
+ hunting and eating at the different
+
+310
+00:09:25,960 --> 00:09:28,520
+ 
+
+311
+00:09:25,970 --> 00:09:31,100
+ other microorganisms in this environment
+
+312
+00:09:28,510 --> 00:09:31,100
+ 
+
+313
+00:09:28,520 --> 00:09:33,230
+ but behavior structural control and
+
+314
+00:09:31,090 --> 00:09:33,230
+ 
+
+315
+00:09:31,100 --> 00:09:35,330
+ physiology all in one cell there is no
+
+316
+00:09:33,220 --> 00:09:35,330
+ 
+
+317
+00:09:33,230 --> 00:09:38,240
+ brain here as such and so unicellular
+
+318
+00:09:35,320 --> 00:09:38,240
+ 
+
+319
+00:09:35,330 --> 00:09:40,610
+ organisms and single cells can be
+
+320
+00:09:38,230 --> 00:09:40,610
+ 
+
+321
+00:09:38,240 --> 00:09:44,660
+ incredibly competent at all sorts of
+
+322
+00:09:40,600 --> 00:09:44,660
+ 
+
+323
+00:09:40,610 --> 00:09:45,560
+ interesting goals now when cells joined
+
+324
+00:09:44,650 --> 00:09:45,560
+ 
+
+325
+00:09:44,660 --> 00:09:48,050
+ to become
+
+326
+00:09:45,550 --> 00:09:48,050
+ 
+
+327
+00:09:45,560 --> 00:09:50,029
+ multicellular bodies complex anatomical
+
+328
+00:09:48,040 --> 00:09:50,029
+ 
+
+329
+00:09:48,050 --> 00:09:52,010
+ structures they did not lose this
+
+330
+00:09:50,019 --> 00:09:52,010
+ 
+
+331
+00:09:50,029 --> 00:09:53,600
+ ability to make decisions and to have
+
+332
+00:09:52,000 --> 00:09:53,600
+ 
+
+333
+00:09:52,010 --> 00:09:55,610
+ complex behaviors what you're seeing
+
+334
+00:09:53,590 --> 00:09:55,610
+ 
+
+335
+00:09:53,600 --> 00:09:57,560
+ here on the left is a frog embryo
+
+336
+00:09:55,600 --> 00:09:57,560
+ 
+
+337
+00:09:55,610 --> 00:09:59,870
+ developing and so these cells cooperate
+
+338
+00:09:57,550 --> 00:09:59,870
+ 
+
+339
+00:09:57,560 --> 00:10:01,940
+ to build a very complex structure on the
+
+340
+00:09:59,860 --> 00:10:01,940
+ 
+
+341
+00:09:59,870 --> 00:10:04,279
+ right you're seeing the development of a
+
+342
+00:10:01,930 --> 00:10:04,279
+ 
+
+343
+00:10:01,940 --> 00:10:06,470
+ nervous system in zebrafish and so all
+
+344
+00:10:04,269 --> 00:10:06,470
+ 
+
+345
+00:10:04,279 --> 00:10:08,960
+ of these cells are now working together
+
+346
+00:10:06,460 --> 00:10:08,960
+ 
+
+347
+00:10:06,470 --> 00:10:11,060
+ to build a structure that's much larger
+
+348
+00:10:08,950 --> 00:10:11,060
+ 
+
+349
+00:10:08,960 --> 00:10:13,940
+ than the single cell boundary of their
+
+350
+00:10:11,050 --> 00:10:13,940
+ 
+
+351
+00:10:11,060 --> 00:10:14,990
+ immediate surface and we need to
+
+352
+00:10:13,930 --> 00:10:14,990
+ 
+
+353
+00:10:13,940 --> 00:10:17,810
+ understand how this works
+
+354
+00:10:14,980 --> 00:10:17,810
+ 
+
+355
+00:10:14,990 --> 00:10:20,830
+ all of us started life as a single cell
+
+356
+00:10:17,800 --> 00:10:20,830
+ 
+
+357
+00:10:17,810 --> 00:10:23,420
+ a single fertilized egg and through this
+
+358
+00:10:20,820 --> 00:10:23,420
+ 
+
+359
+00:10:20,830 --> 00:10:26,300
+ process of embryonic development these
+
+360
+00:10:23,410 --> 00:10:26,300
+ 
+
+361
+00:10:23,420 --> 00:10:28,190
+ complex forms are able to be reliably
+
+362
+00:10:26,290 --> 00:10:28,190
+ 
+
+363
+00:10:26,300 --> 00:10:30,950
+ generated so all of these remarkable
+
+364
+00:10:28,180 --> 00:10:30,950
+ 
+
+365
+00:10:28,190 --> 00:10:32,240
+ complex anatomies and it's very
+
+366
+00:10:30,940 --> 00:10:32,240
+ 
+
+367
+00:10:30,950 --> 00:10:34,010
+ important that we understand that this
+
+368
+00:10:32,230 --> 00:10:34,010
+ 
+
+369
+00:10:32,240 --> 00:10:36,529
+ is not just a process that's going to be
+
+370
+00:10:34,000 --> 00:10:36,529
+ 
+
+371
+00:10:34,010 --> 00:10:38,960
+ solved by stem cell biology because stem
+
+372
+00:10:36,519 --> 00:10:38,960
+ 
+
+373
+00:10:36,529 --> 00:10:41,029
+ cells are able to generate all of the
+
+374
+00:10:38,950 --> 00:10:41,029
+ 
+
+375
+00:10:38,960 --> 00:10:42,470
+ individual tissues that are needed
+
+376
+00:10:41,019 --> 00:10:42,470
+ 
+
+377
+00:10:41,029 --> 00:10:44,060
+ foreign organisms of what you see here
+
+378
+00:10:42,460 --> 00:10:44,060
+ 
+
+379
+00:10:42,470 --> 00:10:46,970
+ there's something called the teratoma
+
+380
+00:10:44,050 --> 00:10:46,970
+ 
+
+381
+00:10:44,060 --> 00:10:49,910
+ this is a tumor that has hair and teeth
+
+382
+00:10:46,960 --> 00:10:49,910
+ 
+
+383
+00:10:46,970 --> 00:10:51,980
+ and skin and muscle and so all of the
+
+384
+00:10:49,900 --> 00:10:51,980
+ 
+
+385
+00:10:49,910 --> 00:10:53,510
+ stem cell differentiation has gone okay
+
+386
+00:10:51,970 --> 00:10:53,510
+ 
+
+387
+00:10:51,980 --> 00:10:55,850
+ but what's missing is the large-scale
+
+388
+00:10:53,500 --> 00:10:55,850
+ 
+
+389
+00:10:53,510 --> 00:10:57,500
+ 3-dimensional structure so one of the
+
+390
+00:10:55,840 --> 00:10:57,500
+ 
+
+391
+00:10:55,850 --> 00:10:59,360
+ important things we need to understand
+
+392
+00:10:57,490 --> 00:10:59,360
+ 
+
+393
+00:10:57,500 --> 00:11:01,640
+ is how do cells decide what they're
+
+394
+00:10:59,350 --> 00:11:01,640
+ 
+
+395
+00:10:59,360 --> 00:11:03,920
+ going to build and how do they implement
+
+396
+00:11:01,630 --> 00:11:03,920
+ 
+
+397
+00:11:01,640 --> 00:11:07,190
+ that construction and so the sort of
+
+398
+00:11:03,910 --> 00:11:07,190
+ 
+
+399
+00:11:03,920 --> 00:11:08,630
+ standard story that people are taught in
+
+400
+00:11:07,180 --> 00:11:08,630
+ 
+
+401
+00:11:07,190 --> 00:11:09,950
+ developmental biology is that there's
+
+402
+00:11:08,620 --> 00:11:09,950
+ 
+
+403
+00:11:08,630 --> 00:11:12,320
+ this kind of open-loop feed-forward
+
+404
+00:11:09,940 --> 00:11:12,320
+ 
+
+405
+00:11:09,950 --> 00:11:14,690
+ system where gene regulatory networks
+
+406
+00:11:12,310 --> 00:11:14,690
+ 
+
+407
+00:11:12,320 --> 00:11:16,100
+ give rise to proteins and then through
+
+408
+00:11:14,680 --> 00:11:16,100
+ 
+
+409
+00:11:14,690 --> 00:11:17,800
+ some physics when these proteins
+
+410
+00:11:16,090 --> 00:11:17,800
+ 
+
+411
+00:11:16,100 --> 00:11:19,880
+ interact with each other in the cells
+
+412
+00:11:17,790 --> 00:11:19,880
+ 
+
+413
+00:11:17,800 --> 00:11:22,040
+ perform various functions there's this
+
+414
+00:11:19,870 --> 00:11:22,040
+ 
+
+415
+00:11:19,880 --> 00:11:24,500
+ emergent process that give rise to
+
+416
+00:11:22,030 --> 00:11:24,500
+ 
+
+417
+00:11:22,040 --> 00:11:26,510
+ complex Anatomy but it's actually much
+
+418
+00:11:24,490 --> 00:11:26,510
+ 
+
+419
+00:11:24,500 --> 00:11:30,380
+ more interesting than that first of all
+
+420
+00:11:26,500 --> 00:11:30,380
+ 
+
+421
+00:11:26,510 --> 00:11:33,650
+ all kinds of embryonic species are
+
+422
+00:11:30,370 --> 00:11:33,650
+ 
+
+423
+00:11:30,380 --> 00:11:35,330
+ highly have highly regulated development
+
+424
+00:11:33,640 --> 00:11:35,330
+ 
+
+425
+00:11:33,650 --> 00:11:37,520
+ in the sense that if there's a massive
+
+426
+00:11:35,320 --> 00:11:37,520
+ 
+
+427
+00:11:35,330 --> 00:11:39,680
+ perturbation they can make up for it so
+
+428
+00:11:37,510 --> 00:11:39,680
+ 
+
+429
+00:11:37,520 --> 00:11:41,959
+ for example here is an early mammalian
+
+430
+00:11:39,670 --> 00:11:41,959
+ 
+
+431
+00:11:39,680 --> 00:11:44,029
+ embryo you can cut it in half and each
+
+432
+00:11:41,949 --> 00:11:44,029
+ 
+
+433
+00:11:41,959 --> 00:11:45,470
+ half will rebuild the other missing half
+
+434
+00:11:44,019 --> 00:11:45,470
+ 
+
+435
+00:11:44,029 --> 00:11:47,810
+ this is how you get perfectly normal
+
+436
+00:11:45,460 --> 00:11:47,810
+ 
+
+437
+00:11:45,470 --> 00:11:50,150
+ monozygotic twins the opposite is
+
+438
+00:11:47,800 --> 00:11:50,150
+ 
+
+439
+00:11:47,810 --> 00:11:51,740
+ possible too you can take two mammalian
+
+440
+00:11:50,140 --> 00:11:51,740
+ 
+
+441
+00:11:50,150 --> 00:11:53,480
+ embryos mush them together like a
+
+442
+00:11:51,730 --> 00:11:53,480
+ 
+
+443
+00:11:51,740 --> 00:11:55,490
+ snowball here these mouse embryos and
+
+444
+00:11:53,470 --> 00:11:55,490
+ 
+
+445
+00:11:53,480 --> 00:11:56,959
+ what you get is a perfectly normal Mouse
+
+446
+00:11:55,480 --> 00:11:56,959
+ 
+
+447
+00:11:55,490 --> 00:11:58,490
+ we would love to have technology
+
+448
+00:11:56,949 --> 00:11:58,490
+ 
+
+449
+00:11:56,959 --> 00:11:59,270
+ obviously that has this degree of
+
+450
+00:11:58,480 --> 00:11:59,270
+ 
+
+451
+00:11:58,490 --> 00:12:00,920
+ plasticity
+
+452
+00:11:59,260 --> 00:12:00,920
+ 
+
+453
+00:11:59,270 --> 00:12:03,740
+ that can make up for such radical
+
+454
+00:12:00,910 --> 00:12:03,740
+ 
+
+455
+00:12:00,920 --> 00:12:05,990
+ deformations now this is not only an
+
+456
+00:12:03,730 --> 00:12:05,990
+ 
+
+457
+00:12:03,740 --> 00:12:08,060
+ embryonic phenomenon the process of
+
+458
+00:12:05,980 --> 00:12:08,060
+ 
+
+459
+00:12:05,990 --> 00:12:10,910
+ regeneration such as the salamanders
+
+460
+00:12:08,050 --> 00:12:10,910
+ 
+
+461
+00:12:08,060 --> 00:12:12,530
+ have is able to rebuild complex large
+
+462
+00:12:10,900 --> 00:12:12,530
+ 
+
+463
+00:12:10,910 --> 00:12:14,900
+ structures during adulthood
+
+464
+00:12:12,520 --> 00:12:14,900
+ 
+
+465
+00:12:12,530 --> 00:12:17,390
+ so here's an axolotl a salamander that
+
+466
+00:12:14,890 --> 00:12:17,390
+ 
+
+467
+00:12:14,900 --> 00:12:19,940
+ can regenerate its eyes its jaws its
+
+468
+00:12:17,380 --> 00:12:19,940
+ 
+
+469
+00:12:17,390 --> 00:12:21,980
+ limbs its spinal cord its ovaries and
+
+470
+00:12:19,930 --> 00:12:21,980
+ 
+
+471
+00:12:19,940 --> 00:12:24,260
+ portions of the brain so as an adult
+
+472
+00:12:21,970 --> 00:12:24,260
+ 
+
+473
+00:12:21,980 --> 00:12:26,270
+ this thing can rebuild very complex
+
+474
+00:12:24,250 --> 00:12:26,270
+ 
+
+475
+00:12:24,260 --> 00:12:28,400
+ structures throughout its life the most
+
+476
+00:12:26,260 --> 00:12:28,400
+ 
+
+477
+00:12:26,270 --> 00:12:30,170
+ amazing thing about regeneration is not
+
+478
+00:12:28,390 --> 00:12:30,170
+ 
+
+479
+00:12:28,400 --> 00:12:32,030
+ that it's able to start it's that it
+
+480
+00:12:30,160 --> 00:12:32,030
+ 
+
+481
+00:12:30,170 --> 00:12:34,210
+ knows when to stop all of these
+
+482
+00:12:32,020 --> 00:12:34,210
+ 
+
+483
+00:12:32,030 --> 00:12:35,870
+ structures after the correct anatomical
+
+484
+00:12:34,200 --> 00:12:35,870
+ 
+
+485
+00:12:34,210 --> 00:12:37,910
+ component has been rebuilt
+
+486
+00:12:35,860 --> 00:12:37,910
+ 
+
+487
+00:12:35,870 --> 00:12:39,860
+ then further growth and remodeling
+
+488
+00:12:37,900 --> 00:12:39,860
+ 
+
+489
+00:12:37,910 --> 00:12:42,410
+ ceases and this is very poorly
+
+490
+00:12:39,850 --> 00:12:42,410
+ 
+
+491
+00:12:39,860 --> 00:12:44,660
+ understood how it knows when to stop I
+
+492
+00:12:42,400 --> 00:12:44,660
+ 
+
+493
+00:12:42,410 --> 00:12:45,980
+ want to introduce you to another animal
+
+494
+00:12:44,650 --> 00:12:45,980
+ 
+
+495
+00:12:44,660 --> 00:12:47,510
+ that you'll see more of later in the
+
+496
+00:12:45,970 --> 00:12:47,510
+ 
+
+497
+00:12:45,980 --> 00:12:49,010
+ talk this is a planarian that same
+
+498
+00:12:47,500 --> 00:12:49,010
+ 
+
+499
+00:12:47,510 --> 00:12:52,100
+ flatworm i mentioned a minute ago
+
+500
+00:12:49,000 --> 00:12:52,100
+ 
+
+501
+00:12:49,010 --> 00:12:55,130
+ these can be cut into pieces the record
+
+502
+00:12:52,090 --> 00:12:55,130
+ 
+
+503
+00:12:52,100 --> 00:12:56,690
+ is 275 and each piece there they're
+
+504
+00:12:55,120 --> 00:12:56,690
+ 
+
+505
+00:12:55,130 --> 00:12:58,790
+ about a 2 centimeters long by the way
+
+506
+00:12:56,680 --> 00:12:58,790
+ 
+
+507
+00:12:56,690 --> 00:13:01,130
+ and each of these pieces will regrow
+
+508
+00:12:58,780 --> 00:13:01,130
+ 
+
+509
+00:12:58,790 --> 00:13:03,200
+ exactly what's needed no more no less
+
+510
+00:13:01,120 --> 00:13:03,200
+ 
+
+511
+00:13:01,130 --> 00:13:04,850
+ to make a perfect worm every piece of
+
+512
+00:13:03,190 --> 00:13:04,850
+ 
+
+513
+00:13:03,200 --> 00:13:06,800
+ this animal knows exactly what the
+
+514
+00:13:04,840 --> 00:13:06,800
+ 
+
+515
+00:13:04,850 --> 00:13:08,600
+ correct worm looks like and in fact the
+
+516
+00:13:06,790 --> 00:13:08,600
+ 
+
+517
+00:13:06,800 --> 00:13:10,310
+ regenerative properties are so
+
+518
+00:13:08,590 --> 00:13:10,310
+ 
+
+519
+00:13:08,600 --> 00:13:12,680
+ remarkable that they've conquered aging
+
+520
+00:13:10,300 --> 00:13:12,680
+ 
+
+521
+00:13:10,310 --> 00:13:14,750
+ these worms are literally immortal the
+
+522
+00:13:12,670 --> 00:13:14,750
+ 
+
+523
+00:13:12,680 --> 00:13:16,190
+ individual cells will senescent die but
+
+524
+00:13:14,740 --> 00:13:16,190
+ 
+
+525
+00:13:14,750 --> 00:13:17,750
+ the animal as a whole continues to
+
+526
+00:13:16,180 --> 00:13:17,750
+ 
+
+527
+00:13:16,190 --> 00:13:20,810
+ regenerate them and there is no such
+
+528
+00:13:17,740 --> 00:13:20,810
+ 
+
+529
+00:13:17,750 --> 00:13:22,430
+ thing as an old planarian so now
+
+530
+00:13:20,800 --> 00:13:22,430
+ 
+
+531
+00:13:20,810 --> 00:13:25,220
+ regeneration is not just for so-called
+
+532
+00:13:22,420 --> 00:13:25,220
+ 
+
+533
+00:13:22,430 --> 00:13:27,830
+ lower animals the human liver is highly
+
+534
+00:13:25,210 --> 00:13:27,830
+ 
+
+535
+00:13:25,220 --> 00:13:30,620
+ regenerative deer will regrow their
+
+536
+00:13:27,820 --> 00:13:30,620
+ 
+
+537
+00:13:27,830 --> 00:13:32,300
+ antlers or bone highly innervated bone
+
+538
+00:13:30,610 --> 00:13:32,300
+ 
+
+539
+00:13:30,620 --> 00:13:34,700
+ up to a rate of a centimeter and a half
+
+540
+00:13:32,290 --> 00:13:34,700
+ 
+
+541
+00:13:32,300 --> 00:13:36,680
+ per day of new bone growth every year
+
+542
+00:13:34,690 --> 00:13:36,680
+ 
+
+543
+00:13:34,700 --> 00:13:38,510
+ and you may or may not know that human
+
+544
+00:13:36,670 --> 00:13:38,510
+ 
+
+545
+00:13:36,680 --> 00:13:40,970
+ children below the age of approximately
+
+546
+00:13:38,500 --> 00:13:40,970
+ 
+
+547
+00:13:38,510 --> 00:13:42,560
+ 7 to 11 are able to regenerate their
+
+548
+00:13:40,960 --> 00:13:42,560
+ 
+
+549
+00:13:40,970 --> 00:13:45,950
+ fingertips and this was discovered in
+
+550
+00:13:42,550 --> 00:13:45,950
+ 
+
+551
+00:13:42,560 --> 00:13:47,960
+ the 70s but then this ability ceases
+
+552
+00:13:45,940 --> 00:13:47,960
+ 
+
+553
+00:13:45,950 --> 00:13:52,340
+ with age so most of you shouldn't
+
+554
+00:13:47,950 --> 00:13:52,340
+ 
+
+555
+00:13:47,960 --> 00:13:54,380
+ shouldn't try this so what we what we
+
+556
+00:13:52,330 --> 00:13:54,380
+ 
+
+557
+00:13:52,340 --> 00:13:56,360
+ see here is that actually the control
+
+558
+00:13:54,370 --> 00:13:56,360
+ 
+
+559
+00:13:54,380 --> 00:13:58,160
+ structure of this process is not an
+
+560
+00:13:56,350 --> 00:13:58,160
+ 
+
+561
+00:13:56,360 --> 00:14:00,650
+ open-loop system but actually is a
+
+562
+00:13:58,150 --> 00:14:00,650
+ 
+
+563
+00:13:58,160 --> 00:14:03,620
+ closed loop that has some very important
+
+564
+00:14:00,640 --> 00:14:03,620
+ 
+
+565
+00:14:00,650 --> 00:14:06,140
+ error detection and control functions
+
+566
+00:14:03,610 --> 00:14:06,140
+ 
+
+567
+00:14:03,620 --> 00:14:09,680
+ here where deviations from this target
+
+568
+00:14:06,130 --> 00:14:09,680
+ 
+
+569
+00:14:06,140 --> 00:14:11,690
+ morphology lead to changes both at the
+
+570
+00:14:09,670 --> 00:14:11,690
+ 
+
+571
+00:14:09,680 --> 00:14:12,860
+ transcriptional level but also at the in
+
+572
+00:14:11,680 --> 00:14:12,860
+ 
+
+573
+00:14:11,690 --> 00:14:15,290
+ the physicals in the
+
+574
+00:14:12,850 --> 00:14:15,290
+ 
+
+575
+00:14:12,860 --> 00:14:17,330
+ processes that allow sales to rebuild
+
+576
+00:14:15,280 --> 00:14:17,330
+ 
+
+577
+00:14:15,290 --> 00:14:19,520
+ and so there's this constant homeostatic
+
+578
+00:14:17,320 --> 00:14:19,520
+ 
+
+579
+00:14:17,330 --> 00:14:22,460
+ loop and one of the goals of my Center
+
+580
+00:14:19,510 --> 00:14:22,460
+ 
+
+581
+00:14:19,520 --> 00:14:24,740
+ is to target the setpoint the anatomical
+
+582
+00:14:22,450 --> 00:14:24,740
+ 
+
+583
+00:14:22,460 --> 00:14:26,750
+ set point of this homeostatic process to
+
+584
+00:14:24,730 --> 00:14:26,750
+ 
+
+585
+00:14:24,740 --> 00:14:28,580
+ be able to recess off' i what the cells
+
+586
+00:14:26,740 --> 00:14:28,580
+ 
+
+587
+00:14:26,750 --> 00:14:30,800
+ should build this is what we're working
+
+588
+00:14:28,570 --> 00:14:30,800
+ 
+
+589
+00:14:28,580 --> 00:14:34,030
+ towards we discovered several years ago
+
+590
+00:14:30,790 --> 00:14:34,030
+ 
+
+591
+00:14:30,800 --> 00:14:36,050
+ that really the capabilities of
+
+592
+00:14:34,020 --> 00:14:36,050
+ 
+
+593
+00:14:34,030 --> 00:14:38,180
+ biological things to build towards a
+
+594
+00:14:36,040 --> 00:14:38,180
+ 
+
+595
+00:14:36,050 --> 00:14:40,250
+ spec are really amazing so in in the
+
+596
+00:14:38,170 --> 00:14:40,250
+ 
+
+597
+00:14:38,180 --> 00:14:43,190
+ journey of from from a tadpole to a frog
+
+598
+00:14:40,240 --> 00:14:43,190
+ 
+
+599
+00:14:40,250 --> 00:14:44,600
+ all kinds of remodeling has to happen so
+
+600
+00:14:43,180 --> 00:14:44,600
+ 
+
+601
+00:14:43,190 --> 00:14:46,250
+ the eyes have to move together and
+
+602
+00:14:44,590 --> 00:14:46,250
+ 
+
+603
+00:14:44,600 --> 00:14:48,650
+ forward the nostrils have to move the
+
+604
+00:14:46,240 --> 00:14:48,650
+ 
+
+605
+00:14:46,250 --> 00:14:50,450
+ whole face remodels and when we made
+
+606
+00:14:48,640 --> 00:14:50,450
+ 
+
+607
+00:14:48,650 --> 00:14:51,770
+ these sort of picasso like tadpoles
+
+608
+00:14:50,440 --> 00:14:51,770
+ 
+
+609
+00:14:50,450 --> 00:14:53,750
+ where everything was in the wrong place
+
+610
+00:14:51,760 --> 00:14:53,750
+ 
+
+611
+00:14:51,770 --> 00:14:55,550
+ the i was in the back and the jaws were
+
+612
+00:14:53,740 --> 00:14:55,550
+ 
+
+613
+00:14:53,750 --> 00:14:57,260
+ off to the side the starting positions
+
+614
+00:14:55,540 --> 00:14:57,260
+ 
+
+615
+00:14:55,550 --> 00:14:59,570
+ were all off they largely still
+
+616
+00:14:57,250 --> 00:14:59,570
+ 
+
+617
+00:14:57,260 --> 00:15:03,220
+ remodeled into a perfectly normal frog
+
+618
+00:14:59,560 --> 00:15:03,220
+ 
+
+619
+00:14:59,570 --> 00:15:05,420
+ all of the organs moved in unnatural
+
+620
+00:15:03,210 --> 00:15:05,420
+ 
+
+621
+00:15:03,220 --> 00:15:07,490
+ configurations until they reached this
+
+622
+00:15:05,410 --> 00:15:07,490
+ 
+
+623
+00:15:05,420 --> 00:15:09,500
+ normal frog morphology even though their
+
+624
+00:15:07,480 --> 00:15:09,500
+ 
+
+625
+00:15:07,490 --> 00:15:11,870
+ starting positions were not the same and
+
+626
+00:15:09,490 --> 00:15:11,870
+ 
+
+627
+00:15:09,500 --> 00:15:14,600
+ so we know that what the genome encodes
+
+628
+00:15:11,860 --> 00:15:14,600
+ 
+
+629
+00:15:11,870 --> 00:15:16,700
+ is not a rote set of movements that
+
+630
+00:15:14,590 --> 00:15:16,700
+ 
+
+631
+00:15:14,600 --> 00:15:18,020
+ every organ can simply undergo and and
+
+632
+00:15:16,690 --> 00:15:18,020
+ 
+
+633
+00:15:16,700 --> 00:15:19,820
+ give rise to whatever it gives rise to
+
+634
+00:15:18,010 --> 00:15:19,820
+ 
+
+635
+00:15:18,020 --> 00:15:21,500
+ but they can actually tell when they're
+
+636
+00:15:19,810 --> 00:15:21,500
+ 
+
+637
+00:15:19,820 --> 00:15:23,740
+ in the wrong configuration and it will
+
+638
+00:15:21,490 --> 00:15:23,740
+ 
+
+639
+00:15:21,500 --> 00:15:27,080
+ keep moving until the correct pattern is
+
+640
+00:15:23,730 --> 00:15:27,080
+ 
+
+641
+00:15:23,740 --> 00:15:28,490
+ constructed and understanding this
+
+642
+00:15:27,070 --> 00:15:28,490
+ 
+
+643
+00:15:27,080 --> 00:15:31,460
+ process i taking advantage of it is
+
+644
+00:15:28,480 --> 00:15:31,460
+ 
+
+645
+00:15:28,490 --> 00:15:33,680
+ extremely important over over 50 years
+
+646
+00:15:31,450 --> 00:15:33,680
+ 
+
+647
+00:15:31,460 --> 00:15:36,200
+ ago people realize that if you take a
+
+648
+00:15:33,670 --> 00:15:36,200
+ 
+
+649
+00:15:33,680 --> 00:15:39,470
+ salamander tale and graft it onto the
+
+650
+00:15:36,190 --> 00:15:39,470
+ 
+
+651
+00:15:36,200 --> 00:15:41,600
+ edge of a limb amputation so you put a
+
+652
+00:15:39,460 --> 00:15:41,600
+ 
+
+653
+00:15:39,470 --> 00:15:43,670
+ tail where the limb ought to be over the
+
+654
+00:15:41,590 --> 00:15:43,670
+ 
+
+655
+00:15:41,600 --> 00:15:45,380
+ coming months this this structure is
+
+656
+00:15:43,660 --> 00:15:45,380
+ 
+
+657
+00:15:43,670 --> 00:15:47,480
+ actually going to be remodeled from a
+
+658
+00:15:45,370 --> 00:15:47,480
+ 
+
+659
+00:15:45,380 --> 00:15:49,640
+ tail into a limb as this whole system
+
+660
+00:15:47,470 --> 00:15:49,640
+ 
+
+661
+00:15:47,480 --> 00:15:52,100
+ seeks to restore its large-scale global
+
+662
+00:15:49,630 --> 00:15:52,100
+ 
+
+663
+00:15:49,640 --> 00:15:54,410
+ order so understand what this means this
+
+664
+00:15:52,090 --> 00:15:54,410
+ 
+
+665
+00:15:52,100 --> 00:15:56,060
+ is not an individual cell deciding it's
+
+666
+00:15:54,400 --> 00:15:56,060
+ 
+
+667
+00:15:54,410 --> 00:15:58,520
+ going to be muscle or skin or anything
+
+668
+00:15:56,050 --> 00:15:58,520
+ 
+
+669
+00:15:56,060 --> 00:16:01,250
+ else this is large-scale decision making
+
+670
+00:15:58,510 --> 00:16:01,250
+ 
+
+671
+00:15:58,520 --> 00:16:04,190
+ at the level of the entire organism and
+
+672
+00:16:01,240 --> 00:16:04,190
+ 
+
+673
+00:16:01,250 --> 00:16:07,880
+ so fundamentally this is a computational
+
+674
+00:16:04,180 --> 00:16:07,880
+ 
+
+675
+00:16:04,190 --> 00:16:10,330
+ problem and we would like to use this as
+
+676
+00:16:07,870 --> 00:16:10,330
+ 
+
+677
+00:16:07,880 --> 00:16:12,740
+ inspiration for technology that can
+
+678
+00:16:10,320 --> 00:16:12,740
+ 
+
+679
+00:16:10,330 --> 00:16:15,380
+ implement this kind of highly robust
+
+680
+00:16:12,730 --> 00:16:15,380
+ 
+
+681
+00:16:12,740 --> 00:16:17,480
+ plastic behavior in the face of radical
+
+682
+00:16:15,370 --> 00:16:17,480
+ 
+
+683
+00:16:15,380 --> 00:16:19,190
+ deformation very new kinds of
+
+684
+00:16:17,470 --> 00:16:19,190
+ 
+
+685
+00:16:17,480 --> 00:16:20,870
+ environmental perturbations these
+
+686
+00:16:19,180 --> 00:16:20,870
+ 
+
+687
+00:16:19,190 --> 00:16:23,060
+ systems are able to regain their
+
+688
+00:16:20,860 --> 00:16:23,060
+ 
+
+689
+00:16:20,870 --> 00:16:25,430
+ structure and function now what
+
+690
+00:16:23,050 --> 00:16:25,430
+ 
+
+691
+00:16:23,060 --> 00:16:26,240
+ determines patterning we start life as
+
+692
+00:16:25,420 --> 00:16:26,240
+ 
+
+693
+00:16:25,430 --> 00:16:27,470
+ as
+
+694
+00:16:26,230 --> 00:16:27,470
+ 
+
+695
+00:16:26,240 --> 00:16:29,899
+ as an egg and than a collection of
+
+696
+00:16:27,460 --> 00:16:29,899
+ 
+
+697
+00:16:27,470 --> 00:16:31,670
+ embryonic stem cells and eventually this
+
+698
+00:16:29,889 --> 00:16:31,670
+ 
+
+699
+00:16:29,899 --> 00:16:33,350
+ is a cross-section taken through a
+
+700
+00:16:31,660 --> 00:16:33,350
+ 
+
+701
+00:16:31,670 --> 00:16:36,560
+ normal human torso you can see the
+
+702
+00:16:33,340 --> 00:16:36,560
+ 
+
+703
+00:16:33,350 --> 00:16:38,630
+ amazing invariant locations of all the
+
+704
+00:16:36,550 --> 00:16:38,630
+ 
+
+705
+00:16:36,560 --> 00:16:40,220
+ organs and the and the geometry of all
+
+706
+00:16:38,620 --> 00:16:40,220
+ 
+
+707
+00:16:38,630 --> 00:16:42,649
+ the structures where does this come from
+
+708
+00:16:40,210 --> 00:16:42,649
+ 
+
+709
+00:16:40,220 --> 00:16:44,420
+ DNA after all the genome specifies
+
+710
+00:16:42,639 --> 00:16:44,420
+ 
+
+711
+00:16:42,649 --> 00:16:46,610
+ proteins it does not say directly
+
+712
+00:16:44,410 --> 00:16:46,610
+ 
+
+713
+00:16:44,420 --> 00:16:49,010
+ anything about this this shape or how
+
+714
+00:16:46,600 --> 00:16:49,010
+ 
+
+715
+00:16:46,610 --> 00:16:50,959
+ it's edited how do cell groups know what
+
+716
+00:16:49,000 --> 00:16:50,959
+ 
+
+717
+00:16:49,010 --> 00:16:52,250
+ to make and when to stop and then as
+
+718
+00:16:50,949 --> 00:16:52,250
+ 
+
+719
+00:16:50,959 --> 00:16:54,920
+ engineers of course we'd like to know
+
+720
+00:16:52,240 --> 00:16:54,920
+ 
+
+721
+00:16:52,250 --> 00:16:56,720
+ how far can we push this process what's
+
+722
+00:16:54,910 --> 00:16:56,720
+ 
+
+723
+00:16:54,920 --> 00:17:00,230
+ possible to build what are the edges of
+
+724
+00:16:56,710 --> 00:17:00,230
+ 
+
+725
+00:16:56,720 --> 00:17:01,399
+ biological possibility and so you might
+
+726
+00:17:00,220 --> 00:17:01,399
+ 
+
+727
+00:17:00,230 --> 00:17:03,589
+ be surprised to know that as
+
+728
+00:17:01,389 --> 00:17:03,589
+ 
+
+729
+00:17:01,399 --> 00:17:04,970
+ developmental biologists we basically
+
+730
+00:17:03,579 --> 00:17:04,970
+ 
+
+731
+00:17:03,589 --> 00:17:07,040
+ don't know the answer to any of these
+
+732
+00:17:04,960 --> 00:17:07,040
+ 
+
+733
+00:17:04,970 --> 00:17:08,929
+ questions we have this significant
+
+734
+00:17:07,030 --> 00:17:08,929
+ 
+
+735
+00:17:07,040 --> 00:17:12,319
+ knowledge gap that while we're very good
+
+736
+00:17:08,919 --> 00:17:12,319
+ 
+
+737
+00:17:08,929 --> 00:17:14,240
+ at constructing these kinds of networks
+
+738
+00:17:12,309 --> 00:17:14,240
+ 
+
+739
+00:17:12,319 --> 00:17:15,890
+ we're into where we find out which gene
+
+740
+00:17:14,230 --> 00:17:15,890
+ 
+
+741
+00:17:14,240 --> 00:17:18,740
+ products interact with which other gene
+
+742
+00:17:15,880 --> 00:17:18,740
+ 
+
+743
+00:17:15,890 --> 00:17:20,750
+ products we can't yet read a genome and
+
+744
+00:17:18,730 --> 00:17:20,750
+ 
+
+745
+00:17:18,740 --> 00:17:22,760
+ find out what shape the resulting organ
+
+746
+00:17:20,740 --> 00:17:22,760
+ 
+
+747
+00:17:20,750 --> 00:17:24,260
+ M is gonna be we can compare it to other
+
+748
+00:17:22,750 --> 00:17:24,260
+ 
+
+749
+00:17:22,760 --> 00:17:25,699
+ genomes where we already know what it
+
+750
+00:17:24,250 --> 00:17:25,699
+ 
+
+751
+00:17:24,260 --> 00:17:27,290
+ looks like but we can't read a genome
+
+752
+00:17:25,689 --> 00:17:27,290
+ 
+
+753
+00:17:25,699 --> 00:17:29,720
+ and figure out what the what geometry
+
+754
+00:17:27,280 --> 00:17:29,720
+ 
+
+755
+00:17:27,290 --> 00:17:31,309
+ had specifies what's what's even worse
+
+756
+00:17:29,710 --> 00:17:31,309
+ 
+
+757
+00:17:29,720 --> 00:17:33,679
+ in terms of medicine is that if we
+
+758
+00:17:31,299 --> 00:17:33,679
+ 
+
+759
+00:17:31,309 --> 00:17:36,470
+ wanted to fix an anatomical structure
+
+760
+00:17:33,669 --> 00:17:36,470
+ 
+
+761
+00:17:33,679 --> 00:17:38,179
+ here what we have our molecular
+
+762
+00:17:36,460 --> 00:17:38,179
+ 
+
+763
+00:17:36,470 --> 00:17:40,610
+ information of this kind we have these
+
+764
+00:17:38,169 --> 00:17:40,610
+ 
+
+765
+00:17:38,179 --> 00:17:43,040
+ networks that make it very difficult to
+
+766
+00:17:40,600 --> 00:17:43,040
+ 
+
+767
+00:17:40,610 --> 00:17:45,020
+ solve the inverse problem that that will
+
+768
+00:17:43,030 --> 00:17:45,020
+ 
+
+769
+00:17:43,040 --> 00:17:48,200
+ allow us to know what to change at this
+
+770
+00:17:45,010 --> 00:17:48,200
+ 
+
+771
+00:17:45,020 --> 00:17:50,630
+ level to make to have outcomes desirable
+
+772
+00:17:48,190 --> 00:17:50,630
+ 
+
+773
+00:17:48,200 --> 00:17:52,790
+ outcomes at the system level and so we
+
+774
+00:17:50,620 --> 00:17:52,790
+ 
+
+775
+00:17:50,630 --> 00:17:54,800
+ have here huge opportunities for machine
+
+776
+00:17:52,780 --> 00:17:54,800
+ 
+
+777
+00:17:52,790 --> 00:17:57,110
+ learning to impact regenerative medicine
+
+778
+00:17:54,790 --> 00:17:57,110
+ 
+
+779
+00:17:54,800 --> 00:17:58,970
+ beyond drug discovery to help us be able
+
+780
+00:17:57,100 --> 00:17:58,970
+ 
+
+781
+00:17:57,110 --> 00:18:01,220
+ to take this kind of information and
+
+782
+00:17:58,960 --> 00:18:01,220
+ 
+
+783
+00:17:58,970 --> 00:18:03,800
+ understand how it maps to specific
+
+784
+00:18:01,210 --> 00:18:03,800
+ 
+
+785
+00:18:01,220 --> 00:18:05,960
+ Anatomy in biology we're becoming very
+
+786
+00:18:03,790 --> 00:18:05,960
+ 
+
+787
+00:18:03,800 --> 00:18:08,540
+ good at manipulating molecules and cells
+
+788
+00:18:05,950 --> 00:18:08,540
+ 
+
+789
+00:18:05,960 --> 00:18:11,270
+ the very the very lowest level hardware
+
+790
+00:18:08,530 --> 00:18:11,270
+ 
+
+791
+00:18:08,540 --> 00:18:13,670
+ that is that is necessary for the
+
+792
+00:18:11,260 --> 00:18:13,670
+ 
+
+793
+00:18:11,270 --> 00:18:15,320
+ control of complex pattern what we don't
+
+794
+00:18:13,660 --> 00:18:15,320
+ 
+
+795
+00:18:13,670 --> 00:18:17,270
+ really understand yet are the algorithms
+
+796
+00:18:15,310 --> 00:18:17,270
+ 
+
+797
+00:18:15,320 --> 00:18:19,070
+ that are sufficient for the kind of
+
+798
+00:18:17,260 --> 00:18:19,070
+ 
+
+799
+00:18:17,270 --> 00:18:21,200
+ pattern editing examples that I just
+
+800
+00:18:19,060 --> 00:18:21,200
+ 
+
+801
+00:18:19,070 --> 00:18:23,690
+ showed you and so can we move biology
+
+802
+00:18:21,190 --> 00:18:23,690
+ 
+
+803
+00:18:21,200 --> 00:18:25,700
+ beyond this kind of machine code and I
+
+804
+00:18:23,680 --> 00:18:25,700
+ 
+
+805
+00:18:23,690 --> 00:18:26,990
+ visualize it like this where computer
+
+806
+00:18:25,690 --> 00:18:26,990
+ 
+
+807
+00:18:25,700 --> 00:18:29,059
+ sciences have this wonderful journey
+
+808
+00:18:26,980 --> 00:18:29,059
+ 
+
+809
+00:18:26,990 --> 00:18:30,380
+ from from having to alter the hardware
+
+810
+00:18:29,049 --> 00:18:30,380
+ 
+
+811
+00:18:29,059 --> 00:18:32,809
+ when you were programming all the way up
+
+812
+00:18:30,370 --> 00:18:32,809
+ 
+
+813
+00:18:30,380 --> 00:18:34,340
+ to now considerable platform
+
+814
+00:18:32,799 --> 00:18:34,340
+ 
+
+815
+00:18:32,809 --> 00:18:36,320
+ independence where you can really just
+
+816
+00:18:34,330 --> 00:18:36,320
+ 
+
+817
+00:18:34,340 --> 00:18:38,600
+ focus on the control algorithms and the
+
+818
+00:18:36,310 --> 00:18:38,600
+ 
+
+819
+00:18:36,320 --> 00:18:40,040
+ computations biology is still here
+
+820
+00:18:38,590 --> 00:18:40,040
+ 
+
+821
+00:18:38,600 --> 00:18:42,800
+ everything we do
+
+822
+00:18:40,030 --> 00:18:42,800
+ 
+
+823
+00:18:40,040 --> 00:18:44,660
+ in our experiments is is rewiring the
+
+824
+00:18:42,790 --> 00:18:44,660
+ 
+
+825
+00:18:42,800 --> 00:18:46,730
+ actual hardware of the organism we have
+
+826
+00:18:44,650 --> 00:18:46,730
+ 
+
+827
+00:18:44,660 --> 00:18:48,530
+ not yet gotten to the point where we can
+
+828
+00:18:46,720 --> 00:18:48,530
+ 
+
+829
+00:18:46,730 --> 00:18:50,150
+ we can focus on the control algorithms
+
+830
+00:18:48,520 --> 00:18:50,150
+ 
+
+831
+00:18:48,530 --> 00:18:51,890
+ and really take advantage of the
+
+832
+00:18:50,140 --> 00:18:51,890
+ 
+
+833
+00:18:50,150 --> 00:18:54,050
+ hardware software distinction which I do
+
+834
+00:18:51,880 --> 00:18:54,050
+ 
+
+835
+00:18:51,890 --> 00:18:55,810
+ believe also exists in biology and this
+
+836
+00:18:54,040 --> 00:18:55,810
+ 
+
+837
+00:18:54,050 --> 00:18:59,330
+ is what my group has been trying to do
+
+838
+00:18:55,800 --> 00:18:59,330
+ 
+
+839
+00:18:55,810 --> 00:19:01,070
+ so pattern homeostasis has a number of
+
+840
+00:18:59,320 --> 00:19:01,070
+ 
+
+841
+00:18:59,330 --> 00:19:02,930
+ properties that are in a certain sense
+
+842
+00:19:01,060 --> 00:19:02,930
+ 
+
+843
+00:19:01,070 --> 00:19:05,540
+ cognitive they show goal directed
+
+844
+00:19:02,920 --> 00:19:05,540
+ 
+
+845
+00:19:02,930 --> 00:19:07,940
+ behavior towards specific outcomes they
+
+846
+00:19:05,530 --> 00:19:07,940
+ 
+
+847
+00:19:05,540 --> 00:19:09,650
+ show flexibility and robustness under
+
+848
+00:19:07,930 --> 00:19:09,650
+ 
+
+849
+00:19:07,940 --> 00:19:11,390
+ variable conditions and they allow
+
+850
+00:19:09,640 --> 00:19:11,390
+ 
+
+851
+00:19:09,650 --> 00:19:13,970
+ integration of self and low-level
+
+852
+00:19:11,380 --> 00:19:13,970
+ 
+
+853
+00:19:11,390 --> 00:19:18,020
+ functions into complex large-scale
+
+854
+00:19:13,960 --> 00:19:18,020
+ 
+
+855
+00:19:13,970 --> 00:19:19,730
+ outcomes and so what I want to talk to
+
+856
+00:19:18,010 --> 00:19:19,730
+ 
+
+857
+00:19:18,020 --> 00:19:21,590
+ you about now are some of the progress
+
+858
+00:19:19,720 --> 00:19:21,590
+ 
+
+859
+00:19:19,730 --> 00:19:23,690
+ that we've made about understanding how
+
+860
+00:19:21,580 --> 00:19:23,690
+ 
+
+861
+00:19:21,590 --> 00:19:26,270
+ electrical mechanisms that is electrical
+
+862
+00:19:23,680 --> 00:19:26,270
+ 
+
+863
+00:19:23,690 --> 00:19:30,140
+ communication among cells allow this
+
+864
+00:19:26,260 --> 00:19:30,140
+ 
+
+865
+00:19:26,270 --> 00:19:31,850
+ kind of control and basically what I'm
+
+866
+00:19:30,130 --> 00:19:31,850
+ 
+
+867
+00:19:30,140 --> 00:19:34,280
+ going to show you everything in the next
+
+868
+00:19:31,840 --> 00:19:34,280
+ 
+
+869
+00:19:31,850 --> 00:19:36,350
+ section can be boiled down to one main
+
+870
+00:19:34,270 --> 00:19:36,350
+ 
+
+871
+00:19:34,280 --> 00:19:39,410
+ message that very much like the brain
+
+872
+00:19:36,340 --> 00:19:39,410
+ 
+
+873
+00:19:36,350 --> 00:19:41,360
+ somatic tissues form electrical networks
+
+874
+00:19:39,400 --> 00:19:41,360
+ 
+
+875
+00:19:39,410 --> 00:19:42,680
+ that make decisions the decisions they
+
+876
+00:19:41,350 --> 00:19:42,680
+ 
+
+877
+00:19:41,360 --> 00:19:44,810
+ make are not about behavior they're
+
+878
+00:19:42,670 --> 00:19:44,810
+ 
+
+879
+00:19:42,680 --> 00:19:46,640
+ about anatomy and we now can target the
+
+880
+00:19:44,800 --> 00:19:46,640
+ 
+
+881
+00:19:44,810 --> 00:19:49,120
+ system for some control of large-scale
+
+882
+00:19:46,630 --> 00:19:49,120
+ 
+
+883
+00:19:46,640 --> 00:19:51,440
+ pattern editing and so I show you this
+
+884
+00:19:49,110 --> 00:19:51,440
+ 
+
+885
+00:19:49,120 --> 00:19:52,880
+ five legged frog here to point out that
+
+886
+00:19:51,430 --> 00:19:52,880
+ 
+
+887
+00:19:51,440 --> 00:19:54,110
+ this is not Photoshop I'm gonna show you
+
+888
+00:19:52,870 --> 00:19:54,110
+ 
+
+889
+00:19:52,880 --> 00:19:55,580
+ a bunch of really strange-looking
+
+890
+00:19:54,100 --> 00:19:55,580
+ 
+
+891
+00:19:54,110 --> 00:19:57,680
+ animals in a minute and this is these
+
+892
+00:19:55,570 --> 00:19:57,680
+ 
+
+893
+00:19:55,580 --> 00:20:00,770
+ are all real live creatures that are
+
+894
+00:19:57,670 --> 00:20:00,770
+ 
+
+895
+00:19:57,680 --> 00:20:02,960
+ that live in our lab because the way
+
+896
+00:20:00,760 --> 00:20:02,960
+ 
+
+897
+00:20:00,770 --> 00:20:05,030
+ that we test our various models of
+
+898
+00:20:02,950 --> 00:20:05,030
+ 
+
+899
+00:20:02,960 --> 00:20:07,220
+ whether we've understood how this works
+
+900
+00:20:05,020 --> 00:20:07,220
+ 
+
+901
+00:20:05,030 --> 00:20:08,870
+ is to try to make rational perturbations
+
+902
+00:20:07,210 --> 00:20:08,870
+ 
+
+903
+00:20:07,220 --> 00:20:11,000
+ we try to control anatomical
+
+904
+00:20:08,860 --> 00:20:11,000
+ 
+
+905
+00:20:08,870 --> 00:20:13,130
+ decision-making so it's important to
+
+906
+00:20:10,990 --> 00:20:13,130
+ 
+
+907
+00:20:11,000 --> 00:20:15,410
+ realize that brains did not invent their
+
+908
+00:20:13,120 --> 00:20:15,410
+ 
+
+909
+00:20:13,130 --> 00:20:19,130
+ tricks from scratch basically neurons
+
+910
+00:20:15,400 --> 00:20:19,130
+ 
+
+911
+00:20:15,410 --> 00:20:20,780
+ evolved from very ancient cells that
+
+912
+00:20:19,120 --> 00:20:20,780
+ 
+
+913
+00:20:19,130 --> 00:20:23,870
+ were around and performing computations
+
+914
+00:20:20,770 --> 00:20:23,870
+ 
+
+915
+00:20:20,780 --> 00:20:26,240
+ and doing somatic decision-making long
+
+916
+00:20:23,860 --> 00:20:26,240
+ 
+
+917
+00:20:23,870 --> 00:20:28,940
+ before neurons and brains showed up and
+
+918
+00:20:26,230 --> 00:20:28,940
+ 
+
+919
+00:20:26,240 --> 00:20:30,520
+ in fact are unicellular ancestors before
+
+920
+00:20:28,930 --> 00:20:30,520
+ 
+
+921
+00:20:28,940 --> 00:20:33,830
+ even the origin of multicellularity
+
+922
+00:20:30,510 --> 00:20:33,830
+ 
+
+923
+00:20:30,520 --> 00:20:35,930
+ already had synaptic machinery ion
+
+924
+00:20:33,820 --> 00:20:35,930
+ 
+
+925
+00:20:33,830 --> 00:20:37,190
+ channels neurotransmitters this by the
+
+926
+00:20:35,920 --> 00:20:37,190
+ 
+
+927
+00:20:35,930 --> 00:20:40,490
+ way if you've ever wondered why it is
+
+928
+00:20:37,180 --> 00:20:40,490
+ 
+
+929
+00:20:37,190 --> 00:20:43,100
+ that fungi which are very very distant
+
+930
+00:20:40,480 --> 00:20:43,100
+ 
+
+931
+00:20:40,490 --> 00:20:46,070
+ organism from ours from ourselves why
+
+932
+00:20:43,090 --> 00:20:46,070
+ 
+
+933
+00:20:43,100 --> 00:20:47,570
+ fungi have compounds in them like these
+
+934
+00:20:46,060 --> 00:20:47,570
+ 
+
+935
+00:20:46,070 --> 00:20:49,610
+ hallucinogenic mushrooms that are able
+
+936
+00:20:47,560 --> 00:20:49,610
+ 
+
+937
+00:20:47,570 --> 00:20:51,740
+ to affect human cognition it's because
+
+938
+00:20:49,600 --> 00:20:51,740
+ 
+
+939
+00:20:49,610 --> 00:20:52,700
+ the basic mechanisms are extremely
+
+940
+00:20:51,730 --> 00:20:52,700
+ 
+
+941
+00:20:51,740 --> 00:20:55,490
+ ancient
+
+942
+00:20:52,690 --> 00:20:55,490
+ 
+
+943
+00:20:52,700 --> 00:20:59,510
+ very old and that basically in becoming
+
+944
+00:20:55,480 --> 00:20:59,510
+ 
+
+945
+00:20:55,490 --> 00:21:01,400
+ brains nervous systems speed optimized
+
+946
+00:20:59,500 --> 00:21:01,400
+ 
+
+947
+00:20:59,510 --> 00:21:04,250
+ functions that were already here long
+
+948
+00:21:01,390 --> 00:21:04,250
+ 
+
+949
+00:21:01,400 --> 00:21:06,380
+ before that and so we all know that in
+
+950
+00:21:04,240 --> 00:21:06,380
+ 
+
+951
+00:21:04,250 --> 00:21:09,470
+ the brain you have hardware that's
+
+952
+00:21:06,370 --> 00:21:09,470
+ 
+
+953
+00:21:06,380 --> 00:21:12,590
+ produced by these these ion channels
+
+954
+00:21:09,460 --> 00:21:12,590
+ 
+
+955
+00:21:09,470 --> 00:21:14,480
+ that enable cells in the brain to
+
+956
+00:21:12,580 --> 00:21:14,480
+ 
+
+957
+00:21:12,590 --> 00:21:16,190
+ communicate electrically with each other
+
+958
+00:21:14,470 --> 00:21:16,190
+ 
+
+959
+00:21:14,480 --> 00:21:17,450
+ so they mediated mediate electrical
+
+960
+00:21:16,180 --> 00:21:17,450
+ 
+
+961
+00:21:16,190 --> 00:21:19,850
+ state change that can be propagated
+
+962
+00:21:17,440 --> 00:21:19,850
+ 
+
+963
+00:21:17,450 --> 00:21:21,440
+ through a network and this kind of
+
+964
+00:21:19,840 --> 00:21:21,440
+ 
+
+965
+00:21:19,850 --> 00:21:22,850
+ hardware gives rise to some very
+
+966
+00:21:21,430 --> 00:21:22,850
+ 
+
+967
+00:21:21,440 --> 00:21:25,010
+ interesting software that we would all
+
+968
+00:21:22,840 --> 00:21:25,010
+ 
+
+969
+00:21:22,850 --> 00:21:26,960
+ like to understand to take advantage of
+
+970
+00:21:25,000 --> 00:21:26,960
+ 
+
+971
+00:21:25,010 --> 00:21:28,850
+ so the cognitive and behavioral
+
+972
+00:21:26,950 --> 00:21:28,850
+ 
+
+973
+00:21:26,960 --> 00:21:30,920
+ processing that goes on in the
+
+974
+00:21:28,840 --> 00:21:30,920
+ 
+
+975
+00:21:28,850 --> 00:21:33,260
+ electrical network that is encoded and
+
+976
+00:21:30,910 --> 00:21:33,260
+ 
+
+977
+00:21:30,920 --> 00:21:34,730
+ enabled by this hardware well it turns
+
+978
+00:21:33,250 --> 00:21:34,730
+ 
+
+979
+00:21:33,260 --> 00:21:37,010
+ out that the rest of the body is not
+
+980
+00:21:34,720 --> 00:21:37,010
+ 
+
+981
+00:21:34,730 --> 00:21:39,470
+ very much different all cells not just
+
+982
+00:21:37,000 --> 00:21:39,470
+ 
+
+983
+00:21:37,010 --> 00:21:41,510
+ neurons have the exact same types of ion
+
+984
+00:21:39,460 --> 00:21:41,510
+ 
+
+985
+00:21:39,470 --> 00:21:43,070
+ channels they make electrical synapses
+
+986
+00:21:41,500 --> 00:21:43,070
+ 
+
+987
+00:21:41,510 --> 00:21:46,610
+ to their neighbors and they produce
+
+988
+00:21:43,060 --> 00:21:46,610
+ 
+
+989
+00:21:43,070 --> 00:21:48,440
+ electrical paths electrical patterns
+
+990
+00:21:46,600 --> 00:21:48,440
+ 
+
+991
+00:21:46,610 --> 00:21:50,450
+ such as here what you're seeing here is
+
+992
+00:21:48,430 --> 00:21:50,450
+ 
+
+993
+00:21:48,440 --> 00:21:52,730
+ an early frog embryo this is this is
+
+994
+00:21:50,440 --> 00:21:52,730
+ 
+
+995
+00:21:50,450 --> 00:21:55,040
+ sped up this is about eight hours of an
+
+996
+00:21:52,720 --> 00:21:55,040
+ 
+
+997
+00:21:52,730 --> 00:21:56,450
+ early frog embryo and much like here you
+
+998
+00:21:55,030 --> 00:21:56,450
+ 
+
+999
+00:21:55,040 --> 00:21:58,760
+ can see the electrical activity of the
+
+1000
+00:21:56,440 --> 00:21:58,760
+ 
+
+1001
+00:21:56,450 --> 00:22:00,890
+ zebrafish brain as the zebrafish
+
+1002
+00:21:58,750 --> 00:22:00,890
+ 
+
+1003
+00:21:58,760 --> 00:22:03,620
+ processes visual information what you
+
+1004
+00:22:00,880 --> 00:22:03,620
+ 
+
+1005
+00:22:00,890 --> 00:22:05,360
+ can see here with pseudo color are all
+
+1006
+00:22:03,610 --> 00:22:05,360
+ 
+
+1007
+00:22:03,620 --> 00:22:07,160
+ the electrical conversations that these
+
+1008
+00:22:05,350 --> 00:22:07,160
+ 
+
+1009
+00:22:05,360 --> 00:22:09,020
+ cells are having with each other as they
+
+1010
+00:22:07,150 --> 00:22:09,020
+ 
+
+1011
+00:22:07,160 --> 00:22:10,820
+ figure out who's going to be front who's
+
+1012
+00:22:09,010 --> 00:22:10,820
+ 
+
+1013
+00:22:09,020 --> 00:22:14,530
+ going to be back left-right dorsal
+
+1014
+00:22:10,810 --> 00:22:14,530
+ 
+
+1015
+00:22:10,820 --> 00:22:18,050
+ ventral and so on so as people try to
+
+1016
+00:22:14,520 --> 00:22:18,050
+ 
+
+1017
+00:22:14,530 --> 00:22:21,410
+ understand how this to decode how the
+
+1018
+00:22:18,040 --> 00:22:21,410
+ 
+
+1019
+00:22:18,050 --> 00:22:24,020
+ electrical states of the brain stand for
+
+1020
+00:22:21,400 --> 00:22:24,020
+ 
+
+1021
+00:22:21,410 --> 00:22:26,120
+ different of memories behaviors and so
+
+1022
+00:22:24,010 --> 00:22:26,120
+ 
+
+1023
+00:22:24,020 --> 00:22:28,670
+ on we have to understand and we have to
+
+1024
+00:22:26,110 --> 00:22:28,670
+ 
+
+1025
+00:22:26,120 --> 00:22:30,980
+ crack this bioelectrical code how it is
+
+1026
+00:22:28,660 --> 00:22:30,980
+ 
+
+1027
+00:22:28,670 --> 00:22:33,170
+ that the changing electrical properties
+
+1028
+00:22:30,970 --> 00:22:33,170
+ 
+
+1029
+00:22:30,980 --> 00:22:36,140
+ of the tissues implement different
+
+1030
+00:22:33,160 --> 00:22:36,140
+ 
+
+1031
+00:22:33,170 --> 00:22:38,150
+ future anatomical States and so here's
+
+1032
+00:22:36,130 --> 00:22:38,150
+ 
+
+1033
+00:22:36,140 --> 00:22:40,790
+ an example this is just a snapshot of an
+
+1034
+00:22:38,140 --> 00:22:40,790
+ 
+
+1035
+00:22:38,150 --> 00:22:42,520
+ early frog tadpole like this this is the
+
+1036
+00:22:40,780 --> 00:22:42,520
+ 
+
+1037
+00:22:40,790 --> 00:22:45,140
+ mid flank the different colors are a
+
+1038
+00:22:42,510 --> 00:22:45,140
+ 
+
+1039
+00:22:42,520 --> 00:22:46,700
+ fluorescent voltage reporter that shows
+
+1040
+00:22:45,130 --> 00:22:46,700
+ 
+
+1041
+00:22:45,140 --> 00:22:48,410
+ us in living tissue what all the
+
+1042
+00:22:46,690 --> 00:22:48,410
+ 
+
+1043
+00:22:46,700 --> 00:22:49,850
+ electrical states are and each one of
+
+1044
+00:22:48,400 --> 00:22:49,850
+ 
+
+1045
+00:22:48,410 --> 00:22:51,740
+ these little circles is a single cell
+
+1046
+00:22:49,840 --> 00:22:51,740
+ 
+
+1047
+00:22:49,850 --> 00:22:53,420
+ and this cell has a variety of ion
+
+1048
+00:22:51,730 --> 00:22:53,420
+ 
+
+1049
+00:22:51,740 --> 00:22:55,160
+ channels just like neurons do that
+
+1050
+00:22:53,410 --> 00:22:55,160
+ 
+
+1051
+00:22:53,420 --> 00:22:57,050
+ enable them to maintain this particular
+
+1052
+00:22:55,150 --> 00:22:57,050
+ 
+
+1053
+00:22:55,160 --> 00:23:00,320
+ structure so this is what we call a V
+
+1054
+00:22:57,040 --> 00:23:00,320
+ 
+
+1055
+00:22:57,050 --> 00:23:02,300
+ mem or a membrane voltage pattern and
+
+1056
+00:23:00,310 --> 00:23:02,300
+ 
+
+1057
+00:23:00,320 --> 00:23:04,370
+ these patterns we're able to see them
+
+1058
+00:23:02,290 --> 00:23:04,370
+ 
+
+1059
+00:23:02,300 --> 00:23:06,350
+ using a variety of technologies such as
+
+1060
+00:23:04,360 --> 00:23:06,350
+ 
+
+1061
+00:23:04,370 --> 00:23:07,700
+ voltage sensitive fluorescent dyes
+
+1062
+00:23:06,340 --> 00:23:07,700
+ 
+
+1063
+00:23:06,350 --> 00:23:09,950
+ and we do a lot of quantitative
+
+1064
+00:23:07,690 --> 00:23:09,950
+ 
+
+1065
+00:23:07,700 --> 00:23:12,110
+ simulations to try and understand how
+
+1066
+00:23:09,940 --> 00:23:12,110
+ 
+
+1067
+00:23:09,950 --> 00:23:14,570
+ the different ion channel and pump
+
+1068
+00:23:12,100 --> 00:23:14,570
+ 
+
+1069
+00:23:12,110 --> 00:23:17,840
+ proteins give rise to specific patterns
+
+1070
+00:23:14,560 --> 00:23:17,840
+ 
+
+1071
+00:23:14,570 --> 00:23:19,970
+ in multicellular tissues these patterns
+
+1072
+00:23:17,830 --> 00:23:19,970
+ 
+
+1073
+00:23:17,840 --> 00:23:21,830
+ come in two flavors there are normal or
+
+1074
+00:23:19,960 --> 00:23:21,830
+ 
+
+1075
+00:23:19,970 --> 00:23:23,720
+ endogenous patterns so this is again a
+
+1076
+00:23:21,820 --> 00:23:23,720
+ 
+
+1077
+00:23:21,830 --> 00:23:25,280
+ frog embryo this time in greyscale and
+
+1078
+00:23:23,710 --> 00:23:25,280
+ 
+
+1079
+00:23:23,720 --> 00:23:27,530
+ you can see here that as it's putting
+
+1080
+00:23:25,270 --> 00:23:27,530
+ 
+
+1081
+00:23:25,280 --> 00:23:29,720
+ its face together here's basically a pre
+
+1082
+00:23:27,520 --> 00:23:29,720
+ 
+
+1083
+00:23:27,530 --> 00:23:31,370
+ pattern or a little map of what the gene
+
+1084
+00:23:29,710 --> 00:23:31,370
+ 
+
+1085
+00:23:29,720 --> 00:23:32,540
+ expression and the anatomy of the face
+
+1086
+00:23:31,360 --> 00:23:32,540
+ 
+
+1087
+00:23:31,370 --> 00:23:34,160
+ is going to look like so here's where
+
+1088
+00:23:32,530 --> 00:23:34,160
+ 
+
+1089
+00:23:32,540 --> 00:23:35,690
+ the eye is gonna form here's what the
+
+1090
+00:23:34,150 --> 00:23:35,690
+ 
+
+1091
+00:23:34,160 --> 00:23:36,950
+ mouth is going to be and so on so these
+
+1092
+00:23:35,680 --> 00:23:36,950
+ 
+
+1093
+00:23:35,690 --> 00:23:38,810
+ are patterns that are critical for
+
+1094
+00:23:36,940 --> 00:23:38,810
+ 
+
+1095
+00:23:36,950 --> 00:23:41,420
+ normal development if you move or
+
+1096
+00:23:38,800 --> 00:23:41,420
+ 
+
+1097
+00:23:38,810 --> 00:23:43,520
+ perturb these patterns the the anatomy
+
+1098
+00:23:41,410 --> 00:23:43,520
+ 
+
+1099
+00:23:41,420 --> 00:23:45,740
+ will be will be altered these patterns
+
+1100
+00:23:43,510 --> 00:23:45,740
+ 
+
+1101
+00:23:43,520 --> 00:23:47,690
+ can also be pathological here you see
+
+1102
+00:23:45,730 --> 00:23:47,690
+ 
+
+1103
+00:23:45,740 --> 00:23:49,880
+ the earliest signs of cancer we induced
+
+1104
+00:23:47,680 --> 00:23:49,880
+ 
+
+1105
+00:23:47,690 --> 00:23:51,770
+ a tumor in this temple but before the
+
+1106
+00:23:49,870 --> 00:23:51,770
+ 
+
+1107
+00:23:49,880 --> 00:23:53,030
+ tumor shows up these cells right here
+
+1108
+00:23:51,760 --> 00:23:53,030
+ 
+
+1109
+00:23:51,770 --> 00:23:56,120
+ you can already see their abnormal
+
+1110
+00:23:53,020 --> 00:23:56,120
+ 
+
+1111
+00:23:53,030 --> 00:23:57,560
+ electrical state as they stop
+
+1112
+00:23:56,110 --> 00:23:57,560
+ 
+
+1113
+00:23:56,120 --> 00:23:59,120
+ communicating with their neighbors and
+
+1114
+00:23:57,550 --> 00:23:59,120
+ 
+
+1115
+00:23:57,560 --> 00:24:01,220
+ sort of revert back to an almost
+
+1116
+00:23:59,110 --> 00:24:01,220
+ 
+
+1117
+00:23:59,120 --> 00:24:03,410
+ unicellular like existence and and
+
+1118
+00:24:01,210 --> 00:24:03,410
+ 
+
+1119
+00:24:01,220 --> 00:24:05,300
+ become become cancer cells so
+
+1120
+00:24:03,400 --> 00:24:05,300
+ 
+
+1121
+00:24:03,410 --> 00:24:08,000
+ functionally we've developed some tools
+
+1122
+00:24:05,290 --> 00:24:08,000
+ 
+
+1123
+00:24:05,300 --> 00:24:10,400
+ to control this type of signaling in
+
+1124
+00:24:07,990 --> 00:24:10,400
+ 
+
+1125
+00:24:08,000 --> 00:24:12,500
+ this non neural cell Network basically
+
+1126
+00:24:10,390 --> 00:24:12,500
+ 
+
+1127
+00:24:10,400 --> 00:24:13,970
+ we do not apply electrical field so that
+
+1128
+00:24:12,490 --> 00:24:13,970
+ 
+
+1129
+00:24:12,500 --> 00:24:16,220
+ is that's not how this is done there's
+
+1130
+00:24:13,960 --> 00:24:16,220
+ 
+
+1131
+00:24:13,970 --> 00:24:18,860
+ no no electrical electrodes being used
+
+1132
+00:24:16,210 --> 00:24:18,860
+ 
+
+1133
+00:24:16,220 --> 00:24:21,320
+ here what we do is we manipulate the
+
+1134
+00:24:18,850 --> 00:24:21,320
+ 
+
+1135
+00:24:18,860 --> 00:24:23,510
+ endogenous ion channels that allow cells
+
+1136
+00:24:21,310 --> 00:24:23,510
+ 
+
+1137
+00:24:21,320 --> 00:24:25,280
+ to produce electrical States or we
+
+1138
+00:24:23,500 --> 00:24:25,280
+ 
+
+1139
+00:24:23,510 --> 00:24:27,110
+ perturb the connectivity so we can
+
+1140
+00:24:25,270 --> 00:24:27,110
+ 
+
+1141
+00:24:25,280 --> 00:24:29,240
+ either control the topology of the
+
+1142
+00:24:27,100 --> 00:24:29,240
+ 
+
+1143
+00:24:27,110 --> 00:24:30,610
+ network or actually the electrical state
+
+1144
+00:24:29,230 --> 00:24:30,610
+ 
+
+1145
+00:24:29,240 --> 00:24:32,810
+ and we use a variety of genetic
+
+1146
+00:24:30,600 --> 00:24:32,810
+ 
+
+1147
+00:24:30,610 --> 00:24:35,450
+ pharmacological optogenetic and and
+
+1148
+00:24:32,800 --> 00:24:35,450
+ 
+
+1149
+00:24:32,810 --> 00:24:37,220
+ those kinds of techniques so I want to
+
+1150
+00:24:35,440 --> 00:24:37,220
+ 
+
+1151
+00:24:35,450 --> 00:24:39,140
+ show you some examples of why this is
+
+1152
+00:24:37,210 --> 00:24:39,140
+ 
+
+1153
+00:24:37,220 --> 00:24:41,780
+ important what you can do when you when
+
+1154
+00:24:39,130 --> 00:24:41,780
+ 
+
+1155
+00:24:39,140 --> 00:24:44,090
+ you alter the electrical circuits so one
+
+1156
+00:24:41,770 --> 00:24:44,090
+ 
+
+1157
+00:24:41,780 --> 00:24:47,000
+ thing you can do is you can convince
+
+1158
+00:24:44,080 --> 00:24:47,000
+ 
+
+1159
+00:24:44,090 --> 00:24:48,770
+ cell groups to become different organs
+
+1160
+00:24:46,990 --> 00:24:48,770
+ 
+
+1161
+00:24:47,000 --> 00:24:50,600
+ and I don't mean to control individual
+
+1162
+00:24:48,760 --> 00:24:50,600
+ 
+
+1163
+00:24:48,770 --> 00:24:52,610
+ cell types this is not about stem cell
+
+1164
+00:24:50,590 --> 00:24:52,610
+ 
+
+1165
+00:24:50,600 --> 00:24:54,200
+ differentiation but for example we can
+
+1166
+00:24:52,600 --> 00:24:54,200
+ 
+
+1167
+00:24:52,610 --> 00:24:55,700
+ take a region of this gut so this whole
+
+1168
+00:24:54,190 --> 00:24:55,700
+ 
+
+1169
+00:24:54,200 --> 00:24:57,740
+ thing is the gut of the temple we can
+
+1170
+00:24:55,690 --> 00:24:57,740
+ 
+
+1171
+00:24:55,700 --> 00:25:00,110
+ take this region we can change its
+
+1172
+00:24:57,730 --> 00:25:00,110
+ 
+
+1173
+00:24:57,740 --> 00:25:01,310
+ electrical properties by by opening a
+
+1174
+00:25:00,100 --> 00:25:01,310
+ 
+
+1175
+00:25:00,110 --> 00:25:03,740
+ particular kind of channel this
+
+1176
+00:25:01,300 --> 00:25:03,740
+ 
+
+1177
+00:25:01,310 --> 00:25:05,240
+ voltage-gated potassium channel and what
+
+1178
+00:25:03,730 --> 00:25:05,240
+ 
+
+1179
+00:25:03,740 --> 00:25:06,980
+ will happen is this whole once we
+
+1180
+00:25:05,230 --> 00:25:06,980
+ 
+
+1181
+00:25:05,240 --> 00:25:08,990
+ establish a particular electron state
+
+1182
+00:25:06,970 --> 00:25:08,990
+ 
+
+1183
+00:25:06,980 --> 00:25:11,750
+ this whole region becomes an i and if
+
+1184
+00:25:08,980 --> 00:25:11,750
+ 
+
+1185
+00:25:08,990 --> 00:25:13,340
+ you section this is a m-- interior
+
+1186
+00:25:11,740 --> 00:25:13,340
+ 
+
+1187
+00:25:11,750 --> 00:25:15,200
+ interior components that you would find
+
+1188
+00:25:13,330 --> 00:25:15,200
+ 
+
+1189
+00:25:13,340 --> 00:25:17,120
+ in a normal eye so retina optic nerve
+
+1190
+00:25:15,190 --> 00:25:17,120
+ 
+
+1191
+00:25:15,200 --> 00:25:19,309
+ lens all of these things are in there so
+
+1192
+00:25:17,110 --> 00:25:19,309
+ 
+
+1193
+00:25:17,120 --> 00:25:20,990
+ this is a modular control that
+
+1194
+00:25:19,299 --> 00:25:20,990
+ 
+
+1195
+00:25:19,309 --> 00:25:22,759
+ says right here you're going to form an
+
+1196
+00:25:20,980 --> 00:25:22,759
+ 
+
+1197
+00:25:20,990 --> 00:25:24,980
+ eye the same thing can happen in
+
+1198
+00:25:22,749 --> 00:25:24,980
+ 
+
+1199
+00:25:22,759 --> 00:25:26,539
+ planaria where if we cut off the head in
+
+1200
+00:25:24,970 --> 00:25:26,539
+ 
+
+1201
+00:25:24,980 --> 00:25:27,980
+ the tail and we take this middle
+
+1202
+00:25:26,529 --> 00:25:27,980
+ 
+
+1203
+00:25:26,539 --> 00:25:30,889
+ fragment which has this very interesting
+
+1204
+00:25:27,970 --> 00:25:30,889
+ 
+
+1205
+00:25:27,980 --> 00:25:32,509
+ head tail Electrical pre pattern what we
+
+1206
+00:25:30,879 --> 00:25:32,509
+ 
+
+1207
+00:25:30,889 --> 00:25:33,620
+ can do is take these cells and convince
+
+1208
+00:25:32,499 --> 00:25:33,620
+ 
+
+1209
+00:25:32,509 --> 00:25:35,480
+ them that they should make a head
+
+1210
+00:25:33,610 --> 00:25:35,480
+ 
+
+1211
+00:25:33,620 --> 00:25:37,190
+ instead of a tail and you see that here
+
+1212
+00:25:35,470 --> 00:25:37,190
+ 
+
+1213
+00:25:35,480 --> 00:25:38,360
+ this is a two-headed worm in fact you
+
+1214
+00:25:37,180 --> 00:25:38,360
+ 
+
+1215
+00:25:37,190 --> 00:25:40,909
+ could go in the other direction you can
+
+1216
+00:25:38,350 --> 00:25:40,909
+ 
+
+1217
+00:25:38,360 --> 00:25:42,620
+ make a note headed room and in all cases
+
+1218
+00:25:40,899 --> 00:25:42,620
+ 
+
+1219
+00:25:40,909 --> 00:25:44,659
+ this is very important this is well this
+
+1220
+00:25:42,610 --> 00:25:44,659
+ 
+
+1221
+00:25:42,620 --> 00:25:46,370
+ is modular because what we're not doing
+
+1222
+00:25:44,649 --> 00:25:46,370
+ 
+
+1223
+00:25:44,659 --> 00:25:48,230
+ is going in and micromanaging the
+
+1224
+00:25:46,360 --> 00:25:48,230
+ 
+
+1225
+00:25:46,370 --> 00:25:49,850
+ process we are not trying to layout cell
+
+1226
+00:25:48,220 --> 00:25:49,850
+ 
+
+1227
+00:25:48,230 --> 00:25:51,320
+ by cell as you might if you are doing
+
+1228
+00:25:49,840 --> 00:25:51,320
+ 
+
+1229
+00:25:49,850 --> 00:25:52,879
+ bioengineering we're not trying to
+
+1230
+00:25:51,310 --> 00:25:52,879
+ 
+
+1231
+00:25:51,320 --> 00:25:55,190
+ layout cell by cell what the structure
+
+1232
+00:25:52,869 --> 00:25:55,190
+ 
+
+1233
+00:25:52,879 --> 00:25:57,470
+ is we're providing actually a fairly
+
+1234
+00:25:55,180 --> 00:25:57,470
+ 
+
+1235
+00:25:55,190 --> 00:25:59,299
+ small amount of information that tells
+
+1236
+00:25:57,460 --> 00:25:59,299
+ 
+
+1237
+00:25:57,470 --> 00:26:00,919
+ this region what it should be it's it's
+
+1238
+00:25:59,289 --> 00:26:00,919
+ 
+
+1239
+00:25:59,299 --> 00:26:03,409
+ basically a subroutine trigger at that
+
+1240
+00:26:00,909 --> 00:26:03,409
+ 
+
+1241
+00:26:00,919 --> 00:26:04,820
+ point and so you could use that using
+
+1242
+00:26:03,399 --> 00:26:04,820
+ 
+
+1243
+00:26:03,409 --> 00:26:06,590
+ this process some of the other things
+
+1244
+00:26:04,810 --> 00:26:06,590
+ 
+
+1245
+00:26:04,820 --> 00:26:08,659
+ you can do we can take this flat worm
+
+1246
+00:26:06,580 --> 00:26:08,659
+ 
+
+1247
+00:26:06,590 --> 00:26:10,039
+ that has a triangular head and when we
+
+1248
+00:26:08,649 --> 00:26:10,039
+ 
+
+1249
+00:26:08,659 --> 00:26:11,629
+ cut off the head we can treat the
+
+1250
+00:26:10,029 --> 00:26:11,629
+ 
+
+1251
+00:26:10,039 --> 00:26:13,909
+ remaining fragment in a way that
+
+1252
+00:26:11,619 --> 00:26:13,909
+ 
+
+1253
+00:26:11,629 --> 00:26:15,679
+ convinces the new cells to build heads
+
+1254
+00:26:13,899 --> 00:26:15,679
+ 
+
+1255
+00:26:13,909 --> 00:26:17,480
+ that belong to other species of flat
+
+1256
+00:26:15,669 --> 00:26:17,480
+ 
+
+1257
+00:26:15,679 --> 00:26:19,340
+ worms so here's a nice flat head like
+
+1258
+00:26:17,470 --> 00:26:19,340
+ 
+
+1259
+00:26:17,480 --> 00:26:20,869
+ this pea Felina or you can make a round
+
+1260
+00:26:19,330 --> 00:26:20,869
+ 
+
+1261
+00:26:19,340 --> 00:26:23,480
+ head like an S Mediterranea or a
+
+1262
+00:26:20,859 --> 00:26:23,480
+ 
+
+1263
+00:26:20,869 --> 00:26:25,730
+ triangular head like the original should
+
+1264
+00:26:23,470 --> 00:26:25,730
+ 
+
+1265
+00:26:23,480 --> 00:26:28,159
+ be notice that first of all it's about
+
+1266
+00:26:25,720 --> 00:26:28,159
+ 
+
+1267
+00:26:25,730 --> 00:26:30,139
+ 150 million years of evolution that
+
+1268
+00:26:28,149 --> 00:26:30,139
+ 
+
+1269
+00:26:28,159 --> 00:26:32,629
+ separate these animals so you're making
+
+1270
+00:26:30,129 --> 00:26:32,629
+ 
+
+1271
+00:26:30,139 --> 00:26:34,940
+ heads with brain structures and stem
+
+1272
+00:26:32,619 --> 00:26:34,940
+ 
+
+1273
+00:26:32,629 --> 00:26:38,059
+ cell distributions that belong to these
+
+1274
+00:26:34,930 --> 00:26:38,059
+ 
+
+1275
+00:26:34,940 --> 00:26:40,850
+ other species across about 150 million
+
+1276
+00:26:38,049 --> 00:26:40,850
+ 
+
+1277
+00:26:38,059 --> 00:26:42,860
+ years of evolution also note that the
+
+1278
+00:26:40,840 --> 00:26:42,860
+ 
+
+1279
+00:26:40,850 --> 00:26:44,480
+ genome is here is normal we have not
+
+1280
+00:26:42,850 --> 00:26:44,480
+ 
+
+1281
+00:26:42,860 --> 00:26:46,639
+ done any genomic editing this is not
+
+1282
+00:26:44,470 --> 00:26:46,639
+ 
+
+1283
+00:26:44,480 --> 00:26:48,980
+ about changing the genome this is this
+
+1284
+00:26:46,629 --> 00:26:48,980
+ 
+
+1285
+00:26:46,639 --> 00:26:52,190
+ is purely a physiological change this is
+
+1286
+00:26:48,970 --> 00:26:52,190
+ 
+
+1287
+00:26:48,980 --> 00:26:54,379
+ interacting with the real-time software
+
+1288
+00:26:52,180 --> 00:26:54,379
+ 
+
+1289
+00:26:52,190 --> 00:26:57,769
+ as it were of the physiological system
+
+1290
+00:26:54,369 --> 00:26:57,769
+ 
+
+1291
+00:26:54,379 --> 00:26:59,690
+ not rewiring the genes or the or the
+
+1292
+00:26:57,759 --> 00:26:59,690
+ 
+
+1293
+00:26:57,769 --> 00:27:01,369
+ protein networks that are existing in
+
+1294
+00:26:59,680 --> 00:27:01,369
+ 
+
+1295
+00:26:59,690 --> 00:27:03,080
+ this animal so all of these animals with
+
+1296
+00:27:01,359 --> 00:27:03,080
+ 
+
+1297
+00:27:01,369 --> 00:27:05,299
+ heads belonging to other species have a
+
+1298
+00:27:03,070 --> 00:27:05,299
+ 
+
+1299
+00:27:03,080 --> 00:27:07,730
+ perfectly normal wild-type genomic
+
+1300
+00:27:05,289 --> 00:27:07,730
+ 
+
+1301
+00:27:05,299 --> 00:27:10,399
+ sequence that belongs to GGC adhirata
+
+1302
+00:27:07,720 --> 00:27:10,399
+ 
+
+1303
+00:27:07,730 --> 00:27:12,259
+ safale so you can go further than this
+
+1304
+00:27:10,389 --> 00:27:12,259
+ 
+
+1305
+00:27:10,399 --> 00:27:14,299
+ and you can reach regions of the
+
+1306
+00:27:12,249 --> 00:27:14,299
+ 
+
+1307
+00:27:12,259 --> 00:27:16,580
+ planarian Morpha space that evolution
+
+1308
+00:27:14,289 --> 00:27:16,580
+ 
+
+1309
+00:27:14,299 --> 00:27:17,960
+ isn't using so from a normal flat worm
+
+1310
+00:27:16,570 --> 00:27:17,960
+ 
+
+1311
+00:27:16,580 --> 00:27:19,999
+ you can make things like this that are
+
+1312
+00:27:17,950 --> 00:27:19,999
+ 
+
+1313
+00:27:17,960 --> 00:27:21,139
+ sort of spiky you can make these that
+
+1314
+00:27:19,989 --> 00:27:21,139
+ 
+
+1315
+00:27:19,999 --> 00:27:23,389
+ look like hats they're three-dimensional
+
+1316
+00:27:21,129 --> 00:27:23,389
+ 
+
+1317
+00:27:21,139 --> 00:27:24,860
+ they have an interior compartment or you
+
+1318
+00:27:23,379 --> 00:27:24,860
+ 
+
+1319
+00:27:23,389 --> 00:27:26,869
+ can make ones that look like this with
+
+1320
+00:27:24,850 --> 00:27:26,869
+ 
+
+1321
+00:27:24,860 --> 00:27:28,850
+ tubes coming out of their backs so we're
+
+1322
+00:27:26,859 --> 00:27:28,850
+ 
+
+1323
+00:27:26,869 --> 00:27:31,159
+ just now beginning to really understand
+
+1324
+00:27:28,840 --> 00:27:31,159
+ 
+
+1325
+00:27:28,850 --> 00:27:32,550
+ the way that different anatomical
+
+1326
+00:27:31,149 --> 00:27:32,550
+ 
+
+1327
+00:27:31,159 --> 00:27:34,140
+ structures are encoded in
+
+1328
+00:27:32,540 --> 00:27:34,140
+ 
+
+1329
+00:27:32,550 --> 00:27:35,580
+ the electrical properties of a neck of
+
+1330
+00:27:34,130 --> 00:27:35,580
+ 
+
+1331
+00:27:34,140 --> 00:27:38,310
+ the network but it's very clear that
+
+1332
+00:27:35,570 --> 00:27:38,310
+ 
+
+1333
+00:27:35,580 --> 00:27:41,280
+ there's a very tractable a profoundly
+
+1334
+00:27:38,300 --> 00:27:41,280
+ 
+
+1335
+00:27:38,310 --> 00:27:43,560
+ important level of software control that
+
+1336
+00:27:41,270 --> 00:27:43,560
+ 
+
+1337
+00:27:41,280 --> 00:27:45,270
+ can be implemented beyond the genome all
+
+1338
+00:27:43,550 --> 00:27:45,270
+ 
+
+1339
+00:27:43,560 --> 00:27:47,130
+ of these animals have the same genomic
+
+1340
+00:27:45,260 --> 00:27:47,130
+ 
+
+1341
+00:27:45,270 --> 00:27:48,540
+ sequence and so this is really really
+
+1342
+00:27:47,120 --> 00:27:48,540
+ 
+
+1343
+00:27:47,130 --> 00:27:50,550
+ important to begin to learn how to
+
+1344
+00:27:48,530 --> 00:27:50,550
+ 
+
+1345
+00:27:48,540 --> 00:27:52,830
+ target this for our various applications
+
+1346
+00:27:50,540 --> 00:27:52,830
+ 
+
+1347
+00:27:50,550 --> 00:27:54,660
+ we've done lots of computational
+
+1348
+00:27:52,820 --> 00:27:54,660
+ 
+
+1349
+00:27:52,830 --> 00:27:56,730
+ modeling to try to understand these
+
+1350
+00:27:54,650 --> 00:27:56,730
+ 
+
+1351
+00:27:54,660 --> 00:27:58,770
+ electrical circuits and how the
+
+1352
+00:27:56,720 --> 00:27:58,770
+ 
+
+1353
+00:27:56,730 --> 00:28:02,070
+ dynamical systems properties of these
+
+1354
+00:27:58,760 --> 00:28:02,070
+ 
+
+1355
+00:27:58,770 --> 00:28:05,580
+ circuits map onto specific anatomical
+
+1356
+00:28:02,060 --> 00:28:05,580
+ 
+
+1357
+00:28:02,070 --> 00:28:08,370
+ outcomes and so one of the predictions
+
+1358
+00:28:05,570 --> 00:28:08,370
+ 
+
+1359
+00:28:05,580 --> 00:28:10,670
+ of this kind of unusual view that these
+
+1360
+00:28:08,360 --> 00:28:10,670
+ 
+
+1361
+00:28:08,370 --> 00:28:14,130
+ are all that these pattern memories are
+
+1362
+00:28:10,660 --> 00:28:14,130
+ 
+
+1363
+00:28:10,670 --> 00:28:15,750
+ states of physiological electrical
+
+1364
+00:28:14,120 --> 00:28:15,750
+ 
+
+1365
+00:28:14,130 --> 00:28:17,610
+ network is that we ought to be able to
+
+1366
+00:28:15,740 --> 00:28:17,610
+ 
+
+1367
+00:28:15,750 --> 00:28:18,900
+ rewrite this pattern memory and I want
+
+1368
+00:28:17,600 --> 00:28:18,900
+ 
+
+1369
+00:28:17,610 --> 00:28:21,270
+ to show you one example that we just
+
+1370
+00:28:18,890 --> 00:28:21,270
+ 
+
+1371
+00:28:18,900 --> 00:28:24,090
+ published last year which is that if we
+
+1372
+00:28:21,260 --> 00:28:24,090
+ 
+
+1373
+00:28:21,270 --> 00:28:25,920
+ take these normal-looking planaria so
+
+1374
+00:28:24,080 --> 00:28:25,920
+ 
+
+1375
+00:28:24,090 --> 00:28:28,080
+ one head one tail and in fact
+
+1376
+00:28:25,910 --> 00:28:28,080
+ 
+
+1377
+00:28:25,920 --> 00:28:29,760
+ molecularly if we look at the markers so
+
+1378
+00:28:28,070 --> 00:28:29,760
+ 
+
+1379
+00:28:28,080 --> 00:28:31,500
+ the head markers are in the head there
+
+1380
+00:28:29,750 --> 00:28:31,500
+ 
+
+1381
+00:28:29,760 --> 00:28:34,050
+ are no head markers in the tail and so
+
+1382
+00:28:31,490 --> 00:28:34,050
+ 
+
+1383
+00:28:31,500 --> 00:28:35,700
+ on these will give rise to a one-headed
+
+1384
+00:28:34,040 --> 00:28:35,700
+ 
+
+1385
+00:28:34,050 --> 00:28:37,470
+ worm if we chop off the head and the
+
+1386
+00:28:35,690 --> 00:28:37,470
+ 
+
+1387
+00:28:35,700 --> 00:28:39,390
+ tail these will give rise to a
+
+1388
+00:28:37,460 --> 00:28:39,390
+ 
+
+1389
+00:28:37,470 --> 00:28:41,070
+ two-headed worm why would an animal that
+
+1390
+00:28:39,380 --> 00:28:41,070
+ 
+
+1391
+00:28:39,390 --> 00:28:43,970
+ has a perfectly normal one headed
+
+1392
+00:28:41,060 --> 00:28:43,970
+ 
+
+1393
+00:28:41,070 --> 00:28:46,380
+ Anatomy and apparently normal molecular
+
+1394
+00:28:43,960 --> 00:28:46,380
+ 
+
+1395
+00:28:43,970 --> 00:28:48,960
+ molecular expression the pattern why
+
+1396
+00:28:46,370 --> 00:28:48,960
+ 
+
+1397
+00:28:46,380 --> 00:28:50,580
+ would they give rise to two-headed worms
+
+1398
+00:28:48,950 --> 00:28:50,580
+ 
+
+1399
+00:28:48,960 --> 00:28:52,500
+ and the reason and again this is not
+
+1400
+00:28:50,570 --> 00:28:52,500
+ 
+
+1401
+00:28:50,580 --> 00:28:54,450
+ anything to do with genomic editing and
+
+1402
+00:28:52,490 --> 00:28:54,450
+ 
+
+1403
+00:28:52,500 --> 00:28:56,910
+ the reason is because what we did was we
+
+1404
+00:28:54,440 --> 00:28:56,910
+ 
+
+1405
+00:28:54,450 --> 00:28:59,340
+ went in and we altered the electrical
+
+1406
+00:28:56,900 --> 00:28:59,340
+ 
+
+1407
+00:28:56,910 --> 00:29:01,500
+ pre pattern that dictates what this at
+
+1408
+00:28:59,330 --> 00:29:01,500
+ 
+
+1409
+00:28:59,340 --> 00:29:04,170
+ what this tissue is going to do if it is
+
+1410
+00:29:01,490 --> 00:29:04,170
+ 
+
+1411
+00:29:01,500 --> 00:29:06,630
+ injured in the future so this one had an
+
+1412
+00:29:04,160 --> 00:29:06,630
+ 
+
+1413
+00:29:04,170 --> 00:29:08,670
+ animal has an is bearing an electrical
+
+1414
+00:29:06,620 --> 00:29:08,670
+ 
+
+1415
+00:29:06,630 --> 00:29:10,020
+ memory that says that if I get injured
+
+1416
+00:29:08,660 --> 00:29:10,020
+ 
+
+1417
+00:29:08,670 --> 00:29:12,180
+ in the future what I'm going to do is
+
+1418
+00:29:10,010 --> 00:29:12,180
+ 
+
+1419
+00:29:10,020 --> 00:29:14,130
+ build two heads instead of one so the
+
+1420
+00:29:12,170 --> 00:29:14,130
+ 
+
+1421
+00:29:12,180 --> 00:29:17,040
+ electrical pattern is not a readout of
+
+1422
+00:29:14,120 --> 00:29:17,040
+ 
+
+1423
+00:29:14,130 --> 00:29:19,410
+ what the anatomy is now it is a piece of
+
+1424
+00:29:17,030 --> 00:29:19,410
+ 
+
+1425
+00:29:17,040 --> 00:29:23,400
+ encoded information a patterning Engram
+
+1426
+00:29:19,400 --> 00:29:23,400
+ 
+
+1427
+00:29:19,410 --> 00:29:25,380
+ that is used if if the animal is injured
+
+1428
+00:29:23,390 --> 00:29:25,380
+ 
+
+1429
+00:29:23,400 --> 00:29:27,510
+ and it is used to cut to to to guide
+
+1430
+00:29:25,370 --> 00:29:27,510
+ 
+
+1431
+00:29:25,380 --> 00:29:29,850
+ morphogenesis in the future so what we
+
+1432
+00:29:27,500 --> 00:29:29,850
+ 
+
+1433
+00:29:27,510 --> 00:29:30,210
+ see is that this body a single body like
+
+1434
+00:29:29,840 --> 00:29:30,210
+ 
+
+1435
+00:29:29,850 --> 00:29:32,670
+ this
+
+1436
+00:29:30,200 --> 00:29:32,670
+ 
+
+1437
+00:29:30,210 --> 00:29:34,680
+ can store at least one of two different
+
+1438
+00:29:32,660 --> 00:29:34,680
+ 
+
+1439
+00:29:32,670 --> 00:29:36,630
+ pattern memories it can store one headed
+
+1440
+00:29:34,670 --> 00:29:36,630
+ 
+
+1441
+00:29:34,680 --> 00:29:38,310
+ or a two-headed pattern memory no doubt
+
+1442
+00:29:36,620 --> 00:29:38,310
+ 
+
+1443
+00:29:36,630 --> 00:29:42,390
+ probably more we've only thought been
+
+1444
+00:29:38,300 --> 00:29:42,390
+ 
+
+1445
+00:29:38,310 --> 00:29:45,720
+ able to access two so far now this this
+
+1446
+00:29:42,380 --> 00:29:45,720
+ 
+
+1447
+00:29:42,390 --> 00:29:46,440
+ is this is really a very important
+
+1448
+00:29:45,710 --> 00:29:46,440
+ 
+
+1449
+00:29:45,720 --> 00:29:49,259
+ example because
+
+1450
+00:29:46,430 --> 00:29:49,259
+ 
+
+1451
+00:29:46,440 --> 00:29:51,210
+ that is not just about changing the way
+
+1452
+00:29:49,249 --> 00:29:51,210
+ 
+
+1453
+00:29:49,259 --> 00:29:53,070
+ that regeneration progresses after the
+
+1454
+00:29:51,200 --> 00:29:53,070
+ 
+
+1455
+00:29:51,210 --> 00:29:55,169
+ injury this is a long-term phenomenon
+
+1456
+00:29:53,060 --> 00:29:55,169
+ 
+
+1457
+00:29:53,070 --> 00:29:58,230
+ and by that what I mean is that if we
+
+1458
+00:29:55,159 --> 00:29:58,230
+ 
+
+1459
+00:29:55,169 --> 00:29:59,730
+ take this two-headed worm and so we
+
+1460
+00:29:58,220 --> 00:29:59,730
+ 
+
+1461
+00:29:58,230 --> 00:30:01,500
+ start with a one-headed worm we amputate
+
+1462
+00:29:59,720 --> 00:30:01,500
+ 
+
+1463
+00:29:59,730 --> 00:30:03,059
+ the head in the tail we perturb the
+
+1464
+00:30:01,490 --> 00:30:03,059
+ 
+
+1465
+00:30:01,500 --> 00:30:04,649
+ electrical network you get a two-headed
+
+1466
+00:30:03,049 --> 00:30:04,649
+ 
+
+1467
+00:30:03,059 --> 00:30:06,629
+ worm and now we take this two-headed
+
+1468
+00:30:04,639 --> 00:30:06,629
+ 
+
+1469
+00:30:04,649 --> 00:30:08,669
+ worm and we leave them alone for a
+
+1470
+00:30:06,619 --> 00:30:08,669
+ 
+
+1471
+00:30:06,629 --> 00:30:10,679
+ couple of weeks in plain old water so
+
+1472
+00:30:08,659 --> 00:30:10,679
+ 
+
+1473
+00:30:08,669 --> 00:30:13,110
+ normal manipulation of any kind we
+
+1474
+00:30:10,669 --> 00:30:13,110
+ 
+
+1475
+00:30:10,679 --> 00:30:15,990
+ amputate the original head we amputate
+
+1476
+00:30:13,100 --> 00:30:15,990
+ 
+
+1477
+00:30:13,110 --> 00:30:17,940
+ this weird ectopic posterior head and we
+
+1478
+00:30:15,980 --> 00:30:17,940
+ 
+
+1479
+00:30:15,990 --> 00:30:19,350
+ ask what's going to happen and when we
+
+1480
+00:30:17,930 --> 00:30:19,350
+ 
+
+1481
+00:30:17,940 --> 00:30:21,330
+ first did this experiment of course the
+
+1482
+00:30:19,340 --> 00:30:21,330
+ 
+
+1483
+00:30:19,350 --> 00:30:23,009
+ standard paradigm said that well the
+
+1484
+00:30:21,320 --> 00:30:23,009
+ 
+
+1485
+00:30:21,330 --> 00:30:24,960
+ genomics of the worm are normal and
+
+1486
+00:30:22,999 --> 00:30:24,960
+ 
+
+1487
+00:30:23,009 --> 00:30:26,039
+ you're gonna cut off the CICC topic head
+
+1488
+00:30:24,950 --> 00:30:26,039
+ 
+
+1489
+00:30:24,960 --> 00:30:27,330
+ so of course the rest of it is just
+
+1490
+00:30:26,029 --> 00:30:27,330
+ 
+
+1491
+00:30:26,039 --> 00:30:29,190
+ gonna go back to normal and you're gonna
+
+1492
+00:30:27,320 --> 00:30:29,190
+ 
+
+1493
+00:30:27,330 --> 00:30:30,690
+ get this normal one headed worm right
+
+1494
+00:30:29,180 --> 00:30:30,690
+ 
+
+1495
+00:30:29,190 --> 00:30:32,009
+ and of course I'm showing it to you
+
+1496
+00:30:30,680 --> 00:30:32,009
+ 
+
+1497
+00:30:30,690 --> 00:30:34,799
+ because that's not at all what happens
+
+1498
+00:30:31,999 --> 00:30:34,799
+ 
+
+1499
+00:30:32,009 --> 00:30:36,360
+ what happens is that in perpetuity once
+
+1500
+00:30:34,789 --> 00:30:36,360
+ 
+
+1501
+00:30:34,799 --> 00:30:37,980
+ you've shifted that electrical Network
+
+1502
+00:30:36,350 --> 00:30:37,980
+ 
+
+1503
+00:30:36,360 --> 00:30:39,779
+ that pattern memory has now been shifted
+
+1504
+00:30:37,970 --> 00:30:39,779
+ 
+
+1505
+00:30:37,980 --> 00:30:41,970
+ to a 2-headed state it is now
+
+1506
+00:30:39,769 --> 00:30:41,970
+ 
+
+1507
+00:30:39,779 --> 00:30:43,889
+ permanently two-headed so if you keep
+
+1508
+00:30:41,960 --> 00:30:43,889
+ 
+
+1509
+00:30:41,970 --> 00:30:46,799
+ cutting this animal again and again and
+
+1510
+00:30:43,879 --> 00:30:46,799
+ 
+
+1511
+00:30:43,889 --> 00:30:48,919
+ with no further manipulations it will
+
+1512
+00:30:46,789 --> 00:30:48,919
+ 
+
+1513
+00:30:46,799 --> 00:30:51,120
+ continue to regenerate to that new
+
+1514
+00:30:48,909 --> 00:30:51,120
+ 
+
+1515
+00:30:48,919 --> 00:30:52,830
+ specification of what a worm should look
+
+1516
+00:30:51,110 --> 00:30:52,830
+ 
+
+1517
+00:30:51,120 --> 00:30:54,750
+ like and and you can by the way we have
+
+1518
+00:30:52,820 --> 00:30:54,750
+ 
+
+1519
+00:30:52,830 --> 00:30:56,610
+ now ways to I take it back and take a
+
+1520
+00:30:54,740 --> 00:30:56,610
+ 
+
+1521
+00:30:54,750 --> 00:30:58,590
+ two-headed worm and remodel it back to
+
+1522
+00:30:56,600 --> 00:30:58,590
+ 
+
+1523
+00:30:56,610 --> 00:31:00,299
+ one head so this is very interesting
+
+1524
+00:30:58,580 --> 00:31:00,299
+ 
+
+1525
+00:30:58,590 --> 00:31:02,639
+ this has this has a number of key
+
+1526
+00:31:00,289 --> 00:31:02,639
+ 
+
+1527
+00:31:00,299 --> 00:31:06,240
+ properties of memory it's it's long term
+
+1528
+00:31:02,629 --> 00:31:06,240
+ 
+
+1529
+00:31:02,639 --> 00:31:08,250
+ stable its rewritable or labile it has
+
+1530
+00:31:06,230 --> 00:31:08,250
+ 
+
+1531
+00:31:06,240 --> 00:31:09,690
+ latency or conditional recall as I just
+
+1532
+00:31:08,240 --> 00:31:09,690
+ 
+
+1533
+00:31:08,250 --> 00:31:11,759
+ showed you we can do it so that nothing
+
+1534
+00:31:09,680 --> 00:31:11,759
+ 
+
+1535
+00:31:09,690 --> 00:31:14,159
+ happens until the animal needs to recall
+
+1536
+00:31:11,749 --> 00:31:14,159
+ 
+
+1537
+00:31:11,759 --> 00:31:16,649
+ it by from injury and it has discrete
+
+1538
+00:31:14,149 --> 00:31:16,649
+ 
+
+1539
+00:31:14,159 --> 00:31:18,539
+ possible outcomes one headed or two
+
+1540
+00:31:16,639 --> 00:31:18,539
+ 
+
+1541
+00:31:16,649 --> 00:31:21,210
+ headed so what we've been doing is
+
+1542
+00:31:18,529 --> 00:31:21,210
+ 
+
+1543
+00:31:18,539 --> 00:31:23,070
+ trying to develop techniques to
+
+1544
+00:31:21,200 --> 00:31:23,070
+ 
+
+1545
+00:31:21,210 --> 00:31:27,179
+ basically extend certain connectionist
+
+1546
+00:31:23,060 --> 00:31:27,179
+ 
+
+1547
+00:31:23,070 --> 00:31:29,399
+ models to this to this to help us guide
+
+1548
+00:31:27,169 --> 00:31:29,399
+ 
+
+1549
+00:31:27,179 --> 00:31:32,100
+ these experiments where stable
+
+1550
+00:31:29,389 --> 00:31:32,100
+ 
+
+1551
+00:31:29,399 --> 00:31:33,779
+ attractors in the state space of these
+
+1552
+00:31:32,090 --> 00:31:33,779
+ 
+
+1553
+00:31:32,100 --> 00:31:36,899
+ electrical circuits correspond to
+
+1554
+00:31:33,769 --> 00:31:36,899
+ 
+
+1555
+00:31:33,779 --> 00:31:38,909
+ specific downstream downstream anatomies
+
+1556
+00:31:36,889 --> 00:31:38,909
+ 
+
+1557
+00:31:36,899 --> 00:31:41,549
+ of course mediated by all the different
+
+1558
+00:31:38,899 --> 00:31:41,549
+ 
+
+1559
+00:31:38,909 --> 00:31:43,259
+ genes that they turn on and off so this
+
+1560
+00:31:41,539 --> 00:31:43,259
+ 
+
+1561
+00:31:41,549 --> 00:31:45,480
+ is really critical for us as now is to
+
+1562
+00:31:43,249 --> 00:31:45,480
+ 
+
+1563
+00:31:43,259 --> 00:31:47,220
+ understand the large-scale properties of
+
+1564
+00:31:45,470 --> 00:31:47,220
+ 
+
+1565
+00:31:45,480 --> 00:31:49,409
+ this bioelectric code and how these
+
+1566
+00:31:47,210 --> 00:31:49,409
+ 
+
+1567
+00:31:47,220 --> 00:31:52,169
+ pattern memories are literally encoded
+
+1568
+00:31:49,399 --> 00:31:52,169
+ 
+
+1569
+00:31:49,409 --> 00:31:53,850
+ in the stable states of tissues it's
+
+1570
+00:31:52,159 --> 00:31:53,850
+ 
+
+1571
+00:31:52,169 --> 00:31:55,440
+ important not only for the basic science
+
+1572
+00:31:53,840 --> 00:31:55,440
+ 
+
+1573
+00:31:53,850 --> 00:31:56,460
+ of it but for applications in
+
+1574
+00:31:55,430 --> 00:31:56,460
+ 
+
+1575
+00:31:55,440 --> 00:31:58,860
+ regenerative medicine
+
+1576
+00:31:56,450 --> 00:31:58,860
+ 
+
+1577
+00:31:56,460 --> 00:31:59,680
+ so unlike salamanders frogs do not
+
+1578
+00:31:58,850 --> 00:31:59,680
+ 
+
+1579
+00:31:58,860 --> 00:32:01,330
+ normally reach
+
+1580
+00:31:59,670 --> 00:32:01,330
+ 
+
+1581
+00:31:59,680 --> 00:32:03,370
+ generate their legs so they either grow
+
+1582
+00:32:01,320 --> 00:32:03,370
+ 
+
+1583
+00:32:01,330 --> 00:32:05,320
+ nothing or a very thin cartilage in the
+
+1584
+00:32:03,360 --> 00:32:05,320
+ 
+
+1585
+00:32:03,370 --> 00:32:06,970
+ spike when you amputate the leg and what
+
+1586
+00:32:05,310 --> 00:32:06,970
+ 
+
+1587
+00:32:05,320 --> 00:32:08,800
+ we've had been able to do is to come up
+
+1588
+00:32:06,960 --> 00:32:08,800
+ 
+
+1589
+00:32:06,970 --> 00:32:10,810
+ with a cocktail that alters the
+
+1590
+00:32:08,790 --> 00:32:10,810
+ 
+
+1591
+00:32:08,800 --> 00:32:12,730
+ bioelectric state of the cells at the
+
+1592
+00:32:10,800 --> 00:32:12,730
+ 
+
+1593
+00:32:10,810 --> 00:32:14,950
+ wound to convince them to regenerate a
+
+1594
+00:32:12,720 --> 00:32:14,950
+ 
+
+1595
+00:32:12,730 --> 00:32:16,630
+ new leg so here you can see in 45 days
+
+1596
+00:32:14,940 --> 00:32:16,630
+ 
+
+1597
+00:32:14,950 --> 00:32:18,520
+ it's starting to make some toes here's a
+
+1598
+00:32:16,620 --> 00:32:18,520
+ 
+
+1599
+00:32:16,630 --> 00:32:20,680
+ toenail and then eventually it's a
+
+1600
+00:32:18,510 --> 00:32:20,680
+ 
+
+1601
+00:32:18,520 --> 00:32:22,870
+ pretty good leg that can feel touch and
+
+1602
+00:32:20,670 --> 00:32:22,870
+ 
+
+1603
+00:32:20,680 --> 00:32:24,310
+ it's both sensitive and motile so the
+
+1604
+00:32:22,860 --> 00:32:24,310
+ 
+
+1605
+00:32:22,870 --> 00:32:25,510
+ animal can use these legs and then
+
+1606
+00:32:24,300 --> 00:32:25,510
+ 
+
+1607
+00:32:24,310 --> 00:32:26,980
+ eventually you get some you get some
+
+1608
+00:32:25,500 --> 00:32:26,980
+ 
+
+1609
+00:32:25,510 --> 00:32:28,240
+ really nice you get some really nice
+
+1610
+00:32:26,970 --> 00:32:28,240
+ 
+
+1611
+00:32:26,980 --> 00:32:30,790
+ patterning and then you have to wait for
+
+1612
+00:32:28,230 --> 00:32:30,790
+ 
+
+1613
+00:32:28,240 --> 00:32:33,940
+ it to grow so the idea is that this is
+
+1614
+00:32:30,780 --> 00:32:33,940
+ 
+
+1615
+00:32:30,790 --> 00:32:35,530
+ the first steps towards a program for
+
+1616
+00:32:33,930 --> 00:32:35,530
+ 
+
+1617
+00:32:33,940 --> 00:32:38,230
+ regenerative medicine where we will be
+
+1618
+00:32:35,520 --> 00:32:38,230
+ 
+
+1619
+00:32:35,530 --> 00:32:41,950
+ able to induce cells and tissues to
+
+1620
+00:32:38,220 --> 00:32:41,950
+ 
+
+1621
+00:32:38,230 --> 00:32:43,660
+ regrow various complex organs this does
+
+1622
+00:32:41,940 --> 00:32:43,660
+ 
+
+1623
+00:32:41,950 --> 00:32:45,730
+ not require implantation of stem cells
+
+1624
+00:32:43,650 --> 00:32:45,730
+ 
+
+1625
+00:32:43,660 --> 00:32:48,360
+ it does not require genomic editing this
+
+1626
+00:32:45,720 --> 00:32:48,360
+ 
+
+1627
+00:32:45,730 --> 00:32:50,920
+ is purely about triggering the kinds of
+
+1628
+00:32:48,350 --> 00:32:50,920
+ 
+
+1629
+00:32:48,360 --> 00:32:52,570
+ cascades the kinds of patterning
+
+1630
+00:32:50,910 --> 00:32:52,570
+ 
+
+1631
+00:32:50,920 --> 00:32:54,550
+ subroutines that these animals already
+
+1632
+00:32:52,560 --> 00:32:54,550
+ 
+
+1633
+00:32:52,570 --> 00:32:56,200
+ have embedded in their electrical
+
+1634
+00:32:54,540 --> 00:32:56,200
+ 
+
+1635
+00:32:54,550 --> 00:32:57,940
+ software and of course next after this
+
+1636
+00:32:56,190 --> 00:32:57,940
+ 
+
+1637
+00:32:56,200 --> 00:32:59,830
+ frog is mammalian application so we're
+
+1638
+00:32:57,930 --> 00:32:59,830
+ 
+
+1639
+00:32:57,940 --> 00:33:02,440
+ trying to try to work up to human
+
+1640
+00:32:59,820 --> 00:33:02,440
+ 
+
+1641
+00:32:59,830 --> 00:33:03,670
+ medicine at some point okay so one of
+
+1642
+00:33:02,430 --> 00:33:03,670
+ 
+
+1643
+00:33:02,440 --> 00:33:06,640
+ the other things we've been able to show
+
+1644
+00:33:03,660 --> 00:33:06,640
+ 
+
+1645
+00:33:03,670 --> 00:33:08,980
+ is to use some of our pre 8 predictive
+
+1646
+00:33:06,630 --> 00:33:08,980
+ 
+
+1647
+00:33:06,640 --> 00:33:12,280
+ with simulations of the by electrical
+
+1648
+00:33:08,970 --> 00:33:12,280
+ 
+
+1649
+00:33:08,980 --> 00:33:14,170
+ signaling to reverse a birth defects of
+
+1650
+00:33:12,270 --> 00:33:14,170
+ 
+
+1651
+00:33:12,280 --> 00:33:16,300
+ different types so here's what a tadpole
+
+1652
+00:33:14,160 --> 00:33:16,300
+ 
+
+1653
+00:33:14,170 --> 00:33:18,010
+ brain a normal tadpole brain should look
+
+1654
+00:33:16,290 --> 00:33:18,010
+ 
+
+1655
+00:33:16,300 --> 00:33:20,890
+ like you see here the the forebrain the
+
+1656
+00:33:18,000 --> 00:33:20,890
+ 
+
+1657
+00:33:18,010 --> 00:33:22,870
+ midbrain and hindbrain and under the
+
+1658
+00:33:20,880 --> 00:33:22,870
+ 
+
+1659
+00:33:20,890 --> 00:33:23,830
+ exposure to various teratogen sand we're
+
+1660
+00:33:22,860 --> 00:33:23,830
+ 
+
+1661
+00:33:22,870 --> 00:33:26,080
+ talking about things like alcohol
+
+1662
+00:33:23,820 --> 00:33:26,080
+ 
+
+1663
+00:33:23,830 --> 00:33:28,570
+ nicotine various other nasty chemicals
+
+1664
+00:33:26,070 --> 00:33:28,570
+ 
+
+1665
+00:33:26,080 --> 00:33:29,650
+ or even mutations in really important
+
+1666
+00:33:28,560 --> 00:33:29,650
+ 
+
+1667
+00:33:28,570 --> 00:33:31,690
+ genes such as knotch
+
+1668
+00:33:29,640 --> 00:33:31,690
+ 
+
+1669
+00:33:29,650 --> 00:33:33,400
+ what you get are severe brain defects so
+
+1670
+00:33:31,680 --> 00:33:33,400
+ 
+
+1671
+00:33:31,690 --> 00:33:35,140
+ the forebrain is basically missing the
+
+1672
+00:33:33,390 --> 00:33:35,140
+ 
+
+1673
+00:33:33,400 --> 00:33:37,120
+ midbrain as a bubble the hind brains all
+
+1674
+00:33:35,130 --> 00:33:37,120
+ 
+
+1675
+00:33:35,140 --> 00:33:39,430
+ messed up and what we've been able to do
+
+1676
+00:33:37,110 --> 00:33:39,430
+ 
+
+1677
+00:33:37,120 --> 00:33:41,860
+ is to produce by electrical simulations
+
+1678
+00:33:39,420 --> 00:33:41,860
+ 
+
+1679
+00:33:39,430 --> 00:33:44,290
+ that tell us what electrical state we
+
+1680
+00:33:41,850 --> 00:33:44,290
+ 
+
+1681
+00:33:41,860 --> 00:33:46,330
+ would have to restore in order to get
+
+1682
+00:33:44,280 --> 00:33:46,330
+ 
+
+1683
+00:33:44,290 --> 00:33:48,640
+ back a normal brain and in fact from
+
+1684
+00:33:46,320 --> 00:33:48,640
+ 
+
+1685
+00:33:46,330 --> 00:33:51,340
+ these simulations we can extract
+
+1686
+00:33:48,630 --> 00:33:51,340
+ 
+
+1687
+00:33:48,640 --> 00:33:53,860
+ information for candidate drugs that
+
+1688
+00:33:51,330 --> 00:33:53,860
+ 
+
+1689
+00:33:51,340 --> 00:33:55,420
+ will open and close various ion channels
+
+1690
+00:33:53,850 --> 00:33:55,420
+ 
+
+1691
+00:33:53,860 --> 00:33:57,520
+ and you can see here a successful
+
+1692
+00:33:55,410 --> 00:33:57,520
+ 
+
+1693
+00:33:55,420 --> 00:34:00,400
+ applications of this this animal has a
+
+1694
+00:33:57,510 --> 00:34:00,400
+ 
+
+1695
+00:33:57,520 --> 00:34:02,050
+ mutation FX is expressing a mutation in
+
+1696
+00:34:00,390 --> 00:34:02,050
+ 
+
+1697
+00:34:00,400 --> 00:34:04,090
+ a gene called notch which normally
+
+1698
+00:34:02,040 --> 00:34:04,090
+ 
+
+1699
+00:34:02,050 --> 00:34:06,310
+ causes this terrible malformation of the
+
+1700
+00:34:04,080 --> 00:34:06,310
+ 
+
+1701
+00:34:04,090 --> 00:34:08,200
+ brain but the structure the gene
+
+1702
+00:34:06,300 --> 00:34:08,200
+ 
+
+1703
+00:34:06,310 --> 00:34:09,850
+ expression and even the function of the
+
+1704
+00:34:08,190 --> 00:34:09,850
+ 
+
+1705
+00:34:08,200 --> 00:34:11,710
+ brain so we gave them IQ tests believe
+
+1706
+00:34:09,840 --> 00:34:11,710
+ 
+
+1707
+00:34:09,850 --> 00:34:13,300
+ it or not you can do that in in tadpoles
+
+1708
+00:34:11,700 --> 00:34:13,300
+ 
+
+1709
+00:34:11,710 --> 00:34:14,800
+ you can test them for learning and
+
+1710
+00:34:13,290 --> 00:34:14,800
+ 
+
+1711
+00:34:13,300 --> 00:34:16,839
+ and they get there they get their
+
+1712
+00:34:14,790 --> 00:34:16,839
+ 
+
+1713
+00:34:14,800 --> 00:34:19,510
+ memories back despite this this really
+
+1714
+00:34:16,829 --> 00:34:19,510
+ 
+
+1715
+00:34:16,839 --> 00:34:21,460
+ terrible genetic mutation so we really
+
+1716
+00:34:19,500 --> 00:34:21,460
+ 
+
+1717
+00:34:19,510 --> 00:34:23,950
+ think that this is this by electrical
+
+1718
+00:34:21,450 --> 00:34:23,950
+ 
+
+1719
+00:34:21,460 --> 00:34:26,800
+ network is an incredibly tractable layer
+
+1720
+00:34:23,940 --> 00:34:26,800
+ 
+
+1721
+00:34:23,950 --> 00:34:28,569
+ that allows us to intervene in the
+
+1722
+00:34:26,790 --> 00:34:28,569
+ 
+
+1723
+00:34:26,800 --> 00:34:31,869
+ default state that is encoded by the
+
+1724
+00:34:28,559 --> 00:34:31,869
+ 
+
+1725
+00:34:28,569 --> 00:34:33,399
+ genome and so in the future what we
+
+1726
+00:34:31,859 --> 00:34:33,399
+ 
+
+1727
+00:34:31,869 --> 00:34:34,929
+ would like to do this is a kind of the
+
+1728
+00:34:33,389 --> 00:34:34,929
+ 
+
+1729
+00:34:33,399 --> 00:34:37,659
+ endgame for this field which is of a
+
+1730
+00:34:34,919 --> 00:34:37,659
+ 
+
+1731
+00:34:34,929 --> 00:34:40,839
+ very long way away but the idea is to
+
+1732
+00:34:37,649 --> 00:34:40,839
+ 
+
+1733
+00:34:37,659 --> 00:34:42,669
+ have a kind of biological compiler where
+
+1734
+00:34:40,829 --> 00:34:42,669
+ 
+
+1735
+00:34:40,839 --> 00:34:44,889
+ we would be able to design our creatures
+
+1736
+00:34:42,659 --> 00:34:44,889
+ 
+
+1737
+00:34:42,669 --> 00:34:46,839
+ the way people now design things in CAD
+
+1738
+00:34:44,879 --> 00:34:46,839
+ 
+
+1739
+00:34:44,889 --> 00:34:48,760
+ or for 3d printing where you can design
+
+1740
+00:34:46,829 --> 00:34:48,760
+ 
+
+1741
+00:34:46,839 --> 00:34:50,139
+ at the level of Anatomy and then we
+
+1742
+00:34:48,750 --> 00:34:50,139
+ 
+
+1743
+00:34:48,760 --> 00:34:51,970
+ would understand well enough what you
+
+1744
+00:34:50,129 --> 00:34:51,970
+ 
+
+1745
+00:34:50,139 --> 00:34:53,470
+ would have to do to make this to make
+
+1746
+00:34:51,960 --> 00:34:53,470
+ 
+
+1747
+00:34:51,970 --> 00:34:56,349
+ this structure actually grow and
+
+1748
+00:34:53,460 --> 00:34:56,349
+ 
+
+1749
+00:34:53,470 --> 00:34:58,300
+ evolution learned very early on to
+
+1750
+00:34:56,339 --> 00:34:58,300
+ 
+
+1751
+00:34:56,349 --> 00:34:59,920
+ exploit the computational properties of
+
+1752
+00:34:58,290 --> 00:34:59,920
+ 
+
+1753
+00:34:58,300 --> 00:35:03,160
+ electrical circuits electrical circuits
+
+1754
+00:34:59,910 --> 00:35:03,160
+ 
+
+1755
+00:34:59,920 --> 00:35:04,839
+ has some very convenient properties in
+
+1756
+00:35:03,150 --> 00:35:04,839
+ 
+
+1757
+00:35:03,160 --> 00:35:06,790
+ terms of information processing and
+
+1758
+00:35:04,829 --> 00:35:06,790
+ 
+
+1759
+00:35:04,839 --> 00:35:09,670
+ evolution caught on to this very early
+
+1760
+00:35:06,780 --> 00:35:09,670
+ 
+
+1761
+00:35:06,790 --> 00:35:11,650
+ and so under cracking this by Electrical
+
+1762
+00:35:09,660 --> 00:35:11,650
+ 
+
+1763
+00:35:09,670 --> 00:35:14,290
+ Code will have impacts not only on
+
+1764
+00:35:11,640 --> 00:35:14,290
+ 
+
+1765
+00:35:11,650 --> 00:35:16,329
+ regenerative medicine but also in
+
+1766
+00:35:14,280 --> 00:35:16,329
+ 
+
+1767
+00:35:14,290 --> 00:35:18,010
+ synthetic by engineering morphological
+
+1768
+00:35:16,319 --> 00:35:18,010
+ 
+
+1769
+00:35:16,329 --> 00:35:20,560
+ computation and so on this is really I
+
+1770
+00:35:18,000 --> 00:35:20,560
+ 
+
+1771
+00:35:18,010 --> 00:35:22,660
+ think a very important emerging field
+
+1772
+00:35:20,550 --> 00:35:22,660
+ 
+
+1773
+00:35:20,560 --> 00:35:24,700
+ and so what I want to are close now with
+
+1774
+00:35:22,650 --> 00:35:24,700
+ 
+
+1775
+00:35:22,660 --> 00:35:27,069
+ is to talk a little bit about the future
+
+1776
+00:35:24,690 --> 00:35:27,069
+ 
+
+1777
+00:35:24,700 --> 00:35:29,170
+ and this idea that perhaps we could make
+
+1778
+00:35:27,059 --> 00:35:29,170
+ 
+
+1779
+00:35:27,069 --> 00:35:32,079
+ a highly robust machine learning
+
+1780
+00:35:29,160 --> 00:35:32,079
+ 
+
+1781
+00:35:29,170 --> 00:35:34,540
+ platform technology that is based on non
+
+1782
+00:35:32,069 --> 00:35:34,540
+ 
+
+1783
+00:35:32,079 --> 00:35:36,220
+ neural architectures and we really are
+
+1784
+00:35:34,530 --> 00:35:36,220
+ 
+
+1785
+00:35:34,540 --> 00:35:38,050
+ interested in collaborators for this is
+
+1786
+00:35:36,210 --> 00:35:38,050
+ 
+
+1787
+00:35:36,220 --> 00:35:40,630
+ it possible that some of the limitations
+
+1788
+00:35:38,040 --> 00:35:40,630
+ 
+
+1789
+00:35:38,050 --> 00:35:42,250
+ of current machine learning is because
+
+1790
+00:35:40,620 --> 00:35:42,250
+ 
+
+1791
+00:35:40,630 --> 00:35:44,260
+ people have really been focusing on
+
+1792
+00:35:42,240 --> 00:35:44,260
+ 
+
+1793
+00:35:42,250 --> 00:35:45,880
+ imitating brains and especially human
+
+1794
+00:35:44,250 --> 00:35:45,880
+ 
+
+1795
+00:35:44,260 --> 00:35:49,060
+ brain architectures and what would
+
+1796
+00:35:45,870 --> 00:35:49,060
+ 
+
+1797
+00:35:45,880 --> 00:35:53,589
+ happen if we stepped way back and based
+
+1798
+00:35:49,050 --> 00:35:53,589
+ 
+
+1799
+00:35:49,060 --> 00:35:56,349
+ our attempt at this on single cells and
+
+1800
+00:35:53,579 --> 00:35:56,349
+ 
+
+1801
+00:35:53,589 --> 00:35:58,329
+ tissues that are doing much more much
+
+1802
+00:35:56,339 --> 00:35:58,329
+ 
+
+1803
+00:35:56,349 --> 00:36:01,359
+ more fundamental information processing
+
+1804
+00:35:58,319 --> 00:36:01,359
+ 
+
+1805
+00:35:58,329 --> 00:36:03,099
+ than than what we see in brains so in
+
+1806
+00:36:01,349 --> 00:36:03,099
+ 
+
+1807
+00:36:01,359 --> 00:36:04,900
+ fact some people have started looking at
+
+1808
+00:36:03,089 --> 00:36:04,900
+ 
+
+1809
+00:36:03,099 --> 00:36:07,359
+ this in other structures so so bone
+
+1810
+00:36:04,890 --> 00:36:07,359
+ 
+
+1811
+00:36:04,900 --> 00:36:09,160
+ heart pancreatic cells all of these
+
+1812
+00:36:07,349 --> 00:36:09,160
+ 
+
+1813
+00:36:07,359 --> 00:36:11,250
+ cells have been shown to exhibit aspects
+
+1814
+00:36:09,150 --> 00:36:11,250
+ 
+
+1815
+00:36:09,160 --> 00:36:13,510
+ of learning and in particular robust
+
+1816
+00:36:11,240 --> 00:36:13,510
+ 
+
+1817
+00:36:11,250 --> 00:36:15,160
+ adjustment to novel conditions one of
+
+1818
+00:36:13,500 --> 00:36:15,160
+ 
+
+1819
+00:36:13,510 --> 00:36:18,069
+ the most amazing things about living
+
+1820
+00:36:15,150 --> 00:36:18,069
+ 
+
+1821
+00:36:15,160 --> 00:36:19,450
+ things is how good they are at adapting
+
+1822
+00:36:18,059 --> 00:36:19,450
+ 
+
+1823
+00:36:18,069 --> 00:36:21,250
+ to novel circumstances that they've
+
+1824
+00:36:19,440 --> 00:36:21,250
+ 
+
+1825
+00:36:19,450 --> 00:36:23,319
+ never seen before and cracking this
+
+1826
+00:36:21,240 --> 00:36:23,319
+ 
+
+1827
+00:36:21,250 --> 00:36:26,170
+ problem will be very important for
+
+1828
+00:36:23,309 --> 00:36:26,170
+ 
+
+1829
+00:36:23,319 --> 00:36:27,790
+ robust robotics and
+
+1830
+00:36:26,160 --> 00:36:27,790
+ 
+
+1831
+00:36:26,170 --> 00:36:29,650
+ artificial intelligence but it's
+
+1832
+00:36:27,780 --> 00:36:29,650
+ 
+
+1833
+00:36:27,790 --> 00:36:31,870
+ critical to note that this is already
+
+1834
+00:36:29,640 --> 00:36:31,870
+ 
+
+1835
+00:36:29,650 --> 00:36:34,510
+ present in cells long before they Accord
+
+1836
+00:36:31,860 --> 00:36:34,510
+ 
+
+1837
+00:36:31,870 --> 00:36:37,240
+ the animals acquired brains so one of
+
+1838
+00:36:34,500 --> 00:36:37,240
+ 
+
+1839
+00:36:34,510 --> 00:36:40,540
+ the things that we're doing is to try to
+
+1840
+00:36:37,230 --> 00:36:40,540
+ 
+
+1841
+00:36:37,240 --> 00:36:42,460
+ extend the basic results of of
+
+1842
+00:36:40,530 --> 00:36:42,460
+ 
+
+1843
+00:36:40,540 --> 00:36:44,770
+ connectionism neural networks and all of
+
+1844
+00:36:42,450 --> 00:36:44,770
+ 
+
+1845
+00:36:42,460 --> 00:36:48,300
+ those kinds of things to be on the brain
+
+1846
+00:36:44,760 --> 00:36:48,300
+ 
+
+1847
+00:36:44,770 --> 00:36:51,160
+ try to try to develop a kind of
+
+1848
+00:36:48,290 --> 00:36:51,160
+ 
+
+1849
+00:36:48,300 --> 00:36:53,470
+ mathematics and and training algorithms
+
+1850
+00:36:51,150 --> 00:36:53,470
+ 
+
+1851
+00:36:51,160 --> 00:36:55,960
+ that can be used on non neural networks
+
+1852
+00:36:53,460 --> 00:36:55,960
+ 
+
+1853
+00:36:53,470 --> 00:36:57,910
+ and the other thing that we're doing is
+
+1854
+00:36:55,950 --> 00:36:57,910
+ 
+
+1855
+00:36:55,960 --> 00:37:00,310
+ we've we've had a little bit of success
+
+1856
+00:36:57,900 --> 00:37:00,310
+ 
+
+1857
+00:36:57,910 --> 00:37:01,960
+ coming up with contributions to what's
+
+1858
+00:37:00,300 --> 00:37:01,960
+ 
+
+1859
+00:37:00,310 --> 00:37:04,500
+ called the robot scientist field which
+
+1860
+00:37:01,950 --> 00:37:04,500
+ 
+
+1861
+00:37:01,960 --> 00:37:06,850
+ is basically which is basically
+
+1862
+00:37:04,490 --> 00:37:06,850
+ 
+
+1863
+00:37:04,500 --> 00:37:08,950
+ platforms that use machine learning to
+
+1864
+00:37:06,840 --> 00:37:08,950
+ 
+
+1865
+00:37:06,850 --> 00:37:12,700
+ help us actually understand what's going
+
+1866
+00:37:08,940 --> 00:37:12,700
+ 
+
+1867
+00:37:08,950 --> 00:37:14,140
+ on and to to discover not just and not
+
+1868
+00:37:12,690 --> 00:37:14,140
+ 
+
+1869
+00:37:12,700 --> 00:37:16,840
+ just to do number crunching but actually
+
+1870
+00:37:14,130 --> 00:37:16,840
+ 
+
+1871
+00:37:14,140 --> 00:37:19,000
+ discover a models of the kinds of
+
+1872
+00:37:16,830 --> 00:37:19,000
+ 
+
+1873
+00:37:16,840 --> 00:37:21,490
+ systems that were working with and so
+
+1874
+00:37:18,990 --> 00:37:21,490
+ 
+
+1875
+00:37:19,000 --> 00:37:23,530
+ what I'd like to do now is to thank the
+
+1876
+00:37:21,480 --> 00:37:23,530
+ 
+
+1877
+00:37:21,490 --> 00:37:24,580
+ all the people that have done some of
+
+1878
+00:37:23,520 --> 00:37:24,580
+ 
+
+1879
+00:37:23,530 --> 00:37:26,740
+ the work that I've shown you today I
+
+1880
+00:37:24,570 --> 00:37:26,740
+ 
+
+1881
+00:37:24,580 --> 00:37:28,750
+ want to thank my funders in particularly
+
+1882
+00:37:26,730 --> 00:37:28,750
+ 
+
+1883
+00:37:26,740 --> 00:37:31,330
+ the Paul G Allen frontiers group and
+
+1884
+00:37:28,740 --> 00:37:31,330
+ 
+
+1885
+00:37:28,750 --> 00:37:33,970
+ DARPA and if you wanted to see what
+
+1886
+00:37:31,320 --> 00:37:33,970
+ 
+
+1887
+00:37:31,330 --> 00:37:36,100
+ two-headed worms actually look like and
+
+1888
+00:37:33,960 --> 00:37:36,100
+ 
+
+1889
+00:37:33,970 --> 00:37:38,350
+ behave like this is what it is here you
+
+1890
+00:37:36,090 --> 00:37:38,350
+ 
+
+1891
+00:37:36,100 --> 00:37:40,360
+ see them and we now we actually have
+
+1892
+00:37:38,340 --> 00:37:40,360
+ 
+
+1893
+00:37:38,350 --> 00:37:41,890
+ openings both for postdoctoral work and
+
+1894
+00:37:40,350 --> 00:37:41,890
+ 
+
+1895
+00:37:40,360 --> 00:37:45,160
+ for visiting scientists so if anybody is
+
+1896
+00:37:41,880 --> 00:37:45,160
+ 
+
+1897
+00:37:41,890 --> 00:37:47,710
+ interested in making robotic bodies for
+
+1898
+00:37:45,150 --> 00:37:47,710
+ 
+
+1899
+00:37:45,160 --> 00:37:50,050
+ various biological systems new AI
+
+1900
+00:37:47,700 --> 00:37:50,050
+ 
+
+1901
+00:37:47,710 --> 00:37:52,720
+ platforms based on non neural
+
+1902
+00:37:50,040 --> 00:37:52,720
+ 
+
+1903
+00:37:50,050 --> 00:37:54,250
+ architectures machine learning and all
+
+1904
+00:37:52,710 --> 00:37:54,250
+ 
+
+1905
+00:37:52,720 --> 00:37:55,870
+ kinds of computer science applications
+
+1906
+00:37:54,240 --> 00:37:55,870
+ 
+
+1907
+00:37:54,250 --> 00:37:57,700
+ we would love to collaborate and you can
+
+1908
+00:37:55,860 --> 00:37:57,700
+ 
+
+1909
+00:37:55,870 --> 00:38:01,650
+ get in touch with me here and I will
+
+1910
+00:37:57,690 --> 00:38:01,650
+ 
+
+1911
+00:37:57,700 --> 00:38:01,650
+ take questions thank you
+
+1912
+00:38:19,020 --> 00:38:19,020
+ 
+
+1913
+00:38:19,030 --> 00:38:27,220
+ hey how do you determine which
+
+1914
+00:38:23,460 --> 00:38:27,220
+ 
+
+1915
+00:38:23,470 --> 00:38:29,740
+ electrical activity is just due to like
+
+1916
+00:38:27,210 --> 00:38:29,740
+ 
+
+1917
+00:38:27,220 --> 00:38:31,780
+ functional movement and things like this
+
+1918
+00:38:29,730 --> 00:38:31,780
+ 
+
+1919
+00:38:29,740 --> 00:38:34,030
+ in the organisms day to day life and
+
+1920
+00:38:31,770 --> 00:38:34,030
+ 
+
+1921
+00:38:31,780 --> 00:38:36,310
+ which aspects are going to be used for
+
+1922
+00:38:34,020 --> 00:38:36,310
+ 
+
+1923
+00:38:34,030 --> 00:38:39,010
+ something like regeneration and then how
+
+1924
+00:38:36,300 --> 00:38:39,010
+ 
+
+1925
+00:38:36,310 --> 00:38:41,830
+ do you actually edit it yeah so okay so
+
+1926
+00:38:39,000 --> 00:38:41,830
+ 
+
+1927
+00:38:39,010 --> 00:38:43,180
+ so the the convenient thing is that the
+
+1928
+00:38:41,820 --> 00:38:43,180
+ 
+
+1929
+00:38:41,830 --> 00:38:45,010
+ kinds of electrical states that are
+
+1930
+00:38:43,170 --> 00:38:45,010
+ 
+
+1931
+00:38:43,180 --> 00:38:46,840
+ important for decision making at the
+
+1932
+00:38:45,000 --> 00:38:46,840
+ 
+
+1933
+00:38:45,010 --> 00:38:49,750
+ anatomical level have a very different
+
+1934
+00:38:46,830 --> 00:38:49,750
+ 
+
+1935
+00:38:46,840 --> 00:38:51,730
+ time scale than the kinds of things that
+
+1936
+00:38:49,740 --> 00:38:51,730
+ 
+
+1937
+00:38:49,750 --> 00:38:53,470
+ guide behavior so anything that has to
+
+1938
+00:38:51,720 --> 00:38:53,470
+ 
+
+1939
+00:38:51,730 --> 00:38:55,060
+ do with muscle motion with neural
+
+1940
+00:38:53,460 --> 00:38:55,060
+ 
+
+1941
+00:38:53,470 --> 00:38:56,650
+ activity the time scale you're talking
+
+1942
+00:38:55,050 --> 00:38:56,650
+ 
+
+1943
+00:38:55,060 --> 00:38:58,000
+ about is milliseconds okay the
+
+1944
+00:38:56,640 --> 00:38:58,000
+ 
+
+1945
+00:38:56,650 --> 00:39:00,070
+ electrical activity that we deal with
+
+1946
+00:38:57,990 --> 00:39:00,070
+ 
+
+1947
+00:38:58,000 --> 00:39:02,260
+ these patterns are stable and they
+
+1948
+00:39:00,060 --> 00:39:02,260
+ 
+
+1949
+00:39:00,070 --> 00:39:04,510
+ change over a scale of minutes hours in
+
+1950
+00:39:02,250 --> 00:39:04,510
+ 
+
+1951
+00:39:02,260 --> 00:39:06,880
+ some cases days so it's an entirely
+
+1952
+00:39:04,500 --> 00:39:06,880
+ 
+
+1953
+00:39:04,510 --> 00:39:09,070
+ different set of if you will frequencies
+
+1954
+00:39:06,870 --> 00:39:09,070
+ 
+
+1955
+00:39:06,880 --> 00:39:10,450
+ that you deal with and the way we I
+
+1956
+00:39:09,060 --> 00:39:10,450
+ 
+
+1957
+00:39:09,070 --> 00:39:12,760
+ think your second question was how do we
+
+1958
+00:39:10,440 --> 00:39:12,760
+ 
+
+1959
+00:39:10,450 --> 00:39:14,170
+ edit it yeah so so there's there's a
+
+1960
+00:39:12,750 --> 00:39:14,170
+ 
+
+1961
+00:39:12,760 --> 00:39:16,690
+ couple of different approaches that we
+
+1962
+00:39:14,160 --> 00:39:16,690
+ 
+
+1963
+00:39:14,170 --> 00:39:19,090
+ take in our model systems that we use at
+
+1964
+00:39:16,680 --> 00:39:19,090
+ 
+
+1965
+00:39:16,690 --> 00:39:22,090
+ the bench the best way to edit it is to
+
+1966
+00:39:19,080 --> 00:39:22,090
+ 
+
+1967
+00:39:19,090 --> 00:39:24,160
+ knock in controllable ion channels so we
+
+1968
+00:39:22,080 --> 00:39:24,160
+ 
+
+1969
+00:39:22,090 --> 00:39:25,600
+ will put in novel maybe light gated
+
+1970
+00:39:24,150 --> 00:39:25,600
+ 
+
+1971
+00:39:24,160 --> 00:39:27,340
+ maybe drug gate at different ion
+
+1972
+00:39:25,590 --> 00:39:27,340
+ 
+
+1973
+00:39:25,600 --> 00:39:29,140
+ channels that allow us to have very fine
+
+1974
+00:39:27,330 --> 00:39:29,140
+ 
+
+1975
+00:39:27,340 --> 00:39:31,150
+ control over all the electrical
+
+1976
+00:39:29,130 --> 00:39:31,150
+ 
+
+1977
+00:39:29,140 --> 00:39:32,650
+ properties in biomedical applications
+
+1978
+00:39:31,140 --> 00:39:32,650
+ 
+
+1979
+00:39:31,150 --> 00:39:34,240
+ you this kind of gene therapy is
+
+1980
+00:39:32,640 --> 00:39:34,240
+ 
+
+1981
+00:39:32,650 --> 00:39:36,430
+ probably best avoided so what we do
+
+1982
+00:39:34,230 --> 00:39:36,430
+ 
+
+1983
+00:39:34,240 --> 00:39:38,650
+ there is to develop cocktails of drugs
+
+1984
+00:39:36,420 --> 00:39:38,650
+ 
+
+1985
+00:39:36,430 --> 00:39:40,360
+ that will open and close specific ion
+
+1986
+00:39:38,640 --> 00:39:40,360
+ 
+
+1987
+00:39:38,650 --> 00:39:42,250
+ channels that are already in the patient
+
+1988
+00:39:40,350 --> 00:39:42,250
+ 
+
+1989
+00:39:40,360 --> 00:39:44,440
+ so we have a variety of computational
+
+1990
+00:39:42,240 --> 00:39:44,440
+ 
+
+1991
+00:39:42,250 --> 00:39:46,060
+ tools that let us look at what channels
+
+1992
+00:39:44,430 --> 00:39:46,060
+ 
+
+1993
+00:39:44,440 --> 00:39:47,950
+ and pumps are expressed in the tissue of
+
+1994
+00:39:46,050 --> 00:39:47,950
+ 
+
+1995
+00:39:46,060 --> 00:39:49,450
+ interest and then try to come up with a
+
+1996
+00:39:47,940 --> 00:39:49,450
+ 
+
+1997
+00:39:47,950 --> 00:39:52,240
+ strategy that's going to get us to the
+
+1998
+00:39:49,440 --> 00:39:52,240
+ 
+
+1999
+00:39:49,450 --> 00:39:54,400
+ electrical signaling that we want does
+
+2000
+00:39:52,230 --> 00:39:54,400
+ 
+
+2001
+00:39:52,240 --> 00:39:58,360
+ that interfere with the like short-term
+
+2002
+00:39:54,390 --> 00:39:58,360
+ 
+
+2003
+00:39:54,400 --> 00:39:59,860
+ electrical signaling it really doesn't
+
+2004
+00:39:58,350 --> 00:39:59,860
+ 
+
+2005
+00:39:58,360 --> 00:40:00,880
+ one of the one of the really remarkable
+
+2006
+00:39:59,850 --> 00:40:00,880
+ 
+
+2007
+00:39:59,860 --> 00:40:02,980
+ things that we found so I should I
+
+2008
+00:40:00,870 --> 00:40:02,980
+ 
+
+2009
+00:40:00,880 --> 00:40:04,360
+ should point out that back in about 2000
+
+2010
+00:40:02,970 --> 00:40:04,360
+ 
+
+2011
+00:40:02,980 --> 00:40:05,680
+ when we first suggested this kind of
+
+2012
+00:40:04,350 --> 00:40:05,680
+ 
+
+2013
+00:40:04,360 --> 00:40:07,240
+ idea this was considered completely
+
+2014
+00:40:05,670 --> 00:40:07,240
+ 
+
+2015
+00:40:05,680 --> 00:40:09,280
+ crazy people said that electrical
+
+2016
+00:40:07,230 --> 00:40:09,280
+ 
+
+2017
+00:40:07,240 --> 00:40:10,630
+ properties of cells are housekeeping
+
+2018
+00:40:09,270 --> 00:40:10,630
+ 
+
+2019
+00:40:09,280 --> 00:40:11,920
+ parameters and that if we mess with it
+
+2020
+00:40:10,620 --> 00:40:11,920
+ 
+
+2021
+00:40:10,630 --> 00:40:13,290
+ everything's gonna die that you're going
+
+2022
+00:40:11,910 --> 00:40:13,290
+ 
+
+2023
+00:40:11,920 --> 00:40:15,820
+ to get an uninterpretable you know
+
+2024
+00:40:13,280 --> 00:40:15,820
+ 
+
+2025
+00:40:13,290 --> 00:40:18,700
+ toxicity none of that is true it turns
+
+2026
+00:40:15,810 --> 00:40:18,700
+ 
+
+2027
+00:40:15,820 --> 00:40:21,040
+ out that cells are very very good at
+
+2028
+00:40:18,690 --> 00:40:21,040
+ 
+
+2029
+00:40:18,700 --> 00:40:23,980
+ distinguishing the different types of
+
+2030
+00:40:21,030 --> 00:40:23,980
+ 
+
+2031
+00:40:21,040 --> 00:40:26,050
+ electrical signals and things that we do
+
+2032
+00:40:23,970 --> 00:40:26,050
+ 
+
+2033
+00:40:23,980 --> 00:40:28,600
+ at the long-term scale do not affect
+
+2034
+00:40:26,040 --> 00:40:28,600
+ 
+
+2035
+00:40:26,050 --> 00:40:29,920
+ behavior they can of course you can
+
+2036
+00:40:28,590 --> 00:40:29,920
+ 
+
+2037
+00:40:28,600 --> 00:40:31,810
+ overdo it I mean part of what we've been
+
+2038
+00:40:29,910 --> 00:40:31,810
+ 
+
+2039
+00:40:29,920 --> 00:40:32,460
+ doing for the last 15 years is coming up
+
+2040
+00:40:31,800 --> 00:40:32,460
+ 
+
+2041
+00:40:31,810 --> 00:40:33,599
+ with protocol
+
+2042
+00:40:32,450 --> 00:40:33,599
+ 
+
+2043
+00:40:32,460 --> 00:40:34,920
+ that have the least amount of side
+
+2044
+00:40:33,589 --> 00:40:34,920
+ 
+
+2045
+00:40:33,599 --> 00:40:37,500
+ effects possible right so you certainly
+
+2046
+00:40:34,910 --> 00:40:37,500
+ 
+
+2047
+00:40:34,920 --> 00:40:39,599
+ can overwhelm the system but these these
+
+2048
+00:40:37,490 --> 00:40:39,599
+ 
+
+2049
+00:40:37,500 --> 00:40:41,070
+ are designed to work in parallel and in
+
+2050
+00:40:39,589 --> 00:40:41,070
+ 
+
+2051
+00:40:39,599 --> 00:40:42,750
+ fact in all of these organisms the
+
+2052
+00:40:41,060 --> 00:40:42,750
+ 
+
+2053
+00:40:41,070 --> 00:40:44,940
+ regenerating planarian or the
+
+2054
+00:40:42,740 --> 00:40:44,940
+ 
+
+2055
+00:40:42,750 --> 00:40:46,830
+ regenerating salamander is running
+
+2056
+00:40:44,930 --> 00:40:46,830
+ 
+
+2057
+00:40:44,940 --> 00:40:48,900
+ around eating behaving doing all that
+
+2058
+00:40:46,820 --> 00:40:48,900
+ 
+
+2059
+00:40:46,830 --> 00:40:50,790
+ stuff while all the cells are figuring
+
+2060
+00:40:48,890 --> 00:40:50,790
+ 
+
+2061
+00:40:48,900 --> 00:40:53,040
+ out what to do so there's a multi scale
+
+2062
+00:40:50,780 --> 00:40:53,040
+ 
+
+2063
+00:40:50,790 --> 00:40:54,800
+ set of problem solving that does not
+
+2064
+00:40:53,030 --> 00:40:54,800
+ 
+
+2065
+00:40:53,040 --> 00:40:59,339
+ interfere with each other
+
+2066
+00:40:54,790 --> 00:40:59,339
+ 
+
+2067
+00:40:54,800 --> 00:41:00,869
+ phenomenal talk thank you okay thank you
+
+2068
+00:40:59,329 --> 00:41:00,869
+ 
+
+2069
+00:40:59,339 --> 00:41:02,040
+ very much for your a very interesting
+
+2070
+00:41:00,859 --> 00:41:02,040
+ 
+
+2071
+00:41:00,869 --> 00:41:05,010
+ talk actually you know I was very
+
+2072
+00:41:02,030 --> 00:41:05,010
+ 
+
+2073
+00:41:02,040 --> 00:41:07,170
+ excited about your biological inspired
+
+2074
+00:41:05,000 --> 00:41:07,170
+ 
+
+2075
+00:41:05,010 --> 00:41:09,000
+ work and I think you know there's a
+
+2076
+00:41:07,160 --> 00:41:09,000
+ 
+
+2077
+00:41:07,170 --> 00:41:10,950
+ research area called synthetic biology
+
+2078
+00:41:08,990 --> 00:41:10,950
+ 
+
+2079
+00:41:09,000 --> 00:41:12,930
+ and then people are trying to create
+
+2080
+00:41:10,940 --> 00:41:12,930
+ 
+
+2081
+00:41:10,950 --> 00:41:15,089
+ actually you know people can create
+
+2082
+00:41:12,920 --> 00:41:15,089
+ 
+
+2083
+00:41:12,930 --> 00:41:17,310
+ artificial cell from scratch and also
+
+2084
+00:41:15,079 --> 00:41:17,310
+ 
+
+2085
+00:41:15,089 --> 00:41:19,230
+ you know now if you attach electrodes to
+
+2086
+00:41:17,300 --> 00:41:19,230
+ 
+
+2087
+00:41:17,310 --> 00:41:21,240
+ the small insects you can you know
+
+2088
+00:41:19,220 --> 00:41:21,240
+ 
+
+2089
+00:41:19,230 --> 00:41:23,250
+ control the insects by sending a signal
+
+2090
+00:41:21,230 --> 00:41:23,250
+ 
+
+2091
+00:41:21,240 --> 00:41:25,349
+ to them and also you know people are
+
+2092
+00:41:23,240 --> 00:41:25,349
+ 
+
+2093
+00:41:23,250 --> 00:41:27,869
+ trying to create truly intelligent
+
+2094
+00:41:25,339 --> 00:41:27,869
+ 
+
+2095
+00:41:25,349 --> 00:41:29,400
+ robots right from Robotics perspectives
+
+2096
+00:41:27,859 --> 00:41:29,400
+ 
+
+2097
+00:41:27,869 --> 00:41:33,570
+ and always in an algorithmic perspective
+
+2098
+00:41:29,390 --> 00:41:33,570
+ 
+
+2099
+00:41:29,400 --> 00:41:35,369
+ so I'd like to know you're in a personal
+
+2100
+00:41:33,560 --> 00:41:35,369
+ 
+
+2101
+00:41:33,570 --> 00:41:37,920
+ opinion about what is the correct
+
+2102
+00:41:35,359 --> 00:41:37,920
+ 
+
+2103
+00:41:35,369 --> 00:41:40,140
+ direction of true and creating truly
+
+2104
+00:41:37,910 --> 00:41:40,140
+ 
+
+2105
+00:41:37,920 --> 00:41:42,900
+ intelligent agent or creatures or
+
+2106
+00:41:40,130 --> 00:41:42,900
+ 
+
+2107
+00:41:40,140 --> 00:41:45,200
+ whatever I mean yeah all right well I
+
+2108
+00:41:42,890 --> 00:41:45,200
+ 
+
+2109
+00:41:42,900 --> 00:41:47,430
+ could say a couple things we do have a
+
+2110
+00:41:45,190 --> 00:41:47,430
+ 
+
+2111
+00:41:45,200 --> 00:41:49,680
+ section of my group it works on
+
+2112
+00:41:47,420 --> 00:41:49,680
+ 
+
+2113
+00:41:47,430 --> 00:41:51,119
+ synthetic morphology so we have some
+
+2114
+00:41:49,670 --> 00:41:51,119
+ 
+
+2115
+00:41:49,680 --> 00:41:52,349
+ really promising it's not published yet
+
+2116
+00:41:51,109 --> 00:41:52,349
+ 
+
+2117
+00:41:51,119 --> 00:41:54,420
+ so I didn't bring it up here but there's
+
+2118
+00:41:52,339 --> 00:41:54,420
+ 
+
+2119
+00:41:52,349 --> 00:41:57,510
+ the way we have some some pretty amazing
+
+2120
+00:41:54,410 --> 00:41:57,510
+ 
+
+2121
+00:41:54,420 --> 00:41:59,190
+ new data on the ability of cells to
+
+2122
+00:41:57,500 --> 00:41:59,190
+ 
+
+2123
+00:41:57,510 --> 00:42:01,619
+ learn to cooperate in completely
+
+2124
+00:41:59,180 --> 00:42:01,619
+ 
+
+2125
+00:41:59,190 --> 00:42:03,480
+ different configurations so you can make
+
+2126
+00:42:01,609 --> 00:42:03,480
+ 
+
+2127
+00:42:01,619 --> 00:42:05,520
+ artificial living machines that are
+
+2128
+00:42:03,470 --> 00:42:05,520
+ 
+
+2129
+00:42:03,480 --> 00:42:06,930
+ nothing like the animal that from which
+
+2130
+00:42:05,510 --> 00:42:06,930
+ 
+
+2131
+00:42:05,520 --> 00:42:09,300
+ they came and they're able to learn to
+
+2132
+00:42:06,920 --> 00:42:09,300
+ 
+
+2133
+00:42:06,930 --> 00:42:11,280
+ cooperate and through some sort of a
+
+2134
+00:42:09,290 --> 00:42:11,280
+ 
+
+2135
+00:42:09,300 --> 00:42:12,930
+ combination of emergence and guided
+
+2136
+00:42:11,270 --> 00:42:12,930
+ 
+
+2137
+00:42:11,280 --> 00:42:14,280
+ self-assembly we can make some some
+
+2138
+00:42:12,920 --> 00:42:14,280
+ 
+
+2139
+00:42:12,930 --> 00:42:16,710
+ machines that are just you know just
+
+2140
+00:42:14,270 --> 00:42:16,710
+ 
+
+2141
+00:42:14,280 --> 00:42:18,720
+ amazing I think that's a very exciting
+
+2142
+00:42:16,700 --> 00:42:18,720
+ 
+
+2143
+00:42:16,710 --> 00:42:20,400
+ exciting field of course the other thing
+
+2144
+00:42:18,710 --> 00:42:20,400
+ 
+
+2145
+00:42:18,720 --> 00:42:22,680
+ that is really interesting is to try to
+
+2146
+00:42:20,390 --> 00:42:22,680
+ 
+
+2147
+00:42:20,400 --> 00:42:25,109
+ extract some of the policies that cells
+
+2148
+00:42:22,670 --> 00:42:25,109
+ 
+
+2149
+00:42:22,680 --> 00:42:27,390
+ and tissues use and try to implement
+
+2150
+00:42:25,099 --> 00:42:27,390
+ 
+
+2151
+00:42:25,109 --> 00:42:29,520
+ them either directly in the hardware or
+
+2152
+00:42:27,380 --> 00:42:29,520
+ 
+
+2153
+00:42:27,390 --> 00:42:30,720
+ to bio interface so so we've done a
+
+2154
+00:42:29,510 --> 00:42:30,720
+ 
+
+2155
+00:42:29,520 --> 00:42:33,810
+ little bit of that to is try to
+
+2156
+00:42:30,710 --> 00:42:33,810
+ 
+
+2157
+00:42:30,720 --> 00:42:35,220
+ interface some you know the UM one of
+
+2158
+00:42:33,800 --> 00:42:35,220
+ 
+
+2159
+00:42:33,810 --> 00:42:38,099
+ the one of the things I didn't bring up
+
+2160
+00:42:35,210 --> 00:42:38,099
+ 
+
+2161
+00:42:35,220 --> 00:42:40,140
+ here for for lack of time is we found
+
+2162
+00:42:38,089 --> 00:42:40,140
+ 
+
+2163
+00:42:38,099 --> 00:42:42,030
+ out that if you if you make a tadpole
+
+2164
+00:42:40,130 --> 00:42:42,030
+ 
+
+2165
+00:42:40,140 --> 00:42:43,859
+ where the eyes are on the tail instead
+
+2166
+00:42:42,020 --> 00:42:43,859
+ 
+
+2167
+00:42:42,030 --> 00:42:45,330
+ of in the head those tadpoles can see
+
+2168
+00:42:43,849 --> 00:42:45,330
+ 
+
+2169
+00:42:43,859 --> 00:42:46,030
+ out of that are those eyes perfectly
+
+2170
+00:42:45,320 --> 00:42:46,030
+ 
+
+2171
+00:42:45,330 --> 00:42:47,470
+ well if
+
+2172
+00:42:46,020 --> 00:42:47,470
+ 
+
+2173
+00:42:46,030 --> 00:42:49,810
+ the brain has you know for millions of
+
+2174
+00:42:47,460 --> 00:42:49,810
+ 
+
+2175
+00:42:47,470 --> 00:42:51,550
+ years its benefits evolved to expect
+
+2176
+00:42:49,800 --> 00:42:51,550
+ 
+
+2177
+00:42:49,810 --> 00:42:52,780
+ visual input from this region up in the
+
+2178
+00:42:51,540 --> 00:42:52,780
+ 
+
+2179
+00:42:51,550 --> 00:42:54,400
+ head and all of a sudden now there's
+
+2180
+00:42:52,770 --> 00:42:54,400
+ 
+
+2181
+00:42:52,780 --> 00:42:55,540
+ this weird itchy patch of tissue in the
+
+2182
+00:42:54,390 --> 00:42:55,540
+ 
+
+2183
+00:42:54,400 --> 00:42:57,070
+ back that sort of sending you some
+
+2184
+00:42:55,530 --> 00:42:57,070
+ 
+
+2185
+00:42:55,540 --> 00:42:58,750
+ signals the brain has no trouble
+
+2186
+00:42:57,060 --> 00:42:58,750
+ 
+
+2187
+00:42:57,070 --> 00:43:00,700
+ figuring out that that's visual data and
+
+2188
+00:42:58,740 --> 00:43:00,700
+ 
+
+2189
+00:42:58,750 --> 00:43:02,650
+ being able to learn so those plasticity
+
+2190
+00:43:00,690 --> 00:43:02,650
+ 
+
+2191
+00:43:00,700 --> 00:43:04,360
+ ziz is incredible and we need to we need
+
+2192
+00:43:02,640 --> 00:43:04,360
+ 
+
+2193
+00:43:02,650 --> 00:43:06,130
+ to understand how this works and then I
+
+2194
+00:43:04,350 --> 00:43:06,130
+ 
+
+2195
+00:43:04,360 --> 00:43:08,040
+ think I think the artifacts that we make
+
+2196
+00:43:06,120 --> 00:43:08,040
+ 
+
+2197
+00:43:06,130 --> 00:43:11,130
+ are going to be just transformative
+
+2198
+00:43:08,030 --> 00:43:11,130
+ 
+
+2199
+00:43:08,040 --> 00:43:11,130
+ thank you
+
+2200
+00:43:11,360 --> 00:43:11,360
+ 
+
+2201
+00:43:11,370 --> 00:43:17,220
+ great talk yes do we know something
+
+2202
+00:43:14,910 --> 00:43:17,220
+ 
+
+2203
+00:43:14,920 --> 00:43:20,440
+ about plants in terms of electrical
+
+2204
+00:43:17,210 --> 00:43:20,440
+ 
+
+2205
+00:43:17,220 --> 00:43:23,380
+ signaling and also there is mechanical
+
+2206
+00:43:20,430 --> 00:43:23,380
+ 
+
+2207
+00:43:20,440 --> 00:43:24,820
+ signaling which is very slow relatively
+
+2208
+00:43:23,370 --> 00:43:24,820
+ 
+
+2209
+00:43:23,380 --> 00:43:26,500
+ slow so do you know anything about
+
+2210
+00:43:24,810 --> 00:43:26,500
+ 
+
+2211
+00:43:24,820 --> 00:43:29,560
+ interactions between these different
+
+2212
+00:43:26,490 --> 00:43:29,560
+ 
+
+2213
+00:43:26,500 --> 00:43:31,540
+ modes yeah great questions so plants yes
+
+2214
+00:43:29,550 --> 00:43:31,540
+ 
+
+2215
+00:43:29,560 --> 00:43:33,310
+ my group doesn't work on plants but
+
+2216
+00:43:31,530 --> 00:43:33,310
+ 
+
+2217
+00:43:31,540 --> 00:43:36,280
+ there's a couple of other labs that do
+
+2218
+00:43:33,300 --> 00:43:36,280
+ 
+
+2219
+00:43:33,310 --> 00:43:39,220
+ and it's it's very interesting plants do
+
+2220
+00:43:36,270 --> 00:43:39,220
+ 
+
+2221
+00:43:36,280 --> 00:43:41,170
+ very similar things with electrical
+
+2222
+00:43:39,210 --> 00:43:41,170
+ 
+
+2223
+00:43:39,220 --> 00:43:43,240
+ signaling as a lot of what I showed you
+
+2224
+00:43:41,160 --> 00:43:43,240
+ 
+
+2225
+00:43:41,170 --> 00:43:44,770
+ here is true in plants as well which is
+
+2226
+00:43:43,230 --> 00:43:44,770
+ 
+
+2227
+00:43:43,240 --> 00:43:46,480
+ remarkable because plants and animals
+
+2228
+00:43:44,760 --> 00:43:46,480
+ 
+
+2229
+00:43:44,770 --> 00:43:48,010
+ shared different origins of
+
+2230
+00:43:46,470 --> 00:43:48,010
+ 
+
+2231
+00:43:46,480 --> 00:43:49,930
+ multicellularity right so they both
+
+2232
+00:43:48,000 --> 00:43:49,930
+ 
+
+2233
+00:43:48,010 --> 00:43:52,090
+ discover this independently and that's
+
+2234
+00:43:49,920 --> 00:43:52,090
+ 
+
+2235
+00:43:49,930 --> 00:43:54,130
+ because they're the ancestors even from
+
+2236
+00:43:52,080 --> 00:43:54,130
+ 
+
+2237
+00:43:52,090 --> 00:43:56,620
+ bacteria so even bacterial biofilms
+
+2238
+00:43:54,120 --> 00:43:56,620
+ 
+
+2239
+00:43:54,130 --> 00:43:57,790
+ propagate potassium waves that are brain
+
+2240
+00:43:56,610 --> 00:43:57,790
+ 
+
+2241
+00:43:56,620 --> 00:44:00,130
+ like and there's been some interesting
+
+2242
+00:43:57,780 --> 00:44:00,130
+ 
+
+2243
+00:43:57,790 --> 00:44:01,960
+ work on that so the decision-making for
+
+2244
+00:44:00,120 --> 00:44:01,960
+ 
+
+2245
+00:44:00,130 --> 00:44:03,490
+ example in plant roots as they as they
+
+2246
+00:44:01,950 --> 00:44:03,490
+ 
+
+2247
+00:44:01,960 --> 00:44:04,840
+ go through the soil and figure out where
+
+2248
+00:44:03,480 --> 00:44:04,840
+ 
+
+2249
+00:44:03,490 --> 00:44:07,570
+ they're gonna go all the way through
+
+2250
+00:44:04,830 --> 00:44:07,570
+ 
+
+2251
+00:44:04,840 --> 00:44:09,490
+ morphogenesis of the plant itself a lot
+
+2252
+00:44:07,560 --> 00:44:09,490
+ 
+
+2253
+00:44:07,570 --> 00:44:12,460
+ of what I've said here it holds holds
+
+2254
+00:44:09,480 --> 00:44:12,460
+ 
+
+2255
+00:44:09,490 --> 00:44:14,560
+ for plants as well mechanical forces
+
+2256
+00:44:12,450 --> 00:44:14,560
+ 
+
+2257
+00:44:12,460 --> 00:44:16,750
+ yeah mechanical forces are absolutely
+
+2258
+00:44:14,550 --> 00:44:16,750
+ 
+
+2259
+00:44:14,560 --> 00:44:20,320
+ also important in all of this and
+
+2260
+00:44:16,740 --> 00:44:20,320
+ 
+
+2261
+00:44:16,750 --> 00:44:22,570
+ mechanics interacts tightly with bio
+
+2262
+00:44:20,310 --> 00:44:22,570
+ 
+
+2263
+00:44:20,320 --> 00:44:24,490
+ electrics there are stretch and
+
+2264
+00:44:22,560 --> 00:44:24,490
+ 
+
+2265
+00:44:22,570 --> 00:44:26,170
+ pressure-sensitive ion channels so they
+
+2266
+00:44:24,480 --> 00:44:26,170
+ 
+
+2267
+00:44:24,490 --> 00:44:27,970
+ will convert mechanical forces into
+
+2268
+00:44:26,160 --> 00:44:27,970
+ 
+
+2269
+00:44:26,170 --> 00:44:29,890
+ electrical forces and there are proteins
+
+2270
+00:44:27,960 --> 00:44:29,890
+ 
+
+2271
+00:44:27,970 --> 00:44:31,690
+ that do the reverse that basically under
+
+2272
+00:44:29,880 --> 00:44:31,690
+ 
+
+2273
+00:44:29,890 --> 00:44:34,510
+ electrical gradients across the membrane
+
+2274
+00:44:31,680 --> 00:44:34,510
+ 
+
+2275
+00:44:31,690 --> 00:44:36,730
+ they will exert stress and strain so so
+
+2276
+00:44:34,500 --> 00:44:36,730
+ 
+
+2277
+00:44:34,510 --> 00:44:38,800
+ those systems interact also of course
+
+2278
+00:44:36,720 --> 00:44:38,800
+ 
+
+2279
+00:44:36,730 --> 00:44:40,840
+ both of them interact with more familiar
+
+2280
+00:44:38,790 --> 00:44:40,840
+ 
+
+2281
+00:44:38,800 --> 00:44:43,240
+ genetic and biochemical signaling and so
+
+2282
+00:44:40,830 --> 00:44:43,240
+ 
+
+2283
+00:44:40,840 --> 00:44:47,260
+ these are three pieces of the puzzle and
+
+2284
+00:44:43,230 --> 00:44:47,260
+ 
+
+2285
+00:44:43,240 --> 00:44:48,670
+ the whole system is kind of this this
+
+2286
+00:44:47,250 --> 00:44:48,670
+ 
+
+2287
+00:44:47,260 --> 00:44:50,530
+ dynamical system where all of these
+
+2288
+00:44:48,660 --> 00:44:50,530
+ 
+
+2289
+00:44:48,670 --> 00:44:52,330
+ things constantly interact the one
+
+2290
+00:44:50,520 --> 00:44:52,330
+ 
+
+2291
+00:44:50,530 --> 00:44:55,000
+ question that we always ask ourselves is
+
+2292
+00:44:52,320 --> 00:44:55,000
+ 
+
+2293
+00:44:52,330 --> 00:44:57,340
+ at what point in that control structure
+
+2294
+00:44:54,990 --> 00:44:57,340
+ 
+
+2295
+00:44:55,000 --> 00:44:59,080
+ is it most efficient to intervene so
+
+2296
+00:44:57,330 --> 00:44:59,080
+ 
+
+2297
+00:44:57,340 --> 00:44:59,599
+ right now the majority of my colleagues
+
+2298
+00:44:59,070 --> 00:44:59,599
+ 
+
+2299
+00:44:59,080 --> 00:45:01,549
+ are
+
+2300
+00:44:59,589 --> 00:45:01,549
+ 
+
+2301
+00:44:59,599 --> 00:45:03,079
+ working on biochemistry and genetics so
+
+2302
+00:45:01,539 --> 00:45:03,079
+ 
+
+2303
+00:45:01,549 --> 00:45:04,430
+ so they're intervening at the molecular
+
+2304
+00:45:03,069 --> 00:45:04,430
+ 
+
+2305
+00:45:03,079 --> 00:45:07,609
+ level so they're looking for growth
+
+2306
+00:45:04,420 --> 00:45:07,609
+ 
+
+2307
+00:45:04,430 --> 00:45:09,619
+ factors and diffusible signals what we
+
+2308
+00:45:07,599 --> 00:45:09,619
+ 
+
+2309
+00:45:07,609 --> 00:45:11,450
+ have seen is that intervening in the
+
+2310
+00:45:09,609 --> 00:45:11,450
+ 
+
+2311
+00:45:09,619 --> 00:45:13,460
+ electrical level gives extremely
+
+2312
+00:45:11,440 --> 00:45:13,460
+ 
+
+2313
+00:45:11,450 --> 00:45:15,890
+ efficient control so if you want an eye
+
+2314
+00:45:13,450 --> 00:45:15,890
+ 
+
+2315
+00:45:13,460 --> 00:45:17,660
+ you can try to assemble it cell by cell
+
+2316
+00:45:15,880 --> 00:45:17,660
+ 
+
+2317
+00:45:15,890 --> 00:45:19,579
+ but it's really much more efficient to
+
+2318
+00:45:17,650 --> 00:45:19,579
+ 
+
+2319
+00:45:17,660 --> 00:45:21,739
+ trigger the whole the whole subroutine
+
+2320
+00:45:19,569 --> 00:45:21,739
+ 
+
+2321
+00:45:19,579 --> 00:45:23,299
+ as it were and so I think that a lot of
+
+2322
+00:45:21,729 --> 00:45:23,299
+ 
+
+2323
+00:45:21,739 --> 00:45:24,859
+ the important decisions are made at the
+
+2324
+00:45:23,289 --> 00:45:24,859
+ 
+
+2325
+00:45:23,299 --> 00:45:28,190
+ electrical level but it's absolutely
+
+2326
+00:45:24,849 --> 00:45:28,190
+ 
+
+2327
+00:45:24,859 --> 00:45:30,229
+ true that mechanical forces and did you
+
+2328
+00:45:28,180 --> 00:45:30,229
+ 
+
+2329
+00:45:28,190 --> 00:45:32,539
+ know transcriptional and chemical
+
+2330
+00:45:30,219 --> 00:45:32,539
+ 
+
+2331
+00:45:30,229 --> 00:45:34,339
+ networks are downstream as part of how
+
+2332
+00:45:32,529 --> 00:45:34,339
+ 
+
+2333
+00:45:32,539 --> 00:45:39,229
+ this stuff gets executed in the actual
+
+2334
+00:45:34,329 --> 00:45:39,229
+ 
+
+2335
+00:45:34,339 --> 00:45:41,989
+ tissue hi thank you for your talk it was
+
+2336
+00:45:39,219 --> 00:45:41,989
+ 
+
+2337
+00:45:39,229 --> 00:45:45,890
+ very fascinating so you talked a lot
+
+2338
+00:45:41,979 --> 00:45:45,890
+ 
+
+2339
+00:45:41,989 --> 00:45:47,299
+ about how on-like cells that regenerate
+
+2340
+00:45:45,880 --> 00:45:47,299
+ 
+
+2341
+00:45:45,890 --> 00:45:48,950
+ limbs are making some sort of decision
+
+2342
+00:45:47,289 --> 00:45:48,950
+ 
+
+2343
+00:45:47,299 --> 00:45:51,109
+ and you said that plant roots they make
+
+2344
+00:45:48,940 --> 00:45:51,109
+ 
+
+2345
+00:45:48,950 --> 00:45:53,930
+ decisions as they navigate through the
+
+2346
+00:45:51,099 --> 00:45:53,930
+ 
+
+2347
+00:45:51,109 --> 00:45:55,700
+ ground and somewhere on a higher level
+
+2348
+00:45:53,920 --> 00:45:55,700
+ 
+
+2349
+00:45:53,930 --> 00:45:57,470
+ we also make decisions in our brain so
+
+2350
+00:45:55,690 --> 00:45:57,470
+ 
+
+2351
+00:45:55,700 --> 00:46:00,019
+ somewhere between there this thing
+
+2352
+00:45:57,460 --> 00:46:00,019
+ 
+
+2353
+00:45:57,470 --> 00:46:02,809
+ called consciousness arises is there any
+
+2354
+00:46:00,009 --> 00:46:02,809
+ 
+
+2355
+00:46:00,019 --> 00:46:06,819
+ sort of real definition of consciousness
+
+2356
+00:46:02,799 --> 00:46:06,819
+ 
+
+2357
+00:46:02,809 --> 00:46:09,769
+ and if so is it a gradient is it a line
+
+2358
+00:46:06,809 --> 00:46:09,769
+ 
+
+2359
+00:46:06,819 --> 00:46:11,930
+ dude can you speak to that at all yeah
+
+2360
+00:46:09,759 --> 00:46:11,930
+ 
+
+2361
+00:46:09,769 --> 00:46:13,849
+ III get into enough trouble talking
+
+2362
+00:46:11,920 --> 00:46:13,849
+ 
+
+2363
+00:46:11,930 --> 00:46:16,009
+ about decision making at the level of
+
+2364
+00:46:13,839 --> 00:46:16,009
+ 
+
+2365
+00:46:13,849 --> 00:46:17,900
+ cells so I don't think I'm gonna void
+
+2366
+00:46:15,999 --> 00:46:17,900
+ 
+
+2367
+00:46:16,009 --> 00:46:19,009
+ opinion on cautiousness per se because
+
+2368
+00:46:17,890 --> 00:46:19,009
+ 
+
+2369
+00:46:17,900 --> 00:46:21,289
+ there's a lot of people that work on
+
+2370
+00:46:18,999 --> 00:46:21,289
+ 
+
+2371
+00:46:19,009 --> 00:46:23,180
+ this and argue about that stuff but I
+
+2372
+00:46:21,279 --> 00:46:23,180
+ 
+
+2373
+00:46:21,289 --> 00:46:25,579
+ will say that there is there is an
+
+2374
+00:46:23,170 --> 00:46:25,579
+ 
+
+2375
+00:46:23,180 --> 00:46:27,259
+ emerging field of basal cognition and
+
+2376
+00:46:25,569 --> 00:46:27,259
+ 
+
+2377
+00:46:25,579 --> 00:46:29,809
+ these are groups of people that talk
+
+2378
+00:46:27,249 --> 00:46:29,809
+ 
+
+2379
+00:46:27,259 --> 00:46:31,789
+ that talk about memory learning sensing
+
+2380
+00:46:29,799 --> 00:46:31,789
+ 
+
+2381
+00:46:29,809 --> 00:46:34,339
+ creativity all the kinds of things all
+
+2382
+00:46:31,779 --> 00:46:34,339
+ 
+
+2383
+00:46:31,789 --> 00:46:36,979
+ the way from bacteria plants animals
+
+2384
+00:46:34,329 --> 00:46:36,979
+ 
+
+2385
+00:46:34,339 --> 00:46:38,690
+ cells and in fact even group colonial
+
+2386
+00:46:36,969 --> 00:46:38,690
+ 
+
+2387
+00:46:36,979 --> 00:46:39,829
+ organisms like ant hills you know there
+
+2388
+00:46:38,680 --> 00:46:39,829
+ 
+
+2389
+00:46:38,690 --> 00:46:41,210
+ are things that an anthill knows that
+
+2390
+00:46:39,819 --> 00:46:41,210
+ 
+
+2391
+00:46:39,829 --> 00:46:42,499
+ the individual ants don't know and so on
+
+2392
+00:46:41,200 --> 00:46:42,499
+ 
+
+2393
+00:46:41,210 --> 00:46:44,059
+ so there's lots of people that worry
+
+2394
+00:46:42,489 --> 00:46:44,059
+ 
+
+2395
+00:46:42,499 --> 00:46:45,799
+ about that kind of stuff and and we
+
+2396
+00:46:44,049 --> 00:46:45,799
+ 
+
+2397
+00:46:44,059 --> 00:46:47,569
+ discuss all these things at meetings so
+
+2398
+00:46:45,789 --> 00:46:47,569
+ 
+
+2399
+00:46:45,799 --> 00:46:49,130
+ I don't think I'm haven't even profound
+
+2400
+00:46:47,559 --> 00:46:49,130
+ 
+
+2401
+00:46:47,569 --> 00:46:51,529
+ to say specifically about consciousness
+
+2402
+00:46:49,120 --> 00:46:51,529
+ 
+
+2403
+00:46:49,130 --> 00:46:53,239
+ but I do feel very strongly that all of
+
+2404
+00:46:51,519 --> 00:46:53,239
+ 
+
+2405
+00:46:51,529 --> 00:46:55,460
+ this is a continuum that there is
+
+2406
+00:46:53,229 --> 00:46:55,460
+ 
+
+2407
+00:46:53,239 --> 00:46:56,749
+ nothing radically special about it
+
+2408
+00:46:55,450 --> 00:46:56,749
+ 
+
+2409
+00:46:55,460 --> 00:46:58,880
+ there's a lot of people that feel that
+
+2410
+00:46:56,739 --> 00:46:58,880
+ 
+
+2411
+00:46:56,749 --> 00:47:00,380
+ some of these terms should be left sort
+
+2412
+00:46:58,870 --> 00:47:00,380
+ 
+
+2413
+00:46:58,880 --> 00:47:02,180
+ of exclusively in the realm of human
+
+2414
+00:47:00,370 --> 00:47:02,180
+ 
+
+2415
+00:47:00,380 --> 00:47:03,650
+ psychology and I think that's a profound
+
+2416
+00:47:02,170 --> 00:47:03,650
+ 
+
+2417
+00:47:02,180 --> 00:47:05,660
+ mistake I think that's a that's a
+
+2418
+00:47:03,640 --> 00:47:05,660
+ 
+
+2419
+00:47:03,650 --> 00:47:08,359
+ mistake both on evolutionary grounds and
+
+2420
+00:47:05,650 --> 00:47:08,359
+ 
+
+2421
+00:47:05,660 --> 00:47:10,039
+ you know just in there is no principled
+
+2422
+00:47:08,349 --> 00:47:10,039
+ 
+
+2423
+00:47:08,359 --> 00:47:11,570
+ distinction there are only shades of the
+
+2424
+00:47:10,029 --> 00:47:11,570
+ 
+
+2425
+00:47:10,039 --> 00:47:12,890
+ shades of quantitative difference
+
+2426
+00:47:11,560 --> 00:47:12,890
+ 
+
+2427
+00:47:11,570 --> 00:47:15,530
+ and so you can see things like
+
+2428
+00:47:12,880 --> 00:47:15,530
+ 
+
+2429
+00:47:12,890 --> 00:47:17,210
+ anticipation yeast can anticipate you
+
+2430
+00:47:15,520 --> 00:47:17,210
+ 
+
+2431
+00:47:15,530 --> 00:47:18,920
+ know yeast can learn simple patterns and
+
+2432
+00:47:17,200 --> 00:47:18,920
+ 
+
+2433
+00:47:17,210 --> 00:47:20,720
+ they'll anticipate to them there these
+
+2434
+00:47:18,910 --> 00:47:20,720
+ 
+
+2435
+00:47:18,920 --> 00:47:22,430
+ things go all the way down to the to the
+
+2436
+00:47:20,710 --> 00:47:22,430
+ 
+
+2437
+00:47:20,720 --> 00:47:24,290
+ very base of the Tree of Life and so
+
+2438
+00:47:22,420 --> 00:47:24,290
+ 
+
+2439
+00:47:22,430 --> 00:47:26,030
+ what you're gonna call is consciousness
+
+2440
+00:47:24,280 --> 00:47:26,030
+ 
+
+2441
+00:47:24,290 --> 00:47:27,890
+ I mean I have I have a very good
+
+2442
+00:47:26,020 --> 00:47:27,890
+ 
+
+2443
+00:47:26,030 --> 00:47:30,170
+ colleague who thinks that cautious of
+
+2444
+00:47:27,880 --> 00:47:30,170
+ 
+
+2445
+00:47:27,890 --> 00:47:32,300
+ consciousness appears when something she
+
+2446
+00:47:30,160 --> 00:47:32,300
+ 
+
+2447
+00:47:30,170 --> 00:47:33,860
+ calls you al unlimited associative
+
+2448
+00:47:32,290 --> 00:47:33,860
+ 
+
+2449
+00:47:32,300 --> 00:47:35,510
+ learning takes place and there are only
+
+2450
+00:47:33,850 --> 00:47:35,510
+ 
+
+2451
+00:47:33,860 --> 00:47:38,150
+ some organisms that are able to carry
+
+2452
+00:47:35,500 --> 00:47:38,150
+ 
+
+2453
+00:47:35,510 --> 00:47:39,680
+ out a kind of generic associative
+
+2454
+00:47:38,140 --> 00:47:39,680
+ 
+
+2455
+00:47:38,150 --> 00:47:41,480
+ learning and and some organisms cannot
+
+2456
+00:47:39,670 --> 00:47:41,480
+ 
+
+2457
+00:47:39,680 --> 00:47:43,220
+ and that's where she puts the line I'm
+
+2458
+00:47:41,470 --> 00:47:43,220
+ 
+
+2459
+00:47:41,480 --> 00:47:44,870
+ not sure I think it's as reasonable as
+
+2460
+00:47:43,210 --> 00:47:44,870
+ 
+
+2461
+00:47:43,220 --> 00:47:46,850
+ anything else but for sure it's a
+
+2462
+00:47:44,860 --> 00:47:46,850
+ 
+
+2463
+00:47:44,870 --> 00:47:48,770
+ continuum and whether it's consciousness
+
+2464
+00:47:46,840 --> 00:47:48,770
+ 
+
+2465
+00:47:46,850 --> 00:47:50,140
+ or just functional cognitive abilities
+
+2466
+00:47:48,760 --> 00:47:50,140
+ 
+
+2467
+00:47:48,770 --> 00:47:55,730
+ they go all the way to the beginning
+
+2468
+00:47:50,130 --> 00:47:55,730
+ 
+
+2469
+00:47:50,140 --> 00:47:59,840
+ thanks very much I was amazed by your
+
+2470
+00:47:55,720 --> 00:47:59,840
+ 
+
+2471
+00:47:55,730 --> 00:48:01,940
+ talk when you apply these frequencies or
+
+2472
+00:47:59,830 --> 00:48:01,940
+ 
+
+2473
+00:47:59,840 --> 00:48:03,590
+ this electronical signal how do you do
+
+2474
+00:48:01,930 --> 00:48:03,590
+ 
+
+2475
+00:48:01,940 --> 00:48:05,390
+ that do you put in just like an
+
+2476
+00:48:03,580 --> 00:48:05,390
+ 
+
+2477
+00:48:03,590 --> 00:48:07,610
+ electrode into something or are you
+
+2478
+00:48:05,380 --> 00:48:07,610
+ 
+
+2479
+00:48:05,390 --> 00:48:09,560
+ poking it with something and what is the
+
+2480
+00:48:07,600 --> 00:48:09,560
+ 
+
+2481
+00:48:07,610 --> 00:48:11,540
+ time frame that these signals need to be
+
+2482
+00:48:09,550 --> 00:48:11,540
+ 
+
+2483
+00:48:09,560 --> 00:48:12,230
+ applied right time frame that's an
+
+2484
+00:48:11,530 --> 00:48:12,230
+ 
+
+2485
+00:48:11,540 --> 00:48:15,230
+ important question
+
+2486
+00:48:12,220 --> 00:48:15,230
+ 
+
+2487
+00:48:12,230 --> 00:48:17,180
+ so under and we never apply any
+
+2488
+00:48:15,220 --> 00:48:17,180
+ 
+
+2489
+00:48:15,230 --> 00:48:19,160
+ electrical fields we have no electrodes
+
+2490
+00:48:17,170 --> 00:48:19,160
+ 
+
+2491
+00:48:17,180 --> 00:48:21,170
+ we apply no electrical fields and we
+
+2492
+00:48:19,150 --> 00:48:21,170
+ 
+
+2493
+00:48:19,160 --> 00:48:24,430
+ don't do anything with frequencies what
+
+2494
+00:48:21,160 --> 00:48:24,430
+ 
+
+2495
+00:48:21,170 --> 00:48:27,680
+ we try to do is to alter the endogenous
+
+2496
+00:48:24,420 --> 00:48:27,680
+ 
+
+2497
+00:48:24,430 --> 00:48:30,410
+ state of resting potential across cells
+
+2498
+00:48:27,670 --> 00:48:30,410
+ 
+
+2499
+00:48:27,680 --> 00:48:32,000
+ and the way we do that is we target the
+
+2500
+00:48:30,400 --> 00:48:32,000
+ 
+
+2501
+00:48:30,410 --> 00:48:34,340
+ ion channel proteins that are
+
+2502
+00:48:31,990 --> 00:48:34,340
+ 
+
+2503
+00:48:32,000 --> 00:48:36,620
+ endogenously expressed in these cells we
+
+2504
+00:48:34,330 --> 00:48:36,620
+ 
+
+2505
+00:48:34,340 --> 00:48:39,230
+ either close them we open them and we
+
+2506
+00:48:36,610 --> 00:48:39,230
+ 
+
+2507
+00:48:36,620 --> 00:48:40,610
+ thus affect the electrical state so this
+
+2508
+00:48:39,220 --> 00:48:40,610
+ 
+
+2509
+00:48:39,230 --> 00:48:42,380
+ is done either genetically or
+
+2510
+00:48:40,600 --> 00:48:42,380
+ 
+
+2511
+00:48:40,610 --> 00:48:44,300
+ pharmacologically in the case of our
+
+2512
+00:48:42,370 --> 00:48:44,300
+ 
+
+2513
+00:48:42,380 --> 00:48:46,430
+ regenerative medicine applications is
+
+2514
+00:48:44,290 --> 00:48:46,430
+ 
+
+2515
+00:48:44,300 --> 00:48:48,410
+ with drugs small molecule drugs but we
+
+2516
+00:48:46,420 --> 00:48:48,410
+ 
+
+2517
+00:48:46,430 --> 00:48:49,610
+ can in let's say in tadpoles with you
+
+2518
+00:48:48,400 --> 00:48:49,610
+ 
+
+2519
+00:48:48,410 --> 00:48:51,080
+ know a really nice way to do it as
+
+2520
+00:48:49,600 --> 00:48:51,080
+ 
+
+2521
+00:48:49,610 --> 00:48:52,670
+ optogenetics you put in something like
+
+2522
+00:48:51,070 --> 00:48:52,670
+ 
+
+2523
+00:48:51,080 --> 00:48:54,530
+ channelrhodopsin and then you shine a
+
+2524
+00:48:52,660 --> 00:48:54,530
+ 
+
+2525
+00:48:52,670 --> 00:48:56,270
+ light and and the pattern of the light
+
+2526
+00:48:54,520 --> 00:48:56,270
+ 
+
+2527
+00:48:54,530 --> 00:48:57,830
+ can tell it can really you can you can
+
+2528
+00:48:56,260 --> 00:48:57,830
+ 
+
+2529
+00:48:56,270 --> 00:49:00,020
+ really have pretty fine control over
+
+2530
+00:48:57,820 --> 00:49:00,020
+ 
+
+2531
+00:48:57,830 --> 00:49:02,480
+ where the electrical states go the
+
+2532
+00:49:00,010 --> 00:49:02,480
+ 
+
+2533
+00:49:00,020 --> 00:49:06,200
+ timescale is really critical because a
+
+2534
+00:49:02,470 --> 00:49:06,200
+ 
+
+2535
+00:49:02,480 --> 00:49:08,390
+ lot of the types of effects that I've
+
+2536
+00:49:06,190 --> 00:49:08,390
+ 
+
+2537
+00:49:06,200 --> 00:49:10,070
+ shown you are literally triggers to
+
+2538
+00:49:08,380 --> 00:49:10,070
+ 
+
+2539
+00:49:08,390 --> 00:49:12,260
+ these what we call the subroutine calls
+
+2540
+00:49:10,060 --> 00:49:12,260
+ 
+
+2541
+00:49:10,070 --> 00:49:14,240
+ right of patterning the time that you
+
+2542
+00:49:12,250 --> 00:49:14,240
+ 
+
+2543
+00:49:12,260 --> 00:49:17,570
+ have to do it is incredibly short so in
+
+2544
+00:49:14,230 --> 00:49:17,570
+ 
+
+2545
+00:49:14,240 --> 00:49:20,390
+ the frog leg we treat the wound we treat
+
+2546
+00:49:17,560 --> 00:49:20,390
+ 
+
+2547
+00:49:17,570 --> 00:49:23,060
+ the amputation wound for 24 hours that
+
+2548
+00:49:20,380 --> 00:49:23,060
+ 
+
+2549
+00:49:20,390 --> 00:49:25,280
+ gives you nine months of leg growth so
+
+2550
+00:49:23,050 --> 00:49:25,280
+ 
+
+2551
+00:49:23,060 --> 00:49:26,780
+ after the first 24 hours you walk
+
+2552
+00:49:25,270 --> 00:49:26,780
+ 
+
+2553
+00:49:25,280 --> 00:49:28,820
+ you never touch it again and the whole
+
+2554
+00:49:26,770 --> 00:49:28,820
+ 
+
+2555
+00:49:26,780 --> 00:49:30,440
+ thing goes for 24 hours you could
+
+2556
+00:49:28,810 --> 00:49:30,440
+ 
+
+2557
+00:49:28,820 --> 00:49:31,880
+ intervene at different steps of the wave
+
+2558
+00:49:30,430 --> 00:49:31,880
+ 
+
+2559
+00:49:30,440 --> 00:49:33,560
+ instead of a frog-leg you wanted
+
+2560
+00:49:31,870 --> 00:49:33,560
+ 
+
+2561
+00:49:31,880 --> 00:49:34,940
+ something else you could go in and try
+
+2562
+00:49:33,550 --> 00:49:34,940
+ 
+
+2563
+00:49:33,560 --> 00:49:36,320
+ to make it do something else and we're
+
+2564
+00:49:34,930 --> 00:49:36,320
+ 
+
+2565
+00:49:34,940 --> 00:49:38,120
+ certainly working on that as a way to
+
+2566
+00:49:36,310 --> 00:49:38,120
+ 
+
+2567
+00:49:36,320 --> 00:49:40,670
+ understand what's happening but the
+
+2568
+00:49:38,110 --> 00:49:40,670
+ 
+
+2569
+00:49:38,120 --> 00:49:43,010
+ treatments are often incredibly brief
+
+2570
+00:49:40,660 --> 00:49:43,010
+ 
+
+2571
+00:49:40,670 --> 00:49:44,690
+ because these one of the properties of
+
+2572
+00:49:43,000 --> 00:49:44,690
+ 
+
+2573
+00:49:43,010 --> 00:49:46,940
+ these electrical circuits is they have
+
+2574
+00:49:44,680 --> 00:49:46,940
+ 
+
+2575
+00:49:44,690 --> 00:49:48,560
+ these stable attractors that once you
+
+2576
+00:49:46,930 --> 00:49:48,560
+ 
+
+2577
+00:49:46,940 --> 00:49:50,120
+ knock them into that sort of
+
+2578
+00:49:48,550 --> 00:49:50,120
+ 
+
+2579
+00:49:48,560 --> 00:49:51,170
+ neighborhood of the state space you
+
+2580
+00:49:50,110 --> 00:49:51,170
+ 
+
+2581
+00:49:50,120 --> 00:49:52,760
+ don't need to hold them there they're
+
+2582
+00:49:51,160 --> 00:49:52,760
+ 
+
+2583
+00:49:51,170 --> 00:49:54,500
+ gonna they're gonna maintain state and
+
+2584
+00:49:52,750 --> 00:49:54,500
+ 
+
+2585
+00:49:52,760 --> 00:49:56,450
+ so our goal is to map out all of these
+
+2586
+00:49:54,490 --> 00:49:56,450
+ 
+
+2587
+00:49:54,500 --> 00:49:58,490
+ things to understand what is the minimum
+
+2588
+00:49:56,440 --> 00:49:58,490
+ 
+
+2589
+00:49:56,450 --> 00:50:03,440
+ we can do to get the maximum outcome
+
+2590
+00:49:58,480 --> 00:50:03,440
+ 
+
+2591
+00:49:58,490 --> 00:50:06,680
+ thank you hi could you talk more about
+
+2592
+00:50:03,430 --> 00:50:06,680
+ 
+
+2593
+00:50:03,440 --> 00:50:08,810
+ these new architectures these non neural
+
+2594
+00:50:06,670 --> 00:50:08,810
+ 
+
+2595
+00:50:06,680 --> 00:50:11,120
+ architectures and what would that get us
+
+2596
+00:50:08,800 --> 00:50:11,120
+ 
+
+2597
+00:50:08,810 --> 00:50:13,910
+ would we have more compositional systems
+
+2598
+00:50:11,110 --> 00:50:13,910
+ 
+
+2599
+00:50:11,120 --> 00:50:16,550
+ more flexible ones things that don't
+
+2600
+00:50:13,900 --> 00:50:16,550
+ 
+
+2601
+00:50:13,910 --> 00:50:18,590
+ just think but also feel or even look at
+
+2602
+00:50:16,540 --> 00:50:18,590
+ 
+
+2603
+00:50:16,550 --> 00:50:22,100
+ testbed for designing new organisms or
+
+2604
+00:50:18,580 --> 00:50:22,100
+ 
+
+2605
+00:50:18,590 --> 00:50:24,080
+ new like use that to design biology yeah
+
+2606
+00:50:22,090 --> 00:50:24,080
+ 
+
+2607
+00:50:22,100 --> 00:50:25,670
+ I think I think what it's going to get
+
+2608
+00:50:24,070 --> 00:50:25,670
+ 
+
+2609
+00:50:24,080 --> 00:50:28,220
+ us I don't know if it's going to get us
+
+2610
+00:50:25,660 --> 00:50:28,220
+ 
+
+2611
+00:50:25,670 --> 00:50:29,450
+ systems that feel and and how we would
+
+2612
+00:50:28,210 --> 00:50:29,450
+ 
+
+2613
+00:50:28,220 --> 00:50:32,090
+ know if they did that's a whole other
+
+2614
+00:50:29,440 --> 00:50:32,090
+ 
+
+2615
+00:50:29,450 --> 00:50:34,160
+ sort of kettle of fish but I what I
+
+2616
+00:50:32,080 --> 00:50:34,160
+ 
+
+2617
+00:50:32,090 --> 00:50:37,010
+ think it's going to get us is much more
+
+2618
+00:50:34,150 --> 00:50:37,010
+ 
+
+2619
+00:50:34,160 --> 00:50:38,510
+ robust adaptive systems one of the
+
+2620
+00:50:37,000 --> 00:50:38,510
+ 
+
+2621
+00:50:37,010 --> 00:50:43,430
+ things that biological systems are
+
+2622
+00:50:38,500 --> 00:50:43,430
+ 
+
+2623
+00:50:38,510 --> 00:50:45,170
+ really good at is adaptively adjusting
+
+2624
+00:50:43,420 --> 00:50:45,170
+ 
+
+2625
+00:50:43,430 --> 00:50:46,490
+ to very novel environments and so I
+
+2626
+00:50:45,160 --> 00:50:46,490
+ 
+
+2627
+00:50:45,170 --> 00:50:48,050
+ think one of the problems that we have
+
+2628
+00:50:46,480 --> 00:50:48,050
+ 
+
+2629
+00:50:46,490 --> 00:50:49,520
+ in this field and you guys can correct
+
+2630
+00:50:48,040 --> 00:50:49,520
+ 
+
+2631
+00:50:48,050 --> 00:50:51,770
+ me if I'm wrong but I think that one of
+
+2632
+00:50:49,510 --> 00:50:51,770
+ 
+
+2633
+00:50:49,520 --> 00:50:53,120
+ the problems we have is that systems
+
+2634
+00:50:51,760 --> 00:50:53,120
+ 
+
+2635
+00:50:51,770 --> 00:50:55,220
+ that are very good at one particular
+
+2636
+00:50:53,110 --> 00:50:55,220
+ 
+
+2637
+00:50:53,120 --> 00:50:56,990
+ task often are not that great when you
+
+2638
+00:50:55,210 --> 00:50:56,990
+ 
+
+2639
+00:50:55,220 --> 00:50:59,450
+ shift it to it to a different task
+
+2640
+00:50:56,980 --> 00:50:59,450
+ 
+
+2641
+00:50:56,990 --> 00:51:01,610
+ biology isn't like that these these
+
+2642
+00:50:59,440 --> 00:51:01,610
+ 
+
+2643
+00:50:59,450 --> 00:51:03,500
+ cells are and these or tissues are
+
+2644
+00:51:01,600 --> 00:51:03,500
+ 
+
+2645
+00:51:01,610 --> 00:51:05,900
+ incredibly good at dealing with with
+
+2646
+00:51:03,490 --> 00:51:05,900
+ 
+
+2647
+00:51:03,500 --> 00:51:09,010
+ very novel scenarios in an adaptive way
+
+2648
+00:51:05,890 --> 00:51:09,010
+ 
+
+2649
+00:51:05,900 --> 00:51:11,870
+ and well one of the differences between
+
+2650
+00:51:09,000 --> 00:51:11,870
+ 
+
+2651
+00:51:09,010 --> 00:51:13,160
+ biological structures and and the kinds
+
+2652
+00:51:11,860 --> 00:51:13,160
+ 
+
+2653
+00:51:11,870 --> 00:51:15,320
+ of artifacts that I've seen people make
+
+2654
+00:51:13,150 --> 00:51:15,320
+ 
+
+2655
+00:51:13,160 --> 00:51:16,640
+ is that biology as competency at every
+
+2656
+00:51:15,310 --> 00:51:16,640
+ 
+
+2657
+00:51:15,320 --> 00:51:19,040
+ level so the individual molecular
+
+2658
+00:51:16,630 --> 00:51:19,040
+ 
+
+2659
+00:51:16,640 --> 00:51:20,810
+ networks have memory and flexibility the
+
+2660
+00:51:19,030 --> 00:51:20,810
+ 
+
+2661
+00:51:19,040 --> 00:51:22,790
+ cells do the tissues do the organs do
+
+2662
+00:51:20,800 --> 00:51:22,790
+ 
+
+2663
+00:51:20,810 --> 00:51:24,050
+ every level has its own competency so
+
+2664
+00:51:22,780 --> 00:51:24,050
+ 
+
+2665
+00:51:22,790 --> 00:51:26,750
+ you're building things out of very
+
+2666
+00:51:24,040 --> 00:51:26,750
+ 
+
+2667
+00:51:24,050 --> 00:51:28,130
+ intelligent components and their various
+
+2668
+00:51:26,740 --> 00:51:28,130
+ 
+
+2669
+00:51:26,750 --> 00:51:30,080
+ other things that we can talk about it
+
+2670
+00:51:28,120 --> 00:51:30,080
+ 
+
+2671
+00:51:28,130 --> 00:51:32,080
+ you know at length but I think what it's
+
+2672
+00:51:30,070 --> 00:51:32,080
+ 
+
+2673
+00:51:30,080 --> 00:51:35,660
+ going to get us is systems that are
+
+2674
+00:51:32,070 --> 00:51:35,660
+ 
+
+2675
+00:51:32,080 --> 00:51:37,820
+ fundamentally good at pursuing goals in
+
+2676
+00:51:35,650 --> 00:51:37,820
+ 
+
+2677
+00:51:35,660 --> 00:51:39,350
+ the light of an unfriendly environment
+
+2678
+00:51:37,810 --> 00:51:39,350
+ 
+
+2679
+00:51:37,820 --> 00:51:40,910
+ that's what that's what all of lie
+
+2680
+00:51:39,340 --> 00:51:40,910
+ 
+
+2681
+00:51:39,350 --> 00:51:42,800
+ right these biological systems have very
+
+2682
+00:51:40,900 --> 00:51:42,800
+ 
+
+2683
+00:51:40,910 --> 00:51:44,600
+ specific goals the environment throws
+
+2684
+00:51:42,790 --> 00:51:44,600
+ 
+
+2685
+00:51:42,800 --> 00:51:47,510
+ all kinds of crazy scenarios at them and
+
+2686
+00:51:44,590 --> 00:51:47,510
+ 
+
+2687
+00:51:44,600 --> 00:51:49,160
+ they are really good at navigating all
+
+2688
+00:51:47,500 --> 00:51:49,160
+ 
+
+2689
+00:51:47,510 --> 00:51:50,750
+ of that and I think we don't really know
+
+2690
+00:51:49,150 --> 00:51:50,750
+ 
+
+2691
+00:51:49,160 --> 00:51:53,960
+ how to do that so that's what we'll get
+
+2692
+00:51:50,740 --> 00:51:53,960
+ 
+
+2693
+00:51:50,750 --> 00:51:56,480
+ and one more do you have any sketch of
+
+2694
+00:51:53,950 --> 00:51:56,480
+ 
+
+2695
+00:51:53,960 --> 00:51:58,220
+ how we would build such a thing I have I
+
+2696
+00:51:56,470 --> 00:51:58,220
+ 
+
+2697
+00:51:56,480 --> 00:51:59,330
+ have many ideas on how we should try and
+
+2698
+00:51:58,210 --> 00:51:59,330
+ 
+
+2699
+00:51:58,220 --> 00:52:04,730
+ so I'm happy to talk to you afterwards
+
+2700
+00:51:59,320 --> 00:52:04,730
+ 
+
+2701
+00:51:59,330 --> 00:52:05,990
+ and talk details thank you hi I found
+
+2702
+00:52:04,720 --> 00:52:05,990
+ 
+
+2703
+00:52:04,730 --> 00:52:09,320
+ this is an absolutely incredible talk
+
+2704
+00:52:05,980 --> 00:52:09,320
+ 
+
+2705
+00:52:05,990 --> 00:52:10,520
+ and one thing that that came to mind
+
+2706
+00:52:09,310 --> 00:52:10,520
+ 
+
+2707
+00:52:09,320 --> 00:52:13,040
+ when I was thinking about this talk was
+
+2708
+00:52:10,510 --> 00:52:13,040
+ 
+
+2709
+00:52:10,520 --> 00:52:14,780
+ ethical concerns seems like when you're
+
+2710
+00:52:13,030 --> 00:52:14,780
+ 
+
+2711
+00:52:13,040 --> 00:52:16,250
+ working with like small animals doesn't
+
+2712
+00:52:14,770 --> 00:52:16,250
+ 
+
+2713
+00:52:14,780 --> 00:52:18,320
+ really matter but when you start getting
+
+2714
+00:52:16,240 --> 00:52:18,320
+ 
+
+2715
+00:52:16,250 --> 00:52:21,980
+ into humans and doing things that could
+
+2716
+00:52:18,310 --> 00:52:21,980
+ 
+
+2717
+00:52:18,320 --> 00:52:23,240
+ potentially have really systemic effects
+
+2718
+00:52:21,970 --> 00:52:23,240
+ 
+
+2719
+00:52:21,980 --> 00:52:24,860
+ in them that they're that people may
+
+2720
+00:52:23,230 --> 00:52:24,860
+ 
+
+2721
+00:52:23,240 --> 00:52:26,030
+ start objecting to that and I'm
+
+2722
+00:52:24,850 --> 00:52:26,030
+ 
+
+2723
+00:52:24,860 --> 00:52:28,130
+ wondering if you have thoughts about how
+
+2724
+00:52:26,020 --> 00:52:28,130
+ 
+
+2725
+00:52:26,030 --> 00:52:30,890
+ to head off those ethical concerns sure
+
+2726
+00:52:28,120 --> 00:52:30,890
+ 
+
+2727
+00:52:28,130 --> 00:52:32,720
+ yeah good question I I can say a couple
+
+2728
+00:52:30,880 --> 00:52:32,720
+ 
+
+2729
+00:52:30,890 --> 00:52:35,840
+ of things I think that on the one hand
+
+2730
+00:52:32,710 --> 00:52:35,840
+ 
+
+2731
+00:52:32,720 --> 00:52:37,970
+ I'll point out that in terms of in terms
+
+2732
+00:52:35,830 --> 00:52:37,970
+ 
+
+2733
+00:52:35,840 --> 00:52:40,190
+ of ethical ethical concerns the kinds of
+
+2734
+00:52:37,960 --> 00:52:40,190
+ 
+
+2735
+00:52:37,970 --> 00:52:42,530
+ things that I've been talking about here
+
+2736
+00:52:40,180 --> 00:52:42,530
+ 
+
+2737
+00:52:40,190 --> 00:52:44,270
+ are way low on the list of compared to
+
+2738
+00:52:42,520 --> 00:52:44,270
+ 
+
+2739
+00:52:42,530 --> 00:52:45,830
+ competing technologies that are already
+
+2740
+00:52:44,260 --> 00:52:45,830
+ 
+
+2741
+00:52:44,270 --> 00:52:47,180
+ out there so people that are doing
+
+2742
+00:52:45,820 --> 00:52:47,180
+ 
+
+2743
+00:52:45,830 --> 00:52:49,580
+ genomic editing people that are doing
+
+2744
+00:52:47,170 --> 00:52:49,580
+ 
+
+2745
+00:52:47,180 --> 00:52:52,040
+ infectious disease research you know
+
+2746
+00:52:49,570 --> 00:52:52,040
+ 
+
+2747
+00:52:49,580 --> 00:52:53,600
+ creating novel viruses and I mean the
+
+2748
+00:52:52,030 --> 00:52:53,600
+ 
+
+2749
+00:52:52,040 --> 00:52:56,150
+ stuff that's that's being done is is
+
+2750
+00:52:53,590 --> 00:52:56,150
+ 
+
+2751
+00:52:53,600 --> 00:52:57,680
+ like you know way beyond anything we're
+
+2752
+00:52:56,140 --> 00:52:57,680
+ 
+
+2753
+00:52:56,150 --> 00:52:59,240
+ talking about here and in fact on that
+
+2754
+00:52:57,670 --> 00:52:59,240
+ 
+
+2755
+00:52:57,680 --> 00:53:01,130
+ scale this is actually fairly subtle
+
+2756
+00:52:59,230 --> 00:53:01,130
+ 
+
+2757
+00:52:59,240 --> 00:53:02,870
+ because what I'm specifically saying is
+
+2758
+00:53:01,120 --> 00:53:02,870
+ 
+
+2759
+00:53:01,130 --> 00:53:04,370
+ I think we can develop a strategy for
+
+2760
+00:53:02,860 --> 00:53:04,370
+ 
+
+2761
+00:53:02,870 --> 00:53:07,040
+ regenerative medicine that does not
+
+2762
+00:53:04,360 --> 00:53:07,040
+ 
+
+2763
+00:53:04,370 --> 00:53:11,030
+ require manipulating the genome it does
+
+2764
+00:53:07,030 --> 00:53:11,030
+ 
+
+2765
+00:53:07,040 --> 00:53:12,830
+ not require any kind of viral delivery
+
+2766
+00:53:11,020 --> 00:53:12,830
+ 
+
+2767
+00:53:11,030 --> 00:53:15,020
+ vectors are all this so I think I think
+
+2768
+00:53:12,820 --> 00:53:15,020
+ 
+
+2769
+00:53:12,830 --> 00:53:17,450
+ I think there are way bigger problems in
+
+2770
+00:53:15,010 --> 00:53:17,450
+ 
+
+2771
+00:53:15,020 --> 00:53:18,650
+ in the field and then what then what you
+
+2772
+00:53:17,440 --> 00:53:18,650
+ 
+
+2773
+00:53:17,450 --> 00:53:21,080
+ know then what we're doing in terms of
+
+2774
+00:53:18,640 --> 00:53:21,080
+ 
+
+2775
+00:53:18,650 --> 00:53:22,870
+ in terms of ethics all right well thanks
+
+2776
+00:53:21,070 --> 00:53:22,870
+ 
+
+2777
+00:53:21,080 --> 00:53:27,040
+ very much
+
+2778
+00:53:22,860 --> 00:53:27,040
+ 
+
+2779
+00:53:22,870 --> 00:53:30,500
+ hi so ml community has done some work in
+
+2780
+00:53:27,030 --> 00:53:30,500
+ 
+
+2781
+00:53:27,040 --> 00:53:33,770
+ mimicking signal transduction networks
+
+2782
+00:53:30,490 --> 00:53:33,770
+ 
+
+2783
+00:53:30,500 --> 00:53:35,720
+ particularly in t-cells or immune cells
+
+2784
+00:53:33,760 --> 00:53:35,720
+ 
+
+2785
+00:53:33,770 --> 00:53:38,270
+ in general and so I'm curious if you can
+
+2786
+00:53:35,710 --> 00:53:38,270
+ 
+
+2787
+00:53:35,720 --> 00:53:40,760
+ help me understand what the relationship
+
+2788
+00:53:38,260 --> 00:53:40,760
+ 
+
+2789
+00:53:38,270 --> 00:53:43,040
+ between some of these ion channel based
+
+2790
+00:53:40,750 --> 00:53:43,040
+ 
+
+2791
+00:53:40,760 --> 00:53:44,410
+ networks and signal transduction
+
+2792
+00:53:43,030 --> 00:53:44,410
+ 
+
+2793
+00:53:43,040 --> 00:53:46,180
+ networks are
+
+2794
+00:53:44,400 --> 00:53:46,180
+ 
+
+2795
+00:53:44,410 --> 00:53:50,619
+ and how that kind of ties into the AI
+
+2796
+00:53:46,170 --> 00:53:50,619
+ 
+
+2797
+00:53:46,180 --> 00:53:51,970
+ theme and secondly so the assistant the
+
+2798
+00:53:50,609 --> 00:53:51,970
+ 
+
+2799
+00:53:50,619 --> 00:53:54,809
+ computational assistants biology
+
+2800
+00:53:51,960 --> 00:53:54,809
+ 
+
+2801
+00:53:51,970 --> 00:53:56,710
+ community has kind of developed a lot of
+
+2802
+00:53:54,799 --> 00:53:56,710
+ 
+
+2803
+00:53:54,809 --> 00:53:58,750
+ computational models of this type of
+
+2804
+00:53:56,700 --> 00:53:58,750
+ 
+
+2805
+00:53:56,710 --> 00:54:00,190
+ things so weight rating from OD e based
+
+2806
+00:53:58,740 --> 00:54:00,190
+ 
+
+2807
+00:53:58,750 --> 00:54:02,500
+ networks to partial differential
+
+2808
+00:54:00,180 --> 00:54:02,500
+ 
+
+2809
+00:54:00,190 --> 00:54:04,299
+ equations to like boolean networks time
+
+2810
+00:54:02,490 --> 00:54:04,299
+ 
+
+2811
+00:54:02,500 --> 00:54:07,089
+ to scale those up to a whole host cell
+
+2812
+00:54:04,289 --> 00:54:07,089
+ 
+
+2813
+00:54:04,299 --> 00:54:08,200
+ models does that relate to what you're
+
+2814
+00:54:07,079 --> 00:54:08,200
+ 
+
+2815
+00:54:07,089 --> 00:54:10,390
+ talking about here in terms is AI
+
+2816
+00:54:08,190 --> 00:54:10,390
+ 
+
+2817
+00:54:08,200 --> 00:54:12,430
+ platform for non neural architectures
+
+2818
+00:54:10,380 --> 00:54:12,430
+ 
+
+2819
+00:54:10,390 --> 00:54:15,190
+ and relationships are you doing any of
+
+2820
+00:54:12,420 --> 00:54:15,190
+ 
+
+2821
+00:54:12,430 --> 00:54:17,890
+ that in your lab it's yeah it's related
+
+2822
+00:54:15,180 --> 00:54:17,890
+ 
+
+2823
+00:54:15,190 --> 00:54:19,630
+ that that's actually a very kind of
+
+2824
+00:54:17,880 --> 00:54:19,630
+ 
+
+2825
+00:54:17,890 --> 00:54:24,549
+ lengthy question it sounds like we
+
+2826
+00:54:19,620 --> 00:54:24,549
+ 
+
+2827
+00:54:19,630 --> 00:54:25,809
+ should take that up okay yeah I think we
+
+2828
+00:54:24,539 --> 00:54:25,809
+ 
+
+2829
+00:54:24,549 --> 00:54:27,099
+ can talk about that at length that
+
+2830
+00:54:25,799 --> 00:54:27,099
+ 
+
+2831
+00:54:25,809 --> 00:54:28,660
+ that's that that'll take a pretty
+
+2832
+00:54:27,089 --> 00:54:28,660
+ 
+
+2833
+00:54:27,099 --> 00:54:33,779
+ lengthy a pretty lengthy answer I'm very
+
+2834
+00:54:28,650 --> 00:54:33,779
+ 
+
+2835
+00:54:28,660 --> 00:54:38,079
+ happy to talk to you about it it's high
+
+2836
+00:54:33,769 --> 00:54:38,079
+ 
+
+2837
+00:54:33,779 --> 00:54:40,630
+ rated question there is a long history
+
+2838
+00:54:38,069 --> 00:54:40,630
+ 
+
+2839
+00:54:38,079 --> 00:54:43,480
+ of reaction diffusion models for
+
+2840
+00:54:40,620 --> 00:54:43,480
+ 
+
+2841
+00:54:40,630 --> 00:54:46,450
+ patterning and so I was wondering if
+
+2842
+00:54:43,470 --> 00:54:46,450
+ 
+
+2843
+00:54:43,480 --> 00:54:48,430
+ it's a mechanism you and to some extent
+
+2844
+00:54:46,440 --> 00:54:48,430
+ 
+
+2845
+00:54:46,450 --> 00:54:51,490
+ it has been confirmed with BMP signaling
+
+2846
+00:54:48,420 --> 00:54:51,490
+ 
+
+2847
+00:54:48,430 --> 00:54:53,740
+ in limb bones so I was wondering what is
+
+2848
+00:54:51,480 --> 00:54:53,740
+ 
+
+2849
+00:54:51,490 --> 00:54:55,390
+ your view of the interaction of this
+
+2850
+00:54:53,730 --> 00:54:55,390
+ 
+
+2851
+00:54:53,740 --> 00:54:57,430
+ electrical system with a reaction
+
+2852
+00:54:55,380 --> 00:54:57,430
+ 
+
+2853
+00:54:55,390 --> 00:54:59,589
+ different system is it upstream is it
+
+2854
+00:54:57,420 --> 00:54:59,589
+ 
+
+2855
+00:54:57,430 --> 00:55:02,230
+ interfering with it is it the reaction
+
+2856
+00:54:59,579 --> 00:55:02,230
+ 
+
+2857
+00:54:59,589 --> 00:55:04,509
+ diffusion system itself yeah so so two
+
+2858
+00:55:02,220 --> 00:55:04,509
+ 
+
+2859
+00:55:02,230 --> 00:55:06,099
+ things we as far as we can tell right
+
+2860
+00:55:04,499 --> 00:55:06,099
+ 
+
+2861
+00:55:04,509 --> 00:55:08,910
+ now in the cases that we've looked at it
+
+2862
+00:55:06,089 --> 00:55:08,910
+ 
+
+2863
+00:55:06,099 --> 00:55:12,160
+ is upstream so it helps control the
+
+2864
+00:55:08,900 --> 00:55:12,160
+ 
+
+2865
+00:55:08,910 --> 00:55:16,000
+ downstream are the systems for chemical
+
+2866
+00:55:12,150 --> 00:55:16,000
+ 
+
+2867
+00:55:12,160 --> 00:55:17,319
+ morphogens and as far as what was the
+
+2868
+00:55:15,990 --> 00:55:17,319
+ 
+
+2869
+00:55:16,000 --> 00:55:21,700
+ other sorry what was the second question
+
+2870
+00:55:17,309 --> 00:55:21,700
+ 
+
+2871
+00:55:17,319 --> 00:55:23,589
+ I was reaction diffusion system by
+
+2872
+00:55:21,690 --> 00:55:23,589
+ 
+
+2873
+00:55:21,700 --> 00:55:25,000
+ itself yeah yeah actually that's true
+
+2874
+00:55:23,579 --> 00:55:25,000
+ 
+
+2875
+00:55:23,589 --> 00:55:26,859
+ too so so one of the really interesting
+
+2876
+00:55:24,990 --> 00:55:26,859
+ 
+
+2877
+00:55:25,000 --> 00:55:28,960
+ things about like these kind of
+
+2878
+00:55:26,849 --> 00:55:28,960
+ 
+
+2879
+00:55:26,859 --> 00:55:31,059
+ electrical networks is that when there
+
+2880
+00:55:28,950 --> 00:55:31,059
+ 
+
+2881
+00:55:28,960 --> 00:55:33,220
+ spatialized and distributed over a group
+
+2882
+00:55:31,049 --> 00:55:33,220
+ 
+
+2883
+00:55:31,059 --> 00:55:35,049
+ of cells they themselves purely at the
+
+2884
+00:55:33,210 --> 00:55:35,049
+ 
+
+2885
+00:55:33,220 --> 00:55:37,029
+ electrical level with no transcriptional
+
+2886
+00:55:35,039 --> 00:55:37,029
+ 
+
+2887
+00:55:35,049 --> 00:55:38,440
+ changes underneath can do spontaneous
+
+2888
+00:55:37,019 --> 00:55:38,440
+ 
+
+2889
+00:55:37,029 --> 00:55:40,150
+ symmetry breaking and touring like
+
+2890
+00:55:38,430 --> 00:55:40,150
+ 
+
+2891
+00:55:38,440 --> 00:55:43,589
+ patterns so that's that's absolutely
+
+2892
+00:55:40,140 --> 00:55:43,589
+ 
+
+2893
+00:55:40,150 --> 00:55:46,720
+ true as well okay thank you thank you
+
+2894
+00:55:43,579 --> 00:55:46,720
+ 
+
+2895
+00:55:43,589 --> 00:55:50,250
+ thank you thank you everyone for all the
+
+2896
+00:55:46,710 --> 00:55:50,250
+ 
+
+2897
+00:55:46,720 --> 00:55:50,250
+ great questions and thank Michael Evan
+
+2898
+00:55:50,520 --> 00:55:50,520
+ 
+
+2899
+00:55:50,530 --> 00:55:57,270
+[Applause]

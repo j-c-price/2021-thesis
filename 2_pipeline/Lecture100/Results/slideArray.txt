@@ -1,0 +1,1372 @@
+ 
+
+Reproducible, Reusable, and Robust
+Reinforcement Learning
+
+ 
+
+Joelle Pineau
+Facebook Al Research, Montreal
+School of Computer Science, McGill University
+
+ 
+
+Neural Information Processing Systems (NeurlIPS)
+December 5, 2018
+
+facebook . @ °
+s \ Artificial Intelligence Research No McGill
+
+ 
+ENDELEMENT“Reproducibility refers to _. Using the same materials as
+the ability of a researcher _ Reusability were used by the original
+to duplicate the results of a Reproducibility
+
+; investigator.
+prior study.... e
+
+   
+ 
+
+Reproducibility is a mintmum
+Robustness P y ; .
+necessary condition for a finding to
+
+be believable and informative.”
+
+Bollen et al.
+National Science Foundation, 2015.
+
+5
+ENDELEMENTReproducibility crisis in science (2016)
+
+IS THERE A REPRODUCIBILITY CRISIS?
+
+7% 52%
+Don't know Yes, a significant crisis
+
+     
+     
+  
+
+3%
+No, there is no
+crisis
+
+1,576
+
+researchers
+surveyed
+
+38%
+
+Yes, a slight
+crisis
+nature
+
+Attps://www.nature.com/news/1-500-scientists-lift-the-lid-on-reproducibility-1.19970
+
+3
+ENDELEMENTReproducibility crisis in science (2016)
+
+IS THERE A REPRODUCIBILITY CRISIS? HAVE YOU FAILED TO REPRODUCE
+
+AN EXPERIMENT?
+7% 52% Most scientists have experienced failure to reproduce results.
+Don't know Yes, a significant crisis @ Someone else's © My own
+3% | ae
+
+     
+ 
+
+ 
+
+No, there is no Chemistry
+crisis
+
+Biology
+
+Physics and
+engineering
+
+1,576
+
+researchers
+surveyed
+
+  
+
+Medicine
+
+ 
+ 
+ 
+ 
+
+Earth and
+environment
+
+38%
+Yes, a slight
+
+crisis Other
+
+ 
+
+RANE Oye 6908. 40 60 80 100%
+Attps://www.nature.com/news/1-500-scientists-lift-the-lid-on-reproducibility-1.19970
+
+4
+ENDELEMENTReinforcement learning (RL)
+
+Environment
+
+> Very general framework for
+sequential decision-making!
+
+ 
+
+>» Learning by trial-and-error,
+from sparse feedback.
+
+> Improves with experience,
+
+ff in real-time.
+
+Learn 1 = strategy to find this cheese!
+
+ 
+ENDELEMENTImpressive successes in games!
+
+ 
+ENDELEMENTRL applications beyond games
+cae Ht
+
+* Robotics d |
+
+¢ Video games
+
+* Conversational systems
+* Medical intervention
+
+* Algorithm improvement
+¢ Crop management
+
+* Personalized tutoring
+
+¢ Energy trading
+
+* Autonomous driving
+
+¢ Prosthetic arm control
+
+* Forest fire management
+* Financial trading
+
+¢ Many more!
+
+ 
+
+ 
+ENDELEMENTAdaptive neurostimulation
+
+     
+
+action
+
+   
+ 
+
+state, reward
+
+CLL
+
+Panuccio, Guez, Vincent, Avoli, Pineau, Exp Neurol, 2013
+ENDELEMENT 
+
+     
+
+=
+
+RL in real-world
+from ~101 — 102 trials
+
+1 I
+
+ 
+
+ 
+
+  
+ENDELEMENT25+ years of RL papers
+
+# of papers per year
+25,000
+20,000
+15,000
+10,000
+5,000
+0
+1990 1995 2000 2005 2010 2015
+
+P. Henderson, R. Islam, P. Bachman, J. Pineau, D. Precup, D. Meger.
+Deep Reinforcement Learning that Matters. AAAI 2017 (+updates).
+
+10
+ENDELEMENTRL via Policy gradient methods
+
+Neural Policy
+state——» asian (@) (als)
+
+Maximize expected return, p(6,59) = E[ro +7, + .. +7] So]
+
+using gradient ascent: meso) So) =>. Une (S150) >. ne ce) Qn (S,@)
+
+state distribution value fn
+
+ 
+
+ 
+ENDELEMENTPolicy gradient papers
+
+»
+
+»
+
+»
+
+»
+
+»
+
+it
+
+»
+
+NeurIPS’18
+
+»
+
+»
+
+»
+
+ 
+
+Evolution-Guided Policy Gradient in Reinforcement Learning
+
+On Learning Intrinsic Rewards for Policy Gradient Methods
+
+Evolved Policy Gradients
+
+Policy Optimization via Importance Sampling
+
+Dual Policy Iteration
+
+Post: Device Placement with Cross-Entropy Minimization and Proximal Policy Optimization
+Genetic-Gated Networks for Deep Reinforcement Learning
+
+Simple random search of static linear policies is competitive for reinforcement learning
+
+Deep Reinforcement Learning in a Handful of Trials using Probabilistic Dynamics Models
+
+Moe
+
+Many more at ICLR’18, ICML’18, AAAT’18, EWRL’18, CoRL’18, ...
+
+Most papers use same policy gradient baseline algorithms.
+ENDELEMENTPolicy gradient baseline algorithms
+
+Same standard baselines used in all of these papers:
+» Trust Region Policy Optimization (TRPO), Schulman et al. 2015.
+» Proximal Policy Optimization (PPO), Schulman et al. 2017.
+» Deep Deterministic Policy Gradients (DDPG), Lillicrap et al. 2015.
+
+» Actor-Critic Kronecker-Factored Trust Region (ACKTR), Wu et al. 2017.
+ENDELEMENTRobustness of policy gradient algorithms
+
+Consider Mujoco simulator:
+
+be!
+
+HalfCheetah Environment
+
+5 4000 ane eI ae ONTOS
+
+2 Wr
+
+3000 pre
+
+x ~
+
+% prt ok
+
+£ 2000 Pr ad ee oor RO
+
+o at oa =
+
+LE Ae!
+fi - Alg.2
+= Alg.4
+
+= : . . : ore Video taken from:
+Dy eee ee "Timestens: a ct Mer https://zym.openai.com/envs/HalfCheetah-v1
+ENDELEMENTRobustness of policy gradient algorithms
+
+Consider Mujoco simulator:
+
+  
+  
+
+      
+
+    
+
+     
+
+ 
+
+4
+HalfCheetah Environment
+6000
+5000
+£ ed
+3B 4000 TS a anes hil ¥
+gy ~
+= 3000 ae
+% prt ok
+g 2000 ay cnet
+$
+<= 1000
+1
+0 Ea
+1000
+0.00 025 050 0.75 1.00 1.25 1.50 1.75 2.00
+Timesteps
+Hopper Environment Swimmer Environment
+300
+3000 250
+c 6
+2 2000 | a ‘al ; 2 150
+o i aye ay H Ny Ankit So
+8 ay 0 " ii i ny) iA Ti te 4 100 : om
+$ spa Lath — Agi S$. A — Algi
+< Lai em nNnaT Te We TT I Yt y | Alg.2 <= 50 Miele Niue lt hal Meno Nan VMSA HPAL Alg.2
+0 —-- Alg.3 0 --- Alg3
+Alg.4 Alg.4
+—50
+0,00 0.25 0.50 0.75 1.00 1.25 «1.50 «1.75 2.00 0.00 0.250 0.50 0.75 1.00 1.25 1.50 175 2.00
+Timesteps io" Timesteps
+ENDELEMENTCodebase comparison
+
+ 
+
+ 
+
+HalfCheetah-v1 (TRPO, Codebase Comparison)
+
+TRPO implementations:
+
+ 
+
+GitHub - joschu/modular_r: Implementation of TRPO and related ...
+hitpsigithub. comjoschulmodular_t =
+
+‘This library is writien in a modular way to allow for sharing code between TRPO and PPO variants,
+‘and to wnte the same code for different kinds of action spaces. Dependencies: keras (1.0.1); theano
+(0.8.2), tabulate; numpy; scipy. To run the algorithms implemented here, you should put modular_rt
+‘on your PYTHONPATH ..
+
+GitHub - wojzarembaltrpo
+-nttps //github.com/wojzaremba/trpo
+Join GitHub today. GitHub is home to over 20 milion developers working together to host and review
+‘ode, manage projects, and bull software together. Sign up. No description, website, or topics
+
+‘provided. 12 commits 1 branch + 0 releases : Fetching contributors : Python 100.0%. Python.
+‘Clone or download ...
+
+Average Return
+o 8 § 8 &
+
+|
+8
+
+ 
+
+ 
+
+ 
+
+GitHub - pat-coady/trpo: Trust Region Policy Optimization with ...
+.comipat-coadyispo =
+
+‘nttps:/igithub.
+‘The exact code used to generate the OpenAl Gym submissions is in the aigym_evaluation branch. 0.00 025 050 O75 1.00 1.25 1.50 1.75. 2.00
+Hore are the key points: Proximal Policy Optimization (similar to TRPO, but uses gradient descent
+
+wath KL. fss terms) [1] [2]: Value function approximated wih 3 hidden-ayer NN (tanh activations) Timesteps x10
+fiat ize = obs_cimx 10
+
+ 
+
+GitHub - kvfrans/parallel-trpo: A parallel version of Trust Region Policy ...
+hitpsi/igithub.com/kvtrans/paralleltrpo +
+
+README md. paraiie-trpo, A parailel implementation of Trust Region Policy Optimization on
+‘environments fram OpenAl gym. Now Includes hyperparaemter adaptation as well! More more info,
+‘check my post on this projec. 'm working towards the ideas at this openAl research request. The
+code is based off ofthis
+
+GitHub - jjkke88/trpo: trust region policy optimization base on gym and ...
+https/igthubcomijkkoB8trpo
+
+‘rust region policy optimitzton base on gym and tensorfiow. There are three versions of trpo, one for
+{ecrete action space like mountaincar, ne for decreate action space task with image as inpUt ike
+‘tari games, and the last for continuous action space for pendulems. The environment is base on
+‘pend gym. part of code...
+
+GitHub - woonsangcholtrpo: Trust Region Policy Optimization ...
+‘https /igithub com/woonsangchotrpo =
+
+README md, Proximal Policy Optimizaton implementation using Tensorfow and Keras. Code
+‘ttn by Galen Cho (Woon Sang Cho): htips/igihub comwoonsangcho. Summary. This is an
+implementation of Proximal Polcy Optimization (PPO)|1[2. which is a varant of Trust Region Policy
+Optimization (TRPOY3}.
+
+GitHub - yjhong89/TRPO-GAE: Trust Region Policy Optimization with ...
+7 -comlyjnongB9/TRPO-GAE +
+
+htpsigthub,
+GitHub is where people bud software, More than 27 mition people use GitHub to ciscover, fork,
+‘and contribute to over 80 milion projects. 16
+
+ 
+ENDELEMENTCodebase comparison
+
+TRPO implementations:
+
+ 
+
+GitHub - joschu/modular_: Implementation of TRPO and related ...
+siigihub.convjoschulmodular_ | *
+
+tpt,
+‘The torr is wren in a mrilar way o allow for sharing cade between TRPO and PPO variants
+
+and to write the same code for different kinds of action spaces. Dependencies: keras (1.0.1); theano
+(0.8.2), tabulate; numpy; scipy. To run the algorithms implemented here, you should put modular_rt
+
+on your PYTHONPATH
+
+GitHub - wojzarembaltrpo
+
+-nttps /igithub.com/wojzarembaltrpo >
+
+Join GitHub today. GitHub is home to over 20 milion developers working together to host and review
+code, manage projects, and build software together. Sign up. No description, website, or topics
+provided, 12 commits 1 branch  O releases » Fetching contributors Python 100.0%. Python
+Clone oF download ..
+
+GitHub - pat-coady/trpo: Trust Region Policy Optimization with ...
+hittps:/igithub.com/pat-coady/trpo =
+
+‘The exact code used to generate the OpenAl Gym submissions is in the aigym_evaluation branch.
+Hore are the key points: Proximal Policy Optimizaton (similar to TRPO, but uses gradient descent
+with KL loss terms) [1] [2]: Value function approximated with 3 hiddenayer NN (tanh activations):.
+hid? size = obs_dim x 10
+
+GitHub - kvfrans/parallel-trpo: A parallel version of Trust Region Policy ...
+hitpsi/igithub.com/kvtrans/paralleltrpo +
+
+README md, paralle-trpo, A parallel implementation of Trust Region Policy Optimization on
+‘environments from OpenAl gym. Now Includes hyperparaemter adaptation as wel! More more info,
+‘check my post on this projec. 'm working towards the ideas at this openAl research request. The
+code is based off ofthis
+
+GitHub - jjkke88/trpo: trust region policy optimization base on gym and ...
+https/igthubcomijkkoB8trpo
+
+‘rust region policy optimitzton base on gym and tensorfiow. There are three versions of trpo, one for
+{ecrete action space like mountaincar, ne for decreate action space task with image as inpUt ike
+‘tari games, and the last for continuous action space for pendulems. The environment is base on
+‘pend gym. part of code...
+
+GitHub - woonsangcholtrpo: Trust Region Policy Optimization ...
+‘https /igithub com/woonsangchotrpo =
+
+README md, Proximal Policy Optimization Implementation using Tensorfiow and Keras. Code
+written by Galen Cho (Woon Sang Cho): https://github.comwoonsangcho. Summary. This is an
+
+lmplementation of Praximal Policy Optimization (PPO){1)I2), which isa variant of Trust Region Policy
+‘Optimization (TRPOY3}.
+
+GitHub - yjhong89/TRPO-GAE: Trust Region Policy Optimization with ...
+¥ .comlyjnongBS/TRPO-GAE +
+
+‘ntpsvigithub
+GitHub Is where people build software. More than 27 million people use GitHub to discover, fork,
+‘and contribute to over 80 milion projects.
+
+ 
+
+ 
+
+Average Return
+o 8 & 8 8
+
+\
+§
+
+HalfCheetah-vl (TRPO, Codebase Comparison)
+
+ 
+
+ 
+
+ 
+
+ 
+
+0.00 0.25 0.50 0.75 1.00 1.25 1.50 1.75 2.00
+Timesteps xt
+HalfCheetah-v1 (DDPG, Codebase Comparison)
+
+ 
+
+Average Return
+g 8 8
+
+o
+
+ 
+
+ 
+
+0.00 80.25 (0.50 (0.75 1.00 1.25 1.50 1.75 2.00
+
+Timesteps 108
+17
+ENDELEMENTEffect of hyperparameter configurations
+
+Policy network structure:
+
+Unit activation:
+
+ 
+
+Average Return
+
+ 
+
+HalfCheetah-v1 (PPO, Policy Network Structure)
+
+ 
+
+    
+
+(64,64)
+
+: Average Return
+
+&
+
+ 
+
+ 
+
+~ (100,50,25)
+(400,300)
+0.00 0.25 0.50 0.75 1.00 1.25 1.50 1.75 2.00
+Timesteps xt
+
+g
+
+—750
+
+_HalfCheetah-v1 (TRPO, Policy Network Activation)
+
+  
+
+ 
+
+ 
+
+7
+leaky_relu
+0.00 0.25 0.50 0.75 1.00 1.25 1.50 1.75 2.00
+Timesteps ial
+ENDELEMENTAverage Return
+
+ 
+
+An intricate interplay of hyperparameters!
+
+HalfCheetah-v1 (DDPG, Reward Scale, Layer Norm) - HalfCheetah-vl (DDPG, Reward Scale, No Layer Norm)
+
+5000
+
+Average Return
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+rs=10 rs=10
+
+$100 15-100
+
+0.00 0.25 0.50 0.75 1.00 1.25 1.50 1.75 2.00 0.00 0.25 0.50 0.75 1.00 1.25 1.50 1.75 2.00
+Timesteps x10 Timesteps x08
+
+How motivated are we to find the best hyperparameters for our baselines?
+ENDELEMENTFair comparison is easy, right?
+
+eer <2
+
+Same amount of data. Same amount of computation.
+ENDELEMENTLet’s look a little closer
+
+ 
+
+Average Return
+gf € &
+
+co
+
+ 
+
+n=5
+
+n=5
+
+ 
+
+ 
+
+ 
+
+0.00 0.25 0.50 0.75 1.00 1.25 1.50 1.75 2.00
+Timesteps x10°
+ENDELEMENTLet’s look a little closer
+
+Both are same TRPO code with best hyperparameter configuration!
+
+ 
+
+HalfCheetah-v1 (TRPO, Different Random Seeds)
+
+ 
+
+ 
+
+5000
+4000 meaner, | I=)
+sap
+c BP
+s a
+2 3000 LES ees
+a ee tae en aR Bs n=5
+o yt ee
+% 2000 Z vite
+5 fs hire
+> ae
+= 1000 i po:
+aes
+0 bi — Random Average (5 runs)
+Af ~~-- Random Average (5 runs)
+
+0.00 #025 050 O75 1.00 125 150 41.75 2.00
+Timesteps x10°
+ENDELEMENTHow should we measure performance
+of the learned policy?
+
+HalfCheetah Environment
+6000
+
+5000
+
+c 2 -
+5 4000 OS ans ahh DWONE
+S aren
+FA 3000 arta
+”
+eae Alia Me cold
+g red So eee ae — Atl
+=< 1000 wf ee 8.
+j 4 —— Alg.2
+0} } pA --- Alg3
+
+Alg.4
+—1000
+
+0.00 0.25 050 O75 1.00 125 150 1.75 2.00
+Timesteps
+
+. - tt
+¢ Average return over test trials? x = — y X;
+n i=l
+
+* Confidence interval? X+ 1.96 How do we pick n?
+ENDELEMENTHow many trials?
+
+ 
+
+     
+
+ 
+
+ 
+
+Work Number of Trials
+(et al. 2016) top-5
+(set al. 2017) 3-9
+et al. 2016) 5 (5)
+, al. 2017) 3
+(et al. 2015b) 5
+(set al. 2015a) 5
+
+(etal. 2017) top-2, top-3
+
+ 
+ENDELEMENTConsider the case of n=10
+
+            
+
+DMA
+{SJ WY
+: Dror SOQR YD
+Baseline to beat AL.
+
+CK VAN i (\C“
+
+  
+
+ 
+   
+ 
+
+Vint
+BLYE\
+WWI OK
+iS
+ENDELEMENTConsider the case of n=10
+
+ 
+
+Top-3 results
+
+     
+
+, Baseline to beat
+
+¢ Strong positive bias: seems to beat the baseline!
+
+¢ Variance appears much smaller.
+ENDELEMENTReinforcement Learning never worked,
+and 'deep' only helped a bit.
+
+ 
+
+WHENEVER SOMEONE/ASKS|ME IF
+
+ 
+
+SNTELETHEM IT DOESNT
+
+Reinforcement
+learning’s
+foundational flaw
+
+08.JUL.2018
+
+ 
+
+https: howw alexirpan com/2018/02/14/rl-hard.html
+ENDELEMENTFrom fair comparisons...
+
+seu 222
+
+ad
+
+to robust conclusions. Ww | i]
+
+¢ Different methods have distinct sets of hyperparameters.
+* Different methods exhibit variable sensitivity to hyperparams.
+
+* What method is best often depends on data/compute budget.
+ENDELEMENTWe surveyed 50 RL papers from 2018
+(published at NeurlIPS, ICML, ICLR)
+
+¢ Paper has experiments
+
+¢ Paper uses neural networks
+
+¢ All hyperparams for proposed algorithm are provided.
+¢ All hyperparams for baselines are provided.
+
+* Code is linked.
+
+* Method for choosing hyperparams is specified
+
+* Evaluations on some variation of a hold-out test set
+
+¢ Significance testing applied
+
+Yes:
+100%
+90%
+90%
+60%
+55%
+20%
+10%
+5%
+ENDELEMENTWe surveyed 50 RL papers from 2018
+(published at NeurlIPS, ICML, ICLR)
+
+ 
+
+Yes:
+¢ Paper has experiments 100%
+¢ Paper uses neural networks 90%
+¢ All hyperparams for proposed algorithm are provided. 90%
+¢ All hyperparams for baselines are provided. 60%
+* Code is linked. 55%
+* Method for choosing hyperparams is specified 20% 2000
+* Evaluations on some variation of a hold-out test set 10% <*
+¢ Significance testing applied 5% - pe
+
+ 
+
+ 
+
+ 
+
+0 5000 10000 15000
+steps
+
+Let’s adda
+little shade!
+ENDELEMENTHow about a reproducibility checklist?
+ENDELEMENTHow about a reproducibility checklist?
+
+ 
+
+For all algorithms presented, check if you include:
+
+Q Aclear description of the algorithm.
+
+Q_ An analysis of the complexity (time, space, sample size) of the algorithm.
+Q_ A\link to downloadable source code, including all dependencies.
+
+For any theoretical claim, check if you include:
+Q Astatement of the result.
+
+Q Aclear explanation of any assumptions.
+
+Q > Acomplete proof of the claim.
+
+ 
+
+ 
+
+ 
+ENDELEMENTHow about a reproducibility checklist?
+
+ 
+
+For all algorithms presented, check if you include:
+
+Q Aclear description of the algorithm.
+
+Q_ An analysis of the complexity (time, space, sample size) of the algorithm.
+Q_ A\link to downloadable source code, including all dependencies.
+
+For any theoretical claim, check if you include:
+Q Astatement of the result.
+
+Q Aclear explanation of any assumptions.
+
+Q > Acomplete proof of the claim.
+
+For all figures and tables that present empirical results, check if you include:
+
+A complete description of the data collection process, including sample size.
+A link to downloadable version of the dataset or simulation environment.
+
+An explanation of how sample were allocated for training / validation / testing.
+An explanation of any data that was excluded.
+
+The range of hyper-parameters considered, method to select the best hyper-parameter
+configuration, and specification of all hyper-parameters used to generate results.
+
+The exact number of evaluation runs.
+
+A description of how experiments were run.
+
+A clear definition of the specific measure or statistics used to report results.
+
+Clearly defined error bars.
+
+A description of results including central tendency (e.g. mean) and variation (e.g. stddev).
+The computing infrastructure used.
+
+Ooocdo
+
+Oooooo
+
+ 
+
+ 
+
+ 
+ENDELEMENTThe role of infrastructure on reproducibility
+
+ 
+
+ 
+ENDELEMENTThe role of infrastructure on reproducibility
+
+ 
+
+ 
+ENDELEMENTMyth or fact?
+
+Reinforcement Learning is the only case of ML
+
+where it is acceptable to test on your training set.
+ENDELEMENTMyth or fact?
+
+Reinforcement Learning is the only case of ML
+
+where it is acceptable to test on your training set.
+
+Classical RL AGI
+Train/test on Test on
+same task. anything!
+
+ 
+
+7
+
+The RL generalization roadmap
+
+   
+ENDELEMENTMyth or fact?
+
+Reinforcement Learning is the only case of ML
+
+where it is acceptable to test on your training set.
+
+Separate
+
+Classical RL tasks AGI
+Train/test on for train / test Test on
+same task. | anything!
+
+ 
+
+7
+
+The RL generalization roadmap
+
+   
+ENDELEMENTMyth or fact?
+
+Reinforcement Learning is the only case of ML
+
+where it is acceptable to test on your training set.
+
+Separate Separate
+Classical RL rnd seeds tasks AGI
+Train/teston for train / test for train / test Test on
+
+same task. | anything!
+
+7
+
+The RL generalization roadmap
+
+   
+ENDELEMENTResults from Zhang, Ballas, Pineau, ArXiv 2018
+See also Zhang, Vinyals, Munos, Bengio 2018
+
+Generalization in RL
+
+1 1
+Err = yun (st ISo~Stri) - m7 LMR (S¢|S0~Stest,i)
+ENDELEMENTResults from Zhang, Ballas, Pineau, ArXiv 2018
+See also Zhang, Vinyals, Munos, Bengio 2018
+
+Generalization in RL
+1
+Err =— YR (Se|S0~Ser.i) - = LMR (Se|So~Seese.i)
+
+Standard RL Acrobot simulator
+
+ 
+
+   
+
+1 seed
+
+ 
+
+Generalization Error
+
+° 20000 40000 60000 80000 100000
+Episodes
+
+41
+ENDELEMENTResults from Zhang, Ballas, Pineau, ArXiv 2018
+See also Zhang, Vinyals, Munos, Bengio 2018
+
+Generalization in RL
+
+1 1
+Err = W YwR(St|S0~Sixi) - m7 LMR (S¢|S0~Stest,i)
+
+Standard RL Acrobot simulator
+
+60 —— lseed
+Demonstration #2: Transfer to a 1.5x
+
+2 seeds J heavier system (+27 grams).
+— 5 seeds The first run shows the unmodified "source"
+40 10 seeds policy, and subsequent runs demonstrate
+= the result of our adjustment method.
+
+   
+
+20
+
+“is
+
+Generalization Error
+
+; MOBILE ROBOTICS
+& McGill |sexe a LABORATORY
+
+ 
+
+° 20000 40000 60000 80000 100000 ;
+Episodes From JC Gamboa Higuera, D. Meger, G. Dudek, ICRA’17.
+ENDELEMENTNatural world has incredible complexity!
+
+” G8 0
+
+    
+ENDELEMENTMany RL benchmarks are ridiculously simple!
+
+> Low-dim state space (Mujoco)
+
+> Small number of actions (ALE)
+
+> Few initial states
+
+> Deterministic transitions and rewards
+
+> Short description length, e.g. <100KB.
+
+ 
+
+Easy to memorize! Brittle to perturbations.
+ENDELEMENTZhang, Ballas, Pineau, ArXiv 2018
+
+Natural world => RL simulation
+
+RL actions
+
+ 
+
+Lantana camara!
+ENDELEMENTZhang, Ballas, Pineau, ArXiv 2018
+
+Natural world => RL simulation
+
+ 
+
+airplane (ak RR
+curomobie EEN dal as
+vc
+
+ 
+
+cifar10
+
+os
+
+ 
+     
+    
+ 
+
+5 06
+rr] ay
+c 100 training seeds
+gos — 1000 training seeds
+8 —— 10000 training seeds
+S 0.2 —— 50000 training seeds
+7
+D)
+oO
+
+0.0
+
+Lantana camara! 0 20000 «= 40000 «60000»: 80000 = 100000
+
+Episodes
+
+46
+ENDELEMENTae - awl
+BRIS ieee
+toot ~ Lid | |
+
+Ee i297 o 4
+a me iW
+Aid Jet te
+Bm a es
+Fa cas co 7 OO i ea
+ec ald a
+45h =s0ac
+
+ 
+
+ 
+
+BS” - Baal
+BRIS eae
+-conanaEee
+
+ 
+
+Mb ee
+Bae baekeae
+Wan. aBesaaa
+
+ 
+
+mnist cifar10
+
+ 
+
+00 02 o« os os oo 02 o4 os os
+
+le? Time Steps le?
+
+47
+
+cifar100
+Ppo
+
+   
+
+oo 02 o4 06 08
+Time Steps
+ENDELEMENTReal-world video => RL simulation
+
+ 
+
+Breakout (Atari) ; Zhang, Wu, Pineau, 2018
+ENDELEMENTZhang, Wu, Pineau, 2018
+
+Real-world video => RL simulation
+
+ 
+
+What is going on?
+
+¢ Add random video in background:
+“natural” noise + game strategy.
+
+¢ Different train/test video
+=> clear train/test separation.
+
+* Fast and plentiful data acquisition.
+
+* Easy replication and comparison.
+
+ 
+
+Breakout (Atari)
+ENDELEMENTMultt- task RL in Photorealistic Simulators
+
+ 
+
+Whelan et al., 2018 (Facebook Reality Labs)
+Colleagues at FAIR + Georgia Tech + FRL
+ENDELEMENTMyth or fact?
+Reinforcement Learning is the only case of ML
+
+where it is acceptable to test on your training set.
+
+Not necessarily!
+
+Separate Separate Multi-task
+Classical RL _ rnd seeds image/video photorealistic AGI
+Train/teston for train/test background simulator Test on
+
+same task. anything!
+
+The RL generalization roadmap
+
+   
+ENDELEMENTStep out into the real-world!
+
+ 
+
+ 
+
+ 
+ENDELEMENTScience is a collective
+institution that aims to
+Reusability understand and explain.
+
+Reproducibility
+
+Robustness
+
+ 
+ENDELEMENTReusability
+
+Reproducibility
+
+Robustness
+
+ 
+
+Science is a collective
+institution that aims to
+understand and explain.
+
+For all algorithms presented, check if you include:
+
+Q —_Aclear description of the algorithm.
+Q __Ananalysis of the complexity (time, space, sample size) of the algorithm
+Q _Aliink to downloadable source code, including all dependencies.
+
+For any theoretical claim, check if you include:
+
+Q A statement of the result.
+Q — Aclear explanation of any assumptions
+Q = — Acomplete proof of the claim.
+
+For all figures and tables that present empirical results, check if you include:
+A complete description of the data collection process, including sample size.
+A link to downloadable version of the dataset or simulation environment.
+
+An explanation of how sample were allocated for training / validation / testing.
+An explanation of any data that was excluded.
+
+The range of hyper-parameters considered, the method to select the best hyper-parameter
+configuration, and the specification of all hyper-parameters used to generate results.
+
+The exact number of evaluation runs.
+
+A description of how experiments were run.
+
+A clear definition of the specific measure or statistics used to report results.
+
+Clearly defined error bars.
+
+A description of results including central tendency (e.g. mean) and variation (e.g. stddev).
+The computing infrastructure used.
+
+oooooo ooooo
+ENDELEMENTGBS Cayo) goleltraleliiiavm@urii(-le(=
+
+Second Edition, 2019
+
+Signup Form | Search for Paper claims on Github C))
+
+ 
+
+Welcome to the 2nd edition of ICLR reproducibility challenge! One of the challenges in
+machine learning research is to ensure that published results are reliable and
+reproducible. In support of this, the goal of this challenge is to investigate reproducibility of
+empirical results submitted to the 2019 International Conference on Learning
+Representations. We are choosing ICLR for this challenge because the timing is right for
+course-based participants (see below), and because papers submitted to the conference
+are automatically made available publicly on Open Review.
+
+Task Description
+
+You should select a paper from the 2019 ICLR submissions, and aim to replicate the
+experiments described in the paper. The goal is to assess if the experiments are
+reproducible, and to determine if the conclusions of the paper are supported by your
+findings. Your results can be either positive (i.e. confirm reproducibility), or negative (i.e.
+explain what you were unable to reproduce, and potentially explain why).
+
+Essentially, think of your role as an inspector verifying the validity of the
+experimental results and conclusions of the paper. In some instances, your role will
+also extend to helping the authors improve the quality of their work and paper.
+
+n
+an
+ENDELEMENTAn Introduction to Deep
+Reinforcement Learning
+
+Vincent Francois-Lavet, Peter Henderson, Riashat Islam, Marc G. Bellemare and Joelle
+Pineau (2018), “An Introduction to Deep Reinforcement Learning”, Foundations and
+Trend in Machine Learning: Vol. 11, No. 3-4. DOI: 10.1561/2200000071
+
+Vincent Francois-Lavet Peter Henderson
+McGill University McGill University
+vincent.francois-lavet@mcgill.ca peter.henderson@mail.mcgill.ca
+
+Riashat Islam Marc G. Bellemare
+McGill University Google Brain
+riashat.islam@mail.mcgill.ca bellemare@google.com
+
+Joelle Pineau
+Facebook, McGill University
+jpineau@cs.mcgill.ca
+
+New
+
+the essence of knowledge
+Boston — Delft
+
+ 
+ENDELEMENT  
+  
+   
+
+Major Contributors:
+
+RL Reps
+
+Natural RL:
+a
+
+  
+   
+
+Peter Henderson Phil Bachman
+
+Amy Zhang Nicolas Ballas Yuxin Wu G.Fried R.NanKe H.Larochelle K. Sinha
+
+ 
+
+A -
+-Riashat Islam —_Doina Precup
+
+ 
+
+i Bote, / Fe
+Lh Ave
+~ MILA (RI fab) @ McGill
+
+Joshua Romoff David Meger
+ENDELEMENTThank you!
+ENDELEMENT

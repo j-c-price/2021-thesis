@@ -1,0 +1,4606 @@
+Recent Advances in Population-Based Search
+TUT Ti n'ae DUAV(=) g-)) 9" Am ©) l= 10d ale (-reMA\(e(e)alialaat-wmr-lalem (alelicsver mm mlalerere|| are [-
+
+ 
+
+Jeff Clune Joel Lehman Cclamelrelalle\y
+
+ 
+
+= © UBER Al Labs
+ENDELEMENTGoal
+
+e Share ideas that are
+¢ exciting
+¢ powerful: enable us to solve previously unsolved problems
+mn larsie|aaie)
+e true path
+
+e not well-known in ML, but useful in ML
+mmm @(=\¥.=}(@) @\-1e me]Uie>)(0(-mie-(elit(e)ar- m1 mmere)anlaalelaliay
+¢ population-based methods
+wa 6) 0] ©) 40-10] Nar-1 6) @)|[er-1e) (=
+damn a\@) ales 0(@) 010] (= 10) am oy-ts\-10 i gal-1ia[elelom (=e All m| Meme(=1-) OM(-\-laallale))
+
+¢ beyond neural networks
+
+decision trees, program synthesis, etc.
+ENDELEMENTGoal
+
+ma laligeyeluler-
+¢ new methods
+¢ new types of problems
+
+wan ales [6 (eli aremaleme|e-lalemesar-\i(-)ale[-ss
+ENDELEMENTfo) 0) (ex- Ore) (=) 4-10 Ms me ieral=10 (0) (=
+
+¢ Novelty Search
+
+a @ Ure inva BYNALESTINNG
+
+a @Y 7A (om aallalelisxs)
+
+¢ Open-Ended Search
+
+mm | ale || c=\e1 i =i alexele|lale
+
+¢ Looking Forward & Conclusions
+on OY. 7\
+ENDELEMENTPopulation-based Search
+
+* Main idea: Maintain a population of candidate solutions
+
+GAN population development
+
+42 45 48 51 54 57 60 63 66
+Inception Score
+
+From: Deepmind Blog post on PBT
+ENDELEMENTPopulation-based Search
+
+* Canonical example:
+Vanilla Genetic Algorithm
+¢ Randomly initialize all members of
+population
+* Iteratively:
+* Evaluate population
+* Cull population
+* Make noisy copies
+* Not a convincing case for benefits of a
+population
+¢ Convergent
+* One BBO among many
+
+ 
+
+from David Ha
+ENDELEMENTDiversity-centric Search
+
+¢ Encouraging diversity as a central drive
+* Novelty search (Lehman and Stanley 2008)
+¢ What would a search process driven only by diversity look like?
+¢ Hypothesis: Diversity-centric search might be necessary to
+scale to our most ambitious ML objectives
+¢ Why?
+ENDELEMENTObjectives and Objective Functions
+
+* Objective functions are ubiquitous in ML
+
+¢ Measure of quality of a solution
+
+¢ Implicitly defines an objective to reach (by optimizing OF)
+* The issue of local optima
+
+* Sometimes objective functions are smooth and easy to optimize
+
+* Sometimes optimization is more difficult because of thorny local optima
+¢ Would our problems be solved if we simply created more
+
+powerful optimization algorithms?
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENTDeception
+
+* The problem of deception: When aimed at ambitious
+objectives, the objective function often becomes a false
+compass
+
+¢ Stepping stones to objective often seemingly unrelated to
+objective
+¢ From abacuses to laptops [electricity, vacuum tubes]
+¢ From prokaryotes to humans [multicellularity, development, neurons]
+¢ From random init to highly-intelligent robotic control policies [7]
+ENDELEMENTThe Problem with Ambitious Objectives
+
+* Hopeful assumption: Improved performance will lead to greater
+improvements, all the way to success
+
+* Doesn't always work (local optima), which motivates:
+¢ Curriculum learning (Bengio et al. 2009)
+* Reward shaping/engineering (Ng et al. 1999)
+¢ Intrinsic motivation (Oudeyer and Kaplan 2007, Schmidhuber 1991)
+* Optimal reward functions (Singh et al. 2010)
+
+* Overarching issue:
+Stepping stones to success don’t always resemble success
+ENDELEMENT 
+
+ 
+
+TWobabitry Theory
+
+s
+“Communcations Engineering
+
+ 
+
+f Arenas
+e ‘Power Ungneeriag: 4
+
+Social Sciences F Howrey Crate, >< Ganap ney
+Raion Shenae
+
+Physical Sciences
+
+ 
+
+ 
+
+ 
+
+| ae ris Fossyi cana conocer
+
+Tceogranhy “Software Engine ring 5
+“oftware E Fuld Meenanics
+
+“denemaste Eneray monn
+
+ 
+
+*
+
+“ Sector “Qperaion Reseech
+
+oman Mote Mechanics
+Vesna Chemiry f
+
+a: Chemical Engmnering,
+
+.
+mance
+
+*
+Polnical Science
+
+      
+ 
+   
+
+ey Maton Pryics
+
+Life Sciences
+
+Stavstes
+
+TNewosurery
+
+“crearyeotouy
+
+   
+ 
+
+ 
+
+on e
+\ > Sy penne
+e
+
+  
+  
+
+.
+“Ophthaimeiocy
+
+ 
+
+ 
+
+WiKs 6 Chmatetogy
+
+—
+
+ 
+
+Tore tener Coan See
+, tee
+Rae , eat j
+Ee
+oto & Gown
+oa, one
+
+"Enviranmental Science
+
+ 
+
+ne Ecology & Earth Sciences
+
+ 
+
+a Eas ieee
+
+‘Cassoerteroiay & Wepatatoay Oncatogy
+ENDELEMENTTowards more creative search
+
+* Radical idea:
+Can search that is ignorant of its intended objective sometimes
+outperform search that is aimed directly at its objective?
+¢ Can pursuing an ambitious objective undermine attaining it?
+
+¢ What could instantiate a more open-ended search?
+* Creative, divergent forces?
+ENDELEMENTNovelty Search
+
+* Guiding search only by novelty
+* Objective-driven heuristic: What improves performance locally is
+a stepping stone towards great performance
+
+* Novelty-driven heuristic: What is novel may
+lead to further novelties =
+
+ 
+ENDELEMENTNovelty Search Algorithm
+
+¢ Take a population-based search algorithm
+
+* Replace standard goal-based objective function with measure of
+behavioral novelty
+* Measured relative to current population and archive of previously-novel
+
+* Over generations, search spreads out over the behavior space
+
+ 
+
+e ~
+1 k . o) eo 6 ©
+P(x) = % doj=0 dist(x, pi) 0° %o
+
+ 
+
+k-Nearest Neighbors
+
+ 
+
+ 
+
+distance Behavior space
+ENDELEMENTENDELEMENT 
+
+ 
+
+ 
+ENDELEMENTVisualization in Maze Navigation
+
+Novelty Objective
+
+ 
+
+(Lehman and Stanley 2008)
+ENDELEMENTVisualization in Maze Navigation
+
+Novelty Objective
+
+ 
+
+(Lehman and Stanley 2008)
+ENDELEMENTBiped Locomotion
+
+  
+
+ 
+
+ 
+
+Objective Novelty
+
+ 
+
+(Lehman and Stanley 2012)
+ENDELEMENTWorks in Deep RL context too
+
+* As an extension of OpenAl’s ES (Conti et al. 2018)
+¢ As an extension of Uber’s Deep GA (Such et al. 2017)
+
+ES:
+30 —— ESw/Exploration
+
+  
+
+0 100 200 300 400 500 600 700 800
+Generation Number
+
+ 
+ENDELEMENTRelated Work
+
+* See also:
+Autonomous mental development / intrinsic motivation /
+curiosity (Oudeyer and Kaplan 2007, Schmidhuber 1991)
+
+From: (Oudeyer et al. 2007)
+
+ 
+ENDELEMENTRelated Ideas in Deep RL
+
+¢ DIAYN (Eysenbach et al. 2018)
+
+¢ Curiosity-driven exploration (Pathak et al. 2017)
+
+* Skew-fit (Pong et al. 2019)
+
+* Hindsight Experience Replay (Andrychowicz et al. 2017)
+¢ Unsupervised Meta-learning (Gupta et al. 2018)
+ENDELEMENTDiversity is All You Need: Learning
+Diverse Skills without a Reward Function
+
+  
+    
+   
+       
+
+4
+Sample one skill per
+
+Fixed
+episode from fixed /.~ = — == ree
+skill distribution.
+
+ENVIRONMENT
+Sio1 Y P(Si41 | $444)
+Discriminator estimates skill j
+
+from state. Update is dat Ng LAER Update skill to maximize
+to maximize discriminability. t 6 a | St4 +1 ; discriminability.
+
+Skills move right
+y x WK YS to become
+Se discriminable.
+qa(2 St)
+
+ 
+
+ 
+
+(a) 2D Navigation (b) Overlapping Skills
+
+(Eysenbach et al. 2018)
+ENDELEMENTCuriosity-driven Exploration by Self-
+Supervised Prediction
+
+MARIO
+
+MARIO
+000200 x00 005000
+
+ 
+
+ 
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+t Model
+= | (st) $(se+1)
+iissl
+I
+
+at St St41
+
+ 
+
+(a) learn to explore on Level-1 —_(b) explore faster on Level-2
+
+(Pathak et al. 2017)
+ENDELEMENTNovelty Search Conclusions
+
+¢ Pressure towards creative divergence alone can sometimes
+outperform directly seeking the objective
+
+¢ But what about the pressure to achieve (also a key force in
+biological and technological evolution)?
+ENDELEMENTCombining Novelty and Achievement
+(Mouret and Doncieux 2012)
+
+¢ While raw novelty can work, natural to merge novelty pressure
+with pressure to achieve
+¢ Many paradigms: Weighted average of objective + novelty; objective
+until stuck, then switch to novelty; etc.
+* Effective in practice: Population-based multi-objective
+optimization
+(Fonseca et al. 1995)
+¢ Simultaneously explore all trade-offs between objectives
+ENDELEMENTPopulation-based Multi-objective
+Optimization
+¢ Popular algorithms include NSGA-II (Deb et al. 2002)
+
+* Main idea: Maintain pareto front of non-dominated solutions
+¢ A>B only if
+* objective_score(A) > objective_score(B) and
+* novelty(A) > novelty(B)
+* Another interesting possibility
+enabled by maintaining a population **) *=)
+
+Novelt
+y
+
+fl
+
+   
+
+Parer, 3]
+
+iA) < 2B) f2-
+Objective score
+ENDELEMENTDiversity + Performance as Equals
+
+¢ Problems with combining novelty and
+global competition objective
+* Does not address the fundamental
+problem of deception
+¢ Embodies paradigm of diversity in service
+of progress
+
+¢ What about an algorithm with equal
+priority to diversity and performance?
+
+* To optimize towards the best version of
+each possible solution niche?
+
+ 
+ENDELEMENTQuality Diversity (Pugh et al. 2016)
+
+* Different kind of search process:
+Find the best possible example of each achievable behavior
+
+* Build a repertoire of different ways to solve a problem
+
+¢ Highlights a wide range of possible designs that a designer can choose
+from
+
+* Can enable a robot to adapt to new circumstances
+¢ Can circumvent deception by creating an implicit curriculum
+ENDELEMENTQuality Diversity
+
+¢ Sometimes objective performance not the most important factor
+* Illuminate the space of diverse possible solutions
+
+* Diversity in how a problem is solved sometimes more important/
+interesting than aaining only the single-most efficient solution
+
+   
+ENDELEMENTQuality Diversity
+
+¢ Sometimes objective performance not the most important factor
+* Illuminate the space of diverse possible solutions
+
+* Diversity in how a problem is solved sometimes more important/
+interesting than aaining only the single-most efficient solution
+
+   
+
+3 years to sexual maturity
+
+20 minutes to sexual
+maturity
+ENDELEMENTIllustrative Domain: Virtual Creatures
+
+* Evolve both the morphology and controller of a virtual robot
+
+¢ What if we want to see the best possible locomotion strategies
+for all areas of a morphology space?
+
+ 
+ENDELEMENTMorphology Space
+
+   
+
+* Height
+¢ Mass
+¢ Number of Active Joints
+
+Height
+ENDELEMENTNovelty Search with Local Competition
+(Lehman and Stanley 2011)
+
+* Global competition:
+Niches with higher capacity for objective performance favored
+
+* Compete globally on absolute performance score
+
+¢ Local competition:
+Niches are explored relative to their local capacity for
+performance
+* Compete locally: how many of your morphological nearest-neighbors
+do you out-perform?
+ENDELEMENTNovelty Search with Local Competition
+
+f1iA) > f1(B)
+
+Novelt
+y
+
+ 
+
+f2(A) < f2(B)
+Local competition
+score
+ENDELEMENTExploring the Morphology Space
+
+ 
+
+ 
+
+ 
+
+Novelty Objective Global Competition | Local Competition
+
+ 
+
+ 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENTi Te=\oliite)at=|mant-(evnliar-m(sr-taallalem patsitalere (=m e)celeleler=
+little diversity
+
+ 
+
+Salimans, Ho, Chen, Sidor, Sutskever 2017
+ENDELEMENTPopulation-based methods also produce little
+
+diversity
+
+We gave evolution four materials:
+
+Muscle:
+
+Tissue:
+
+Muscle2:
+
+Bone:
+
+contract then expand
+
+soft support
+
+expand then contract
+
+hard support
+
+ 
+
+Cheney, MacCurdy, Clune, Lipson 2013
+ENDELEMENTQuality Diversity Algorithms
+
+e a diverse set of high-performing agents (policies)
+ENDELEMENTChallenge: Diversity & Performance
+
+¢ Quality diversity algorithms
+- Novelty Search + Local Competition (Lehman & Stanley)
+ENDELEMENTChallenge: Diversity & Performance
+
+¢ Quality diversity algorithms
+- Novelty Search + Local Competition (Lehman & Stanley)
+- MAP-Elites (Mouret & Clune)
+
+ 
+
+Jean-Baptiste Mouret
+ENDELEMENTMAP-Elites
+
+Mouret & Clune 2015
+
+e Multi-dimensional Archive of Phenotypic Elites
+- Choose dimensions of interest in behavior space
+- Discretize
+
+- Mutate, locate, replace if better, repeat
+
+missle jell
+TTT
+a
+BEER
+ENDELEMENTMAP-Elites
+
+Mouret & Clune 2015
+
+e Multi-dimensional Archive of Phenotypic Elites
+- Choose dimensions of interest in behavior space
+- Discretize
+- Mutate, locate, replace if better, repeat
+
+missle jell
+TTT
+BERR eee
+EERE Eee
+
+milalsisss
+gclarelelaa
+ag oe:
+o)ceretaliciank
+H: 4
+
+W: 7
+
+ 
+ENDELEMENTMAP-Elites
+
+Mouret & Clune 2015
+
+e Multi-dimensional Archive of Phenotypic Elites
+
+- Choose dimensions of interest in behavior space
+- Discretize
+
+BERR
+Mutate, locate, replace if better, repeat TTTTT TTL
+i ttt ty ft
+it tet et ft
+i tt tf ft
+it ttt et ft
+|i ft
+tty tt
+it ttt et fy
+
+eclarerelaa
+. > evaluate »> i
+o)gef-laliciaak
+He TT
+
+W: 7 NVevtelayl
+
+nt
+
+eig
+
+H
+
+   
+
+ 
+ENDELEMENTMAP-Elites
+
+Mouret & Clune 2015
+
+e Multi-dimensional Archive of Phenotypic Elites
+- Choose dimensions of interest in behavior space
+- Discretize
+- Mutate, locate, replace if better, repeat
+
+f :
+a>»
+
+ 
+ENDELEMENTMAP-Elites
+
+Mouret & Clune 2015
+
+e Multi-dimensional Archive of Phenotypic Elites
+- Choose dimensions of interest in behavior space
+- Discretize
+- Mutate, locate, replace if better, repeat
+
+>>
+
+  
+   
+
+eee
+VAVCVol ait
+
+ 
+ENDELEMENTMAP-Elites
+
+Mouret & Clune 2015
+
+e Multi-dimensional Archive of Phenotypic Elites
+- Choose dimensions of interest in behavior space
+
+   
+
+ 
+
+- Discretize eTTTI TTT TT.
+| EERE
+Mutate, locate, replace if better, repeat TTTTTTLIL
+tT TT TT TT
+mutate + BE REEEEEEe
+fo mutate lon |
+i.
+ao> &
+Sooo
+
+ 
+
+VAVCVol ait
+ENDELEMENTMAP-Elites
+
+Mouret & Clune 2015
+
+e Multi-dimensional Archive of Phenotypic Elites
+- Choose dimensions of interest in behavior space
+
+     
+
+     
+         
+   
+
+"-Disorelize TTTTTT tt.
+Mutate, locate, replace if better, repeat —TTTTTTLLLI
+| tt tt tT et ty |
++ BE REEEEEEe
+mutate oR EEE EERE
+f 2S 00S
+
+ri i
+
+a> (> sass
+4.5 Tee
+WW: 7 Weight
+ENDELEMENTMAP-Elites
+
+Mouret & Clune 2015
+
+e Multi-dimensional Archive of Phenotypic Elites
+- Choose dimensions of interest in behavior space
+
+- Discretize
+- Mutate, locate, replace if better, repeat Se
+SERRE
++ BEREEEEEEe
+Set of diverse, DS REG Ri
+high-quality miltittiititt_
+solutions ERR
+See
+SERRE
+
+ 
+ENDELEMENT10) 1 Mi nC 0) 010) Koos wa xO) 0)(=100
+
+Mouret & Clune 2015
+
+a D]Taatsvarsielats
+male |aa|e\s)me)mmyse).<>) [>
+- % bone (dark blue)
+
+ 
+
+ 
+ENDELEMENT10) 1 Mi nC 0) 010) Koos wa xO) 0)(=100
+
+Mouret & Clune 2015
+
+Classic Optimization Classic + Diversity MAP-Elites
+
+O01 02 #03 04 O05 06
+num voxels
+
+ 
+
+EA multi-objective EA same # evals!
+ENDELEMENTSame agents,
+from the side
+
+ 
+
+Ee) WE
+
+ 
+
+Obed
+
+ 
+
+0.4 0.6 0.8
+
+% voxels filled
+
+a lies ie ele
+
+ 
+
+Mouret & Clune 2015
+ENDELEMENTDifferent Runs: Soft Robot Problem
+
+Classic Optimization Classic + Diversity MAP-Elites
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+0.050 0.050
+0.6} 1 40.045 1.2; an 70.045
+._ 4 0.040 4 0.040
+
+0.5 . 1.0} 1
+. 4 0.035 . g 0.035
+0.4} . . i 0.030 0.8) | fyo030
+
+LT . a | . "
+
+7 . 0.025 . 0.025
+
+0.3} . | 0.6; “4
+7 r) 2 , 0.020 ; 0.020
+0.2; . . . { 0.015 0.4) | 0.015
+
+_o* ;
+
+0.11 _ . 0.010 o.2t | 0.010
+7 . . 1 0.005 0.005
+00 Ol 02 03 O04 05 06 0.000 00 02 O04 06 08 10 1.2 0.000
+0.050 0.050
+0.6; ' 40.045 1.2p | | 79-045
+05 40.040 Lo | 40.040
+0.035 g 0.035
+0.4; 0.030 0.8; | B 0.030
+0.025
+
+0.31 { 0.025 0.6 |
+0.020 . 0.020
+0.2} 0.015 0.47 oe | 0.015
+oal 0.010 021 . : ‘! J | 0.010
+0.005 sus 0.005
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+00 Ol 02 03 O04 05 06 0.000 00 02 O04 06 08 10 12 0.000
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+0.050
+
+40.045
+
+7 0.040
+
+5 0.035
+
+5 0.030
+
+0.025
+
+0.020
+
+0.015
+
+0.010
+
+0.005
+
+0.000
+
+0.050
+
+40.045
+
+7 0.040
+
+5 0.035
+
+5 0.030
+
+0.025
+
+0.020
+
+0.015
+
+0.010
+
+0.005
+
+0.000
+ENDELEMENT 
+
+     
+
+Global performance Reliability Precision Coverage
+
+Retina Problem
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+(0) Traditional EA (c) Novelty Search + Local Competition (d) Random Sampling
+
+5.0F . ee
+| nai
+4.0} as
+3.0} ~ ais
+2.0) ' oat
++ fe
+ram cot A hg
+oo 10 70 30 ao 3.0 vise
+
+(e) MAL-Elites Mouret & Clune 2015
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTmi CToy-| me) Viicorallale ia
+
+Nguyen, Yosinski & Clune 2016
+
+¢ When trying to solve task A, if you make progress on task B
+¢ keep the innovation and let it Keep working on B
+
+  
+ENDELEMENTGoal Switching:
+C=)" (0) meeyes(=) a (61> mo am C=ceralave) (ele) (er-lmialacenic-tilele
+e Radar =——~ microwaves
+> Vacuum tubes == computers Why Greatness
+¢ basic physics =< clean energy (nuclear) Cannot Be Plannec
+° elc.
+
+ 
+ENDELEMENTSerendipity
+
+¢ We want our algorithms to capture serendipitous discoveries
+a @) Do(ol-\-mial-| MUI mCley- le) iaicevaliale
+
+MAP-Elites
+
+0.0 0.1 0.2 0.3 0.4 0.5 0.6
+
+ 
+ENDELEMENTGoal Switching
+
+ 
+
+retina problem color = reward MAP-Elites Mouret & Clune 2015
+ENDELEMENTP-NU}Ko)aat=ic-\em O10) aqleielt-mmor-laalliale
+
+MAP-Elites Lineages of a Few Final Solutions
+
+ 
+
+MAP-Elites Mouret & Clune 2015
+ENDELEMENTTalateyé-iile)am =are [laters
+
+Nguyen, Yosinski & Clune 2015
+
+Interesting? Interesting? | Interesting?
+
+v
+
+ 
+
+¢ Nature, Culture, & QD algorithms are Innovation Engines
+¢ generate permutations of previous interesting things
+e if interesting, keep them
+e repeat
+ENDELEMENTTalate)é-\ule)am = alellatcs=
+
+Nguyen, Yosinski & Clune 2015
+
+> a %
+
+Interesting-ness
+
+Evaluator
+
+   
+
+   
+
+Collector &
+Generator
+
+MAP-Elites
+
+one bin per ImageNet class INUSAN AT
+
+Encodings: Small CPPN networks
+ENDELEMENTCTol=ls\ikeraliare
+
+Bee SL9iN
+
+1500 1750 3750 5000
+
+| a
+
+1500 1750 3750 5000 Water tower
+
+Single-class
+
+mM)
+VY)
+=
+ua
+a
+<q
+=
+
+ 
+
+Nguyen, Yosinski & Clune 2015
+ENDELEMENTCTol=ls\ikeraliare
+
+-class MAP-Elites vs. One-class MAP-Elites
+
+- medians
+
+@=e MAP-Elites
+Single-class
+
+i)
+UV
+Cc
+Vv
+Ke)
+ra
+Cc
+fe)
+UO
+
+: MAP-Elites vs Single-class
+2000 3000 4000 5000
+Generation
+
+ 
+
+Nguyen, Yosinski & Clune 2015
+ENDELEMENTCTol=ls\ikeraliare
+
+1 50 100 500 1000
+
+Number of objectives
+
+WY
+
+(Tp)
+
+&
+
+U
+
+ca) oD)
+U [ok
+c (Tp)
+S wo
+= co
+Cc U
+J
+
+oO —
+O =
+(Tp)
+©
+oO
+oO
+
+50 100 500 1000
+Number of objectives
+
+ 
+
+Nguyen, Yosinski & Clune 2015
+ENDELEMENT(Coy= 1 RSM i Kea] [ae M1 arsle) (=m clelele ml (e(=1-t-mce ms) e)e-r-le,
+
+¢ Fundamental advances spread to other problems/niches
+wa Nat=)ale=|g>m O10 lliane) OLe)amComsye)\V(-m Nat- ims) Ol-(ei)i (em e)cele)(-\a8
+e “Adaptive Radiations”
+
+ 
+ENDELEMENTtench
+
+0%
+
+        
+
+     
+
+es
+
+   
+       
+
+        
+     
+
+megalith Doberman stingray _ miniature
+23% 500 0% 456 32% 500 pinscher 0% 480
+
+ 
+
+ 
+
+=i Adaptive Radiations
+in QD!
+
+|
+
+ 
+
+boathouse obelisk
+10% 707 43% 695
+
+space shuttle
+
+81% 738
+
+castle cloak
+4% 739 26% 724
+
+pa)
+
+mosque
+14% 919
+
+ 
+
+ 
+
+ 
+    
+
+  
+ 
+    
+
+        
+     
+
+   
+
+cocker
+spaniel 2% 918
+
+church
+49% 838
+
+volcano
+99% 972
+
+street sign
+
+32% 1697
+
+planetarium
+
+85% 879
+
+  
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Kalarenvz-tile)am =1avellatcss
+sauna Nguyen, Yosinski & Clune 2015
+
+  
+   
+ 
+
+  
+  
+
+obelisk
+
+51% 1706
+
+church planetarium
+
+57% 1961 95%
+
+beacon
+
+96% 1
+
+water tower
+94% 1980
+
+volcano mosque
+99% 1881 3
+
+ 
+     
+
+   
+ENDELEMENTml latetjlelalmm =.4el>)al-valerom a(=)e)t=\\,
+
+Nate lavzelale\ileraicia-| Men WA
+miele leaiialae
+
+e single agent
+
+an UiS\=1s¥k0 [ey=] bere) ale lii(e)al=\om@ra(=y-laaliale
+
+BT a\a Kome [om rom-meley-!
+
+lf you end up somewhere else, pretend that was your goal
+
+re [oy-| lui Keraliale
+
+Eventually learn the highest-quality way to do a diverse set of things
+¢ effectively is a QD algorithm
+
+¢ where the “population” is in goals for one agent, not a population of agents
+ENDELEMENTMulti-Modal Agents
+
+CMOEA. Huizinga & Clune 2018
+a AE= Tah k=1e Mm ge) elo) km lat-lmrer-lal el-)aie)aaamanr-la\yaeliiis)a>/almr-le1l(e)alsyasy <I bs
+¢ in different contexts (e.g. options hierarchical RL)
+¢ solve different problems
+om | at=}(6] 01 @ 1D r= 1 (ele) aitalaatsmer-lamal=)| 0M ©)celelU(ex-m-je(ejamel-lalslecli(s}hs
+
+ 
+ENDELEMENTMulti-Modal Agents
+
+CMOEA. Huizinga & Clune 2018
+ay nmeie|aa(e16]6|aam ©)ce)ey-1e)\vmal=)| es
+a AYAalcorame) alse
+
+ 
+ENDELEMENTCMOEA
+
+Huizinga & Clune 2018
+
+e Idea: one niche per
+¢ single task
+¢ combination of tasks
+ENDELEMENTCMOEA
+
+Huizinga & Clune 2018
+
+All Tasks
+
+ 
+ENDELEMENTCMOEA
+
+Huizinga & Clune 2018
+
+Robotics Task Performance (75,000
+
+@—@ CMOEA Mod.
+@-@ CMOEA
+WV NSGA-II Mod.
+| NSGA-II
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+S
+S
+S
+x
+
+®
+O
+Cc
+©
+=
+—
+eS
+c
+®
+oO
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+©©HOHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHOHHOOOOO4CMOEA
+
+p<0.05 vs CMOEA Mod. (FY VVVVVVVVVVVVVVVVVVVVVVVVVVVVVV VV VV VV VV VV VV VV VV VV Y\NSGA-2 Mod.
+LILITITITITITIITIITIITITITIiTititititititiiitiititititreirirtrirtirioriy it Titties
+
+p<0.05 vs NSGA-2 | VV VVVVVVVVVVVVVVV VV VV VV VV VV VV VV VV VV VV VV VV VV VV VV 9 VW YNSGA-2 Mod.
+
+0 10000 20000 30000 40000 50000 60000 70000
+Number of Generations
+
+ 
+ENDELEMENTOK f —
+
+fun
+
+eT
+
+Move forward
+
+ 
+ENDELEMENTOther Applications of Quality Diversity Algorithms
+ENDELEMENTTHE INTERNATIONAL WEEKLY JOURNAL OF SCIENCE
+
+Back on its feet
+
+Using an intelligent trial-and-error learning
+algorithm this robot adapts to injury in minutes
+PAGES 426 & 503
+
+       
+    
+
+—— rt tt ett
+
+   
+
+  
+
+> = - e Ey = —
+BieSet Pe - Ss ‘
+= r - Se SS v-
+Lp app peeeas 4 EEF <== ee
+Se Sst “S .
+i Seas SS SS
+z s BEEgcEL Ste (A ae Ss .
+= —§ 4 4- ™e ad = < Y
+aes So cacse: fate oo Sac oe “4 (=f. feamoulen oy < p
+Sz: g22 22222 BERSSEES=- io) aS
+vs : aaa Sale Sel te oe oe GE oo A ae ne S “
+PIF SS htt pt aogse ssess S85=358---—= A j
+Sara ase Wa Se SS et ks —\ > Sosa
+a om we a = Fit eek \ SOX
+ae i Aes WA ‘
+SSeS Bee TST F&F SSSsert tt anaes S,
+aa aStaeS as. SS]. eis 2a 4 2.22] RE AY %
+= ititig@aat Bis _* he a wan’ Ves:
+os on ae oe a asi i 1 2 web
+See tet . = “$= Antoine Cull
+— : soMean=acr 060U68 SSS = ES
+ita as ake +4: nt TS SSR Antoine Cully
+(td dattta + a ommonee mat a \ SS UUPMC Université
+ba -_ niversite
+c TPE a as I S353200 £m wt \ 5] France
+BHM st Mea ee [eG Ge hSeetete Be Li T - SS
+
+m(elele) km i ar-im-\ell ey!
+
+ThyteMeclaliaateles
+
+Nature 2015
+
+   
+
+Jean-Baptiste
+Mouret
+
+UPMC Universite
+France France
+
+Jeff Clune
+University of Wyoming
+USA
+
+Danesh Tarapore
+UPMC Universite
+ENDELEMENT 
+
+ 
+ENDELEMENTDamage Recovery
+
+Damage occurs
+(leg loses power)
+
+ 
+ENDELEMENTModern, Learning-Based Approaches
+
+e Simple robots (low-dimensional state & action spaces)
+
+e Require lots of real-world trials
+
+  
+
+Yosinski et al. 2013 Kohl & Stone 2004 Bongard et al. 2006
+ENDELEMENTr-Naliaarsits
+
+e Have
+
+° Conduct a tests
+
+e Pick a behavior that works despite injury
+
+ 
+ENDELEMENTRobots that Adapt Like Animals
+
+e Have intuitions about different ways to move
+¢« Conduct a few, intelligent tests
+
+¢ Pick a behavior that works despite injury If Damage occurs
+
+(leg loses power)
+
+ 
+
+intuitions about
+ditferent ways to move
+
+pick one that works
+
+few, intelligent tests despite injury
+
+  
+ENDELEMENT   
+
+Hexapod Robot
+
+   
+
+Pelle FS
+
+Kc Creagh
+ENDELEMENTintuitions about
+
+ditferent ways to move
+
+ 
+
+e MAP-Elites
+
+Ce ={=)ae\dlelaclmelatclaclein-)mysclutela
+
+- % of time each leg touches the ground (6-dimensional)
+
+Dim 1 qdim 2
+
+LS Sein 4
+
+e Massive search space
+Dim 3 Dim 6
+
+e MAP-Elites map has ~13,000 diverse, high-performing gaits #iRige
+
+Initial Map
+
+ 
+ENDELEMENTintuitions about
+ditferent ways to move
+
+Bie
+
+Leg that touches the
+ground less than 10%
+of the time
+
+ 
+ENDELEMENTCorner Case: Feet never touch the ground
+
+ 
+ENDELEMENTOJamiatemsilaalelreltcrer
+Ulalerclaareletcre mae) eve)!
+
+PRELA BRP RBS
+Sernt Borer seee
+
+SEFEP SEEED BB
+
+Perr Pr | Ane a
+
+SPER ReWRD eee
+RESUS BOON eo
+PRERE BI Pair Eke
+
+Fe RRE SRSCr Fe 2
+SREREE & tit
+
+eB aa . rs :
+SPR BI Pe Lek ey
+
+BCE CHEE IEEE TS
+Initial Map
+
+pte tt tp
+
+RL
+
+ZEERR payee pe er 1-- le. Soon
+
+ee de ek
+SSEEN UERUE BaEEu Bouma aD
+
+Hzs
+
+ 
+ENDELEMENTDamage occurs
+(leg loses power)
+
+SEFEP SEEED BS
+
+Perr | an =
+
+SPER PERKS Bem
+RESUS BOON eo
+PRERE BI Pair Eke
+TeERERF FSF PEEL
+
+SFEFE SEECE SGCCe ao
+SSESE ! 1 4 at
+
+Initial Map
+
+ap
+BM Pi
+aA
+Aare
+Aare
+ae!
+ET
+1
+Af
+aS
+uM om
+EL!
+io
+A»
+MS
+maga
+al J
+BEE
+Se!
+=
+
+a:
+
+ZEERR payee pe er 1-- le. EP
+
+ee de ek
+
+SURET MERE CREE BEM eae
+; eee ee eee epees
+
+eT | eer Hee tae ted BE es es A
+
+ 
+ENDELEMENT(leg loses power)
+
+”“
+a
+5
+re)
+ye)
+°
+So
+C
+E
+@
+ja)
+
+Could try top N:
+
+ 
+
+SEFEP SEEED BS
+
+Perr | Ane a
+
+SPER ReWRD eee
+RESUS BOON eo
+PRERE BI Pair Eke
+Fe RRE SRSCr Fe 2
+
+SSESE !
+
+aie Slee eee PERE
+Initial Map
+
+CEC SSS USES ONES seeee
+
+ZEERR ils ee se ed a
+
+Pct
+eT | PEP Tr Hee tae ted BE es es A
+
+CREED GaSe oeoee coe a
+SeERT Bee 4 a od Bi a iva “ead
+
+ 
+ENDELEMENT 
+
+Bayesian Optimization
+i [dlctsme lliiciasialmay Cloxsmsre)le lle lals
+
+e TLPPrPrEeree.
+Pre ee Bl
+PPP Peres Perna
+BSPEF BERKS ee
+
+PRELA SOF R. BRPEME
+re e OBEED BOEU HB
+Z|
+
+SEFEP SEER SSRRAw
+
+PFPRPE BREE PR
+rPPrrPrPr = = 4 vse fed
+
+Sere CuEEgae ne
+
+Tha
+
+eee pete
+
+Ice
+ao
+
+Pa ad aed eed ed
+
+LP
+
+SR Eat
+
+ete}
+
+BEC NeSaS VARs FaUee
+
+|
+c
+|
+a
+al
+MI
+
+|
+
+1
+4
+P
+1
+4
+a
+a
+4
+4
+el
+oo
+=a!
+4
+
+or
+
+ee ee OR
+
+(leg loses power)
+
+”“
+a
+5
+re)
+ye)
+°
+So
+C
+E
+@
+ja)
+
+ 
+
+Initial Map
+
+ 
+ENDELEMENTsrc rola) elianiyz-liiela
+
+stop when:
+
+A real-world
+behavior is >90% of
+olsrsiMmUlalccrs}iciem ele)ialt
+
+Prior: Posterior:
+MAP-Elites Map Foleo me] ele feliclemehitess
+real-world tests
+
+BEDE
+JRE Bo
+
+Has
+weal
+
+inna hm!
+a
+oA
+als
+m4
+
+| Aaeee
+
+ERAG# MESSe hSSES BS Ase
+a3
+
+aE i iid id
+
+Baza
+Dame aadein
+
+ety berber
+
+ann Same
+LURAsATISs
+tLELE EEL LEE
+
+sesagvosaerse>
+
+zz
+
+EX oOTaA Poser eons
+Ge
+
+Dim 1
+
+44|. 44a sede
+@).8480 8 «tee uae
+io eer | bee
+
+Dim 1 Dim 2
+
+LY Spin 4
+
+ne as | 6
+
+Dim 5
+
+co)
+5a
+aa
+
+eer es one
+
+-
+tT
+
+a ad
+
+Hope
+
+WE es RD dt a
+ee PE TLE ee Pe PP bee)
+
+ET
+1*t- Ed
+she!
+maa
+ous
+bo
+‘War
+(PA
+ae
+Bae
+
+aad noeeeeoes
+ik nd id
+
+Initial Map Posterior Map
+
+Tr
+Bb
+Bb
+bin)
+bE
+ree
+PLE
+BD
+bo
+eC
+EL
+BL
+Be
+BD
+Le
+ri
+an
+BS
+de
+LL)
+cr
+af
+ES
+oo
+a"
+
+S000E ACES ROSS Pees ons s=
+BePa grat MS ote be a we a a
+
+FERRGS hae LAEe Cee LS
+THERES NSO PERE DARD sa
+
+BRE S* BRR EL RBORE Ae
+Fri
+
+cP OUT Hcoe cess
+EPMGanLS
+
+ 
+ENDELEMENT@Jal=mrel [aal-yalsvle)ar-lm =>.¢- laa) eli
+
+A Pre-Processing in
+simulation
+
+(T | Expected performance \(/¢ Lowered \(f Sto ion i )
+: p because a solution is
+Evaluation in ean performance above the performance threshold
+
+Online adaptation on the robot
+
+ 
+
+ 
+
+Random simulation Performance threshold
+
+parameter —> a > ia threshold Updated
+variation a = ~ expectations
+— a
+t os . — —_ a = _ J
+
+nce
+
+= ~
+_— ~~ ~X
+
+_
+
+ares YQ
+. Actual performance\. ¥
+Random Replace if 1 (unknown)
+selection best so far of this =}
+from Repertoire behavior type Behavioral descriptor
+
+NX y,
+
+Perform
+Performance
+Performance
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+~
+
+oq——_+_ Current best solution
+
+for this behavior type Evaluation on the
+
+Evaluation on the
+\_ damaged robot )
+
+Previously encountered
+solutions (not stored) Ne damaged robot |}
+
+ 
+
+ 
+
+Performance
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Behavioral descriptor
+Behavioral Repertoire
+
+7
+
+ 
+
+ 
+ENDELEMENT“Intelligent Trial & Error”
+
+intuitions about
+ditferent ways to move
+
+pick one that works
+
+few, intelligent tests
+
+ 
+
+despite injury
+
+  
+
+BroWicwiicla
+MAP-Elites Map OJ eiianlyzelilela
+w Map as Prior
+
+me)0| ale mpte0y-me)|
+Best Possible
+ENDELEMENTClave lpabt-isiep ge) oleye
+ovate melitsvem' stag
+classic tripod gait
+ENDELEMENTZ 00:00:00 |
+
+-Behavior-performance
+
+   
+ 
+
+Forward Speed (mvs)
+(0.13
+
+“Trajectory.
+ENDELEMENTD)jic=1a=)a1m BY-lanr=\e (=m Ore) arellt(elatsms-m i>) al-ale) >] BXosc1erg |e) 416) als
+
+Walking Speed (m/s)
+
+Default Alternate
+Behavioral Descriptor | Descriptor 0.4
+|
+
+Adaptation Time
+and Number of Trials
+
+ 
+ENDELEMENT0.3
+
+ 
+
+0.25
+
+°
+N
+
+Performance (m/s)
+°
+
+9°
+in
+
+0.05
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+0
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Variants using
+MAP-Elites
+
+Variants not using
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+0 16 50 100 150
+B After 16 trials C_isCAAffterr 150 trials
+0.4 p< 10° 0.4 p<107
+[ 1
+0.35 |_ 0.35
+— vp)
+n ~~
+Pp 0.3 l€ 0.3
+@ 0.251 © | Yo.25 °
+iw) Cc o 2
+c 8 c
+2 0.2 7€ 0.2
+pa
+oc ° oO
+© 0.15 To.15
+oD ° x
+a
+0.1 0.1
+°
+°
+0.05 0.05
+°
+°
+oe 123 4 ox 123 4
+s eo} 5 Se 12345
+\ > SY ~~
+os Ss Variants @ RS Variants
+<5 NS
+RS RS
+«x «x
+
+MAP-Elites
+Variant Behavioral repertoire Priors on Search
+creation performance algorithm
+Intelligent Trial and Error MAP-Elites yes / Bayesian Optimization
+= Variant 1 MAP-Elites none random search
+C—] Variant 2 MAP-Flites none Bayesian optimization
+4 Variant3 MAP-Elites none policy gradient
+Variant 4 none none Bayesian optimization
+Variant 5 none none policy gradient
+
+ 
+ENDELEMENTD)iiis\a=)alannceleye)|
+
+Adaptation Time
+
+and Number of Trials
+}30
+
+ 
+
+Joint stuck Joint with :
+° permanen
+abe 45° offset
+
+ 
+
+ 
+
+ 
+
+D)inisiazyal a mt abVdlcelalaatsiales
+
+ 
+ENDELEMENTDeep RL +
+Intelligent Trial & Error
+
+e Policy gradients to optimize
+objective
+
+ies) (0) a> mr- (elie) alomlamstsleval ella
+
+oda wd ©) ©) U1 F= 1 (0) ae OY= KoX=10 mm O10) | (eA
+gradients
+
+Map-based Multi-Policy Reinforcement Learning
+ncing Adaptability of Robots by Deep Reinforcement Learning
+
+Ayaka Kume. Biichi Matsumoto, Kur
+
+Absrraet—tn order for robots to perform mission-critical
+tas il is olial that they are able to quickly adapt to
+changes in their environment as well as to injuries and or ot!
+bodily changes forcement learning has been shown
+to be successful in training robot contro! policies for operation
+in complex environments. However, existing methods typically
+employ only a single policy, This exo lioil the adaptability since
+a Jarge environmental modification might require a completely
+different behavior compared to the monment. ‘lo
+solye this problem, we propose Map-based } Policy Rein-
+forcement Learning (MMPRL), which aims to search and store
+multiple policies that cneode different behavioral features while
+maximizing the expected reward in advance of (he environment
+change, lhanks to these policies, which sre stored into 4 multi-
+dimensional discrete map according to its behavioral feature,
+adaptation can be performed within reasonable time without
+retraining the robot. An appropriate pre-trained policy from
+the map can be recalled using Rayestan optimization. Our
+experiments show that MMPRL. enables robots to quickly adapt
+tu Jarge changes without requiring any prior kuowbedge on the
+type of injuries that could ecenr.
+
+A highlight of the learned behaviors can be found here:
+https: //youtu.be/Qwinb+1XNOE.
+
+I. INTRODLCTION
+Humans and animals are well-versed in quickly adapting
+o changes in not only their surroonding environments, but
+alsy to changes to thei own body, Uthowagh previous exoe-
+‘iences and information from their senses. Some example
+scenarios where such adaptation to environment chang
+akes place are walkimg in a higaly crowded scene with a lot
+of other people and objects, walking on uneven terrain, or
+walking against a strong wine, On the other hand, examp
+of bodily changes could be wounds. incapability te us
+body parts due 10 tesk constraints, or when lifting
+or helding something heavy. In a future where ropors are
+omnipresent and used in mission eritical tasks, rodots are
+mloooly expected to adap to canlamilign scenarios an dis
+urbances autonomously. but also to recover from adyersat
+n order co continue and complete their tasks successful
+Furtaermore, taking a long time to recover or adapl may
+‘esult in mission liilurc, while external help might not be
+
+> need to be able to adapt to
+
+anges in both the environment und their own body srate,
+within a limited gmounc of time.
+
+Recenily, de reinfircement learning (DRE) has been
+
+show) fo be susoessfal in complex environments with both
+
+All authors are associated wilh Prefered Networks [ne.,
+Jajuot. (2-01 WE, Matsurh rt
+
+t dtu} ‘JP!
+
+uki Takahashi, Wilson Ko and Jethro Tan
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Fig I Jame tapse of the UpenAt Walker2L) modet walkang for s60 bre
+steps using icy and succeading While intact (top), failing dua to & join
+Feing limited imiddls), and succeeding again post-adaptwion despiie the
+Viniiwd jot mmaked mm red by seleciing ae apprupriaie policy asing our
+Propased metnod (het)
+
+high-dimensional action and state spaces [1], [2]. The success
+of these studies relies on a large number of samples it
+the orders of millions, so re-training the pohey after the
+environmen! change ts unrealishe. Some methods avotd re
+training by ine ng the rooustness ef an acquired policy
+end thus increasing aduptabilety. In robust adversarial XL
+for example, a4 agent is trainec to operate in the presence
+of 4 destabilizing adversary thar apolies disturbance forces
+io the system [3] However using only ingle policy
+fintits the adaptability of she robot tot nidilications
+Which requites completely different behaviors compared to
+its learning environment.
+
+We prapose Map-based Multi-Policy Reinforcement
+Learr (MMPRLi, which trains many different polices
+by combining D and the idea of using a behavior
+performance map [1], MMPRL aims to search and store
+multiple possible policies whien have different behaviora
+features while maximizing the exoected reward in advance
+in orcer to adapt to the anknown environment change. For
+example, there are various ways for mulh-legged robots to
+move fqiward. walking, jurnping. tunaiuy, site king. ete
+In this example. only the fastest policy would survive when
+using ordinary RL. whereas MMPRL saves all of them as
+long as they have different behavioral Features. These policies
+are stored into a multi-dimensional discrete map aceordir
+to its behaviors! feature. As a resull, adaptation can be done
+wilhin mable time without re-training the robo, but
+
+just by searching an appropriate pre-trainec policy fom the
+
+map using 29 ef mt method Lke Bayesian optumization
+see Figure |. We show thai, using MMPRL. robets are uble
+to quickly avlapt to lacge chanpes with littl kKeowlsye abou!
+what kind of accidents will happen.
+
+ 
+ENDELEMENTConclusions: Intelligent Trial & Error
+¢ State of the Art Robot Damage Recovery
+
+muer-(0f-) 6) f= 1(e)ammanle)g-m e)ney- (61h, “gs
+ae
+
+ 
+
+¢ Adapts in < 2 minutes Jj
+
+¢ Combines
+- expensive creativity/oower of MAP-Elites (in simulation)
+
+- with data efficiency of Bayesian optimization (in the real world)
+
+e Shows a benefit of QD: learning diverse, high-performing sets of
+ele) [Keitots
+
+intuitions about few, intelligent tests pick one that works
+different ways to move Bayesian despite injury
+
+ 
+
+MAP-Elites Optimization found > X% of best
+ENDELEMENTBi=)ar=WAleleslm@vat-le-leit-)arez-iiiela
+
+a fol ale berele (10m lam aaless)mny\.ela 4
+
+ 
+
+Weight
+ENDELEMENTM=y=1 a a(=\e mm =i=)ar\sceles|mO@vat-lecleiis\arz-iilelats
+
+AURORA, Cully 2019
+
+¢ Generate data randomly
+am ele) ©)
+e¢ Apply dimensionality reduction
+¢ e.g. auto-encoder
+¢ Discretize latent code
+¢ Run MAP-Elites
+
+ 
+ENDELEMENTTord =>.4e)(e) a=
+
+P~Waal=\""ar=) ©) ©) cey=\e1a lm ie)amat-|cete=>.40)(e)¢-14(e)am e)cele)(-)aat-
+
+ 
+
+Adrien Ecoffet Joost Huizinga Nlol-im Molelentela Ken Stanley” Jeff Clune”
+
+sve
+s,¢f UBER AlLabs
+ENDELEMENT‘Cig-lavem@var-\i(=1ale(cm lam Bl=1-) om a1 m
+Effective Exploration
+
+ms f= 10 bx=),40) 0) ¢= 1810) 0m ©) 40) 0)(-) 001s)
+ae) OY-|ec\ota t= \'N\/- 160 ml ©)£0)0)(=10 81S
+
+¢ rare feedback
+e Montezuma’s Revenge
+am DI=Yox~) o) 4-0) ¢0)6)(=100ts
+ma 40) ae Wni=\=1@| ey=\e1,@W'Viame](e)ey-|me)e)janlelaa))
+
+ 
+ENDELEMENT‘Clore =).4 0) (0) a
+
+Separates learning a solution into two phases
+
+ma atcts\- 0m a =,40)(0)¢-M Oat] Bere) Vcr) Phase 2: Robustify
+(ialeveroxsssts ay)
+
+current work: (e) cote [Uler-ssmal-\0)e-lmal=1nuie) a.
+=y.40)(o)iksme(=1k-1 an) laliois(emte=lialiale pm alemal=l0le-l marie) a,c robust to stochasticity
+
+    
+
+++ FQ i<«-=- «=»
+
+ 
+ENDELEMENTGo-Explore: Phase 1
+
+2 wa OY= (3X0 R= ),4 ©) (0) CMU LAIN MESTO)NV{a10
+A. choose a state from archive
+B. Go back to it
+
+(OF = (e)(e)comice)aan|!
+
+D.
+
+add newly found states to archive
+e if better, replace old way of reaching state
+
+St eee et,
+
+yNaik=)alatslalexs\e MVA=)621(6) 00) MVP AN aed md Kod
+
+ 
+ENDELEMENTMontezuma’s Revenge Results
+
+Progress in Montezuma's Revenge
+
+18,000,000 Go-Explore (best)
+
+17,900,000
+
+700,000 Go-Explore
+600,000
+
+500,000
+
+400,000
+
+miayolkcmalelaarclamicela(emasiere)ce
+300,000 e 1,219,200
+
+200,000
+DDON Feature-EB PPO+CoEX
+
+100,000 MP-EB DON-PixeicNn| |/MPALA
+HumanExpert Ss Grila, = DQN-CTS) UBE  Ape-x |
+Avg. Human | ABC
+
+SARSA BASS-hash —|«RND
+A3C-CTS Rainbow
+
+Duel, DON Pence Note: exploits domain knowledge &
+
+2015 2016 2017 2018 2019
+
+Tie of publication ofcireidaalialisiilemigcuiallare
+
+ 
+ENDELEMENTDomain Knowledge
+No Domain Knowledge
+
+Expert Human
+
+Avg. Human
+
+Prior. DON DQN-CTS
+0 DQN DDQN
+
+A3C-CTS
+
+| A3C
+Duel. DQN
+2016
+
+2015
+
+Time of publication
+
+Pitfall Results
+
+DQN-
+PixelCNN
+
+Pop-Art
+
+2017
+
+ie.
+Reactor
+
+ 
+
+Rainbow Ape-X IMPALA RND
+
+1
+UBE
+
+Go-Explore
+
+¢ no prior scores > 0
+¢ without:
+
+e fully deterministic test
+=VaWvaiaelalaatsyal!
+
+me) analelaatclamet=jaalelatsisesileyal
+
+m=) 16 | aliicer=lalahvars\e Neola lerers
+state of the art
+
+DeepCs
+
+2018 2019
+ENDELEMENT¢ Shows value of QD ideas
+
+‘Clore =).4 0) (0) a
+
+¢ collecting a diverse repertoire of ‘
+
+falfelatxe[Or-\iavans)alaiatess
+
+¢ Helped solve a previously
+
+Ulatste)\Vi-vem e)ce)e)(-100
+
+18,000,000
+
+,900,000
+
+700,000
+
+600,000
+
+500,000
+
+400,000
+
+300,000
+
+200,000
+
+100,000
+
+0
+
+Progress in Montezuma's Revenge
+
+Go-Explore (best)
+Ld
+
+Go-Explore
+e
+
+DDON Feature-EB PPO+CoEX
+MP-EB DON-Pixeicnn| !MPALA
+Human Expert Gorila DQN-CTS| UBE | Ape-x
+. Human
+
+DON BASS-hash RND
+
+Rainbow
+DeepCS
+
+A3C-CTS
+Duel, DON
+
+2013 2014 2015 2016 2017 2018 2019
+Time of publication
+
+ 
+ENDELEMENTmeide cM A'(o)a em mel atal-1am =>.4e)(e)idialemia(-me] BM \u [le
+
+e Learn representations e Learn agent models
+e Learn world models e What else?
+
+e Learn options (e.g. goal/task-
+(oxo) alo linte)alsvem ee) |(ei(=15)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTConclusions: Quality Diversity Algorithms
+
+¢ Generate a set of diverse, high-quality solutions
+¢ Healthy internal dynamics
+Jam 010) |(=161 =) -1 0) 0) 1010 =1k0) alors
+¢ goal-switching
+e avoids local optima
+
+ 
+
+e harnesses serendipity
+
+wm 0) 0/|(@ mo) aml alale)s-hi(e)atcmvat- m= (elsle)anomeclelt-lile)ars =
+, , | Se Se a ar
+mm (=y-| gam aale lia) e)(-mme)t.-al-10)e)lale mel |aaleiel r= Be ae
+a) Tae (a Ree A
+
+e Often is the best way even if you only want to
+Ye) Vimeo) alo w=lpnle)id(ele lcm e)ce)e)(-a0
+ENDELEMENTRelated Work: Population Based Training + QD
+(inspired by Arulkumaran et al 2019)
+
+¢ Population-based training (Jaderberg et al. 2017)
+
+ 
+
+(a) Sequential Optimisation
+
+Performance
+—— =a ca Ea ca [= |
+O Hyperparameters e@-@ es O-O. O
+
+Weights
+
+(b) Parallel Random/Grid Search (c) Population Based Training
+— =— = = Se ae
+©... O. 0... o—
+| . | = | | arameters @.:.
+Weights i 4
+
+— =— = =a
+e. 8 «©.
+| SS a ] i; <a | soci |
+a | es | Eo | a | 2
+e. 6 6. 6 fl.
+
+ 
+ENDELEMENT 
+
+ 
+
+Sac Pe IE. «+
+S3Ha id: * Wit * Ble
+
+PBI Applications
+
+ 
+
+ie t= Givead
+Pics > ded aoa
+
+PBT-GAN
+(Jaderberg et. al 2017)
+
+(a) Outdoor procedural maps (0) Indoor procedural maps
+
+    
+ 
+
+  
+
+ 
+  
+
+(d) Thousands of parallel
+(0) First-person r . ,
+observations > cceeanttrtan wae
+that the agerts M@ Baseline MB AutoAugment &§ Population Based Augmentation
+> s 4
+125) 125 5
+3
+Red flag Bua flag carrier oe
+AEN wa cS
+. »_ wu >, , 9
+aa C 5 2
+Y an - °
+=xample map oO
+~ i 1
+SMG @
+ROBB i —. é
+J updates each agent’s
+
+ 
+
+iol A Tospectye aw ()
+LOT OF Oo. @ ie @ an®
+
++ aXe > So. a's * Oe ~e_. “so 40 WRN-28-10 S-S (26 S-S (26 S-$(25 PyramidNet
+SS eee ee "Popuiion 2x96D) 2x96D) 2x112D)
+
+(Jaderberg et. al 2018) (Ho et. al 2019)
+ENDELEMENTAlohaStar: Mastering the Real-Time
+Strategy Game StarCraft I!
+
+Games have been used for decades as an important way to test and
+evaluate the performance of artificial intelligence systems. As
+capabilities have increased, the research community has sought
+games with increasing complexity that capture different elements of
+intelligence required to solve scientific and real-world problems. In
+recent years, StarCraft, considered to be one of the most challenging
+Real-Time Strategy (RTS) games and one of the longest-played
+esports of all time, has emerged by consensus as a “grand
+
+challenge” for Al research.
+
+ 
+ENDELEMENTPopulation Based Training + QD
+
+Human
+Data AlphaStar League
+
+Nash
+Distribution
+
+Iteration Iteration Iteration Iteration . .
+1 2 3 4 Reinforcement Learning eee
+
+   
+     
+
+StarCraft Il
+
+i
+
+Opponent
+
+Player
+
+   
+ 
+
+ 
+
+! " :
+SEEBREE
+
+i]
+ca
+o
+on
+oo
+or
+ros
+°
+a
+
+Learning Agent a) Frozen Agent we
+
+ 
+
+StarCraft ll Pro Match
+
+on |
+
+Player Opponent
+
+n
+
+ 
+
+ 
+ENDELEMENTmom aallaleiksss
+
+Q3aA
+ENDELEMENTBeyond QD:
+The Grand Challenge
+
+of Open-Endedness
+Divergent search intentionally exposes the
+space of the possible
+But in any given domain, what is possible
+(at least of any interest), is finite
+
+Are there algorithms that not only find
+what is possible, but also invent endless
+new possibilities?
+
+QD seems close, but not quite there
+ENDELEMENTA Different Kind of Learning
+
+Not how to learn something
+
+But how to learn everything
+
+A human learning to play a video game is
+interesting
+
+But the history of human invention is
+beyond interesting
+
+Or: natural evolution — the ongoing
+creation of all the diversity of life on Earth
+ENDELEMENT+——_ One run of evolution,
+all life on Earth
+(no human
+intelligence!)
+
+ia\\ j
+He jake
+
+AS Qs 4
+
+yy '!
+
+;
+
+) rd
+‘85
+1
+tp
+|
+
+- A \ a an “eh
+
+“Ne |
+_ fo Mag
+Bie ye he Sq He
+
+U
+
+re
+G
+8
+“se
+& d
+|
+
+4
+6
+Land
+%
+Le ek
+
+“\
+
+; 1?) € F 6
+1h)
+
+& |
+9 Zw
+lg x
+&
+. }
+A,
+
+ii?
+©
+[I~
+
+Thinglink.com
+ENDELEMENTA de Human-level
+
+Intelligence, a tiny
+moment in an
+endless saga
+
+ 
+
+*
+3 “Y «+— One run of evolution,
+gre Se Ds all life on Earth
+x id (no human
+Py intelligence!)
+FN ®
+Ep
+4
+eae
+=4
+fom a Thinglink.com
+ENDELEMENTThe Tree of Life .
+- | abe 2 2» «2 Ar
+
+    
+
+sp +—— One run of evolution,
+all life on Earth
+
+(no human
+intelligence!)
+
+van i, a = 4
+yr #.
+= x OB id Thinglink.cor
+Pt ape ae = an inglink.com
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENTNot Like Even the Closest Ideas
+
+* Not like QD
+
+— QD doesn’t invent new problems
+Not like a GAN
+
+— A GAN exposed to billions of flatworms will
+never conceive a human
+
+Not like self-play or coevolution
+
+— AlphaGo will only improve at Go
+
+— There will never be a new game in town
+What kind of algorithm is OE?
+ENDELEMENTThe Never-Ending Algorithm
+
+ 
+ENDELEMENTThe Never-Ending Algorithm
+
+ 
+
+ 
+
+ 
+ENDELEMENTThe Never-Ending Algorithm
+
+  
+ 
+
+ene
+td am
+
+ 
+   
+
+heal aS
+
+More Generally:
+
+ 
+
+ 
+
+ 
+
+Open-Endedness
+
+ 
+ENDELEMENTThe Never-Ending Algorithm
+
+     
+
+Open-E Fae:
+
+The history of human innovation
+...of art
+...of science
+...of architecture
+etc...
+
+ 
+
+ 
+
+ 
+ENDELEMENT 
+
+ 
+
+Why dont we create
+open-ended algorithms?
+
+ 
+
+ 
+ENDELEMENT 
+
+ 
+
+Why dont we create
+open-ended algorithms?
+
+Why only solve problems?
+
+ 
+
+ 
+ENDELEMENTException: The OEE Community
+
+* Open-ended evolution (OEE) is a
+traditional topic of artificial life
+* OEE is the power of creation
+— Potentially transformative
+— Boundless creativity on
+demand
+— Discoveries beyond the scope
+of optimization
+
+¢ Agrand challenge on the scale of
+Al; maybe the path to Al itself
+— Why so little attention?
+
+Third Workshop on Open-Ended Evolution
+Tokyo, Japan, 25 July 2a18
+
+ 
+ENDELEMENTMuch of the Seminal Work in
+Open-Endedness Was in
+“Alife Worlds’ :=——
+
+ 
+
+ 
+
+  
+   
+
+  
+ 
+
+ 
+
+ 
+
+——————— - Division Blocks U == E
+Geb (Lee Spector, Jon Klein, Avida (Charles Ofria, Chris Adami,
+(Alastair Channon Mark Feinstein 2007) Titus Brown, et al. 1994-)
+
+2001, 2003)
+
+    
+ 
+
+4
+SP EU r 2) 3
+ue a pe ‘
+re
+Ar
+
+ES ETI
+
+& DX. ©) @ | ee)
+Gow ie, PAE ey.)
+4 oe ~@ eo
+t,. 2(eFire a
+
+SAO ~ gm F 4 <s!
+GO
+
+Polyworld (
+ENDELEMENTBut It Doesn’t Have to Be a
+“World”
+
+A “world” is just a conduit to understanding
+It doesn’t even have to be a metaphor for
+organisms on Earth
+
+— Deep learning can play a role
+
+We are seeking the fundamental
+conditions for divergent, creative
+processes that never end
+
+They could be applied to anything
+ENDELEMENTThe Promise of Open-Endedness
+
+Design of buildings, vehicles, furniture, clothing,
+equipment, etc.
+
+Repertoires of controllers for vehicles, robots,
+UAVs, spaceships, etc.
+
+Endless generators of art and music
+
+Open-ended video game worlds with the
+granularity and originality of ecologies on Earth
+
+Renewed understanding and acceleration of the
+process of human invention
+
+Human-coupled open-ended systems
+Intelligence itself?
+ENDELEMENTEven QD Algorithms Won't
+Invent Forever
+
+Important step but...
+
+What happens when the space of the
+possible is filled?
+
+What causes new possibilities to arise?
+— And forever?
+
+Answer: The system needs to generate
+new opportunities and search through
+them at the same time
+
+— The key to Earth’s open-ended creativity
+ENDELEMENTSo How Will We Achieve Open-
+Endedness?
+
+¢ Any great puzzle leads to surprises
+— Expect counter-intuitive insights
+ENDELEMENTsome Interesting Clues in
+Artificial Systems
+
+¢ The Picbreeder experiment
+— Showed actual signs of open-endedness
+— But with humans in the loop, breeding pictures
+
+¢ Main idea: Anyone can follow up from anyone else’s
+discoveries; no unified goal for the system
+
+ 
+ENDELEMENTObserving Picbreeder.org
+
+ 
+ENDELEMENTSystem Render
+Controls
+
+© Basic @ Advanced [Color
+ej] > |e] o
+
+‘ i
+eck corward || Redo || Evowe || Save || Publish
+
+Quit
+
+ 
+
+ 
+
+ 
+
+‘Small Changes ieee ig Changes
+
+CEE
+(C Li
+
+ 
+ENDELEMENT‘System Render
+
+2 Basic @ Advanced [_] Color
+
+> |[ 8 fi)
+va _|| Redo || Evowe || Save || Publish
+
+ 
+
+Late la
+
+‘Small Chang need ee Big Changes
+
+are
+a are
+aare
+(ATM
+
+(GUC
+
+(
+]
+G
+a
+ENDELEMENT 
+
+ 
+ENDELEMENTParent
+
+RS
+_——,,~
+i
+
+© Basic @ Advanced [_| Color
+\[e ae
+Redo |
+
+fi
+Sra babes
+
+  
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+= ait
+
+smal changes —<—$—=———> agchames
+
+ 
+
+===== “ -
+
+SESS SSE
+(ee: ee ee: ree: eee
+__,, re SS SS
+ —_ SCS
+
+ 
+ENDELEMENTDiscoveries by Picbreeder Users
+
+(All are 100% bred: no retouching)
+
+ 
+ENDELEMENTActually Looks Open-Ended!
+(Phylogenies emerging)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTWhat We Discovered: People Only
+Find When They Are Not Seeking
+
+8 jf-
+
+ 
+
+Stepping stone to the Teapot Stepping stone to the Butterfly
+SE
+= ———eES=o
+— ‘S) SS =
+ae =
+Stepping stone to the Skull Stepping stone to the Penguin
+~ ie a" —
+=
+Stepping stone to Jupiter Stepping stone to the Lamp
+
+The stepping stones almost never resemble the final product!
+Moral: You can only find things by not looking for them
+ENDELEMENTWhy?
+Deception
+
+ 
+
+as &.
+gen 12 gen 20 gen 36 gen 49 gen 74
+
+(This insight is an inspiration for novelty search)
+ENDELEMENTBut without Humans, What Are
+the Necessary Conditions?
+
+¢ What conditions are essential for open-
+endedness in general?
+— Hypotheses go back to Waddington (1969)
+and later Taylor (2012, 2015)
+¢ Drawing on insights from population-based
+search, Soros and Staley (2014) propose
+our own
+
+— And that the system must generate new
+challenges as well as new ways to solve them
+ENDELEMENTProposed Necessary Conditions
+(Soros and Stanley 2014)
+
+1. A non-trivial minimal criterion (MC) to
+proliferate
+
+2. Individuals create new novel
+opportunities to satisfy the MC
+
+3. Individual decide for themselves with
+what or whom to interact
+
+4. Ability to increase the size of the
+representation (increasing information)
+ENDELEMENTProposed Necessary Conditions
+(Soros and Stanley 2014)
+
+1. A non-trivial minimal criterion (MC) to
+proliferate
+
+2. Individuals create new novel
+opportunities to satisfy the MC
+
+3. Individual decide for themselves with
+what or whom to interact
+
+4. Ability to increase the size of the
+representation (increasing information)
+
+ 
+
+Coevolution,
+aka self-play
+ENDELEMENTCoevolution and Self-Play
+
+¢ Interaction among learning agents (or
+
+changing components) musica creates
+new challenges poe ty a Pa agg ne
+
+iples. " Handbook of natur oat Oompa ng (2012). 367 1038,
+
+¢ Long studied in the field of coevolution
+
+— Competitive, cooperative, test-based
+
+— Drawing on game theory (Pareto-coevolution)
+¢ More recently called self-play
+
+— OpenAl Five on Dota, AlphaGo and AlphaStar
+on Go and Starcraft, etc.
+ENDELEMENTConditions+Coevolution
+Eventually Leads to
+Minimal Criterion Coevolution (MCC)
+(Brant and Stanley 2017)
+
+¢ Abstract the necessary conditions outside
+of alife worlds
+— Minimal criterion, self-generating opportunities
+— Leverage two-population coevolution to be
+domain-general
+
+¢ First test: Mazes and maze solvers
+
+Brant, Jon athan C. and Ken eth O. Stan nley, "Minimal Crit n Coevolutio ms ANEW
+Approach to Open eedings of the Geni etic and Evolutio nary
+Computation Cor mer eS (ence) oor
+ENDELEMENTSingle Run MCC Results — Mazes
+and Solutions of Unbounded
+Increasing Complexity
+
+And, most recently, POET...
+ENDELEMENTOpen-Endedness:
+We're not Finished
+¢ Field is just beginning; many challenges
+remain
+
+— Generating endless high-quality, diverse, and
+interesting artifacts remains a challenge
+
+— Killer applications remain critical for motivation
+
+— The measurement of success remains
+controversial and open
+
+* Open-endedness is the power of creation
+— All of living nature is its product in a single run
+— When will we harness this power?
+ENDELEMENTA Place to Start
+
+O'REILLY" Learning
+
+   
+
+¢ Non-technical “ss
+
+intro to field Bs
+( 201 7): Open-endedness: The last grand challenge
+
+you've never heard of
+https://www.oreilly.com/
+
+ 
+
+ 
+
+ 
+
+ideas/open-endedness- ote ees el ac cps Does
+the-last-grand-challenge-
+y OuVe-NEVe r-heard-of Check out the "Impact of Al on Business and Society” sessions at the
+
+ 
+
+Al Conference in San Francisco, September 4-7, 2018. Hurry—best
+
+price ends June 8.
+
+Artificial intelligence (Al) is a grand challenge for
+
+ 
+
+computer science. Lifetimes of effort and billions of
+dollars have powered its pursuit. Yet, today its most
+ambitious vision remains unmet: though progress
+continues, no human-competitive general digital
+intelligence is within our reach. However, such an elusive
+ENDELEMENTMore Thoughts on
+Divergent Search
+
+i Kenneth 0. Stanley - Joel Lehman
+i Why Greatness
+Cannot Be Planned
+ca)
+
+Wy
+
+a Springer
+
+pauue|d ag JoUUe) sau
+
+ 
+
+ 
+ENDELEMENTmm DY =*~3(e]a}i ale maaslialiale m= landicealani>/altcmicmar-|cemmelelmerait(er-linie)s
+ecole | cersts
+
+ma Orla aat-\evaliaromist-laaliacem-liele)aiealaatcmel-lar-le-k-mial-)| axel iamie-lialiare
+environments?
+ENDELEMENTmaz llcsxem@) e\-)aba ale(-ce mm ie-liie)(-74-1 (et O) =m
+
+    
+
+\ ih ;
+MAI)
+VA H
+
+BOI A clare) Joe! Lehman Jeff Clune* Ken Stanley”
+
+| a jad
+
+nl @fomssx=)n| (olareleltale as)
+
+2019
+
+Automatically generates both challenges and solutions
+Optimizes within niches & harnesses goal switching
+ENDELEMENT 
+ENDELEMENT 
+
+ol [c=Yojmre)e)iiaalyz-hirelamrctiis
+
+o | [xsYoj te ey-ihamel0laa(ele le aamrclits
+ENDELEMENT 
+ENDELEMENTme) =a)
+
+¢ Quality Diversity++
+e seeks the best agent for each niche
+¢ also generates niches
+yan ©) Y=) 0 t=) (0 (=10 ig
+¢ Definitely a step closer
+¢ Currently limited by
+
+¢ physics simulator
+¢ environmental encoding
+e Fully expressive environmental encoding: Generative Teaching
+Networks
+¢ ICML AutoML Workshop this Friday. Petroski-Such et al.
+ENDELEMENTPANU Co)aat-vd(er=li MMe rolalciecitiacem mianviice)alaats)aiecme aero) (Oia (e)ar=
+
+e Invents a curriculum
+¢ manual attempts fail
+
+¢ oven very counterintuitive (e.g. harder tasks help solve simpler ones)
+
+Endlessly innovates
+
+May be the only way to
+
+¢ solve ambitious problems
+
+¢ discover the full gamut of what is possible
+
+¢ Captures spirit of open-ended engines of innovation
+¢ Natural evolution
+
+¢ Cultural evolution (Science, technology, art)
+ENDELEMENTIndirect Encoding: Representation
+in the Pursuit of Diversity
+
+¢ When search is divergent...
+— The likely trajectories through the space of
+designs become important
+¢ Regularities should be possible to
+discover, and to preserve
+¢ But regularity should also be flexible and
+allow exceptions
+
+ 
+ENDELEMENTTherefore, Indirect Encoding
+
+¢ Indirect encoding: “Genes” do not map directly to
+units of structure in phenotype
+
+* Genetic material can be reused
+* Development from DNA as inspiration
+
+      
+
+OT | Var | WAY) WG Wa
+
+he TAEAGRED ES
+
+AN AN lta i i! i!
+Symmetry Repetition Repetition
+
+with variation
+ENDELEMENTHistorical Precedent
+
+¢ Turing (1952) was interested in
+morphogenesis
+
+— Experimented with reaction-diffusion equations
+in pattern generation
+
+¢ Lindenmayer (1968) investigated plant
+growth
+
+— Developed L-systems, a grammatical rewrite
+system that abstracts how plants develop
+
+Stanley, Kenneth O., and Risto Miikkulainen. "A
+
+e A long history of encodings taxonomy for artificial embryogeny." Artificial
+
+Life 9.2 (2003): 93-130.
+
+Lindenmayer, A. (1968). Mathematical models for cellular interaction in development: Parts | and II. Journal of Theoretical
+Biology, 18, 280-299, 300-315. 3
+Turing, A. (1952). The chemical basis of morphogenesis. Philosophical Transactions of the Royal Society B, 237, 37-72.
+
+ 
+
+ 
+ENDELEMENTHigh-Level Abstraction:
+Compositional Pattern Producing
+Networks (CPPNs)
+
+¢ IE suited to NNs designed to abstract how
+embryos are encoded through DNA
+(Stanley 2007)
+
+Gh
+
+   
+
+Yves»
+a
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+» b& NWN NOON
+Symmetry Repetition Repetition
+Kenneth O. Stanley. . . .
+Compositional Pattern Producing Networks: A Novel Abstraction of Development In:
+Genetic Programming and Evolvable Machines Special Issue on Developmental with va riation
+Q\vetame 8/9) 124.1489 Naw Yark NY: Gnringar 9NN7
+
+ 
+ENDELEMENTInsight: In Embryogeny, Cells Know
+Where They Are Through Chemical
+Gradients
+
+¢ Therefore, they know who needs to do
+what, and where
+
+¢ Because where is now defined
+¢ Gradients form a coordinate frame
+
+ 
+ENDELEMENTGradients Define Axes
+
+¢ Chemical gradients tell which direction is
+which, which axis is which
+
+ 
+ENDELEMENTHigher Coordinate Frames are
+Functions of Lower Ones
+
+ely)=|fO)
+
+Using g and x as a coordinate space, we can get h:
+
+Symmetry from
+a symmetric —_a d (y)|
+gradient YZ h( x .y)= = fun X, gly
+
+ 
+
+ 
+
+  
+ 
+ENDELEMENTGradients Can Be Composed
+
+Symmetric
+function
+
+Periodic
+function
+
+ 
+
+Segments with |
+opposite polarities
+¢ Is there a general abstraction of
+composing gradients that we can evolve?
+ENDELEMENTGradients Define the Body Plan
+
+Embryo Adult
+
+Gaussian gradient
+
+AN,
+
+Body Segments _ left-right gradient
+I
+
+ 
+
+5 Anterior
+- _
+
+2 S
+
+re) oO
+
+5 Bp
+
+6 Posterior
+
+~
+ENDELEMENTA Novel View:
+The Phenotype as a Function of
+Cartesian Space
+
+   
+
+(applied at
+each point
+
+ 
+
+ 
+
+ 
+
+ 
+
+* Coordinate frames are chemical gradients
+¢ Function is applied at all points
+ENDELEMENTCompositional Pattern Producing
+Networks (CPPNs)
+
+output, pattern
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+(a) Mapping (b) Composition
+
+¢ A connected-graph abstraction of the
+order of and relationship between
+developmental events (no growth!)
+ENDELEMENTsearching Over CPPNs
+
+¢ Method (for now): NEAT (Neuroevolution
+of Augmenting Topologies)
+
+— Evolves NNs of increasing complexity
+— Speciation for diversity
+
+¢ Why evolve CPPNs with NEAT?
+
+— Increasing complexity allows for elaboration
+on existing patterns
+ENDELEMENTInteractive Evolution:
+
+Render
+
+) Basic ® Advanced [| Color
+
+ 
+
+@ is
+ward || Redo ||_B shoal save || Publish
+
+ 
+
+“ocus:
+‘Small Changes ——_) —— Big Changes
+
+@ ps
+(cm UL
+
+ 
+
+)* Miao
+ENDELEMENTInteractive Evolution:
+A Way to Explore Encoding
+
+2 Basic ® Advanced [_| Color
+
+ 
+
+| é [oe a
+ward || Redo || EB Evove: || Save || Publish
+
+ 
+
+‘ocus:
+‘Small Changes ——_) —— Big Changes
+
+@ ps
+
+ 
+
+(cm U
+)* Miao
+ENDELEMENTInteractive Evolution:
+A Way to SSSI Encoding
+
+label ar sd zeta
+
+ 
+
+Small Changes:
+ENDELEMENTInteractive Evolution:
+A = to Se Encoding
+
+ 
+
+ie) Se
+=Ee =
+ENDELEMENTInteractive Evolution:
+A Way to Explore Encoding
+
+System Render
+Controls
+
+© Basic @ Advanced (_] Color
+
+ 
+
+@| < | [e@ |[[>
+Quit Back || forward {| Redo || Evolve || Save Publish
+
+ 
+
+ 
+
+ 
+
+Guidance
+
+Focus: | El
+Small Changes ===} Big Changes
+
+ 
+
+— And
+
+SS ="”
+==EEEEe
+eee: ee ee. eee
+
+——— EE |
+a
+
+ 
+ENDELEMENTEvolutionary Elaboration with
+
+ 
+
+ 
+
+ 
+ENDELEMENTCPPNs: Repetition with Variation
+
+   
+
+ 
+
+ 
+
+ 
+
+* Seen throughout nature
+
+¢ A simple combination of periodic / | \A
+and absolute coordinate frames 4 ias(1.0) sin(10x) sin(t0y)
+
+ 
+ENDELEMENT 
+ENDELEMENTIIA
+A
+YOK
+
+fk NOI for)
+ENDELEMENT@OooO-O:-O @
+
+ 
+
+ @ Ocxcy oOo @B |
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENTCPPN Patterns
+
+From hittp://picbreeder.org
+All are 100% evolved: no retouchin
+
+ 
+
+ 
+ENDELEMENTThe Challenge
+
+¢ CPPNs encode spatial patterns with
+regularities
+
+¢ It would be nice if CPPNs could
+represent networks with similar
+regularities
+
+¢ How can CPPNs encode NNs?
+ENDELEMENTThe Solution:
+Hypercube-based NEAT (HyperNEAT)
+
+¢ Main insight: 2-D connections isomorphic to 4-D points
+— Nodes situated in 2 spatial dimensions (x,y)
+— Connections expressed with 4 spatial dim. (x,,y4,X2,Y2)
+
+¢ HyperNEAT extends 2-D CPPNs to 4-D (or 6-D)
+
+— CPPN encodes 4-D patterns (i.e. inside a hypercube)
+¢ 4-D patterns can express the same regularities as 2D patterns
+¢ 4-D patterns interpreted as connectivity patterns
+
+CPPN Output CPPN Output
+Ss
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTHyperNEAT
+
+¢ 4-D CPPN
+— The network evolved by HyperNEAT
+¢ Substrate
+— The NN encoded by the 4-D CPPN
+— A function of geometry, i.e. sees the geometry
+— Each connection is queried by the CPPN to retrieve a
+
+ 
+
+ 
+
+weight
+XV XY, Xp ry
+© © @ © oe | ——,
+Al 01 1,1] 4050-105 om
+eee if, eeeeeeeeeee aa (evolved)
+© ee (e)
+-1,0 0,0 1,0
+© © e@ © e
+©,o © ee
+
+Output
+
+ 
+
+Substrate
+ENDELEMENTSubstrates
+
+* Can be configured to best
+exploit problem geometry
+— Natural for many
+problems
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+    
+  
+
+@ ee. e@®@.e. ° Input, Output, and Hidden
+oo 0% Pe On. - nodes ean be placed in
+oo © 9 ome oo anypaton
+®@ 04.9% eo ¢. @ ©°* Notrestricted to 2-D
+
+8..@.-@
+
+Source (x,y
+ENDELEMENTFundamental Regularities
+Produced by 4-D CPPNs
+
+ 
+
+ 
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+
+Symmetry Imperfect Symmetry
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+  
+
+ 
+
+ 
+
+Repetition Repetition with Variation
+ENDELEMENTFundamental Regularities
+Produced by 6-D CPPNs
+
+repeat for each node left-right symmetry diagonal symmetry
+
+ 
+ENDELEMENTResolution Independence
+
+CPPN learns a
+connectivity concept,
+not individual
+connections
+Concepts at 5x5 and
+7x7 nodes
+
+Intuitive expansion of
+the pattern
+
+A novel capability
+
+NN can be scaled to
+higher resolutions
+
+5x5
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTCPPNs “See” Geometry
+
+* The CPPN generates the network as a
+function of the substrate geometry
+— Instead of building in a mechanism for
+processing geometry (e.g. convolution)...
+— Build a representation that can discover
+the mechanism!
+
+ 
+ENDELEMENTMultilayer Sandwich Geometry
+(e.g. in Checkers)
+
+    
+  
+
+Outputs:
+Connection
+Weights
+
+ 
+ 
+ENDELEMENTCan Contain Multiple “Filters”
+
+aes
+ENDELEMENT 
+
+Geometric Patterns Inside
+HyperNEAT Checkers NNs
+
+Influence Maps of more general solutions
+
+ 
+
+ §|6h 6S 2
+cee em 2
+
+= | @ | 6G =
+
+We can see
+
+Influence Maps of /ess general solutions
+
+ao & | 8 | &
+227 Se 342|\9n
+
+a | = | & | &
+
+Jason Gauci and Kenneth O. Stanley (2010). Autonomous Evolution of Topographic Regularities in Artificial Neural Networks. In:
+Neural Computation journal 22(7), pages 1860-1898. Cambridge, MA: MIT Press.
+
+   
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTCompression and Search
+
+¢ Why indirect encoding can succeed quickly
+— Searches a compressed space (CPPNs)
+¢ Lower-dimensional
+
+~ 64
+Connections
+
+Jutputs:
+
+~ 4096
+Connections
+
+Connection
+Weights
+
+d
+| i
+
+  
+ENDELEMENTRegularity is Fundamental to
+Real World Problems
+
+¢ Gait generation: far more effective through
+CPPN-generated networks
+
+Indirect Direct
+
+ 
+
+Clune J, Stanley KO, Pennock RT, Ofria C (2011)
+
+ 
+
+continuum of regularity IEEE Transactions on
+Evolutionary Computation. 15(3): 346-367
+ENDELEMENTCPPN-based NNs Are
+
+Differentiable
+¢ Multiple realizations
+
+— DPPNs (differentiable pattern producing
+networks; Fernando et al. 2016)
+
+— Hypernetworks (Ha et al. 2016)
+
+— GENIE (geometrically expressive network for
+indirect encoding): coming soon with some
+surprises about convolution!
+
+Regularity in visual processing
+
+— e.g. convolution
+ENDELEMENTRegularity is Fundamental to
+Real World Problems
+
+¢ CPPNs/DPPNs discovered convolution n (i
+was not built in) Eup
+¢ A simple concept:
+w(l1, 41,22, Y2) = W(x — 21, yo — 1) :% ua,
+¢ But can indirect encoding peers ee, |
+discover beyond re
+convolution? w(x2— «1. y2—y1.t1.y1) Saves, |
+— E.g. repetition with variation °
+
+— Like the
+“relaxed weight sharing” in LSTMs generated
+by hype rm etwo rks Ha, David & Dai, Andrew & V Le, Quoc. (2017). HyperNetworks. ICLR (2017)
+
+ 
+ENDELEMENT9,
+
+|
+
+Genome
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Alternative CPPN- like
+
+Encodings
+
+Fourier eee
+
+ 
+
+_—
+
+Inverse
+DCT
+
+_——>P
+
+Weight Space
+
+ 
+
+ 
+
+RCS. In: Foundations o' igi
+14-17/05/2013, Chania, Crete.
+
+Weight Matrices
+
+|
+
+ 
+
+Network
+
+os
+
+¢ Wavelet-based alternative representation
+to CPPNs from Koutnik et al. 2013
+¢ Encodes million-conection
+NN that learns to drive
+
+ 
+
+‘ing
+ised
+
+ 
+ENDELEMENTInteresting Extensions
+
+¢ Architecture search: describe through CPPN
+¢ Substrate evolution and architecture search: Automate
+
+ever th i n Felix A. Sosa and Kenneth O. Stanley (2018). Deep
+yY g HyperNEAT: Evolving the Size and Depth of the Substrate.
+Evolutionary Complexity Research Group Undergraduate
+
+— ES-HyperNEAT, “Deep HyperNEAT” "cnctaur™ minor
+
+Se)
+Sebastian Risi and Kenneth O. © ®
+Stanley (2012)
+
+An Enhanced Hypercube-Based s
+Encoding for Evolving the
+Placement, Density and
+Connectivity of Neurons.
+Artificial Life journal. Cambridge,
+MA: MIT Press, 2012.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+  
+
+Risi, Sebastian, and
+
+¢ Adaptation: CPPN as a universal learning rule Kenneth O. Stanley. “A
+
+unified approach to
+_ . evolving plasticity and
+— CPPN(X,,¥1,81,X2,Y2,a2) = delta_w: selec Te
+. . Conference on Neural
+Universal learning rule! Networks (JONN)
+
+IEEE, 2012.
+
+— Rules of adaptation themselves can be spread in a pattern
+ENDELEMENTMote) <ii\-mela eine
+ENDELEMENTme) VALLI omrs (07 a1(=\'c-e] 0] am agley-ymr-lanle)ia(el etme ley-| lowe
+
+¢ Our ambitious goal: AGI
+¢ How will we get there?
+¢ Do the lessons from this tutorial help?
+
+ 
+ENDELEMENTManual Path to Al
+
+mm DYo)aa}iat=taianey-le-\ellelanm iam \V1m
+¢ Phase 1: Identify key building blocks
+
+ 
+ENDELEMENTato) a ant=laNm ane) aowe
+
+Key slullreriare Blocks? | hundreds? thousands?
+
+oro) anve) ie liveya
+
+relacclalice)amanlsterarelalisyages
+
+spatial tranformers
+
+batch/layer norm
+
+a learned loss (e.g. evolved policy gradients)
+hierarchical RL, options
+
+structural organization (regularity, modularity,
+ali=ieclnevahya,
+
+Taligi assem aare)thvc-livo)am(ast-lahVmelliisiaslalmit=\ye)es))
+
+auxiliary tasks (predictions, autoencoding,
+predicting rewards, etc.)
+
+good initializations (Xavier, MAML, etc.)
+(ore) r= line) o)aliomie)ge(=4l/alemcve)L0|ire) ats
+
+universal value functions
+laliateksi(e]alm=»,4el=1a(=)ale-Ma>) WV
+
+LSTM cell machinery variants
+
+complex optimizers (Adam, RMSprop, etc.)
+
+‘ors’ (sm ilace malsiaars! | ita
+Dare)
+
+variance reduction techniques
+activation functions
+
+good hyperparameters
+capsules
+
+fo] g=XelK=)aleaiats)alel\var-|evalicoveuel nossa (c1,4) Om exe) alalo\e1ie) aloe
+highway networks)
+
+value functions, state-value functions,
+Yo NV/= alt= le (= mie larelt(e) ars
+
+recurrence (where?)
+aalelidmraareyel-lmieryiele
+
+models
+
+trust regions
+
+Bayesian everything
+
+Active learning
+
+ed k)ey~10)| fom pareye(=1is)
+
+DYES} F-Talexomm patsiiglexcm ((-1(-)almerele(=19)
+etc.
+ENDELEMENTManual Path to Al
+
+mm DYo)anliat=talaney-le-\elreleam iam \ 1a
+¢ Phase 1: Identify key building blocks
+
+il md a = \X> Wan @10) 0010) 1 0(= ©) 6/1 (el |alem e)lele.<om aire
+oro)an]e)i=yaitalial.dialemant-\evallals
+
+¢ Herculean task
+e Is it possible?
+
+ 
+ENDELEMENTOverall Machine Learning Trend: Learn the Solution
+
+¢ Features
+el OL) ke) | oll en ed BI =1-) 0 =r eATIAle)
+e Architectures
+- Hand designed ==» Learned
+¢e Hyperparameters & data augmentation
+- Manually tuned =» Learned
+¢ RL algorithms
+- Hand designed —» Meta-learning
+
+suggests alternate path
+ENDELEMENTPAN GL T=\al=)e-uniare wave (e)aiialaare
+
+Clune 2019
+
+Learn as much as possible
+Bootstrap from simple to AGI
+
+Expensive outer loop
+
+¢ produces a sample-efficient,
+Taik=yiife{=\aimr-le[=\al mie) aulalal=)an cele) ©)
+
+We know it works
+am 00101010 0=\0 M0)aM mts lala
+
+ 
+ENDELEMENTPAN GL T=\al=)e-uniare wave (e)aiialaare
+
+Clune 2019
+
+Three Pillars
+1. Meta-learn architectures
+amma \V/(=1 t= bel (=t= la amt=y-lealiacem-liele)ainalaats
+
+3. Generate effective learning
+environments
+
+ 
+ENDELEMENTPAN GL T=\al=)e-uniare wave (e)aiialaare
+
+Clune 2019
+
+a al c=\om wal lols
+1. Meta-learn architectures
+ome \V/(=1 = ei (=t= laa (=y-laaliare m-liele)aiealaals
+
+3. Generate effective learning
+environments
+
+  
+ENDELEMENTPAN GL T=\al=)e-uniare wave (e)aiialaare
+
+Clune 2019
+
+os alc \om walls
+1. Meta-learn architectures
+ome \V/(=1 = ei (=t= laa (=y-laaliare m-liele)aiealaals
+
+3. Generate effective learning Quality Diversity
+environments
+
+Tate||g=Yo1mm =i gereye||ate}
+
+(©) of= Tat male (slo mey-1-1ce18
+ENDELEMENTPAN GL T=\al=)e-uniare wave (e)aiialaare
+
+Clune 2019
+¢ May be fastest path to AGI
+
+e Interesting even if not
+
+¢ how simple processes to bootstrap
+Talkomlalc-iiitet=\arer=
+¢ necessary, sufficient, catalyzing factors
+
+mb) alel=)a-jF-lalemelelare)ale|ials
+
+ 
+
+e likelihood of such processes
+occurring elsewhere in the universe
+
+¢ Grand challenge of CS
+ENDELEMENT@elaralecirelay
+ENDELEMENTNovelty Search
+Quality Diversity
+
+(©) o=laba =ale(=10 mel=r-lce18
+Tate ||c=Yo1m =i alexerellare
+
+OFe)alerlelselats
+
+ 
+ENDELEMENTOe) ater let eats =
+
+¢ interesting, powerful ideas ii
+¢ help solve previously unsolvable problems LS
+e introduce entirely new types of problems
+© g-lale mer areli()arelrs
+mn ©) 01~\abe=/ale(=1e m= lle leaivalaals
+AN ere {=)al=)e-hilale m-l(e le) aida) eats
+
+ 
+ENDELEMENTOFe) aleve elats
+
+¢ Whether descendant or convergent, lots of these ideas are being
+a\v,e)a(e|y4-\em\iidamaat-(elalia(-mi=t-laallale meme) «-\-1mr>11i-ve4 |
+
+e HER, DIAYN, Go-Explore, PBT/AlphaStar, HyperNetworks, etc.
+¢ Potential for lots more!
+
+¢ How might these ideas help with your techniques?
+¢ Might help us achieve our most ambitious research goals
+
+ 
+ENDELEMENTRecommended Reading
+
+PDFs available on our websites
+
+Stanley KO, Clune J, Lehman J, Miikkulainen R (2019) Designing Neural Networks through Neuroevolution. Nature
+Machine Intelligence, 1:1, 24-35.
+
+e Reviews most of the concepts in the tutorial and provides cites to the original papers, including: Novelty Search,
+Novelty Search with Local Competition, MAP-Elites, Intelligent Intelligent Trial & Error, Evolutionary Strategies +
+Novelty Search, Quality Diversity, Innovation Engines, CMOEA, NEAT, CPPNs, HyperNEAT, Indirect Encoding,
+NTT ali aake\imergix=\a(e)amerel-\Ve) (6) ace)al
+
+Open-endedness: The last grand challenge you’ve never heard of. Stanley, Lehman, Soros. 2017. https://
+www.oreilly.com/ideas/open-endedness-the-last-grand-challenge-youve-never-heard-of
+
+PN CIANcMa\ bce (= )ai-e-til ale m-lLe(e)gisalaatceur-lam-lik-)aal-lk-m oy-le-(el(e]aamie)am e)ceveleiey|ale me(-\al-1e-\m-lanni(el-lmlalt-1|1(e(-)ale:-mm 40M Ro) Oye la(=m
+https://arxiv.org/abs/1905.10985
+
+Ecoffet A, Huizinga J, Lehman J, Stanley KO, Clune J (2019) Go-Explore: a New Approach for Hard-Exploration
+Problems. arXiv 1901.10995.
+
+Wang R, Lehman J, Clune J, Stanley KO (2019) Paired Open-Ended Trailblazer (POET): Endlessly Generating
+Tatercsr-ts}iale| Na @xe)an) e)(=>@r-\ale mm DI\V{-les\-m mor- eal iace Mm =iahvdlce)alaat-alecw-lale Mu Mal=)| apse) |61N(0)a\sear-10.0hVam Rol ON MORN Aoyor
+
+Autonomous skill discovery with Quality-Diversity and Unsupervised Descriptors. Cully 2019. arXiv:1905.11874, 2019
+Why Greatness Cannot Be Planned. Stanley & Lehman. 2015.
+ENDELEMENT

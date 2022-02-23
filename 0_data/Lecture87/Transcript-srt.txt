@@ -1,0 +1,10020 @@
+1
+00:02:16,319 --> 00:02:19,950
+it's loading
+
+2
+00:03:45,640 --> 00:03:50,580
+I got up at 6:00 this morning
+
+3
+00:04:09,130 --> 00:04:14,040
+all right so let's see okay it's 8:30
+
+4
+00:04:18,430 --> 00:04:22,690
+good morning everyone it is 8:30 so we
+
+5
+00:04:22,690 --> 00:04:25,419
+will get started welcome to the
+
+6
+00:04:25,419 --> 00:04:27,789
+conference we have a very exciting day
+
+7
+00:04:27,789 --> 00:04:30,669
+of activities planned for you so a
+
+8
+00:04:30,669 --> 00:04:33,039
+couple of things about this tutorial
+
+9
+00:04:33,039 --> 00:04:35,979
+first of all there will be a break about
+
+10
+00:04:35,979 --> 00:04:38,139
+halfway through so just keep that in
+
+11
+00:04:38,139 --> 00:04:38,680
+mind
+
+12
+00:04:38,680 --> 00:04:40,780
+secondly if you could hold your
+
+13
+00:04:40,780 --> 00:04:43,060
+questions until the end because we are
+
+14
+00:04:43,060 --> 00:04:44,889
+such a large group that would be
+
+15
+00:04:44,889 --> 00:04:47,199
+fantastic when we get to the point of
+
+16
+00:04:47,199 --> 00:04:49,180
+questions there are two microphones one
+
+17
+00:04:49,180 --> 00:04:51,430
+over there in that aisle and one over
+
+18
+00:04:51,430 --> 00:04:53,949
+there in that aisle also there may be
+
+19
+00:04:53,949 --> 00:04:56,470
+press in attendance so please keep that
+
+20
+00:04:56,470 --> 00:04:58,270
+in mind when you're asking your
+
+21
+00:04:58,270 --> 00:05:01,810
+questions great and with that I am
+
+22
+00:05:01,810 --> 00:05:03,970
+delighted to introduce Fernanda Viegas
+
+23
+00:05:03,970 --> 00:05:07,210
+and Martin Wattenberg I'm an enormous
+
+24
+00:05:07,210 --> 00:05:09,789
+fan of their work so it's a true honor
+
+25
+00:05:09,789 --> 00:05:12,160
+to be introducing them here today and to
+
+26
+00:05:12,160 --> 00:05:14,860
+have them here at the conference for
+
+27
+00:05:14,860 --> 00:05:16,030
+those of you who don't know them
+
+28
+00:05:16,030 --> 00:05:18,280
+Fernanda and Martin co-lead Google's
+
+29
+00:05:18,280 --> 00:05:21,370
+pair people and AI research initiative
+
+30
+00:05:21,370 --> 00:05:24,039
+as part of Google brain and their work
+
+31
+00:05:24,039 --> 00:05:25,750
+in machine learning focuses on
+
+32
+00:05:25,750 --> 00:05:28,120
+transparency and interpretability
+
+33
+00:05:28,120 --> 00:05:31,210
+part of a broad agenda to improve human
+
+34
+00:05:31,210 --> 00:05:34,720
+AI collaboration interaction they're
+
+35
+00:05:34,720 --> 00:05:36,340
+extremely well known for their
+
+36
+00:05:36,340 --> 00:05:38,050
+contributions to social and
+
+37
+00:05:38,050 --> 00:05:40,570
+collaborative visualization and for the
+
+38
+00:05:40,570 --> 00:05:43,060
+systems they've created which used daily
+
+39
+00:05:43,060 --> 00:05:45,490
+by millions of people and as if that
+
+40
+00:05:45,490 --> 00:05:47,530
+wasn't enough awesomeness their
+
+41
+00:05:47,530 --> 00:05:49,930
+visualization based artwork has also
+
+42
+00:05:49,930 --> 00:05:52,330
+been exhibited worldwide and is part of
+
+43
+00:05:52,330 --> 00:05:54,190
+the permanent collection at the Museum
+
+44
+00:05:54,190 --> 00:05:56,979
+of Modern Art in New York and with that
+
+45
+00:05:56,979 --> 00:06:00,330
+I will hand over to them
+
+46
+00:06:04,990 --> 00:06:08,180
+Thank You Hana thank you it's such an
+
+47
+00:06:08,180 --> 00:06:11,389
+honor to be here we were so excited that
+
+48
+00:06:11,389 --> 00:06:14,000
+there would be a tutorial at nerves
+
+49
+00:06:14,000 --> 00:06:17,000
+about data visualization so let's get
+
+50
+00:06:17,000 --> 00:06:19,729
+started we have a lot of ground to cover
+
+51
+00:06:19,729 --> 00:06:22,849
+and we just wanted to briefly introduce
+
+52
+00:06:22,849 --> 00:06:26,919
+our team today we're gonna talk some
+
+53
+00:06:26,919 --> 00:06:30,349
+about our work but not a whole lie there
+
+54
+00:06:30,349 --> 00:06:31,729
+will be a lot of work that was done
+
+55
+00:06:31,729 --> 00:06:34,129
+outside of our team and we're hoping to
+
+56
+00:06:34,129 --> 00:06:37,250
+give a landscape but these are the
+
+57
+00:06:37,250 --> 00:06:40,159
+awesome folks that we work with at
+
+58
+00:06:40,159 --> 00:06:43,849
+Google Martin and I also co-lead as
+
+59
+00:06:43,849 --> 00:06:46,009
+Hannah said the pair initiative the
+
+60
+00:06:46,009 --> 00:06:48,050
+people plus AI research initiative at
+
+61
+00:06:48,050 --> 00:06:50,810
+Google and this aims to bring design
+
+62
+00:06:50,810 --> 00:06:52,969
+thinking and HCI human-computer
+
+63
+00:06:52,969 --> 00:06:56,330
+interaction to machine learning and
+
+64
+00:06:56,330 --> 00:06:57,979
+hopefully you will see a little bit of
+
+65
+00:06:57,979 --> 00:07:00,169
+what we mean by that as we talk about
+
+66
+00:07:00,169 --> 00:07:03,740
+some of the work we've done so today's
+
+67
+00:07:03,740 --> 00:07:06,379
+agenda we're trying to hit a couple of
+
+68
+00:07:06,379 --> 00:07:09,069
+things one is what is data visualization
+
+69
+00:07:09,069 --> 00:07:12,740
+how does it work what are some of the
+
+70
+00:07:12,740 --> 00:07:14,599
+best practices so when you're when
+
+71
+00:07:14,599 --> 00:07:16,099
+you're thinking about creating data
+
+72
+00:07:16,099 --> 00:07:17,560
+visualization and using data
+
+73
+00:07:17,560 --> 00:07:20,240
+visualization in your own work what
+
+74
+00:07:20,240 --> 00:07:23,810
+could you do to make it work better and
+
+75
+00:07:23,810 --> 00:07:27,139
+then secondly how has visualization been
+
+76
+00:07:27,139 --> 00:07:29,000
+applied to machine learning we're gonna
+
+77
+00:07:29,000 --> 00:07:30,770
+as I said do an overview of the
+
+78
+00:07:30,770 --> 00:07:32,479
+landscape some of the things we're gonna
+
+79
+00:07:32,479 --> 00:07:34,550
+touch on very briefly because we feel
+
+80
+00:07:34,550 --> 00:07:35,750
+like some of these things are well
+
+81
+00:07:35,750 --> 00:07:38,479
+understood by the community so we're not
+
+82
+00:07:38,479 --> 00:07:42,020
+gonna dwell on basics and then we're
+
+83
+00:07:42,020 --> 00:07:43,430
+also gonna talk about a very special
+
+84
+00:07:43,430 --> 00:07:46,009
+case that I think is a very native to
+
+85
+00:07:46,009 --> 00:07:47,539
+machine learning which is high
+
+86
+00:07:47,539 --> 00:07:50,270
+dimensional data massively high
+
+87
+00:07:50,270 --> 00:07:53,839
+dimensional data and we're gonna end up
+
+88
+00:07:53,839 --> 00:07:55,759
+with some what we think are promising
+
+89
+00:07:55,759 --> 00:07:59,810
+directions the goals of this tutorial
+
+90
+00:07:59,810 --> 00:08:02,569
+the way we thought about them are for
+
+91
+00:08:02,569 --> 00:08:04,460
+you to understand the state of the art
+
+92
+00:08:04,460 --> 00:08:06,770
+so catch up on what some of the best
+
+93
+00:08:06,770 --> 00:08:09,709
+practices are what people are doing with
+
+94
+00:08:09,709 --> 00:08:11,029
+little visualization in machine learning
+
+95
+00:08:11,029 --> 00:08:12,060
+today
+
+96
+00:08:12,060 --> 00:08:14,850
+and then secondly how do you apply this
+
+97
+00:08:14,850 --> 00:08:17,580
+to your own work we're going to talk
+
+98
+00:08:17,580 --> 00:08:19,680
+about some reference tools and libraries
+
+99
+00:08:19,680 --> 00:08:22,530
+and give you references to literature so
+
+100
+00:08:22,530 --> 00:08:24,990
+that you can also become a visualizer
+
+101
+00:08:24,990 --> 00:08:27,060
+you can also create hopefully new
+
+102
+00:08:27,060 --> 00:08:30,570
+techniques and better techniques alright
+
+103
+00:08:30,570 --> 00:08:32,789
+so let's start diving in what what is
+
+104
+00:08:32,789 --> 00:08:34,740
+data visualization I'm sure that if you
+
+105
+00:08:34,740 --> 00:08:36,390
+work with machine learning you've come
+
+106
+00:08:36,390 --> 00:08:38,219
+across data visualization you know what
+
+107
+00:08:38,219 --> 00:08:40,440
+it is basically you are transforming
+
+108
+00:08:40,440 --> 00:08:44,130
+data into visual encodings right what is
+
+109
+00:08:44,130 --> 00:08:46,410
+this good for it's good for a bunch of
+
+110
+00:08:46,410 --> 00:08:48,510
+things independently of machine learning
+
+111
+00:08:48,510 --> 00:08:51,450
+it's good for exploring when you don't
+
+112
+00:08:51,450 --> 00:08:53,880
+have a question you know exactly but you
+
+113
+00:08:53,880 --> 00:08:55,290
+just want to get a sense of the data
+
+114
+00:08:55,290 --> 00:08:57,779
+it's obviously good for scientific
+
+115
+00:08:57,779 --> 00:08:59,700
+insight in fact this is a lot of its
+
+116
+00:08:59,700 --> 00:09:03,690
+pedigree comes from science it's also
+
+117
+00:09:03,690 --> 00:09:05,940
+good for communicating your results very
+
+118
+00:09:05,940 --> 00:09:08,040
+good for communicating or results and
+
+119
+00:09:08,040 --> 00:09:10,350
+also for education we're gonna touch on
+
+120
+00:09:10,350 --> 00:09:14,270
+some of these use cases as we go along
+
+121
+00:09:14,270 --> 00:09:17,280
+now one of the things that a lot of
+
+122
+00:09:17,280 --> 00:09:18,900
+people who work with visualization or
+
+123
+00:09:18,900 --> 00:09:21,660
+use visualization don't usually think
+
+124
+00:09:21,660 --> 00:09:23,790
+about but we think it's really important
+
+125
+00:09:23,790 --> 00:09:28,890
+is how do you ensure it works well how
+
+126
+00:09:28,890 --> 00:09:31,260
+do you engage the visual system our
+
+127
+00:09:31,260 --> 00:09:33,990
+visual system in really smart ways how
+
+128
+00:09:33,990 --> 00:09:36,270
+do you work organically with with what
+
+129
+00:09:36,270 --> 00:09:39,839
+our eyes do really well and so how do
+
+130
+00:09:39,839 --> 00:09:41,370
+you take advantage of things like
+
+131
+00:09:41,370 --> 00:09:43,260
+pre-attentive processing we're gonna
+
+132
+00:09:43,260 --> 00:09:45,270
+talk very briefly about some of these
+
+133
+00:09:45,270 --> 00:09:47,160
+things but this is like some of the most
+
+134
+00:09:47,160 --> 00:09:50,310
+fascinating things behind visualizations
+
+135
+00:09:50,310 --> 00:09:54,060
+that work well another question that we
+
+136
+00:09:54,060 --> 00:09:55,680
+get sometimes is the state of
+
+137
+00:09:55,680 --> 00:09:57,510
+visualization different from statistics
+
+138
+00:09:57,510 --> 00:10:00,990
+and it's not that they are completely
+
+139
+00:10:00,990 --> 00:10:03,390
+separate animals in fact I think they
+
+140
+00:10:03,390 --> 00:10:06,180
+are really beautifully complementary but
+
+141
+00:10:06,180 --> 00:10:08,430
+there are a few things that might be
+
+142
+00:10:08,430 --> 00:10:11,390
+different so for instance when you were
+
+143
+00:10:11,390 --> 00:10:14,250
+exploring with data visualization a lot
+
+144
+00:10:14,250 --> 00:10:16,500
+of times you don't have a specific
+
+145
+00:10:16,500 --> 00:10:18,959
+question in mind you just really want to
+
+146
+00:10:18,959 --> 00:10:21,330
+get a sense of the lay of the land and
+
+147
+00:10:21,330 --> 00:10:22,940
+what the shape of your data
+
+148
+00:10:22,940 --> 00:10:25,310
+is and you don't even know what question
+
+149
+00:10:25,310 --> 00:10:26,900
+you want to ask
+
+150
+00:10:26,900 --> 00:10:29,780
+with classic statistics a lot of times
+
+151
+00:10:29,780 --> 00:10:33,080
+you may have a specific question you're
+
+152
+00:10:33,080 --> 00:10:36,620
+hoping to analyze and so that's one of
+
+153
+00:10:36,620 --> 00:10:38,720
+the ways in which they could different
+
+154
+00:10:38,720 --> 00:10:40,850
+even though we have a asterisk there
+
+155
+00:10:40,850 --> 00:10:44,420
+saying okay in exploratory data analysis
+
+156
+00:10:44,420 --> 00:10:47,450
+which is part of statistics you don't
+
+157
+00:10:47,450 --> 00:10:50,060
+always have a question but then you're
+
+158
+00:10:50,060 --> 00:10:52,430
+also probably using visualization anyway
+
+159
+00:10:52,430 --> 00:10:54,800
+so you kind of back to visualization and
+
+160
+00:10:54,800 --> 00:10:58,030
+as I said I really think that there is a
+
+161
+00:10:58,030 --> 00:11:01,220
+complementarity between visualization
+
+162
+00:11:01,220 --> 00:11:04,280
+and statistics so it could be that as a
+
+163
+00:11:04,280 --> 00:11:06,860
+first pass you look at your data from a
+
+164
+00:11:06,860 --> 00:11:09,080
+visualization perspective you get a
+
+165
+00:11:09,080 --> 00:11:11,750
+sense of some interesting outliers or
+
+166
+00:11:11,750 --> 00:11:14,930
+patterns and then you start engaging
+
+167
+00:11:14,930 --> 00:11:17,600
+with statistical analysis to be like
+
+168
+00:11:17,600 --> 00:11:19,430
+okay but is this is this generalized
+
+169
+00:11:19,430 --> 00:11:22,490
+what's going on in the entire in my
+
+170
+00:11:22,490 --> 00:11:27,800
+entire data set okay so let's talk a
+
+171
+00:11:27,800 --> 00:11:29,480
+little bit about the history of
+
+172
+00:11:29,480 --> 00:11:31,490
+visualization I think one of the things
+
+173
+00:11:31,490 --> 00:11:33,140
+that's important to realize it's a very
+
+174
+00:11:33,140 --> 00:11:35,390
+general technique and it actually goes
+
+175
+00:11:35,390 --> 00:11:38,060
+back quite a long way and very briefly
+
+176
+00:11:38,060 --> 00:11:40,220
+let's talk about this so one thing that
+
+177
+00:11:40,220 --> 00:11:42,470
+I found fascinating when I first started
+
+178
+00:11:42,470 --> 00:11:44,180
+to learn the history of the field is
+
+179
+00:11:44,180 --> 00:11:45,770
+that many of the sort of standard
+
+180
+00:11:45,770 --> 00:11:47,930
+business graphics line charts bar charts
+
+181
+00:11:47,930 --> 00:11:49,490
+pie charts and so forth were all
+
+182
+00:11:49,490 --> 00:11:51,980
+invented by the same person William
+
+183
+00:11:51,980 --> 00:11:54,770
+Playfair who I think you know I think of
+
+184
+00:11:54,770 --> 00:11:56,420
+him as an economist some of his most
+
+185
+00:11:56,420 --> 00:11:58,580
+famous graphs are exactly like this one
+
+186
+00:11:58,580 --> 00:12:00,980
+here where he's showing sort of in this
+
+187
+00:12:00,980 --> 00:12:03,380
+case the balance of trade and showing
+
+188
+00:12:03,380 --> 00:12:05,750
+both sort of the deficit and surplus in
+
+189
+00:12:05,750 --> 00:12:07,520
+a very beautiful way by comparing two
+
+190
+00:12:07,520 --> 00:12:09,980
+line graphs one of the funny things I
+
+191
+00:12:09,980 --> 00:12:11,630
+discovered more recently as he was
+
+192
+00:12:11,630 --> 00:12:13,310
+actually apparently a secret agent as
+
+193
+00:12:13,310 --> 00:12:15,320
+part of this job so that just makes them
+
+194
+00:12:15,320 --> 00:12:17,300
+all the more cool and something you know
+
+195
+00:12:17,300 --> 00:12:19,850
+I think we can we can think of it a
+
+196
+00:12:19,850 --> 00:12:21,230
+little bit more glamorous than the
+
+197
+00:12:21,230 --> 00:12:24,770
+typical visualizer I another person who
+
+198
+00:12:24,770 --> 00:12:26,870
+I think push the field forward was
+
+199
+00:12:26,870 --> 00:12:29,810
+Florence Nightingale and the interesting
+
+200
+00:12:29,810 --> 00:12:32,750
+thing here is that Florence Nightingale
+
+201
+00:12:32,750 --> 00:12:35,600
+was was sort of known for her work on
+
+202
+00:12:35,600 --> 00:12:36,499
+the
+
+203
+00:12:36,499 --> 00:12:38,779
+military battlefield looking at yo
+
+204
+00:12:38,779 --> 00:12:42,049
+trying to see soldiers come in injured
+
+205
+00:12:42,049 --> 00:12:43,909
+try to make sure that they would not
+
+206
+00:12:43,909 --> 00:12:45,229
+stay injured that they would get better
+
+207
+00:12:45,229 --> 00:12:49,189
+and one of the things that she noticed
+
+208
+00:12:49,189 --> 00:12:52,009
+is that in fact people were largely not
+
+209
+00:12:52,009 --> 00:12:54,349
+dying from wounds they had sustained
+
+210
+00:12:54,349 --> 00:12:56,809
+immediately on the battlefield but you
+
+211
+00:12:56,809 --> 00:12:58,099
+know things would get infected they
+
+212
+00:12:58,099 --> 00:12:59,719
+would get sick and they would die from
+
+213
+00:12:59,719 --> 00:13:02,239
+the sickness and she realized that with
+
+214
+00:13:02,239 --> 00:13:04,009
+the right kinds of sanitation and
+
+215
+00:13:04,009 --> 00:13:05,809
+hygiene measures you could save millions
+
+216
+00:13:05,809 --> 00:13:08,629
+of lives now the interesting thing is
+
+217
+00:13:08,629 --> 00:13:11,029
+that when she tried to make this case it
+
+218
+00:13:11,029 --> 00:13:12,649
+actually didn't go over particularly
+
+219
+00:13:12,649 --> 00:13:15,769
+well immediately and so she really had
+
+220
+00:13:15,769 --> 00:13:17,659
+to pitch it to people in charge those
+
+221
+00:13:17,659 --> 00:13:19,549
+top politicians and the way she did this
+
+222
+00:13:19,549 --> 00:13:22,069
+was with visualizations so she created
+
+223
+00:13:22,069 --> 00:13:24,319
+on a number of things what you here to
+
+224
+00:13:24,319 --> 00:13:25,369
+see here is something she called the
+
+225
+00:13:25,369 --> 00:13:27,259
+cockscomb chart it's a kind of
+
+226
+00:13:27,259 --> 00:13:30,289
+complicated hide schardt and it ended up
+
+227
+00:13:30,289 --> 00:13:31,819
+being very effective and helping her
+
+228
+00:13:31,819 --> 00:13:33,859
+make the case and arguably this is the
+
+229
+00:13:33,859 --> 00:13:36,409
+most of the best visualization ever if
+
+230
+00:13:36,409 --> 00:13:38,599
+measured in terms of number of lives
+
+231
+00:13:38,599 --> 00:13:41,539
+saved there's another important lesson
+
+232
+00:13:41,539 --> 00:13:43,759
+for visualizers as we look at this which
+
+233
+00:13:43,759 --> 00:13:46,279
+is that today I think a lot of people
+
+234
+00:13:46,279 --> 00:13:48,679
+who are very kind of uptight about
+
+235
+00:13:48,679 --> 00:13:51,079
+proper graphic design would look at this
+
+236
+00:13:51,079 --> 00:13:52,549
+and say it is not a good visualization
+
+237
+00:13:52,549 --> 00:13:54,529
+we'll talk later about different visual
+
+238
+00:13:54,529 --> 00:13:55,970
+encodings and you can make an argument
+
+239
+00:13:55,970 --> 00:13:58,369
+that you know she's not really using the
+
+240
+00:13:58,369 --> 00:14:00,379
+optimal things here that didn't matter
+
+241
+00:14:00,379 --> 00:14:02,269
+this visualization saved millions of
+
+242
+00:14:02,269 --> 00:14:03,619
+lives and I think it's an important
+
+243
+00:14:03,619 --> 00:14:05,899
+lesson that you know as we go into
+
+244
+00:14:05,899 --> 00:14:08,809
+visualization as you try things out it's
+
+245
+00:14:08,809 --> 00:14:10,579
+much more important to focus on asking
+
+246
+00:14:10,579 --> 00:14:12,349
+the right questions on getting the right
+
+247
+00:14:12,349 --> 00:14:15,529
+data rather than feeling incredibly
+
+248
+00:14:15,529 --> 00:14:18,139
+nervous about you know exactly the right
+
+249
+00:14:18,139 --> 00:14:20,179
+technique it's much better to do it and
+
+250
+00:14:20,179 --> 00:14:23,479
+to focus on the data one final example
+
+251
+00:14:23,479 --> 00:14:27,039
+of historical interest is w eb de bois
+
+252
+00:14:27,039 --> 00:14:29,779
+created this fantastic album of
+
+253
+00:14:29,779 --> 00:14:32,329
+visualizations with his students showing
+
+254
+00:14:32,329 --> 00:14:34,219
+a wide variety of demographic data and
+
+255
+00:14:34,219 --> 00:14:36,229
+these I think are some of the earliest
+
+256
+00:14:36,229 --> 00:14:37,519
+visualizations that I've seen that
+
+257
+00:14:37,519 --> 00:14:39,679
+you've sort of funny almost function
+
+258
+00:14:39,679 --> 00:14:42,169
+like a modern dashboard in the sense
+
+259
+00:14:42,169 --> 00:14:45,059
+that they combine many many different
+
+260
+00:14:45,059 --> 00:14:46,859
+sort of types of data about the same
+
+261
+00:14:46,859 --> 00:14:50,099
+theme in one image and I think there's
+
+262
+00:14:50,099 --> 00:14:51,269
+actually a lot that we can learn from
+
+263
+00:14:51,269 --> 00:14:54,959
+this in terms of both sort of the
+
+264
+00:14:54,959 --> 00:14:56,699
+purpose of visualization and again its
+
+265
+00:14:56,699 --> 00:15:00,679
+efficacy in making a case but also in
+
+266
+00:15:00,679 --> 00:15:02,819
+combining data in various ways like this
+
+267
+00:15:02,819 --> 00:15:04,589
+is a very beautiful visualization that
+
+268
+00:15:04,589 --> 00:15:07,109
+has very natural legends it's like the
+
+269
+00:15:07,109 --> 00:15:09,269
+legends are almost serving as a table
+
+270
+00:15:09,269 --> 00:15:11,609
+you see it's really nicely labeled and
+
+271
+00:15:11,609 --> 00:15:14,159
+it's it's actually a perfect example of
+
+272
+00:15:14,159 --> 00:15:15,659
+how to combine many different
+
+273
+00:15:15,659 --> 00:15:20,069
+visualizations in one place okay so what
+
+274
+00:15:20,069 --> 00:15:22,019
+is it that make these work besides
+
+275
+00:15:22,019 --> 00:15:23,699
+having the right data and sort of asking
+
+276
+00:15:23,699 --> 00:15:25,229
+the right questions well they're using
+
+277
+00:15:25,229 --> 00:15:27,839
+our own visual system in ways that it
+
+278
+00:15:27,839 --> 00:15:29,339
+maybe was not designed for you know
+
+279
+00:15:29,339 --> 00:15:31,589
+we're supposed to have visions so that
+
+280
+00:15:31,589 --> 00:15:32,999
+we can you know see an animal that's
+
+281
+00:15:32,999 --> 00:15:34,739
+about to eat us and run away from it or
+
+282
+00:15:34,739 --> 00:15:37,409
+whatever on not you know we did not
+
+283
+00:15:37,409 --> 00:15:40,319
+evolve to analyze data but the truth is
+
+284
+00:15:40,319 --> 00:15:43,229
+that the visual system you know is very
+
+285
+00:15:43,229 --> 00:15:45,209
+special and I like to think of it like a
+
+286
+00:15:45,209 --> 00:15:47,969
+GPU it has all of these native abilities
+
+287
+00:15:47,969 --> 00:15:50,789
+that worked incredibly fast better than
+
+288
+00:15:50,789 --> 00:15:53,639
+our general-purpose brain but they're
+
+289
+00:15:53,639 --> 00:15:56,279
+very specialized as well and so the
+
+290
+00:15:56,279 --> 00:15:58,739
+whole game behind visualization is much
+
+291
+00:15:58,739 --> 00:16:01,019
+like GPU programming where you're taking
+
+292
+00:16:01,019 --> 00:16:02,669
+something that was made for videogames
+
+293
+00:16:02,669 --> 00:16:05,219
+originally and you're repurposing it for
+
+294
+00:16:05,219 --> 00:16:05,929
+something else
+
+295
+00:16:05,929 --> 00:16:08,579
+one consequence of this that I think is
+
+296
+00:16:08,579 --> 00:16:11,159
+actually critical to realize is that all
+
+297
+00:16:11,159 --> 00:16:13,739
+visualizations as a result involve
+
+298
+00:16:13,739 --> 00:16:16,439
+compromises you know it's not like we
+
+299
+00:16:16,439 --> 00:16:18,839
+have this amazing data analysis part of
+
+300
+00:16:18,839 --> 00:16:20,729
+our brain but we're repurposing
+
+301
+00:16:20,729 --> 00:16:22,289
+something that was not built for that
+
+302
+00:16:22,289 --> 00:16:25,289
+and again that causes a lot of
+
+303
+00:16:25,289 --> 00:16:27,089
+trade-offs so let's talk about what
+
+304
+00:16:27,089 --> 00:16:28,949
+those sort of primitive operations are
+
+305
+00:16:28,949 --> 00:16:31,889
+in the GPU in our brain how do these
+
+306
+00:16:31,889 --> 00:16:34,619
+things work so the idea is that you want
+
+307
+00:16:34,619 --> 00:16:36,119
+to find visual encodings you want to
+
+308
+00:16:36,119 --> 00:16:38,159
+take data transform it into vision and
+
+309
+00:16:38,159 --> 00:16:40,409
+those encoding will do a bunch of things
+
+310
+00:16:40,409 --> 00:16:42,299
+so the first thing is they guide the
+
+311
+00:16:42,299 --> 00:16:44,909
+viewers attention the second is they
+
+312
+00:16:44,909 --> 00:16:46,889
+communicate data now it's interesting
+
+313
+00:16:46,889 --> 00:16:48,599
+very often when you hear people talk
+
+314
+00:16:48,599 --> 00:16:50,639
+about charting they'll think just about
+
+315
+00:16:50,639 --> 00:16:52,379
+this middle thing they act like is just
+
+316
+00:16:52,379 --> 00:16:53,819
+about communicating data but this is
+
+317
+00:16:53,819 --> 00:16:55,259
+just one of several things that's good
+
+318
+00:16:55,259 --> 00:16:55,590
+for
+
+319
+00:16:55,590 --> 00:16:57,960
+the third means thing you can do in a
+
+320
+00:16:57,960 --> 00:17:00,240
+static operation is that you can let the
+
+321
+00:17:00,240 --> 00:17:02,220
+viewer calculate with data and also some
+
+322
+00:17:02,220 --> 00:17:04,109
+examples with that it turns out your
+
+323
+00:17:04,109 --> 00:17:05,939
+brain can do some amazing calculations
+
+324
+00:17:05,939 --> 00:17:07,500
+very quickly and then once you're on a
+
+325
+00:17:07,500 --> 00:17:09,630
+computer you can interactively explore
+
+326
+00:17:09,630 --> 00:17:12,510
+data and that open there's a whole set
+
+327
+00:17:12,510 --> 00:17:15,930
+of frontiers beyond paper okay so let's
+
+328
+00:17:15,930 --> 00:17:18,000
+take a look at some examples on let's
+
+329
+00:17:18,000 --> 00:17:20,730
+talk about the example of you have wind
+
+330
+00:17:20,730 --> 00:17:23,250
+data and you want to show wind data
+
+331
+00:17:23,250 --> 00:17:25,199
+across the world this is something
+
+332
+00:17:25,199 --> 00:17:26,459
+people have thought about for hundreds
+
+333
+00:17:26,459 --> 00:17:26,910
+of years
+
+334
+00:17:26,910 --> 00:17:29,190
+I think the earliest example that I
+
+335
+00:17:29,190 --> 00:17:31,020
+could find comes from Edmund Halley
+
+336
+00:17:31,020 --> 00:17:33,780
+in the 1600s and it's this map of trade
+
+337
+00:17:33,780 --> 00:17:36,750
+winds in the ocean and you can see what
+
+338
+00:17:36,750 --> 00:17:38,130
+he's doing is he's basically doing
+
+339
+00:17:38,130 --> 00:17:40,710
+something fairly reasonable he's saying
+
+340
+00:17:40,710 --> 00:17:42,180
+I'm going to show the direction of wind
+
+341
+00:17:42,180 --> 00:17:43,980
+with you know a vector that points in
+
+342
+00:17:43,980 --> 00:17:46,500
+the right direction it's static but it
+
+343
+00:17:46,500 --> 00:17:48,450
+actually works pretty well let's talk
+
+344
+00:17:48,450 --> 00:17:51,830
+about how you might use this on in
+
+345
+00:17:51,830 --> 00:17:56,340
+modern setting okay so this is a
+
+346
+00:17:56,340 --> 00:17:58,380
+visualization that Fernanda and I
+
+347
+00:17:58,380 --> 00:18:02,580
+created as an art project many years ago
+
+348
+00:18:02,580 --> 00:18:04,740
+this is showing the wind across the
+
+349
+00:18:04,740 --> 00:18:08,190
+United States right now and you can see
+
+350
+00:18:08,190 --> 00:18:09,450
+that the encoding we're using is very
+
+351
+00:18:09,450 --> 00:18:12,870
+much like Edmund Haley's however what
+
+352
+00:18:12,870 --> 00:18:14,880
+we're doing is adding motion as well in
+
+353
+00:18:14,880 --> 00:18:16,679
+fact if you look at this legend down
+
+354
+00:18:16,679 --> 00:18:18,929
+here you'll see that you know the legend
+
+355
+00:18:18,929 --> 00:18:20,310
+is actually not a static thing it's
+
+356
+00:18:20,310 --> 00:18:23,370
+moving like the whole whole thing this
+
+357
+00:18:23,370 --> 00:18:26,940
+is a very very simple visualization it
+
+358
+00:18:26,940 --> 00:18:29,940
+is designed really for us we created
+
+359
+00:18:29,940 --> 00:18:31,770
+this as an art project not a science
+
+360
+00:18:31,770 --> 00:18:34,230
+project even though it turns out later
+
+361
+00:18:34,230 --> 00:18:37,280
+scientists became interested in this and
+
+362
+00:18:37,280 --> 00:18:39,210
+you can see that there's a sort of
+
+363
+00:18:39,210 --> 00:18:42,840
+simplicity to it that's very nice okay
+
+364
+00:18:42,840 --> 00:18:45,679
+what about
+
+365
+00:18:48,960 --> 00:18:51,919
+okay so let's look at a more complicated
+
+366
+00:18:51,919 --> 00:18:56,460
+encoding that was done later about the
+
+367
+00:18:56,460 --> 00:18:59,029
+year after we created that visualization
+
+368
+00:18:59,029 --> 00:19:02,070
+someone in Cameron Vicario was inspired
+
+369
+00:19:02,070 --> 00:19:05,190
+and he created this globe visualization
+
+370
+00:19:05,190 --> 00:19:06,840
+and you can see he's a lot more
+
+371
+00:19:06,840 --> 00:19:08,159
+encodings and I think it's very
+
+372
+00:19:08,159 --> 00:19:10,350
+interesting to sort of sift through this
+
+373
+00:19:10,350 --> 00:19:13,230
+and take a look at all the things he's
+
+374
+00:19:13,230 --> 00:19:16,320
+doing so lifehouse he is using sort of
+
+375
+00:19:16,320 --> 00:19:18,720
+motion and angle so you know we built
+
+376
+00:19:18,720 --> 00:19:21,510
+onto Edmund Halley he's building up
+
+377
+00:19:21,510 --> 00:19:23,820
+we've he's adding in a color here which
+
+378
+00:19:23,820 --> 00:19:27,419
+I think in this case indicates the sort
+
+379
+00:19:27,419 --> 00:19:29,610
+of scale of this but we can actually add
+
+380
+00:19:29,610 --> 00:19:31,620
+all sorts of other things so we can say
+
+381
+00:19:31,620 --> 00:19:36,120
+let's look at particulate matter and now
+
+382
+00:19:36,120 --> 00:19:37,980
+it's going to show us all sorts of you
+
+383
+00:19:37,980 --> 00:19:40,830
+know dust and smoke again using a color
+
+384
+00:19:40,830 --> 00:19:42,630
+scale you might ask how did he choose
+
+385
+00:19:42,630 --> 00:19:44,070
+those colors we'll talk a little bit
+
+386
+00:19:44,070 --> 00:19:45,149
+about that in a moment
+
+387
+00:19:45,149 --> 00:19:47,279
+you could overlay all sorts of other
+
+388
+00:19:47,279 --> 00:19:51,899
+things you could change projections in
+
+389
+00:19:51,899 --> 00:19:55,020
+various ways all sorts of crazy
+
+390
+00:19:55,020 --> 00:19:59,250
+projections in fact and let's see I
+
+391
+00:19:59,250 --> 00:20:01,980
+think we can even get waves if we look
+
+392
+00:20:01,980 --> 00:20:08,760
+in the right place let's see we've in
+
+393
+00:20:08,760 --> 00:20:10,049
+the interest of time I won't show all
+
+394
+00:20:10,049 --> 00:20:11,669
+the things I can do but you can see that
+
+395
+00:20:11,669 --> 00:20:13,440
+essentially by layering of various
+
+396
+00:20:13,440 --> 00:20:15,720
+encoding he's able to actually show more
+
+397
+00:20:15,720 --> 00:20:20,309
+data on this okay so let's talk about
+
+398
+00:20:20,309 --> 00:20:23,429
+those encoding specifically so there are
+
+399
+00:20:23,429 --> 00:20:25,200
+many different types of ways that you
+
+400
+00:20:25,200 --> 00:20:28,110
+can put numbers into images you see some
+
+401
+00:20:28,110 --> 00:20:29,610
+of them laid out here there's certainly
+
+402
+00:20:29,610 --> 00:20:31,500
+many more and the whole game behind
+
+403
+00:20:31,500 --> 00:20:33,090
+visualization is that each of these are
+
+404
+00:20:33,090 --> 00:20:35,690
+good for various things so for example
+
+405
+00:20:35,690 --> 00:20:39,029
+position and length are very good for
+
+406
+00:20:39,029 --> 00:20:41,880
+communicating exact values as is text
+
+407
+00:20:41,880 --> 00:20:44,370
+for instance certainly you can get
+
+408
+00:20:44,370 --> 00:20:45,870
+things you know to that and the decimal
+
+409
+00:20:45,870 --> 00:20:49,799
+point that way what about ratios their
+
+410
+00:20:49,799 --> 00:20:53,070
+length is really good whereas you know
+
+411
+00:20:53,070 --> 00:20:55,799
+position areas somewhat okay color is
+
+412
+00:20:55,799 --> 00:20:59,159
+just impossible to tell ratios and this
+
+413
+00:20:59,159 --> 00:21:00,600
+is sort of as it you know it's this
+
+414
+00:21:00,600 --> 00:21:01,720
+perceptual fat
+
+415
+00:21:01,720 --> 00:21:03,519
+so that your brain is kind of computing
+
+416
+00:21:03,519 --> 00:21:05,740
+ratios this is sort of what will help
+
+417
+00:21:05,740 --> 00:21:07,299
+you decide between for example a bar
+
+418
+00:21:07,299 --> 00:21:10,659
+chart and a line chart other things are
+
+419
+00:21:10,659 --> 00:21:12,909
+good for drawing attention color is one
+
+420
+00:21:12,909 --> 00:21:15,039
+of the first things we see when we go
+
+421
+00:21:15,039 --> 00:21:16,600
+look at a visualization and it tells us
+
+422
+00:21:16,600 --> 00:21:19,029
+where we should be looking for for next
+
+423
+00:21:19,029 --> 00:21:20,830
+area is also a very good way to draw
+
+424
+00:21:20,830 --> 00:21:22,840
+attention bigger things much more
+
+425
+00:21:22,840 --> 00:21:24,879
+prominent and draw your attention with
+
+426
+00:21:24,879 --> 00:21:28,450
+smaller things color I want to talk a
+
+427
+00:21:28,450 --> 00:21:30,129
+little bit about just because this is
+
+428
+00:21:30,129 --> 00:21:31,480
+something that in some ways is one of
+
+429
+00:21:31,480 --> 00:21:33,639
+the best understood phenomena are
+
+430
+00:21:33,639 --> 00:21:35,799
+encodings and it's actually very subtle
+
+431
+00:21:35,799 --> 00:21:38,940
+so starting a couple decades ago
+
+432
+00:21:38,940 --> 00:21:41,049
+rogowitz and train --is-- where some of
+
+433
+00:21:41,049 --> 00:21:42,460
+the people who really started doing this
+
+434
+00:21:42,460 --> 00:21:45,250
+people started asking what is the right
+
+435
+00:21:45,250 --> 00:21:47,470
+way if you are showing the America data
+
+436
+00:21:47,470 --> 00:21:49,960
+with color that you should show it now
+
+437
+00:21:49,960 --> 00:21:52,059
+an interesting question is why are you
+
+438
+00:21:52,059 --> 00:21:54,190
+showing numeric data using color because
+
+439
+00:21:54,190 --> 00:21:55,779
+we just talked about how things like
+
+440
+00:21:55,779 --> 00:21:58,419
+position length and so far it's there's
+
+441
+00:21:58,419 --> 00:22:00,970
+so much better for communicating numbers
+
+442
+00:22:00,970 --> 00:22:03,129
+on the other hand if you remember back
+
+443
+00:22:03,129 --> 00:22:04,840
+to that wind map that I show the final
+
+444
+00:22:04,840 --> 00:22:06,820
+one on the globe the point there is that
+
+445
+00:22:06,820 --> 00:22:08,139
+if you wanted to show something like
+
+446
+00:22:08,139 --> 00:22:10,419
+temperature pressure or so forth you
+
+447
+00:22:10,419 --> 00:22:12,129
+would already used up all your spatial
+
+448
+00:22:12,129 --> 00:22:13,870
+dimensions so color was essentially one
+
+449
+00:22:13,870 --> 00:22:16,179
+of the few things you have left and for
+
+450
+00:22:16,179 --> 00:22:18,000
+this reason color is very important on
+
+451
+00:22:18,000 --> 00:22:20,620
+they so rogowitz entrain ish did a
+
+452
+00:22:20,620 --> 00:22:24,759
+series of careful studies where they
+
+453
+00:22:24,759 --> 00:22:26,799
+would take the same data in this case I
+
+454
+00:22:26,799 --> 00:22:29,470
+think it's an MRI scan they would I sort
+
+455
+00:22:29,470 --> 00:22:31,240
+of display it using all sorts of
+
+456
+00:22:31,240 --> 00:22:33,070
+different color scales and they came to
+
+457
+00:22:33,070 --> 00:22:34,659
+sort of some interesting conclusions so
+
+458
+00:22:34,659 --> 00:22:37,230
+one is that they found that for
+
+459
+00:22:37,230 --> 00:22:39,940
+high-frequency components luminance is
+
+460
+00:22:39,940 --> 00:22:43,269
+the best thing to sort of much easier to
+
+461
+00:22:43,269 --> 00:22:46,149
+see and you can essentially you know
+
+462
+00:22:46,149 --> 00:22:48,970
+make sense of numbers best that way hue
+
+463
+00:22:48,970 --> 00:22:50,379
+is actually somewhat better for
+
+464
+00:22:50,379 --> 00:22:52,450
+low-frequency components one thing that
+
+465
+00:22:52,450 --> 00:22:53,710
+they did discover though even though
+
+466
+00:22:53,710 --> 00:22:55,990
+there's no best scale is it in many ways
+
+467
+00:22:55,990 --> 00:22:58,240
+a rainbow scale one of the most popular
+
+468
+00:22:58,240 --> 00:23:00,129
+things is actually really bad that it
+
+469
+00:23:00,129 --> 00:23:02,080
+has all sorts of weird optical illusions
+
+470
+00:23:02,080 --> 00:23:03,759
+that occur in it and then the less
+
+471
+00:23:03,759 --> 00:23:07,360
+decades later people still use it
+
+472
+00:23:07,360 --> 00:23:10,240
+practically speaking so how do you make
+
+473
+00:23:10,240 --> 00:23:12,670
+sense of all of these different types of
+
+474
+00:23:12,670 --> 00:23:15,190
+colors so there's a lot of theory and
+
+475
+00:23:15,190 --> 00:23:16,660
+one of the things that I would say is
+
+476
+00:23:16,660 --> 00:23:19,420
+that a great way to use these things of
+
+477
+00:23:19,420 --> 00:23:21,100
+practice is to go to a site called color
+
+478
+00:23:21,100 --> 00:23:21,550
+Brewer
+
+479
+00:23:21,550 --> 00:23:24,460
+and this was created by symphony cynthia
+
+480
+00:23:24,460 --> 00:23:24,940
+brewer
+
+481
+00:23:24,940 --> 00:23:28,750
+she's a cartographer its color Brewer 2
+
+482
+00:23:28,750 --> 00:23:31,450
+org and it's actually a very beautiful
+
+483
+00:23:31,450 --> 00:23:34,000
+site on a number of levels so one thing
+
+484
+00:23:34,000 --> 00:23:35,950
+that's cool is it will let you try out
+
+485
+00:23:35,950 --> 00:23:38,410
+different palettes on in sort of
+
+486
+00:23:38,410 --> 00:23:41,020
+realistic settings so what we're showing
+
+487
+00:23:41,020 --> 00:23:43,900
+here is he has kind of a sample set of
+
+488
+00:23:43,900 --> 00:23:46,300
+data at what looks like maybe city level
+
+489
+00:23:46,300 --> 00:23:51,370
+or county level on map and then you can
+
+490
+00:23:51,370 --> 00:23:53,710
+try out different scales and see what
+
+491
+00:23:53,710 --> 00:23:56,680
+they look like these are sort of multi
+
+492
+00:23:56,680 --> 00:24:01,300
+hue you can try single hue you can these
+
+493
+00:24:01,300 --> 00:24:02,890
+are all sequential scales in which
+
+494
+00:24:02,890 --> 00:24:04,240
+you've got some number that's
+
+495
+00:24:04,240 --> 00:24:06,460
+monotonically sort of increasing that's
+
+496
+00:24:06,460 --> 00:24:09,340
+that's all that you care about you could
+
+497
+00:24:09,340 --> 00:24:11,530
+also try different diverging scales so
+
+498
+00:24:11,530 --> 00:24:14,800
+if sometimes there's a special unit for
+
+499
+00:24:14,800 --> 00:24:16,660
+example in many cases positive numbers
+
+500
+00:24:16,660 --> 00:24:18,220
+and negative numbers means very very
+
+501
+00:24:18,220 --> 00:24:20,380
+different things and in those cases you
+
+502
+00:24:20,380 --> 00:24:21,970
+might want a diverging scale in which
+
+503
+00:24:21,970 --> 00:24:23,710
+two ends of the scale look very
+
+504
+00:24:23,710 --> 00:24:26,890
+different you can also try different
+
+505
+00:24:26,890 --> 00:24:28,270
+qualitative scales where maybe you don't
+
+506
+00:24:28,270 --> 00:24:30,610
+want to have any sense of a sequence and
+
+507
+00:24:30,610 --> 00:24:32,440
+in that case you want a set of colors
+
+508
+00:24:32,440 --> 00:24:35,080
+that doesn't convey any sort of sequence
+
+509
+00:24:35,080 --> 00:24:38,710
+in the same way that these ones do so as
+
+510
+00:24:38,710 --> 00:24:40,570
+of both a practical tool and a way to
+
+511
+00:24:40,570 --> 00:24:42,430
+learn about these colors strong
+
+512
+00:24:42,430 --> 00:24:44,050
+recommendation for the color brewery
+
+513
+00:24:44,050 --> 00:24:47,380
+site so just one more thing I think is
+
+514
+00:24:47,380 --> 00:24:49,600
+really important here when you're
+
+515
+00:24:49,600 --> 00:24:52,090
+talking about categorical data or these
+
+516
+00:24:52,090 --> 00:24:55,840
+diverging palettes one of the tricks is
+
+517
+00:24:55,840 --> 00:24:58,240
+to make sure that your cut you choose a
+
+518
+00:24:58,240 --> 00:25:00,250
+color palette where one color doesn't
+
+519
+00:25:00,250 --> 00:25:02,890
+look more important than the other right
+
+520
+00:25:02,890 --> 00:25:05,500
+one color should not pop up and the
+
+521
+00:25:05,500 --> 00:25:07,600
+others receive because that can be
+
+522
+00:25:07,600 --> 00:25:09,850
+perceived as one category being more
+
+523
+00:25:09,850 --> 00:25:11,620
+important than the other so that's why
+
+524
+00:25:11,620 --> 00:25:12,500
+having
+
+525
+00:25:12,500 --> 00:25:15,500
+tools like color blue Brewer is really
+
+526
+00:25:15,500 --> 00:25:18,080
+helpful because the the palette has been
+
+527
+00:25:18,080 --> 00:25:20,510
+balanced from a perceptual perspective
+
+528
+00:25:20,510 --> 00:25:22,040
+to make sure that everything kind of
+
+529
+00:25:22,040 --> 00:25:26,200
+looks like it has the same importance
+
+530
+00:25:34,250 --> 00:25:38,000
+okay okay and the thing that would
+
+531
+00:25:38,000 --> 00:25:39,799
+emphasize is that this is a genuinely
+
+532
+00:25:39,799 --> 00:25:42,590
+subtle art picking the right color and
+
+533
+00:25:42,590 --> 00:25:44,590
+in fact there's been you know very
+
+534
+00:25:44,590 --> 00:25:46,520
+active research and the visualization
+
+535
+00:25:46,520 --> 00:25:48,980
+community to this day one thing I would
+
+536
+00:25:48,980 --> 00:25:50,330
+just sort of point out as an interesting
+
+537
+00:25:50,330 --> 00:25:51,679
+paper if you do want to read more about
+
+538
+00:25:51,679 --> 00:25:54,760
+this is this recent paper from CAI and
+
+539
+00:25:54,760 --> 00:25:58,010
+they tested a whole bunch of color
+
+540
+00:25:58,010 --> 00:26:00,080
+scales that had been put together by
+
+541
+00:26:00,080 --> 00:26:01,820
+people who had you know knew something
+
+542
+00:26:01,820 --> 00:26:04,640
+about perception plus the rainbow color
+
+543
+00:26:04,640 --> 00:26:07,159
+scale just to kind of bash it and they
+
+544
+00:26:07,159 --> 00:26:08,990
+did a wide variety of sort of human
+
+545
+00:26:08,990 --> 00:26:11,150
+subject studies and it essentially
+
+546
+00:26:11,150 --> 00:26:13,100
+confirmed the rainbow color scale is not
+
+547
+00:26:13,100 --> 00:26:15,740
+very good other ones are better but it's
+
+548
+00:26:15,740 --> 00:26:17,510
+a subtle art and it's hard to find
+
+549
+00:26:17,510 --> 00:26:19,100
+significant differences between the top
+
+550
+00:26:19,100 --> 00:26:21,590
+ones one thing that's critical though is
+
+551
+00:26:21,590 --> 00:26:23,570
+all of these color scales kind of
+
+552
+00:26:23,570 --> 00:26:26,240
+collapse in a crazy way if you're
+
+553
+00:26:26,240 --> 00:26:28,250
+colorblind and it's important to
+
+554
+00:26:28,250 --> 00:26:29,179
+remember the actually a fairly
+
+555
+00:26:29,179 --> 00:26:30,710
+significant number of people have
+
+556
+00:26:30,710 --> 00:26:33,350
+trouble in some aspect of colorblindness
+
+557
+00:26:33,350 --> 00:26:36,679
+most typically sort of red-green color
+
+558
+00:26:36,679 --> 00:26:39,679
+blindness is a super common something
+
+559
+00:26:39,679 --> 00:26:41,210
+like eight to ten percent of men have
+
+560
+00:26:41,210 --> 00:26:44,720
+that and if you have that kind of
+
+561
+00:26:44,720 --> 00:26:45,409
+colorblindness
+
+562
+00:26:45,409 --> 00:26:47,870
+this is exactly what all of these
+
+563
+00:26:47,870 --> 00:26:50,419
+beautiful color scales look like to you
+
+564
+00:26:50,419 --> 00:26:52,909
+and so it's important if you are making
+
+565
+00:26:52,909 --> 00:26:54,770
+a general tool something that's not just
+
+566
+00:26:54,770 --> 00:26:56,690
+for you to look at but something that's
+
+567
+00:26:56,690 --> 00:26:59,600
+very general to think hard about what is
+
+568
+00:26:59,600 --> 00:27:01,130
+a safe thing to do so for instance
+
+569
+00:27:01,130 --> 00:27:04,159
+there's the blue orange scale down here
+
+570
+00:27:04,159 --> 00:27:05,840
+and you can see that actually survives
+
+571
+00:27:05,840 --> 00:27:07,730
+pretty well for a colorblind person
+
+572
+00:27:07,730 --> 00:27:10,400
+whereas some of these other things you
+
+573
+00:27:10,400 --> 00:27:11,990
+know certainly like the rainbow map
+
+574
+00:27:11,990 --> 00:27:13,490
+doesn't look good at all and some of the
+
+575
+00:27:13,490 --> 00:27:19,580
+other things are very hard okay all
+
+576
+00:27:19,580 --> 00:27:21,940
+right so now
+
+577
+00:27:21,940 --> 00:27:23,920
+let's talk a little bit about one of my
+
+578
+00:27:23,920 --> 00:27:26,170
+favorite things one of my favorite
+
+579
+00:27:26,170 --> 00:27:29,050
+superpowers in data visualization it's
+
+580
+00:27:29,050 --> 00:27:30,250
+what we call pre-attentive processing
+
+581
+00:27:30,250 --> 00:27:32,560
+and it goes back to a little bit to what
+
+582
+00:27:32,560 --> 00:27:34,060
+Martin was saying about our mind
+
+583
+00:27:34,060 --> 00:27:36,370
+function our visual system functioning
+
+584
+00:27:36,370 --> 00:27:41,470
+like a GPU it turns out that we're
+
+585
+00:27:41,470 --> 00:27:43,570
+really good if we're giving the right
+
+586
+00:27:43,570 --> 00:27:45,100
+stimuli I'm gonna go back a little bit
+
+587
+00:27:45,100 --> 00:27:48,400
+if we're giving the right kind of visual
+
+588
+00:27:48,400 --> 00:27:52,200
+stimuli our our visual system just
+
+589
+00:27:52,200 --> 00:27:55,840
+worked super fast incredibly fast faster
+
+590
+00:27:55,840 --> 00:27:59,440
+than you moving your eyes okay so to
+
+591
+00:27:59,440 --> 00:28:01,540
+give you an example of this let's look
+
+592
+00:28:01,540 --> 00:28:03,520
+at these numbers and let's count the
+
+593
+00:28:03,520 --> 00:28:10,150
+fives number five and now let's count
+
+594
+00:28:10,150 --> 00:28:13,750
+the fives again okay so this is how fast
+
+595
+00:28:13,750 --> 00:28:17,680
+it is as long as we encode the stimuli
+
+596
+00:28:17,680 --> 00:28:20,560
+in a way that takes advantage of this
+
+597
+00:28:20,560 --> 00:28:23,560
+pre-processing power we have it just
+
+598
+00:28:23,560 --> 00:28:26,740
+works you don't even have to try so how
+
+599
+00:28:26,740 --> 00:28:29,050
+do we do this it turns out that there is
+
+600
+00:28:29,050 --> 00:28:31,390
+theory behind this that there are
+
+601
+00:28:31,390 --> 00:28:34,090
+certain things we are acutely aware of
+
+602
+00:28:34,090 --> 00:28:38,710
+visually one of them is is color just
+
+603
+00:28:38,710 --> 00:28:40,180
+like what you just saw with the number
+
+604
+00:28:40,180 --> 00:28:42,550
+Five's but there are other things too
+
+605
+00:28:42,550 --> 00:28:44,440
+there are difference in differences in
+
+606
+00:28:44,440 --> 00:28:48,040
+shapes differences in alignment there's
+
+607
+00:28:48,040 --> 00:28:50,250
+a bunch of different things you can use
+
+608
+00:28:50,250 --> 00:28:54,070
+that will just work incredibly fast for
+
+609
+00:28:54,070 --> 00:28:57,460
+your reviewers here's just insert
+
+610
+00:28:57,460 --> 00:28:59,110
+something as we talked about this which
+
+611
+00:28:59,110 --> 00:29:01,390
+is that it doesn't mean that all of
+
+612
+00:29:01,390 --> 00:29:04,120
+these are equally good so one thing that
+
+613
+00:29:04,120 --> 00:29:05,770
+is pre-attentive for example is
+
+614
+00:29:05,770 --> 00:29:07,960
+sharpness versus blurriness and in fact
+
+615
+00:29:07,960 --> 00:29:10,840
+that has been explored as something that
+
+616
+00:29:10,840 --> 00:29:13,000
+is a way of encoding data I would say if
+
+617
+00:29:13,000 --> 00:29:15,220
+you absolutely have to you could
+
+618
+00:29:15,220 --> 00:29:17,200
+consider that but if not be careful
+
+619
+00:29:17,200 --> 00:29:18,300
+because it turns out to be incredibly
+
+620
+00:29:18,300 --> 00:29:20,230
+fatiguing to look at all the blurry
+
+621
+00:29:20,230 --> 00:29:22,300
+stuff on the screen if you do that so
+
+622
+00:29:22,300 --> 00:29:24,190
+this is an example of the type of
+
+623
+00:29:24,190 --> 00:29:26,610
+trade-off that you see in visual agents
+
+624
+00:29:26,610 --> 00:29:29,800
+absolutely and so and and one of the
+
+625
+00:29:29,800 --> 00:29:32,050
+things that you get for free with these
+
+626
+00:29:32,050 --> 00:29:35,530
+kinds of visual encodings is that in a
+
+627
+00:29:35,530 --> 00:29:38,350
+sense no matter how many distractors you
+
+628
+00:29:38,350 --> 00:29:40,720
+have certain things are going to pop up
+
+629
+00:29:40,720 --> 00:29:43,360
+really really fast so things like color
+
+630
+00:29:43,360 --> 00:29:46,270
+again as long as you choose the right
+
+631
+00:29:46,270 --> 00:29:50,020
+color palette is going to pop up really
+
+632
+00:29:50,020 --> 00:29:53,050
+really well for people shape also tends
+
+633
+00:29:53,050 --> 00:29:54,790
+to be one of those things but again even
+
+634
+00:29:54,790 --> 00:29:58,720
+here for me as I look at the example one
+
+635
+00:29:58,720 --> 00:30:01,720
+color versus the example in shape color
+
+636
+00:30:01,720 --> 00:30:04,180
+for me where it's way faster way better
+
+637
+00:30:04,180 --> 00:30:06,820
+than shape so again these trade-offs
+
+638
+00:30:06,820 --> 00:30:09,400
+that Martin is talking about are really
+
+639
+00:30:09,400 --> 00:30:11,620
+important and chances are that your
+
+640
+00:30:11,620 --> 00:30:13,570
+visualization is never gonna be as
+
+641
+00:30:13,570 --> 00:30:16,750
+simple as this right it's probably going
+
+642
+00:30:16,750 --> 00:30:20,170
+to have multiple dimensions and so again
+
+643
+00:30:20,170 --> 00:30:22,410
+things are always a trade-off between
+
+644
+00:30:22,410 --> 00:30:26,020
+these visual stimuli your visual
+
+645
+00:30:26,020 --> 00:30:29,470
+encodings right but also everything on
+
+646
+00:30:29,470 --> 00:30:32,290
+the page everything that you're showing
+
+647
+00:30:32,290 --> 00:30:34,360
+at once and so this is something that
+
+648
+00:30:34,360 --> 00:30:37,420
+you have to constantly keep in mind just
+
+649
+00:30:37,420 --> 00:30:40,060
+very very simple thing to do when you're
+
+650
+00:30:40,060 --> 00:30:41,950
+if you are creating a visualization and
+
+651
+00:30:41,950 --> 00:30:43,540
+you aren't sure how well things are
+
+652
+00:30:43,540 --> 00:30:46,420
+working show it to other people show it
+
+653
+00:30:46,420 --> 00:30:48,070
+to people do who don't know your data
+
+654
+00:30:48,070 --> 00:30:50,040
+don't know what you're trying to look at
+
+655
+00:30:50,040 --> 00:30:52,870
+ask them is this working for you what do
+
+656
+00:30:52,870 --> 00:30:54,630
+you see here okay
+
+657
+00:30:54,630 --> 00:30:58,770
+here's an example this is not about a
+
+658
+00:30:58,770 --> 00:31:01,480
+visualization of data but this is a
+
+659
+00:31:01,480 --> 00:31:04,840
+really complicated diagram of parts of a
+
+660
+00:31:04,840 --> 00:31:08,380
+machine they're all labeled and so if I
+
+661
+00:31:08,380 --> 00:31:10,660
+were to ask you okay can you can you
+
+662
+00:31:10,660 --> 00:31:13,750
+find number and they are numbered right
+
+663
+00:31:13,750 --> 00:31:16,270
+there are hundreds of parts if I were to
+
+664
+00:31:16,270 --> 00:31:20,650
+ask you can you find number 57 it takes
+
+665
+00:31:20,650 --> 00:31:23,620
+a while right one thing you could do is
+
+666
+00:31:23,620 --> 00:31:27,160
+to layer things so now I'm using two
+
+667
+00:31:27,160 --> 00:31:29,710
+different colors and again it's still a
+
+668
+00:31:29,710 --> 00:31:32,530
+ton of stuff it's it's not gonna just
+
+669
+00:31:32,530 --> 00:31:34,540
+number fifty seven is not gonna pop up
+
+670
+00:31:34,540 --> 00:31:37,750
+to me but it's going to be much faster
+
+671
+00:31:37,750 --> 00:31:39,290
+for me to just be like
+
+672
+00:31:39,290 --> 00:31:41,600
+now I'm paying attention to numbers so
+
+673
+00:31:41,600 --> 00:31:43,280
+I'm only paying attention to read things
+
+674
+00:31:43,280 --> 00:31:46,880
+okay think about this as you're thinking
+
+675
+00:31:46,880 --> 00:31:49,910
+about layering multiple pieces of
+
+676
+00:31:49,910 --> 00:31:55,400
+information on your visualization okay
+
+677
+00:31:55,400 --> 00:31:57,920
+what else can you do well you can your
+
+678
+00:31:57,920 --> 00:31:59,750
+brain can calculate with visual
+
+679
+00:31:59,750 --> 00:32:02,530
+information there's a whole set of
+
+680
+00:32:02,530 --> 00:32:04,490
+perceptual research and you can also
+
+681
+00:32:04,490 --> 00:32:06,350
+kind of sense this in yourself if you
+
+682
+00:32:06,350 --> 00:32:08,300
+introspect one thing that is kind of
+
+683
+00:32:08,300 --> 00:32:11,000
+fascinating is a set of work done by Dan
+
+684
+00:32:11,000 --> 00:32:14,660
+Ariely where he showed that you can
+
+685
+00:32:14,660 --> 00:32:17,930
+average visual variables so for example
+
+686
+00:32:17,930 --> 00:32:19,790
+if you see a whole bunch of circles and
+
+687
+00:32:19,790 --> 00:32:22,730
+then ask person to compare say show a
+
+688
+00:32:22,730 --> 00:32:24,530
+person a single circle and say is that
+
+689
+00:32:24,530 --> 00:32:27,560
+single circle bigger or smaller than the
+
+690
+00:32:27,560 --> 00:32:29,990
+average size of that set people are
+
+691
+00:32:29,990 --> 00:32:32,270
+extraordinarily accurate at this way
+
+692
+00:32:32,270 --> 00:32:34,370
+more so than you would expect and they
+
+693
+00:32:34,370 --> 00:32:36,680
+can do it very very quickly and it's an
+
+694
+00:32:36,680 --> 00:32:38,060
+example basically of something you get
+
+695
+00:32:38,060 --> 00:32:39,830
+for free it's like wow we just have this
+
+696
+00:32:39,830 --> 00:32:41,660
+calculator in our head that you know if
+
+697
+00:32:41,660 --> 00:32:42,920
+I gave you a whole set of numbers
+
+698
+00:32:42,920 --> 00:32:44,270
+written down and asked you to calculate
+
+699
+00:32:44,270 --> 00:32:46,280
+the average it would be kind of hard but
+
+700
+00:32:46,280 --> 00:32:48,950
+your eye can do this very quickly um you
+
+701
+00:32:48,950 --> 00:32:51,350
+can use this to do weighted averages as
+
+702
+00:32:51,350 --> 00:32:52,670
+well and here I'm going to show you
+
+703
+00:32:52,670 --> 00:32:57,110
+rather than a piece of psychology I'm
+
+704
+00:32:57,110 --> 00:32:59,620
+going to show you
+
+705
+00:33:07,970 --> 00:33:13,120
+well chrome comeback
+
+706
+00:33:17,870 --> 00:33:19,370
+we're hoping it's good ah there we go
+
+707
+00:33:19,370 --> 00:33:23,090
+okay good the internet gods have smiled
+
+708
+00:33:23,090 --> 00:33:25,610
+on this okay so this is a visualization
+
+709
+00:33:25,610 --> 00:33:30,110
+of the stock market this is something
+
+710
+00:33:30,110 --> 00:33:31,250
+there's actually a whole traditional
+
+711
+00:33:31,250 --> 00:33:33,289
+visualizing the stock market in this way
+
+712
+00:33:33,289 --> 00:33:35,480
+which I'm fond of because I it's one of
+
+713
+00:33:35,480 --> 00:33:37,730
+the places where I started my career but
+
+714
+00:33:37,730 --> 00:33:42,490
+this is not created by I either of us
+
+715
+00:33:46,000 --> 00:33:47,600
+there okay
+
+716
+00:33:47,600 --> 00:33:51,049
+gone all right and what you're saying is
+
+717
+00:33:51,049 --> 00:33:53,000
+is essentially hundreds of publicly
+
+718
+00:33:53,000 --> 00:33:55,940
+traded companies on each rectangle
+
+719
+00:33:55,940 --> 00:33:58,820
+represents a company the area of a
+
+720
+00:33:58,820 --> 00:34:01,130
+rectangle represents the market
+
+721
+00:34:01,130 --> 00:34:03,260
+capitalization the color tells you how
+
+722
+00:34:03,260 --> 00:34:04,880
+it's doing in the market today so I'm
+
+723
+00:34:04,880 --> 00:34:06,620
+happy to say the market overall looks
+
+724
+00:34:06,620 --> 00:34:09,168
+sort of reasonable Green is good
+
+725
+00:34:09,168 --> 00:34:11,839
+meaning it's gone up red is means has
+
+726
+00:34:11,839 --> 00:34:13,639
+gone down I think this would be an
+
+727
+00:34:13,639 --> 00:34:15,440
+example of something where you could
+
+728
+00:34:15,440 --> 00:34:17,480
+quibble with the color scale this
+
+729
+00:34:17,480 --> 00:34:19,699
+red-green color scale although it is
+
+730
+00:34:19,699 --> 00:34:23,480
+classic for Wall Street is very bad for
+
+731
+00:34:23,480 --> 00:34:26,540
+people who are colorblind so were i
+
+732
+00:34:26,540 --> 00:34:28,219
+creating something like this in fact I
+
+733
+00:34:28,219 --> 00:34:29,599
+was doing things like this at one point
+
+734
+00:34:29,599 --> 00:34:32,179
+we'd always have a sort of blue orange
+
+735
+00:34:32,179 --> 00:34:34,969
+or blue green blue yellow color scale as
+
+736
+00:34:34,969 --> 00:34:37,399
+well but why does this work well one of
+
+737
+00:34:37,399 --> 00:34:38,810
+the things that's nice about this is
+
+738
+00:34:38,810 --> 00:34:40,940
+that all of these companies have been
+
+739
+00:34:40,940 --> 00:34:43,609
+arranged by sector and by sub sector and
+
+740
+00:34:43,609 --> 00:34:46,190
+so that means that you can take a look
+
+741
+00:34:46,190 --> 00:34:48,918
+at this and immediately see patterns you
+
+742
+00:34:48,918 --> 00:34:50,899
+can say aha okay so actually the tech
+
+743
+00:34:50,899 --> 00:34:52,750
+companies are doing pretty well overall
+
+744
+00:34:52,750 --> 00:34:55,219
+you sort of average that out to green
+
+745
+00:34:55,219 --> 00:34:57,139
+but then you can also see wait there's
+
+746
+00:34:57,139 --> 00:34:59,420
+one little section that as a whole is
+
+747
+00:34:59,420 --> 00:35:01,910
+not doing that bad well and meanwhile
+
+748
+00:35:01,910 --> 00:35:03,440
+there's a bunch of like very mixed
+
+749
+00:35:03,440 --> 00:35:05,630
+activity up here in basic materials and
+
+750
+00:35:05,630 --> 00:35:07,790
+so forth so this technique calls a
+
+751
+00:35:07,790 --> 00:35:10,430
+treatment called a treemap uses your
+
+752
+00:35:10,430 --> 00:35:12,200
+eyes ability to see these sort of
+
+753
+00:35:12,200 --> 00:35:14,960
+averages essentially and do a lot of
+
+754
+00:35:14,960 --> 00:35:16,849
+calculations very quickly again if you
+
+755
+00:35:16,849 --> 00:35:18,500
+compare this the alternative looking at
+
+756
+00:35:18,500 --> 00:35:20,060
+the stock quote pages in an
+
+757
+00:35:20,060 --> 00:35:22,670
+old-fashioned printed newspaper it would
+
+758
+00:35:22,670 --> 00:35:26,660
+not nearly be not nearly as good okay so
+
+759
+00:35:26,660 --> 00:35:29,540
+that is weighted averages on other
+
+760
+00:35:29,540 --> 00:35:31,820
+things we can do so there's
+
+761
+00:35:31,820 --> 00:35:34,550
+a famous diagram in astronomy the
+
+762
+00:35:34,550 --> 00:35:35,840
+hertzsprung-russell diagram that
+
+763
+00:35:35,840 --> 00:35:38,680
+essentially is plotting four stars on
+
+764
+00:35:38,680 --> 00:35:41,450
+luminosity versus heat and various
+
+765
+00:35:41,450 --> 00:35:43,490
+versions of this diagram have existed
+
+766
+00:35:43,490 --> 00:35:44,990
+for more than a hundred years this is
+
+767
+00:35:44,990 --> 00:35:46,400
+actually I think one of the very first
+
+768
+00:35:46,400 --> 00:35:48,740
+scatter plots you scientifically you see
+
+769
+00:35:48,740 --> 00:35:50,600
+a modern version here now what's
+
+770
+00:35:50,600 --> 00:35:52,970
+interesting about this is that when you
+
+771
+00:35:52,970 --> 00:35:55,070
+make this plot you see a very clear
+
+772
+00:35:55,070 --> 00:35:58,100
+pattern right there's this sort of long
+
+773
+00:35:58,100 --> 00:36:00,110
+thing here is typically astronomers
+
+774
+00:36:00,110 --> 00:36:01,880
+called the main-sequence there's many
+
+775
+00:36:01,880 --> 00:36:04,160
+many stars in this area but it's not a
+
+776
+00:36:04,160 --> 00:36:06,290
+line it's a little bit you know wavy and
+
+777
+00:36:06,290 --> 00:36:08,180
+then there are these clusters up here
+
+778
+00:36:08,180 --> 00:36:09,590
+and then there's actually a very sparse
+
+779
+00:36:09,590 --> 00:36:11,210
+sequence down there that you can find
+
+780
+00:36:11,210 --> 00:36:14,270
+and your eye just picks this up
+
+781
+00:36:14,270 --> 00:36:16,580
+immediately it's like you see this
+
+782
+00:36:16,580 --> 00:36:18,350
+probability distribution essentially
+
+783
+00:36:18,350 --> 00:36:20,300
+right away and you don't see this as a
+
+784
+00:36:20,300 --> 00:36:21,890
+set of dots you really do see this as
+
+785
+00:36:21,890 --> 00:36:24,320
+like ah okay it's very dense here it's
+
+786
+00:36:24,320 --> 00:36:26,450
+less dense there really your brain is
+
+787
+00:36:26,450 --> 00:36:27,620
+essentially doing kernel density
+
+788
+00:36:27,620 --> 00:36:30,770
+estimation and it's doing it for free so
+
+789
+00:36:30,770 --> 00:36:32,150
+again something that you can take
+
+790
+00:36:32,150 --> 00:36:34,640
+advantage I very effectively okay the
+
+791
+00:36:34,640 --> 00:36:36,260
+final thing is how do visualizations
+
+792
+00:36:36,260 --> 00:36:38,810
+work on computers what is added beyond
+
+793
+00:36:38,810 --> 00:36:41,000
+the static kind of image we have and
+
+794
+00:36:41,000 --> 00:36:43,430
+they're they're a couple of key things
+
+795
+00:36:43,430 --> 00:36:46,070
+on interaction is the main one and then
+
+796
+00:36:46,070 --> 00:36:48,290
+also on the web helping people converse
+
+797
+00:36:48,290 --> 00:36:49,820
+and collaborate we won't be talking
+
+798
+00:36:49,820 --> 00:36:51,620
+about that as much but I do want to talk
+
+799
+00:36:51,620 --> 00:36:55,160
+a little bit about interaction so there
+
+800
+00:36:55,160 --> 00:36:56,540
+are a couple of ways of thinking about
+
+801
+00:36:56,540 --> 00:37:00,230
+interaction one of my favorite practical
+
+802
+00:37:00,230 --> 00:37:01,790
+things again is more than twenty years
+
+803
+00:37:01,790 --> 00:37:03,440
+old it comes from ben shneiderman
+
+804
+00:37:03,440 --> 00:37:05,570
+he calls it a mantra that when you are
+
+805
+00:37:05,570 --> 00:37:07,820
+thinking about a visualization you think
+
+806
+00:37:07,820 --> 00:37:09,260
+okay I'm gonna design this so that
+
+807
+00:37:09,260 --> 00:37:11,990
+people get an overview first then they
+
+808
+00:37:11,990 --> 00:37:14,270
+can zoom and filter and then they're get
+
+809
+00:37:14,270 --> 00:37:17,540
+details-on-demand if they want and as we
+
+810
+00:37:17,540 --> 00:37:20,210
+show visualizations today we will prefer
+
+811
+00:37:20,210 --> 00:37:22,310
+back to this at various points it's
+
+812
+00:37:22,310 --> 00:37:24,500
+funny he actually uh you know thought
+
+813
+00:37:24,500 --> 00:37:26,540
+this was so important that he wrote this
+
+814
+00:37:26,540 --> 00:37:28,340
+article where he had repeated this
+
+815
+00:37:28,340 --> 00:37:29,990
+monitor over and over again for every
+
+816
+00:37:29,990 --> 00:37:31,670
+project work he's forgotten it and was
+
+817
+00:37:31,670 --> 00:37:35,050
+unhappy I'm gonna show a demo
+
+818
+00:37:35,050 --> 00:37:36,670
+Oh actually you know we had might have
+
+819
+00:37:36,670 --> 00:37:42,220
+that already yeah okay and let's go
+
+820
+00:37:42,220 --> 00:37:46,810
+fullscreen okay this shows us so here we
+
+821
+00:37:46,810 --> 00:37:51,100
+have a map that is showing essentially
+
+822
+00:37:51,100 --> 00:37:53,860
+every person in the United States this
+
+823
+00:37:53,860 --> 00:37:58,060
+is based on census data and from 2010
+
+824
+00:37:58,060 --> 00:38:01,060
+and you can see right away you get this
+
+825
+00:38:01,060 --> 00:38:03,130
+overview you sort of see the shape of
+
+826
+00:38:03,130 --> 00:38:05,110
+the US by the way we've looked for one
+
+827
+00:38:05,110 --> 00:38:06,670
+for Canada and unfortunately doesn't
+
+828
+00:38:06,670 --> 00:38:08,700
+exist there is one for Brazil though
+
+829
+00:38:08,700 --> 00:38:10,870
+what you're seeing here is each dot
+
+830
+00:38:10,870 --> 00:38:13,540
+represents a person and the location of
+
+831
+00:38:13,540 --> 00:38:15,190
+the dot it's not quite down to the House
+
+832
+00:38:15,190 --> 00:38:16,510
+level I think that would be an invasion
+
+833
+00:38:16,510 --> 00:38:18,790
+of privacy and the census doesn't make
+
+834
+00:38:18,790 --> 00:38:21,040
+that level of data available for 2010
+
+835
+00:38:21,040 --> 00:38:22,420
+but it's very close it's down
+
+836
+00:38:22,420 --> 00:38:24,070
+essentially to a neighborhood level and
+
+837
+00:38:24,070 --> 00:38:27,040
+the color of the dot tells you that the
+
+838
+00:38:27,040 --> 00:38:28,930
+the race that the person who filled out
+
+839
+00:38:28,930 --> 00:38:31,650
+the census form identified with and
+
+840
+00:38:31,650 --> 00:38:34,390
+immediately just looking at this you've
+
+841
+00:38:34,390 --> 00:38:36,280
+got this overview this you can start to
+
+842
+00:38:36,280 --> 00:38:38,920
+see like okay there's these broad swaths
+
+843
+00:38:38,920 --> 00:38:40,750
+of blue in the middle of the country
+
+844
+00:38:40,750 --> 00:38:42,760
+that corresponds to white you can but
+
+845
+00:38:42,760 --> 00:38:44,020
+you can see sort of these much more
+
+846
+00:38:44,020 --> 00:38:47,020
+colorful areas where their cities let's
+
+847
+00:38:47,020 --> 00:38:49,450
+say I think a bunch of people are from
+
+848
+00:38:49,450 --> 00:38:52,780
+California I'm guessing so now comes
+
+849
+00:38:52,780 --> 00:38:56,400
+we've seen the overview let's zoom in
+
+850
+00:38:56,400 --> 00:39:02,250
+and you actually can start to see let's
+
+851
+00:39:02,250 --> 00:39:06,490
+go to San Francisco for example and you
+
+852
+00:39:06,490 --> 00:39:08,380
+can start to see actually very strong
+
+853
+00:39:08,380 --> 00:39:11,770
+patterns of it's not equally mixed
+
+854
+00:39:11,770 --> 00:39:14,590
+there's a clear sort of housing
+
+855
+00:39:14,590 --> 00:39:16,770
+segregation
+
+856
+00:39:17,640 --> 00:39:19,800
+if I add the math labels you can
+
+857
+00:39:19,800 --> 00:39:22,589
+actually get some streets you can start
+
+858
+00:39:22,589 --> 00:39:24,839
+to see neighborhoods and you can start
+
+859
+00:39:24,839 --> 00:39:26,369
+to see essentially a lot of the history
+
+860
+00:39:26,369 --> 00:39:29,280
+of the United States and including some
+
+861
+00:39:29,280 --> 00:39:32,010
+fairly unfortunate history written in to
+
+862
+00:39:32,010 --> 00:39:34,470
+the census that we see today and this is
+
+863
+00:39:34,470 --> 00:39:37,520
+something that I think is an incredibly
+
+864
+00:39:37,520 --> 00:39:40,319
+interesting map you can see all sorts of
+
+865
+00:39:40,319 --> 00:39:43,069
+you every city has its own particular
+
+866
+00:39:43,069 --> 00:39:46,380
+thumbprint you can see the if Chicago is
+
+867
+00:39:46,380 --> 00:39:49,050
+another very very interesting one and
+
+868
+00:39:49,050 --> 00:39:51,210
+the idea is that you can very seamlessly
+
+869
+00:39:51,210 --> 00:39:54,270
+move between the big view of the whole
+
+870
+00:39:54,270 --> 00:39:56,609
+country and the small view all the way
+
+871
+00:39:56,609 --> 00:39:59,160
+down to sort of individual dots and if
+
+872
+00:39:59,160 --> 00:40:00,660
+you do want details if you do want these
+
+873
+00:40:00,660 --> 00:40:02,790
+labels you can just add them in and I
+
+874
+00:40:02,790 --> 00:40:05,280
+think this is sort of a great example of
+
+875
+00:40:05,280 --> 00:40:14,760
+that type of transition just one more
+
+876
+00:40:14,760 --> 00:40:16,559
+thing I want to add here that I think is
+
+877
+00:40:16,559 --> 00:40:21,119
+interesting is this visualization is
+
+878
+00:40:21,119 --> 00:40:22,920
+again taking advantage of those
+
+879
+00:40:22,920 --> 00:40:26,130
+superpowers so I just took out all of
+
+880
+00:40:26,130 --> 00:40:28,819
+the map information there is no map here
+
+881
+00:40:28,819 --> 00:40:32,660
+literally it's a bunch of dots on white
+
+882
+00:40:32,660 --> 00:40:37,220
+and yet it looks like a map right
+
+883
+00:40:37,220 --> 00:40:40,559
+because our eyes are doing the gestalt
+
+884
+00:40:40,559 --> 00:40:44,099
+thing of closure so when I start putting
+
+885
+00:40:44,099 --> 00:40:47,190
+things close enough our eyes just fill
+
+886
+00:40:47,190 --> 00:40:50,369
+in the blanks that's why we can see
+
+887
+00:40:50,369 --> 00:40:53,099
+shapes but basically I'm just drawing a
+
+888
+00:40:53,099 --> 00:40:55,319
+bunch of dots on a white background I
+
+889
+00:40:55,319 --> 00:40:58,380
+don't have a map and yet it totally
+
+890
+00:40:58,380 --> 00:41:00,930
+looks like a map right so think about
+
+891
+00:41:00,930 --> 00:41:04,290
+the power again you cannot not see this
+
+892
+00:41:04,290 --> 00:41:07,549
+you see it
+
+893
+00:41:12,829 --> 00:41:15,640
+all right
+
+894
+00:41:15,820 --> 00:41:19,240
+okay so let's talk a little bit about
+
+895
+00:41:19,240 --> 00:41:21,370
+how you put these together one thing
+
+896
+00:41:21,370 --> 00:41:23,020
+that we thought would be really nice to
+
+897
+00:41:23,020 --> 00:41:25,330
+do actually is to talk about peoples of
+
+898
+00:41:25,330 --> 00:41:27,700
+numbers because every time we've talked
+
+899
+00:41:27,700 --> 00:41:29,530
+to machine learning teams and we spent a
+
+900
+00:41:29,530 --> 00:41:31,090
+lot of time inside of google talking to
+
+901
+00:41:31,090 --> 00:41:32,680
+different teams working with ml in
+
+902
+00:41:32,680 --> 00:41:34,960
+various forms and sometimes they come to
+
+903
+00:41:34,960 --> 00:41:36,760
+us and ask for visualizations often
+
+904
+00:41:36,760 --> 00:41:38,500
+they've seen something very fancy and
+
+905
+00:41:38,500 --> 00:41:41,530
+they want something very fancy but quite
+
+906
+00:41:41,530 --> 00:41:43,180
+often you look at what they're actually
+
+907
+00:41:43,180 --> 00:41:45,250
+seeing day to day and it's tables of
+
+908
+00:41:45,250 --> 00:41:47,260
+numbers and those numbers are important
+
+909
+00:41:47,260 --> 00:41:50,470
+and they're really hard to read and so
+
+910
+00:41:50,470 --> 00:41:52,090
+one of the things that I believe is that
+
+911
+00:41:52,090 --> 00:41:53,650
+almost the first thing you should try
+
+912
+00:41:53,650 --> 00:41:55,750
+and thinking about making any data
+
+913
+00:41:55,750 --> 00:41:58,030
+display you have better is to redesign
+
+914
+00:41:58,030 --> 00:42:00,100
+your tables and there's actually a
+
+915
+00:42:00,100 --> 00:42:01,780
+beautiful video from a place called
+
+916
+00:42:01,780 --> 00:42:03,430
+darkhorse analytics that we'd like to
+
+917
+00:42:03,430 --> 00:42:05,590
+show that sort of illustrates that's
+
+918
+00:42:05,590 --> 00:42:09,270
+about as well as anything I've ever seen
+
+919
+00:42:09,660 --> 00:42:12,100
+we're gonna hope the internet gods will
+
+920
+00:42:12,100 --> 00:42:15,630
+pay for us once again on this
+
+921
+00:42:19,810 --> 00:42:23,020
+okay so they start out with his bad
+
+922
+00:42:23,020 --> 00:42:25,840
+table they remove colors removed
+
+923
+00:42:25,840 --> 00:42:28,870
+gridlines in fact they remove all those
+
+924
+00:42:28,870 --> 00:42:35,920
+fills no borders look at watch this
+
+925
+00:42:35,920 --> 00:42:37,870
+alignment it's like you breathe easy
+
+926
+00:42:37,870 --> 00:42:44,740
+when things get aligned oh yes let's
+
+927
+00:42:44,740 --> 00:42:48,820
+resize those columns please oh look the
+
+928
+00:42:48,820 --> 00:42:53,200
+white space is working for us look at
+
+929
+00:42:53,200 --> 00:42:55,120
+them rounding the numbers look how much
+
+930
+00:42:55,120 --> 00:42:59,040
+better that is round your numbers folks
+
+931
+00:42:59,040 --> 00:43:01,360
+they don't like that font that's not the
+
+932
+00:43:01,360 --> 00:43:03,040
+worst thing in here and then you can add
+
+933
+00:43:03,040 --> 00:43:06,850
+emphasis once you have things yeah we're
+
+934
+00:43:06,850 --> 00:43:09,310
+gonna leave it again cuz it's fast but
+
+935
+00:43:09,310 --> 00:43:10,630
+that's normal right like that looked
+
+936
+00:43:10,630 --> 00:43:12,100
+like a normal thing but this is the N
+
+937
+00:43:12,100 --> 00:43:16,240
+table so think about how many things
+
+938
+00:43:16,240 --> 00:43:20,130
+they removed from the default
+
+939
+00:43:32,730 --> 00:43:35,370
+they left allowing some columns and
+
+940
+00:43:35,370 --> 00:43:37,940
+right-aligned others that's interesting
+
+941
+00:43:37,940 --> 00:43:40,770
+they write a line numbers because it's
+
+942
+00:43:40,770 --> 00:43:43,560
+easy easier visually for me to scan
+
+943
+00:43:43,560 --> 00:43:45,960
+numbers that are right aligned but it's
+
+944
+00:43:45,960 --> 00:43:48,120
+easier for me to scan text that is left
+
+945
+00:43:48,120 --> 00:43:50,420
+aligned
+
+946
+00:43:56,200 --> 00:43:59,829
+yeah so even though this is again
+
+947
+00:43:59,829 --> 00:44:00,720
+probably not the most glamorous
+
+948
+00:44:00,720 --> 00:44:02,559
+visualization you've seen all day I do
+
+949
+00:44:02,559 --> 00:44:04,930
+think that this is like 90 percent of
+
+950
+00:44:04,930 --> 00:44:06,670
+the time you can get a genuine
+
+951
+00:44:06,670 --> 00:44:09,430
+improvement in any data display system
+
+952
+00:44:09,430 --> 00:44:10,750
+you have by just following these
+
+953
+00:44:10,750 --> 00:44:18,210
+principles all right all right so now
+
+954
+00:44:18,210 --> 00:44:21,160
+some were common techniques that we
+
+955
+00:44:21,160 --> 00:44:23,079
+think could be very helpful in machine
+
+956
+00:44:23,079 --> 00:44:26,530
+learning land when you have a ton of
+
+957
+00:44:26,530 --> 00:44:29,470
+data high density there's something
+
+958
+00:44:29,470 --> 00:44:31,780
+called in small multiples which is
+
+959
+00:44:31,780 --> 00:44:36,160
+basically you repeat your chart over and
+
+960
+00:44:36,160 --> 00:44:38,410
+over again for each moment that is
+
+961
+00:44:38,410 --> 00:44:41,200
+important so what we're showing here is
+
+962
+00:44:41,200 --> 00:44:43,210
+a visualization that was on the New York
+
+963
+00:44:43,210 --> 00:44:46,410
+Times for a drought in the US over
+
+964
+00:44:46,410 --> 00:44:50,079
+decades so each one of these rows is a
+
+965
+00:44:50,079 --> 00:44:54,040
+decade's worth of drought in the US okay
+
+966
+00:44:54,040 --> 00:44:56,890
+and the question that the article was
+
+967
+00:44:56,890 --> 00:45:00,520
+asking is are we having more droughts
+
+968
+00:45:00,520 --> 00:45:03,130
+today than we've had in the past you be
+
+969
+00:45:03,130 --> 00:45:03,940
+the judge
+
+970
+00:45:03,940 --> 00:45:05,980
+so there is a temporal dimension here
+
+971
+00:45:05,980 --> 00:45:07,900
+but they unpacked this temporal
+
+972
+00:45:07,900 --> 00:45:10,450
+dimension so that you could have this
+
+973
+00:45:10,450 --> 00:45:12,880
+matrix okay so you can keep scanning
+
+974
+00:45:12,880 --> 00:45:15,579
+over and over again now another thing I
+
+975
+00:45:15,579 --> 00:45:17,559
+want to call attention to here think
+
+976
+00:45:17,559 --> 00:45:19,990
+about the color I have a background
+
+977
+00:45:19,990 --> 00:45:23,500
+color that is very faint so that my map
+
+978
+00:45:23,500 --> 00:45:25,480
+of the US recedes into the background
+
+979
+00:45:25,480 --> 00:45:28,240
+because you know what my map is not the
+
+980
+00:45:28,240 --> 00:45:30,490
+most important thing it is the context
+
+981
+00:45:30,490 --> 00:45:33,069
+so it is important but the drought
+
+982
+00:45:33,069 --> 00:45:35,559
+information is what I want to pop up and
+
+983
+00:45:35,559 --> 00:45:38,859
+so the really highlighting saturated
+
+984
+00:45:38,859 --> 00:45:42,400
+color is only for the drought so now I'm
+
+985
+00:45:42,400 --> 00:45:44,710
+playing with receding to the background
+
+986
+00:45:44,710 --> 00:45:46,780
+and coming to the foreground with the
+
+987
+00:45:46,780 --> 00:45:49,599
+highlighted color here's another one
+
+988
+00:45:49,599 --> 00:45:51,940
+that works very much the same way this
+
+989
+00:45:51,940 --> 00:45:55,780
+is patterns of birds what exists today
+
+990
+00:45:55,780 --> 00:45:59,470
+in blue and probably where they will
+
+991
+00:45:59,470 --> 00:46:03,339
+exist in many years if climate change
+
+992
+00:46:03,339 --> 00:46:05,280
+continues
+
+993
+00:46:05,280 --> 00:46:07,350
+but again think about how many numbers
+
+994
+00:46:07,350 --> 00:46:10,350
+worth of data this is and again the same
+
+995
+00:46:10,350 --> 00:46:12,360
+kind of visual encoding with the map
+
+996
+00:46:12,360 --> 00:46:15,420
+very faint in the background to give me
+
+997
+00:46:15,420 --> 00:46:19,470
+context and these now two layers of data
+
+998
+00:46:19,470 --> 00:46:23,340
+at the same time the last thing I want
+
+999
+00:46:23,340 --> 00:46:25,560
+to call attention to is this notion of
+
+1000
+00:46:25,560 --> 00:46:28,200
+faceting so we're gonna go to this New
+
+1001
+00:46:28,200 --> 00:46:29,850
+York Times by the way the New York Times
+
+1002
+00:46:29,850 --> 00:46:31,950
+is an amazing powerhouse of data
+
+1003
+00:46:31,950 --> 00:46:35,780
+visualization and so I highly recommend
+
+1004
+00:46:35,780 --> 00:46:38,520
+looking at some of the work they do but
+
+1005
+00:46:38,520 --> 00:46:40,730
+this is this is basically looking
+
+1006
+00:46:40,730 --> 00:46:43,410
+visualizing a ton of companies across
+
+1007
+00:46:43,410 --> 00:46:46,830
+the US and how much tax what are the tax
+
+1008
+00:46:46,830 --> 00:46:48,930
+rates for these companies and how much
+
+1009
+00:46:48,930 --> 00:46:52,020
+variance there is in the tax rates each
+
+1010
+00:46:52,020 --> 00:46:54,840
+one of these circles is a company ok
+
+1011
+00:46:54,840 --> 00:47:00,090
+sized differently by and I can tell you
+
+1012
+00:47:00,090 --> 00:47:02,510
+here what it is because it has a legend
+
+1013
+00:47:02,510 --> 00:47:07,110
+legends yes important labels important
+
+1014
+00:47:07,110 --> 00:47:10,340
+always always label your data and
+
+1015
+00:47:10,340 --> 00:47:13,080
+explain the legend so the market
+
+1016
+00:47:13,080 --> 00:47:15,240
+capitalization I didn't have to memorize
+
+1017
+00:47:15,240 --> 00:47:16,650
+this I could just come here and look
+
+1018
+00:47:16,650 --> 00:47:19,800
+before I tell you the color is also here
+
+1019
+00:47:19,800 --> 00:47:22,110
+right but look at this interesting thing
+
+1020
+00:47:22,110 --> 00:47:24,510
+that they did with the color they are
+
+1021
+00:47:24,510 --> 00:47:27,510
+already showing me a distribution that
+
+1022
+00:47:27,510 --> 00:47:31,920
+goes from the lowest tax rate on the
+
+1023
+00:47:31,920 --> 00:47:35,040
+left to the highest tax rates on the
+
+1024
+00:47:35,040 --> 00:47:37,860
+right so just by looking at this
+
+1025
+00:47:37,860 --> 00:47:39,630
+distribution I know that things are
+
+1026
+00:47:39,630 --> 00:47:41,700
+going up the further to the right they
+
+1027
+00:47:41,700 --> 00:47:44,430
+are but then they went one step further
+
+1028
+00:47:44,430 --> 00:47:49,170
+they bend things with colors for me okay
+
+1029
+00:47:49,170 --> 00:47:51,990
+so these colors are just binning things
+
+1030
+00:47:51,990 --> 00:47:56,880
+and the binning is is explained here all
+
+1031
+00:47:56,880 --> 00:47:59,220
+right they did another thing that is
+
+1032
+00:47:59,220 --> 00:48:00,420
+just helping me
+
+1033
+00:48:00,420 --> 00:48:04,170
+they actually calculated here the
+
+1034
+00:48:04,170 --> 00:48:07,740
+overall average tax rate for the entire
+
+1035
+00:48:07,740 --> 00:48:10,920
+distribution right so again they are
+
+1036
+00:48:10,920 --> 00:48:13,589
+hacking a ton of information into this
+
+1037
+00:48:13,589 --> 00:48:16,260
+graph there's a bunch more explanation
+
+1038
+00:48:16,260 --> 00:48:17,940
+here but then there is this beautiful
+
+1039
+00:48:17,940 --> 00:48:20,520
+thing they do which is these are all the
+
+1040
+00:48:20,520 --> 00:48:23,099
+companies together now I'm gonna click
+
+1041
+00:48:23,099 --> 00:48:25,170
+this button and I'm gonna see it by
+
+1042
+00:48:25,170 --> 00:48:29,640
+industry and it just does this beautiful
+
+1043
+00:48:29,640 --> 00:48:33,660
+waterfall by industry now again they are
+
+1044
+00:48:33,660 --> 00:48:36,630
+showing me the distribution but now they
+
+1045
+00:48:36,630 --> 00:48:40,140
+are calculating that average line for
+
+1046
+00:48:40,140 --> 00:48:42,329
+each one of these industry sections
+
+1047
+00:48:42,329 --> 00:48:44,940
+which is awesome and they have a little
+
+1048
+00:48:44,940 --> 00:48:48,079
+commentary for each one of those two
+
+1049
+00:48:48,079 --> 00:48:50,520
+showing me things that are interesting
+
+1050
+00:48:50,520 --> 00:48:54,170
+they are also arranging these by the way
+
+1051
+00:48:54,170 --> 00:48:59,309
+in in Crescent order right so I'm going
+
+1052
+00:48:59,309 --> 00:49:01,770
+from the from utilities which has the
+
+1053
+00:49:01,770 --> 00:49:06,599
+lowest average to insurance which has
+
+1054
+00:49:06,599 --> 00:49:10,380
+the highest average okay so really
+
+1055
+00:49:10,380 --> 00:49:15,410
+nicely done ton of information here
+
+1056
+00:49:18,770 --> 00:49:24,380
+okay okay so all of this so far has been
+
+1057
+00:49:24,380 --> 00:49:27,590
+just general visualization information
+
+1058
+00:49:27,590 --> 00:49:29,680
+let's talk a little bit about
+
+1059
+00:49:29,680 --> 00:49:31,850
+visualization in machine learning so
+
+1060
+00:49:31,850 --> 00:49:33,590
+what you see here is the visualization
+
+1061
+00:49:33,590 --> 00:49:36,620
+pipeline this is a slide that I've taken
+
+1062
+00:49:36,620 --> 00:49:38,810
+from Yannick ahsoka someone in our group
+
+1063
+00:49:38,810 --> 00:49:41,780
+who actually realized that if you look
+
+1064
+00:49:41,780 --> 00:49:44,720
+at the pipeline of machine learning you
+
+1065
+00:49:44,720 --> 00:49:46,790
+can identify where visualization may be
+
+1066
+00:49:46,790 --> 00:49:49,430
+especially helpful on its thinking about
+
+1067
+00:49:49,430 --> 00:49:51,320
+terms of acquiring data it's as you
+
+1068
+00:49:51,320 --> 00:49:53,090
+implement a model as you between
+
+1069
+00:49:53,090 --> 00:49:55,700
+training and when you deploy it for
+
+1070
+00:49:55,700 --> 00:49:58,490
+monitoring and so that's essentially a
+
+1071
+00:49:58,490 --> 00:50:00,950
+framework that we'd like to use as we
+
+1072
+00:50:00,950 --> 00:50:04,190
+talk through machine learning so we've
+
+1073
+00:50:04,190 --> 00:50:05,800
+got we're gonna talk a lot about
+
+1074
+00:50:05,800 --> 00:50:09,230
+visualizing training data we will very
+
+1075
+00:50:09,230 --> 00:50:10,670
+very briefly talk about model
+
+1076
+00:50:10,670 --> 00:50:13,070
+performance and then we'll talk about
+
+1077
+00:50:13,070 --> 00:50:14,570
+interpretability and the model
+
+1078
+00:50:14,570 --> 00:50:16,460
+inspection kind of trying to crack open
+
+1079
+00:50:16,460 --> 00:50:19,250
+the so-called black box we'll think
+
+1080
+00:50:19,250 --> 00:50:21,800
+about high dimensional data and then I
+
+1081
+00:50:21,800 --> 00:50:23,660
+think education and a communication
+
+1082
+00:50:23,660 --> 00:50:25,730
+scientific communication is incredibly
+
+1083
+00:50:25,730 --> 00:50:28,460
+important in a lot of ways and
+
+1084
+00:50:28,460 --> 00:50:30,950
+visualization is a perfect match for
+
+1085
+00:50:30,950 --> 00:50:32,950
+that particular task
+
+1086
+00:50:32,950 --> 00:50:38,660
+alright so visualizing training data one
+
+1087
+00:50:38,660 --> 00:50:40,970
+of the things this is some work we did a
+
+1088
+00:50:40,970 --> 00:50:45,200
+while ago and we realized that there are
+
+1089
+00:50:45,200 --> 00:50:47,930
+there's a dearth of good tools for just
+
+1090
+00:50:47,930 --> 00:50:50,210
+looking at your data your training data
+
+1091
+00:50:50,210 --> 00:50:55,040
+so we looked at a how do you visualize
+
+1092
+00:50:55,040 --> 00:51:00,080
+very simply something like CFR 10 and so
+
+1093
+00:51:00,080 --> 00:51:02,660
+we created this let me see if I can
+
+1094
+00:51:02,660 --> 00:51:06,740
+enter full screen here so this is called
+
+1095
+00:51:06,740 --> 00:51:09,500
+facets and it's nothing more than
+
+1096
+00:51:09,500 --> 00:51:12,080
+looking at your pictures from CFR 10 so
+
+1097
+00:51:12,080 --> 00:51:14,270
+I have all my images here this is not
+
+1098
+00:51:14,270 --> 00:51:16,730
+the data set in its entirety but it's a
+
+1099
+00:51:16,730 --> 00:51:19,460
+good chunk of the data set and I'm just
+
+1100
+00:51:19,460 --> 00:51:22,010
+organizing my pictures by the categories
+
+1101
+00:51:22,010 --> 00:51:25,010
+in C frightened immediately I can see
+
+1102
+00:51:25,010 --> 00:51:27,590
+things like oh differences in hues okay
+
+1103
+00:51:27,590 --> 00:51:28,370
+makes sense
+
+1104
+00:51:28,370 --> 00:51:30,910
+airplanes are more probably going to
+
+1105
+00:51:30,910 --> 00:51:34,000
+in the Blue Zone and so our ships versus
+
+1106
+00:51:34,000 --> 00:51:36,099
+birds for instance but then the other
+
+1107
+00:51:36,099 --> 00:51:37,900
+thing I can do is I can start playing
+
+1108
+00:51:37,900 --> 00:51:39,789
+with this I can start zooming in very
+
+1109
+00:51:39,789 --> 00:51:43,390
+quickly and just making sure that my
+
+1110
+00:51:43,390 --> 00:51:46,049
+data set looks right and that you know
+
+1111
+00:51:46,049 --> 00:51:48,940
+half of my data set is in blank for
+
+1112
+00:51:48,940 --> 00:51:50,769
+instance even that at this point is it
+
+1113
+00:51:50,769 --> 00:51:54,119
+is interesting another thing I can do is
+
+1114
+00:51:54,119 --> 00:51:57,039
+I can start playing some games so now I
+
+1115
+00:51:57,039 --> 00:51:59,259
+want to see the same visualization the
+
+1116
+00:51:59,259 --> 00:52:01,240
+same data but I want to see the hue
+
+1117
+00:52:01,240 --> 00:52:03,519
+distribution within each one of the
+
+1118
+00:52:03,519 --> 00:52:05,859
+classes and then again I can see okay
+
+1119
+00:52:05,859 --> 00:52:08,589
+all right airplanes and ships big bulge
+
+1120
+00:52:08,589 --> 00:52:11,859
+of blue there versus the animals here
+
+1121
+00:52:11,859 --> 00:52:14,710
+which are you know earth tones make
+
+1122
+00:52:14,710 --> 00:52:18,069
+sense other things we can start to do is
+
+1123
+00:52:18,069 --> 00:52:21,190
+to create a confusion matrix and this is
+
+1124
+00:52:21,190 --> 00:52:22,930
+so cool this is the kind of audience I
+
+1125
+00:52:22,930 --> 00:52:24,400
+don't have to explain a confusion matrix
+
+1126
+00:52:24,400 --> 00:52:27,809
+to so good news Maya Maya diagonal is
+
+1127
+00:52:27,809 --> 00:52:30,670
+highly populated that's awesome
+
+1128
+00:52:30,670 --> 00:52:34,000
+but now what I want to do is I want to
+
+1129
+00:52:34,000 --> 00:52:36,579
+take out that diagonal I want to take
+
+1130
+00:52:36,579 --> 00:52:39,250
+out all the right stuff and boom I have
+
+1131
+00:52:39,250 --> 00:52:41,859
+all the mistakes that my system has made
+
+1132
+00:52:41,859 --> 00:52:45,160
+and immediately I can see that there are
+
+1133
+00:52:45,160 --> 00:52:47,799
+two selves here that are highly
+
+1134
+00:52:47,799 --> 00:52:51,069
+populated right and they happen to be
+
+1135
+00:52:51,069 --> 00:52:54,849
+the cells that are mixing up cats and
+
+1136
+00:52:54,849 --> 00:52:58,059
+dogs okay so that tells me something
+
+1137
+00:52:58,059 --> 00:53:01,650
+about the kinds of mistakes my my system
+
+1138
+00:53:01,650 --> 00:53:06,630
+is starting to make go away all right
+
+1139
+00:53:06,630 --> 00:53:09,269
+another thing I want to show is this
+
+1140
+00:53:09,269 --> 00:53:13,480
+visualization of the softmax layer and
+
+1141
+00:53:13,480 --> 00:53:15,880
+what's happening here I just want to see
+
+1142
+00:53:15,880 --> 00:53:17,980
+the distribution and so the more to the
+
+1143
+00:53:17,980 --> 00:53:21,460
+right an image is the more certain my
+
+1144
+00:53:21,460 --> 00:53:24,490
+system is that that image is indeed an
+
+1145
+00:53:24,490 --> 00:53:28,869
+airplane or a dog or a cat but likewise
+
+1146
+00:53:28,869 --> 00:53:32,319
+the more to the left the more likely the
+
+1147
+00:53:32,319 --> 00:53:34,020
+more certain my
+
+1148
+00:53:34,020 --> 00:53:36,300
+system is that that image is not an
+
+1149
+00:53:36,300 --> 00:53:39,600
+airplane or not a cat okay and so we
+
+1150
+00:53:39,600 --> 00:53:41,100
+were immediately looked at this were
+
+1151
+00:53:41,100 --> 00:53:44,010
+like Oh cats that is the biggest one
+
+1152
+00:53:44,010 --> 00:53:46,260
+that my system is very very sure about
+
+1153
+00:53:46,260 --> 00:53:48,780
+so let's look into cat so we zoom in
+
+1154
+00:53:48,780 --> 00:53:51,480
+into cats and remember this is CFR ten
+
+1155
+00:53:51,480 --> 00:53:54,570
+so thousands of people have looked and
+
+1156
+00:53:54,570 --> 00:53:57,570
+played with this data set and so did we
+
+1157
+00:53:57,570 --> 00:53:59,430
+and then we started looking and we're
+
+1158
+00:53:59,430 --> 00:54:02,520
+like oh look that's interesting these
+
+1159
+00:54:02,520 --> 00:54:04,230
+are the cats my system is very sure in
+
+1160
+00:54:04,230 --> 00:54:07,350
+our cat are not cats and can you spot
+
+1161
+00:54:07,350 --> 00:54:13,830
+towards the bottom hint a non cat over
+
+1162
+00:54:13,830 --> 00:54:17,760
+here this guy has been labeled by humans
+
+1163
+00:54:17,760 --> 00:54:20,970
+as a cat and my system is very very sure
+
+1164
+00:54:20,970 --> 00:54:23,010
+it's a frog and I have to give it to my
+
+1165
+00:54:23,010 --> 00:54:25,710
+system I think it's a frog I don't think
+
+1166
+00:54:25,710 --> 00:54:27,210
+it's a cat at all I think it's a mistake
+
+1167
+00:54:27,210 --> 00:54:29,430
+right so this is interesting because
+
+1168
+00:54:29,430 --> 00:54:32,220
+just by visualizing and making your
+
+1169
+00:54:32,220 --> 00:54:35,850
+dataset very accessible chances are you
+
+1170
+00:54:35,850 --> 00:54:37,560
+could start spotting more and you know
+
+1171
+00:54:37,560 --> 00:54:41,880
+mistakes and so this is one example of
+
+1172
+00:54:41,880 --> 00:54:44,570
+how you might want to use visualization
+
+1173
+00:54:44,570 --> 00:54:47,130
+to look at your training data I'm just
+
+1174
+00:54:47,130 --> 00:54:48,810
+gonna interject something which is that
+
+1175
+00:54:48,810 --> 00:54:51,390
+this really illustrates very well this
+
+1176
+00:54:51,390 --> 00:54:54,120
+idea of overview first zoom in this case
+
+1177
+00:54:54,120 --> 00:54:56,580
+right literally zoom filter and then the
+
+1178
+00:54:56,580 --> 00:54:58,770
+details-on-demand to see the individual
+
+1179
+00:54:58,770 --> 00:55:03,120
+frog good point and and facets is
+
+1180
+00:55:03,120 --> 00:55:05,610
+available it's open source and so please
+
+1181
+00:55:05,610 --> 00:55:07,680
+feel free to download it use it make it
+
+1182
+00:55:07,680 --> 00:55:08,760
+better
+
+1183
+00:55:08,760 --> 00:55:11,430
+that's the idea there I want to call
+
+1184
+00:55:11,430 --> 00:55:12,840
+your attention to something I think was
+
+1185
+00:55:12,840 --> 00:55:14,850
+very cool that quick-draw did this is
+
+1186
+00:55:14,850 --> 00:55:17,190
+not our team's work everybody knows
+
+1187
+00:55:17,190 --> 00:55:20,010
+quick-draw here some people okay
+
+1188
+00:55:20,010 --> 00:55:21,750
+for those of you who have not heard of
+
+1189
+00:55:21,750 --> 00:55:24,030
+this please do not play it now it's a
+
+1190
+00:55:24,030 --> 00:55:26,850
+game you go on a noise and it makes
+
+1191
+00:55:26,850 --> 00:55:28,350
+noise yeah and it's gonna make our
+
+1192
+00:55:28,350 --> 00:55:30,480
+internet really slow but basically
+
+1193
+00:55:30,480 --> 00:55:33,240
+you're playing pictionary with a machine
+
+1194
+00:55:33,240 --> 00:55:36,030
+learning system it gives you 20 seconds
+
+1195
+00:55:36,030 --> 00:55:38,070
+it gives you something to draw and 20
+
+1196
+00:55:38,070 --> 00:55:40,290
+seconds to draw and it keeps trying to
+
+1197
+00:55:40,290 --> 00:55:42,480
+guess what it is that you're drawing
+
+1198
+00:55:42,480 --> 00:55:45,850
+okay and so what happens is that
+
+1199
+00:55:45,850 --> 00:55:49,000
+this went viral and it created a huge
+
+1200
+00:55:49,000 --> 00:55:53,280
+data set of drawings of doodles and they
+
+1201
+00:55:53,280 --> 00:55:56,950
+open sourced the team open sourced this
+
+1202
+00:55:56,950 --> 00:55:59,350
+data set and it's really cool because
+
+1203
+00:55:59,350 --> 00:56:01,930
+you can be like ooh onion okay I click
+
+1204
+00:56:01,930 --> 00:56:03,580
+here I can see all the onions that
+
+1205
+00:56:03,580 --> 00:56:06,910
+people are you know drawing and and they
+
+1206
+00:56:06,910 --> 00:56:08,890
+actually show me the strokes and
+
+1207
+00:56:08,890 --> 00:56:11,020
+everything but one of the things that
+
+1208
+00:56:11,020 --> 00:56:14,710
+this allowed that the team to do and
+
+1209
+00:56:14,710 --> 00:56:16,330
+other because they open sores to other
+
+1210
+00:56:16,330 --> 00:56:18,040
+people outside of the team started doing
+
+1211
+00:56:18,040 --> 00:56:20,320
+this too is do some data analysis of the
+
+1212
+00:56:20,320 --> 00:56:23,980
+training data so things like if you
+
+1213
+00:56:23,980 --> 00:56:27,490
+could overlay all of the cats that
+
+1214
+00:56:27,490 --> 00:56:29,200
+people from different countries have
+
+1215
+00:56:29,200 --> 00:56:32,920
+drawn you get things like these and you
+
+1216
+00:56:32,920 --> 00:56:34,900
+can get a sense that yeah people draw
+
+1217
+00:56:34,900 --> 00:56:37,690
+cats very very similarly across the
+
+1218
+00:56:37,690 --> 00:56:38,830
+globe that's great
+
+1219
+00:56:38,830 --> 00:56:40,690
+turns out that that's not true for
+
+1220
+00:56:40,690 --> 00:56:43,000
+everything turns out that chairs for
+
+1221
+00:56:43,000 --> 00:56:45,340
+instance are drawn very differently in
+
+1222
+00:56:45,340 --> 00:56:48,840
+Korea than in Brazil where I'm from so
+
+1223
+00:56:48,840 --> 00:56:53,380
+like I knew that this one I find really
+
+1224
+00:56:53,380 --> 00:56:56,940
+interesting outlets and it's it's just
+
+1225
+00:56:56,940 --> 00:56:59,650
+very illustrative of where people are
+
+1226
+00:56:59,650 --> 00:57:02,860
+coming from so again this is another
+
+1227
+00:57:02,860 --> 00:57:05,260
+kind of visualization for looking at
+
+1228
+00:57:05,260 --> 00:57:07,030
+your data set and starting to think
+
+1229
+00:57:07,030 --> 00:57:09,190
+about what are some of the questions
+
+1230
+00:57:09,190 --> 00:57:12,160
+that might be interesting there this is
+
+1231
+00:57:12,160 --> 00:57:15,310
+this is the same data set and they were
+
+1232
+00:57:15,310 --> 00:57:18,240
+looking at fish the category fish and so
+
+1233
+00:57:18,240 --> 00:57:21,190
+remember small multiples these are small
+
+1234
+00:57:21,190 --> 00:57:24,580
+multiples for each country okay and it's
+
+1235
+00:57:24,580 --> 00:57:27,040
+overlays and the cool thing is that you
+
+1236
+00:57:27,040 --> 00:57:30,990
+can see that in some countries the fish
+
+1237
+00:57:30,990 --> 00:57:34,630
+definitely face one direction okay and
+
+1238
+00:57:34,630 --> 00:57:36,810
+it's usually to the left
+
+1239
+00:57:36,810 --> 00:57:39,550
+turkey turns out to be the only country
+
+1240
+00:57:39,550 --> 00:57:42,580
+where the fish very definitely faces the
+
+1241
+00:57:42,580 --> 00:57:47,110
+other direction okay that's interesting
+
+1242
+00:57:47,110 --> 00:57:49,360
+nobody knew this but again think about
+
+1243
+00:57:49,360 --> 00:57:51,400
+things like if you're training your
+
+1244
+00:57:51,400 --> 00:57:52,310
+system
+
+1245
+00:57:52,310 --> 00:57:55,250
+and you want to be aware of biases right
+
+1246
+00:57:55,250 --> 00:57:57,680
+this would start to give you some notion
+
+1247
+00:57:57,680 --> 00:58:01,490
+of oh is my fish always facing one way
+
+1248
+00:58:01,490 --> 00:58:04,130
+versus the other am i covering a ton of
+
+1249
+00:58:04,130 --> 00:58:08,360
+ground here ok so this is the last note
+
+1250
+00:58:08,360 --> 00:58:11,540
+we won a very briefly say before we
+
+1251
+00:58:11,540 --> 00:58:16,610
+break performance monitoring is probably
+
+1252
+00:58:16,610 --> 00:58:19,460
+the place where most of us see
+
+1253
+00:58:19,460 --> 00:58:21,440
+visualization on a day to day basis
+
+1254
+00:58:21,440 --> 00:58:23,720
+right because it's basically a ton of
+
+1255
+00:58:23,720 --> 00:58:26,840
+line charts it's a lot of charts you are
+
+1256
+00:58:26,840 --> 00:58:29,990
+constantly trying to make sure that your
+
+1257
+00:58:29,990 --> 00:58:32,900
+system is is converging it's doing what
+
+1258
+00:58:32,900 --> 00:58:36,700
+it's supposed to do and a lot of basics
+
+1259
+00:58:36,700 --> 00:58:39,740
+work here line charts yay
+
+1260
+00:58:39,740 --> 00:58:43,490
+go Alli insurance awesome so we're not
+
+1261
+00:58:43,490 --> 00:58:46,490
+going to dwell a whole lot on monitoring
+
+1262
+00:58:46,490 --> 00:58:47,990
+dashboards
+
+1263
+00:58:47,990 --> 00:58:50,000
+we're just saying yes visualization
+
+1264
+00:58:50,000 --> 00:58:52,400
+super useful continue to use
+
+1265
+00:58:52,400 --> 00:58:54,920
+visualization basics apply here it's all
+
+1266
+00:58:54,920 --> 00:58:57,770
+good I think we're gonna stop for a
+
+1267
+00:58:57,770 --> 00:59:02,000
+break here ten minutes and and then we
+
+1268
+00:59:02,000 --> 00:59:08,990
+come back 10 9 35 okay so we're coming
+
+1269
+00:59:08,990 --> 00:59:12,200
+back at 9:35 for interpretability you do
+
+1270
+00:59:12,200 --> 00:59:13,640
+not want to miss that high dimensional
+
+1271
+00:59:13,640 --> 00:59:15,920
+data all sorts of good stuff all right
+
+1272
+00:59:15,920 --> 00:59:18,850
+thanks
+
+1273
+00:59:23,430 --> 00:59:25,490
+you
+
+1274
+00:59:34,200 --> 00:59:36,260
+you
+
+1275
+01:00:13,590 --> 01:00:44,379
+[Music]
+
+1276
+01:00:47,590 --> 01:00:53,429
+[Music]
+
+1277
+01:00:56,630 --> 01:00:59,889
+[Music]
+
+1278
+01:01:05,730 --> 01:01:08,920
+[Music]
+
+1279
+01:01:12,320 --> 01:01:19,210
+[Music]
+
+1280
+01:01:21,380 --> 01:01:27,169
+[Music]
+
+1281
+01:01:30,160 --> 01:01:36,230
+[Music]
+
+1282
+01:01:41,930 --> 01:01:54,619
+[Music]
+
+1283
+01:02:00,080 --> 01:02:04,710
+[Music]
+
+1284
+01:02:10,260 --> 01:02:13,799
+[Music]
+
+1285
+01:02:17,470 --> 01:02:21,800
+[Music]
+
+1286
+01:02:27,270 --> 01:02:30,570
+[Music]
+
+1287
+01:02:33,850 --> 01:02:42,459
+[Music]
+
+1288
+01:02:45,340 --> 01:02:51,739
+[Music]
+
+1289
+01:03:07,720 --> 01:03:09,780
+you
+
+1290
+01:03:14,160 --> 01:03:16,220
+you
+
+1291
+01:08:34,720 --> 01:08:37,799
+[Music]
+
+1292
+01:08:57,140 --> 01:09:00,359
+[Music]
+
+1293
+01:09:02,630 --> 01:09:05,720
+[Music]
+
+1294
+01:09:17,870 --> 01:09:22,880
+okay okay sounds good it sounds good
+
+1295
+01:09:25,100 --> 01:09:28,660
+and feel free to move the microphone
+
+1296
+01:09:38,170 --> 01:09:44,729
+okay and we're going to start back with
+
+1297
+01:09:44,729 --> 01:09:47,439
+what what I think is one of the most
+
+1298
+01:09:47,439 --> 01:09:50,529
+exciting areas for data visualization in
+
+1299
+01:09:50,529 --> 01:09:52,029
+machine learning which is
+
+1300
+01:09:52,029 --> 01:09:55,050
+interpretability and model inspection
+
+1301
+01:09:55,050 --> 01:09:58,600
+and I feel like here there are many
+
+1302
+01:09:58,600 --> 01:10:01,270
+different kinds of approaches and many
+
+1303
+01:10:01,270 --> 01:10:03,370
+different kinds of questions that people
+
+1304
+01:10:03,370 --> 01:10:06,520
+are asking when they ask about what are
+
+1305
+01:10:06,520 --> 01:10:08,050
+their models doing how are they behaving
+
+1306
+01:10:08,050 --> 01:10:12,580
+and so we're gonna there are different
+
+1307
+01:10:12,580 --> 01:10:15,730
+sections to to this part so the first
+
+1308
+01:10:15,730 --> 01:10:17,860
+thing we're gonna talk about again kind
+
+1309
+01:10:17,860 --> 01:10:20,560
+of briefly is convolutional neural nets
+
+1310
+01:10:20,560 --> 01:10:25,000
+and we're thinking about the
+
+1311
+01:10:25,000 --> 01:10:27,370
+interpretation of image classification
+
+1312
+01:10:27,370 --> 01:10:31,300
+systems here is a petri dish right as we
+
+1313
+01:10:31,300 --> 01:10:33,280
+all know image classifiers are quite
+
+1314
+01:10:33,280 --> 01:10:35,800
+effective in practice but exactly what
+
+1315
+01:10:35,800 --> 01:10:37,420
+they're doing and how they're doing it
+
+1316
+01:10:37,420 --> 01:10:39,970
+is kind of mysterious and then they have
+
+1317
+01:10:39,970 --> 01:10:43,390
+failures that add to that mystery right
+
+1318
+01:10:43,390 --> 01:10:47,620
+for example adversarial examples but
+
+1319
+01:10:47,620 --> 01:10:51,720
+still there are ways to inspect than our
+
+1320
+01:10:51,720 --> 01:10:55,180
+image classifiers in our human brain so
+
+1321
+01:10:55,180 --> 01:11:00,610
+that's good news I guess so and I guess
+
+1322
+01:11:00,610 --> 01:11:03,130
+another thing is since they are visual
+
+1323
+01:11:03,130 --> 01:11:06,310
+right they are image classifiers it's
+
+1324
+01:11:06,310 --> 01:11:07,870
+kind of natural to try to use
+
+1325
+01:11:07,870 --> 01:11:11,140
+visualization to understand what it is
+
+1326
+01:11:11,140 --> 01:11:13,780
+that they're doing so some of the things
+
+1327
+01:11:13,780 --> 01:11:16,300
+that I'm sure a lot of you have seen in
+
+1328
+01:11:16,300 --> 01:11:18,550
+the literature that these kinds of
+
+1329
+01:11:18,550 --> 01:11:22,090
+visualization systems try to do it is
+
+1330
+01:11:22,090 --> 01:11:24,160
+trying to understand what features are
+
+1331
+01:11:24,160 --> 01:11:27,370
+these networks really using do
+
+1332
+01:11:27,370 --> 01:11:30,370
+individual units have meaning and this
+
+1333
+01:11:30,370 --> 01:11:31,450
+is really interesting because I feel
+
+1334
+01:11:31,450 --> 01:11:33,400
+like there's a class of researchers
+
+1335
+01:11:33,400 --> 01:11:35,830
+where like yes let's inspect individual
+
+1336
+01:11:35,830 --> 01:11:37,690
+units and other class of researchers was
+
+1337
+01:11:37,690 --> 01:11:40,450
+like no what are you doing so there are
+
+1338
+01:11:40,450 --> 01:11:44,170
+different camps what you know what roles
+
+1339
+01:11:44,170 --> 01:11:46,030
+are played by different layers of the
+
+1340
+01:11:46,030 --> 01:11:48,160
+network so if you start taking into
+
+1341
+01:11:48,160 --> 01:11:50,920
+account the architecture of the network
+
+1342
+01:11:50,920 --> 01:11:53,950
+then how our high-level concepts build
+
+1343
+01:11:53,950 --> 01:11:57,910
+from lower level concepts okay so one of
+
+1344
+01:11:57,910 --> 01:11:59,770
+the first things and one of the most
+
+1345
+01:11:59,770 --> 01:12:02,560
+ubiquitous things that we see our saline
+
+1346
+01:12:02,560 --> 01:12:05,110
+C maps right and these are those kinds
+
+1347
+01:12:05,110 --> 01:12:08,470
+of maps where you were trying to
+
+1348
+01:12:08,470 --> 01:12:10,360
+understand which pixels are the most
+
+1349
+01:12:10,360 --> 01:12:12,640
+relevant from some for some
+
+1350
+01:12:12,640 --> 01:12:16,720
+classification and there are a number of
+
+1351
+01:12:16,720 --> 01:12:19,990
+different methods for getting at saline
+
+1352
+01:12:19,990 --> 01:12:22,780
+C maps and some of them are looking at
+
+1353
+01:12:22,780 --> 01:12:25,330
+gradients integrated gradients you you
+
+1354
+01:12:25,330 --> 01:12:27,460
+can have your pick there are many many
+
+1355
+01:12:27,460 --> 01:12:33,060
+different versions of saline C maps so
+
+1356
+01:12:33,060 --> 01:12:35,770
+the idea with saline C maps is to
+
+1357
+01:12:35,770 --> 01:12:38,890
+consider the sensitivity of a class to
+
+1358
+01:12:38,890 --> 01:12:43,240
+each pixel right and there as I was
+
+1359
+01:12:43,240 --> 01:12:44,350
+saying there are many different ways
+
+1360
+01:12:44,350 --> 01:12:46,720
+that people have extended that initial
+
+1361
+01:12:46,720 --> 01:12:49,090
+idea that basic idea there is layer wise
+
+1362
+01:12:49,090 --> 01:12:49,900
+relevance
+
+1363
+01:12:49,900 --> 01:12:53,560
+there's integrated gradients guided by
+
+1364
+01:12:53,560 --> 01:12:57,100
+crop etc one thing to keep in mind
+
+1365
+01:12:57,100 --> 01:13:00,180
+though is that these can be sometimes
+
+1366
+01:13:00,180 --> 01:13:03,550
+deceiving you know they tend to be
+
+1367
+01:13:03,550 --> 01:13:08,530
+visually noisy are these guys it's
+
+1368
+01:13:08,530 --> 01:13:12,400
+sometimes easy to project onto them what
+
+1369
+01:13:12,400 --> 01:13:15,970
+you think you were seeing right oh I see
+
+1370
+01:13:15,970 --> 01:13:18,610
+the dog face here oh I see the eyes and
+
+1371
+01:13:18,610 --> 01:13:21,460
+sometimes you do but is it really that
+
+1372
+01:13:21,460 --> 01:13:24,640
+it's paying attention to eyes and ears
+
+1373
+01:13:24,640 --> 01:13:27,400
+or is it that it's doing an edge
+
+1374
+01:13:27,400 --> 01:13:30,190
+detection kind of thing and so there has
+
+1375
+01:13:30,190 --> 01:13:32,320
+been work that is trying to tease these
+
+1376
+01:13:32,320 --> 01:13:34,960
+things apart and it's noisy it's not
+
+1377
+01:13:34,960 --> 01:13:38,650
+clear that these things are doing what
+
+1378
+01:13:38,650 --> 01:13:41,290
+we want them to do so just a word of
+
+1379
+01:13:41,290 --> 01:13:45,630
+caution there other kind of work that I
+
+1380
+01:13:45,630 --> 01:13:47,650
+imagining the community here is very
+
+1381
+01:13:47,650 --> 01:13:49,860
+familiar with is this notion of
+
+1382
+01:13:49,860 --> 01:13:53,230
+maximizing neurone response right so
+
+1383
+01:13:53,230 --> 01:13:55,099
+what are the images that
+
+1384
+01:13:55,099 --> 01:13:58,210
+summize the response from us from
+
+1385
+01:13:58,210 --> 01:14:01,699
+arbitrary neurons and you start to see
+
+1386
+01:14:01,699 --> 01:14:03,619
+these interesting kind of building
+
+1387
+01:14:03,619 --> 01:14:07,400
+blocks oh you know there are stripe pet
+
+1388
+01:14:07,400 --> 01:14:11,090
+stripy patterns or there are colors that
+
+1389
+01:14:11,090 --> 01:14:14,980
+really activate a certain neuron and so
+
+1390
+01:14:14,980 --> 01:14:17,360
+part of what you're trying to do there
+
+1391
+01:14:17,360 --> 01:14:18,770
+is to try to understand is there
+
+1392
+01:14:18,770 --> 01:14:20,480
+anything that we can interpret from
+
+1393
+01:14:20,480 --> 01:14:22,159
+these from these images that are
+
+1394
+01:14:22,159 --> 01:14:25,310
+maximally that are maximizing the
+
+1395
+01:14:25,310 --> 01:14:30,530
+response from given neuron there is also
+
+1396
+01:14:30,530 --> 01:14:32,389
+you can do the same kind of thing with
+
+1397
+01:14:32,389 --> 01:14:35,630
+relationship to entire classes right so
+
+1398
+01:14:35,630 --> 01:14:40,010
+you can say okay the Pelican class what
+
+1399
+01:14:40,010 --> 01:14:41,510
+is what are the kinds of things that
+
+1400
+01:14:41,510 --> 01:14:44,150
+activates the most response to that kind
+
+1401
+01:14:44,150 --> 01:14:45,949
+of class and there is a little bit of
+
+1402
+01:14:45,949 --> 01:14:49,250
+art there it's not just otherwise these
+
+1403
+01:14:49,250 --> 01:14:52,280
+these images can kind of look random
+
+1404
+01:14:52,280 --> 01:14:55,310
+like noise like visual noise so there's
+
+1405
+01:14:55,310 --> 01:14:57,770
+a lot of art into making sure that you
+
+1406
+01:14:57,770 --> 01:15:00,040
+get something that starts to look
+
+1407
+01:15:00,040 --> 01:15:06,320
+humanly interpretable one of the
+
+1408
+01:15:06,320 --> 01:15:09,349
+visualizations that I think is super
+
+1409
+01:15:09,349 --> 01:15:11,900
+helped has been super helpful and this
+
+1410
+01:15:11,900 --> 01:15:14,690
+has been done a while ago is draw net by
+
+1411
+01:15:14,690 --> 01:15:20,260
+Antonio de Alba and and partners at MIT
+
+1412
+01:15:20,260 --> 01:15:22,699
+this was one of the first visualizations
+
+1413
+01:15:22,699 --> 01:15:25,400
+that try to follow this notion of
+
+1414
+01:15:25,400 --> 01:15:27,739
+activation what is you know what are the
+
+1415
+01:15:27,739 --> 01:15:29,929
+building blocks at the very top there
+
+1416
+01:15:29,929 --> 01:15:33,230
+what are the most basic visual building
+
+1417
+01:15:33,230 --> 01:15:35,239
+blocks that are that activate neurons
+
+1418
+01:15:35,239 --> 01:15:37,790
+and then each one of these rows is a
+
+1419
+01:15:37,790 --> 01:15:40,880
+layer and each one of these dots is a
+
+1420
+01:15:40,880 --> 01:15:44,440
+different neuron in that layer and so
+
+1421
+01:15:44,440 --> 01:15:48,170
+you can start you can click on different
+
+1422
+01:15:48,170 --> 01:15:53,119
+neurons and see actually let me see let
+
+1423
+01:15:53,119 --> 01:15:57,460
+me see if I can give a very quick
+
+1424
+01:15:58,190 --> 01:16:07,760
+demo of this if it takes too long I will
+
+1425
+01:16:07,760 --> 01:16:10,680
+move on I'll move on but one of the
+
+1426
+01:16:10,680 --> 01:16:14,370
+things that I think is really nice about
+
+1427
+01:16:14,370 --> 01:16:16,920
+this visualization is that I've seen
+
+1428
+01:16:16,920 --> 01:16:20,070
+this being used to tell to explain to
+
+1429
+01:16:20,070 --> 01:16:21,739
+people outside of the machine learning
+
+1430
+01:16:21,739 --> 01:16:25,739
+community how neural networks how how
+
+1431
+01:16:25,739 --> 01:16:28,530
+these systems work and how they kind of
+
+1432
+01:16:28,530 --> 01:16:31,110
+pieced together from building blocks all
+
+1433
+01:16:31,110 --> 01:16:34,100
+the way into complicated scenes or
+
+1434
+01:16:34,100 --> 01:16:38,100
+entire concepts like a flower a dog and
+
+1435
+01:16:38,100 --> 01:16:41,450
+and so forth and so there is a lot of
+
+1436
+01:16:41,450 --> 01:16:44,250
+power in a visualization like this that
+
+1437
+01:16:44,250 --> 01:16:48,360
+tries to connect these concepts and then
+
+1438
+01:16:48,360 --> 01:16:51,120
+obviously we have things like deep dream
+
+1439
+01:16:51,120 --> 01:16:52,410
+in a sense this is like the culmination
+
+1440
+01:16:52,410 --> 01:16:56,660
+of trying to activate the heck out of
+
+1441
+01:16:56,660 --> 01:17:04,620
+these neurons and then we come to places
+
+1442
+01:17:04,620 --> 01:17:07,950
+where like this this paper here called
+
+1443
+01:17:07,950 --> 01:17:09,540
+the building blocks of interpretability
+
+1444
+01:17:09,540 --> 01:17:14,130
+and this was a paper on distill that try
+
+1445
+01:17:14,130 --> 01:17:16,170
+to bring together a lot of these
+
+1446
+01:17:16,170 --> 01:17:19,830
+different approaches and say oh okay if
+
+1447
+01:17:19,830 --> 01:17:21,540
+we start looking at these different
+
+1448
+01:17:21,540 --> 01:17:25,860
+activations notice here just referring
+
+1449
+01:17:25,860 --> 01:17:27,690
+back to some of the things we were
+
+1450
+01:17:27,690 --> 01:17:30,630
+talking about before they are making use
+
+1451
+01:17:30,630 --> 01:17:34,500
+of small multiples they are labeling a
+
+1452
+01:17:34,500 --> 01:17:36,900
+lot of a lot of what they're doing a lot
+
+1453
+01:17:36,900 --> 01:17:39,360
+of this is very interactive so they
+
+1454
+01:17:39,360 --> 01:17:42,120
+really use to the fold this notion of
+
+1455
+01:17:42,120 --> 01:17:43,710
+I'm going to interact with this very
+
+1456
+01:17:43,710 --> 01:17:47,430
+complicated space of data to try to
+
+1457
+01:17:47,430 --> 01:17:51,510
+understand how are these systems working
+
+1458
+01:17:51,510 --> 01:17:53,130
+and they have a whole system that lays
+
+1459
+01:17:53,130 --> 01:17:57,960
+out kind of in their minds what the
+
+1460
+01:17:57,960 --> 01:18:00,900
+interpretability landscape is like and
+
+1461
+01:18:00,900 --> 01:18:02,760
+what kinds of insights you might want to
+
+1462
+01:18:02,760 --> 01:18:03,320
+get
+
+1463
+01:18:03,320 --> 01:18:07,000
+by doing different kinds of approaches
+
+1464
+01:18:07,000 --> 01:18:12,770
+here's another work from MIT where they
+
+1465
+01:18:12,770 --> 01:18:15,140
+are going from visualizations to
+
+1466
+01:18:15,140 --> 01:18:17,390
+interpretation so they are taking this
+
+1467
+01:18:17,390 --> 01:18:22,310
+idea of you have a scene a complex scene
+
+1468
+01:18:22,310 --> 01:18:24,650
+that has been human labeled and and
+
+1469
+01:18:24,650 --> 01:18:28,420
+there's more than one concept her image
+
+1470
+01:18:28,420 --> 01:18:33,080
+and then you visualize a certain you you
+
+1471
+01:18:33,080 --> 01:18:37,490
+you look at the top activated images for
+
+1472
+01:18:37,490 --> 01:18:39,170
+some unit okay
+
+1473
+01:18:39,170 --> 01:18:43,790
+so this top row here happens to be faces
+
+1474
+01:18:43,790 --> 01:18:46,460
+and then you try to look at what is the
+
+1475
+01:18:46,460 --> 01:18:48,860
+concept that it most closely matches to
+
+1476
+01:18:48,860 --> 01:18:52,160
+and in this case its head so it starts
+
+1477
+01:18:52,160 --> 01:18:56,510
+to bridge that gap between activations
+
+1478
+01:18:56,510 --> 01:18:58,850
+visual activations and actual concepts
+
+1479
+01:18:58,850 --> 01:19:02,660
+that we can interpret and then we can
+
+1480
+01:19:02,660 --> 01:19:04,850
+understand and so this seems like an
+
+1481
+01:19:04,850 --> 01:19:07,850
+interesting way of bridging not only
+
+1482
+01:19:07,850 --> 01:19:09,650
+what's happening visually and what's
+
+1483
+01:19:09,650 --> 01:19:11,930
+happening with the pixels but getting
+
+1484
+01:19:11,930 --> 01:19:14,090
+into more of the semantics and the
+
+1485
+01:19:14,090 --> 01:19:21,800
+conceptual sense okay so our n ends here
+
+1486
+01:19:21,800 --> 01:19:24,190
+one of the one of the works that we
+
+1487
+01:19:24,190 --> 01:19:27,290
+admire a lot is Carpathia's work that
+
+1488
+01:19:27,290 --> 01:19:29,810
+again it's kind of it's a it's kind of
+
+1489
+01:19:29,810 --> 01:19:32,840
+old at this point but we thought did an
+
+1490
+01:19:32,840 --> 01:19:36,230
+amazing job of looking at visualizing
+
+1491
+01:19:36,230 --> 01:19:38,720
+text sequences and again trying to
+
+1492
+01:19:38,720 --> 01:19:41,060
+understand oh if you activate different
+
+1493
+01:19:41,060 --> 01:19:43,400
+cells what kinds of can you interpret
+
+1494
+01:19:43,400 --> 01:19:47,030
+them and grant it most of the cells you
+
+1495
+01:19:47,030 --> 01:19:49,610
+can't interpret they don't give you any
+
+1496
+01:19:49,610 --> 01:19:52,220
+pattern that kind of makes sense but
+
+1497
+01:19:52,220 --> 01:19:55,220
+some of them I think it was around 5% of
+
+1498
+01:19:55,220 --> 01:19:58,220
+them did so here's a couple of examples
+
+1499
+01:19:58,220 --> 01:20:02,360
+of those the top one this one here that
+
+1500
+01:20:02,360 --> 01:20:05,540
+looks like a gradient is a cell that's
+
+1501
+01:20:05,540 --> 01:20:07,940
+sensitive to position in line in the
+
+1502
+01:20:07,940 --> 01:20:10,309
+line of text okay
+
+1503
+01:20:10,309 --> 01:20:13,489
+and then the bottom one is a cell that
+
+1504
+01:20:13,489 --> 01:20:17,150
+turns on inside quotes so you open the
+
+1505
+01:20:17,150 --> 01:20:20,300
+quotes here and it turns red and then
+
+1506
+01:20:20,300 --> 01:20:22,340
+you close the quotes and it goes back
+
+1507
+01:20:22,340 --> 01:20:25,489
+right so it's very very sensitive to to
+
+1508
+01:20:25,489 --> 01:20:27,889
+these concepts I'm gonna interject a
+
+1509
+01:20:27,889 --> 01:20:30,710
+little visualization note here is to
+
+1510
+01:20:30,710 --> 01:20:31,940
+look at what's going on in this like
+
+1511
+01:20:31,940 --> 01:20:33,530
+this is a very beautiful simple
+
+1512
+01:20:33,530 --> 01:20:35,300
+visualization but first of all the color
+
+1513
+01:20:35,300 --> 01:20:38,420
+scale is very friendly to people who are
+
+1514
+01:20:38,420 --> 01:20:40,699
+red-green color blind the other thing is
+
+1515
+01:20:40,699 --> 01:20:43,489
+looking the fact that he used color here
+
+1516
+01:20:43,489 --> 01:20:45,710
+is really nice because it layers right
+
+1517
+01:20:45,710 --> 01:20:47,840
+on top of the data and so it's a good
+
+1518
+01:20:47,840 --> 01:20:49,190
+example of even though color is
+
+1519
+01:20:49,190 --> 01:20:50,809
+typically not considered the right way
+
+1520
+01:20:50,809 --> 01:20:53,059
+to show quantitative data and you say a
+
+1521
+01:20:53,059 --> 01:20:55,099
+graph or something this is actually
+
+1522
+01:20:55,099 --> 01:20:55,550
+really good
+
+1523
+01:20:55,550 --> 01:20:57,980
+it's and it's a good example of making
+
+1524
+01:20:57,980 --> 01:20:59,480
+the right trade-off to make the
+
+1525
+01:20:59,480 --> 01:21:04,520
+visualization work yeah and you brought
+
+1526
+01:21:04,520 --> 01:21:05,929
+up a really good point that I want to
+
+1527
+01:21:05,929 --> 01:21:09,079
+emphasize is whenever you're visualizing
+
+1528
+01:21:09,079 --> 01:21:11,719
+something if you can always go back to
+
+1529
+01:21:11,719 --> 01:21:14,270
+your raw data and show that to the user
+
+1530
+01:21:14,270 --> 01:21:16,909
+in this case the raw data is the text
+
+1531
+01:21:16,909 --> 01:21:19,550
+the better your visualization is going
+
+1532
+01:21:19,550 --> 01:21:21,079
+to be because you're gonna bridge that
+
+1533
+01:21:21,079 --> 01:21:24,530
+gap between like some analytical framing
+
+1534
+01:21:24,530 --> 01:21:26,860
+or a visual encoding you're doing and
+
+1535
+01:21:26,860 --> 01:21:30,320
+the messiness of the raw and exactly
+
+1536
+01:21:30,320 --> 01:21:32,570
+what it is you're encoding so take
+
+1537
+01:21:32,570 --> 01:21:35,989
+advantage of that as much as you can and
+
+1538
+01:21:35,989 --> 01:21:39,099
+a final exam here example here of a cell
+
+1539
+01:21:39,099 --> 01:21:43,309
+that activates inside if statements so
+
+1540
+01:21:43,309 --> 01:21:45,739
+it really cares about if statements and
+
+1541
+01:21:45,739 --> 01:21:50,960
+then it flips back this is another
+
+1542
+01:21:50,960 --> 01:21:53,980
+example this is a much more recent
+
+1543
+01:21:53,980 --> 01:21:57,590
+example of visualizing RNN so this is a
+
+1544
+01:21:57,590 --> 01:22:02,000
+seek to seek this and it's by Hendricks
+
+1545
+01:22:02,000 --> 01:22:05,690
+TRO belt and here what he was looking at
+
+1546
+01:22:05,690 --> 01:22:07,940
+he was really interested in building a
+
+1547
+01:22:07,940 --> 01:22:11,119
+visual tool that allowed researchers to
+
+1548
+01:22:11,119 --> 01:22:15,860
+debug a translation system okay so what
+
+1549
+01:22:15,860 --> 01:22:17,239
+he's he has a ton of different
+
+1550
+01:22:17,239 --> 01:22:19,619
+visualizations here put together
+
+1551
+01:22:19,619 --> 01:22:21,360
+and they are all interacting with each
+
+1552
+01:22:21,360 --> 01:22:23,789
+other and it starts here at the top
+
+1553
+01:22:23,789 --> 01:22:27,809
+where he enters a sentence in German and
+
+1554
+01:22:27,809 --> 01:22:31,199
+so this is what the encoder see hears in
+
+1555
+01:22:31,199 --> 01:22:34,349
+German the decoder is looking at English
+
+1556
+01:22:34,349 --> 01:22:38,209
+but it's giving you for each one of its
+
+1557
+01:22:38,209 --> 01:22:41,369
+words in that sequence it's giving you a
+
+1558
+01:22:41,369 --> 01:22:44,159
+notion of all the other words he didn't
+
+1559
+01:22:44,159 --> 01:22:48,749
+choose and Hendrik is overlaying a bar
+
+1560
+01:22:48,749 --> 01:22:50,789
+chart to give you a sense of the
+
+1561
+01:22:50,789 --> 01:22:53,099
+probability so you can see that for some
+
+1562
+01:22:53,099 --> 01:22:56,550
+of these choices here the choice was
+
+1563
+01:22:56,550 --> 01:22:58,379
+very close the probability was very
+
+1564
+01:22:58,379 --> 01:23:02,939
+close so this starts to not only remind
+
+1565
+01:23:02,939 --> 01:23:05,309
+you of the output of the system but it
+
+1566
+01:23:05,309 --> 01:23:07,409
+goes one layer down and starts to show
+
+1567
+01:23:07,409 --> 01:23:09,059
+you yeah but I was kind of confused
+
+1568
+01:23:09,059 --> 01:23:10,979
+about you know these two words or I
+
+1569
+01:23:10,979 --> 01:23:12,869
+could have chosen the other one or no I
+
+1570
+01:23:12,869 --> 01:23:16,050
+was very very certain of my top choice
+
+1571
+01:23:16,050 --> 01:23:20,099
+there it also it also shows you this
+
+1572
+01:23:20,099 --> 01:23:22,260
+tree structure for all the different
+
+1573
+01:23:22,260 --> 01:23:25,110
+paths it could have followed in this
+
+1574
+01:23:25,110 --> 01:23:27,959
+translation and it highlights for you in
+
+1575
+01:23:27,959 --> 01:23:31,289
+in a thicker way here the path it shows
+
+1576
+01:23:31,289 --> 01:23:35,099
+again trying to give you a sense of all
+
+1577
+01:23:35,099 --> 01:23:37,439
+the different choices it was considering
+
+1578
+01:23:37,439 --> 01:23:41,399
+and then here it takes each one of these
+
+1579
+01:23:41,399 --> 01:23:46,289
+words in in the target language and it
+
+1580
+01:23:46,289 --> 01:23:49,559
+looks at the embedding spaces but not
+
+1581
+01:23:49,559 --> 01:23:52,229
+only that it also gives you a notion of
+
+1582
+01:23:52,229 --> 01:23:54,869
+the nearest neighbors for each one of
+
+1583
+01:23:54,869 --> 01:23:56,879
+these words that it that it was looking
+
+1584
+01:23:56,879 --> 01:24:00,419
+at so again giving you the target but
+
+1585
+01:24:00,419 --> 01:24:02,629
+always giving you the context and
+
+1586
+01:24:02,629 --> 01:24:05,249
+allowing you to kind of try to
+
+1587
+01:24:05,249 --> 01:24:07,919
+understand oh do I agree with what it's
+
+1588
+01:24:07,919 --> 01:24:09,989
+doing do I think there is a problem how
+
+1589
+01:24:09,989 --> 01:24:13,079
+do i do bug this thing okay I believe
+
+1590
+01:24:13,079 --> 01:24:15,869
+this is open source right I think it's
+
+1591
+01:24:15,869 --> 01:24:19,610
+open source and then finally
+
+1592
+01:24:19,610 --> 01:24:22,490
+this is one visualization that was
+
+1593
+01:24:22,490 --> 01:24:27,950
+looking at games and very complicated
+
+1594
+01:24:27,950 --> 01:24:28,970
+you can see there's a ton of
+
+1595
+01:24:28,970 --> 01:24:32,690
+visualizations here right and again it
+
+1596
+01:24:32,690 --> 01:24:35,660
+was one of these connected views where
+
+1597
+01:24:35,660 --> 01:24:38,000
+you would highlight one breath and you
+
+1598
+01:24:38,000 --> 01:24:41,030
+would the others would respond to
+
+1599
+01:24:41,030 --> 01:24:42,830
+whatever it is that you were you were
+
+1600
+01:24:42,830 --> 01:24:46,820
+looking at and one of the things we
+
+1601
+01:24:46,820 --> 01:24:48,500
+wanted to call attention to if you are
+
+1602
+01:24:48,500 --> 01:24:51,860
+interested in visualization is this vast
+
+1603
+01:24:51,860 --> 01:24:56,870
+vest is a conference visual analytics
+
+1604
+01:24:56,870 --> 01:24:58,700
+conference and they are starting to do a
+
+1605
+01:24:58,700 --> 01:25:01,970
+lot of work on visualizations for
+
+1606
+01:25:01,970 --> 01:25:03,500
+machine learning and so this work was
+
+1607
+01:25:03,500 --> 01:25:10,370
+was published there cool okay so let's
+
+1608
+01:25:10,370 --> 01:25:12,290
+talk a little bit about high dimensional
+
+1609
+01:25:12,290 --> 01:25:15,590
+data so this is a sort of you know
+
+1610
+01:25:15,590 --> 01:25:18,200
+critical part of machine learning that
+
+1611
+01:25:18,200 --> 01:25:20,330
+in a sense it's the lingua franca this
+
+1612
+01:25:20,330 --> 01:25:22,610
+is how you know so many things in a
+
+1613
+01:25:22,610 --> 01:25:24,800
+complex model can be reduced to a vector
+
+1614
+01:25:24,800 --> 01:25:27,890
+in high dimensional space and so the the
+
+1615
+01:25:27,890 --> 01:25:29,660
+question about visualizing this this
+
+1616
+01:25:29,660 --> 01:25:31,870
+kind of data it becomes critical
+
+1617
+01:25:31,870 --> 01:25:34,370
+unfortunately it's really tough and it's
+
+1618
+01:25:34,370 --> 01:25:36,260
+tough for the unfortunate reason that
+
+1619
+01:25:36,260 --> 01:25:38,240
+it's impossible like you just can't do
+
+1620
+01:25:38,240 --> 01:25:40,790
+it right you know and the familiar
+
+1621
+01:25:40,790 --> 01:25:43,760
+analogy is with a map that if we try to
+
+1622
+01:25:43,760 --> 01:25:45,590
+project the globe onto two dimensions
+
+1623
+01:25:45,590 --> 01:25:47,690
+there are lots of different ways we can
+
+1624
+01:25:47,690 --> 01:25:49,970
+do it but it's always just inevitably
+
+1625
+01:25:49,970 --> 01:25:52,370
+from math going to distort some
+
+1626
+01:25:52,370 --> 01:25:55,190
+distances and I like this image from
+
+1627
+01:25:55,190 --> 01:25:58,190
+Mike Bostock of many many different
+
+1628
+01:25:58,190 --> 01:26:01,880
+projections at once so what do we do we
+
+1629
+01:26:01,880 --> 01:26:04,370
+basically again visualization is always
+
+1630
+01:26:04,370 --> 01:26:06,560
+an art of trade-offs and they're a bunch
+
+1631
+01:26:06,560 --> 01:26:08,690
+of approaches that we can use to try to
+
+1632
+01:26:08,690 --> 01:26:10,910
+make these trade-offs so they fall into
+
+1633
+01:26:10,910 --> 01:26:13,870
+two main categories one is on linear
+
+1634
+01:26:13,870 --> 01:26:15,710
+approaches where we're trying to find a
+
+1635
+01:26:15,710 --> 01:26:17,360
+good linear projection principal
+
+1636
+01:26:17,360 --> 01:26:18,860
+component analysis is kind of a
+
+1637
+01:26:18,860 --> 01:26:19,430
+workhorse
+
+1638
+01:26:19,430 --> 01:26:21,860
+oh I realized I don't have authorship on
+
+1639
+01:26:21,860 --> 01:26:24,470
+this there's a paper from 2003 in focus
+
+1640
+01:26:24,470 --> 01:26:27,650
+which I feel like is not seen enough but
+
+1641
+01:26:27,650 --> 01:26:29,120
+yahuda Corin is
+
+1642
+01:26:29,120 --> 01:26:32,060
+authorites not present this I in which
+
+1643
+01:26:32,060 --> 01:26:33,680
+they do this brilliant thing which I
+
+1644
+01:26:33,680 --> 01:26:35,060
+don't think is done enough where if you
+
+1645
+01:26:35,060 --> 01:26:37,730
+wanted to if you have labeled data you
+
+1646
+01:26:37,730 --> 01:26:39,890
+can simultaneously you can find an
+
+1647
+01:26:39,890 --> 01:26:41,810
+optimal linear projection to separate
+
+1648
+01:26:41,810 --> 01:26:43,340
+the labels from each other and its
+
+1649
+01:26:43,340 --> 01:26:46,040
+really effective so that's another thing
+
+1650
+01:26:46,040 --> 01:26:48,500
+to consider there's also a bunch of
+
+1651
+01:26:48,500 --> 01:26:51,290
+nonlinear methods many many of them and
+
+1652
+01:26:51,290 --> 01:26:53,630
+you can sort of think overall to like
+
+1653
+01:26:53,630 --> 01:26:54,980
+what is the goal of each of these
+
+1654
+01:26:54,980 --> 01:26:57,230
+methods you know PCA is just trying to
+
+1655
+01:26:57,230 --> 01:27:00,020
+capture as much variation this idea of
+
+1656
+01:27:00,020 --> 01:27:01,520
+visualization label data it doesn't have
+
+1657
+01:27:01,520 --> 01:27:03,530
+a catchy name you've sort of matched the
+
+1658
+01:27:03,530 --> 01:27:05,990
+clusters with a projection and the
+
+1659
+01:27:05,990 --> 01:27:07,700
+nonlinear methods generally have some
+
+1660
+01:27:07,700 --> 01:27:10,430
+metric of distortion that they use and
+
+1661
+01:27:10,430 --> 01:27:15,020
+try to minimize that distortion so let's
+
+1662
+01:27:15,020 --> 01:27:16,820
+take a look at some of these in practice
+
+1663
+01:27:16,820 --> 01:27:18,560
+and then I want to talk a little bit
+
+1664
+01:27:18,560 --> 01:27:20,570
+about sort of the theory and how to read
+
+1665
+01:27:20,570 --> 01:27:22,810
+these
+
+1666
+01:27:29,170 --> 01:27:31,390
+okay so what you're seeing here is a
+
+1667
+01:27:31,390 --> 01:27:33,430
+tool called the embedding projector that
+
+1668
+01:27:33,430 --> 01:27:35,410
+our group created it's out in the world
+
+1669
+01:27:35,410 --> 01:27:38,890
+open source and we'll use our high
+
+1670
+01:27:38,890 --> 01:27:40,810
+dimensional data set em NIST largely
+
+1671
+01:27:40,810 --> 01:27:44,440
+because it's familiar and this is
+
+1672
+01:27:44,440 --> 01:27:45,790
+showing what happens when you do a
+
+1673
+01:27:45,790 --> 01:27:47,650
+principal component analysis view a
+
+1674
+01:27:47,650 --> 01:27:50,350
+feminist and we can do this makes a
+
+1675
+01:27:50,350 --> 01:27:52,270
+little bit more readable
+
+1676
+01:27:52,270 --> 01:27:55,630
+by adding a color to this so now that
+
+1677
+01:27:55,630 --> 01:27:58,630
+every digit gets its own color again
+
+1678
+01:27:58,630 --> 01:28:00,850
+thinking about color scales we're
+
+1679
+01:28:00,850 --> 01:28:03,430
+choosing what on the color Brewer tool
+
+1680
+01:28:03,430 --> 01:28:06,310
+would think of as not sequential or not
+
+1681
+01:28:06,310 --> 01:28:07,780
+diverging but one of these ones is
+
+1682
+01:28:07,780 --> 01:28:09,220
+designed to show different categories
+
+1683
+01:28:09,220 --> 01:28:11,890
+and when we do that we can actually see
+
+1684
+01:28:11,890 --> 01:28:14,860
+that PCA does not do a terrible job of
+
+1685
+01:28:14,860 --> 01:28:16,540
+separating these things like you can
+
+1686
+01:28:16,540 --> 01:28:18,730
+sort of see the ones are all in their
+
+1687
+01:28:18,730 --> 01:28:20,260
+area but then there's a bunch of things
+
+1688
+01:28:20,260 --> 01:28:21,940
+that sort of are are getting mixed up
+
+1689
+01:28:21,940 --> 01:28:23,620
+here but so it's maybe a little better
+
+1690
+01:28:23,620 --> 01:28:26,380
+than you think however we can still do
+
+1691
+01:28:26,380 --> 01:28:27,910
+better than this if we wanted to look
+
+1692
+01:28:27,910 --> 01:28:36,490
+for clusters in particular we can look
+
+1693
+01:28:36,490 --> 01:28:40,750
+at T Snee a nonlinear method and when we
+
+1694
+01:28:40,750 --> 01:28:42,640
+do that we suddenly get a bunch of
+
+1695
+01:28:42,640 --> 01:28:45,640
+fairly well separated clusters and we
+
+1696
+01:28:45,640 --> 01:28:47,650
+even can start to see things that look
+
+1697
+01:28:47,650 --> 01:28:49,860
+like they might be sort of significant
+
+1698
+01:28:49,860 --> 01:28:53,020
+you know one thing is if we look at for
+
+1699
+01:28:53,020 --> 01:28:55,630
+example this cluster of ones you can
+
+1700
+01:28:55,630 --> 01:28:57,370
+sort of see there's a slant going on
+
+1701
+01:28:57,370 --> 01:28:59,350
+where on the left here they're slanting
+
+1702
+01:28:59,350 --> 01:29:01,090
+to the right over on this side they're
+
+1703
+01:29:01,090 --> 01:29:03,130
+slanting to the left and it feels like
+
+1704
+01:29:03,130 --> 01:29:04,960
+it's starting to capture some sort of
+
+1705
+01:29:04,960 --> 01:29:09,360
+useful information okay
+
+1706
+01:29:12,749 --> 01:29:16,309
+let's go back here
+
+1707
+01:29:16,309 --> 01:29:19,280
+okay the trouble is that as I said you
+
+1708
+01:29:19,280 --> 01:29:20,809
+know you can't really get a faithful
+
+1709
+01:29:20,809 --> 01:29:23,570
+projection down and so there's a lot of
+
+1710
+01:29:23,570 --> 01:29:25,460
+trickiness and let's analyze that
+
+1711
+01:29:25,460 --> 01:29:29,300
+trickiness so let's start with TCE this
+
+1712
+01:29:29,300 --> 01:29:32,030
+is our main example so this is a truly
+
+1713
+01:29:32,030 --> 01:29:35,389
+beautiful visualization method and one
+
+1714
+01:29:35,389 --> 01:29:37,550
+of the things that makes it work but
+
+1715
+01:29:37,550 --> 01:29:39,770
+also makes it hard to interpret is it
+
+1716
+01:29:39,770 --> 01:29:41,960
+has this adaptive sense of distance and
+
+1717
+01:29:41,960 --> 01:29:45,800
+this is designed to sort of provide a
+
+1718
+01:29:45,800 --> 01:29:48,050
+good translation between how distances
+
+1719
+01:29:48,050 --> 01:29:49,520
+work in high dimensional space and low
+
+1720
+01:29:49,520 --> 01:29:51,980
+dimensional space and also you know it
+
+1721
+01:29:51,980 --> 01:29:53,840
+does a lot of good things but it can be
+
+1722
+01:29:53,840 --> 01:29:57,739
+tricky so let's take a look at how you
+
+1723
+01:29:57,739 --> 01:30:01,219
+would close read it so this is based on
+
+1724
+01:30:01,219 --> 01:30:04,969
+a distill article that we wrote called
+
+1725
+01:30:04,969 --> 01:30:06,710
+how to use tea Snee effectively and
+
+1726
+01:30:06,710 --> 01:30:08,570
+because you can look it up but let's
+
+1727
+01:30:08,570 --> 01:30:10,489
+talk about what what are and what we did
+
+1728
+01:30:10,489 --> 01:30:12,829
+is we said we'll take some examples
+
+1729
+01:30:12,829 --> 01:30:14,869
+where we know ground truth even in high
+
+1730
+01:30:14,869 --> 01:30:16,340
+dimensions because we'll use completely
+
+1731
+01:30:16,340 --> 01:30:18,679
+synthetic data not like M Ness but
+
+1732
+01:30:18,679 --> 01:30:20,210
+something we truly can understand and
+
+1733
+01:30:20,210 --> 01:30:22,429
+control and we'll look at what happens
+
+1734
+01:30:22,429 --> 01:30:27,110
+and get a sense of how to do it so one
+
+1735
+01:30:27,110 --> 01:30:28,280
+thing is that there's their hyper
+
+1736
+01:30:28,280 --> 01:30:29,900
+parameters in just about all of these
+
+1737
+01:30:29,900 --> 01:30:33,530
+methods in tease me there's a hyper
+
+1738
+01:30:33,530 --> 01:30:35,270
+parameter called perplexity which
+
+1739
+01:30:35,270 --> 01:30:38,150
+roughly speaking tells you sort of how
+
+1740
+01:30:38,150 --> 01:30:41,119
+big you expect a neighborhood of a point
+
+1741
+01:30:41,119 --> 01:30:43,579
+to be like what what a near neighbor
+
+1742
+01:30:43,579 --> 01:30:46,070
+would be and it turns out that that
+
+1743
+01:30:46,070 --> 01:30:48,289
+makes a huge difference so let's take as
+
+1744
+01:30:48,289 --> 01:30:50,630
+an original two clusters that are
+
+1745
+01:30:50,630 --> 01:30:52,760
+Gaussian clusters that are fairly well
+
+1746
+01:30:52,760 --> 01:30:56,090
+separated and let's say that there are
+
+1747
+01:30:56,090 --> 01:31:00,739
+50 items each and if we create a system
+
+1748
+01:31:00,739 --> 01:31:02,360
+like this you'll start to see something
+
+1749
+01:31:02,360 --> 01:31:04,909
+happening that it when perplexity is -
+
+1750
+01:31:04,909 --> 01:31:07,219
+you don't see those clusters at all like
+
+1751
+01:31:07,219 --> 01:31:09,559
+they just sort of explode into little
+
+1752
+01:31:09,559 --> 01:31:14,030
+tiny pieces largely because - is such a
+
+1753
+01:31:14,030 --> 01:31:15,349
+small number you're essentially just
+
+1754
+01:31:15,349 --> 01:31:17,690
+picking out tiny neighbors of like pairs
+
+1755
+01:31:17,690 --> 01:31:19,219
+of points that are very near each other
+
+1756
+01:31:19,219 --> 01:31:20,750
+so you don't see anything close to
+
+1757
+01:31:20,750 --> 01:31:23,659
+global or medium scale you can see at 5
+
+1758
+01:31:23,659 --> 01:31:26,809
+you start to get those clusters out 30
+
+1759
+01:31:26,809 --> 01:31:28,820
+and 50 seems to do about right because
+
+1760
+01:31:28,820 --> 01:31:29,180
+in
+
+1761
+01:31:29,180 --> 01:31:31,310
+that matches roughly the scale those
+
+1762
+01:31:31,310 --> 01:31:33,140
+things and a hundred it just goes crazy
+
+1763
+01:31:33,140 --> 01:31:35,420
+largely because if your perplexity sort
+
+1764
+01:31:35,420 --> 01:31:37,100
+of matches the total number of data
+
+1765
+01:31:37,100 --> 01:31:40,660
+points everything starts to go wrong
+
+1766
+01:31:40,720 --> 01:31:43,520
+what about the sizes of the clusters
+
+1767
+01:31:43,520 --> 01:31:46,010
+that like spatial size that you see on
+
+1768
+01:31:46,010 --> 01:31:48,380
+screen it turns out in t s-- t that
+
+1769
+01:31:48,380 --> 01:31:50,450
+means absolutely nothing and it's really
+
+1770
+01:31:50,450 --> 01:31:52,280
+important to keep that in mind and this
+
+1771
+01:31:52,280 --> 01:31:53,930
+is where the adaptive nature of teeth
+
+1772
+01:31:53,930 --> 01:31:55,280
+knee can be deceptive
+
+1773
+01:31:55,280 --> 01:31:58,340
+so here the original data set is one
+
+1774
+01:31:58,340 --> 01:31:59,870
+cluster that's got a fairly large
+
+1775
+01:31:59,870 --> 01:32:02,140
+variance and one that's incredibly tight
+
+1776
+01:32:02,140 --> 01:32:04,850
+again with perplexity too they just sort
+
+1777
+01:32:04,850 --> 01:32:07,370
+of shatter but then you can see with
+
+1778
+01:32:07,370 --> 01:32:09,560
+these other pop-rock cities for most of
+
+1779
+01:32:09,560 --> 01:32:12,080
+the sort of mid ranges they actually
+
+1780
+01:32:12,080 --> 01:32:15,170
+look exactly the same size visually and
+
+1781
+01:32:15,170 --> 01:32:16,970
+you can view that as either a bug or a
+
+1782
+01:32:16,970 --> 01:32:19,070
+feature depending on your situation but
+
+1783
+01:32:19,070 --> 01:32:20,900
+what you should never do is look at the
+
+1784
+01:32:20,900 --> 01:32:22,760
+sizes of things and assume that they
+
+1785
+01:32:22,760 --> 01:32:24,710
+correspond to something real by the way
+
+1786
+01:32:24,710 --> 01:32:26,900
+once you get perplexity 100 in this case
+
+1787
+01:32:26,900 --> 01:32:28,340
+I think there's a few more than 50 in
+
+1788
+01:32:28,340 --> 01:32:30,380
+each maybe 100 in each one it's you
+
+1789
+01:32:30,380 --> 01:32:32,840
+start to get some vague sense of the
+
+1790
+01:32:32,840 --> 01:32:35,000
+distinction and sizes but it's certainly
+
+1791
+01:32:35,000 --> 01:32:39,140
+not a perfect match similarly distances
+
+1792
+01:32:39,140 --> 01:32:41,060
+between clusters don't necessarily mean
+
+1793
+01:32:41,060 --> 01:32:43,160
+very much and it really depends on your
+
+1794
+01:32:43,160 --> 01:32:45,410
+hyper parameters you can see with some
+
+1795
+01:32:45,410 --> 01:32:48,350
+parameters here these three things on
+
+1796
+01:32:48,350 --> 01:32:49,910
+the original you know the orange and the
+
+1797
+01:32:49,910 --> 01:32:51,650
+blue are very close they just end up
+
+1798
+01:32:51,650 --> 01:32:54,440
+equally far in the middle only when you
+
+1799
+01:32:54,440 --> 01:32:56,450
+get to very high perplexities does it
+
+1800
+01:32:56,450 --> 01:32:59,720
+actually capture them the other thing is
+
+1801
+01:32:59,720 --> 01:33:02,690
+that shapes can be meaningful but not on
+
+1802
+01:33:02,690 --> 01:33:04,790
+so let's take these two things that are
+
+1803
+01:33:04,790 --> 01:33:06,080
+sort of various ellipsoids
+
+1804
+01:33:06,080 --> 01:33:09,260
+if you take a very kind of scattered
+
+1805
+01:33:09,260 --> 01:33:10,910
+ellipse not a very dramatic ellipsoid
+
+1806
+01:33:10,910 --> 01:33:12,530
+something that's like twice as long as
+
+1807
+01:33:12,530 --> 01:33:15,080
+it is wide you can see again for certain
+
+1808
+01:33:15,080 --> 01:33:17,510
+perplexity values you do see the shape
+
+1809
+01:33:17,510 --> 01:33:19,220
+for others it just turns into something
+
+1810
+01:33:19,220 --> 01:33:21,560
+either spherical or shattered when you
+
+1811
+01:33:21,560 --> 01:33:24,340
+have to sort of very very thin
+
+1812
+01:33:24,340 --> 01:33:26,660
+distributions next to each other those
+
+1813
+01:33:26,660 --> 01:33:29,060
+actually do stay as those shapes
+
+1814
+01:33:29,060 --> 01:33:31,070
+actually persist but again with some
+
+1815
+01:33:31,070 --> 01:33:32,540
+slight variations you can see there's a
+
+1816
+01:33:32,540 --> 01:33:35,360
+little bit of like spurious curvature as
+
+1817
+01:33:35,360 --> 01:33:37,400
+they repel each other there's this funny
+
+1818
+01:33:37,400 --> 01:33:39,350
+kind of twist or break going on and so
+
+1819
+01:33:39,350 --> 01:33:41,360
+forth so to again important
+
+1820
+01:33:41,360 --> 01:33:43,730
+if keeps this in mind as you look at
+
+1821
+01:33:43,730 --> 01:33:47,090
+your ear TC so then let's think back on
+
+1822
+01:33:47,090 --> 01:33:49,760
+that M mystical and I took a couple of
+
+1823
+01:33:49,760 --> 01:33:51,530
+screenshots while I was using this tool
+
+1824
+01:33:51,530 --> 01:33:53,420
+and we can see these phenomena at play
+
+1825
+01:33:53,420 --> 01:33:55,640
+so one thing is that if I stop too soon
+
+1826
+01:33:55,640 --> 01:33:57,320
+I get a whole bunch of artifacts that
+
+1827
+01:33:57,320 --> 01:34:00,890
+sort of look like this that's a very
+
+1828
+01:34:00,890 --> 01:34:03,080
+classic thing in TC if you've got these
+
+1829
+01:34:03,080 --> 01:34:04,820
+weird sort of angles that means you
+
+1830
+01:34:04,820 --> 01:34:07,790
+apply stop too soon but again let's see
+
+1831
+01:34:07,790 --> 01:34:11,510
+what we can guess and what we can so you
+
+1832
+01:34:11,510 --> 01:34:13,580
+know we have these fours at the top
+
+1833
+01:34:13,580 --> 01:34:15,890
+these things in pink those may not
+
+1834
+01:34:15,890 --> 01:34:18,200
+really be separated into two clusters as
+
+1835
+01:34:18,200 --> 01:34:20,360
+we saw with a sort of long thin
+
+1836
+01:34:20,360 --> 01:34:21,920
+distributions before they can kind of
+
+1837
+01:34:21,920 --> 01:34:23,810
+break up even though they clearly were a
+
+1838
+01:34:23,810 --> 01:34:26,750
+cluster at the very bottom that you
+
+1839
+01:34:26,750 --> 01:34:28,310
+could note that most of these clusters
+
+1840
+01:34:28,310 --> 01:34:31,190
+seem roughly equally far apart they
+
+1841
+01:34:31,190 --> 01:34:33,980
+probably are not and so that's something
+
+1842
+01:34:33,980 --> 01:34:35,450
+we need to keep in mind the clusters
+
+1843
+01:34:35,450 --> 01:34:37,340
+exist but we don't want to talk about
+
+1844
+01:34:37,340 --> 01:34:38,960
+the relationships between those two
+
+1845
+01:34:38,960 --> 01:34:41,810
+clusters without a great deal of care on
+
+1846
+01:34:41,810 --> 01:34:44,030
+the other hand the cluster of ones that
+
+1847
+01:34:44,030 --> 01:34:46,070
+actually showed sort of a progression
+
+1848
+01:34:46,070 --> 01:34:47,960
+from you know tilting to the right
+
+1849
+01:34:47,960 --> 01:34:50,030
+tilting to the left that was probably a
+
+1850
+01:34:50,030 --> 01:34:51,740
+real thing like that thing probably is
+
+1851
+01:34:51,740 --> 01:34:54,590
+not just some spherical distribution in
+
+1852
+01:34:54,590 --> 01:34:56,660
+space okay
+
+1853
+01:34:56,660 --> 01:34:59,240
+so T stays very good but there's a new
+
+1854
+01:34:59,240 --> 01:35:01,100
+kid on the block and that's something
+
+1855
+01:35:01,100 --> 01:35:02,930
+called u map and I just want to give a
+
+1856
+01:35:02,930 --> 01:35:04,730
+nod to this briefly it's something that
+
+1857
+01:35:04,730 --> 01:35:07,880
+came out fairly recently and the idea
+
+1858
+01:35:07,880 --> 01:35:11,180
+here is that the purpose of the method
+
+1859
+01:35:11,180 --> 01:35:12,650
+is there's a couple of things that it's
+
+1860
+01:35:12,650 --> 01:35:14,660
+aiming to do better than T's needs so
+
+1861
+01:35:14,660 --> 01:35:16,280
+one is simply from the implementation
+
+1862
+01:35:16,280 --> 01:35:19,010
+point of view trying to be faster TC is
+
+1863
+01:35:19,010 --> 01:35:21,260
+actually fairly you know takes a while
+
+1864
+01:35:21,260 --> 01:35:23,570
+to actually light things out the other
+
+1865
+01:35:23,570 --> 01:35:25,220
+thing is that the way that T's me
+
+1866
+01:35:25,220 --> 01:35:27,950
+algorithms scales is that the more
+
+1867
+01:35:27,950 --> 01:35:30,080
+dimensions you're embedding in tune the
+
+1868
+01:35:30,080 --> 01:35:32,480
+slower it gets that generally is not a
+
+1869
+01:35:32,480 --> 01:35:34,130
+problem for visualization because we
+
+1870
+01:35:34,130 --> 01:35:37,490
+only want two or three dimensions but if
+
+1871
+01:35:37,490 --> 01:35:38,870
+you want to have a pre-processing step
+
+1872
+01:35:38,870 --> 01:35:42,050
+where you're focusing down then you
+
+1873
+01:35:42,050 --> 01:35:44,240
+actually might care about that and also
+
+1874
+01:35:44,240 --> 01:35:46,040
+it seems to capture global structure a
+
+1875
+01:35:46,040 --> 01:35:48,350
+little bit better the way it works and
+
+1876
+01:35:48,350 --> 01:35:50,590
+I'm going to give you sort of a rough
+
+1877
+01:35:50,590 --> 01:35:53,210
+description of this is that it uses
+
+1878
+01:35:53,210 --> 01:35:54,670
+ideas from
+
+1879
+01:35:54,670 --> 01:35:57,489
+and believe it or not category theory in
+
+1880
+01:35:57,489 --> 01:36:00,880
+order to try to capture the apology very
+
+1881
+01:36:00,880 --> 01:36:02,650
+explicitly it's a little bit like
+
+1882
+01:36:02,650 --> 01:36:04,600
+topological data analysis that you know
+
+1883
+01:36:04,600 --> 01:36:07,090
+carlson has done but it seems it extends
+
+1884
+01:36:07,090 --> 01:36:10,270
+beyond this essentially on by doing that
+
+1885
+01:36:10,270 --> 01:36:12,219
+I think this is why it gets the global
+
+1886
+01:36:12,219 --> 01:36:15,340
+structure a little bit better but we can
+
+1887
+01:36:15,340 --> 01:36:17,530
+actually see compare side-by-side or
+
+1888
+01:36:17,530 --> 01:36:19,090
+rather the authors of the paper compare
+
+1889
+01:36:19,090 --> 01:36:21,940
+side-by-side how you map and teeth need
+
+1890
+01:36:21,940 --> 01:36:23,830
+work and they do this on end this which
+
+1891
+01:36:23,830 --> 01:36:26,230
+we just saw so among other things so on
+
+1892
+01:36:26,230 --> 01:36:28,690
+the left column here we see you map on
+
+1893
+01:36:28,690 --> 01:36:32,250
+the right column is T Snee so in this
+
+1894
+01:36:32,250 --> 01:36:35,860
+row here we see M nest and in fact this
+
+1895
+01:36:35,860 --> 01:36:37,870
+looks fairly familiar this looks much
+
+1896
+01:36:37,870 --> 01:36:40,989
+like what we saw in our 3d view however
+
+1897
+01:36:40,989 --> 01:36:43,090
+here when we look at you map we actually
+
+1898
+01:36:43,090 --> 01:36:45,699
+start to see interesting differences in
+
+1899
+01:36:45,699 --> 01:36:48,969
+distances between the clusters and we it
+
+1900
+01:36:48,969 --> 01:36:50,469
+actually seems to correspond to
+
+1901
+01:36:50,469 --> 01:36:51,760
+something real when you look at things
+
+1902
+01:36:51,760 --> 01:36:53,860
+similarly if you look at some of these
+
+1903
+01:36:53,860 --> 01:36:56,020
+other things you can definitely see more
+
+1904
+01:36:56,020 --> 01:36:58,330
+global activity sort of the interesting
+
+1905
+01:36:58,330 --> 01:37:00,280
+global structure in this for example
+
+1906
+01:37:00,280 --> 01:37:02,590
+which I think this is word Tyvek or some
+
+1907
+01:37:02,590 --> 01:37:05,940
+word vector versus T sneeze so this is
+
+1908
+01:37:05,940 --> 01:37:07,750
+something that's definitely worth doing
+
+1909
+01:37:07,750 --> 01:37:09,810
+I think an interest of time I will not
+
+1910
+01:37:09,810 --> 01:37:12,190
+do a demo of this but there's actually a
+
+1911
+01:37:12,190 --> 01:37:14,560
+very beautiful demo online by lien 7
+
+1912
+01:37:14,560 --> 01:37:16,449
+that lets you compare these directly
+
+1913
+01:37:16,449 --> 01:37:18,280
+with the audio data and he does a fairly
+
+1914
+01:37:18,280 --> 01:37:20,560
+careful analysis much like the one that
+
+1915
+01:37:20,560 --> 01:37:24,850
+we did in our distal article so yeah
+
+1916
+01:37:24,850 --> 01:37:28,960
+there's this is another reference that I
+
+1917
+01:37:28,960 --> 01:37:30,400
+would sort of recommend looking at later
+
+1918
+01:37:30,400 --> 01:37:31,840
+something called The Beginner's Guide to
+
+1919
+01:37:31,840 --> 01:37:33,670
+dimensionality reduction which lets you
+
+1920
+01:37:33,670 --> 01:37:34,810
+sort of compare these things
+
+1921
+01:37:34,810 --> 01:37:38,650
+side-by-side okay there's one last topic
+
+1922
+01:37:38,650 --> 01:37:40,480
+I want to talk about while we're talking
+
+1923
+01:37:40,480 --> 01:37:42,160
+about high dimensional space which is
+
+1924
+01:37:42,160 --> 01:37:45,250
+that the geometry is very weird in many
+
+1925
+01:37:45,250 --> 01:37:47,320
+ways it's quite the opposite of what we
+
+1926
+01:37:47,320 --> 01:37:48,730
+learn in - in three dimensions
+
+1927
+01:37:48,730 --> 01:37:51,489
+so here are four statements and you have
+
+1928
+01:37:51,489 --> 01:37:53,050
+to pepper these statements with sort of
+
+1929
+01:37:53,050 --> 01:37:55,449
+the usual mathematical caveats but to a
+
+1930
+01:37:55,449 --> 01:37:56,830
+first approximation they're all true
+
+1931
+01:37:56,830 --> 01:37:58,690
+that you know if I pick two vectors at
+
+1932
+01:37:58,690 --> 01:38:00,739
+random they're gonna be at right angles
+
+1933
+01:38:00,739 --> 01:38:03,440
+um a Gaussian distribution doesn't look
+
+1934
+01:38:03,440 --> 01:38:04,849
+like a bell curve it looks like a
+
+1935
+01:38:04,849 --> 01:38:07,789
+uniform distribution on a sphere random
+
+1936
+01:38:07,789 --> 01:38:09,650
+matrices are basically orthogonal
+
+1937
+01:38:09,650 --> 01:38:11,059
+matrices this is something that's I
+
+1938
+01:38:11,059 --> 01:38:12,619
+think a little bit less appreciated than
+
+1939
+01:38:12,619 --> 01:38:14,539
+those first two facts but it essentially
+
+1940
+01:38:14,539 --> 01:38:16,460
+follows directly from them and then one
+
+1941
+01:38:16,460 --> 01:38:18,469
+thing which I think is definitely not
+
+1942
+01:38:18,469 --> 01:38:20,989
+well appreciated is that random walks in
+
+1943
+01:38:20,989 --> 01:38:22,730
+very high dimensions all have the same
+
+1944
+01:38:22,730 --> 01:38:26,150
+shape more or less probably and that's a
+
+1945
+01:38:26,150 --> 01:38:28,909
+very weird but true thing and I want to
+
+1946
+01:38:28,909 --> 01:38:31,400
+sort of talk a little bit about why that
+
+1947
+01:38:31,400 --> 01:38:33,559
+matters in machine learning so one thing
+
+1948
+01:38:33,559 --> 01:38:34,909
+that you see very often is that people
+
+1949
+01:38:34,909 --> 01:38:36,710
+will be interested in some process
+
+1950
+01:38:36,710 --> 01:38:38,329
+happening in high dimensions and
+
+1951
+01:38:38,329 --> 01:38:40,309
+gradient descent trajectories are a
+
+1952
+01:38:40,309 --> 01:38:43,099
+classic example of this and you'll see
+
+1953
+01:38:43,099 --> 01:38:46,039
+um it sort of I've so two papers here
+
+1954
+01:38:46,039 --> 01:38:47,329
+there's this really nice paper from
+
+1955
+01:38:47,329 --> 01:38:49,940
+Eliana Lorch on visualizing deep network
+
+1956
+01:38:49,940 --> 01:38:51,530
+training trajectories in which she finds
+
+1957
+01:38:51,530 --> 01:38:53,090
+these very interesting kind of ListView
+
+1958
+01:38:53,090 --> 01:38:59,360
+patterns if you do PCA on on the weights
+
+1959
+01:38:59,360 --> 01:39:01,849
+and similar there's another recent very
+
+1960
+01:39:01,849 --> 01:39:03,110
+interesting paper about the lost
+
+1961
+01:39:03,110 --> 01:39:05,630
+landscape of neural networks and they
+
+1962
+01:39:05,630 --> 01:39:09,340
+too are sort of projecting by PCA
+
+1963
+01:39:09,340 --> 01:39:12,469
+loss basically the trajectory training
+
+1964
+01:39:12,469 --> 01:39:14,239
+trajectories and in each case you see
+
+1965
+01:39:14,239 --> 01:39:15,499
+they get these kind of things that look
+
+1966
+01:39:15,499 --> 01:39:18,170
+like Parral parabolas essentially
+
+1967
+01:39:18,170 --> 01:39:21,769
+roughly speaking and the question is
+
+1968
+01:39:21,769 --> 01:39:23,150
+what can we read into that about
+
+1969
+01:39:23,150 --> 01:39:26,090
+training and the answer is it's not
+
+1970
+01:39:26,090 --> 01:39:28,969
+clear what we can because it turns out
+
+1971
+01:39:28,969 --> 01:39:31,610
+that if you look at a random walk and
+
+1972
+01:39:31,610 --> 01:39:35,449
+project it by PCA you will actually see
+
+1973
+01:39:35,449 --> 01:39:38,150
+exactly these same basic phenomena of
+
+1974
+01:39:38,150 --> 01:39:40,429
+list issue patterns that essentially the
+
+1975
+01:39:40,429 --> 01:39:42,650
+principal components when you project
+
+1976
+01:39:42,650 --> 01:39:45,530
+down look like um cosines and this is
+
+1977
+01:39:45,530 --> 01:39:47,119
+again this there's a bunch of ways to
+
+1978
+01:39:47,119 --> 01:39:51,110
+see this there's a recent paper from
+
+1979
+01:39:51,110 --> 01:39:52,789
+ntek Nemean salt Dickstein that shows
+
+1980
+01:39:52,789 --> 01:39:55,340
+this this is where this diagram is from
+
+1981
+01:39:55,340 --> 01:39:57,260
+and it's it's a sort of a shocking fact
+
+1982
+01:39:57,260 --> 01:39:58,909
+because we think about random walks as
+
+1983
+01:39:58,909 --> 01:40:01,159
+these really weird jittery things but
+
+1984
+01:40:01,159 --> 01:40:03,170
+that's a low dimensional thinking so one
+
+1985
+01:40:03,170 --> 01:40:05,239
+general thing is that whenever you're
+
+1986
+01:40:05,239 --> 01:40:07,579
+doing this kind of visualization of sort
+
+1987
+01:40:07,579 --> 01:40:08,900
+of anything at high dimensional space
+
+1988
+01:40:08,900 --> 01:40:10,909
+compared with the most random baseline
+
+1989
+01:40:10,909 --> 01:40:12,890
+you can and it'll
+
+1990
+01:40:12,890 --> 01:40:17,210
+probably bear fruit alright so bringing
+
+1991
+01:40:17,210 --> 01:40:18,710
+high dimensional space and visualization
+
+1992
+01:40:18,710 --> 01:40:22,010
+together again let's take a look at a
+
+1993
+01:40:22,010 --> 01:40:25,930
+quick demo so we were curious about
+
+1994
+01:40:25,930 --> 01:40:30,380
+working with a research model a true
+
+1995
+01:40:30,380 --> 01:40:32,690
+research model at Google and we ended up
+
+1996
+01:40:32,690 --> 01:40:34,580
+working with some of the folks who were
+
+1997
+01:40:34,580 --> 01:40:39,730
+doing multilingual translation and there
+
+1998
+01:40:39,730 --> 01:40:42,710
+some of you may be familiar with this it
+
+1999
+01:40:42,710 --> 01:40:46,430
+was the first time that in this case
+
+2000
+01:40:46,430 --> 01:40:49,070
+Google came up with a translation system
+
+2001
+01:40:49,070 --> 01:40:51,560
+that could take as input multiple
+
+2002
+01:40:51,560 --> 01:40:55,190
+languages and could output translations
+
+2003
+01:40:55,190 --> 01:40:58,250
+into multiple languages without having
+
+2004
+01:40:58,250 --> 01:41:01,970
+seen training data on all the pairs of
+
+2005
+01:41:01,970 --> 01:41:05,000
+languages it was translating so in other
+
+2006
+01:41:05,000 --> 01:41:07,670
+words if you look at this slide imagine
+
+2007
+01:41:07,670 --> 01:41:10,640
+a system that has trained on sentences
+
+2008
+01:41:10,640 --> 01:41:12,440
+that trends are translated between
+
+2009
+01:41:12,440 --> 01:41:14,480
+English and Japanese and Japanese in
+
+2010
+01:41:14,480 --> 01:41:17,780
+English and then also English and Korean
+
+2011
+01:41:17,780 --> 01:41:20,390
+Korean and English okay that's the
+
+2012
+01:41:20,390 --> 01:41:22,190
+training data that's all the training
+
+2013
+01:41:22,190 --> 01:41:24,410
+data and then all of a sudden the system
+
+2014
+01:41:24,410 --> 01:41:27,350
+can start outputting high-quality
+
+2015
+01:41:27,350 --> 01:41:29,990
+translations straight from Japanese to
+
+2016
+01:41:29,990 --> 01:41:32,990
+Korean and vice versa without ever
+
+2017
+01:41:32,990 --> 01:41:35,720
+having seen a single sentence directly
+
+2018
+01:41:35,720 --> 01:41:39,800
+in those directions ok so part of the
+
+2019
+01:41:39,800 --> 01:41:41,840
+question is how part of the question
+
+2020
+01:41:41,840 --> 01:41:43,430
+there was how how are these systems
+
+2021
+01:41:43,430 --> 01:41:46,730
+doing this and so to look into that we
+
+2022
+01:41:46,730 --> 01:41:49,310
+decided to visualize you know the way
+
+2023
+01:41:49,310 --> 01:41:50,720
+these systems are set up there is the
+
+2024
+01:41:50,720 --> 01:41:53,360
+encoder there is the decoder and in the
+
+2025
+01:41:53,360 --> 01:41:54,710
+middle there there is an attention
+
+2026
+01:41:54,710 --> 01:41:57,170
+vector and so we decided to visualize
+
+2027
+01:41:57,170 --> 01:42:00,080
+that attention vector so just very
+
+2028
+01:42:00,080 --> 01:42:02,810
+briefly walk you through what might a
+
+2029
+01:42:02,810 --> 01:42:06,760
+visualization like that look like oh and
+
+2030
+01:42:06,760 --> 01:42:10,040
+before I do that let me ask let me
+
+2031
+01:42:10,040 --> 01:42:12,680
+actually step back and tell you about
+
+2032
+01:42:12,680 --> 01:42:15,380
+the research questions the scientists
+
+2033
+01:42:15,380 --> 01:42:18,830
+had so when we talked to them they were
+
+2034
+01:42:18,830 --> 01:42:20,789
+saying you know we don't know how these
+
+2035
+01:42:20,789 --> 01:42:24,989
+sims are resolving the the multilingual
+
+2036
+01:42:24,989 --> 01:42:28,199
+space of embeddings is it that the
+
+2037
+01:42:28,199 --> 01:42:30,449
+system is doing something like what you
+
+2038
+01:42:30,449 --> 01:42:33,149
+see on the left here where imagine I am
+
+2039
+01:42:33,149 --> 01:42:35,909
+coloring each language in a different
+
+2040
+01:42:35,909 --> 01:42:38,939
+color right so you have English is blue
+
+2041
+01:42:38,939 --> 01:42:42,569
+and Japanese is red is green and Korean
+
+2042
+01:42:42,569 --> 01:42:43,829
+is yellow and so forth
+
+2043
+01:42:43,829 --> 01:42:47,219
+is it that the my system is you know
+
+2044
+01:42:47,219 --> 01:42:49,649
+creating an embedding space all of
+
+2045
+01:42:49,649 --> 01:42:52,769
+English in one corner and all of the
+
+2046
+01:42:52,769 --> 01:42:54,359
+Japanese embeddings are in the other
+
+2047
+01:42:54,359 --> 01:42:56,519
+corner and all the Korean buddies are in
+
+2048
+01:42:56,519 --> 01:42:58,409
+the other corner and then it maps
+
+2049
+01:42:58,409 --> 01:43:03,569
+between these spaces or is the question
+
+2050
+01:43:03,569 --> 01:43:06,030
+is is what's happening more like what
+
+2051
+01:43:06,030 --> 01:43:08,489
+you see on the right which is a little
+
+2052
+01:43:08,489 --> 01:43:11,099
+bit more of a mess but where the system
+
+2053
+01:43:11,099 --> 01:43:13,229
+is bringing together these different
+
+2054
+01:43:13,229 --> 01:43:17,239
+languages and in bringing them together
+
+2055
+01:43:17,239 --> 01:43:20,399
+it's doing something where it doesn't
+
+2056
+01:43:20,399 --> 01:43:25,109
+care as much about the string home being
+
+2057
+01:43:25,109 --> 01:43:29,099
+different from this string Casa it
+
+2058
+01:43:29,099 --> 01:43:31,439
+really cares more that these are
+
+2059
+01:43:31,439 --> 01:43:34,979
+semantically related so is the system
+
+2060
+01:43:34,979 --> 01:43:36,749
+paying attention more to the semantics
+
+2061
+01:43:36,749 --> 01:43:40,889
+of these words versus paying attention
+
+2062
+01:43:40,889 --> 01:43:43,439
+to what languages it came from so in
+
+2063
+01:43:43,439 --> 01:43:45,689
+order to answer that question we decided
+
+2064
+01:43:45,689 --> 01:43:48,119
+to create to work with with the
+
+2065
+01:43:48,119 --> 01:43:50,699
+visualization imagine I have a sentence
+
+2066
+01:43:50,699 --> 01:43:52,799
+like the stratosphere extends from 10
+
+2067
+01:43:52,799 --> 01:43:55,010
+kilometers to 50 kilometers in altitude
+
+2068
+01:43:55,010 --> 01:43:58,769
+okay that sentence may look like this
+
+2069
+01:43:58,769 --> 01:44:01,109
+okay in in embeddings
+
+2070
+01:44:01,109 --> 01:44:04,409
+space and I have all the words there and
+
+2071
+01:44:04,409 --> 01:44:07,559
+then I connect those dots in high
+
+2072
+01:44:07,559 --> 01:44:10,879
+dimensional space and voila this is my
+
+2073
+01:44:10,879 --> 01:44:14,189
+sentence now when I translate that
+
+2074
+01:44:14,189 --> 01:44:17,039
+sentence into another language in this
+
+2075
+01:44:17,039 --> 01:44:20,280
+case here Portuguese does my embedding
+
+2076
+01:44:20,280 --> 01:44:22,799
+space look like this where English is in
+
+2077
+01:44:22,799 --> 01:44:24,780
+one corner and Portuguese is on the
+
+2078
+01:44:24,780 --> 01:44:27,929
+other corner or does it look more like
+
+2079
+01:44:27,929 --> 01:44:31,060
+this where the two languages are
+
+2080
+01:44:31,060 --> 01:44:35,620
+kind of put together right and so to
+
+2081
+01:44:35,620 --> 01:44:39,070
+give you a big reveal let me show you
+
+2082
+01:44:39,070 --> 01:44:41,910
+what we did with the embedding projector
+
+2083
+01:44:41,910 --> 01:44:46,390
+so this here is a visualization of a
+
+2084
+01:44:46,390 --> 01:44:49,960
+multilingual system that takes in three
+
+2085
+01:44:49,960 --> 01:44:53,680
+languages English Japanese and Korean
+
+2086
+01:44:53,680 --> 01:44:57,010
+I am coloring sentences here each
+
+2087
+01:44:57,010 --> 01:45:00,450
+sentence I'm coloring in its in its
+
+2088
+01:45:00,450 --> 01:45:03,730
+source language so English is blue
+
+2089
+01:45:03,730 --> 01:45:06,730
+Korean is red Japanese is yellow
+
+2090
+01:45:06,730 --> 01:45:09,250
+my first question is it looks convoluted
+
+2091
+01:45:09,250 --> 01:45:11,590
+and weird but my first question is do
+
+2092
+01:45:11,590 --> 01:45:13,990
+you see a big neighborhood of red in one
+
+2093
+01:45:13,990 --> 01:45:16,480
+part a big neighborhood of yellow on
+
+2094
+01:45:16,480 --> 01:45:18,730
+another corner and a big neighborhood of
+
+2095
+01:45:18,730 --> 01:45:23,500
+red do you see separate colors no right
+
+2096
+01:45:23,500 --> 01:45:25,930
+you don't see this so the first time we
+
+2097
+01:45:25,930 --> 01:45:27,790
+saw this we're like ooh this is
+
+2098
+01:45:27,790 --> 01:45:28,480
+interesting
+
+2099
+01:45:28,480 --> 01:45:32,410
+okay so then we started we're like this
+
+2100
+01:45:32,410 --> 01:45:36,610
+could be an interesting sign so then let
+
+2101
+01:45:36,610 --> 01:45:39,100
+me start looking at my favorite sentence
+
+2102
+01:45:39,100 --> 01:45:40,150
+here I'm going to highlight that
+
+2103
+01:45:40,150 --> 01:45:42,520
+sentence the stratosphere is in the
+
+2104
+01:45:42,520 --> 01:45:45,370
+range of 10 to 15 kilometers and when I
+
+2105
+01:45:45,370 --> 01:45:47,200
+highlight this on the embedding
+
+2106
+01:45:47,200 --> 01:45:49,600
+projector it highlights for me and
+
+2107
+01:45:49,600 --> 01:45:52,180
+here's my list all my nearest neighbors
+
+2108
+01:45:52,180 --> 01:45:55,450
+and as you can see as I mouse over these
+
+2109
+01:45:55,450 --> 01:45:58,600
+nearest neighbors independently of the
+
+2110
+01:45:58,600 --> 01:46:01,360
+language all of these nearest neighbors
+
+2111
+01:46:01,360 --> 01:46:05,740
+are in the same cluster okay so this was
+
+2112
+01:46:05,740 --> 01:46:09,100
+huge because this told us that these
+
+2113
+01:46:09,100 --> 01:46:12,130
+were the first indications of a
+
+2114
+01:46:12,130 --> 01:46:14,680
+universal language of an intern lingua
+
+2115
+01:46:14,680 --> 01:46:17,530
+that these systems were actually coming
+
+2116
+01:46:17,530 --> 01:46:20,050
+up with and this was part of why they
+
+2117
+01:46:20,050 --> 01:46:22,930
+were able to take take as input multiple
+
+2118
+01:46:22,930 --> 01:46:25,390
+languages and output multiple languages
+
+2119
+01:46:25,390 --> 01:46:27,820
+so this was this was major right to
+
+2120
+01:46:27,820 --> 01:46:29,500
+answer the question that the scientists
+
+2121
+01:46:29,500 --> 01:46:32,170
+had now keep this image in mind as
+
+2122
+01:46:32,170 --> 01:46:34,960
+convoluted as it is and I want to show
+
+2123
+01:46:34,960 --> 01:46:36,080
+you this
+
+2124
+01:46:36,080 --> 01:46:41,000
+visualization of a sister system so
+
+2125
+01:46:41,000 --> 01:46:46,990
+we're gonna go back here and and
+
+2126
+01:46:46,990 --> 01:46:50,050
+suspense we're gonna look at this system
+
+2127
+01:46:50,050 --> 01:46:53,000
+look at this image on the left this is
+
+2128
+01:46:53,000 --> 01:46:55,550
+the same visualization of a system that
+
+2129
+01:46:55,550 --> 01:47:00,110
+does portuguese english and spanish the
+
+2130
+01:47:00,110 --> 01:47:02,270
+difference here is that i have a big
+
+2131
+01:47:02,270 --> 01:47:05,090
+chunk of red hanging out by itself we're
+
+2132
+01:47:05,090 --> 01:47:06,620
+like what's going on here we thought
+
+2133
+01:47:06,620 --> 01:47:08,720
+these things are clustering right so
+
+2134
+01:47:08,720 --> 01:47:11,840
+this big chunk of red what we did is we
+
+2135
+01:47:11,840 --> 01:47:14,180
+downloaded all of those sentences and we
+
+2136
+01:47:14,180 --> 01:47:16,690
+ran a statistical analysis visualization
+
+2137
+01:47:16,690 --> 01:47:19,430
+statistics we ran a statistical analysis
+
+2138
+01:47:19,430 --> 01:47:21,980
+of the quality of the translations of
+
+2139
+01:47:21,980 --> 01:47:25,120
+these sentences and the quality was bad
+
+2140
+01:47:25,120 --> 01:47:29,090
+okay so why does this matter it matters
+
+2141
+01:47:29,090 --> 01:47:31,850
+because it tells me that the geometry of
+
+2142
+01:47:31,850 --> 01:47:35,210
+this space really matters and if your
+
+2143
+01:47:35,210 --> 01:47:38,480
+system is not being able to do that
+
+2144
+01:47:38,480 --> 01:47:40,460
+thing where it clusters these multiple
+
+2145
+01:47:40,460 --> 01:47:43,340
+languages semantically it's not working
+
+2146
+01:47:43,340 --> 01:47:44,960
+well so you're gonna have to go back and
+
+2147
+01:47:44,960 --> 01:47:48,250
+debug your system so again this
+
+2148
+01:47:48,250 --> 01:47:51,320
+hopefully illustrates one notion of
+
+2149
+01:47:51,320 --> 01:47:55,250
+interpretability but also one start for
+
+2150
+01:47:55,250 --> 01:47:58,160
+a debug ability very quickly I want to
+
+2151
+01:47:58,160 --> 01:48:00,050
+end on one other note that I think is
+
+2152
+01:48:00,050 --> 01:48:02,420
+important visualization for machine
+
+2153
+01:48:02,420 --> 01:48:04,100
+learning in terms of education and
+
+2154
+01:48:04,100 --> 01:48:05,960
+communication I'm gonna go very fast
+
+2155
+01:48:05,960 --> 01:48:08,750
+here there are two different audiences
+
+2156
+01:48:08,750 --> 01:48:10,970
+where you can be really effective with
+
+2157
+01:48:10,970 --> 01:48:13,310
+visualization from an education
+
+2158
+01:48:13,310 --> 01:48:15,710
+perspective one is technical audiences
+
+2159
+01:48:15,710 --> 01:48:18,680
+so things like the tensorflow playground
+
+2160
+01:48:18,680 --> 01:48:24,560
+a lot of the work on distill but also
+
+2161
+01:48:24,560 --> 01:48:26,320
+education and communication to
+
+2162
+01:48:26,320 --> 01:48:29,180
+non-technical audiences and that matters
+
+2163
+01:48:29,180 --> 01:48:31,370
+a ton when we're talking about machine
+
+2164
+01:48:31,370 --> 01:48:33,350
+learning because there are other
+
+2165
+01:48:33,350 --> 01:48:35,660
+stakeholders other than technical people
+
+2166
+01:48:35,660 --> 01:48:38,810
+who should be paying attention and
+
+2167
+01:48:38,810 --> 01:48:40,790
+thinking about machine learning so a
+
+2168
+01:48:40,790 --> 01:48:42,920
+couple of examples here this is a
+
+2169
+01:48:42,920 --> 01:48:45,410
+visualization we did to illustrate some
+
+2170
+01:48:45,410 --> 01:48:48,440
+of fairness machine learning fairness
+
+2171
+01:48:48,440 --> 01:48:49,179
+trade
+
+2172
+01:48:49,179 --> 01:48:52,130
+and so we took a ton of math and we
+
+2173
+01:48:52,130 --> 01:48:53,920
+transformed that into an interactive
+
+2174
+01:48:53,920 --> 01:48:56,330
+visual simulation that people could play
+
+2175
+01:48:56,330 --> 01:49:00,550
+with it turns out policymakers
+
+2176
+01:49:00,550 --> 01:49:04,040
+regulators love to look at this because
+
+2177
+01:49:04,040 --> 01:49:06,320
+they felt like they were learning they
+
+2178
+01:49:06,320 --> 01:49:08,900
+were getting to a ton of really concept
+
+2179
+01:49:08,900 --> 01:49:11,960
+core mathematical concepts without
+
+2180
+01:49:11,960 --> 01:49:14,660
+having to do a PhD but without having
+
+2181
+01:49:14,660 --> 01:49:17,330
+the message dumbed down to them for them
+
+2182
+01:49:17,330 --> 01:49:20,330
+right so it was it was really really
+
+2183
+01:49:20,330 --> 01:49:22,580
+good one last thing about quick-draw
+
+2184
+01:49:22,580 --> 01:49:25,100
+once this is really cool because it
+
+2185
+01:49:25,100 --> 01:49:27,469
+explains how machine learning works for
+
+2186
+01:49:27,469 --> 01:49:30,739
+kids so imagine the system asks you to
+
+2187
+01:49:30,739 --> 01:49:34,460
+draw an avocado it shows you what it
+
+2188
+01:49:34,460 --> 01:49:37,850
+thinks an avocado is by giving you a ton
+
+2189
+01:49:37,850 --> 01:49:42,920
+of examples of other drawings and this
+
+2190
+01:49:42,920 --> 01:49:45,140
+is when it asks you to draw a B you
+
+2191
+01:49:45,140 --> 01:49:47,449
+didn't it didn't guess the B but he
+
+2192
+01:49:47,449 --> 01:49:50,270
+thought it was either a sea turtle a
+
+2193
+01:49:50,270 --> 01:49:53,270
+mouse or a shark so it's showing you its
+
+2194
+01:49:53,270 --> 01:49:56,179
+visualizing your output on top of other
+
+2195
+01:49:56,179 --> 01:49:58,850
+people's drawings and then it shows you
+
+2196
+01:49:58,850 --> 01:50:00,620
+what it thinks about when it thinks
+
+2197
+01:50:00,620 --> 01:50:03,679
+about a B okay so really informative
+
+2198
+01:50:03,679 --> 01:50:06,730
+without having to be super complicated
+
+2199
+01:50:06,730 --> 01:50:12,080
+okay I think yeah so we're going to end
+
+2200
+01:50:12,080 --> 01:50:14,810
+there I think there are a note to recap
+
+2201
+01:50:14,810 --> 01:50:16,400
+you know there's a huge amount of
+
+2202
+01:50:16,400 --> 01:50:17,750
+knowledge already about hub data
+
+2203
+01:50:17,750 --> 01:50:19,670
+visualization works you should take
+
+2204
+01:50:19,670 --> 01:50:21,440
+advantage of I think when you think
+
+2205
+01:50:21,440 --> 01:50:23,330
+about high dimensional spaces again this
+
+2206
+01:50:23,330 --> 01:50:25,730
+is a very active area understanding the
+
+2207
+01:50:25,730 --> 01:50:28,520
+issues around you know what random walks
+
+2208
+01:50:28,520 --> 01:50:30,170
+look like help you interpret those other
+
+2209
+01:50:30,170 --> 01:50:34,160
+things there's a lot of directions to go
+
+2210
+01:50:34,160 --> 01:50:36,080
+on we wanted to leave you with these
+
+2211
+01:50:36,080 --> 01:50:39,620
+resources these are just a few of some
+
+2212
+01:50:39,620 --> 01:50:41,420
+of the things that we've looked at for
+
+2213
+01:50:41,420 --> 01:50:43,580
+sort of both understanding learning
+
+2214
+01:50:43,580 --> 01:50:47,840
+tools and so forth and with that I think
+
+2215
+01:50:47,840 --> 01:50:52,710
+we will open to questions yeah
+
+2216
+01:50:52,710 --> 01:50:55,979
+[Applause]
+
+2217
+01:51:00,390 --> 01:51:03,130
+are there any questions I think there
+
+2218
+01:51:03,130 --> 01:51:06,450
+are two microphones here
+
+2219
+01:51:24,760 --> 01:51:25,130
+Oh
+
+2220
+01:51:25,130 --> 01:51:26,830
+[Music]
+
+2221
+01:51:26,830 --> 01:51:29,170
+I have a question a lot of the
+
+2222
+01:51:29,170 --> 01:51:32,230
+visualization you show us were images
+
+2223
+01:51:32,230 --> 01:51:34,630
+for example have you seen any work on
+
+2224
+01:51:34,630 --> 01:51:37,930
+videos to show the temporal also at the
+
+2225
+01:51:37,930 --> 01:51:49,350
+same time as the special features I
+
+2226
+01:51:49,350 --> 01:51:53,050
+think there has been work in the date of
+
+2227
+01:51:53,050 --> 01:51:55,300
+this world on visualizing videos often
+
+2228
+01:51:55,300 --> 01:51:57,940
+historically in the context of say
+
+2229
+01:51:57,940 --> 01:51:59,680
+editing a video trying to find your
+
+2230
+01:51:59,680 --> 01:52:02,920
+place I honestly don't know if anything
+
+2231
+01:52:02,920 --> 01:52:04,630
+that I feel like has solved the problem
+
+2232
+01:52:04,630 --> 01:52:06,220
+I think this is actually a great example
+
+2233
+01:52:06,220 --> 01:52:08,950
+of an area where there is much much more
+
+2234
+01:52:08,950 --> 01:52:11,250
+research needed that you spotlighted yes
+
+2235
+01:52:11,250 --> 01:52:17,760
+thank you very much in this slide with
+
+2236
+01:52:17,760 --> 01:52:20,710
+Spanish English and Portuguese I'm
+
+2237
+01:52:20,710 --> 01:52:22,450
+curious you said the training data was
+
+2238
+01:52:22,450 --> 01:52:25,180
+bad how did you know it was bad and how
+
+2239
+01:52:25,180 --> 01:52:29,290
+did you measure that so we didn't know
+
+2240
+01:52:29,290 --> 01:52:32,320
+that the training data was bad what we
+
+2241
+01:52:32,320 --> 01:52:36,640
+did know was that afterwards we ran an
+
+2242
+01:52:36,640 --> 01:52:40,540
+analysis of the output translations and
+
+2243
+01:52:40,540 --> 01:52:42,880
+there is a blue score it's called the
+
+2244
+01:52:42,880 --> 01:52:45,040
+blue score for those translations and
+
+2245
+01:52:45,040 --> 01:52:47,530
+that's what we were looking at and so
+
+2246
+01:52:47,530 --> 01:52:51,610
+that's what led us to the conclusion
+
+2247
+01:52:51,610 --> 01:52:53,560
+that oh wow
+
+2248
+01:52:53,560 --> 01:52:56,590
+this whole neighborhood here is is not
+
+2249
+01:52:56,590 --> 01:52:59,170
+doing well it was based on this score we
+
+2250
+01:52:59,170 --> 01:53:03,330
+had brown thank you
+
+2251
+01:53:06,409 --> 01:53:10,690
+thank you for your presentation we can
+
+2252
+01:53:10,690 --> 01:53:14,389
+thank you for your presentation I want
+
+2253
+01:53:14,389 --> 01:53:16,280
+to know that educational and
+
+2254
+01:53:16,280 --> 01:53:18,790
+communication is so important for
+
+2255
+01:53:18,790 --> 01:53:21,909
+visualizations how about we make some
+
+2256
+01:53:21,909 --> 01:53:25,719
+visualization that motivates people to
+
+2257
+01:53:25,719 --> 01:53:28,820
+learn machine learning you know from a
+
+2258
+01:53:28,820 --> 01:53:32,560
+very complex problem we just show
+
+2259
+01:53:32,560 --> 01:53:36,050
+attractive visualization so people that
+
+2260
+01:53:36,050 --> 01:53:38,120
+have not enough knowledge in machine
+
+2261
+01:53:38,120 --> 01:53:39,770
+learning just I try to learn about
+
+2262
+01:53:39,770 --> 01:53:41,659
+machine learning and produce something
+
+2263
+01:53:41,659 --> 01:53:46,159
+like that yeah I think that's a great
+
+2264
+01:53:46,159 --> 01:53:47,929
+question sort of how you motivate people
+
+2265
+01:53:47,929 --> 01:53:50,900
+I think there's actually something from
+
+2266
+01:53:50,900 --> 01:53:53,570
+the Google Creative Lab called teachable
+
+2267
+01:53:53,570 --> 01:53:57,110
+machine that has I think lets people
+
+2268
+01:53:57,110 --> 01:53:59,179
+basically train a machine you know their
+
+2269
+01:53:59,179 --> 01:54:01,010
+own laptop to recognize themselves
+
+2270
+01:54:01,010 --> 01:54:03,469
+waving or doing something silly and it's
+
+2271
+01:54:03,469 --> 01:54:05,630
+done in a very fun way and I think it
+
+2272
+01:54:05,630 --> 01:54:09,230
+has exactly that motivational question I
+
+2273
+01:54:09,230 --> 01:54:11,360
+think another thing frankly is I think a
+
+2274
+01:54:11,360 --> 01:54:13,100
+lot of the work with Ganz has been
+
+2275
+01:54:13,100 --> 01:54:15,080
+motivating various communities to learn
+
+2276
+01:54:15,080 --> 01:54:16,670
+more about machine learning partly
+
+2277
+01:54:16,670 --> 01:54:18,350
+because it seems so mysterious and
+
+2278
+01:54:18,350 --> 01:54:21,460
+magical those would be two examples
+
+2279
+01:54:21,460 --> 01:54:24,949
+thank you hello
+
+2280
+01:54:24,949 --> 01:54:27,409
+so one of the main takeaways from the
+
+2281
+01:54:27,409 --> 01:54:29,480
+talk that I got at least was that high
+
+2282
+01:54:29,480 --> 01:54:31,219
+dimensional space is really unintuitive
+
+2283
+01:54:31,219 --> 01:54:33,440
+to try and visualize do you have any
+
+2284
+01:54:33,440 --> 01:54:34,880
+recommendations is still like a
+
+2285
+01:54:34,880 --> 01:54:36,800
+Hitchhiker's Guide to high dimensional
+
+2286
+01:54:36,800 --> 01:54:40,370
+space yeah I think that is a great idea
+
+2287
+01:54:40,370 --> 01:54:42,409
+but often wished something like that
+
+2288
+01:54:42,409 --> 01:54:45,139
+existed because it's exactly this
+
+2289
+01:54:45,139 --> 01:54:48,889
+question of one of the things I feel
+
+2290
+01:54:48,889 --> 01:54:51,409
+like every would be nice if every
+
+2291
+01:54:51,409 --> 01:54:53,900
+visualization came with is an example of
+
+2292
+01:54:53,900 --> 01:54:55,850
+what it looks like with random data and
+
+2293
+01:54:55,850 --> 01:54:58,100
+then you can understand the difference
+
+2294
+01:54:58,100 --> 01:55:00,100
+so for example in the papers I showed
+
+2295
+01:55:00,100 --> 01:55:03,320
+from Laura and Lee if you go back
+
+2296
+01:55:03,320 --> 01:55:05,270
+knowing about random walks what you
+
+2297
+01:55:05,270 --> 01:55:07,670
+notice is that those trajectories look a
+
+2298
+01:55:07,670 --> 01:55:09,290
+little bit like random blocks but not
+
+2299
+01:55:09,290 --> 01:55:11,510
+exactly and it completely changes the
+
+2300
+01:55:11,510 --> 01:55:13,909
+way that you interpret them you know
+
+2301
+01:55:13,909 --> 01:55:14,989
+when you first look at them
+
+2302
+01:55:14,989 --> 01:55:16,610
+you're the naive reaction is oh those
+
+2303
+01:55:16,610 --> 01:55:18,590
+look like parabolas when you look at
+
+2304
+01:55:18,590 --> 01:55:19,600
+them again having
+
+2305
+01:55:19,600 --> 01:55:21,550
+releasing your reactions oh wow they're
+
+2306
+01:55:21,550 --> 01:55:23,620
+not exactly parabolas and the ways that
+
+2307
+01:55:23,620 --> 01:55:25,120
+they're different are really informative
+
+2308
+01:55:25,120 --> 01:55:27,790
+so I yeah I strongly believe there
+
+2309
+01:55:27,790 --> 01:55:29,710
+should be sort of a textbook of the
+
+2310
+01:55:29,710 --> 01:55:31,960
+peculiarities of high dimensional space
+
+2311
+01:55:31,960 --> 01:55:34,630
+yeah I see but you don't know of any
+
+2312
+01:55:34,630 --> 01:55:37,270
+like sort of cohesive resources for
+
+2313
+01:55:37,270 --> 01:55:38,680
+something I don't there's sort of some
+
+2314
+01:55:38,680 --> 01:55:40,570
+interesting YouTube videos if you look
+
+2315
+01:55:40,570 --> 01:55:42,220
+up high dimensional space but you know
+
+2316
+01:55:42,220 --> 01:55:44,770
+and and certainly I'm trying to think if
+
+2317
+01:55:44,770 --> 01:55:46,660
+there's any single one that I recommend
+
+2318
+01:55:46,660 --> 01:55:49,570
+yeah but I someone to do that for sure
+
+2319
+01:55:49,570 --> 01:55:59,200
+awesome thank you so early techniques
+
+2320
+01:55:59,200 --> 01:56:01,690
+for high dimensional spatial and
+
+2321
+01:56:01,690 --> 01:56:03,520
+temporal data sets so if you have
+
+2322
+01:56:03,520 --> 01:56:05,470
+something like a something waiting on a
+
+2323
+01:56:05,470 --> 01:56:09,670
+map or a time for high dimension data
+
+2324
+01:56:09,670 --> 01:56:11,530
+that's right is there something you can
+
+2325
+01:56:11,530 --> 01:56:14,170
+visualize that embedding space for
+
+2326
+01:56:14,170 --> 01:56:19,240
+spatial and temporal variations by a
+
+2327
+01:56:19,240 --> 01:56:21,580
+Matar can you repeat that last part so
+
+2328
+01:56:21,580 --> 01:56:23,890
+you have a TS any type embedding space
+
+2329
+01:56:23,890 --> 01:56:26,770
+right that's for a sentence so if you
+
+2330
+01:56:26,770 --> 01:56:30,580
+have something varying and also in times
+
+2331
+01:56:30,580 --> 01:56:32,290
+let's say I want to visualize multiple
+
+2332
+01:56:32,290 --> 01:56:35,470
+sentences that's the same sentence spoke
+
+2333
+01:56:35,470 --> 01:56:36,970
+in different languages or a time right
+
+2334
+01:56:36,970 --> 01:56:41,980
+sort of a time varying yeah so there is
+
+2335
+01:56:41,980 --> 01:56:43,690
+a thing that you can do in the embedding
+
+2336
+01:56:43,690 --> 01:56:45,400
+projector that we showed that lets you
+
+2337
+01:56:45,400 --> 01:56:48,070
+at least visualize trajectories through
+
+2338
+01:56:48,070 --> 01:56:51,550
+space I think it is very tricky it's
+
+2339
+01:56:51,550 --> 01:56:55,630
+hard to make sense of sometimes I think
+
+2340
+01:56:55,630 --> 01:56:57,220
+this is also a case where small
+
+2341
+01:56:57,220 --> 01:56:59,080
+multiples are very good so there is a
+
+2342
+01:56:59,080 --> 01:57:01,960
+paper out of Stanford showing how word
+
+2343
+01:57:01,960 --> 01:57:04,210
+embeddings change over time as you look
+
+2344
+01:57:04,210 --> 01:57:06,310
+at say books from different decades and
+
+2345
+01:57:06,310 --> 01:57:07,960
+they're I believe they use small
+
+2346
+01:57:07,960 --> 01:57:10,300
+multiples I don't know if a solution
+
+2347
+01:57:10,300 --> 01:57:12,520
+more sophisticated than that but I would
+
+2348
+01:57:12,520 --> 01:57:14,560
+say that's another great area yeah
+
+2349
+01:57:14,560 --> 01:57:15,880
+that's what I was going to say that's a
+
+2350
+01:57:15,880 --> 01:57:17,860
+great area if you want to if you're
+
+2351
+01:57:17,860 --> 01:57:19,750
+interested in working with visualization
+
+2352
+01:57:19,750 --> 01:57:20,980
+coming up with the visualization
+
+2353
+01:57:20,980 --> 01:57:24,190
+technique that allows you to compare two
+
+2354
+01:57:24,190 --> 01:57:25,369
+or three different
+
+2355
+01:57:25,369 --> 01:57:29,300
+airings so highly me I work on the
+
+2356
+01:57:29,300 --> 01:57:30,889
+physics data set so it is spatial and
+
+2357
+01:57:30,889 --> 01:57:32,570
+temporal variation that's was curious
+
+2358
+01:57:32,570 --> 01:57:36,079
+about on I work on physics datasets with
+
+2359
+01:57:36,079 --> 01:57:38,209
+spatial and temporal variation that was
+
+2360
+01:57:38,209 --> 01:57:42,039
+curious about the topic right thank you
+
+2361
+01:57:42,399 --> 01:57:45,829
+thanks for the talk very nicely the
+
+2362
+01:57:45,829 --> 01:57:47,809
+influence of the hyper parameter for
+
+2363
+01:57:47,809 --> 01:57:50,510
+t-sne you've shown the hyper parameter
+
+2364
+01:57:50,510 --> 01:57:53,629
+influence for t-sne and the perplexity
+
+2365
+01:57:53,629 --> 01:57:56,329
+it's a good rule of thumb to say that if
+
+2366
+01:57:56,329 --> 01:57:58,820
+you don't see any clusters for any value
+
+2367
+01:57:58,820 --> 01:58:00,379
+to say there is no cluster
+
+2368
+01:58:00,379 --> 01:58:02,209
+I mean you've drawn that conclusion at
+
+2369
+01:58:02,209 --> 01:58:05,749
+one point you're saying if you don't is
+
+2370
+01:58:05,749 --> 01:58:08,090
+it a good rule of thumb to say that if
+
+2371
+01:58:08,090 --> 01:58:10,669
+you don't see any clusters for any
+
+2372
+01:58:10,669 --> 01:58:14,030
+values then it's is it safe to say there
+
+2373
+01:58:14,030 --> 01:58:19,099
+are no clusters is that the question my
+
+2374
+01:58:19,099 --> 01:58:22,249
+guess is you could probably construct a
+
+2375
+01:58:22,249 --> 01:58:24,709
+very weird data set that did have some
+
+2376
+01:58:24,709 --> 01:58:27,769
+cluster that would not show up but that
+
+2377
+01:58:27,769 --> 01:58:29,989
+is a good question I think in practice
+
+2378
+01:58:29,989 --> 01:58:33,320
+I'd have to say another issue with TC is
+
+2379
+01:58:33,320 --> 01:58:37,159
+that it can make random data look
+
+2380
+01:58:37,159 --> 01:58:39,050
+non-random at times if you're not
+
+2381
+01:58:39,050 --> 01:58:41,629
+careful and so often it feels like it's
+
+2382
+01:58:41,629 --> 01:58:43,849
+a the issue is much more about false
+
+2383
+01:58:43,849 --> 01:58:45,949
+positives and false negatives in a sense
+
+2384
+01:58:45,949 --> 01:58:47,719
+when you're looking for clusters in my
+
+2385
+01:58:47,719 --> 01:58:51,229
+experience and and the other thing to to
+
+2386
+01:58:51,229 --> 01:58:54,739
+think about is it's always nice to kind
+
+2387
+01:58:54,739 --> 01:58:56,659
+of sanity check you're not gonna get
+
+2388
+01:58:56,659 --> 01:58:59,030
+like the perfect answer but to sanity
+
+2389
+01:58:59,030 --> 01:59:00,889
+check with other projection techniques
+
+2390
+01:59:00,889 --> 01:59:04,039
+right so for instance in the in the
+
+2391
+01:59:04,039 --> 01:59:05,869
+embedding projector for instance it
+
+2392
+01:59:05,869 --> 01:59:07,969
+comes with two projection techniques so
+
+2393
+01:59:07,969 --> 01:59:10,519
+one is linear PCA the other is T Snee
+
+2394
+01:59:10,519 --> 01:59:12,679
+we're hoping that soon we're gonna have
+
+2395
+01:59:12,679 --> 01:59:16,129
+you map but basically the more you turn
+
+2396
+01:59:16,129 --> 01:59:19,519
+and look at these things and try to you
+
+2397
+01:59:19,519 --> 01:59:22,639
+know just try out a bunch of stuff the
+
+2398
+01:59:22,639 --> 01:59:24,940
+better but you're right there's no like
+
+2399
+01:59:24,940 --> 01:59:30,810
+now I'm 100% sure all right thank you
+
+2400
+01:59:31,350 --> 01:59:33,790
+thanks for a great talk
+
+2401
+01:59:33,790 --> 01:59:36,550
+one question it's a possible to share
+
+2402
+01:59:36,550 --> 01:59:39,670
+the slides yeah we'll try to share
+
+2403
+01:59:39,670 --> 01:59:42,489
+something as much as we can yeah we will
+
+2404
+01:59:42,489 --> 01:59:43,120
+we will
+
+2405
+01:59:43,120 --> 01:59:45,400
+yeah we'll figure out what is the best
+
+2406
+01:59:45,400 --> 01:59:52,210
+way yes hi I was a very nice talk so I
+
+2407
+01:59:52,210 --> 01:59:53,680
+have a data set I'm trying to visualize
+
+2408
+01:59:53,680 --> 01:59:56,590
+which is spatial and temporal and I was
+
+2409
+01:59:56,590 --> 01:59:58,630
+thinking of going with an animation for
+
+2410
+01:59:58,630 --> 02:00:00,760
+the time dimension would you advise
+
+2411
+02:00:00,760 --> 02:00:02,410
+against that because I didn't see you
+
+2412
+02:00:02,410 --> 02:00:04,090
+doing that in any of the visualizations
+
+2413
+02:00:04,090 --> 02:00:07,090
+I would say it depends on your purpose I
+
+2414
+02:00:07,090 --> 02:00:09,670
+think for exploratory analysis animation
+
+2415
+02:00:09,670 --> 02:00:13,390
+is actually often kind of problematic on
+
+2416
+02:00:13,390 --> 02:00:16,090
+the other hand if you're going to use it
+
+2417
+02:00:16,090 --> 02:00:18,460
+to explain your ideas or try to get
+
+2418
+02:00:18,460 --> 02:00:20,380
+funding from someone that animation is
+
+2419
+02:00:20,380 --> 02:00:24,310
+excellent for that that is the that is
+
+2420
+02:00:24,310 --> 02:00:28,660
+my most practical advice but also you
+
+2421
+02:00:28,660 --> 02:00:30,489
+could you could give it a try right you
+
+2422
+02:00:30,489 --> 02:00:32,860
+could do something with animation but
+
+2423
+02:00:32,860 --> 02:00:34,239
+then you can also take a bunch of
+
+2424
+02:00:34,239 --> 02:00:36,400
+screenshots and do small multiples and
+
+2425
+02:00:36,400 --> 02:00:39,460
+depending on your analytical tasks what
+
+2426
+02:00:39,460 --> 02:00:41,650
+it is you're trying to get it you can
+
+2427
+02:00:41,650 --> 02:00:43,420
+decide which one do you think is the
+
+2428
+02:00:43,420 --> 02:00:46,030
+most effective if you think about one of
+
+2429
+02:00:46,030 --> 02:00:47,650
+the ones we showed from the New York
+
+2430
+02:00:47,650 --> 02:00:49,690
+Times where they were trying to show
+
+2431
+02:00:49,690 --> 02:00:52,600
+droughts over time it was quite
+
+2432
+02:00:52,600 --> 02:00:54,490
+effective to have
+
+2433
+02:00:54,490 --> 02:00:57,700
+all of those things at the same time on
+
+2434
+02:00:57,700 --> 02:01:04,690
+on the screen thank you okay thank you
+
+2435
+02:01:04,690 --> 02:01:07,750
+for your presentation and you show that
+
+2436
+02:01:07,750 --> 02:01:11,320
+your work ranks border glossary squad
+
+2437
+02:01:11,320 --> 02:01:13,000
+mix right
+
+2438
+02:01:13,000 --> 02:01:16,330
+but in my intuition there must be some
+
+2439
+02:01:16,330 --> 02:01:18,370
+similarity and dissimilarity between two
+
+2440
+02:01:18,370 --> 02:01:21,370
+languages so it can be interpreted in
+
+2441
+02:01:21,370 --> 02:01:24,460
+your visualization or my intuition is
+
+2442
+02:01:24,460 --> 02:01:28,240
+biased so let me make sure I understand
+
+2443
+02:01:28,240 --> 02:01:31,090
+is your intuition that the languages are
+
+2444
+02:01:31,090 --> 02:01:36,460
+similar some so my intuition is like
+
+2445
+02:01:36,460 --> 02:01:38,560
+this and Korean and Japanese is quite
+
+2446
+02:01:38,560 --> 02:01:41,680
+similar than Korean and English so can
+
+2447
+02:01:41,680 --> 02:01:43,900
+it be interpreted in their visualization
+
+2448
+02:01:43,900 --> 02:01:48,130
+so without being a native speaker I had
+
+2449
+02:01:48,130 --> 02:01:49,990
+no idea I thought that Japanese and
+
+2450
+02:01:49,990 --> 02:01:52,990
+Korean was quite similar I am told from
+
+2451
+02:01:52,990 --> 02:01:55,480
+other people who speak Japanese or
+
+2452
+02:01:55,480 --> 02:01:58,770
+Korean that they are quite different but
+
+2453
+02:01:58,770 --> 02:02:02,620
+even keeping that aside for a moment
+
+2454
+02:02:02,620 --> 02:02:06,400
+I'm a native Portuguese speaker and so
+
+2455
+02:02:06,400 --> 02:02:08,740
+when I looked at that system that had
+
+2456
+02:02:08,740 --> 02:02:11,920
+English Portuguese and Spanish to me it
+
+2457
+02:02:11,920 --> 02:02:14,050
+was very clear that those things should
+
+2458
+02:02:14,050 --> 02:02:16,000
+have clustered because because
+
+2459
+02:02:16,000 --> 02:02:19,000
+Portuguese and Spanish are really close
+
+2460
+02:02:19,000 --> 02:02:21,580
+I'm like this is gonna be so easy and it
+
+2461
+02:02:21,580 --> 02:02:24,940
+was not it did not cluster right so that
+
+2462
+02:02:24,940 --> 02:02:26,770
+to me was the point where I was like
+
+2463
+02:02:26,770 --> 02:02:30,040
+whoa what's going on here so even you
+
+2464
+02:02:30,040 --> 02:02:31,630
+know languages that should be quite
+
+2465
+02:02:31,630 --> 02:02:34,060
+similar are not necessarily clustering
+
+2466
+02:02:34,060 --> 02:02:36,850
+so I think that's where I was like oh
+
+2467
+02:02:36,850 --> 02:02:40,390
+this is very complicated it's not always
+
+2468
+02:02:40,390 --> 02:02:43,840
+about similarity thank you one more
+
+2469
+02:02:43,840 --> 02:02:46,080
+question
+
+2470
+02:02:46,790 --> 02:02:49,980
+it's on sorry thanks for your great
+
+2471
+02:02:49,980 --> 02:02:52,760
+sharing I have a very practical question
+
+2472
+02:02:52,760 --> 02:02:57,480
+normally how long it takes to forget to
+
+2473
+02:02:57,480 --> 02:03:00,750
+get a conclusion and what's the typical
+
+2474
+02:03:00,750 --> 02:03:02,970
+flow when you have a research question
+
+2475
+02:03:02,970 --> 02:03:08,400
+in Google brain can you repeat the
+
+2476
+02:03:08,400 --> 02:03:10,950
+question yeah basically it's very
+
+2477
+02:03:10,950 --> 02:03:13,800
+practical what's the best typical flow
+
+2478
+02:03:13,800 --> 02:03:15,900
+in Google brain when you have a research
+
+2479
+02:03:15,900 --> 02:03:18,270
+question and how long does it take her
+
+2480
+02:03:18,270 --> 02:03:21,239
+to get a conclusion for you original how
+
+2481
+02:03:21,239 --> 02:03:24,810
+long does a project last from the it's
+
+2482
+02:03:24,810 --> 02:03:26,280
+impossible to give an answer to that
+
+2483
+02:03:26,280 --> 02:03:30,300
+because I think it's it is there's so
+
+2484
+02:03:30,300 --> 02:03:31,350
+many people doing so many different
+
+2485
+02:03:31,350 --> 02:03:33,300
+things that I think sometimes there are
+
+2486
+02:03:33,300 --> 02:03:35,160
+very quick experiments people do there's
+
+2487
+02:03:35,160 --> 02:03:37,350
+other things that take years I think to
+
+2488
+02:03:37,350 --> 02:03:38,370
+me actually that's one of the pleasures
+
+2489
+02:03:38,370 --> 02:03:41,040
+of it is that things do happen at all
+
+2490
+02:03:41,040 --> 02:03:43,230
+different scales and I think that's
+
+2491
+02:03:43,230 --> 02:03:47,100
+actually very exciting last question
+
+2492
+02:03:47,100 --> 02:03:53,070
+last question so I thought it was a
+
+2493
+02:03:53,070 --> 02:03:54,630
+really great job especially the first
+
+2494
+02:03:54,630 --> 02:03:56,130
+part I hadn't thought of that the
+
+2495
+02:03:56,130 --> 02:03:58,560
+psychology but in my lab we developed
+
+2496
+02:03:58,560 --> 02:04:00,270
+visualization algorithms and I just
+
+2497
+02:04:00,270 --> 02:04:03,600
+wanted to point out hey you guys didn't
+
+2498
+02:04:03,600 --> 02:04:05,220
+really cover diffusion maps which are
+
+2499
+02:04:05,220 --> 02:04:06,780
+really good for trajectories and things
+
+2500
+02:04:06,780 --> 02:04:09,090
+like that which are cool B we have a
+
+2501
+02:04:09,090 --> 02:04:12,270
+method called Fate PHA EE and we feel
+
+2502
+02:04:12,270 --> 02:04:14,070
+like it's much much better than you map
+
+2503
+02:04:14,070 --> 02:04:15,420
+at capturing global and local
+
+2504
+02:04:15,420 --> 02:04:18,330
+information please check it out and it's
+
+2505
+02:04:18,330 --> 02:04:23,300
+faster than you met awesome thank you
+
