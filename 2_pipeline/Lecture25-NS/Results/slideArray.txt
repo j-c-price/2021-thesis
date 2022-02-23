@@ -1,0 +1,1198 @@
+Introduction to Neural
+Computation
+
+Prof. Michale Fee
+MIT BCS 9.40 — 2018
+
+Lecture 11 - Spectral analysis |
+ENDELEMENTFrequency (Hz)
+
+Spectral Analysis
+
+eter ®
+
+ 
+
+Time (s)
+ENDELEMENTGame plan for Lectures 11, 12, and 13 —
+Develop a powerful set of methods for
+understanding the temporal structure of signals
+
+Fourier series, Complex Fourier series, Fourier transform,
+Discrete Fourier transform (DFT), Power Spectrum
+
+Convolution Theorem
+Noise and Filtering
+Shannon-Nyquist Sampling Theorem
+
+—  https://markusmeister.com/2018/03/20/death-of-the-sampling-theorem/
+
+ 
+
+Spectral Estimation
+
+Spectrograms
+
+Windowing, Tapers, and Time-Bandwidth Product
+Advanced Filtering Methods
+ENDELEMENTLearning Objectives for Lecture 11
+
+Fourier series for symmetric and asymmetric functions
+Complex Fourier series
+
+Fourier transform
+
+Discrete Fourier transform (Fast Fourier Transform - FFT)
+
+Power spectrum
+ENDELEMENTDiscrete Fourier transform
+
+* Some code
+
+WSpec.m cal recordaudio.m | continuous_cos.m » | + |
+
+ 
+
+ 
+
+ 
+
+ 
+
+1 %
+
+Ds N=2048; % number of samples in time
+
+3 %
+
+4- dt=.001; % sampling interval
+
+Se Fs=1./dt; % sampling frequency
+
+6 - time=dt*[-N/2:N/2-1]; % timebase
+
+7 %
+
+e- freq=20.; % frequency of sine wave in Hz
+
+o y=cos(2*pixfreq*time) ;
+
+10 %
+
+11 %
+
+4 yshft=circshift(y, [@,N/2]); % First shift zero point from center to
+13 % first point in the array
+14 - Ftysttt(ysntt, N/M % Now compute the FFT
+
+15
+
+16 - Y=circshift(ffty, [0,N/2]); % Now shift the spectrum to put zero frequency
+17 % at the middle of the array
+18 %
+
+19 %Compute the vector of frequencies
+
+20 - df=Fs/N;
+
+2 Fvec=df*[-N/2:N/2-1];
+
+22 %
+ENDELEMENTFourier Series
+
+* We can express any periodic function of time as sums of sine and
+cosine functions.
+
+* Let's start with an even function that is periodic with a period T
+
+—__/_,
+
+ 
+
+ 
+
+We could approximate this square wave with a cosine wave of the
+same period T and amplitude.
+
+Oscillation frequency Angular frequency
+
+a, cos(27 fit) i _ 2
+ty ~ T a T
+
+Cycles per second (Hz) Radians per second 6
+ENDELEMENTFourier Series
+
+* But we can get a better approximation if we add some more cosine
+
+waves to our original one...
+
+ 
+
+ 
+
+cos(a@,t)
+cos(2@,t)
+
+cos(3a@,t)
+
+y(t) =a, cos(@,t) +a, cos(2@,t) + 4a, cos(3@,f) +...
+ENDELEMENTcos(a@,t)
+
+3a@,t)
+
+cos(1 la,
+
+cos(130,t
+
+ 
+
+3
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Fourier Series
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTOANA UN RWN =
+= T
+
+ 
+
+Fourier Series
+
+destructive constructive destructive | constructive
+interference interference interference _ interference
+cos (n@,t)
+
+a
+
+ne)
+°
+i)
+wo
+o
+ne)
+°
+
+time time
+ENDELEMENTFourier Series
+
+T
+»
+| | |
+po t
+0s(@,t)
+cos(2@,t)
+cos(3a@,t)
+
+ 
+
+ 
+
+y(t) = + +4, cos(@,t) + a, cos(2@,t) + a, cos(3@f) +...
+
+t 4X
+DC term Veen (t) = ry + 2X4 cos(n@,t )
+ENDELEMENTHow do we find the coefficients?
+
+* The a, [2 coefficient is just like the average of our function y(t).
+
+Gy _ 1? 2 T/2
+t)dt ==
+27: J ve) 7 J sOeos(andr
+
+> The a, coefficient is just the overlap of our function y(t) with cos(@,t)
+
+== J yt)cos(at)dt <——— Correlation!
+
+T tp
+> The a, coefficient is just the overlap of our function y(t) with cos(2@,t)
+
+2 T/2
+aaT J y(t)cos(2@ot) dt
+
+-T/2
+
+* The a, coefficient is just the overlap of our function y(t) with cos(na,t)
+
+T/2
+
+a2 J y(t)cos(na@,t)dt
+
+Woo 11
+ENDELEMENTHow do we find the coefficients?
+
+T/2 T/2
+
+T/2
+a 2 J y(t)dt dQ, =2 J y(t)cos(@yt)dt a -2 J y(t)cos(2@,t) dt
+T/2 r -T/2 r
+
+-T/2
+
+T_
+
+Consider the following functions y(t):
+
+y(t) =1
+y(t) = Cos(@,t)
+
+y(t) = cos(2@pr)
+
+ 
+
+-T/2
+
+T/2 T T/2
+J [cos(apt) dr = 5 J cos(@pt)cos(2@,t)dt =0
+-T/2
+
+y(t) = ++ a, cos(@pt) + a, cos(2@pt) + ves
+ENDELEMENTFourier Series
+
+* Ifa function has maximal overlap with one of our cosine functions,
+then it has zero overlap with all the others!
+
+* We say that our set of cosine functions form an orthogonal basis set...
+
+u, (t) = cos(n@,t)
+
+% =[0 ,1]
+x, =[1,0]
+v=[a, ,a]
+
+ 
+
+13
+ENDELEMENTFourier Series
+
+* Now let's look an an odd (antisymmetric) function...
+
+. _ (20
+sin(at) = sin( 7
+
+sin(2a@,t)
+
+     
+   
+
+ 
+
+sin(3@,1)
+
+ 
+
+ 
+
+Youa(t) = b, sin(@,t) + b, sin(2@t)+ b,sin(3at) +... — Yoda (t)= X24, sin(@,t)
+
+n=l
+
+Why is there no DC term here? 14
+ENDELEMENTFourier Series
+
+* For an arbitrary function, we can write it down as the
+sum of a symmetric and an antisymmetric part.
+
+y(t) = > + Ya, cos (n@,t) + ¥p, sin(ne,1)
+n=1
+
+n=l
+
+i
+
+symmetric antisymmetric
+
+15
+ENDELEMENTLearning Objectives for Lecture 11
+
+* Complex Fourier series
+ENDELEMENTComplex Fourier Series
+
+* We can express any periodic function of time as sums of
+
+Im| e” |
+
+complex exponentials.
+
+Euler's formula
+i@
+
+é”' =cosat t+isinat
+
+é€°' =cosat —isinat
+
+Rewrite as follows...
+
+—iot
+
+cos Ot = s(e" +é )
+
+sino =e -«) = ~L (ee -«)
+1
+
+ 
+
+17
+ENDELEMENTFourier Series
+
+ 
+
+y(t) = + + Sa, cos(n@,t) + Ds, sin (n@,t)
+n=l
+Ay . a, nor e inet . —ib, inot eet
+(t) — + le +
+WO = > + LI )+ 2 )
+yt) = Ay + YAe™ + YA, eiro
+n=1 n=l
+‘DC’ or a .
+, , positive negative
+constant . .
+term frequencies frequencies
+A=& = 4,=+(a,-ib,) A, =—(a,+ib,)
+0 9 _) n n an) n n A, =(A.,)
+
+complex conjugates 18
+ENDELEMENTComplex Fourier Series
+
+co
+
+y(t) _ Ap + vA, + yA,
+n=1
+
+n=l
+
+* We can write this more compactly as follows:
+
+= »y A, é” Mt
+n=0
+
+For n=0,
+
+eo
+
+==]
+
+4+ vA, erm! +4 > 42
+
+n=l n=-1
+
+y(t) = y Aen
+
+n=—-°0
+ENDELEMENTComplex Fourier Series
+
+y(t) = 2+ Ya, cos (no, ) + ¥ p, sin(na,t)
+n=l
+
+n=l
+symmetric antisymmetric
+
+* We can replace the sine and cosines of the fourier series
+with a single sum of complex exponentials
+
+x) = Dae
+
+20
+ENDELEMENTComplex Fourier Series
+
+* Some examples...
+
+1 1 _¥ 4g pinet
+Aj=5.Ay=0, A= 5 y= ¥ Ae"
+
+n=—oo
+
+ 
+
+ 
+
+| iow 4 1 jour _ - ! a
+y(t) = 70 wtses = ¥(cosayt sina) +2 (cosa +isipa)
+
+= COS pt
+
+21
+ENDELEMENTComplex Fourier Series
+
+* Some examples...
+
+_ in@t
+A,=1,4,=0,4,=+ y= >) Ae ,
+2 2
+
+n=—oco
+
+ 
+
+ 
+
+1
+
+1 —i2Wpt i2 Wot
+yt)= er" 4+—e™
+2 2
+1 .. 1 .
+= 5 (cos 2eyt— isi @,1)+—(cosdayt + is @,t)
+
+= cos2a,t
+
+22
+ENDELEMENTComplex Fourier Series
+
+* Some examples...
+
+wn= Den
+A,=~, A,=0 ,A,=-=
+2 2
+
+n=—eco
+
+ 
+
+_ i —i2mpt i i2@ot
+th= =e +—e
+YO=5 5
+
+i os i os
+= 3 (cos @,t — isin2at)+—>(co @t+isin2@t) = sin2@pt
+23
+ENDELEMENTComplex Fourier Series
+
+* The set of functions é””” form an orthogonal basis set
+
+over the interval r | .
+2°2
+
+* The A) coefficient is just the average of our function y(t).
+
+T/2
+
+Ay=a J y(t)dt Ant y(ner d
+
+T tp -T/2
+
+* The A coefficient is just the overlap of our function y(t) with ia
+
+T/2
+
+1 —iayt
+nF J oe dt
+
+-T/2
+
+In general
+TI
+
+A,== J ye dt (= y Aen
+
+-T/2 n=—00 24
+ENDELEMENTLearning Objectives for Lecture 11
+
+* Fourier transform (I just want you to see this...)
+ENDELEMENTFourier Transform
+
+(for non-periodic functions)
+T/2
+
+A, == J y(tye"" dt y(t) = > Ae
+
+-T/2 n=-c0
+* We are going to do this by letting the period go to
+infinity!
+
+2
+Tox , @ == 90 m, > A, > Y(@)
+
+Fourier Transform Inverse Fourier Transform
+Y(@) — f y(t)e dt y(t) = f Y(o)je” do
+no 21
+
+—co
+
+26
+ENDELEMENTFourier transform
+
+“ . 1 > .
+Y(@)= J ye dt y= 5— J Y(w)é” dow
+
+* Some examples...
+
+y(t)=1 ro)
+Y(@) = 270(@) |
+0 @
+
+y(t)= | d(@)é" do =" =]
+
+27
+ENDELEMENTFourier transform
+
+Y¥(w)= [ ye at
+* Some examples...
+
+y(t) _ en"
+
+Y(@)=276(@-@,)
+
+y(t)= | 5@-a)é"do =
+
+—oo
+
+1
+y(t) = 3g JY)
+
+i@,t
+
+Y(@)
+
+it
+
+é” dw
+
+Qo,
+
+28
+ENDELEMENTFourier transform
+“ . 1 > .
+Y(@)= J ye dt y= 5— J Y(w)é” dow
+* Some examples...
+
+Y(@)=2[5(@+@)+5(@-@)| M@)
+
+1 -i@,t 1 iat
+
+y(t) 7 7 1
+
+ 
+
+29
+ENDELEMENTLearning Objectives for Lecture 11
+
+* Discrete Fourier transform (Fast Fourier Transform - FFT)
+ENDELEMENTDiscrete Fourier transform
+
+* Computing the FT and IFT is, in principle really slow
+
+* You have to compute an integral for every value of Ww you
+want in Y(W). “=
+Y(w)= | ye" dt
+
+co
+
+* It turns out there is a *super fast* computer algorithm called the
+Fast Fourier Transform (FFT).
+
+First, let's go back to oscillation frequency f , rather than
+angular frequency @:
+
+f=o/2n
+
+Y(f)= J y(e Pld y(t)= J ¥(Ne™" df
+
+31
+ENDELEMENTDiscrete Fourier Transform
+
+* Let's say we have a signal y(t) that is sampled at regular
+
+ 
+
+intervals Af. y(t) F_, =1/At
+samp ~~
+< tertheet 5 >t
+0
+
+* Let's say we have N samples, and that N is an even number.
+
+negative times positive times
+
+ 
+
+time=dt*[-N/2:N/2-1]; % time array
+ENDELEMENTDiscrete Fourier Transform
+
+* The FFT algorithm returns a discrete Fourier transform that
+has N frequencies in frequency steps of Af
+
+Af = Feamp
+Y(f) fy
+
+ 
+
+F quist = Dp 0
+
+constant term
+
+negative frequencies i positive frequencies
+
+ 
+
+freq=df*[-N/2:N/2-1]; % frequency array
+ENDELEMENTDiscrete Fourier transform
+
+* One little trick... The FFT algorithm gets the time samples
+in a strange order, and returns the frequency samples in a
+strange order...
+
+negative times positive times
+
+y(t) _7vi
+
+ 
+
+ 
+
+Y=fft(yshft);
+
+positive frequencies negative frequencies
+
+YP)
+
+ 
+ENDELEMENTDiscrete Fourier transform
+
+« Some code
+
+ 
+
+ 
+
+ 
+
+ 
+
+| WSpec.m *| recordaudio.m ®| continuous_cos.m *| + |
+il %
+Ds N=2048; % number of samples in time
+3 %5
+4- dt=.001; % sampling interval
+{she Fs=1./dt; % sampling frequency
+(Med time=dt*[-N/2:N/2-1]; % timebase
+7 %
+e- freq=20.; % frequency of sine wave in Hz
++ a y=cos(2*pixfreqetime) ;
+10 %
+11 %
+12 - yshft=circshift(y, [0,N/2]); % First shift zero point from center to
+13 % first point in the array
+14 - ffty=fft(yshft, N)/N; % Now compute the FFT
+15
+16 - Y=circshift(ffty, [0,N/2]); % Now shift the spectrum to put zero frequency
+17 % at the middle of the array
+18 %
+19 %Compute the vector of frequencies
+20 - df=Fs/N;
+21 - Fvec=df*[-N/2:N/2-1];
+22 %
+
+35
+ENDELEMENTDiscrete Fourier transform
+
+* Some examples — sine and cosine
+
+Re[Y¥(f)]  Im[¥(f)]
+
+ 
+
+-400 =-300 8-200 = -100 0 100 200 300 400
+Frequency (Hz)
+
+36
+ENDELEMENTDiscrete Fourier transform
+
+* Some examples — sine and cosine
+
+y(t) = sin(27 fit) So = 20 Hz Continuous_sin.m
+
+ 
+
+-400 -300 -200~ -100 0 100 200 300 400
+Frequency (Hz)
+37
+ENDELEMENTLearning Objectives for Lecture 11
+
+* Power spectrum
+ENDELEMENTIntroduce idea of ‘Power’
+
+* The electrical power dissipated in a resistor is given by
+
+Lip
+P(t) = I(1)V(t) = RY ()
+
+ 
+
+* Ifthe voltage is just a single sine wave at
+frequency w... V(t) =V, cos(at)
+
+~ 1 -iwt 1 iwt
+V@=V,|—e +-e
+”) Al 2 2 |
+
+Then the average power from one frequency component is just
+given by the square magnitude of the F.T. at that frequency...
+
+( ) _ Het | ob 1
+rR! la] “fo R
+
+2
+
+ 
+
+ 
+
+2
+1 -iwt
+
+2
+
+1 iwt
+
+2
+
+ 
+
+V,
+* 2
+
+ 
+
+ly
+P(@)= —V,
+(2) = 2 Mo
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+39
+ENDELEMENTParseval’s Theorem and Power
+
+* The power in each frequency component independently
+contributes
+
+B= | Pod = zilvora
+
+Parseval’s Theorem says that Power spectrum
+
+ope do
+Jive] ar= JV) =
+
+Thus, each frequency component independently contributes to the
+power in the signal.
+
+It also says that the total variance in the time domain signal is the same
+as the total variance in the frequency domain signal! 10
+ENDELEMENTDiscrete Fourier transform
+
+* Some examples — sine and cosine
+
+Re[Y¥(f)]  Im[¥(f)]
+
+ 
+
+-400 =-300 8-200 = -100 0 100 200 300 400
+Frequency (Hz)
+
+41
+ENDELEMENTDiscrete Fourier transform
+
+* Power spectrum of sine and cosine
+
+Continuous_sin.m
+
+ 
+
+2
+04 S(P=lYN)
+5 03
+=
+© 02
+0.1
+% 20 40 60 80 100
+
+Frequency (Hz)
+
+For real signals, the power spectrum is symmetric, so only need to plot
+
+for positive frequencies! a2
+ENDELEMENTDiscrete Fourier transform
+* Some examples — train of delta functions
+
+deltafn_train.m
+
+AT = period
+
+-1 -0.8 -0.6 -0.4 -0.2 0 0.2 0.4 0.6 08 1
+
+ 
+
+-400 -300 = -200 -100 0 100 200 300 400
+Frequency (Hz)
+
+43
+ENDELEMENTDiscrete Fourier transform
+
+* Power spectrum- train of delta functions
+
+sp=lrorr deltafn_train.m
+
+0 20 40 60 80 100
+Frequency (Hz)
+
+44
+ENDELEMENTDiscrete Fourier transform
+
+* Some examples — square waves
+
+Continuous_square.m
+
+AANA AAS
+
+Time (6) fo=5.375Hz
+
+-400 -300 -200 = -100 0 100 200 300 400
+Frequency (Hz)
+
+45
+ENDELEMENTDiscrete Fourier transform
+
+* Some examples — square waves
+
+Continuous_square.m
+
+ALANA
+
+1 -0.8 -0.6 -0.4 -0.2 ie) 0.2 0.4 06 08 1
+Time (s) =
+f=10.75Hz
+
+400-300-200 -100 0 100 200 300 400
+Frequency (Hz)
+
+46
+ENDELEMENTDiscrete Fourier transform
+
+* Power spectrum-— square wave
+
+Continuous_square.m
+
+s=PF
+
+0 20 40 60 80 100
+Frequency (Hz)
+
+Spectrum plotted
+in units of
+decibels (dB)
+
+10log,, S(f)
+
+Log Power (dB)
+
+ 
+
+8% 20 40 60 80 100
+
+Frequency (Hz)
+47
+ENDELEMENTLearning Objectives for Lecture 11
+
+Fourier series for symmetric and asymmetric functions
+Complex Fourier series
+
+Fourier transform
+
+Discrete Fourier transform (Fast Fourier Transform - FFT)
+
+Power spectrum
+
+48
+ENDELEMENTMIT OpenCourseWare
+https://ocw.mit.edu/
+
+9.40 Introduction to Neural Computation
+Spring 2018
+
+For information about citing these materials or our Terms of Use, visit: https://ocw.mit.edu/terms.
+ENDELEMENT

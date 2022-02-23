@@ -1,0 +1,830 @@
+Introduction to Neural
+Computation
+
+Prof. Michale Fee
+MIT BCS 9.40 — 2018
+Lecture 7
+ENDELEMENTUsed with Permission. Courtesy of the Cajal
+Institute (CSIC). Legado Cajal. Madrid,
+
+ 
+
+soma
+Ramon y Cajal
+ENDELEMENTLearning objectives for Lecture 7
+
+Be able to add a synapse in an equivalent circuit model
+To describe a simple model of synaptic transmission
+
+To be able to describe synaptic transmission as a convolution
+of a linear kernel with a spike train
+
+To understand synaptic saturation
+
+To understand the different functions of somatic and dendritic
+inhibition
+ENDELEMENTChemical synapse
+
+* Structure of typical excitatory synapse
+
+pre-synaptic terminal
+
+    
+
+synaptic vesicle
+(30-40nm dia)
+
+dendrite
+
+ 
+ENDELEMENTChemical synapse
+
+* Sequence of events in synaptic transmission
+
+voltage-gated
+Ca- channels ™
+
+AP
+
+     
+  
+
+Catt@ Ca**
+
+  
+     
+
+dendrite
+
+eee
+ENDELEMENTChemical synapse
+
+* Sequence of events in synaptic transmission
+
+ 
+  
+   
+    
+ 
+
+‘ligand’ = Last step:
+‘neurotransmitter’ Neurotransmitter
+reuptake
+
+ligand-gated ion
+
+channels |
+
+dendrite I V. 4)
+ENDELEMENTAnatomy of synapses/axons/dendrites
+
+* Synapses are small — contact area~0.5~m
+
+* High packing density ~10° synapses/mm?
+— 1.1um ona 3D lattice
+— 4.1km of axon (0.3um dia)
+— 500m of dendrite
+
+* Acell receives many synapses
+— 10000 synapses
+— on 4mm of dendrites (4 cm of axon)
+— 105 neurons/mmé in mouse cortex
+ENDELEMENTLearning objectives for Lecture 7
+
+* Be able to add a synapse to an equivalent circuit model
+
+* To describe a simple model of synaptic transmission
+ENDELEMENTHow does a synapse respond?
+
+* lonotropic receptors rr
+e i D i
+233 383
+
+Two electrode voltage-clamp
+experiment
+
+ 
+
+ 
+
+Frog sartorius muscle fiber
+
+Magleby and Stevens, 1972
+ENDELEMENT* lonotropic receptors
+
+ 
+
+Lyy(t) = Gyy(t)| V — By |
+
+G.,,(t)
+
+How does a synapse respond?
+
+I-V Curve
+
+1ms
+
+time
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+OF:
+Ey (mV) bt
+-100 +
+Shock
+250 -
+OF
+Tep (NA) i
+-250 + ly ~ _40 mV
+Frog endplate
+500 + “> -120 mv
+——— a L —— J
+0 2 4 6 8
+
+Time after shock to nerve (ms)
+
+Annotated figure on lower right © Hille, Bertil. ion Channels of Excitable Membranes (3rd Ed.)..
+2001, Sinauer / Oxford University Press. Alll rights reserved. This content is excluded from our
+Creative Commons license. For more information, see https://ocw.mit.edu/help/faq-fair-use/.
+
+10
+ENDELEMENTEquivalent circuit model of a synapse
+
+* Current flow through a synapse results from changes in
+synaptic conductance
+
+ 
+
+1, (t)=G,,(O[ V -E,, |
+
+Equivalent circuit of syn syn
+a synapse
+
+syn
+ENDELEMENTExcitatory synapses
+
+Increased synaptic conductance causes the membrane potential to
+approach the reversal potential for that synapse.
+
+Lunt) = Gy (tL V — Bg |
+
+ 
+
+E. =OmvV
+
+‘syn
+
+15mV |
+
+Now we can change the
+‘holding potential of the cell
+by injecting a little current
+(current clamp experiment)
+
+Vi
+
+23S
+
+Excitatory
+postsynaptic
+potential (EPSP)
+
+12
+ENDELEMENTExcitatory and inhibitory synapses
+
+* Increased synaptic conductance causes the membrane potential to
+approach the reversal potential for that synapse.
+
+Lunt) = Gy (tL V — Bg |
+
+EPSPs
+
+Vim (mV)
+
+ 
+
+E,, = 0mV ae
+15mV |
+
+Excitatory
+
+. ' postsynaptic
+Excitatory synapse if ob tential (EPSP)
+
+E > V Figure from Johnston, D. and M.-S, Wu. Foundations of Cellular
+Syn th Neurophysiology. 1995. Courtesy of MIT Press. 13
+ENDELEMENTExcitatory and inhibitory synapses
+
+* Increased synaptic conductance causes the membrane potential to
+approach the reversal potential for that synapse.
+
+_ _ GABAergic synapse
+Lon (t) ~~ G,, (t) [Vv E sn ]
+
+IPSPs
+
+Vin (mV)
+7
+9
+-25
+
+-40
+
+ 
+
+E,,, =-75mV fa
+
+Inhibitory
+postsynaptic
+
+Inhibitory synapse it potential (IPSP)
+
+E < V Figure 13.4 from Johnston, D. and M.-S. Wu. Foundations of
+syn th Cellular Neurophysiology. 1995. Courtesy of MIT Press.
+ENDELEMENTEquivalent circuit model of a synapse
+
+Current flow through a synapse results from changes in
+
+synaptic conductance
+Single-channel patch recording
+
+L (t)=G (OV, ()-E ] GABA, receptor
+
+syn syn syn
+
+Figure removed due to copyright restrictions. Single-
+channel patch recording, GABA, receptor. Figure 6.13
+
+Ligand gated ion channels ‘flicker’ between 7th" Sister onc nnenty tes
+open and closed states.
+
+We can write the synaptic conductance in
+terms of the probability P(t) that a
+receptor is ‘open’.
+
+G,,, (0) = Sp Np P(t)
+
+A
+
+8r =unitary ‘open’ conductance
+
+N, =number of receptors
+15
+ENDELEMENTKinetic model of synapse gating
+
++ We can describe the open probability using a ‘kinetic’ model.
+
+Single-channel patch recording
+a GABA, receptor
+———. |
+
+‘closed! =F open
+
+Figure removed due to copyright restrictions. Single-
+1 _ P, Pr channel patch recording, GABA, receptor. Figure 6.13
+
+in: Hille, Bertil. Jon Channels of Excitable Membranes
+(3rd Ed.). 2001, Sinauer / Oxford University Press.
+a, are transition rate constants
+Probability per unit time;
+
+units are 1/s
+
+¢ What controls the rate at which channels
+open ?
+
+Neurotransmitter!
+
+16
+ENDELEMENTEquivalent circuit model of a synapse
+
+* Simplified version of Magleby-Stevens model
+
+ 
+
+unbound dP.
+nt A “A = alAl-P,) ~ BP,
+\e,
+R > AR*
+(closed) (open)
+unbound receptor bound receptor complex
+1—P, P,
+
+> .
+(t) G,, (0) = 8 Ne F(t)
+
+| fer
+ENDELEMENTLearning objectives for Lecture 7
+
+* To be able to describe synaptic transmission as a convolution
+of a linear kernel with a spike train
+ENDELEMENTResponse of a synapse to a spike train input
+
+* This simple model makes it very easy to describe the
+response of a synapse to a train of spikes!
+
+Input S(t) [| | | |
+
+Response Pe | |
+
+Impulse response or Linear Kernel
+Convolution
+
+“ K(t)=G,,.e""
+G(t)= J K(t)S(t—t) dt
+
+ 
+ENDELEMENTResponse of a synapse to a spike train input
+
+* This simple model makes it very easy to describe the
+response of a synapse to a train of spikes!
+
+* We just convolve the spike train with the linear
+response of the synaptic conductance
+
+G(t)= J K(t)S(t-T) dt Impulse response
+
+oo
+
+K(H)=G,,e
+
+K(t) Ay |) | t
+
+S(t)
+
+t
+
+oo thy Fi 20
+ENDELEMENTResponse of a synapse to a spike train input
+
+* We just convolve the spike train with the linear response of
+
+the synaptic conductance ~
+G(t)= | K(t)S(t—1) de
+Easy to do in MATLAB® ~
+
+— use the conv function
+
+dE _ AT
+ENDELEMENTLearning objectives for Lecture 7
+
+Be able to add a synapse in an equivalent circuit model
+To describe a simple model of synaptic transmission
+
+To be able to describe synaptic transmission as a convolution
+of a linear kernel with a spike train
+
+To understand synaptic saturation
+
+To understand the different functions of somatic and dendritic
+inhibition
+ENDELEMENTSynaptic saturation
+
+* Let's examine how the voltage in a dendrite changes as
+a function of the amount of excitatory conductance...
+
+YS
+
+dendritic
+compartment
+
+Ch) bi ii | | fa b
+
+V, (1) R. V, (t)
+
+dendritic somatic
+somatic compartment compartment
+compartment
+ENDELEMENTSynaptic saturation
+
+* Let's examine how the voltage in a dendrite changes as
+a function of the amount of excitatory conductance...
+
+YS
+
+dendritic
+compartment
+
+Ch) bi ii | | fa b
+
+V, (1) R. V, (t)
+
+dendritic somatic
+somatic compartment compartment
+compartment
+ENDELEMENTSynaptic saturation
+
+* Let's examine how the voltage in a dendrite changes as
+a function of the amount of excitatory conductance...
+
+ 
+
+ 
+
+ 
+
+‘syn V,
+Ve G,, z 7
+E B 7
+“0 10 20 30 40 on . 4
+G,, (nS) dendritic
+compartment
+
+As synaptic input increases, the postsynaptic response saturates to a constant
+value
+
+25
+ENDELEMENTSynaptic saturation
+
+* Let's examine how the voltage in a dendrite changes as
+a function of the amount of excitatory conductance...
+
+Kirchoff's current law says:
+
++ I
+
+syn L
+
+G,,|V-E,, | + G,[V-E,]
+
+GV —G,,Eg, + GV -G,E, = 0
+
+V(G,
+
+syn’~syn
+
+on + G,)—(G,,, Eg, + GLE, ) = 0
+
+dendritic
+compartment
+
+G,E,+G,,E,
+
+syn’~syn
+
+G,+G,
+
+syn
+ENDELEMENTSynaptic saturation
+
+* Let's examine how the voltage in a dendrite changes as
+a function of the amount of excitatory conductance...
+
+V- G,E,+G E,,,
+
+syn
+
+G,+G,,, V
+
+dendritic
+compartment
+
+ 
+
+ 
+
+ae) 10 20 30 40
+G,, (nS)
+ENDELEMENTLearning objectives for Lecture 7
+
+¢ To understand the different functions of somatic and dendritic
+inhibition
+ENDELEMENTInhibitory inputs
+
+* The effect of inhibitory input depends strongly on where
+the inhibitory synapse is.
+
+V(t) R. V(t)
+Excitatory synapse
+G,, G.. G, G,
+Gwe) En Enc E, B,
+dendritic somatic
+Inhibitory synapse compartment compartment
+
+dendritic somatic
+compartment compartment
+ENDELEMENTInhibitory inputs
+
+* The effect of inhibitory input depends strongly on where
+the inhibitory synapse is
+
+Excitatory synapse
+
+dendritic somatic
+von nf) compartment compartment
+
+dendritic somatic
+compartment compartment
+ENDELEMENTCrayfish as a model system
+
+* Stereotypic behavior
+¢ Identifiable neurons
+¢ Identifiable circuits
+
+ 
+
+Figure removed due to copyright restrictions.
+See Fig. 1 in Antonsen, B.L. and D.H. Edwards.
+“Differential Dye Coupling Reveals Lateral Giant
+Escape Circuit in Crayfish.” J. Comp. Neurol. 466
+no. 1 (2003):1-13.
+
+ 
+
+Courtesy of Elsevier, Inc., https://www.sciencedirect.com. Used with permission.
+
+ 
+
+Yellow: LG neuron Edwards et al. (Trends Neurosci, 1999)
+(Antonsen & Edwards, 2003) 31
+ENDELEMENTEscape behavior in crayfish
+
+= MG (medial giant) escape
+= LG (lateral giant) escape
+= Non-giant escape
+
+Cae! ra LG escape
+
+MG escape
+
+ 
+
+irect.com. Used with permission.
+
+Figure: Edwards et al. (Trends Neurosci, 1999)
+
+ 
+ENDELEMENTLG is a ‘command neuron’
+
+¢ LG neuron is sufficient for LG escape.
+
+— Electrical stimulation of LG neuron produces tail flip.
+
+« LG neuron is necessary for LG escape.
+
+— Tail flip is not elicited if the LG neuron is hyperpolarized.
+
+Figure removed due to copyright restrictions. See Fig. 1 in Wine, J.J. and D.C.
+Mistick. “Temporal Organization of Crayfish Escape Behavior: Delayed Recruitment
+of Peripheral Inhibition.” J. Neurophysiology 40 no. 4 (1977):905-925.
+
+Wine & Mistick (1977)
+ENDELEMENTEscape behaviors are strongly modulated by
+inhibition
+* Escape response is suppressed while another escape
+
+response Is in progress
+
+— Recurrent inhibition of LG neurons (and many other neurons)
+during escape behavior
+
+* Escape response is suppressed when the animal
+is restrained
+
+Hold off escape until timely
+moment?
+
+Figure removed due to copyright restrictions. See Fig. 2
+in Krasne, F.B. and J.J. Wine. “Extrinsic Modulation of
+Crayfish Escape Behaviour.” J. Experimental Biology 63
+(1975): 433-450.
+
+Krasne & Wine (1975)
+
+34
+ENDELEMENTEscape behaviors are strongly modulated by
+inhibition
+
+* Escape response is suppressed
+while the animal is eating
+
+Figure removed due to copyright restrictions.
+See Fig. 2 in Krasne, F.B. and S.C.
+“Response-dedicated Trigger Neurone as
+Control Points for Behavioral Actions.” J.
+Neuroscience 8 no. 10 (1988): 3703-3712.
+
+ 
+
+ 
+
+* But not while the animal is
+searching for food
+
+Krasne & Lee (1988)
+
+35
+ENDELEMENTTwo types of modulation of LG escape
+reflex
+
+* Absolute inhibition: The escape is inhibited
+no matter how strong the excitation is.
+
+ 
+
+* Relative inhibition: The likelihood of escape is
+reduced, but it is still possible to override this
+kind of inhibition.
+ENDELEMENTLocation of inhibitory synapses
+
+¢ Proximal inhibition:
+— Near the spike initiating zone
+— Arises from motor circuits that generate the MG escape
+— Called ‘recurrent inhibition’
+
+¢ Distal inhibition:
+— Intermixed with excitatory afferents further out on the dendrite
+— Arises from sensory areas
+— Called ‘tonic inhibition’
+
+Previous hypothesis:
+Distal inhibition allows
+selective inhibition for
+particular dendritic
+branches
+
+37
+ENDELEMENTMeasuring the effect of different types
+of inhibition
+
+Current injection
+
+Lv
+
+  
+   
+
+Recording
+
+ath inhib, restraint, sucrose block
+
+Sensory root stimulation
+
+Annotated figure © American Association for the Advancement of Science. All rights reserved. This content is excluded from our Creative Commons
+license. For more informati locw. 'faq-fair-use/.
+
+‘mation, see https://ocw.mit.edu/hel
+Vu and Krasne, 1992 38
+
+    
+ENDELEMENTEquivalent circuit model
+
+RL: longitudinal resistance
+
+Re: proximal resistance
+
+Rp: distal resistance
+
+Ee: reversal potential for excitatory synapse (100 mV)
+Ge: excitatory conductance
+
+Gi: inhibitory conductance
+ENDELEMENTProximal versus Distal inhibition
+
+Proximal
+inhibition
+
+Distal
+inhibition
+
+ 
+
+40
+ENDELEMENT_—
+
+>
+
+Depolarization (mV)
+
+Reduction @
+
+of EPSP (%)
+
+Proximal inhibition Gi/ Go
+0
+
+0.2
+0.5
+
+   
+
+0.01 O11 10 10 £100 1000
+
+BO Annotated figure © American
+Association for the Advancement of
+60 Science. All rights reserved. This content
+
+is excluded from our Creative Commons
+license. For more information, see
+https://ocw.mit.edu/help/faq-fair-
+
+4
+Oo
+
+     
+
+NO
+oo
+
+0.01 0.1 1.0 10 100 1000
+Excitatory strength 41
+ENDELEMENTDistal inhibition
+
+_
+
+oN f+ DMD DW O
+
+>
+
+Depolarization (mV)
+
+  
+ 
+
+Gi/ Go
+00205 12 5
+
+0.01 0.1 1.0 10 100 1000
+2
+
+ 
+
+Reduction 9
+of EPSP (%)
+
+NROWO
+
+S0 OOOO 0
+
+2
+
+0.1 1.0 10 100 1000
+Excitatory strength 42
+ENDELEMENTMore ‘realistic’ multi-compartment
+model
+
+proximal inhibitory synapses
+
+ 
+  
+
+excitatory synapses,
+distal inhibitory synapses
+
+  
+
+Ann tated igure 2 © Soe ety for Neu e. All rights r
+Commons lice +more information, se https: //ocw.n
+
+Vu et al. UNS, 1993)
+
+‘ved. This content is excluded from our Creative
+edu, /faq-fair-use/.
+
+ 
+
+43
+ENDELEMENTDifferent functions for proximal and
+distal inhibition
+
+Two-compartment model shows that the effect of proximal
+and distal inhibition are different.
+
+— Proximal inhibition: absolute
+
+— Distal inhibition: relative
+
+Qualitatively similar effects were seen when more
+complicated models were used.
+ENDELEMENTLearning objectives for Lecture 7
+
+Be able to add a synapse in an equivalent circuit model
+To describe a simple model of synaptic transmission
+
+To be able to describe synaptic transmission as a convolution
+of a linear kernel with a spike train
+
+To understand synaptic saturation
+
+To understand the different functions of somatic and dendritic
+inhibition
+ENDELEMENTMIT OpenCourseWare
+https://ocw.mit.edu/
+
+9.40 Introduction to Neural Computation
+Spring 2018
+
+For information about citing these materials or our Terms of Use, visit: https://ocw.mit.edu/terms.
+ENDELEMENT

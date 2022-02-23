@@ -1,0 +1,1945 @@
+Hippocampal mechanisms of
+memory and cognition
+
+Matthew Wilson
+Departments of Brain and Cognitive
+Sciences and Biology
+MIT
+
+re,
+
+The Picower Institute
+for learnin g and memor: y
+ENDELEMENTThe lameilar hypothesis revisited
+
+ 
+
+Fig. 2. The position of the hippocampal formation in the rat brain is shown in this drawing of a
+
+preparation in which the cortical surface overlying the hippocampus has been removed. The hippocampus
+is an elongated. C-shaped structure with the long or septotemporal axis running from the septal nucle:
+rostrally (S) to the temporal cortex (T) ventrocaudally. The short or transverse axis (TRANS) is onented
+perpendicular to the septotemporal axis. The major fields of the hippocampal formation (except for the
+entorhinal cortex) are found in slices taken approximately midway along the septotemporal axis. The shce
+poctured at top Heft is a representation of the summary of the major neuronal elements and intrinsic
+connections of the hippocampal formation as onginally illustrated by Andersen et al. (see text for details)
+Abbreviations: DG. dentate gyrus: mf. mossy fibers: pp. pertorant path: sc. Schaffer collaterals
+
+Courtesy of Elsevier, Inc., http://www.sciencedirect.com. Used with permission.
+Source: Amaral, David G., and M. P. Witter. "The three-dimensional organization of
+the hippocampal formation: A review of anatomical data." Neuroscience 31, no. 3
+(1989): 571-591.
+
+From Amaral and Witter, 1989
+ENDELEMENTHippocampus in spatial and
+episodic memory
+
+The hippocampus is involved in the
+formation of episodic memory as well as
+spatial memory used in navigation.
+
+Navigation - linkage of spatial locations
+Episodic memory - linkage of events
+
+Both may depend critically on temporal
+sequence encoding
+ENDELEMENTNeural recording device
+
+AccV Spot Magn Det WD
+10.0KV 3.0 260x GSE99 06 Torr
+
+ 
+
+4-channel microwire electrode
+
+© Source Unknown. All rights reserved. This content is
+excluded from our Creative Commons license. For more
+information, see https://ocw.mit.edu/help/faq-fair-use/.
+
+Multiple electrode microdrive array
+ENDELEMENT 
+
+Spike amplitude clustering
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTExample of a Simple Spatial
+Environment
+
+ 
+ENDELEMENTEnsemble Activity in Area CA1
+
+During Spatial Se
+[
+
+ 
+
+2
+
+5
+a:
+Bin
+Syed
+vag”
+Z fe}
+gaa
+- x=
+
+oO
+seg
+— ss 2s
+= . 35
+E588
+fd BS8
+gees
+qT ome a >
+3 Eas
+P xe.
+wos
+SSeS
+geo"
+8&2
+
+ 
+
+ 
+
+ 
+
+BB.
+wes
+
+Less
+
+e, 1993
+
+e 264, no.
+Wilson and McNaughton, Scienc:
+ENDELEMENTPlace Fields on Linear Tracks
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTHippocampal Place Cells
+
+ 
+
+cell activity behavior
+
+fed =) =) ||
+Mt:
+ee
+S.
+
+fo} ate toy i are)
+
+ 
+ENDELEMENTHippocampal Ensemble Decoding
+
+cell activity behavior
+
+fe A=) ae) |
+
+ 
+
+folave re) late,
+
+ 
+
+ 
+ENDELEMENTDecoding Sleep Reactivation
+
+cell activity behavior
+© ies ah a .
+O ee
+a”
+fe)
+=
+5
+c >
+fo)
+
+ 
+ENDELEMENTHippocampus online and offline
+
+Theta rhythm Sharp wave/ripples
+walk still
+
+wha ie ew nn inrsy a
+ri Sra Hg saa “MW " A “wy fi “ty a Naty mite sy
+
+[inv 1s
+
+ 
+
+ 
+
+Courtesy of Elsevier, Inc., http://www.sciencedirect.com. Used with permission.
+Source: Buzsaki, Gyérgy. "Two-stage model of memory trace formation: A role
+for “noisy” brain states." Neuroscience 31, no. 3 (1989): 551-570.
+
+Buzsaki 1989 D
+ENDELEMENT© Source Unknown. All rights reserved. This content is excluded from our Creative
+Commons license. For more information, see
+
+ 
+ENDELEMENTInteraction of asymmetric excitation with oscillatory
+variation in inhibition can translate one linear dimension
+(space) into another (time).
+
+Hippocampal phase precession may be a demonstration of
+that process.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Direction of movement Direction of movement
+——xr ——xr
+- 360 Fe,
+— Inhibition a?
+— Excitation . .
+{ #) 270
+Bos 3 180
+3
+u 8
+=
+90
+0.2
+L—
+Ly !
+0 5 10 15 20 25 30 35 40 45 hd o* Se
+Position (cm) 0 ° oe
+220 240 260 280
+
+Position (cm)
+14
+ENDELEMENTOverlapping asymmetric place fields with oscillatory
+variation in excitability translate behavioral time
+relationships to biophysical timescales with preserved
+temporal order
+
+Biophysical timescale
+>
+Direction of movement
+
+— Inhibition
+— Excitation
+
+ 
+
+Current (nA)
+
+Place cell 2
+
+ 
+
+     
+
+ 
+
+  
+
+20 25
+Position (cm)
+
+Behavioral timescale
+ENDELEMENTHippocampal theta sequences
+
+ 
+
+ 
+
+a c
+vey
+
+b1
+
+8
+
+19
+
+3
+&i
+Fe |
+& &
+
+0
+
+§
+
+3
+
+&
+
+0 30 TOR (0) 700 7000
+
+© Wiley. All rights reserved. This content is excluded from our Creative Commons
+license. For more information, see https://ocw.mit.edu/help/faq-fair-use/.
+Source: Foster, David J., and Matthew A. Wilson. "Hippocampal theta
+
+sequences. "Hippocampus 17, no. 11 (2007): 1093-1099.
+
+Foster and Wilson, 2007
+
+16
+ENDELEMENTHippocampal spatial representations are
+encoded as sequences during behavior
+
+[e)
+
+ 
+
+  
+
+ 
+
+ 
+
+ 
+
+A 350 50
+© 300 z
+s | £
+= 250 Piha batce S
+a Heeler 5 air SS... i ESS l(
+B 200 9g
+3 END $
+z # ne}
+j 150} 351s 71meo 8 =
+100 © _50
+> 0.2 > 3
+E 0. E ;
+a ool VY ~ 0
+a . a -~0.2 1
+
+ 
+
+4710 47105 4711
+time (s)
+
+m
+
+Unit firing
+rate (Hz)
+Oo =
+
+ 
+
+ 
+
+-0.1 0 0. 0.2
+
+1
+Time relative to theta peak (s)
+
+1
+oO
+to
+
+Courtesy of Elsevier, Inc., http://www.sciencedirect.com. Used with permission.
+Source: Davidson, Thomas J., Fabian Kloosterman, and Matthew A. Wilson.
+"Hippocampal replay of extended experience." Neuron 63, no. 4 (2009): 497-507.
+
+Davidson, Kloosterman, and Wilson, Neuron, 2009 17
+ENDELEMENTHPC-PFC: functionally connected
+
+<= Hippocampus
+“HPC /
+
+ 
+
+18
+ENDELEMENTHPC-PFC: functionally connected
+
+. Hippocampus
+NN HPC /
+
+ 
+  
+
+ 
+   
+  
+
+>). « Spatial navigation & memory
+< deficits in rodents
+
+(/— + Episodic memory deficits in
+
+~ <> humans
+
+ 
+
+The hippocampus: encoding and recognising spatial context
+
+The prefrontal cortex: integrating the cues of current context
+(held on-line in working memory) to control appropriate
+
+behaviour
+
+ 
+ENDELEMENTHPC-PFC: functionally connected during spatial working memory tasks
+
+ 
+
+20
+ENDELEMENTHPC-PFC: individual electrophysiologies
+
+tN —
+}. ° ‘Place cells’: neurons with spatial
+Sy Rodents fields ae fields’)
+
+ 
+
+from Niki (1974) Brain Res. 70, 346-349
+
+Courtesy of Elsevier, Inc., http://www.sciencedirect.com. Used with permission.
+Source: Niki, Hiroaki. "Differential activity of prefrontal units during right and left
+delayed response trials." Brain research 70, no. 2 (1974): 346-349,
+
+21
+ENDELEMENTMultiple units from multiple electrodes in multiple sites
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENT 
+ENDELEMENTExtracellular Action
+Behaviour & Position Potentials (spikes) Local Field Potentials (LFP)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+am.) ieee
+7 ca a
+
+ 
+
+24
+ENDELEMENTInteractions: spikes vs. LFP
+
+ 
+
+PFC spike times
+HPC spike times
+
+Theta peak times
+
+ 
+
+0 1000
+
+Time (ms)
+
+25
+ENDELEMENTnhanced theta-phase locking during *‘ correct choice
+
+A 7
+RECES: ae IH Forcodtum [™cnoice ZjCholce
+. correct" errors
+*
+can
+
+Circular concentration
+
+  
+
+ 
+
+B Cc
+@ 150
+3
+s
+>
+c 06 | 3
+s 3 100
+4 3
+®
+3 2 50
+3 937 2
+5 #
+3 0
+cs)
+
+ 
+
+e
+
+  
+
+Jones, Matthew W., and Matthew A. Wilson. "Theta rhythms coordinate hippocampal-
+prefrontal interactions in a spatial memory task." PLoS biol 3, no. 12 (2005): e402.
+https://doi.org/10.1371/journal.pbio.0030402. License CC BY.
+
+Jones and Wilson, PLoS Biol., 2005 26
+ENDELEMENTLFP vs. LFP: Coherence
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+0.64 0.18
+
+|Coherence|
+
+ 
+
+10 30
+Frequency (Hz)
+
+Coherence
+
+c Forcedtum [Choice [Z]Choice
+a comect arors
+
+Central arm |coherence|
+
+ 
+
+ 
+
+1-4 4-12
+Frequency range (Hz)
+
+Jones, Matthew W., and Matthew A. Wilson. "Theta rhythms coordinate hippocampal-
+prefrontal interactions in a spatial memory task." PLoS biol 3, no. 12 (2005): e402.
+https://doi.org/10.1371/journal.pbio.0030402. License CC BY.
+
+Jones, M. et al. PLoS 2005.27
+ENDELEMENTOptogenetic manipulation of hippocampal inhibitory cells
+
+  
+
+ 
+
+=
+Ss
+1
+<
+a
+ke
+zt
+oO
+0 200 400 600 CH1 CH2 CH3 CH4
+CH2 peak (LV)
+
+D E 500
+
+400
+=
+=
+
+= 300
+y g
+
+| pty 2 200
+ry =
+
+E * s00
+
+< 0 0
+10 ms -50 -25 0 2 50 75 -80 -25 0 25 50 75
+
+Time (ms) Time (ms)
+
+Courtesy of eLife. License CC BY 4.0.
+
+Source: Siegle, Joshua H., and Matthew A. Wilson. "Enhancement
+of encoding and retrieval functions through theta phase-specific
+manipulation of hippocampus." Elife 3 (2014): e03061
+
+28
+ENDELEMENT 
+
+shy Raw LFP | Trigger on peak 10 ms light pulse
+— Theta band (4-12 Hz) _| Trigger on trough
+
+ 
+
+ 
+
+A Peak-triggered B ozs} econ |=
+stimulation
+(10 ms light pulse) ‘* retrieval
+= segment
+a ‘stimulation
+o° 3
+2
+2
+A i
+B 005} 5 segment
+stimulation
+180° 0.4 +
+f -0.15 A
+Trough-triggered aE TERR i Peak stimulation
+stimulation ee : SR [i Trough stimulation
+(10.ms light putse) SeoInent: "segment,
+
+Courtesy of eLife. License CC BY 4.0.
+
+Source: Siegle, Joshua H., and Matthew A. Wilson. "Enhancement
+of encoding and retrieval functions through theta phase-specific
+manipulation of hippocampus." Elife 3 (2014): e03061
+
+Siegle and Wilson, eLI/FE,
+2014 29
+ENDELEMENTRole of Sleep in Memory
+
+Sleep allows examination of memory
+independent of behavior.
+
+The formation of lasting memories may
+involve the communication of
+information between brain areas during
+sleep.
+
+Broadly identify two stages of non-REM
+sleep -(NREM) and rapid eye
+movement sleep (REM).
+ENDELEMENTExperimental design
+
+7 > es ey = 4
+
+SLEEP RUN SLEEP
+1-2 hrs 15 min 1-2 hrs
+SEs ee ee
+
+ 
+
+slow-wave sleep
+REM sleep
+awake behavior
+
+http://www.sciencedirect.com
+ENDELEMENTCompressed Run sequences are
+expressed in hippocampus during nREM
+sleep
+
+ 
+
+ 
+
+o
+8
+
+8
+rd
+6
+5
+4
+on
+2
+E
+
+ 
+
+ 
+
+ 
+
+° , o}] Run
+
+ 
+
+cell
+-neoaaove I
+
+   
+
+150 msec
+
+Courtesy of Elsevier, Inc., http://www.sciencedirect.com. Used with permission.
+Source: Miller, Earl K., and Matthew A. Wilson. "All my circuits: using multiple electrodes
+to understand functioning neural networks." Neuron 60, no. 3 (2008): 483-488.
+
+Lee and Wilson, Neuron, 2002 32
+ENDELEMENTSequences are re-expressed
+during CA1 ripple events
+
+ 
+
+ 
+
+ 
+
+ 
+
+‘ W
+ANAn W
+: ee eee
+
+ 
+
+  
+
+ 
+
+Duration of low
+probability sequences
+
+Correlation of low
+probability sequences
+and ripples
+
+Example of a low
+probability sequence
+and a ripple event
+
+Courtesy of Elsevier, Inc., http://www.sciencedirect.com. Used with permission.
+Source: Lee, Albert K., and Matthew A. Wilson. "Memory of sequential
+experience in the hippocampus during slow wave sleep." Neuron 36, no. 6
+
+(2002): 1183-1194.
+ENDELEMENTOverlapping asymmetric place fields with oscillatory
+variation in excitability translate behavioral time
+relationships to biophysical timescales with preserved
+temporal order
+
+Direction of movement
+
+ 
+
+— Inhibition
+— Excitation
+
+Current (nA)
+
+Place cell 2
+
+ 
+
+0 5 10 15 20 2a 30 35 40 45
+
+Position [cm)
+
+ 
+
+———>
+
+ 
+
+ 
+
+ 
+
+Behavioral timescale
+
+34
+ENDELEMENTAre there signatures of memory
+reactivation in the neocortex during
+hippocampal reactivation
+
+¢ Simultaneously record in the hippocampus
+and primary and secondary visual cortex
+during spatial behavior.
+
+¢ Look for reactivation in both structures
+during sleep.
+ENDELEMENTA
+
+Experimental Design:
+
+ 
+
+PRE (1-2hrs)
+
+ 
+
+c
+RUN (20-40mins) |_| POST (1-2hrs)
+
+ 
+
+ 
+
+ 
+
+ 
+
+1. Intra-maze local cues, no prominent distal cues
+
+2. Well trained animals: alternation task
+
+3. Recording sites: visual cortex (Occ1, Occ2) and CA1
+
+4. Sleep states (SWS, REM, Wake, Int) classified using EMG
+and hippocampal EEG
+
+© Nature. All rights reserved. This content is excluded from our Creative Commons
+license. For more information, see https://ocw.mit.edu/help/faq-fair-use/.
+
+Source: i, Daoyun, and Matthew A. Wilson. "Coordinated memory replay
+
+in the visual cortex and hippocampus during sleep." Nature neuroscience
+
+10, no. 1 (2007): 100-107.
+
+ 
+
+36
+ENDELEMENTSequence memory reactivation in hippocampus and visual cortex
+
+01234567 Avg 012345
+
+Seq 0132567 Seq 01235
+
+ 
+
+© Nature. All rights reserved. This content is excluded from our Creative Commons
+license. For more information, see
+
+Source: i, Daoyun, and Matthew A. Wilson. "Coordinated memory replay |
+
+in the visual cortex and hippocampus during sleep." Nature neuroscience
+
+10, no. 1 (2007): 100-107.
+
+Ji and Wilson, Nature Neuroscience, 2007
+
+37
+ENDELEMENTReactivation occurs during activity frames correlated with
+the slow oscillation
+
+Me pe yy |
+
+   
+
+CTX
+
+¢ ¢ ¢ ¢
+B 3100 31000 | £TX silent 3 140 3 600
+© 50 © 500 © 70 © 300
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+0 Durdtion fs) 3 0 DuratiB (s) 1 0 Duration és) 3 0 DuratBB (s) 1
+5
+o
+o
+Cx 10 10
+0
+5 5 iN Start £5
+= or =
+B Slo. 0 02 Wt \ Bo° |02,, 0 02 |
+8 0 Audet tg Wales 8 20 MMi mY
+-1 -0.5 0 0.5 1 -1 -0.5 0 0.5 1
+Time (s) Time (s)
+
+© Nature. All rights reserved. This content is excluded from our Creative Commons
+license. For more information, see https://ocw.mit.edu/help/faq-fair-use/.
+
+Source: i, Daoyun, and Matthew A. Wilson. "Coordinated memory replay
+
+in the visual cortex and hippocampus during sleep." Nature neuroscience
+
+10, no. 1 (2007): 100-107.
+
+38
+ENDELEMENTLan we influence memory reactivation
+during sleep?
+
+ 
+
+ 
+
+ 
+
+ 
+
+Sound L sneaks! Sound R
+downward frequency sweep upward frequency sweep
+frequenc N, frequenc'
+time nosepoke time
+
+ 
+
+Sleep box (away from track) speaker
+
+ 
+
+For 2-2.5 hours
+
+Sound L
+: Sound R
+
+control sounds
+
+ 
+
+ 
+
+ 
+
+ 
+
+© Nature. All rights reserved. This content is excluded from our CreativeCommons
+license. For more information, see https://ocw.mit.edu/help/faq-fair-use/.
+
+Source: L Bendor, Daniel, and Matthew A. Wilson. "Biasing the content of Hippocampal
+replay during sleep." Nature neuroscience 15, no. 10 (2012): 14391444
+
+39
+ENDELEMENTBehavioral task design
+
+SoundL SoundR
+> >
+i) 3
+< c
+© ®
+3 3
+S 3
+2 nosepoke 2
+= time P - time
+
+ 
+
+ 
+
+ 
+
+3.7 Hz
+U +
+.
+c -
+& right . we
+& side
+&
+9
+2 i
+ra :
+£ fe ! 13.3 Hz
+8 j  positi
+it ' c . ae
+auditory cue | |
+ld rr r
+go}! om \
+Unit # |
+4 a " ot
+
+ 
+
+ 
+
+ 
+
+time
+1 sec
+© Nature. All rights reserved. This content is excluded from our CreativeCommons
+license. For more information, see https://ocw.mit.edu/help/faq-fair-use/.
+Source: L Bendor, Daniel, and Matthew A. Wilson. "Biasing the content of Hippocampal
+replay during sleep." Nature neuroscience 15, no. 10 (2012): 14391444
+
+40
+ENDELEMENTB
+
+awake
+
+sleep
+
+———_—$———— | $<
+velocity Lente ue
+
+auditory cue
+
+WMA, (il la Salalah il a
+
+ 
+
+ 
+
+ 
+
+   
+ 
+
+    
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Do task-related sounds bias
+the content of future replay?
+
+ 
+
+ 
+
+30 fie teil oe eee TAREE UR aT
+pete vi a Pan Ma i H thesis:
+, in ypotnesis:
+Unit # pay iy ; Sound R- place cells with right-
+fad ie bi a Na chi sided place fields are more active
+1 ime during replay
+100 sec Sound L- place cells with left-sided
+place fields are more active during
+sound L replay
+: mo Bee 7 oo
+Ad ee
+40| OE ST cowigt Ae 5 | qe
+le ; a "9 “8
+i Ii fancy tate | *
+time = time Fame
+
+© Nature. All rights reserved. This content is excluded from our CreativeCommons
+license. For more information, see https://ocw.mit.edu/help/faq-fair-use/.
+
+Source: L Bendor, Daniel, and Matthew A. Wilson. "Biasing the content of Hippocampal
+replay during sleep." Nature neuroscience 15, no. 10 (2012): 14391444
+
+41
+ENDELEMENTBias observed in individual place cell responses
+
+Cé)sound R bias
+CG sound L bias
+
+Reactivation bias *
+(individual units)
+
+Number of units
+S a oo
+Oo oO oO
+
+ND
+3S
+
+hg
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+=~
+
+N
+
+x=
+
+~ left side right side
+
+g place field location
+
+ire] oe
+
+Oo rr |
+
+2
+
+©
+
+[ag = 05 Sound R
+z bias
+a
+g
+a
+2 0
+g
+c
+
+° | §
+- - - = 0.5 Sound L
+left side right side : bias
+place field location ieisine right side
+
+lace field location
+© Nature. All rights reserved. This content is excluded from our CreativeCommons i
+
+license. For more information, see https://ocw.mit.edu/help/faq-fair-use/.
+Source: L Bendor, Daniel, and Matthew A. Wilson. "Biasing the content of Hippocampal
+replay during sleep." Nature neuroscience 15, no. 10 (2012): 14391444
+
+Bendor and Wilson, Nature Neuroscience, 2012
+
+42
+ENDELEMENTOdor during
+
+. . learning and SWS
+Learning Sleep Retrieval
+: aoe
+& G 4
+ys Ge es
+
+ 
+
+2 |= © si
+
+20.00 0 :
+Rasch et al. 2007 yl
+—
+Nap — 25 sound cues 0
+
+Learning — 50 object locations Vehicle Odor
+Subsequently cued Subsequently uncued
+
+ 
+
+Stimulation period Change in spatial recall
+
+    
+
+ 
+
+= 25
+a) 0 min 75 min after nap
+me 6l|lhCSTTCU g
+wal Awake S
+Stage 1 s
+Slow-wave sleep 2
+£
+Rudoy etal. 2009 Bias pre-replay brain state
+stimulation 54 Cued Uncued
+>
+
+ 
+
+\ Cortex .
+
+Bias which memories are transferred
+
+© Science. All rights reserved. This content is excluded from our Creative Commons
+license. For more information, see https://ocw.mit.edu/help/faq-fair-use/.
+Source: Rasch, Bjorn, Christian Biichel, Steffen Gais, and Jan Born. "Odor cues during
+
+slow-wave sleep prompt declarative memory consolidation." Science 315, no. 5817
+(2007): 1426-1429.
+
+ 
+
+Hippocampus
+
+ 
+
+43
+ENDELEMENTHippocampal activity during quiet
+wakefulness
+
+¢ During awake behavior, there are
+periods of quiet wakefulness that have
+EEG that is similar to NREM consisting
+of brief bursts of activity modulated by
+high frequency “ripple” oscillations.
+
+¢ Is there structure to the patterns of
+multiple single neuron activity during
+this state?
+ENDELEMENTDoes sequence reactivation occur during quiet wakefulness?
+
+ 
+
+ 
+
+ 
+
+STOPPED
+AFTER
+RUNNING
+
+45
+ENDELEMENTMemory of recent experience replayed in reverse-time order
+
+Running
+
+»
+Position
+
+Stopping
+Position vs. time
+
+ 
+
+ 
+
+Hippocampal place-cell
+
+ 
+
+ 
+
+ 
+
+activity vs. time
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+  
+
+Time (s)
+
+  
+
+Reverse-time sequence replay during
+hippocampal ripples
+
+sone 5924 S026 5on68 505 S02 S9S4 593.6
+
+Reprinted by permission from Macmillan Publishers Ltd: Nature.
+Source: Foster, David J., and Matthew A. Wilson. "Reverse replay
+of behavioural sequences in hippocampal place cells during the
+awake state." Nature 440, no. 7084 (2006): 680-683.. © 2006.
+
+Foster and Wilson, Nature, 2006
+
+46
+ENDELEMENTLearning sequences of actions
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+;
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+8
+oO !
+a
+x
+. . Time
+Temporal credit assignment by
+Dopamine unit activity could ———— 7
+
+ 
+
+differentially weight the content of
+hippocampal sequences, propagating
+
+value information from the rewarded 3 | 4
+
+location backwards along the incoming Ke ——F7
+trajectory.
+
+ 
+
+Foster and Wilson, Nature 440: 680-683, 2006 47
+ENDELEMENTHippocampal place-cell sequences depict
+future paths to remembered goals
+Brad E. Pfeiffer & David J. Foster
+
+Nature, 2013
+
+ 
+
+ 
+
+a e | ay By
+| — Event | — Event
+Future path | Future path
+— Past path — Past path
+
+ 
+
+ 
+
+ 
+
+y position
+
+ 
+
+ 
+
+ 
+
+= x position ) <poemon
+xx | # CO
+
+Away-events rotated/scaled to Home well location
+
+   
+
+ 
+
+    
+
+ 
+
+ 
+
+ 
+
+ 
+
+< 0.25) 4 10} ® 25] ' os — Trajectories Sum _ommer0.05
+8 . BE ‘
+: : s*
+§ é&
+5} E
+Fa 3
+3 =
+2 oa al ol dl
+Day1Day2  Day1Day2 Day! Day2 Fe EGE es
+1 Rat location ™ Ratlocation  MRat location BSE 3 53 6
+@Prav. Random Home @NextRandom «878 372 Se
+eee se
+32% 22 y| Rat location
+bi: 3 . >
+Day1 Day2 Perpendicular to Home Perpendicular to Home
+
+Courtesy of Nature. Used with permission.
+
+Source: Pfeiffer, Brad E., and David J. Foster. "Hippocampal
+
+place-cell sequences depict future paths to remembered
+
+goals." Nature 497, no. 7447 (2013): 74-79. 48
+ENDELEMENTLong behavioral sequences on a 10m track
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+c
+10
+= 5
+£
+= 0
+= 40
+5s
+b4 day 3
+5 0
+10
+a
+5 (day 10
+ay
+0
+0 5 10 15
+
+Time (min)
+
+Courtesy of Elsevier, Inc., http://www.sciencedirect.com. Used with permission.
+Source: Davidson, Thomas J., Fabian Kloosterman, and Matthew A. Wilson.
+"Hippocampal replay of extended experience." Neuron 63, no. 4 (2009): 497-
+507.
+
+Davidson, Kloosterman and Wilson, Neuron, 2009 49
+ENDELEMENToa
+
+~
+
+Reconstruction of extended sequence
+
+replay during quiet wakefulness
+
+@ 10)
+Actual
+
+position 5
+(m)
+
+ 
+
+ 
+
+Estimated
+
+position 5,
+
+(m)
+
+B\ 0!
+
+40;
+
+Spike
+rasters
+(cell #)
+
+MUA (Hz)
+Ripples
+
+Ripple-band 2
+
+ 
+
+ 
+
+20;
+107°
+
+ 
+
+ 
+
+yk
+200
+
+ 
+
+ 
+
+LFP (mV)
+( 02
+
+ 
+
+ 
+
+0
+
+Time (s)
+
+ 
+
+ 
+
+ 
+
+@ 10
+Estimated
+position 5
+(m)
+
+Bo bin = 20 ms
+
+ 
+
+ 
+
+40
+Spike 30
+rasters
+cell #)
+( ) 10
+
+ 
+
+ 
+
+1
+
+1 uaz) 20°
+
+ 
+
+j Ripples
+
+0.2
+
+k Ripple-band 0
+LFP (mV)
+
+0.2
+
+ 
+
+ 
+
+Davidson, Kloosterman and Wilson, Neuron, 2009
+ENDELEMENTmulti-unit activity
+
+ 
+
+, a.
+0 yw)
+
+   
+
+ih. I
+" i
+[ h, on "7 i hy
+ai ih il TR
+q | *
+
+ 
+
+r |
+|
+
+Amplitude (mV)
+Oo
+
+ 
+
+S
+
+nO
+°
+>
+
+i) 0.2 04 06
+Time (s)
+
+position estimate
+
+   
+
+im) @
+ca S
+
+Linear position
+
+Pa)
+
+-0.2 ) 0.2 04 0.6
+Time (s)
+
+Eorward ASIEN _ -250 ms
+
+ 
+ENDELEMENT= Dob multi-unit activity
+
+| |
+
+| |
+
+I I
+
+1004 | |
+j |
+
+!
+
+0
+
+Activity (Hz
+
+ripples
+
+=
+fo
+
+Amplitude (mV)
+Oo
+
+ 
+
+&
+
+i
+fa)
+ie]
+Oo
+
+0.2 04 06
+Time (s)
+
+Tn)
+3
+
+a
+
+ 
+
+Linear position
+
+ 
+
+oa
+
+-0.2 0 0.2 o4 0.6
+Time (s)
+ENDELEMENTRipples detected
+
+Extended replay spans multiple ripple
+events
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+oN F DO
+
+ 
+
+ 
+
+ 
+
+b 1st 2nd 3rd 4th Ss Speer aU ete aaa naa
+fipplg ripple ripple ripple SE 074
+1-tipple as
+Ee
+2-tipple Y oj Ripples proud
+events “~ ae ins nos — —
+=10
+Suipple BE
+events V Ww VW 2s 5
+0 200 400 600 i ag :
+4—iipple Ny 7
+Replay event duration (ms) ovens V ~"y” “wy “
+
+ 
+
+ 
+
+ 
+
+d ® is0 f 9g
+= 02 = 2 one
+05 g "
+= 0 = 100 z 55 200
+& -02 3 50 = Bs 100
+5 = 5
+0.4 9 = 9 =" 0
+0.10 01 0.10 041 -0.1 0 01 010 01
+Time from Time from Time from Time from
+ripple (s) ripple (s) ripple (s) ripple (s)
+
+© Elsevier, Inc., http://www.sciencedirect.com. All rights reserved. This
+content is excluded from our Creative Commons license. For more information,
+see https://ocw.mit.edu/help/faq-fair-use/.
+
+Source: Davidson, Thomas J., Fabian Kloosterman, and Matthew A. Wilson.
+"Hippocampal replay of extended experience." Neuron 63, no. 4 (2009): 497-
+
+507. https://doi.org/10.1016/j.neuron.2009.07.027.
+Davidson, Kloosterman and Wilson, Neuron, 2009
+ENDELEMENTExtended replay has a characteristic
+speed
+
+ 
+
+ 
+
+Replayed trajectory length (m)
+
+ 
+
+ 
+
+ 
+
+0 0.2
+
+0.4
+
+0.6
+
+Replay duration (s)
+
+ 
+
+0.8
+
+ 
+
+ 
+
+ 
+
+ 
+
+o
+z
+ro}
+3 i?)
+Q
+o
+aw
+-1
+02 0 0 .
+Fraction Replay duration (s)
+f 0.2
+Forward
+> 0.15 Reverse
+a
+3 0.1
+©
+> 0.05
+0
+0 10 20
+
+Replay speed (m/s)
+
+Courtesy of Elsevier, Inc., http://www.sciencedirect.com. Used with permission.
+Source: Davidson, Thomas J., Fabian Kloosterman, and Matthew A. Wilson.
+"Hippocampal replay of extended experience." Neuron 63, no. 4 (2009): 497-
+
+507.
+
+Davidson, Kloosterman and Wilson, Neuron, 2009
+
+54
+ENDELEMENTSingle ripple sequences are at same scale
+as theta sequences
+
+ 
+
+om] nN mo Ww Le)
+a oOo a od a
+oOo Oo oO Oo oO
+
+LEP (mv) @ Estimated position (cm) -
+3
+oO
+
+-0.2
+
+| 6.6 m/s
+3.5 m/s 7.1 m/s
+
+ 
+
+ 
+
+ 
+
+9
+on
+
+LFP (mv)?
+
+ 
+
+4710.5 4711
+
+time (s)
+
+4710
+
+[?)
+a
+fo)
+
+Behind/ahead animal (cm)
+Oo
+
+)
+od
+Oo NM OO
+
+   
+
+PN NN
+
+it
+
+ 
+
+m
+Il
+oS
+io
+
+ 
+
+ 
+
+Unit firing
+rate (Hz)
+
+50
+ie)
+
+Po
+-0.1 0 0.1 0.2
+Time relative to theta peak (s)
+
+Courtesy of Elsevier, Inc., http://www.sciencedirect.com. Used with permission.
+Source: Davidson, Thomas J., Fabian Kloosterman, and Matthew A. Wilson.
+"Hippocampal replay of extended experience." Neuron 63, no. 4 (2009): 497-
+507.
+
+Davidson, Kloosterman, and Wilson, Neuron, 2009
+ENDELEMENTOverall summary
+
+* Sequence memory can be encoded in the
+hippocampus during active behavior.
+
+* Sequence memory is subsequently replayed
+during sleep in both the hippocampus and
+neocortex.
+
+¢ The content of reactivated memory during sleep
+can be biased by external manipulation.
+
+¢ Sequence memory replayed during quiet
+wakefulness is associated reward information and
+may serve a different role in learning than replay
+during sleep.
+
+56
+ENDELEMENTMIT OpenCourseWare
+https://ocw.mit.edu
+
+Resource: Brains, Minds and Machines Summer Course
+Tomaso Poggio and Gabriel Kreiman
+
+The following may not correspond to a particular course on MIT OpenCourseWare, but has been
+provided by the author as an individual learning resource.
+
+For information about citing these materials or our Terms of Use, visit: https://ocw.mit.edu/terms.
+ENDELEMENT

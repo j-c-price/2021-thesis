@@ -1,0 +1,999 @@
+Jurgen Berger
+
+Courtesy of Jurgen Berger. Used with permission.
+
+ 
+ENDELEMENTICTY pT oYoleam eYaYahYar-lalelolc-Melaer-lalyacmuiiiam: me(ctela:\-Mey if
+Lik=XMaULUMe) Mm LAL cui ite (val mexe) alice) Boo): ] mm lal-jilalead idm: (eq iolars
+- Dujardin, 1850
+
+     
+
+bathe
+ee
+2 Sh.
+a
+m
+
+saws © Ee
+ae wae. ai wes
+
+© Source Unknown. All rights reserved. This content is
+(Strausfeld et al., 1998) excluded from our Creative Commons license. For more
+information, see :
+
+ 
+
+Courtesy of Cold Spring Harbor Laboratory Press. Used with permission.
+ENDELEMENTPhotos removed due to copyright restrictions. Please see the video.
+ENDELEMENTLateral horn Kenyon cell
+
+ 
+
+segment
+
+Reprinted by permission from Macmillan Publishers Ltd: Nature.
+Source: Heisenberg, Martin. "Mushroom body memoir: From maps to models."
+Nature Reviews Neuroscience 4, no. 4 (2003): 266-275. ©2003.
+ENDELEMENT 
+
+20 um
+
+Courtesy of eLife. Used with permission.
+ENDELEMENTPN pooling
+N~200/50 noise
+D ~ 35 reduction
+normalization
+ORN
+N ~ 1000/50
+
+D ~ 30 input
+
+ 
+ENDELEMENT30
+
+ORN
+
+ 
+
+op hae ae
+
+1: fF J La as)
+
+ 
+
+Courtesy of PNAS. Used with permission.
+
+300
+
+20 th
+3,
+
+20
+oa
+
+150 oO
+co
+oO
+
+100 >
+
+so _N
+wa
+
+140
+wo «34
+3.
+io 06CO!
+oq
+80 a
+ct
+6 86@O
+—~
+o oT
+N
+200
+
+ 
+
+Olsen, Bhandawat, Wilson 2010
+with Sean Luo, Richard Axel
+
+7
+ENDELEMENTP
+N~200/50
+D ~ 35
+
+ORN
+N ~ 1000/50
+D ~ 30
+
+ 
+
+   
+  
+
+OSs ses eee
+{| |
+| |
+
+RETRY
+
+WOK.
+
+\/
+Ys
+
+readout layer(s)
+ee ee ee
+
+| |
+
+OO random, high-D
+L\/T LZ] hidden layer
+ON |
+
+ALOT] pealn
+<a By noise
+a reduction
+
+normalization
+
+input
+ENDELEMENT 
+
+Courtesy of Yoshi Aso. Used with permission.
+ENDELEMENT  
+  
+  
+  
+
+led we) (=Xeq 4(olamal-iUl nel ars)
+1-8 cells/type
+~ 50 types
+
+~ 200 cells
+
+Yoshi Aso, Daisuke Hattori
+
+Courtesy of Yoshi Aso. Used with permission.
+ENDELEMENT  
+  
+  
+  
+
+Kenyon cells
+70-600 cells/type
+~ 7 types
+
+~ 2000 cells
+
+Courtesy of Yoshi Aso. Used with permission.
+
+Yoshi Aso, Daisuke Hattori _,,
+ENDELEMENT 
+
+Courtesy of Yoshi Aso. Used with permission.
+
+Yoshi Aso, Daisuke Hattori
+ENDELEMENT 
+
+ralccyalarcin me) els)
+
+  
+
+Reprinted by permission from Macmillan Publishers Ltd: Nature.
+Source: Caron, Sophie JC, Vanessa Ruta, L. F. Abbott, and Richard Axel. "Random convergence of
+olfactory inputs in the Drosophila mushroom body." Nature 497, no. 7447 (2013): 113-117. © 2013.
+
+Caron, Ruta, Abbott, Richard Axel, 2013
+
+13
+ENDELEMENTother
+heat
+cold
+VM7
+VM6
+VM5v Tit ut
+VM5d |
+v4 I
+vM3 1
+vM2 I I
+vizp toma d
+Pp
+VL2a i | |
+VL1
+vc4 | [! | I
+vc3 I Pitt Lui
+vc2 | i |
+vc1
+VA7m
+VA7I
+VA6
+VAS
+VA4
+VA3 il |
+VA2
+VA1v ll
+VA1d
+
+DPim | | |
+DPI |
+
+pM6é 1118
+DM5 l
+pm4 I
+DM3
+pm2 rT
+
+DM1 I 1
+
+DL5 | | 11
+
+DL3 ll
+DL2v
+
+DL2d ]
+
+DL1 | Wt 1 il
+pc4 I ]
+DC3 ] Tt |
+
+Dc2 | |
+
+pc1 i |
+
+glomerulus
+
+70
+
+So o
+o a
+
+\|a2 UoAUdy
+
+100
+110
+120
+
+5 rho a
+
+pee
+
+ah
+
+ 
+
+Source: Caron, Sophie JC, Vanessa Ruta, L. F. Abbott, and Richard Axel. "Random convergence of
+
+Reprinted by permission from Macmillan Publishers Ltd: Nature.
+
+14
+
+olfactory inputs in the Drosophila mushroom body." Nature 497, no. 7447 (2013): 113-117. © 2013.
+ENDELEMENTreordered Glomerulus
+
+glomerulus
+
+20
+
+40
+
+60
+
+ 
+
+ 
+
+60 100 120
+reordered Kenyon cell
+
+ 
+ 
+
+80 100 120
+
+Kenyon cell
+
+140
+
+140
+
+     
+
+ 
+
+ 
+
+15
+ENDELEMENTother
+heat | |
+cold
+
+vM7 Tint tt
+vM6
+
+vM4 I 1 I I
+v3 l il I
+v2
+
+vM1
+VL2p
+VL2a
+VL1
+vc4
+vc3
+vc2
+vc
+VA7m
+VA7I
+VA6
+VA5
+vA4
+VA3 Il |
+
+VA2
+VA1v
+
+| ji! | il
+VA1d oe | nr
+DP1m I I
+
+11 Le
+DP1I I F 1
+DM6 I Te |
+I
+
+DM5 l
+DM4 I
+DM3 1
+pm2
+
+DM1 | Il
+
+DL5 1
+DL4 |
+DL3 ae |
+DL2v
+DL2d
+DL1 It ll 11
+pc4 I |
+DC3 I imi | , | i
+l | |
+l |
+I
+
+glomerulus
+
+Dc2 ] I
+DC1 BH oT of Wil
+
+DA1 | he I
+
+ 
+
+70
+
+So o
+o a
+
+\|a2 UoAUdy
+
+100
+120
+130
+140
+150
+160
+170
+180
+190
+200
+
+o
+=
+
+Reprinted by permission from Macmillan Publishers Ltd: Nature.
+
+Source: Caron, Sophie JC, Vanessa Ruta, L. F. Abbott, and Richard Axel. "Random convergence of
+
+16
+
+olfactory inputs in the Drosophila mushroom body." Nature 497, no. 7447 (2013): 113-117. © 2013.
+ENDELEMENT~7 connections per KC
+
+% of connections
+ojpPr NOWAK UO
+
+Further structure?
+No
+
+all tests consistent with random draws
+from this glomerular distribution
+
+Murthy, Fiete, Laurent 2008
+Caron, Ruta, Abbott, Richard Axel 2013
+
+Gruntman, Turner 2013
+ENDELEMENTnumber of identical pairs
+
+Why 7 connections?
+
+100,000
+
+10,000
+
+1,000
+
+100
+
+ 
+
+0 1 2 3 4 5 6 7
+number of connections per KC
+ENDELEMENTLSS O]U soleil mar-elnelarcy
+1-7 cells/type
+21 types
+
+34 cells
+
+ 
+
+/
+
+/
+
+@
+
+Courtesy of Yoshi Aso. Used with permission.
+
+Yoshi Aso, Daisuke Hattori _,,
+ENDELEMENT20 um
+
+y lobe
+
+ 
+
+© Wiley. All rights reserved. This content is excluded from our Creative Commons
+license. For more information, see https://ocw.mit.edu/help/faq-fair-use/.
+
+Tanaka, Tanimoto, Ito 2008
+
+20
+ENDELEMENTMushroom Body Extrinsic Neurons
+
+Registration of 13 Gal4 lines
+
+  
+
+Courtesy of eLife. Used with permission.
+
+Source: Aso, Yoshinori, Divya Sitaraman, Toshiharu Ichinose, Karla R. Kaun, Katrin Vogt,
+
+Ghislain Belliart-Guérin, Pierre-Yves Plagais et al. "Mushroom body output neurons encode
+valence and guide memory-based action selection in Drosophila." Elife 3 (2014): e04580.
+
+Yoshinori Aso, Daisuke Hattori, Yang Yu, Rebecca M Johnston, Nirmala A lyer, Teri-TB Ngo,
+Heather Dionne, LF Abbott, Richard Axel, Hiromu Tanimoto, Gerald M Rubin, 2014
+
+21
+ENDELEMENTprojection neurons
+
+ 
+ 
+ 
+ 
+ 
+
+MBON transmitter
+Acetylcholine
+GABA
+
+Glutamate
+
+ 
+  
+ 
+
+  
+
+Courtesy of eLife. Used with permission.
+Source: Aso, Yoshinori, Divya Sitaraman, Toshiharu Ichinose, Karla R. Kaun, Katrin Vogt,
+Ghislain Belliart-Guérin, Pierre-Yves Plagais et al. "Mushroom body output neurons encode
+calyx valence and guide memory-based action selection in Drosophila." Elife 3 (2014): e04580.
+
+22
+ENDELEMENT@ cholinergic @ glutamatergic @ GABAergic
+
+ 
+
+output neurons
+
+23
+ENDELEMENTMushroom body lobe synaptic units
+
+Neel ce) alm lalarcvavceltlale met) pile) el=xs
+
+Output neurons DTo)er-Taallat=ine|lemar=i0l ce) als
+
+  
+
+Courtesy of eLife. Used with permission.
+
+Source: Aso, Yoshinori, Divya Sitaraman, Toshiharu Ichinose, Karla R. Kaun, Katrin Vogt,
+
+Ghislain Belliart-Guérin, Pierre-Yves Placais et al. "Mushroom body output neurons encode
+valence and guide memory-based action selection in Drosophila." Elife 3 (2014): e04580.
+
+Yoshinori Aso, Daisuke Hattori, Yang Yu, Rebecca M Johnston, Nirmala A lyer, Teri-TB Ngo,
+Heather Dionne, LF Abbott, Richard Axel, Hiromu Tanimoto, Gerald M Rubin, 2014
+
+24
+ENDELEMENT@ cholinergic @ glutamatergic @ GABAergic
+
+ 
+
+@ PAM OPPLI
+
+output neurons
+
+ 
+
+dopamine neurons
+
+25
+ENDELEMENT@ cholinergic @ glutamatergic @ GABAergic
+
+ 
+
+output neurons
+
+dopamine neurons
+
+26
+ENDELEMENTprojection neurons
+
+ 
+ 
+ 
+ 
+ 
+
+MBON transmitter
+Acetylcholine
+GABA
+
+Glutamate
+
+   
+
+ 
+
+»>
+
+>
+
+mig ;
+
+a < punishment reward
+> . .
+
+> dopaminergic neurons
+calyx Courtesy of eLife. Used with permission.
+
+Source: Aso, Yoshinori, Divya Sitaraman, Toshiharu Ichinose, Karla R. Kaun, Katrin Vogt,
+Ghislain Belliart-Guérin, Pierre-Yves Plagais et al. "Mushroom body output neurons encode
+valence and guide memory-based action selection in Drosophila." Elife 3 (2014): e04580.
+ENDELEMENT@ cholinergic @ glutamatergic @ GABAergic
+
+ 
+
+28
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT  
+ 
+ 
+
+ge yh
+
+  
+ENDELEMENT  
+  
+
+  
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+    
+ 
+ 
+
+1 $ $6 | 6
+
+a/p Y a’ /p’
+ENDELEMENTcrepine, superior medial, intermediate and lateral protocerebrum, lateral horn
+
+ 
+   
+
+        
+
+    
+
+    
+
+ 
+
+       
+ 
+       
+  
+  
+
+    
+
+  
+ 
+  
+
+   
+  
+ 
+
+  
+
+eee Le learned
+or
+a modulated
+etet [pe elt
+
+       
+  
+
+| | | [ state
+
+33
+ENDELEMENTclassical conditioning
+
+_—_>- <>
+
+odorA | |
+
+—> <— odor B
+
+electric shocl
+
+ 
+
+Moshe Parnas, Andrew C. Lin, Wolf Huetteroth, Gero Miesenbock 2013
+
+34
+ENDELEMENTodor - CS
+
+KC
+
+MBON
+
+DAN
+
+US
+ENDELEMENTodor
+
+ 
+ENDELEMENT@ KC output blocked @ 25°C
+
+Untrained Trained e cs
+
+   
+
+= 75
+
+&
+
+OQ
+
+& 50
+
+‘O
+
+Cc
+
+2
+
+2685
+
+oO
+
+®o
+
+a
+
+0 100 200 300 0 100 200 300
+Euclidean distance (spikes/s) Euclidean distance (spikes/s)
+of PN activity of PN activity
+
+Courtesy of Elsevier, Inc., http://www.sciencedirect.com. Used with permission.
+Source: Parnas, Moshe, Andrew C. Lin, Wolf Huetteroth, and Gero Miesenboéck. "Odor discrimination
+in Drosophila: From neural population codes to behavior." Neuron 79, no. 5 (2013): 932-944.
+
+Moshe Parnas, Andrew C. Lin, Wolf Huetteroth. Gero Miesenbock, 2013
+
+37
+ENDELEMENTclassical conditioning
+
+odor A — <— odor B
+
+dopamine neuron activation
+ENDELEMENTrecognition memory
+
+ 
+
+Daisuke Hattori, Richard Axel
+ENDELEMENTMBON-ca'3 activity depresses upon repetitive odor stimulation
+
+4-methylcyclohexanol (MCH)
+ENDELEMENTWM TSTO) \\ rome Me l=)e)q-1-1-J (0) a Me) ol-led (em Cola) el-Y-1xcLemelele)
+
+AFIF g
+1
+
+ 
+
+ 
+
+Pulses 1-3
+
+MCH
+
+Pulses 4-6
+
+BEN
+
+leX-Yay-4e](6(=\ahe(- m=) =I Np)
+
+Pulses 7-9
+
+we fe ol Ns
+
+Ke mrejeit=lare)|
+ENDELEMENTMBON-a'3 depression is persistent
+
+ 
+
+MCH (1-3) MCH (28-30) BEN (1-3) BEN (8-10) MCH (31-33)
+AFIF
+|
+0.5 wey
+seal Nec runagate?
+1s
+
+SH uvvo
+
+~3min
+ENDELEMENTrecognition memory
+
+ 
+
+Daisuke Hattori, Richard Axel
+ENDELEMENTinternal state
+
+ 
+
+Raphael Cohn, Vanessa Ruta, 2015
+ENDELEMENTDANs > sytGCaMP
+
+   
+
+Flail
+
+Still
+
+  
+
+Courtesy of Elsevier, Inc., http://www.sciencedirect.com. Used with permission.
+Source: Cohn, Raphael, Ianessa Morantte, and Vanessa Ruta. "Coordinated and compartmentalized
+neuromodulation shapes sensory processing in Drosophila." Cell 163, no. 7 (2015): 1742-1755.
+
+Raphael Cohn, Vanessa Ruta, 2015
+
+45
+ENDELEMENTSucrose
+
+   
+
+aN,
+
+DANs > sytGCaMP
+
+ 
+
+y2 y3 y4 ¥5 y2 y3 y4 ¥5
+
+Courtesy of Elsevier, Inc., http://www.sciencedirect.com. Used with permission.
+Source: Cohn, Raphael, Ianessa Morantte, and Vanessa Ruta. "Coordinated and compartmentalized
+neuromodulation shapes sensory processing in Drosophila." Cell 163, no. 7 (2015): 1742-1755.
+
+Raphael Cohn, Vanessa Ruta, 2015
+
+46
+ENDELEMENTDANS > P2X2
+y4—MBON > GC
+
+Oe a)
+
+ 
+
+Post-ATP
+F/Fo
+
+ 
+
+0.5s
+
+Courtesy of Elsevier, Inc., http://www.sciencedirect.com. Used with permission.
+Source: Cohn, Raphael, Ianessa Morantte, and Vanessa Ruta. "Coordinated and compartmentalized
+neuromodulation shapes sensory processing in Drosophila." Cell 163, no. 7 (2015): 1742-1755.
+
+47
+ENDELEMENTinternal state affects routing
+
+ 
+ENDELEMENTinternal state affects memory
+
+odor A + “sweet”
+hungry
+
+odorA — <— odor B
+
+Nobuhiro Yamagata, Toshiharu Ichinose, Yoshinori Aso, Pierre-Yves Plagais, Anja B.
+Friedrich, Richard J. Sima, Thomas Preat, Gerald M. Rubin, Hiromu Tanimoto, 2014
+
+49
+ENDELEMENT  
+ 
+   
+
+—
+
+  
+
+        
+
+   
+
+f f
+ENDELEMENTsugar
+sweetness nutrition
+
+Vv
+
+octopamine
+
+   
+
+STM
+
+hours
+
+Courtesy of Proceedings of the National Academy of Science. Used with permission
+Source: Yamagata, Nobuhiro, Toshiharu Ichinose, Yoshinori Aso, Pierre-Yves Plagais, Anja B. Friedrich,
+Richard J. Sima, Thomas Preat, Gerald M. Rubin, and Hiromu Tanimoto. "Distinct dopamine neurons
+
+mediate reward signals for short-and long-term memories." Proceedings of the National Academy of
+Sciences 112, no. 2 (2015): 578-583.
+
+Nobuhiro Yamagata, Toshiharu Ichinose, Yoshinori Aso, Pierre-Yves Plagais, Anja B.
+
+Friedrich, Richard J. Sima, Thomas Preat, Gerald M. Rubin, Hiromu Tanimoto, 2014
+
+51
+ENDELEMENTarabinose
+
+ 
+
+7 +
+VA N
+
+sorbitol
+sweetness nutrition
+octopamine Gr43a <—— fructose
+
+ 
+
+STM LTM
+hours >24 hr
+
+Courtesy of Proceedings of the National Academy of Science. Used with permission
+Source: Yamagata, Nobuhiro, Toshiharu Ichinose, Yoshinori Aso, Pierre-Yves Plagais, Anja B. Friedrich,
+Richard J. Sima, Thomas Preat, Gerald M. Rubin, and Hiromu Tanimoto. "Distinct dopamine neurons
+
+mediate reward signals for short-and long-term memories." Proceedings of the National Academy of
+Sciences 112, no. 2 (2015): 578-583.
+
+Nobuhiro Yamagata, Toshiharu Ichinose, Yoshinori Aso, Pierre-Yves Plagais, Anja B.
+
+Friedrich, Richard J. Sima, Thomas Preat, Gerald M. Rubin, Hiromu Tanimoto, 2014
+
+52
+ENDELEMENTinternal state and gating
+
+odor A + sweet
+hungry or fed
+
+odorA — <— odor B
+
+Michael J. Krashes, Shamik DasGupta, Andrew Vreede,
+Benjamin White, J. Douglas Armstrong, Scott Waddell, 2009
+ENDELEMENT   
+  
+
+    
+ 
+  
+
+      
+
+tet ipo elt
+ooo |
+
+activated in fed state
+silenced in hungry state
+
+Michael J. Krashes, Shamik DasGupta, Andrew Vreede,
+Benjamin White, J. Douglas Armstrong, Scott Waddell, 2009
+ENDELEMENTCO? avoidance
+
+ 
+
+modulation
+by food & hunger
+
+Laurence Lewis, K.P. Siju, Yoshinori Aso, Anja B. Friedrich, Alexander J.B. Bulteel,
+Gerald M. Rubin, and Ilona C. Grunwald Kadow, 2015
+
+55
+ENDELEMENTmultiple forms of
+modulation and plasticity
+highly
+
+OS _ perceptron-like
+
+structured ~‘7—P—?—@ © © © readout
+tL Ne (/
+rR
+
+   
+ 
+    
+ 
+
+ 
+
+random, high-D
+representation
+
+K
+y De \ | pooling |
+R @ t noise reduction
+highly PN normalization
+stereotyped
+
+input
+ENDELEMENTMIT OpenCourseWare
+https://ocw.mit.edu
+
+Resource: Brains, Minds and Machines Summer Course
+Tomaso Poggio and Gabriel Kreiman
+
+The following may not correspond to a particular course on MIT OpenCourseWare, but has been
+provided by the author as an individual learning resource.
+
+For information about citing these materials or our Terms of Use, visit: https://ocw.mit.edu/terms.
+ENDELEMENT

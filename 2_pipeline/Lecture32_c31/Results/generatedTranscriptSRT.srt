@@ -1,0 +1,672 @@
+1
+00:00:00,000 --> 00:00:10,000
+the phone can't answer is provided under a Creative Commons licence your support will help MIT opencourseware continue to offer high quality
+
+2
+00:00:10,000 --> 00:00:20,000
+national resources for free to make a donation or view additional materials from hundreds of mit courses visit MIT opencourseware at ocw
+
+3
+00:00:20,000 --> 00:00:30,000
+am i t daddy you are interested asleep so we can think about this two modes online mode offline on the online mode you taking information in
+
+4
+00:00:30,000 --> 00:00:40,000
+offline mode you're going back and evaluating formation what's the purpose of evaluating information that you taken in well if you think about the general problem is being solved problem of
+
+5
+00:00:40,000 --> 00:00:50,000
+intelligence is trying to try and understand infer you study generalizable relationship rules were train extract rules from instances
+
+6
+00:00:50,000 --> 00:01:00,000
+and you like those rules we drink is generally applicable as possible and in order to do that presumably one has to go back in a Valley
+
+7
+00:01:00,000 --> 00:01:10,000
+the many individual instances to pray to Extracts on kind of statistical regularity and then perhaps evaluate models of the are constructed in terms of the consistency
+
+8
+00:01:10,000 --> 00:01:20,000
+individual instances already collected or two instances that you've that haven't yet play so you got you get the from the raw material
+
+9
+00:01:20,000 --> 00:01:30,000
+model and then you continue with test that model against you information that comes in and the rest is when can you do that maybe you could do that when you're
+
+10
+00:01:30,000 --> 00:01:40,000
+about the world and will as it is you as you sauna in the paper when animals are sitting quietly they're very quickly can switch into the van off I know that looks a lot
+
+11
+00:01:40,000 --> 00:01:50,000
+back electrophysiologically sleep and quiet wakefulness and hippocampus are nearly indistinguishable it's the same kind of offline mode it says ok when you're not
+
+12
+00:01:50,000 --> 00:02:00,000
+using this if you can if there's nothing you taking your information is I quickly switch into this offline evaluation mode but drinks sleep
+
+13
+00:02:00,000 --> 00:02:10,000
+I no longer have the constraint of having to Direct behaviour behaviour shut off input so shut off and now I can switch into this
+
+14
+00:02:10,000 --> 00:02:20,000
+introspective love what goes on during sleep experiment we look at the activity when the animals performing
+
+15
+00:02:20,000 --> 00:02:30,000
+can we examine activity during sleep both before and after and asked is there anything about behaviour experience changes activity during sleep
+
+16
+00:02:30,000 --> 00:02:40,000
+and was that if you look at activity during behaviour and what you think about his special sequence is being expressed
+
+17
+00:02:40,000 --> 00:02:50,000
+sleep after already playing the spatial sequences are expressed to cancel the hippocampus replays the firing of this cell sequences but by every plays the firing
+
+18
+00:02:50,000 --> 00:03:00,000
+sequences at a time scale that appears be compressed relative the hierophant scale so these are a place sells and walking from left to right
+
+19
+00:03:00,000 --> 00:03:10,000
+the text indicates that's the location of the peak please play sounds of Fire 1138 as the animals live on the track over about 5 seconds that's how long
+
+20
+00:03:10,000 --> 00:03:20,000
+you're welcome after 8 the same sequence of 12345678 get through played during sleep but now over about 150 milliseconds
+
+21
+00:03:20,000 --> 00:03:30,000
+sequence order not absolute and that when you ask
+
+22
+00:03:30,000 --> 00:03:40,000
+when these sequences are Express what's going on in the the local fuel potential is oscillations in this is where you find these shortwave triple events this is this
+
+23
+00:03:40,000 --> 00:03:50,000
+this is River like event that I was describing to you so the Schreiber balls are when these apparently compressed sequences are being expressed
+
+24
+00:03:50,000 --> 00:04:00,000
+point out that a simple model for the shopping triple reactivated sequences is the same model that's used that I like to use
+
+25
+00:04:00,000 --> 00:04:10,000
+please procession doing the feet oscillation that is I give it an input I sleep in a bichon from High to low such that sells it industry
+
+26
+00:04:10,000 --> 00:04:20,000
+put fire where in this will reactivate a sequence for the difference between a feeder sequence and a reactivated sequences really
+
+27
+00:04:20,000 --> 00:04:30,000
+where is the input coming from if the inputs coming from what I'm actually experiencing right now now it's a feeder sequence in as I move the input changes
+
+28
+00:04:30,000 --> 00:04:40,000
+automatically and so yeah and it looks like it's including information about space if I'm now offline and this information is being
+
+29
+00:04:40,000 --> 00:04:50,000
+hippocampus from some other source you can eat play exactly the same operation get the same pan a sequence it's just now it's on information
+
+30
+00:04:50,000 --> 00:05:00,000
+there's not tied to the estate of your immediate contact the location that's only difference where's the input coming
+
+31
+00:05:00,000 --> 00:05:10,000
+you think about this model you can imagine or that's of the Depp of
+
+32
+00:05:10,000 --> 00:05:20,000
+the bedroom could actually affect the length of the sequence but that's just sort of a mechanistic thing and if you actually look at the mechanisms that Regulate Sharp
+
+33
+00:05:20,000 --> 00:05:30,000
+isolation it basically comes from the same structure it's a structure of that regulates see the choline and that's a day nor modulator
+
+34
+00:05:30,000 --> 00:05:40,000
+associated with attention and memory and the structure called the medial symptoms of the medial septum provides the driver corner driver hippocampus damage the media Sefton
+
+35
+00:05:40,000 --> 00:05:50,000
+it was one of the dominant models of neurodegenerative cognitive and memory loss in
+
+36
+00:05:50,000 --> 00:06:00,000
+switch off find it is one of the earliest indications of neurodegenerative are damaged in Alzheimer's is the loss of cholinergic tone and
+
+37
+00:06:00,000 --> 00:06:10,000
+systems that begin to break down the systems actually fall along this limbic pathway starting with k
+
+38
+00:06:10,000 --> 00:06:20,000
+protect yourself as the cholinergic system that regulates the expression of this oscillation
+
+39
+00:06:20,000 --> 00:06:30,000
+in the hippocampus when it breaks down at least general memory loss and disruption and turns off the media sapan on it is also involved in red
+
+40
+00:06:30,000 --> 00:06:40,000
+the expression of the shop Rebels same system different modes one you know quiet one is active
+
+41
+00:06:40,000 --> 00:06:50,000
+buying an inactive offline same kind of modulation of excitability through inhibition simple model
+
+42
+00:06:50,000 --> 00:07:00,000
+that gives the sequences and control the input control input to control the content that could probably inhibition control the structure of the timing as the two things
+
+43
+00:07:00,000 --> 00:07:10,000
+the question how could you control the input or were you thinking about what is the input into the hippocampus on these two
+
+44
+00:07:10,000 --> 00:07:20,000
+and as I mention hippocampus you got the internal cortex and the cortex gets information across membranes Association visual cortex
+
+45
+00:07:20,000 --> 00:07:30,000
+information about the world converging on hippocampus and then getting modulated and so you can think about let's look in Prince of the visual cortex Sophie symbol
+
+46
+00:07:30,000 --> 00:07:40,000
+visual cortex in the campus we could see how these two structures communicate and when we do this in a simple task as like we'll figure 8 task
+
+47
+00:07:40,000 --> 00:07:50,000
+what are the details but one thing that came out from doing this experiment recording visual cortex and the campus is that recording in the visual cortex and was moving a space
+
+48
+00:07:50,000 --> 00:08:00,000
+what you're playing is cells in the visual cortex have special like receptive Fields of the hippocampus the not especially Tune but here for answers R8
+
+49
+00:08:00,000 --> 00:08:10,000
+8 visual cortical cells and you can see the beef buyer if they're in a sequence they have different space
+
+50
+00:08:10,000 --> 00:08:20,000
+the shows where the weather report officer likes to fire different visual cortical cells require different locations so you living space you actually
+
+51
+00:08:20,000 --> 00:08:30,000
+quential activation of these visual cortical responses and you have Visual sequences sequences in
+
+52
+00:08:30,000 --> 00:08:40,000
+special sequences question is how did those sequences how did those sequences relate offline with the animal princess during sleep
+
+53
+00:08:40,000 --> 00:08:50,000
+sleep in the hippocampus sequences are asleep in the visual cortex and the turns out that those two things are actually there are correlated so hippo
+
+54
+00:08:50,000 --> 00:09:00,000
+please out a special sequence of visual cortex plays a visual sequence that corresponds to the visual response
+
+55
+00:09:00,000 --> 00:09:10,000
+at those locations so hippocampus plays out sequence of where it was visual cortex expresses the visual visual stimuli that are present
+
+56
+00:09:10,000 --> 00:09:20,000
+that's one thing about the sequences or looking looking at hippocampal your cortical interactions is the the sequences are now and how much long
+
+57
+00:09:20,000 --> 00:09:30,000
+time scale in a fact this time steel which here is about on the order of about half a second to a second horseman's to another oscillation that is
+
+58
+00:09:30,000 --> 00:09:40,000
+sleep how's the slow oscillation so when you go to sleep brain rhythm the oscillations down the frequency start to slow down and
+
+59
+00:09:40,000 --> 00:09:50,000
+yep this oscillation in this one her torso are frequency range that looks like if you record activity from on yourself it looks like this
+
+60
+00:09:50,000 --> 00:10:00,000
+this is the activity of a whole bunch of cells in the visual cortex in the hippocampus and you'll see the activities flipping between lots of cells active no cells
+
+61
+00:10:00,000 --> 00:10:10,000
+is the circle up and down states of cells during sleep that every half second to a second soul
+
+62
+00:10:10,000 --> 00:10:20,000
+become active than all be shut off will become active against your flipping between this up and down like states and if you look up and down states in the visual cortex
+
+63
+00:10:20,000 --> 00:10:30,000
+and you look at similar activity member campers you see this up and down like states in hippocampus well but you'll notice that the up stayed in the new cortex weeds upstairs
+
+64
+00:10:30,000 --> 00:10:40,000
+hippocampus and hippocampal neocortex epic delete this question of who is providing the info
+
+65
+00:10:40,000 --> 00:10:50,000
+simple model I'm sleeping in a bichon during the behaviour that information is coming in from perceptions but I'm actually drinks
+
+66
+00:10:50,000 --> 00:11:00,000
+process where is that information coming from well this would say this is where it's coming from coming from his cortical areas say sensory visual cortical areas
+
+67
+00:11:00,000 --> 00:11:10,000
+turn on they provide the information that the campus of hippocampus turns on the hippocampus responding to input coming in from sensory cortex
+
+68
+00:11:10,000 --> 00:11:20,000
+please could we manipulate hippocampal activity by manipulating sensory cortex so this experiment simple experiment answer was yes me
+
+69
+00:11:20,000 --> 00:11:30,000
+use the auditory system system is the visual system 14 system remains in a state of emergency even during sleep
+
+70
+00:11:30,000 --> 00:11:40,000
+responses in Manawatu sleep measure measure of the same as when it's awake so sent to the auditory cortex Stayz
+
+71
+00:11:40,000 --> 00:11:50,000
+during sleep which has clear evolutionary value sleep by shutting off
+
+72
+00:11:50,000 --> 00:12:00,000
+a visual input which may be of limited dalwhinnie way given you know some of the circadian doctrinal litre of the line
+
+73
+00:12:00,000 --> 00:12:10,000
+see anything nice white Sweet Georgia Rose but you still hear things so you and other animals still listening if you see here in a pickup threats that my
+
+74
+00:12:10,000 --> 00:12:20,000
+taking advantage of that auditory system so training animal on task will learn to associate auditory cues with locations
+
+75
+00:12:20,000 --> 00:12:30,000
+once our rates are mincecore here to get food left on his cover their get food very simple pass then able to sleep and you just continue to play the sound
+
+76
+00:12:30,000 --> 00:12:40,000
+we're in something and now you try to bias cortical activity during sleep that was they do
+
+77
+00:12:40,000 --> 00:12:50,000
+running we can decode hippocampal activity so we can tell he was hippocampal powder in the course plants the left side or the right side and
+
+78
+00:12:50,000 --> 00:13:00,000
+the task play the radio and sound and we'll go to the right hand side season hippocampal response play left hand sound and August left-hand side
+
+79
+00:13:00,000 --> 00:13:10,000
+Blacktown Police feels bananas on the left right hand police wheels on it so this is this is what the experiment the behaviour looks like from the standpoint of the hippocampus
+
+80
+00:13:10,000 --> 00:13:20,000
+clear rate rates on Ray hippocampus rate play cells left left play salt and go to sleep and we're going to the same thing
+
+81
+00:13:20,000 --> 00:13:30,000
+can you play a rate sounds in the lap sound it just was not actually moving on the track until we ask does that can we buy us the reactivated sequin
+
+82
+00:13:30,000 --> 00:13:40,000
+but you get the same thing now and was awake but I was going to go to sleep and just keep playing the sound will text their indicate the delivery of sound
+
+83
+00:13:40,000 --> 00:13:50,000
+yourself so we play a sound look at the response the difference here is that animals that is not running a Snappy heaving sound response
+
+84
+00:13:50,000 --> 00:14:00,000
+decode the activity so here friends as we take a little short window here but have a second and what you see is this is this up likes
+
+85
+00:14:00,000 --> 00:14:10,000
+multi-activity last self-firing decode activity Mouse when you play the left sound what is activity decode to in here you see
+
+86
+00:14:10,000 --> 00:14:20,000
+play decode into by the left-hand side so that's the basic basic parts this playlist sound
+
+87
+00:14:20,000 --> 00:14:30,000
+side of it of the track you pay the rates on again reactivation of the right side of the track and that's what you get
+
+88
+00:14:30,000 --> 00:14:40,000
+play the left-hand sound left sound bias activates all please cells on the left side right side bias biases on the rain
+
+89
+00:14:40,000 --> 00:14:50,000
+and you can do the same kind of psychophysical experiments which has been done in humans either with with different different sensory modalities but done and it's also been done
+
+90
+00:14:50,000 --> 00:15:00,000
+listen to the equivalent experiment using Ultra Tune in humans we have people learn the simple task this was only can pillows lab they do the simple special match
+
+91
+00:15:00,000 --> 00:15:10,000
+flaking off where's the cat car with the teapot card the variant here is when they flipped over the car they would play the cat sound meow if it's all the teapot sound
+
+92
+00:15:10,000 --> 00:15:20,000
+associated teapot whistle and then people go to sleep and don't sleep there would be
+
+93
+00:15:20,000 --> 00:15:30,000
+can you like a cat sound of the teapot sound they far when they would wake up and they do the task the better if they play the cat sound asleep you're better at
+
+94
+00:15:30,000 --> 00:15:40,000
+ring locations of cats then when the whistle so this says nanolicious sleep actually contribute to memory but it's selective and that was his selective
+
+95
+00:15:40,000 --> 00:15:50,000
+what you can be influenced you can be biased you can direct the nature of memory processing in our experiments suggest that well one of the one of the consequence
+
+96
+00:15:50,000 --> 00:16:00,000
+this kind of sleep manipulation would be bias the memory reactivation in the hippocampus and so the idea is simple that
+
+97
+00:16:00,000 --> 00:16:10,000
+cortex biases the hippocampus cats in the hippocampus takes that's
+
+98
+00:16:10,000 --> 00:16:20,000
+sweets in a bichon replace a sequence in that sequence thing is playback the cortex so you know the cortex it sort of nose
+
+99
+00:16:20,000 --> 00:16:30,000
+you know if it's how's these discrete states but doesn't necessarily know what the cause of correlations might be what happens next
+
+100
+00:16:30,000 --> 00:16:40,000
+what happened next in aus what happened the campus knows what happened next have lots of instances of that go well I saw you know you know I saw
+
+101
+00:16:40,000 --> 00:16:50,000
+play What Happens Next red light and all the cars stock look it up great you know I'm just the cortex that's what I learn all the cars
+
+102
+00:16:50,000 --> 00:17:00,000
+hippocampus I'm a bit smarter that you know that your last Tuesday I was there is a red light and all the cars except for
+
+103
+00:17:00,000 --> 00:17:10,000
+cyclist Mt Eden start biggest kept on going so waiting at the service is a rule you know red light car stop bicycles don't stop
+
+104
+00:17:10,000 --> 00:17:20,000
+wine right you have to refine is very simple rules prefrontal cortex warp and that's actually use an example how to use the prefrontal cortex
+
+105
+00:17:20,000 --> 00:17:30,000
+red lightning stop reading light means go that's great except in the real world that rule is to simple it has to be refine has to be refined
+
+106
+00:17:30,000 --> 00:17:40,000
+ticket experience of back if you're really sophisticated red light me is cars except for caddies will stop right if I see a caddy guarantee that as I can
+
+107
+00:17:40,000 --> 00:17:50,000
+salary rate it and that's kind of information that's what hippocampus has and so you imagine that's what's going on your cortex and each one of these slow oscillations
+
+108
+00:17:50,000 --> 00:18:00,000
+red light cameras all yeah ok stop red light again continue to go red light and there was a cabin
+
+109
+00:18:00,000 --> 00:18:10,000
+no you're all these different it this so causal sequences that would be Express back to the neocortex presumably in order to establish
+
+110
+00:18:10,000 --> 00:18:20,000
+this more comprehensive Consolidated model of real world traffic lights in the cartoon traffic lights
+
+111
+00:18:20,000 --> 00:18:30,000
+that would be the idea what's going on sleep now you can think the same sort of idea
+
+112
+00:18:30,000 --> 00:18:40,000
+is that your kind of evaluating evaluating multiple cause of contingencies each of which might be expressive was a simple rule but might also be
+
+113
+00:18:40,000 --> 00:18:50,000
+experienced as distinct variations of that rule the ideas
+
+114
+00:18:50,000 --> 00:19:00,000
+do we use the rule or do we use the exceptions or how do we actually you know how to your find role based upon in these different instances for exceptions
+
+115
+00:19:00,000 --> 00:19:10,000
+but that is replying rule that's like the learning sign applying the rule that's the sort of memory of decision-making site so you can think about drink
+
+116
+00:19:10,000 --> 00:19:20,000
+put on this is reactivation being used in the service of actual learning or in decision making and so again
+
+117
+00:19:20,000 --> 00:19:30,000
+paper and one of the things that we have discovered in interesting about reactivation during choir wakefulness was that one animal stop after running on a track they do
+
+118
+00:19:30,000 --> 00:19:40,000
+repeat sequences animal running from left to right and then stopping for a long period of time and it's the activity of his burst of activity
+
+119
+00:19:40,000 --> 00:19:50,000
+getting things up is the shop with Ripples last above have the second so this is your birth of activity series pl-l sequences in this case the sequence actually runs in time reversed
+
+120
+00:19:50,000 --> 00:20:00,000
+so in this case of a fashion planning your decision-making
+
+121
+00:20:00,000 --> 00:20:10,000
+the evaluation of temporal correlations that might be relevant to behaviour and learning but would have reverse sequence actually have to do with
+
+122
+00:20:10,000 --> 00:20:20,000
+with no special there any memory well that actually came from the insight into how this might be used came from
+
+123
+00:20:20,000 --> 00:20:30,000
+teacher Miles and computational models that pushed back in this case Steve Foster who made this Discovery had used in his doctor work when he was actually building
+
+124
+00:20:30,000 --> 00:20:40,000
+reinforcement learning models for speaking navigation and the problems in reinforcement learning is that reinforcement often comes after you've actually carried out
+
+125
+00:20:40,000 --> 00:20:50,000
+the steps that lead up to it as you walk from left to right you get reward in when you get here what you want to know it's not just this is where the reward is what you really want to know is
+
+126
+00:20:50,000 --> 00:21:00,000
+what were the what the things that I could lead up to that that also want to take credit reward value and I want to spread it back word in time
+
+127
+00:21:00,000 --> 00:21:10,000
+the police value on the things that predict or lead up to reward so-called temporal credit assignment problem how do I give credit to the things that I could lead up to eight
+
+128
+00:21:10,000 --> 00:21:20,000
+and thinking about how you might solve the temperature the sign the problem this removes reactivation actually has the capacity to
+
+129
+00:21:20,000 --> 00:21:30,000
+sore back from in one step you imagine what animal gets to the and get some reward and it's now at that point I pair the delivery Rewards
+
+130
+00:21:30,000 --> 00:21:40,000
+which I will indicate here as this is a cartoons and guessing this is dopamine or Ward signal and I'm going to pair that with the reverse sequence
+
+131
+00:21:40,000 --> 00:21:50,000
+how are you think the association this is my current location this is way back I started from current location gets paired with strong award
+
+132
+00:21:50,000 --> 00:22:00,000
+remote location just paired with lower Ward this association was essentially Sawmill
+
+133
+00:22:00,000 --> 00:22:10,000
+all this this Ward discrete Warner post function will turn it into this continuous graded
+
+134
+00:22:10,000 --> 00:22:20,000
+monotonic reward gradient function translate this into this century want steps over thinking of using this to learn and their use
+
+135
+00:22:20,000 --> 00:22:30,000
+solved the temporal credit assignment role in a way that would be that would be important for general reinforcement learning go into so we're
+
+136
+00:22:30,000 --> 00:22:40,000
+did this experiment recorded from the reward area the BTA and the hippocampus and indeed doing is reactivation of ants
+
+137
+00:22:40,000 --> 00:22:50,000
+you see the pairing of this reward signalling and it's 2. Of awards signalling
+
+138
+00:22:50,000 --> 00:23:00,000
+but you find pairing of reward signalling in which the precise firing of a ward of signals map onto
+
+139
+00:23:00,000 --> 00:23:10,000
+delivery of rewards ego locations so it's not just certain sequences are good other so bad it's that there are certain location
+
+140
+00:23:10,000 --> 00:23:20,000
+longest sequence that have differential reward value so there's a mapping of relative award location and that if you look at this
+
+141
+00:23:20,000 --> 00:23:30,000
+all animals are actually performing a task you can see via season these sequences that correspond to planning so both of these elements of sequence react
+
+142
+00:23:30,000 --> 00:23:40,000
+awesome work by day fast or you looked at an animal that has to the forage and find a location space searching for a location and you look at these reactivated sequence of turns out
+
+143
+00:23:40,000 --> 00:23:50,000
+activate sequences tend to be directed toward the location for the animal thinks the gold might be so it's so thinking about things that would lead to a wart
+
+144
+00:23:50,000 --> 00:24:00,000
+size of this kind of sequential computations emu Express hippocampus during evaluation of learning
+
+145
+00:24:00,000 --> 00:24:10,000
+a drawing or direct to behaviour and service of planning and decision making and then finally that we
+
+146
+00:24:10,000 --> 00:24:20,000
+that should read it just looking at the structure of these reward sequences on long tracks and the thing so the most
+
+147
+00:24:20,000 --> 00:24:30,000
+tell me the Kmart of this paper is that the shot thus the phenomenon of shortwave ripple sequential activation that corresponds to the state of sequences
+
+148
+00:24:30,000 --> 00:24:40,000
+sitting quietly over the course of his longer upstairs like events takes the form of of hawera Paul's or sequel
+
+149
+00:24:40,000 --> 00:24:50,000
+sequence is this composition or notion that you for long sequences out of little short sequences and the other questions how do you actually put these short sequences to
+
+150
+00:24:50,000 --> 00:25:00,000
+why would you actually have it why would you have a representation that had this kind of composite structure you can LEGO block kind of idea
+
+151
+00:25:00,000 --> 00:25:10,000
+put together sequences from these fundamental is moss of elemental and this is just
+
+152
+00:25:10,000 --> 00:25:20,000
+movie but if I actually zoom in on one of those sequences that in that particular instance with animal stop you'll see that longer there's a longer reactivated sequence that actually takes the form
+
+153
+00:25:20,000 --> 00:25:30,000
+short of sequences that's how it's how long sequence to be evaluated and but I can watch
+
+154
+00:25:30,000 --> 00:25:40,000
+an interesting thing about this was that if you look at these different sequence the different link different lengths shorter sequence longer sequences they all seem to have a fixed velocity and then
+
+155
+00:25:40,000 --> 00:25:50,000
+how do I fix my foot is the speed of box so that there is some fix constraint that that that evaluating you know further out in the future simply takes
+
+156
+00:25:50,000 --> 00:26:00,000
+cancel that suggest that there's an interesting there was an interesting considering capacity for extended evaluation the comes in the form
+
+157
+00:26:00,000 --> 00:26:10,000
+of these this oscillatory motu the slow oscillation longer or slower frequencies give you a century more time
+
+158
+00:26:10,000 --> 00:26:20,000
+longer sequences and that potentially if you want to be the longer you might actually even link sequences across subsequent Cycles just as you as you could do a cross
+
+159
+00:26:20,000 --> 00:26:30,000
+asset property Ripples you might be able to the cross Successful Weight so maybe if he had his oscillations that you can link a couple of sequences across different cycles of this oscillation
+
+160
+00:26:30,000 --> 00:26:40,000
+different frequencies that that's the most that this is the mechanism compositional mechanism for sequences Within oscillations
+
+161
+00:26:40,000 --> 00:26:50,000
+by combining these oscillations you can construct the sequences in ways that presumably contribute to cognition but we do it so we now can see
+
+162
+00:26:50,000 --> 00:27:00,000
+tortured and now the question is can we actually manipulated so that would actually the challenge see you the conversation structure having demonstrate the potential access deleted
+
+163
+00:27:00,000 --> 00:27:10,000
+best content to qt to bias the structure when things are her what actually occurs now I think the class exist
+
+164
+00:27:10,000 --> 00:27:20,000
+essentially engineer the sequences themselves States get animals to think about things that they have not actually experience and Tesla
+
+165
+00:27:20,000 --> 00:27:30,000
+this is what actually this is what animals are using to construct his models to Central tinker with the blocks of memory and cognition
+
+166
+00:27:30,000 --> 00:27:40,000
+finally just putting out this interests this ripple sequences seem space and time scales Peter sequences
+
+167
+00:27:40,000 --> 00:27:50,000
+the hippocampus thank you any brand system could Express this kind of structure using that simple model received ramps in C oscillations you can
+
+168
+00:27:50,000 --> 00:28:00,000
+and this capacity is something it probably is ridely Express and enjoyed by different green areas so there you go
+

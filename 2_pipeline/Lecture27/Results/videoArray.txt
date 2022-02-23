@@ -1,0 +1,2421 @@
+ 
+
+H rT Massachusetts "
+Institute of
+Technology
+
+RES.9-003, Summer 2015
+
+ 
+
+Brains, Minds and Machines Summer C
+Gabriel Kreiman
+
+Lecture 1.2: Computational Roles of Neura
+Feedback
+ENDELEMENTSome content in this video is not coverec
+our Creative Commons license.
+See the closing credits for more inform:
+ENDELEMENTOutline
+
+1. Introduction to neural circuits
+2. Computational roles of feedback signals
+4% Grenquaesions ctelterras, ommamties
+
+ 
+ENDELEMENTOutline
+
+1. Introduction to neural circuits
+2. Computational roles of feedback signals
+
+& Grenquestions cteltergas,ometamties
+
+ 
+ENDELEMENT 
+     
+    
+  
+
+Outline
+
+Introduction to neural circuits
+
+  
+
+a
+2. Computational roles of feedback signals
+3. Open questions, challenges, opportunities
+
+@ i
+
+cheer
+
+  
+       
+     
+
+  
+ENDELEMENTOutline
+1, Introduction to neural circuits
+2. Computational roles of feedback signals
+3. Open questions, challenges, opportunities
+
+ 
+ENDELEMENTBiologically-inspired computation
+
+Claim (without proof)
+‘over milions of years of evolution, “interesting” solutions to
+
+dificult problems have emerged through changes in neuronal,
+circuits
+
+ 
+ENDELEMENTBiologically-inspired computation
+
+Claim (without proof.
+‘over milions of years of evolution, “interesting” solutions to
+
+dificult problems have emerged through changes in neuronal
+circuits
+
+ 
+ENDELEMENTBiologically-inspired computation
+
+Claim (without proof)
+‘over millions of years of evolution, “interesting” solutions to
+
+dificult problems have emerged through changes in neuronal
+circuits
+
+ 
+ENDELEMENTBiologically-inspired computation
+
+Claim (without proo?)
+‘over milions of years of evolution, “interesting” solutions to
+
+dificult problems have emerged through changes in neuronal,
+circuits
+
+ 
+ENDELEMENTBiologically-inspired computation
+
+Claim (without proof)
+‘over millions of years of evolution, “interesting” solutions to
+
+dificult problems have emerged through changes in neuronal,
+circuits
+
+ 
+ENDELEMENTBiologically-inspired computation
+
+Claim (without proof)
+‘over milions of years of evolution, “interesting” solutions to
+
+dificult problems have emerged through changes in neuronal
+circuits
+
+ 
+ENDELEMENT‘Some features of brain-based computations
+
++ Hardware and software that work for many decades
+Parallel computation (with serial bottlenecks)
++ Reprogrammable architecture
+Single-shot leaming
+Discover” structure in data
+Fault tolerance
+
+Robustness to sensory transformations
+
+ 
+
+‘Component interaction and integration of sensory modalities
+ENDELEMENT‘Some features of brain-based computations
+
++ Hardware and software that work for many decades
+Parallel computation (wit serial bottlenecks)
++ Reprogrammable architecture
+Single-shot leaning
+Discover” structure in data
+Fault tolerance
+
+Robustness to sensory transformations
+
+ 
+
+‘Component interaction and integration of sensory modalities
+ENDELEMENT‘Some features of brain-based computations
+
++ Hardware and software that work for many decades
+Parallel computation (with serial botlenecks)
++ Reprogrammable architecture
+Single-shot leaning
+Discover” structure in data
+Fault tolerance
+
+Robustness to sensory transformations
+
+ 
+
+‘Component interaction and integration of sensory modalities
+ENDELEMENT‘Some features of brain-based computations
+
++ Hardware and software that work for many decades
+Parallel computation (with serial bottlenecks)
++ Reprogrammable architecture
+‘Single-shot leaming
+Discover” structure in data
+Fault tolerance
+
+Robustness to sensory transformations
+
+ 
+
+‘Component interaction and integration of sensory modalities
+ENDELEMENT‘Some features of brain-based computations
+
++ Hardware and software that work for many decades
+Parallel computation (with serial botlenecks)
++ Reprogrammable architecture
+Single-shot leaning
+Discover” structure in data
+Fault tolerance
+
+Robustness to sensory transformations
+
+ 
+
+‘Component interaction and integration of sensory modalities
+ENDELEMENT‘Some features of brain-based computations
+
++ Hardware and software that work for many decades
+Parallel computation (with serial bottlenecks)
++ Reprogrammable architecture
+Single-shot leaning
+Discover” structure in data
+Fault tolerance
+
+Robustness to sensory transformations
+
+ 
+
+‘Component interaction and integration of sensory modalities
+ENDELEMENT‘Some features of brain-based computations
+
++ Hardware and software that work for many decades
+Parallel computation (with serial bottlenecks)
++ Reprogrammable architecture
+‘Single-shot leaming
+Discover” structure in data
+Fault tolerance
+
+Robustness to sensory transformations
+
+ 
+
+‘Component interaction and integration of sensory modalities
+ENDELEMENT‘Some features of brain-based computations
+
++ Hardware and software that work for many decades
+Parallel computation (wit serial bottlenecks)
++ Reprogrammable architecture
+Single-shot learning
+Discover” structure in data
+Fault tolerance
+
+Robustness to sensory transformations
+
+ 
+
+‘Component interaction and integration of sensory modalities
+ENDELEMENT‘Some features of brain-based computations
+
++ Hardware and software that work for many decades
+Parallel computation (with serial bottlenecks)
++ Reprogrammable architecture
+Single-shot leaning
+Discover” structure in data
+Fault tolerance
+
+Robustness to sensory transformations
+
+ 
+
+‘Component interaction and integration of sensory modalities
+ENDELEMENTWhy study neural circuits?
+
+We can begin to explore high-level at the neural
+circuit level
+
+Golden age for neural circuits: opportunity to
+manipulate, disrupt and interact with neural circuits
+at unprecedented resolution
+
+Theories can be rigorously tested at the neural level
+Empirical findings can be readily translated into
+algorithms
+
+ 
+ENDELEMENTWhy study neural circuits?
+
+We can begin to explore high-level at the neural
+circuit level
+
+Golden age for neural circuits: opportunity to
+manipulate, disrupt and interact with neural circuits
+at unprecedented resolution
+
+Theories can be rigorously tested at the neural level
+Empirical findings can be readily translated into
+algorithms
+
+ 
+ENDELEMENTWhy study neural circuits?
+
+We can begin to explore high-level at the neural
+circuit level
+
+Golden age for neural circuits: opportunity to
+manipulate, disrupt and interact with neural circuits
+at unprecedented resolution
+
+Theories can be rigorously tested at the neural level
+Empirical findings can be readily translated into
+algorithms
+
+ 
+ENDELEMENTWhy study neural circuits?
+
+We can begin to explore high-level at the neural
+circuit level
+
+Golden age for neural circuits: opportunity to
+manipulate, disrupt and interact with neural circuits
+at unprecedented resolution
+
+Theories can be rigorously tested at the neural level
+Empirical findings can be readily translated into
+algorithms
+
+ 
+ENDELEMENTWhy study neural circuits?
+
+We can begin to explore high-level at the neural
+circuit level
+
+Golden age for neural circuits: opportunity to
+manipulate, disrupt and interact with neural circuits
+at unprecedented resolution
+
+Theories can be rigorously tested at the neural level
+Empirical findings can be readily translated into
+algorithms
+
+ 
+ENDELEMENTWhy study neural circuits?
+
+We can begin to explore high-level at the neural
+circuit level
+
+Golden age for neural circuits: opportunity to
+manipulate, disrupt and interact with neural circuits
+at unprecedented resolution
+
+Theories can be rigorously tested at the neural level
+Empirical findings can be readily translated into
+algorithms
+
+ 
+ENDELEMENTRecommended books
+
+ 
+ENDELEMENTRecommended books
+
+ 
+ENDELEMENTRecommended books
+
+ 
+ENDELEMENTMethods to study the brain at different scales
+
+ 
+ENDELEMENTMethods to study the brain at different scales
+
+ 
+ENDELEMENTMethods to study the brain at different scales
+
+ 
+ENDELEMENTMethods to study the brain at different scales
+
+ 
+ENDELEMENTMethods to study the brain at different scales
+
+ 
+ENDELEMENT‘Simulating single neurons: A nested family of
+models
+
+ 
+ENDELEMENT‘Simulating single neurons: A nested family of
+
+ 
+ENDELEMENT‘Simulating single neurons: A nested family of
+
+ 
+ENDELEMENT‘Simulating single neurons: A nested family of
+models
+
+ 
+ENDELEMENT‘Simulating single neurons: A nested family of
+
+ 
+ENDELEMENT‘Simulating single neurons: A nested family of
+models
+
+ 
+ENDELEMENT‘Simulating single neurons: A nested family of
+models
+
+ 
+ENDELEMENT‘Simulating single neurons: A nested family of
+models
+
+ 
+ENDELEMENT‘Simulating single neurons: A nested family of
+models
+
+ 
+ENDELEMENT‘Simulating single neurons: A nested family of
+models
+
+ 
+ENDELEMENT‘Simulating single neurons: A nested family of
+models
+
+ 
+ENDELEMENT 
+   
+      
+
+  
+
+Geometrically accurate models vs. spherical cows
+with point masses
+
+i hy -O
+| iy
+
+‘central question n Theoratcal Nouoscince:
+What i the “right” level of abstracton?
+ENDELEMENTGeometrically accurate models vs. spherical cows
+with point masses
+
+{-}-}-e
+| i}
+
+‘central question n Theoretical Neuroscience:
+What is the “right” level of abstraction?
+
+ 
+ENDELEMENT 
+   
+      
+
+  
+
+Geometrically accurate models vs. spherical cows
+with point masses
+
+| iY
+
+‘central question n Theoretical Neuroscience:
+What is the “right” level of abstraction?
+ENDELEMENTGeometrically accurate models vs. spherical cows
+with point masses
+
+{-}-}-e
+| i}
+
+‘central question n Theoretical Nouroscince:
+What is the “right” level of abstraction?
+
+ 
+ENDELEMENT 
+   
+      
+
+  
+
+Geometrically accurate models vs. spherical cows
+with point masses
+
+| iY
+
+‘central question n Theoretical Nroscience:
+What is the “right” level of abstracton?
+ENDELEMENTGeometrically accurate models vs. spherical cows
+with point masses
+
+1 -A-f-@
+| iy
+
+‘central question in Theoretical Nuroscince:
+What i the “right” level of abstraction?
+
+ 
+ENDELEMENTThe leaky integrate-and-fire model
+
+ 
+ENDELEMENTThe leaky integrate-and-fire model
+
+ 
+ENDELEMENTThe leaky integrate-and-fire model
+
+ 
+ENDELEMENTLeaky I&F neurons: a simple implementation
+
+ 
+ENDELEMENTLeaky I&F neurons: a simple implementation
+
+ 
+ENDELEMENTLeaky I&F neurons: a simple implementation
+
+ 
+ENDELEMENTCircuits — some basic definitions
+
+ 
+ENDELEMENTCircuits — some basic definitions
+
+ 
+ENDELEMENTCircuits — some basic definitions
+
+ 
+ENDELEMENTCircuits — some basic definitions
+
+ 
+ENDELEMENTCircuits — some basic definitions
+
+ 
+ENDELEMENTCircuits — some basic definitions
+
+ 
+ENDELEMENTThe visual system shows an approximately hierarchical
+architecture
+
+ 
+ENDELEMENTThe visual system shows an approximately hierarchical
+architecture
+
+ 
+ENDELEMENTThe visual system shows an approximately hierarchical
+architecture
+
+ 
+ENDELEMENTThe visual system shows an approximately hierarchical
+architecture
+
+ 
+ENDELEMENTThe visual system shows an approximately hierarchical
+architecture
+
+ 
+ENDELEMENTThe visual system shows an approximately hierarchical
+architecture
+
+ 
+ENDELEMENTThe visual system shows an approximately hierarchical
+architecture
+
+ 
+ENDELEMENTThe visual system shows an approximately hierarchical
+architecture
+
+ 
+ENDELEMENTThe visual system shows an approximately hierarchical
+architecture
+
+ 
+ENDELEMENTThe visual system shows an approximately hierarchical
+architecture
+
+ 
+ENDELEMENTThe visual system shows an approximately hierarchical
+architecture
+
+ 
+ENDELEMENTThe visual system shows an approximately hierarchical
+architecture
+
+ 
+ENDELEMENTThe visual system shows an approximately hierarchical
+architecture
+
+ 
+ENDELEMENTThe visual system shows an approximately hierarchical
+architecture
+
+ 
+ENDELEMENTThe visual system shows an approximately hierarchical
+architecture
+
+ 
+ENDELEMENTThe visual system shows an approximately hierarchical
+architecture
+
+ 
+ENDELEMENTThe visual system shows an approximately hierarchical
+architecture
+
+ 
+ENDELEMENTThe visual system shows an approximately hierarchical
+architecture
+
+ 
+ENDELEMENTThe visual system shows an approximately hierarchical
+architecture
+
+ 
+ENDELEMENTThe visual system shows an approximately hierarchical
+architecture
+
+ 
+ENDELEMENTThe visual system shows an approximately hierarchical
+architecture
+
+ 
+ENDELEMENTThe visual system shows an approximately hierarchical
+architecture
+
+ 
+ENDELEMENTThe visual system shows an approximately hierarchical
+architecture
+
+ 
+ENDELEMENT‘And a canonical microcircuit structure within
+each area
+
+ 
+ENDELEMENT‘And a canonical microcircuit structure within
+each area
+
+i
+
+ 
+ENDELEMENT‘And a canonical microcircuit structure within
+each area
+
+ 
+
+Dov and Martin 2004
+ENDELEMENT‘And a canonical microcircuit structure within
+each area
+
+ 
+ENDELEMENT‘And a canonical microcircuit structure within
+each area
+
+ 
+
+ovis and Martin 2004
+ENDELEMENT‘And a canonical microcircuit structure within
+each area
+
+ 
+ENDELEMENTFirst order approximation: “Immediate”
+recognition as a hierarchical feed-forward process
+
+1
+
+Behavior: We can recognize objects within ~150ms (e.g.
+Potter et al 1969, Thorpe et al 1996)
+
+Physiology: Visually selective responses to complex
+shapes arise within ~150 ms (e.9, Keysers et al 2001
+Hung et al 2008, Liu et al 2009)
+
+‘Computation: Bottom up computational models perform.
+relatively well in basic object recognition (e.g. Fukushima
+1980, Riesenhuber and Poggio 1999)
+
+ 
+ENDELEMENTFirst order approximation: “Immediate”
+rarchical feed-forward process
+
+Behavior: We can recognize objects within ~150ms (e.g.
+Potter et al 1969, Thorpe et al 1996)
+
+Physiology: Visually selective responses to complex
+shapes arise within ~150 ms (e.9, Keysers et al 2001
+Hung et al 2005, Liu et al 2009)
+
+Computation: Bottom up computational models perform:
+relatively well in basic object recognition (e.g. Fukushima
+1980, Riesenhuber and Poggio 1999)
+
+ 
+ENDELEMENTFirst order approximation: “Immediate”
+recognition as a hierarchical feed-forward process
+
+fl
+
+Behavior: We can recognize objects within ~150ms (e.g.
+Potter et al 1969, Thorpe et al 1996)
+
+Physiology: Visually selective responses to complex
+shapes arise within ~150 ms (e.9, Keysers et al 2001
+Hung et al 2005, Liu et al 2009)
+
+Computation: Bottom up computational models perform.
+relatively well in basic object recognition (e.g. Fukushima
+1980, Riesenhuber and Poggio 1999)
+
+ 
+ENDELEMENTFirst order approximation: “Immediate”
+rarchical feed-forward process
+
+Behavior: We can recognize objects within ~150ms (e.g.
+Potter et al 1969, Thorpe et al 1996)
+
+Physiology: Visually selective responses to complex
+shapes arise within ~150 ms (e.9, Keysers et al 2001
+Hung et al 2008, Liu et al 2009)
+
+Computation: Bottom up computational models perform.
+relatively well in basic object recognition (e.g. Fukushima
+1980, Riesenhuber and Poggio 1999)
+
+ 
+ENDELEMENTFirst order approximation: “Immediate”
+rarchical feed-forward process
+
+Behavior: We can recognize objects within ~150ms (e.g.
+Potter et al 1969, Thorpe et al 1996)
+
+Physiology: Visually selective responses to complex
+shapes arise within ~150 ms (e.9, Keysers et al 2001
+Hung et al 2005, Liu et al 2009)
+
+Computation: Bottom up computational models perform:
+relatively well in basic object recognition (e.g. Fukushima
+1980, Riesenhuber and Poggio 1999)
+
+ 
+ENDELEMENTFirst order approximation: “Immediate”
+recognition as a hierarchical feed-forward process
+
+fl
+
+Behavior: We can recognize objects within ~150ms (e.9.
+Potter et al 1969, Thorpe et al 1996)
+
+Physiology: Visually selective responses to complex
+shapes arise within ~150 ms (e.9, Keysers et al 2001
+Hung et al 2008, Liu et al 2009)
+
+Computation: Bottom up computational models perform,
+relatively well in basic object recognition (e.g. Fukushima
+1980, Riesenhuber and Poggio 1999)
+
+ 
+ENDELEMENTFirst order approximation: “Immediate”
+rarchical feed-forward process
+
+Behavior: We can recognize objects within ~150ms (e.g.
+Potter et al 1969, Thorpe et al 1996)
+
+Physiology: Visually selective responses to complex
+shapes arise within ~150 ms (e.9, Keysers et al 2001
+Hung et al 2005, Liu et al 2009)
+
+Computation: Bottom up computational models perform,
+relatively well in basic object recognition (e.g. Fukushima
+1980, Riesenhuber and Poggio 1999)
+
+ 
+ENDELEMENTFirst order approximation: “Immediate”
+recognition as a hierarchical feed-forward process
+
+1
+
+Behavior: We can recognize objects within ~150ms (e.g.
+Potter et al 1969, Thorpe et al 1996)
+
+Physiology: Visually selective responses to complex
+shapes arise within ~150 ms (e.9, Keysers et al 2001
+Hung et al 2005, Liu et al 2009)
+
+Computation: Bottom up computational models perform:
+relatively well in basic object recognition (e.g. Fukushima
+1980, Riesenhuber and Poggio 1999)
+
+ 
+ENDELEMENTFirst order approximation: “Immediate”
+rarchical feed-forward process
+
+Behavior: We can recognize objects within ~150ms (e.g.
+Potter et al 1969, Thorpe et al 1996)
+
+Physiology: Visually selective responses to complex
+shapes arise within ~150 ms (e.9, Keysers et al 2001
+Hung et al 2005, Liu et al 2009)
+
+Computation: Bottom up computational models perform.
+relatively well in basic object recognition (e.g. Fukushima
+1980, Riesenhuber and Poggio 1999)
+
+ 
+ENDELEMENTFirst order approximation: “Immediate”
+rarchical feed-forward process
+
+Behavior: We can recognize objects within ~150ms (e.g.
+Potter et al 1969, Thorpe et al 1996)
+
+Physiology: Visually selective responses to complex
+shapes arise within ~150 ms (e.9, Keysers et al 2001
+Hung et al 2008, Liu et al 2009)
+
+Computation: Bottom up computational models perform.
+relatively well in basic object recognition (e.g. Fukushima
+1980, Riesenhuber and Poggio 1999)
+
+ 
+ENDELEMENT   
+      
+       
+
+Why are there so many feedback connections?
+
+  
+
+‘There are more horizontal + top-down projections than
+bottom-up ones (e.g. Douglas 2004, Callaway 2004)
+
+av
+
+ 
+
+A
+STPi
+8I co
+What are feedback signals doing? Markov etal 2012
+Wen?
+ENDELEMENTWhy are there so many feedback connections?
+
+‘There are more horizontal + top-down projections than
+bottom-up ones (e.g. Douglas 2004, Callaway 2004)
+
+7A
+STPi
+8I
+
+What are feedback signals doing? Meni ot at 202
+nen?
+
+ 
+ENDELEMENT 
+   
+      
+             
+
+Why are there so many feedback connections?
+
+  
+
+‘There are more horizontal + top-down projections than
+bottom-up ones (e.g. Douglas 2004, Callaway 2004)
+
+BS
+vi
+v4 fe
+MT
+
+   
+
+ 
+
+ 
+
+DP &
+7A
+STPi EER
+8I Tease
+
+What are feedback signals doing? Markov etal 2012
+
+Yen
+ENDELEMENTWhy are there so many feedback connections?
+
+‘There are more horizontal + top-down projections than
+bottom-up ones (e.g. Douglas 2004, Callaway 2004)
+
+ri
+
+STPi
+8I
+
+What are feedback signals doing? CICS
+nn?
+
+ 
+ENDELEMENT     
+    
+  
+
+Why are there so many feedback connections?
+
+  
+
+‘There are more horizontal + top-down projections than
+bottom-up ones (e.g. Douglas 2004, Callaway 2004)
+
+   
+ 
+    
+ 
+   
+       
+     
+
+V4
+
+ 
+
+ 
+
+MT
+DP
+7A
+STPi REE
+81 ae
+
+‘What are feedback signals doing? Met at 20
+ven
+ENDELEMENT 
+ 
+
+Why are there so many feedback connections?
+
+   
+ 
+
+  
+
+‘There are more horizontal + top-down projections than
+bottom-up ones (e.g. Douglas 2004, Callaway 2004)
+
+  
+  
+
+  
+
+STPi
+ce Markov et al 2012
+
+   
+
+Yen
+
+ 
+       
+ENDELEMENT     
+   
+ 
+  
+
+Why are there so many feedback connections?
+
+ 
+ 
+
+‘There are more horizontal + top-down projections than
+bottom-up ones (e.g. Douglas 2004, Callaway 2004)
+
+   
+ 
+    
+ 
+   
+      
+     
+
+V4
+
+MT
+
+DP
+
+7A
+
+STPi
+
+8
+
+ot nck sans Sng?
+wor"
+
+ 
+
+ 
+
+ 
+   
+
+Markov etal 2012
+ENDELEMENTComputational roles of feedback signals
+
+1. Fundamental computations in V1
+2. Visual search
+3. Pattern completion
+
+ 
+ENDELEMENTComputational roles of feedback signals
+
+4. Fundamental computations in V1
+2. Visual search
+3. Pattern completion
+
+ 
+ENDELEMENTComputational roles of feedback signals
+
+1. Fundamental computations in V1
+2. Visual search
+3. Pattern completion
+
+ 
+ENDELEMENT‘Computational roles of feedback signals
+
+4. Fundamental computations in V1
+2. Visual search
+3. Pattern completion
+
+ 
+ENDELEMENTComputational roles of feedback signals
+
+4. Fundamental computations in V1
+2. Visual search
+3. Pattern completion
+
+ 
+ENDELEMENTNeurons in primary visual cortex show
+orientation tuning
+
+ 
+ENDELEMENTNeurons in primary visual cortex show
+orientation tuning
+
+ 
+ENDELEMENTNeurons in primary visual cortex show
+orientation tuning
+
+Crertatonselectvy
+
+———
+
+ 
+ENDELEMENTNeurons in primary visual cortex show
+orientation tuning
+
+ 
+ENDELEMENTNeurons in primary visual cortex show
+orientation tuning
+
+ 
+ENDELEMENTNeurons in primary visual cortex show
+orientation tuning
+
+ 
+ENDELEMENTNeurons in primary visual cortex show
+orientation tuning
+
+ 
+ENDELEMENTA simple model for simple cells
+
+A feed-forward model for orientation selectivity in V1
+(by no means the only model)
+
+ 
+ENDELEMENTA simple model for simple cells
+
+A feed-forward model for orientation selectivity in V1
+(by no means the only model)
+
+ 
+ENDELEMENTA simple model for simple cells
+
+A feed-forward model for orientation selectivity in V1
+(by no means the only model)
+
+ 
+ENDELEMENTA simple model for simple cells
+
+feed-forward model for orientation selectivity in V1
+(by no means the only model)
+
+ 
+ENDELEMENTA simple model for simple cells
+
+A feed-forward model for orientation selectivity in V1
+(by no means the only model)
+
+ 
+ENDELEMENTA simple model for simple cells
+
+feed-forward model for orientation selectivity in V1
+(by no means the only model)
+
+ 
+ENDELEMENTA simple model for simple cells
+
+A feed-forward model for orientation selectivity in V1
+(by no means the only model)
+
+ 
+ENDELEMENTA simple model for simple cells
+
+A feed-forward model for orientation selectivity in V1
+(by no means the only model)
+
+ 
+ENDELEMENT‘Complex cells show position tolerance
+
+ 
+ENDELEMENTComplex cells show position tolerance
+
+ 
+ENDELEMENTComplex cells show position tolerance
+
+ 
+ENDELEMENTComplex cells show position tolerance
+
+ 
+ENDELEMENTComplex cells show position tolerance
+
+ 
+ENDELEMENTAmodel to describe tolerance in complex cells.
+
+A feed-forward mode!
+describing the responses of
+complex cells arising from
+non-linear (e.g. OR, max)
+Combination of inputs from
+‘multiple simple cells
+
+(by no means the only model)
+
+ 
+ENDELEMENTA model to describe tolerance in complex cells.
+
+A feed-forward model
+describing the responses of
+complex cells arising from
+non-linear (e.g. OR, max)
+Combination of inputs from
+‘multiple simple cells
+
+(by no means the only model)
+
+ 
+ENDELEMENTA model to describe tolerance in complex cells.
+
+A feed-forward model
+describing the responses of
+complex cells arising from
+non-linear (e.g. OR, max)
+Combination of inputs from
+‘multiple simple cells
+
+(by no means the only model)
+
+ 
+ENDELEMENTA model to describe tolerance in complex cells.
+
+A feed-forward mode!
+describing the responses of
+complex cells arising from
+non-linear (e.g. OR, max)
+Combination of inputs from
+‘multiple simple cells
+
+(by no means the only model)
+
+ 
+ENDELEMENTReversible inactivation of V2/V3
+
+‘mr
+
+ 
+ENDELEMENTReversible inactivation of V2/V3
+
+‘mg
+
+ 
+ENDELEMENTReversible inactivation of V2/V3
+
+‘mg
+
+ 
+ENDELEMENTReversible inactivation of V2/V3
+
+mm
+
+ 
+ENDELEMENTReversible inactivation of V2/V3
+
+ 
+ENDELEMENTReversible inactivation of V2/V3
+
+‘mg
+
+ 
+ENDELEMENTReversible inactivation of V2/V3
+
+‘mg
+
+ 
+ENDELEMENTReversible inactivation of V2/V3
+
+ 
+ENDELEMENTReversible inactivation of V2/V3
+
+ 
+ENDELEMENTReversible inactivation of V2/V3
+
+mm
+
+ 
+ENDELEMENTReversible inactivation of V2/V3
+
+‘mg
+
+ 
+ENDELEMENTFeedback inactivation does not change
+orientation or direction selectivity
+
+AEs
+
+ 
+ENDELEMENTFeedback inactivation does not change
+orientation or direction selectivity
+
+vw.
+
+ 
+ENDELEMENTFeedback inactivation does not change
+orientation or direction selectivity
+
+vw:
+
+ 
+ENDELEMENTFeedback inactivation does not change
+orientation or direction selectivity
+
+ve:
+
+ 
+ENDELEMENTFeedback inactivation does not change
+orientation or direction selectivity
+
+vy J \
+
+v
+
+ 
+ENDELEMENTFeedback inactivation does not change
+orientation or direction selectivity
+
+vW:/\
+
+ 
+ENDELEMENTFeedback inactivation does not change
+orientation or direction selectivity
+
+vy
+
+ 
+ENDELEMENT‘Temporal dynamics of feedback inactivation
+effects
+
+ 
+ENDELEMENT‘Temporal dynamics of feedback inactivation
+effects
+
+ 
+ENDELEMENTTemporal dynamics of feedback inactivation
+effects
+
+ 
+ENDELEMENT‘Temporal dynamics of feedback inactivation
+effects
+
+ 
+ENDELEMENTTemporal dynamics of feedback inactivation
+effects
+
+ 
+ENDELEMENTTemporal dynamics of feedback inactivation
+effects
+
+ 
+ENDELEMENT‘Temporal dynamics of feedback inactivation
+effects
+
+ 
+ENDELEMENTArea summation curve in V1
+
+‘Summation Field
+
+FIN
+
+‘Surround Diameter
+
+ 
+ENDELEMENTArea summation curve in V1
+
+Summation Field Surround Diameter
+
+ 
+ENDELEMENTArea summation curve in V1
+
+‘Summation Field
+
+dee
+
+‘Surround Diameter
+
+ 
+ENDELEMENTArea summation curve in V1
+
+‘Summation Field Surround Diameter
+
+ 
+ENDELEMENTFeedback inactivation leads to reduced
+surround suppression
+
+EY
+
+°6" 016025 04 063 1 16 25
+‘Stimulus diameter (degrees)
+
+ 
+ENDELEMENTFeedback inactivation leads to reduced
+surround suppression
+
+°6" 0.16025 04 063 1 16 25
+‘Stimulus diameter (degrees)
+
+ 
+ENDELEMENTFeedback inactivation leads to reduced
+surround suppression
+
+FE,
+
+°6" 016025 04 063 1 16 25
+‘Stimulus diameter (degrees)
+
+ 
+ENDELEMENTFeedback inactivation leads to reduced
+surround suppression
+
+°6" 016025 04 063 1 16 25
+‘Stimulus diameter (degrees)
+
+ 
+ENDELEMENTFeedback inactivation leads to reduced
+surround suppression
+
+°6" 0.16025 04 063 1 16 25
+‘Stimulus diameter (degrees)
+
+ 
+ENDELEMENTAsimple normalization model to explain area
+
+summation curves
+
+ 
+ENDELEMENTAsimple normalization model to explain area
+summation curves
+
+Kolo perf (x/2Wp)*)
+
+Ryo 8) = Ry +
+
+ 
+
+T+ kyLwyerf(x/2w,)]
+ENDELEMENT‘Asimple normalization model to explain area
+summation curves
+
+Kolo erf(x/2W)*]
+
+Ryoo (2) = Ry +
+tn T+ kyLwyerfx/2w,)]
+
+ 
+ENDELEMENTFeedback increases the normalization width: wy,
+
+ 
+ENDELEMENT‘Asimple normalization model to explain area
+
+summation curves
+
+ 
+ENDELEMENT‘Asimple normalization model to explain area
+
+summation curves
+
+ 
+ENDELEMENT‘Asimple normalization model to explain area
+summation curves
+
+ 
+ENDELEMENTFeedback increases the normalization width: wy,
+
+ 
+ENDELEMENTFeedback increases the normalization width: wy,
+
+ 
+ENDELEMENTComputational roles of feedback signals
+
+1. Fundamental computations in V1
+2. Visual search
+3. Pattern completion
+
+ 
+ENDELEMENTComputational roles of feedback signals
+
+1. Fundamental computations in V1
+2. Visual search
+3. Pattern completion
+
+ 
+ENDELEMENTComputational roles of feedback signals
+
+1. Fundamental computations in V1
+2. Visual search
+3. Pattern completion
+
+ 
+ENDELEMENTComputational roles of feedback signals
+
+1. Fundamental computations in V1
+2. Visual search
+3. Pattern completion
+
+ 
+ENDELEMENTComputational roles of feedback signals
+
+1. Fundamental computations in V1
+2. Visual search
+3. Pattern completion
+
+ 
+ENDELEMENTComputational roles of feedback signals
+
+1. Fundamental computations in V1
+2. Visual search
+3. Pattern completion
+
+ 
+ENDELEMENTFeedback
+signals in
+visual
+
+search
+
+ 
+ENDELEMENTFeedback
+signals in
+visual
+
+search
+
+ 
+ENDELEMENTFeedback
+
+ 
+ENDELEMENTFeedback
+signals in
+visual
+
+search
+
+ 
+ENDELEMENTFeedback
+signals in
+visual
+
+search
+
+ 
+ENDELEMENTFeedback
+signals in
+visual
+
+search
+
+ 
+ENDELEMENTFeedback
+signals in
+visual
+
+search
+
+ 
+ENDELEMENTFeedback
+signals in
+visual
+
+search
+
+ 
+ENDELEMENTFeedback
+signals in
+visual
+
+search
+
+ 
+ENDELEMENTFeedback
+signals in
+visual
+
+search
+
+ 
+ENDELEMENTFeedback
+signals in
+visual
+
+search
+
+ 
+ENDELEMENTFeedback
+signals in
+visual
+
+search
+
+ 
+ENDELEMENTFeedback
+signals in
+visual
+
+search
+
+ 
+ENDELEMENTFeedback
+signals in
+visual
+
+search
+
+ 
+ENDELEMENTFeedback
+signals in
+visual
+
+search
+
+ 
+ENDELEMENTFeedback
+signals in
+visual
+
+search
+
+ 
+ENDELEMENTFeedback
+signals in
+visual
+
+search
+
+ 
+ENDELEMENTFeedback
+signals in
+visual
+
+search
+
+ 
+ENDELEMENTFeedback
+signals in
+visual
+
+search
+
+ 
+ENDELEMENTFeedback
+signals in
+visual
+
+search
+
+ 
+ENDELEMENTFeedback
+signals in
+visual
+
+search
+
+ 
+ENDELEMENTFeedback
+signals in
+visual
+
+search
+
+ 
+ENDELEMENTFeedback
+signals in
+visual
+
+search
+
+ 
+ENDELEMENTFeedback
+signals in
+visual
+
+search
+
+ 
+ENDELEMENTFeedback
+signals in
+visual
+
+search
+
+ 
+ENDELEMENTFeedback
+signals in
+visual
+
+search
+
+ 
+ENDELEMENTFeedback
+signals in
+visual
+
+search
+
+ 
+ENDELEMENTFeedback
+signals in
+visual
+
+search
+
+ 
+ENDELEMENTFeedback
+signals in
+visual
+
+search
+
+ 
+ENDELEMENTENDELEMENTThe model can search for objects in cluttered
+images
+
+ 
+ENDELEMENTThe model can search for objects in cluttered
+images
+
+ie
+e
+
+Seis
+
+bh
+
+Ee
+Po
+
+ 
+ENDELEMENTThe model can search for objects in cluttered
+images
+
+ 
+ENDELEMENTThe model can search for objects in cluttered
+images
+
+ 
+ENDELEMENTThe model can search for objects in cluttered
+images
+
+ 
+ENDELEMENTThe model can search for objects in cluttered
+images
+
+=n
+
+ 
+ENDELEMENTThe model can search for objects in cluttered
+images
+
+ 
+ENDELEMENTThe model can search for objects in cluttered
+images
+
+ 
+ENDELEMENTThe model can search for objects in cluttered
+images
+
+ 
+ENDELEMENTThe model can search for objects in cluttered
+images
+
+ 
+ENDELEMENTThe model’s performance is comparable to human
+performance in the same visual search task
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTThe model’s performance is comparable to human
+performance in the same visual search task
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTThe model’s performance is comparable to human
+performance in the same visual search task
+
+Ciges
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENT    
+
+ 
+ 
+
+Consistency metrics
+
+He le
+ee
+ENDELEMENT       
+   
+
+Consistency metrics
+ENDELEMENT       
+   
+
+Consistency metrics
+ENDELEMENT       
+   
+
+Consistency metrics
+ENDELEMENTComputational roles of feedback signals
+
+1. Fundamental computations in V1
+2. Visual search
+3. Pattern completion
+
+ 
+ENDELEMENTComputational roles of feedback signals
+
+1. Fundamental computations in V1
+2. Visual search
+3. Pattern completion
+
+ 
+ENDELEMENTInference and pattern completion as a hallmark of
+intelligence
+
+Other sensory modalities
+
+ 
+ENDELEMENTInference and pattern completion as a hallmark of
+intelligence
+
+Other sensory modalities
+
+ 
+ENDELEMENTInference and pattern completion as a hallmark of
+intelligence
+
+Other sensory modalities
+
+ 
+ENDELEMENTObjects can be recognized from partial information
+
+ 
+ENDELEMENTObjects can be recognized from partial information
+
+ 
+ENDELEMENTObjects can be recognized from partial information
+
+ 
+ENDELEMENTBehavior: Robustness to presentation of
+partial image informat
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTBehavior: Robustness to presentation of
+
+partial image information
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTBehavior: Robustness to presentation of
+
+partial image information
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTBehavior: Robustness to presentation of
+image informat
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTExample responses during object completion
+
+A
+
+ 
+ENDELEMENTExample responses during object completion
+
+ 
+ENDELEMENTExample responses during object completion
+
+ 
+ENDELEMENTExample responses during object completion
+
+A
+
+ 
+ENDELEMENTExample responses during object completion
+
+A
+
+ 
+ENDELEMENTExample responses during object completion
+
+ 
+ENDELEMENTExample responses during object completion
+
+A
+
+ 
+ENDELEMENTExample responses during object completion
+
+ 
+ENDELEMENTExample responses during object completion
+
+ 
+ENDELEMENTExample responses during object completion
+
+ 
+ENDELEMENTExample responses during object completion
+
+A
+
+ 
+ENDELEMENTExample responses during object completion
+
+Bagae
+
+ 
+ENDELEMENTExample responses during object completion
+
+Aagas
+
+ 
+ENDELEMENTExample responses during object completion
+
+Hagae
+
+ 
+ENDELEMENTExample responses during object completion
+
+ 
+ENDELEMENTExample responses during object completion
+
+ 
+ENDELEMENTExample responses during object completion
+
+ 
+ENDELEMENTExample responses during object completion
+
+ 
+ENDELEMENTExample responses during object completion
+
+ 
+ENDELEMENTExample responses during object completion
+
+ 
+ENDELEMENTExample responses during object completion
+
+ 
+ENDELEMENTExample responses during object completion
+
+B
+
+ 
+ENDELEMENTLimited object completion in feed-forward model
+
+ 
+ENDELEMENTAdding recurrency to deep network models
+
+ 
+ENDELEMENTAdding recurrency to deep network models
+
+ 
+ENDELEMENTAdding recurrency to deep network models
+
+ 
+ENDELEMENTAdding recurrency to deep network models
+
+ 
+ENDELEMENTAdding recurrency to deep network models
+
+ 
+ENDELEMENTinary results: Recurrent connections
+can improve recognition of occluded objects
+
+ 
+ENDELEMENTinary results: Recurrent connections
+can improve recognition of occluded objects
+
+ 
+ENDELEMENTBackward masking has been proposed to reduce:
+the effects of feedback
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTBackward masking has been proposed to reduce:
+the effects of feedback
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTBackward masking has been proposed to reduce:
+the effects of feedback
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTBackward masking impairs recognition of partial
+obiects at short SOAs
+
+ 
+ENDELEMENTBackward masking impairs recognition of partial
+obiects at short SOAs
+
+ 
+ENDELEMENTBackward masking impairs recognition of partial
+obiects at short SOAs
+
+ 
+ENDELEMENTModel performance in masking experiment
+
+ 
+ENDELEMENTModel performance in masking experiment
+
+ 
+ENDELEMENTSummary
+
+ 
+ENDELEMENTSummary
+
+ 
+ENDELEMENTSummary
+
+feature-based atent
+
+ 
+ENDELEMENTSummary
+
+feature-based atention)
+
+ 
+ENDELEMENTSummary
+
+ 
+ENDELEMENTReasons for optimism
+
+* Wiring diagram: Rapid progress tracing circuits in
+humans (low resolution) and animal models (high
+resolution)
+
+Strength in numbers: Rapid progress recording and
+mathematically analyzing neurophysiological
+activity from large ensembles in humans and
+animal models
+
+Source code: We can manipulate neural circuits
+
+(rodents, macaques) to examine necessary and
+
+ 
+ENDELEMENTReasons for optimism
+
+* Wiring diagram: Rapid progress tracing circuits in
+humans (low resolution) and animal models (high
+resolution)
+
+Strength in numbers: Rapid progress recording and
+mathematically analyzing neurophysiological
+activity from large ensembles in humans and
+animal models
+
+Source code: We can manipulate neural circuits
+
+(rodents, macaques) to examine necessary and
+
+ 
+ENDELEMENTReasons for optimism
+
+* Wiring diagram: Rapid progress tracing circuits in
+humans (low resolution) and animal models (high
+resolution)
+
+Strength in numbers: Rapid progress recording and
+mathematically analyzing neurophysiological
+activity from large ensembles in humans and
+animal models
+
+Source code: We can manipulate neural circuits
+
+(rodents, macaques) to examine necessary and
+
+ 
+ENDELEMENTReasons for optimism
+
+* Wiring diagram: Rapid progress tracing circuits in
+humans (low resolution) and animal models (high
+resolution)
+
+Strength in numbers: Rapid progress recording and
+mathematically analyzing neurophysiological
+activity from large ensembles in humans and
+animal models
+
+Source code: We can manipulate neural circuits
+
+(rodents, macaques) to examine necessary and
+
+ 
+ENDELEMENTReasons for optimism
+
+* Wiring diagram: Rapid progress tracing circuits in
+humans (low resolution) and animal models (high
+resolution)
+
+Strength in numbers: Rapid progress recording and
+mathematically analyzing neurophysiological
+activity from large ensembles in humans and
+animal models
+
+Source code: We can manipulate neural circuits
+
+(rodents, macaques) to examine necessary and
+
+ 
+ENDELEMENTReasons for optimism
+
+* Wiring diagram: Rapid progress tracing circuits in
+humans (low resolution) and animal models (high
+resolution)
+
+Strength in numbers: Rapid progress recording and
+mathematically analyzing neurophysiological
+activity from large ensembles in humans and
+animal models
+
+Source code: We can manipulate neural circuits
+
+(rodents, macaques) to examine necessary and
+
+ 
+ENDELEMENTReasons for optimism
+
+* Wiring diagram: Rapid progress tracing circuits in
+humans (low resolution) and animal models (high
+resolution)
+
+Strength in numbers: Rapid progress recording and
+mathematically analyzing neurophysiological
+activity from large ensembles in humans and
+animal models
+
+Source code: We can manipulate neural circuits
+
+(rodents, macaques) to examine necessary and
+
+ 
+ENDELEMENTReasons for optimism
+
+* Wiring diagram: Rapid progress tracing circuits in
+humans (low resolution) and animal models (high
+resolution)
+
+Strength in numbers: Rapid progress recording and
+mathematically analyzing neurophysiological
+activity from large ensembles in humans and
+animal models
+
+Source code: We can manipulate neural circuits
+
+(rodents, macaques) to examine necessary and
+
+ 
+ENDELEMENTReasons for optimism
+
+* Wiring diagram: Rapid progress tracing circuits in
+humans (low resolution) and animal models (high
+resolution)
+
+Strength in numbers: Rapid progress recording and
+mathematically analyzing neurophysiological
+activity from large ensembles in humans and
+animal models
+
+Source code: We can manipulate neural circuits
+
+(rodents, macaques) to examine necessary and
+
+ 
+ENDELEMENTi
+£
+2
+3
+2
+z
+Ss
+
+ 
+ENDELEMENTWiring diagrams
+
+ 
+ENDELEMENTiS
+iS
+Fy
+&
+i)
+E
+S
+
+ 
+ENDELEMENTWiring diagrams
+
+ 
+ENDELEMENTWiring diagrams
+
+ 
+ENDELEMENTWiring diagrams
+
+ 
+ENDELEMENTStrength in numbers
+
+ 
+ENDELEMENTStrength in numbers
+
+ 
+ENDELEMENTStrength in numbers
+
+ 
+ENDELEMENTStrength in numbers
+
+ 
+ENDELEMENTStrength in numbers
+
+ 
+ENDELEMENTStrength in numbers
+
+ 
+ENDELEMENTStrength in numbers
+
+ 
+ENDELEMENTStrength in numbers
+
+ 
+ENDELEMENTStrength in numbers
+
+ 
+ENDELEMENTStrength in numbers
+
+ 
+ENDELEMENTStrength in numbers
+
+ 
+ENDELEMENTPlaying with the source code: Using light to
+modulate neural with high specificity
+
+activate,
+
+Boyden-Desimone
+
+ 
+ENDELEMENTPlaying with the source code: Using light to
+modulate neural with high specificity
+
+ 
+ENDELEMENTPlaying with the source code: Using light to
+modulate neural with high specificity
+
+activate,
+
+Boyden-Desimone
+
+ 
+ENDELEMENTPlaying with the source code: Using light to
+modulate neural with high specificity
+
+activate,
+
+Boyden-Desimone
+
+ 
+ENDELEMENTPlaying with the source code: Using light to
+modulate neural with high specificity
+
+activate,
+
+Boyden-Desimone
+
+ 
+ENDELEMENTPlaying with the source code: Using light to
+modulate neural with high specificity
+
+ 
+ENDELEMENTPlaying with the source code: Using light to
+modulate neural with high specificity
+
+ 
+ENDELEMENTPlaying with the source code: Using light to
+modulate neural with high specificity
+
+cHRE
+
+ 
+ENDELEMENTBiological codes to computational codes
+
+Biological Computer
+code code
+
+ 
+ENDELEMENTBiological codes to computational codes
+
+Biological __, Computer
+code code
+
+ 
+ENDELEMENTENDELEMENTENDELEMENTSources of content © the respective copyright hold.
+rights reserved, excluded from our Creative Comm
+For more information, see http://ocw.mit.edu/fair
+
+ 
+
+Brain surface image © Source Unknown.
+
+Cover of Theoretical Neuroscience, Visual Population Codes © MIT Press.
+
+Cover of biophysies of Computation, hierarchical structure of visual system (fig
+hheatmap (tig. 11) © Oxtord University Press,
+
+Cover of Mathematics for Neuroscience © Academic Press
+
+Cover of Introduction to the Theory of Neural Computation © Santa Fe
+Institute Studies in the Sciences of Complexity
+
+Hierarchy (fig. 1), optical stimulation (fig. 3) © Elsevier
+
+Neural computation microcircuit (fig. 1) © Annual Reviews of
+Neuroscience
+
+Complex cell types (fig. 4) © Wiley
+
+Occluded lion (fig. 2) © Singer-Veriag
+
+Mouse brain © Carl Zeiss Microscopy
+
+ 
+ENDELEMENT 
+
+Sources of content used with permiss'
+
+Corticocortical feedback figures, courtesy of Society for Neuroscience, Lic
+$A, Source: J. Nassi, S. Lomber, R. Born, Journal of Neuroscience 33, no.
+
+Area summation curves courtesy of Frontiers in Systems Neuroscience. S
+C!Gomez-Laberge, G. Kreiman, R. Born. Frontiers in Systems Neuroscien
+Grid of faces, courtesy of Hanlin Tang.
+
+Spaciotemporal dynamics figure, courtesy of Elseviey Tac
+Eypemiaains ~~~, Source: H. Tang, et al. Neuron 83, no. 3..
+
+Feedforward figure, courtesy of Elsevier, Inc.
+Lamme, P. Roelfserna, Trends in Neurosciences 23, no. 11 (200
+C elegans neurons (fig. 2), courtesy of Plos. Source: L. Varshney, et al. PI
+Computational Biology 7, no. 2 (2011): €1001066.
+
+. elegans, courtesy of Professor Sander van den Heuvel and Dr. Mike Bo>
+
+    
+
+  
+ENDELEMENT

@@ -1,0 +1,1369 @@
+Introduction to Neural
+Computation
+
+Prof. Michale Fee
+MIT BCS 9.40 — 2018
+
+Lecture 10 - Time Series
+ENDELEMENTSpatial receptive fields
+
+* How do we represent receptive fields mathematically?
+
+Linear-Nonlinear Model (LN Model)
+
+ 
+
+=|
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+I(x,y) L=G[I(x.y)]
+
+Stimulus / {
+
+Response Spatial Stimulus
+
+filter
+
+Image of mouse in public domain.
+
+ 
+
+fil output spike
+ter nonlinearity generator
+S / ef
+r=[,+L], Pn]
+Poisson
+process
+Firing rate
+
+ 
+ENDELEMENTSpatial receptive fields
+
+* How do we represent receptive fields mathematically?
+
+We are going to consider the simplest case in which the response
+of a neuron is given by a linear filter acting on the stimulus.
+
+G(x,y)
+
+   
+
+r=nh+ Jf GG.1O.y)dedy
+
+x
+
+Let's look at this in one dimension
+
+r=n+[G(al(a)dx GO)
+
+  
+ENDELEMENTSpatial receptive fields
+
+* How do we represent receptive fields mathematically?
+
+» G(x)
+
+>X
+
+ 
+
+rN
+
+ft. I(x)
+
+>
+
+ 
+
+rN
+
+Vv
+
+ 
+
+Xx
+
+b Gx)I(x)
+A. :
+
+ 
+
+v
+
+JGCoradx big
+
+» G(x)
+
+ 
+
+a I(x)
+
+ 
+
+v
+
+G(x)I(x)
+
+JGcol@ax small
+ENDELEMENTTemporal receptive fields
+
+* We can also think of the response of a neuron as some
+function of the temporal variations in the stimulus.
+
+r(t=r+D[S@|
+ENDELEMENTTemporal receptive fields
+
+* We can think of ‘overlap’ in the time domain! That there
+is a particular ‘temporal profile’ of a stimulus that makes a
+neuron spike.
+
+S(t) Stimulus
+Peon perry [ron > time
+
+| Kernel
+
+rr ee
+
+Linear Response
+
+ 
+
+ 
+ENDELEMENTSpatio-temporal receptive fields
+
+* How do we represent receptive fields mathematically?
+
+Combine neural responses into a single kernel that captures
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+both spatial and temporal sensitivity.
+. output spike
+xX —_—> filter nonlinearity generator
+pam a |
+L)=K[ayn] TO=[5+LO], Pn]
+
+Poisson
+
+I(x, y,t)
+
+Stimulus / { \ \
+process
+Firing rate
+
+Response Spatio- Stimulus
+temporal
+filter
+
+7
+
+Image of mouse in public domain.
+
+ 
+ENDELEMENTLearning objectives for Lecture 10
+
+Spike trains are probabilistic (Poisson Process)
+
+Be able to use measures of spike train variability
+— Fano Factor
+— Interspike Interval (ISI)
+
+Understand convolution, cross-correlation, and
+autocorrelation functions
+
+Understand the concept of a Fourier series
+ENDELEMENTLearning objectives for Lecture 10
+
+* Spike trains are probabilistic (Poisson Process)
+ENDELEMENTNeuronal responses are variable
+
+Spike trains are often quite variable. The precise pattern of
+spikes on each presentation of a stimulus is different.
+
+Stimulus
+
+ 
+
+Figure courtesy MIT Press. From Dayan, P. and L. Abbott. Theoretical Neuroscience: Computational and
+Mathematical Modeling of Neural Systems. 2001. Original source: Bair, W. and C. Koch. “Temporal Precision
+of Spike Trains in Extrastriate Cortex of the Behaving Macaque Monkey.” Neural Computation 8 no 6 (1996):
+1185-1202.
+
+Response of a neuron in area MT of the monkey to
+the exact same stimulus replayed on each trial.
+
+10
+ENDELEMENTNeuronal responses are variable
+
+Stimulus
+
+ 
+
+At time
+
+rary
+
+ 
+
+Imagine a random process that produces spikes at an average rate of spikes
+per second during the stimulus presentation.
+
+Break up the spike train into small time bins of some duration At. Each spike is
+generated independently of other spikes and with equal probability in each bin. then
+we can write the probability that a spike occurs in any bin as
+
+If At is small enough that most of the bins have zero spikes, we can write the
+probability that a spike occurs in any bin as: Ll: At
+
+The probability that no spike occurs in the bin is: ] — LL: At
+ENDELEMENTPoisson process
+
+-—_ +r ——
+
+ 
+
+At time
+
+ 
+
+M bins
+
+How many spikes land in the interval T ?
+
+What is the probability that n spikes land in the intervalT ? P.[n]
+
+This is just the product of three things:
+— The probability of having n bins with a spike = (u At)"
+
+— The probability of having M-n bins with no spike = (]— mt)"
+
+— The number of different ways to distribution n spikes in M bins =
+
+M!
+(M —n)!n! 55
+ENDELEMENTPoisson process
+
+What is the probability that n spikes land in the interval T ?
+; M! ’ -n
+Flmd= bm mint MA? (l—Ary"
+
+In the limit that: At>0 M => co
+t
+
+ 
+
+(HT) our
+
+Bn] =
+nN.
+
+ 
+
+Poisson distribution!
+
+13
+ENDELEMENTPoisson distribution
+
+The Poisson Distribution gives us the probability that n
+spikes land in the interval T
+
+Ty ,
+
+n!
+
+F,[n] =
+
+ 
+
+Average (expected) number of spikes o9
+
+© o ( 1
+
+= YinPinl= er o3ot | sin)=4
+
+n=0 =
+P{n] 929) be
+
+[\  \\ pe
++h (n) . oro} /\ &, °
+us, {J =-+— is also the average e ‘
+
+spike rate! (going to use variable r)
+
+ 
+
+Poisson distribution plot courtesy of Skbkekas on Wikimedia, License: CC BY.
+
+14
+ENDELEMENTLearning objectives for Lecture 10
+
+* Be able to use measures of spike train variability
+— Fano Factor
+— Interspike Interval (ISI)
+ENDELEMENTSpike count variability
+
+What is the variance in the number of spikes that land in the
+interval T ?
+
+ 
+
+ 
+
+ 
+
+P.[n] = (Ty ett
+n!}
+
+Variance in spike count Fano Factor
+2 ‘(T)
+o2(T) = ((n—(n) Foon?) _
+Kn-)} mn 0)
+
+= (n >) — 2(n) +
+
+= (n°) —(ny
+
+0, (T) = uT
+ENDELEMENTInterspike interval (ISI) distribution
+
+What is the distribution of intervals between spikes?
+
+z, At
+| 7; Tis [;
+t Cit
+The probability of having the next spike land in the interval
+between ¢,, and is: 0
+lis) f+ At P[n=0] = — enaet
+
+Plt <t
+
+i+]
+
+—t,<T+At] = erAt
+
+17
+ENDELEMENTInterspike interval (ISI) distribution
+
+What is the distribution of intervals between spikes?
+
+z, At
+] T, = 6.4, —
+t; Cis
+The probability density (probability per unit time) is just
+1
+—P[t] =re"
+Ar [tT]
+r
+l/e x
+rt Interval Tt
+ENDELEMENTHomogeneous vs inhomogeneous
+Poisson process
+
+Stimulus
+
+ 
+
+Homogeneous
+Inhomogeneous
+
+rate = U rate = Ut)
+
+Annotated figure from Dayan, P. and L. Abbott. Theoretical Neuroscience: Computational and Mathematical Modeling of Neural Systems. 2001. Original source: Bair, W. and
+C. Koch. “Temporal Precision of Spike Trains in Extrastriate Cortex of the Behaving Macaque Monkey.” Neural Computation 8 no 6 (1996): 1185-1202. All rights reserved. This] Q
+content is excluded from our Creative Commons license. For more information, see https://ocw.mit.edu/help/faq-fair-use/.
+ENDELEMENTLearning objectives for Lecture 10
+
+¢ Understand convolution, cross-correlation, and
+
+autocorrelation functions
+ENDELEMENTConvolution
+
+* We have discussed the idea of convolution
+
+y(t)= i dt G(t)x(t —T)
+
+—0o
+
+— To model the response of membrane potential to synaptic input
+— To model the response of neurons to a time-dependent stimulus
+
+— To implement a low-pass or high-pass filter
+
+* In general, convolution allows us to model the output of a system as
+a linear filter acting on its input.
+
+21
+ENDELEMENTCross-correlation function
+
+* Away to examine the temporal relation between signals.
+
+K(t)= f dt x(t)y(t+T)
+
+ 
+
+ 
+
+xc=xcorr(ShftNoisyData,NoisyData,Nlags);
+
+ 
+
+K=xoy
+
+ 
+
+|
+
+a a a
+
+ 
+
+Time Lag 22
+ENDELEMENTRelation between Convolution and Cross-
+
+correlation
+
+* These are mathematically very similar, but are used differently.
+
+ 
+
+r
+
+ 
+
+X
+
+»
+
+Convolution
+
+y(t) = | dt K(T)x(t-T)
+
+—0o
+
+Take input signal x(t) and
+convolve it with kernel K to get
+
+ 
+
+a
+
+ 
+
+ 
+
+output signal y(t) . yy
+
+ 
+
+XN
+
+>
+
+Cross-correlation
+
+K(t)= f dt x(t)y(t+T)
+
+—oo
+
+Take two signals, x(t) and y(t),
+and cross-correlate to extract a
+temporal ‘kernel’ K.
+
+ 
+
+ 
+
+Think of x(t) and y(t) as long vectors (signals)
+
+Relation to STA
+
+Think of K(t) as a short vector (kernel)
+ENDELEMENTAutocorrelation
+
+* Away to examine the temporal structure within a signal.
+
+K(t)= f dt x(t)x(t+T)
+
+50 ms
+
+ 
+
+ 
+
+ 
+
+ 
+
+24
+ENDELEMENT 
+
+Autocorrelation
+
+* Away to examine the temporal structure within a signal.
+
+xcRaw=xcorr(Data,Nlags);
+50 ms . ; ; . :
+
+ 
+
+ 
+
+ 
+
+0.08 +006 004 0.02 0 0.02 0.04 0.06 0.08
+
+Time Lag
+
+ 
+
+25
+ENDELEMENTAutocorrelation
+
+* Away to examine the temporal structure within a signal.
+
+K(t)= f dt x(t)x(t+ T)
+
+—oo
+
+50 ms
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+MAM
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTAutocorrelation
+
+* Away to examine the temporal structure within a signal.
+xcRaw=xcorr(Data,Nlags);
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+50 ms
+So - 100 ms
+— — ooo —————x
+Time ;
+Time Lag
+, , 1ms
+Valine yh —|—
+Time 1 1 1 1 1 1 1
+0.08 0.06 0.04 0.02 0 0.02 0.04 0.06 0.08
+
+ 
+
+Time Lag 27
+ENDELEMENTAutocorrelation
+* Away to examine the temporal structure within a signal.
+
+50 ms
+Data = randn(1,N)+0.1*cos(2* pi*10*time);
+
+Time
+100 ms
+al fe
+
+Time Lag 28
+
+ 
+
+ 
+ENDELEMENTLearning objectives for Lecture 10
+
+Spike trains are probabilistic (Poisson Process)
+
+Be able to use measures of spike train variability
+— Fano Factor
+— Interspike Interval (ISI)
+
+Understand convolution, cross-correlation, and
+autocorrelation functions
+
+Understand the concept of a Fourier series
+
+29
+ENDELEMENTSpectral Analysis
+
+A spectrogram shows how much power there is in a sound at
+different frequencies and at different times.
+S(f,t)
+
+ 
+
+84 niet!
+
+NAP A
+
+H 2 3 4 5
+Time (secs)
+
+Frequency (kHz)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+30
+ENDELEMENT 
+ 
+
+Frequency (Hz)
+
+Spectral Analysis
+
+Babbling baby bird
+
+ 
+
+Hippocampal theta rhythm
+
+100 ms
+
+Time
+
+ 
+
+31
+ENDELEMENTFourier Series
+
+* We can express any periodic function of time as sums of sine and
+cosine functions.
+
+* Let's start with an even function that is periodic with a period T
+
+—__/_,
+
+ 
+
+ 
+
+We could approximate this square wave with a cosine wave of the
+same period T and amplitude.
+
+Oscillation frequency Angular frequency
+
+a, cos(27 fit) i _ 2
+ty ~ T a T
+
+Cycles per second (Hz) Radians per second 32
+ENDELEMENTFourier Series
+
+But we can get a better approximation if we add some more cosine
+waves to our original one...
+
+| _ | | t
+
+LoS
+
+cos(@,t)
+
+cos(2@,t)
+
+ 
+
+ 
+
+cos(3a@,t)
+
+Why can we restrict ourselves to only frequencies that are integer
+multiples of Wo ?
+
+Because only cosines that are integer multiples of WwW, are periodic with
+a period T!
+
+33
+ENDELEMENTFourier Series
+
+* But we can get a better approximation if we add some more cosine
+
+waves to our original one...
+
+ 
+
+ 
+
+cos(a@,t)
+cos(2@,t)
+
+cos(3a@,t)
+
+y(t) =a, cos(@,t) +a, cos(2@,t) + 4a, cos(3@,f) +...
+
+34
+ENDELEMENTcos(a@,t)
+
+3a@,t)
+
+cos(1 la,
+
+cos(130,t
+
+ 
+
+3
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Fourier Series
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+35
+ENDELEMENTOANA UN RWN =
+= T
+
+ 
+
+Fourier Series
+
+destructive constructive destructive | constructive
+interference interference interference _ interference
+cos (n@,t)
+
+a
+
+ne)
+°
+i)
+wo
+o
+ne)
+°
+iN)
+o
+
+time time
+
+36
+ENDELEMENTFourier Series
+
+T
+»
+| | |
+po t
+cos(a@,t)
+cos(2@,t)
+cos(3a@,t)
+
+ 
+
+ 
+
+y(t) {) a, cos(@,t) +a, cos(2@,t) + a, cos( 3a) +...
+
+DC term Vina) = 24 cos(n@,t )
+n=l
+ENDELEMENTHow do we find the coefficients?
+
+* The q, coefficient is just like the average of our function y(t).
+
+Gy _ 1? 2 T/2
+t)dt ==
+27: J ve) 7 J sOeos(andr
+
+> The a, coefficient is just the overlap of our function y(t) with cos(@,t)
+
+== J yt)cos(at)dt <——— Correlation!
+
+T tp
+> The a, coefficient is just the overlap of our function y(t) with cos(2@,t)
+
+2 T/2
+aaT J y(t)cos(2@ot) dt
+
+-T/2
+
+* The a, coefficient is just the overlap of our function y(t) with cos(na,t)
+
+T/2
+
+a2 J y(t)cos(na@,t)dt
+
+LP itn 38
+ENDELEMENTHow do we find the coefficients?
+
+T/2 T/2
+
+T/2
+a 2 J y(t)dt dQ, =2 J y(t)cos(@yt)dt a -2 J y(t)cos(2@,t) dt
+T/2 r -T/2 r
+
+-T/2
+
+T_
+
+Consider the following functions y(t):
+
+y(t) =1
+y(t) = Cos(@,t)
+
+y(t) = cos(2@pr)
+
+ 
+
+-T/2
+
+T/2 T T/2
+J [cos(apt) dr = 5 J cos(@pt)cos(2@,t)dt =0
+-T/2
+
+y(t) = ++ a, cos(@pt) + a, cos(2@pt) + ves 39
+ENDELEMENTFourier Series
+
+* Ifa function has maximal overlap with one of our cosine functions,
+then it has zero overlap with all the others!
+
+* We say that our set of cosine functions form an orthogonal basis set...
+
+u, (t) = cos(n@,t)
+
+% =[0,1]
+x, =[1,0]
+v=[a, ,a]
+
+ 
+
+How do we find the coefficients a; and a,?
+a OA i ij > A ivi
+gai =Dvixy | aha = Dvn
+i TI2 i
+
+2
+a7 J y(t)cos(@,t) dt
+
+40
+-T/2
+ENDELEMENTFourier Series
+
+* Now let's look an an odd (antisymmetric) function...
+
+. _ (20
+sin(at) = sin( 7
+
+sin(2a@,t)
+
+     
+   
+
+ 
+
+sin(3@,1)
+
+ 
+
+ 
+
+Youa(t) = b, sin(@,t) + b, sin(2@t)+ b,sin(3at) +... — Yoda (t)= X24, sin(@,t)
+
+n=l
+
+Why is there no DC term here? 41
+ENDELEMENTFourier Series
+
+* For an arbitrary function, we can write it down as the
+sum of a symmetric and an antisymmetric part.
+
+y(t) = > + Ya, cos (n@,t) + ¥p, sin(ne,1)
+n=1
+
+n=l
+
+St
+
+symmetric antisymmetric
+
+42
+ENDELEMENTComplex Fourier Series
+
+* We can express any periodic function of time as sums of
+
+Im| e” |
+
+complex exponentials.
+
+Euler's formula
+i@
+
+é”' =cosat t+isinat
+
+é€°' =cosat —isinat
+
+Rewrite as follows...
+
+—iot
+
+cos Ot = s(e" +é )
+
+sino =e -«) = ~L (ee -«)
+1
+
+ 
+
+43
+ENDELEMENTFourier Series
+
+ 
+
+y(t) = + + Sa, cos(n@,t) + Ds, sin (n@,t)
+n=l
+Ay . a, nor e inet . —ib, inot eet
+(t) — + le +
+WO = > + LI )+ 2 )
+yt) = Ay + YAe™ + YA, eiro
+n=1 n=l
+‘DC’ or a .
+, , positive negative
+constant . .
+term frequencies frequencies
+A=& = 4,=+(a,-ib,) A, =—(a,+ib,)
+0 9 _) n n an) n n A, =(A.,)
+
+complex conjugates 44
+ENDELEMENTComplex Fourier Series
+
+co
+
+y(t) _ Ap + vA, + yA,
+n=1
+
+n=l
+
+* We can write this more compactly as follows:
+
+= »y A, é” Mt
+n=0
+
+For n=0,
+
+eo
+
+==]
+
+4+ vA, erm! +4 > 42
+
+n=l n=-1
+
+y(t) = y Aen
+
+n=—-°0
+
+45
+ENDELEMENTLearning objectives for Lecture 10
+
+Spike trains are probabilistic (Poisson Process)
+
+Be able to use measures of spike train variability
+— Fano Factor
+— Interspike Interval (ISI)
+
+Understand convolution, cross-correlation, and
+autocorrelation functions
+
+Understand the concept of a Fourier series
+ENDELEMENTExtra Slides on Poisson process
+
+-—_ +r ——
+
+ 
+
+At time
+
+ 
+
+M bins
+
+How many spikes land in the interval T ?
+
+What is the probability that n spikes land in the intervalT ? P.[n]
+
+This is just the product of three things:
+— The probability of having n bins with a spike = (Lu Aty'
+
+— The probability of having M-n bins with no spike = (]— mt)"
+
+M!
+(M —n)!n! 45
+
+— The number of different ways to distribution n spikes in M bins =
+ENDELEMENTExtra Slides on Poisson process
+
+What is the probability that n spikes land in the interval T ?
+M! ’ -n
+Fln|= tim mint MA?) (l—Ary"
+
+Note that as At 50: M =2--300 M-n=M
+At
+
+1
+€=—pAt A
+
+r aa aye
+lim (1-wAr)"" = lim (I-pAr)®* =lim(l+e)* = in| sey
+At>0 At>0 €>0 630
+ENDELEMENTExtra Slides on Poisson process
+
+What is the probability that n spikes land in the interval T ?
+
+i noah
+Rsk = im eee e
+
+ 
+
+Note that as M — oo: n terms
+f \ n
+M! T
+—"_=M(M-1)(M-2)-(M-n+l) =~ M" = | —
+(M— my) MDD) neh) (s)
+_1(Ty nour
+pin=={ | (uAtY' €
+Poisson distribution!
+“Fl _ “Ty et
+n! 49
+
+ 
+
+ 
+ENDELEMENTMIT OpenCourseWare
+https://ocw.mit.edu/
+
+9.40 Introduction to Neural Computation
+Spring 2018
+
+For information about citing these materials or our Terms of Use, visit: https://ocw.mit.edu/terms.
+ENDELEMENT

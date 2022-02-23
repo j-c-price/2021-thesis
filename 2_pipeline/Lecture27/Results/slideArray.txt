@@ -1,0 +1,1914 @@
+Outline
+
+1. Introduction to neural circuits
+2. Computational roles of feedback signals
+3. Open questions, challenges, opportunities
+ENDELEMENTBiologically-inspired computation
+
+Claim (without proof):
+over millions of years of evolution, “interesting” solutions to
+
+difficult problems have emerged through changes in neuronal
+circuits
+
+Tools, models,
+
+hardware
+Theories Listening to neuronal
+
+circuits
+
+Decoding activity
+Computational models
+
+Technology developments 4 =
+
+ 
+
+Writing-in information
+© Source Unknown. All rights reserved.
+
+Algorithms, This content is excluded from our Creative
+
+Commons license. For more information,
+solutions see https://ocw.mit.edu/help/faq-fair-use/.
+ENDELEMENTSome features of brain-based computations
+
+* Hardware and software that work for many decades
+* Parallel computation (with serial bottlenecks)
+
+¢ Reprogrammable architecture
+
+* Single-shot learning
+
+* “Discover” structure in data
+
+* Fault tolerance
+
+* Robustness to sensory transformations
+
+* Component interaction and integration of sensory modalities
+ENDELEMENTWhy study neural circuits?
+
+* We can begin to explore high-level at the neural
+circuit level
+
+Golden age for neural circuits: opportunity to
+manipulate, disrupt and interact with neural circuits
+at unprecedented resolution
+
+¢ Theories can be rigorously tested at the neural level
+
+Empirical findings can be readily translated into
+algorithms
+ENDELEMENTRecommended books
+
+LOOK INSIDE!
+
+Mathematics for |
+
+Neuroscientists
+
+ae
+
+ 
+
+tg! 7
+Wirt vic
+
+Lik |
+
+   
+
+ 
+
+© Academic Press. All rights
+reserved. This content is
+excluded from our Creative
+Commons license. For more
+
+© MIT Press. All rights
+reserved. This content is
+excluded from our
+Creative Commons license.
+For more information, see
+https://ocw.mit.edu/help/
+faq-fair-use/.
+
+© Oxford University Press.
+All rights reserved. This
+content is excluded from our
+Creative Commons license.
+For more information, see
+https://ocw.mit.edu/help/
+faq-fair-use/.
+
+mit.edu/help/faq-fair-use/.
+
+ 
+ 
+
+information, see https://ocw.
+
+ 
+
+© MIT Press. All rights reserved.
+This content is excluded from our
+Creative Commons license. For
+
+more information, see https://ocw.
+
+mit.edu/help/faq-fair-use/.
+
+INTRODUCTION TO.
+THE THEORY OF
+NEURAL COMPUTATION
+
+     
+  
+
+© Santa Fe Institute
+Studies in the Sciences
+of Complexity. All
+rights reserved. This
+content is excluded
+from our Creative
+Commons license. For
+more information, see
+https://ocw.mit.edu/
+help/faq-fair-use/.
+
+*Abbott and Dayan. Theoretical Neuroscience - Computational and Mathematical Modeling of Neural
+
+Systems [2001] (ISBN 0-262-04199-5). MIT Press.
+
+*Koch. Biophysics of Computation [1999] (ISBN 0-19-510491-9). Oxford University Press.
+*Gabbiani and Cox. Mathematics for Neuroscientists. [2010] (ISBN 978-0-12-374882-9). Academic Press.
+*Kriegeskorte and Kreiman. Visual Population Codes. [2010] (ISBN 9780262016247). MIT Press.
+
+*Hertz, Krogh, and Palmer. Introduction to the Theory of Neural Computation. [1991] (ISBN 0-20151560-1).
+
+Santa Fe Institute Studies in the Sciences of Complexity.
+ENDELEMENTMethods to study the brain at different scales
+
+brain | 10cm
+
+    
+
+Optical dyes
+
+ 
+
+column | 1mm +
+
+ae layer | 100pm +
+
+neuron Mutti-urits
+
+ 
+
+  
+ 
+   
+ 
+ 
+   
+  
+
+Single-units
+
+10pm +
+
+ 
+
+ 
+
+Light microscopy
+
+ 
+
+dendrite
+Patch clamp
+
+  
+
+ 
+
+2-photon microscopy
+synapse
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+milisecond second minute hour day week month
+
+Courtesy of Elsevier, Inc., http://www.sciencedirect.com. Used with permission.
+Source: Kreiman, Gabriel. "Neural coding: computational and biophysical
+perspectives." Physics of Life Reviews 1, no. 2 (2004): 71-102.
+
+Kreiman. Physics of Life Reviews 2004
+ENDELEMENTSimulating single neurons: A nested family of
+models
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+  
+ 
+  
+ 
+ 
+ 
+   
+
+ 
+
+ 
+
+ 
+
+V X64 (t-+t))
+Filter I(t)
+operations = $ |
+Integrate- / C<gR A
+and-fire ref
+circuit
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Hodgkin-
+Huxley units
+Multi-
+compartmental
+models
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Biological
+accuracy
+
+ 
+
+ 
+
+Spines,
+channels
+
+ 
+
+ 
+
+ 
+
+Lack of analytical
+solutions
+
+Computational
+complexity
+ENDELEMENTGeometrically accurate models vs. spherical cows
+with point masses
+
+/
+
+A central question in Theoretical Neuroscience:
+What is the “right” level of abstraction?
+ENDELEMENTThe leaky integrate-and-fire model
+
+¢ Lapicque 1907
+
+¢ Below threshold, the voltage is governed by:
+
+ca __ VO
+
+—+I(t
+dt R “)
+
+* Aspike is fired when V(t)>V,,,(and V(t) is reset)
+* Arefractory period t,,,¢is imposed after a spike
+
+¢ Simple and fast
+
+* Does not consider:
+
+spike-rate adaptation
+multiple compartments
+sub-ms biophysics
+neuronal geometry
+
+ 
+
+I(t)
+
+7 58 (tt)
+|
+ce Sr a
+
+ 
+
+ 
+
+ 
+ENDELEMENTLeaky I&F neurons: a simple implementation
+
+Cc _ VO)
+
++1
+function [V,spk]=simpleiandf(E_L,V_res,V_th,tau_m,R_m,|_e,dt,n) dt (2)
+% ultra-simple implementation of integrate-and-fire model
+
+% inputs:
+
+%E_L =leak potential [e.g. -65 mV]
+
+% \/_res = reset potential [e.g. E_L]
+
+%\_th = threshold potential — [e.g. -50 mV] <_ All of these lines are comments
+
+% tau_m = membrane time constant [e.g. 10 ms]
+
+%R_m =membrane resistance — [e.g. 10 MOhm]
+
+%\_e = external input [e.g. white noise]
+
+%dt =time step [e.g. 0.1 ms]
+
+%n  =number of time points [e.g. 1000]
+
+%
+
+% outputs:
+
+%\ =intracellular voltage [nx 1]
+
+% spk =Oor 1 indicating spikes [n x 1]
+
+V(1)=V_res; — % initial voltage This is the key line integrating the
+speezeros(nt) differential equation
+V(t)=V(t-1)+(dt/tau_m) * (E_L - V(t-1) + R_m* |_e(t)); | % Change in voltage at time t
+if (V(t)>V_th) % Emit a spike if V is above threshold
+V(t)=V_res; % And reset the voltage
+spk(t)=1;
+end
+end
+
+10
+ENDELEMENTCircuits — some basic definitions
+
+ 
+
+feed-back, exc
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+oroccoe feed-back, inh
+recurrent, exc
+my
+toni recurrent, inh
+feed-forward, exc
+Wij seeeeees feed-forward, inh
+Notes:
+1. Connectivity does not need to be all-to-all
+2. There are excitatory neurons and inhibitory neurons (and many types of inhibitory
+neurons)
+3. Most models assume balance between excitation and inhibition
+4. Most models do not include layers and the anatomical separation of forward and back
+pathways
+5. There are many more recurrent+feedback connections than feed-forward connections
+
+(the opposite is true about models...)
+ENDELEMENTThe visual system shows an approximately hierarchical
+architecture
+
+  
+
+ 
+
+ 
+
+ 
+
+ 
+
+   
+
+SS
+
+imi — | I -
+
+ich — | ts .
+tt
+
+ve
+
+     
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Felleman and Van Essen 1991
+
+© Oxford University Press. All rights reserved. This content is excluded from our Creative
+Commons license. For more information, see https://ocw.mit.edu/help/faq-fair-use/.
+Source: Felleman, Daniel J., and David C. Van Essen. "Distributed hierarchical processing in
+the primate cerebral cortex. " Cerebral cortex 1, no. 1 (1991): 1-47.
+ENDELEMENTAnd a canonical microcircuit structure within
+each area
+
+   
+
+ 
+
+Area A Area B
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+@-6-@
+©
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Douglas and Martin 2004
+
+© Annual Reviews of Neuroscience. All rights reserved. This content is excluded from our
+Creative Commons license. For more information, see https://ocw.mit.edu/help/faq-fair-use/
+
+Source: Douglas, Rodney J., and Kevan AC Martin. "Neuronal circuits of the neocortex.
+"Annu. Rev. Neurosci. 27 (2004): 419-451.
+ENDELEMENTFirst order approximation: “Immediate”
+recognition as a hierarchical feed-forward process
+
+1. Behavior: We can recognize objects within ~150ms (e.g.
+Potter et al 1969, Thorpe et al 1996)
+
+2. Physiology: Visually selective responses to complex
+shapes arise within ~150 ms (e.g. Keysers et al 2001,
+Hung et al 2005, Liu et al 2009)
+
+3. Computation: Bottom up computational models perform
+relatively well in basic object recognition (e.g. Fukushima
+1980, Riesenhuber and Poggio 1999)
+ENDELEMENTWhy are there so many feedback connections?
+
+There are more horizontal + top-down projections than
+
+bottom-up ones (e.g. Dougla
+
+—_
+
+>
+V1
+
+MT |
+DP
+7A
+STPi
+8I
+
+What are feedback signals doing?
+When?
+
+Why?
+
+How?
+
+ 
+
+FLNe
+
+Color ramp
+
+l
+
+Target areas
+
+Markov et al 2012
+
+© Oxford University Press. All rights reserved. This content is
+excluded from our Creative Commons license. For more
+information, see https://ocw.mit.edu/help/faq-fair-use/.
+
+Source: Markov, Nikola T., M. M. Ercsey-Ravasz, AR Ribeiro
+Gomes, Camille Lamy, Loic Magrou, Julien Vezoli, P. Misery et al.
+"A weighted and directed interareal connectivity matrix for
+macaque cerebral cortex." Cerebral cortex (2012): bhs270.
+
+10
+107
+107
+103
+104
+
+105
+
+10%
+Absent
+ENDELEMENTComputational roles of feedback signals
+
+1. Fundamental computations in V1
+2. Visual search
+3. Pattern completion
+ENDELEMENTNeurons in primary visual cortex show
+orientation tuning
+
+Gabor function
+
+ 
+
+210.0.
+
+xy
+
+1 |
+D(x,y)= ext = 292 [Cones ¢)
+
+Image removed due to copyright restrictions. Please see the video.
+Source: Eye, Brain, and Vision. David H. Hubel. New York : Scientific American
+Library : Distributed by W.H. Freeman, c1988. ISBN: 0716750201.
+ENDELEMENTA simple model for simple cells
+
+ 
+
+ 
+
+v1
+
+ 
+
+ 
+
+A feed-forward model for orientation selectivity in V1
+(by no means the only model)
+ENDELEMENTComplex cells show position tolerance
+
+ 
+
+Ll Ll | I “simple” Cell
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+| LILI A LULU LLL “Complex' Cell
+
+ 
+
+Stimulus: black bar
+
+© Wiley. All rights reserved. This content is excluded from our Creative Commons
+
+license. For more information, see https://ocw.mit.edu/help/faq-fair-use/.
+
+Source: Hubel, David H., and Torsten N. Wiesel. "Receptive fields, binocular
+Stimulus presentation time
+
+interaction and functional architecture in the cat's visual cortex. "The Journal of
+physiology 160, no. 1 (1962): 106-154.
+
+ 
+
+ 
+
+ 
+
+ 
+
+( ! Receptive field
+
+19
+ENDELEMENTA model to describe tolerance in complex cells
+
+\ Simple Cells A feed-forward model
+\ describing the responses of
+os complex cells arising from
+\ non-linear (e.g. OR, max)
+combination of inputs from
+multiple simple cells
+
+(by no means the only model)
+
+ 
+
+Complex Cell
+ENDELEMENTReversible inactivation of V2/V3
+
+A B
+
+ 
+
+ 
+
+ 
+
+ 
+
+  
+
+METHANOL ICE BATH
+
+ 
+
+   
+
+ 
+
+Cc D
+Spontaneous Evoked
+- —— 150; JON
+
+0100
+oO
+g
+a
+® 50
+
+=D OFF
+
+.o
+
+SB S46 8 10121416
+
+250 ms Time from cooling onset (min)
+Courtesy of Society for Neuroscience. License CC BY NC SA.
+Source: Nassi, Jonathan J., Stephen G. Lomber, and Richard T. Born.
+"Corticocortical feedback contributes to surround suppression in V1 of
+the alert primate. "Journal of Neuroscience 33, no. 19 (2013): 85048517.
+
+JoJo Nassi and Richard Born
+ENDELEMENTFeedback inactivation does not change
+orientation or direction selectivity
+
+ 
+
+i
+PA
+®
+=
+a
+a
+
+n=36
+
+%
+8 8
+
+8
+
+Preferred ori, cool
+.
+
+ 
+
+0 30 60 90 120 150 180
+
+Mean norm. response
+
+Preferred ori, control
+
+i¢)
+-135 -90 -45 pref +45 +90 +135 +180
+
+orientation-selective
+n=16
+
+ 
+
+ 
+
+ 
+
+75)
+
+Bandwidth, cool
+g B32
+8 8
+
+a
+
+a
+
+Direction (°)
+
+n=28
+
+ 
+
+15. 30 45 60 75
+Bandwidth, control
+
+ 
+
+1.2 direction selective
+al 20
+“| Cooling V2/V3
+“| Control
+0. ‘|
+0. ‘|
+0. *
+° 735 G0 -4S pref +45 +00 +135 +180
+Direction (°)
+E
+1.0)
+Bos
+8
+Pa
+206
+S
+Fa
+20.4
+5
+s he
+3
+§02} . 2 ¢
+90 0 02 04 06 08 10
+
+Circular variance, control
+
+Courtesy of Society for Neuroscience. License CC BY NC SA.
+
+Source: Nassi, Jonathan J., Stephen G. Lomber, and Richard T. Born.
+"Corticocortical feedback contributes to surround suppression in V1 of
+
+the alert primate. "Journal of Neuroscience 33, no. 19 (2013): 85048517. Nassi et al 2013
+
+22
+ENDELEMENTTemporal dynamics of feedback inactivation
+
+effects
+
+  
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+a a a |
+
+ 
+
+Diet coking
+
+   
+
+ 
+
+ 
+
+ 
+
+Courtesy of Society for Neuroscience. License CC BY NC SA.
+Source: Nassi, Jonathan J., Stephen G. Lomber, and Richard T. Born.
+"Corticocortical feedback contributes to surround suppression in V1 of
+the alert primate. "Journal of Neuroscience 33, no. 19 (2013): 85048517.
+23
+ENDELEMENTArea summation curve in V1
+
+BY)
+no)
+oO
+©
+x
+
+'
+
+  
+
+Spike rate
+
+PY)
+fed)
+g
+3
+
+ 
+
+eee eee
+
+Summation Field Surround Diameter
+
+ 
+
+Courtesy of Frontiers in Systems Neuroscience. Used with permission.
+
+Source: Nassi, Jonathan J., Camille Gomez-Laberge, Gabriel Kreiman, and
+
+Richard T. Born. "Corticocortical feedback increases the spatial extent of
+
+normalization. "Frontiers in systems neuroscience 8 (2014): 105. 24
+ENDELEMENTFeedback inactivation leads to reduced
+surround suppression
+Composite
+
+Control V2 & V3 inactive
+1.5 columns
+
+Rocak-}-----33
+
+Rasym-f---
+
+Pumps. Pumps
+
+off on °
+
+Rec. Rec. summation Field Surround Diameter
+100 56% contra
+
+so Py
+
+ist
+Ole
+0 0.16025 04063 1 16 25 4 63
+
+Spike
+rate
+
+ 
+
+ 
+
+x xX
+xX
+
+ 
+
+  
+
+oO
+
+4
+
+& a
+
+o 3 10% contrast
+x x
+
+G 50)
+
+ne
+
+ 
+
+  
+
+ 
+
+>}
+
+1 16 2.5
+
+0 0.160.25 0.4 0.63
+Stimulus diameter (°)
+
+Stimulus diameter (degrees)
+
+Courtesy of Frontiers in Systems Neuroscience. Used with permission.
+Source: Nassi, Jonathan J., Camille Gémez-Laberge, Gabriel Kreiman, and Richard T. Born. "Corticocortical
+
+feedback increases the spatial extent of normalization. "Frontiers in systems neuroscience 8 (2014): 105.
+25
+ENDELEMENTA simple normalization model to explain area
+
+summation curves
+
+Area Summation | Nonlinearity | Gain |Normalization| Output
+
+Wb
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+  
+
+ 
+
+ 
+
+Ro
+
+a 2 ky
+
+SS y
+
+WN o
+Stimulus x :
+
+D(x)
+R = R, +———
+#06) = Ry + Gy
+kK [w,erf (x/2w,)"]
+Rrog(*) = Ry + pl per v) 2
+ot+k,[wyerf(x/2w,) ]
+
+Spike rate (s') Spike rate (s
+
+Spike rate (s"1)
+
+Spike rate (s"')
+
+100 . large
+varying kp
+
+      
+  
+
+ 
+
+ 
+
+ 
+
+varying wn
+
+ 
+
+ 
+
+02 05 ?t #+%F8 4 8
+Stimulus diameter (°)
+
+Courtesy of Frontiers in Systems Neuroscience. Used with permission.
+Source: Nassi, Jonathan J., Camille Gmez-Laberge, Gabriel Kreiman, and Richard T. Born. "Corticocortical
+feedback increases the spatial extent of normalization. "Frontiers in systems neuroscience 8 (2014): 105.
+ENDELEMENTFeedback increases the normalization width: w,,
+
+A 0.04 (p=0.01) B 55'(p=0.06) C 7s'(p<0.001) D 0.08 (p < 0.001)
+50 " 20 v 30 M 30 v
+o ao ° a a °
+2 10 20) 20)
+5 10] 10)
+s 05 0 0.5 1 ° 0 0 50 o 80 0 50 O15 0 05
+ASF (Feedback inactive - Control,’) AR soak (Feedback inactive - Control,s~) AR asym (Feedback inactive - Control,s“') ASSI (Feedback inactive - Control)
+
+p= 0.006
+
+Q@
+3
+
+"
+
+oS
+©
+
+x
+
+  
+
+m
+>
+
+W
+
+°
+q
+
+a
+
+ 
+
+e@ p=0.2
+
+  
+
+ 
+
+ 
+
+ 
+
+   
+
+10000] - 1 _
+™ a g s A 2
+Fa 2 3
+€ “ 8 3 075 &
+3 ° = 8 0. A £
+1 / % = %
+x Soa
+S A Fa S 3
+§ 5000 J 3 & os} a ° 9 3
+3 A 8 8 ° 3
+fa as £ & 6 20 c500 a L
+“a ° Zz or: e Zz
+a Bo %o 3 3° 0.25 rf ° 2
+A
+0} 0!
+0 0 10000 0 60 0 0.25 075 1 1 3 4
+Ke Controt) ky Control) wp (Contra) Wy Contos}
+
+Courtesy of Frontiers in Systems Neuroscience. Used with permission.
+Source: Nassi, Jonathan J., Camille Gomez-Laberge, Gabriel Kreiman, and Richard T. Born. "Corticocortical
+
+feedback increases the spatial extent of normalization. "Frontiers in systems neuroscience 8 (2014): 105.
+27
+ENDELEMENTComputational roles of feedback signals
+1. Fundamental computations in V1
+
+2. Visual search
+3. Pattern completion
+
+Picture of Waldo removed due to copyright restrictions
+ENDELEMENTFeedback
+signals in
+visual
+search
+
+Figure removed due to copyright restrictions. Please see the video.
+
+Source: Miconi, Thomas, Laura Groomes, and Gabriel Kreiman.
+"There's Waldo! A normalization model of visual search predicts
+single-trial human fixations in an object search task."Cerebral
+Cortex (2015): bhvi29.
+
+29
+ENDELEMENTThe model can search for objects in cluttered
+images
+
+Figure removed due to copyright restrictions. Please see the video.
+Source: Miconi, Thomas, Laura Groomes, and Gabriel Kreiman.
+"There's Waldo! A normalization model of visual search predicts
+single-trial human fixations in an object search task."Cerebral
+Cortex (2015): bhv129.
+ENDELEMENTThe model’s performance is comparable to human
+performance in the same visual search task
+
+Figure removed due to copyright restrictions. Please see the video.
+Source: Miconi, Thomas, Laura Groomes, and Gabriel Kreiman.
+"There's Waldo! A normalization model of visual search predicts
+single-trial human fixations in an object search task."Cerebral
+Cortex (2015): bhv129.
+ENDELEMENTFigure removed due to copyright restrictions. Please see the video.
+Source: Miconi, Thomas, Laura Groomes, and Gabriel Kreiman.
+"There's Waldo! A normalization model of visual search predicts
+single-trial human fixations in an object search task."Cerebral
+Cortex (2015): bhv129.
+
+ 
+
+32
+ENDELEMENTComputational roles of feedback signals
+
+1. Fundamental computations in V1
+2. Visual search
+3. Pattern completion
+
+ 
+
+Image by Hanlin Tang
+
+Courtesy of Hanlin Tang. Used with permission.
+ENDELEMENTInference and pattern completion as a hallmark of
+
+intelligence
+* ° 7 S —_— ——
+E23 OT " —_— ok
+wee eegeren = vat Recognition
+Even though it was raining heavily,
+Jonathan decided to go out without
+an
+Also:
+Other sensory modalities
+Music
+
+Social interactions
+ENDELEMENTObjects can be recognized from partial information
+
+ 
+
+20 bubbles
+
+ 
+
+10 bubbles
+
+6 bubbles
+
+4 bubbles
+
+© Singer-Verlag. All rights reserved. This content is excluded from our Creative
+Commons license. For more information, see .
+35
+
+ 
+
+ 
+ENDELEMENTBehavior: Robustness to presentation of
+partial image information
+
+Unmasked Partial
+100
+
+80
+
+response
+—S— 25 ms
+
+—s— 75 ms
+~~ 100 ms
+—©— 150 ms
+
+Performance
+s
+3
+a
+
+ 
+
+20
+
+ 
+
+ 
+
+50 60 70 80
+% Occlusion
+
+500 ms
+
+© Singer-Verlag. All rights reserved. This content is excluded from our Creative
+Commons license. For more information, see https://ocw.mit.edu/help/faq-fair-use/.
+
+ 
+
+   
+ 
+
+36
+ENDELEMENTExample responses during object completion
+
+ 
+
+ 
+
+IFP (yV)
+
+— T
+
+1
+
+ 
+
+ 
+
+ 
+
+ 
+
+Courtesy of Elsevier, Inc., http://www.sciencedirect.com. Used with permission.
+Source: Tang, Hanlin, Calin Buia, Radhika Madhavan, Nathan E. Crone, Joseph R.
+Madsen, William S. Anderson, and Gabriel Kreiman. "Spatiotemporal dynamics
+underlying object completion in human ventral visual cortex." Neuron 83, no. 3
+
+(2014): 736-748.
+Tang et al,
+Neuron 2014
+37
+
+Inferior Temporal Gyrus
+ENDELEMENTExample responses during object completion
+
+ 
+
+IFP (uV) _ Inferior Temporal Gyrus.
+-300 300
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ae
+
+6 200400600 0 200400600
+Time (ms) Time (ms)
+
+ 
+
+ 
+
+Courtesy of Elsevier, Inc., http://www.sciencedirect.com. Used with permission. T, t |
+Source: Tang, Hanlin, Calin Buia, Radhika Madhavan, Nathan E. Crone, Joseph R. ang eta ,
+Madsen, William S. Anderson, and Gabriel Kreiman. "Spatiotemporal dynamics Neu ron 2014
+
+| underlying object completion in human ventral visual cortex." Neuron 83, no. 3
+Inferior Temporal Gyrus (ory) e455.
+ENDELEMENTLimited object completion in feed-forward model
+
+Figure removed due to copyright restrictions. Please see the video.
+Source: Figure 29, Kreiman, Gabriel. "Computational models of
+
+visual object recognition. "Principles of Neural Coding 1 (2013): 0.
+
+2000 “C2" units in the model
+
+Model responses to 25 exemplar objects
+Consider 20 units with high SNR (training data)
+500 repetitions with different bubble locations
+Train classifier with 70% of the repetitions
+
+Test classifier on remaining 30% of the repetitions
+Identification task (chance=4%)
+
+39
+ENDELEMENTD
+
+0.04 n = 10,438 pairs
+22 electrodes
+
+0.03
+
+0.02
+
+Distribution
+
+0.01
+
+ 
+
+0 5 10 15 20
+Percent Overlap
+
+40
+ENDELEMENTAdding recurrency to deep network models
+
+Grayscale Input fh f | fh
+I " f Normalize Linear SVM
+WhO > L112 =
+
+  
+
+ 
+
+— ae
+
+pres Ss
+
+ 
+
+Threshold &
+Saturate
+
+® 0,
+@ ©
+
+Pool Normalize
+
+ 
+
+Bill Lotter, Hanlin Tang,
+ENDELEMENTPreliminary results: Recurrent connections
+can improve recognition of occluded objects
+
+Behavior
+
+Unmasked
+
+100
+
+80
+
+O— 25 ms
+—©— 50 ms
+—e— 75 ms
+~~ 100 ms
+—©— 150 ms
+
+Performance
+
+ 
+
+20
+
+ 
+
+  
+ 
+
+ 
+
+50 60 70 80
+% Occlusion
+
+90
+
+100
+
+Performance
+
+Recurrent model
+Trained on whole images
+
+100 5
+
+2
+Ss
+
+2
+8
+
+40 4
+
+Recurrent model
+
+Feed-forward model ee
+Pixels
+
+id Pete ceiesiee wie meme Sateen = = = = = = chance
+20 +
+
+50
+
+60 70 80 90 100
+% Occlusion
+
+42
+ENDELEMENTBackward masking has been proposed to reduce
+the effects of feedback
+
+Models:
+
+50-90 ms
+
+(a) j
+
+: (b)
+* *
+_ — g =
+~*> - > Ns
+, , — 4 ~~ = 100ms
+40-80 ms .
+
+80-150 ms sim (i
+
+0 40ms
+
+ 
+
+trends in Neurosciences
+
+Lamme V, Roelfsema P (2000)
+
+Courtesy of Elsevier, Inc., http://www.sciencedirect.com. Used with permission.
+Source: Lamme, Victor AF, and Pieter R. Roelfsema. "The distinct modes of vision
+offered by feedforward and recurrent processing." Trends in neurosciences 23, no.
+11 (2000): 571-579.
+
+* For short delays (SOA<20ms), the mask reduces visibility of the first stimulus.
+
+* For longer delays, the mask disrupts top-down processing.
+
+ 
+
+43
+ENDELEMENTObject completion task (psychophysics)
+
+Whole Partial
+
+   
+ 
+  
+
+Unmasked
+
++9) response
+ENDELEMENTBackward masking impairs recognition of partial
+objects at short SOAs
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Whole Partial
+Unmasked
+100 100
+» 80 80 PS
+Oo
+2
+E
+5 60 60
+5
+a
+40 40
+20 20
+50 100 150 0 50 100 150
+SOA SOA
+Whole ~~) Partial —
+Masked
+100 SA 100
+» 80 80
+Oo
+2
+E
+5 60 60
+5
+a
+40 40
+20 20
+50 100 150 0 50 100 150
+SOA SOA
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTModel performance in masking experiment
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Unmasked Masked
+100 ' 100
+90 90
+80 80
+70 70
+(0)
+2 0 8 60
+Cc
+© G
+E E 50
+£ ¢
+oc oO
+o 40 a 40
+a
+30 30
+eee eee 4 eee |
+20} —@—1 time step SOA 20+ —@—1 time step SOA
+—o—2 —o—2
+10} “O38 10} “G3
+—-e—4 —-e—4
+0 mn mn 0 4. 4.
+70 75 80 85 90 70 75 80 85 90
+% Occlusion
+
+% Occlusion
+ENDELEMENTOutput
+Ro
+
+    
+ 
+
+ 
+
+Nonlinearity he
+
+ 
+
+   
+
+ 
+
+«Basic mechanisms in V1: Feedback
+signals enhance surround suppression
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+«Visual search: Tuned feedback signals
+can instantiate visual search (and
+feature-based attention)
+
+(Turing question: what will happen
+next?)
+
+=Pattern completion: Feedback and/or
+recurrent connections can help
+recognize heavily occluded objects
+(Turing question: what is there?)
+
+ 
+
+ 
+
+Threshold & Pool Newaaee
+
+| = i = 6
+
+ 
+
+ 
+ENDELEMENTOutline
+
+. Introduction to neural circuits and computational
+models
+. Computational roles of feedback signals
+
+3. Open questions, challenges, opportunities
+ENDELEMENTReasons for optimism
+
+¢ Wiring diagram: Rapid progress tracing circuits in
+humans (low resolution) and animal models (high
+resolution)
+
+¢ Strength in numbers: Rapid progress recording and
+mathematically analyzing neurophysiological
+activity from large ensembles in humans and
+animal models
+
+¢ Source code: We can manipulate neural circuits
+(rodents, macaques) to examine necessary and
+sufficient computational elements «e
+ENDELEMENTWiring diagrams
+
+ 
+
+Courtesy of Professor Sander van den Heuvel
+and Dr. Mike Boxem. Used with permission.
+
+ 
+
+© Carl Zeiss Microscopy. All rights reserved. This content is excluded
+from our Creative Commons license. For more information, see
+https://ocw.mit.edu/help/faq-fair-use/.
+
+*’ SIGNAL FLOW VIEW
+
+  
+
+"honmatzed Lapiacan eigenvector?
+
+“AFFINITY VIEW
+
+ 
+
+    
+
+‘he deton oF signal fw Is mosty
+ondiectonalagjaeney oF MEOH
+
+Original work: Sydney Brenner
+
+Image: Doctoral Dissertation Thesis by
+Beth Chen, 2007
+
+Varshney, Lav R., Beth L. Chen, Eric Paniagua, David H. Hall, and Dmitri B.
+Chklovskii. "Structural properties of the Caenorhabditis elegans neuronal
+network." PLoS Comput Biol 7, no. 2 (2011): e1001066. DOI:
+
+10.1371/journal.pcbi.1001066. License CC BY. 50
+ENDELEMENTTime (minutes)
+
+ 
+
+Hanlin Tang, Matias Ison, Itzhak Fried
+51
+
+Pseudopopulation: 318 units
+ENDELEMENTStrength in numbers: electrode arrays (e.g.
+
+Boyden)
+
+Massachusetts
+Institute of
+
+I | I Technology
+
+oY.
+
+ 
+
+of Optogenetically Modulated Neural Dynamics
+
+J. Scholvin', S.K. Arfin', J. Bernstein’, J. Kinney’, C. Moore-Kochlacs",
+P.E. Monaghan’, A.N. Zorzos', N, Kopell?, C.G. Fonstad’, E.S. Boyden!
+
+' synthetic Neurobiology Group, MIT Media Lab and MIT McGovern Institute,
+Departments of Biological Engineering and Brain and Cognitive Sciences,
+Massachusetts Institute of Technology, Cambridge, MA, ? Boston University, Boston, MA
+
+McGOVERN INSTITUTE
+
+Introduction 3-D Array Construction
+
+ 
+
+     
+   
+  
+
+ 
+
+lng each Diners The Shope alignment bcket
+
+ 
+
+Electrical Connections and Testing
+
+   
+
+Frese 1 sob oro bum pu ths warts
+adance na 30000}.
+
+ 
+
+Design Components
+
+ 
+
+ 
+
+of Pncplecthe 3 ray asemb, The
+
+  
+ 
+   
+
+‘im Tewedmenscrscnessybevaredoyuneet Poceiwereeredsphesnsimananeshesed ||}
+Siren ate artes adhere ok; resol unde Mob ments, Oat
+
+ 
+
+: - th
+-@ ay een Th
+lil
+
+ 
+
+beng edb sum
+
+Scalable 3-D Microelectrode Recording Architectures for Characterization
+
+ 
+
+ 
+
+ 
+
+SymthetieNewrobiology
+
+  
+
+[ir ve | aca nee
+
+Future Amplifier Integration
+
+gh: Angier pte design
+
+  
+  
+  
+    
+   
+   
+
+© Jorg Scholvin and Edward Boyden. All rights reserved. This content is excluded from our
+Creative Commons license. For more information, see https://ocw.mit.edu/help/faq-fair-use/.
+ENDELEMENTPlaying with the source code: Using light to
+modulate neural with high specificity
+
+activate sxmiotenonce CHRZ i csesntaneuone
+
+silence
+
+ 
+
+© Elsevier, Inc. All rights reserved. This content is excluded from our Creative
+Commons license. For more information, see https://ocw.mit.edu/help/faq-fair-use/.
+Source: Han, Xue, Xiaofeng Qian, Jacob G. Bernstein, Hui-hui Zhou, Giovanni Talei
+Franzesi, Patrick Stern, Roderick T. Bronson, Ann M. Graybiel, Robert Desimone, and
+Edward S. Boyden. "Millisecond-timescale optical control of neural dynamics in the
+nonhuman primate brain." Neuron 62, no. 2 (2009): 191-198.
+
+ 
+
+© Edward Boyden. All rights reserved. This content is excluded
+from our Creative Commons license. For more information, see
+https://ocw.mit.edu/help/faq-fair-use/.
+
+Boyden-Desimone
+
+53
+ENDELEMENTBiological codes to computational codes
+
+y Image of Ava from Ex Machina removed
+—~ ( due to copyright restrictions.
+
+ 
+
+ 
+
+Biological => Computer
+
+code code
+
+ 
+
+ 
+
+ 
+
+‘Area Summation | Nonlinearity | Gain |Normalization| Output
+
+Wo
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Ro
+; k ye Ru)
+© Source Unknown. All rights reserved. LJ
+This content is excluded from our Creative a kw
+Commons license. For more information, LJ
+see https://ocw.mit.edu/help/faq-fair-use/. ww o
+a 8 7 WS
+
+Tie rinses) Stimulus x
+ENDELEMENTMIT OpenCourseWare
+https://ocw.mit.edu
+
+Resource: Brains, Minds and Machines Summer Course
+Tomaso Poggio and Gabriel Kreiman
+
+The following may not correspond to a particular course on MIT OpenCourseWare, but has been
+provided by the author as an individual learning resource.
+
+For information about citing these materials or our Terms of Use, visit: https://ocw.mit.edu/terms.
+ENDELEMENT

@@ -1,0 +1,724 @@
+Introduction to Neural
+Computation
+
+Prof. Michale Fee
+MIT BCS 9.40 — 2018
+
+Spike trains
+ENDELEMENTElectrical recordings of brain activity
+
+* Electrical recordings in the brain are made
+with electrodes.
+
+* Recordings can be made inside of single cells
+
+* Most often, in behaving animals, recordings
+are made of signals outside of neurons.
+ENDELEMENTElectrical recordings of brain activity
+
+What is the origin of ‘extracellular’ electrical signals?
+
+Voltage measurements are always
+voltage differences
+
+Extracellular voltages are always
+measured between the signal
+electrode and a local ground or
+reference electrode.
+
+Voltage differences between the
+signal and ground electrode are
+always associated with current flow
+through the extracellular space.
+
+ 
+
+Back to Ohm's Law!
+
+AV =IR,,, Rr, =!
+ENDELEMENTOrigin of extracellular signals
+
+What happens to the voltage outside our model neuron during an
+action potential?
+
+Nat*
+Let's start with our spherical neuron
+
+There is no spatial separation between
+current flows into the neuron and current
+flow out of the neuron. Thus, no current intracellular
+flow outside the neuron.
+
+And thus no extracellular voltage changes! extracellular
+ENDELEMENTOrigin of extracellular signals
+
+What happens to the voltage outside our model neuron during an
+action potential?
+
+Now let's see what happens when we add a
+
++ Nat
+dendrite. Ne
+| <—_—___—
+Nat Nat
+
+Now there is extracellular current flow
+
+ve tF fT TR
+
+ext Ro Log
+
+ext
+
+tL, —Ls soma
+Sr
+
+extracellular
+And extracellular voltage changes!
+ENDELEMENTCurrent sources and sinks
+
+What happens to the voltage outside our model neuron during an
+action potential?
+
+Nat Na*
+<—_—_————
+Nat Na*
+¢ Extracellular current flows from current sources to
+current sinks
+<Sicallular
+
+Current sources are regions et 4, 24 al al £4.
+of higher extracellular
+
+potential
+Current sinks are regions of el os
+lower extracellular potential ex<iacellluler
+
+Current source Current sink
+ENDELEMENTRelation between membrane potential and
+extracellular potential
+
+AV, = RI, =R,,U,+1,)
+
+ext ext” ext ext
+
+ 
+
+dV.
+=R_|C—*+GV_-E
+| dt ( m 5)
+
+Figure removed due to copyright restrictions. See Henze, dV
+DAA, et al. “Dopamine Increases Excitability of Pyramidal AV. = m
+
+Neurons in Primate Prefrontal Cortex.” J. Neurophys. 84 ext ext
+no. 6 (2000): 2799-2809. dt
+
+ 
+
+m
+A} AF Gn
+R t
+ex Ey,
+Henze et al, 2000 uw
+—_—_ AV
+ext ext soma
+
+Extracellular voltages look a lot like the extracellular
+
+derivative on membrane potential!
+ENDELEMENTOrigin of extracellular signals
+
+What happens to the voltage outside our model neuron during a
+synaptic input?
+
+Excitatory synapse
+
+Current sink Current source
+
+Vin 1) Veg (t) ;
+= time time
+ENDELEMENTOrigin of extracellular signals
+
+What happens to the voltage outside our model neuron during a
+synaptic input?
+
+Inhibitory synapse
+
+Current source Current sink
+
+Vig (t) p Vow (t)
+time Z time
+ENDELEMENTLocal Field Potentials
+
+* Synchronous synaptic input to large populations
+of neurons
+
+* Depends on linear summation
+— morphology is important
+
+> Be
+
+Laminar morphology Nuclear morphology
+— large LFP — small LFP
+
+ 
+
+10
+ENDELEMENTElectrical recordings of brain activity
+
+Analog to
+Digital
+
+Converter
+(ADC)
+
+SAMPLING
+
+The analog to digital converter samples the voltage from the amplifier at
+regular intervals in time and stores the result in the computer memory.
+
+oe
+f ~~ a 7 At sampling frequency, f -1
+~ At
+jt Wns, e.
+sf ~ Ns, ~
+“o
+
+The rate at which the samples are acquired is called the sampling rate or
+sampling frequency.
+
+ 
+
+11
+ENDELEMENTTwo kinds of signals
+
+Recording of neural activity in hippocampus of a running rat.
+
+200ms
+
+Slow - Local Field Potentials (LFP)
+
+raw data power spectrum
+— Synaptic currents 0
+
+* Fast - Spikes
+— Action potentials
+
+cel a
+
+10°
+frequency (Hz) 12
+ENDELEMENTLow-pass filtering
+
+of Low-pass filtering can be done by convolving
+-19f the signal with a kernel like this.
+eof
+30)
+area = 1
+
+40)
+50)
+-60)
+-7obnt- - q +
+
+10 10 10 10
+
+ 
+
+ 
+
+frequency (Hz)
+
+13
+ENDELEMENTExplanation of low pass filter
+
+Kernel
+(0) 0.5 0.5 (0) Signal
+1 E} 1 E} 1 EB} 5 E} 5 E} 5
+
+S- 2 Sum
+
+Filtered output
+
+14
+ENDELEMENTExplanation of low pass filter
+
+Kernel
+(0) 0.5 0.5 (0) Signal
+1 E} 1 E} 1 EB} 5 E} 5 E} 5
+
+S- 2 Sum
+
+Filtered output
+
+15
+ENDELEMENTExplanation of low pass filter
+
+Kernel
+0 0.5 0.5 0 Signal
+1 BE} 1 BE} 1 } ) BE} 5 BE} )
+(¢) 1.5 2.5 (¢) Product
+S- 4 Sum
+| Filtered output
+ENDELEMENTPower(dB)
+
+-180'
+
+ 
+
+ 
+
+High-pass filtering
+
+High-pass filtering can be done by convolving
+the signal with a kernel like this.
+
+Total area = 0
+
+ 
+
+10° 10
+frequency (Hz)
+
+woven nfeaphntenrctinne nti
+
+17
+ENDELEMENTSpike detecton
+
+* If you are recording from only a single neuron, it is easy
+to extract spike times...
+
+Spike detection threshold
+
+  
+ENDELEMENTSpike trains
+
+* Representation of all the spikes that a neuron generates in a period
+of time of interest
+
+Spike detection threshold
+
+  
+
+— | [|] | [| [|
+
+t t, t; t, tt, te
+
++ We can represent a spike train as a list of spike times
+[ for i=\to N spikes
+ENDELEMENTSpike trains
+
+* Spike trains can also be represented a sum of delta
+
+ 
+
+ 
+
+functions.
+Ze
+ty t, ts t, ts ts
+p(t) = d(t-t) + d(@t-4,) + d(t-4) p(t)= > 5(t-4)
+
++ O(t-t,) + d(t-t,) + d(t-t)
+* p(t) can be thought of as the derivative of a spike count function
+
+T
+N(t) J par =N (#spikes)
+0
+
+p(t) has units of spikes per second
+
+ORPNWSA
+
+t
+ENDELEMENTTuning curves
+
+* Simple cells in primary visual cortex of the cat are
+responsive to some orientations, but not others.
+
+ 
+
+ 
+
+-40 -20 0 20 40
+S (orientation angle in degrees)
+
+These neurons show ‘orientation tuning.’
+
+21
+ENDELEMENTTuning curves
+
+Hearing / ear diagram removed due to copyright restrictions.
+Source unknown
+
+Unfolded cochlea figure removed due to copyright restrictions.
+Source unknown.
+
+7I-176- 11
+
+DISCHARGE RATE (PER SEC)
+
+  
+
+FREQUENCY (kHz)
+
+Auditory neurons show frequency tuning
+ENDELEMENTTuning curves
+
+* Relation between spiking activity of a neuron in primary
+motor cortex and the onset of the arm movement.
+
+Figures removed due to copyright restrictions. See Figs. 1 & 3 in Georgopoulos, A.P.,
+et al. “On the Relations Between the Direction of Two-Dimensional Arm Movements
+and Cell Discharge in Primate Motor Cortex.” J. Neurosci. 2 no. 11(1982): 1527-37.
+
+ 
+
+23
+ENDELEMENTTuning curves
+
+* Relation between spiking activity of a neuron in primate
+primary motor cortex and the onset of the arm movement.
+
+Figures removed due to copyright restrictions. See Figure 4 in Georgopoulos, A.P., et
+al. “On the Relations Between the Direction of Two-Dimensional Arm Movements and
+Cell Discharge in Primate Motor Cortex.” J, Neurosci. 2 no. 11(1982): 1527-37.
+
+M1 neurons show tuning for movement direction.
+ENDELEMENTTrial #
+
+Quantifying firing rates
+
+* Method 1: Trial average firing rate.
+
+— Count the number of spikes in each trial. Average over trials.
+
+ 
+
+ 
+
+ 
+
+Stimulus time
+—_ onset ~~ offset °
+es ee ee eee | |
+2 | ttl ttt
+3 | oe | | |
+4 ltd || |
+5 | ee ee
+T
+(N,) N, = number of spikes on trial i
+R=-—
+~ T ( ). denotes the average over all trials i
+
+25
+ENDELEMENTQuantifying firing rates
+
+* We can get higher temporal resolution by breaking the
+rate calculation into smaller units in time.
+
+ 
+
+ 
+
+ 
+
+ 
+
+Stimulus time
+—_ onset offset »
+1 | | =_iinnae i: |
+2
+= 3 | | | |i | | |
+= 4 | | || I |
+5 | Hh we | || | |
+Bin 1 2 3 4 <——>
+AT
+
+ 
+
+ 
+
+Trial-average rate in time bin J N, = number of spikes on trial i in bin j
+
+R- 1 (Ny, ) (), denotes the average over all trials i
+Tm VT;
+AT '
+ENDELEMENTQuantifying firing rates
+¢ Peri-Stimulus Time Histogram (PSTH)
+or Peri-Event Time Histogram (PETH)
+
+Figures removed due to copyright restrictions. See Figure 2 in Georgopoulos, A.P., et
+al. “On the Relations Between the Direction of Two-Dimensional Arm Movements and
+Cell Discharge in Primate Motor Cortex.” J, Neurosci. 2 no. 11(1982): 1527-37.
+
+Georgopoulos, 1982
+ENDELEMENTQuantifying firing rates
+
+* The same trick can be used to estimate firing rates in
+continuous spike trains (not associated with trials).
+
+number of spikes in bin j
+
+Nj
+| | un vi WoT WT |
+AT
+
+N,
+
+_— J
+
+1 AT
+
+The problem with using fixed bins here is that the answer
+depends on where the boundaries are
+ENDELEMENTQuantifying firing rates
+
+* A continuous measure of firing rate.
+
+i WE
+
+<< —>
+
+AT
+
+We count the number of spikes in a small window of width AT
+and shift the window in smaller steps
+
+How can we describe this mathematically (you ask)?
+ENDELEMENTQuantifying firing rates
+* A continuous measure of firing rate.
+boo UIT EP ee
+We can write this process down mathematically as follows.
+
+First, we use the fact that the number of spikes in an interval t, to
+
+ 
+
+t is given b 7)
+“vs N= | p(tat
+
+N 1 t +AT/2 ee ai
+R(t)=——=— | pla)dt ATA ~ 14Al/,
+
+AT AT t—AT/2
+ENDELEMENTQuantifying firing rates
+* A continuous measure of firing rate.
+
+ 
+
+ 
+
+ 
+
+t
+But this is just a convolution! We are convolving our spike train with a
+square kernel of width AT.
+
+ 
+
+Kernel
+oo xey=| VAT if |t|< 47
+R(t)= | p@-1)K(a)dt 0 otherwise
+area = 1
+Notation Var
+
+ 
+
+R(t) = p(t)* K
+(= pO) a poy
+ENDELEMENTQuantifying firing rates
+
+* A continuous measure of firing rate.
+
+ 
+
+Even better is to convolve with a Gaussian kernel
+
+Kernel
+
+R(t) = p(t)*K
+
+ 
+
+Gaussian kernel is still averaging - it is just a weighted average,
+with less weight at the edges.
+ENDELEMENTQuantifying firing rates
+
+* Summary
+
+ 
+
+A
+3 )
+(MN) MODAL
+a
+ao
+B 100
+&
+
+ 
+
+ 
+
+0 = [1 [ll
+
+ 
+
+ 
+
+ 
+
+0.0 0.5 1.0 1.5 2.0 25 3.0
+time (s)
+
+Figure courtesy MIT Press. From Dayan, P. and L. Abbott. Theoretical Neuroscience: Computational and
+Mathematical Modeling of Neural Systems. 2001.
+
+ 
+
+ 
+
+33
+ENDELEMENTKey problem
+* You have to choose a timescale to measure the firing rate.
+
+But you get a different answer for every different timescale!
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+““O= 4 ms |
+= Pt hiss al A full hy ut fen im
+5 “lo = 20 ms | 1
+i = 0 . ——————————————E ]
+
+ 
+
+ 
+
+T 1 1 | i | 1
+100 200 300 400 500 500 700 300 300
+
+ 
+
+Time (ms)
+
+34
+ENDELEMENTTemporal structure of responses
+
+* Neuronal responses are not static. They have a strong
+temporal structure.
+
+ 
+
+ 
+
+es Abi to
+° LL. hace ° lL iusee
++k | sm f- vn
+
+ 
+
+ 
+
+Recordings from vibrissa cortex in the rat. Response to whisker deflections.
+
+35
+ENDELEMENTTemporal structure of responses
+
+* Auditory neurons can be strongly locked to the phase of
+the sound waveform.
+
+ 
+
+1000
+N
+& 500 HZ
+2 70 DB SPL The spike timing is precisely
+< controlled.
+[e))
+& °o
+ic i] 10 20 30 40 50
+
+MILLISECONDS
+
+The firing rate is rapidly modulated in time.
+ENDELEMENTRate vs timing?
+
+* Sensory neurons spike more in response to some stimuli than others
+Motor neurons spike more before or during some actions than others
+
+ 
+
+Therefore, information about a stimulus (or motor action) is carried in the
+numbers of spikes generated.
+
+ 
+
+* All neurons exhibit temporal modulation of their firing rate (or spiking
+probability per unit time).
+
+ 
+
+If information is carried in the slow modulations spike probability, we say
+that the information is coded by firing rate.
+
+‘Rate coding’
+
+ 
+
+ 
+
+(— If information is carried in the fast modulations in spike probability, we say
+the the information is coded by spike timing.
+
+ 
+
+‘Temporal coding’
+
+ 
+
+ 
+ENDELEMENTRate vs timing?
+
+You may occasionally hear a debate about ‘rate coding’ vs.
+‘temporal coding’.
+
+This is a false dichotomy. These are two extremes along a
+spectrum.
+
+The brain uses information in spike trains at a fast timescale and
+at a slow timescale.
+
+How do we determine what timescales are important?
+
+We look at what the downstream neurons do with these spikes!
+
+> What timescale is relevant for the computation being done?
+
+> What are the biophysical processes in the downstream neurons.
+ENDELEMENTMIT OpenCourseWare
+https://ocw.mit.edu/
+
+9.40 Introduction to Neural Computation
+Spring 2018
+
+For information about citing these materials or our Terms of Use, visit: https://ocw.mit.edu/terms.
+ENDELEMENT

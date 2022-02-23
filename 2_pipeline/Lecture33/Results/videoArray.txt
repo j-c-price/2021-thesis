@@ -1,0 +1,2718 @@
+  
+
+H rT Massachusetts "
+Institute of
+Technology
+
+RES.9-003, Summer 2015
+Brains, Minds and Machines Summer C
+Larry Abbott
+
+Seminar 1: A Mind in the Fly Brain
+ENDELEMENTSome content in this video is not coverec
+our Creative Commons license.
+See the closing credits for more inform:
+ENDELEMENT 
+ENDELEMENTCie) a
+
+ 
+ENDELEMENT‘Mushroom body endows organisms with a degree of
+free will or intelligent control over instinctive actions
+= Dujardin, 1850
+
+ 
+ENDELEMENT‘Mushroom body endows organisms with a degree of
+free will or intelligent control over instinctive actions
+= Dujardin, 1850
+
+ 
+ENDELEMENT‘Mushroom body endows organisms with a degree of
+free will or intelligent control over instinctive actions
+= Dujardin, 1850
+
+ 
+ENDELEMENT 
+
+ 
+
+dows organisms with a degree of
+;nt controbover instinctive actions,
+‘Dujardin, 1850
+
+ 
+
+ 
+ENDELEMENT‘Mushroom hody endows organisms with a degree of
+{free will or intelligent controDover instinctive actions
+= Dujardin, 1850
+
+ 
+ENDELEMENT‘Mushroom hody endows organisms with a degree of
+{ree will or intelligent controDover instinctive actions
+= Dujardin, 1850
+
+ 
+ENDELEMENT 
+ 
+
+dows organisms with a degree of
+;nt controbover instinctive actions,
+‘Dujardin, 1850
+
+ 
+
+ 
+ENDELEMENT 
+
+ 
+
+dows organisms with a degree of
+;nt controbover instinctive actions,
+‘Dujardin, 1850
+
+ 
+
+ 
+ENDELEMENT‘Mushroom hody endows organisms with a degree of
+{free will or intelligent controDover instinctive actions
+= Dujardin, 1850
+
+ 
+ENDELEMENT‘Mushroom hody endows organisms with a degree of
+{ree will or intelligent controDover instinctive actions
+= Dujardin, 1850
+
+ 
+ENDELEMENT‘Mushroom hody endows organisms with a degree of
+{free will or intelligent controDover instinctive actions
+= Dujardin, 1850
+
+ 
+ENDELEMENT 
+ 
+
+dows organisms with a degree of
+nt controbover instinctive actions,
+‘Dujardin, 1850
+
+ 
+
+ 
+ENDELEMENTCoe a
+
+ 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+
+ 
+ENDELEMENT 
+
+ 
+ENDELEMENT 
+
+ 
+ENDELEMENT 
+
+ 
+ENDELEMENT 
+ENDELEMENT 
+
+ 
+ENDELEMENT 
+
+ 
+ENDELEMENT 
+
+ 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENTPN
+N~200/50
+D~35
+
+‘ORN
+
+|N ~ 1000/50
+
+D~30
+
+ 
+
+ 
+ENDELEMENTN~200/50
+D~35
+
+‘ORN
+|n~ too0s0| «
+Lae) ©
+
+ 
+
+ 
+ENDELEMENTN~200/50
+D~35
+
+[ ORN
+|N~ 1000/50} «
+Lp~30_| ©
+
+ 
+
+ 
+ENDELEMENTpooling
+N~200/50 y noise
+D~35 pelt
+normalization
+
+[- ORN
+|N~ 1000/50] ¢ «4
+Lp-30_| ¢
+
+ 
+
+ 
+ENDELEMENTpooling
+N~200/50 noise
+D~35 lt
+normalization
+
+[-_ORN
+|N ~ 1000/50
+p~30 | °
+
+ 
+
+ 
+ENDELEMENT    
+      
+  
+
+pooling
+noise
+reduction
+normalization
+
+    
+
+N~200/50
+D~35
+
+[- ORN
+|N ~ 1000/50 | ¢
+L_p~30_|
+
+   
+ 
+ENDELEMENTpooling
+
+N~200/50 noise
+D~35 s gels
+normalization
+
+‘ORN
+IN ~ 1000/50 4
+p~30 | °&
+
+ 
+
+ 
+ENDELEMENTPN AY pooling
+N~200/50 € —
+nen reton
+
+[- ORN
+|N ~ 1000/50
+D~30 | °
+
+ 
+
+ 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT&
+
+ 
+ENDELEMENT&
+
+ 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENTpooling
+N~200/50 Q noise
+D~35 volts
+normalization
+
+[-ORN
+|N ~ 1000/50
+L_p~30
+
+ 
+
+ 
+ENDELEMENT 
+
+pooling
+noise
+reduction
+normalization
+
+input
+
+ 
+ENDELEMENT 
+
+pooling
+noise
+reduction
+normalization
+
+input
+
+ 
+ENDELEMENTpooling
+noise
+reduction
+normalization
+
+input
+
+ 
+
+ 
+ENDELEMENT 
+
+pooling
+noise
+reduction
+normalization
+
+input
+
+ 
+ENDELEMENTN=200/50
+D~35
+
+‘ORN
+
+ 
+
+IN ~ 1000/50
+D~30_ || &
+
+pooling
+noise
+reduction
+normalization
+
+input
+
+ 
+ENDELEMENT{
+|N ~ 2000/7]
+D~ 1000
+
+PN
+N=200/50
+D~35
+
+[-_ORN
+
+N~ 1000/50
+| p~30
+
+ 
+
+pooling
+noise
+reduction
+normalization
+
+input
+
+ 
+ENDELEMENTce TO
+
+IN ~ 2000/7)
+D~ 1000
+
+PN pooling
+N-200/50 nolse
+D~35 pelt
+normalization
+[-_ORN
+|N ~ 1000/50
+
+mee lc input
+
+ 
+
+ 
+ENDELEMENT=) cus
+
+AR hidden layer
+
+D ~ 1000
+
+= pooling
+
+N-200/50 eae
+aes pat
+y normalization
+
+[ ORN |
+|N ~ 1000/50
+L_v-30_|°
+
+input
+
+ 
+
+ 
+ENDELEMENT[ke
+IN ~ 2000/7)
+D ~ 1000
+PN
+
+N~200/50
+D~35
+
+IN ~ 1000/50
+
+ 
+
+random, high-D
+hidden layer
+
+pooling
+noise
+reduction
+normalization
+
+input
+
+ 
+ENDELEMENTKC
+IN ~ 2000/7)
+D ~ 1000
+
+PN
+N~200/50
+D~35
+
+‘ORN
+IN ~ 1000/50
+D~30
+
+ 
+
+random, high-D
+hidden layer
+
+pooling
+noise
+reduction
+normalization
+
+input
+
+ 
+ENDELEMENTKC
+IN ~ 2000/7)
+D ~ 1000
+
+PN
+N~200/50
+D~35
+
+‘ORN
+IN ~ 1000/50
+D~30
+
+ 
+
+random, high-D
+hidden layer
+
+pooling
+noise
+reduction
+normalization
+
+input
+
+ 
+ENDELEMENT 
+
+ 
+
+EGGS SODA] random high-D
+hidden layer
+
+ 
+
+ 
+
+ 
+
+pooling
+noise
+reduction
+normalization
+
+input
+
+ 
+ENDELEMENT 
+
+random, high-D
+| hidden layer
+
+ 
+
+ 
+
+ 
+
+pooling
+noise
+reduction
+normalization
+
+input
+
+ 
+
+ 
+ENDELEMENT 
+
+random, high-D
+hidden layer
+
+ 
+
+ 
+
+ 
+
+pooling
+noise
+reduction
+normalization
+
+input
+
+ 
+
+ 
+ENDELEMENTMBON
+N~ 34/21
+
+ 
+
+random, high-D
+hidden layer
+
+ 
+
+ 
+
+ 
+
+pooling
+N~200/50 noise
+D~35 get
+normalization
+
+[-_ORN
+
+IN ~ 1000/50 4
+esi Ic | ©! input
+
+ 
+
+ 
+ENDELEMENT 
+
+random, high-D
+| hidden layer
+
+ 
+
+ 
+
+ 
+
+pooling
+noise
+reduction
+normalization
+
+input
+
+ 
+
+ 
+ENDELEMENT 
+
+random, high-D
+hidden layer
+
+ 
+
+ 
+
+ 
+
+pooling
+noise
+reduction
+normalization
+
+input
+
+ 
+
+ 
+ENDELEMENT 
+
+random, high-D
+hidden layer
+
+ 
+
+ 
+
+ 
+
+pooling
+noise
+reduction
+normalization
+
+input
+
+ 
+
+ 
+ENDELEMENT 
+
+random, high-D
+hidden layer
+
+ 
+
+ 
+
+ 
+
+pooling
+N=200/50 noise
+D~35 sellin
+normalization
+
+Sa
+~ 1000/50 ¢ - ‘
+[ieee wait | | input
+
+ 
+
+ 
+ENDELEMENT 
+
+random, high-D
+hidden layer
+
+ 
+
+ 
+
+ 
+
+pooling
+noise
+reduction
+normalization
+
+input
+
+ 
+
+ 
+ENDELEMENT 
+
+random, high-D
+| hidden layer
+
+ 
+
+ 
+
+ 
+
+pooling
+noise
+reduction
+normalization
+
+input
+
+ 
+
+ 
+ENDELEMENT 
+
+beedoebel meniao
+AQQQOR HD] “alee
+
+ 
+
+ 
+
+ 
+
+pooling
+N~200/50 nee
+Beas palates
+normalization
+
+[_ORN
+|n~ toooso |< 6% Die
+| p~30 | « é S|
+
+ 
+
+ 
+ENDELEMENTMBON
+
+a Mo
+|N ~ 2000/7) AR RR
+Demo
+
+PN pooling
+
+N~200/50 noise
+D~35 pelt
+normalization
+
+ 
+
+random, high-D
+hidden layer
+
+ 
+
+ 
+
+ 
+
+[-_ORN
+|N ~ 1000/50
+D~30 |°
+
+input
+
+ 
+
+ 
+ENDELEMENTreadout layer(s)
+
+ 
+
+random, high-D
+| hidden layer
+
+ 
+
+ 
+
+ 
+
+pooling
+noise
+reduction
+normalization
+
+input
+
+ 
+
+ 
+ENDELEMENTMBON
+N~ 34/21
+L_p~20
+
+[x random high
+IN ~20007
+
+t
+hidden layer
+D~ 1000 m
+
+ 
+
+ 
+
+ 
+
+ 
+
+iG
+PN pooling
+N~200/50 noise
+D~35 pel
+X normalization
+
+‘ORN
+IN ~ 1000/50
+
+mee input
+
+ 
+
+ 
+ENDELEMENTMBON
+N~ 34/21
+
+oon readout layer(s)
+
+ 
+
+ 
+
+ 
+
+ 
+
+i
+|
+Ke FE SOSA] random. high-D
+IN ~ 2000/7} hidden layer
+D~ 1000
+
+PN pooling
+N=200150 noise
+D~35 . reduction
+< normalization
+[ ORN
+|N ~ 1oo0s0
+
+meen input
+
+ 
+
+ 
+ENDELEMENTMBON
+N~ 34/21
+L_p~20
+KC
+IN ~ 2000/7)
+D~ 1000
+
+PN pooling
+
+N~200/50 noise
+D~35 pen
+< normalization
+
+readout layer(s)
+
+ 
+
+random, high-D
+hidden layer
+
+ 
+
+ 
+
+ 
+
+(a
+
+IN ~ 1000/50
+
+Pvpesa input
+
+ 
+
+ 
+ENDELEMENTMBON
+N~ 34/21
+D~20
+KC
+IN ~ 2000/7)
+
+~ 1000
+
+[eye tno
+PN
+
+N~200/50
+D~35
+
+[Sad
+~ 1000/50
+ND30
+
+ 
+
+ 
+
+ 
+
+CARRERE. readout layer(s)
+1
+
+random, high-D
+hidden layer
+
+ 
+
+ 
+
+ 
+
+pooling
+noise
+reduction
+normalization
+
+input
+ENDELEMENTMBON
+N~ 34/21
+D~20
+KC
+IN ~ 2000/7)
+D ~ 1000
+
+PN pooling
+
+N~200/50 noise
+D~35 pall
+< normalization
+
+ 
+
+random, high-D
+hidden layer
+
+ 
+
+ 
+
+ 
+
+[ ORN
+|N ~ 1000/50
+D~30
+
+input
+
+ 
+
+ 
+ENDELEMENTMBON
+N~ 34/21
+Lp~20
+KC
+IN ~ 2000/7)
+~ 1000
+
+PN
+N~200/50
+D~35
+
+[—ORN_]
+
+~ 1000/50
+D~30
+
+readout layer(s)
+
+ 
+
+ 
+
+random, high-D
+hidden layer
+
+ 
+
+ 
+
+ 
+
+pooling
+noise
+reduction
+normalization
+
+input
+
+ 
+ENDELEMENT[ MBON
+N~ 34/21
+D~20
+
+KC
+
+readout layer(s)
+
+ 
+
+random, high-D
+
+ 
+
+ 
+
+ 
+
+| I
+IN ~ 2000/7) ‘ hidden layer
+D~ 1000
+
+PN iN’ pooling
+N=200150 noise
+D~35 reduction
+< normalization
+| ‘ORN
+N~ 1000/50
+hme ie | input
+
+ 
+
+ 
+ENDELEMENTMBON
+N~ 34/21
+L_p~20
+KG
+IN ~ 2000/7)
+D ~ 1000
+
+PN pooling
+
+N~200/50 noise
+D~35 volte
+< normalization
+
+readout layer(s)
+
+ 
+
+random, high-D
+hidden layer
+
+ 
+
+ 
+
+ 
+
+[ ORN
+|N ~ 1000/50
+D~30
+
+input
+
+ 
+
+ 
+ENDELEMENT 
+ENDELEMENTCit i
+
+ 
+ENDELEMENT 
+
+ 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+
+FT Bp ads
+ENDELEMENT 
+ENDELEMENT 
+
+FT Eats
+ENDELEMENT 
+
+FT Bats
+ENDELEMENT   
+     
+
+Projecton neurons
+scatnype
+~s01ype8
+
+200 00
+
+  
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+
+— FP Ry
+ENDELEMENT 
+
+TT Bp ads
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+
+TT Bate
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENTms
+
+ 
+ENDELEMENTENDELEMENTENDELEMENTCi a oe
+
+in| Se
+ENDELEMENTCi a i
+
+Ltd
+ENDELEMENTa ae
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+
+ 
+ENDELEMENT 
+
+TT Bp ate
+ENDELEMENT 
+ENDELEMENT 
+
+ 
+ENDELEMENTglomerulus
+
+ns ts what
+
+ 
+ENDELEMENT 
+ENDELEMENT 
+
+an ee ie
+ENDELEMENTglomerulus
+
+ 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT~T connections per KC
+
+ 
+ENDELEMENT~T connections per KC
+
+caReEeLEY ee
+
+Further structure?
+
+ 
+ENDELEMENT~T connections per KC
+
+HE HES
+Further structure?
+
+No
+
+all tests consistent with random draws
+from this glomerular distribution
+
+ 
+ENDELEMENT~T connections per KC
+
+Further structure?
+
+No
+
+all tests consistent with random draws
+from this glomerular distribution
+
+ 
+ENDELEMENT~T connections per KC
+
+Further structure?
+No
+
+all tests consistent with random draws
+from this glomerular distribution
+
+Murch. Fee, Lauren 2006
+Caron Rut Abbot, ler Ave 2013,
+
+ 
+ENDELEMENT~T connections per KC
+
+Further structure?
+No
+
+all tests consistent with random draws
+from this glomerular distribution
+
+Murch Fee, Laure 2006
+Caron Rut Abbot, lcd Ave 2013,
+
+ 
+ENDELEMENT~T connections per KC
+
+‘SEEEEREEEETET Hen
+
+Further structure?
+No
+
+all tests consistent with random draws
+from this glomerular distribution
+
+Murthy. Fee, Laure 2006
+Caron Rut Abbot, lcd Ave 2013.
+
+ 
+ENDELEMENTWhy 7 connections?
+
+ 
+ENDELEMENT 
+ENDELEMENTWhy 7 connections?
+
+‘number of connections per KC
+
+ 
+ENDELEMENTWhy 7 connections?
+
+‘number of connections per KC
+
+ 
+ENDELEMENTWhy 7 connections?
+
+=
+
+‘number of connections per KC
+
+ 
+ENDELEMENTWhy 7 connections?
+
+=
+
+‘number of connections per KC
+
+ 
+ENDELEMENT 
+ENDELEMENTWhy 7 connections?
+
+‘number of connections per KC
+
+ 
+ENDELEMENTWhy 7 connections?
+
+‘number of connections per KC
+
+ 
+ENDELEMENTiy bo
+ENDELEMENT 
+
+iy hon
+ENDELEMENT 
+
+iy Bo
+ENDELEMENTENDELEMENTMB-outpt neurons
+
+|) secute
+
+   
+ENDELEMENT 
+
+ 
+
+TT Bate
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT‘Mushroom Body Extrinsic Neurons
+
+ 
+ENDELEMENT‘Mushroom Body Extrinsic Neurons
+
+ 
+ENDELEMENT‘Mushroom Body Extrinsic Neurons
+
+ 
+
+   
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENTENDELEMENTcath ‘urpur neurons
+
+ 
+
+2 $9 99 9 99
+pirate
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENT 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTte ‘urput neurons
+
+ 
+
+$9 99 9 99
+wepermiey
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENT‘ouput neurons
+
+ 
+
+02 $299 2 oF
+wereumiae)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTtne ‘ouput neurons
+
+ 
+
+$9 99 9 99
+weserminey
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTMushroom body lobe synaptic units
+
+ut ours
+
+ 
+
+ 
+
+TT Bats
+ENDELEMENT‘Mushroom body lobe synaptic units
+
+ut uo eparnage rowers
+
+Et Ef
+
+  
+ENDELEMENTMushroom body lobe synaptic units
+
+ut ons Copamnarge rowers
+
+Et Ef
+
+  
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENT 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENT 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENT 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENT 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENT 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENT   
+  
+
+  
+
+ 
+
+ 
+
+ 
+
+ 
+
+fe)
+
+iii Tie ererese:
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+  
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENT 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENT 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENT 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENT 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENT 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENT 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTclassical conditioning
+
+==
+L___,_.__]
+
+ 
+ENDELEMENTclassical conditioning
+
+Tf fal
+L___j___]
+
+ 
+ENDELEMENTclassical conditioning
+
+ft ~- all
+L___j_.__]
+
+ 
+ENDELEMENTclassical conditioning
+
+If 7 fall
+L___,__]
+
+ 
+ENDELEMENTclassical conditioning
+
+= jee
+L___,___]
+
+ 
+ENDELEMENTclassical conditioning
+
+fT yal
+L___,___]
+
+ 
+ENDELEMENTclassical conditioning
+
+TT ~ fall
+L_____.__]
+
+ 
+ENDELEMENTclassical conditioning
+
+aes
+L___,___]
+
+ 
+ENDELEMENTclassical conditioning
+
+fy fall
+L___,____Jd
+
+ 
+ENDELEMENTclassical conditioning
+
+i Saal
+L___,___]
+
+ 
+ENDELEMENTclassical conditioning
+
+[Ty fall
+Ld
+
+ 
+ENDELEMENT 
+ENDELEMENTKe ra | DAN
+
+ 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENTKC output blocked
+
+Untrained
+
+of PN activiy
+
+ 
+ENDELEMENTKC output blocked
+
+Untrained
+
+of PN activiy
+
+ 
+ENDELEMENTKC output blocked
+
+Untrained
+
+of PN activi
+
+ 
+ENDELEMENTKC output blocked
+
+Untrained
+
+of PN activiy
+
+ 
+ENDELEMENTKC output blocked
+
+Untrained
+
+of PN activiy
+
+ 
+ENDELEMENTKC output blocked
+
+Untrained Trained
+
+a fae?
+
+dean stance epke/s) _— Euclean dance pikes)
+
+of PN activiy ‘of PN actvgy
+
+ 
+ENDELEMENTKC ourput blocked
+
+Untrained Trained
+
+fae!
+
+ean deta epke/s) _ Euleandetance pikes)
+of PN activiy ‘of PN activity
+
+ 
+ENDELEMENTKC output blocked 20
+
+Untrained Trained © ©
+
+shar!
+
+Of PN activiy ‘of PN actvgy
+
+ 
+ENDELEMENTKC output blocked
+
+Untrained Trained
+
+ita
+
+ean distance epkes/s)  Evcen
+of PN activiy of PN activiy
+
+ 
+ENDELEMENTclassical conditioning
+
+Tf fal
+Ld
+
+ 
+ENDELEMENTclassical conditioning
+
+(ff —_al
+L________d
+
+ 
+ENDELEMENTclassical conditioning
+
+= eel
+L______d
+
+ 
+ENDELEMENTrecognition memory
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTrecognition memory
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTENDELEMENTMBON-«'3 activity depresses upon repetitive odor stimulation
+
+ 
+
+TT Bats
+ENDELEMENTMBON-«'3 activity depresses upon repetitive odor stimulation
+
+TT Bae
+ENDELEMENTMBON-«'3 activity depresses upon repetitive odor stimulation
+
+ 
+
+TT Bats
+ENDELEMENTMBON-«'3 activity depresses upon repetitive odor stimulation
+
+Tt Ba
+ENDELEMENTMBON-c'3 depression is 5}
+
+ 
+
+ 
+
+TT Bae
+ENDELEMENTMBON-c'3 depression is specific to repeated odor
+
+ 
+
+Tt Bat
+ENDELEMENTMBON-c'3 depression is specific to repeated odor
+
+ 
+
+Tt Boat
+ENDELEMENTMBON-c'3 depression is specific to repeated odor
+
+ 
+
+TT Bats
+ENDELEMENTMBON-c'3 depression is persistent
+ENDELEMENTMBON-«'3 depression is persistent
+ENDELEMENTMBON-«'3 depression is persistent
+ENDELEMENTMBON-c'3 depression is persistent
+ENDELEMENTMBON-c'3 depression is persistent
+ENDELEMENT 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENT 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENT 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT4-MBON > GC
+
+ 
+ENDELEMENT 
+ENDELEMENTinternal state affects routing
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTinternal state affects routing
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTinternal state affects routing
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTinternal state affects routing
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTinternal state affects routing
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTinternal state affects memory
+
+ 
+ENDELEMENTinternal state affects memory
+
+odor A + "sweet"
+
+hungry
+
+ 
+ENDELEMENTinternal state affects memory
+
+odor A + "sweet"
+
+hungry
+
+ 
+ENDELEMENTinternal state affects memory
+
+odor A +"sweet”
+
+hungry
+
+ 
+ENDELEMENTsuger
+
+ 
+ENDELEMENTsuger
+
+ 
+ENDELEMENTabo) sugar
+
+ 
+ENDELEMENTabo) suger,
+
+ 
+ENDELEMENTms
+
+ 
+ENDELEMENT 
+ENDELEMENT(ed som
+
+v
+
+ 
+ENDELEMENTa | woe [rete
+
+ 
+
+v
+
+ 
+ENDELEMENT 
+
+v
+
+v
+
+ 
+ENDELEMENT 
+
+v v
+
+oxtopamine Getta <— frctose
+
+v
+
+ 
+ENDELEMENT 
+
+v
+
+ 
+ENDELEMENTinternal state and gating
+
+odor A + sweet
+
+hungry or fed
+
+ 
+ENDELEMENTinternal state and gating
+
+odor A + sweet
+
+hungry or fed
+
+ 
+ENDELEMENTinternal state and gating
+
+odor A + sweet
+
+hungry or fed
+
+ 
+ENDELEMENT 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENT 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENT 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENT 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENT 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENT 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENT 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENT 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENT 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENT 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENT 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENT 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENT 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTCO2 avoidance
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTCO2 avoidance
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+by food & hunger
+
+ 
+ENDELEMENTCO? avoidance
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+by food & hunger
+
+ 
+ENDELEMENTOSS) Perceptronrtke
+readout
+
+random, high-D
+representation
+
+pooling
+noise reduction
+normalization
+
+ 
+ENDELEMENTperceptron-like
+
+random, high-D
+
+representation
+
+pooling
+noise reduction
+normalization
+
+ 
+ENDELEMENT 
+ENDELEMENTperceptron-like
+
+“ Wy eet
+
+representation
+
+pooling
+noise reduction
+highly normalization
+
+stereotyped
+
+ 
+ENDELEMENTpale AHR
+
+perceptron-like
+
+random, high-D
+
+random
+
+highly
+stereotyped
+
+representation
+
+pooling
+noise reduction
+normalization
+
+ 
+
+input
+ENDELEMENTmultiple forms of
+modulation and plasticity
+
+highly Qe perceptron-like
+
+Fe Gia
+
+representation
+random
+
+pooling
+
+¢ noise reduction
+
+highly normalization
+stereotyped
+
+ 
+ENDELEMENTmultiple forms of
+modulation and plasticity
+
+highly G————_____._perceptron-lke
+
+a ee
+\
+
+representation
+
+pooling
+noise reduction
+normalization
+stereotyped
+
+ 
+ENDELEMENTmultiple forms of
+modulation and plasticity
+
+highly GQ. perceptron-tke
+
+eee
+
+random WL rsereseresion
+
+pooling
+
+, noise reduction
+
+aad normalization
+stereotyped
+
+ 
+ENDELEMENTmultiple forms of
+modulation and plasticity
+
+highly G——______perceptron-like
+
+representation
+
+pooling
+noise reduction
+normalization
+stereotyped
+
+ 
+ENDELEMENT   
+           
+       
+     
+
+multiple forms of
+modulation and plasticity
+
+highly G————_____._perceptron-like
+
+= ua,
+
+random, high-D
+representation
+
+       
+  
+
+random
+| pooling
+4 noise reduction
+highly Y normalization
+stereotyped / | XD
+
+input
+
+ae 6)
+ENDELEMENT 
+         
+ 
+
+multiple forms of
+modulation and plasticity
+
+highly Qe. perceptron-tke
+
+“" IT JUUOUL
+
+random
+
+        
+    
+     
+
+   
+
+  
+
+pooling
+g noise reduction
+highly ps normalization
+stereotyped XY
+
+4
+
+lie
+ENDELEMENTSources of content © the respective copyright hold:
+rights reserved, excluded from our Creative Comme
+For more information, see http://ocw.mit.edu/fair
+Insects © Source Unknown
+
+Drosophila mushroom body © Wiley
+ENDELEMENTSources of content used with permissior
+
+Fly closeup, courtesy of Jurgen Berger.
+Mushroom bodies, courtesy of Cold Spring Harbor
+Laboratory Press.
+
+Fly face, Dye-electroporation labels, connectivity matrix,
+of Macmillan Publishers Ltd: Nature.
+
+Fly brain, olfactory bulbs, fly brain figures, courtesy of e
+ORN/VPN response and expression pattern figures,
+courtesy of PNAS.
+
+Mushroom body animations, courtesy of Yoshi Aso.
+Adar dicerrmigshoan SHuree. cniuctecu atelicauies Inc
+ENDELEMENT

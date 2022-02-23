@@ -1,0 +1,4668 @@
+Some content in this video is not covers
+under our Creative Commons license.
+See the closing credits for more informat
+ENDELEMENTIntroduction to Neural
+Computation
+
+Prof. Michale Fee
+MIT BCS 9.40
+Lecture 7
+
+ 
+ENDELEMENT 
+
+ 
+ENDELEMENT 
+
+ 
+ENDELEMENT 
+
+ 
+ENDELEMENT 
+
+ 
+ENDELEMENT 
+
+ 
+ENDELEMENT 
+
+ 
+ENDELEMENTLearning objectives for Lecture 7
+
+Be able to add a synapse in an equivalent circuit mode!
+To describe a simple model of synaptic transmission
+
+To be able to describe synaptic transmission as a convolu
+of a linear kernel with a spike train
+
+To understand synaptic saturation
+
+To understand the different functions of somatic and dend
+ENDELEMENTLearning objectives for Lecture 7
+
+Be able to add a synapse in an equivalent circult mode!
+To describe a simple model of synaptic transmission
+
++ Tobe able to describe synaptic transmission as a convolution
+of a linear kernel with a spike train
+
+To understand synaptic saturation
+
++ To understand the sitfeent functions of somatic and dendritic
+
+ 
+
+ 
+ENDELEMENTLearning objectives for Lecture 7
+
+Be able to add a synapse in an equivalent circu mode!
+To describe a simple model of synaptic transmission
+
++ Tobe able to describe synaptic transmission as a convolution
+ofa linear kernel with a spike train
+
+To understand synaptic saturation
+
++ To understand the sitferent functions of somatic and dendritic
+
+ 
+
+ 
+ENDELEMENTLearning objectives for Lecture 7
+
+Be able to add a synapse in an equivalent circuit mode!
+To describe a simple model of synaptic transmission
+
+To be able to describe synaptic transmission as a convolution
+of a linear kernel with a spike train
+
+To understand synaptic saturation
+
++ To understand the itfrent functions of somatic and dendritic
+
+ 
+
+ 
+ENDELEMENTLearning objectives for Lecture 7
+
+Be able to add a synapse in an equivalent circ
+To describe a simple model of synaptic transmission
+
++ Tobe able to describe synaptic transmission as a convolution
+ofa linear kernel with a spike train
+
+To understand synaptic saturation
+
++ To understand the different functions of somatic and dendritic
+
+ 
+
+ 
+ENDELEMENTLearning objectives for Lecture 7
+
+Be able to add a synapse in an equivalent circuit mode!
+To describe a simple model of synaptic transmission
+
+To be able to describe synaptic transmission as a convolu
+of a linear kernel with a spike train
+
+To understand synaptic saturation
+
+To understand the different functions of somatic and dend
+ENDELEMENTLearning objectives for Lecture 7
+
+Be able to add a synapse in an equivalent circu mode!
+To describe a simple model of synaptic transmission
+
+To be able to describe synaptic transmission as a convolution
+of a linear kernel with a spike train
+
+To understand synaptic saturation
+
+To understand the diferent functions of somatic and dendritic
+innbiton
+
+ 
+
+ 
+ENDELEMENTLearning objectives for Lecture 7
+
+Be able to add a synapse in an equivalent circu made!
+To describe a simple model of synaptic transmission
+
++ Tobe able to describe synaptic transmission as a convolution
+of a linear kernel with a spike train
+
+To understand synaptic saturation
+
++ To understand the sitfrent functions of somatic and dendritic
+
+ 
+
+ 
+ENDELEMENTLearning objectives for Lecture 7
+
+Be able to add a synapse in an equivalent circuit mode!
+To describe a simple model of synaptic transmission
+
++ Tobe able to describe synaptic transmission as a convolution
+of a linear kernel with a spike train
+
+To understand synaptic saturation
+
++ To understand the itferent functions of somatic and dendritic
+
+ 
+
+ 
+ENDELEMENTLearning objectives for Lecture 7
+
+Be able to add a synapse in an equivalent circu mode!
+To describe a simple model of synaptic transmission
+
+To be able to describe synaptic transmission as a convolution
+ofa linear kernel with a spike train
+
+To understand synaptic saturation
+
+To understand the diferent functions of somatic and dendritic
+inhbiton
+
+ 
+
+ 
+ENDELEMENTChemical synapse
+
++ Structure of typical excitatory synapse
+
+rape rece
+
+end
+
+ 
+
+ 
+ENDELEMENTChemical synapse
+
++ Structure of typical excitatory synapse
+
+rape rece
+
+ 
+
+ 
+ENDELEMENTChemical synapse
+
++ Structure of typical excitatory synapse
+
+     
+  
+
+pre-synaptic terminal
+
+post-synaptic terminal
+
+Fp
+synaptic vesicle
+(20-400 dia)
+
+ 
+ENDELEMENTChemical synapse
+
++ Structure of typical excitatory synapse
+
+ 
+
+ 
+ENDELEMENTChemical synapse
+
++ Structure of typical excitatory synapse
+
+rape rece
+
+ 
+
+ 
+ENDELEMENTChemical synapse
+
++ Structure of typical excitatory synapse
+
+     
+  
+
+pre-synaptic terminal
+
+post-synaptic terminal
+
+Fp
+synaptic vesicle
+(20-400 dia)
+
+ 
+ENDELEMENTChemical synapse
+
++ Structure of typical excitatory synapse
+
+     
+  
+
+pre-synaptic terminal
+
+post-synaptic terminal
+
+Fp
+synaptic vesicle
+(20-400 dia)
+
+ 
+ENDELEMENTChemical synapse
+
++ Structure of typical excitatory synapse
+
+rape rece
+
+dence
+
+ 
+
+ 
+ENDELEMENTChemical synapse
+
++ Structure of typical excitatory synapse
+
+ 
+
+ 
+ENDELEMENTChemical synapse
+
++ Structure of typical excitatory synapse
+
+ 
+
+ 
+ENDELEMENTChemical synapse
+
++ Sequence of events in synaptic transmission
+
+ 
+
+ 
+ENDELEMENTChemical synapse
+
++ Sequence of events in synaptic transmission
+AP
+
+“N
+
+ 
+ENDELEMENTChemical synapse
+
++ Sequence of events in synaptic transmission
+
+ 
+
+ 
+ENDELEMENTChemical synapse
+
++ Sequence of events in synaptic transmission
+
+SN
+
+ 
+
+ 
+ENDELEMENTChemical synapse
+
++ Sequence of events in synaptic transmission
+
+     
+
+voltage-gated
+
+coche
+
+ 
+ENDELEMENTChemical synapse
+
++ Sequence of events in synaptic transmission
+
+     
+
+voltage-gited
+
+oct
+
+ 
+ENDELEMENTChemical synapse
+
++ Sequence of events in synaptic transmission
+
+ 
+
+ 
+ENDELEMENTChemical synapse
+
++ Sequence of events in synaptic transmission
+
+ 
+
+ 
+ENDELEMENTChemical synapse
+
++ Sequence of events in synaptic transmission
+
+ 
+
+ 
+ENDELEMENTChemical synapse
+
++ Sequence of events in synaptic transmission
+
+ 
+
+ 
+ENDELEMENTChemical synapse
+
++ Sequence of events in synaptic transmission
+
+ 
+
+ 
+ENDELEMENTChemical synapse
+
++ Sequence of events in synaptic transmission
+
+ 
+
+ 
+ENDELEMENTChemical synapse
+
++ Sequence of events in synaptic transmission
+
+‘neuotansmiter
+
+ 
+
+ligand-gated ia
+‘channels
+
+ 
+ENDELEMENTChemical synapse
+
++ Sequence of events in synaptic transmission
+
+ 
+
+ 
+ENDELEMENTChemical synapse
+
++ Sequence of events in synaptic transmission
+
+ 
+
+ 
+ENDELEMENTChemical synapse
+
++ Sequence of events in synaptic transmission
+
+‘neurotransmitter
+
+  
+
+ligand-gated ia
+channels
+
+ 
+
+ 
+ENDELEMENTChemical synapse
+
++ Sequence of events in synaptic transmission
+
+ 
+
+ 
+ENDELEMENTChemical synapse
+
++ Sequence of events in synaptic transmission
+
+ 
+
+ 
+ENDELEMENTAnatomy of synapses/axons/dendrite:
++ Synapses are small - contact area~0.5ym
+
++ High packing density ~10? synapses/mm?
+= 1.1um on a 3D lattice
+= 4.1km of axon (0.3m dia)
+~ 500m of dendtite
+
++ Acell receives many synapses
+= 10000 synapses
+— on 4mm of dendrites (4 cm of axon)
+= 105 neurons/mm? in mouse cortex
+ENDELEMENTAnatomy of synapses/axons/dendrite:
++ Synapses are small - contact area~0.5ym
+
++ High packing density ~10? synapses/mm?
+= 1.1um on a 3D lattice
+= 4.1km of axon (0.3m dia)
+~ 500m of dendtite
+
++ Acell receives many synapses
+= 10000 synapses
+— on 4mm of dendrites (4 cm of axon)
+= 105 neurons/mm? in mouse cortex
+ENDELEMENTAnatomy of synapses/axons/dendrites
+
+ 
+
+ 
+ENDELEMENTAnatomy of synapses/axons/dendrites
+
+ 
+
+ 
+ENDELEMENTAnatomy of synapses/axons/dendrites
+
+ 
+
+ 
+ENDELEMENTAnatomy of synapses/axons/dendrite:
++ Synapses are small - contact area~0.5ym
+
++ High packing density ~10? synapses/mm?
+= 1.1um on a 3D lattice
+= 4.1km of axon (0.3m dia)
+~ 500m of dendtite
+
++ Acell receives many synapses
+= 10000 synapses
+— on 4mm of dendrites (4 cm of axon)
+= 105 neurons/mm? in mouse cortex
+ENDELEMENTAnatomy of synapses/axons/dendrite:
++ Synapses are small - contact area~0.5ym
+
++ High packing density ~10? synapses/mm?
+= 1.1um on a 3D lattice
+= 4.1km of axon (0.3m dia)
+~ 500m of dendtite
+
++ Acell receives many synapses
+= 10000 synapses
+— on 4mm of dendrites (4 cm of axon)
+— 105 neurons/mm? in mouse cortex
+ENDELEMENTAnatomy of synapses/axons/dendrites
+
+ 
+
+ 
+ENDELEMENTAnatomy of synapses/axons/dendrites
+
+ 
+
+ 
+ENDELEMENTLearning objectives for Lecture 7
+
++ Be able to add a synapse to an equivalent circuit model
+
++ To describe a simple model of synaptic transmission
+ENDELEMENTHow does a synapse respond?
+
+* lonotropic receptors
+ENDELEMENTHow does a synapse respond?
++ lonotropic receptors
+
+ 
+
+ 
+ENDELEMENTHow does a synapse respond?
+
+he «
+
+ 
+
+ 
+ENDELEMENTHow does a synapse respond?
+
+* lonotropic receptors “
+RY RY
+Ee i
+
+Two electrode voltage-clamp
+experiment
+
+ 
+
+ 
+ENDELEMENTHow does a synapse respond?
+lonotropic receptors
+
+ 
+
+ 
+ENDELEMENTHow does a synapse respond?
+
+ 
+
+ 
+ENDELEMENTHow does a synapse respond?
+
+* lonotropic receptors “
+RY RY
+Ee i
+
+Two electrode voltage-clamp
+experiment
+
+ 
+
+ 
+ENDELEMENTHow does a synapse respond?
+
+* lonotropic receptors
+ul y I
+$s
+383
+
+‘Two electrode voltage-clamp
+experiment
+
+ 
+
+ 
+ENDELEMENTHow does a synapse respond?
+
+* lonotropic receptors
+
+Two electrode voltage-clamp
+experiment
+
+ 
+
+  
+ENDELEMENTHow does a synapse respond?
+
+ 
+
+ 
+ENDELEMENTHow does a synapse respond?
++ lonotropic receptors
+
+ 
+
+ 
+ENDELEMENTHow does a synapse respond?
+
+* lonotropic receptors
+
+Two electrode voltage-clamp
+experiment
+
+ 
+
+  
+ENDELEMENTHow does a synapse respond?
+
+ 
+
+ 
+ENDELEMENTHow does a synapse respond?
++ lonotropic receptors
+
+ 
+
+ 
+ENDELEMENTHow does a synapse respond?
+
+* lonotropic receptors
+
+‘Two electrode voltage-clamp
+experiment
+
+ 
+
+  
+ENDELEMENTHow does a synapse respond?
+
+ 
+
+ 
+ENDELEMENTHow does a synapse respond?
+
+ 
+
+ 
+ENDELEMENTHow does a synapse respond?
++ lonotropic receptors
+
+ 
+
+ 
+ENDELEMENTHow does a synapse respond?
+
+ 
+
+ 
+ENDELEMENTHow does a synapse respond?
+
+* lonotropic receptors
+
+‘Two electrode voltage-clamp
+experiment
+
+ 
+
+  
+ENDELEMENTHow does a synapse respond?
+notropic receptors
+
+ 
+
+ 
+ENDELEMENTHow does a synapse respond?
++ lonotropic receptors
+
+ 
+
+ 
+ENDELEMENTHow does a synapse respond?
+
+ 
+
+ 
+ENDELEMENTHow does a synapse respond?
++ lonotropic receptors
+
+ 
+
+ 
+ENDELEMENTHow does a synapse respond?
+
+* lonotropic receptors
+
+‘Two electrode voltage-clamp
+experiment
+
+ 
+
+  
+ENDELEMENTHow does a synapse respond?
+
+Le
+
+* lonotropic receptors
+
+ 
+ENDELEMENTHow does a synapse respond?
+lonotropic receptors
+
+ 
+
+ 
+ENDELEMENTHow does a synapse respond?
++ lonotropic receptors
+
+ 
+
+ 
+ENDELEMENTHow does a synapse respond?
+
+* lonotropic receptors
+
+LV Cure g i
+‘i Bs
+
+  
+ENDELEMENTHow does a synapse respond?
+
+ 
+
+ 
+ENDELEMENTHow does a synapse respond?
++ lonotropic receptors
+
+ 
+
+ 
+ENDELEMENTHow does a synapse respond?
++ lonotropic receptors
+
+ 
+
+ 
+ENDELEMENTHow does a synapse respond?
+
+ 
+
+ 
+ENDELEMENTHow does a synapse respond?
++ lonotropic receptors
+
+ 
+
+ 
+ENDELEMENTHow does a synapse respond?
++ lonotropic receptors
+
+ 
+
+ 
+ENDELEMENTHow does a synapse respond?
+
+ 
+
+ 
+ENDELEMENTHow does a synapse respond?
++ lonotropic receptors
+
+ 
+
+ 
+ENDELEMENTHow does a synapse respond?
++ lonotropic receptors
+
+ 
+
+ 
+ENDELEMENTHow does a synapse respond?
+lonotropic receptors
+
+1
+
+ 
+
+ 
+ENDELEMENTHow does a synapse respond?
+
+lonotropic receptors
+
+ 
+
+ 
+ENDELEMENTHow does a synapse respond?
++ lonotropic receptors
+
+ 
+
+ 
+ENDELEMENTHow does a synapse respond?
+
+ 
+
+ 
+ENDELEMENTHow does a synapse respond?
+
+* lonotropic receptors
+
+lV Cune
+
+  
+ENDELEMENTHow does a synapse respond?
+lonotropic receptors
+
+ 
+
+ 
+ENDELEMENTHow does a synapse respond?
++ lonotropic receptors
+
+ 
+
+ 
+ENDELEMENTHow does a synapse respond?
+
+ 
+
+ 
+ENDELEMENTHow does a synapse respond?
++ lonotropic receptors
+
+ 
+
+ 
+ENDELEMENTHow does a synapse respond?
+
+* lonotropic receptors
+
+lV Cune
+
+  
+ENDELEMENTHow does a synapse respond?
+
+lonotropic receptors
+
+1
+
+ 
+
+ 
+ENDELEMENTHow does a synapse respond?
+
+ 
+
+ 
+ENDELEMENT   
+   
+   
+
+  
+
+How does a synapse respond?
++ lonotropic receptors
+
+10-0 -
+
+USS
+
+ 
+ENDELEMENTHow does a synapse respond?
+
+ 
+
+ 
+ENDELEMENTHow does a synapse respond?
+
+ 
+
+ 
+ENDELEMENTHow does a synapse respond?
++ lonotropic receptors
+
+ 
+
+ 
+ENDELEMENTHow does a synapse respond?
+
+* lonotropic receptors
+
+LV Cure g Ly:
+Bs 383
+
+  
+ENDELEMENTEquivalent circuit model of a synapse
+
++ Current flow through a synapse results from changes in
+synaptic conductance
+
+ 
+
+ 
+ENDELEMENTHow does a synapse respond?
++ lonotropic receptors
+
+ 
+
+ 
+ENDELEMENT   
+   
+   
+
+  
+
+How does a synapse respond?
++ lonotropic receptors
+
+1.0 -€ Us
+VIS
+
+ 
+ENDELEMENTHow does a synapse respond?
+
+ 
+
+ 
+ENDELEMENTHow does a synapse respond?
++ lonotropic receptors
+
+ 
+
+ 
+ENDELEMENTHow does a synapse respond?
++ lonotropic receptors
+
+ 
+
+ 
+ENDELEMENTHow does a synapse respond?
+
+* lonotropic receptors
+
+lV Cune
+
+  
+ENDELEMENTHow does a synapse respond?
+
+ 
+
+ 
+ENDELEMENTHow does a synapse respond?
++ lonotropic receptors
+
+ 
+
+ 
+ENDELEMENTHow does a synapse respond?
+
+ 
+
+ 
+ENDELEMENTHow does a synapse respond?
+
+ 
+
+ 
+ENDELEMENTHow does a synapse respond?
++ lonotropic receptors
+
+ 
+
+ 
+ENDELEMENT   
+   
+   
+
+  
+
+How does a synapse respond?
+
+ceptors
+
+ 
+
+* lonotropic
+
+100-000 -2 =
+USS
+
+ 
+
+ 
+ENDELEMENT 
+     
+  
+
+How does a synapse respond?
+
+      
+
+10-1
+
+[Ke
+
+   
+
+ 
+ENDELEMENT   
+   
+   
+
+  
+
+How does a synapse respond?
++ lonotropic receptors
+
+10-8 - Us
+VIS
+
+ 
+ENDELEMENTHow does a synapse respond?
++ lonotropic receptors
+
+ 
+
+ 
+ENDELEMENTHow does a synapse respond?
+
+ 
+
+ 
+ENDELEMENT   
+   
+   
+
+How does a synapse respond?
+
+10-00
+
+[Kz
+
+ 
+
+ 
+ENDELEMENT   
+   
+   
+
+  
+
+How does a synapse respond?
++ lonotropic
+
+ 
+
+ceptors
+
+1.0L - us
+USS
+
+ 
+ENDELEMENTEquivalent circuit model of a synapse
+
++ Current flow through a synapse results from changes in
+synaptic conductance
+
+ 
+
+ 
+ENDELEMENTEquivalent circuit model of a synapse
+
++ Current flow through a smapse results from changes in
+smaptic
+
+ 
+
+Inet) = Gy d[V = Ee]
+
+ 
+
+ 
+ENDELEMENTEquivalent circuit model of a synapse
+
++ Current flow through a synapse results from changes in
+
+ 
+
+ 
+
+ 
+
+ 
+
+1) =G,0[V ~ En]
+
+ 
+
+ 
+ENDELEMENTEquivalent circuit model of a synapse
+
++ Current flow through a synapse results from changes in
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+= G,0[V ~Ene]
+
+ 
+
+ 
+ENDELEMENTEquivalent circuit model of a synapse
+
++ Current flow through a smnapse results from changes in
+
+ 
+
++
+
+ 
+
+ 
+ENDELEMENTEquivalent circuit model of a synapse
+
++ Current flow through 2 synapse results from changes in
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTEquivalent circuit model of a synapse
+
++ Current flow through a synapse results from changes in
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+1.) =6,0[V ~Ee]
+
+ 
+
+ 
+ENDELEMENTEquivalent circuit model of a synapse
+
+*+ Current flow through 2 smnapse results from changes in
+
+ 
+
+ 
+
+ 
+ENDELEMENTEquivalent circuit model of a synapse
+
++ Current flow through a smnapse results from changes in
+
+ 
+
+Ine)= Gy (0[V ~ Ee]
+
+ 
+
+ 
+ENDELEMENTExcitatory synapses
+
++ Increased synaptic conductance causes the membrane potential to
+approach the reversal potential for that synapse.
+
+Iy_(t)= Gyy(QLV — Egy |
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+1. =6,0[V =E
+
+aiid
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+1,.()=6,(0[¥
+
+BES
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+ 
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+Iy()=G (DLV.
+
+ot
+
+ 
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+1,.()=G,(0¥
+
+BES
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+1) = Gn(0
+
+EE
+
+ 
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+ 
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+BES
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+1.) = Gn(0
+
+EE
+
+ 
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+Iyg()= Gy (DLV.
+
+iH
+
+ 
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
++ Increased synaptic conductance causes the membrane potential to
+approach the reversal potential for that synapse.
+
+Iyq(t)= Gyy(QLV — Egy |
+
+ 
+
+  
+ENDELEMENTExcitatory and inhibitory synapses
+
+1,.()=6,(0[¥
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+I= G,n(0
+
+i
+
+ 
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
++ Increased synaptic conductance causes the membrane potential to
+approach the reversal potential for that synapse.
+
+Iy_(t)= Gy(QLV — Egy |
+
+ 
+
+  
+ENDELEMENTExcitatory and inhibitory synapses
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+ 
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+1.) = G,n(0
+
+ai
+
+ 
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+ 
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+ 
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+Inl0)= Gf
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+1,.()=6,(0[¥
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+Iyg()= Gy (DLV
+
+H
+
+ 
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+1,.()=6,0[V =£
+
+ait
+
+ 
+
+ 
+ENDELEMENTHow does a synapse respond?
+
+ 
+
+ 
+ENDELEMENTHow does a synapse respond?
++ lonotropic receptors
+
+ 
+
+ 
+ENDELEMENTHow does a synapse respond?
++ lonotropic receptors
+
+ 
+
+ 
+ENDELEMENTHow does a synapse respond?
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
++ Increased synaptic conductance causes the membrane potential to
+approach the reversal potential for that synapse.
+
+Iyq(t)= Gay (QV — Egy |
+
+ 
+
+  
+ENDELEMENTExcitatory and inhibitory synapses
+
+Ing) = G(D[V.
+
+Ei
+
+ 
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+1,.()=6,(0[¥
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
++ Increased synaptic conductance causes the membrane potential to
+approach the reversal potential for that synapse.
+
+Iy,(t)= Gyy(Q[V — Egy |
+
+ 
+
+  
+ENDELEMENTExcitatory and inhibitory synapses
+
+I.) = Gyn(0
+
+EE
+
+ 
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+Il0)= GA d[¥
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+1,.()=6,(0[¥
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+1) =G,n(0
+
+£1
+
+ 
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+1,0) =G,,(0]
+
+i
+
+ 
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+1.) =G,(0¥
+
+mite
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+ 
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+[y= G(D[V.
+
+i
+
+ 
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+1,.()=6,(0[¥
+
+ES
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
++ Increased synaptic conductance causes the membrane potential to
+approach the reversal potential for that synapse.
+
+Iy,(t)= Gyy(Q[V — Egy |
+
+ 
+
+  
+ENDELEMENTExcitatory and inhibitory synapses
+
+1) = Gyn(0
+
+iH
+
+ 
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+In()=G, (0 =F,
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+1,.()=6,(0[¥
+
+BESS
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+Tyg) = GLY.
+
+iE
+
+ 
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+I) = Gn(0
+
+i
+
+ 
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+In()=G,,(0LV ~E,
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+Tyg) = Gy (DLV.
+
+Ei
+
+ 
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+I) = GLY
+
+i
+
+ 
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+Id) Gf d[Y
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+1. =6,0[V =E
+
+ES
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+[y= GLY
+
+Ei
+
+ 
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+Inld)= GA d[¥
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+1.) =G,(0[¥
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+Tyg) = Gyy(D[V.
+
+Ei
+
+ 
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+1.) = G,n(0
+
+i
+
+ 
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+Inf) GAY
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+ 
+
+ 
+
+ 
+ENDELEMENTHow does a synapse respond?
++ lonotropic receptors
+
+ 
+
+ 
+ENDELEMENTHow does a synapse respond?
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+1,.()=6,(0[¥
+
+BETS
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+ 
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+Ind) Gf
+
+BES
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+Inq) = Gy (DLV.
+
+i
+
+ 
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+Tyg) = GLY.
+
+i
+
+ 
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+Ift)= Gaff
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+Tyg) = GODLY
+
+ 
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+Ig) = Gy (DLV.
+
+ 
+
+Excitatory synapse if
+Ey>V
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+1. =6,0[V =
+
+mite
+
+Excitatory synapse if
+E,.>V
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+Ing) = G(D[V
+
+ 
+
+Excitatory synapse if
+Ey,>V
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+I) = G(D[V
+
+ 
+
+Excitatory synapse if
+Ey>V
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+1.) =6,(0¥
+
+Ey
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+1,.()=6,(0[¥
+
+By
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+GABAergic synapse
+
+ 
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+1.) =6,(0[¥
+
+BE
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
++ Increased synaptic conductance causes the membrane potential to
+approach the reversal potential for that synapse.
+
+Iyq(t)=Gyu(O[V - Ey] GABAergic synaps
+
+ 
+
+yy =~ TMV
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
++ Increased synaptic conductance causes the membrane potential to
+approach the reversal potential for that synapse.
+
+Iyg(t)=Gyu(O[V — Ey] GABAergic synaps
+
+ 
+
+ 
+
+Ey =—T5mV
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+GABAergic synapse
+
+ 
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
++ Increased synaptic conductance causes the membrane potential to
+approach the reversal potential for that synapse.
+
+Iyg(t)=Gyu(O[V - Ey] GABAergic synaps
+
+ 
+
+yy =~ TMV
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
++ Increased synaptic conductance causes the membrane potential to
+approach the reversal potential for that synapse.
+
+Iy_(t)= Gyy(QLV — Egy |
+
+GABAergic synaps
+
+   
+
+ 
+
+Eq =~ T5mV
+ENDELEMENTExcitatory and inhibitory synapses
+
+Tyg) = Gy (DLV
+
+ 
+
+aL
+
+ual
+
+GABAergic synapse
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+In(0)= Gaff
+
+BE
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+1,.()=G,(0[¥
+
+By
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
++ Increased synaptic conductance causes the membrane potential to
+approach the reversal potential for that synapse.
+
+Iy_(t)= Gy(QLV — Egy |
+
+GABAergic synaps
+
+   
+
+ 
+
+Ey =~ T5mV
+ENDELEMENTExcitatory and inhibitory synapses
+
++ Increased synaptic conductance causes the membrane potential to
+approach the reversal potential for that synapse.
+
+Iy_(t)= Gyy(QLV — Egy |
+
+GABAergic synaps
+
+   
+
+ 
+
+Eq =~ T5mV
+ENDELEMENTExcitatory and inhibitory synapses
+
+Inhibitory synapse if
+E,<V
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+ 
+
+#
+
+Inhibitory synapse if
+Ey, <V,
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+ROLE GABAergic synapse
+
+aL
+
+ual
+
+ 
+
+Inhibitory synapse if
+E, <V,
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+Inhibitory synapse if
+E,.<V
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+GABAergic synapse
+
+ 
+
+Inhibitory synapse if
+E,<V,
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+Tyg) = GLY.
+
+#
+
+ 
+
+Inhibitory synapse if
+Ey <V,
+
+GABAergic synapse
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
++ Increased synaptic conductance causes the membrane potential to
+approach the reversal potential for that synapse.
+
+Iyq(t)= Gy V - Ey] GABAergic synaps
+
+yg =~ TSWV
+
+ig
+
+ 
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+GABAergic synapse
+
+ 
+
+Inhibitory synapse if
+Ey, <V
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+POE_OW GABAergic synapse
+
+on
+
+Ball
+
+ 
+
+Inhibitory synapse if
+E,.<V,
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+(0 =6,0[V -2
+
+BE
+
+Inhibitory synapse if
+E,<V
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+POLO GABAergic synapse
+
+aL
+
+Tl
+
+ 
+
+Inhibitory synapse if
+E,<V,
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+GABAergic synapse
+
+ 
+
+Inhibitory synapse if
+E,.<V,
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+Inhibitory synapse if
+Ey, <V
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+GABAergic synapse
+
+ 
+
+Inhibitory synapse if
+E,<V,
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+FOLIO GABAergic synapse
+
+aL
+
+mall
+
+ 
+
+Inhibitory synapse if
+E,<V,
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+IGLGLU GABAergic synapse
+
+on
+
+Eee
+
+ 
+
+Inhibitory synapse if
+Ey <V,
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+POrELOW GABAergic synapse
+
+it
+
+ual
+
+ 
+
+Inhibitory synapse if
+E,<V,
+
+ 
+
+ 
+ENDELEMENTExcitatory and inhibitory synapses
+
+Ia(=G,(0[V =
+
+By
+
+Inhibitory synapse if
+E,.<V
+
+ 
+
+ 
+ENDELEMENTEquivalent circuit model of a synapse
+
+wolvn-e
+
+ann fcker’ be
+
+ 
+
+ 
+ENDELEMENTEquivalent circuit model of a synapse
+
+Ill) =G, 0] V,)-E
+
+ 
+
+ 
+ENDELEMENTEquivalent circuit model of a synapse
+
++ Curent flow through a synapse results rom changes in
+
+1,0= 6,0 VE]
+
+ 
+
+ 
+ENDELEMENTEquivalent circuit model of a synapse
+
++ Current flow through a synapse results from changes in
+synaptic conductance
+Single-channel patch
+
+Ty t)= Gy Vu(— Lyn J btecslien
+
+Ligand gated ion channels ‘flicker’ between
+‘open and closed states.
+
+HA
+ENDELEMENTEquivalent circuit model of a synapse
+
++ Curent flow through a synapse results rom changes in
+
+ 
+
+ 
+ENDELEMENTEquivalent circuit model of a synapse
+
++ Curent flow through a synapse results rom changes in
+
+1,60 G,.(01V0-E.]
+
+ 
+
+ 
+ENDELEMENTEquivalent circuit model of a synapse
+
++ Current flow through a synapse results from changes in
+synaptic conductance
+Single-channel patch
+
+Tyt)= Gy Vu(O— Ene J btecslien
+
++ Ligand gated ion channels ‘flicker’ between
+‘open and closed states.
+
+terms of the probability p,(1) that a
+receptor is ‘open’.
+
+We ite th ti \ductar
+corn
+Tell
+_
+ENDELEMENTEquivalent circuit model of a synapse
+
+1) =6, 0] V,)-E
+
+G= Re Ne PO
+
+ 
+
+ 
+ENDELEMENTEquivalent circuit model of a synapse
+
++ Current flow through a synapse results from changes in
+synaptic conductance
+Single-channel patch
+
+Tyt)= Gy Va(O—Enn J peecslien
++ Ligand gated ion channels ‘flicker’ between
+‘open and closed states.
+terms of the probability p,(1) that a
+
+receptor is ‘open’.
+
+Gyn(t)= Be Ne
+
+We ite th ti \ductar
+corn
+Tell
+=
+ENDELEMENTEquivalent circuit model of a synapse
+
+Iylt) =G, OV, -E
+
+G0= &e Ne PO
+
+ 
+
+ 
+ENDELEMENTKinetic model of synapse gating
+
++ We can describe the open probability using a ‘kinetic’ mode
+
+Single-channel patch r
+z GABA, rocepto
+‘closed’ =S= ‘open! is
+
+1-P, Py
+
+Ha
+ENDELEMENTkinetic model of synapse gating
+
+‘lose == ‘open
+LP, ’,
+
+(are transition rte constants
+
+ 
+
+ 
+ENDELEMENTKinetic model of synapse gating
+
++ We can describe the open probability using a ‘kinetic’ mode
+
+Single-channel patch
+* GABA, ecepto
+‘closed’ —£= ‘open’ c
+1-7, P,
+0.,B are transition rate constants
+Probability per unt time;
+
+units are 1/5 —
+
++ What controls the rate at which channels i
+open? aa aaa
+ye
+ENDELEMENTkinetic model of synapse gating
+
+‘losed == open
+Lr P,
+
+(fare transition rte constants
+
+ 
+
+ 
+ENDELEMENTKinetic model of synapse gating
+
++ We can describe the open probability using a ‘kinetic’ mode
+
+Single-channel patch
+* GABA, ecepto
+‘closed’ = ‘open’ .
+1-P, Py
+@.,B are transition rate constants
+Probability per unit time;
+
+units are 1/5 —
+
++ What controls the rate at which channels i
+open? id aa
+ye
+
+ 
+ENDELEMENTEquivalent circuit model of a synapse
+
++ Simplified version of Magleby-Stevens model
+
+ 
+
+ 
+ENDELEMENTEquivalent circuit model of a synapse
++ Simplified version of Magleby-Stevens model
+
+unbound
+wr A
+
+. ©: oe
+
+B
+(Closed)
+unbound receptor bound receptor complex
+1-P Py
+ENDELEMENTEquivalent circuit model of a synapse
++ Simplified version of Magleby-Stevens model
+
+unbound
+wr A
+
+. ©: oe
+
+B
+(Closed)
+unbound receptor bound receptor complex
+1-P Py
+ENDELEMENTEquivalent circuit model of a synapse
+
++ Simplified version of Magleby-Stevens model
+
+ 
+
+ 
+ENDELEMENTEquivalent circuit model of a synapse
+
++ Simplified version of Magleby-Stevens model
+
+ 
+
+ 
+ENDELEMENTEquivalent circuit model of a synapse
+
++ Simplified version of Magleby-Stevens model
+
+unbound dP,
+A dee atAn-P) -
+NT ae 7 HAN Py)
+R = AR*
+B
+(Closed)
+unbound receptor bbound receptor complex
+
+1-P P
+ENDELEMENTEquivalent circuit model of a synapse
+
++ Simplified version of Magleby-Stevens model
+
+ 
+
+ 
+ENDELEMENTEquivalent circuit model of a synapse
+
++ Simplified version of Magleby-Stevens model
+
+ 
+
+ 
+ENDELEMENTEquivalent circuit model of a synapse
+
++ Simplified version of Magleby-Stevens model
+
+‘unbound dP,
+A de = atAnd-P) -
+NT ae 7 HAY Py)
+R — AR*
+B
+
+(Closed)
+unbound receptor bbound receptor complex
+
+1-P, Pe
+
+ 
+
+P(t)
+ENDELEMENTEquivalent circuit model of a synapse
+
++ Simplified version of Magleby-Stevens model
+
+ 
+
+ 
+ENDELEMENTEquivalent circuit model of a synapse
+
++ Simplified version of Magleby-Stevens model
+
+‘unbound dP,
+A dee a@tAan-P) -
+NT ae 7 HAN Py)
+R a AR*
+B
+
+(Closed)
+unbound receptor bbound receptor complex
+
+1-P, Pe
+
+ 
+
+P(t)
+ENDELEMENTEquivalent circuit model of a synapse
+
++ Simplified version of Magleby-Stevens model
+
+unbound dP,
+A dee atAnd-P) -
+NT ae 7 HAN Py)
+R — AR*
+B
+
+(Closed)
+unbound receptor bbound receptor complex
+
+1-P, i
+
+ 
+
+P(t)
+ENDELEMENTEquivalent circuit model of a synapse
+
++ Simplified version of Magleby-Stevens model
+
+ 
+
+ 
+ENDELEMENTEquivalent circuit model of a synapse
+
++ Simplified version of Magleby-Stevens model
+
+ 
+
+ 
+ENDELEMENTEquivalent circuit model of a synapse
+
++ Simplified version of Magleby-Stevens model
+
+ 
+
+ 
+ENDELEMENTEquivalent circuit model of a synapse
+
++ Simplified version of Magleby-Stevens model
+
+ 
+
+ 
+ENDELEMENTEquivalent circuit model of a synapse
+
++ Simplified version of Magleby-Stevens model
+
+ 
+
+ 
+ENDELEMENTEquivalent circuit model of a synapse
+
++ Simplified version of Magleby-Stevens model
+
+ 
+
+ 
+ENDELEMENTEquivalent circuit model of a synapse
+
++ Simplified version of Magleby-Stevens model
+
+ 
+
+ 
+ENDELEMENTEquivalent circuit model of a synapse
++ Simplified version of Magleby-Stevens model
+
+Pd)= Pane
+
+—O——EE
+
+er
+
+ 
+
+ 
+ENDELEMENTEquivalent circuit model of a synapse
+
++ Simplified version of Magleby-Stevens model
+
+‘unbound dP,
+A dee atAnd-P) -
+NT ae 7 Hla Py)
+R a AR*
+B
+
+(Closed)
+unbound receptor bound receptor complex
+
+1-P, Pe
+
+ 
+
+P(t)
+ENDELEMENTEquivalent circuit model of a synapse
+
++ Simplified version of Magleby-Stevens model
+
+ 
+
+ 
+ENDELEMENTEquivalent circuit model of a synapse
+
++ Simplified version of Magleby-Stevens model
+
+‘unbound dP,
+A dee a@tAan-P) -
+NT ae 7 HAN Py)
+R a AR*
+B
+
+(Closed)
+unbound receptor bbound receptor complex
+
+1-P, Pe
+
+ 
+
+P(t)
+ENDELEMENTEquivalent circuit model of a synapse
+
++ Simplified version of Magleby-Stevens model
+
+ 
+
+ 
+ENDELEMENTEquivalent circuit model of a synapse
+
++ Simplified version of Magleby-Stevens model
+
+ 
+
+ 
+ENDELEMENTEquivalent circuit model of a synapse
+
++ Simplified version of Magleby-Stevens model
+
+ 
+
+ 
+ENDELEMENTEquivalent circuit model of a synapse
+
++ Simplified version of Magleby-Stevens model
+
+ 
+
+ 
+ENDELEMENTEquivalent circuit model of a synapse
+
++ Simplified version of Magleby-Stevens model
+
+ 
+
+ 
+ENDELEMENTEquivalent circuit model of a synapse
+
++ Simplified version of Magleby-Stevens model
+
+ 
+
+ 
+ENDELEMENTEquivalent circuit model of a synapse
+
++ Simplified version of Magleby-Stevens model
+
+ 
+
+ 
+ENDELEMENTEquivalent circuit model of a synapse
+
++ Simplified version of Magleby-Stevens model
+
+ 
+
+ 
+ENDELEMENTEquivalent circuit model of a synapse
+
++ Simplified version of Magleby-Stevens model
+
+ 
+
+ 
+ENDELEMENTLearning objectives for Lecture 7
+
++ Tobe able to describe synaptic transmission as a convolu
+of a linear kernel with a spike train
+ENDELEMENTEquivalent circuit model of a synapse
++ Simplified version of Magleby-Stevens model
+
+P= Pane
+
+QQ ———
+
+er
+
+ 
+
+ 
+ENDELEMENTEquivalent circuit model of a synapse
+
++ Simplified version of Magleby-Stevens model
+
+ 
+
+ 
+ENDELEMENTEquivalent circuit model of a synapse
+
++ Curent flow through a synapse results rom changes in
+
+oo
+
+GD= RN PO
+
+ 
+
+ 
+ENDELEMENTEquivalent circuit model of a synapse
+
++ Simplified version of Magleby-Stevens model
+
+ 
+
+ 
+ENDELEMENTResponse of a synapse to a spike train input
+
++ This simple model makes it very easy to describe the
+fesponte of a synapse toa trait of spike
+
+ 
+
+ 
+ENDELEMENTResponse of a synapse to a spike train input
+
++ This simple model makes it very easy to describ
+fesponse of 9 synapse toa trait of spikes!
+
+ 
+
+ 
+ENDELEMENTResponse of a synapse to a spike train input
+
++ This simple model makes it very easy to describe the
+response of 9 synapse toa trait of sp
+
+ 
+
+ 
+ENDELEMENTResponse of a synapse to a spike train input
+
++ This simple model makes it very easy to describe the
+fesponte of a synapse toa trait of spikes!
+
+ 
+
+ 
+ENDELEMENTResponse of a synapse to a spike train input
+
++ This simple model makes it very easy to describ
+fesponse of 9 synapse toa trait of spikes!
+
+ 
+
+ 
+ENDELEMENTResponse of a synapse to a spike train input
+
++ This simple model makes it very easy to describ
+fesponse of» synapse toa trait of spikes!
+
+ 
+
+ 
+ENDELEMENTResponse of a synapse to a spike train input
+
++ This simple model makes it very easy to describe the
+fesponte ofa synapse toa trait of spikes!
+
+ 
+
+ 
+ENDELEMENTResponse of a synapse to a spike train inpu
+
++ This simple model makes it very easy to describe the
+response of a synapse to a train of spikes!
+
+Input S(t) fl fl fl
+
+Response G(t) % ms S x
+
+Impulse response
+
+ 
+
+ 
+
+ 
+
+to
+ENDELEMENTResponse of a synapse to a spike train input
+
++ This simple model makes it very easy to describ
+fesponse of 9 synapse toa trait of spikes!
+
+ 
+
+ 
+ENDELEMENTResponse of a synapse to a spike train input
+
++ This simple model makes it very easy to describe the
+fesponte of 9 synapse toa tain of spikes!
+
+ 
+
+ 
+ENDELEMENTResponse of a synapse to a spike train inpu
+
++ This simple model makes it very easy to describe the
+response of a synapse to a train of spikes!
+
+Input S(t) fl fl fl
+
+Response G(t) % ms % x
+
+Impulse response or Linear Kern
+
+ 
+
+ 
+
+Convolution
+_ too.
+
+ 
+ENDELEMENTResponse of a synapse to a spike train input
+
++ This simple model makes it very easy to describ
+
+fesponse of 9 synapse toa trait of spikes!
+
++ We just the spike tain with the linear
+response of the synaptic conductance
+
+Gy= fxcsu-ndr
+
+ 
+
+ 
+ENDELEMENTResponse of a synapse to a spike train inpu
+
++ This simple model makes it very easy to describe the
+response of a synapse to a train of spikes!
+
++ We just convolve the spike train with the linear
+response of the synaptic conductance
+
+G@= J K(t)S(t-t) dt Impulse reaponse
+
+KO= Gy
+ENDELEMENTResponse of a synapse to a spike train inpu
+
++ This simple model makes it very easy to describe the
+response of a synapse to a train of spikes!
+
++ We just convolve the spike train with the linear
+response of the synaptic conductance
+
+G@= J K(t)S(t-t) dt Impulse reaponse
+
+KO= Gy
+ENDELEMENTResponse of a synapse to a spike train inpu
+
++ This simple model makes it very easy to describe the
+response of a synapse to a train of spikes!
+
++ We just convolve the spike train with the linear
+response of the synaptic conductance
+
+G@= J K(t)S(t-t) dt Impulse response
+
+KO= Gy
+ENDELEMENTResponse of a synapse to a spike train inpu
+
++ This simple model makes it very easy to describe the
+response of a synapse to a train of spikes!
+
++ We just convolve the spike train with the linear
+response of the synaptic conductance
+
+G@= J K(t)S(t-t) dt Impulse reaponse
+
+KO= Ga
+ENDELEMENTResponse of a synapse to a spike train input
+
++ This simple model makes it very easy to describe the
+fesponte ofa synapse toa trait of spikes!
+
++ We just the spike train with the linear
+response of the synaptic conductance
+
+Guy= fK(e)sU-2) de
+
+Ko)
+
+<I
+
+ 
+
+ 
+ENDELEMENTResponse of a synapse to a spike train inpu
+
++ This simple model makes it very easy to describe the
+response of a synapse to a train of spikes!
+
++ We just convolve the spike train with the linear
+response of the synaptic conductance
+
+G@= J K(t)S(t-t) dt Impulse reaponse
+
+KO= Gy
+ENDELEMENTResponse of a synapse to a spike train inpu
+
++ This simple model makes it very easy to describe the
+response of a synapse to a train of spikes!
+
++ We just convolve the spike train with the linear
+response of the synaptic conductance
+
+G@= J K(t)S(t-t) dt Impulse reaponse
+
+KK) ie
+‘
+
+Si),
+
+KO= Gy
+ENDELEMENTResponse of a synapse to a spike train inpu
+
++ This simple model makes it very easy to describe the
+response of a synapse to a train of spikes!
+
++ We just convolve the spike train with the linear
+response of the synaptic conductance
+
+G@= J K(t)S(t-t) dt Impulse reaponse
+
+KO= Ga
+ENDELEMENTResponse of a synapse to a spike train inpu
+
++ This simple model makes it very easy to describe the
+response of a synapse to a train of spikes!
+
++ We just convolve the spike train with the linear
+response of the synaptic conductance
+
+G@= J K(t)S(t-t) dt Impulse reaponse
+
+KO= Ga
+ENDELEMENTResponse of a synapse to a spike train inpu
+
++ This simple model makes it very easy to describe the
+response of a synapse to a train of spikes!
+
++ We just convolve the spike train with the linear
+response of the synaptic conductance
+
+G@= J K(t)S(t-t) dt Impulse reaponse
+
+KO= Gy
+ENDELEMENTResponse of a synapse to a spike train inpu
+
++ This simple model makes it very easy to describe the
+response of a synapse to a train of spikes!
+
++ We just convolve the spike train with the linear
+response of the synaptic conductance
+
+G@= J K(t)S(t-t) dt Impulse reaponse
+
+KO= Gy
+ENDELEMENTResponse of a synapse to a spike train inpu
+
++ This simple model makes it very easy to describe the
+response of a synapse to a train of spikes!
+
++ We just convolve the spike train with the linear
+response of the synaptic conductance
+
+G@= J K(t)S(t-t) dt Impulse reaponse
+
+KO= Ga
+ENDELEMENTResponse of a synapse to a spike train inpu
+
++ This simple model makes it very easy to describe the
+response of a synapse to a train of spikes!
+
++ We just convolve the spike train with the linear
+response of the synaptic conductance
+
+G@= J K(t)S(t-t) dt Impulse reaponse
+
+KO= Gy
+ENDELEMENTResponse of a synapse to a spike train input
+
++ This simp makes it very easy to describe the
+
+fesponte of 9 synapse toa trait of spikes!
+
++ We just the spike train with the linear
+response of the synaptic conductance
+
+Giy= J x(esu—2) dr
+
+ 
+
+ 
+ENDELEMENTResponse of a synapse to a spike train input
+
++ This simple model makes it very easy to describ
+
+fesponse of 9 synapse toa trait of spikes!
+
++ We just the spike train with the linear
+response of the synapte conductance
+
+Gn= fx@su-ndr
+
+ 
+
+ 
+ENDELEMENTResponse of a synapse to a spike train input
+
++ This simple model makes it very o2sy to descr
+
+fesponse of 9 synapse toa trait of spikes!
+
++ We just spike train with the linear
+response of the synaptic conductance
+
+Gn= fxcsu-ndr
+
+ 
+
+ 
+ENDELEMENTResponse of a synapse to a spike train input
+
++ This simple model makes it very easy to describe the
+
+response of a synapse toa trait of spike
+
++ We just the spike tran withthe linear
+response of the synaptic conductance
+
+Guy= fx(esu-1) dr
+
+ 
+
+ 
+ENDELEMENTResponse of a synapse to a spike train input
+
++ This simple model makes it very easy to describe the
+
+fesponte ofa synapse toa trait of spikes!
+
++ We just the spike train with the linear
+response of the synaptic conductance
+
+Giy= J K(e)sU-H) de
+
+ 
+
+ 
+ENDELEMENTResponse of a synapse to a spike train input
+
++ This simple model makes it very easy to describe the
+
+fesponte of a synapse toa trai of spikes
+
++ We jst the spike train withthe linear
+response of the synaptic conductance
+
+Gn= fxcsu-ndr
+
+ 
+
+ 
+ENDELEMENTResponse of a synapse to a spike train input
+
++ This simp makes it very easy to describe the
+
+fesponte of a synapse toa trait of spikes!
+
++ We just the spike train with the linear
+response of the synaptic conductance
+
+Giy= J K(e)sU-2) dr
+
+ 
+
+ 
+ENDELEMENTResponse of a synapse to a spike train input
+
++ This simple model makes it very easy to describe the
+
+fesponte of 9 synapse toa trait of spikes!
+
++ We just the spike train with the linear
+response of the synaptic conductance
+
+Guy= fxsu—-2) dr
+
+ 
+
+ 
+ENDELEMENTResponse of a synapse to a spike train input
+
+w= fix
+
+ 
+
+ 
+ENDELEMENTResponse of a synapse to a spike train inpu
+
++ We just convolve the spike train with the linear response of
+the synaptic conductance *
+
+Gt)= | K(q)S(t-t) dt
+
+ 
+
++ Easy to do in Matlab
+use the conv function
+
+| ALM
+
+4
+
+ 
+ENDELEMENTResponse of a synapse to a spike train input
+
+Gy Fxcose-ae
+
+ 
+
+ 
+ENDELEMENTResponse of a synapse to a spike train input
+
+the smapte cond
+2)S-1) dr
+
+ti
+
+ 
+
+ 
+ENDELEMENTResponse of a synapse to a spike train input
+
+Se onmorr
+
+lil
+
+ 
+
+ 
+ENDELEMENTResponse of a synapse to a spike train inpu
+
++ We just convolve the spike train with the linear response of
+the synaptic conductance *
+
+Gt)= | K(q)S(t-t) dt
+
+ 
+
++ Easy to do in Matlab
+use the conv function
+ENDELEMENTResponse of a synapse to a spike train inpu
+
++ We just convolve the spike train with the linear response of
+the synaptic conductance *
+
+G(t)= | K(q)S(t-t) dt
+
+ 
+
++ Easy to do in Matlab
+use the conv function
+
+U LLL
+te AM
+
+ 
+ENDELEMENTResponse of a synapse to a spike train input
+
+se EEN ae Gaye [KOU -Ddt
+
+ 
+
+ 
+ENDELEMENTResponse of a synapse to a spike train input
+
+Gy Jxcnsu-nas
+
+HH
+
+ 
+
+ 
+ENDELEMENTResponse of a synapse to a spike train input
+
+Guy Fxcose-ea
+
+HL
+
+ 
+
+ 
+ENDELEMENTResponse of a synapse to a spike train input
+
++ Wejust convove the spike train with the linear response of
+SE creo
+
+ 
+
+ 
+ENDELEMENTResponse of a synapse to a spike train input
+
+meee Guys [RUENSU—T)dE
+
+ 
+
+ 
+ENDELEMENTResponse of a synapse to a spike train input
+
+Gy Jxcnsu-as
+
+HH
+
+ 
+
+ 
+ENDELEMENTResponse of a synapse to a spike train input
+
+mem eeN Guys [RUENSU—TVAE
+
+ 
+
+ 
+ENDELEMENTResponse of a synapse to a spike train input
+
+mae Guy [RUCNSU—T)a
+
+ 
+
+ 
+ENDELEMENTResponse of a synapse to a spike train input
+
++ This simp makes it very easy to describe the
+
+fesponse ofa synapse toa trait of spikes!
+
++ We just the spike train with the linear
+response of the synaptic conductance
+
+Giy= fKesu-H) dr
+
+ 
+
+ 
+ENDELEMENTResponse of a synapse to a spike train input
+
++ This simp makes it very easy to describe the
+
+fesponte of a synapse toa trait of spikes!
+
++ We just the spike train with the linear
+response of the synaptic conductance
+
+Guy= fx(esU-1) de
+
+ 
+
+ 
+ENDELEMENTResponse of a synapse to a spike train inpu
+
++ This simple model makes it very easy to describe the
+response of a synapse to a train of spikes!
+
+Input S(t) fl fl fl
+
+Response G(t) % be % s
+
+Impulse response or Linear Kern
+
+ 
+
+ 
+
+ 
+
+to
+ENDELEMENTResponse of a synapse to a spike train input
+
++ This simp makes it very easy to describe the
+
+response of a synapse toa trait of sp
+
++ We just the spike train with the linear
+response of the synaptic conductance
+
+Giy= fK(e)SU-2) dr
+
+ 
+
+ 
+ENDELEMENTResponse of a synapse to a spike train input
+
+2)s—2)de
+
+ 
+
+ 
+ENDELEMENTResponse of a synapse to a spike train input
+
+aed nenen
+
+nn
+
+ 
+
+ 
+ENDELEMENTResponse of a synapse to a spike train inpu
+
++ We just convolve the spike train with the linear response of
+the synaptic conductance *
+
+Gt)= | K(q)S(t-t) dt
+
+ 
+
++ Easy to do in Matlab
+use the conv function
+
+vl ALM
+
+ 
+ENDELEMENTResponse of a synapse to a spike train input
+
+Guy Jacnsu-as
+
+ 
+
+ 
+ENDELEMENTResponse of a synapse to a spike train input
+
+a i * Guy= fxcsu-2de
+
+IL
+
+ 
+
+ 
+ENDELEMENTResponse of a synapse to a spike train input
+
+ow= fx
+
+ 
+
+ 
+ENDELEMENTResponse of a synapse to a spike train input
+
+2)S-1) dr
+
+lil
+
+ 
+
+ 
+ENDELEMENTResponse of a synapse to a spike train input
+
+“ n= [Kesu-n at
+
+ALLL
+
+ 
+
+ 
+ENDELEMENTResponse of a synapse to a spike train input
+
+2)S-1) dr
+
+li
+
+ 
+
+ 
+ENDELEMENTLearning objectives for Lecture 7
+
+To understand synaptic saturation
+
+ 
+
+ 
+ENDELEMENTSynaptic saturation
+
++ Lets examine how the voltage in a dendrite changes as
+a function of the amount of excitatory conductance
+
+ 
+
+Ow)
+
+ 
+
+ 
+ENDELEMENTSynaptic saturation
+
++ Lets examine how the voltage in a dendrite changes as
+
+a function of the amount of excitatory conductance
+
+ 
+
+Ow)
+
+ 
+
+ 
+ENDELEMENTSynaptic saturation
+
++ Lets examine how the voltage in a dendrite changes as
+a function of the amount of excitatory conductance
+
+ 
+
+Ow?)
+
+ 
+
+ 
+ENDELEMENTSynaptic saturation
+
++ Let's examine how the voltage in a dendrite changes
+a function of the amount of excitatory conductance.
+
+V0 R Vole
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+OG O) in
+dendritic somat
+
+dendritic somatic compartment compart
+compartment compartment
+ENDELEMENTSynaptic saturation
+
++ Let's examine how the voltage in a dendrite changes
+a function of the amount of excitatory conductance.
+
+YO R TAG
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+OG © in
+dendritic somat
+
+dendritic somatic compartment compart
+compartment compartment
+ENDELEMENTSynaptic saturation
+
++ Lets examine how the voltage in a dendrite changes as
+a function of the amount of excitatory conductance
+
+ 
+
+Ow?)
+
+ 
+
+ 
+ENDELEMENTSynaptic saturation
+
++ Let's examine how the voltage in a dendrite changes
+a function of the amount of excitatory conductance.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Vio R Ve
+ol
+© Het
+dendritic somatic ‘compartment ‘compartr
+
+ 
+
+compartment compartment
+ENDELEMENTSynaptic saturation
+
+how the voltage in a
+
+ 
+
+ 
+
+ 
+ENDELEMENTSynaptic saturation
+
++ Lets examine how the voltage in a dendrite changes as
+a function of the amount of excitatory conductance
+
+ 
+
+ 
+
+ 
+ENDELEMENTSynaptic saturation
+
++ Let's examine how the voltage in a dendrite changes
+a function of the amount of excitatory conductance.
+
+VR Ve
+
+   
+
+O
+
+dendritic somat
+dendritic somatic compartment compart
+compartment compartment
+ENDELEMENTSynaptic saturation
+
++ Lets examine how the voltage in a dendrite changes as
+2 function of the amount of excitatory conductance,
+
+ 
+
+ 
+ENDELEMENTSynaptic saturation
+
++ Lets examine how the voltage in a dendrite changes as
+2 function of the amount of excitatory conductance,
+
+ 
+
+ 
+ENDELEMENTSynaptic saturation
+
++ Lets examine how the voltage in a dendrite changes as
+a function of the amount of excitatory conductance
+
+ 
+
+ 
+ENDELEMENTSynaptic saturation
+
++ Let's examine how the voltage in a dendrite changes
+a function of the amount of excitatory conductance.
+
+ 
+
+a et
+G,,(nS) dnd
+comporm
+
+As synaptic input increases, the postsynaptic response saturates to a con:
+ENDELEMENTSynaptic saturation
+
++ Let's examine how the voltage in a dendrite changes
+a function of the amount of excitatory conductance.
+
+ 
+
+a et
+G,,(nS) dnd
+comporm
+
+As synaptic input increases, the postsynaptic response saturates to a con:
+ENDELEMENTSynaptic saturation
+
++ Lets examine how the voltage in a dendrite changes as
+2 function of the amount of excitatory conductance.
+
+ 
+
+ 
+ENDELEMENTSynaptic saturation
+
++ Lets examine how the voltage in a dendrite changes as
+2 function of the amount of excitatory conductance
+
+ 
+
+ 
+ENDELEMENTSynaptic saturation
+
++ Lets examine how the voltage in a dendrite changes as
+2 function of the amount of excitatory conductance,
+
+ 
+
+ 
+ENDELEMENTSynaptic saturation
+
++ Lets examine how the voltage in a dendrite changes as
+a function of the amount of excitatory conductance
+
+ 
+
+ 
+ENDELEMENTSynaptic saturation
+
++ Lets examine how the voltage in a dendrite changes as
+a function of the amount of excitatory conductance
+
+|
+
+ 
+
+ 
+ENDELEMENTSynaptic saturation
+
++ Let's examine how the voltage in a dendrite changes
+a function of the amount of excitatory conductance.
+
+Kirchoff's current law says:
+
+Y,
+
+6.27 3
+
+IL, + I =0 a # ;
+G,[V-E»] + G,[V-E,] =0 —
+onde
+
+comparim
+
+GV GE, + GV -G,E, = 0
+
+   
+ENDELEMENTSynaptic saturation
+
++ Let's examine how the voltage in a dendrite changes
+a function of the amount of excitatory conductance.
+
+ 
+
+dendet
+‘compartm
+ENDELEMENTSynaptic saturation
+
++ Let's examine how the voltage in a dendrite changes
+a function of the amount of excitatory conductance.
+
+y= GEA Gul,
+G,+G,, vy
+6.7 3
+‘
+Fo
+dendet
+ccompartm
+ENDELEMENTSynaptic saturation
+
++ Lets examine how the voltage in a dendrite changes as
+a function of the amount of excitatory conductance
+
+ 
+
+G,_(nS)
+
+ 
+ENDELEMENTSynaptic saturation
+
++ Lets examine how the voltage in a dendrite changes as
+a function of the amount of excitatory conductance
+
+ 
+
+G,_(nS)
+
+ 
+ENDELEMENTLearning objectives for Lecture 7
+
++ To understand the sitfeent functions of somatic and dendritic
+‘nition
+
+ 
+
+ 
+ENDELEMENTInhibitory inputs
+
++ The effect of inhibitory input depends strongly on wi
+the inhibitory synapse is.
+
+cian sapie
+
+YS
+
+O dendritic somatic
+river spspse compartment ‘compart
+
+  
+
+ 
+
+ 
+
+ 
+ENDELEMENTInhibitory inputs
+
++ The effect of inhibitory input depends strongly on where
+the inhibitory synapse is.
+
+ 
+
+ 
+ENDELEMENTInhibitory inputs
+
++ The effect of inhibitory input depends strongly on where
+the inhibitory synapse is.
+
+ 
+
+ 
+ENDELEMENTInhibitory inputs
+
++ The effect of inhibitory input depends strongly on wi
+the inhibitory synapse is.
+
+R Vt)
+car sapien
+
+YS
+
+O dendritic somatic
+riser spspie compartment ‘compart
+
+ 
+
+Li]
+
+ 
+ENDELEMENTInhibitory inputs
+
++ The effect of inhibitory input depends strongly on wi
+the inhibitory synapse is.
+
+Exciatory sapee
+
+Sy
+
+O dendritic somatic
+riven spspie compartment ‘compart
+
+  
+
+ 
+
+ 
+
+ 
+ENDELEMENTInhibitory inputs
+
++ The effect of inhibitory input depends strongly on where
+the inhibitory synapse is
+
+NS
+
+rr ®
+
+Cow) :
+
+ 
+
+ 
+ENDELEMENTCrayfish as a model system
+
++ Stereotypic behavior
++ Identifiable neurons
++ Identifiable circuits
+
+CEES wards ot (Trends Newrosc, 1990)
+
+ 
+
+ 
+ENDELEMENTCrayfish as a model system
+
++ Stereotypic behavior
++ Identifiable neurons
++ Identifiable circuits
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+  
+ENDELEMENTCrayfish as a model system
+
++ Stereotypic behavior
++ Identifiable neurons
++ Identifiable circuits
+
+ES
+
+ 
+
+ 
+ENDELEMENTCrayfish as a model system
+
++ Stereotypic behavior
++ Identifiable neurons
++ Identifiable circuits
+
+Yalow: LG neuron
+
+ 
+
+ 
+ENDELEMENTCrayfish as a model system
+
++ Stereotypic behavior
++ Identifiable neurons
++ Identifiable circuits
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+  
+ENDELEMENTEscape behavior in crayfish
+
+= MG (medial giant) escape
+= LG (lateral giant) escape
+= Non-giant escape
+
+wen
+
+MG escape
+
+ 
+ENDELEMENTEscape behavior in crayfish
+
+= MG (medial giant) escape
+
+® Non-giant escape
+
+MG escape
+
+ 
+
+ 
+ENDELEMENTEscape behavior in crayfish
+"= MG (medial giant) escape
+
+= Non-giant escape
+
+MG escape EN
+
+ 
+
+ 
+ENDELEMENT 
+ENDELEMENT      
+  
+  
+
+Activation in Freely Behaving
+
+fie Q
+
+Recordings of Neural Circuit eryts |
+ENDELEMENT 
+
+ 
+ENDELEMENT 
+
+ 
+
+ 
+ENDELEMENT 
+
+IV. Representative Results
+
+»
+
+ 
+ENDELEMENT 
+ENDELEMENT0h
+ENDELEMENTMG
+
+ 
+
+ 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENTLG
+
+ 
+
+Is
+
+ 
+
+Lisi
+
+90k
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+
+ 
+ENDELEMENTEscape behavior in crayfish
+
+= LG (lateral giant) escape
+= Non-giant escape
+
+LG escape
+HQ
+
+gure: Edvard ot a. (Trends Neves, 199)
+
+ 
+ENDELEMENTLG is a ‘command neuron’
+
++ LG neuron is sufficient for LG escape.
+
+= Electrical stimulation of LG neuron produces tal ip.
+
+LG neuron is necessary for LG escape.
+
+Talflip i not elited ifthe LG nouron is hyperpolarized.
+
+Foxy
+
+ 
+
+Wn & atk 1977
+ENDELEMENTLG is a ‘command neuron’
+
++ LG neuron is sufficient for LG escape.
+= Electrical stimulation of LG neuron produces tail flip.
+
++ LG neuron is necessary for LG escape.
+
+— Til flip is not elicited if the LG neuron is hyperpolarized.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTLG is a ‘command neuron’
+
++ UG neuron is sufficient for LG escape
+
+LG neuron is necessary for LG escape.
+
+Talfip isnot elite ifthe UG neuron i hyperpolarized
+
+By
+=|
+
+a
+
+ 
+
+ 
+ENDELEMENTLG is a ‘command neuron’
+
++ UG neuron is sufficient for LG escape
+Jeti smlaon of ces tl ip
+
++ LG neuron is necessary for LG escape
+
+Tal ip i not elicted ifthe LG neuron i hyperpolarized,
+
+ 
+
+ 
+ENDELEMENT   
+     
+ 
+         
+
+LG is a ‘command neuron’
+
++ LG neuron is sufficie
+
++ LG neuron is necessary for LG escape
+
+ 
+
+SI
+J
+
+ 
+
+ 
+
+ 
+ENDELEMENTEscape behaviors are strongly modulated by
+inhibition
+
++ Escape response is suppressed while another escape:
+n progress
+
+(and many other neurons
+
+ 
+
+ 
+ENDELEMENTEscape behaviors are strongly modulated by
+inhibition
+
++ Escape response is suppressed while another escape:
+n progress
+
+ 
+
+ 
+ENDELEMENTEscape behaviors are strongly modulated by
+inhibition
++ Escape response is suppressed while another escape
+response isin progress
+
+{G neurons ond many other nevon
+
+ 
+
+ 
+ENDELEMENTEscape behaviors are strongly modulated by
+inhibition
+
++ Escape response is suppressed while another escape
+eis in progress
+
+ 
+
+ 
+ENDELEMENTEscape behaviors are strongly modulated by
+inhibition
+
++ Escape response is suppressed while another escape
+n progress
+
+ 
+
+ 
+ENDELEMENTEscape behaviors are strongly modulated
+inhibition
+Escape response is suppressed while another escapé
+
+response is in progress
+— Recurrent inhibition of LG neurons (and many other neuron
+during escape behavior
+
+Escape response is suppressed when the animal is
+restrained e 7
+
+Hold off escape unti timely moment? | :
+?
+:
+
+ 
+ENDELEMENTEscape behaviors are strongly modulated by
+inhibition
+
+Escape response is suppressed while another escape
+eis in progress
+
+(and many other neurons
+
+Escape response is suppressed when the animal is
+restrained
+
+ 
+
+ 
+ENDELEMENTEscape behaviors are strongly modulated by
+inhibition
+pressed while another
+
++ Escape response is suppressed when the animal is,
+restrained
+
+ 
+
+ 
+ENDELEMENTEscape behaviors are strongly modulated by
+inhibition
+
++ Escape response is suppressed while another escape
+response is in progress
+
+Escape response is suppressed when the animal is
+restrained
+
+ 
+
+ 
+ENDELEMENTEscape behaviors are strongly modulated
+
+ 
+
+ 
+
+ 
+
+inhibition
++ Escape response is suppressed wel
+while the animal is eating to
+re
+ices
+Eis) 0
+* But not while the animal is did
+searching for food Bie] sem
+PI i)
+off ff]
+
+ 
+
+ 
+ENDELEMENTEscape behaviors are strongly modulated by
+inhibition
+
++ Butnot while the
+searching for food
+
+ 
+
+ 
+ENDELEMENTEscape behaviors are strongly modulated by
+inhibition
+
++ Escape response is suppressed
+while the animal is eating
+
++ But not while the animal is
+searching for food
+
+ 
+
+ 
+ENDELEMENTEscape behaviors are strongly modulated by
+inhibition
+
++ Escape response is suppresse:
+while the animal is eating
+
++ But not while the animal is
+searching for food
+
+ 
+
+ 
+ENDELEMENTEscape behaviors are strongly modulated by
+inhibition
+
++ Escape response is suppressed
+while the animal is eating
+
++ But not while the animal is
+searching for food
+
+ 
+
+ 
+ENDELEMENTEscape behaviors are strongly modulated by
+inhibition
+
++ Escape response is suppressed
+while the animal s eating
+
++ But not while the animal is
+searching for food
+
+ 
+
+ey
+ENDELEMENTTwo types of modulation of LG esca
+reflex
+
++ Absolute inhibition: The escape is inhibite
+no matter how strong the excitation is.
+
+* Relative inhibition: The likelihood of escap
+reduced, but it is still possible to override '
+kind of inhibition.
+ENDELEMENTTwo types of modulation of LG escape
+reflex
+
++ Absolute inhibition: The escape is inhibited
+no matter how strong the excitation is.
+
+Relative inhibition: The likelihood of escape is
+reduced, but itis still possible to override this
+kind of inhibition.
+
+ 
+ENDELEMENTTwo types of modulation of LG escape
+reflex
+
++ Absolute inhibition: The escape is inhibited
+no matter how strong the excitation is.
+
+Relative inhibition: The likelihood of escape is
+reduced, but itis still possible to override this
+kind of inhibition.
+
+ 
+ENDELEMENTTwo types of modulation of LG escape
+reflex
+
++ Absolute inhibition: The escape is inhibited
+no matter how strong the excitation is.
+
++ Relative inhibition: The likelihood of escape is
+reduced, but itis still possible to override this
+kind of inhibition.
+
+ 
+ENDELEMENTTwo types of modulation of LG escape
+reflex
+
++ Absolute inhibition: The escape is inhibited
+no matter how strong the excitation is.
+
+Relative inhibition: The likelihood of escape is
+reduced, but itis still possible to override this
+kind of inhibition.
+
+ 
+ENDELEMENTTwo types of modulation of LG escape
+reflex
+
++ Absolute inhibition: The escape is inhibited
+no matter how strong the excitation is.
+
+Relative inhibition: The likelihood of escape is
+reduced, but itis still possible to override this
+kind of inhibition.
+
+ 
+ENDELEMENTLocation of inhibitory synapses
+
+ 
+
+etal NS, 1995)
+ENDELEMENTLocation of inhibitory synapses
+
++ Proximal inhibition:
+‘pike initiating zone
+
+— Ariss from motor circuits that generate the MG escape:
+= Called ‘recurrent inhibition’
+
+ 
+
++ Distal inhibition:
+
+= Intermixed with excitatory afferents futher out on the dendrite
+~ Arises from sensory areas
+
+= Called tone inhibition’ Cw
+
+ 
+ENDELEMENTLocation of inhibitory synapses
+
++ Proximal inhibition:
+‘pike initiating zone
+
+— Arise from motor circuits that generate the MG escape:
+= Called ‘recurrent inhibition’
+
+ 
+
++ Distal inhibition:
+
+= Intermixed with excitatory afferents futher out on the dendrite
+~ Avises from sensory areas
+
+= Cenc ie
+
+Spo
+ENDELEMENTLocation of inhibitory synapses
+
+ 
+
+Weta (NS, 1989)
+
+ 
+ENDELEMENTLocation of inhibitory synapses
+
+ 
+
+Weta (NS, 1989)
+
+ 
+ENDELEMENTMeasuring the effect of different types
+of inhibition
+
+Ss Recut. |
+Cs MG stimutation
+‘Spike-initiating zone inhib. |
+
+input | <7
+
+ 
+
+ 
+ENDELEMENTMeasuring the effect of different tyr
+of inhibition
+
+Current injection
+
+x Recording
+
+   
+ 
+
+ 
+
+ 
+ENDELEMENTMeasuring the effect of different types
+of inhibition
+
+L
+
+=e
+
+CoS Vs if uo wn
+
+em Ae fere]
+
+Input Lin. |
+
+ 
+
+ 
+ENDELEMENTMeasuring the effect of different types
+of inhibition
+
+3 axon //
+
+~ Racer. | MG stimulation
+a |
+
+feet A KT]
+
+input Lint. |
+
+ 
+
+ 
+ENDELEMENTMeasuring the effect of different types
+of inhibition
+
+. | Recut. | stimutstion
+‘Spike initiating zone innib, [MC
+x 5
+[ects (ise |
+
+ 
+
+ 
+ENDELEMENTEquivalent circuit model
+Interior
+
+ 
+
++ Re longitudinal resistance
+
++ Re: proximal resistance:
+
++ Ro: distal resistance
++ Ee: reversal potential for excitatory synapse (100 mV)
+*+ Ge: excitatory conductance
++ Gis inhibitory conductance
+
+ 
+
+ 
+ENDELEMENTEquivalent circuit model
+Interior
+
+  
+
+ 
+
+ 
+
+ 
+
+(St A [ie .
+
++ Ru longitudinal resistance
++ Rp: proximal resistance
++ Ro: distal resistance
+
++ Ee: reversal potential for excitatory synapse (100 mV,
+ENDELEMENTProximal versus Distal inhibitior
+
+Interior
+x Proximal
+“of i Pr raf inhibitio
+
+ 
+ENDELEMENT   
+           
+   
+
+Proximal versus Distal inhibition
+Interior
+ae
+peed
+
+Interior
+
+afl ‘a &
+
+ 
+
+ 
+ENDELEMENT   
+           
+   
+
+Proximal versus Distal inhibition
+Interior
+
+oof ‘a q {ay
+
+Bt, ad
+
+Interior
+
+aff ‘a La
+
+ 
+
+ 
+ENDELEMENTGil Go
+
+Proximal inhibition
+
+700 1000
+
+10
+
+ 
+
+ 
+ENDELEMENToi 1810760 Too
+Excitatory strength
+
+ 
+
+ 
+ENDELEMENToi 1010760 Too
+Excitatory strength
+
+ 
+
+ 
+ENDELEMENT3
+
+>
+Depolarization (mV)
+
+luction'
+(%)
+8888800 » 2 o @
+
+ 
+
+Proximal inhibition
+
+ 
+
+Gil Go
+0
+
+02
+0s
+ENDELEMENT     
+
+   
+
+8388800 » » oo
+
+    
+
+Reduction
+of EPSP (%)
+
+   
+
+801—a1 to 10" 1001000
+Excitatory strength
+
+ 
+   
+
+ 
+ENDELEMENTOi ho 101007000
+
+ 
+
+Excitatory strength
+
+ 
+ENDELEMENTMore ‘realistic’ multi-compartmen
+model
+
+proximal inhibitory syne
+
+   
+
+~ x
+he. <—___ excitatory synapses
+
+distal inhibitory syn
+ENDELEMENToi 1810760 F600
+Excitatory strength
+
+ 
+
+ 
+ENDELEMENTDifferent functions for proximal and
+distal inhibition
+
+“wo-compartment model shows that the effect of proximal
+and distal inhibition are different.
+= Distal iho lative
+
+Qualitatively similar effects were seen when more
+complicated models were used.
+
+ 
+ENDELEMENTDifferent functions for proximal and
+distal inhibition
+
++ Two-compartment model shows that the effect of
+proximal and distal inhibition are different.
+Proximal inhibition: absolute
+~ Distal inhibition: relative
+
++ Qualitatively similar effects were seen when more.
+complicated models were used,
+
+ 
+
+ 
+ENDELEMENTLearning objectives for Lecture 7
+
+Be able to add a synapse in an equivalent circu mode!
+To describe a simple model of synaptic transmission
+
++ Tobe able to describe synaptic transmission as @ convolution
+of a near kernel with a spike train
+
+To understand synaptic saturation
+
++ To understand the sifferent functions of somatic and dendritic
+
+ 
+
+ 
+ENDELEMENTSources of content used with permission:
+
+Cajal illustration courtesy Instituto Cajal © Legado Caje
+Various figures courtesy of Elsevier, Inc.
+
+Johnston and Wu (1995) figures courtesy of MIT Press
+ENDELEMENT

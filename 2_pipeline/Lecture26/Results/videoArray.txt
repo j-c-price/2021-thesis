@@ -1,0 +1,4138 @@
+ 
+
+i rT Massachusetts
+Institute of
+Technology
+
+RES.9-003, Summer 2015
+
+Brains, Minds and Machines Summer C
+Nancy Kanwisher
+
+ 
+
+Lecture 1.1: Human Cognitive Neuroscienc
+ENDELEMENTSome content in this video is not coverec
+our Creative Commons license.
+See the closing credits for more inform:
+ENDELEMENTThe Functional Architecture of Human Intelligence
+
+Nancy Kanwisher
+MBL Summer Course August 2015,
+
+lots of relevant short talks at:
+hup:/naneysbraintalks mit edu!
+
+   
+ENDELEMENTThe Functional Architecture of Human Intelligence
+
+Nancy Kanwisher
+MBL Summer Course August 2015
+
+lots of relevant short talks at:
+hup:/naneysbraintalk mit edu!
+
+   
+ENDELEMENTThe Functional Architecture of Human Intelligence
+
+=
+Nancy Kanwisher K
+
+MBL Summer Course August 2015
+
+lots of relevant short talks at:
+
+hup/naneysbraintalks mit edul ~
+Hum
+
+  
+ENDELEMENT 
+
+The Functional Architecture of Human Intelligence
+
+Nancy Kanwisher
+MBL Summer Course August 2015,
+
+lots of relevant short talks at:
+hup/nancysbraintalk mit edul
+
+  
+
+Hum
+
+=
+x
+ENDELEMENTThe Functional Architecture of Human Intelligence
+
+Nancy Kanwisher
+
+MBL Summer Course August 2015,
+
+lots of relevant short talks at:
+
+hup/naneysbrain
+
+ 
+
+ 
+
+ks mitedw/
+
+bs
+
+ 
+
+=
+x
+ENDELEMENTThe Functional Architecture of Human Intelligence
+
+=
+
+MBL Summer Course August 2015,
+
+lots of relevant short talks at
+
+hup:/nancysbraintalks mit edul -
+Hum
+ENDELEMENTThe key question addressed in this cours
+
+ 
+
+Jor and how we may
+
+ 
+
+How does the brain produce intelligent beh
+be able to replicate intelligence in machines?
+
+   
+ENDELEMENTThe key question addressed in this cours
+
+ 
+
+How does the bra or and how we m
+
+be able to replicat
+
+oduce intelligent beh
+ligence i
+
+     
+
+    
+
+Many possible approaches (computation, circuits, ete)
+
+ 
+
+ 
+
+Hum
+
+2 PT By
+ENDELEMENTThe key question addressed in this cours
+
+ 
+
+How does the b
+be able to replicate
+
+Jor and how we may
+
+ 
+
+produce intelligent beh
+lligence in machines?
+
+ 
+
+Many possible approaches (computation, circuits, ete)
+
+ 
+ENDELEMENTThe key question addressed in this cours
+
+ 
+
+ 
+
+How does the brain produce intelligent behavior and how we may
+
+be able to replicate intelligence in machines?
+
+Many possible approaches (computation, circuits, ete)
+
+ 
+
+Hum
+
+2 PT By
+ENDELEMENTThe key question addressed in this cours
+
+ 
+
+How does the brain produce intelligent behavior and how we may
+bbe able to replicate intelligence in machines?
+
+ 
+
+Many possible approaches (computation, circuits, ete)
+
+Hum
+ENDELEMENTThe key question addressed in thi
+
+ 
+
+ 
+
+How does the brain produce intelligent behavior and how we may
+be able to replicate
+
+  
+
+Many possible approaches (computation, circuits, ete)
+
+Today:
+1. Functional architecture ofthe human brai
+What are the basic components ofthe system?
+IL, Methods of Human Cognitive Neuroscience,
+strengths and weaknesses of each
+‘with examples from face recognition
+
+ 
+
+Hum
+
+¢ TT Poe
+ENDELEMENTIs human intelligence the product of:
+
+Hum
+ENDELEMENTIs human intelligence the product of:
+
+ 
+
++ special-purpose components, each optimized
+to solve a single specific problem?
+
+ 
+
+Hum
+ENDELEMENTIs human intelligence the product of:
+
+ 
+
++ speci
+to solve a sing
+
+purpose components, each optimized
+specific problem?
+
+  
+
+Hum
+ENDELEMENTIs human intelligence the product of:
+
+ 
+
++ speci
+to solve a sing
+
+purpose components, each optimized
+specific problem?
+
+ 
+
++ more general-purpose machinery that -
+‘enables us to tackle a wide range of problems
+without being specialized for any of them in
+particular?
+
+Hum
+ENDELEMENTIs human intelligence the product of:
+
++ special-purpose components, each optimized
+
+to solve a single specific problem?
+
+ 
+
++ more general-purpose machinery that -
+‘enables us to tackle a wide range of problems
+without being specialized for any of them in
+particular?
+
+Hum
+ENDELEMENTIs human intelligence the product of:
+
++ speci
+to solve a sing
+
+ 
+
+Purpose components, each optimized
+specific problem?
+
+ 
+
++ more general-purpose machinery that
+‘enables us to tackle a wide range of problems
+without being specialized for any of them in
+particular?
+
+Who cares?
+
+ 
+
+Hum
+ENDELEMENTWho Cares about Functional Components?
+
+“This question matters because:
+* one of the most fundamental questions about the organization of mind
+and brain
+
+Hum
+ENDELEMENTWho Cares about Functional Components?
+
+‘This question matters because:
+* one of the most fundamental questions about the organization of mind
+and brain
+
+Hum
+ENDELEMENTWho Cares about Functional Components?
+
+ 
+
+‘This question matters because:
+* one of the most fundame
+and brain
+
+ 
+ 
+
++ a classic way to mal
+system: “divide and conquer
+
+ 
+
+progress toward understanding any con
+
+tal questions about the organization of mind
+
+icated
+
+ 
+
+Hum
+ENDELEMENTWho Cares about Functional Components?
+
+“This question matters because:
+one of the most fundame
+
+ 
+
+and brain
++ a classic way to make progress toward understanding any con
+system: “divide and conquer”
+
+ 
+
+tal questions about the organization of mind
+
+icated
+
+Hum
+ENDELEMENTWho Cares about Functional Components?
+
+ 
+
+‘This question matters because:
+one of the most fundamenta
+
+   
+
+and brain
+
+ 
+ 
+
++ a classic way to make progress toward understanding any con
+
+system: “divide and conquer
+
+ 
+
+restions about the organization of mind
+
+icated
+
+Hum
+ENDELEMENTWho Cares about Functional Components?
+
+‘This question matters because:
+‘one of the most fundamental questions about the organization of mind
+
+ 
+
+and brain
+
++ a classic way to make progress toward understanding any complicated
+
+ 
+
+ 
+
+system: “divide and conquer
+* the particular components have major implications for our
+understanding ofthe computations underlying cognition
+
+ 
+
+Hum
+ENDELEMENTWho Cares about Functional Components?
+
+ 
+
+‘This question matters because:
+‘one of the most fundamental questions about the organization of mind
+and brain
++ a classic way to make progress toward understanding
+system: “divide and conquer”
+
+  
+
+lar components have
+ofthe computations under
+
+jr implications for our
+cognition,
+
+ 
+
+ 
+
+ 
+
+Hum
+ENDELEMENTWho Cares about Functional Components?
+
+‘This question matters because:
+‘+ one of the most fundamental questions about the organization of mind
+and brain
+
+ 
+ 
+
++ a classic way to make progress toward understanding
+
+system: “divide and conquer
+
+ 
+
+lar components have major implications for our
+ofthe computations underlying cognition,
+
+     
+
+ 
+
+Hum
+ENDELEMENTWho Cares about Functional Components?
+
+‘This question matters because:
+‘+ one of the most fundamental questions about the organization of mind
+and brain
+
+ 
+ 
+
++ a classic way to make progress toward understanding
+
+system: “divide and conquer
+
+ 
+
+lar components have
+ofthe computations underyi
+
+jr implications for our
+cognition
+
+    
+
+ 
+
+Hum
+ENDELEMENTWho Cares about Functional Components?
+
+‘This question matters because:
+
+‘one of the most fundamer
+
+and brain
++ a classic way to mal
+
+ 
+ 
+
+system: “divide and conquer
+
+  
+
+lar components have
+‘of the computations underly
+
+ 
+
+tal questions about the organization of mind
+progress toward understanding
+
+jr implications for our
+cognition
+
+ 
+
+ 
+
+ 
+
+Hum
+ENDELEMENT1, Spearman (1904), General Intelligence
+American Journal of Psychology
+
+ 
+
+iN
+
+Hum
+ENDELEMENT1, Spearman (1904), General Intelligence
+American Journal of Psychology
+
+ 
+
+i
+
+Hum
+ENDELEMENT1, Spearman (1904), General Intelligence
+American Journal of Psychology
+
+In anarticl sandwiched between a dscuson ofthe sou and
+an account of “the psychology ofthe English sparrow”
+
+ 
+
+Hum
+ENDELEMENT1, Spearman (1904), General Intelligence
+American Journal of Psychology
+
+In an article sandwiched between a dscusion ofthe sou and
+‘a acount of “the psjchoogy ofthe English sparrow”
+
+  
+
+ 
+
+‘Spearman tested (n two schools)
+
+Hum
+ENDELEMENT1, Spearman (1904), General Intelligence
+
+  
+
+ 
+
+American Journal of Psychology
+In an article sandwiched between a dscuson ofthe sou and
+an account of “the psychology ofthe English sparrow”
+iN
+‘Spearman tested (nto sehaos) Chet Sarmen
+
+ 
+
+Hum
+ENDELEMENT1, Spearman (1904), General Intelligence
+American Journal of Psychology
+
+In an article sandwiched between a dscusion ofthe sou and
+
+an acount of “the psychology ofthe English sparrow
+
+ 
+
+ 
+
+‘Spearman tested (n two schools) (Chet Sparmen
+‘Seosory dcriminaion ability (ones, weights, brightnes)
+
+ 
+
+Hum
+ENDELEMENT1, Spearman (1904), General Intelligence
+American Journal of Psychology
+
+In an article sandwiched between a dscuson ofthe sou and
+an acount of “the psychology ofthe English sparrow”
+
+ 
+
+ 
+
+‘Spearman tested (in two schoo) (Chet Sarman
+‘Seosory dcriminaion ability (ones, weights, brightnes)
+
+ 
+
+Hum
+ENDELEMENT1. Spearman (1904), General Intelligence
+American Journal of Psychology
+
+In an article sandwiched between a dscuson ofthe soul and
+an account of “the psychology ofthe English sparrow"
+
+‘Spearman tested (nto schoo) (Chet Sparmen
+‘Seosory dscriminaion ability (ones, weights, brightnes)
+
+What do you think? Should thes things be correlated?
+
+Hur
+ENDELEMENT1. Spearman (1904), General Intelligence
+American Journal of Psychology
+
+Inanarticle sandwiched between a dscusion ofthe sou and
+‘an account of “the psyehalogy ofthe English sparrow"
+
+ 
+
+‘Spearman tested (in two schoo’) Chet Sparmen
+‘Seosory dcriminaion ability (oes, weights, brightnes)
+
+What do you think? Should thes things be correlate?
+
+What he found
+mos pals of tasks were correlated with eachother
+
+Hur
+ENDELEMENT1, Spearman (1904), General Intelligence
+American Journal of Psychology
+
+In an article sandwiched between a dscusion ofthe sou and
+an account of “the psjchaogy ofthe English sparrow”
+
+ 
+
+‘Spearman tested (in two sehoos) Chote Sparmen
+‘Seosory dcriminaion ability (ones, weights, brightnes)
+
+What do you think? Should thes things be correlated?
+What he found
+
+most pais of asks were correlated with each eter
+
+Hur
+ENDELEMENT1, Spearman (1904), General Intelligence
+
+American Journal of Psychology
+
+In an article sandwiched between a dscuson ofthe sou and
+‘an account of “the psyehalgy ofthe English sparrow"
+
+‘Spearman tested (n two schools)
+Sensory diserimination ability (ones, weights, brightness)
+
+What do you think? Should thes things be correlate?
+What he found
+
+most pals of asks were correlated with each eter
+
+ 
+
+Hur
+ENDELEMENT1, Spearman (1904), General Intelligence
+American Journal of Psychology
+
+In an article sandwiched between a dscuson ofthe sou and
+an acount of “the psychology ofthe English sparrow”
+
+ 
+
+‘Spearman tested (n two schools) Chet Sparmen
+‘Seosory dcriminaion ability (ones, weights, brightnes)
+
+What do you think? Should thes things be correlate?
+What he found
+
+mos pals of tasks were correlated with each eter
+
+Hur
+ENDELEMENT1, Spearman (1904), General Intelligence
+American Journal of Psychology
+
+In an article sandwiched between a dscusion ofthe sou and
+an account of “the psyehalogy ofthe English sparrow"
+
+ 
+
+‘Spearman tested (n two schools) Chet Sparmen
+‘Scosory dcriminaion ability (ones, weights, brightnes)
+
+What do you think? Should thes things be correlate?
+What he found
+
+mos pals of tasks were correlated with each eter
+
+Hur
+ENDELEMENT1, Spearman (1904), General Intelligence
+American Journal of Psychology
+
+In an article sandwiched between a dscusion ofthe sou and
+‘an account of “the psyehalogy ofthe English sparrow"
+
+‘Spearman tested (n two schools) Chote Sparmen
+variety of measures of academic ably (exam grades in varius subject)
+Sensory diserimination ability (ones, weight, brightness)
+
+What do you think? Should thes things be correlate?
+What he found
+
+most pals of tasks were correlated with each eter
+
+Hur
+ENDELEMENT1, Spearman (1904), General Intelligence
+American Journal of Psychology
+
+In anarticl sandwiched between a dscuson ofthe sou and
+‘an account of “the psyehalgy ofthe English sparrow"
+
+ 
+
+Spearman tested (nto schoo’) Chet Sparman
+i variety of measures of academic ability (eg cxam grades in varius subject)
+Sensory diserimination ability (ones, weights, brightness)
+
+What do you thnk? Should thes things be correlate?
+
+What he found
+mos pals of tasks were correlated with each eter
+nom obvious and dep, dd not have to come out this way!
+
+What he inferred ae
+"The general factor, common tal tas:
+“The speci factor specif o each task
+ENDELEMENT1, Spearman (1904), General Intelligence
+American Journal of Psychology
+
+In an article sandwiched between a dscusion ofthe sou and
+an account of “the psyehalgy ofthe English sparrow"
+
+ 
+
+‘Spearman tested (in two schoo) Chet Sparman
+i vara of measures of academic ability (exam grades in varius subject)
+Sensory diserimination ability (ones, weight, brightness)
+
+What do you think? Should thes things be correlate?
+
+What he found
+mos pals of tasks were correlated with each eter
+on obvious and dep, dd not have to come out this was!
+
+ 
+
+What he inferred Hur
+
+"The general factor, common tal tas:
+“The speci factor specif o each task =
+ENDELEMENT1. Spearman (1904), General Intelligence
+American Journal of Psychology
+
+In an article sandwiched between a dscuson ofthe sou and
+an acount of “the psjchaogy ofthe English sparrow”
+
+ 
+
+‘Spearman tested (nto schoo’) (Chet Sparmen
+‘Seosory dcriminaion ability (ones, weights, brightnes)
+
+What d you thnk? Should thes things be correlate?
+
+What he found
+mos pals of tasks were correlated with each eter
+on obvious and dep, dd ot have to come out this way!
+
+ 
+
+What he inferred Hur
+
+“The general factor, common tal tas:
+‘The speci factor spect to each task:
+ENDELEMENT1. Spearman (1904), General Intelligence
+American Journal of Psychology
+
+In an article sandwiched between a dscuson ofthe sou and
+‘an account of “the psyehalogy ofthe English sparrow"
+
+ 
+
+‘Spearman tested (nto sehoo’s) (Chet Sparen
+‘Seosory dcriminaion ably (ones, weights, brightnes)
+
+What do you thnk? Should thes things be correlate?
+
+What he found
+most pals of tasks were correlated with each eter
+non obvious and dep, dd ot have to come out this way!
+
+What he inferred ae
+"The general factor, common tal tas:
+‘The speci factor spect o each task:
+ENDELEMENT2. Franz Joseph
+Distinct mental “Faculties” reside in disint reg
+
+ 
+  
+
+1 (1758-1828)
+
+ofthe brain
+
+Hum
+ENDELEMENT2. Franz Joseph
+Distinct mental “faculties” reside in dsint regi
+
+ 
+
+ 
+
+1 (1758-1828)
+
+of the brain,
+
+ 
+
+Hum
+ENDELEMENT1 (1758-1828)
+
+ofthe brain
+
+2. Franz Joseph
+Distinct mental “faculties” reside in distin regi
+
+ 
+   
+
+ 
+
+Hum
+ENDELEMENT2. Franz Joseph Gall (1758-1828)
+
+Distinct mental “faculties” reside in dstint regions ofthe brain
+
+ 
+
+ 
+
+ 
+ENDELEMENT 
+
+n Method
+
++ Flourens (1794-1867)
+lesioned pigeons and rabbits
+
+“all sensory and volitional faculties exist in the
+cerebral hemispheres and must be regarded as occupying
+concurrently the same seat in these structures
+
+   
+
+Hum
+ENDELEMENT 
+
++ Flow
+
+lesioned pigeons and rabbits
+“all sensory and volitional faculties exist in the
+
+cerebral hemispheres and must be regarded as occupying
+
+concurrently the same seat in these structures
+
+Hum
+ENDELEMENT 
+
+esion Method
+
+ 
+
+ens (1794-1867)
+lesioned pigeons and rabbits
+
+all sensory and volitional faculties exist in the
+cerebral hemispheres and must be regarded as occupying
+concurrently the same seat in these structures’
+
+ 
+
+ 
+
+Hum
+ENDELEMENT 
+
+n Method
+
++ Flourens (1794-1867)
+lesioned pigeons and rabbits
+
+all sensory and volitional faculties exist in the
+cerebral hemispheres and must be regarded as occupying
+concurrently the same seat in these structures’
+
+ 
+
+ 
+
+Hum
+ENDELEMENT 
+
+esion Method
+
+ 
+
+ens (1794-1867)
+lesioned pigeons and rabbits
+
+“all sensory and volitional faculties exist in the
+cerebral hemispheres and must be regarded as occupying
+concurrently the same seat in these structures
+
+Hum
+ENDELEMENTn Method
+
+ 
+
+ 
+
+ens (1794-1867)
+lesioned pigeons and rabbits
+
+“all sensory and volitional faculties exist in the
+cerebral hemispheres and must be regarded as occupying
+concurrently the same seat in these structures
+
+ 
+
+Hum
+ENDELEMENT3. Lesion Method
+
++ Flourens (1794-1867):
+lesioned pigeons and rabbi
+all
+
+sory and volitional faculties exist in the
+cerebral hemispheres and must be regarded as occupying PW,
+Concurrently the same seat in these structures’
+
+ 
+
+ 
+
+ 
+
+“= Broca announces at the Societe d’ Anthropolog
+1861 that left frontal lobe isthe seat of speech,
+
+  
+ENDELEMENT3. Lesion Method
+
+Tesioned pigeons and rabbits
+“all sensory and volitional faculties exist in the
+cerebral hemispheres and must be regarded as occupying v.
+Concurrently the same seat in these structures’
+
+ 
+
+ 
+
+‘= Broca announces at the Societe d’ Anthropolo
+1861 that left frontal lobe isthe seat of speech,
+
+  
+ENDELEMENT3. Lesion Method
+
+ 
+
+“all sensory and volitional faculties exist in the
+cerebral hemispheres and must be regarded as occupying
+concurrently the same seat in these structures
+
+‘= Broca announces atthe Societe d’ Anthropologie in
+1861 that left frontal lobe isthe seat of speech,
+
+ 
+
+eR:
+ENDELEMENT3. Lesion Method
+
+ 
+
+lesioned pigeons and rabbits
+all sensory and volitional faculties exist in the
+
+cerebral hemispheres and must be regarded as occupying
+
+‘concurrently the same seat in these structures’
+
+ 
+
+‘+ Broca announces at the Societe d’ Anthropolo
+1861 that left frontal lobe isthe seat of speech,
+
+ 
+
+ 
+
+ 
+ENDELEMENT3. Lesion Method
+ens (1794 ~1867)
+lesioned pigeons and rabbits
+“all sensory and volitional faculties exist in the
+cerebral hemispheres and must be regarded as occupying
+concurrently the same seat in these structures
+
++ Flow
+
+   
+
+ 
+
+‘Broca announces at the Societe d’ Anthropolo
+1861 that lft frontal lobe isthe seat of speech.
+
+ 
+
+ 
+ENDELEMENT 
+
+Lesion Method
++ Flourens (1794-1867):
+lesioned pigeons and rabbits
+
+all sensory and volitional faculties exist in the
+cerebral hemispheres and must be regarded as occupying
+Concurrently the same seat in these structures
+
+   
+
++ Broca announces atthe Societe d’ Anthropologie in
+1861 that left frontal lobe isthe seat of speech.
+
+ 
+
+ 
+ENDELEMENTLesion Method
+
+lesioned pigeons and rabbits
+“all sensory and volitional faculties exist inthe
+cerebral hemispheres and must be regarded as occupying v.
+
+ 
+
+concurrently the same seat in these structures’
+
+‘= Broca announces at the Societe d’ Anthropologie in
+
+1861 that left frontal lobe isthe seat of speech,
+
++ By 20th century, agreement on cortical specialization for
+primary sensory and motor functions
+
+debate continues on localization of|
+
+ 
+
+ 
+
+erlevel functions
+
+ 
+ENDELEMENTesion Method
+
+and rabbits
+all sensory and volitional faculties exis in the
+cerebral hemispheres and must be regarded as aceupying EW,
+
+ 
+
+concurrently the same seat in these structures
+
++ Broca announces at the Societe d’ Anthropolo
+
+1861 that lft frontal lobe isthe seat of speech.
+
++ By 20th century, agreement on cortical specialization for
+primary sensory and motor functions
+
+debate continues on localization of|
+
+ 
+
+ 
+
+ 
+
+ 
+
+erlevel functions
+
+ 
+ENDELEMENTLesion Method
+
+and rabbits
+“all sensory and volitional faculties exist in the
+cerebral hemispheres and must be regarded as occupying v.
+
+ 
+
+‘concurrently the same seat in these structures
+
+‘= Broca announces at the Societe d’ Anthropologie in
+
+1861 that lft frontal lobe isthe seat of speech,
+
++ By 20th century, agreement on cortical specialization for
+primary sensory and motor functions
+
+debate continues on localization of hig
+
+ 
+
+ 
+
+Jevel functions
+
+ 
+ENDELEMENT3. Lesion Method
+
+ 
+
+“all sensory and volitional faculties exist in the
+cerebral hemispheres and must be regarded as occupying
+concurrently the same seat in these structures
+
++ Broca announces at the Societe d’ Anthropologie in
+1861 that left frontal lobe isthe seat of speech.
+
+ 
+
+ 
+
++ By 20th century, agreement on cortical specialization for
+primary sensory and motor functions
+debate continues on localization of higher-level functions
+
+ 
+
+aa cueamed ecedard 0 snore Gals aoecioa!
+ENDELEMENT 
+
+ 
+
+redo Bw
+
+‘The best spatial resolution
+availabe for measuring
+neural activity noninvasively
+in the whole human
+
+ 
+ENDELEMENTfMRI:
+functional Magnetic Resonance Imaging
+
+‘The best spatial resolution
+availabe for measuring
+neural activity noninvasively
+in the whole human brain
+
+   
+
+ 
+
+creda od ow
+ENDELEMENT 
+
+ 
+
+reed er acy >
+reso fw
+
+ 
+
+‘The best spatial resolution
+availabe for measuring
+neural activity noninvasively
+inthe whole human brain,
+
+ 
+ENDELEMENT 
+
+red aod wm
+
+‘The best spatial resolution
+availabe for measuring
+neural activity noninvasively
+in the whole human brain
+
+ 
+ENDELEMENT 
+
+red aod fw
+
+ 
+
+‘The best spatial resolution
+availabe for measuring
+neural activity noninvasively
+inthe whole human brain,
+
+ 
+ENDELEMENT 
+
+‘The best spatial resolution
+availabe for measuring
+neural activity noninvasively
+in the whole human
+
+ 
+
+Format of Raw Data
+
+ 
+
+red aod fw
+ENDELEMENTfMRI:
+
+‘functional Magnetic Resonance Imaging
+
+‘The best spatial resolution
+availabe for measuring
+neural activity noninvasively
+in the whole human
+
+ 
+
+Format of Raw Data
+~30,000 3D pixels ('voxels”)
+
+ 
+
+rts aa od ow
+
+ 
+ENDELEMENTfMRI:
+‘functional Magnetic Resonance Imaging
+
+‘The best spatial resolution
+availabe for measuring
+neural activity noninvasively
+in the whole human
+
+ 
+
+Format of Raw Data
+~30,000 3D pixels ('voxels”)
+
+ 
+
+redo od wo
+ENDELEMENTfMRI:
+‘functional Magnetic Resonance Imaging
+
+‘The best spatial resolution
+availabe for measuring
+neural activity noninvasively
+in the whole human
+
+ 
+
+Format of Raw Data
+~30,000 3D pixels ('voxels”)
+covering the whole brain
+
+ 
+
+reso od fw
+ENDELEMENTHum
+
+ie eae
+ENDELEMENT17 i ie
+
+ 
+ENDELEMENT7 ie ee
+
+ 
+ENDELEMENT1 i ee
+
+ 
+ENDELEMENT1 i ie
+
+ 
+ENDELEMENTTt |
+
+ 
+
+ 
+ENDELEMENTImportant aspects of BOLD signal:
+
++ Because the BOLD signal is based on blood flow, the
+temporal resolution is limited by the
+precision of blood flow regulation:
+few 100 milliseconds
+
+Hum
+ENDELEMENTImportant aspects of BOLD signal:
+
++ Because the BOLD signal is based on blood flow, the
+temporal resolution is limited by the
+precision of blood flow regulation:
+‘few 100 milliseconds
+
+Hum
+ENDELEMENTImportant aspects of BOLD signal:
+
++ Because the BOLD signal is based on blood flow, the
+temporal resolution is limited by the
+precision of blood flow regulation:
+few 100 milliseconds
+
+  
+
+Hum
+ENDELEMENTImportant aspects of BOLD signal:
+
++ Because the BOLD signal is based on blood flow, the
+temporal resolution is limited by the
+precision of blood flow regulation:
+few 100 milliseconds
+
+ 
+
+Hum
+ENDELEMENTImportant aspects of BOLD signal:
+
++ Because the BOLD signal is based on blood flow, the
+temporal resolution is limited by the
+precision of blood flow regulation:
+‘few 100 milliseconds
+
+  
+
+Hum
+ENDELEMENTImportant aspects of BOLD signal:
+
++ Because the BOLD signal is based on blood flow, the
+temporal resolution is limited by the
+precision of blood flow regulation:
+‘few 100 milliseconds
+
+  
+
+Hum
+ENDELEMENTImportant aspects of BOLD signal:
+
++ Because the BOLD signal is based on blood flow, the
+temporal resolution is limited by the
+precision of blood flow regulation:
+‘few 100 milliseconds
+
+ 
+
++ Spatial resolution is largely limited by the strength oft
+‘max about I mm at 37, alittle better at 77
+100s of thousands of neurons in each voxel!
+
+ 
+
+Hum
+ENDELEMENTImportant aspects of BOLD signal:
+
++ Because the BOLD signal is based on blood flow, the
+temporal resolution is limited by the
+precision of blood flow regulation:
+few 100 milliseconds
+1 resolution is largely limited by the strength oft
+‘max about I mm at 37, alittle better at 77
+100s of thousands of neurons in each voxel!
+
+ 
+
++ Spat
+
+ 
+
+ 
+
+Hum
+ENDELEMENTImportant aspects of BOLD signal:
+
++ Because the BOLD signal is based on blood flow, the
+temporal resolution is limited by the
+precision of blood flow regulation:
+‘few 100 milliseconds
+
+ 
+
++ Spatial resolution is largely limited by the strength ofthe si
+‘max about I mm at 37, alittle better at 77
+
+100s of thousands of neurons in each voxel!
+
+   
+
+ 
+
+Hum
+ENDELEMENT+ Because
+
++ Spat
+
+ 
+
+Important aspects of BOLD signal:
+
+ 
+
+the BOLD signal is based on blood flow, the
+temporal resolution is limited by the
+
+precision of blood flow regulation:
+
+‘few 100 milliseconds
+
+ 
+
+ 
+
+resolution is largely limited by the strength oft
+‘max about 1 mm at 37, alittle better at 7T
+100s of thousands of neurons in each voxel!
+
+ 
+
+Hum
+ENDELEMENTImportant aspects of BOLD signal:
+
++ Because the BOLD signal is based on blood flow, the
+temporal esolution is limited by the
+precision of blood flow regulation:
+few 100 milliseconds
+
+ 
+
+ 
+
+ 
+
++ Spatial resolution is largely limited by te str
+‘max about I mm at 37, alittle better at 7T
+
+100s of thousands of neurons in each voxel!
+
+ 
+
+ 
+ENDELEMENT+ Because
+
++ Spat
+
+ 
+
+Important aspects of BOLD signal:
+
+ 
+
+the BOLD signal is based on blood flow, the
+temporal resolution is limited by the
+
+precision of blood flow regulation:
+
+few 100 milliseconds
+
+ 
+
+1 resolution is largely limited by the strength oft
+‘max about 1 mm at 37, alittle better at 77
+100s of thousands of neurons in each voxel!
+
+ 
+
+Hum
+ENDELEMENTImportant aspects of BOLD signal:
+
++ Because the BOLD signal is based on blood flow, the
+temporal resolution is limited by the
+precision of blood flow regulation:
+few 100 milliseconds
++ Spatial resolution is largely limited by the strength oft
+‘max about I mm at 37,alittle better at 77
+100s of thousands of neurons in each voxel!
+
+ 
+
+ 
+
+ 
+
+Cannot measure absolute amounts of activity/metabolism,
+only differences between two conditions.
+
+Hur
+ENDELEMENTImportant aspects of BOLD signal:
+
++ Because the BOLD signal is based on blood flow, the
+temporal resolution is limited by the
+precision of blood flow regulation:
+‘few 100 milliseconds
+
+ 
+
++ Spatial resolution is largely limited by the strength oft
+‘max about I mm at 37 alittle better at 77
+100s of thousands of neurons in each voxel!
+
+ 
+
+Cannot measure absolute amounts of ativity/metabolism,
+only differences between two conditions.
+
+Hur
+ENDELEMENTImportant aspects of BOLD signal:
+
++ Because the BOLD signal is based on blood flow, the
+temporal resolution is limited by the
+precision of blood flow regulation:
+few 100 milliseconds
+3 resolution is largely limited by the stength ofthe si
+‘max about I mm at 37,alittle better at 77
+100s of thousands of neurons in each voxel!
+
+ 
+
+ 
+
+ 
+
+ 
+
++ Spat
+
+ 
+
+ 
+
+Cannot measure absolute amounts of ativity/metabolism,
+only differences between two conditions.
+
+Hur
+ENDELEMENTImportant aspects of BOLD signal:
+
++ Because the BOLD signal is based on blood flow, the
+temporal resolution is limited by the
+precision of blood flow regulation:
+‘few 100 milliseconds
++ Spatial resolution is largely limited by the strength oft
+‘max about 1 mm at 37,alittle better at 77
+100s of thousands of neurons in each voxel!
+
+ 
+
+ 
+
+ 
+
+Cannot measure absolute amounts of ativity/metabolism,
+only differences between two conditions.
+
+ 
+
+Hur
+ENDELEMENTImportant aspects of BOLD signal:
+
++ Because the BOLD signal is based on blood flow, the
+temporal resolution is limited by the
+precision of blood flow regulation:
+few 100 milliseconds
+
+ 
+
++ Spatial resolution is largely limited by the strength ofthe si
+‘max about 1 mm at 37, alittle better at 77
+100s of thousands of neurons in each voxel!
+
+ 
+
+Cannot measure absolute amounts of ativity/metabolism,
+only differences between two conditions.
+
+Hur
+ENDELEMENTImportant aspects of BOLD signal:
+
++ Because the BOLD signal is based on blood flow, the
+temporal resolution is limited by the
+precision of blood flow regulation:
+few 100 milliseconds
+
+ 
+
+ 
+
++ Spatial resolution is largely limited by the strength oft
+‘max about I mm at 37 alittle better at 77
+100s of thousands of neurons in each voxel!
+
+ 
+
+Cannot measure absolute amounts of ativity/metabolism,
+only differences between two conditions.
+
++ Physiologic:
+
+(Action potentials? Synaptic ac
+
+ 
+
+asi ofthe BOLD signal is unknown
+iy? Inhibition?)
+
+ 
+ENDELEMENTImportant aspects of BOLD signal:
+
++ Because the BOLD signal is based on blood flow, the
+temporal resolution is limited by the
+precision of blood flow regulation:
+few 100 milliseconds
+
+ 
+
+ 
+
++ Spatial resolution is largely limited by the strength ofthe si
+‘max about I mm at 37, alittle better at 77
+100s of thousands of neurons in each voxel!
+
+ 
+
+Cannot measure absolute amounts of ativity/metabolism,
+‘only differences between two conditions.
+
++ Physiological basis ofthe BOLD signal is unknown
+
+(Action potentials? Synaptic activity? Inhibition?)
+
+ 
+
+ 
+ENDELEMENTImportant aspects of BOLD signal:
+
++ Because the BOLD signal is based on blood flow, the
+temporal resolution is limited by the
+precision of blood flow regulation:
+‘few 100 milliseconds
+
+ 
+
+ 
+
++ Spatial resolution is largely limited by the strength oft
+‘max about I mm at 37 alittle better at 77
+1005 of thousands of neurons in each voxel!
+
+ 
+
+Cannot measure absolute amounts of ativity/metabolism,
+‘only differences between two conditions.
+
++ Physiologic:
+
+(Action potentials? Synaptic ae
+
+ 
+
+ssi ofthe BOLD signal is unknown
+iy? Inhibition?)
+
+ 
+ENDELEMENTImportant aspects of BOLD signal:
+
++ Because the BOLD signal is based on blood flow, the
+temporal resolution is limited by the
+precision of blood flow regulation:
+few 100 milliseconds
+
+ 
+
++ Spatial resolution is largely imited by the strength ofthe signal
+‘max about 1 mm at 37, alittle better at 77
+100s of thousands of neurons in each voxel!
+
+ 
+
+"annot measure absolute amounts of actvity/metabolism,
+only differences between two conditions.
+
++ Physiologic:
+
+(Action potentials? Synaptic ac
+
+ 
+
+ssi ofthe BOLD signal is unknown
+ity? Inhibition?)
+
+ 
+ENDELEMENTImportant aspects of BOLD signal:
+
++ Because the BOLD signal is based on blood flow, the
+temporal resolution is limited by the
+precision of blood flow regulation:
+few 100 milliseconds
+
+ 
+
++ Spatial resolution is largely limited by the strength ofthe si
+‘max about I mm at 37, alittle better at 77
+100s of thousands of neurons in each voxel!
+
+ 
+
+Cannot measure absolute amounts of activity/metabolism,
+only differences between two conditions.
+
++ Physiological basis ofthe BOLD signal is unknown
+
+(Action potentials? Synaptic activity? Inhibition?)
+
+   
+
+ 
+ENDELEMENTImportant aspects of BOLD signal:
+
++ Because the BOLD signal is based on blood flow, the
+temporal resolution is limited by the
+precision of blood flow regulation:
+few 100 milliseconds
+
+ 
+
+ 
+
++ Spatial resolution is largely limited by the strength oft
+‘max about 1 mm at 37a little better at 77
+100s of thousands of neurons in each voxel!
+
+ 
+
+Cannot measure absolute amounts of ativity/metabolism,
+‘only differences between two conditions.
+
++ Physiological basis ofthe BOLD signal is unknown
+
+(Action potentials? Synaptic activity? Inhibition?)
+
+ 
+
++ Like other recording methods, cannot test causal roe of activity
+ENDELEMENTImportant aspects of BOLD signal:
+
++ Because the BOLD signal is based on blood flow, the
+temporal resolution is limited by the
+precision of blood flow regulation:
+‘few 100 milliseconds
+
+ 
+
++ Spatial resolution is largely imited by the strength ofthe signal
+‘max about 1 mm at 37 alittle better at 77
+100s of thousands of neurons in each voxel!
+
+ 
+
+Cannot measure absolute amounts of ativity/metabolism,
+only differences between two conditions.
+
++ Physiologic:
+
+(Action potentials? Synaptic ac
+
+ 
+
+ssi ofthe BOLD signal is unknown
+ity? Inhibition?)
+
+ 
+
++ Like other recording methods, cannot test causal roe of activity
+ENDELEMENTImportant aspects of BOLD signal:
+
++ Because the BOLD signal is based on blood flow, the
+temporal resolution is limited by the
+precision of blood flow regulation:
+few 100 milliseconds
+
+ 
+
++ Spatial resolution is largely imited by the strength ofthe signal
+‘max about 1 mm at 37, alittle better at 77
+100s of thousands of neurons in each voxel!
+
+ 
+
+Cannot measure absolute amounts of ativity/metabolism,
+‘only differences between two conditions.
+
++ Physiologic:
+
+(Action potentials? Synaptic ac
+
+ 
+
+asi ofthe BOLD signal is unknown
+ty? Inhibition?)
+
+ 
+
++ Like other recording methods, cannot test causal role of activity
+ENDELEMENTImportant aspects of BOLD signal:
+
++ Because the BOLD signal is based on blood flow, the
+temporal resolution is limited by the
+precision of blood flow regulation:
+‘few 100 milliseconds
+
+ 
+
+ 
+
++ Spatial resolution is largely limited by the strength ofthe si
+‘max about I mm at 37, alittle better at 77
+100s of thousands of neurons in each voxel!
+
+ 
+
+Cannot measure absolute amounts of ativity/metabolism,
+‘only differences between two conditions.
+
++ Physiological basis ofthe BOLD signal is unknown
+
+(Action potentials? Synaptic activity? Inhibition?)
+
+ 
+
++ Like other recording methods, cannot test causal role of activity
+ENDELEMENTImportant aspects of BOLD signal:
+
+ 
+
++ Because the BOLD signal is based on blood flow, the
+temporal resolution is limited by the
+precision of blood flow regulation:
+‘few 100 milliseconds
+
+ 
+
++ Spatial resolution is largely limited by the strength ofthe si
+‘max about I mm at 37, alittle better at 77
+1005 of thousands of neurons in each voxel!
+
+ 
+
+* Cannot measure absolute amounts of actvity/metabolism,
+‘only differences between two conditions.
+
++ Physiological basis ofthe BOLD signal is unknown
+(Action potentials? Synaptic activity? Init
+
+   
+
+oH)
+
+ 
+
++ Like other recording methods, cannot test causal roe of
+
+   
+
+aaa
+
+ 
+
+See sire ee
+ENDELEMENTImportant aspects of BOLD signal:
+
+‘+ Because the BOLD signal is based on blood flow, the
+temporal resolution is limited by the
+precision of blood flow regulation:
+few 100 milliseconds
+
+ 
+
++ Spatial resolution is largely limited by the strength ofthe si
+‘max about I mm at 37, alittle better at 77
+100s of thousands of neurons in each voxel!
+
+ 
+
++ Cannot measure absolute amounts of aetvity/n
+only differences between two conditions.
+
+etabolism,
+
+ 
+
++ Physiological basis ofthe BOLD signal is unknown
+(Action potentials? Synaptic activity? Ini
+
+   
+
+oH)
+
++ Like other recording methods, sal role of activity
+
+ 
+
+snot test
+
+ 
+
+Acasa ty
+
+ 
+
+Daley peek ae ee
+ENDELEMENTFunctional
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTFunctional
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Hur
+ENDELEMENTFunctional
+Organization of the
+Human Brain
+
+ 
+
+1957
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Hur
+ENDELEMENTFunctional
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Hur
+ENDELEMENTFunctional
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTFunctional
+
+ 
+
+ 
+
+ 
+
+ 
+
+1990
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTFunctional
+
+ 
+
+ 
+
+ 
+
+ 
+
+1990
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTFunctional
+
+ 
+
+ 
+
+ 
+
+ 
+
+1990
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTFunctional
+
+ 
+
+ 
+
+ 
+
+ 
+
+1990
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTFunctional
+ization of the
+
+  
+
+ 
+
+ 
+
+ 
+
+ 
+
+1990
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENT 
+
+Functional
+
+1990
+
+ 
+
+ 
+
+ 
+
+ 
+
+2015
+
+ 
+
+ 
+
+ 
+
+ 
+
+& then fMRI came along... Hum
+
+ 
+
+ 
+
+ 
+ENDELEMENT 
+
+ 
+
+ 
+
+ 
+
+ 
+
+& then fMRI came along...
+
+ 
+
+ 
+
+ 
+
+ 
+
+1990
+2015
+Q
+
+ 
+
+Hum
+ENDELEMENT 
+
+ 
+
+ 
+
+ 
+
+ 
+
+& then fMRI came along...
+
+ 
+
+1990
+
+ 
+
+ 
+
+ 
+
+ 
+
+2015
+
+ 
+
+Hur
+ENDELEMENTFunctional
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+& then fMRI came along...
+
+ 
+
+1990
+
+ 
+
+] Language
+
+ 
+
+ 
+
+ 
+
+2015
+
+ 
+
+Hum
+ENDELEMENT 
+
+ 
+
+ 
+
+1990
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+& then fMRI came along...
+
+ 
+
+20s
+
+ 
+
+Hum
+ENDELEMENTFunctional
+Organization of the
+Human Brain
+
+  
+
+1957
+
+ 
+
+ 
+
+ 
+
+1990
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+& then fMRI came along...
+
+ 
+
+2015
+
+ 
+
+ 
+
+Hum
+ENDELEMENTFunctional
+Organization of the
+Human Brain
+
+1957
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+& then £MIRI came along...
+
+>>A (blurry!) picture
+‘of the architecture of
+
+ 
+
+ 
+
+1990
+
+ 
+
+ 
+
+ 
+
+ 
+
+2015
+
+ 
+
+Hum
+ENDELEMENTFunctional
+Organization of the
+Human Brain
+
+1957
+
+ 
+
+ 
+
+ 
+
+1990
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+& then fMRI came along...
+
+>>A (blurry!) picture
+‘of the architecture of
+
+ 
+
+2015
+Q
+is
+
+ 
+
+Hur
+ENDELEMENT     
+
+‘mind and brain contains a set of highly specialized
+specific problem,
+
+ 
+ENDELEMENT     
+
+mind and brain contains a set of highly specialized
+specific problem,
+
+ 
+ENDELEMENT‘The Functional Architecture of Intelligence
+
+    
+
+=a Se
+
+‘mind and brain contains a set of highly specialized
+s, each solving a different, specific problem,
+
++ Each of these regions is present in ~every normal person,
+
+     
+ENDELEMENT 
+
++ Then
+
+ 
+
+ 
+
+an mind and brain contains a set of highly specialized
+
+components, each solving a different, specific problem,
+
++ Each of these regions is present it
+
++ These
+
+ 
+
+ 
+
+ery normal person,
+sions are basic components of the human mind! bran,
+ENDELEMENT 
+  
+  
+
+‘mind and brain contains set of highly specialized
+s, each solving a different, specific problem.
+
+se regions is present in ~every normal person.
+
++ ‘These regions ae basic components ofthe human mind/ brain
+ow is often confused with different ideas
+
+ 
+
+ 
+
+ 
+ENDELEMENT  
+
+Important to these different ideas:
+
+ingui
+
+Hum
+ENDELEMENTImportant to distinguish these different ideas:
+Functional piety
+
+Hum
+ENDELEMENTImportant to distinguish these different ideas:
+Functional piety
+Aaomical Specificity
+
+Hum
+ENDELEMENT 
+
+Important to
+Functional peicty
+his gon ary neti ss mea ose X?
+
+finguish these different ideas:
+
+Hum
+ENDELEMENTImportant to distinguish these different ideas:
+Functional speciiciy
+
+Antonial Spee “
+cxitenoeof sve repos eectvely inv in Xs mates gant
+
+Hum
+ENDELEMENTImportant to distinguish these different ideas:
+Functional speciiciy =
+rime np eon
+
+eer dead Roete eee ce cepeenreee ll
+I aes ney reel eee
+
+Hum
+ENDELEMENTImportant to distinguish these different ideas:
+Functional piety
+[sth rain eon only/riarily engaged in specie mental proces X?
+Anatomical Spey
+existence of several regione scetvly involved in X isnot evidence agains #1
+Isthirepin ncesary for mental fonction X?
+This what we mot wan toon causl re
+
+Hum
+ENDELEMENTImportant to distinguish these different ideas:
+1. anton peciciy
+Is titan ion eye engaged inspec men process X?
+Anita Spesiisy
+sence of several pon sll vale in X int vice agai
+3. “Necety
+Isis region necessary for mental faction X?
+Thais what we mst want o know’ cauel le
+
+Hur
+ENDELEMENTImportant to distinguish these different ideas:
+
+1. Functional piety
+Anatomical Specificity
+xine of several eon selectively involv inX is ot evidence again 1
+Isthiepion ncestary for mental fonction X?
+This is what we most want o know: causal le,
+
+Hur
+ENDELEMENTImportant to distinguish these different ideas:
+
+1. Functional peieiy
+Anatomical Specificity
+xine of several eon selectively involved in X is ot evidence against 1
+Isthiepion ncesary for mental function X?
+This is what we most want o know: causal ole,
+
+Hur
+ENDELEMENTImportant to distinguish these different ideas:
+
+1, Functional peiety
+Anatomical Specify
+‘exienc of several eon selectively involve inX is ot evidence against 1
+3, “Necesity
+Isthiepion ncesary for mental fonction X?
+This is what we most want o know: causal ol,
+
+Hur
+ENDELEMENTImportant to distinguish these different ideas:
+1. ncn peciciy
+Isis texan rye engaged in spec menl process X?
+‘Anita Spesiisy
+éxisenoe of sve poe seectvely ive inX sma eidece against 1
+3. Necety
+Ist po nce Sx newt Satin x?
+Thais what we mot nano know’ cata le
+
+Hur
+ENDELEMENTImportant to distinguish these different ideas:
+
+1, Functional piety
+Ansomical Specify
+‘exience of several eon selectively involved inX is ot evidence against 1
+3, “Necesity
+Isthirepin ncesary for mental fonction X?
+This is what we most want o know: causal role,
+Ts this egion sft fr the mental function? (never)
+
+Hur
+ENDELEMENTImportant to distinguish these different ideas:
+
+Functional piety
+Isthitrai ion only primarily engaged inspect mental process X?
+Ansonia Specify
+
+‘exience of several epion selectively involved inX is ot evidence against 1
+Isthirepion ncesary for mental function X?
+This is what we most want o know causa
+sthis region suficen fr the mental funtion? (never)
+Tsthiregion "put ofa network” and dost interact with athe regions?
+
+  
+ENDELEMENTImportant to distinguish these different ideas:
+
+1, Functional piety
+Isthitrai region only primarily engaged inspect ment process X?
+Ansonia Speci
+‘xin of several eon selectively involv inX i ot evidence against 1
+3, Necesity
+Isthirepion ncesary for mental function X?
+This is what we most want o know: causal ol,
+Ts this ogion fice fr the mental function? (never)
+Tsthisregion put ofa network” and dos it inrat with ats regions?
+
+ 
+
+ 
+ENDELEMENTImportant to distinguish these different ideas:
+
+1, Functional piety
+Isthistrai rion only primarily engaged inspect mental process X?
+Anatomical Speci
+‘exience of several eon selectively involv in X is ot evidence again 1
+Isthirepin ncesary for mental fonction X?
+This is what we most want o know: casa ol,
+Ts this egion efficent fr the mental function? (never)
+Tsthiregion put ofa network” and dos it inrat with othe regions?
+
+ 
+
+ 
+ENDELEMENTImportant to distinguish these different ideas:
+
+ution spciity
+2. Anatomia Specificity
+‘exienc of several epion selectively involve inX is ot evidence against 1
+
+Is this eon necessary for mental function X?
+This is what we most want o know cna
+Ts this gion sfficent fr the mental function? (never)
+
+Tsthiregion put ofa network” and dos it interact with athe regions?
+
+ 
+
+  
+
+Ino way docs his arg gains #1
+
+6 Instn sone
+ENDELEMENTImportant to distinguish these different ideas:
+
+1, Functional piety
+Isthistrai gion onlyprimarily engaged in specite ment process X?
+
+2. Anatomia Specificity
+‘exienc of several pion selectively involved in X is ot evidence against 1
+
+region cent for he meatal eco? (ev)
+» sls reon patos nro and oc inert hh of mio?
+Teeeceeancran
+
+6 Instn fas
+ENDELEMENTImportant to distinguish these different ideas:
+
+anton spcicity
+Isthistrai gion onlyprimarily engaged in spevtc mental process X?
+2. Anatomia Specificity
+
+‘exionc of several eon selectively volo in X is ot evidence against 1
+
+Is this pon necessary for mental function X?
+This is what we most want o Know causal le,
+Ts this ogion sfc fr the mental function? (never)
+
+Tsthiregion put ofa network” and dos it interact with othe regions?
+
+ 
+
+Tn way docs his arg gas #1
+
+Hum
+ENDELEMENTImportant to distinguish these different ideas:
+
+ution spciiy
+2. Anatomia Specificity
+exienc of several eon selectively involv inX is ot evidence against 1
+
+Isthis pon necessary for mental funtion X?
+This is what we most want o know: causal le,
+Ts this egion efficent fr the mental fonction? (never)
+
+Tsthisregion prt ofa network” and dos it inerat with athe regions?
+
+ 
+
+Tn way docs his ange agaist #1
+
+Hum
+ENDELEMENTImportant to distinguish these different ideas:
+ution speciciy
+Isthitrai gion only primarily engaged inspect mental process X?
+2. Anatomia Specificity
+‘exienc of several eon selectively involved in X is ot evidence again
+Isthiepion ncesary for mental funtion X?
+This is what we mot want o Know: causal rol,
+Ts this egion soffit fr the mental funtion? (never)
+Tsthiregion prt ofa network” and dost interact with othe regions?
+Ino way docs his ange agaist #1
+[eth rezion imately pied o isis specificity determined by experience?
+[Akey qoesion, rarely answerable, completely orthogonal to
+
+ 
+
+Hur
+ENDELEMENTImportant to distinguish these different ideas:
+1, Functional peieiy
+Isthiteai ion oly primarily engaged inspect mental process X?
+2. Anatomia Specificity
+existeneof vera regions sclstively involved in X isnot evidence against #1
+Is this pon necessary for mental function X?
+This is what we most want o know casa
+Ts this egion soffit fr the mental function? (never)
+Tsthisregion put ofa network” and dos it inerat with athe regions?
+Ino way docs his ange agaist #1
+Te this repion inately pied o iis specificity determine by experience? Hu
+[Akey gestion, rely answerable, completely orthogonal to
+
+  
+ENDELEMENTImportant to distinguish these different ideas:
+1, Functional peiety
+2. Anatomia Specificity i"
+‘xine of several eon selectively involv in X is ot evidence against #1
+Isthis pon necessary for mental function X?
+This is what we most want o know: causal le,
+Ts this egion soffit fr the mel fonction? (never)
+Tsthiregion put ofa network” and dos it interact with othe regions?
+Ino way docs his arg gains #1
+Te thi repion imately pied or isis specificity determined by experience? Hu
+[key qoeson, rarely answerable, completely orthogonal to
+ENDELEMENTImportant to distinguish these different ideas:
+
+1. con sie :
+2 eae a *
+este ta oa eee
+Teer at oeeceal
+regi fice fo ie neat fo? (ere)
+» season patent an oc ln hh es mio?
+retacalenetetetet
+sein lnc pected x spec denied by expen? Hu
+
+  
+ENDELEMENTImportant to distinguish these different ideas:
+
+1, Functional peieiy
+Isthistrai gion onlyprimarily engaged in specitc mental process X?
+2. Anatomia Specificity
+‘exienc of several eon selectively involved in X is ot evidence against 1
+Isthirepion ncesary for mental function X?
+This is what we most want o know cha
+Ts this ogion sfc fr the mel function? (never)
+Tsthisregion put ofa network” and dos it inrat wih othe regions?
+Tn no way docs his arg agaist #1
+Te thirepion imately pied o isis specificity determined by experience? Hu
+[Akey gestion, rately answerable, completely orthogonal to
+
+  
+ENDELEMENTThis Idea of Functional Specificity is Unpopular
+
+Hum
+ENDELEMENTThis Idea of Functional Specificity is Unpopular
+
+Huot ot l (2004): “unk the phrenologists, who botiove that vary complex
+tras wore associated with escrete brain regions, modem researchers recognize
+that. singlo brain rgion may parpate in more than one function.
+
+Hum
+ENDELEMENTThis Idea of Functional Specificity is Unpopular
+
+Huot ot l (2004): “unk the phronologsts, who botiove that vary complex
+tras wore associated with cscrete brain regions, modem researchers recognize
+that. singlo brain rgion may parepate in more than one function.
+
+Hum
+ENDELEMENTThis Idea of Functional Specificity is Unpopular
+
+Huot ot al (2004: “unk the phrenologists, who bolioved that vory complex
+tras wore associated with elscrete brain regions, modem researchers recognize
+that. singlo brain rgion may parepate in more than one function.
+
+Usa Feldman Barrett (NYT July 312018): In gneral, tho workings ofthe
+brain are not one-to-ne, whereby @ given region has a distinc psychological
+purpose”
+
+Hum
+ENDELEMENTThis Idea of Functional Specificity is Unpopular
+
+Huot ot al (2004: “une the phrenologists, who bolioved that vory complex
+tras wore associated with escrete brain regions, modem researchers recognize
+that. singlo brain rgion may parpate in more than one function.
+
+Usa Feldman Barrett (NYT July 31 2018): In gneral, tho workings ofthe
+brain ae not one-to-one, whereby a given region has a distinc psychological
+purpose”
+
+Hum
+ENDELEMENTTl
+
+ 
+
+Idea of Functional Specificity is Unpopular
+
+Huot ot l (2004): “unk the phrenologists, who botiove that vary complex
+tras wore associated with elscrete brain regions, modem researchers recognize
+that. @ singlo brain rgion may parepate in more than one function.
+
+Usa Feldman Barret (NYT July 31 2018): In gneral, tho workings ofthe
+brain ae not one-to-one, whereby a given region has a distinc psychological
+purpose”
+
+Hum
+ENDELEMENTThis Idea of Functional Specificity is Unpopular
+
+Huot ot al (2004: “unk the phrenologists, who bolioved that vory complex
+tras wore associated with elscrete brain regions, modem researchers recognize
+that. singlo brain rgion may parepate in more than one function.
+
+Usa Foldman Bart (NYT July 31 2018): In gneral, tho workings of th
+brain ae net one-to-one, whereby a given region has a distinc psychological
+purpose”
+
+Hum
+ENDELEMENTThis Idea of Functional Specificity is Unpopular
+
+Huot ot al (2004: “unk the phrenologists, who bolioved that vory complex
+tras wore associated with escrete brain regions, modem researchers recognize
+that. @ singlo brain rgion may parepate in more than one functor.
+
+Usa Feldman Barret (NYT July 31 2018): In gneral, tho workings of th
+bran ae not one-to-one, whereby a given region has a distinc psychological
+purpose”
+
+Uta (2011) “Any stutes using bran images that report single areas of
+‘activation exclusively associoted with any particular” cognitive process shoud a
+‘rior be considered tobe artifacts ofthe arbitrary thresholds sot by
+Investgetors and sorously questioned.”
+ENDELEMENTThis Idea of Functional Specificity is Unpopular
+
+Huot ot al (2004: “unk the phrenologists, who bolioved that vory complex
+tras wore associated with escrete brain regions, modem researchers recognize
+that. @ singlo brain rgion may parepate in more than one function.
+
+Lisa Feldman Barrett (NYT July 31 2018): In gneral, tho workings of th
+bran ae net one-to-one, whereby a given region has a distinc psychological
+purpose”
+
+tal (2011) “Any stutes using bran images that report single areas of
+‘activation exclusively associoted with any particular cognitive process should a
+‘ron be considered tobe artifacts ofthe arbitrary thresholds sot by
+Investgetors and seriously questioned.”
+ENDELEMENTTl
+
+ 
+
+Idea of Functional Specificity is Unpopular
+
+Huot ot al (2004: “unk the phrenologists, who bolioved that vory complex
+tras wore associated with escrete brain regions, modem researchers recognize
+that. @ singlo brain rgion may parepate in more than one function.
+
+Usa Feldman Barret (NYT July 31 2018): In gnera, tho workings ofthe
+bran ae net one-to-one, whereby a given region has a distinc psychological
+purpose”
+
+tal (2011): “Any stutes using brain images that report single areas of
+‘activation exclusively associeted with any particular cognitive process shoud a
+‘ror be considered tobe artifacts ofthe arbitrary thresholds set by
+Investgotors and serously questioned.”
+ENDELEMENTTl
+
+ 
+
+Idea of Functional Specificity is Unpopular
+
+Huot ot al (2004: “unk the phrenologists, who bolioved that vory complex
+tras wore associated with escrete brain regions, modem researchers recognize
+that. @ singlo brain rgion may parepate in more than one function.
+
+Lisa Feldman Barrett (NYT July 31 2018): In gneral, tho workings ofthe
+bran ae net one-to-one, whereby a given region has a distinc psychological
+purpose”
+
+tal (2011): “Any studs using bran images that report single araas of
+‘activation exclusively associoted with any particular cognitive process shoud a
+ror be considered tobe artifacts ofthe arbitrary thresholds sot by
+Investgetors and sorously questioned.”
+ENDELEMENTTl
+
+ 
+
+Idea of Functional Specificity is Unpopular
+
+Huot ot al (2004: “unk the phrenologists, who bolioved that vory complex
+tras wore associated with escrete brain regions, modem researchers recognize
+that. @ siglo brain rgion may parepate in more than one functor.
+
+Lisa Feldman Barret (NYT July 312018): In gneral, tho workings ofthe
+bran ae not one-to-one, whereby a given region has a distinc psychological
+purpose”
+
+tal (2011): “Any studies using brain images that report single areas of
+‘activation exclusively associoted with any particular cognitive process should a
+‘rior be considered tobe artifacts ofthe arbitrary thresholds sot by
+Investgetors and seriously questioned.”
+
+Please engage with the data!
+ENDELEMENTEvidence for Functional Specificity
+
+Hum
+ENDELEMENTEvidence for Functional Specificity
+{ROL Mathos:
+
+Hum
+ENDELEMENTEvidence for Functional Specificity
+{ROI Matnos:
+
+Hum
+ENDELEMENTEvidence for Functional Specificity
+{ROL Matnos:
+
+Hum
+ENDELEMENTEvidence for Functional Specificity
+{ROL Mathos:
+
+Hum
+ENDELEMENTEvidence for Functional Specificity
+{ROI Matnos:
+
+Hum
+ENDELEMENTEvidence for Functional Specificity
+{RO Maths:
+
+Hum
+ENDELEMENTEvidence for Functional Specificity
+{ROL Mathos:
+
+Hum
+ENDELEMENTEvidence for Functional Specificity
+{ROL Mathos:
+
+Hum
+ENDELEMENTEvidence for Functional Specificity
+{ROI Maths:
+
+Hum
+ENDELEMENTEvidence for Functional Specificity
+{ROL Matnos:
+
+Hum
+ENDELEMENTEvidence for Functional Specificity
+{ROL Mathos:
+
+Hum
+ENDELEMENTEvidence for Functional Specificity
+{RO Matos
+
+Hum
+ENDELEMENTEvidence for Functional Specificity
+
+{ROL Mathos:
+1. Funcionaly identity the region in each individual
+2. Then measure is response in new condtions
+
+ 
+
+ 
+
+Hum
+ENDELEMENTEvidence for Functional Specificity
+
+{ROL Matos:
+1. Funcionaly identity the region in each individual
+2. Then measure is response in new condtions
+
+ 
+
+Hum
+
+¢ TT Powe
+ENDELEMENTEvidence for Functional Specificity
+
+{ROL Mathod:
+1. Funcionaly identity the region in each individual
+2. Then measure is response in new conditions
+
+ 
+
+ 
+ENDELEMENTEvidence for Functional Specificity
+{Ro Matos
+1: Functonaly ently te region n each indicus
+2 Then measure response i new condtons
+
+ 
+
+Hum
+ENDELEMENTEvidence for Functional Specificity
+{Ro Matos
+1: Functonaly dently the region n each indica
+2 Then measure response i new condtons
+
+ 
+
+Hum
+
+¢ TT Pom
+ENDELEMENTEvidence for Functional Specificity
+
+{ROL Mathos:
+1. Funcionaly identity the region in each individual
+2. Then measure is response in new condtions
+
+ 
+
+Hum
+ENDELEMENTEvidence for Functional Spe:
+
+{ROL Mathos:
+1. Functionally identity the region in each individual
+2. Then measure is response in new conditions
+
+ 
+
+ 
+
+icity
+tong select, ested
+
+against ots of
+atematves
+
+Hum
+ENDELEMENTEvidence for Functional Specificity
+
+{ROLMathod:
+1. Funcionaly identity the region in each indvidual
+2. Then measure is response in new condtions
+
+ 
+
+strong solectivy, tested
+against ots of
+
+present invitualy every
+oem! subject
+
+par ofthe basic
+architecture ofthe brain
+
+Legitimate
+Counterarguments exist
+
+Hum
+
+ot il aa
+ENDELEMENTEvidence for Functional Specificity
+
+{ROL Matos:
+1. Funcionaly identity the region in each individual
+2. Then measure is response in new condtions
+
+ 
+
+strong selectivy, tested
+against ots of
+
+present in vitally every
+roel subject
+
+par of he basic
+rchitectre ofthe brain
+
+Legitimate
+Counterarguments exist
+
+Hum
+
+¢ TT pow
+ENDELEMENTEvidence for Functional Specificity
+
+{ROL Matos:
+1. Functionally identity the region in each individual _—strong selectivity, tested
+2. Then measure is response in new condtions against ots of
+
+present invitualy every
+oem subject
+
+par of he basic
+rchitectre of the brain
+
+Legitimate
+Counterarguments exist
+patlorn analysis
+
+Hum
+
+ 
+ENDELEMENT 
+
+Evidence for Functional Specificity
+
+{ROL Matos:
+1. Funcionaly identity the region in each individual _—strong selectivity. testod
+
+2. Then measure is response in new conditions agaist as of
+
+present in vitualy every
+oem subject
+
+par ofthe basic
+rchitectre of the brain
+
+Legitimate
+Counterarguments exist
+ausal role
+tc, Hum
+vil return otis
+
+ 
+ENDELEMENTEvidence for Funct
+
+{ROL Mathos:
+1. Funcionaly identity the region in each individual
+2. Then measure is response in new conditions
+
+  
+
+ 
+
+a
+
+nal Specificity
+
+strong selectivty, tested
+against ots of
+
+present in vitally every
+roel subject
+
+par ofthe basic
+rchitectre of the brain
+
+Legitimate
+CCounterarguments exist
+patlorn analysis
+will tur to this
+
+Hum
+
+¢ FT Pow
+ENDELEMENTEvidence for Functional Specificity
+
+{ROL Mathod:
+1. Funcionaly identity the region in each individual
+2. Then moasure is response in new condtions
+
+strong selectivy, tested
+against ots of
+
+present in vitualy every
+oemal subject
+
+par of he basic
+Brchitectre ofthe brain
+
+Legitimate
+Counterarguments exist
+patlorn analyis
+otc, Hum
+il return otis
+
+ 
+ENDELEMENTEvidence for Functional Specificity
+FFA toces
+
+Hum
+ENDELEMENTEvidence for Functional Specificity
+FFA: faces
+
+ 
+
+Hum
+ENDELEMENTEvidence for Functional Specificity
+FFA toes
+
+Hum
+ENDELEMENTEvidence for Functional Specificity
+
+alu /
+
+Hum
+ENDELEMENTEvidence for Functional S|
+FFA: faces
+
+Auditory Speech
+
+specificity
+
+Hum
+ENDELEMENTEvidence for Functional S|
+FFA: faces
+
+‘Auditory Speech
+
+specificity
+
+Hum
+ENDELEMENTEvidence for Functional S|
+FFA: foces
+
+specificity
+
+Hum
+ENDELEMENTEvidence for Functional S|
+FFA: faces
+
+specificity
+
+Hum
+ENDELEMENTEvidence for Functional S|
+FFA faces
+
+specificity
+
+Hum
+ENDELEMENTEvidence for Functional S|
+FFA: faces
+
+‘Auditory Speech
+
+specificity
+
+Hum
+ENDELEMENTf.
+
+Evidence for Functional Specificity
+
+sd
+
+Language
+
+Hum
+ENDELEMENTEvidence for Functional S|
+FFA: faces
+
+‘Auditory Speech
+
+specificity
+
+Hum
+ENDELEMENTEvidence for Functional Specificity
+
+Language
+
+ 
+
+Hum
+
+¢ TT Poe
+ENDELEMENTEvidence for Functional Specificity
+
+a
+
++ i i
+
+Language
+
+ik. ’
+
+Hum
+ENDELEMENTEvidence for Functional Specificity
+
+14, a
+
+  
+
+Language
+
+ 
+ENDELEMENTEvidence for Functional Specificity
+
+a
+
++ i i
+
+Lh.
+
+Language
+
+Hum
+ENDELEMENTEvidence for Functional Specificity
+
+ol :
+| -
+
+ul
+
+| sum
+mm #8 «(fe E
+ENDELEMENTWhat | Mean by Functional Specificity
+
+Language
+
+ 
+
+ 
+
+Hum
+
+¢ TT Poe
+ENDELEMENT 
+
+What | Mean by Functional Specificity
+
+slat in
+
+arene |
+Ten ae
+L Seen: g
+ENDELEMENTWhat I Mean by Functional Specificity
+
+arene |
+hella
+L cane g
+
+Hum
+
+¢ TT Pow
+ENDELEMENTWhat | Mean by Functional Specificity
+
+arene | |
+ne fury
+L tne g
+
+Hum
+ENDELEMENTWhat Maan by Functional Specificity
+
+Language
+
+ 
+
+ 
+ENDELEMENTWhat | Mean by Functional Specificity
+
+le
+
+ 
+
+en
+i
+
+Hum
+
+-¢ TT Powe
+ENDELEMENTWhat | Mean by Functional Specificity
+
+tells,
+
+ 
+
+Hum
+
+¢ TT Powe
+ENDELEMENTWhat | Mean by Functional Specificity
+
+Wl
+
+ 
+
+Bol
+
+Hum
+
+¢ TT Poe
+ENDELEMENTWhat | Mean by Functional Specificity
+
+le en
+
+ 
+
+if Language
+“cn
+
+Hum
+ENDELEMENTWhat | Mean by Functional Specificity
+
+slat 1.
+
+phil il
+a Tore
+L eae g
+
+Hum
+
+¢ TT Pome
+ENDELEMENTWhat | Mean by Functional Specificity
+
+phil i
+ada oe
+L hous gg
+
+Hum
+
+¢ tT Pow
+ENDELEMENTWhat | Mean by Functional Specificity
+
+slat an
+
+arene |
+ew lt
+L shes, g
+
+Hum
+ENDELEMENTWhat | Mean by Functional Specificity
+
+arene |
+idl he
+L Sikcsaih ob
+
+Hum
+ENDELEMENTWhat | Mean by Functional Specificity
+
+seh
+
++ i dl
+
+Lh.
+
+Language
+
+Hum
+
+¢ FT Powe
+ENDELEMENTWhat | Mean by Functional Specificity
+
+le
+
+ 
+
+ul Language
+oon i
+
+Hum
+
+¢ FT Powe
+ENDELEMENTWhat | Mean by Functional Specificity
+
+a
+
++ i dl
+
+on
+
+Language
+
+Hum
+ENDELEMENTWhat | Mean by Functional Specificity
+
+al
+“am en
+L recite ob
+
+Hum
+
+¢ TT Powe
+ENDELEMENTWhat | Mean by Functional Specificity
+
+F u / =
+
+Language
+coos Te
+
+ 
+
+Hum
+ENDELEMENTWhat | Mean by Functional Specificity
+
+Bodies
+Scones
+Motion (7)
+4 Shape
+(Coen
+
+re hey
+
+ 
+
+Hum
+ENDELEMENTWhat | Mean by Functional Specificity
+
+a
+
+Bodies
+Seanes
+Moton (MT)
+Shape
+{Coton
+
+Music
+
+Language
+ENDELEMENTWhat I Mean by Functional Specificity
+.
+
+ 
+
+Bodies
+Seanes
+Moton (MT)
+Shape
+{Coton
+
+Music
+
+ 
+
+re Kew
+ey
+
+Hum
+
+¢ TT Pom
+ENDELEMENTWhat | Mean by Functional Specificity
+Bodies
+Seones
+
+Moton (MT)
+Shape
+{Coton
+
+Bronte ree
+
+' a ea
+fet vl
+
+Sy
+
+ 
+
+Hum
+ENDELEMENTWhat | Mean by Functional Specificity
+Bodies
+Sones
+
+Moton (MT)
+Shape
+{Coton
+
+Bronte ree
+a
+
+fel vl
+
+a
+
+ 
+
+Hum
+ENDELEMENTWhat I Mean by Functional Specificity
+Bodies
+Seones
+
+Moton (MT)
+Shape
+{Coton
+
+stot tes
+Sytaestie  \20Ooe
+ee oe
+ime a
+me
+
+ 
+
+Hum
+
+ot il aa
+ENDELEMENTWhat | Mean by Functional Specificity
+
+FFA Counterarguments
+Bodies ae possible but these data
+Seanes ned to be reckoned with
+
+Moton (MT)
+Shape
+{Coton
+
+allo hese
+Dy patient studies Language
+*# thought
+Piten ‘| Hum
+Music To
+co)
+
+ 
+ENDELEMENTWhat I Mean by Functional Specificity
+
+seh
+
+Frat Counterarguments
+
+Bodies are possible but these data
+Seanes red to be reckoned wih
+Moton (MT)
+
+Shape
+
+{Coton
+
+allt hese
+
+Byatt stxies 200008
+
+pe
+
+ 
+
+Mise Tom
+cor)
+leclalivan egal
+
+Hum
+
+¢ TT Poe
+ENDELEMENTWhat | Mean by Functional Specificity
+
+FFA Counterarguments
+
+Bodies are posible but these data
+Scones aed tobe reckoned wth,
+Motion (7)
+
+i Shape
+(Coen
+
+uit
+Byrn sates ‘enone
+en
+Music ToM
+L ae Bo
+eee?)
+
+Hum
+
+¢ TT Powe
+ENDELEMENTWhat | Mean by Functional Specificity
+
+FFA Counterarguments
+
+Bodies are posible but these data
+Scones aed tobe reckoned wth,
+Motion (MT)
+
+f. Shape
+(Col
+
+uit
+Bypatentatdes  ‘aoune
+re Tew
+|, fs va
+ie en
+idee
+
+Hum
+
+¢ TT Poe
+ENDELEMENTWhat | Mean by Functional Specificity
+
+FFA Counterarguments
+Bodies ae possible but these data
+Seanes ned to be reckoned with
+
+Moton (MT)
+Shape
+{Coton
+
+allt hese
+Dy patient studies Language
+# thought
+Piten | Hum
+Music To
+(Sue)
+noted brah regions ro
+
+¢ TT Poe
+
+ 
+ENDELEMENT“Multiple Demand” Regions
+John Duncan
+
+Hum
+ENDELEMENT“Multiple Demand” Regions
+John Duncan
+
+Hum
+ENDELEMENT“Multiple Demand” Regions El
+
+Hum
+ENDELEMENT 
+
+“Multiple Demand” Regions
+
+John Duncan
+
+caged in a wide variety of difficult cognitive tasks
+
+Hum
+ENDELEMENT“Multiple Demand” Regions
+
+John Duncan
+
+Wide variety of difficult cognitive tasks
+jultiple demand”
++ related to fluid intelligence:
+
+ 
+
+Hum
+ENDELEMENT“Multiple Demand” Regions
+
+John Duncan
+
+Wide variety of difficult cognitive tasks
+le demand”
++ related to fluid intelligence:
+
+    
+
+Hum
+ENDELEMENT“Multiple Demand” Regions
+
+ 
+
+Wide variety of difficult cognitive tasks
+jultiple demand”
++ related to fluid intelligr
+
+‘activated during fluid intelligence tasks
+
+ 
+
+ 
+ENDELEMENT“Multiple Demand” Regions
+
+John Duncan
+
+ 
+
+Hum
+ENDELEMENT“Multiple Demand” Regions
+
+John Duncan
+
+  
+
+Wide variety of difficult cognitive tasks
+“multiple demand”
++ related to fluid intelligence:
+
+activated dui
+
+‘causal role
+
+ 
+ 
+
+Hum
+ENDELEMENT“Multiple Demand” Regions
+
+John Duncan
+
+ 
+
++ engaged in a wide variety of dificult cognitive tasks
+Thence “multiple demand”
+ee a
+
+ 
+
+Hum
+ENDELEMENT 
+
+“Multiple Demand” Regions
+
+John Duncan
+
+Wide variety of difficult cognitive tasks
+ultiple demand”
+
+ 
+
+Hum
+ENDELEMENT“Multiple Demand” Regions
+
+John Duncan
+
+ 
+
++ engaged in a wide variety of dificult cognitive tasks
+Thence “multiple demand”
+
++ related to fluid intelli
+‘activated duri
+‘causal role
+
+   
+  
+
+Hum
+ENDELEMENT“Multiple Demand” Regions
+
+John Duncan
+
+ 
+
+ 
+
++ engaged in a wide variety of dificult cognitive tasks
+Thence “multiple demand”
++ related
+
+    
+
+ 
+
+‘causal roe in fluid intelligence
+6510 pts! 10.em3 of MD cortex
+
+Hum
+ENDELEMENT“Multiple Demand” Regions
+
+John Duncan
+
+Wide variety of dificult cognitive tasks
+jultiple demand”
+
+ 
+
+  
+
+‘activated during fluid intelligence tasks
+‘causal roe in fluid intelligence
+6510 pts! 10.em3 of MD cortex
++ critical for solving novel problems
+
+ 
+
+ 
+
+Hum
+ENDELEMENT“Multiple Demand” Regions
+
+John Duncan
+
+Wide variety of difficult cognitive tasks
+jultiple demand”
+
+ 
+
+ 
+
+uusal role in fluid intelligence
+6510 pts! 10.em3 of MD cortex
+* critical for solving novel problems
+
+ 
+
+Hum
+ENDELEMENT“Multiple Demand” Regions
+
+John Duncan
+
+ 
+
+caged in a wide variety of difficult cognitive tasks
+Thence “multiple demand”
++ related to fluid intelligence:
+activated during fluid intelligence tasks
+‘causal roe in fluid intelligence
+6510 pts! 10.em3 of MD cortex
+* critical for solving novel problems.
+
+ 
+
+ 
+
+ee re cere ns
+
+Hum
+ENDELEMENT“Multiple Demand” Regions
+
+John Duncan
+
+ 
+
++ engaged in a wide variety of dificult cognitive tasks
+Thence “multiple demand”
++ related to fluid intelligence:
+‘activated dui
+‘causal role
+6510 pts! 10.em3 of MD cortex
+* critical for solving novel problems
+
+ 
+ 
+
+PO IS sR,
+
+Hum
+ENDELEMENT“Multiple Demand” Regions
+
+John Duncan
+
+ 
+
+activated during fluid intelligence tasks
+‘causal role in fluid intelligence
+6510 pts! 10.em3 of MD cortex
+* critical for solving novel problems
+
+Pa capes coe
+
+Hum
+ENDELEMENT“Multiple Demand” Regions
+
+John Duncan
+
+  
+
+Wide variety of difficult cognitive tasks
+“multiple demand”
++ related to fluid intelligence:
+‘activated during lu
+‘causal role in fui i
+6510 pts! 10.em3 of MD cortex
+* critical for solving novel problems
+
+ 
+
+ 
+
+Hum
+ENDELEMENT‘Multiple Demand” Regions
+
+John Duncan POE,
+
+ 
+
++ engaged in a wide variety of dificult cognitive tasks
+Thence “multiple demand”
++ related to fluid intelligence:
+‘activated dur
+‘causal role in fluid
+6510 pts! 10.em3 of MD cortex
+* critical for solving novel problems
+
+ 
+  
+
+ 
+
+Hum
+ENDELEMENT“Multiple Demand” Regions
+
+John Duncan
+
+  
+
+Wide variety of difficult cognitive tasks
+“multiple demand”
++ related to fluid intelligence:
+‘activated during lu
+‘causal role
+6510 pts! 10.em3 of MD cortex
+* critical for solving novel problems
+
+  
+
+ve Sere ee rae
+
+Hum
+ENDELEMENT“Multiple Demand” Regions
+
+John Duncan
+
+ 
+
++ engaged in a wide variety of dificult cognitive tasks
+Thence “multiple demand”
++ related to fluid intelligence:
+‘activated during fluid intelligence tasks
+‘causal roe in fluid intelligence
+6510 pts! 10.em3 of MD cortex
+* critical for solving novel problems
+
+ 
+
+eg a acre
+
+Hum
+ENDELEMENT“Multiple Demand” Regions
+
+John Duncan
+
+ 
+
++ engaged in a wide variety of dificult cognitive tasks
+Thence “multiple demand”
++ related to fluid intelligence:
+‘activated duri
+‘causal role
+6510 pts! 10.em3 of MD cortex
+* critical for solving novel problems
+
+ 
+ 
+
+ 
+
+Hum
+ENDELEMENT‘Multiple Demand” Regions
+
+John Duncan BOS
+
+ 
+
++ engaged in a wide variety of dificult cognitive tasks
+Thence “multiple demand”
++ related to fluid intelligence:
+‘activated during flu
+‘causal role
+6510 pts! 10.em3 of MD cortex
+* critical for solving novel problet
+
+  
+
+ 
+
+A eee
+
+Hum
+ENDELEMENT“Multiple Demand” Regions
+
+John Duncan
+
+  
+
+Wide variety of difficult cognitive tasks
+“multiple demand”
++ related to fluid intelligence:
+
+  
+
+‘causal role in fui i
+6510 pts! 10.em3 of MD cortex
+* critical for solving novel problems
+
+ 
+
+Hum
+ENDELEMENT‘Multiple Demand” Regions
+
+John Duncan
+
+ 
+
++ engaged in a wide variety of dificult cognitive tasks
+Thence “multiple demand”
++ related to fluid intelligence:
+‘activated dur
+‘causal role
+6510 pts! 10.em3 of MD cortex
+* critical for solving novel problems
+
+   
+
+ 
+ 
+
+Pe a
+
+Hum
+ENDELEMENT“Multiple Demand” Regions
+
+John Duncan
+
+  
+
+Wide variety of difficult cognitive tasks
+“multiple demand”
++ related to fluid intelligence:
+‘activated during lu
+‘causal role
+65 10 pts! 10.em3 of MD cortex
+* critical for solving novel problems.
+
+  
+
+ 
+
+Hum
+ENDELEMENT“Multiple Demand” Regions
+
+ 
+
++ engaged in
+Thence “multiple demand”
++ related to fluid intelligence:
+activated dui
+‘causal role
+6510 pts! 10.em3 of MD cortex
+* critical for solving novel problems
+
+   
+
+ 
+ 
+
+ 
+
+John Duncan
+
+Wide variety of difficult cognitive tasks
+
+Hum
+ENDELEMENT“Multiple Demand” Regions
+
+John Duncan
+
+ 
+
++ engaged in a wide variety of dificult cognitive tasks
+Thence “multiple demand”
++ related to fluid intelligence:
+‘activated during lu
+‘causal role
+6510 pts! 10.em3 of MD cortex
+* critical for solving novel problems
+
+  
+
+Poses er pop
+
+Hum
+ENDELEMENT‘Multiple Demand” Regions
+
+John Duncan
+
+  
+
+‘wide varity of difficult cognitive tasks
+“multiple demand”
++ related to fluid intelligence:
+‘activated duri
+‘causal role
+6510 pts! 10.em3 of MD cortex
+* critical for solving novel problems
+
+ 
+ 
+
+ 
+
+Hum
+ENDELEMENT“Multiple Demand” Regions
+
+John Duncan
+
+ 
+
++ engaged in a wide variety of dificult cognitive tasks
+Thence “multiple demand”
++ related to fluid intelligence:
+‘activated duri
+‘causal role
+6510 pts! 10.em3 of MD cortex
+* critical for solving novel problems.
+
+ 
+ 
+
+ 
+
+Hum
+ENDELEMENTSources of content used with permissior
+
+Image of patient Leborgne’s brain, courtesy of Macr
+Publishers Ltd: Nature Reviews Neuroscience. Sour
+Rorden, H. O. Karnath, Nature Reviews Neuroscienc
+819. © 2004
+
+Multiple-demand brain diagram courtesy of Elsevier
+http://www.sciencedirect.com. Source: Duncan, J. |
+cognitive sciences 14, no. 4 (2010): 172-179.
+ENDELEMENT

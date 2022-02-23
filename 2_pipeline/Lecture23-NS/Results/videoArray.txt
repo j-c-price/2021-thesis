@@ -1,0 +1,3643 @@
+Some content in this video is not covers
+under our Creative Commons license.
+See the closing credits for more informat
+ENDELEMENTIntroduction to Neural
+Computation
+
+Prof. Michale Fee
+MIT BCS 9.40
+Lecture 9 — Receptive fields
+
+ 
+ENDELEMENTIntroduction to Neural
+Computation
+
+Prof. Michale Fee
+MIT BCS 9.40
+Lecture 9 — Receptive fields
+
+ 
+ENDELEMENTIntroduction to Neural
+Computation
+
+Prof. Michale Fee
+MIT BCS 9.40
+Lecture 9 — Receptive fields
+
+ 
+ENDELEMENTIntroduction to Neural
+Computation
+
+Prof. Michale Fee
+MIT BCS 9.40
+Lecture 9 — Receptive fields
+
+ 
+ENDELEMENTSpatial receptive fields
+
+ 
+ENDELEMENTSpatial receptive fields
+
+ 
+ENDELEMENTSpatial receptive fields
+
+ 
+ENDELEMENTSpatial receptive fields
+
+ 
+ENDELEMENTSpatial receptive fields
+
+ 
+ENDELEMENTSpatial receptive fields
+
+ 
+ENDELEMENTSpatial receptive fields
+
+ 
+ENDELEMENTSpatial receptive fields
+
+ 
+ENDELEMENTSpatial receptive fields
+
+owomcas mse
+
+ 
+ENDELEMENTSpatial receptive fields
+
+ 
+ENDELEMENTSpatial receptive fields
+
+ 
+ENDELEMENTSpatial receptive fields
+
+ 
+ENDELEMENTSpatial receptive fields
+
+ovens
+
+ 
+ENDELEMENTSpatial receptive fields
+
+ 
+ENDELEMENTSpatial receptive fields
+
+ 
+ENDELEMENTSpatial receptive fields
+
+ 
+ENDELEMENTSpatial receptive fields
+
+ 
+ENDELEMENTSpatial receptive fields
+
+ 
+ENDELEMENTSpatial receptive fields
+
+ 
+ENDELEMENTSpatial receptive fields
+
+   
+
+OHOENOSS «>
+
+SP
+ENDELEMENTSpatial receptive fields
+
+ 
+ENDELEMENTSpatial receptive fields
+
+ 
+ENDELEMENTSpatial receptive fields
+
+ 
+ENDELEMENTSpatial receptive fields
+
+OHOSMORS «= > SP
+
+oF
+ENDELEMENTSpatial receptive fields
+
+ 
+ENDELEMENTSpatial receptive fields
+
+   
+
+ 
+
+CHOSMOSSMIEN® SP
+
+ 
+ENDELEMENTSpatial receptive fields
+
+ 
+ENDELEMENTSpatial receptive fields
+
+ 
+ENDELEMENTLearning objectives for Lecture 9
+
++ Tobe able to mathematically describe a neural response as a
+linear iter folowed by a nonlinear function.
+
+To understand the concept of a Spatio-temporal Receptive
+Field (STRF) and the concept of 'separabiy’
+
+To understand the idea of a Spike Triggered Average and how
+to use it to compute a Spatio-temporal Receptive Field and a
+‘Spectro-temporal Receptive Field (STRF).
+
+ 
+ENDELEMENTLearning objectives for Lecture 9
+
++ Tobe able to mathematically describe a neural response as a
+linear iter folowed by a noninear function
+
+To understand the concept of a Spatio-temporal Receptive
+Field (STRF) and the concept of separabily’
+
+To understand the idea of a Spike Triggered Average and how
+to use itt compute a Spatio-temporal Receptive Field and a
+‘Spectro-temporal Receptive Field (STRF).
+
+ 
+ENDELEMENTLearning objectives for Lecture 9
+
++ Tobe able to mathematically describe a neural response as a
+linear iter folowed by a noninear function,
+
+To understand the concept of a Spatio-temporal Receptive
+Field (STRF) and the concept of separabily’
+
+To understand the dea of a Spike Triggered Average and how
+to use it to compute a Spatio-temporal Receptive Field and a
+‘Spectro-temporal Receptive Field (STRF).
+
+ 
+ENDELEMENTLearning objectives for Lecture 9
+
++ Tobe able to mathematically describe a neural response as a
+linear iter folowed by a nonlinear function.
+
+To understand the concept of a Spatio-temporal Receptive
+Field (STRF) and the concept of 'separabiy’
+
+To understand the idea of a Spike Triggered Average and how
+to use it to compute a Spatio-temporal Receptive Field and a
+‘Spectro-temporal Receptive Field (STRF).
+
+ 
+ENDELEMENTLearning objectives for Lecture 9
+
+To be able to mathematically describe a neural response.
+linear filter followed by a nonlinear function.
+
+— Acorrelation of a spatial receptive field with the stimulus
+
+— Aconvolution of a temporal receptive field with the stimulus
+
+To understand the concept of a Spatio-temporal Receptiv
+Field (STRF) and the concept of ‘separability’
+
+To understand the idea of a Spike Triggered Average and
+to use it to compute a Spatio-temporal Receptive Field an
+ENDELEMENTLearning objectives for Lecture 9
+
++ Tobe able to mathematically describe a neural response as a
+linear fiter folowed by a noninear function
+
+To understand the concept of a Spatio-temporal Receptive
+Field (STRF) and the concept of separabily’
+
+To understand the dea of a Spike Triggered Average and how
+to use itt compute a Spatio-temporal Receptive Field and a
+‘Spectro-temporal Receptive Field (STRF).
+
+ 
+ENDELEMENTLearning objectives for Lecture 9
+
+To be able to mathematically describe a neural response.
+linear filter followed by a nonlinear function.
+
+— Acorrelation of a spatial receptive field with the stimulus
+
+— Aconvolution of a temporal receptive field with the stimulus
+
+To understand the concept of a Spatio-temporal Receptiv
+Field (STRF) and the concept of ‘separability’
+
+To understand the idea of a Spike Triggered Average and
+to use it to compute a Spatio-temporal Receptive Field an
+ENDELEMENTLearning objectives for Lecture 9
+
++ Tobe able to mathematically describe a neural response as a
+linear iter folowed by a noniinear function.
+
+To understand the concept of a Spatio-temporal Receptive
+Field (STRF) and the concept of 'separabiy’
+
+To understand the dea of a Spike Taiggered Average and how
+to use itt compute a Spatio-temporal Receptive Field and a
+‘Spectro-temporal Receptive Field (STRF).
+
+ 
+ENDELEMENTLearning objectives for Lecture 9
+
++ Tobe able to mathematically describe a neural response as a
+linear iter folowed by a noninear function
+
+To understand the concept of a Spatio-temporal Receptive
+Field (STRF) and the concept of separabily’
+
+To understand the idea of a Spike Triggered Average and how
+to use itt compute a Spatio-temporal Receptive Field and a
+‘Spectro-temporal Receptive Field (STRF).
+
+ 
+ENDELEMENTLearning objectives for Lecture 9
+
+To be able to mathematically describe a neural response.
+linear filter followed by a nonlinear function.
+
+— Acorrelation of a spatial receptive field with the stimulus
+
+— Aconvolution of a temporal receptive field with the stimulus
+
+To understand the concept of a Spatio-temporal Receptiv
+Field (STRF) and the concept of ‘separability’
+
+To understand the idea of a Spike Triggered Average and
+to use it to compute a Spatio-temporal Receptive Field an
+ENDELEMENTLearning objectives for Lecture 9
+
++ Tobe able to mathematically describe a neural response as a
+linear fiter folowed by a noninear function.
+
+To understand the concept of a Spatio-temporal Receptive
+Field (STRF) and the concept of 'separabiy’
+
+To understand the idea of a Spike Triggered Average and how
+to use it to compute a Spatio-temporal Receptive Field and a
+‘Spectro-temporal Receptive Field (STRF).
+
+ 
+ENDELEMENTLearning objectives for Lecture 9
+
+To be able to mathematically describe a neural response.
+linear filter followed by a nonlinear function.
+
+— Acorrelation of a spatial receptive field with the stimulus
+
+— Aconvolution of a temporal receptive field with the stimulus
+
+To understand the concept of a Spatio-temporal Receptiv
+Field (STRF) and the concept of ‘separability’
+
+To understand the idea of a Spike Triggered Average and
+to use it to compute a Spatio-temporal Receptive Field an
+ENDELEMENTLearning objectives for Lecture 9
+
++ Tobe able to mathematically describe a neural response as a
+linear iter folowed by a noninear function
+
+To understand the concept of a Spatio-temporal Receptive
+Field (STRF) and the concept of separabily’
+
+To understand the idea of a Spike Triggered Average and how
+to use it to compute a Spatio-temporal Receptive Field and a
+‘Spectro-temporal Receptive Field (STRF).
+
+ 
+ENDELEMENTLearning objectives for Lecture 9
+
+To be able to mathematically describe a neural response.
+linear filter followed by a nonlinear function.
+
+— Acorrelation of a spatial receptive field with the stimulus
+
+— Aconvolution of a temporal receptive field with the stimulus
+
+To understand the concept of a Spatio-temporal Receptiv
+Field (STRF) and the concept of ‘separability’
+
+To understand the idea of a Spike Triggered Average and
+to use it to compute a Spatio-temporal Receptive Field an
+ENDELEMENTLearning objectives for Lecture 9
+
++ Tobe able to mathematically describe a neural response as a
+linear iter folowed by a noniinear function.
+
+ 
+ENDELEMENTSpatial receptive fields
+
++ How do we represent receptive fields mathematically?
+
++ Atthe simplest level, we think ofthe receptive fel (RF) a8 te region
+
+responds selectively to catain features in the stimu,
+
+‘+ We can tink of@ neuron as having a iter (6) tha passes certain
+
+features in both space and time,
+
+ 
+ENDELEMENTSpatial receptive fields
+
++ How do we represent receptive fields mathematically?
+
++ Atthe simplest level, we think ofthe receptive fet (RF) a8 te region
+
+Buta visu doesn't respond to any stimulus within this RF
+
+fe can thnk of a neuron as having after (6)
+
+ 
+ENDELEMENTSpatial receptive fields
+
+‘+ How do we represent receptive fields mathematically?
+
++ Atthe simplest level, we think ofthe receptive fet (RF) a8 te region
+
+Buta visu doesn't respond to any simul within this RF
+responds selectively to carta features he stimulis
+
++ We can tink of@ neuron as having a iter (6) that passes certain
+
+ 
+ENDELEMENTSpatial receptive fields
+
++ How do we represent receptive fields mathematically?
+
++ Atthe simplest level, we think ofthe receptive fet (RF) a8 te region
+
+responds selectively to catain features he stimuli
+
+‘+ We can tink of@ neuron as having a iter (6) that passes certain
+
+features in both space and time,
+
+ 
+ENDELEMENTSpatial receptive fields
+
+How do we represent receptive fields mathematically
+
+At the simplest level, we think of the receptive field (RF) as the r
+of visual space that causes the neuron to spike.
+
+But a visual neuron doesn't respond to any stimulus within this R
+responds selectively to certain ‘features’ in the stimulus.
+
+We can think of a neuron as having a filter (G) that passes certai
+
+features in both space and time. O
+
+The better the stimulus ‘overlaps’ with the filter, the more the ne
+
+ 
+ENDELEMENTSpatial receptive fields
+
++ How do we represent receptive fields mathematically?
+
++ Atthe simplest love, we think ofthe receptive fll (RF) asthe rogion|
+
+Buta visual neuron doesnt spond to any stimulus within his RF
+responds selectively to catain features the stimu,
+
++ We can think of@ neuron as having a iter (6) hat
+
+ 
+ENDELEMENTSpatial receptive fields
+
++ How do we represent receptive fields mathematically?
+
++ Atthe simplest level, we think ofthe receptive fet (RF) a8 the region
+
+of visual space that causes the neuron o spike
+
+responds selectively to catain features he stimuli
+
++ We can tink ofa neuron as having a iter (6) that passes certain
+
+features in both space and time,
+
+ 
+ENDELEMENTSpatial receptive fields
+
++ How do we represent receptive fields mathematically?
+
++ Atthe simplest level, we think ofthe receptive fled (RF) a8 the region
+
+of visual space that causes the neuron o spike
+
+responds selectively to catain features the stm,
+
++ We can tink ofa neuron as having a iter (6) that passes certain
+
+features in both space and ime.
+
+ 
+ENDELEMENTSpatial receptive fields
+
+How do we represent receptive fields mathematically
+
+At the simplest level, we think of the receptive field (RF) as the r
+of visual space that causes the neuron to spike.
+
+But a visual neuron doesn't respond to any stimulus within this R
+responds selectively to certain ‘features’ in the stimulus.
+
+We can think of a neuron as having a filter (G) that passes certai
+
+features in both space and time. Oo
+
+The better the stimulus ‘overlaps’ with the filter, the more the ne
+
+ 
+ENDELEMENTSpatial receptive fields
+
++ How do we represent receptive fields mathematically?
+
++ Atthe simplest level, we think ofthe receptive fed (RF) a8 te region
+
+of visual space that causes the neuron o spike,
+
+responds selectively to catain features" he stimuli
+
++ We can tink of@ neuron as having a iter (6) that passes certain
+
+features in both space and ia.
+
+ 
+ENDELEMENTSpatial receptive fields
+
++ How do we represent receptive fields mathematicall
+
+Start by describing the spatial part of this filter.
+
+T(x,y)
+ENDELEMENTSpatial receptive fields
+
++ How do we represent receptive fields mathematically?
+
+Start by desrbing the spatial part ofthis fer.
+
+ 
+ENDELEMENTSpatial receptive fields
+
+* How do we represent receptive fields mathematicall
+
+Start by describing the spatial part of this filter.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+— fiter fentanrt)
+1(x,y) z=ofreyy] r= [442],
+ENDELEMENTSpatial receptive fields
++ How do we represent receptive fields mathematically?
+
+Start by desrbing the spatial part ofthis fer.
+
+a @l4| pL
+
+ 
+ENDELEMENTSpatial receptive fields
+
+* How do we represent receptive fields mathematicall
+
+Start by describing the spatial part of this filter.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+— fiker fotaarty
+1(x,y) z=olreyy] r= [442],
+ENDELEMENTSpatial receptive fields
++ How do we represent receptive fields mathematically?
+
+Start by desrbing the spatial part ofthis fer.
+
+a @l4| pL
+
+L=olre9) +1]
+
+ 
+ENDELEMENTSpatial receptive fields
++ How do we represent receptive fields mathematically?
+
+Start by desrbing the spatial part ofthis fer.
+
+of @l4| p
+
+ 
+ENDELEMENTSpatial receptive fields
+
+* How do we represent receptive fields mathematicall
+
+Start by describing the spatial part of this filter.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+— fiter senaar)
+1(x,y) z=olreyy] r= [442],
+ENDELEMENTSpatial receptive fields
+
+* How do we represent receptive fields mathematicall
+
+Start by describing the spatial part of this filter.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+— fiter eg
+1(x,y) z=olreyy] r= [442],
+ENDELEMENTSpatial receptive fields
++ How do we represent receptive fields mathematically?
+
+Start by desrbing the spatial part ofthis fer.
+
+a @l4| pL
+
+ 
+ENDELEMENTSpatial receptive fields
+
+* How do we represent receptive fields mathematicall
+
+Start by describing the spatial part of this filter.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+— fiter senaar)
+1(x,y) z=olreyy] r= [442],
+ENDELEMENTSpatial receptive fields
+
+* How do we represent receptive fields mathematicall
+
+Start by describing the spatial part of this filter.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+— fiter senaar) cs
+TY. ail
+1(x,y) z=olreyy] r= [4 42], 1
+
+Buns x 7
+ENDELEMENTSpatial receptive fields
++ How do we represent receptive fields mathematically?
+
+Start by desrbing the spatial part ofthis fer.
+
+Tony) L=o[K9)]
+
+ 
+ENDELEMENTSpatial receptive fields
++ How do we represent receptive fields mathematically?
+
+Start by desrbing the spatial part ofthis fer.
+
+ 
+ENDELEMENTSpatial receptive fields
+
+* How do we represent receptive fields mathematicall
+
+Start by describing the spatial part of this filter.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+— fiter senaar) cs
+YY. ail
+1(x,y) z=olreyy] r= [442], 1
+
+an x 7
+ENDELEMENTSpatial receptive fields
++ How do we represent receptive fields mathematically?
+
+Start by desrbing the spatial part ofthis fer.
+
+«el |
+
+ 
+ENDELEMENTSpatial receptive fields
++ How do we represent receptive fields mathematically?
+
+Start by desrbing the spatial part ofthis fer.
+
+= @ls| / |
+
+Laoliny) r= [5+4],
+
+ 
+ENDELEMENTSpatial receptive fields
++ How do we represent receptive fields mathematically?
+
+Start by desrbing the spatial part ofthis fer.
+
+= @)5| / |
+
+ 
+ENDELEMENTSpatial receptive fields
+
++ How do we represent receptive fields mathematically?
+
+Start by desrbing the spatial part ofthis fer.
+
+ 
+ENDELEMENTSpatial receptive fields
+
++ How do we represent receptive fields mathematicall
+
+Start by describing the spatial part of this filter.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+— fer sentnaar cs
+a @)-) y |» ®
+
+ail
+
+(x,y) z=olreyy] r= [442], 1
+
+Bates iN 7
+ENDELEMENTSpatial receptive fields
++ How do we represent receptive fields mathematically?
+
+Start by desrbing the spatial part ofthis fer.
+
+By
+
+Tony) L=o[K9)]
+
+ 
+ENDELEMENTSpatial receptive fields
+
++ How do we represent receptive fields mathematicall
+
+Start by describing the spatial part of this filter.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+— fer sentnaar cs
+a @)) y |» ®
+
+mail
+
+(x,y) z=olieyy] r= [442], 1
+
+Bas iN 7
+ENDELEMENTSpatial receptive fields
++ How do we represent receptive fields mathematically?
+
+Start by desrbing the spatial part ofthis fer.
+
+= @l»| 1 |
+
+L=oliny) r= [6+4],
+
+ 
+ENDELEMENTSpatial receptive fields
+
++ How do we represent receptive fields mathematically?
+
+Start by desrbing the spatial part ofthis fer.
+
+ 
+ENDELEMENTSpatial receptive fields
++ How do we represent receptive fields mathematically?
+
+Start by desrbing the spatial part ofthis fer.
+
+= @ls| / |
+
+ 
+ENDELEMENTSpatial receptive fields
+
++ How do we represent receptive fields mathematically?
+
+\We are going to consider the simplest case in which the response
+‘of a neuron is given by a linear fiter acting onthe stimu.
+
+ 
+ENDELEMENTSpatial receptive fields
++ How do we represent receptive fields mathematically?
+
+\We are going to consider the simplest case in which the response
+‘of a neuron is given by alinearfiter acting on the stimulus.
+
+Ges.)
+
+rag [cceteyaedy
+
+ 
+ENDELEMENTSpatial receptive fields
+* How do we represent receptive fields mathematically
+
+We are going to consider the simplest case in which the res}
+of a neuron is given by a linear filter acting on the stimulus.
+y
+
+Gi
+r=n+ [[G@yley)dedy
+ENDELEMENTSpatial receptive fields
+
++ How do we represent receptive fields mathematically?
+
+\We are going to consider the simplest case in which the response
+‘of a neuron is given by a linear fiter acting on the stimulus.
+
+Gis.)
+
+Peet [fccentenydecy > .
+
+ 
+ENDELEMENTSpatial receptive fields
++ How do we represent receptive fields mathematically?
+
+\We are going to consider the simplest case in which the response
+‘of a neuron is given by a linear fiter acting onthe stimu.
+
+G(x.)
+
+rags ffowtennard
+
+ 
+ENDELEMENTSpatial receptive fields
++ How do we represent receptive fields mathematically?
+
+\We are going to consider the simplest case in which the response
+‘of @ neuron is given by a linear fitr acting onthe stimulus,
+
+Gey)
+
+popelfaconeerss
+
+ 
+ENDELEMENTSpatial receptive fields
++ How do we represent receptive fields mathematically
+
+We are going to consider the simplest case in which the res}
+of a neuron is given by a linear filter acting on the stimulus.
+
+Gi
+r=nt [[G@yle.y)dedy
+
+Let's look at this in one dimension
+
+r=n+ [Golde oN
+ENDELEMENTSpatial receptive fields
++ How do we represent receptive fields mathematically
+
+We are going to consider the simplest case in which the res}
+of a neuron is given by a linear filter acting on the stimulus.
+
+Gi
+r=n+t [[G@yley)dedy
+
+Let's look at this in one dimension
+
+r=n+[GQolode oN
+ENDELEMENTSpatial receptive fields
++ How do we represent receptive fields mathematically?
+
+\We are going to consider the simplest case in which the response
+‘of @ neuron is given by a linear fiter acting onthe stimulus,
+Gey)
+
+paptffoceontennnardy
+
+rags founds
+
+ 
+ENDELEMENTSpatial receptive fields
++ How do we represent receptive fields mathematically?
+
+\We are going to consider the simplest case in which the response
+‘of @ neuron is given by a linear fitr acting onthe stimulus,
+
+Gey)
+
+rapt ffocesntennardy
+
+ran Joana
+
+ 
+ENDELEMENTSpatial receptive fields
++ How do we represent receptive fields mathematically?
+
+\We are going to consider the simplest case in which the response
+‘of a neuron is given by a linear fiter acting on the stimu.
+
+Ges.)
+
+rags [Geeta aedy
+
+ran JGennds
+
+ 
+ENDELEMENTSpatial receptive fields
++ How do we represent receptive fields mathematically?
+
+\We are going to consider the simplest case in which the response
+‘of a neuron is given by a linear fiter acting on the stimulus.
+
+Ges.)
+
+rag fcc tayaedy
+
+ran JGennyds
+
+ 
+ENDELEMENTSpatial receptive fields
++ How do we represent receptive fields mathematically
+
+We are going to consider the simplest case in which the res}
+of a neuron is given by a linear filter acting on the stimulus.
+y
+
+Gi
+r=nt [[G@yle.y)dedy
+
+Let's look at this in one dimension
+
+r=n+ [Golde AGC
+ENDELEMENTSpatial receptive fields
++ How do we represent receptive fields mathematically
+
+Ge)
+
+WIT
+
+ 
+ENDELEMENTSpatial receptive fields
+
++ How do we represent receptive fields mathematically?
+
+ 
+ENDELEMENTSpatial receptive fields
+
++ How do we represent receptive fields mathematically?
+
+ 
+ENDELEMENTSpatial receptive fields
++ How do we represent receptive fields mathematically
+
+Ge)
+
+WIT
+
+ 
+ENDELEMENTSpatial receptive fields
++ How do we represent receptive fields mathematically
+
+Ge)
+
+WIT
+
+ 
+
+GI)
+
+ro oe =
+ENDELEMENTSpatial receptive fields
++ How do we represent receptive fields mathematically
+G(x)
+Zi i
+T(x)
+STs
+
+GI)
+
+om aoe om
+
+ 
+ENDELEMENTSpatial receptive fields
+
++ How do we represent receptive fields mathematically?
+
+ 
+ENDELEMENTSpatial receptive fields
+
++ How do we represent receptive fields mathematically
+
+Ga) G(x)
+
+ 
+
+(x)
+
+M(x) fo
+
+ 
+
+ 
+
+ 
+
+GI)
+
+PO, ae =
+ENDELEMENTSpatial receptive fields
+
++ How do we represent receptive fields mathematically
+
+Ga) Gx)
+
+ 
+
+1a)
+
+1x) fo
+
+ 
+
+ 
+
+ 
+
+GI)
+
+ve, a an
+ENDELEMENTSpatial receptive fields
++ How do we represent receptive fields mathematically?
+
+i.
+
+fy cere,
+
+ 
+ENDELEMENTSpatial receptive fields
+
++ How do we represent receptive fields mathematically
+
+Ga) G(x)
+
+ 
+
+(x)
+
+M(x) fo
+
+ 
+
+ 
+
+ 
+
+GI)
+
+PO, ae =
+ENDELEMENTSpatial receptive fields
+
++ How do we represent receptive fields mathematically?
+
+fy cere,
+
+ 
+ENDELEMENTSpatial receptive fields
+
++ How do we represent receptive fields mathematically?
+
+/ \.
+
+J cere,
+
+ 
+ENDELEMENTSpatial receptive fields
+
++ How do we represent receptive fields mathematically?
+
+fy Genre,
+
+J cent
+
+wT wo
+
+ 
+ENDELEMENTSpatial receptive fields
+
++ How do we represent receptive fields mathematically?
+
+f cere,
+
+ 
+ENDELEMENTSpatial receptive fields
+
++ How do we represent receptive fields mathematically?
+
+fy cent,
+
+ 
+ENDELEMENTSpatial receptive fields
++ How do we represent receptive fields mathematically?
+
+fy cuore,
+
+} coo
+
+— Hp
+
+ 
+ENDELEMENTSpatial receptive fields
+
++ How do we represent receptive fields mathematically?
+
+ 
+ENDELEMENTcee
+aly with
+
+Ae AL
+asia.
+
+ 
+ENDELEMENTLinearity
+
++ Response varies linearly with overlap
+
+Ga) | Ge)
+
+ 
+
+v
+
+ 
+
+ 
+
+M(x) 1x)
+Es
+
+GOI) j Gx)
+
+poe #
+ENDELEMENTEe
+3s linearly wth
+
+Se.
+iL.
+
+Le
+
+ 
+ENDELEMENTPeco e
+aly with
+
+Ae AL
+Se. A—
+
+ 
+ENDELEMENTpew
+aly with
+
+SA AL
+moi, =
+
+ 
+ENDELEMENToe
+3s linearly wth
+
+SX.
+lL.
+
+A
+
+ 
+ENDELEMENTTemporal receptive fields
+
+‘+ We can also think ofthe response of a neuron as some
+function of the temporal variations in the stimulus
+
+r= + D[SW)]
+
+ 
+ENDELEMENTTemporal receptive fields
+
+‘+ We can also think ofthe response of a neuron as some
+function of the temporal variations in the stimulus.
+
+r()=1,+D[S@]
+
+ 
+ENDELEMENTTemporal receptive fields
+
+‘+ We can also think ofthe response of a neuron as some
+function of the temporal variations in the stimulus
+
+r= + D[SW)]
+
+ 
+ENDELEMENTTemporal receptive fields
+
++ We can also think of the response of a neuron as son
+function of the temporal variations in the stimulus.
+
+r()=4+D[SO]
+
+J T\N
+
+Time-dependent Spontaneous Filter Stimulus
+firing rate firing rate
+ENDELEMENTTemporal receptive fields
+
++ We can also think of the response of a neuron as son
+function of the temporal variations in the stimulus.
+
+r)=4+D[SO]
+
+/T\N
+
+Time-dependent Spontaneous Filter Stimulus
+firing rate firing rate
+ENDELEMENTTemporal receptive fields
+
++ We can think of ‘overtap’ in the time domain! That there is,
+2 particular ‘temporal profile’ ofa stimulus that makes a
+neuron spike.
+
+ 
+ENDELEMENTTemporal receptive fields
+
++ We can think of ‘overlap’ inthe time domain! That there is
+2 particular ‘temporal profile’ ofa stimulus that makes a
+neuron spike.
+
+2 ven [we om
+
+ 
+ENDELEMENTTemporal receptive fields
+
++ We can think of ‘overtap’ inthe time domain! That there is,
+2 particular ‘temporal profile’ ofa stimulus that makes a
+neuron spike.
+
+ 
+ENDELEMENTTemporal receptive fields
+
++ We can think of ‘overtap’ inthe time domain! That there is,
+2 particular ‘temporal profile’ ofa stimulus that makes a
+neuron spike.
+
+ 
+ENDELEMENTTemporal receptive fields
+
++ We can think of ‘overlap’ in the time domain! That there is,
+2 particular ‘temporal profile’ ofa stimulus that makes a
+neuron spike.
+
+ 
+ENDELEMENTTemporal receptive fields
+
++ We can think of ‘overtap’ in the time domain! That there is,
+2 particular ‘temporal profile’ ofa stimulus that makes a
+neuron spike.
+
+ 
+ENDELEMENTTemporal receptive fields
+
++ We can think of ‘overtap’ in the time domain! That there is,
+2 particular ‘temporal profile’ ofa stimulus that makes a
+neuron spike.
+
+ 
+ENDELEMENTTemporal receptive fields
+
++ We can think of ‘overlap’ in the time domain! That th
+is a particular ‘temporal profile’ of a stimulus that mal
+neuron spike.
+
+enn
+ENDELEMENTTemporal receptive fields
+
++ We can think of ‘overlap’ inthe time domain! That there is.
+2 particular ‘temporal profile’ ofa stimulus that makes a
+neuron spike.
+
+OO pnernprnn finn ne
+
+ 
+ENDELEMENTTemporal receptive fields
+
++ We can think of ‘overtap’ in the time domain! That there is,
+2 particular ‘temporal profile’ ofa stimulus that makes a
+neuron spike.
+
+ 
+ENDELEMENTTemporal receptive fields
+
++ We can think of ‘overlap’ in the time domain! That there is.
+2 particular ‘temporal profile’ ofa stimulus that makes a
+neuron spike.
+
+rene [Wwe ene
+
+ 
+ENDELEMENTTemporal receptive fields
+
++ We can think of ‘overlap’ inthe time domain! That there is,
+2 particular ‘temporal profile’ ofa stimulus that makes a
+neuron spike.
+
+=? vrenypen_ [we ie
+
+ 
+ENDELEMENTTemporal receptive fields
+
++ We can think of ‘overtap’ in the time domain! That there is,
+particular ‘temporal profile’ ofa stimulus that makes a
+neuron spike.
+
+ 
+ENDELEMENTTemporal receptive fields
+
++ We can think of ‘overlap’ in the time domain! That th
+is a particular ‘temporal profile’ of a stimulus that mal
+neuron spike.
+
+Si) tin
+
+—<f
+
+Se
+ENDELEMENTTemporal receptive fields
+
++ We can think of ‘overlap’ inthe time domain! That there is,
+2 particular ‘temporal profile’ ofa stimulus that makes a
+neuron spike.
+
+remo [Wwe re:
+
+ 
+ENDELEMENTTemporal receptive fields
+
++ We can think of ‘overtap’ in the time domain! That there is,
+2 particular ‘temporal profile’ ofa stimulus that makes a
+neuron spike.
+
+ 
+ENDELEMENTTemporal receptive fields
+
++ We can think of ‘overtap’ inthe time domain! That there is,
+2 particular ‘temporal profile’ ofa stimulus that makes a
+neuron spike.
+
+ 
+ENDELEMENTTemporal receptive fields
+
++ We can think of overlap’ in the time domain! That there is,
+2 particular ‘temporal profile’ ofa stimulus that makes a
+neuron spike.
+
+ 
+ENDELEMENTTemporal receptive fields
+
+‘+ We can think of overlap’ inthe time domain! That there is.
+2 particular ‘temporal profile’ ofa stimulus that makes a
+neuron spike.
+
+ 
+ENDELEMENTTemporal receptive fields
+
++ We can think of ‘overtap’ in the time domain! That there is,
+2 particular ‘temporal profile’ ofa stimulus that makes a
+neuron spike.
+
+ 
+ENDELEMENTTemporal receptive fields
+
++ We can think of ‘overlap’ inthe time domain! That there is,
+2 particular ‘temporal profile’ ofa stimulus that makes a
+neuron spike.
+
+ 
+ENDELEMENTTemporal receptive fields
+
++ We can think of ‘overlap’ in the time domain! That there is,
+2 particular ‘temporal profile’ ofa stimulus that makes a
+neuron spike.
+
+Oren penn finn are:
+
+ 
+ENDELEMENTTemporal receptive fields
+
+wont r= 5+ | DUES —n)de
+
+ 
+ENDELEMENTTemporal receptive fields
+
+Convolution!! r(t)=%+ J D@)Se-t)dt
+ENDELEMENTTemporal receptive fields
+
+ni=6+ | Dmsu-nde
+
+ 
+ENDELEMENTTemporal receptive fields
+
+Convolution!! r(t)=%+ J D@)Se-t)dt
+ENDELEMENTTemporal receptive fields
+
+wont ri=5+ f D@SU-ndr
+
+ 
+ENDELEMENTTemporal receptive fields
+
++ We can think of overlap’ in the time domain! That there is
+2 particular ‘temporal profile’ ofa stimulus that makes a
+neuron spike.
+
+Does this look familiar?
+
+ 
+ENDELEMENTTemporal receptive fields
+
++ We can think of overlap’ in the time domain! That there is,
+2 particular ‘temporal profile’ ofa stimulus that makes a
+neuron spike.
+
+(Does this look familiar?
+
+ 
+ENDELEMENTTemporal receptive fields
+
++ We can think of ‘overtap’ inthe time domain! That there is,
+particular ‘temporal profile’ ofa stimulus that makes a
+neuron spike.
+
+Does this look familiar?
+
+ 
+ENDELEMENTTemporal receptive fields
+
++ We can think of overlap’ inthe time domain! That there is
+2 particular ‘temporal profile’ ofa stimulus that makes a
+neuron spike.
+
+OO nernprnn finn fn
+ee ee
+
+Does this lok familar?
+
+ 
+ENDELEMENTTemporal receptive fields
+
++ We can think of overlap’ inthe time domain! That there is,
+2 particular ‘temporal profile’ ofa stimulus that makes a
+neuron spike.
+
+Does this lok familar?
+
+ 
+ENDELEMENTTemporal receptive fields
+
++ We can think of ‘overtap’ inthe time domain! That there is,
+2 particular ‘temporal profile’ ofa stimulus that makes a
+neuron spike.
+
+Does this look familiar?
+
+ 
+ENDELEMENTTemporal receptive fields
+
++ We can think of ‘overtap’ in the time domain! That there is,
+2 particular ‘temporal profile’ ofa stimulus that makes a
+neuron spike.
+
+(Does this look familar?
+
+ 
+ENDELEMENTTemporal receptive fields
+
+ni=6+ | Demsu-nde
+
+ 
+ENDELEMENTTemporal receptive fields
+
+Convolution!! r(t)=%+ J D@)Se-t)dt
+ENDELEMENTTemporal receptive fields
+
++ We can think of ‘overtap’ inthe time domain! That there is.
+2 particular ‘temporal profile’ ofa stimulus that makes a
+neuron spike.
+
+(Does this look familar?
+
+ 
+ENDELEMENTTemporal receptive fields
+
++ We can think of ‘overlap’ inthe time domain! That there is,
+2 particular ‘temporal profile’ ofa stimulus that makes a
+neuron spike.
+
+nD veenyyen_ fw ee
+ae
+
+Does this lok familar?
+
+ 
+ENDELEMENTTemporal receptive fields
+
++ We can think of ‘overlap’ inthe time domain! That there is,
+2 particular ‘temporal profile’ ofa stimulus that makes a
+neuron spike.
+
+ee
+
+Does this lok familar?
+
+ 
+ENDELEMENTTemporal receptive fields
+
++ We can think of ‘overtap’ inthe time domain! That there is.
+2 particular ‘temporal profile’ ofa stimulus that makes a
+neuron spike.
+
+Does this look familiar?
+
+ 
+ENDELEMENTTemporal receptive fields
+
++ We can think of ‘overlap’ inthe time domain! That there is,
+2 particular ‘temporal profile’ ofa stimulus that makes a
+neuron spike.
+
+ee ee
+
+Does this lok familar?
+
+ 
+ENDELEMENTTemporal receptive fields
+
++ We can think of overlap’ inthe time domain! That there is,
+2 particular ‘temporal profile’ ofa stimulus that makes a
+neuron spike.
+
+ee
+
+Does this lok familar?
+
+ 
+ENDELEMENTTemporal receptive fields
+
++ We can think of ‘overtap’ in the time domain! That there is,
+particular ‘temporal profile’ ofa stimulus that makes a
+neuron spike.
+
+(Does this look familar?
+
+ 
+ENDELEMENTTemporal receptive fields
+
++ We can think of ‘overtap’ in the time domain! That there is,
+2 particular ‘temporal profile’ ofa stimulus that makes a
+neuron spike.
+
+Does this look familiar?
+
+ 
+ENDELEMENTTemporal receptive fields
+
++ We can think of ‘overlap’ in the time domain! That there is,
+2 particular ‘temporal profile’ ofa stimulus that makes a
+neuron spike.
+
+ee Ne
+
+(Does this lok familar?
+
+ 
+ENDELEMENTTemporal receptive fields
+
++ We can think of ‘overtap’in the time domain! That there is,
+2 particular ‘temporal profile’ ofa stimulus that makes a
+neuron spike.
+
+Does this look familiar?
+
+ 
+ENDELEMENTTemporal receptive fields
+
++ We can think of ‘overtap’ in the time domain! That there is.
+2 particular ‘temporal profile’ ofa stimulus that makes a
+neuron spike.
+
+(Does this look familiar?
+
+ 
+ENDELEMENTTemporal receptive fields
+
+Convolution!! r(t)=%+ J D@)S@-t)dt
+
+D(t)
+fb
+
+Linear temporal response kernel. (Or ‘temporal kernel’
+ENDELEMENTTemporal receptive fields
+
+ni=4+ | Desu-nyde
+De)
+
+Linear temporal response kernel. (Or ‘temporal kernel’)
+
+ 
+ENDELEMENTTemporal receptive fields
+
+nin=4+ | Desde
+
+Linear temporal response kernel. (Or ‘temporal kernel’)
+
+ 
+ENDELEMENTTemporal receptive fields
+
+nin=4+ | Demsu-nde
+De)
+
+Linear temporal response kernel. (Or ‘temporal kernel’)
+
+ 
+ENDELEMENTTemporal receptive fields
+
+Conotiion! rid=6+ | DeOsU-Hdr
+
+Do)
+
+oe
+
+Linear temporal response kernel. (Or ‘temporal kernel’)
+
+ 
+ENDELEMENTTemporal receptive fields
+
+ni=4+ | De@su-nde
+bo)
+
+Linear temporal response kernel. (Or ‘temporal kernel’)
+
+ 
+ENDELEMENTTemporal receptive fields
+
+nin=6+ | Desu-nde
+bo)
+
+Linear temporal response kernel. (Or ‘temporal kernel’)
+
+ 
+ENDELEMENTTemporal receptive fields
+
+wont r=5+ | DOSE —ndr
+
+ 
+ENDELEMENTTemporal receptive fields
+
++ We can think of ‘overtap’ in the time domain! That there is,
+2 particular ‘temporal profile’ ofa stimulus that makes a
+neuron spike.
+
+Does this look familiar?
+
+ 
+ENDELEMENTTemporal receptive fields
+
++ We can think of ‘overtap’ in the time domain! That there is,
+2 particular ‘temporal profile’ ofa stimulus that makes a
+neuron spike.
+
+(Does this look familiar?
+
+ 
+ENDELEMENTLearning objectives for Lecture 9
+
+‘+ To understand the concept of a Spatio-temporal Receptive
+Field (STRF) and the concept of separability’
+
+ 
+ENDELEMENTLearning objectives for Lecture 9
+
+‘+ To understand the concept of a Spatio-temporal Receptive
+Field (STRF) and the concept of separabily’
+
+ 
+ENDELEMENTSpatio-temporal receptive fields
+
++ Now we are going to put the temporal receptive field an
+spatial receptive field together in a single object.
+
+* This is called the spatio-temporal receptive field (STI
+ENDELEMENTSpatio-temporal receptive fields
+
+“Now we are going to put the temporal receptive field and the
+spatial receptive field together na single object
+
+‘+ This is called the spatio-temporal receptive field (STRF).
+
+ 
+ENDELEMENTSpatio-temporal receptive fields
+
++ Now we are going to put the temporal receptive field and the
+spatial receptive field together n'a single object
+
++ This is called the spatio-temporal receptive field (STRF).
+
++ Lot's imagine a stimulus thats a function of space and time,
+lke the ight faling on a retina: [(x.y.1)
+
+ 
+ENDELEMENTSpatio-temporal receptive fields
+
+Now we are going o put the temporal receptive field and the
+spatial receptive eld together in.a single object.
+
+This is called the spatio-temporal receptive field (STRF),
+
+Let's imagine a stimulus thats a function of space and time,
+Tike the ight faling on a retina’ —1(x.y.1)
+
+ 
+ENDELEMENTSpatio-temporal receptive fields
+
+Now we are going o put the temporal receptive field and the
+spatial receptive field together in a single object.
+
+This is called the spatio-temporal receptive field (STRF),
+
+Let's imagine a stimulus thats a function of space and time,
+Tike the ight faling on a retina’ —1(x.y.1)
+
+ 
+ENDELEMENTSpatio-temporal receptive fields
+
+“+ Now we are going to put the temporal receptive field and the
+spatial receptive field together na single object
+
++ This is called the spatio-temporal receptive field (STRF).
+
++ Lot's imagine a stimulus thats a function of space and time,
+Tike the ight faling on a retina’ I(x.)
+
+ 
+ENDELEMENTSpatio-temporal receptive fields
+
+"Now we are going to put the temporal receptive field and the
+spatial receptive field together in.a single object.
+
+This is called the spatio-temporal receptive field (STRF),
+
+Let's imagine a stimulus thats a function of space and time,
+Tike the ight faling on a retina’ 1(x.y.1)
+
+wo are going to simply things by considering only one
+
+ 
+ENDELEMENTSpatio-temporal receptive fields
+
+"Now we are going o put the temporal receptive field and the
+spatial receptive ied together in a single object.
+
+This is called the spatio-temporal receptive field (STRF),
+
+Let's imagine a stimulus thats a function of space and time,
+Tike the ight faling on a retina’ —1(x.y,1)
+
+wo are going to simply things by considering only one
+
+ 
+ENDELEMENTSpatio-temporal receptive fields
+
+Now we are going to put the temporal receptive field ané
+spatial receptive field together in a single object.
+
+This is called the spatio-temporal receptive field (STF
+
+Let's imagine a stimulus that is a function of space and tir
+like the light falling on a retina: J(x,y,t)
+
+But now we are going to simplify things by considering 0
+
+‘one spatial dimension: (x,t)
+
+eS ee ee eee
+
+  
+ENDELEMENTSpatio-temporal receptive fields
+
+Now we are going to put the temporal receptive field ané
+spatial receptive field together in a single object.
+
+This is called the spatio-temporal receptive field (STF
+
+Let's imagine a stimulus that is a function of space and tir
+like the light falling on a retina: J(x,y,t)
+
+But now we are going to simplify things by considering 0
+
+‘one spatial dimension: (x,t)
+
+eS ee ee eee
+
+  
+ENDELEMENTSpatio-temporal receptive fields
+
+Here we are doing a correlation anda convolution a he same tne!
+CCorelaton nthe integral over space and a convouton inte integral
+
+riage [faedeDUs.eoet—2)
+
+niy=5+ fade | dxDixtys—1)
+
+ 
+ENDELEMENTSpatio-temporal receptive fields
+
+Here we are doing a correlation anda convolution a he same tne!
+CCorelation nthe integra over space and a convolution inte negra
+
+r= + fdrdeD(x.2)l000-1)
+
+noy=n+ far f aro.
+
+ 
+ENDELEMENTSpatio-temporal receptive fields
+
+Here we are doing a correlation and a convolution at the same tim
+Correlation in the integral over space and a convolution in the inte
+over time!
+
+rQ=n+ JfacarD(x,210,1 -1)
+
+correlation
+
+rae
+r)=%+ J def deD(x,2)1t-1)
+ENDELEMENTSeparability
+
++ Ifa receptive field is separable in space and time, then we.
+‘can decompose it into a spatial receptive field and a
+temporal receptive field
+
+Separable
+
+ 
+ENDELEMENTSeparability
+
++ Ifa receptive field is separable in space and time, then we.
+‘can decompose it into a spatial receptive field and a
+temporal receptive field,
+
+‘Separable
+
+ 
+ENDELEMENTSeparability
+
++ Ifa receptive field is separable in space and time, the
+we can decompose it into a spatial receptive field anc
+temporal receptive field.
+
+Separable
+x
+
+D(x,1)
+GQ)
+
+AN
+ENDELEMENTSeparability
++ Ifa receptive feld is separable in space and time, then we
+can decompose it ino a spatial receptive field and a
+temporal receptive field
+
+Separable Inseparable
+
+Dit)
+Dot)
+
+ 
+ENDELEMENTSeparability
+
++ Ifa receptive field is separable in space and time, then we.
+‘can decompose it into a spatial receptive field and a
+temporal receptive field
+
+Separable
+
+Dix.t)
+
+ 
+ENDELEMENTSeparability
+
++ Ifa receptive field is separable in space and time, then we.
+‘can decompose it into a spatial receptive field and a
+temporal receptive field
+
+Separable
+
+ 
+ENDELEMENTSeparability
+
++ Ifa receptive field is separable in space and time, then we.
+‘can decompose it into a spatial receptive field and a
+temporal receptive field
+
+Separable
+
+ 
+ENDELEMENTSeparability
+
++ Ifa receptive field is separable in space and time, the
+we can decompose it into a spatial receptive field anc
+temporal receptive field.
+
+Separable
+x
+
+D(x,1)
+GQ)
+
+Nt.
+ENDELEMENTSeparability
+
++ Ifa receptive field is separable in space and time, the
+we can decompose it into a spatial receptive field anc
+temporal receptive field.
+
+Separable Inseparable
+
+x
+
+D(x,1)
+GQ)
+
+AN
+
+D(x,
+ENDELEMENTSeparability
+
++ Ifa receptive field is separable in space and time, then we.
+ccan decompose it into a spatial receptive field and a
+temporal receptive field
+
+Sonne Inseparable
+
+Dix.t)
+Dix.t)
+
+ 
+ENDELEMENTSeparability
++ Ifa receptive felis separable in space and time, then we
+can decompose it ino a spatial receptive field and a
+temporal receptive field
+
+Separable Inseparable
+
+Dit)
+Dot)
+
+ 
+ENDELEMENTSeparability
+
++ Ifa receptive field is separable in space and time, then we.
+can decompose it into a spatial receptive field and a
+temporal receptive field
+
+pone Inseparable
+
+Dix.t)
+
+ 
+ENDELEMENTSeparability
+
++ Ifa receptive field is separable in space and time, then we.
+‘can decompose it into a spatial receptive field and a
+temporal receptive field
+
+ri)= n+ fafaeDoene-2)
+
+D(x.1) =G()D,(0)
+
+ 
+ENDELEMENTSeparability
+
++ If a receptive field is separable in space and time, the
+we can decompose it into a spatial receptive field anc
+temporal receptive field:
+
+rQ=n+ j ax | deD(x,2)1(xt-1)
+
+D(x,t) =G(x)D, (7)
+ENDELEMENTSeparability
+
++ Ifa receptive field is separable in space and time, then we.
+‘can decompose it into a spatial receptive field and a
+temporal receptive field
+
+re)= n+ fafaeDocencse-2)
+
+D(x.1)=G()D,()
+
+84) = fasccottss)  Conelaion
+
+Jaro,csu-2) Convolution
+
+ 
+ENDELEMENTSeparability
+
++ If a receptive field is separable in space and time, the
+we can decompose it into a spatial receptive field anc
+temporal receptive field:
+
+rQ=n+ j ax | deD(x,2)1(xt-1)
+
+D(x,t) =G(x)D, (7)
+
+80) = JaxGGyres) ——Conelation
+
+where
+ENDELEMENTSeparability
+
++ Ifa receptive field is separable in space and time, then we.
+‘can decompose it into a spatial receptive field and a
+temporal receptive field
+
+ra)= n+ Jaf aeDecentse-2)
+
+D(x.1) =GC)D, (0)
+
+80 = fasccoress) — Conelaion
+
+rt) = 5+] ded,¢e)90~2) Convolution
+
+ 
+ENDELEMENTSeparability
+
++ Ifa receptive field is separable in space and time, then we.
+‘can decompose it into a spatial receptive field and a
+temporal receptive field
+
+ra)= n+ fap aeDocencse-2)
+
+D(x.0)=G,(2)D, (2)
+
+84) = fasccottst) — Conelaton
+
+Jaro,csu—2) Convolution
+
+ 
+ENDELEMENTSeparability
+
++ Ifa receptive field is separable in space and time, then we.
+‘can decompose it into a spatial receptive field and a
+temporal receptive field
+
+re)= + Jaf aeDeconcse-2)
+
+D(x.1) =G)D,(0)
+
+80 = fasccorss) —Conelaion
+
+10) = + J dtD,()S@—r) Convolution
+
+ 
+ENDELEMENTRepresenting stimulus and receptive fields in
+space and time
+
+ 
+ENDELEMENTRepresenting stimulus and receptive fields in
+space and time
+
+ 
+ENDELEMENTRepresenting stimulus and receptive fields in
+space and time
+
+ 
+ENDELEMENTRepresenting stimulus and receptive fields in
+space and time
+
+ 
+ENDELEMENTRepresenting stimulus and receptive fields in
+space and time
+
+ 
+ENDELEMENTRepresenting stimulus and receptive fields in
+space and time
+
+ 
+ENDELEMENTRepresenting stimulus and receptive fields in
+space and time
+
+ 
+ENDELEMENTRepresenting stimulus and receptive fields in
+space and time
+
+ 
+ENDELEMENTRepresenting stimulus and receptive fields in
+space and time
+
+ 
+ENDELEMENTRepresenting stimulus and receptive fields in
+space and time
+
+ 
+ENDELEMENTRepresenting stimulus and receptive fields in
+space and time
+
+ 
+ENDELEMENTRepresenting stimulus and receptive fields i
+space and time
+
+‘Suppose our stimulus is a bar of light extending from x=2 to x=4
+and that is turned on for times from t=1 to t=6
+We represent it on a space-time plot as follows:
+space
+rhe
+
+light
+
+ 
+
+4 5 time
+fring,
+ENDELEMENTRepresenting stimulus and receptive fields in
+space and time
+
+ 
+ENDELEMENTRepresenting stimulus and receptive fields in
+space and time
+
+ 
+ENDELEMENTRepresenting stimulus and receptive fields i
+space and time
+
+‘Suppose our stimulus is a bar of light extending from x=2 to x=4
+and that is turned on for times from t=1 to t=6
+We represent it on a space-time plot as follows:
+space
+rhe
+
+light
+
+ 
+
+4 5 time
+fring,
+ENDELEMENTRepresenting stimulus and receptive fields in
+space and time
+
+ 
+ENDELEMENTRepresenting stimulus and receptive fields in
+space and time
+
+ 
+ENDELEMENTRepresenting stimulus and receptive fields in
+space and time
+
+ 
+ENDELEMENTRepresenting stimulus and receptive fields in
+space and time
+
+ 
+ENDELEMENTRepresenting stimulus and receptive fields in
+space and time
+
+ 
+ENDELEMENTRepresenting stimulus and receptive fields in
+space and time
+
+ 
+ENDELEMENTRepresenting stimulus and receptive fields i
+
+space and time
+
+‘Suppose our stimulus is a bar of light extending from x=2 to x=4
+
+and that is turned on for times from t=1 to t=6
+We represent it on a space-time plot as follows:
+
+space
+
+rf,
+
+ 
+
+ 
+
+time
+ENDELEMENTRepresenting stimulus and receptive fields in
+space and time
+
+ 
+ENDELEMENTRepresenting stimulus and receptive fields i
+space and time
+‘Suppose our stimulus is a bar of light extending from x=2 to x=4
+
+and that is turned on for times from t=1 to t=6
+We represent it on a space-time plot as follows:
+
+ 
+
+space
+rf
+4
+2
+7 time
+ENDELEMENTRepresenting stimulus and receptive fields in
+space and time
+
+ 
+ENDELEMENTRepresenting stimulus and receptive fields in
+space and time
+
+ 
+ENDELEMENTRepresenting stimulus and receptive fields in
+space and time
+
+ 
+ENDELEMENTRepresenting stimulus and receptive fields in
+space and time
+
+ 
+ENDELEMENTRepresenting stimulus and receptive fields in
+space and time
+
+ 
+ENDELEMENTRepresenting stimulus and receptive fields in
+space and time
+
+ 
+ENDELEMENTRepresenting stimulus and receptive fields in
+space and time
+
+ 
+ENDELEMENTRepresenting stimulus and receptive fields in
+space and time
+
+ 
+ENDELEMENTRepresenting stimulus and receptive fields in
+space and time
+
+ 
+ENDELEMENTRepresenting stimulus and receptive fields in
+space and time
+
+ 
+ENDELEMENTRepresenting stimulus and receptive fields i
+
+space and time
+
+‘Suppose we now consider a receptive field D(t,x) with spatial as \
+‘as temporal structure (but ‘space-time separable’ : D(t,x) = D{
+
+space
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+time
+ENDELEMENTRepresenting stimulus and receptive fields in
+space and time
+
+Beta) 0100)
+
+ 
+ENDELEMENTRepresenting stimulus and receptive fields i
+space and time
+
+‘Suppose we now consider a receptive field D(t,x) with spatial as
+as temporal structure (but ‘space-time separable’ : D(t,x) = D(
+
+space
+
+ 
+
+ 
+
+ 
+
+ 
+
+time
+
+ 
+ENDELEMENTRepresenting stimulus and receptive fields in
+space and time
+
+Bits) (00)
+
+ 
+ENDELEMENTRepresenting stimulus and receptive fields in
+space and time
+
+DAL») = 0100)
+
+ 
+ENDELEMENTRepresenting stimulus and receptive fields in
+space and time
+
+Bits) = O(00)
+
+ 
+ENDELEMENTRepresenting stimulus and receptive fields in
+space and time
+
+Beta) = (00%)
+
+ 
+ENDELEMENTResponse to a moving bar of light
+
+ 
+ENDELEMENTResponse to a moving bar of light
+
+ 
+ENDELEMENTResponse to a moving bar of light
+
+ 
+ENDELEMENTResponse to a moving bar of light
+
+ 
+ENDELEMENTResponse to a moving bar of light
+
+ 
+ENDELEMENTResponse to a moving bar of light
+
+Now suppose our stimulus is moving:
+
+light
+
+ 
+ENDELEMENTResponse to a moving bar of light
+Now suppose our stimulus is moving:
+
+‘space light
+
+Fi $time
+firing ,
+ENDELEMENTResponse to a moving bar of light
+
+ 
+ENDELEMENTResponse to a moving bar of light
+Now suppose our stimulus is moving:
+
+light
+
+ 
+
+   
+ENDELEMENTResponse to a moving bar of light
+
+ 
+ENDELEMENTResponse to a moving bar of light
+Now suppose our stimulus is moving:
+
+light
+
+ 
+
+   
+ENDELEMENTResponse to a moving bar of light
+
+ 
+ENDELEMENTResponse to a moving bar of light
+
+ 
+ENDELEMENTResponse to a moving bar of light
+
+Now suppose our stimulus is moving in opposite direction:
+
+time
+
+ 
+ENDELEMENTResponse to a moving bar of light
+
+ 
+ENDELEMENTResponse to a moving bar of light
+Now suppose our stimulus is moving in opposite direction:
+
+space tight
+
+1 6 time
+ENDELEMENTResponse to a moving bar of light
+
+ 
+ENDELEMENTResponse to a moving bar of light
+Now suppose our stimulus is moving in opposite direction:
+
+space tight
+
+1 6 time
+ENDELEMENTResponse to a moving bar of light
+
+ 
+ENDELEMENTResponse to a moving bar of light
+
+ 
+ENDELEMENTResponse to a moving bar of light
+
+ 
+ENDELEMENTLearning objectives for Lecture 9
+
++ To understand the idea ofa Spike Triggered Average and how
+to use itt compute a Spatio-temporal Receptive Field and a
+‘Spectro-temporal Receptive Field (STRF).
+
+ 
+ENDELEMENTLearning objectives for Lecture 9
+
+‘+ To understand the idea ofa Spike Triggered Average and how
+to use it to compute a Spatio-temporal Receptive Field and a
+‘Spectro-temporal Receptive Field (STRF).
+
+ 
+ENDELEMENTLearning objectives for Lecture 9
+
++ To understand the idea ofa Spike Triggered Average and how
+to use itt compute a Spatio-temporal Receptive Field and a
+‘Spectro-temporal Receptive Field (STRF).
+
+ 
+ENDELEMENTLearning objectives for Lecture 9
+
++ To understand the idea ofa Spike Triggered Average and how
+to use itt compute a Spatio-temporal Receptive Field and a
+‘Spectro-temporal Receptive Field (STRF).
+
+ 
+ENDELEMENTLearning objectives for Lecture 9
+
++ To understand the idea of a Spike Triggered Average and how
+to use itt compute a Spatio-temporal Receptive Field and a
+‘Spectro-temporal Receptive Field (STRF).
+
+ 
+ENDELEMENTLearning objectives for Lecture 9
+
+‘+ To understand the idea ofa Spike Triggered Average and how
+to use itt compute a Spatio-temporal Receptive Field and a
+‘Spectro-temporal Receptive Field (STRF).
+
+ 
+ENDELEMENTLearning objectives for Lecture 9
+
++ To understand the idea ofa Spike Triggered Average and how
+to use itt compute a Spatio-temporal Receptive Field and a
+‘Spectro-temporal Receptive Field (STRF).
+
+ 
+ENDELEMENTSpike-Triggered Average
+
+ 
+ENDELEMENTSpike-Triggered Average
+
+ 
+ENDELEMENTSpike-Triggered Average
+
+ 
+ENDELEMENTSpike-Triggered Average
+
+ 
+ENDELEMENTSpike-Triggered Average
+
+ 
+ENDELEMENTSpike-Triggered Average
+seo
+
+wba homey [lmao
+
+spikes | | |
+ENDELEMENTSpike-Triggered Average
+
+ 
+ENDELEMENTSpike-Triggered Average
+
+ 
+ENDELEMENTSpike-Triggered Average
+
+ 
+ENDELEMENTSpike-Triggered Average
+seo
+
+whey ive hom neuyay\
+
+spikes | | |
+ENDELEMENTSpike-Triggered Average
+
+ 
+ENDELEMENTSpike-Triggered Average
+
+ 
+ENDELEMENTSpike-Triggered Average
+s@)
+
+whey vw bm neu)
+
+spikes | | |
+ENDELEMENTSpike-Triggered Average
+
+ 
+ENDELEMENTSpike-Triggered Average
+s@)
+
+whey vw bm neu)
+
+spikes | | |
+
+ae
+
+K@=1Y 8-2)
+
+  
+
+Sum overr
+
+  
+ENDELEMENTSpike-Triggered Average
+Ss)
+
+whey ive hom neuyny\
+
+spikes | | |
+
+ae
+
+K@=1Y 8-2)
+
+  
+
+Sum overr
+
+  
+ENDELEMENTSpike-Triggered Average
+
+Sum overn spikes
+
+ke)=1¥ su
+
+ 
+ENDELEMENTSpike-Triggered Average
+s@)
+
+whey ive hm neuyany\
+
+spikes | | |
+
+ae
+
+K@=1YS,-0)
+
+  
+
+Sum overr
+
+  
+ENDELEMENTSpike-Triggered Average
+
+Sum overn spikes
+
+k= 180-0
+
+ 
+ENDELEMENTSpike-Triggered Average
+s@)
+
+whey ive hm neuyany\
+
+spikes | | |
+
+ae
+
+K@=1Y 8-0)
+
+  
+
+Sum overr
+
+  
+ENDELEMENTSpike-Triggered Average
+Ss)
+
+whey ive homme)
+
+spikes | | |
+
+ae
+
+K@=1Y 8-2)
+
+  
+
+Sum overr
+
+  
+ENDELEMENTSpike-Triggered Average
+
+‘Sum overn spikes
+
+ke= 1S 80-9
+
+ 
+ENDELEMENTSpike-Triggered Average
+
+‘Sum overn spikes
+
+K@=+¥su-
+
+ 
+ENDELEMENTSpike-Triggered Average
+
+Sum overn spikes
+
+St,-1)
+
+ 
+ENDELEMENTSpike-Triggered Average
+s@)
+
+whey ive hm neuyany\
+
+spikes | | |
+
+ae
+
+K@=1YS-2)
+
+  
+
+Sum overr
+
+  
+ENDELEMENTSpike-Triggered Average
+
+ 
+ENDELEMENTSpike-Triggered Average
+
+ 
+ENDELEMENTSpike-Triggered Average
+
+Sum overn spikes
+
+k= 1S su-0
+
+ 
+ENDELEMENTSpike-Triggered Average
+
+‘Sum overn spikes
+
+k= 1S 80-0
+
+ 
+ENDELEMENTSpike-Triggered Average
+
+Sum overn spikes
+
+Ke)=1¥ su
+
+ 
+ENDELEMENTSpike-Triggered Average
+
+Sum overn spikes
+
+k= LY su
+
+ 
+ENDELEMENTSpike-Triggered Average
+s@)
+
+whey ive hm neuyany\
+
+spikes | | |
+
+ae
+
+K@=1YS,-0)
+
+  
+
+Sum overr
+
+  
+ENDELEMENTSpike-Triggered Average
+
+Sum overn spikes
+
+K@=*Ysu-
+
+ 
+ENDELEMENTSpike-Triggered Average
+
+Sum overn spikes
+
+SU,-1)
+
+ 
+ENDELEMENTSpike-Triggered Average
+s@)
+
+whey ive hm neuyany\
+
+spikes | | |
+
+ae
+
+K@=1YS,-0)
+
+  
+
+Sum overr
+
+  
+ENDELEMENTSpike-Triggered Average
+
+Sum overn spikes
+
+K@)=+¥u-
+
+ 
+ENDELEMENTSpike-Triggered Average
+
+ 
+ENDELEMENTSpike-Triggered Average
+s@)
+
+whey ive hm neuyany\
+
+spikes | | |
+
+ae
+
+K@=1YS,-0)
+
+  
+
+Sum overr
+
+  
+ENDELEMENTSpike-Triggered Average
+
+Sum overn spikes
+
+Ke)= 1S 80-9
+
+ 
+ENDELEMENTSpike-Triggered Average
+
+Sum overn spikes
+
+K@=+38u-
+
+ 
+ENDELEMENTSpike-Triggered Average
+
+‘Sum overn spikes
+
+k= 180-9
+
+ 
+ENDELEMENTSpike-Triggered Average
+
+‘Sum overn spikes
+
+k= 1S 80-9
+
+ 
+ENDELEMENTSpike-Triggered Average
+
+‘Sum overn spikes
+
+K@)=+38u,-1
+
+ 
+ENDELEMENTSpike-Triggered Average
+
+ 
+ENDELEMENTSpike-Triggered Average
+
+Sum overn spikes
+
+K@=1¥/s0,-0
+
+ 
+ENDELEMENTSpike-Triggered Average
+
+ 
+ENDELEMENTSpike-Triggered Average
+s@)
+
+whey ive hm neuyany\
+
+spikes | | |
+
+ae
+
+K@=1YS,-0)
+
+  
+
+Sum overr
+
+  
+ENDELEMENTSpike-Triggered Average
+
+‘Sum overn spikes
+
+Ke= LY 80-9
+
+ 
+ENDELEMENTSpike-Triggered Average
+
+‘Sum overn spikes
+
+k= LY su
+
+ 
+ENDELEMENTSpike-Triggered Average
+
+Sum overn spikes
+
+K@)=+¥8u-
+
+ 
+ENDELEMENTSpike-Triggered Average
+
+‘Sum overn spikes
+
+Ke)= 1380-0
+
+ 
+ENDELEMENTSpike-Triggered Average
+
+‘Sum overn spikes
+
+ 
+ENDELEMENTSpike-Triggered Average
+
+Sum overn spikes
+
+St,-1)
+
+ 
+ENDELEMENTSpike-Triggered Average
+
+Sum overn spikes
+
+SU,-1)
+
+ 
+ENDELEMENTSpike-Triggered Average
+
+‘Sum overn spikes
+
+K()= 1S 80-0
+
+ 
+ENDELEMENTSpike-Triggered Average
+
+‘Sum overn spikes
+
+k= Seu
+
+ 
+ENDELEMENTSpike-Triggered Average
+
+Sum overn spikes
+
+SU,-1)
+
+ 
+ENDELEMENTSpike-Triggered Average
+
+Sum overn spikes
+
+Kc)= 1S su
+
+ 
+ENDELEMENTSpike-Triggered Average
+
+‘Sum overn spikes
+
+k= 1S 80-0
+
+ 
+ENDELEMENTSpike-Triggered Average
+
+Sum overn spikes
+
+St,-1)
+
+ 
+ENDELEMENTSpike-Triggered Average
+
+‘Sum overn spikes
+
+Ke)= 1S 80-0
+
+ 
+ENDELEMENTSpike-Triggered Average
+
+‘Sum overn spikes
+
+k= 180-9
+
+ 
+ENDELEMENT   
+    
+ 
+   
+      
+     
+
+Spike-Triggered Average
+
+Sum overn spikes
+
+S,-2)
+Ke
+“f K@)=
+
+ 
+ENDELEMENTMeasuring STRFs in the retina
+
+ 
+ENDELEMENTMeasuring STRFs in the retina
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTMeasuring STRFs in the retina
+
+ 
+ENDELEMENTMeasuring STRFs in the retina
+
+ 
+ENDELEMENTMeasuring STRFs in the retina
+
+ 
+ENDELEMENTMeasuring STRFs in the retina
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTMeasuring STRFs in the retina
+
+ 
+ENDELEMENTVoltage (xV)
+
+a
+
+8
+
+°
+
+Simultaneous Recording from Retinal Ganglion Cell
+
+ 
+
+Hecdralenead sedagrealientagemnanlanarensttit dd
+| | |
+
+Sete al iol bl nal aia lio ls
+
+ 
+
+ 
+
+shone nandptttet label | rpormenadaenetel svt ade
+
+      
+
+: «
+ENDELEMENTVoltage (xV)
+
+a
+
+8
+
+°
+
+Simultaneous Recording from Retinal Ganglion Cell
+
+ 
+
+Herries thedigeradpetagemnalainnrenatin
+
+ne ee eres
+
+ 
+
+peterdat von
+
+   
+
+Pheer || Parmenetreey 6 (eres tre
+
+    
+
+ 
+
+: «
+ENDELEMENT‘Simultaneous Recording from Retinal Ganglion Cells
+
+ 
+ENDELEMENT‘Simultaneous Recording from Retinal Ganglion Cells
+
+ 
+ENDELEMENT‘Simultaneous Recording from Retinal Ganglion Cells
+
+ 
+ENDELEMENT‘Simultaneous Recording from Retinal Ganglion Cells
+
+ 
+ENDELEMENT‘Simultaneous Recording from Retinal Ganglion Cells
+
+ 
+ENDELEMENT‘Simultaneous Recording from Retinal Ganglion Cells
+
+ 
+ENDELEMENT‘Simultaneous Recording from Retinal Ganglion Cells
+
+ 
+ENDELEMENT‘Simultaneous Recording from Retinal Ganglion Cells
+
+ 
+ENDELEMENT‘Simultaneous Recording from Retinal Ganglion Cells
+
+ 
+ENDELEMENT‘Simultaneous Recording from Retinal Ganglion Cells
+
+ 
+ENDELEMENT‘Simultaneous Recording from Retinal Ganglion Cells
+
+ 
+ENDELEMENT‘Simultaneous Recording from Retinal Ganglion Cells
+
+ 
+ENDELEMENT‘Simultaneous Recording from Retinal Ganglion Cells
+
+ 
+ENDELEMENT‘Simultaneous Recording from Retinal Ganglion Cells
+
+ 
+ENDELEMENTRabbit ganglion cells responding to a natural movie
+“Trees swaying in the breeze”
+
+ 
+
+ 
+
+Firing rate (Hz)
+
+& be
+Fe
+f=
+Fr
+
+3
+
+a
+b
+|e
+
+ 
+
+ 
+
+ 
+ENDELEMENTRabbit ganglion cells responding to a natural movie
+
+FN ven
+
+funn Warren
+
+ 
+ENDELEMENTRabbit ganglion cells responding to a natural movie
+
+ 
+ENDELEMENTRabbit ganglion cells responding to a natural movie
+
+ 
+ENDELEMENTRabbit ganglion cells responding to a natural movie
+
+ 
+ENDELEMENTRabbit ganglion cells responding to a natural movie
+
+FI vin
+
+funn Warren
+
+ 
+ENDELEMENTRabbit ganglion cells responding to a natural movie
+
+ 
+ENDELEMENTRabbit ganglion cells responding to a natural movie
+
+ANN tite ven
+
+ra Tn verve
+
+ 
+ENDELEMENTRabbit ganglion cells responding to a natural movie
+
+FN iin
+
+ran verve
+
+ 
+ENDELEMENTRabbit ganglion cells responding to a natural movie
+
+Pe NN rt teen
+
+falta verve
+
+ 
+ENDELEMENTRabbit ganglion cells responding to a natural movie
+
+ 
+ENDELEMENTRabbit ganglion cells responding to a natural movie
+
+ran verve
+
+ 
+ENDELEMENTRabbit ganglion cells responding to a natural movie
+
+param 7" (Varver Unrerv
+
+ 
+ENDELEMENTRabbit ganglion cells responding to a natural movie
+
+ 
+ENDELEMENTRabbit ganglion cells responding to a natural movie
+
+FIN vin
+
+ran Werver
+
+ 
+ENDELEMENTRabbit ganglion cells responding to a natural movie
+
+Ae NN vn
+
+wll
+
+ 
+ENDELEMENTRabbit ganglion cells responding to a natural movie
+
+ 
+ENDELEMENTMeasuring STRFs in the retina
+
+ 
+ENDELEMENTMeasuring STRFs in the retina
+
+ 
+ENDELEMENTMeasuring STRFs in the retina
+
+ 
+
+ 
+
+Pee ar Oe ee
+ENDELEMENTReverse-Correlation to a Random Flicker Stimulus
+
+Reece
+
+ 
+ENDELEMENTReverse-Correlation to a Random Flicker Stimulus
+
+‘Stimulus
+
+   
+
+Spike-triggered average
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENTSpatio-Temporal Receptive Fields (STRF)
+
+-0.470s
+
+©
+ENDELEMENT 
+ENDELEMENTSpatio-Temporal Receptive Fields (STRF)
+
+0.010s
+
+©
+ENDELEMENTSpatio-Temporal Receptive Fields (STRF)
+
+ 
+ENDELEMENTSpatio-Temporal Receptive Fields (STRF)
+
+ 
+ENDELEMENTSpatio-Temporal Receptive Fields (STRF)
+
+-0.500 s
+
+ 
+ENDELEMENTSpatio-Temporal Receptive Field
+
+ 
+ENDELEMENTSpatio-Temporal Receptive Fields (STRF)
+
+ 
+ENDELEMENTSpatio-Temporal Receptive Fields (STRF)
+
+ 
+ENDELEMENT 
+ENDELEMENTSpatio-Temporal Receptive Fields (STRF)
+
+ 
+ENDELEMENTSpatio-Temporal Receptive Fields (STRF)
+
+ 
+ENDELEMENT 
+ENDELEMENTPTT ety
+
+a
+
+AR
+Ee
+
+ 
+ENDELEMENT 
+ENDELEMENTMean Effective Stimulus for an ON cell
+
+ 
+
+ 
+ENDELEMENTFa BA TOES
+
+A\
+Ne
+
+ 
+ENDELEMENT 
+ENDELEMENTMean Effective Stimulus
+
+Fe RC IRS
+
+ 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENTMean Effective Stimulus
+
+emRRRORS
+
+ 
+ENDELEMENTPTT ele is
+
+ 
+ENDELEMENTRCE
+
+ 
+ENDELEMENTSpectro-temporal receptive fields
+
+\We can use this same approach to describe the responses of
+‘neurons inthe auditory system.
+
+We start by representing sounds in a spectral representation
+PN
+
+ 
+ENDELEMENTSpectro-temporal receptive fields
+
+\We can use this same approach to describe the responses of
+‘neurons inthe auditory system.
+
+We start by representing sounds in a spectral representation
+
+ 
+ENDELEMENTSpectro-temporal receptive fields
+
+‘We can use this same approach to describe the responses of
+‘neurons inthe auditory system,
+
+Wie start by representing sounds in a spectral representation
+
+ 
+ENDELEMENTSpectro-temporal receptive fields
+
+\We can use this same approach to describe the responses of
+‘neurons inthe auditory system.
+
+Wie start by representing sounds in a spectral representation
+
+ 
+ENDELEMENTSpectro-temporal receptive fields
+
+\We can use this same approach to describe the responses of
+‘neurons inthe auditory system.
+
+We start by representing sounds in a spectral representation
+
+ 
+ENDELEMENTSpectro-temporal receptive fields
+
+\We can use this same approach to describe the responses of
+‘neurons inthe auditory system,
+
+Wie start by representing sounds in a spectral representation
+
+ 
+ENDELEMENTSpectrogram
+
+A spectrogram shows how much power there is in a sound
+different frequencies and at different times.
+SEt)
+
+ 
+
+    
+
+Ai
+ENDELEMENTSpectrogram
+
+ 
+ENDELEMENTSpectrogram
+
+ 
+ENDELEMENTSpectro-temporal receptive fields
+
+‘Spectro-temporal receptive fields from At in monkey.
+
+ 
+ENDELEMENTSpectro-temporal receptive fields
+
+‘Spectro-temporal receptive fields from At in monkey.
+
+ 
+ENDELEMENTSpectro-temporal receptive fields
+
+Spectro-temporal receptive fields from A1 in monke}
+
+z
+Rie i
+
+ 
+
+spike vain
+
+ 
+
+   
+ENDELEMENTSpectro-temporal receptive fields
+
+‘Spectro-temporal receptive fields from At in monkey.
+
+ 
+ENDELEMENTSpectro-temporal receptive fields
+
+‘Spectro-temporal receptive fields from At in monkey.
+
+ 
+ENDELEMENTSpectro-temporal receptive fields
+
+Spectro-temporal receptive fields from A1 in monke}
+
+z
+Rie i
+
+ 
+
+spike vain
+
+ 
+
+   
+ENDELEMENTSpectro-temporal receptive fields
+
+‘Spectro-temporal receptive fields from At in monkey.
+
+ 
+ENDELEMENTSpectro-temporal receptive fields
+
+‘Spectro-temporal receptive fields from At in monkey.
+
+ 
+ENDELEMENTSpectro-temporal receptive fields
+
+Spectro-temporal receptive fields from A1 in monke}
+
+z
+nie i
+
+ 
+
+spike vain
+
+ 
+
+   
+ENDELEMENTSpectro-temporal receptive fields
+
+‘Spectro-temporal receptive fields from At in monkey.
+
+ 
+ENDELEMENTSpectro-temporal receptive fields
+
+Spectro-temporal receptive fields from A1 in monkey.
+
+BE,
+
+ 
+ENDELEMENTSpectro-temporal receptive fields
+
+Spectro-temporal receptive fields from A1 in monkey
+
+ 
+ENDELEMENTSpectro-temporal receptive fields
+
+Spectro-temporal receptive fields from A in monkey.
+
+ 
+
+ 
+ENDELEMENTSpectro-temporal receptive fields
+
+Spectro-temporal receptive fields from A1 in monkey.
+
+| |
+
+ 
+ENDELEMENTSpectro-temporal receptive fields
+
+Spectro-temporal receptive fields from A1 in monkey.
+
+ 
+
+ 
+ENDELEMENTSpectro-temporal receptive fields
+Spectro-temporal receptive fields from A1 in monkey
+
+at)
+
+ 
+ENDELEMENTSpectro-temporal receptive fields
+
+Spectro-temporal receptive fields from A1 in monkey.
+
+ 
+
+ 
+ENDELEMENTSpectro-temporal receptive fields
+
+Spectro-temporal receptive fields from A1 in monkey.
+
+ 
+
+ 
+ENDELEMENTSpectro-temporal receptive fields
+
+Spectro-temporal receptive fields from At in monkey.
+
+ 
+ENDELEMENTSpectro-temporal receptive fields
+
+Spectro-temporal receptive fields from A1 in monkey.
+
+ 
+
+ 
+ENDELEMENTSpectro-temporal receptive fields
+
+Spectro-temporal receptive fields from A1 in monkey.
+
+ 
+
+ 
+ENDELEMENTSpectro-temporal receptive fields
+
+Spectro-temporal receptive fields from A1 in monkey.
+
+Ei,
+
+ 
+ENDELEMENTSpectro-temporal receptive fields
+
+Spectro-temporal receptive fields from A1 in monkey.
+
+Be,
+
+=}
+
+ 
+ENDELEMENTSpectro-temporal receptive fields
+
+Spectro-temporal receptive fields from A1 in monkey.
+
+EE
+
+ 
+ENDELEMENTSpectro-temporal receptive fields
+Spectro-temporal receptive fields from A1 in monkey
+
+at)
+
+ 
+ENDELEMENTSpectro-temporal receptive fields
+
+Spectro-temporal receptive fields from At in monkey.
+
+ 
+
+ 
+ENDELEMENTSpectro-temporal receptive fields
+
+Spectro-temporal receptive fields from A1 in monkey.
+
+ 
+
+ 
+ENDELEMENTSpectro-temporal receptive fields
+
+Spectro-temporal receptive fields from A1 in monkey.
+
+ 
+ENDELEMENTSpectro-temporal receptive fields
+
+Spectro-temporal receptive fields from A1 in monkey.
+
+ 
+
+ 
+ENDELEMENTLearning objectives for Lecture 9
+
++ Tobe able to mathematically describe a neural response as a
+linear iter folowed by a noninear function
+
+To understand the concept of a Spatio-temporal Receptive
+Field (STRF) and the concept of separabily’
+
+To understand the idea of a Spike Triggered Average and how
+to use itt compute a Spatio-temporal Receptive Field and a
+‘Spectro-temporal Receptive Field (STRF).
+
+ 
+ENDELEMENTLearning objectives for Lecture 9
+
++ Tobe able to mathematically describe a neural response as a
+linear iter folowed by a noninear function
+
+To understand the concept of a Spatio-temporal Receptive
+Field (STRF) and the concept of separability’
+
+To understand the idea of a Spike Triggered Average and how
+to use itt compute a Spatio-temporal Receptive Field and a
+‘Spectro-temporal Receptive Field (STRF).
+
+ 
+ENDELEMENTLearning objectives for Lecture 9
+
++ Tobe able to mathematically describe a neural response as a
+linear fiter folowed by a nonlinear function
+
+To understand the concept of a Spatio-temporal Receptive
+Field (STRF) and the concept of 'separabiy’
+
+To understand the idea of a Spike Triggered Average and how
+to use it to compute a Spatio-temporal Receptive Field and a
+‘Spectro-temporal Receptive Field (STRF).
+
+ 
+ENDELEMENTLearning objectives for Lecture 9
+
+To be able to mathematically describe a neural response.
+linear filter followed by a nonlinear function.
+
+— Acorrelation of a spatial receptive field with the stimulus
+
+— Aconvolution of a temporal receptive field with the stimulus
+
+To understand the concept of a Spatio-temporal Receptiv
+Field (STRF) and the concept of ‘separability’
+
+To understand the idea of a Spike Triggered Average and
+to use it to compute a Spatio-temporal Receptive Field an
+ENDELEMENTLearning objectives for Lecture 9
+
++ Tobe able to mathematically describe a neural response as a
+linear iter folowed by a noninear function,
+
+To understand the concept of a Spatio-temporal Receptive
+Field (STRF) and the concept of separabily’
+
+To understand the dea of a Spike Triggered Average and how
+to use itt compute a Spatio-temporal Receptive Field and a
+‘Spectro-temporal Receptive Field (STRF).
+
+ 
+ENDELEMENTLearning objectives for Lecture 9
+
++ Tobe able to mathematically describe a neural response as a
+linear fiter folowed by a nonlinear function.
+
+To understand the concept of a Spatio-temporal Receptive
+Field (STRF) and the concept of 'separabiy’
+
+To understand the idea of a Spike Triggered Average and how
+to use itt compute a Spatio-temporal Receptive Field and a
+‘Spectro-temporal Receptive Field (STRF).
+
+ 
+ENDELEMENTENDELEMENT

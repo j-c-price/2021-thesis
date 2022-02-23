@@ -1,0 +1,737 @@
+Introduction to Neural
+Computation
+
+Prof. Michale Fee
+MIT BCS 9.40 — 2018
+Lecture 6
+ENDELEMENTSignal propagation in dendrites and axons
+
+* So far we have considered a very
+simple model of neurons - a model
+representing the soma of the neuron.
+
+¢ We did this because in most
+vertebrate neurons, the region that
+initiates action potentials is at the
+soma.
+
+* This is usually where the ‘decision’ is
+made in a neuron whether to spike or
+not.
+
+ 
+
+Ramon y Cajal
+
+Used with Permission. Courtesy of the Cajal Institute (CSIC).
+Legado Cajal. Madrid.
+ENDELEMENTSignal propagation in dendrites and axons
+
+* Relatively few inputs to a neuron are
+made onto the soma.
+
+* Inputs arrive onto the dendrites —
+which are thin branching processes
+that radiate from the soma.
+
+* Many synapses form onto the
+dendrite at some distance from the
+soma (as much as 1-2 mm away)
+
+ 
+
+Ramon y Cajal
+Used with Permission. Courtesy of the Cajal Institute (CSIC).
+Legado Cajal. Madrid.
+ENDELEMENTsoma
+
+ 
+
+Used with Permission. Courtesy of the Cajal Institute (CSIC). Legado Cajal. Madrid.
+
+yA
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ey Ey
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+How does a pulse of synaptic current affect the membrane potential
+at the soma (and elsewhere in the dendrite)?
+ENDELEMENTA dendrite is like a leaky garden hose
+
+* Current is like water flow
+L—() ~~ --- * Voltage is like pressure
+ENDELEMENTLearning objectives for Lecture 6
+
+To be able to draw the ‘circuit diagram’ of a dendrite
+
+Be able to plot the voltage in a dendrite as a function of
+distance for leaky and non-leaky dendrite, and understand the
+concept of a length constant
+
+Know how length constant depends on dendritic radius
+Understand the concept of electrotonic length
+
+Be able to draw the circuit diagram a two-compartment model
+ENDELEMENTFinite element analysis
+
+ 
+
+i (x, t)Ax Injected current per unit length
+times segment length
+inside I(x— Ax,t) |
+V (x—Ax,t) V (x,t)
+
+I(x,t)
+V(x+ Ax,t)
+
+   
+  
+
+     
+ 
+
+outside i (x,) = membrane current per unit length
+
+Extracellular resistance is small compared to intracellular.
+ENDELEMENTThe cable equation
+
+Let's write down the relation between
+V(x,t) and I(x,t)
+
+ 
+
+Ohm’'sLaw AV=]R
+
+inside
+
+I(x,t)
+V(x,t) Va, V(xtAx,t)
+
+a= a
+
+ 
+
+outside
+WV
+-—=R [x,t
+ox * (1)
+V(x,t)-V (xt Ax,t)=r1(x,t) r
+R, = — =axial resistance
+per unit length
+
+maiae t)-V(xt Ax,t) ]=—I(x,0)
+Ax > ’ Ax ’
+
+ 
+
+Note that current flow to the right
+
+This is just the definition of a derivative! produces a negative gradient °
+ENDELEMENTThe cable equation
+
+Consider the special case of a length L
+And no membrane currents ...
+
+and steady state
+
+ 
+
+ 
+
+| © _R (x,t)
+Ox
+
+ 
+
+ 
+
+I(x— Ax,t) I(x,t)
+inside ~~~ V(x,t) Dy,” V(xt Ax,t)
+R Ax
+
+ 
+
+If there are no membrane conductances then:
+
+(x,t) =1(x— Ax,t) = 1,
+
+Membrane potential changes linearly!
+
+W RI,
+Ox “
+
+ 
+ENDELEMENTBoundary conditions
+
+I,
+inside —* V (x,t) V(x+ Ax,t)
+3 R Ax L
+
+L
+
+|
+
+-R In order to solve this equation, we need to specify two
+ax 7 8 unknowns (boundary conditions):
+
+Integrate over x: V(x)=V,-R, 1x Vi =V,-R,1,L
+
+If you know any two of these
+quantities ( VV, ), you can
+
+2" LL? 0
+calculate the third.
+
+ 
+ENDELEMENTBoundary conditions
+
+ 
+
+Input impedance
+ENDELEMENTBoundary conditions
+
+‘closed end’
+Vo -- = V
+Ve = Vi -R DL =
+ENDELEMENTCable with membrane conductance
+
+Leaky garden-hose analogy
+
+* Current is like water flow
+L—-() ~~ —2- * Voltage is like pressure
+
+ 
+
+A leaky dendrite acts like a series of voltage dividers.
+ENDELEMENTDeriving the cable equation
+
+i “ t) Injected current per unit length
+inside Mar Ans! Ax,t) Jet) t)
+|e Ay V(x+Ax,t)
+
+Kirchoff's law: sum of all currents out of each node must equal zero.
+
+i (x,t) Ax — i(x,t)Ax + I(x,t) — I(x-Ax,t) =
+
+    
+
+| L Length of element But remember that:
+Membrane current per unit length aw
+—=-R_1(x,t)
+i (x,t)-i(x,t)= maures t)- I(x—Ax,t) | ox
+m b e@ > Ax > >
+
+Assuming R, is constant
+
+al Substitute av al
+i -i =-—(x,t ——=-R —(x,t
+ok 5,6 ) — ae «5x! )
+ENDELEMENTDeriving the cable equation
+
+i ul
+19 — This we know!!
+R, ax? ‘e
+
+     
+
+Each element in our cable is just like our
+model neuron!
+
+ 
+
+So, the total membrane current in our
+element of length Ax is:
+
+i, (x,t) Ax=C,, ar (x,0)+ G, AxV—-E,)
+
+I I
+
+Capacitance per unit length Membrane ionic conductance per unit length
+
+Plug this expression for j (x,¢) into the equation at top...
+m >
+ENDELEMENTDeriving the cable equation
+
+1
+
+a
+
+a (vs 1)=C, a 1)+G,V —BY-i(x,0)
+
+E, is just a constant
+offset, so we ignore it
+
+Divide both sides by G,, to get the cable equation!
+
+ 
+
+aV WV 1
+MV —(x,t) = 1 —(x,t) + V(x,t) - —i(x,t
+me ) mon (x,t) (x,¢) G i,(x,t)
+
+ 
+
+where
+
+1/2
+a-|—L
+G,R,
+
+Steady state space
+constant (length, mm)
+
+Membrane time
+constant (sec)
+ENDELEMENTAn example
+
+Let's solve the cable equation for a simple case. What is the steady
+state response to a constant current at a point in the middle of an
+infinitely long cable?
+
+u
+| | i (x,t) = [, 6(x)
+Xx
+
+0
+
+y=6(x)
+
+ 
+ENDELEMENTAn example
+
+Let's solve the cable equation for a simple case. What is the steady
+state response to a constant current at a point in the middle of an
+infinitely long cable?
+
+i
+| | i,(x,t) = 1, 6(x)
+x
+
+0
+
+ 
+
+0
+
+2
+we snr SAG + V (x0) iat)
+xX
+
+aV 1
+Moa) = V(x) - G 7hO(*)
+
+ 
+ENDELEMENTAn example
+
+(x) = Vix) — + 21,6(x) |)
+G,,
+x
+
+V(x) 0
+
+pot
+
+    
+ 
+
+V(x)=V, es
+
+x WV yy
+0 A ae) = Rl)
+I@) 1 WV
+I(x)=-—
+a i R, Ox
+
+° I(x)= ena
+(x)= ‘
+
+1 V. saya
+I(x) =-—]-—
+(x) + ry le
+
+ 
+ENDELEMENTA closer look at the space constant
+
+V2
+1
+G_ ismembrane conductance per unit length A= aa
+m
+
+* Total membrane conductance G :
+
+G,,,=2nalg,
+a
+total f L i
+otal area conductance per unit
+
+area (S/mm/2)
+
++ Membrane conductance per unit lengthG,, :
+
+G = Gu ona g, Units are S/mm
+bo?
+
+circumference t
+ENDELEMENTA closer look at the space constant
+
+Axial resistance: the resistance along the inside of the dendrite
+
+Total axial resistance along a dendrite of length /
+
+, 1/2
+pl A=
+R= 7, where - R |
+
+p, = resistivity of the intracellular space
+(property of the medium ~ 2000 Q mm)
+
+A = cross sectional area = a"
+Axial resistance per unit length d=
+l
+R Pp, Pp.
+R =-#@ afi Fi
+oT 4g ge? (2/mm)
+
+Steady-state space constant
+
+1 1/2 1 1/2 0
+= = -(mm”) “=mm
+GR S/mm Q/mm
+
+ma
+
+»
+
+ 
+
+21
+ENDELEMENTTypical 2 for a dendrite of a cortical
+pyramidal cell
+
+First calculate membrane conductance
+
+g, =5x10'S/mm’
+
+G,, =2nag, =6x10° S/mm
+= 6 nS/mm
+
+Now we calculate axial resistance
+
+R, = =160 MQ/ mm
+TA
+
+p, = 2000 Q mm
+
+Resistivity intracellular medium
+
+Le
+
+a=2pm=2 x10°mm
+
+ 
+
+1/2 1/2
+1 _ 1
+GR, 6nS/mm -160MQ/mm
+
+_ (1 mm’)
+
+ 
+ENDELEMENTScaling with radius
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+1/2 5 V2 V2 G =2nag,
+,- 1 _ 1 sa _ a
+G_R, 2mag, 0, 20.2, R -—£:
+a na
+
+A scales as Vradius
+
+Neurons need to send signals over a distance of a ~100 mm in
+the human brain.
+
+What would a (radius) would have to be to get A= 100 mm?
+a=20 mm!
+
+This would never work! This is why signals that must be
+sent over long distances in the brain are sent by
+propagating axon potentials.
+ENDELEMENTElectrotonic length
+
+Electrotonic length is the physical length divided by
+
+the space constant.
+
+L=— unitless
+
+A
+
+The amount of current
+into the soma will scale
+
+as _L
+
+e
+
+ 
+
+x
+0 A
+ENDELEMENTMulti-compartment model
+
+ 
+
+Used with Permission. Courtesy of the Cajal Institute (CSIC). Legado Cajal. Madrid.
+
+ 
+
+Annotated figure © Bower, J.M. and D. Beeman. The Book of GENESIS: Exploring Realistic Neural
+Models with the GEneral NEural Simulation System 2nd ed. 1998, Springer-Verlag.
+
+25
+ENDELEMENTTwo-compartment model
+
+I
+
+|
+dendrite
+
+soma
+
+1 dendritic somatic
+. R. ) compartment compartment
+dendritic somatic
+
+compartment compartment
+
+ 
+
+26
+ENDELEMENTLearning objectives for Lecture 6
+
+To be able to draw the ‘circuit diagram’ of a dendrite
+
+Be able to plot the voltage in a dendrite as a function of
+distance for leaky and non-leaky dendrite, and understand the
+concept of a length constant
+
+Know how length constant depends on dendritic radius
+Understand the concept of electrotonic length
+
+Be able to draw the circuit diagram a two-compartment model
+
+27
+ENDELEMENTExtra Slides on Input impedance
+
+How much voltage does it take to produce a given current into our
+dendrite? (How much pressure does it take to get a certain water
+flow?)
+
+Obviously, a big hose has less resistance to
+
+flow. le. it takes less pressure
+
+A small hose has more resistance and takes
+more pressure
+
+ 
+
+This is called the ‘input impedance’ of the
+cable
+V
+
+R =-%
+i
+ENDELEMENTInput impedance
+
+We can calculate the input impedance
+
+We calculated earlier that the current along the
+cable is
+
+ 
+
+y
+I(x)=—L er"
+(x) RA
+
+a
+
+If we evaluate the current at x=0, we get:
+
+1(0)= RA = Ny Thus the ‘input impedance’ of a cable is
+a just the axial resistance of a length A of
+Thus, the cable!
+V. What can we say about the input
+= 08
+R= 1 RA conductance?
+0
+since 2! R.1=G,=G,A
+
+GR
+
+ma
+ENDELEMENTExtra Slides on Time Dependence
+
+We can exactly solve the case of a brief pulse of current in an
+infinite cable
+
+c—!—_
+i.(x,t) = 0,6(x)8(0) ff i (x,t) dx dt = Q, = total charge
+x
+
+V(X,T) = a
+A
+
+ 
+
+1 2c
+V4aT
+
+where Y=x/A T=t/t Q=CY
+
+C, =2mac,Aa
+ENDELEMENTPulse of charge
+
+i,(x,t) = Q,6(x)6(t)
+
+Figure removed due to copyright restrictions. See p. 39, Fig. 2.7A in
+Koch, Christof. Biophysics of Computation: Information Processing in
+Single Neurons. 1999, Oxford University Press.
+
+Looking at just the spatial
+dependence
+
+}
+V(X,T)«——e
+
+V4aT
+
+This is just a Gaussian profile.
+
+Width increases as o =/2T
+ENDELEMENTPropagation
+
+ 
+
+P
+
+ 
+
+ 
+ENDELEMENTPropagation
+
+ 
+
+ 
+
+ 
+
+Xl 3 5 7 8
+
+Normalized amplitude
+Se ee
+NO fb Dn ©
+
+oS
+
+012345678 910
+t/t
+
+Find the peaks by calculating Wx T)
+or
+
+and setting it to zero.
+
+For any given X, you can solve for T,,,,.-
+
+r <7 (vivax? -1)=5x fox. 1
+
+max Tt D A
+
+From this, we can calculate the velocity!
+
+ 
+
+%T2345678910
+/X
+
+Xx
+ENDELEMENTDendritic filtering
+
+As the voltage response propagates down a dendrite, it not only
+falls in amplitude, but it broadens in time.
+
+X =
+meas
+
+i 3579
+V; espons
+response :
+
++
+
+ 
+
+ 
+
+ 
+
+soos
+wo Bb QA ow
+
+Normalized amplitude
+
+% 12345678910
+
+t/t
+
+ 
+ENDELEMENTMIT OpenCourseWare
+https://ocw.mit.edu/
+
+9.40 Introduction to Neural Computation
+Spring 2018
+
+For information about citing these materials or our Terms of Use, visit: https://ocw.mit.edu/terms.
+ENDELEMENT

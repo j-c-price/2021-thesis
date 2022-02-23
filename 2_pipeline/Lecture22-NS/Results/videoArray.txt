@@ -1,0 +1,3055 @@
+Some content in this video is not covers
+under our Creative Commons license.
+See the closing credits for more informat
+ENDELEMENTIntroduction to Neural
+Computation
+
+Prof. Michale Fee
+MIT BCS 9.40
+
+Spike trains
+
+ 
+
+ 
+ENDELEMENTIntroduction to Neural
+Computation
+
+Prof. Michale Fee
+MIT BCS 9.40
+
+Spike trains
+
+ 
+
+ 
+ENDELEMENTIntroduction to Neural
+Computation
+
+Prof. Michale Fee
+MIT BCS 9.40
+
+Spike trains
+
+ 
+
+ 
+ENDELEMENTElectrical recordings of brain activity
+
+ 
+
+ 
+ENDELEMENTElectrical recordings of brain activity
+
+ 
+ENDELEMENTElectrical recordings of brain activity
+
++ Electrical recordings in the
+brain are made with
+electrodes.
+
+ 
+ENDELEMENTElectrical recordings of brain activity
+
++ Electrical recordings in the
+brain are made with
+electrodes.
+
+ 
+
+ 
+ENDELEMENTElectrical recordings of brain activity
+
++ Electrical recordings in the
+brain are made with
+electrodes.
+
+ 
+
+ 
+ENDELEMENTElectrical recordings of brain activity
+
++ Electrical recordings in the
+brain are made with
+electrodes.
+
+ 
+
+ 
+ENDELEMENTElectrical recordings of brain activity
+
++ Electrical recordings in the
+brain are made with
+electrodes.
+
+ 
+
+ 
+ENDELEMENTElectrical recordings of brain activity
+
++ Electrical recordings in the
+brain are made with
+electrodes.
+
+ 
+
+ 
+ENDELEMENTElectrical recordings of brain activity
+
++ Electrical recordings in the
+brain are made with
+electrodes.
+
+ 
+
+ 
+ENDELEMENTElectrical recordings of brain activity
+
++ Electrical recordings in the
+brain are made with
+electrodes.
+
++ Recordings can be made
+inside of single cells
+
+ 
+ENDELEMENTElectrical recordings of brain activity
+
++ Electrical recordings in the
+brain are made with
+electrodes.
+
++ Recordings can be made
+inside of single cells
+
++ Most often, in behaving
+antiels wasn er
+
+ 
+ENDELEMENTElectrical recordings of brain activity
+
+What is the origin of ‘extracellular’ electrical signal:
+
++ Voltage measurements are always
+
+voltage differences
+
+plier
+
+‘ecording
+son of
+
+ 
+ 
+   
+ENDELEMENTElectrical recordings of brain activity
+
+What is the origin of ‘extracellular’ electrical signals?
+
+ 
+
+ 
+ENDELEMENTElectrical recordings of brain activity
+
+What is the origin of ‘extracellular’ electrical signals?
+
+ 
+
+ 
+ENDELEMENTElectrical recordings of brain activity
+
+What is the origin of ‘extracellular’ electrical signals?
+
+ 
+
+ 
+ENDELEMENTElectrical recordings of brain activity
+
+What is the origin of ‘extracellular’ electrical signals?
+
+ 
+
+ 
+ENDELEMENTElectrical recordings of brain activity
+
+What is the origin of ‘extracellular’ electrical signals?
+
+ 
+
+ 
+ENDELEMENTElectrical recordings of brain activity
+
+What is the origin of ‘extracellular’ electrical signals?
+
+ 
+
+ 
+ENDELEMENTElectrical recordings of brain activity
+
+What is the origin of ‘extracellular’ electrical signal:
+
++ Voltage measurements are always
+
++ Voltage differences between the
+
+voltage differences
+
++ Exvacoiular voltages ae avays snglte
+measured between te signal ca
+tlecrode and socal ground or soe
+reference electrode
+
+    
+
+signal and ground electrode are
+always associated with current flow
+through the extracellular space.
+ENDELEMENTElectrical recordings of brain activity
+
+What is the origin of ‘extracellular’ electrical signal:
+
++ Voltage measurements are always
+
++ Voltage differences between the
+
+voltage differences
+
++ Exvacaiularvologes are avays nett
+reasured between the signal ca
+tlecrode and socal ground or oe
+reference electrode. ware
+
+  
+
+signal and ground electrode are
+always associated with current flow
+through the extracellular space.
+ENDELEMENTElectrical recordings of brain activity
+
+What is the origin of ‘extracellular’ electrical signals?
+
+ 
+
+ 
+ENDELEMENTElectrical recordings of brain activity
+
+What is the origin of ‘extracellular’ electrical signals?
+
+ 
+
+ 
+ENDELEMENTElectrical recordings of brain activity
+
+What is the origin of ‘extracellular’ electrical signals?
+
+ 
+
+ 
+ENDELEMENTOrigin ofextracefular signals
+
+ 
+
+ 
+ENDELEMENTOrigin of extracellular signals
+
+ 
+
+ 
+ENDELEMENT+ Let's start with our spherical neuron
+
+Origin of extracellular signals
+
+‘What happens to the voltage outside our model neuron during an
+action potential?
+
+Nat Nat
+
+wo
+
+ree" Ne
+
+intracalluae
+
+Nes
+
+ 
+
+a
+ENDELEMENTOrigin of extracellular signals
+
+ 
+
+ 
+ENDELEMENTOrigin of extracellular signals
+
+ 
+
+ 
+ENDELEMENTOrigin of extracellular signals
+
+ 
+
+ 
+ENDELEMENTOrigin of extracellular signals
+
+‘What happens to the voltage outside our model neuron during an
+action potential?
+
+. Na
+lets start with our spherical neuron Ne ©)
+Ne Ne
+
+There is no spatial separation between
+
+current flows into the neuron and current
+flow out of the neuron. Thus, no current inwacllar
+flow outside the neuron. |
+
+ 
+
+ 
+
+oy,
+zy
+ENDELEMENTOrigin of extracellular signals
+
+ 
+
+ 
+ENDELEMENTOrigin of extracellular signals
+
+‘What happens to the voltage outside our model neuron during an
+action potential?
+
+° Na
+* Letestart with our spherical neuron a C)
+Nav
+
++ There is no spatial separation between si
+current flows into the neuron and current
+flow out of the neuron. Thus, no current intoclar
+flow outside the neuron. |
+
+ 
+
+ 
+
+a,
+by
+
++ And thus no extracellular voltage changes! ‘extracellular
+ENDELEMENTOrigin of extracellular signals
+
+ 
+
+ 
+ENDELEMENTOrigin of extracellular signals
+
+ 
+
+ 
+ENDELEMENTOrigin of extracellular signals
+
+‘What happens to the voltage outside our model neuron during an
+action potential?
+
+Now let's see what happens when we adda. Nat
+dendrite.
+
+ 
+ENDELEMENTOrigin of extracellular signals
+
+ 
+
+ 
+ENDELEMENTOrigin of extracellular signals
+
+‘What happens to the voltage outside our model neuron during an
+action potential?
+
+Now let's see what happens when we adda ys. Nat
+dendrite.
+ENDELEMENTOrigin of extracellular signals
+
+ 
+
+ 
+ENDELEMENTOrigin of extracellular signals
+
+ 
+
+ 
+ENDELEMENTOrigin of extracellular signals
+
+ 
+
+ 
+ENDELEMENTOrigin of extracellular signals
+
+ 
+
+ 
+ENDELEMENTOrigin of extracellular signals
+
+‘What happens to the voltage outside our model neuron during an
+action potential?
+
+Now let's see what happens when we adda. Nat
+dendrite.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTOrigin of extracellular signals
+
+ 
+
+ 
+ENDELEMENTOrigin of extracellular signals
+
+‘What happens to the voltage outside our model neuron during an
+action potential?
+
+Now let's see what happens when we adda ys. Nat
+dendrite.
+
++ Now there is extracellular current flow
+‘= ——
+
+Ge A Je.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTCurrent sources and sinks
+
+‘What happens to the voltage outside our model neuron during an
+action potential?
+
+Naf Na’
+
+ta’ N
+
+Al Tt
+
+(Ae Wy 7
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTCurrent sources and sinks
+
+ 
+
+Curent sink
+
+ 
+ENDELEMENTCurrent sources and sinks
+
+ 
+
+ 
+ENDELEMENT       
+   
+   
+
+Current sources and sinks
+
+Dax
+7S A =
+
+ie wv Ty ‘
+
+ 
+ENDELEMENTCurrent sources and sinks
+
+‘What happens to the voltage outside our model neuron during an
+action potential?
+
+nd Nat
+
+ta! N
+
++ Extracellular current flows from current sources to
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTCurrent sources and sinks
+
+ 
+
+ 
+ENDELEMENTCurrent sources and sinks
+
+‘What happens to the voltage outside our model neuron during an
+action potential?
+
+nd Nat
+
+ta’ N
+
++ Extracellular current flows from current sources to
+
+Current sources are regions S,
+ofhigher extacellor R
+\ a a
+
+potential
+
+ 
+
+ 
+
+ 
+
+‘current sinks (Ee <r
+
+ 
+
+ 
+
+ 
+ENDELEMENTCurrent sources and sinks
+
+ 
+
+Curent sink
+
+ 
+ENDELEMENTCurrent sources and sinks
+
+ 
+
+cur
+
+ 
+ENDELEMENTRelation between membrane potential and
+extracellular potential
+
+ 
+
+ 
+ENDELEMENTRelation between membrane potential and
+extracellular potential
+
+ 
+
+ 
+
+ 
+ENDELEMENTRelation between membrane potential anc
+extracellular potential
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTRelation between membrane potential anc
+extracellular potential
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTRelation between membrane potential and
+
+ 
+
+ 
+
+ 
+ENDELEMENTRelation between membrane potential and
+extracellular potential
+
+ 
+
+ 
+ENDELEMENTRelation between membrane potential anc
+extracellular potential
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTRelation between membrane potential and
+llular potential
+
+ 
+
+ 
+
+ 
+ENDELEMENTRelation between membrane potential and
+extracellular potential
+
+ 
+
+ 
+
+ 
+ENDELEMENTRelation between membrane potential anc
+extracellular potential
+
+Mag = Raley = Rall
+— as = Raag = Rae 1)
+
+ 
+
+av,
+7 2 nce
+47, ~ RCT
+
+ 
+
+ 
+
+  
+
+ 
+
+ 
+
+Henze et al, 2000
+
+ 
+ENDELEMENTRelation between membrane potential anc
+extracellular potential
+
+MWg, = Relay = Regd + ly)
+
+ 
+
+av,
+G2 nce
+AV, ~ RCT
+
+ 
+
+ 
+
+  
+
+ 
+
+ 
+
+ 
+ENDELEMENTRelation between membrane potential and
+extracellular potential
+
+ 
+
+ 
+
+ 
+ENDELEMENTRelation between membrane potential and
+extracellular potential
+
+ 
+
+ 
+
+ 
+ENDELEMENTRelation between membrane potential anc
+extracellular potential
+
+Mag = Raley = Rall
+—— us = Raag = Rl 1)
+
+ 
+
+av,
+7 2 nce
+AV, ~ RCT
+
+ 
+
+ 
+
+  
+
+ 
+
+ 
+
+Henze et al, 2000
+
+ 
+ENDELEMENTRelation between membrane potential and
+extracellular potential
+
+ 
+
+ 
+
+ 
+ENDELEMENTRelation between membrane potential anc
+extracellular potential
+
+Mg, = Relay =Roy(l-* ly)
+
+ 
+
+av,
+7 2nces
+AV, ~ RCT
+
+ 
+
+ 
+
+  
+
+ 
+
+ 
+
+ 
+ENDELEMENTRelation between membrane potential and
+extracellular potential
+
+ 
+
+ 
+ENDELEMENTOrigin of extracellular signals
+
+What happens to the voltage outside our model neuron during a
+synaptic input?
+
+==
+ENDELEMENTOrigin of extracellular signals
+
+ 
+
+ 
+ENDELEMENTOrigin of extracellular signals
+
+ 
+
+ 
+ENDELEMENTOrigin of extracellular signals
+
+Excitatory synapse
+
+——®
+
+ 
+
+ 
+ENDELEMENTOrigin of extracellular signals
+
+Excitatory synapse
+
+SO)
+
+ 
+
+ 
+ENDELEMENTOrigin of extracellular signals
+
+What happens to the voltage outside our model neuron during a
+synaptic input?
+
+Excitatory synapse
+ENDELEMENTOrigin of extracellular signals
+
+What happens to the voltage outside our model neuron during a
+synaptic input?
+
+Excitatory synapse
+
+Current sink
+ENDELEMENTOrigin of extracellular signals
+
+What happens to the voltage outside our model neuron during a
+synaptic input?
+
+Excitatory synapse
+
+Current sink Current source
+ENDELEMENTOrigin of extracellular signals
+
+Excitatory synapse
+
+ 
+
+ 
+ENDELEMENTOrigin of extracellular signals
+
+Excitatory synapse
+
+ 
+
+ 
+ENDELEMENTOrigin of extracellular signals
+
+What happens to the voltage outside our model neuron during a
+synaptic input?
+
+Inhibitory synapse
+
+Current source Current sink
+ENDELEMENTOrigin of extracellular signals
+
+Inhibitory synapse
+
+ 
+
+ 
+ENDELEMENTOrigin of extracellular signals
+
+Inhibitory synapse
+
+ 
+
+ 
+ENDELEMENTOrigin of extracellular signals
+
+Inhibitory synapse
+
+ 
+
+ 
+ENDELEMENTOrigin of extracellular signals
+
+What happens to the voltage outside our model neuron during a
+synaptic input?
+
+Inhibitory synapse
+
+Current source Current sink
+
+V0) p
+ENDELEMENTOrigin of extracellular signals
+
+What happens to the voltage outside our model neuron during a
+synaptic input?
+
+Inhibitory synapse
+Current source ‘Current sink
+v0) xo)
+
+|
+
+1p ee —
+
+ 
+ENDELEMENTOrigin of extracellular signals
+
+Inhibitory synapse
+
+ 
+
+ 
+ENDELEMENTOrigin of extracellular signals
+
+Inhibitory synapse
+
+ 
+
+ 
+ENDELEMENT 
+       
+       
+
+Local Field Potentials
+
++ Synchronous synaptic input to large populations
+of neurons
+
++ Depends on linear summation
+= morphology is important
+
+ff Se
+
+ 
+ENDELEMENTLocal Field Potentials
+
+Synchronous synaptic input to large populati
+of neurons
+
+Depends on linear summation
+= morphology is important
+
+ 
+ENDELEMENTLocal Field Potentials
+
++ Synchronous synaptic input to large populations
+of neurons
+
++ Depends on linear summation
+= morphology is important
+
+ 
+
+ 
+ENDELEMENTLocal Field Potentials
+Synchronous synaptic input to large populations
+‘of neurons
+Depends on linear summation
+= morphology is important
+
+ 
+
+ 
+ENDELEMENTLocal Field Potentials
+
+Synchronous synaptic input to large populati
+of neurons
+
+Depends on linear summation
+= morphology is important
+
+ 
+ENDELEMENTLocal Field Potentials
+Synchronous synaptic input to large populations
+of neurons
+Depends on linear summation
+= morphology is important
+
+ 
+
+ 
+ENDELEMENTLocal Field Potentials
+Synchronous synaptic input to large populations
+‘of neurons
+Depends on linear summation
+~ morphology is important
+
+ 
+
+ 
+ENDELEMENTElectrical recordings of brain activity
+
+ 
+
+ 
+ENDELEMENTElectrical recordings of brain activity
+
+ 
+
+ 
+ENDELEMENTElectrical recordings of brain activity
+
+ 
+
+ 
+ENDELEMENTElectrical recordings of brain activity
+
+ 
+
+ 
+ENDELEMENTElectrical recordings of brain activit
+
+ 
+ENDELEMENTElectrical recordings of brain activity
+
+SAMPLING
+
+_/
+
+=
+
+ 
+
+ 
+ENDELEMENTElectrical recordings of brain activity
+
+SAMPLING
+
+wax
+
+ 
+
+ 
+ENDELEMENTElectrical recordings of brain activit
+
+SAMPLING
+
+‘The analog to digital converter samples the voltage from the amplifier at
+regular intervals in time and stores the result in the computer memory.
+
+we sa sampling frequency,
+
+ 
+ENDELEMENTElectrical recordings of brain activity
+
+SAMPLING
+
+ 
+
+ 
+ENDELEMENT 
+
+ 
+ENDELEMENTTwo kinds of signals
+
++ Recording of neural activity in hippocampus of a running rat
+
+Wana ahh
+
+oe
+ENDELEMENTTwo kinds of signals
+
+Local Field Potentials (LF
+
+ 
+
+ 
+ENDELEMENTTwo kinds of signals
+
+5 Field Potentials (LF)
+
+ 
+
+ 
+ENDELEMENTTwo kinds of signals
+
++ Recording of neural activity in hippocampus of a running rat
+
++ Slow - Local Field Potentials (LFPY
+— Synaptic currents
+
++ Fast - Spikes
+— Action potentials
+ENDELEMENTTwo kinds of signals
+
+ 
+
+ 
+ENDELEMENT 
+
+ 
+ENDELEMENTTwo kinds of signals
+
++ Recording of neural activity in hippocampus of a running rat
+
++ Slow - Local Field Potentials (LFP)
+— Synaptic currents
+
++ Fast - Spikes |
+= Action potentials
+ENDELEMENTField Potentials (LF)
+
+ 
+
+ 
+ENDELEMENT 
+
+ 
+ENDELEMENTLow-pass filtering
+
+  
+
+ 
+
+a Low-pas faring canbe don
+4 the signol witha ker
+rl
+i
+4
+i
+: |
+
+Ale a
+ENDELEMENTLow-pass filtering
+
+ 
+
+ 
+ENDELEMENTpar
+
+Low-pass filtering
+
+beni gery
+
+  
+
+ 
+
+CN 2
+AAA WV NMA rit
+ENDELEMENTLow-pass filtering
+
+ 
+
+ 
+ENDELEMENTLow-pass filtering
+
+  
+
+ 
+
+™ asta
+Fi
+
+i
+
+4
+
+: |
+
+RAYA aan
+ENDELEMENTLow-pass filtering
+
+ 
+
+ 
+ENDELEMENTLow-pass filtering
+
+  
+
+ 
+
+™ eas
+Fi
+
+i
+
+4
+
+: |
+
+Aiea
+ENDELEMENTExplanation of low pass filter
+
+ 
+
+ 
+ENDELEMENTExplanation of low pass filter
+Kernel
+
+Po dos Jos | oo sien
+sre || |
+ENDELEMENTExplanation of low pass filter
+
+ 
+
+ 
+ENDELEMENTExplanation of low pass filter
+Kernel
+
+Po dos Jos | oo | sien
+| ec || OT
+ENDELEMENTExplanation of low pass fi
+
+ 
+
+ 
+ENDELEMENTExplanation of low pass f
+
+ 
+
+ 
+ENDELEMENTExplanation of low pass filter
+Kernel
+
+Po dos Jos | oo sien
+sre || |
+
+Poo [as [os | oie
+ENDELEMENTExplanation of low pass filter
+
+ 
+
+ 
+ENDELEMENTExplanation of low pass filter
+
+ 
+
+ 
+ENDELEMENTExplanation of low pass filter
+Kernel
+
+Dobos os | oo | sien
+| || TS
+
+3-2 sum
+
+Filtered
+ENDELEMENTExplanation of low pass filter
+
+sn
+fo des | as |e
+Be
+
+ 
+
+ 
+ENDELEMENTExplanation of low pass filter
+Kernel
+
+Pod os os | oo | sien
+DiI eet
+
+Filtered
+ENDELEMENTExplanation of low pass filter
+
+ 
+
+ 
+ENDELEMENTExplanation of low pass filter
+Kernel
+
+boos Jas | oo | sien
+|e || ST
+
+Jes sum
+
+Filtered
+ENDELEMENTExplanation of low pass filter
+
+ 
+
+ 
+ENDELEMENTExplanation of low pass filter
+Kernel
+
+Po os Jos | oo | sien
+| ic || |
+
+Jes sum
+
+Filtered
+ENDELEMENTExplanation of low pass filter
+
+fo Los [os | of
+Po tss 2s | om
+Jess
+
+ 
+
+ 
+ENDELEMENTExplanation of low pass filter
+Kerel
+Poo Jos Jos | oo | sien
+ea sa | a [| eS
+poo Js | 25 | o Mis
+
+J-4 sum
+
+Filtered
+ENDELEMENTHigh-pass filtering
+
+ 
+
+ 
+ENDELEMENTHigh-pass filtering
+
+ 
+
+ 
+ENDELEMENTHigh-pass filtering
+
+ 
+
+ 
+ENDELEMENTHigh-pass filtering
+
+High pasting canbe done by co
+
+the signal with a kernel like this
+: Total area =
+
+Hy Sa aged
+
+ 
+ENDELEMENTHigh-pass filtering
+
+Pi
+
+4 Ma)
+as iM a My
+ay Wy Pal Yyut Sy hy
+
+ 
+
+ 
+ENDELEMENTTwo kinds of signals
+
+ 
+
+ 
+ENDELEMENTLow-pass filtering
+
+ 
+
+ 
+ENDELEMENTLow-pass filtering
+
+ 
+
+ 
+ENDELEMENTHigh-pass filtering
+
+ 
+
+ 
+ENDELEMENTHigh-pass filtering
+
+High pas fiering an be done by co
+
+the signal with a kernel like this
+: Total area =
+
+Ay’ arena wr
+
+ 
+ENDELEMENTHigh-pass filtering
+
+ 
+
+ 
+ENDELEMENTHigh-pass filtering
+
+High pasting an be done by co
+
+the signal with a kernel like this
+‘ Total area =
+
+Hy Sa aged
+
+ 
+ENDELEMENTHigh-pass filtering
+
+ 
+
+ 
+ENDELEMENTExplanation of low pass fi
+
+ 
+
+ 
+ENDELEMENTLow-pass filtering
+
+ 
+
+ 
+ENDELEMENTar
+
+Low-pass filtering
+
+ve mg ey
+
+Nie
+
+ral waka ie
+
+ 
+
+AA
+
+rar
+ENDELEMENTHigh-pass filtering
+
+ 
+
+ 
+ENDELEMENTHigh-pass filtering
+
+ 
+
+ 
+ENDELEMENTSpike detecton
+
++ Ifyou are recording from only a single neuron, it is e
+to extract spike times...
+
+Spike detection th
+
+ 
+ENDELEMENTSpike detecton
+
++ Ifyou are recording from only a single neuron, it is e
+to extract spike times...
+
+Spike detection th
+
+ 
+ENDELEMENTSpike detecton
+
++ Ifyou are recording from only a single neuron, itis easy
+to extract spike times.
+
+ 
+
+ 
+ENDELEMENTSpike detecton
+
++ Ifyou are recording from only a single neuron, itis easy
+to extract spike times.
+
+ 
+
+ 
+ENDELEMENTSpike detecton
+
++ Ifyou are recording from only a single neuron, itis easy
+to extract spike times.
+
+ 
+
+ 
+ENDELEMENTSpike detecton
+
++ Ifyou are recording from only a single neuron, it is e
+to extract spike times...
+
+Spike detection th
+
+ 
+ENDELEMENTSpike detecton
+
++ Ifyou are recording from only a single neuron, it is e
+to extract spike times...
+
+Spike detection th
+
+ 
+ENDELEMENTSpike trains
+
++ Representation of all the spikes that a neuron generates in a pe
+of time of interest
+
+Spike detection th
+
+ 
+
+ 
+
+ 
+ENDELEMENTSpike trains
+
+ 
+
+ 
+ENDELEMENTSpike trains
+
+of ll the spikes thot a neuron generate ina period
+
+*+ We can representa spike train asa list of spike times
+
+i, 10 N spikes
+
+ 
+
+ 
+ENDELEMENTSpike trains
+
++ Representation of all the spikes that a neuron generates in a pe
+of time of interest
+
+Spike detection th
+
+ 
+
+ 
+
+ 
+
+t bt t& ts ts
+
+« Wecan represent a spike train as a list of spike times
+ENDELEMENTSpike trains
+
+* Spike trains can also be represented a sum of delta
+functions.
+
+Poy
+
+ot-1)
+
+ 
+
+4 bth tts ts
+ENDELEMENTSpike trains
+
++ Spike trains can also be represented a sum of delta
+functions
+
+ 
+
+ 
+ENDELEMENTSpike trains
+
+* Spike trains can also be represented a sum of delta
+functions.
+
+ee ee
+
+ot-1)
+
+ 
+
+4 be tts ts
+ENDELEMENTSpike trains
+
+* Spike trains can also be represented a sum of delta
+functions.
+
+Pop py
+
+ 
+
+4 bbe t ts ts
+
+ptt) = 60-4) + 8-4) + 5-H)
++ 50-1) + Hlt-4) + 5-4)
+ENDELEMENTSpike trains
+
++ Spike trains can also be represented a sum of delta
+functions
+
+ 
+
+ 
+ENDELEMENTSpike trains
+
+* Spike trains can also be represented a sum of delta
+functions.
+
+Poy py
+
+ 
+
+ 
+
+po=>
++ 6-1) + 60-1) + 60-1) »
+ENDELEMENTSpike trains
+
++ Spike trains can also be represented a sum of delta
+functions
+
+t wht
+
+pi) = 8-4) + au-1) pom Su
+
++ pf0 canbe thought of as the dor a spike count function
+
+ 
+
+ 
+ENDELEMENTSpike trains
+
+* Spike trains can also be represented a sum of delta
+functions.
+
+Poy py
+
+ 
+
+4 bth t ts ts
+
+pit) = 60-4) + 5-4) + 5-H)
++ 50-4) + Hlt-4) + 5-4)
+
+ 
+
+NO,
+ENDELEMENTSpike trains
+
+* Spike trains can also be represented a sum of delta
+functions.
+
+Pop
+
+ 
+
+4 be t ts ts
+
+pit) = 60-4) + 5-4) + 5-H)
++ 50-1) + Hlt-4) + 5-4)
+
+ 
+
+NO,
+ENDELEMENTSpike trains
+
++ Spike trains can also be represented a sum of delta
+functions
+
+c wht
+
+ply = 8-4) + 8-1) + B=) om S50-1)
+
++ f@ canbe thought ofa the der a spike count function
+
+ 
+
+ 
+ENDELEMENTSpike trains
+
+* Spike trains can also be represented a sum of delta
+functions.
+
+Poy py
+
+4 be t ts ts
+
+ 
+
+pit) = 60-4) + 5-4) + 5-H)
++ 50-1) + Hlt-1) + 5-4)
+
+ 
+
++ p(t) can be thought of as the derivative of a spike count function
+
+ney, Jona =n
+
+4 oo :
+ENDELEMENT          
+ 
+   
+
+Spike trains
+
++ Spike trains can also be represented a sum of delta
+functions.
+
+ 
+
+ 
+ENDELEMENTTuning curves
+
+* Simple cells in primary visual cortex of the cat are
+responsive to some orientations, but not others.
+
+ye
+
+  
+
+s(orenaon ange mde)
+ENDELEMENTTuning curves
+
++ Simple cells in primary visual cortex of the cat are
+responsive to some orientations, but not others.
+
+ 
+
+ 
+ENDELEMENTTuning curves
+
++ Simple cells in primary visual cortex of the cat are
+responsive to some orientations, but not others
+
+ 
+
+ 
+ENDELEMENTTuning curves
+
++ Simple cells in primary visual cortex of the cat are
+responsive to some orientations, but not others.
+
+ 
+
+ 
+ENDELEMENTTuning curves
+
+* Simple cells in primary visual cortex of the cat are
+responsive to some orientations, but not others.
+
+ye
+
+  
+
+s(orenaton ange m doen)
+ENDELEMENTTuning curves
+
++ Simple cells in primary visual cortex of the cat are
+responsive to some orientations, but not others
+
+ 
+
+ 
+ENDELEMENTTuning curves
+
+* Simple cells in primary visual cortex of the cat are
+responsive to some orientations, but not others.
+
+ye
+
+  
+
+s(renaon angen dopee)
+ENDELEMENTTuning curves
+
++ Simple cells in primary visual cortex of the cat are
+responsive to some orientations, but not others
+
+ 
+
+ 
+ENDELEMENTTuning curves
+
++ Simple cells in primary visual cortex of the cat are
+responsive to some orientations, but not others
+
+ 
+
+ 
+ENDELEMENTTuning curves
+
++ Simple cells in primary visual cortex of the cat are
+responsive to some orientations, but not others.
+
+ 
+
+ 
+ENDELEMENTTuning curves
+
+* Simple cells in primary visual cortex of the cat are
+responsive to some orientations, but not others.
+
+ye
+
+  
+
+(ronan ange mdoee)
+ENDELEMENTTuning curves
+
++ Simple cells in primary visual cortex of the cat are
+responsive to some orientations, but not others.
+
+ 
+
+ 
+ENDELEMENTTuning curves
+
+ 
+ENDELEMENTTuning curves
+
+ 
+ENDELEMENTTuning curves
+
+ 
+
+‘Auditory neurons show frequency tuning
+
+ 
+ENDELEMENTTuning curves
+
+ 
+ENDELEMENTTuning curves
+
+ 
+
+‘Auditory neurons show frequency tuning
+
+ 
+ENDELEMENTTuning curves
+
+ 
+ENDELEMENTTuning curves
+
+ 
+ENDELEMENTTuning curves
+
+ 
+
+‘Auditory neurons show frequency tuning
+
+ 
+ENDELEMENTTuning curves
+
+ 
+
+‘Auditory neurons show frequency tuning
+
+ 
+ENDELEMENTTuning curves
+
+ 
+
+‘Auditory neurons show frequency tuning
+
+ 
+ENDELEMENTTuning curves
+
+ 
+ENDELEMENTTuning curves
+
+* Relation between spiking activity of a neuron in prin
+motor cortex and the onset of the arm movement.
+
+ 
+ENDELEMENTTuning curves
+
+* Relation between spiking activity of a neuron in prin
+motor cortex and the onset of the arm movement.
+
+ 
+ENDELEMENTTuning curves
+
++ Relation between spiking activity of a neuron in primary
+motor cortex and the onset of the arm movement.
+
+ 
+
+ 
+ENDELEMENTTuning curves
+
++ Relation between spiking activity of a neuron in primary
+motor cortex and the onset of the arm movement.
+
+ 
+
+ 
+ENDELEMENTTuning curves
+
+* Relation between spiking activity of a neuron in prin
+motor cortex and the onset of the arm movement.
+
+ 
+ENDELEMENTTuning curves
+
+* Relation between spiking activity of a neuron in prin
+motor cortex and the onset of the arm movement.
+
+tS
+
+|
+i> NI
+
+ 
+ENDELEMENTTuning curves
+
++ Relation between spiking activity of a neuron in primary
+motor cortex and the onset of the arm movement.
+
+ 
+
+ 
+ENDELEMENTTuning curves
+
+* Relation between spiking activity of a neuron in prin
+motor cortex and the onset of the arm movement.
+
+ 
+ENDELEMENTTuning curves
+
++ Relation between spiking activity of a neuron in primate
+primary motor cortex and the onset of the arm movemen
+
+ 
+ENDELEMENTTuning curves
+
++ Relation between spiking activity of a neuron in primate
+primary motor cortex and the onset ofthe arm movement
+
+ 
+
+ 
+ENDELEMENTTuning curves
+
++ Relation between spiking activity of a neuron in primate
+primary motor cortex and the onset ofthe arm movement.
+
+ 
+
+ 
+ENDELEMENTTuning curves
+
++ Relation between spiking activity of a neuron in primate
+primary motor cortex and the onset of the arm movemen
+
+ 
+ENDELEMENTTuning curves
+
++ Relation between spiking activity of a neuron in primate
+primary motor cortex and the onset ofthe arm movement.
+
+-
+
+ 
+
+ 
+ENDELEMENTTuning curves
+
++ Relation between spiking activity of a neuron in primate
+primary motor cortex and the onset ofthe arm movement.
+
+ 
+
+ 
+ENDELEMENTTuning curves
+
++ Relation between spiking activity of a neuron in primate
+primary motor cortex and the onset of the arm movemen
+
+ 
+ENDELEMENTTuning curves
+
++ Relation between spiking activity of a neuron in primate
+primary motor cortex and the onset ofthe arm movement.
+
+ 
+
+ 
+ENDELEMENTTuning curves
+
++ Relation between spiking activity of a neuron in primate
+primary motor cortex and the onset ofthe arm movement.
+
+ 
+
+ 
+ENDELEMENTTuning curves
+
++ Relation between spiking activity of a neuron in primate
+primary motor cortex and the onset of the arm movemen
+
+ 
+ENDELEMENTTuning curves
+
++ Relation between spiking activity of a neuron in primate
+primary motor cortex and the onset ofthe arm movement.
+
+ 
+
+ 
+ENDELEMENTTuning curves
+
++ Relation between spiking activity of a neuron in primate
+
+primary motor cortex and the onset ofthe arm movement.
+
+ 
+
+ 
+ENDELEMENTTuning curves
+
++ Relation between spiking activity of a neuron in primate
+primary motor cortex and the onset ofthe arm movement.
+
+[M1 neurons show tuning for movement direction,
+
+ 
+
+ 
+ENDELEMENTTuning curves
+
+Relation between spiking activity of a neuron in primate
+primary motor cortex and the onset of the arm movemen
+
+ 
+ENDELEMENTQuantifying firing rates
+
++ Method 1: Tial average fring rat.
+
+ 
+
+ 
+ENDELEMENTQuantifying firing rates
++ Method 1: Trial average fring ate.
+
+Stimul
+
+ 
+
+ 
+ENDELEMENTTal #
+
+Quantifying firing rates
+* Method 1: Trial average firing rate.
+= Count the number of spikes in each trial. Average over trial
+
+ 
+
+Stimulus time
+an onset Ciset i
+LL al Nt
+2 Totti ttt
+3 | eae | a
+4 (AES AM 11 I
+5 | Wettt t
+ENDELEMENTQuantifying firing rates
++ Method 1: Trial average firing ate.
+
+Stimulus time
+
+ 
+
+ 
+ENDELEMENTTal #
+
+Quantifying firing rates
+* Method 1: Trial average firing rate.
+= Count the number of spikes in each trial. Average over trial
+
+ 
+
+Stimulus. time
+an onset Ciset i
+TLL el
+2 Totti ttt
+3 | | a a
+4 {AES 11 I
+5 | Wettt to
+ENDELEMENTQuantifying firing rates
++ Method 1: Trial average firing ate
+
+Stimulus time
+
+ 
+
+ 
+ENDELEMENTQuantifying firing rates
++ Method 1: Trial average fring rate.
+
+Stimulus time
+
+ 
+
+ 
+ENDELEMENTTal #
+
+Quantifying firing rates
+
+* Method 1: Trial average firing rate.
+— Count the number of spikes in each trial. Average over trial
+
+Stimulus
+
+ 
+
+ 
+ENDELEMENTQuantifying firing rates
+
++ Method 1: Tial average fring rat.
+
+3 the numberof spikes al Average over tals
+
+Stimulus time
+
+ 
+
+ 
+ENDELEMENTQuantifying firing rates
++ Method 1: Trial average fring ate.
+
+Stimulus time
+
+ 
+
+ 
+ENDELEMENTTeal #
+
+Quantifying firing rates
+
+* Method 1: Trial average firing rate.
+— Count the number of spikes in each trial. Average over trial
+
+Stimulus
+
+ 
+
+ee ae NT
+2
+
+3 | |G a i | a a
+5 | {1 FE
+
+ 
+ENDELEMENTQuantifying firing rates
+
++ We can get higher temporal resolution by breaking the
+rate calculation into smaller units in time,
+
+Stimulus
+
+ 
+
+ 
+ENDELEMENTQuantifying firing rates
+
++ We can get higher temporal resolution by breaking the
+rate calculation into smaller units in time,
+
+Stimulus
+
+ 
+
+ 
+ENDELEMENTTal #
+
+Quantifying firing rates
+
+* We can get higher temporal resolution by breaking t
+rate calculation into smaller units in time.
+
+Stimulus
+
+ 
+
+LL tt
+2 I ottt ttt
+
+3 | | EO a a
+5
+ENDELEMENTQuantifying firing rates
++ We can get higher temporal resolution by breaking the
+rate calculation into smaller units in time.
+
+ 
+
+ 
+
+ 
+ENDELEMENTQuantifying firing rates
+
++ We can get higher temporal resolution by breaking t
+rate calculation into smaller units in time.
+
+Stimulus
+
+  
+
+Tal #
+
+ 
+
+ 
+ENDELEMENTQuantifying firing rates
+
++ We can get higher temporal resolution by breaking the
+rate calculation into smaller units in time,
+
+Stimulus
+
+ 
+
+ 
+ENDELEMENTQuantifying firing rates
+
++ We can get higher temporal resolution by breaking the
+rate calculation into smaller units in time,
+
+Stimulus
+
+ 
+
+ 
+ENDELEMENTQuantifying firing rates
+* Peri-Stimulus Time Histogram (PSTH)
+or Peri-Event Time Histogram (PETH)
+
+   
+
+Pcrai? .s03
+
+ 
+ENDELEMENTQuantifying firing rates
+* Peri-Stimulus Time Histogram (PSTH)
+or Peri-Event Time Histogram (PETH)
+
+   
+
+Pcrai? «S03
+
+ 
+ENDELEMENTQuantifying firing rates
++ Peri-Stimulus Time Histogram (PSTH)
+or Pet-Event Time Histogram (PETH)
+
+ 
+
+ 
+ENDELEMENTQuantifying firing rates
++ Peri-Stimulus Time Histogram (PSTH)
+or Per-Event Time Histogram (PETH)
+
+ 
+
+ 
+ENDELEMENTQuantifying firing rates
++ Peri-Stimulus Time Histogram (PSTH)
+or Per-Event Time Histogram (PETH)
+
+ 
+
+ 
+ENDELEMENTQuantifying firing rates
++ Peri-Stimulus Time Histogram (PSTH)
+or Per-Event Time Histogram (PETH)
+
+ 
+
+ 
+ENDELEMENTQuantifying firing rates
+
++The same trick can be used to estimate firing rates in
+Continuous spike trains (not associated with trials)
+
+ 
+
+ 
+ENDELEMENTQuantifying firing rates
+
+* The same trick can be used to estimate firing rates ir
+continuous spike trains (not associated with trials).
+
+number of spikes in bin j
+ENDELEMENTQuantifying firing rates
+
++ We can get higher temporal resolution by breaking the
+rate calculation into smaller units in time,
+
+Stimulus
+
+ 
+
+ 
+ENDELEMENTQuantifying firing rates
++ Peti-Stimulus Time Histogram (PSTH)
+or Per-Event Time Histogram (PETH)
+
+ 
+
+ 
+ENDELEMENTQuantifying firing rates
+
+* The same trick can be used to estimate firing rates ir
+continuous spike trains (not associated with trials).
+
+number of spikes in bin
+ENDELEMENTQuantifying firing rates
++ The same trick can be used to estimate firing rates in
+continuous spike trains (not associated with trials)
+
+ 
+
+ 
+ENDELEMENTQuantifying firing rates
+
++ The same trick can be used to estimate firing rates in
+continuous spike trains (not associated with trials)
+
+ 
+
+ 
+ENDELEMENTQuantifying firing rates
++ The same trick can be used to estimate firing rates in
+continuous spike trains (not associated with trials)
+
+ 
+
+ 
+ENDELEMENTQuantifying firing rates
+
+* The same trick can be used to estimate firing rates ir
+continuous spike trains (not associated with trials).
+
+number of spikes in bin
+
+ll jun i mT i : van
+
+ 
+
+AT
+
+ 
+ENDELEMENTQuantifying firing rates
+
+* Acontinuous measure of firing rate.
+
+on
+
+AT
+ENDELEMENTQuantifying firing rates
+
+* Acontinuous measure of firing rate.
+
+AT
+ENDELEMENTQuantifying firing rates
+
+*+ A continuous measure of fring rate.
+
+ 
+
+ 
+ENDELEMENTQuantifying firing rates
+
+* Acontinuous measure of firing rate.
+es
+
+aT
+ENDELEMENTQuantifying firing rates
+
++ A continuous measure of fring rate.
+
+ar
+
+We count the number of spikes in
+and shift the window in smaller steps
+
+ 
+
+ 
+ENDELEMENTQuantifying firing rates
+* Acontinuous measure of firing rate.
+LoL UWE EEE EE em et
+
+MM Ul
+
+We can write this process down mathematically as follows.
+
+ 
+
+ 
+
+First, we use the fact that the number of spikes in an interval t; to
+ty is given by 4
+Jowat
+
+ 
+ENDELEMENTQuantifying firing rates
+
++ A continuous measure of fring rate,
+
+fora
+
+ 
+
+ 
+ENDELEMENTQuantifying firing rates
++ Acontinuous measure of firing rate.
+
+We can write this process down mathematically as follows.
+
+ 
+
+ 
+
+ 
+
+ 
+
+First, we use the fact that the number of spikes in an interval t; to
+ty is given by 4
+Jowat
+
+ 
+ENDELEMENTQuantifying firing rates
+* Acontinuous measure of firing rate.
+
+I
+
+We can write this process down mathematically as follows.
+
+ 
+
+ 
+
+ 
+
+First, we use the fact that the number of spikes in an interval t, to
+tyis given by 4
+N= i p(tydt
+
+Fore
+ENDELEMENTQuantifying firing rates
+
++ A continuous measure of fring rate.
+
+siesren ly yf pena
+
+NI
+0-7 “aT
+
+ 
+
+ 
+ENDELEMENTQuantifying firing rates
+
++ A continuous measure of fring rate,
+
+te this process down
+
+n= ptodr
+
+ar
+
+ 
+
+ 
+ENDELEMENTQuantifying firing rates
+* Acontinuous measure of firing rate.
+
+We can write this process down mathematically as follows.
+
+ 
+
+ 
+
+ 
+
+ 
+
+First, we use the fact that the number of spikes in an interval t; to
+tis given by 4
+N= i pltdt
+
+en ew
+
+ 
+ENDELEMENTQuantifying firing rates
+* Acontinuous measure of firing rate.
+
+But this is just a convolution! We are convolving our spike train wit
+square kernel of width AT.
+ENDELEMENTQuantifying firing rates
+
++ A continuous measure of fring rate.
+
+Rw)= J pee nK ede
+
+ 
+
+ 
+ENDELEMENTQuantifying firing rates
+
+* Acontinuous measure of firing rate.
+
+an
+
+But this is just a convolution! We are convolving our spike train wit
+square kernel of width AT.
+Kernel
+
+xemel 147 wl
+0 othe
+
+foo
+
+Ri) foc ~1)K(t)dt
+ENDELEMENTQuantifying firing rates
+
+* Acontinuous measure of firing rate.
+
+an
+
+But this is just a convolution! We are convolving our spike train wit
+square kernel of width AT.
+Kernel
+
+xemel 147 wl
+0 othe
+
+i_—
+
+RW) foc ~1)K(t)dt
+ENDELEMENTQuantifying firing rates
++ Acontinuous measure of fring rate.
+
+But this iust a convolution! We are convolving our spike tain with
+square kernel of width A
+Kernel
+
+R= f p—DKnae
+
+RO)= ply K
+
+ 
+
+ 
+ENDELEMENTQuantifying firing rates
+
+* Acontinuous measure of firing rate.
+
+i |
+
+a
+But this is just a convolution! We are convolving our spike train wit
+square kernel of width AT.
+
+Kernel
+
+eel 47 ok
+0 othe
+
+foo
+
+Ri) foc ~1)K(t)dt
+ENDELEMENTQuantifying firing rates
+* Acontinuous measure of firing rate.
+
+ee
+
+Even better is to convolve with a Gaussian kernel
+
+R= p(t)*K
+ENDELEMENTQuantifying firing rates
+
+*+ A continuous measure of fring rate.
+
+Kemel
+
+RO= p(y*K
+
+Gaussian kernel is stil averag
+
+ 
+
+ 
+ENDELEMENTQuantifying firing rates
+* Acontinuous measure of firing rate.
+
+— |e
+
+Even better is to convolve with a Gaussian kernel
+
+Kernel
+
+RQ)= p(t)*K Tee
+
+KO" Tin =
+
+ 
+ENDELEMENTQuantifying firing rates
+
++ Acontinuous measure of fring rate.
+
+Kemel
+
+Gaussian kernel i
+
+ 
+
+ 
+ENDELEMENTQuantifying firing rates
+* Acontinuous measure of firing rate.
+
+— |
+
+Even better is to convolve with a Gaussian kernel
+
+Kernel
+
+RQ)= p(t)*K Tee
+
+KO" Tn =
+
+ 
+ENDELEMENTQuantifying firing rates
+
++ Summary
+
+unt | 0)
+
+ 
+
+ 
+ENDELEMENTQuantifying firing rates
+
++ Summary
+
+ut | 0)
+
+ 
+
+ 
+ENDELEMENTQuantifying firing rates
+
++ Summary
+
+ut | 0)
+
+ 
+
+ 
+ENDELEMENTQuantifying firing rates
+
++ Summary
+
+ 
+
+ 
+ENDELEMENTQuantifying firing rates
+
++ Summary
+
+ 
+
+ 
+ENDELEMENTQuantifying firing rates
+
++ Summary
+
+unt | 0)
+
+ 
+
+ 
+ENDELEMENTQuantifying firing rates
+
++ Summary
+
+ 
+
+ 
+ENDELEMENTQuantifying firing rates
+
++ Summary
+
+unt | i)
+
+ 
+
+ 
+ENDELEMENTKey problem
+
++ You have to choose a timescale to measure the firing rate.
+
+Firing rate (Hz)
+
+But you get a different answer for every different timescale!
+
+AIT EITC APM A 1
+
+ 
+
+    
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTKey problem
+
++ Youhave to choose a timescale to messure the fring rate
+
+Butyou get diferent answer for every different timescale!
+
+ 
+
+ 
+ENDELEMENTKey problem
+
+ 
+
+ 
+ENDELEMENTKey problem
+
+ 
+
+ 
+ENDELEMENTKey problem
+
+ 
+
+ 
+ENDELEMENTTemporal structure of responses
+
++ Neuronal responses are not static. They have a strong
+temporal structure,
+
+| alla i
+
+ 
+
+ 
+ENDELEMENTTemporal structure of responses
+
++ Neuronal responses are not static. They have a strong
+temporal structure.
+
+ 
+
+ 
+ENDELEMENTTemporal structure of response:
+
+* Neuronal responses are not static. They have a stron
+temporal structure.
+
+ 
+ENDELEMENTTemporal structure of responses
+
++ Neuronal responses are not static. They have a strong
+temporal structure,
+
+ 
+
+ 
+ENDELEMENTTemporal structure of responses
+
++ Neuronal responses are not static. They have a strong
+temporal structure,
+
+ 
+
+ 
+ENDELEMENTTemporal structure of response:
+
+* Neuronal responses are not static. They have a stron
+temporal structure.
+
+ 
+ENDELEMENTTemporal structure of responses
+
++ Neuronal responses are not static. They have a strong
+temporal structure,
+
+ 
+
+ 
+ENDELEMENTTemporal structure of responses
+
++ Neuronal responses are not static. They have a strong
+temporal structure,
+
+ 
+
+ 
+ENDELEMENTTemporal structure of responses
+
++ Neuronal responses are not static. They have a strong
+temporal structure,
+
+ 
+
+ 
+ENDELEMENTTemporal structure of responses
+
++ Neuronal responses are not static. They have a strong
+temporal structure,
+
+ 
+
+ 
+ENDELEMENTTemporal structure of responses
+
++ Neuronal responses are not static. They have a strong
+temporal structure,
+
+ 
+
+ 
+ENDELEMENTTemporal structure of responses
+
++ Neuronal responses are not static. They have a strong
+temporal structure,
+
+ 
+
+ 
+ENDELEMENTTemporal structure of responses
+
++ Neuronal responses are not static. They have a strong
+temporal structure,
+
+ 
+
+ 
+ENDELEMENTTemporal structure of response:
+
+* Neuronal responses are not static. They have a stron
+temporal structure.
+
+ 
+ENDELEMENTTemporal structure of response:
+
+* Neuronal responses are not static. They have a stron
+temporal structure.
+
+ 
+ENDELEMENTTemporal structure of response:
+
++ Auditory neurons can be strongly locked to the phas
+the sound waveform
+
+ 
+ENDELEMENTTemporal structure of responses
+
++ Auditory neurons can be strongly locked to the phase of
+
+the sound waveform,
+
+ 
+
+ 
+ENDELEMENTTemporal structure of response:
+
++ Auditory neurons can be strongly locked to the phas
+the sound waveform
+
+ 
+
+ 
+
+1g rate (He)
+ENDELEMENTTemporal structure of responses
+
++ Auditory neurons can be strongly locked to the phase of
+
+the sound waveform,
+
+ 
+
+ 
+ENDELEMENTTemporal structure of responses
+
++ Auditory neurons can be strongly locked to the phase of
+
+the sound waveform,
+
+ 
+
+ 
+ENDELEMENTTemporal structure of responses
+
++ Auditory neurons can be strongly locked to the phase of
+
+the sound waveform,
+
+ 
+
+ 
+ENDELEMENTTemporal structure of response:
+
++ Auditory neurons can be strongly locked to the phas
+the sound waveform,
+
+ 
+
+‘The spike timing is preci
+contlied. 2" PS
+
+1g rate (He)
+
+ 
+ENDELEMENTTemporal structure of responses
+
+itory neurons can be strongly locked to the phase of
+
+‘ound waveform.
+
+ 
+
+ 
+ENDELEMENTTemporal structure of response:
+
++ Auditory neurons can be strongly locked to the phas
+the sound waveform,
+
+ 
+
+‘The spike timing is preci
+contlled. 2 "PS
+
+1g rate (He)
+
+ 
+ENDELEMENTRate vs timing?
+
++ Sensory neurons spike more in response to some stimuli than others
+‘Motor neurons spike more before or during some actions than others
+
+"Therefore, information about a stimulus (or motor action) is caried i
+‘numbers of spikes generated.
+ENDELEMENTRate vs timing?
+
+ 
+
+ 
+ENDELEMENTRate vs timing?
+
++ Sensory neurons spike more in response to some stimuli than others
+‘Motor neurons spike more before or during some actions than others
+
+ 
+
+(Therefore, information about a stimulus (or motor action) is carried i
+|_ numbers of spikes generated,
+
++ Allneurons exhibit temporal modulation oftheir fring rate (or spiking
+probability per unit time).
+ENDELEMENTRate vs timing?
+
+ 
+
+ 
+ENDELEMENTRate vs timing?
+
++ Sensory neurons spike more in response to some stimuli than others
+‘Motor neurons spike more before or during some actions than others
+
+ 
+
+‘Therefore, information about a stimulus (or motor action) is cared i
+l ‘numbers of spikes generated.
+
++ All neurons exhibit temporal modulation of ther fring rate (or spiking
+probability per unit time).
+
+If information is caried inthe slow modulations spike probability, we
+‘that the information is coded by firing rate.
+ENDELEMENTRate vs timing?
+
+ 
+
+ 
+ENDELEMENTRate vs timing?
+
++ Sensory neurons spike more in response to some stimuli than others
+‘Motor neurons spike more before or during some actions than others
+
+(Therefore, information about a stimulus (or motor action) is carried i
+|_ numbers of spikes generate.
+
++ All neurons exhibit temporal modulation oftheir fring rate (or spiking
+probability per unit time).
+
+(- IFinformation is cared in the slow modulations spike probability, we
+| that the information is coded by firing rate.
+
+‘Rate coding’
+ENDELEMENTRate vs timing?
+
+ 
+
+ 
+ENDELEMENTRate vs timing?
+
+ 
+
+ 
+ENDELEMENTRate vs timing?
+ENDELEMENTRate vs timing?
+
++ You may occasionally hear a debate about ‘rate coding’ vs.
+
+‘temporal coding’
+ENDELEMENTRate vs timing?
+
+‘You may occasionally hear a debate about ‘rate coding’ vs.
+‘temporal coding’
+
+This is a false dichotomy. These are two extremes along a
+spectrum.
+ENDELEMENTRate vs timing?
+
++ You may occasionally hear a debate about ‘rate coding’ vs.
+‘temporal coding’.
+
++ This is a false dichotomy. These are two extremes along a
+spectrum.
+
++ The brain uses information in spike trains at a fast timescale and
+ata slow timescale.
+ENDELEMENTRate vs timing?
+\comoezetenly rod sandkewtaoecdngte
+‘temporal coding
+
+This is a false dichotomy. These are two extremes along a
+spectrum.
+
+The brain uses information in spike trains at a fast timescale and
+ata slow timescale.
+
+How do we determine what timescales are important?
+
+We look at what the downstream neurons do with these spikes
+ENDELEMENTRate vs timing?
+\comoezetenyicrod sandkewtanecdnge
+‘temporal coding
+
+This is a false dichotomy. These are two extremes along a
+spectrum.
+
+The brain uses information in spike trains at a fast timescale and
+ata slow timescale.
+
+How do we determine what timescales are important?
+We look at what the downstream neurons do with these spikes
+
+> What timescale is relevant for the computation being do
+ENDELEMENTRate vs timing?
+\comoozeteny rod sandkewtaoecengie
+‘temporal coding
+
+This is a false dichotomy. These are two extremes along a
+spectrum.
+
+The brain uses information in spike trains at a fast timescale and
+ata slow timescale.
+
+How do we determine what timescales are important?
+We look at what the downstream neurons do with these spikes
+
+> What timescale is relevant for the computation being do
+ENDELEMENTRate vs timing?
+
+ 
+
+ 
+ENDELEMENTFor complete course materials
+and to support our work, visit:
+
+ocw.mit.edu
+ENDELEMENT

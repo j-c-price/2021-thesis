@@ -1,0 +1,5121 @@
+Some content in this video is not covers
+under our Creative Commons license.
+See the closing credits for more informat
+ENDELEMENTIntroduction to Neural
+Computation
+
+Prof. Michale Fee
+MIT BCS 9.40
+
+Lecture 10 - Time Series
+
+ 
+ENDELEMENTIntroduction to Neural
+Computation
+
+Prof. Michale Fee
+MIT BCS 9.40
+
+Lecture 10 - Time Series
+
+ 
+ENDELEMENTIntroduction to Neural
+Computation
+
+Prof. Michale Fee
+MIT BCS 9.40
+
+Lecture 10 - Time Series
+
+ 
+ENDELEMENTIntroduction to Neural
+Computation
+
+Prof. Michale Fee
+MIT BCS 9.40
+
+Lecture 10 - Time Series
+
+ 
+ENDELEMENTIntroduction to Neural
+Computation
+
+Prof. Michale Fee
+MIT BCS 9.40
+
+Lecture 10 - Time Series
+
+ 
+ENDELEMENTIntroduction to Neural
+Computation
+
+Prof. Michale Fee
+MIT BCS 9.40
+
+Lecture 10 - Time Series
+
+ 
+ENDELEMENTIntroduction to Neural
+Computation
+
+Prof. Michale Fee
+MIT BCS 9.40
+
+Lecture 10 - Time Series
+
+ 
+ENDELEMENTIntroduction to Neural
+Computation
+
+Prof. Michale Fee
+MIT BCS 9.40
+
+Lecture 10 - Time Series
+
+ 
+ENDELEMENTSpatial receptive fields
+
++ How do we represent receptive fields mathematically?
+
+Linear Nonlinear Model (LN Model)
+
+ 
+
+ 
+ENDELEMENTSpatial receptive fields
+
++ How do we represent receptive fields mathematically?
+
+Linear Nonlinear Model (UN Model)
+
+ 
+
+ 
+ENDELEMENTSpatial receptive fields
+
++ How do we represent receptive fields mathematically?
+
+LUnear Nonlinear Model (LN Model)
+
+ 
+
+ 
+ENDELEMENTSpatial receptive fields
+
++ How do we represent receptive fields mathematically?
+
+Linear Nonlinear Model (UN Model)
+
+ 
+
+ 
+ENDELEMENTSpatial receptive fields
+
++ How do we represent receptive fields mathematically?
+
+Linear Nonlinear Model (UN Model)
+
+ 
+
+ 
+ENDELEMENTSpatial receptive fields
+
++ How do we represent receptive fields mathematically?
+
+Linear Nonlinear Model (LN Model)
+
+ 
+
+ 
+ENDELEMENTSpatial receptive fields
++ How do we represent receptive fields mathematically?
+
+Linear Nonlinear Model (UN Mode)
+
+Tony) b=Gliwy] r=
+
+ 
+
+ 
+ENDELEMENTSpatial receptive fields
++ How do we represent receptive fields mathematically?
+
+Linear Nonlinear Model (UN Model)
+
+Tony) b=Gliwy) T=
+
+ 
+
+ 
+ENDELEMENTSpatial receptive fields
+
+* How do we represent receptive fields mathematicall
+
+Linear-Nonlinear Model (LN Model)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+x— fiter sentry oo
+wf HH!
+an
+
+1(x,y) L=G[Me)] [a+], s
+
+Sind. pty ha 7
+ENDELEMENTSpatial receptive fields
++ How do we represent receptive fields mathematically?
+
+Linear Nonlinear Model (UN Model)
+
+Tony) b=cliay] T=
+
+ 
+
+ 
+ENDELEMENTSpatial receptive fields
+
++ How do we represent receptive fields mathematically?
+
+Linear Nonlinear Model (UN Model)
+
+ 
+
+ 
+ENDELEMENTSpatial receptive fields
+
++ How do we represent receptive fields mathematically?
+
+Linear Nonlinear Model (LN Model)
+
+ 
+
+ 
+ENDELEMENTSpatial receptive fields
+
++ How do we represent receptive fields mathematically?
+
+Linear Nonlinear Model (UN Model)
+
+ 
+
+ 
+ENDELEMENTSpatial receptive fields
+
++ How do we represent receptive fields mathematically?
+
+Linear Nonlinear Model (UN Model)
+
+ 
+
+ 
+ENDELEMENTSpatial receptive fields
+
+* How do we represent receptive fields mathematicall
+
+Linear-Nonlinear Model (LN Model)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+x— fiter fenton) oe
+Ph)
+y al
+
+1(x,y) L=G[Me)] [a+], I
+
+Hiri. pte ea ne
+ENDELEMENTSpatial receptive fields
+
++ How do we represent receptive fields mathematically?
+
+LUnear Nonlinear Model (UN Model)
+
+ 
+
+ 
+ENDELEMENTSpatial receptive fields
+
++ How do we represent receptive fields mathematically?
+
+Linear Nonlinear Model (UN Model)
+
+ 
+
+ 
+ENDELEMENTSpatial receptive fields
+
++ How do we represent receptive fields mathematically?
+
+Linear Nonlinear Model (LN Model)
+
+ 
+
+ 
+ENDELEMENTSpatial receptive fields
+
++ How do we represent receptive fields mathematically?
+
+Linear Nonlinear Model (UN Model)
+
+ 
+
+ 
+ENDELEMENTSpatial receptive fields
+
++ How do we represent receptive fields mathematically?
+
+Linear Nonlinear Model (UN Model)
+
+ 
+
+ 
+ENDELEMENTSpatial receptive fields
+
++ How do we represent receptive fields mathematically?
+
+Linear Nonlinear Model (UN Model)
+
+ 
+
+ 
+ENDELEMENTSpatial receptive fields
+
++ How do we represent receptive fields mathematically?
+
+Linear Nonlinear Model (LN Model)
+
+ 
+
+ 
+ENDELEMENTSpatial receptive fields
++ How do we represent receptive fields mathematically?
+We are going to consider the simplest casein which he response
+
+of neuron is given by a linear fiter acting on the stimulus
+
+rant fJGc.ylexydeds
+
+rant Jocolnde
+
+ 
+
+ 
+ENDELEMENTSpatial receptive fields
+* How do we represent receptive fields mathematically
+
+We are going to consider the simplest case in which the res}
+of a neuron is given by a linear filter acting on the stimulus.
+y
+
+Gi
+r=nt [[G@ylGy)dedy
+
+Let's look at this in one dimension
+
+r=n+ [Golde AGC
+ENDELEMENTSpatial receptive fields
++ How do we represent receptive fields mathematically?
+We are going to consier the simplest casein which the response
+
+of a neuron is given by a linear fiter acting on the stimulus
+
+rapt [fon tayrdedy e f
+
+rant focoledr
+
+ 
+
+ 
+ENDELEMENTSpatial receptive fields
+* How do we represent receptive fields mathematically
+
+We are going to consider the simplest case in which the res}
+of a neuron is given by a linear filter acting on the stimulus.
+y
+
+Gi
+r=nt [[G@yly)dedy
+
+Let's look at this in one dimension
+
+r=n+ [Golde AGC
+ENDELEMENTSpatial receptive fields
++ How do we represent receptive fields mathematically?
+We are going to consider the simplest casein which he response
+
+of a neuron is given by a linear fiter acting on the stimulus.
+
+r=6+fotnytoryyacdy
+
+rant focolndr
+
+ 
+
+ 
+ENDELEMENTSpatial receptive fields
++ How do we represent receptive fields mathematically?
+We are going to consier the simplest casein which the response
+
+of a neuron is given by a linear fiter acting on the stimulus.
+
+r= 6+ focsyytexyracay
+
+rant fowoledr
+
+ 
+
+ 
+ENDELEMENTSpatial receptive fields
++ How do we represent receptive fields mathematically?
+We are going to consier the simplest casein which the response
+
+of neuron is given by a linear fiter acting on the stimulus
+
+rat fJGomtexydeds
+
+rant Jocolendr
+
+ 
+
+ 
+ENDELEMENTSpatial receptive fields
+
++ How do we represent receptive fields mathematically?
+
+ 
+
+ 
+ENDELEMENTSpatial receptive fields
++ How do we represent receptive fields mathematically
+
+Ge)
+
+WIT
+
+ 
+
+GI)
+
+- a hae
+ENDELEMENTSpatial receptive fields
+
++ How do we represent receptive fields mathematically?
+
+ 
+
+ 
+ENDELEMENTSpatial receptive fields
++ How do we represent receptive fields mathematically
+
+Ge)
+
+WT
+
+ 
+
+GI)
+
+oe oe eee
+ENDELEMENTSpatial receptive fields
+
++ How do we represent receptive fields mathematically?
+
+ 
+
+ 
+ENDELEMENTSpatial receptive fields
+
++ How do we represent receptive fields mathematically?
+
+ 
+
+ 
+ENDELEMENTSpatial receptive fields
++ How do we represent receptive fields mathematically
+
+Ge)
+
+WIT
+
+ 
+
+GI)
+
+oe oe eee
+ENDELEMENTSpatial receptive fields
+
++ How do we represent receptive fields mathematically?
+
+ 
+
+ 
+ENDELEMENTSpatial receptive fields
+
++ How do we represent receptive fields mathematically?
+
+GOK)
+
+an
+
+ 
+
+ 
+ENDELEMENTSpatial receptive fields
+
++ How do we represent receptive fields mathematically
+
+Ga) G(x)
+
+ 
+
+1x)
+
+(x) fo
+
+ 
+
+ 
+
+ 
+
+GOI) Go)
+a we
+ENDELEMENTSpatial receptive fields
+
++ How do we represent receptive fields mathematically?
+
+Goya)
+
+To
+
+ 
+
+ 
+ENDELEMENTSpatial receptive fields
+
++ How do we represent receptive fields mathematically?
+
+ 
+
+ 
+ENDELEMENTSpatial receptive fields
+
++ How do we represent receptive fields mathematically
+
+Ga) G(x)
+
+ 
+
+1x)
+
+M(x) fo
+
+ 
+
+ 
+
+ 
+
+GOI) Go)
+—— See
+ENDELEMENTSpatial receptive fields
++ How do we represent receptive fields mathematically?
+
+Goya)
+
+a
+
+ 
+
+ 
+ENDELEMENTSpatial receptive fields
+
++ How do we represent receptive fields mathematically?
+
+Goya)
+
+To
+
+ 
+
+ 
+ENDELEMENTTemporal receptive fields
+
++ We can also think ofthe response of a neuron as some
+function of the temporal variations in the stimulus.
+
+r= +D[S0)]
+
+ 
+
+ 
+ENDELEMENTTemporal receptive fields
+
++ We can also think of the response of a neuron as son
+function of the temporal variations in the stimulus.
+
+r(t)=4+D[SO]
+ENDELEMENTTemporal receptive fields
+
++ We can also think ofthe response of a neuron as some
+function of the temporal variations in the stimulus
+
+ri=n+D[S0)]
+
+ 
+
+ 
+ENDELEMENTTemporal receptive fields
+
++ We can think of overlap’ in the time domain! That there is.
+‘a particular ‘temporal profile! of a stimulus that makes a
+neuron spike.
+
+ 
+
+ 
+ENDELEMENTTemporal receptive fields
+
++ We can think of ‘overlap’ in the time domain! That there is.
+‘a particular ‘temporal profile! of a stimulus that makes a
+neuron spike.
+
+ 
+
+ 
+ENDELEMENTTemporal receptive fields
+
++ We can think of overlap’ in the time domain! That there is.
+‘a particular ‘temporal profile’ of a stimulus that makes a
+neuron spike.
+
+ 
+
+ 
+ENDELEMENTTemporal receptive fields
+
++ We can think of ‘overlap’ in the time domain! That th
+is a particular ‘temporal profile’ of a stimulus that mal
+neuron spike.
+
+ 
+ENDELEMENTTemporal receptive fields
+
++ We can think of ‘overlap’ in the time domain! That there is.
+‘a particular ‘temporal profile! of a stimulus that makes a
+neuron spike.
+
+ 
+
+ 
+ENDELEMENTTemporal receptive fields
+
++ We can think of ‘overlap’ in the time domain! That th
+is a particular ‘temporal profile’ of a stimulus that mal
+neuron spike.
+
+sit) i Stimulus
+
+Kernel
+ENDELEMENTTemporal receptive fields
+
++ We can think of overlap’ in the time domain! That there is.
+a particular ‘temporal profile’ of a stimulus that makes a
+neuron spike.
+
+ 
+
+ 
+ENDELEMENTTemporal receptive fields
+
++ We can think of ‘overlap’ in the time domain! That th
+is a particular ‘temporal profile’ of a stimulus that mal
+neuron spike.
+
+sit) i Stimulus
+
+| Kernel
+
+Se
+
+ickan Sea
+ENDELEMENTTemporal receptive fields
+
++ We can think of overlap’ in the time domain! That there is.
+‘a particular ‘temporal profile! of a stimulus that makes a
+neuron spike.
+
+2 penny [n=
+
+Ae
+
+Tinear Response
+
+ 
+
+ 
+ENDELEMENTSpatio-temporal receptive fields
++ How do we represent receptive fields mathematically?
+ine neural esponsesint a single kernel that captures
+
+th spatial and temporal se
+
+@
+
+Key) up=x{iesn) 1O=[e+L0],
+
+ 
+
+ 
+ENDELEMENTI
+
+y
+
+Spatio-temporal receptive field:
+
+* How do we represent receptive fields mathematicall
+
+Combine neural responses into a single kernel that captures
+both spatial and temporal sensitivity.
+
+x—
+
+# -
+
+I(x,yst)
+
+Simulus
+
+filter
+
+output
+nonlinearity
+
+ge
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+j
+
+ 
+
+@ y |
+1
+LoO=KUey.o) TO=[5+LO],
+. it
+ENDELEMENTSpatio-temporal receptive fields
++ How do we represent receptive fields mathematically?
+
+Combine neu ingle kernel that captures
+both spatial and te
+
+Key) uo=kiasn) 1O=[e+L0],
+
+ 
+
+ 
+ENDELEMENTLearning objectives for Lecture 10
+
+Spike trains are probabilistic (Poisson Process)
+Be able to use measures of spike train variabilly
+
+~ Inerspike Interval (S1)
+
+Understand convolution, cross-correlation, and
+autocorrelation functions
+
+Understand the concept of a Fourier series
+
+ 
+
+ 
+ENDELEMENTLearning objectives for Lecture 10
+
+Spike trains are probabilistic (Poisson Process)
+Be able to use measures of spike train variability
+
+~ Inerspike interval (S1)
+
+Understand convolution, cross-correlation, and
+autocorrelation functions
+
+Understand the concept of a Fourier series
+
+ 
+
+ 
+ENDELEMENTLearning objectives for Lecture 10
+
+Spike trains are probabilistic (Poisson Process)
+Be able to use measures of spike train variability
+
+Intrspko Interval (SI)
+
+Understand convolution, cross-correlation, and
+autocorrelation functions
+
+Understand the concept of a Fourier series
+
+ 
+
+ 
+ENDELEMENTLearning objectives for Lecture 10
+
+Spike trains are probabilistic (Poisson Process)
+Be able to use measures of spike train variabilly
+
+~ Inerspike interval (S1)
+
+Understand convolution, cross-correlation, and
+autocorrelation functions
+
+Understand the concept of a Fourier series
+
+ 
+
+ 
+ENDELEMENTLearning objectives for Lecture 10
+
+Spike trains are probabilistic (Poisson Process)
+Be able to use measures of spike train variability
+
+~ Inerspike Interval (SI)
+
+Understand convolution, cross-correlation, and
+autocorrelation functions
+
+Understand the concept of a Fourier series
+
+ 
+
+ 
+ENDELEMENTLearning objectives for Lecture 10
+
+Spike trains are probabilistic (Poisson Process)
+
+Be able to use measures of spike train variability
+— Fano Factor
+— Interspike Interval (ISI)
+
+Understand convolution, cross-correlation, and
+autocorrelation functions
+ENDELEMENTLearning objectives for Lecture 10
+
+Spike trains are probabilistic (Poisson Process)
+
+Be able to use measures of spike train variability
+— Fano Factor
+— Interspike Interval (ISI)
+
+Understand convolution, cross-correlation, and
+autocorrelation functions
+ENDELEMENTLearning objectives for Lecture 10
+
+Spike trains are probabilistic (Poisson Process)
+Be able to use measures of spike train varabilly
+
+~ Inerspike nterval (S1)
+
+Understand convolution, cross-correlation, and
+autocorrelation functions
+
+Understand the concept of a Fourier series
+
+ 
+
+ 
+ENDELEMENTLearning objectives for Lecture 10
+
+Spike trains are probabilistic (Poisson Process)
+Be able to use measures of spike train variability
+
+intrspko Interval (SI)
+
+Understand convolution, cross-correlation, and
+autocorrelation functions
+
+Understand the concept of a Fourier series
+
+ 
+
+ 
+ENDELEMENTLearning objectives for Lecture 10
+
+Spike trains are probabilistic (Poisson Process)
+Be able to use measures of spike train variability
+
+~ Inerspike Interval (S1)
+
+Understand convolution, cross-correlation, and
+autocorrelation functions
+
+Understand the concept of a Fourier series
+
+ 
+
+ 
+ENDELEMENTLearning objectives for Lecture 10
+
+Spike trains are probabilistic (Poisson Process)
+Be able to use measures of spike train variability
+
+= Inerspike Interval (S1)
+
+Understand convolution, cross-correlation, and
+autocorrelation functions
+
+Understand the concept of a Fourier series
+
+ 
+
+ 
+ENDELEMENTLearning objectives for Lecture 10
+
+Spike trains are probabilistic (Poisson Process)
+Be able to use measures of spike train variability
+
+Intrspko Interval (SI)
+
+Understand convolution, cross-correlation, and
+autocorrelation functions
+
+Understand the concept of a Fourier series
+
+ 
+
+ 
+ENDELEMENTLearning objectives for Lecture 10
+
+Spike trains are probabilstc (Poisson Process)
+Be able to use measures of spike train variability
+
+Intrspko Interval (SI)
+
+Understand convolution, cross-correlation, and
+autocorrelation functions
+
+Understand the concept of a Fourier series
+
+ 
+
+ 
+ENDELEMENTLearning objectives for Lecture 10
+
+Spike trains are probabilistic (Poisson Process)
+Be able to use measures of spike train varabilly
+
+~ Inerspike Interval (S1)
+
+Understand convolution, cross-correlation, and
+autocorrelation functions
+
+Understand the concept of a Fourier series
+
+ 
+
+ 
+ENDELEMENTLearning objectives for Lecture 10
+
++ Spike trains are probabilistic (Poisson Process)
+
+ 
+
+ 
+ENDELEMENTNeuronal responses are variable
+
++ Spike trains are often quite variable, The precise pattern of
+spikes on each presentation ofa stimulus s diferent.
+
+ 
+
+ 
+ENDELEMENTNeuronal responses are variable
+
++ Spike trans are often quite variable, The precise pattern of
+spikes on each presentation of a stimulus is different.
+
+ 
+
+ 
+ENDELEMENTNeuronal responses are variable
+
++ Spike trains are often quite variable, The precise pattern of
+spikes on each presentation ofa stimulus s different.
+
+ 
+
+ 
+ENDELEMENTNeuronal responses are variable
+
++ Spike trans are often quite variable, The precise pattern of
+spikes on each presentation ofa stimulus s ferent.
+
+ 
+
+ 
+ENDELEMENTNeuronal responses are variable
+
++ Spike trans are often quite variable, The precise pattern of
+spikes on each presentation of a stimulus is different.
+
+ 
+
+ 
+ENDELEMENTNeuronal responses are variable
+
++ Spike trans are often quite variable, The precise pattern of
+spikes on each presentation ofa stimulus is diferent.
+
+ 
+
+ 
+ENDELEMENTNeuronal responses are variable
+
++ Spike trains are often quite variable, The precise pattern of
+spikes on each presentation ofa stimulus s diferent.
+
+ 
+
+ 
+ENDELEMENTNeuronal responses are variable
+
++ Spike trains are often quite variable. The precise pattern
+spikes on each presentation of a stimulus is different.
+
+Stimulus
+
+ 
+
+ 
+ENDELEMENTNeuronal responses are variable
+
++ Spike trains are often uite variable, The precise patern of
+spikes on each presentation of a stimulus is diferent.
+
+ 
+
+ 
+ENDELEMENTNeuronal responses are variable
+
++ Spike trans are often quite variable, The precise pattern of
+spikes on each presentation ofa stimulus s diferent.
+
+ 
+
+ 
+ENDELEMENTNeuronal responses are variable
+
++ Spike trans are often quite variable, The precise pattern of
+spikes on each presentation ofa stimulus s diferent.
+
+ 
+
+ 
+ENDELEMENTNeuronal responses are variable
+
++ Spike trains are often quite variable, The precise pattern of
+spikes on each presentation ofa stimulus is different.
+
+ 
+
+ 
+ENDELEMENTNeuronal responses are variable
+
+obey “a
+
+ 
+
+ 
+ENDELEMENTNeuronal responses are variable
+
+Insane nonwovens ha an shes aan ape tect sake
+
+cin have aspen, we can tee
+
+ 
+
+ 
+ENDELEMENTNeuronal responses are variable
+
+Stimulus
+
+ 
+
+ 
+
+ 
+
+time
+
+ 
+
+ 
+
+‘oo1p0010100000x010010010,
+
+Imagine a random process that produces spikes at an average rate of
+per second during the stimulus presentation.
+
+Break up the spike train into small ime bins of some duration At. Each spike
+Generated independently of ather spikes and with equal probabil in each b
+‘re can write the probabtiy thata spike occurs in any bin as
+
+If At is small enough that most of the bins have zero spikes, we can write
+
+phar cre tgetgabiete waters yA aiagt videtaaite aa
+ENDELEMENTNeuronal responses are variable
+
+ 
+
+ 
+ENDELEMENTNeuronal responses are variable
+
+Stimulus
+
+ 
+
+ 
+
+ 
+
+time
+
+ 
+
+ 
+
+‘oo1p0010100000x010010030,
+
+Imagine a random process that produces spikes at an average rate of
+per second during the stimulus presentation.
+
+Break up the spike train into small ime bins of some duration At, Each spike
+Generated independently of other spikes and with equal probabil in each b
+‘re can write the probabtiy thata spike occurs in any bin as
+
+If At is small enough that most of the bins have zero spikes, we can write
+
+phar ore tgetabiete vty ait videtnaite aa
+ENDELEMENTNeuronal responses are variable
+
+ 
+
+ 
+ENDELEMENTNeuronal responses are variable
+
+ 
+
+ 
+ENDELEMENTNeuronal responses are variable
+
+bursecond ty Rasen eomnaternn cone rae
+
+yt ott i have ar sas, wo can te
+
+ 
+
+ 
+ENDELEMENTNeuronal responses are variable
+
+ 
+
+ 
+ENDELEMENTNeuronal responses are variable
+
+ 
+
+ 
+ENDELEMENTNeuronal responses are variable
+
+cba “a
+
+ 
+
+ 
+ENDELEMENTNeuronal responses are variable
+
+por eared dar fs srs ese ee ae
+
+ 
+
+ 
+ENDELEMENTNeuronal responses are variable
+
+ 
+
+ 
+ENDELEMENTNeuronal responses are variable
+
+ 
+
+ 
+ENDELEMENTNeuronal responses are variable
+
+parsecond aay Ro sania seoenstecne cin mee 2 ret
+
+ 
+
+ 
+ENDELEMENTNeuronal responses are variable
+
+Stimulus
+
+ 
+
+ 
+
+ 
+
+time
+
+ 
+
+ 
+
+‘oo1p00101000001010010010,
+
+Imagine a random process that produces spikes at an average rate of
+per second during the stimulus presentation.
+
+Break up the spike train into small ime bins of some duration At, Each spike
+Generated independently of other spikes and with equal probability in each b
+‘re can write the probabtity thata spike occurs in any bin as
+
+If At is small enough that most of the bins have zero spikes, we can write
+
+phar ore tugetabte waenbiniy Aaa t videtiaiie aa
+ENDELEMENTPoisson process
+
+Wats the probably that spikes land inthe intra? FeLi]
+
+ 
+
+ 
+ENDELEMENTPoisson process
+
+\__—_ - ——_-4
+
+ 
+
+ 
+
+How many spikes land in the interval T ?
+
+What is the probability that n spikes land in the interval 7? P.[7
+ENDELEMENTPoisson process
+
+ 
+
+ 
+
+How many spikes land in the interval T ?
+
+What is the probability that n spikes land in the interval 7? P.[7
+
+This is just the product of three things:
+~ The probabiliy of having n bin with a spike = (WLAt)"
+ENDELEMENTPoisson process
+
+Wats the probably that n spikes land inthe intra T? FeLn]
+
+ 
+
+ 
+ENDELEMENTPoisson process
+
+Whats the probably that spikes land inthe intra? FeLi]
+
+ 
+
+ 
+ENDELEMENTPoisson process
+
+ 
+
+ 
+
+How many spikes land in the interval T ?
+
+What is the probability that n spikes land in the interval 7? P.[7
+
+This is just the product of three things:
+~ The probability of having n bin with a spike = (WLAt)"
+ENDELEMENTPoisson process
+
+Wats the probably that n spikes land inthe nwa T? FeLi]
+
+ 
+
+ 
+ENDELEMENTPoisson process
+
+Whats the probably that n spikes land inthe ntwalT? FeLi]
+
+ 
+
+ 
+ENDELEMENTPoisson process
+
+omoieoMnOAO 4) gin,
+
+nats the peobabity that spikes land in tho nteralT? Fl)
+
+ 
+
+ 
+ENDELEMENTPoisson process
+
+omoieeMneO yin,
+
+the probably than spikes land inthe interval? FL]
+
+ 
+
+ 
+ENDELEMENTPoisson process
+
+Wats the probably that spikes land inthe intra? FeLi]
+
+ 
+
+ 
+ENDELEMENTPoisson process
+
+omeMnOO yin,
+
+nats the peobabitythatn spikes land in ho nteral 2 Fy{n}
+
+ 
+
+ 
+ENDELEMENTPoisson process
+
+ 
+
+ 
+
+How many spikes land in the interval T ?
+
+What is the probability that n spikes land in the interval 7? P.[7
+
+This is just the product of three things:
+~ The probabiliy of having n bin with a spike = (WLAt)"
+ENDELEMENTPoisson process
+
+Whats the probably that n spikes land inthe interval? FeLi]
+
+ 
+
+ 
+ENDELEMENTPoisson process
+
+ 
+
+ 
+
+How many spikes land in the interval T ?
+
+What is the probability that n spikes land in the interval 7? P.[7
+
+This is just the product of three things:
+~ The probabiliy of having n bin with a spike = (WLAt)"
+ENDELEMENTPoisson process
+
+P= tn uy a
+ee myn
+
+(ury
+
+Pin =
+
+Poisson distribution!
+
+ 
+
+ 
+ENDELEMENTPoisson process
+
+Pm = by A arpa
+
+(uy
+
+Pin] =
+
+Poisson distribution!
+
+ 
+
+ 
+ENDELEMENTPoisson process
+
+P= im A ua t= pas
+
+Pn] =
+
+Poisson distribution!
+
+ 
+
+ 
+ENDELEMENTPoisson process
+
+What is the probability that n spikes land in the interval T ?
+
+tellin any nay
+
+In the limit that: Ar—>0 M=T 0
+
+ 
+ENDELEMENTPoisson process
+
+m= ig Muar nas
+
+(uy
+
+Pin] =
+
+Poisson distribution!
+
+ 
+
+ 
+ENDELEMENTPoisson process
+
+m= by A aasr pas
+
+Bin)
+
+Poisson distribution!
+
+ 
+
+ 
+ENDELEMENTPoisson process
+
+P= tn uy na
+ee myn
+
+Piny = 2D
+
+Poisson distribution!
+
+ 
+
+ 
+ENDELEMENTPoisson process
+
+P= tn ay na
+Ee Le myn
+
+(uty
+
+Pin] =
+
+Poisson distribution!
+
+ 
+
+ 
+ENDELEMENTPoisson process
+
+Pm = by A anv pas
+
+Fin]
+
+Poisson distribution!
+
+ 
+
+ 
+ENDELEMENTPoisson process
+
+P= tn uy a
+ee Lea myn
+
+Piny = 2D
+
+Poisson distribution!
+
+ 
+
+ 
+ENDELEMENTPoisson process
+
+Bn = tin — Gu op = pa
+eae Leama
+
+(uty
+
+Fin] =
+
+Poisson distribution!
+
+ 
+
+ 
+ENDELEMENTPoisson process
+
+m= iy A ey
+
+Fin]
+
+Poisson distribution!
+
+ 
+
+ 
+ENDELEMENTPoisson process
+
+Wats the probably that spikes land inthe intra T? FeLi]
+
+ 
+
+ 
+ENDELEMENTPoisson process
+
+omoweMneO yin,
+
+pikes landin the intevalT? Pn}
+
+ 
+
+ 
+ENDELEMENTPoisson process
+
+Whats the probably that n spikes land inthe intra? FeLi]
+
+ 
+
+ 
+ENDELEMENTPoisson process
+1
+
+Whats the probabity that n spikes land inthe intra T?- FL]
+
+ 
+
+ 
+ENDELEMENTPoisson process
+
+omieMnAO 4) ain,
+
+pikes landin the ntenalT? Pn}
+
+ 
+
+ 
+ENDELEMENTPoisson process
+
+omoieoMnOAO yin,
+
+1 probably thatn spikes land in tho interval? P,{n}
+
+ 
+
+ 
+ENDELEMENTPoisson process
+
+Pl tm ua d= pas
+
+Fin]
+
+Poisson distribution!
+
+ 
+
+ 
+ENDELEMENTPoisson distribution
+
+The Poisson Distribution gives us the probability that n
+spikes land in the interval T
+
+ 
+
+Average (expected) number of spikes
+
+(»)=DaRinl=ur
+ENDELEMENTPoisson distribution
+
+The Poisson Distribution gives us the probability that n
+spikes land in the interval T
+
+ 
+
+Average (expected) number of spikes
+
+(»)=Daninl=ur
+ENDELEMENTPoisson distribution
+
+The Poisson Distribution gives us the probability that n
+spikes land in the interval T
+
+urs
+
+Yonin=ur
+
+ 
+
+ 
+ENDELEMENTPoisson distribution
+
+The Poisson Distribution gives us the probability that n
+spikes land in the interval T
+
+urs
+
+ 
+
+ 
+ENDELEMENTPoisson distribution
+
+The Poisson Distribution gives us the probability that n
+spikes land in the interval T
+
+Average (expected) number of spikes
+
+(»)=Dagtnl=ur
+
+is also the average
+
+ 
+ENDELEMENTPoisson distribution
+
+‘The Poisson Distribution gives us the probability that n
+spikes land in the interval T
+
+urs
+
+ 
+
+ 
+ENDELEMENTPoisson distribution
+
+The Poisson Distribution gives us the probability that n
+spikes land in the interval T
+
+Average (expected) number of spikes
+
+(n)=SnBini=ur
+
+in}
+oa!
+
+is also the average
+
+  
+ENDELEMENTPoisson distribution
+
+The Poisson Distribution gives us the probability that n
+spikes land in the interval T
+
+Average (expected) number of spikes
+
+(n)=SnBinj=ur
+
+Rin}
+oa!
+
+is also the average
+
+  
+ENDELEMENTPoisson distribution
+
+The Poisson Distribution gives us the probability that n
+spikes land in the interval T
+
+ 
+
+ 
+ENDELEMENTPoisson distribution
+
+The Poisson Distribution gives us the probability that n
+spikes land in the interval T
+
+ui
+
+ 
+
+ 
+ENDELEMENTPoisson distribution
+
+The Poisson Distribution gives us the probability that n
+spikes land in the interval T
+
+ 
+
+ 
+ENDELEMENTPoisson distribution
+
+The Poisson Distribution gives us the probability that n
+spikes land in the interval T
+
+ 
+
+ 
+ENDELEMENTPoisson distribution
+
+The Poisson Distribution gives us the probability that n
+spikes land in the interval T
+
+ui
+
+ 
+
+ 
+ENDELEMENTPoisson distribution
+
+The Poisson Distribution gives us the probability that n
+spikes land in the interval T
+
+Average (expected) number of spikes
+
+(n)=SnBini=ur
+
+in}
+oa!
+
+is also the average
+
+  
+ENDELEMENTPoisson distribution
+
+The Poisson Distribution gives us the probability that n
+spikes land in the interval T
+
+ 
+
+ 
+ENDELEMENTSpike count variability
+
+What isthe variance in the number of spikes that land in the
+interval T ?
+
+ 
+
+ 
+ENDELEMENTSpike count variability
+
+What isthe variance in the number of spikes that land in the
+interval T?
+
+ 
+
+ 
+ENDELEMENTSpike count variability
+
+What is the variance in the number of spikes that land |
+interval T?
+
+Variance in spike count
+or) = iol)
+= ()-2(n +(nf
+= ()- o
+ENDELEMENTPoisson distribution
+
+The Poisson Distribution gives us the probability that n
+spikes land in the interval T
+
+urs
+
+ 
+
+ 
+ENDELEMENTSpike count variability
+
+What is the variance in the number of spikes that land |
+interval T?
+
+Variance in spike count
+or) = iol)
+= ()-2(n +(nf
+= ()- o
+ENDELEMENTSpike count variability
+
+What isthe variance in the number of spikes that land in the
+interval T?
+
+urs
+
+(Vatanes broke eon
+
+ 
+
+ 
+ENDELEMENTSpike count variability
+
+What is the variance in the number of spikes that land |
+interval T?
+
+Variance in spike count
+or) = iol)
+= ()-2(n +(nf
+= ()- o
+ENDELEMENTSpike count variability
+
+What isthe variance in the number of spikes that land in the
+interval T?
+
+ 
+
+ 
+ENDELEMENTSpike count variability
+
+What isthe variance in the number of spikes that land in the
+interval T?
+
+Variance in spike count Fano Facior
+
+ 
+
+ 
+ENDELEMENTSpike count variability
+
+What is the variance in the number of spikes that land |
+interval T?
+
+Variance in spike count
+
+oT) = iol)
+= ()~2(n + (af
+= ()- -
+
+ 
+ENDELEMENTSpike count variability
+
+What isthe variance in the number of spikes that land in the
+interval T?
+
+Variance in pike count Fano Factor
+
+ 
+
+ 
+ENDELEMENTSpike count variability
+
+What isthe variance in the number of spikes that land in the
+interval T?
+
+Variance in spike count Fano Facior
+
+ 
+
+ 
+ENDELEMENTSpike count variability
+
+What isthe variance in the number of spikes that land in the
+interval T?
+
+urs
+
+Variance in spike count Fano Factor
+
+od)
+
+310) = (n=(n)} F 1
+
+ 
+
+ 
+ENDELEMENTSpike count variability
+
+What isthe variance in the number of spikes that land in the
+interval T ?
+
+urs
+
+Variance in pike count Fano Factor
+
+od)
+
+F 1
+
+ 
+
+ 
+ENDELEMENTSpike count variability
+
+What isthe variance in the number of spikes that land in the
+interval T?
+
+Variance in spike count Fano Factor
+
+od)
+
+ 
+
+ 
+ENDELEMENTInterspike interval (ISI) distribution
+
+nat is the dstibuton of intervals between spikes?
+
+Ar
+
+ 
+
+ 
+ENDELEMENTInterspike interval (ISI) distribution
+
+nat is the dstibuton of intervals between spikes?
+
+Ar
+r
+
+ 
+
+ 
+ENDELEMENTInterspike interval (ISI) distribution
+
+nat is the dstibuton of intervals between spikes?
+
+4 Ar
+
+ 
+
+ 
+ENDELEMENTInterspike interval (ISI) distribution
+
+Wat is the cstibuton of intervals betweon spikes?
+
+Ar
+r
+
+ 
+
+ 
+ENDELEMENTInterspike interval (ISI) distribution
+
+nat is the dstibuton of intervals between spikes?
+
+ar
+r
+
+ 
+
+ 
+ENDELEMENTInterspike interval (ISI) distributio
+What is the distribution of intervals between spikes?
+G At
+———") Tha Wt
+
+t t,
+
+i ist
+ENDELEMENTInterspike interval (ISI) distributio
+
+What is the distribution of intervals between spikes?
+
+ 
+
+At
+) Thanh
+Li bist
+
+The probability of having the next spike land in the interval
+between f,, and p.4Ar is
+ENDELEMENTInterspike interval (ISI) distribution
+
+nat is the dstibuton of intervals between spikes?
+
+. Ar
+
+1, on
+
+The probabity of having the next sike land inthe interval
+between 1, a0 5
+
+ 
+
+ 
+ENDELEMENTInterspike interval (ISI) distribution
+
+nat is the catibuton of intervals between spikes?
+
+5 A
+
+| bat
+
+The probabity of having the next sike land inthe interval
+between 1, and ®
+
+ 
+
+ 
+ENDELEMENTInterspike interval (ISI) distribution
+
+nat is the dstibuton of intervals between spikes?
+
+Ar
+r
+
+| fi
+
+The probabity of having the next spike land inthe interval
+between f,, and 7, 4Ar i
+
+ 
+
+ 
+ENDELEMENTInterspike interval (ISI) distribution
+
+Wats the dstibuton of intervals between spikes?
+
+Ar
+r
+
+4 1
+
+The probabity of having the next spike lad inthe intra
+between 1, and 1,440 1
+
+ 
+
+ 
+ENDELEMENTInterspike interval (ISI) distribution
+
+nat is the distibuton of intervals between spikes?
+
+3 A
+
+| a
+
+The probabity of having the next sike lan inthe interval
+between 1, and 5
+
+ 
+
+ 
+ENDELEMENTInterspike interval (ISI) distribution
+
+Wats the cstibuton of intervals between spikes?
+
+Ar
+g
+
+| bat
+
+The probabity of having the next spike land inthe interval
+between f,, and 7,4 Ar i
+
+ 
+
+ 
+ENDELEMENTSpike count variability
+
+What isthe variance in the number of spikes that land in the
+interval T?
+
+ 
+
+ 
+ENDELEMENTSpike count variability
+
+What is the variance in the number of spikes that land |
+interval T?
+
+Bin = TY gor
+nt
+ENDELEMENTSpike count variability
+
+What isthe variance in the number of spikes that land in the
+interval T?
+
+ 
+
+ 
+ENDELEMENTInterspike interval (ISI) distribution
+
+nat is the catibuton of intervals between spikes?
+
+Ar
+r
+
+i fey
+
+The probabity of having the next spike land inthe interval
+between 1, and 7,.4Ar i
+
+ 
+
+ 
+ENDELEMENTInterspike interval (ISI) distributic
+
+What is the distribution of intervals between spikes?
+
+ 
+
+The probability of having the next spike land in the interval
+between f,, and 4.4 Ar is
+
+ 
+
+pinzoy= Ne
+
+PItSty-4<t+At] = &*
+ENDELEMENTInterspike interval (ISI) distribution
+
+nat is the distibuton of intervals between spikes?
+
+. A
+
+| ba
+
+The peobabity of having the next spike land inthe intra
+between 1, and 1,40
+
+ 
+
+ 
+ENDELEMENTInterspike interval (ISI) distribution
+
+nat is the datibuton of intervals between spikes?
+
+i
+
+The peobabity of having the next spike land inthe nto
+
+between f,, and 1.4 Ar i
+
+ 
+
+ 
+ENDELEMENTInterspike interval (ISI) distributic
+
+What is the distribution of intervals between spikes?
+
+ 
+
+The probability of having the next spike land in the interval
+
+between and is:
+fia ft dt Pin=0) = oe
+
+ 
+
+PItSty-4<t+At] = &*
+ENDELEMENTInterspike interval (ISI) distributic
+
+What is the distribution of intervals between spikes?
+
+  
+
+The probability of having the next spike land in the interval
+between f,,, and 4.4 Ar is
+
+ 
+
+PItSty-h<t+At] = &" At
+ENDELEMENTInterspike interval (ISI) distribution
+
+\Wnat is the cstibuton of intervals between spikes?
+
+Ar
+r
+
+i fen
+
+The peobabity of having the next spike land inthe nto
+
+between f,, and 7,4 Ar i
+
+ 
+
+ 
+ENDELEMENTInterspike interval (ISI) distribution
+
+nats the dstibuton of intervals between spikes?
+
+Ar
+r
+
+i fig
+
+The probabity of having the next spike lan inthe interval
+between 1, and 7, 4Ar i
+
+ 
+
+ 
+ENDELEMENTInterspike interval (ISI) distribution
+
+nat is the dstibuton of intervals between spikes?
+
+Ar
+t
+
+1 ba
+
+The probabity of having the next spike land inthe intra
+
+between 1, and 1, 4AF
+
+ 
+
+ 
+ENDELEMENTInterspike interval (ISI) distribution
+nat is the datibuton of intervals between spikes?
+Ar
+
+i fey
+
+The probabty of having ten sien te ter
+
+ 
+
+ 
+ENDELEMENTInterspike interval (ISI) distribution
+
+nat is the dstibuton of intervals between spikes?
+
+1
+
+The peobabity of having the next spike land inthe intra
+
+between f,, and 1, 4AF
+
+ 
+
+ 
+ENDELEMENTInterspike interval (ISI) distribution
+hats the distribution ofinervas betwen spies?
+
+Ar
+r
+
+| hat
+
+The probabity of having the next sike land inthe interval
+between 1, and
+
+ 
+
+ 
+ENDELEMENTInterspike interval (ISI) distribution
+hats the distribution ofintervas betwen spkes?
+
+ar
+r
+
+i ben
+
+The probabity of having the next sike land inthe interval
+between 1, and
+
+ 
+
+ 
+ENDELEMENTInterspike interval (ISI) distribution
+
+Wat is the cstibuton of intervals between spikes?
+
+1
+
+The proba having
+
+ 
+
+ 
+ENDELEMENTInterspike interval (ISI) distribution
+
+nat is the distibuton of intervals between spikes?
+
+Ar
+
+1 in
+
+The probably density (probably pr und me is just
+
+ 
+
+ 
+ENDELEMENTInterspike interval (ISI) distribution
+
+nat is the dstibuton of intervals between spikes?
+
+ar
+r
+
+| ba
+
+‘The probably density (probably pr un me is just
+
+Lach =r
+Fr
+
+ 
+
+ 
+ENDELEMENTInterspike interval (ISI) distributio
+
+What is the distribution of intervals between spikes?
+
+ 
+
+At
+T= hah
+Li bist
+
+The probability density (probability per unit time) is just
+
+1
+spicy = re"
+u {t] = re
+ENDELEMENTInterspike interval (ISI) distribution
+
+nat is the datibuton of intervals between spikes?
+
+: A
+
+| fen
+
+The probably density (probably per unt me is just.
+
+ 
+
+ 
+ENDELEMENTInterspike interval (ISI) distributic
+
+What is the distribution of intervals between spikes?
+
+At
+J) Te hah
+f fia
+
+‘The probability density (probability per unit time) is just
+
+Hrd =
+‘
+
+ 
+
+ 
+ENDELEMENTInterspike interval (ISI) distribution
+
+nat is the dstibuton of intervals between spikes?
+
+3 Ar
+
+i i
+
+The probably density (probably per unt me is just
+
+ 
+
+ 
+ENDELEMENTInterspike interval (ISI) distribution
+
+What is the cstibuton of intervals between spikes?
+
+3 A
+
+1 |
+
+The probably density (probably pr unt me is just
+
+ 
+
+ 
+ENDELEMENTInterspike interval (ISI) distribution
+
+Wat is the dstibuton of intervals between spikes?
+
+A
+t
+
+i in
+
+The probably density (probably pr unt me is just
+
+ 
+
+ 
+ENDELEMENTInterspike interval (ISI) distribution
+
+nat is the dstibuton of intervals between spikes?
+
+Ar
+r
+
+i a
+
+The probably density (probably pr und me is just
+
+ 
+
+ 
+ENDELEMENTInterspike interval (ISI) distribution
+
+What is the cstibuton of intervals between spikes?
+3 Ar
+
+1 fen
+
+The probably density (probably pr unt me is just
+
+ 
+
+ 
+ENDELEMENTInterspike interval (ISI) distribution
+
+nat is the dstibuton of intervals between spikes?
+
+3 Ar
+
+| ig
+
+‘The probably densty (probably pr unt me is just
+
+ 
+
+ 
+ENDELEMENTInterspike interval (ISI) distribution
+
+nat is the dstibuton of intervals between spikes?
+
+Ar
+r
+
+i bat
+
+The probably density (probably pr und me is just
+
+ 
+
+ 
+ENDELEMENTInterspike interval (ISI) distribution
+
+\Wnat is the cstibuton of intervals between spikes?
+
+Ar
+;
+
+1 |
+
+The probably density (probably per unt me is just
+
+ 
+
+ 
+ENDELEMENTInterspike interval (ISI) distribution
+
+nat is the datibuton of intervals between spikes?
+
+; Ar
+
+|
+
+ 
+
+ 
+ENDELEMENTInterspike interval (ISI) distribution
+
+nat is the distibuton of intervals between spikes?
+
+ar
+t
+
+| hat
+
+The probably density (probably pr unt me is just
+
+ 
+
+ 
+ENDELEMENTInterspike interval (ISI) distribution
+
+nat is the datibuton of intervals between spikes?
+
+Ar
+Z
+
+i bat
+
+The probably density (probably pr unt me is just
+
+ 
+
+ 
+ENDELEMENTInterspike interval (ISI) distribution
+
+nat is the dstibuton of intervals between spikes?
+
+3 Ar
+
+1 |
+
+The probably density (probably pr unt me is just
+
+ 
+
+ 
+ENDELEMENTInterspike interval (ISI) distribution
+
+nat is the dstibuton of intervals between spikes?
+
+3 Ar
+
+i bat
+
+The probably density (probably pr und me is just
+
+ 
+
+ 
+ENDELEMENTInterspike interval (ISI) distribution
+
+nat is the dstibuton of intervals between spikes?
+
+: Ar
+
+i bat
+
+The probably density (probably pr unt me is just
+
+ 
+
+ 
+ENDELEMENTInterspike interval (ISI) distribution
+
+nat is the dstibuton of intervals between spikes?
+
+2 Ar
+
+i fen
+
+The probably density (probably pr unt me is just
+
+ 
+
+ 
+ENDELEMENTInterspike interval (ISI) distribution
+Whats the distribution ofintervas betwen spkes?
+ar
+
+1 fen
+
+The probably density (probably pr und me is just
+
+ 
+
+ 
+ENDELEMENTInterspike interval (ISI) distribution
+
+nat is the distibuton of intervals between spikes?
+
+3 Ar
+
+| bt
+
+The probably density (probably pr unt me is just
+
+ 
+
+ 
+ENDELEMENTInterspike interval (ISI) distribution
+
+\Wnat is the cstrbuton of intervals between spikes?
+
+; Ar
+
+1
+
+ 
+
+ 
+ENDELEMENTInterspike interval (ISI) distribution
+
+nat is the datibuton of intervals between spikes?
+
+Ar
+r
+
+| fey
+
+The probably density (probably per unt me is just
+
+ 
+
+ 
+ENDELEMENTInterspike interval (IS!) distribution
+
+nat is the dstibuton of intervals between spikes?
+
+Ar
+r
+
+i hat
+
+The probably density (probably pr und me is just
+
+ 
+
+ 
+ENDELEMENTInterspike interval (ISI) distribution
+
+nat is the datibuton of intervals between spikes?
+
+3 Ar
+
+i fen
+
+The probably density (probably per unt me is just
+
+ 
+
+ 
+ENDELEMENTHomogeneous vs inhomogeneous
+Poisson process
+
+Homogeneous Irnomogenaous
+
+ 
+
+ 
+ENDELEMENTHomogeneous vs inhomogeneous
+Poisson process
+
+Stimulus
+
+ 
+
+lsat aaa
+ENDELEMENTHomogeneous vs inhomogeneous
+Poisson process
+
+Homogeneous. Innomogeneous
+
+ 
+
+ 
+ENDELEMENTHomogeneous vs inhomogeneous
+Poisson process
+
+Homogeneous Irnomogenoous
+
+ 
+
+ 
+ENDELEMENTHomogeneous vs inhomogeneous
+Poisson process
+
+Homogeneous Innomogeneous
+
+ 
+
+ 
+ENDELEMENTLearning objectives for Lecture 10
+
++ Understand convolution, cross-correlation, and
+autocorrelation functions
+
+ 
+
+ 
+ENDELEMENTConvolution
+
++ We have discussed the idea of convolution
+
+ 
+
+= farGcext-2)
+
+= To model the response of membrane potential to synaptic i
+ENDELEMENTConvolution
+
++ We have discussed the idea of convolution
+
+w= farcen-2)
+
+Te model he response of membrane potential to synaptic input
+
+ 
+
+ 
+ENDELEMENTConvolution
+
++ We have discussed the idea of convolution
+
+ 
+
+= farGcext-2)
+
+= To model the response of membrane potential to synaptic i
+ENDELEMENTConvolution
+
++ We have discussed the idea of convolution
+
+nin= farccerne-2)
+
+ 
+
+ 
+ENDELEMENTConvolution
+
++ We have discussed the idea of convolution
+
+w= farcenn-2)
+
+Teo model he response of membrane potential to synaptic input
+
+ 
+
+ 
+ENDELEMENTConvolution
+* We have discussed the idea of convolution
+
+= farGcext-2)
+
+= To model the response of membrane potential to synaptic i
+
+— To model the response of neurons to a time-dependent stir
+ENDELEMENTConvolution
+
++ We have discussed the idea of convolution
+yin= farcierne=2)
+
+Toimplement a low-pass or high-pass fiter
+
+ 
+
+ 
+ENDELEMENTConvolution
+
++ We have discussed the idea of convolution
+
+w= farcenne-2)
+
+To implement a low-pass or high-pass fiter
+
+ 
+
+ 
+ENDELEMENTConvolution
+
++ We have discussed the idea of convolution
+
+wo
+
+~ Toimplemont a low-pass or high-pass itr
+
+ 
+
+ 
+ENDELEMENTConvolution
+* We have discussed the idea of convolution
+
+= farGcext-2)
+
+— To model the response of membrane potential to synaptic i
+— To model the response of neurons to a time-dependent stir
+
+= To implement a low-pass or high-pass filter
+
+    
+
+ 
+ENDELEMENTConvolution
+
++ We have discussed the idea of convolution
+w= faeces)
+
+To implementa low-pass or high-pass fier
+
+ 
+
+ 
+ENDELEMENTConvolution
+
++ We have discussed the idea of convolution
+
+wos]
+
+~ Toimplemont a low-pass or high-pass tr
+
+ 
+
+ 
+ENDELEMENTConvolution
+
++ We have discussed the idea of convolution
+
+soe]
+
+low-pass or high-pass fier
+
+ 
+
+ 
+ENDELEMENTCross-correlation function
+
++ Away to examine the temporal relation between signals.
+
+Ke)= f drxcoy
+
+ 
+
+ 
+ENDELEMENTCross-correlation function
++ Away to examine the temporal relation between signals.
+
+K@= Jarx@yer+e)
+
+ 
+
+HD ng
+
+  
+
+yt)
+
+  
+ENDELEMENTCross-correlation function
+
++ Away to examine the temporal relation between signals.
+
+Keo) fasion
+
+ 
+
+ 
+ENDELEMENTCross-correlation function
++ Away to examine the temporal relation between signals.
+
+K@= Jarx@yer+e)
+
+ 
+
+HD ng
+
+  
+
+wt)
+
+     
+ENDELEMENTCross-correlation function
++ Away to examine the temporal relation between signals.
+
+K@= Jarx@yer+e)
+
+ 
+
+HD ng
+
+  
+
+wt)
+
+     
+ENDELEMENTCross-correlation function
+
++ Away to examine the temporal relation between signals.
+
+ 
+
+ 
+ENDELEMENTCross-correlation function
+
++ Away to examine the temporal relation between signals.
+
+KE)= f drxcoye
+
+ 
+
+ 
+ENDELEMENTCross-correlation function
+
++ Away to examine the temporal relation between signals.
+
+Ke)= f drxioy
+
+ 
+
+ 
+ENDELEMENTCross-correlation function
+
++ Away to examine the temporal relation between signals.
+
+ 
+
+ 
+ENDELEMENTCross-correlation function
+
++ Away to examine the temporal relation between signals.
+
+K@)= farxtoye+t
+
+ 
+
+ 
+ENDELEMENTCross-correlation function
+
++ Away to examine the temporal relation between signals.
+
+KE)= f drxioy
+
+ 
+
+ 
+ENDELEMENTCross-correlation function
++ Away o examine the temporal elation between signals,
+
+Kea) fasion
+
+ 
+
+ 
+ENDELEMENTCross-correlation function
+
++ Away to examine the temporal relation between signals.
+
+K@)= fdrxmye+
+
+ 
+
+ 
+ENDELEMENTCross-correlation function
+
++ Away to examine the temporal relation between signals.
+
+KE)= f drxcoyt
+
+ 
+
+ 
+ENDELEMENTCross-correlation function
+
++ Away to examine the temporal relation between signals.
+
+K()= f drxcoy
+
+ 
+
+ 
+ENDELEMENTCross-correlation function
+
++ Away to examine the temporal relation between signals.
+
+ 
+
+ 
+ENDELEMENTCross-correlation function
++ Away to examine the temporal relation between signals.
+
+K(a)= f dtex(ye+)
+
+ 
+
+ecor{slsyOata,NosyOat Nags)
+
+K=xey
+ENDELEMENTCross-correlation function
++ Away to examine the temporal relation between signals.
+
+K(a)= f dtexye+)
+
+   
+
+XCD) 88 ung etna Mt tie of
+
+I) pra Ldn Cnet iy
+aN i
+
+ 
+
+cor stelsyOata,NosyOat Nags
+
+K=xey
+ENDELEMENTCross-correlation function
+
++ Away to examine the temporal relation between signals.
+
+K@)= farxoye+t
+
+ 
+
+ 
+ENDELEMENTCross-correlation function
+
++ Away to examine the temporal relation between signals.
+
+ 
+
+ 
+ENDELEMENTCross-correlation function
+
++ Away to examine the temporal relation between signals.
+
+K()= f drxcoye
+
+ 
+
+ 
+ENDELEMENTCross-correlation function
+
++ Away to examine the temporal relation between signals.
+
+K@)= farxnye+
+
+ 
+
+ 
+ENDELEMENTCross-correlation function
++ Away to examine the temporal relation between signals.
+
+K(a)= f dtex(ye+)
+
+A(E) sig ein
+
+ 
+
+yt)
+
+  
+
+ecor{selyOata,NosyOat Ng):
+
+K=xey
+ENDELEMENTCross-correlation function
+
++ Away to examine the temporal relation between signals.
+
+K@)= farxcoyt
+
+ 
+
+ 
+ENDELEMENTCross-correlation function
+
++ Away to examine the temporal relation between signals.
+
+Kee)= f drxcoy
+
+ 
+
+ 
+ENDELEMENTCross-correlation function
+
++ Away to examine the temporal relation between signals.
+
+K@)= farxoye+t
+
+ 
+
+ 
+ENDELEMENTCross-correlation function
+
++ Away to examine the temporal relation between signals.
+
+Kio) fascoy
+
+ 
+
+ 
+ENDELEMENTCross-correlation function
+
++ Away to examine the temporal relation between signals.
+
+Kee)= f drxcoy
+
+ 
+
+ 
+ENDELEMENTCross-correlation function
+
++ Away to examine the temporal relation between signals.
+
+ 
+
+ 
+ENDELEMENTCross-correlation function
++ Away to examine the temporal relation between signals.
+
+K(a)= f dtex(ye+)
+
+ 
+
+ecor{slsyOata,NosyOat Nags)
+
+K=xey
+ENDELEMENTCross-correlation function
+
++ Away to examine the temporal relation between signals.
+
+Ki) fascori
+
+ 
+
+ 
+ENDELEMENTCross-correlation function
+
++ Away to examine the temporal relation between signals.
+
+K@e)= farxcoye +t
+
+ 
+
+ 
+ENDELEMENTCross-correlation function
+
++ Away to examine the temporal relation between signals.
+
+K(e)= f drxiny
+
+ 
+
+ 
+ENDELEMENTCross-correlation function
+
++ Away to examine the temporal relation between signals.
+
+K(e)= f drxcoy
+
+ 
+
+ 
+ENDELEMENTCross-correlation function
+
++ Away to examine the temporal relation between signals.
+
+KE)= f drxcoye
+
+ 
+
+ 
+ENDELEMENTCross-correlation function
+
+*+ Away to examine the temporal relation between signals.
+
+K@)= f drxiny
+
+ 
+
+ 
+ENDELEMENTCross-correlation function
++ Away to examine the temporal relation between signals
+
+Ki) fascoyi
+
+ 
+
+ 
+ENDELEMENTCross-correlation function
++ Away to examine the temporal relation between signals,
+
+Ki) fascor
+
+ 
+
+ 
+ENDELEMENTCross-correlation function
+
++ Away to examine the temporal relation between signals.
+
+ 
+
+ 
+ENDELEMENTCross-correlation function
++ Away to examine the temporal elation between signals
+
+Kea) farscoy(e+
+
+ 
+
+ 
+ENDELEMENTCross-correlation function
+
++ Away to examine the temporal relation between signals.
+
+K@)= f drxcoy
+
+ 
+
+ 
+ENDELEMENTCross-correlation function
++ Away to examine the temporal relation between signals.
+
+K(a)= f dtex(ye+)
+
+A(E) sign
+
+ 
+
+yt)
+
+  
+
+encore Oata,NosyOat Nags)
+
+K=xey
+ENDELEMENTCross-correlation function
+
++ Away to examine the temporal relation between signals.
+
+ 
+
+ 
+ENDELEMENTCross-correlation function
+
++ Away to examine the temporal relation between signals.
+
+Kan= J dexton
+
+ 
+
+ 
+ENDELEMENTCross-correlation function
+
++ Away to examine the temporal relation between signals.
+
+Ki)= fasioys
+
+ 
+
+ 
+ENDELEMENTCross-correlation function
+
++ Away to examine the temporal relation between signals.
+
+ 
+
+ 
+ENDELEMENTCross-correlation function
+
+*+ Away to examine the temporal relation between signals.
+
+KE)= f drxcoy
+
+ 
+
+ 
+ENDELEMENTCross-correlation function
+
++ Away to examine the temporal relation between signals.
+
+KE)= f drxcoy
+
+ 
+
+ 
+ENDELEMENTCross-correlation function
+
++ Away to examine the temporal relation between signals.
+
+K@)= farxnye+t
+
+ 
+
+ 
+ENDELEMENTCross-correlation function
+
++ Away to examine the temporal relation between signals.
+
+ 
+
+ 
+ENDELEMENTCross-correlation function
++ Away to examine the temporal relation between signals,
+
+Kio) fascoy(
+
+ 
+
+ 
+ENDELEMENTCross-correlation function
+
++ Away to examine the temporal relation between signals.
+
+K@)= fadrxmye +
+
+ 
+
+ 
+ENDELEMENTCross-correlation function
+
++ Away to examine the temporal relation between signals.
+
+Kia) farsioyest
+
+ 
+
+ 
+ENDELEMENTCross-correlation function
+
++ Away to examine the temporal relation between signals.
+
+Kans Jdrxtonter
+
+ 
+
+ 
+ENDELEMENTCross-correlation function
+
++ Away to examine the temporal relation between signals.
+
+Kis fasion
+
+ 
+
+ 
+ENDELEMENTCross-correlation function
+
++ Away to examine the temporal relation between signals.
+
+K@)= farxoye+t
+
+ 
+
+ 
+ENDELEMENTCross-correlation function
+
++ Away to examine the temporal relation between signals.
+
+KE)= f drxcoy
+
+ 
+
+ 
+ENDELEMENTCross-correlation function
+
++ Away to examine the temporal relation between signals.
+
+Kee)= fatto
+
+ 
+
+ 
+ENDELEMENTCross-correlation function
+
++ Away to examine the temporal relation between signals.
+
+K@)= farxmye+t
+
+ 
+
+ 
+ENDELEMENTCross-correlation function
+
++ Away to examine the temporal relation between signals.
+
+ 
+
+ 
+ENDELEMENTCross-correlation function
+
++ Away to examine the temporal relation between signals.
+
+K(e)= f drxcoy
+
+ 
+
+ 
+ENDELEMENTCross-correlation function
++ Away to examine the temporal relation between signals.
+
+K(a)= f dtex(ye+)
+
+A(E) sign
+
+ 
+
+yt)
+
+  
+
+ecor{stelyOata,NosyOat Ng
+
+K=xey
+ENDELEMENTCross-correlation function
+
++ Away to examine the temporal relation between signals.
+
+K@)= f drxinyet
+
+ 
+
+ 
+ENDELEMENTRelation between Convolution and
+Cross-correlation
+
+hese are mathematically very similar, but are used diferent
+
+Convolution Cross-corteation
+
+A= JarKcone-n Kas faxes)
+
+Think of x(t) and s(?)as long vectors (signals)
+
+Think of K(t) as a short vector (kernel)
+
+ 
+
+ 
+ENDELEMENTRelation between Convolution and Cros
+correlation
+
++ These are mathematically very similar, but are used differer
+
+ 
+
+Convolution Cross-correlation
+w= J deK@xt-1) K()= fdrx@yt+1
+Take input signal x(t) and Take two signals, x(t) and
+convolve it with kernel K to get and cross-correlate to extra
+
+output signal y(t) . ‘temporal ‘kernel’ K.
+
+ 
+
+oe ee’
+
+ 
+ENDELEMENTRelation between Convolution and
+Cross-correlation
+
++ These are mathematically very similar, but are used diferent
+
+Convolution Cross-correlation
+
+K(= Jerson)
+
+Toko input signal x) and Take wo signals) and 0),
+
+Think of x(1) and s(1)as long vectors (signals)
+
+Think of K(f) as a short vector (kernel)
+
+ 
+
+ 
+ENDELEMENTRelation between Convolution and
+Cross-correlation
+
++ These are mathematically very similar, but are used diferent
+
+Convolution Cross-corteation
+
+0 farxcone—0 k= farsove+e)
+
+Think of x(t) and s(1)as long vectors (signals)
+
+Think of K(f) as a short vector (kernel)
+
+ 
+
+ 
+ENDELEMENTRelation between Convolution and Cros
+correlation
+
++ These are mathematically very similar, but are used differer
+
+ 
+
+Convolution Cross-correlation
+w= J deK@xt-1) K()= fdrx@yt+1
+Take input signal x(t) and Take two signals, x(t) and
+convolve it with kernel K to get and cross-correlate to extra
+
+output signal y(t). temporal ‘kernel’ K.
+
+ 
+
+Mepis se te
+
+ 
+ENDELEMENTRelation between Convolution and
+Cross-correlation
+
++ These are mathematically very similar, but are used diferent
+
+Convolution Cross-correlation
+
+Key axons)
+
+‘ok int signa (0) ond Take wo signal) and 0),
+
+Think of x(t) and s(1)as long vectors (signals)
+
+Think of K(t) as a short vector (kernel)
+
+ 
+
+ 
+ENDELEMENTRelation between Convolution and
+Cross-correlation
+
++ These are mathematically very similar, but are used diferent
+
+Convolution Cross-correation
+
+Kes Jaxoyere)
+
+Toko input signal x) and Take wo signals, (0) and 0),
+
+Think of x(t) and s(1)as long vectors (signals)
+
+Think of K(f) as a short vector (kernel)
+
+ 
+
+ 
+ENDELEMENTRelation between Convolution and
+Cross-correlation
+
++ These are mathematically very similar, but are used diferent
+
+Convolution Cross-correlation
+
+vin= farkceyne—n) (x)= fdrxye+ny
+
+Toke input sonal X() and Toke wo signals) an 9,
+
+Think of x(t) and s(?)as long vectors (signals)
+
+Think of K(f) as a short vector (kernel)
+
+ 
+
+ 
+ENDELEMENTRelation between Convolution and
+Cross-correlation
+
++ These are mathematically very similar, but are used diferent
+
+Convolution Cross-correation
+
+Key= Jao)
+
+Toko input signal x) and Take wo signals) and 0),
+
+Think of x(t) and s(1)as long vectors (signals)
+
+Think of K(f) as a short vector (kernel)
+
+ 
+
+ 
+ENDELEMENTRelation between Convolution and
+Cross-correlation
+
++ These are mathematically very similar, but are used diferent
+
+Convolution Cross-correlation
+
+K(= farsioye+n)
+
+Toko input signal) and Take wo signals) and 0),
+
+Think of x(t) and s(1)as long vectors (signals)
+
+Think of K(f) as a short vector (kernel)
+
+ 
+
+ 
+ENDELEMENTRelation between Convolution and
+Cross-correlation
+
+hese are mathematically very similar, but are used diferent
+
+Convolution Cross-cortelation
+
+Kia)= farses)
+
+= fdeKene-9
+
+Think of x(t) and s(1)as long vectors (signals)
+
+Think of K(f) as a short vector (kernel)
+
+ 
+
+ 
+ENDELEMENTRelation between Convolution and
+Cross-correlation
+
++ These are mathematically very similar, but are used diferent
+
+Convolution Cross-cortelation
+
+do= Jacko Kas axons)
+
+Think of x(t) and s(1)as long vectors (signals)
+
+ 
+
+Think of K(f) as a short vector (kernel)
+
+ 
+ENDELEMENTRelation between Convolution and
+Cross-correlation
+
++ These are mathematically very similar, but are used diferent
+
+Convolution Cross-correation
+
+Think of x(t) and s(1)as long vectors (signals)
+
+ 
+
+Think of K(f) as a short vector (kernel)
+
+ 
+ENDELEMENTRelation between Convolution and
+Cross-correlation
+
+hese are mathematically very similar, but are used diferent
+
+Convolution Cross-cortelation
+
+A= JarKco Kas axons)
+
+Think of x(1) and s(1)as long vectors (signals)
+
+Think of K(t) as a short vector (kernel)
+
+ 
+
+ 
+ENDELEMENTRelation between Convolution and
+Cross-correlation
+
+hese are mathematically very similar, but are used diferent
+
+Convolution Cross-cortelation
+
+Kia)= farses)
+
+= fdr Keene-9)
+
+Think of x(t) and s(?)as long vectors (signals)
+
+Think of K(f) as a short vector (kernel)
+
+ 
+
+ 
+ENDELEMENTRelation between Convolution and
+Cross-correlation
+
++ These are mathematically very similar, but are used diferent
+
+Convolution Cross-cortelation
+
+A= JarKcone-) Kia)= farscoyes)
+
+Think of x(t) and s(1)as long vectors (signals)
+
+ 
+
+Think of K(t) as a short vector (kernel)
+
+ 
+ENDELEMENTAutocorrelation
+
++ Away to examine the temporal structure within a signal
+
+ 
+
+ 
+ENDELEMENTRelation between Convolution and
+Cross-correlation
+
++ These are mathematically very similar, but are used diferent
+
+Convolution Cross-correlation
+
+w= farKone—n) k= faxoye+n
+
+Toke wo signals, an 0),
+
+Think of x(t) and s(?)as long vectors (signals)
+Relation to STA
+Think of K(t) as a short vector (kernel)
+
+ 
+
+ 
+ENDELEMENTAutocorrelation
+
++ Away to examine the temporal structure within a signal
+
+fasonern
+
+ 
+
+ 
+ENDELEMENTAutocorrelation
+
++ Away to examine the temporal structure within a sig
+
+K@)= J dtx(x(t+)
+- 50 ms
+
+—e ee
+ENDELEMENTAutocorrelation
+
++ Away to examine the temporal structure within a signal
+
+K(t)= f dex
+
+ 
+
+ 
+ENDELEMENTAutocorrelation
+
++ Away to examine the temporal structure within a sig
+
+K@)= J atx(yx(t+7)
+- 50 ms
+
+Set ee
+
+7 a aN
+ENDELEMENTAutocorrelation
+
++ Away to examine the temporal structure within a signal
+
+fasonern
+
+ 
+
+ 
+ENDELEMENTAutocorrelation
+
++ Away to examine the temporal structure within a sig
+
+K()= J dex(oyxe+2)
+= 50ms
+
+jee
+
+- Yr. PX
+ENDELEMENTAutocorrelation
+
++ Away to examine the temporal structure within a signal
+
+Kes Jaxon
+
+ 
+
+ 
+ENDELEMENTAutocorrelation
+
++ Away to examine the temporal structure within a signal
+
+fasonere
+
+ 
+
+ 
+ENDELEMENTAutocorrelation
+
++ Away to examine the temporal structure within a signal
+
+Janene
+
+ 
+
+ 
+ENDELEMENTAutocorrelation
+
++ Away to examine the temporal structure within a signal
+
+Keys Jaxon
+
+ 
+
+ 
+ENDELEMENTAutocorrelation
+
++ Away to examine the temporal structure within a signal
+
+fasonere
+
+ 
+
+ 
+ENDELEMENTAutocorrelation
+
++ Away to examine the temporal structure within a signal
+
+ 
+
+ 
+ENDELEMENTAutocorrelation
+
++ Away to examine the temporal structure within a signal
+
+K(t)= fdr
+
+ 
+
+ 
+ENDELEMENTAutocorrelation
+
++ Away to examine the temporal structure within a signal
+
+Kes Jaxon
+
+ 
+
+ 
+ENDELEMENTAutocorrelation
+
++ Away to examine the temporal structure within a signal
+
+Time Lag
+
+ 
+
+ 
+ENDELEMENTAutocorrelation
+
+*+ Away to examine the temporal structure within a signal
+
+Time Lag
+
+ 
+
+ 
+ENDELEMENTAutocorrelation
+
++ Away to examine the temporal structure within a sig
+
+xcRaw=xcorr(Data
+50.ms
+
+   
+
+Time Lag
+ENDELEMENTAutocorrelation
+
++ Away to examine the temporal structure within a signal
+
+ 
+
+ 
+ENDELEMENTAutocorrelation
+
++ Away to examine the temporal structure within a signal
+
+Time Lag
+
+ 
+
+ 
+ENDELEMENTAutocorrelation
+
++ Away to examine the temporal structure within a sig
+
+K(a)= f dex()x(t+7)
+
+50.ms
+
+Val wth anyday TPA
+
+ 
+
+Nedull e Aly sbi
+
+ 
+
+Wal
+ENDELEMENTAutocorrelation
+
++ Away to examine the temporal structure within a sig
+
+K(a)= J dex()x(t+7)
+
+s0.ms
+
+‘lbh
+
+ 
+
+sgl ho oy HT
+
+Wal oh Neus Auda dora ead _anabll ove wtatan sich tel a
+ENDELEMENTAutocorrelation
+
++ Away to examine the temporal structure within a signal
+
+ 
+
+ 
+ENDELEMENTAutocorrelation
+
++ Away to examine the temporal structure within a signal
+
+ 
+
+ 
+ENDELEMENTAutocorrelation
+
++ Away to examine the temporal structure within a sig
+
+xcRaw=xcorr(Data
+50.ms
+
+ 
+
+ 
+ENDELEMENTAutocorrelation
+
++ Away to examine the temporal structure within a signal
+
+ 
+
+ 
+ENDELEMENTAutocorrelation
+
++ Away to examine the temporal structure within a sig
+
+xcRaw=xcorr(Data
+50.ms
+
+ 
+
+ 
+ENDELEMENTAutocorrelation
+
++ Away to examine the temporal structure within a signal
+
+ 
+
+ 
+ENDELEMENTAutocorrelation
+
++ Away to examine the temporal structure within a signal
+
+ 
+
+ 
+ENDELEMENTAutocorrelation
+
++ Away to examine the temporal structure within a signal
+
+ 
+
+ 
+ENDELEMENTAutocorrelation
+
++ Away to examine the temporal structure within a signal
+
+ 
+
+ 
+ENDELEMENTAutocorrelation
+* Away to examine the temporal structure within a sig
+
+50 ms
+
+niga
+
+| 100 ms
+mt
+ENDELEMENTAutocorrelation
+
++ Away to examine the temporal structure within a signal
+
+ 
+
+Ts
+
+ 
+ENDELEMENTAutocorrelation
+
++ Away to examine the temporal structure within a signal
+
+ 
+
+peeiae
+
+ 
+ENDELEMENTAutocorrelation
+
++ Away to examine the temporal structure within a signal
+
+ 
+
+ 
+ENDELEMENTAutocorrelation
+* Away to examine the temporal structure within a sig
+
+50 ms
+Data = randn(1,N}+0.1*cos(2*pi*20"time);
+
+nog
+
+| 100 ms
+mt
+ENDELEMENTAutocorrelation
+
++ Away to examine the temporal structure within a signal
+
+ 
+
+aerate
+
+ 
+ENDELEMENTAutocorrelation
+
++ Away to examine the temporal structure within a signal
+
+ 
+
+amas
+
+ 
+ENDELEMENTAutocorrelation
+
++ Away to examine the temporal structure within a signal
+
+ 
+
+ 
+ENDELEMENTAutocorrelation
+
++ Away to examine the temporal structure within a signal
+
+ 
+
+Tmalag
+
+ 
+ENDELEMENTAutocorrelation
+
++ Away to examine the temporal structure within a signal
+
+ 
+
+awe lag
+
+ 
+ENDELEMENTAutocorrelation
+
++ Away to examine the temporal structure within a signal
+
+ 
+
+ 
+ENDELEMENTLearning objectives for Lecture 10
+
+Spike trains are probabilistic (Poisson Process)
+
+Be able to use measures of spike train variability
+— Fano Factor
+— Interspike Interval (IS!)
+
+Understand convolution, cross-correlation, and
+autocorrelation functions
+ENDELEMENTSpectral Analysis
+
+[Aspectrogram shows how much power there isin a sound at
+
+different frequencies and at liferent ties,
+: SU),
+
+Ay
+
+apne!
+
+ 
+
+ 
+ENDELEMENTSpectral Analysis
+
+[Aspectrogram shows how much power there isin a sound at
+
+different frequencies and at aiferent ties,
+: SUED,
+
+A
+
+> aaaen!
+
+ 
+
+ 
+ENDELEMENTSpectral Analysis
+
+‘Aspectrogram shows how much power there isn a sound at
+
+different frequencies and at aiferent times,
+_ SUE,
+
+aN
+
+> aaaene!
+
+ 
+
+ 
+ENDELEMENTSpectral Analysis
+
+[Aspectrogram shows how much power there isn a sound at
+
+different frequencies and at aiferent ties,
+: Sf.)
+
+aN
+
+ aaaent!
+
+ 
+
+ 
+ENDELEMENTSpectral Analysis
+
+[Aspectrogram shows how much power there isin a sound at
+
+different frequencies and at aiferent times,
+: SU),
+
+A
+
+> apaene!
+
+ 
+
+ 
+ENDELEMENTSpectral Analysis
+
+‘Aspectrogram shows how much power there isn a sound at
+
+diferent frequencies and at aiferent ties,
+: SUE,
+
+aN
+
+> apane!
+
+ 
+
+ 
+ENDELEMENTSpectral Analysis
+
+A spectrogram shows how much power there is in a sound
+different frequencies and at different times.
+SEt)
+
+ 
+
+    
+
+\ Ail n
+
+   
+ENDELEMENTSpectral Analysis
+
+[Aspectrogram shows how much power there isin a sound at
+
+itferent frequencies and at aliferent times,
+SUE),
+
+ 
+
+ 
+ENDELEMENTSpectral Analysis
+
+[Aspectrogram shows how much power there isin a sound at
+
+different frequencies and at ifferent ties,
+: SUD,
+
+ih A
+
+‘thane
+
+ 
+
+ 
+ENDELEMENTSpectral Analysis
+
+A spectrogram shows how much power there is in a sound
+different frequencies and at different times.
+SEt)
+
+ 
+
+    
+
+\ Ail Ho
+
+   
+ENDELEMENTSpectral Analysis
+
+A spectrogram shows how much power there is in a sound
+different frequencies and at different times.
+St)
+
+ 
+
+    
+
+\ Ail no
+
+   
+ENDELEMENTSpectral Analysis
+
+A spectrogram shows how much power there is in a sound
+different frequencies and at different times.
+St)
+
+ 
+
+    
+
+\ Ail no
+
+   
+ENDELEMENTSpectral Analysis
+
+‘Aspectrogram shows how much power there isn a sound at
+
+diferent frequencies and at aitferent times,
+* SUED,
+
+sii
+\ Ai
+
+> aaaee!
+
+ 
+
+ 
+ENDELEMENTSpectral Analysis
+
+‘Aspectrogram shows how much power there isn a sound at
+
+diferent frequencies and at afferent times,
+* SUD),
+
+Ah
+
+> aaaee!
+
+ 
+
+ 
+ENDELEMENTSpectral Analysis
+
+‘Aspectrogram shows how much power there isin a sound at
+
+different frequencies and at aiferent times,
+: SUE),
+
+aN
+
+‘anne
+
+ 
+
+ 
+ENDELEMENTSpectral Analysis
+
+ 
+
+ 
+ENDELEMENTFrequency (Hz)
+
+Spectral Analysis
+
+Babbling baby bird
+
+ 
+ENDELEMENTSpectral Analysis
+
+0bbing baby bid
+
+ 
+
+ 
+ENDELEMENTSpectral Analysis
+
+bing baby bid
+
+ 
+
+ 
+ENDELEMENTSpectral Analysis
+
+fbbing baby bid
+
+ 
+
+ 
+ENDELEMENTSpectral Analysis
+
+bing baby bid
+
+ 
+
+ 
+ENDELEMENTSpectral Analysis
+
+bing baby bid
+
+ 
+
+ 
+ENDELEMENTSpectral Analysis
+
+ebbing baby bid
+
+ 
+
+ 
+ENDELEMENTSpectral Analysis
+
+bing baby bid
+
+ 
+
+ 
+ENDELEMENTSpectral Analysis
+
+Babbling baby bird
+
+ 
+
+ 
+ 
+
+Frequency (Ha)
+ENDELEMENTSpectral Analysis
+
+Babbling baby bird
+
+ 
+
+ 
+ 
+
+Frequency (Ha)
+ENDELEMENTSpectral Analysis
+
+bing baby bid
+
+ 
+
+ 
+ENDELEMENTSpectral Analysis
+
+fbbing baby bid
+
+ 
+
+ 
+ENDELEMENTSpectral Analysis
+
+fbbing baby bid
+
+ery
+
+ 
+
+ 
+ENDELEMENTSpectral Analysis
+
+bing baby bid
+
+ 
+
+ 
+ENDELEMENTSpectral Analysis
+
+bing baby bid
+
+ 
+
+ 
+ENDELEMENTSpectral Analysis
+
+fabbing baby bid
+
+ 
+
+ 
+ENDELEMENTSpectral Analysis
+
+fbbing baby bid
+
+ 
+
+ 
+ENDELEMENTSpectral Analysis
+
+fbbing baby bid
+
+ 
+
+ 
+ENDELEMENTSpectral Analysis
+
+bing baby bid
+
+ 
+
+ 
+ENDELEMENTSpectral Analysis
+
+fabbing baby bid
+
+ 
+
+ 
+ENDELEMENTSpectral Analysis
+
+fbbing baby bid
+
+Pizia. tii
+
+ 
+
+ 
+ENDELEMENTSpectral Analysis
+
+bing baby bid
+
+ 
+
+ 
+ENDELEMENTSpectral Analysis
+
+fbbing baby bid
+
+ 
+
+ 
+ENDELEMENT 
+
+ 
+ENDELEMENTFourier Series
+
++ We can express any periodic function of time as sums of sine ar
+cosine functions.
+
++ Lets start with an even funetion that is peri
+
+ 
+
+with a period T
+T
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTFourier Series
+
++ We can express any period function of ime as sums of sine and
+cosine function,
+
+ 
+
+ 
+ENDELEMENTFourier Series
+
++ We can express any periodic function of timo as sums of sine and
+
++ Lets start with an even function that is perigic witha period T
+
+~ T
+
+ 
+
+ 
+ENDELEMENTFourier Series
+
++ We can express any periodic function of ime as sums of sine and
+cosine function,
+
++ Lets start with an even function hats periodic witha period T
+
+x T
+
+ 
+
+ 
+ENDELEMENTFourier Series
+
++ We can express any periodic function of time as sums of sine ar
+cosine functions.
+
++ Lets start with an even funetion that is peri
+
+ 
+
+with a period T
+T
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENT 
+         
+          
+      
+
+Fourier Series
++ Wecan express any proc ncton of te as suns of sine and
++ Let tart whan even function hats pero wih a pariodT
+
+a r
+
+Ww sh a cosine wave of he
+We could approximate this square wave wi
+
+ 
+ENDELEMENTFourier Series
++ We can express any pero uncon of ime 8 sums of sin and
++ ete tr then vn incon ti pote nh a peod
+A 7
+
+Ww th a cosine wave ofthe
+We could approximate this square wave wi
+
+ 
+
+ 
+ENDELEMENTFourier Series
++ Wecan express any periodic nono te as sums of sine and
++ Les tart whan even uncon hats pvc wih a pated T
+
+We could approximate his square wave wih a cosine wave of he
+
+ 
+
+ 
+ENDELEMENT 
+         
+          
+      
+
+Fourier Series
++ We can express any pero uncon of ime 9 sums of sine and
++ Les tart whan even function hats prod wih a pried T
+
+A 7
+
+Ww sh acosine wave ofthe
+We could approximate his square wave wi
+
+ 
+ENDELEMENTFourier Series
++ We can express any pero uncton of ime 9 sums of sine and
++ Le tart whan even function hats peso wih a pried T
+‘ r
+
+W th acosine wave of he
+We could approximate his square wave wi
+
+ 
+
+ 
+ENDELEMENTFourier Series
++ We can express any periodic function of time as sums of sine a
+cosine functions.
++ Lets start with an even function that is periodic with a period T
+T
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+We could approximate this square wave with a cosine wave of the
+same period T and amplitude.
+
+ 
+ENDELEMENTFourier Series
++ Wecan express any periodic nono tne as sums of sine and
++ Les tart wan even uncon hats proc wih a pared T
+
+We could approximate his square wave wih a cosine wave of he
+
+ 
+
+ 
+ENDELEMENTFourier Series
++ We can express any periodic function of time as sums of sine a
+cosine functions.
++ Lets start with an even function that is periodic with a period T
+T
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+We could approximate this square wave with a cosine wave of the
+same period T and amplitude.
+
+Oscillation frequency
+
+ 
+ENDELEMENTFourier Series
++ Wecan express any proc ncton of te a sums of sine and
++ Les tart whan even uncon hats peso wih a pried T
+‘ T
+
+We could approximate his square wave wih a cosine wave of he
+
+ 
+
+ 
+ENDELEMENTFourier Series
++ Wecan express any pero ncon of ne as sums of sine and
+
+We could approximate his square wave wih a cosine wave of he
+
+ 
+
+ 
+ENDELEMENTFourier Series
++ Wecan express any proc ncon of te asus of sine and
++ eter then vn incon tiptoe
+; 7
+
+W sh a cosine wave ofthe
+We could approximate his square wave wi
+
+ 
+
+ 
+ENDELEMENTFourier Series
+
++ Butwe can get a better approximation i we add some mere cosine
+waves to out original one
+
+ 
+
+ 
+ENDELEMENTFourier Series
+
+‘+ Butwe can get a better approximation i we add some more cosine
+
+ 
+
+ 
+ENDELEMENTFourier Series
+
+‘+ Butwe can get a better approximation we add some mere cosine
+
+ 
+
+ 
+ENDELEMENTFourier Series
+
++ But we can get a better approximation if we add some more cc
+
+waves to our original one... ’
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ee a a a
+DPS VMI VV
+
+ 
+
+ 
+
+ 
+ENDELEMENTFourier Series
+
+‘+ Butwe can get a better approximation i we add some mre cosine
+waves ourorgial one.
+
+ 
+
+ 
+ENDELEMENTFourier Series
+
+‘+ Butwe can get a better approximation i we add some more cosine
+
+ 
+
+ 
+ENDELEMENTFourier Series
+
+‘+ Butwe can get a better approximation i we add some more cosine
+waves tour original one i
+
+ 
+
+ 
+ENDELEMENTFourier Series
+
+‘+ Butwe can get a better proximation i we add some mere cosine
+
+ 
+
+ 
+ENDELEMENTFourier Series
+
+‘+ Butwe can get a better approximation if we add some mere cosine
+
+ 
+
+ 
+ENDELEMENTFourier Series
+
+‘+ Butwe can get a better approximation if we add some more cosine
+waves tour orginal one i
+
+ 
+
+ 
+ENDELEMENTFourier Series
+
+‘+ Butwe can get a better approximation i we add some more cosine
+
+ 
+
+ 
+ENDELEMENTFourier Series
+
+‘+ Butwe can get a better approximation i we add some more cosine
+waves ouronginal one. q
+
+ 
+
+ 
+ENDELEMENTFourier Series
+
+‘+ Butwe can get a better approximation we add some more cosine
+waves to out original one ;
+
+ 
+
+ 
+ENDELEMENTFourier Series
+
+But we can get a better approximation if we add some more ce
+
+waves to our original one... r
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+L\S.\SV~UMNIVWVWV
+
+Why can we restrict ourselves to only frequencies that are intege
+les of Wy?
+
+ 
+
+ 
+
+ 
+ENDELEMENTFourier Series
+
+‘+ Butwe can get a better approximation i we add some more cosine
+waves ouronginal one. ;
+
+vin)=qcos(ays)+ 4 J+ a,cos(3oys)
+
+ 
+
+ 
+ENDELEMENTFourier Series
+
++ Butwe can get a better approximation i we add some mere cosine
+
+ 
+
+ 
+ENDELEMENTFourier Series
+
++ Butwe can get a better approximation i we add some mere cosine
+waves tour orginal one 7
+
+ 
+
+ 
+ENDELEMENTFourier Series
+
+cos()
+
+os( 3041)
+
+cos(Ss)
+03(7094)
+cos(9a4)
+-608(Lla4)
+cos(130y2)
+
+ 
+ENDELEMENTFourier Series
+
+cos(a1)
+
+os( 3041)
+
+cos(Seur)
+03(7094)
+cos(90ut)
+-60s(Lla4)
+-60s(130%f)
+
+ 
+ENDELEMENTFourier Series
+
+ 
+
+ 
+ENDELEMENTFourier Series
+
+cos(a)
+
+os ( 3041)
+
+cos(Sns)
+cos(7oyt)
+cos(9a4)
+-60s(L1a4)
+-605(130%f)
+
+ 
+ENDELEMENTFourier Series
+
+ 
+
+ 
+ENDELEMENTFourier Series
+
+c0s(nays)
+
+ 
+ENDELEMENTFourier Series
+
+ 
+
+ 
+ENDELEMENTFourier Series
+
+ 
+
+ 
+ENDELEMENTFourier Series
+
+ 
+
+ 
+ENDELEMENTFourier Series
+
+constructive
+interference
+
+c0s(nays)
+
+ 
+ENDELEMENT    
+
+Fourier Series
+
+ 
+ENDELEMENTFourier Series
+
+ 
+
+cos(nent)
+
+ 
+ENDELEMENTFourier Series
+
+ 
+
+ 
+ENDELEMENTFourier Series
+
+ 
+
+ 
+ENDELEMENT    
+
+Fourier Series
+
+ 
+ENDELEMENT  
+
+Fourier Series
+
+  
+
+ 
+ENDELEMENTFourier Series
+
+ 
+
+ 
+ENDELEMENTFourier Series
+
+ 
+
+ 
+ENDELEMENTFourier Series
+
+But we can get a better approximation if we add some more ce
+
+waves to our original one... -
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+SFOS FF OT
+LD.PSVMWIYVVWVY
+
+Pe ee Se Cee oe eee oe ae
+
+ 
+
+ 
+
+ 
+ENDELEMENTFourier Series
+
+‘+ Butwe can get a better approximation i we add some mere cosine
+
+waves ourorginal one ;
+i
+
+ 
+
+ 
+ENDELEMENTFourier Series
+
+‘+ Butwe can get a better approximation i we add some more cosine
+
+|
+
+vet) =4,00s(«44) +a, c0s(2yt) + a,c0s(3en4) +
+
+ 
+
+ 
+ENDELEMENTFourier Series
+
+‘+ Butwe can get a better approximation i we add some mere cosine
+waves to our orginal one... Fi
+
+ 
+
+ 
+ENDELEMENTFourier Series
+
+‘+ But we can get a better approximation i we add some mere cosine
+waves to our original ane
+
+ 
+
+ 
+ENDELEMENTFourier Series
+
+‘+ Butwe can get a better approximation i we add some mere cosine
+waves to our orginal one 2
+
+0) =4,00s(«44) + a, c0s(2e) + a,c0s(3en4) +
+
+ 
+
+ 
+ENDELEMENTFourier Series
+
+‘+ Butwe can get a better approximation i we add some more cosine
+waves ouronginal one.
+
+vt) =4,00s(«y4) +a, c0s(2e) + a,c0s( 30,4) +
+
+ 
+
+ 
+ENDELEMENTFourier Series
+
++ Butwe can get a better approximation we add some more cosine
+
+waves to out original one
+
+IRGRS
+
+vi) =4,00s( as) + 4
+
+ 
+
+ 
+ENDELEMENT

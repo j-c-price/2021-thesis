@@ -1,0 +1,1260 @@
+1
+00:00:00,000 --> 00:00:10,000
+the phone can't answer is provided under a Creative Commons licence your support will help MIT opencourseware continue to offer high quality
+
+2
+00:00:10,000 --> 00:00:20,000
+national resources for free to make a donation or view additional materials from hundreds of mit courses visit MIT opencourseware at ocw
+
+3
+00:00:20,000 --> 00:00:30,000
+am i t daddy you put the slate up so you could walk in and see you and I came to this course to learn about high-level cognition machines that do amazing things
+
+4
+00:00:30,000 --> 00:00:40,000
+disguise not going to type a butterfly but I am going to talk about fly and I will try in the beginning to explain to you why and
+
+5
+00:00:40,000 --> 00:00:50,000
+will you buy the end will see I want to clear Victory at all and you can tell me if if if it applies or whatever
+
+6
+00:00:50,000 --> 00:01:00,000
+flies this quote really flies are in all sorts of in mushroom bodies I'm going to talk about a part of the fly brain called the mushroom body
+
+7
+00:01:00,000 --> 00:01:10,000
+mushroom bodies are in all sorts of Insights and I kind of like this quote we were like to say the mushroom body is the soul of the fly
+
+8
+00:01:10,000 --> 00:01:20,000
+what what are want to point out here is this part of the quote or not as intelligent as you but they're intelligent
+
+9
+00:01:20,000 --> 00:01:30,000
+it comes from the small part of the brain called the mushroom body if you are free will they have free well but I'm like you
+
+10
+00:01:30,000 --> 00:01:40,000
+you know we can hear point to a part of the brain and say that's where it is and I'll try to convince you of that as we go on and so that's why I'm
+
+11
+00:01:40,000 --> 00:01:50,000
+butterfly you can really say that the small part of the brain called the mushroom by also two in the second where are maybe not uniquely butts
+
+12
+00:01:50,000 --> 00:02:00,000
+is is a point at which in hell intelligent behaviour arises in which something like free-will whatever makes different flies do different things
+
+13
+00:02:00,000 --> 00:02:10,000
+I'm different occasions arises no not only that again compared to what you mate you know no in a mammal or this is a region of the brain
+
+14
+00:02:10,000 --> 00:02:20,000
+cell types are known as genetic control over all the cell types are there is a very good optical level Anatomy and very soon
+
+15
+00:02:20,000 --> 00:02:30,000
+be an ear Lovell and out of me so it's a regional brain that has all of that and so I thought it would be a good example of you know where
+
+16
+00:02:30,000 --> 00:02:40,000
+that sort of limits of knowledge of North science are really extended out have to put up with it only fly sure it's kind of a stupid animal
+
+17
+00:02:40,000 --> 00:02:50,000
+I'll show you some behaviour is in and what this thing can do and we'll see how I will go and maybe do some machine learning loops so these are the people involved
+
+18
+00:02:50,000 --> 00:03:00,000
+this is a talk in which the fraction of the work that I did this is not 0 but it's very very small and so are much
+
+19
+00:03:00,000 --> 00:03:10,000
+this Dining Club ration with Richard axle member itself his lab of whom he can see the names and is the theory student work with me but I love
+
+20
+00:03:10,000 --> 00:03:20,000
+all the work is done it you nearly in a collaboration which with a Jerry Rubens group and in particular yoshia so did a huge amount of work
+
+21
+00:03:20,000 --> 00:03:30,000
+are just fortunate to be able to can I correct the commas on the paper that was my role in this project so that's the people
+
+22
+00:03:30,000 --> 00:03:40,000
+ok so what is the mushroom burial about this is a diagram of the olfactory system I should have said to begin nunnally supplies it's a fraction your help to the boss
+
+23
+00:03:40,000 --> 00:03:50,000
+can you pick my boring sense and a more boring creature so anyway let's give it a try so are flies have receptors in the along the antenna
+
+24
+00:03:50,000 --> 00:04:00,000
+a nose by that's where the olfactory receptors are or Australian a schematic a little bit later than around that that received the orders
+
+25
+00:04:00,000 --> 00:04:10,000
+send a signal to this structure this is called the antennal lobe and at that point it gets relayed from the set of dance to a certain romance
+
+26
+00:04:10,000 --> 00:04:20,000
+production runs those go up here are and they send the signal to the mushroom body in the mushroom body is the spine of a l shaped thing here
+
+27
+00:04:20,000 --> 00:04:30,000
+that I'll describe in what you tell and then they also send axons to another region of the brain called the lateral horn I'll come back to that I think I'll come back to that
+
+28
+00:04:30,000 --> 00:04:40,000
+maybe I should see it now so I don't forget the mushroom body is going to be responsible for learnt behaviours is responsible for learn
+
+29
+00:04:40,000 --> 00:04:50,000
+in the fly and the lateral horn is responsible for innate behaviour as you'll see at the end of the talk actually evidence of that so there's a division which actually
+
+30
+00:04:50,000 --> 00:05:00,000
+your brain two of your factory pathway to an innate pathway and and more flexible learnt pathway alright
+
+31
+00:05:00,000 --> 00:05:10,000
+so this is a diagram this is again from the junior work of real pictures of the stuff it's overlaid on fly brain are you don't see the Peru
+
+32
+00:05:10,000 --> 00:05:20,000
+but these are the antennal lobe so this is this relay station are in the fly brain here is one of the projection runs your see here this is the mushroom body again this
+
+33
+00:05:20,000 --> 00:05:30,000
+cheap thing and then backwards so that purple either or the cell bodies of the mushroom body and here you can see it again going to the Lara horn this is the op
+
+34
+00:05:30,000 --> 00:05:40,000
+part of the of the fly brain for doing that olfaction this is obviously a schematic of the stages of olfaction are in
+
+35
+00:05:40,000 --> 00:05:50,000
+these are supposed to be the receptors so let me start with them they're called the olfactory receptor neurones there about 1000 of them they come in and
+
+36
+00:05:50,000 --> 00:06:00,000
+50 types and hear the types have been drawn and colours and what a type means is a cell that expresses a singer
+
+37
+00:06:00,000 --> 00:06:10,000
+receptor molecule so it it will bind to a set of folders whatever that particular molecule does and so all of these red guys are virtually ID
+
+38
+00:06:10,000 --> 00:06:20,000
+no response is all of the green guys are identical at cetera and their 50 types and I'll show you in a second they form about a $30
+
+39
+00:06:20,000 --> 00:06:30,000
+turn all representation of a factory space not as high as in your nose I'm not nearly as high as in in a mouse's nose but
+
+40
+00:06:30,000 --> 00:06:40,000
+that's what you get as I mentioned these project to this structure which is the antennal lobe in my little diagram and they have the property that all of the cells
+
+41
+00:06:40,000 --> 00:06:50,000
+of a certain type in other words expressing a particular receptor project to the same site which is called the glomerulus so you can see all the red guys go to
+
+42
+00:06:50,000 --> 00:07:00,000
+one all the purple guys to look purple on it's at incredibly precise wiring getting these 50 off factory signals from the 50s
+
+43
+00:07:00,000 --> 00:07:10,000
+add to a point in space right now region in space and that's the point at which the next sells so this is obviously the input layer
+
+44
+00:07:10,000 --> 00:07:20,000
+giving you a computer language if you want for all this so at this point you have the projection
+
+45
+00:07:20,000 --> 00:07:30,000
+look up the signal there about 200 of them again in the exact same 50 types because there are a few projection around for each of these different lumeria lie
+
+46
+00:07:30,000 --> 00:07:40,000
+I'm and they send the signal on to the mushroom body and SMS in the lateral horn other we won't talk about that whole lot until the end of this is a 1
+
+47
+00:07:40,000 --> 00:07:50,000
+find connection so every projection are on let's see that you know there are red thai projection around that just pick up the red signal send it on were there
+
+48
+00:07:50,000 --> 00:08:00,000
+pause type guys in a really cold this but they next day except is 50 signals maintain them as separate pathways right so what's this thing
+
+49
+00:08:00,000 --> 00:08:10,000
+queen from Australia v computer science point of view obviously it's pulling so these 1000 cells are pulling their resources
+
+50
+00:08:10,000 --> 00:08:20,000
+into 50 glomerular so so you're averaging and you're in your reducing noise and there's also normalizacion process that goes on here they're allowed
+
+51
+00:08:20,000 --> 00:08:30,000
+connections here that try to even out the responses so that let her to fix concentration one order that cause the Lara responses
+
+52
+00:08:30,000 --> 00:08:40,000
+receptor is an another order that require that gives much last response kind of get me equal out here so that the the strong order doesn't
+
+53
+00:08:40,000 --> 00:08:50,000
+wow I'm the the wicker older ok so that's this stage and I thought id show you some of these responses
+
+54
+00:08:50,000 --> 00:09:00,000
+so here are the 50 this is not alldata this is data plus extrapolation but the date of comes from a beautiful story of parliament Carlson these would be
+
+55
+00:09:00,000 --> 00:09:10,000
+50 alarms types of one of each type and hero 110 orders that work I tested and the responses in in firing rate colour kind of look
+
+56
+00:09:10,000 --> 00:09:20,000
+you can see they've been graded here the responses gets stronger as you move from left to right that's just the way I ordered them and you can see their quote
+
+57
+00:09:20,000 --> 00:09:30,000
+uneven so here is a kind of week responding orders and hear much stronger responding orders so that's what's coming in now if you
+
+58
+00:09:30,000 --> 00:09:40,000
+APM level now this is not dating this is a model it's a model really do to our Rachel Wilson and members of her lab but also constructed
+
+59
+00:09:40,000 --> 00:09:50,000
+are by Sean Lowe and Ann Kennedy in my group and you can see the argument so basic what happened is these inputs come in
+
+60
+00:09:50,000 --> 00:10:00,000
+I'm through a model that rap Deuces what we think the PNG are doing p&z nap and tested with this whole panel the board is but you can see the normalisation affect you noticed
+
+61
+00:10:00,000 --> 00:10:10,000
+the activities spread much more equal Christ these orders than these orders and that's reflected in the fact that if you if you measure by various ways the dimension of this report
+
+62
+00:10:10,000 --> 00:10:20,000
+can you get about 30 and here goes up a little bit to 35 because of this gun equalization effect and also some decorrelation it back tickles on
+
+63
+00:10:20,000 --> 00:10:30,000
+so there is that now so what I've described here is or the front and of
+
+64
+00:10:30,000 --> 00:10:40,000
+Factory System and it is completely stereotyped it's it's a precise wiring I've described it to you it's the same
+
+65
+00:10:40,000 --> 00:10:50,000
+every fly if you look at tuna runs of the same type they look virtually identical to this is a hardwired system and you would not
+
+66
+00:10:50,000 --> 00:11:00,000
+say there's any free will or intelligence in the system it is getting the signal in and you'll see a little bit more of that later
+
+67
+00:11:00,000 --> 00:11:10,000
+ok so what about the next level the next level is the mushroom body so these yellow things are the mushroom body Noranda called Canyon cells are about to
+
+68
+00:11:10,000 --> 00:11:20,000
+none of them they come in only 7 types so we are ready with sent something's happening here there's something changing about the representation the representation is getting me
+
+69
+00:11:20,000 --> 00:11:30,000
+dimensional it's something like 1000 dimensional so there is a projection out to a high dimensional representation and this is where
+
+70
+00:11:30,000 --> 00:11:40,000
+The Free World comes in and in an anatomical terms the reason it does is because I tried to persuade you with the data that this acts exactly like a ray
+
+71
+00:11:40,000 --> 00:11:50,000
+high dimensional hidden layer in in a in a machine learning system so this guy is suddenly a new Beast Within one synapse
+
+72
+00:11:50,000 --> 00:12:00,000
+going from completely stereotyped to you know crazy are completely random I would say there's a lot of evidence that it's different in every fly
+
+73
+00:12:00,000 --> 00:12:10,000
+but every one of these neuron's is different and you've completely given up the stereotypical so now how do you get back to sense because you've built this
+
+74
+00:12:10,000 --> 00:12:20,000
+or Factor representation shear and is if you've thrown it out you just going crazy and so now so what I've got put the box around here
+
+75
+00:12:20,000 --> 00:12:30,000
+remind us is a different Beast all of a sudden and it's are a very unusual beast in the front fly brand I'll come back to that but now are you
+
+76
+00:12:30,000 --> 00:12:40,000
+output so these yellow and runs as your see do not leave the mushroom by that they don't send any signal after completely intrinsic to the mushroom buddy but they're not runs called mushroom
+
+77
+00:12:40,000 --> 00:12:50,000
+how to put in Iran's that do send the signal out and again now it's it's a new ballgame first of all look at the numbers you going from tooth
+
+78
+00:12:50,000 --> 00:13:00,000
+234 norms of 21 types you got about 20 dimensional representation there's been a collapse of the of the representation
+
+79
+00:13:00,000 --> 00:13:10,000
+I would I you can just see right away from this slide that this is not Factor representation this is no factory representation cleaned up a bit this is a crazy raw
+
+80
+00:13:10,000 --> 00:13:20,000
+Factor representation this is not olfactory representation the dimension is lower than what you started with so there's no way you can represent the the full thing
+
+81
+00:13:20,000 --> 00:13:30,000
+this is already somehow making a decision about olfaction it's it's well on the way to a behaviour and again
+
+82
+00:13:30,000 --> 00:13:40,000
+anything about the fly here is that you get there very quickly if you went to Jim's talk today I'm sorry talk to you about the long
+
+83
+00:13:40,000 --> 00:13:50,000
+Sway in the in the visual systems of monkeys in which these stages you know take up a flat good fraction of your brain these more
+
+84
+00:13:50,000 --> 00:14:00,000
+ok two stages do it and then it's very difficult to see where this transition is to decisions and things like that here the transition from
+
+85
+00:14:00,000 --> 00:14:10,000
+waterlea input representation sort of retinal like to r i t like if you want in the visual system occurs in one synapse and then the return
+
+86
+00:14:10,000 --> 00:14:20,000
+2 a decision of behaviour in another synapse it's very quick and I would think of that in a computer science terms as a read out later the azure
+
+87
+00:14:20,000 --> 00:14:30,000
+how's your layered system but it's the reader ok and this system here it goes back to being completely stereotyped these there
+
+88
+00:14:30,000 --> 00:14:40,000
+if you are not as per type if you notice there are almost as many cell types as there are neurones are and they're the same in
+
+89
+00:14:40,000 --> 00:14:50,000
+so you've gone from stereotypic at the input stage a wild and crazy random thing in the middle and then Barrett back to stereotypic to get to the airport
+
+90
+00:14:50,000 --> 00:15:00,000
+course you have to do right your motoneurons have to go to the right muscles you can't randomly wire your modem runs and thinking occurs between or something with the retton it has to be
+
+91
+00:15:00,000 --> 00:15:10,000
+to give you the basic visual signals between those two extremes that's where we do our thinking and as I say that that that you can see here but it's in this one layer
+
+92
+00:15:10,000 --> 00:15:20,000
+ok alright so and the key is going to be exactly as in a machine learning system
+
+93
+00:15:20,000 --> 00:15:30,000
+your sheep the key to the horse system is the place to see in modulation that occurs at that said it connections there's no evidence that these connections these can
+
+94
+00:15:30,000 --> 00:15:40,000
+these connections currently bury plastic they may be modulated little bit but the business end of this thing just as in you know many machine
+
+95
+00:15:40,000 --> 00:15:50,000
+is it the readout units being being adjusted and now I will come back that's alright so she was the mushroom buddy it started out as it was in
+
+96
+00:15:50,000 --> 00:16:00,000
+and as it turns your see where he's got the mushroom body so these are the cell bodies
+
+97
+00:16:00,000 --> 00:16:10,000
+they received you can't really see very well here but they received their input sort of right under the mushroom and then they send axons down
+
+98
+00:16:10,000 --> 00:16:20,000
+is axons form below so this whole thing is made out of Kenyan sells that's that's the Kenyan sells all together forming the structure
+
+99
+00:16:20,000 --> 00:16:30,000
+thousand ok you can see one of the projection runs it's getting his word gets it's input from the antennal lobe goes up to the mushroom
+
+100
+00:16:30,000 --> 00:16:40,000
+Telarah horn and Anthony you can see it's that sort of hard to distinguish that Laura Pearl from the cell bodies here but here you can see that under this layer of cells
+
+101
+00:16:40,000 --> 00:16:50,000
+it's making it's connections and what I want to stress here is this idea that the the production rhymes occur
+
+102
+00:16:50,000 --> 00:17:00,000
+a few cells per cell type now these self types I guess you know I'm going to get a head of myself a little bit but it still work at uni Leah farm in particular
+
+103
+00:17:00,000 --> 00:17:10,000
+there have been these intersectional strategies for expressing various markers in these cells and they've been supremely successful so tip
+
+104
+00:17:10,000 --> 00:17:20,000
+when you get a cell type in this business is it often two cells one on each side of the fly their perfect mirror images of each other and there is
+
+105
+00:17:20,000 --> 00:17:30,000
+falling off life that's what you mean by cell type and in March of the fly there are very few of them per for this is Percy
+
+106
+00:17:30,000 --> 00:17:40,000
+always been even number and you can see the 50 types of couple hundred cells with that that's part of the specific wiring now if you
+
+107
+00:17:40,000 --> 00:17:50,000
+at the canyon sell so here they are there are as I mentioned about a couple of thousands of them and their you know up to 600 of them prototype
+
+108
+00:17:50,000 --> 00:18:00,000
+it's more like what we think of us the cortex we don't think of the cortex as having millions and millions of cell types may be thousands but they're there are many many cells
+
+109
+00:18:00,000 --> 00:18:10,000
+Rochelle tape another cruise here very small number of cell types rotof to the other things and you here's one one of them is super poso
+
+110
+00:18:10,000 --> 00:18:20,000
+Canyon cells they have their so buddy here they make their connection so they get the input from the projection run send an axon down which in some cases
+
+111
+00:18:20,000 --> 00:18:30,000
+and there are five loaves here there is an alpha Lobo and alpha Prime low Pier a battle over beta plym load here and then some of them
+
+112
+00:18:30,000 --> 00:18:40,000
+single accent dental gamma love you will see that a little bit more but and that's it that's how the mushroom bodies built and they don't have the overdue notice they do not send NZ
+
+113
+00:18:40,000 --> 00:18:50,000
+holding mushroom by the first thing I want to ask and what happens at this Junction between the orderly world of the fly characterized by the
+
+114
+00:18:50,000 --> 00:19:00,000
+P&N the wild and random world of the flight characters be by this ten-year site here is where they meet in this calyx of the mushroom body so
+
+115
+00:19:00,000 --> 00:19:10,000
+The Experiment that that I was involved in the date analysis of came from Richards lab and was done in the following way first a single
+
+116
+00:19:10,000 --> 00:19:20,000
+you can see all this cell bodies of Kenyon cells that zillions of not there thousands of them up there but one of them has been that with the GFP in
+
+117
+00:19:20,000 --> 00:19:30,000
+you have been activated photoactivated so you can see this single Canyon sell comes down here it's making connections to get the olfactory Inn foot from
+
+118
+00:19:30,000 --> 00:19:40,000
+Direction rise and then the axons going to go down through the floor into the other parts that that I showed you so the trick in this thing you can't see very well but
+
+119
+00:19:40,000 --> 00:19:50,000
+I think I may be made a circle around when you can see it very Robert the terminals of this guy the postsynaptic terminals are like qwaser called claws
+
+120
+00:19:50,000 --> 00:20:00,000
+play grab hold of one of the terminals of the projection their arms and make a synapse so that's how they work this guy has about 7 of these class so they're very few
+
+121
+00:20:00,000 --> 00:20:10,000
+connections for for Canyon sell the Trek was for for Sophie to inject the dye right into the claw here
+
+122
+00:20:10,000 --> 00:20:20,000
+tightly sealed our little micro glomerulus and that guy is taken up by a projection around the one and only one
+
+123
+00:20:20,000 --> 00:20:30,000
+Junction run that has a terminal there and here you can see the axon of that projection run as it makes you know terminals in other parts of this k
+
+124
+00:20:30,000 --> 00:20:40,000
+xmx connections with other Canyon sells so there it is that that's not important but the important part is you can trace back this projection onto the antenna Lo
+
+125
+00:20:40,000 --> 00:20:50,000
+you were a goddess in plat and now because the internal or visit totally stereotype structural thing you can now read out if you know the antenna lobe you will know
+
+126
+00:20:50,000 --> 00:21:00,000
+that this input is of a certain type it it's from a certain set of receptors so you know right away that this guy is getting input from receptor number
+
+127
+00:21:00,000 --> 00:21:10,000
+what's up whoever whoever sends projections to that thing for them or you can repeat this with other terminals of that sell it a whole lot of a projection
+
+128
+00:21:10,000 --> 00:21:20,000
+and find essentially all of the inputs are sometimes not all but most of the inputs that go to this this can yourself forgot what they are
+
+129
+00:21:20,000 --> 00:21:30,000
+sewn other words in the result of this without doing any Emma all that is a connect on it's the connection Matrix between the glomeruli or
+
+130
+00:21:30,000 --> 00:21:40,000
+factory channels and there are 50 of up around here plus some hot and cold and some other stuff with basically the 50 glomerular at at the top and
+
+131
+00:21:40,000 --> 00:21:50,000
+200 Kenyon cells that we're measured going down the side not all 2000 can you sell the measured is a not measured from the same animal but you're basically get this kind
+
+132
+00:21:50,000 --> 00:22:00,000
+The Matrix are red our little square here means that this connection was found for this Canyon cell and and a yellow one means
+
+133
+00:22:00,000 --> 00:22:10,000
+action the Roxy to connections between dark and sell and that glomerulus so there is the Matrix so there my job at this point was see what's the structure of this
+
+134
+00:22:10,000 --> 00:22:20,000
+that's a tricky problem you look at it by ACC well looks random it just looks like a bunch of dots but would you have to remember and I think this is really important thing to remember
+
+135
+00:22:20,000 --> 00:22:30,000
+in connect on disconnect on stone come labelled alright so this Matrix is arranged in the following way this is alphabetical which probably is not
+
+136
+00:22:30,000 --> 00:22:40,000
+fundamental neuroscience significance and this is the order in which the cells were measured which is also probably not of Innocence synonyms so the question is
+
+137
+00:22:40,000 --> 00:22:50,000
+anyway to promote the rows and columns of this Matrix have get a structure that's the question you have to answer here and just let me show you an example of that so here's
+
+138
+00:22:50,000 --> 00:23:00,000
+check that I actually want the size a bit but it's exactly the same kind of matches in fact it probably looks to you pretty much like the day that doesn't have the colours but other than that so here's a
+
+139
+00:23:00,000 --> 00:23:10,000
+Matrix this one I made up that turns out of cos I knew the trick that if you restore if you if you remove the rows and columns it looks like this
+
+140
+00:23:10,000 --> 00:23:20,000
+so I'm just by cuz that looks random does not at all mean is no structure there so you have to do a lot of analysis to convince yourself that there's no structure
+
+141
+00:23:20,000 --> 00:23:30,000
+so you know one of the first things you could do in a random doesn't mean uniform so one thing you can do is just some down the columns here and ask how many connections
+
+142
+00:23:30,000 --> 00:23:40,000
+each of the glomerular May and it's not uniform it's quite an even there is he was a histogram but really the question we ask is is there
+
+143
+00:23:40,000 --> 00:23:50,000
+more to it for example if a if I can you still get one of these input is it more likely to also get one of those benefits are there any correlations here
+
+144
+00:23:50,000 --> 00:24:00,000
+really that the question and we did a whole lot of analysis and the answer is no I'm not going to take you through it that all the tests we could possibly do or come for sick leave
+
+145
+00:24:00,000 --> 00:24:10,000
+which is randomly selecting from this probability distribution without an independent ID or whatever it's Club ok
+
+146
+00:24:10,000 --> 00:24:20,000
+I'm so there are other papers are an earlier paper and a later paper that said to come to the same conclusion with interesting about the
+
+147
+00:24:20,000 --> 00:24:30,000
+Felton and Lauren paper is they actually provide some evidence that in fact it's different in different animals this doesn't prove that because there's already taken
+
+148
+00:24:30,000 --> 00:24:40,000
+different animals that I'm not going to present that evidence but there is evidence that that this this is different in different or so you know this looks like a random structure now it's interesting
+
+149
+00:24:40,000 --> 00:24:50,000
+y7 connection 17 awfully small to us in a quarter concentric people and so ry7 well
+
+150
+00:24:50,000 --> 00:25:00,000
+you're following little exercise you can say suppose that the can you only had one connection then how many duplicate can himself
+
+151
+00:25:00,000 --> 00:25:10,000
+well they're only 50 possible types of infiltrator 50 types of can you only have one connection you're making 2000 cells you going to get tons of repeat
+
+152
+00:25:10,000 --> 00:25:20,000
+hundreds of thousands of pairs that are identical so that you would not spread out how you can do this calculation for two connections three connections for connections and it goes
+
+153
+00:25:20,000 --> 00:25:30,000
+if you look at the line where you'd only expect one pair to be the same The Martian body in fact of your average it's between 6 and 2
+
+154
+00:25:30,000 --> 00:25:40,000
+it's it's raining there is it right at the point where you convince yourself that most of the time every cell will be different and then why go any further
+
+155
+00:25:40,000 --> 00:25:50,000
+some of you may know something about the cerebellum diesel like granules granule cells of the cerebellum granule cells in cerebellum
+
+156
+00:25:50,000 --> 00:26:00,000
+5 inputs very small cells with with clause with very few input and their acts on Spawn parallel fibres if you in
+
+157
+00:26:00,000 --> 00:26:10,000
+can you get connect to property sales system is the same if you noticed that the pearl of fibres are forming the trunk in that l shaped region in the
+
+158
+00:26:10,000 --> 00:26:20,000
+mushroom by soda like granule cells OK so where are we going to get a single out of this thing or it's completely
+
+159
+00:26:20,000 --> 00:26:30,000
+straighter we got this random signal into this piece so what are the open looks like there's one of them and what you might notice is it's going to
+
+160
+00:26:30,000 --> 00:26:40,000
+compact region right at the head of this Alpha I don't know if there's an alpha alpha Prime but it's it's going to one of the other of those loads
+
+161
+00:26:40,000 --> 00:26:50,000
+so it's very restricted in it's in its dendrite and then offered goes caring the signal you know where it's going so in fact I tried to argue early
+
+162
+00:26:50,000 --> 00:27:00,000
+at the open door is a mushroom body I've gone back to this other mode very few cells for type attractive as many types as output cells and a very small number
+
+163
+00:27:00,000 --> 00:27:10,000
+if you took a picture of this cell in another animal it'll look exactly the same so it was known
+
+164
+00:27:10,000 --> 00:27:20,000
+who are the disc junior work that if you take the mushroom body low so this is this else trip structure at the bottom or it's really at the front of the mushroom bar
+
+165
+00:27:20,000 --> 00:27:30,000
+I'm and you peel off the damn all of you download with sit there but we kind of block your view so it's been peeled off here so you have this alpha beta load that that's
+
+166
+00:27:30,000 --> 00:27:40,000
+instead of acts signs that a bifurcated and they come in sort of here and then bifurcate you have the alpha Prime battle load bifurcating and then your disturbed damn elope
+
+167
+00:27:40,000 --> 00:27:50,000
+divides up into each of these into 5 sections they're numbered like this but they're 5 of them ok alpha 1 2 3 and Beta
+
+168
+00:27:50,000 --> 00:28:00,000
+each of these guys gets divided into 5 compartments and then there's an extra compartment right here called the peduncle where that
+
+169
+00:28:00,000 --> 00:28:10,000
+do you know here is the mushroom head here's the Stark and then you get this and right at the base of the stock there's another one and so what what
+
+170
+00:28:10,000 --> 00:28:20,000
+the the genelia collaboration figure it out by by genetically targeting the cells very precisely is summarised by this picture
+
+171
+00:28:20,000 --> 00:28:30,000
+so this shows different types of these output around in different colours and what you can see is that they're respecting the compartments write that you
+
+172
+00:28:30,000 --> 00:28:40,000
+basically one type of open ongoing to each compartment without overlap and there really is there's no m level data and they're really don't overlap
+
+173
+00:28:40,000 --> 00:28:50,000
+just kind of what it looks like in an anatomical diagram to the Kenyan cells here's the calyx where they get their input to use this Elsa
+
+174
+00:28:50,000 --> 00:29:00,000
+Rodger and this output Nerang have no respect each other's Territory here is the 16 compartments were they do
+
+175
+00:29:00,000 --> 00:29:10,000
+and then The Very Organised in another way you noticed these colours here this colours referred to the transmitter of the output so all the glutamate guys are over here
+
+176
+00:29:10,000 --> 00:29:20,000
+Wadalba gazer down here at kinder urgent guys are already here is it again you get this extreme order returning to the system
+
+177
+00:29:20,000 --> 00:29:30,000
+he was a serious version of this here are the compartments the 16 compartments 5 pollo plus the peduncle which kind of belongs to the alphabet elope here they are
+
+178
+00:29:30,000 --> 00:29:40,000
+different compartments and then here are the output cells assign to them they're not necessarily one cell problem here sometimes they refused
+
+179
+00:29:40,000 --> 00:29:50,000
+but basically dolls are the cell types and as I mentioned they respect they only go to 1 compartment and then those of the transmitters which is this
+
+180
+00:29:50,000 --> 00:30:00,000
+little cluster nicely but in the in the in the other diagram they do know why bother to do this because there's a there are axons going down the pearl
+
+181
+00:30:00,000 --> 00:30:10,000
+fibres that the Kenyon cells make their go that way so all these guys have access to exactly the same input so what would it matter if this guy decided
+
+182
+00:30:10,000 --> 00:30:20,000
+branch over and pick up the axe on over there instead of it would make no difference at all so it this point you would sort of wonder why they respecting these compartments
+
+183
+00:30:20,000 --> 00:30:30,000
+another answered in this slide so these are the output lines as you can see kind of tiling the thing in this compartments and this is a set
+
+184
+00:30:30,000 --> 00:30:40,000
+open me nodes which were also genetically isolated in this way and then labelled that Target these compartment and you noticed a perfect alignment
+
+185
+00:30:40,000 --> 00:30:50,000
+so the reason is guys are compartmentalised is so they can be individually modded modulated by dopamine are and you can see that here
+
+186
+00:30:50,000 --> 00:31:00,000
+open mean Iran's come again in slightly more numbers of types but they are align and exactly innovate
+
+187
+00:31:00,000 --> 00:31:10,000
+please compartments without overlap so the reason debated to guys in here is so it can be innervated by these particular dopamine
+
+188
+00:31:10,000 --> 00:31:20,000
+Super Minions are divided into 2 classes and again if we go to the anatomical or should mention you if you noticed there were some missing compartments there but
+
+189
+00:31:20,000 --> 00:31:30,000
+tell me the dog beat Nines go to 2 so the everybody gets covered if you go back to the sound of time I cook dark diagram what you see is everybody over here
+
+190
+00:31:30,000 --> 00:31:40,000
+yep modulated by the 1 p.m. dopamine rides and their associated with reward so when good stuff happens your hammer
+
+191
+00:31:40,000 --> 00:31:50,000
+are the mushroom body when bad stuff happened your Hamra this part of that mushroom body with a different set of water called ppl1 dopamine Iran's so gay
+
+192
+00:31:50,000 --> 00:32:00,000
+beautiful structure finish elaborating this for you this is the basic structure again ID
+
+193
+00:32:00,000 --> 00:32:10,000
+put on in first but some of these guys actually contact two compartment so it's that quite through what I said but basically that's the
+
+194
+00:32:10,000 --> 00:32:20,000
+put stream from the mushroom body and then there is a layered system put on these are the connect
+
+195
+00:32:20,000 --> 00:32:30,000
+but I kind of depicted it down here more schematically what you have in this output system is a 1 layer system down here a 2 layer system
+
+196
+00:32:30,000 --> 00:32:40,000
+three layer system in a 4 layer system so that the output is actually a 4 layered network speed for whenever there's no recurrence are at this
+
+197
+00:32:40,000 --> 00:32:50,000
+to this point and all the action occurs on the alpha beta load alphabet a load is responsible for long-term memory you could say to think of
+
+198
+00:32:50,000 --> 00:33:00,000
+the most sophisticated log-gamma lobe is more for short term memories as a simpler readout Alpha Prime betaprime Lobo is
+
+199
+00:33:00,000 --> 00:33:10,000
+God knows right but I'm probably somebody knows anyway but if again a simpler output system so yeah it's a beautiful system and I'm telling you about it cos it's beautiful
+
+200
+00:33:10,000 --> 00:33:20,000
+ok so that's the thing and then these outputs go to a various regions if you don't know the fly brain you don't care but what's interesting is now
+
+201
+00:33:20,000 --> 00:33:30,000
+closest to the region's that receives output from the mushroom body also provide input to the dopamine runs so when the mushroom body reacts
+
+202
+00:33:30,000 --> 00:33:40,000
+the dopamine neurones know about it when the Enderman the dolphin Iran's react the mushroom body knows about it so we have this closed system which finally loops together
+
+203
+00:33:40,000 --> 00:33:50,000
+and the dopamine system is a reporter of behaviour so tell the mushroom body what the Flies doing or also internal state
+
+204
+00:33:50,000 --> 00:34:00,000
+why spilling I'll show you that in the second and then these are going to be obviously some salad learnt or modulated response is modulated by the System
+
+205
+00:34:00,000 --> 00:34:10,000
+you remember that these can I have any intrinsic meaning because they've gone through a random stage here they cannot be a sign meaning without some sort of learning or in
+
+206
+00:34:10,000 --> 00:34:20,000
+so these are learnt outputs and system ok so what is this system do
+
+207
+00:34:20,000 --> 00:34:30,000
+set with the nice thing that's happened in parallel sort of with this anatomical advance that I've been describing is a behavioral advance of kind of
+
+208
+00:34:30,000 --> 00:34:40,000
+mushroom for a star with the classic picture mushroom body has been studying for a long long time that court was from 1850 and it's mostly been studied as a classic
+
+209
+00:34:40,000 --> 00:34:50,000
+conditioning system memory system a train or fly to be afraid of an order or to be attracted to an order our through a classical conditioning experiment and in a
+
+210
+00:34:50,000 --> 00:35:00,000
+use how he's a nice recent version of that but that's quite instructive so in this experiment what you do is you put one order in at the end of a chamber
+
+211
+00:35:00,000 --> 00:35:10,000
+very small chamber that holds a fly one order comes in one and one order comes in the other ranger pump it out in the middle and then you track the fly flies paste
+
+212
+00:35:10,000 --> 00:35:20,000
+until the white pieces back and forth but frequently it doesn't like older be it might come to the central region say all that sort of be turn-around in
+
+213
+00:35:20,000 --> 00:35:30,000
+and so what you do is count electronically how many times do these the fly crosses these boundaries and you can get a measure of it's preference for being
+
+214
+00:35:30,000 --> 00:35:40,000
+a and order b and and this is experiments done in girramay Sandbox laboratory what you can do then it's is it
+
+215
+00:35:40,000 --> 00:35:50,000
+service prime minister Australia they just look at the innate preference of the fly for an order without any training that's 2 lateral horn as your c
+
+216
+00:35:50,000 --> 00:36:00,000
+but then you can associate one of the orders for example an electric shock and presumably the Flies gonna then associate battle with danger and avoided
+
+217
+00:36:00,000 --> 00:36:10,000
+so here's the day that I know first I guess I built a little while so it's been long suspected how this could work this is quite easy you have do the Kenyan sell
+
+218
+00:36:10,000 --> 00:36:20,000
+is a mushroom by your partner who is a dopamine so I know that comes along that's the conditioned stimulus activates some Canyon sells then
+
+219
+00:36:20,000 --> 00:36:30,000
+unconditioned stimulus comes along the shark that album activates the dopamina on and where you have activity + dopamine for example your strengths
+
+220
+00:36:30,000 --> 00:36:40,000
+there is evidence that actually might work by weakening the synapse is good for this diagram I die strength in the synapse it's ok then later on
+
+221
+00:36:40,000 --> 00:36:50,000
+the order comes along it activates the same set now you have the strength and synapses you activate the mushroom and you send an alarm signal so that
+
+222
+00:36:50,000 --> 00:37:00,000
+classical conditioning with this system here at the date of showing it works so well this is the innate preferences what's the interesting the reason I include
+
+223
+00:37:00,000 --> 00:37:10,000
+Slater experiment is because they looked at the innate preference as well as the learnt preference help this is just showing you that this is
+
+224
+00:37:10,000 --> 00:37:20,000
+distance between the pee and activity for these orders so this is a measure of the discriminability and and they thought about argue that the disorder
+
+225
+00:37:20,000 --> 00:37:30,000
+0 preference I can't breathe movie can be distinguished by the fly it on know that but anyway 0 means they're equally likely to go to both hands so the zoo
+
+226
+00:37:30,000 --> 00:37:40,000
+turn on care but you know what when their orders are quite different they can have a fairly strong preference for one order over the other
+
+227
+00:37:40,000 --> 00:37:50,000
+train and suddenly you have a strong preference or a strong avoidance a preference for one over over the other one that was associated with shock
+
+228
+00:37:50,000 --> 00:38:00,000
+and now what they did was to genetically I mentioned that we now have genetic access to all these cells one of the things you can do is block synaptic transmission from all the canyons
+
+229
+00:38:00,000 --> 00:38:10,000
+we just wait out the output of the mushroom body at done by raising the temperature of these flies and suddenly they go right back to their name
+
+230
+00:38:10,000 --> 00:38:20,000
+they never learn something but they still consent the older they still have their innate preference on with identical to what it was before but they're like now if you
+
+231
+00:38:20,000 --> 00:38:30,000
+tell me flight Bell Park backup OK let's
+
+232
+00:38:30,000 --> 00:38:40,000
+I know it is going to mention here not in these experiments with another experiments you can replace the electric shock by an activation of the dopamine around so you can show
+
+233
+00:38:40,000 --> 00:38:50,000
+that these you know avoidance type dopamine Aaron's really do convey the avoidance message because you can train them to avoid all the
+
+234
+00:38:50,000 --> 00:39:00,000
+turn all they got was an activation that's an actual genetic activation of a dopamine oh that's been done tons now ok
+
+235
+00:39:00,000 --> 00:39:10,000
+another example as I said it would I think you know the classic literature on the on the fly is that it's class of conditioning studied in in millions of ways looking at
+
+236
+00:39:10,000 --> 00:39:20,000
+basis etc etc what tier someone newer results there has ones from from the dice katori in Richards lab
+
+237
+00:39:20,000 --> 00:39:30,000
+Alpha Prime 3 load just show you what it is and it has the following features so I will hard to see maybe but this is a pulse that shows
+
+238
+00:39:30,000 --> 00:39:40,000
+the order which is mamc a chair of the order has been introduced and here is the response of this Alpha Prime 3 dope output na on
+
+239
+00:39:40,000 --> 00:39:50,000
+are there at your singer respond and if you look of Christ time that response feed the way it even starts reverse maybe so there's an adaptation of this response
+
+240
+00:39:50,000 --> 00:40:00,000
+it's a big deal but this adaptation is definitely occurring at the output of the mushroom body the most the canyon cells are not adapting it's due to the dopamine because if you blow
+
+241
+00:40:00,000 --> 00:40:10,000
+stop me you don't get it so this is a dopamine specific adaptation but what's more interesting about it is shown here that if you take an order
+
+242
+00:40:10,000 --> 00:40:20,000
+what's the mch adapted away but then present a new order benzaldehyde now you get a response again
+
+243
+00:40:20,000 --> 00:40:30,000
+you can adapt away the response of the benzaldehyde and to produce the third or are you getting think so this is an older dependent adaptation which
+
+244
+00:40:30,000 --> 00:40:40,000
+just that the dopamine is specifically weakening the synapses that are active at the time of the dopamine response so it's it's like the classical conditions
+
+245
+00:40:40,000 --> 00:40:50,000
+there's no conditioning here furthermore when you adapt one order and then another the first order remains adapted so I
+
+246
+00:40:50,000 --> 00:41:00,000
+see this system you know I've always had trouble with the classical conditioning imagining where would a fly get into a situation now where it smells an order and gets a shark or something like
+
+247
+00:41:00,000 --> 00:41:10,000
+put this you can immediately see would be very useful you could adapt to an environment that has a whole set of folders and then if you come back
+
+248
+00:41:10,000 --> 00:41:20,000
+environment and there's a new order present you'll immediately no it because there's no one's going to respond because of you come back to the identical environment are with no Outdoors
+
+249
+00:41:20,000 --> 00:41:30,000
+don't respond so this is that I know aren't identify kind of unexpected or factory features of an environment what's one thing it could
+
+250
+00:41:30,000 --> 00:41:40,000
+ok I think I just repeated that cause I want to say that is another example this comes from Rafael corner
+
+251
+00:41:40,000 --> 00:41:50,000
+Vanessa router slab is is really the effect of internal States I argued for you that these dopamine
+
+252
+00:41:50,000 --> 00:42:00,000
+we're reflecting the internal state of the animal and they have a very beautiful experiment done that so these are the gamma I guess I didn't say before but these are the game
+
+253
+00:42:00,000 --> 00:42:10,000
+2 gram of 5 compartment that we're going to talk about what they did was to image the dopamine around in those compartments gamut 2 3 4 5 and observe
+
+254
+00:42:10,000 --> 00:42:20,000
+why is the flyers in a uncomfortable position to put it mildly here it's glued to a something and a white and has a hole in it's head
+
+255
+00:42:20,000 --> 00:42:30,000
+you everything's fine so it's an unhappy fly you make you might want to speculate that this isn't a happy flight and what they observed as well the flyers
+
+256
+00:42:30,000 --> 00:42:40,000
+whaling about and unhappily expressing it's unhappiness this gamma to and gamma 3 compartments have dopamine input
+
+257
+00:42:40,000 --> 00:42:50,000
+find game of 5 don't they also there was while they fly Just chose out hangs there a girl Christ and when that happens
+
+258
+00:42:50,000 --> 00:43:00,000
+every boss is the pattern now these are not dopamine activated and these ones are dopamine my droid although you know this is not this is not unequivocal happiness
+
+259
+00:43:00,000 --> 00:43:10,000
+mixed state of manipulating so here you take one of these unhappy flies or give it some sugar it becomes a happy fly
+
+260
+00:43:10,000 --> 00:43:20,000
+remember that the red already have this is a happy fly this is sad fly because they shut it so it's clear that this these this thing is really reading out
+
+261
+00:43:20,000 --> 00:43:30,000
+fanciful but happy fly cel-fi you could take a look at this compartments and say that is one I'm happy flight or one happy flight
+
+262
+00:43:30,000 --> 00:43:40,000
+more now so that means internal state of being represented here but in addition it has an effect so this an experiment where they imaged the
+
+263
+00:43:40,000 --> 00:43:50,000
+output of the dendrites of the opener OK so they're looking at transmission from the canyon sell to the open their presents
+
+264
+00:43:50,000 --> 00:44:00,000
+order and they activate the Dan that the dopamine around themselves so when they don't activate the dopamine around this is a measure of synaptic transmission the odorous
+
+265
+00:44:00,000 --> 00:44:10,000
+find Sarah is week when they do it gets much stronger so now what you have is something I mean I think if I saw this important side go while is
+
+266
+00:44:10,000 --> 00:44:20,000
+I'm getting a fact right you have internal state affecting the thing of this and it determines where the output goes so for example
+
+267
+00:44:20,000 --> 00:44:30,000
+if you're I can remember which ones happy and this is happy right so if you're happy then orders go to 11 thing which might you know my
+
+268
+00:44:30,000 --> 00:44:40,000
+play approach that order are you know be sort of a little more easy-going if you're unhappy then I know the response gets relayed out this pathway
+
+269
+00:44:40,000 --> 00:44:50,000
+set my tell you to be afraid of all orders or something like that be very cautious so you start to see in this system the writing of sensory information by internal state
+
+270
+00:44:50,000 --> 00:45:00,000
+that is very exciting I've been to see ok here's another one internal state of x memory this is from animoto
+
+271
+00:45:00,000 --> 00:45:10,000
+their collaboration with the junior lab you can do the same kind of experiment I showed you before with shock only do it with sweet so are in this game
+
+272
+00:45:10,000 --> 00:45:20,000
+the team is a fly comes in this way and you associate let's a order a with a sweet reward then the Flies going to come in here
+
+273
+00:45:20,000 --> 00:45:30,000
+most of the time go this way flies are never 100% performers but they tend to go to order a because they're so she ate that was sweet provided they're hungry I'll come
+
+274
+00:45:30,000 --> 00:45:40,000
+the hungry hungry flight because this way I did that's very clever did involves these his Pam neuron's panned up meaning
+
+275
+00:45:40,000 --> 00:45:50,000
+tell the as you all know right you get the head of of sugar in your mouth right away and then you get nutritional value are you fat
+
+276
+00:45:50,000 --> 00:46:00,000
+however later and end the decoupling of those causes a lot of problems so you'll see that here in this system very very well because they take
+
+277
+00:46:00,000 --> 00:46:10,000
+a sugar that sweet tasting to the fly but can't be digested by the flight can give the provides no nutritional value in all and when they do that
+
+278
+00:46:10,000 --> 00:46:20,000
+is nutrition in the shutter what they get is a short-term attraction to that order enough to buy the next Coke sort it it's convey
+
+279
+00:46:20,000 --> 00:46:30,000
+due October means of the sweetness activate October me or told me activates a certain set of these Pam runs that makes changes
+
+280
+00:46:30,000 --> 00:46:40,000
+in the transmission in various compartments is not isolated to a unique compartment then the next time that older comes on it goes out here and it gives you a track
+
+281
+00:46:40,000 --> 00:46:50,000
+what is the short term attraction last a few hours now if you make the sugar nutritious than they do this in a clever way
+
+282
+00:46:50,000 --> 00:47:00,000
+using a another sugar that has no taste of the fly butterfly can digest so now this is nutritious then it activates of fructose research
+
+283
+00:47:00,000 --> 00:47:10,000
+blah blah blah activate a different set of dopamine neurones potentiates or depresses you are actually nobody change a synapse in the alpha
+
+284
+00:47:10,000 --> 00:47:20,000
+and now you got a long-term memory so flies are smarter than people in a way that only do this long-term memory if they then also sent the nutritional
+
+285
+00:47:20,000 --> 00:47:30,000
+to the to whatever they're eating ok so very elegant thing and then I think that's my final example of start winding up from Scott Waddell
+
+286
+00:47:30,000 --> 00:47:40,000
+that another feature of this sweet thing is it the Flies not hungry not surprisingly doesn't care anymore so it's it's associate
+
+287
+00:47:40,000 --> 00:47:50,000
+sweet but now it's well-fed so who cares and that that's a real effects or offend fly will not Express this order
+
+288
+00:47:50,000 --> 00:48:00,000
+but it still has the memory because if you then start it now it'll all go to order a ok so this act this what what a Scott we're doing
+
+289
+00:48:00,000 --> 00:48:10,000
+realised this was activated to this dopamine run this was done before all the circuitry was derived but they but they figured it out there
+
+290
+00:48:10,000 --> 00:48:20,000
+stop a minute because I could activate the storm in the run and a and simulate the feds dates for the flywheel ignore the order or they could silence disturbed
+
+291
+00:48:20,000 --> 00:48:30,000
+and then there were similar to hungry state and not gonna fly would be attracted to the order but now you notice this circuitry this this is a gabaergic Norman
+
+292
+00:48:30,000 --> 00:48:40,000
+hibbetts the alpha beta load output this is a perfect pathway by which you could turn off the the learnt response in this there in the feds
+
+293
+00:48:40,000 --> 00:48:50,000
+and then you inactivate this pathway and now you turn it on again an internal state getting a memory but it's a case we don't really know
+
+294
+00:48:50,000 --> 00:49:00,000
+that everything is true that one should never soon that but but you know we now have this pathway people we I say
+
+295
+00:49:00,000 --> 00:49:10,000
+people we can block this this pathway there's enough known about the circuitry to really work out to whatever I said is true that you can start to get it please
+
+296
+00:49:10,000 --> 00:49:20,000
+salt one minute to do cl200021 is a really cool one so CO2 is innately
+
+297
+00:49:20,000 --> 00:49:30,000
+repulsive tuifly doesn't like CO2 and the reason that is is in a group of flies that are stressed they released a lot of CO2 so fly Wills
+
+298
+00:49:30,000 --> 00:49:40,000
+CO2 no does trouble in the area and will avoid it so the natural of the natural voice to the innate pathway to CO2 no that's
+
+299
+00:49:40,000 --> 00:49:50,000
+feel fly in the designer the fly because flows riding fruit that releases tonnes of CO2 so you don't want to void your food source
+
+300
+00:49:50,000 --> 00:50:00,000
+so what happens through to it's not completely understood but somehow they need system trains this Bay to pathway to have
+
+301
+00:50:00,000 --> 00:50:10,000
+addition to the innate pathway a learn pathway for CO2 avoidance and in the hungry state the flight channel is it CO2 associate
+
+302
+00:50:10,000 --> 00:50:20,000
+channels it through this pathway then if at the same time there are fruit orders or fruit taste it
+
+303
+00:50:20,000 --> 00:50:30,000
+Adelaide this park we shut it down and turn the CO2 avoidance into a CO2 attraction so again you you start to see the neural substrate
+
+304
+00:50:30,000 --> 00:50:40,000
+this is really quite complex behaviours you know sitting right before you in in this structure are right here
+
+305
+00:50:40,000 --> 00:50:50,000
+what about the lesson for the machine learners so from machine learning perspective is a simple system it's not very deep it's a little bit deep but not very
+
+306
+00:50:50,000 --> 00:51:00,000
+it contains a random hidden representation that's not really anything radical it contains it out instead of open around
+
+307
+00:51:00,000 --> 00:51:10,000
+it's actually alien outward again nothing very radical it in neuroscience term it's kind of interesting that goes from this Hayley stereotype to randoms to highly
+
+308
+00:51:10,000 --> 00:51:20,000
+but really the last and here is you know this is a mediocre machine learning architecture not very many units and all that
+
+309
+00:51:20,000 --> 00:51:30,000
+where does this thing make up for it makes up for it in a stupendous complicated modulation and plasticity beyond any machine learning
+
+310
+00:51:30,000 --> 00:51:40,000
+dreams we don't know about this I tried to give you a hint of the different things you can do that for me can get it can induced draught term learning it can do is long-term
+
+311
+00:51:40,000 --> 00:51:50,000
+it can induce getting of Dating getting of learning that's what has to be worked out in the system but there's going to be a really beautiful
+
+312
+00:51:50,000 --> 00:52:00,000
+fact of dopamine acting in many ways on many time scales and to me in this system that's where Evolution has put his money right
+
+313
+00:52:00,000 --> 00:52:10,000
+not on in building you know 20 layers here or something like that not in worrying about a whole lot of backprop this is random it doesn't appear to be
+
+314
+00:52:10,000 --> 00:52:20,000
+propped up but in putting huge resources into a rich set of modular Tori and plastic processes
+
+315
+00:52:20,000 --> 00:52:30,000
+I'll put synopsis and I think in the years to come they will be worked out and maybe they'll have implications for machine learning once we know what they are
+

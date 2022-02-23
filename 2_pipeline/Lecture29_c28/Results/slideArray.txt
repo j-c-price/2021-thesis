@@ -1,0 +1,4317 @@
+CLL eel aat-xeqar-laleuimelare(:aha lave mUCier-1me)e)(-leima-lerolelaligiolap
+
+The convergence of computer vision and biological vision
+
+Center for Brains, Minds, and Machines: Summer School 2015, Woods Hole, MA
+
+ 
+
+James DiCarlo MD, PhD
+
+Professor of Neuroscience and Head, Department of Brain and Cognitive Sciences
+Investigator, The McGovern Institute for Brain Research
+Massachusetts Institute of Technology, Cambridge MA, USA
+
+a
+a
+a. a | tf
+io brain+cognitive
+ENDELEMENTwl ©) o}(=Yoa mx -Yerole ali ico) aman (e) el-le-1ile)ar-liP4-tep)]
+
+  
+     
+
+   
+
+Ae
+
+‘id
+
+   
+
+Building Other latent variables
+Tree about each object: _
+
+Sign position, size, pose, etc.
+
+Lamp post
+
+Image adapted from MIT Street Scenes Database (Courtesy of Tommy Poggio)
+ENDELEMENTWhy study object recognition in the brain?
+
+The brain’s internal representation of objects is the
+substrate of cognition:
+
+* memory * Obstacle avoidance
+* value judgements * Navigation
+
+* decisions * Danger avoidance
+
+* actions * Resource detection
+
+* Social interactions
+¢ Mate selection
+
+¢ Threat detection
+
+* Reading
+ENDELEMENTThe convergence of three fields
+
+When biological brains perform better than computers
+
+New ideas,
+
+algorithm parameters
+New phenomena g P
+
+psychophysics
+
+ 
+
+computer
+
+KXel(=Jal ers)
+neuroscience
+
+  
+
+How the brain works
+
+    
+ 
+  
+
+Attempt to test/
+falsify those
+
+hypotheses Falsifiable
+
+hypotheses
+
+© FreeImages.com/Marcin Jochmczyk. All rights reserved. This content is excluded from our Creative
+Commons license. For more information, see https://ocw.mit.edu/help/faq-fair-use/.
+
+When computers perform as well as or
+better than biological brains
+ENDELEMENTA bit of history...
+
+ 
+
+MASSACHUSETTS INSTITUTE OF TECHNOLOGY
+PROJECT MAC
+
+Artificial Intelligence Group
+
+Vision Memo. No. 100,
+
+THE SUMMER VISION PROJECT
+
+The final goal is OBJECT IDENTIFICATION which will actually name
+
+objects by matching them with a vocabulary of known objects.
+
+Goals - Specific
+We plan to work by getting a simple form of the system going as
+soon as possible and then elaborating upon it. To keep the work reason-
+
+bly coordinated there is a graduated scale of subgoals.
+
+ 
+
+Courtesy of Mike Tarr
+ENDELEMENT 
+
+© IBM. All rights reserved. This content is excluded from our Creative Commons
+license. For more information, see .
+
+* 100 billion computing elements
+* solves problems not soluble by previous machines
+* requires only 20 watts of power!
+
+Key algorithms are classified
+
+ 
+ENDELEMENTAn engineer’s point of view...
+
+Which system is better?
+
+Problem to solve Our brain Machines today
+(e.g. computers)
+
+Calculation WINNER
+Win at chess WINNER
+
+Win at Jeopardy WINNER
+“Memory”
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+“Seeing”
+
+ 
+
+Pattern match
+
+Object recognition WINNER
+Scene “understanding” WINNER
+
+Walking WINNER
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTAscientist’s point of view
+
+Domain 1 Domain 2
+
+ 
+
+Science: given state of Domain 1,
+predict state of Domain 2
+
+The accuracy of this predictive mapping is a
+measure of the strength of a scientific field
+ENDELEMENT 
+    
+
+Behavioral reports
+(“perception”)
+
+    
+
+ssociated Press. All rights reserved.
+This content is excluded from our Creative
+Commons license. For more information,
+gee https://ocw.mit.edu/help/faq-fair-use/.
+
+ 
+  
+  
+   
+ 
+
+© Playboy Magazine. All rights reserved.
+This content is excluded from our Creative
+Commons license. For more information,
+
+see https://ocw.mit.edu/help/faq-fair-use/.
+
+    
+     
+ 
+
+© Toyota. All rights reserved. This content
+is excluded from our Creative Commons
+license. For more information, see
+https://ocw.mit.edu/help/faq-fair-use/.
+
+spiking pattern of some
+neural population in
+response to one image
+
+“Neural representation’
+
+© Dr Jonathan Clarke. Wellcome Images. All rights reserved.
+This content is excluded from our Creative Commons license.
+For more information, see https://ocw.mit.edu/help/faq-fair-use/.
+
+Accurate predictivity is the —» Underlies engineer’s ability
+
+core product of science to build, fix, or augment
+
+ 
+ENDELEMENT© Playboy Magazine. All rights reserved.
+This content is excluded from our Creative
+Commons license. For more information,
+
+see https://ocw.mit.edu/help/faq-fair-use/. Beha vioral reports
+(“perception”)
+
+    
+   
+   
+
+“clock”
+
+ 
+  
+  
+ 
+ 
+ 
+ 
+
+For visual object
+perception, this link
+
+spiking pattern of some
+neural population in
+response to one image
+
+J
+
+ 
+
+“Neural representation
+
+ 
+
+“IT does object recognition”
+“Face neurons do face tasks”
+“Attention solves that”
+ENDELEMENTLet’s try to define a domain of behavior so that we
+can gauge/make progress in prediction.
+
+ 
+ENDELEMENTObject recognition as solved by primates
+
+ 
+ENDELEMENTObject recognition as solved by primates ~200 ms snapshots
+
+ 
+
+ 
+
+Image adapted from MIT Street Scenes Database (Courtesy of Tommy Poggio)
+ENDELEMENTObject recognition as solved by primates
+
+central ~10 deg of visual field
+100-200 ms viewing duration
+ENDELEMENTOTT MAYZEJUr-1M-S'A-1 0-101 =». Cex:) (Mr: | mexe) c= Me) 0) [-\ea ma -vexelelalid(e) a
+
+central ~10 deg of visual field
+100-200 ms viewing duration
+
+ 
+ENDELEMENTHuman object recognition (categorization) accuracy
+as a function of image viewing time
+
+“Core recognition” regime
+100
+
+95
+
+ 
+
+90
+Ww
+
+Basic level za
+categorization <=
+
+85
+
+ 
+
+Accuracy (% correct)
+
+80
+
+75
+
+  
+
+70
+Chance is 50%
+
+ 
+
+7 +f
+
+: _
+0 50 100 150 200 250 500 2000
+
+Stimulus Duration (milliseconds)
+
+t
+
+All the data | will Typical primate
+show you today fixation duration
+during natural viewing
+ENDELEMENTLet’s try to define a domain of behavior so that we
+can gauge/make progress in prediction.
+
+Object recognition
+
+“Core object
+recognition”
+
+ 
+ENDELEMENTComputational theory
+
+What is the goal of the
+computation, why is it
+
+appropriate, and what
+
+is the logic of the strat-
+egy by which it can be
+carried out?
+
+ 
+
+David Cou
+(1946-1980)
+
+ET
+7
+
+rtnay Marr
+
+The challenge of level
+
+Representation and
+algorithm
+
+How can this computa-
+tional theory be imple-
+mented? In particular,
+what is the representa-
+tion for the input and
+output, and what is the
+algorithm for the trans-
+formation?
+
+  
+     
+   
+
+Hardware
+implementation
+
+How can the represen-
+tation and algorithm be
+realized physically?
+
+VISION
+
+David Marr
+
+ 
+
+© MIT Press. All rights reserved. This content is excluded
+from our Creative Commons license. For more information,
+see https://ocw.mit.edu/help/faq-fair-use/.
+
+Marr, 1982
+18
+ENDELEMENT1. What is the problem we
+are trying to solve?
+
+2. What do good solutions
+look like?
+
+3. How do we instantiate
+these solutions?
+
+Mia w (ol! ae (OM mere) sly iat (e7 8
+those instantiations?
+
+Comp vision,
+
+Machine learning
+
+Benchmarks
+Brain solves “it”
+
+Useful image
+representations
+(‘features’)
+
+Algorithms,
+mechanisms
+
+Learning rules,
+initial conditions,
+training images
+
+Neuroscience,
+
+Cognitive Science
+
+“Perception”
+Behavior
+Psychophysics
+
+Explicit neuronal
+population
+spiking patterns
+
+Neuronal wiring /
+weighting patterns
+
+MERGING
+architecture,
+experience
+ENDELEMENTSYeVarehacole-Vmegar-li(clare(- i Im. UE-Lanam Xex-s-9] o] (-e) 0) (-1eq t=)
+
+ 
+
+)
+=
+|
+x
+)
+3
+
+(
+Turtle Elephant Cat Zebra Horse Frog Rhino
+
+1
+
+r
+2
+@
+y
+i
+{
+
+Tiger Pig Camel Dress Tire Burger Train Truck
+
+oe
+
+Boat Gi
+
+¢
+
+itar Tank Drum Pants Necklace Skirt
+
+—=C
+
+af
+:
+'
+<a
+ase
+
+ 
+
+Bear Shirt Shoe Hammer Spoon Tree Pen Wrench
+
+. e > }
+yi i, h rs
+aZ™ nm wee i
+
+—
+Hanger Knife Leg Doctor Nurse Helicopter Pineapple
+_ 7
+prt air C wef
+
+Gun Fork Fish Spider Bird Duck Plane ©
+be |
+y A
+4
+Pumpkin Watch Pear Head Chair Book
+aq) TI =
+
+Laptop Toaster Table House Camera Mirror Piano Calculator
+
+Qs}
+as
+~
+
+ 
+
+ia)
+i
+
+20
+ENDELEMENTBehavioral challenge 2: Toy arti aelam olan e-J(er-1ecLelU net-M Cole) (-Verd mer-1a
+
+produce many images
+
+<@liige + “Identity preserving image variation”
+
+View: position, size, pose, illumination Clutter, occlusion
+
+ 
+
+Cy,  K” | Se
+
+ 
+
+Pinto, Nicolas, David D. Cox, and James J. Di Carlo. "Why is real-world visual object recognition hard?"
+PLoS Comput Biol 4, no. 1 (2008): e27. doi: 10.1371/journal.pcbi.0040027. License CC BY.
+
+level variation
+Poggio, Uliman, Grossberg, Edleman, Biederman, etc.
+
+DiCarlo and Cox, TICS (2007), Pinto, Cox, and DiCarlo, PLoS Comp Bio (2008),
+DiCarlo, Zoccolan and Rust, Neuron (2012)
+
+ 
+
+oe
+oo
+ea =| Subordinate
+oo
+oo
+
+21
+ENDELEMENTThe brain’s “camera” represents
+the image as populations of
+visually-evoked “features”
+
+999
+
+“Joe’s” identity manifold
+
+e..
+te
+e e@ “loe’”’
+
+neuron 5... r)
+
+“Joe
+
+   
+  
+   
+
+neuron 1
+
+”
+
+neuron 4
+
+neuron 3
+neuron 2
+
+ 
+
+Courtesy of Elsevier, Inc., http://www.sciencedirect.com. Used with permission.
+Source: DiCarlo, James J., and David D. Cox. "Untangling invariant object
+recognition. "Trends in cognitive sciences 11, no. 8 (2007): 333-341;
+https://doi.org/10.1016/j.tics.2007.06.010.
+
+pixel RGC
+
+22
+ENDELEMENTOM al-mero) in) oLeiciicelar-lmeraep ae) mele) (-\erm-lalemc-(er-ma-lerelelalid(oy a
+
+ 
+
+A “good” set of visual features We assume: “shape” maps to
+== “Explicit” representation a “identity” and “category”
+
+ 
+
+  
+   
+
+fo} Me) 0) (-Yer -Jal=]el=. individual 2
+("Joe”)
+“Joe”
+Should be able to find it
+Neural with low* number of
+population training examples
+separating
+hyperplane
+“e »» individual 1
+not Joe” indiyidua
+. Courtesy of Elsevier, Inc., http://www.sciencedirect.com. Used with permission.
+DiCarlo and Cox, TICS (2007) Source: DiCarlo, James J., and David D. Cox. "Untangling invariant object
+
+recognition. "Trends in cognitive sciences 11, no. 8 (2007): 333-341;
+https://doi.org/10.1016/j.tics.2007.06.010. 23
+ENDELEMENTTaN e-lat-lalex-Micm iat Morelan)oleieclielar-]Melgep @e)me)e)(-Leim-lalemi-(ex-Ma-Terelelalit(oya)
+
+ 
+
+Pixel population representation
+
+(~ retinal image representation)
+
+ 
+
+object manifolds are “tangled”
+
+(Due to identity-preserving image variation.)
+
+Courtesy of Elsevier, Inc., http://www.sciencedirect.com. Used with permission.
+Source: DiCarlo, James J., and David D. Cox. "Untangling invariant object
+recognition. "Trends in cognitive sciences 11, no. 8 (2007): 333-341;
+https://doi.org/10.1016/j.tics.2007.06.010.
+
+DiCarlo and Cox, TICS (2007); Pinto, Cox, and DiCarlo, PLoS Comp Bio (2008)
+
+individual 2
+
+ineffective
+separating
+hyperplane
+
+individual 1
+
+24
+ENDELEMENT 
+
+6
+
+“Sam
+
+  
+
+‘Joe
+
+actual pixel space
+
+ 
+
+  
+
+BE-lale {xem lanl dicen
+object information
+
+—J  —
+a poor encoding
+basis (for this task)
+
+      
+
+        
+ 
+    
+    
+      
+
+  
+
+  
+
+DiCarlo and Cox, TICS (2007)
+DiCarlo, Zoccolan and Rust, Neuron (2012)
+
+IT Space
+
+       
+      
+
+Untangled,
+explicit object
+information
+
+Transformation ——
+
+This must be
+non-linear
+
+a powerful encoding
+basis somewhere in
+the brain
+
+ 
+
+Courtesy of Elsevier, Inc., http://www.sciencedirect.com. Used with permission.
+
+Source: DiCarlo, James J., and David D. Cox. "Untangling invariant object
+
+recognition. "Trends in cognitive sciences 11, no. 8 (2007): 333-341;
+
+https://doi.org/10.1016/j.tics.2007.06.010. 25
+ENDELEMENTThe ventral visual stream
+
+ 
+
+  
+  
+   
+    
+  
+ 
+   
+ 
+   
+ 
+ 
+  
+ 
+  
+ 
+  
+ 
+ 
+ 
+ 
+
+Human Rhesus monkey
+
+Camel NJ
+Rhino — N S bs
+Ino “ ”
+Elephant camel
+Wrench ni . h
+Knife
+| Hage confused wit
+Fork “d g”
+Guitar
+Pen
+Tank | NI
+Truck ~
+Bird-_
+Hammer
+Gun
+Table
+Calculator
+
+ac A > tank’ confused with “truck” }
+House
+
+Bear
+Shorts
+Watch
+
+ 
+
+       
+  
+
+03
+
+| | 0.25
+
+02
+
+wl 0.18
+
+D
+fe)
+a:
+
+Camel |
+Rhino
+Elephant
+Wrench
+Knife
+Hanger
+Fork
+
+S)
+Comparison of Object Recognition Behavior in Human and Monkey
+R. Rajalingham, K Schmidt, J.J. DiCarlo, Vision Sciences Society (2014)
+R. Rajalingham, K Schmidt, J.J. DiCarlo, J. Neuroscience (in press)
+
+Courtesy of Society for Neuroscience. License CC BY NC SA. Adapted from Motter and Mounteastle 1981
+Source: Rajalingham, Rishi, Kailyn Schmidt, and James J. DiCarlo. "Comparison of object recognition
+behavior in human and monkey." Journal of Neuroscience 35, no. 35 (2015): 12127-12136. 26
+ENDELEMENTThe ventral visual stream
+
+ 
+
+Courtesy of Elsevier, Inc., http://www.sciencedirect.com. Used with permission. 2 oe
+Source: DiCarlo, James J., and David D. Cox. "Untangling invariant object Decision
+recognition." Trends in cognitive sciences 11, no. 8 (2007): 333-341. and action
+
+   
+  
+ 
+     
+
+Image removed due to copyright restrictions. Please see the video.
+Source: Eye, Brain, and Vision. David H. Hubel. New York : Scientific American
+Library : Distributed by W.H. Freeman, c1988. ISBN: 0716750201.
+
+We think we know where the neural mechanisms
+and resulting representations that solve core
+object recognition live in the primate brain.
+
+We can measure and manipulate those
+representations at the level of neuronal
+spikes.
+
+Courtesy of Society for Neuroscience. License CC BY-NC-SA.
+Source: Kelly, Ryan C., Matthew A. Smith, Jason M. Samonds,
+Adam Kohn, A. B. Bonds, J. Anthony Movshon, and Tai Sing Lee.
+"Comparison of recordings from microelectrode arrays and single
+$500). 261 et cortex." Journal of Neuroscience 27, no. Courtesy of Society for Neuroscience. License CC BY-NC-SA.
+Source: Motter, BRAD C., and VERNON B. Mountcastle.
+"The functional properties of the light-sensitive neurons
+of the posterior parietal cortex studied in waking monkeys:
+Foveal sparing and opponent vector organization.
+"Journal of Neuroscience 1, no. 1 (1981): 3-26.
+
+ 
+
+aed
+‘Adapted from Matter and Mountcaste 1981
+
+27
+ENDELEMENTThe ventral visual stream
+
+Courtesy of Elsevier, Inc., http://www.sciencedirect.com. Used with permission.
+Source: DiCarlo, James J., and David D. Cox. "Untangling invariant object
+recognition." Trends in cognitive sciences 11, no. 8 (2007): 333-341.
+
+ 
+  
+  
+ 
+  
+
+IT is believed to be
+that powerful
+encoding basis
+
+             
+
+on-retinotopic
+
+ 
+
+Retinotopic map
+Retinotopic map
+Retinotopic map
+Retinotopic map
+
+    
+
+| Retinotopic map
+
+Bn
+
+  
+
+Key concept: each area conveys a new neural population representation
+
+ 
+
+pixel RGC LGN V1 V2 V4 IT
+
+28
+ENDELEMENT“IT” (Inferior temporal cortex)
+
+  
+  
+    
+ 
+
+~10M Latency
+representation)
+
+A B
+~100 ms
+
+v2 ~90 ms
+~80ms
+
+vor ~15 M (V4 representation)
+| soul ~70ms
+
+~29 M (V2 representation)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+~60ms
+
+Retina
+
+~50ms
+
+LGN ity ~1M (LGN representation) ~40ms
+
+Retina g ~1M (RCG representation)
+
+Courtesy of Elsevier, Inc., http://www.sciencedirect.com. Used with permission.
+Source: DiCarlo, James J., Davide Zoccolan, and Nicole C. Rust. "How does the
+brain solve visual object recognition?" Neuron 73, no. 3 (2012): 415-434.
+
+Adapted from DiCarlo et al. 2012
+29
+ENDELEMENT“IT” (Inferior temporal cortex)
+
+  
+ 
+
+~10M Latency
+representation)
+
+~100 ms
+
+~90 ms
+
+~80 ms
+
+ 
+
+  
+    
+ 
+
+~15 M (V4 representation)
+
+~70ms
+
+ 
+
+~29M (V2 representation)
+
+ 
+
+ 
+
+ 
+
+~60ms
+
+~50ms
+
+LGN ity ~1M (LGN representation) ~40ms
+
+You a re he re . Retina g ~1M (RCG representation)
+
+Courtesy of Elsevier, Inc., http://www.sciencedirect.com. Used with permission.
+Source: DiCarlo, James J., Davide Zoccolan, and Nicole C. Rust. "How does the
+brain solve visual object recognition?" Neuron 73, no. 3 (2012): 415-434.
+
+Adapted from DiCarlo et al. 2012
+30
+ENDELEMENTRetinal ganglion cell RF structure:
+
+Figure removed due to copyright restrictions. Please see the video.
+
+Source: Eye, Brain, and Vision. David H. Hubel. New York : Scientific American
+
+Library : Distributed by W.H. Freeman, c1988. ISBN: 0716750201.
+
+Adapted from Hubel
+
+A Receptive fields of concentric cells of
+retina and lateral geniculate nucleus
+
+On-center Off-center
+
+3
+Central
+illumination
+
+4
+Surround
+illumination
+
+ 
+
+© McGraw-hill. All rights reserved. This content is excluded from our Creative Commons
+
+license. For more information, see https://ocw.mit.edu/help/fagq-fair-use/.
+
+Source: Siegelbaum, Steven A., and A. James Hudspeth. Principles of neural science. Eds. Eric R.
+Kandel, James H. Schwartz, and ThomasM. Jessell. Vol. 4. New York: McGraw-hill, 2000.
+
+Adapted from Kandel , Schwartz and Jessell
+ENDELEMENT“IT” (Inferior temporal cortex)
+
+  
+ 
+
+~10M Latency
+representation)
+
+~100 ms
+
+~90 ms
+
+~80 ms
+
+ 
+
+  
+    
+ 
+
+~15 M (V4 representation)
+
+~70ms
+
+ 
+
+~29M (V2 representation)
+
+ 
+
+ 
+
+ 
+
+~60ms
+
+~50ms
+
+LGN ity ~1M (LGN representation) ~40ms
+
+Retina g ~1M (RCG representation)
+
+Courtesy of Elsevier, Inc., http://www.sciencedirect.com. Used with permission.
+Source: DiCarlo, James J., Davide Zoccolan, and Nicole C. Rust. "How does the
+brain solve visual object recognition?" Neuron 73, no. 3 (2012): 415-434.
+
+Adapted from DiCarlo et al. 2012
+32
+ENDELEMENTPrimary visual cortex (Area V1):
+
+Orientation
+selectivity
+
+Figure removed due to copyright restrictions. Please see the video.
+Source: Eye, Brain, and Vision. David H. Hubel. New York : Scientific American
+Library: Distributed by W.H. Freeman, c1988. ISBN: 0716750201.
+
+Orientation
+selectivity with
+some position
+
+tolerance
+
+Adapted from Kandel , Schwartz and Jessel.
+ENDELEMENTBrain-inspired computer algorithms
+
+ 
+
+Examples:
+* Hubel & Wiesel (1962)
+
+    
+
+ 
+
+ 
+
+ 
+
+contrast ed
+
+extraction S09°
+extraction
+
+Courtesy of Elsevier, Inc., http://www.sciencedirect.com.
+
+Used with permission.
+
+Source: Fukushima, Kunihiko. "Neocognitron for handwritten
+
+digit recognition. "Neurocomputing 51 (2003): 161-180.
+
+ 
+
+recognition
+
+layer
+
+Figure removed due to copyright restrictions.
+Please see the video. Source: Eye, Brain, and Vision. David H. Hubel. New York: Scientific
+American Library: Distributed by W.H. Freeman, c1988. ISBN: 0716750201.
+
+ 
+
+ 
+
+ 
+
+O amas —\A
+I} Complex cals 0) }
+tuning — Main utes (j
+= Benn — iene
+
+ 
+
+ 
+
+   
+
+*Hierarchy
+
+¢ Spatially local filters
+¢Convolution
+Normalization
+¢Threshold NL
+¢Unsupervised learning
+
+Serre, Kouh, Cadieu, Knoblich,
+Kreiman & Poggio 2005
+ENDELEMENT“IT” (Inferior temporal cortex)
+
+  
+ 
+
+~10M Latency
+representation)
+
+~100 ms
+
+~90 ms
+
+~80 ms
+
+ 
+
+  
+    
+ 
+
+~15 M (V4 representation)
+
+~70ms
+
+ 
+
+~29M (V2 representation)
+
+ 
+
+ 
+
+ 
+
+~60ms
+
+~50ms
+
+LGN ity ~1M (LGN representation) ~40ms
+
+Retina g ~1M (RCG representation)
+
+Courtesy of Elsevier, Inc., http://www.sciencedirect.com. Used with permission.
+Source: DiCarlo, James J., Davide Zoccolan, and Nicole C. Rust. "How does the
+brain solve visual object recognition?" Neuron 73, no. 3 (2012): 415-434.
+
+Adapted from DiCarlo et al. 2012
+35
+ENDELEMENTArea V2 (first cortical area after V1):
+
+Original V1-like filters matched: Correlations matched:
+photographs __ spectrally matched noise naturalistic texture
+
+ 
+
+ 
+
+ 
+
+ 
+
+n= 102
+
+ 
+
+     
+
+08 7
+Naturalistic
+
+Normalized firing rate
+
+06 4
+0.4 4
+
+0.24
+
+ 
+
+ 
+
+ 
+
+a T q
+i} 100 200 300
+Time from stimulus onset (ms)
+Reprinted by permission from Macmillan Publishers Ltd: Nature Neuroscience.
+Source: Freeman, Jeremy, Corey M. Ziemba, David J. Heeger, Eero P. Simoncelli,
+and J. Anthony Movshon. "A functional and perceptual signature of the second visual
+area in primates. "Nature neuroscience 16, no. 7 (2013): 974-981.
+
+ 
+
+Interpretation:
+
+- V2 neurons apply “and-like”
+operators on V1 outputs
+
+- those “ands” are tuned
+toward natural co-occurring
+V1 statistics
+
+Adapted from Freeman, Ziemba, Heeger, Simoncelli, & Movshon, Nature Neuro (2013)
+
+36
+ENDELEMENT“IT” (Inferior temporal cortex)
+
+  
+ 
+
+~10M Latency
+representation)
+
+~100 ms
+
+~90 ms
+
+~80 ms
+
+ 
+
+  
+    
+ 
+
+VOT
+
+~15 M (V4 representation)
+
+~70ms
+
+ 
+
+ 
+
+~29M (V2 representation)
+
+ 
+
+ 
+
+ 
+
+~60ms
+
+~50ms
+
+LGN ity ~1M (LGN representation) ~40ms
+
+Retina g ~1M (RCG representation)
+
+Courtesy of Elsevier, Inc., http://www.sciencedirect.com. Used with permission.
+Source: DiCarlo, James J., Davide Zoccolan, and Nicole C. Rust. "How does the
+brain solve visual object recognition?" Neuron 73, no. 3 (2012): 415-434.
+
+Adapted from DiCarlo et al. 2012
+37
+ENDELEMENTWhat is V4 doing?
+
+  
+
+Increased selectivity for
+conjunction of features that
+tend to co-occur in natural
+images
+
+ 
+
+Courtesy of Society for Neuroscience. License CC BY NC SA.
+Source: Rust, Nicole C., and James J. DiCarlo. "Selectivity
+
+and tolerance (“invariance”) both increase as visual information
+propagates from cortical area V4 to IT." Journal of Neuroscience
+30, no. 39 (2010): 12978-12995.
+
+Rust & DiCarlo J Neurosci (2010)
+Rust & DiCarlo J Neurosci (2012)
+
+    
+ 
+
+Explicit, untangled
+
+Tangled, implicit
+Co) o) (term lal colguir-liceya)
+
+object representation
+pixel RGC LGN V1 V2
+
+Courtesy of Elsevier, Inc., . Used with permission.
+Source: DiCarlo, James J., and David D. Cox. "Untangling invariant object recognition." Trends in cognitive sciences 11, no. 8 (2007): 333-341. 38
+ENDELEMENTV4 Responses to Non-Cartesian Gratings
+Gallant et al. 1996
+
+ZA AN EAESS
+SUNS
+ra i) * a —
+
+=Z4M4UNS
+
+ZIALWNS
+
+Courtesy of Journal of Neurophysiology. Used with permission.
+
+Source: Gallant, Jack L., Charles E. Connor, Subrata Rakshit, James
+
+W. Lewis, and DAVID C. Van Essen. "Neural responses to polar,
+hyperbolic, and Cartesian gratings in area V4 of the macaque monkey."
+Journal of neurophysiology 76, no. 4 (1996): 2718-2739.
+
+ 
+
+ 
+
+39
+ENDELEMENTWhat shape features drive V4 responses?
+
+ 
+
+Adapted from C.E. Connor
+
+Make a basis for shapes:
+
+each shape = set of curved elements
+each element = (ang position, curvature)
+
+Hypothesis:
+V4 neurons are tuned in this basis
+
+Figure removed due to copyright restrictions. Please see the video.
+Source: "Shapes Dimensions and Object Primitives" from Chalupa,
+Leo M., and John Simon Werner. The visual neurosciences. [Vol. 2].
+MIT Press, 2004. Harvard.
+
+40
+ENDELEMENTWhat shape features drive V4 responses?
+
+ 
+
+Adapted from C.E. Connor
+
+@ Two convex projections Three convex projections Four convex projections
+
++ Stimulus orientation + +~ Stimulus orientation + +~ Stimulus orientation —
+12345678 12345678 12345678
+
+  
+
+80 18 ° Oo jo
+500 2» 10 200 ,O00 °
+Bd 8O0005008 *O06
+5 3O099S60C08 ~-Ooooos9
+g 39.0 200000000
+2 i) CO 8O
+ea’ s000 CS %O iojale] .
+3:0 £0 CS §9 2)
+Ee sO © 2000 oO
+5 30 C9 7000
+g 3 °
+8 = i?)
+Pi (8s ie)
+350 or ie)
+<8 . :
+z 3 8 8 se b Shape tuning function
+30 (4) 1.0
+1O00O00C0 ,
+5009609 305
+009009 &
+ZOOCIWOIIESD & gn
+3009009
+BOO Qc0 ™3 180 270 360
+z<OOO 4 To Angular position (°)
+C orev @ OOOO de QO Es
+S 40
+Predicted QOOQ OOO 8 900 33 30
+08> 6909 68 “40
+
+009e@ 690 §~oo
+
+Reprinted by permission from Macmillan Publishers Ltd: Nature Neuroscience.
+Source: Pasupathy, Anitha, and Charles E. Connor. "Population coding of shape
+in area V4." Nature neuroscience 5, no. 12 (2002): 1332-1338.
+
+ 
+
+Spikes/s
+
+   
+
+ry
+ra
+2
+=
+a
+a
+
+Make a basis for shapes:
+each shape = set of curved elements
+
+each element = (ang position, curvature)
+
+Hypothesis:
+V4 neurons are tuned in this basis
+
+Experimental result:
+Hypothesis explains ~50% of the
+explainable response variance
+
+ 
+
+Pasupathy and Connor (V4)
+Brincat and Connor (PIT)
+
+41
+ENDELEMENT“IT” (Inferior temporal cortex)
+
+  
+ 
+
+~10M Latency
+representation)
+
+You are here. ~100ms
+
+~90 ms
+
+~80 ms
+
+ 
+
+  
+    
+ 
+
+~15 M (V4 representation)
+
+~70ms
+
+ 
+
+~29M (V2 representation)
+
+ 
+
+ 
+
+ 
+
+~60ms
+
+~50ms
+
+LGN ity ~1M (LGN representation) ~40ms
+
+Retina g ~1M (RCG representation)
+
+Courtesy of Elsevier, Inc., http://www.sciencedirect.com. Used with permission.
+Source: DiCarlo, James J., Davide Zoccolan, and Nicole C. Rust. "How does the
+brain solve visual object recognition?" Neuron 73, no. 3 (2012): 415-434.
+
+Adapted from DiCarlo et al. 2012
+42
+ENDELEMENTIT is about central vision
+
+DvD
+
+   
+ 
+
+  
+
+ay, foveal
+projections
+to IT
+
+© Oxford University Press. All rights reserved. This content is excluded from our Creative
+Commons license. For more information, see https://ocw.mit.edu/help/faq-fair-use/.
+
+Source: Ungerleider, Leslie G., Thelma W. Galkin, Robert Desimone, and Ricardo Gattass.
+"Cortical connections of area V4 in the macaque." Cerebral Cortex 18, no. 3 (2008): 477-499.
+
+Ungerleider, L. G. et al. Cereb. Cortex 2007 ,,
+ENDELEMENTStimulus selectivity in inferotemporal cortex
+Gross, Rocha-Miranda & Bender 1972
+
+Figure removed due to copyright restrictions. Please see the video.
+Source: Gross, Charles G., Carlos Eduardo de Rocha-Miranda, and
+David B. Bender. "Visual properties of neurons in inferotemporal cortex
+of the Macaque." Journal of neurophysiology 35, no. 1 (1972): 96-111.
+
+The use of [these] stimuli was begun one day when, having failed to drive a unit
+with any light stimulus, we waved a hand at the stimulus screen and elicited a
+very vigorous response from the previously unresponsive neuron...
+
+We then spent the next 12 hr testing various paper cutouts in an attempt to find
+the trigger feature for this unit. When the entire set of stimuli used were ranked
+according to the strength of the response that they produced, we could not find
+a simple physical dimension that correlated with this rank order. However, the
+rank order of adequate stimuli did correlate with similarity (for us) to the shadow
+
+of a monkey hana" (Gross et al., 1972).
+ENDELEMENTThe ventral stream and object recognition
+oo aes Wane ae ene
+HH ODO Sg
+ty 7 IT neurons can be tuned to
+
+fe a EL specific combinations of
+oss features (high “selectivity”)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Desimone et al. (1984)
+
+Courtesy of Society for Neuroscience. License CC BY NC SA.
+
+Source: Desimone, Robert, Thomas D. Albright, Charles G. Gross,
+and Charles Bruce. "Stimulus-selective properties of inferior temporal
+neurons in the macaque." Journal of Neuroscience 4, no. 8 (1984):
+2051-2062.
+
+7
+
+That selectivity is
+tolerant to changes in
+position and size
+
+Target response/
+mean of best distractors
+O-NwWaun
+
+ 
+
+om N WRU DN
+
+ 
+
+190 2.80 3.70 4.70 5.60 (0,0) (xx (x,-a} (-x,al-x,-0)
+Degrees of visual angle Azimuth and elevation
+(x= 2.25%
+
+Courtesy of Elsevier, Inc., http://www.sciencedirect.com. Used with permission. .
+Source: Castiello, Umberto. "Mechanisms of selection for the control of hand Logothetis et al. (1995)
+action. Trends in Cognitive Sciences 3, no. 7 (1999): 264-271.
+
+45
+ENDELEMENTPrimary visual cortex:
+
+Orientation
+selectivity
+
+Figure removed due to copyright restrictions. Please see the video.
+Source: Eye, Brain, and Vision. David H. Hubel. New York : Scientific American
+Library: Distributed by W.H. Freeman, c1988. ISBN: 0716750201.
+
+Orientation
+selectivity with
+some position
+
+tolerance
+
+Adapted from Kandel , Schwartz and Jessel
+ENDELEMENTWhat stimulus feature are IT neurons actually “tuned” to?
+
+Figure removed due to copyright restrictions. Please see the video.
+Source: Tanaka, Keiji. "Neuronal mechanisms of object recognition."
+Science-New York Then Washington 262 (1993): 685-685.
+
+ 
+
+Figure removed due to copyright restrictions. Please see the video.
+Source: Tanaka, Keiji. "Columns for complex visual object features in
+the inferotemporal cortex: Clustering of cells with similar but slightly
+
+different stimulus selectivities." Cerebral cortex 13, no. 1 (2003): 90-99.
+
+doi: 10.1093/cercor/13.1.90.
+
+47
+ENDELEMENTIT has spatial organization at 500 um - 1 mm scale
+
+Figure removed due to copyright restrictions. Please see the video.
+Source: Tanaka, Keiji. "Columns for complex visual object features
+
+in the inferotemporal cortex: Clustering of cells with similar but slightly
+different stimulus selectivities." Cerebral cortex 13, no. 1 (2003): 90-99.
+
+Figure removed due to copyright restrictions. Please see the video.
+Source: Tanaka, Keiji. "Columns for complex visual object features in
+the inferotemporal cortex: Clustering of cells with similar but slightly
+
+different stimulus selectivities." Cerebral cortex 13, no. 1 (2003): 90-99.
+
+doi: 10.1093/cercor/13.1.90.
+
+48
+ENDELEMENTLarger scale (2-6 mm) organization for some image contrasts
+
+ML
+
+   
+  
+
+£
+e
+f=)
+3
+i
+<€
+E
+cc]
+E
+5
+
+ton =
+
+©
+
+a
+
+=
+
+S
+
+c
+
+= =
+
+© 400
+
+Figure removed due to copyright restrictions. Please see the video. é
+120
+
+     
+
+PDEs Mine he te ee
+16 32 48 64 80 96
+Faces Bodies Fruits Gadgets Hands Scram
+
+© AAAS. All rights reserved. This content is excluded from our Creative Commons
+license. For more informationsee https://ocw.mit.edu/help/faq-fair-use/.
+
+Source: Tsao, Doris Y., Winrich A. Freiwald, Roger BH Tootell, and Margaret S.
+Livingstone. "A cortical region consisting entirely of face-selective cells."
+
+Science 311, no. 5761 (2006): 670-674.
+
+a acs!
+
+Tsao, Freiwald, and Livingstone used Most of the single neurons in these
+fMRI to reveal a set of face selective regions showed a preference for
+regions in IT (aka “face patches”) frontal faces
+
+Tsao et al., Science 2006
+49
+ENDELEMENTIT selectivity is particularly clustered
+for some image contrasts
+
+face objects
+
+: objects. MUA
+
+   
+
+ 
+
+Courtesy of Journal of Neuroscience. License CC BY NC SA.
+
+Source: Issa, Elias B., Alex M. Papanastassiou, and James J. DiCarlo. Issa et al., J Neurosci 2013
+"Large-scale, high-resolution neurophysiological maps underlying FMRI Aparacio*, Issa* DiCarlo (In prep)
+of macaque temporal lobe." Journal of Neuroscience 33, no. 38 (2013): , ,
+
+15207-15219. 50
+ENDELEMENTDiCarlo and Cox, TICS (2007)
+DiCarlo, Zoccolan and Rust, Neuron (2012)
+
+ 
+  
+    
+   
+ 
+   
+
+IT Space
+
+actual pixel space
+
+ 
+
+BE-lalel{-xe mm lanl dicen Untangled,
+object information explicit object
+. . Taviedaaitcticeya
+
+  
+  
+      
+
+Tie)
+- a powerful encoding
+
+—et =
+a poor encoding basis somewhere in
+basis (for this task) the brain
+pixel LGN V1 IT
+
+Courtesy of Elsevier, Inc., http://www.sciencedirect.com. Used with permission.
+Source: DiCarlo, James J., and David D. Cox. "Untangling invariant object
+recognition." Trends in cognitive sciences 11, no. 8 (2007): 333-341. 51
+ENDELEMENT 
+
+Example spiking activity in IT
+
+12mm
+
+25 deg bevel
+
+Figure removed due to copyright
+restrictions. Please see the video.
+Source: Eye, Brain, and Vision.
+David H. Hubel. New York: Scientific
+by W.H. Freeman, c1988. ISBN:
+0716750201.
+
+  
+
+10mm
+© Source Unknown. All rights reserved. This content is © Source Unknown. All rights reserved. This content is
+excluded from our Creative Commons license. For more excluded from our Creative Commons license. For more
+information, see https://ocw.mit.edu/help/faq-fair-use/. information, see https://ocw.mit.edu/help/faq-fair-use/.
+
+ 
+
+iS) ite 1 © AAAS. All rights reserved. This content is excluded from our Creative Commons
+license. For more information, see https://ocw.mit.edu/help/faq-fair-use/.
+Source: Hung, Chou P., Gabriel Kreiman, Tomaso Poggio, and James J. DiCarlo. "Fast readout of object
+
+identity from macaque inferior temporal cortex. "Science 310, no. 5749 (2005): 863-866.
+
+O 100
+nats} 2
+
+ 
+ENDELEMENTAn early test of the IT population
+
+A broad set of 78 test objects from eight categories ...
+
+ 
+
+0.5x
+
+ 
+
+For each, test changes
+Tam Xex-ditCoya m= Tale Myer 1 (=)
+
+  
+
+2 deg 4 deg
+
+  
+
+ 
+
+ 
+
+100ms 100ms 100 ms
+
+= -s ° fixation task
+
+* 15 images per trial
+
+| | * 10 repetitions per image
+
+time ——> 100 ms * randomized and counter-balanced
+
+Hung*, Kreiman*, Poggio and DiCarlo, Science (2005,
+© AAAS. All rights reserved. This content is excluded from our Creative Commons
+license. For more information, see https://ocw.mit.edu/help/faq-fair-use/.
+
+ 
+
+Source: Hung, Chou P., Gabriel Kreiman, Tomaso Poggio, and James J. DiCarlo. "Fast readout of object
+identity from macaque inferior temporal cortex. "Science 310, no. 5749 (2005): 863-866.
+
+ 
+ENDELEMENT 
+
+(n ~ 350 IT sites) IN| ia
+
+   
+ 
+  
+      
+  
+
+ 
+
+@)o)(=Xormaatete l=)
+ENDELEMENTImplicit
+representation
+
+iat-\elnela4
+
+ 
+
+neuron 1
+
+“inaccessible”
+object information
+
+BAD
+
+ 
+
+Explicit
+representation
+
+iat-\elnela4
+
+a ee Object “A”
+
+NOT | le
+object “A” °*e
+
+neuron 1
+
+Linearly separable
+
+We Yerex-\-¥-)]/ 0) (= 1
+object information
+
+GOOD
+ENDELEMENT 
+
+ 
+
+Population activity
+Il neuron 1
+neuron 2
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+| | neuron N
+
+(n ~ 350 IT sites)
+
+Response vector
+
+Biologically Predicted object
+
+plausible linear category e.g. “human face” classifier
+classifiers
+
+ 
+
+(oral t(elere)
+neuront
+
+human face —__]
+| toys
+irefere] neuron 3
+fe) monkey face
+
+ia AWV/a}itom ole) qrexe)al Cole] gs)
+
+larclael/efereny
+
+cme vehicles
+
+  
+
+‘Neuron 2
+
+ 
+
+ 
+
+ 
+
+Hung*, Kreiman*, Poggio and DiCarlo, Science (2005)
+
+ 
+ENDELEMENT100 } ‘Categorization’ ;
+(n=64 sites)
+
+‘Identification’ »
+
+PereerrrrnD 4
+
+   
+
+ 
+
+e~ fe))
+fo) fo)
+
+Classification performance
+(% correct)
+8
+
+ 
+
+0
+1 7 Lo ol S20) 0) Size: 3.4°
+Number of sites Position: center
+
+pean tispal he ialtabiledl ™ —
+
+* Consistent with other IT work
+
+(e.g. Rolls, Tanaka, Miyashita, Yamane, Sugase, Logothetis, Vogels, Connor, ...)
+
+TEST
+Rapid, explicit object representation in IT
+
+Hung*, Kreiman*, Poggio and DiCarlo, Science (2005)
+
+ 
+ENDELEMENTSummary so far:
+dale olcele)(-Vai Me) mUl-Jer-l mele) (-\eima-Lerelelaliice) a
+a tour of the ventral stream
+IT population seems to have solved a key problem
+
+Over the last 40 years. we (the field) have largely described
+Tan) eXeyar-Taim elarcvaceyiar-vared cere ns
+
+(ed 4mm olar-X-Meoym daltcMil-1(ePmme(-\1-1(e) olfarem-Taremccs-dilale Mm ela-vel(edhv.-y
+models
+ENDELEMENT© Playboy Magazine. All rights reserved.
+This content is excluded from our Creative
+Commons license. For more information,
+see https://ocw.mit.edu/help/faq-fair-use/,
+
+   
+
+e.g. spiking pattern of
+a neural population
+
+“Neural representation”
+
+Goal is accurate
+predictivity
+
+Behavioral reports /
+perception (“mind”)
+ENDELEMENT 
+
+((BXeoyait-llabmexe)a-Mele)(-teima-terelelalid(eyay]
+
+(Cioy-| a=) ale pa com=)alemulalel-)ecir-lareliare
+
+sa Or- Ta: Mel ali:) em (al- mo) c-Xe7(-1-Meloterelellalemiil-(elar- Lalvani ¢-))
+dar-im calm ol e-lipMUtcy-t-m Com-J0] 0) ele) am ol-)uex-]e)0l-|Ma-] ele) ac-w-leleleit
+TETUE- INVES o) =t-1-1 a] (Le Mele) (-Yeq t-¥rg
+
+2. Can we infer the encoding mechanism(s) that
+accurately predicts the relevant ventral stream
+population patterns of neural activity from each image?
+ENDELEMENT© Playboy Magazine. All rights reserved.
+This content is excluded from our Creative
+Commons license. For more information,
+
+see https://ocw.mit.edu/help/faq-fair-use/. Behavioral reports
+(“perception”)
+
+    
+   
+  
+
+Specific task
+domain
+
+(nouns)
+
+Generative
+image domain
+
+ingle fe d a
+Cn Neural activity
+
+a specific spiking pattern over
+the IT neural population in
+response to a specific image
+
+“IT Neural
+representation”
+
+© Dr Jonathan Clarke. Wellcome Images. All rights reserved.
+This content is excluded from our Creative Commons license.
+
+For more information, see https://ocw.mit.edu/help/faq-fair-use/. 61
+ENDELEMENT3-d object Models
+
+(e.g. car’)
+
+ 
+ENDELEMENTexperimenter-chosen
+view parameters
+
+Position
++ Size
+Pose
+
+ 
+ENDELEMENTray-trace render
+
+“iy
+
+ 
+ENDELEMENTplace on a randomly-chosen
+background image
+
+ 
+ENDELEMENT 
+
+@ generative space of images, each with a single
+foreground object and experimenter-known
+viewing parameters.
+
+@ uncorrelated, new background every image
+==> challenging for computer vision, doable by humans
+ENDELEMENT8 deg image at center of gaze, 100 ms viewing time
+
+ 
+
+67
+ENDELEMENTOne example core object recognition test:
+
+= n>100
+
+ 
+
+not “face”
+
+ 
+ENDELEMENTAnother example core object recognition test:
+“Beetle”
+
+ 
+
+Not “Beetle”
+
+ 
+
+= n>700
+
+69
+ENDELEMENT 
+
+((BXeoyait-llabmexe)a-Mele)(-teima-terelelalid(eyay]
+
+(Cioy-| a=) ale pa com=)alemulalel-)ecir-lareliare
+
+1. Can we infer the decoding mechanism(s) that the
+Lo) e- Tip MUL-X-1-M Kom-JU] 0) ole) ams ol-1aex-) ol (0r-]Ma:) ole)acw-lelolUiMmarJUr-LINNZ
+presented objects?
+
+Coy (Mam dale Mallia lave l (erm el-Jal-\Vile)e-]Ma-) olelam-lale mim ailel-ys
+include a falsifiable statement of the relevant aspects of
+neural activity (aka “neural code”)
+
+ 
+ENDELEMENT 
+
+((BXeoyait-llabmexe)a-Mele)(-teima-terelelalid(eyay]
+
+(Cioy-| a=) ale pa com=)alemulalel-)ecir-lareliare
+
+1. Can we infer the decoding mechanism(s) that the
+Lo) e- Tip MUL-X-1-M Kom-JU] 0) ole) ams ol-1aex-) ol (0r-]Ma:) ole)acw-lelolUiMmarJUr-LINNZ
+presented objects?
+
+Coy (Mam dale Mallia lave l (erm el-Jal-\Vile)e-]Ma-) olelam-lale mim ailel-ys
+include a falsifiable statement of the relevant aspects of
+neural activity (aka “neural code”)
+
+ 
+ENDELEMENTTiel Cc lar-velerma-xexolaellare Moymalelatela-tol-Me)mal-l0le-1B-Yic:t-wr-llovaleMuat-M Velie TEL Ca tlie
+
+    
+   
+    
+ 
+ 
+
+Three, 96-electrode arrays
+Courtesy of Society for Neuroscience.
+License CC BY-NC-SA.
+Source: Kelly, Ryan C., Matthew A. Smith, Jason
+M. Samonds, Adam Kohn, A. B. Bonds, J. Anthony
+Movshon, and Tai Sing Lee. "Comparison of
+
+recordings from microelectrode arrays and single
+electrodes in the visual cortex." Journal of
+- Neuroscience 27, no. 2 (2007): 261-264.
+
+Array 3
+(in place)
+
+  
+  
+
+72
+ENDELEMENTe.g. “response” = mean firing rate 70-170 ms after image onset
+
+ 
+
+aay
+c
+O
+La
+=
+9)
+Zz
+E
+
+168
+ENDELEMENTBEHAVIOR
+
+Cc
+ne)
+S
+(64 object 2
+recognition tests © | “e¢
+using same images) 5 Low
+© 39
+& &oE~g
+v
+
+ 
+
+Courtesy of Society for Neuroscience. License CC BY NC SA.
+Source: Majaj, Najib J., Ha Hong, Ethan A. Solomon, and James J. DiCarlo. "Simple earned weighted
+sums of inferior temporal neuronal firing rates accurately predict human core object recognition
+NEURAL performance." Journal of Neuroscience 35, no. 39 (2015): 13402-13418.
+ACTIVITY
+I
+
+Humans and monkeys find some object
+recognition tests more difficult than others.
+
+      
+  
+
+This pattern of difficulty is very reliable
+across observers.
+
+    
+  
+
+ 
+ 
+     
+ 
+  
+
+Which, if any, part of the IT population neural
+activity pattern predicts the observed behavioral
+performance over all 64 object recognition tests?
+
+IT Neuron #
+
+Image #
+
+© Source Unknown. All rights reserved. This content is excluded from our Creative
+Commons license. For more information, see https://ocw.mit.edu/help/faq-fair-use/.
+
+Performance (d’)
+ENDELEMENTWe had previously shown that simple weighted sums of IT population
+re-¥-) oLolar-X-t Matec M alle lam elclacolarit-lalersm (ama-xevele [alit(el tM: 1-1. c)
+
+Population activity
+Wht neuron 1——>
+neuron 2——>
+
+ 
+
+ 
+
+ 
+
+Simple 100 ms rate code
+(one of many possible codes)
+
+Response vector
+
+ 
+
+But, could this neural code & decode, predict
+behavioral face detection performance?
+
+and car detection performance?
+
+and car1 vs. car 2?
+
+      
+   
+  
+
+and all such
+
+neuron 1 tasks...
+
+   
+
+[at-\elnelaw4
+
+ 
+
+neuron 3
+
+= weighted sum of input
+neural activity
+
+Biologically plausible hypothesis
+for downstream neural mechanism
+
+ 
+
+Hung™*, Kreiman*, Poggio and DiCarlo, Science (2005);
+
+Rust & DiCarlo, J Neuroscience (2010)
+
+“Face present”
+
+Courtesy of Society for Neuroscience. License CC BY NC SA.
+Source: Majaj, Najib J., Ha Hong, Ethan A. Solomon, and James J. DiCarlo. "Simple learned weighted sums of inferior
+
+temporal neuronal firing rates accurately predict human core object recognition performance." Journal of Neuroscience
+35, no. 39 (2015): 13402-13418; DOI: https://doi.org/10.1523/JNEUROSCI.5181-14.2015. 75
+ENDELEMENTM '/ak-\moxete(-m.-mel-Yexole late Munl-\evar-lalJiem>.¢dt-Tiat-mede) (-1e1ma-Lerelelaliice) alta
+
+ 
+
+Our working hypothesis from previous work:
+
+Passively-evoked spike rate codes (using a single, fixed time scale) that
+are spatially distributed over a single, fixed number of non-
+human primate IT cortex neurons and learned from a reasonable
+number of examples.
+
+If correct, this code/decode should predict monkey and human
+reports about object category and object identity for all tasks.
+Other possibilities:
+Attentional and/or arousal mechanisms are needed to “activate” IT
+Trial-by-trial coordinated spike timing patterns are crucial
+
+Compartments within IT must be carefully considered
+(e.g. tasks related to faces handled exclusively by “face patch” network)
+
+IT does not directly underlie object recognition
+Performance requires too many training examples
+
+Monkey neuronal codes cannot explain human behavior
+ENDELEMENTPredicted behavioral performance
+
+ 
+
+6 °
+°
+°
+°
+°
+°
+°
+°
+°
+°
+°
+°
+°
+°
+°
+°
+°
+°
+°
+Fa °
+Ss “
+~~ °
+°
+°
+°
+°
+°
+°
+°
+°
+°
+°
+°
+°
+°
+°
+°
+°
+°
+°
+°
+°
+°
+°
+
+Actual behavioral performance
+
+(mean human d’)
+
+Majaj, Hong, Solomon, and DiCarlo, Cosyne 2012
+
+Majaj, Hong, Solomon, and DiCarlo, Under Review
+7
+ENDELEMENTTake home: simple, learned weighted sums of IT firing rates accurately
+
+predict the pattern of PERFORMANCE over all object recognition tests
+
+ 
+
+Parameters of inferred neural
+code/decoding mechanism:
+
+- for each new object, randomly
+sample ~50,000 single neurons
+spatially distributed over IT
+
+n= 64
+object tests
+
+correlation ~ 0.92
+- e
+
+eo.
+Face
+
+- listen” to each IT site’s average
+spiking response (ave over 100 ms)
+
+ 
+
+ 
+
+Predicted behavioral performance
+(d’)
+
+ @ iN
+
+- learn an appropriately weighted sum >» ee Fruit
+of those IT spiking outputs, and then cea °
+use ~10% of them to judge the ww tN
+likelihood of the object being present 2 wee Car
+
+Lor. e
+Learned Weighted Sums of (~50,000) a , ,
+Random Average (100 ms) single unit 0 6
+
+responses Distributed over IT ;
+Actual behavioral performance
+
+“l aWS of RAD IT” (mean human d’)
+decoding mechanism Majaj, Hong, Solomon, and DiCarlo, Cosyne 2012
+
+Majaj, Hong, Solomon, and DiCarlo, Under Review
+78
+ENDELEMENTSome controls...
+Most alternative codes/decoding mechanisms are not even close.
+
+ 
+
+ 
+
+ 
+
+LaWS of RAD IT
+
+2 fo (TereYo Ta Te]
+& < mechanism
+© ©
+& §
+© £ 0.95
+© © .
+£ s —- — — — | Human-to-human consistency -— —~ —~ —~ —~ —~ — Z :
+5g 09 ; |
+Qe
+of o8 offs
+3 & "1
+65 af
+Ex 06 | | 1: V4-based codes IT-based codes
+38, og FO
+c= 04 H a — H
+6 oH omputer vision
+Ss ec 0.2 algorithm codes
+GB Oo oS @ OA & % SOL XSL SO 4H +L
+os w FY Of N~nv OF YG SN OH YO SN
+SS TL EST GOCOLSS GOON SS
+9
+Oo © Courtesy of Society for Neuroscience. License CC BY NC SA.
+
+Q Source: Majaj, Najib J., Ha Hong, Ethan A. Solomon, and James J. DiCarlo. "Simple earned weighted
+
+sums of inferior temporal neuronal firing rates accurately predict human core object recognition
+performance." Journal of Neuroscience 35, no. 39 (2015): 13402-13418.
+Majaj, Hong, Solomon, and DiCarlo, Cosyne 2012
+Majaj, Hong, Solomon, and DiCarlo, Under Review
+79
+ENDELEMENTPerformance re humans
+
+mean[d’code/d’ behavior]
+
+0.8
+
+0.6
+
+0.4
+
+0.2
+
+0.0
+
+ 
+
+ 
+
+   
+
+7 \
+/ \
+/ Human-like
+4 ---—- —~- -~-—~4f--—- ~~ ~~ _ _ IL _ = eI
+168 i
+features ~~ _/!  /
+wile
+4 e
+
+IT
+
+~500 IT features
+
+LaWS of RAD IT
+
+ 
+
+| 128 , !
+Ca A !
+77 An
+
+V4 be Lg
+
+ 
+
+ 
+
+ 
+
+l T T T T T T
+00 02 0.4 0.6 0.8 0.9 0.95
+
+[spearman correlation coefficient]
+
+Consistency with humans
+
+Courtesy of Society for Neuroscience. License CC BY NC SA.
+Source: Majaj, Najib J., Ha Hong, Ethan A. Solomon, and James J. DiCarlo.
+
+~50,000 single IT neurons
+
+randomly selected over all of IT
+
+70-170ms
+weighted linear sum (SVM)
+
+ 
+
+"Simple learned weighted sums of inferior temporal neuronal firing rates Majaj, Hong, Solomon, and DiCarlo, Cosyne 2012
+
+accurately predict human core object recognition performance." Journal of Majaj, Hong, Solomon, and DiCarlo, Under Review
+Neuroscience 35, no. 39 (2015): 13402-13418. 80
+ENDELEMENTNumber of single units
+
+needed to support
+
+Number of neural “features”
+
+single-trial performance __, (multi-unit, trial averaged)
+
+~50,000 <
+single IT
+neurons
+
+  
+    
+
+10°
+ee ee Number of output neurons in IT
+10°
+104
+10° *
+~500 | - - .
+A family of IT codes/decodes
+2 i .
+10 , that each accurately predict
+: pattern of behavioral
+10" : performance
+|
+1
+40° 1 ~100
+
+ 
+
+10° 107 10% 10° 10° 10° 10% 10% 10°
+Number of training examples per object
+
+81
+ENDELEMENTBehavioral object Ground truth
+
+confusions
+“Animal”
+5 “Boat”
+Predicted: $ ‘car
+LaWS of RAD IT B “Chair”
+fo [Telefe [aT 2 “Face”
+mechanism £ “Fruit”
+© “Plane”
+“Table”
+
+     
+
+Noise-corrected correlation: 0.91 t
+
+This is an opportunity to push forward:
+image grain predictions to distinguish
+among alternative IT codes
+
+High variation
+
+82
+ENDELEMENTOther object latent variables
+
+Category: plane
+Identity: f16
+
+Position
+
+AVS ol=Toi atl t()
+
+ 
+
+© Nature. All rights reserved. This content is excluded from our Creative Commons
+license. For more information, see https://ocw.mit.edu/help/faq-fair-use/.
+
+Source: Hong, Ha, Daniel LK Yamins, Najib J. Majaj, and James J. DiCarlo.
+
+"Explicit information for category-orthogonal object properties increases along
+
+the ventral stream." Nature neuroscience 19, no. 4 (2016): 613-622.
+
+83
+ENDELEMENTLaWS of RAD IT
+
+   
+
+ 
+
+Categorization Identification decoding mechanism
+8
+Sc
+oO
+5
+= x
+Oo ro
+Q >o
+Do
+&
+0.57 0.66
+Site 10 Site 54 Site 43 Site 11 Site 77 Site 102
+
+ 
+
+ 
+
+ 
+
+fe] Ee SE
+
+© Nature. All rights reserved. This content is excluded from our Creative Commons
+
+license. For more information, see https://ocw.mit.edu/help/faq-fair-use/.
+
+Source: Hong, Ha, Daniel LK Yamins, Najib J. Majaj, and James J. DiCarlo.
+
+"Explicit information for category-orthogonal object properties increases along
+
+the ventral stream." Nature neuroscience 19, no. 4 (2016): 613-622. 84
+ENDELEMENT 
+
+Sum: LaWS of RAD IT performs LaWS of RAD IT
+better than other codes/decodes. decoding mechanism
+
+ 
+
+ 
+
+ 
+
+ 
+
+eategory: plaice Categorization \dentification 2-D Retinal Area Perimeter 3-D Object Scale
+identity: £16
+— 067 oss 0s ost 088
+~
+“oe Ie — x 019 0.28 0.30 028
+>o
+00 oo oo 00 00
+X-axis Position Y-axis Position Major Axis Length Aspect Ratio Major Axis Angle
+osT 0.66 0.50 0.56 047
+sae ose 029 028 023
+00 00
+00 00 00
+X-axis Size Y-axis Size Bounding Box Area Z-axis Rotation Y-axis Rotation ,,,) X-axis Rotation
+058 osT 053 0.40
+023 on
+029 028 | ozr oe ott ao
+i . . . .
+
+ 
+
+ 
+
+ 
+
+ 
+
+© Nature. All rights reserved. This content is excluded from our Creative Commons
+license. For more information, see https://ocw.mit.edu/help/faq-fair-use/.
+
+Source: Hong, Ha, Daniel LK Yamins, Najib J. Majaj, and James J. DiCarlo.
+
+"Explicit information for category-orthogonal object properties increases along
+
+the ventral stream." Nature neuroscience 19, no. 4 (2016): 613-622.
+
+But these tasks are not all equally difficult for humans. Does
+this decoding mechanism predict that pattern of difficulty?
+
+To test this, we collected human performance data on these images/tasks.
+
+ 
+
+85
+ENDELEMENTFraction of Human Performance
+
+Basic Categorization
+
+LaWS of RAD IT
+
+decoding mechanism
+
+ 
+
+Subordinate Identification X-axis Position Y-axis Position
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Aspect Ratio 7 Z-axis Rotation X-axis Rotation
+“
+
+ 
+
+ 
+
+ 
+
+ 
+
+   
+
+ 
+
+ 
+
+   
+
+10! 10?
+
+ 
+
+10° 10" 107 10° 104 10° 10" 107 10° 104 10°
+Number of Neural Sites
+
+© Nature. All rights reserved. This content is excluded from our Creative Commons
+license. For more information, see https://ocw.mit.edu/help/faq-fair-use/.
+
+Source: Hong, Ha, Daniel LK Yamins, Najib J. Majaj, and James J. DiCarlo.
+
+"Explicit information for category-orthogonal object properties increases along
+
+the ventral stream." Nature neuroscience 19, no. 4 (2016): 613-622.
+
+ 
+
+86
+ENDELEMENTNumber of IT sites needed to LaWS of RAD IT
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+match human performance decoding mechanism
+IT V4 Nal Pix IT V4 v4 Pix
+Basic Categorization 520 +/- 165}| 8.84 x 1045 | --- -- 3-D Object Scale }|339+/-79 1.9 x 1045 _ --
+Subordinate Identification 444 +/- 61 }] 9.15 x 1046 | -- — Major Axis Length } /165 +/-59 5.7 x 1043 — -
+X-axis Position 1624 +/- 449] 45 x10°6 |3x 1047 a Aspect Ratio 103 +- 37 22 +/- 59 6.5 x 1043 | ---
+Y-axis Position 647 +/-215]| 4.4x10°5 |8.7x1046 |--- Major Axis Angle 520 +/- 165 [1520 +/- 165 —_ _
+Bounding Box Size 234 +/- 91 8.4x1043 | --- _ Z-axis Rotation 1206 +/- 473|.--- —_ —
+X-axis Size 150 +/-55 9] 2.1x 1043 |3.4x10*7 |--- Y-axis Rotation 1317 +/- 4591.1 x 1045 — —
+Y-axis Size 182 +/-62 }| 7.8x10%3 |95x1046 |--- X-axis Rotation 775 +/- 248 |}-- - --
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+— oc § 097
+5 3 E |
+Sk] 2 o7|
+aS r 2" <<
+stl aff . | = |
+2 oO 0.54
+Bs) a oaf > [
+OE = oo 5 03}
+ssl 2 "= 2
+o oa Ff
+Ss | 0 04
+qa oO ab
+Q <
+oO
+
+Human behavioral performance V4 V1 Pix
+
+© Nature. All rights reserved. This content is excluded from our Creative Commons license. For more vvomatond see Lae fair-use/.
+Source: Hong, Ha, Daniel LK Yamins, Najib J. Majaj, and James J. DiCarlo. "Explicit information for category-orthogonal object properties increases along
+the ventral stream." Nature neuroscience 19, no. 4 (2016): 613-622. 87
+ENDELEMENTCategory: plane
+Identity: £16
+
+AVS) o]=Yoi i atc} I1@)
+
+© Nature. All rights reserved. This content is excluded from our Creative Commons
+license. For more information, see https://ocw.mit.edu/help/faq-fair-use/.
+
+Source: Hong, Ha, Daniel LK Yamins, Najib J. Majaj, and James J. DiCarlo.
+
+“Explicit information for category-orthogonal object properties increases along
+
+  
+
+LaWS of RAD IT
+decoding mechanism
+
+Summary: This ventral
+stream code/decoding
+mechanism also predicts
+human patterns of
+performance for other
+object latent variables.
+
+ 
+
+This suggests that:
+
+- the IT population conveys a
+general purpose object
+representation
+
+- the job of the ventral stream
+is not to produce category
+“invariant” representations
+
+Edelman (1998), DiCarlo and Cox (2007),
+Li et al. (2009), etc.
+
+the ventral stream." Nature neuroscience 19, no. 4 (2016): 613-622. Hong, Yamins, Majaj, and DiCarlo, Cosyne 2014
+Hong, Yamins, Majaj, and DiCarlo, (in prep) 88
+ENDELEMENTSketch of the inferred anatomy:
+
+LaWS of RAD IT [70-170ms, 50,000n, 100t]
+
+Prefrontal Cx, Perirhinal Cx, Amygdala
+
+~50,000
+random
+neuronal
+projections
+
+  
+  
+  
+
+IT cortex (AIT + CIT)” “Face patches”
+(2-5 mm)
+
+© Source Unknown. All rights reserved. This content is excluded from our Creative
+Commons license. For more information, see https://ocw.mit.edu/help/faq-fair-use/.
+
+~50,
+ranc
+neur
+
+proje
+
+ 
+
+ab inbieare! >|
+
+ 
+
+© AAAS. All rights reserved. This content is excluded from our Creative Commons
+
+license. For more information, see https://ocw.mit.edu/help/faq-fair-use/.
+
+Source: Tanaka, Keiji. "Neuronal mechanisms of object recognition."
+
+Science-New York Then Washington 262 (1993): 685-685. 89
+ENDELEMENTCausal tests of this model
+
+The model allows us to predict how much any
+
+object recognition task will be disrupted by direct
+suppression of IT neurons.
+
+Step 1: (done) Tool building and testing: Can we reliably disrupt
+performance of a recognition task by directly suppressing the
+activity of ~1mm IT neural sub-populations?
+
+Step 2 (ongoing): Test a large Post-learning:
+
+battery of tasks and a battery of . .
+
+IT suppression patterns. Face
+eee cate or this bit of cortex... .
+
+or this bit
+or this bit of cortex... of cortex...
+
+  
+
+Silence this bit of cortex
+
+© Source Unknown. All rights reserved. This content is excluded from our Creative
+Commons license. For more information, see https://ocw.mit.edu/help/faq-fair-use/.
+
+IT cortex (AIT + CIT) ~150 IT sub-regions, each ~1 mm in scale «
+ENDELEMENTStereo, microfocal
+x-ray system
+
+Optogenetic (ArchT, CAG, AAV)
+
+Neural response (spikes/s)
+
+suppression of visually-
+
+driven IT activity
+Control
+
+5 Laser on
+
+ 
+   
+  
+    
+
+Same visual
+input on
+interleaved trials
+
+00 300 400 500
+Time from image onset (msec)
+
+Afraz, Boyden and DiCarlo, SFN (2013)
+
+ 
+
+Courtesy of Society for Neuroscience. License CC BY NC SA.
+Source: Issa, Elias B., and James J. DiCarlo. "Precedence of the eye region in neural
+processing of faces." Journal of Neuroscience 32, no. 47 (2012): 16666-16682.
+
+face
+
+ 
+
+Issa and DiCarlo, J Neurosci (2012)
+ENDELEMENTMonkey task: face gender discrimination
+
+   
+
+) es
+
+a
+=
+4s
+|
+a
+| |
+Gender axis
+
+Male Female
+
+© Proceedings of the National Academy of Sciences. All rights reserved. This content is excluded from our
+Creative Commons license. For more information, see https://ocw.mit.edu/help/faq-fair-use/.
+
+Source: Afraz, Arash, Edward S. Boyden, and James J. DiCarlo."Optogenetic and pharmacological
+suppression of spatial clusters of face neurons reveal their causal role in face gender discrimination."
+Proceedings of the National Academy of Sciences 112, no. 21 (2015): 6730-6735.
+
+aael| (TC
+
+ 
+
+a
+a
+a
+fe aml
+
+  
+
++
++3
+
+  
+
+ 
+
+ 
+
+92
+ENDELEMENTWe found a spatially-specific behavioral effect
+on this object discrimination task
+
+HE Control
+88
+>
+Oo
+© 87 Trial-by-trial
+so a interleaved optical
+oy 86 i ~
+oO suppression of ~1 mm
+@ © 35 IT sub-regions
+a
+oO
+5 Oo 384
+2x
+> fo)
+oo 83
+- .
+oO 82 18 sessions
+Ro) each 1600 trials
+81
+
+contralateral VF ipsilateral VF
+
+visual field
+
+Afraz, Boyden and DiCarlo, SFN (2013), VSS (2014); PNAS (2015)
+ENDELEMENTPharmacological suppression of different IT sub-regions results
+in different patterns of deficit in basic level object tasks
+
+IT site 1 IT site 2 IT site 3
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+~
+40) ‘
+XQ 1
+ie) °°
+So
+GO ko KOK wk O&K *k *k
+A oa * k kk *
+e
+BS a
+O OQ. >
+QEs hd £ eo @ ‘ g i
+= 3 oO oe
+30 o_o ® 0 a t—~ e
+e £6 p=010 i e
+. = e
+= 0 e@ 6 C) p=0.05 e °
+e 7 e
+p=0.01
+fo) e 6 °
+DoD °
+c¢Q °
+° ° e
+© 08
+cs 4
+A
+£eg PSs EES S fees 2sesseZ 8 £Eeg PSbRssEELS
+€feozreesp kt € B €eseqoeree BLE SB €esoarReg ees
+aN GE = 0 3 EN gre BS Ej BN 6 FC SG 3
+@ 2 5 F 6 Bee eRB 6 ® 5; $5 6 =~ ¢ ge B 6 ® 5; $¢g¢ ¢@-= €¢ 8
+> wu g = > @ 2 > @ > wu g = > og > 8 >i g = > gv > 8
+e.2t30F ow FS ZO e.2? 302 HF §F FO =e. 232 HF § =O
+6 ¢ ee #¢ 2088 G 6 ge ft #¢€2 088 | 6 geo £€2 0 BSG
+©€ > £6 § S Bese © > £6 § SS BPE ©e > £6 &§ SS Bes
+Sot 6 ££ 5 6 Be Sot 6 §€ £5 6B BG? 6 ot 6 S€& £& 35 6 Be
+fC 2é GsFfG oa fC 2eé G63 fo o fC 2 é 65 8 $56
+Se rz 2 Se rz 2 Ss =e rz 2
+x £ x £ x £
+
+Object discrimination task
+
+Our current aim is to(systematically measure the specific
+
+pattern of behavioral change induced by suppression of each
+IT sub-region (~100) and compare with model predictions
+ENDELEMENTCan we span the entire domain of core
+recognition tasks? How?
+
+  
+   
+      
+
+Object recognition
+
+“Core object
+recognition”
+ENDELEMENTPresentation Choices on this particular trial
+(100ms) (post-cue, many possible)
+
+«
+
+Confusion matrix for an object pair
+Stimuli
+
+       
+ 
+    
+  
+
+   
+
+. 8,556
+matrices
+
+ 
+
+ 
+
+ 
+
+ 
+
+40 dy = 40
+p= 40 ee o_o
+Faces > T
+O ; iS
+~ —
+©
+oS 7
+oO | 4A ee pee rT
+25 foe } 52222 ==
+ee 64 basic objects Basic &
+D ®O all subords
+“s i
+Tw db =5
+
+0 125° 184 ©
+Number of objects embedded
+
+ 
+
+Hong*, Solomon’, Yamins*, and DiCarlo. Large-scale Characterization of a Universal
+and Compact Visual Perceptual Space. VSS, 2014; in prep
+
+© Vision Science Society. All rights reserved. This content is excluded from our Creative
+
+Commons license. For more information, see https://ocw.mit.edu/help/faq-fair-use/.
+
+Source: Hong, Ha, Ethan Solomon, Dan Yamins, and James J. DiCarlo. "Large-scale
+
+Characterization of a Universal and Compact Visual Perceptual Space." Dim 1501 (2014): 1.
+
+96
+ENDELEMENT    
+
+ 
+
+ 
+
+ 
+
+G iS 100
+gt
+mo}
+Cc
+se
+gc
+GO O
+>a
+Es 0 20
+Num. of principal components
+D
+L foe am BX A oe ml
+\ ae s 8 wt = n
+Tank Tank Tank Turtle Tank Boook Plane Gun Helicopter _Bird __Guitar Duck Boat __ Fork Doctor Spoon Nurs
+
+ 
+
+First principal component (17.2% variance explained)
+
+Book Boat Tank Gun Tank Tank Plane Duck Bird Turtle Cat Fre Dox Camel.
+
+Second principal component (13.0% variance explained)
+
+Guitar Helicopter Book Tank Gun. Tank Tank. Tank. Bird Duck Boat. Pumpkin Head.
+Third principal component (9.28% variance explained)
+
+Toaster. Table.
+
+7
+
+Hammer Wrench Hanger Knife Plane.
+
+ 
+
+ 
+
+97
+ENDELEMENT 
+
+'(DXolnar-TiaMamexe)a-Me) o)(-Leima-\erelefalitceyay)
+
+(Cioy-| a=) ale pa com=)alemulalel-)ecir-lareliare
+
+1. Can we infer the decoding mechanism that the brain
+UL-Y-3-5 oM-10] 0) ole) ams ol-) ner: o)(0T-1Ma:) ele) at-m-lelel Ui MmUlLer-IIN
+presented object?
+
+Colts Mandal com relel-ymle)actol (erm el-ar-\ale)e-lMa-lelelamr-laloMimanlercys
+
+include a falsifiable statement of the relevant aspects of
+aT=1U lel me-Cead hi ava (-1.¢- Mal Lele] mexele (= Maa)
+
+2. Can we infer the encoding mechanism(s) that
+accurately predict the relevant ventral stream
+population patterns of neural activity from each image?
+
+ 
+ENDELEMENT© Playboy Magazine. All rights reserved.
+This content is excluded from our Creative
+
+see https //ocw-mitedu/help/faqrfar-use/. Behavioral reports
+(“perception”)
+
+    
+     
+  
+
+Reveals which
+aspects of IT
+neural activit
+must be predicted
+from each image
+
+(mean rate of each IT
+neuron, 70-170 ms)
+
+99
+ENDELEMENT    
+     
+  
+ 
+
+ol UT me fey-1m VAULULs) Mam-> ¢e)Colcc- Mic lili N Aol eles-s-d1 ol (-M-lalerere fare Mant-Xeuit-lal itary
+
+Basic operations: O = (Grier; Otnrs Osat Apools Ghorm) Elements (“neurons”)
+have large fan-in
+Filter Threshold &
+
+Saturate Pool Normalize Simple, bio-known
+
+non-linearities
+Each layer:
+Neural-like basic operations is convolutional
+
+(i.e. retinotopy)
+
+has many types of
+tuning functions
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+      
+
+@°
+Laer Y a | Deep stack of layers
+Layer 1 Layer 2 Layer 3
+
+== SSE Top layer has
+NSS SS thousands of
+
+© Playboy Magazine. All rights reserved. SS SSS —> visual
+
+This content is excluded from our Creative SS —— “ ,
+
+see Htps/ocw-miteduhelp aq firuse/ SER neurons
+
+Pinto, Doukan, DiCarlo & Cox, PLoS Comp Biol (2009)
+
+Hubel & Wiesel (1962), Fukushima (1980); Perrett & Oram (1993); Wallis & Rolls (1997); LeCun et al. (1998);
+Riesenhuber & Poggio (1999); Serre, Kouh, et al. (2005), etc....
+
+100
+ENDELEMENT  
+    
+
+OTtT me foy-1m VANIT:) Mam. ¢o)(old-M- Milan movi oLex-s-11 0) (-m-valerelellale Marl-Xeuer-lil yaar)
+
+ 
+
+“Deep convolutional neural networks” (Deep CNN’s)
+
+Basic operations: (3) = (Griter , Otnrs Osats Apools Qhormh.
+
+Filter Threshold &
+Saturate Pool
+
+  
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+  
+
+That model PREDICTS the entire neural population
+response to ANY image, in each successive visual area
+
+    
+
+ww, ww, ww,
+> Layer 1 ) Layer 2 ) Layer 3 |
+Sz Top layer has
+SS==—
+SSs8
+SS . thousands of
+© Playboy Magazine. All rights reserved. Sy ~ visual
+his content is excluded from our Creative ~~ = “ ”
+Commons license. For more information, a - neu rons
+
+ 
+
+see https://ocw.mit.edu/help/faq-fair-use/.
+
+Pinto, Doukan, DiCarlo & Cox, PLoS Comp Biol (2009)
+Hubel & Wiesel (1962), Fukushima (1980); Perrett & Oram (1993); Wallis & Rolls (1997); LeCun et al. (1998);
+Riesenhuber & Poggio (1999); Serre, Kouh, et al. (2005), etc....
+
+101
+ENDELEMENT   
+
+OTtT me foF-1m VANIT:) Mam. ¢e)(old-M- Mic LU IN moyim oLex-x-11 0) (-m-Valerelellale Marl-Xeuer-lilyaary
+“Deep convolutional neural networks” (Deep CNN’s)
+
+Basic operations: (3) = (Griter , Otnrs Osats Apools Qhormh.
+
+Filter Threshold & Pool N i
+ormalize
+Qo, Saturate
+
+@0: |—+ [7] + HO
+
+How do we determine which of these models,
+if any, is a model of the ventral stream?
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+a P OEY-e) ol iii rc-1i(olamarl=1ialeret-mcomi lace me) ol-ceri(emtarele |=) [-)
+(i.e. parameter settings) in this model family.
+
+| 2. Optimization target = visual tasks that we hypothesize
+that the ventral stream evolved and/or developed to solve.
+ayer = S ousands of
+
+visual
+“neurons”
+
+Hubel & Wiesel (1962), Fukushima (1980); Perrett & Oram (1993); Wallis & Rolls (1997); LeCun et al. (1998);
+Riesenhuber & Poggio (1999); Serre, Kouh, et al. (2005), etc.... Yamins, Hong, Solomon, Seibert
+
+and DiCarlo PNAS (2014) 402
+ENDELEMENT2. Optimization target
+
+> variety of 3D objects (36) with semantic breadth (e.g. not all faces)
+> rendered with large amount of variation
+> These are different objects that those we will use later in testing
+
+Nine example objects:
+Bodies Buildings Flowers Guns Instruments
+
+ 
+
+© Proceedings of the National Academy of Sciences. All rights reserved. This content is excluded from
+our Creative Commons license. For more information, see
+
+Source: Yamins, Daniel LK, Ha Hong, Charles F. Cadieu, Ethan A. Solomon, Darren Seibert, and James
+J. DiCarlo. "Performance-optimized hierarchical models predict neural responses in higher visual cortex."
+Proceedings of the National Academy of Sciences 111, no. 23 (2014): 8619-8624.
+
+103
+ENDELEMENT100
+
+90
+
+Performance
+(% correct)
+So. 8 35 8
+
+rN
+iS)
+
+30
+
+20
+
+ 
+
+Is
+SIFT
+
+pixe
+
+Courtesy of Society for Neuroscience. License CC BY NC SA.
+
+Source: Majaj, Najib J., Ha Hong, Ethan A. Solomon, and James J. DiCarlo. "Simple learned
+weighted sums of inferior temporal neuronal firing rates accurately predict human core object
+recognition performance." Journal of Neuroscience 35, no. 39 (2015): 13402-13418.
+
+I ro)
+First algorithm we
+discovered using this
+approach (2012)
+
+(e)
+=
+x
+
+© Proceedings of the National Academy of Sciences. All rights reserved.
+This content is excluded fromm our Creative Commons license. For more
+information, see https://ocw.mit.edu/help/faq-fair-use/.
+
+Source: Yamins, Daniel LK, Ha Hong, Charles F. Cadieu, Ethan A. Solomon,
+Darren Seibert, and James J. DiCarlo. "Performance-optimized hierarchical
+models predict neural responses in higher visual cortex." Proceedings of the
+National Academy of Sciences 111, no. 23 (2014): 8619-8624.
+
+  
+ 
+   
+
+V1-like
+
+‘amins, Hong, Solomon, Seibert
+and DiCarlo PNAS (2014) 104
+ENDELEMENTBasic O, erations: O= (Oriter 5 Otnrs Osats Abool Anorm) (all parameters
+
+Filter Threshold & fixed)
+Saturate Pool Normalize © Proceedings of the National Academy of
+
+Sciences. All rights reserved. This content is
+
+excluded fromm our Creative Commons
+> > > license. For more information, see
+https://ocw.mit.edu/help/faq-fair-use/.
+
+ 
+
+ 
+
+ 
+
+ 
+
+Source: Yamins, Daniel LK, Ha Hong,
+Charles F. Cadieu, Ethan A. Solomon,Darren
+
+Neural-like basic operations Seibert, and James J. DiCarlo. "Performance-
+
+optimized hierarchical models predict neural
+responses in higher visual cortex."
+Proceedings of the National Academy of
+Sciences 111, no. 23 (2014): 8619-8624.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+(Oi 8” 2a”
+
+O
+Model Model Model Model )
+layer1V layer 2 layer 3 layer 4
+
+ 
+
+“ 7 2
+© Source Unknown. All rights reserved. This content is excluded from our Creative Cross-validated Predict
+
+Commons license. For more information, see https://ocw.mit.edu/help/faq-fair-use/. . .
+linear regression y |7?
+
+105
+ENDELEMENTPredictions of single site IT responses from layer 4 of HMO 1.0 model
+
+ 
+
+These are PREDICTIONS: All of these objects and images were
+never previously seen by the HMO model
+
+ 
+
+Unit 1: r2 = 0.48
+
+Response* of ot tila ory op \ » |
+J IN wy ON eu Maat Pi
+
+ny ive Mew arene
+
+IT neural site nigh m Hifi
+Fruits Planes Tables
+
+Animals Boats Cars Chairs Faces
+
+© Proceedings of the National Academy of Sciences. All rights reserved. This content is excluded from
+our Creative Commons license. For more information, see https://ocw.mit.edu/help/faq-fair-use/.
+Source: Yamins, Daniel LK, Ha Hong, Charles F. Cadieu, Ethan A. Solomon, Darren Seibert, and James
+
+J. DiCarlo. "Performance-optimized hierarchical models predict neural responses in higher visual cortex."
+Proceedings of the National Academy of Sciences 111, no. 23 (2014): 8619-8624.
+
+. Yamins, Hong, Sol , Seibert
+(* mean rate 70-170 ms after image onset) and DiCarlo PN AS (2014) ene
+
+106
+ENDELEMENTPredictions of single site IT responses from layer 4 of HMO 1.0 model
+
+ 
+
+These are PREDICTIONS: All of these objects and images were
+never previously seen by the HMO model
+
+        
+
+    
+
+Response of Unit 2: r2 = 0.55
+
+IT neural site yh, ; iM,
+iri ny hb Pag bad alae Mr hy al Wray Wall aut Ale Hy ww M
+
+wer yarn
+
+Animals Boats Cars Chairs Faces Fruits Planes Tables
+
+© Proceedings of the National Academy of Sciences. All rights reserved. This content is excluded from
+our Creative Commons license. For more information, see https://ocw.mit.edu/help/faq-fair-use/.
+Source: Yamins, Daniel LK, Ha Hong, Charles F. Cadieu, Ethan A. Solomon, Darren Seibert, and James
+J. DiCarlo. "Performance-optimized hierarchical models predict neural responses in higher visual cortex."
+
+Proceedings of the National Academy of Sciences 111, no. 23 (2014): 8619-8624.
+
+. Yamins, Hong, Sol , Seibert
+(* mean rate 70-170 ms after image onset) and biGarlo PNAS (2014) ene
+
+107
+ENDELEMENTPredictions of single site IT responses from layer 4 of HMO 1.0 model
+
+ 
+
+IT Site 42
+
+Response
+IT neural :
+
+Prediction
+HMO mod
+
+ 
+
+© Proceedings of the National Academy of Sciences. All rights reserved. This content is excluded from
+our Creative Commons license. For more information, see https://ocw.mit.edu/help/faq-fair-use/.
+Source: Yamins, Daniel LK, Ha Hong, Charles F. Cadieu, Ethan A. Solomon, Darren Seibert, and James
+J. DiCarlo. "Performance-optimized hierarchical models predict neural responses in higher visual cortex."
+
+Proceedings of the National Academy of Sciences 111, no. 23 (2014): 8619-8624.
+
+Yamins, Hong, Solomon, Seibert
+and DiCarlo PNAS (2014)
+
+108
+ENDELEMENTAbility of various encoding mechanisms (specific models)
+to predict IT responses to naturalistic images
+
+ 
+
+ 
+
+ 
+
+HMO
+Top Layer
+(0.48)
+:
+HMO
+Layer 3
+(0.36) C05
+2
+HMO Oo
+Layer 2 oO
+(0.21) < 0.4
+LL
+HMO ®
+E 004) C03
+é : G
+po
+@
+a ©
+> 0.2
+xe)
+oO
+Cc
+“ou 0-1
+[os
+x<
+Lo 9
+© Proceedings of the National Academy of Sciences. All rights reserved. This content is excluded from H MO
+our Creative Commons license. For more information, see https://ocw.mit.edu/help/faq-fair-use/.
+Source: Yamins, Daniel LK, Ha Hong, Charles F. Cadieu, Ethan A. Solomon, Darren Seibert, and James Layers
+
+J. DiCarlo. "Performance-optimized hierarchical models predict neural responses in higher visual cortex."
+Proceedings of the National Academy of Sciences 111, no. 23 (2014): 8619-8624.
+
+Yamins, Hong, Solomon, Seibert
+and DiCarlo PNAS (2014)
+
+109
+ENDELEMENTHMO 1.0
+(all parameters
+fixed)
+© Proceedings of the National Academy of Sciences.
+
+Pool Normalize All rights reserved. This content is excluded from
+our Creative Commons license. For more information,
+
+©,
+
+QD > > > see https://ocw.mit.edu/help/faq-fair-use/.
+@ 2 |_/ | Source: Yamins, Daniel LK, Ha Hong, Charles F. Cadieu,
+e Ethan A. Solomon, Darren Seibert, and James J. DiCarlo.
+“Peformance-optimized hierarchical models predict neural
+
+®o, - - .
+Neural-like basic operations responses in higher visual cortex." Proceedings of the
+National Academy of Sciences 111, no. 23 (2014): 8619-8624.
+
+Basic operations: © = (Grier, Otnr, Osat; Apoot, Onorm)
+
+Filter Threshold &
+Saturate
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Linear | Predict
+
+ 
+
+pixel RGC LGN VI V2 v4 IT
+
+Courtesy of Elsevier, Inc., http://www.sciencedirect.com. Used with permission.
+Source: DiCarlo, James J., and David D. Cox. "Untangling invariant object
+
+recognition." Trends in cognitive sciences 11, no. 8 (2007): 333-341. 132
+ENDELEMENTExplained Variance Fraction
+
+Bio-inspired algorithm class + tasks in domain + optimization
+
+> mat-vele-loiil (om-varereleliare melee icelarcy
+
+  
+
+V4 predictive power
+(median over all neurons)
+
+ 
+
+    
+
+  
+
+5
+xe)
+S
+@,
+
+ive power
+(median over alMeyrons)
+
+   
+
+S
+a
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+0.5}
+0.4}
+0.3} ©
+x)
+a
+02; 2.8
+Os
+82
+O1f 6 SZ
+oO xt
+oo AE
+Ideal
+Observers
+
+Cc
+2
+3 8
+ha 0.4F 8
+® 2G
+fe)
+Sos} SL @
+& = = 5
+o = @ ;
+x oO Of =
+a > 0.2} = >
+3 = no) 2
+x > @ g
+o “wy 0-1+ a
++ a
+x
+UW 9.9
+Control HMO Ideal Control HMO
+Models Layers Observers Models Layers
+
+© Proceedings of the National Academy of Sciences. All rights reserved. This content is excluded from
+our Creative Commons license. For more information, see https://ocw.mit.edu/help/faq-fair-use/.
+Source: Yamins, Daniel LK, Ha Hong, Charles F. Cadieu, Ethan A. Solomon, Darren Seibert, and James
+J, DiCarlo. "Performance-optimized hierarchical models predict neural responses in higher visual cortex."
+
+Proceedings of the National Academy of Sciences 111, no. 23 (2014): 8619-8624. Yamins Hong, Solomon Seibert
+and DiCarlo PNAS (2014) 1
+ENDELEMENTRepresentation Dissimilarity Matrices (Kriegeskorte, 2008)
+
+Explanatory power
+of HMO model Current maximum possible*
+explanatory power
+0.95 Image lizati
+_| generalization HMO Model Monkey IT
+bE | animals
+°
+a 06 boats
+a
+E 5 | cars
+£ S other chairs
+cS 7 models
+5s . faces
+BLl034 w E i
+§ 2 E fruits
+a 4a | 2] |
+3 Ve : planes
+| t : $ a : 5 tables
+
+ 
+
+  
+
+© Proceedings of the National Academy of Sciences. All rights reserved. This content is excluded from
+our Creative Commons license. For more information, see https://ocw.mit.edu/help/faq-fair-use/.
+Source: Yamins, Daniel LK, Ha Hong, Charles F. Cadieu, Ethan A. Solomon, Darren Seibert, and James
+J. DiCarlo. "Performance-optimized hierarchical models predict neural responses in higher visual cortex."
+
+Proceedings of the National Academy of Sciences 111, no. 23 (2014): 8619-8624. Yamins, Hong, Solomon, Seibert
+and DiCarlo PNAS (2014 ) 112
+ENDELEMENTSuggests that continued optimization within this family of
+
+narere(=\K-ml ol Ui Com (=r-lomCoM-\U-lamal(elal-lmmal-lele-1m o)ae-vel(er them ele (- 1a
+
+ 
+
+50% | 4 |2)
+
+ 
+
+| Models sampled from
+bio-inspired family
+
+  
+ 
+
+ 
+
+dict IT responses
+
+pre
+
+(% variance explained)
+wee >
+
+Ability of top level neurons in the
+
+ 
+
+fe) .
+3 0% (Evolution / development):
+3 ‘ We optimized this way ...
+E i SFP!
+3 mG
+
+ 
+
+0.7 0.8 0.9
+Performance of a model on high
+“invariance” object recognition tasks
+
+© Proceedings of the National Academy of Sciences. All rights reserved. This content is excluded from
+our Creative Commons license. For more information, see https://ocw.mit.edu/help/faq-fair-use/.
+Source: Yamins, Daniel LK, Ha Hong, Charles F. Cadieu, Ethan A. Solomon, Darren Seibert, and James
+J. DiCarlo. "Performance-optimized hierarchical models predict neural responses in higher visual cortex."
+
+Proceedings of the National Academy of Sciences 111, no. 23 (2014): 8619-8624. 113
+ENDELEMENTSuggests that continued optimization within this family of
+narere(=\ fmol Ui Cem (=r-lomCom-\U-lamal(olal-lmmal-lele-1m o)ae-vel(er (hem olen (=)
+
+          
+
+ 
+
+ 
+
+S 50 —~ 501
+5 Better <&
+x 40 performance 2? 8 40
+s onourtasks 3
+3 °° again leads) == 3°
+* 0 to better S2 50
+Chance neural S S
+~14% 49 predictive 104
+power
+0 O°
+agit gg (even when other waa?
+. a ogo” groups are driving we oe
+oF set up the model ge’ oe
+we ia performance!) . °
+
+Cadieu, Charles F., Ha Hong, Daniel LK Yamins, Nicolas Pinto, Diego Ardila, Ethan A. Solomon, Najib J.
+Majaj, and James J. DiCarlo. "Deep neural networks rival the representation of primate IT cortex for
+core visual object recognition. "PLoS Comput Biol 10, no. 12 (2014): e1003963;
+https://doi.org/10.1371/journal.pcbi.1003963. License CC BY.
+
+Cadieu CF, Hong H, Yamins D, Pinto N, Majaj N, and DiCarlo JJ. ICLR (2013);
+
+Cadieu CF Hong H, Yamins D, Pinto N, Majaj N, and DiCarlo JJ. PLoS Comp Bio (2014)
+114
+ENDELEMENTCNN features vs. IT “features”
+
+ 
+
+a) Cars Fruits Animals
+[ |
+Planes
+eoe eee Chairs
+Tables
+Faces
+
+Deep Neural
+Network (DNN)
+
+ 
+
+© Cars @ Fruits
+
+Cadieu, Charles F., Ha Hong, Daniel LK Yamins, Nicolas Pinto, Diego Ardila, Ethan A. Solomon, Najib J.
+Majaj, and James J. DiCarlo. "Deep neural networks rival the representation of primate IT cortex for
+core visual object recognition. "PLoS Comput Biol 10, no. 12 (2014): e1003963;
+https://doi.org/10.1371/journal.pcbi. 1003963. License CC BY.
+
+Cadieu CF Hong H, Yamins D, Pinto N, Majaj N, and DiCarlo JJ. ICLR (2013);
+
+Cadieu CF Hong H, Yamins D, Pinto N, Majaj N, and DiCarlo JJ. PLoS Comp Bio (2014)
+115
+ENDELEMENTCNN features vs. IT “features”
+
+IT Cortex Multi-Unit Sample
+
+V4 Cortex Multi-Unit Sample
+
+Zeiler & Fergus 2013 +
+
+Krizhevsky et al. 2012 t $
+HMO+
+
+>
+J
+
+0.30
+
+0.25
+
+)
+@
+é
+@
+
++@+ H@+ HO+ HH
+
+0.20
+
+0.15
+
+0.10
+
+0.05
+
+Performance (area-under-the-curve)
+
+0 20 40 60 80 100 120 140 160
+
+Number of neural sites or features
+
+Cadieu, Charles F., Ha Hong, Daniel LK Yamins, Nicolas Pinto, Diego Ardila, Ethan A. Solomon, Najib J.
+Majaj, and James J. DiCarlo. "Deep neural networks rival the representation of primate IT cortex for
+core visual object recognition. "PLoS Comput Biol 10, no. 12 (2014): e1003963;
+https://doi.org/10.1371/journal.pcbi.1003963. License CC BY.
+
+Cadieu CF Hong H, Yamins D, Pinto N, Majaj N, and DiCarlo JJ. ICLR (2013);
+Cadieu CF Hong H, Yamins D, Pinto N, Majaj N, and DiCarlo JJ. PLoS Comp Bio (2014)
+
+ 
+
+116
+ENDELEMENTBetter performing deep CNN networks also better
+predict the patterns of IT neural responses
+
+  
+
+V4 Cortex @ IT Cortex
+
+2 animals 1.0
+(e)
+
+Ss cars @
+£ =
+5 chairs $
+© faces 5
+a 2
+oO i 5
+Fd fruits 3
+fg
+
+3 tables 0.0
+z
+
+' HMO mkKrizhevsky et al. 2012 ® Zeiler & Fergus 2013
+
+      
+
+Cadieu, Charles F., Ha Hong, Daniel LK Yamins, Nicolas Pinto, Diego Ardila, Ethan A. Solomon, Najib J.
+Majaj, and James J. DiCarlo. "Deep neural networks rival the representation of primate IT cortex for
+core visual object recognition. "PLoS Comput Biol 10, no. 12 (2014): e1003963;
+https://doi.org/10.1371/journal.pcbi. 1003963. License CC BY.
+
+Model Representations
++ IT-fit
+
+Cadieu CF, Hong H, Yamins D, Pinto N, Majaj N, and DiCarlo JJ. ICLR (2013);
+Cadieu CF, Hong H, Yamins D, Pinto N, Majaj N, and DiCarlo JJ. PLoS Comp Bio (2014)
+
+117
+ENDELEMENTSummary of what | presented today (Domain: Core recognition)
+
+ 
+
+1. Showed that IT firing rates are a feature basis on which
+learned object judgements naturally predict human/monkey
+
+performance; defined parameters. FAY Sq-7 lis
+[70-170ms, 50,000n, 100t]
+
+Inference: this might be the specific neural code and decoding
+mechanism that the brain uses to support these tasks.
+Systematic causal tests of this model ongoing, but results
+
+thus far are as predicted by the model! ...
+
+2. Showed that optimization of deep CNNs (models) for invariant
+object recognition tasks led to dramatic improvements in our
+ability to predict IT and V4 neural responses. Wi] "(ex Rumen WAY
+
+Inference: the encoding mechanisms in these models are
+similar to those at work in the ventral stream.
+
+This is allowing the field to design experiments to explore what
+remains unique and powerful about primate object perception.
+ENDELEMENTThis content is excluded from our Creative ONGOING AND FUTURE... Behavioral reports
+Commons license. For more information,
+
+see https://ocw.mit.edu/help/faq-fair-use/- (“perception ”)
+
+  
+     
+
+  
+  
+    
+
+Expand domain of
+object tasks
+
+    
+
+“do wy “
+°. cat”
+e
+
+    
+  
+ 
+
+Ain €lock”
+car’ se
+
+“face ym
+
+  
+ 
+
+:
+, .
+°
+oe
+ne
+
+  
+ 
+
+ 
+
+\ High level
+‘s,.' ventral stream
+_», | neural activity
+
+     
+  
+
+NO ‘@
+Ongoing: Predictable
+effects of direct neural
+perturbations of IT?
+
+ 
+    
+   
+
+119
+ENDELEMENTAcknowledgements
+
+ 
+
+Current lab members:
+
+Arash Afraz
+Diego Ardila
+Ha Hong
+Elias Issa
+Xiaoxuan Jia
+Hyodong Lee
+
+Shay Ohayon
+Rishi Rajalingham
+Kailyn Schmidt
+Darren Seibert
+Chris Stawarz
+
+Dan Yamins
+
+Key alumni:
+
+Charles Cadieu
+Najib Majaj
+Ethan Soloman
+
+3 sciences.
+
+Contributing labs:
+
+Ed Boyden (MIT)
+
+David Cox (Harvard)
+
+Bob Desimone (MIT)
+Tomaso Poggio (MIT)
+
+Nancy Kanwisher (MIT)
+
+Wim Vanduffel (MGH, KU L.)
+
+¢ NIH NEI
+° NSF
+* DARPA/ ONR
+
+¢ Simons Foundation
+¢« McGovern Institute
+
+ 
+ENDELEMENTMIT OpenCourseWare
+https://ocw.mit.edu
+
+Resource: Brains, Minds and Machines Summer Course
+Tomaso Poggio and Gabriel Kreiman
+
+The following may not correspond to a particular course on MIT OpenCourseWare, but has been
+provided by the author as an individual learning resource.
+
+For information about citing these materials or our Terms of Use, visit: https://ocw.mit.edu/terms.
+ENDELEMENT

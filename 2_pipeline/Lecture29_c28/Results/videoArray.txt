@@ -1,0 +1,3311 @@
+  
+
+H rT Massachusetts
+Institute of
+Technology
+
+RES.9-003, Summer 2015
+Brains, Minds and Machines Summer C
+James DiCarlo
+
+Lecture 1.4: Neural Mechanisms of
+Recognition, Part 2
+ENDELEMENTSome content in this video is not coverec
+our Creative Commons license.
+See the closing credits for more inform:
+ENDELEMENT“Neural representation”
+
+Goal is
+
+ 
+ENDELEMENT(Domain: core object recognition)
+
+Goal: end-to-end understanding
+
+4. Can we infer the precise ciecocing mechanism(s)
+that the brain uses to support perceptual reports about
+visually presented objects?
+
+ 
+
+ 
+ENDELEMENT(Domain: core object recognition)
+
+Goal: end-to-end understanding
+
+4. Can we infer the precise ciocoding mechanism(s)
+that the brain uses to support perceptual reports about
+visually presented objects?
+
+ 
+
+ 
+ENDELEMENT(Domain: core object recognition)
+
+Goal: end-to-end understanding
+
+4. Can we infer the precise ciecoding mechanism(s)
+that the brain uses to support perceptual reports about
+visually presented objects?
+
+2. Can we infer the encoding mechanism(s) that,
+accurately predicts the relevant ventral stream
+Population patterns of neural activity from each image?
+
+ 
+
+ 
+ENDELEMENT(Domain: core object recognition)
+
+Goal: end-to-end understanding
+
+4. Can we infer the precise ciecoding mechanism(s)
+that the brain uses to support perceptual reports about
+visually presented objects?
+
+2. Can we infer the encoding mechanism(s) that
+accurately predicts the relevant ventral stream
+Population patterns of neural activity from each image?
+
+ 
+
+ 
+
+ 
+ENDELEMENTImages
+
+"T Neural
+representation’
+
+ 
+ENDELEMENT 
+
+Specific task
+‘domain
+
+(vouns)
+
+"IT Neural
+representation’
+ENDELEMENT 
+
+Specific task
+‘domain
+
+(rouns)
+
+‘Neural activity
+
+"T Neural
+representation’
+ENDELEMENTImages
+
+Specific task
+‘domain
+
+(vouns)
+
+‘Neural activity
+
+"T Neural
+representation’
+
+ 
+ENDELEMENTBehavioral reports
+(‘perception’)
+
+Specific task
+‘domain
+
+(ouns)
+
+‘Generative
+
+‘image domain
+
+(se rains asin
+
+??.
+
+"T Neural
+representation’
+
+ 
+ENDELEMENT3-d object Models
+
+(e.g.“car”)
+
+ 
+ENDELEMENTexperimenter-chosen
+view parameters
+
+Position
+Size
+Pose
+
+ 
+ENDELEMENTexperimenter-chosen
+view parameters
+
+Position
+Size
+Pose
+
+ 
+ENDELEMENTgenerative space of images, each with a single
+foreground object and experimenter-known
+viewing parameters.
+
+© uncorrelated, new background every image
+challenging for computer vision, doable by humans
+
+ 
+ENDELEMENTgenerative space of images, each with a single
+foreground object and experimenter-known
+viewing parameters.
+
+uncorrelated, new background every image
+challenging for computer vision, doable by humans
+
+ 
+ENDELEMENTgenerative space of images, each with a single
+foreground object and experimenter-known
+viewing parameters.
+
+© uncorrelated, new background every image
+challenging for computer vision, doable by humans
+
+ 
+ENDELEMENTgenerative space of images, each with a single
+foreground object and experimenter-known
+viewing parameters.
+
+uncorrelated, new background every image
+challenging for computer vision, doable by humans
+
+ 
+ENDELEMENTgenerative space of images, each with a single
+foreground object and experimenter-known
+viewing parameters.
+
+uncorrelated, new background every image
+challenging for computer vision, doable by humans
+
+ 
+ENDELEMENTgenerative space of images, each with a single
+foreground object and experimenter-known
+viewing parameters.
+
+uncorrelated, new background every image
+challenging for computer vision, doable by humans
+
+ 
+ENDELEMENT8 deg image at center of gaze, 100 ms viewing time
+
+ 
+ENDELEMENT8 deg image at center of gaze, 100 ms viewing time
+
+ 
+ENDELEMENT   
+           
+
+O39.
+200%
+| 9@8@
+ENDELEMENT   
+
+87eo
+06390@
+‘0009
+/ ese
+19030
+: 3060
+
+      
+ENDELEMENT   
+
+apis
+‘0009
+/ e@e@8e
+10038.
+: 3666
+
+      
+ENDELEMENT‘Another oxample cove objet recagaion tst
+
+   
+ENDELEMENT(Domain: core object recognition)
+
+Goal: end-to-end understanding
+
+ 
+
+4. Can we infer the decoding mechanism(s) that the
+brain uses to support perceptual reports about visually
+presented objects?
+Noto: this must predict behavioral report and it must
+Include a falsifiable statement ofthe relevant aspects of
+‘neural activity (ak
+
+ 
+
+al code")
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENT(Domain: core object recognition)
+
+Goal: end-to-end understanding
+
+ 
+
+4. Can we infer the decoding mechanism(s) that the
+brain uses to support perceptual reports about visually
+presented objects?
+Note: this must predict behavioral report and it must
+Include a falsifiable statement ofthe relevant aspects of
+‘neural activity (aka “neural code”)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENT(Domain: core object recognition)
+
+Goal: end-to-end understanding
+
+ 
+
+4. Can we infer the decoding mechanism(s) that the
+brain uses to support perceptual reports about visually
+presented objects?
+Note: this must predict behavioral report and it must
+Include a falsifiable statement ofthe relevant aspects of
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENTSimultaneous recording of hundreds of neural sites along the ventral stream
+
+ 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENTSimultaneous recording of hundreds of neural sites along the ventral stream
+
+ 
+ENDELEMENT(8g. response’
+
+*
+zs
+E
+
+ 
+ENDELEMENT18g. “response”
+
+*
+Zz
+E
+
+ 
+ENDELEMENT    
+ 
+  
+ 
+
+ 
+ 
+
+= moan fring rate 70-170 ms attr mage onset
+
+2256536
+
+ 
+
+IT Neuron #
+
+Ner
+
+The
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+
+I
+
+NEURAL
+activi
+
+  
+ENDELEMENTBEHAVIOR
+
+NEURAL
+acriviry
+
+ 
+ENDELEMENTBEHAVIOR
+
+NEURAL
+acriviry
+
+ 
+ENDELEMENTNEURAL
+active
+
+*
+5
+=
+
+ 
+ENDELEMENTBEHAVIOR
+
+NEURAL
+active
+
+ 
+ENDELEMENTWe had previously shown that simple weighted sums of T pon
+responses have high performance in recognition tasks
+
+ 
+ENDELEMENTWe had previously shown that simple weighted sums of T population
+responses have high performance in recognition tasks
+
+ 
+
+ 
+ENDELEMENTWe had previously shown that simple woight
+‘responses have high performance in ecogn
+
+ 
+
+ 
+
+ 
+ENDELEMENTWe had previously shown that simple weighted sums of T population
+responses have high performance in recognition asks
+
+Bu cout is era code 8 cad, pret
+
+    
+  
+
+ 
+
+ 
+ENDELEMENTWe had previously shown that simple weighted sums of T population
+responses have high performance in recognition tasks
+
+   
+ 
+
+‘Bu, coud this neural code & decode, predict
+Denavoral ace detection performance?
+
+: ed nd car sed
+
+   
+
+ 
+ENDELEMENTWe had previously shown that simple weighted sums of T population
+responses have high performance in recognition tasks
+
+ut coud thi neural code & decode, predet.
+2 ‘behavioral face detection performance?
+
+_) any
+
+angal seh
+
+om”)
+
+     
+ 
+
+ 
+ENDELEMENTWhat code & decoding mechanism explains object recognition?
+
+ 
+ENDELEMENTWhat code & decoding mechanism explains object recognition?
+
+ 
+ENDELEMENTWhat code & decoding mechanism explains object recognition?
+
+" Passivaly-avaked spike rato codes usin snl, td time scala) that
+human primate [T cortex neurons and learned from a reasonable
+‘number of examples,
+
+correct, this codeldecode should predict monkey and human
+reports about object catogory and abject identity forall tasks.
+
+ 
+ENDELEMENTWhat code & decoding mechanism explains object recognition?
+
+Passivaly-avoked spike rate codes (sna inal, tae ine aca) that
+human primate [cortex neurons and learned from a reasonable
+‘number of examples,
+
+Weorrect, this codeldecode should predict monkey and human
+reports about object catogory and abject identity forall tasks.
+
+ 
+ENDELEMENTWhat code & decoding mechanism explains object recognition?
+
+Passively-evoked spike rale codes using inl fxd time cae that
+human primate [cortex neurons and leamed from a reasonable
+‘humberof examples,
+
+Weorrect, this codeldecode should predict monkey and human
+reports about object catogory and abject identity forall tasks.
+
+ 
+ENDELEMENTWhat code & decoding mechanism explains object recognition?
+
+" Passivaly-avoked spike rato codes sin snl, td time scala) that
+human primate [cortex neurons and learned from a reasonable
+‘number of examples,
+
+Weorrect, this codeldecode should predict monkey and human
+reports about object catogory and abject identity forall tasks.
+
+Attentional andlor arousal mechanisms are needed to “activate” IT
+
+ 
+ENDELEMENTWhat code & decoding mechanism explains object recognition?
+
+Passivaly-avoked spike rate codes (sna snl, tae ine aca) that
+human primate IT cortex neurons and learned from a reasonable
+‘number of examples,
+
+Weorrect, this codeldecode should predict monkey and human
+reports about object catogory and abject identity forall tasks.
+
+Attentional andior arousal mechanisms are needed to “activate” IT
+
+ 
+ENDELEMENTWhat code & decoding mechanism explains object recognition?
+
+Passively-evoked spike rale codes usa sini fxd tim aca that
+human primate I carlex neurons and learned from a reasonable
+‘numberof examples,
+
+correct, this codeldecode should predict monkey and human
+reports about object catogory and abject identity forall tasks.
+
+Attentional andlor arousal mechanisms are needed to “activate” IT
+
+ 
+ENDELEMENTWhat code & decoding mechanism explains object recognition?
+
+Passivaly-evoked spike
+
+rate codes (using sna sed timescale) that
+
+‘are spatially distributed over a single, fixed number of non-
+human primate [T cortex neurons and learned from a reasonable
+‘number of examples,
+
+Weorrect, this codeldecode should predict monkey and human
+reports about object catogory and abject identity forall tasks.
+
+Attentional andior arousal mechanisms are needed to “activate” IT
+
+ 
+ENDELEMENTWhat code & decoding mechanism explains object recognition?
+
+Passivaly-avoked spike rate codes (sina snl, tad ine aca) that
+human primate [Tcortex neurons and learned from a reasonable
+‘number of examples,
+
+Weorrect, this codeldecode should predict monkey and human
+reports about object catogory and abject identity forall tasks.
+
+Attentional andior arousal mechanisms are needed to “activate” IT
+Trial-by-trial coordinated spike timing patterns are crucial
+
+Compartments within T must be carefully considered
+{erg asks related to faces handled exclusively by “face patch” network}
+
+ 
+ENDELEMENTWhat code & decoding mechanism explains object recognition?
+
+Passivaly-evoked spike rate codes (sna snl, tad ine aca) that
+human primate [Tcortex neurons and learned from a reasonable
+‘number of examples,
+
+correct, this codeldecode should predict monkey and human
+reports about object catogory and abject identity forall tasks.
+
+Attentional andlor arousal mechanisms are needed to “activate” IT
+Trial-by-trial coordinated spike timing patterns are crucial
+
+Compartments within T must be carefully considered
+(erg: tasks related to faces handled exclusively by “face patch” network}
+
+ 
+ENDELEMENTWhat code & decoding mechanism explains object recognition?
+
+Passively-evoked spike rate codes (using snl. sd ine aca) that
+‘are spatially distributed over a single, fixed number of non-
+human primate [Tcortex neurons and learned from a reasonable
+‘number of examples,
+
+correct, this codeldecode should predict monkey and human
+reports about object catogory and abject identity forall tasks.
+
+Attentional andlor arousal mechanisms are needed to “activate” IT
+Trial-by-trial coordinated spike timing patterns are crucial
+
+Compartments within T must be carefully considered
+{erg tasks related to faces handled exclusively by “face patch” network}
+
+ 
+ENDELEMENTWhat code & decoding mechanism explains object recognition?
+
+“Passivelv-avoked spike rate codes using sins xe ine scale that
+human primate [Tcortex neurons and learned from a reasonable
+‘number of examples,
+
+correct, this codeldecode should predict monkey and human
+reports about object catogory and abject identity forall tasks.
+
+Attentional andlor arousal mechanisms are needed to “activate” IT
+Trial-by-trial coordinated spike timing patterns are crucial
+
+Compartments within T must be carefully considered
+{erg tasks related to faces handled exclusively by “face patch” network}
+
+TT doos not directly underlie object recognition
+
+ 
+ENDELEMENTWhat code & decoding mechanism explains object recognition?
+
+Passivaly-evoked spike rate codes (using snl. sd ine aca) that
+
+‘are spatially distributed over a sinalo, fixed number of non-
+human primate [Tcortex neurons and learned from a reasonable
+‘number of examples,
+
+Weorrect, this codeldecode should predict monkey and human
+reports about object catogory and abject identity forall tasks.
+
+Attentional andlor arousal mechanisms are needed to “activate” IT
+Trial-by-trial coordinated spike timing patterns are crucial
+
+Compartments within T must be carefully considered
+(erg: take related to faces handled exclusively by “face patch” network}
+
+TT doos not directly underlie object recognition
+Performance requires too many training examples
+
+Monkey nouronal codes cannot explain human behavior
+
+ 
+ENDELEMENTWhat code & decoding mechanism explains object recognition?
+
+Passivaly-avoked spike rate codes (sna snl, tad ine aca) that
+human primate I cariex neurons and learned from a reasonable
+‘number of examples,
+
+correct, this codeldecode should predict monkey and human
+reports about object catogory and abject identity forall tasks.
+
+Attentional andior arousal mechanisms are needed to “activate” IT
+Trial-by-trial coordinated spike timing patterns are crucial
+
+Compartments within T must be carefully considered
+{erg tasks related to faces handled exclusively by “face patch” network}
+
+TT doos not directly underlie object recognition
+Performance requires too many training examples
+
+Monkey nouronal codes cannot explain human behavior
+
+ 
+ENDELEMENT5
+g
+:
+
+ 
+ENDELEMENTur frst decoder (based on previous work), with number
+‘neurons chosen (once) fo1match human performanes,
+
+‘Actual behavioral performance}
+
+g
+i
+
+ 
+ENDELEMENTur test decoder (based on previous work), with number
+‘neurons chosen (once) to'match human performanes,
+
+3
+i
+
+ 
+ENDELEMENTur test decoder (based on previous work), with number
+ot neurons chosen (ones) to match human performance.
+
+n=
+Object tests
+
+3
+i
+
+‘Actual behavioral performance}
+
+ 
+ENDELEMENTur trst decoder (based on previous work), with number
+‘neurons chosen (once) to1match human performanes,
+
+n=
+bjt tests
+
+g
+i
+
+‘Actual behavioral performance}
+
+ 
+ENDELEMENTur tirst decoder (based on previous work), with number
+ot neurons chosen (ones) to match human performance.
+
+Parameters of inferred neural
+codeldecoding mechanism:
+
+8) nes
+
+bjt tests
+
+ 
+
+Predicted behavioral performance
+
+ 
+ENDELEMENTur first decoder (based on previous work), with number
+Strneurone chosen (once) to match human performance.
+
+ 
+
+Parameters of inferred neural
+
+codeldecoding mechanism: .
+
+n=
+bjt tests
+
+foreach now objet random
+samp ~50,000 singe neurons
+Spotaly gistebuted over IF
+
+ 
+
+ 
+
+ 
+
+Predicted behavioral performance
+
+ 
+ENDELEMENTur frst decoder (based on previous work), with number
+Strneurone chosen (once) to match human performance.
+
+Parameters of inferred neural
+codeldecoding mechanism:
+foreach now objet randomly
+Sampo “50,000 singe neurons
+Spatay gisinbuted over IT
+
+§) n= 64
+
+Object tests
+
+ 
+
+Predicted behavioral perfomance
+
+‘Actual behavioral performance}
+
+ 
+ENDELEMENTur test decoder (based on previous work), with number
+‘neurons chosen (once) to1match human performanes,
+
+Parameters of inferred neural
+codeldecoding mechanism:
+foreach now objet andomiy
+sample ~20.000 singe neurons
+spatallydstibuted over Lr
+
+"istn” fo each IT ste's average
+spiking responce (ave over 100s)
+{eam an appropriately weighted sum
+orthose I spiang ouput, and thn
+ico 10% of thom fo judge tho.
+
+olinged ofthe oboe! beng prosent
+
+n=68
+Object tests
+
+ 
+
+Predicted behavioral perfomance
+
+‘Actual behavioral performance}
+
+ 
+ENDELEMENTur test decoder (based on previous work), with number
+‘neurons chosen (once) to1match human performanes,
+
+ 
+
+Parameters of inferred neural
+codeldecoding mechanism:
+foreach now objet random
+Sampo “50,000 singe neurons
+spol disiuod over IC
+stn” fo each IT ste’ a
+pking responce (ave over
+
+{eam an appropriately weighted sum
+of those IT spieng outputs, and thon
+ise 10% of thom fo judge tho
+
+lixetnood of tho oboe bang prosont
+
+n=
+bjt tests
+
+ 
+
+ 
+
+ 
+
+Predicted behavioral performance
+
+ 
+ENDELEMENTur ttt decoder (based on previous work), with number
+‘neurons chosen (once) to!match human performanes,
+
+Parameters of inferred neural
+codeldecoding mechanism:
+foreach now objet, andomiy
+sample ~20.000 singe neurons
+Spatallydstibuted over Lr
+stn” fo each IT ste’ a
+pking response (ave over
+
+{eam an appropriately weighted sum
+ofthose IT spieng outputs, and thon
+iso <0 of hoofs tho
+
+8) nae
+
+bjt tests
+
+ 
+
+‘Loamed Weightod Sums of (~50,000)
+Fandom Avorage (100 ms) single unt
+responses Disinbuted over IT.
+
+Predicted behavioral performance
+
+ 
+ENDELEMENTur first decoder (based on previous work), with number
+‘neurons chosen (once) to1match human performance,
+
+Parameters of inferred neural
+codeldecoding mechanism:
+foreach now objet random
+samp “50,000 ange neurons
+spol dsinbuted over IE
+
+n=
+Object tests
+
+“ist” fo each IT ste's average
+coking responce (ave over 100s)
+
+{eam an appropriately weighted sum
+ofthase IT spieng outputs, and thon
+{ise 10% of thom fo judge tho.
+
+ 
+
+‘Loamed Woightod Sums of (~50,000)
+Random Avorag (100 ms) single unt
+responses Disinbted over IT
+
+Predicted behavioral performance
+
+ 
+ENDELEMENT  
+
+Parameters of inferred neural
+codeldecoding mechanism:
+foreach now objet random
+samp “50,000 singe neurons
+Spoboydsiutd over IE
+“ist” fo each IT ste's average
+coking responce (ave over 100s)
+
+{eam an appropriately weighted sum
+orthose I spiang outputs, and thn
+ise =10% of thom fo judge tho.
+
+ixeinood of ho object bang prosent
+
+ 
+
+ 
+
+ 
+
+‘Loamed Woightod Sums of (~50,000)
+Random Avorag (100 ms) single unt
+responses Dsinbuted over IT
+
+aWS of RAD IT"
+decoding mechanism
+
+Predicted behavioral performance
+
+ 
+
+ 
+
+‘Actual behavioral performance}
+
+    
+  
+
+n= 64 e
+
+  
+
+The
+
+    
+ENDELEMENTi home: simple, learned weighted sums of I rin
+predic the pation of PERFORMANCE over
+
+Parameters of inferred neural
+codeldecoding mechanism:
+
+foreach now objet random
+sample ~20.000 singe neurons
+Spada dsiutod over IE
+
+"istn”fo each IT ste's average
+coking responce (ave over 100s)
+{eam an appropriately weighted sum
+ofthoso IT spieng outputs, and thon
+ico 10% of thom fo judge tho
+
+ 
+
+‘Loamed Woightod Sums of (~50,000)
+Random Avorage (100 ms) single unt
+responses Disinbted over IT.
+
+Predicted behavioral performance
+
+ 
+ENDELEMENT  
+
+ 
+
+1 home: simple
+
+ 
+
+Parameters of inferred neural
+code/decoding mechanism:
+foreach now objet random
+samp “50,000 singe neurons
+Spada dit over IT
+"istn” fo each IT ste’ a
+pking responce (ave ove
+
+choo I splong oubuls ane
+use ~10% of thom to judge tho
+inetnogd of to oy
+
+  
+
+ 
+
+   
+
+ 
+
+ 
+
+ 
+
+‘Loamed Woightod Sums of (~50,000)
+Random Avorag (100 ms) single unt
+responses Disinbted over IT.
+
+aWS of RAD IT"
+decoding mechanism
+
+ 
+
+learned wolghted sums of fin
+the pattem of PERFORMANCE over al object Tecogt
+
+Predicted behavioral performance
+
+ 
+
+  
+ 
+  
+
+ 
+
+   
+
+n= 64 a
+bjt tests
+
+ 
+ENDELEMENThome: simple
+the pattem of PERFORMANCE over
+
+Parameters of inferred neural
+codeldecoding mechanism:
+foreach now objet, random
+Sampo “50,000 singe neurons
+Spatly dsnbuted over Ir
+stn” fo each IT ste’ a
+pking responce (ave ove
+
+{eam an appropriately weighted sum
+ofthose IT spieng outputs, and thon
+ise 10% of thom fo judge tho.
+
+lixetnood of tho oboe bang prosont
+
+ 
+
+‘Loamed Woightod Sums of (~50,000)
+Fandom Avorage (100 ms) single unt
+responses Disinbted over IT.
+
+Predicted behavioral perfomance
+
+ 
+ENDELEMENT‘Some controls.
+Most alternative codes/decoding mechanisms are not even close.
+
+é
+
+:
+§
+
+ 
+ENDELEMENT‘Some controls.
+Most alternative codes/decoding mechanisms are not even close.
+
+ 
+ENDELEMENT‘Some controls.
+Most alternative codes/decoding mechanisms are not even close.
+
+i
+
+3
+5
+
+ 
+ENDELEMENT‘Some controls.
+Most alternative codes/decoding mechanisms are not even close.
+
+§
+
+ 
+ENDELEMENT‘Some controls.
+Most alternative codes/decoding mechanisms are not even close.
+
+é
+g
+
+:
+§
+
+ 
+ENDELEMENT2g
+
+ 
+
+Consistency with humans
+ENDELEMENT 
+
+tn en coin
+Consistency with humans
+ENDELEMENT£
+zy
+£
+
+ 
+
+Consistency with humans
+ENDELEMENT 
+
+to on con
+Consistency with humans
+ENDELEMENT 
+
+tn on cot
+Consistency with humans
+ENDELEMENT 
+
+to en con
+Consistency with humans
+ENDELEMENT 
+
+aoe
+Consistency with humans
+ENDELEMENT 
+
+Consistency with humans
+ENDELEMENTf
+é
+
+ 
+
+twa tie
+Consistency with humans
+ENDELEMENT 
+ENDELEMENTA family of f codes/decodes
+that each accurately predict
+pattern of behavioral
+
+pO ea OR oe
+
+ 
+ENDELEMENTBehavioral object
+confusions
+
+ 
+ENDELEMENTBehavioral object crownnin
+confusions
+
+ 
+ENDELEMENTBehavioral object crown
+confusions ;
+
+ 
+ENDELEMENTBehavioral object crointmun
+confusions ;
+
+Actual:
+(human data)
+
+ 
+ENDELEMENTBehavioral object crown
+confusions ;
+
+Actual:
+(human data)
+
+ 
+ENDELEMENTBehavioral object crointmun
+confusions j
+
+Predicted:
+
+Actual:
+(human data)
+
+ 
+ENDELEMENTBehavioral object crowntmun
+confusions ;
+
+Actual:
+(human data)
+
+ 
+ENDELEMENT 
+    
+
+  
+
+Behavioral object
+confusions
+
+       
+       
+   
+
+ 
+
+ 
+
+This is an opportunity to push forward:
+image grain predictions to distinguish
+among alternative IT codes
+
+(ruman data) zz =
+
+ 
+ENDELEMENT 
+    
+
+  
+
+Behavioral object
+confusions
+
+      
+       
+   
+
+ 
+
+  
+
+This is an opportunity to push forward:
+image grain predictions to distinguish
+among alternative IT codes
+
+(human data) —_ =
+
+ 
+ENDELEMENT   
+     
+       
+           
+
+ 
+  
+
+Behavioral object crown
+confusions ;
+
+   
+
+ 
+
+aa
+
+an
+ase
+
+ 
+
+This is an opportunity to push forward: 7
+image grain predictions to distinguish | ju
+among alternative IT codes
+
+(ruman data) —_ =
+
+ 
+
+ 
+
+ 
+ENDELEMENT 
+   
+ 
+     
+
+  
+
+Behavioral object
+confusions
+
+      
+       
+   
+
+ 
+
+  
+
+This is an opportunity to push forward:
+image grain predictions to distinguish
+among alternative IT codes
+
+(numan data) zx =
+
+ 
+ENDELEMENT 
+    
+
+  
+
+Behavioral object
+confusions
+
+       
+    
+     
+
+ 
+
+  
+
+This is an opportunity to push forward:
+image grain predictions to distinguish jij
+among alternative IT codes
+
+(human data) —z =
+
+ 
+ENDELEMENTOther object latent variables
+
+Category: plane
+Identity: 16
+
+Aspect Ratio
+
+ 
+ENDELEMENTOther object latent variables
+
+Category: plane
+Identity: 16
+
+Aspect Ratio
+
+ 
+ENDELEMENTOther object latent variables
+
+Category: plane
+Identity: 16
+
+Aspect Ratio
+
+ 
+ENDELEMENTTaWS of RAD IT
+ding mechanism
+
+ 
+ENDELEMENTTaWS of RAD IT
+decoding mechanism
+
+ 
+ENDELEMENTTaWS of RAD IT
+decoding mechanism
+
+~
+bk Binh hk
+
+a i
+— Jha lin a Mies bi Ii
+
+ 
+ENDELEMENTTaWS of RAD IT
+decoding mechanism
+
+ 
+ENDELEMENTTaWS of RAD IT
+decoding mechanism
+
+ 
+ENDELEMENT   
+
+  
+
+‘Number of I sites needed to
+match human performance
+
+ 
+
+TaWS of RAD IT
+decoding mechanism
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+    
+
+Predicted behavioral
+
+:
+
+Human behavioral performance
+
+ 
+
+=
+
+Consistency with hi
+
+Hu
+
+V4 V1 Pix
+
+    
+  
+
+     
+ENDELEMENT      
+
+‘Number of I sites needed to LaWS of RAD IT
+match human performance decoding mechanism
+
+  
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+=
+
+   
+
+    
+
+3
+
+Conletoney wt
+
+Ha
+
+‘Human behavioral performance V4. Vt Pix
+ENDELEMENT 
+       
+  
+       
+
+ 
+
+‘Number of I sites needed to LaWS of RAD IT
+match human performance decoding mechanism
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+5
+
+   
+
+Predicted behavioral
+
+  
+
+Conletoney wt
+
+Tia
+
+Human behavioral performance V4 V1 Pix
+ENDELEMENTTaWS of RAD IT
+decoding mechanism
+
+Category: plane
+
+fen ‘Summary: This ventral
+
+Geese! Seam coseldecoaing
+mechanism also predicts
+human patterns ot
+‘ject latent varias.
+
+ 
+ENDELEMENT‘Sketch of the inferred anatomy:
+
+LaWS of RAD IT Zi
+
+Teortex (AT + OM)
+
+ 
+ENDELEMENT 
+
+‘Sketch of the inferred anatomy:
+
+LaWS of RAD IT
+
+Treortex (AT + OM)
+ENDELEMENT‘Sketch of the inferred anatomy:
+
+LaWS of RAD IT
+
+ 
+ENDELEMENT 
+
+‘Sketch of the inferred anatomy:
+
+LaWS of RAD IT
+
+Teortex (AT + OM
+ENDELEMENT 
+
+‘Sketch of the inferred anatomy:
+
+LaWS of RAD IT
+—
+
+ee
+
+Teortex (AT + OM
+ENDELEMENT‘Sketch of the inferred anatomy:
+
+LaWS of RAD IT Zi
+
+Teortex (iT + OM
+
+ 
+ENDELEMENT‘Sketch of the inferred anatomy:
+
+LaWS of RAD IT z
+
+Teortex (aT + OT
+
+ 
+ENDELEMENT‘Sketch of the inferred anatomy:
+
+LaWS of RAD IT z
+
+Treortex (iT + OM
+
+ 
+ENDELEMENT‘Sketch of the inferred anatomy:
+
+LaWS of RAD IT
+
+ 
+ENDELEMENT‘Sketch of the inferred anatomy:
+
+LaWS of RAD IT Z
+
+Teortex (AT + OM
+
+ 
+ENDELEMENT 
+
+‘Sketch of the inferred anatomy:
+
+LaWS of RAD IT
+
+= Leam faces
+
+=>
+
+Treortex (AT + OM
+ENDELEMENT 
+
+‘Sketch of the inferred anatomy:
+
+LaWS of RAD IT
+
+rene Leam faces "7
+
+a =>
+
+Treortex (AT + OM)
+ENDELEMENT‘Sketch of the inferred anatomy:
+
+LaWS of RAD IT z
+
+cre Leam faces "7
+
+=>
+
+Teortex (AT + OM
+
+ 
+ENDELEMENT 
+
+‘Sketch of the inferred anatomy:
+LaWS of RAD IT
+
+arom Leam faces
+
+Teortex (AT + OM)
+
+ed Lear cars
+
+_>
+ENDELEMENTLaWS of RAD IT
+
+Post-learning:
+
+Face”
+
+Ne
+
+Then GPS) kee ee eee
+
+ 
+ENDELEMENTLaWS of RAD IT
+
+Post-learning:
+
+Face"
+
+TR GeeAec ATR GIT Ae
+
+ 
+ENDELEMENTCausal tests of this model
+
+The model allows us to predict how much any
+‘object recognition task will be disrupted by direct,
+suppression of IT neurons.
+
+Post-learning:
+
+Face"
+Car
+
+Ne
+
+ 
+
+TRAE ITT Eat) ke Fee
+ENDELEMENTCausal tests of this model
+
+The model allows us to predict how much any
+‘object recognition task will be disrupted by direct,
+suppression of IT neurons.
+
+Post-learning:
+
+Face”
+
+we
+
+ 
+
+reece aie GT) ies Fee ee
+ENDELEMENTCausal tests of this model
+
+The model allows us to predict how much any
+object recognition task will be disrupted by direct,
+suppression of IT neurons.
+
+Post-learning:
+
+Face”
+
+Ne
+
+ 
+
+Trek RON GR ee ee
+ENDELEMENTCausal tests of this model
+
+The model allows us to predict how much any
+object recognition task will be disrupted by direct,
+suppression of IT neurons.
+
+Post-learning:
+
+Face”
+
+ 
+ENDELEMENT 
+ 
+   
+       
+ 
+   
+ 
+      
+
+  
+
+Causal tests of this model
+
+The model allows us to predict how much any
+object recognition task will be disrupted by direct,
+suppression of IT neurons.
+
+Post-learning:
+
+as
+
+      
+
+ 
+
+Tee at Sor Sa ee ee
+ENDELEMENTCausal tests of this model
+
+The model allows us to predict how much any
+object recognition task will be disrupted by direct,
+suppression of IT neurons.
+
+Post-learning:
+
+ 
+
+Tre GICs hee
+ENDELEMENT 
+ 
+   
+       
+ 
+   
+        
+  
+
+  
+
+Causal tests of this model
+
+The model allows us to predict how much any
+object recognition task will be disrupted by direct,
+suppression of IT neurons.
+
+Post-learning:
+
+ae
+
+    
+
+  
+
+rea AIR Sas Fe
+ENDELEMENT 
+ 
+   
+       
+ 
+   
+     
+           
+
+  
+
+Causal tests of this model
+
+The model allows us to predict how much any
+object recognition task will be disrupted by direct
+suppression of IT neurons.
+
+Post-learning:
+Face”
+—~., “Car
+
+Towards actual
+
+aHnegtaRt a | otis tt conex..~/
+
+oe al
+
+ 
+
+    
+
+ 
+
+Sree GT Shee Fee
+ENDELEMENT 
+ 
+   
+       
+ 
+   
+        
+         
+
+  
+
+Causal tests of this model
+
+The model allows us to predict how much any
+object recognition task will be disrupted by direct,
+suppression of IT neurons.
+
+Post-learning:
+Face"
+
+Qe
+Ner
+
+Towards actual | oe anoe. —/
+
+ramen e's so ae
+
+ 
+
+The
+
+      
+
+Tras TIE OY) ee ee ee oe
+ENDELEMENT 
+ 
+   
+       
+ 
+   
+     
+        
+
+  
+
+Causal tests of this model
+
+The model allows us to predict how much any
+object recognition task will be disrupted by direct,
+suppression of IT neurons.
+
+Post-learning:
+Face”
+—~, "Car"
+
+Towards actual
+“inception”
+
+ 
+
+— io
+
+ 
+
+    
+
+FER PES eR pT HS TE PRG
+ENDELEMENT 
+   
+
+Causal tests of this model
+LaWS of RAD IT
+
+ 
+ 
+   
+       
+     
+   
+ 
+      
+
+The model allows us to predict how much any
+object recognition task will be disrupted by direct,
+suppression of IT neurons.
+Step 1: (done) Tool building and testing: Can we reliably disrupt
+performance of a recognition task by directly suppressing the
+‘etivity of “Imm IT neural sub-populations?
+Post-learning:
+
+Face”
+
+Towards actual
+
+ 
+
+ 
+
+ 
+
+ne ea %
+
+   
+
+ 
+
+  
+
+Ola pO ae OSE ER PIELER
+ENDELEMENT       
+   
+   
+   
+   
+   
+     
+   
+      
+
+  
+
+Causal tests of this model
+
+The model allows us to predict how much any
+object recognition task will be disrupted by direct
+suppression of IT neurons.
+
+Step 1: (done) Too! building and testing: Can we reliably disrupt
+performance of a recognition task by directly suppressing the
+‘ctivity of “Imm IT neural sub-populations?
+
+Step 2 (ongoing): Testa large Post-learning:
+battery of tasks and a battery of
+I suppression patterns, Face"
+
+ 
+
+ 
+
+Car
+Towards actual
+
+ 
+
+ 
+
+ee a EF %
+
+   
+
+ 
+
+ 
+
+TRS Re AIRS aT) Gia Fe ae
+ENDELEMENT     
+       
+   
+   
+   
+       
+       
+     
+      
+
+Causal tests of this model
+LaWS of RAD IT
+
+The model allows us to predict how much any
+object recognition task will be disrupted by direct,
+suppression of IT neurons.
+
+Step 1: (done) Tool building and testing: Can we reliably disrupt
+
+performance of a recognition task by directly suppressing the
+
+‘etivity of “Imm IT neural sub-populations?
+
+Step 2 (ongoing): Testa large Post-learning:
+
+battery of tasks and a battery of
+
+-suppression patterns. Face"
+
+— “cor
+
+Towards actual
+
+rept ORNS
+
+TRE TE OTe
+
+ 
+
+    
+
+ 
+
+  
+ENDELEMENT   
+       
+   
+   
+   
+   
+     
+   
+      
+   
+
+Causal tests of this model
+LaWS of RAD IT
+
+The model allows us to predict how much any
+object recognition task will be disrupted by direct,
+suppression of IT neurons.
+
+Step 1: (done) Tool building and testing: Can we reliably disrupt
+performance of a recognition task by directly suppressing the
+‘etivity of “Imm IT neural sub-populations?
+
+Step 2 (ongoing): Testa large Post-learning:
+battery of tasks and a battery of
+-suppression patterns, Face"
+
+ 
+
+Car
+Towards actual
+
+ 
+
+ 
+
+    
+
+ 
+
+ 
+
+aican US AT e Fe ee
+ENDELEMENTvane Le
+
+ 
+ENDELEMENTStereo, microfocal
+ray system
+
+ 
+ENDELEMENTStereo, microfocal
+EY |
+
+ 
+ENDELEMENT  
+ENDELEMENT 
+ENDELEMENT  
+ENDELEMENT  
+ENDELEMENT  
+ENDELEMENT  
+ENDELEMENTStereo, microfocal
+
+  
+ENDELEMENT  
+ENDELEMENT  
+ENDELEMENT  
+ENDELEMENTMonkey task: face gender discrimination
+
+ 
+ENDELEMENT    
+
+VRPAVAI2e
+ENDELEMENT 
+  
+
+99999999
+ENDELEMENT 
+  
+
+99999999
+ENDELEMENTWe found a spatially-specific behavioral effect,
+Cn this object discrimination task
+
+{Control
+
+Hi Loser on
+
+8
+Se
+A
+
+contralateral VF ipsilateral VF
+
+visual field
+
+ 
+ENDELEMENTWe found a spatially-specific behavioral effect,
+(on this object discrimination task
+
+{Control
+
+HE Loser on
+
+8
+Se
+A
+
+contralateral VF ipsateral VF
+
+visual field
+
+ 
+ENDELEMENTWe found a spatially-specific behavioral effect,
+(on this object discrimination task
+
+{Control
+Loser on
+
+8
+Se
+A
+
+contralateral VF ipsateral VF
+
+visual field
+
+ 
+ENDELEMENTWe found a spatially-specific behavioral effect.
+(on this object discrimination task
+
+{Control
+Hi Loser on
+
+8
+
+=
+S
+3
+
+contralateral VF ipsateral VF
+
+visual field
+
+ 
+ENDELEMENTWe found a spatially-specific behavioral effect,
+Cn this object discrimination task
+
+{control
+HE Loser on
+
+§
+
+B
+g
+3
+
+contralateral VF ipsilateral VF
+
+visual field
+
+ 
+ENDELEMENTPharmacological suppression of different IT sub-regions results
+in different patterns of deficit in basic level object tasks
+
+rate 1 rete rete
+
+3
+
+ 
+ENDELEMENTPharmacological suppression of different IT sub-regions results
+in different patterns of deficit in basic level object tasks
+
+ste 1 rete2 rete
+
+ 
+ENDELEMENTPharmacological suppression of different IT sub-regions results
+in different patterns of deficit in basic level object tasks
+
+rete 1 Mrete2 ete
+
+ 
+ENDELEMENTPharmacological suppression of different IT sub-regions results
+in different patterns of deficit in basic level object tasks
+
+ste 1 Mrete2 ste
+
+<
+
+ur current aim isto systematically measure the specifi
+pattem of behavioral chango induced by suppression of each
+I sub-region (~100) and compare with model predictions
+
+ 
+ENDELEMENT‘Can we span the entire domain of core
+recognition tasks? How?
+
+Vision Object rec
+
+‘Core object
+recognition’
+
+ 
+ENDELEMENT 
+
+ 
+
+ 
+
+ 
+
+ 
+
+‘core recognition: only 20 dimensions needed to charactarize
+contusions among al basic and suborainateleve objects
+
+‘Sufficient
+
+ 
+ENDELEMENT 
+
+ 
+
+i-me ‘
+
+ 
+
+ 
+
+ 
+
+15 18”
+Number of objects embedded
+
+ 
+ENDELEMENT 
+
+ 
+
+ 
+
+ 
+
+ 
+
+‘core recognition: only 20 dimensions needed to characterize
+contusions among al baste and subordinateeve objects
+
+5 tA
+Number of objects embedded
+
+ 
+ENDELEMENT 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Consors uncng al bets and eubordnatelevel ofc
+Confusions among al bas
+
+2
+
+ 
+ENDELEMENT(Domain: core object recognition)
+
+Goal: end-to-end understanding
+
+4. Can we infer the decoding mechanism that the brain
+uses to support perceptual reports about visually
+presented object?
+
+Note: this must predict
+include a falsifiable statement ofthe relevant aspects of
+neural activity (aka “neural code")
+
+ 
+
+vioral report and it must
+
+ 
+
+‘encoding mechanism(s) that
+the relevant ventral stre:
+
+  
+
+ 
+
+ 
+
+ 
+
+27 tl. Foe
+ENDELEMENT(Domain: core object recognition)
+
+Goal: end-to-end understanding
+
+4. Can we infer the mechanism that the brain
+uses to support perceptual reports about visually
+presented object?
+Note: this must predict behavioral report and it must
+include a falsifiable statement of the relevant aspects of
+neural activity (aka “neural code")
+
+ 
+
+ 
+
+‘encoding mechanism(s) that
+the relevant ventral stres
+
+  
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENT(Domain: core object recognition)
+
+Goal: end-to-end understanding
+
+4. Can we infer the mechanism that the brain
+uses to support perceptual reports about visually
+Presented object?
+
+Note: this must predict behavioral report and it must
+include a falsifiable statement of the relevant aspects of
+neural activity (aka “neural code")
+
+ 
+
+  
+ 
+
+2. Can we infer the encoding mechanism(s) that
+accurately predict the relevant ventral stre
+population patterns of neural activity from
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTBehavioral reports |
+Images potion
+
+Reveals which
+
+aspects aff
+trust be prdtod
+
+ 
+
+{imaan rte of eh IT
+Mosnaatl abel
+ENDELEMENTBehavioral reports
+"perception”)
+
+oveals which
+aepacts of
+ist be prodetod
+
+ 
+
+{imaan rate of eh IT
+[cea ball
+ENDELEMENTBehavioral reports |
+option”) |
+
+oveals wich
+aepacts of
+must bo prodted
+
+ 
+
+{imaan rate of eh IT
+Peacoat —frecll
+ENDELEMENT‘Our goal (2008): explore a family of possible encoding mechanisms
+‘Deep convolutional neural networks” (Deep CNN's)
+i@ OpraLIONS: O= (me, On, Ons Ore
+
+Top layor has
+thousands of
+
+Layer
+
+ 
+ENDELEMENT‘Our goal (2008): explore a family of possible encoding mechanisms
+‘Deep convolutional neural networks” (Deep CNN's)
+Bn oeratons B= he Om Ore oe)
+
+Top layer has
+thousands of
+
+Layer
+
+ 
+ENDELEMENT‘Our goal (2008): explore a family of possible encoding mechanisms
+‘Deep convolutional neural networks” (Deep CNN's)
+Basic 0peralions: @= (mx. ors Os Ores Oo)
+
+Top layer has
+thousands of
+Layer
+
+ 
+ENDELEMENT‘Our goal (2008): explore a family of possible encoding mechanisms
+‘Deep convolutional neural networks” (Deep CNN's)
+Basic Operations: O= (Ome. Ors Os Ores Oo
+
+Top layer has
+thousands of
+
+Layer
+
+ 
+ENDELEMENT‘Our goal (2008): explore a family of possible encoding mechanisms
+‘Deep convolutional neural networks” (Deep CNN's)
+Basie operalons” O= (om Or Oo On om)
+
+Top layer has
+thousands of
+
+Layer
+
+ 
+ENDELEMENT‘Our goal (2008): explore a family of possible encoding mechanisms
+‘Deep convolutional neural networks” (Deep CNN's)
+Basic operations: @= (o
+
+Top layor has
+sands of
+Layer :
+
+ 
+ENDELEMENT‘Our goal (2008): explore a family of possible encoding mechanisms
+‘Deep convolutional neural networks” (Deep CNN's)
+Basic operations: @= (o
+
+Top layor has
+thousands of
+
+ 
+ENDELEMENT‘Our goal (2008): explore a family of possible encoding mechanisms
+RE 209 convolutional neural networks” (Deep CNN's)
+Basic operations: @= (6
+
+Top layer has
+thousands of
+
+Layer
+
+ 
+ENDELEMENT‘Our goal (2008): explore a family of possible encoding mechanisms
+‘Deep convolutional neural networks” (Deep CNN's)
+
+Basic operations: @= (o
+
+Top layer has
+sands of
+
+Layer3
+
+ 
+ENDELEMENT‘Our goal (2008): explore a family of possible encoding mechanisms
+‘Deep convolutional neural networks” (Deep CNN's)
+
+Basic operalions: @= (Ome. Or Eleven powers)
+— Tesi * Poot ze | Simple, bio-known
+nontinearties,
+
+Each ayer:
+Getatnotog)
+thas many types of|
+tuning functions.
+
+oop stack of layers
+
+Top layor has
+ousande of
+Layer
+
+ 
+ENDELEMENT‘Our goal (2008): explore a family of possible encoding mechanisms
+‘Deep convolutional neural networks” (Deep CNN's)
+
+Strat Simple, blo-known
+
+@e, ontineartioe,
+
+Each ayer:
+{is convolutional
+Gectetnotony)
+
+thas many types of|
+tuning functions
+
+oop stack of layers
+Top layer has
+
+pts
+
+Layer =
+
+ 
+ENDELEMENT‘Our goal (2008): explore a family of possible encoding mechanisms
+‘Deep convolutional neural networks” (Deep CNN's)
+
+| Basi@operaiions: = Om. 0: Flere rere)
+
+Strat Simple, bio-known
+nontinearties,
+
+> Each ayer:
+Gertatncton)
+thas many types of|
+{ning functions
+
+oop stack of layers
+
+Top layer has
+ousande of
+Layer cs
+
+ 
+ENDELEMENTBes cerons O- ane
+Qe ‘Sata Poot ‘oemalize | Simple, bio-known
+Seater
+
+oop stack of layers
+
+Top layor has
+thousands of
+Layer
+
+ 
+ENDELEMENT‘Our goal (2008): explore a family of possible encoding mechanisms
+‘Deep convolutional neural networks” (Deep CNN's)
+Basic operalions: ©= (Ox. Ors Os Oo
+
+Top layer has
+thousands of
+
+Layer
+
+ 
+ENDELEMENT‘Our goal (2008): explore a family of possible encoding mechanisms
+‘Deep convolutional neural networks” (Deep CNN's)
+[ Basic operations: O = (Om Orr Ow Oras
+
+Top layer has
+thousands of
+Layer :
+
+ 
+ENDELEMENT‘Our goal (2008): explore a family of possible encoding mechanisms
+‘Deep convolutional neural networks” (Deep CNN's)
+Basie operalons: O- (0
+
+Top layer has
+thousands of
+Layer
+
+ 
+ENDELEMENT‘Our goal (2008): explore a family of possible encoding mechanisms
+‘Deep convolutional neural networks” (Deep CNN's)
+Basic operalions: @= (Ox Or, Os Oo
+
+Top layer has
+thousands of
+
+| aa
+
+Layer
+
+ 
+ENDELEMENT‘Our goal (2008): explore a family of possible encoding mechanisms
+‘Deep convolutional neural networks” (Deep CNN's)
+Bast aparalans: 8 ft 0
+
+Top layer has
+thousands of
+
+Layer
+
+ 
+ENDELEMENT‘Our goal (2008): explore a family of possible encoding mechanisms
+‘Deep convolutional neural networks” (Deep CNN's)
+Basie operalons” O= (Ooms Ors Oo Gon
+
+Top layer has
+thousands of
+
+ 
+ENDELEMENT‘Our goal (2008): explore a family of possible encoding mechanisms
+‘Deep convolutional neural networks” (Deep CNN's)
+
+[ Basic operations: @= (lax. Ors Oss Or
+
+Top layer has
+thousands of
+
+ 
+ENDELEMENT‘Our goal (2008): explore a family of possible encoding mechanisms
+‘Deep convolutional neural networks” (Deep CNN's)
+
+Basic operalions: @= (Ox Ors Oss Oo
+
+How do we determine which of these models,
+
+hy, I a model ofthe ventral steam?
+
+Top layer has
+thousands of
+
+ 
+ENDELEMENT‘Our goal (2008): explore a family of possible encoding mechanisms
+‘Deep convolutional neural networks” (Deep CNN's)
+
+Basic op6ralions: O= (Ome. One. ss Oo 0
+
+How do we determine which of these models,
+itany, is a model of the ventral stream?
+
+1. Use optimization methods to find specific models.
+(Ce. parameter setings) in this model family
+
+Top layer has
+ousande of
+
+ 
+ENDELEMENT‘Our goal (2008): explore a family of possible encoding mechanisms
+Basie operalions: ¢ Tsien Gr
+
+Fit 6 R ‘unknown
+parameters
+
+1. Use optimization methods to find specific models.
+(Ce. parameter settings) in this model family
+
+Layer2
+
+ 
+
+ 
+ENDELEMENT‘Our goal (2008): explore a family of possible encoding mechanisms
+nal ks" (Deep CNN
+Basie operalions: ¢ Troisanas ot
+Fer Tyeshold& F ‘unknown
+parameters
+
+1. Use optimization methods to find specific models.
+(Ce. parameter setings) in this model family
+
+Layer2
+
+ 
+
+ 
+ENDELEMENT‘Our goal (2008): explore a family of possible encoding mechanisms
+
+Basic operations: Thousands of
+Fie Thy F ‘unknown
+sie parameters
+
+1. Use optimization methods to find specific models.
+(Ce. parameter settings) in this model family
+
+ 
+
+ 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENTaDueulio}iag
+
+ 
+ENDELEMENT 
+ENDELEMENTVer Ve
+
+ 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENTPredictions of single site IT responses from layer 4 of HMO 1.0 model
+
+_Bot
+
+ 
+
+pe,
+ENDELEMENTPredictions of single site IT responses from layer 4 of HMO 1.0 model
+
+ 
+
+Pena ae Ee ee aE
+ENDELEMENTPredictions of single site IT responses from layer 4 of HMO 1.0 model
+
+ 
+
+RES Gr EEC
+ENDELEMENTPredictions of single site IT responses from layer 4 of HMO 1.0 model
+
+ 
+
+Pa aS sat eee
+ENDELEMENTPredictions of single site IT responses from layer 4 of HMO 1.0 model
+
+ 
+
+Pe eo ae
+ENDELEMENTPredictions of single site IT responses from layer 4 of HMO 1.0 model
+
+Thoso ae PREDICTIONS: All of hase objects and images were
+hhaver proviously seen by the HMO model
+
+ 
+
+a SSPE nea ae a
+ENDELEMENTPredictions of single site IT responses from layer 4 of HMO 1.0 model
+
+Those ae PREDICTIONS: All of hase objects and images were
+haver proviously seen by the HMO model
+
+Frszo Uh
+
+ 
+
+A epee eet oe
+ENDELEMENTPredictions of single site IT responses from layer 4 of HMO 1.0 model
+
+These are PREDICTIONS: Al of these objects and images wore
+haver proviously seen by the HMO model
+
+ 
+
+ 
+
+ 
+
+ 
+
+Free Mada aaANe hy
+
+“ene
+
+ 
+
+a a ne aereae Ee
+ENDELEMENTPredictions of single site IT responses from layer 4 of HMO 1.0 model
+
+These are PREDICTIONS: All of hase objects and images were
+hover proviously seen by the HMO model
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Ferree Yel vc dthetdheassaed ag
+Wasa bel i
+
+ 
+
+pe a pag ee eee
+ENDELEMENTPredictions of single site IT responses from layer 4 of HMO 1.0 model
+
+IT Site 42
+
+z=
+
+eal
+
+Response of
+
+ 
+ENDELEMENTPredictions of single site IT responses from layer 4 of HMO 1.0 model
+
+IT Site 42
+
+Response of
+
+ 
+ENDELEMENTAbility of various encoding mechanisms (specific models)
+to predict IT responses to naturalistic images
+
+ 
+ENDELEMENTAbility of various encoding mechanisms (specific models)
+to predict IT responses to naturalistic images
+
+ 
+ENDELEMENTAbility of various encoding mechanisms (specific models)
+to predict IT responses to naturalistic images
+
+es
+
+ 
+ENDELEMENTAbility of various encoding mechanisms (specific models)
+to predict IT responses to naturalistic images
+
+ 
+ENDELEMENTAbility of various encoding mechanisms (specific models)
+to predict IT responses to naturalistic images
+
+ 
+ENDELEMENT 
+ENDELEMENTAbility of various encoding mechanisms (specific models)
+to predict IT responses to naturalistic images
+
+ 
+ENDELEMENTAbility of various encoding mechanisms (specific models)
+to predict IT responses to naturalistic images
+
+ 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENTredictive power
+eerste ee
+
+ 
+ENDELEMENT    
+
+V4 predictive power IT predictive power
+
+        
+
+ 
+
+ 
+ENDELEMENTredictive power
+pees eae
+
+ 
+ENDELEMENT     
+
+;Bio-inspired algorithm class + tasks in domain + optimization
+==> neural-ike encoding functions!
+
+    
+     
+ 
+
+V4 predictive power
+
+     
+
+     
+ENDELEMENT;Bio-inspired algorithm class + tasks in domain + optimization
+==> neural-ike encoding functions!
+
+V4 predictive power
+
+ 
+ENDELEMENTBlo-inspired algorithm class + tasks in domain + optimization
+
+==> neural-ike encoding functions!
+
+V4 predictive power
+
+ 
+ENDELEMENTBBio-Inspired algorithm class + tasks in domain + optimization
+==> neural-like encoding functions!
+
+     
+ 
+
+V4 predictive power
+
+    
+  
+
+ 
+
+    
+
+ 
+
+   
+ENDELEMENTBio-inspired algorithm class + tasks in domain + optimization
+==> neural-ike encoding functions!
+
+     
+ 
+
+V4 predictive power
+
+    
+  
+
+ 
+
+    
+
+ 
+
+   
+ENDELEMENT   
+
+Overview of what we did
+
+ 
+
+ 
+
+ose naa
+
+ 
+
+ 
+
+ 
+
+ 
+
+EB
+
+Performance of a model on high
+fhe es ears pe inciee aaieck
+
+ 
+ENDELEMENT   
+
+Overview of what we did
+
+ 
+
+p.0sos
+
+ 
+
+ 
+
+ 
+
+ 
+
+A
+BE
+:
+
+Performance of a model on high
+fre cah sana pe eh te ee SR
+
+ 
+ENDELEMENT   
+
+Overview of what we did
+
+ 
+
+ 
+
+p.0s09
+
+ 
+
+ 
+
+ 
+
+ 
+
+Be
+2
+
+Performance of a model on high
+slat pest a
+
+ 
+ENDELEMENT   
+
+Overview of what we did
+
+ 
+
+p.0s09
+
+ 
+
+ 
+
+ 
+
+ 
+
+Be
+2
+
+Performance of a model on high
+(reese badkeer- ew pasteles aie See
+
+ 
+ENDELEMENT   
+
+Overview of what we did
+
+ 
+
+ 
+
+ 
+
+(Evolution / development)
+
+Se ee
+
+Performance of a model on high
+Pettis basbsinr ire escapee
+
+ 
+
+ 
+
+ 
+
+Ability of top level neurons in the
+‘model to predict IT responses.
+
+ 
+ENDELEMENT   
+
+Overview of what we did
+
+z
+
+ 
+
+p.0s09
+
+ 
+
+ 
+
+(Evolution / development)
+
+Se el
+
+ 
+
+ 
+
+ 
+
+Be
+2
+
+Performance of a model on high
+eect opts ae
+
+ 
+ENDELEMENT 
+ENDELEMENT‘Suggests that continued optimization within this family of
+models would
+
+ 
+ENDELEMENT‘Suggests that continued optimization within this family of
+models would
+
+ 
+ENDELEMENT‘Suggests that continued optimization within this family of
+models would
+
+ 
+ENDELEMENT 
+ENDELEMENT‘Suggests that continued optim
+models would
+
+ 
+ENDELEMENT‘Suggests that continued optimization within this.
+models would lead to even higher neural predi
+
+ 
+ENDELEMENT 
+ENDELEMENT‘Summary of what | presented today (Oomain: Core recognition)
+
+1. Showed that IT firing rates are a feature basis on which
+learned object judgements naturally predict humarvmonkey
+
+performance; defined parameters. WTrarryyrs
+
+ 
+ENDELEMENT‘Summary of what | presented today (Oomain: Core recognition)
+
+1. Showed that IT firing rates are a feature basis on which
+earned object judgements naturally predict humarmonkey
+
+performance; defined parameters. TraRrEyiys
+
+ 
+ENDELEMENT‘Summary of what | presented today (Oomain: Core recognition)
+
+1. Showed that IT firing rates are a feature basis on which
+earned object judgements naturally predict humavmonkey
+
+performance; defined parameters. TraRrEyiyes
+
+ 
+ENDELEMENT‘Summary of what | presented today (Oomain: Core recognition)
+
+1. Showed that IT firing rates are a feature basis on which
+learned object judgements naturally predict humarvmonkey
+
+performance; defined parameters. TraRrryyrs
+
+‘Systematic causal tests of this model ongoing, but results
+thus far are as predicted by the model.
+
+ 
+ENDELEMENT‘Summary of what | presented today (Oomain: Core recognition)
+
+1. Showed that IT firing rates are a feature basis on which
+learned object judgements naturally predict humarvmonkey
+
+Performance; defined parameters. ATE
+
+‘Systematic causal tests of this model ongoing, but results
+thus far are as predicted by the model.
+
+2. Showed that optimization of deep CNNs (models) for invariant
+‘object recognition tasks led to dramatic improvements in our
+
+ability to predict IT and V4 neural responses. FETE RMCNNER)
+
+ 
+ENDELEMENT‘Summary of what | presented today (Oomain: Core recognition)
+
+1. Showed that IT firing rates are a feature basis on which
+learned object judgements naturally predict humarmonkey
+
+performance; defined parameters. WATESRTETT
+
+‘Systematic causal tests of this model ongoing, but results
+thus far are as predicted by the model.
+
+2. Showed that optimization of deep CNNs (models) for invariant
+‘object recognition tasks led to dramatic improvements in our
+
+ability to predict IT and V4 neural responses. FETE RMCNNER)
+
+ 
+ENDELEMENT‘Summary of what | presented today (Oomain: Core recognition)
+
+1. Showed that IT firing rates are a feature basis on which
+learned object judgements naturally predict humarmonkey
+
+performance; defined parameters. TrarEyiyrs
+
+‘Systematic causal tests of this model ongoing, but results
+thus far are as predicted by the model.
+
+2. Showed that optimization of deep CNNs (models) for invariant
+‘object recognition tasks led to dramatic improvements in our
+
+ability to predict IT and V4 neural responses. RITE RMCNNER)
+
+ 
+ENDELEMENT‘Summary of what | presented today (Oomain: Core recognition)
+
+1. Showed that IT firing rates are a feature basis on which
+learned object judgements naturally predict humarvmonkey
+
+performance; defined parameters. ATER ETT a
+
+‘Systematic causal tests of this model ongoing, but results
+thus far are as predicted by the model.
+
+2. Showed that optimization of deep CNNs (models) for invariant
+‘object recognition tasks led to dramatic improvements in our
+
+ability to predict IT and V4 neural responses. FETE RMCNNER)
+
+ 
+ENDELEMENT‘Summary of what | presented today (Oomain: Core recognition)
+
+1. Showed that IT firing rates are a feature basis on which
+learned object judgements naturally predict humanmonkey
+
+performance; defined parameters. TERT
+
+‘Systematic causal tests of this model ongoing, but results
+thus far are as predicted by the model.
+
+2. Showed that optimization of deep CNNs (models) for invariant
+‘object recognition tasks led fo dramatic improvements in our
+
+ability to predict IT and V4 neural responses. FETE RMCNNER)
+
+This is allowing the field to design experiments to explore what
+remains unique and powerful about primate object perception
+
+ 
+ENDELEMENT‘ONGOING AND FUTURE... (Behavioral reports
+Images __Cperception)
+
+High fovel
+
+ventral stream
+
+houral activity
+(vs,
+
+Ongoing: Predictable
+effects of direct neural
+Derturbetions of IF?
+
+ 
+ENDELEMENT‘ONGOING AND FUTURE... [Behavioral reports
+Images pers
+
+High fevel_ |
+ventral stream
+hnoural activity
+
+ws
+
+Ongoing: Predictable
+ffects of direct neural
+Saruithamenar clit
+
+ 
+ENDELEMENT‘ONGOING AND FUTURE... Behavioral reports
+Images eer)
+
+High fevel_|
+ventral stream
+neural activity
+
+sm
+
+Ongoing: Predictable
+effects of direct neural
+Sasuuthamone Gh IT?
+
+ 
+ENDELEMENT‘ONGOING AND FUTURE... Behavioral reports
+perception’) —
+
+‘Ongoing: Predictable
+effects of direct neural
+Sasuuthauona Gk Ite:
+
+ 
+ENDELEMENT‘ONGOING AND FUTURE
+
+ventral stream |
+houral activity
+(v4 tt)
+
+‘Ongoing: Predictable
+effects of direct neural
+Sasuarbauona ol IV?
+
+Behavioral reports
+perception’)
+
+ 
+ENDELEMENT‘ONGOING AND FUTURE... Behavioral reports
+
+Images
+
+‘Ongoing: Predictable
+ffects of direct neural
+erturbetions of Ir?
+
+ 
+ENDELEMENT‘ONGOING AND FUTURE... Behavioral reports
+Images perception")
+
+ventral stream
+houral activity
+
+‘Ongoing: Predictable
+effects of direct neural
+Perturbations of IF?
+
+ 
+ENDELEMENT‘ONGOING AND FUTURE
+
+ventral stream |
+houral activity
+
+‘Ongoing: Predictable
+effects of direct neural
+Sau tamara GF It
+
+Behavioral reports
+
+ 
+ENDELEMENT‘ONGOING AND FUTURE
+
+ventral stream |
+houral activity
+
+‘Ongoing: Predictable
+effects of direct neural
+eaauitamona ota:
+
+Behavioral reports |
+
+(perception) |
+
+ 
+ENDELEMENTSources of content © the respective copyright hold:
+rights reserved, excluded from our Creative Comm
+For more information, see http://ocw.mit.edu/fair
+
+Lena Soderberg © Playboy Magazine.
+Neurons © Dr. Jonathan Clarke. Wellcome Images.
+
+Image decoding plot © Macmillan Publishers Ltd: Nature Review
+Neuroscience.
+
+Face gender stimuli and object recognition stimuli © Proceeding
+National Academy of Sciences.
+
+Object dimensionality figure © Vision Science Society.
+
+Ice cube model of IT © AAAS.
+
+Face gender stimuli © Proceedings of the National Academy of $
+Obiect dimensionality © Vision Science Society.
+ENDELEMENTSources of content used with permissior
+
+Image generation figure, population pool heatmap,
+box plot, performance consistency plot, courtesy of
+Neuroscience. Source: N. Majaj, et al. Journal of Ne
+25, no. 39 (2015): 13402-13418.
+
+Figures and stimuli, courtesy of Plos. Source: C. Ca
+Plos Computational Biology 10, no. 12 (2014): e101
+ENDELEMENT

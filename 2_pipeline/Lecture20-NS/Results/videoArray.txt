@@ -1,0 +1,3827 @@
+Some content in this video is not covers
+under our Creative Commons license.
+See the closing credits for more informat
+ENDELEMENTIntroduction to Neural
+Computation
+
+Prof. Michale Fee
+
+MIT BCS 9.40
+Lecture 6
+
+ 
+ENDELEMENTSignal propagation in dendrites and axons
+
++ So far we have considered a very
+simple model of neurons ~ a model
+
+representing the soma of the neuron i NA
+1 A
+ENDELEMENTSignal propagation in dendrites and axons
+
+ 
+
+ 
+ENDELEMENTSignal propagation in dendrites and axons
+
++ So far we have considered a very
+simple model of neurons ~ a model
+
+representing the soma of the neuron
+%
++ We did this because in most (f
+vertebrate neurons, the region that
+initiates action potentials is at the
+soma.
+ENDELEMENTSignal propagation in dendrites and axons
+
+ 
+
+ 
+ENDELEMENTSignal propagation in dendrites and axons
+
++ So far we have considered a very
+simple model of neurons ~ a model
+
+representing the soma of the neuron
+a
++ We did this because in most f
+vertebrate neurons, the region that
+initiates action potentials is at the
+soma.
+
++ This is usually where the ‘decision’ is
+made in a neuron whether to spike or
+not
+ENDELEMENTSignal propagation in dendrites and axons
+
+Relatively Few inputs to a neuron are
+
+ 
+
+ 
+ENDELEMENTSignal propagation in dendrites and axons
+
++ Relatively few inputs to a neuron are
+made onto the soma.
+
++ Inputs arrive onto the dendtites ~
+which are thin branching processes
+that radiate from the soma.
+
++ Many synapses form onto the
+dendrite at some distance from the
+soma (as much as 1-2 mm away)
+
+ 
+ENDELEMENTSignal propagation in dendrites and axons
+
+dendete at some dance f
+
+ 
+
+ 
+ENDELEMENTSignal propagation in dendrites and axons
+
+ 
+
+ 
+ENDELEMENTSignal propagation in dendrites and axons
+
+Relatively few inputs to a neuron are
+
+ 
+
+ 
+ENDELEMENTSignal propagation in dendrites and axons
+
+pase cre
+
+ 
+
+ 
+ENDELEMENTENDELEMENTSignal propagation in dendrites and axons
+
++ Relatively few inputs to a neuron are
+made onto the soma.
+
++ Inputs arrive onto the dendtites -
+which are thin branching processes
+that radiate from the soma.
+
++ Many synapses form onto the
+dendrite at some distance from the
+soma (as much as 1-2 mm away)
+
+ 
+ENDELEMENTSignal propagation in dendrites and axons
+
+ 
+
+ 
+ENDELEMENT 
+ENDELEMENT 
+
+ 
+ENDELEMENT 
+
+ 
+ENDELEMENT 
+
+ 
+ENDELEMENT 
+
+ 
+ENDELEMENT 
+ENDELEMENT 
+
+ 
+ENDELEMENT 
+
+ 
+ENDELEMENT 
+ENDELEMENTA dendrite is like a leaky garden ho:
+ENDELEMENTA dendrite is like a leaky garden hose
+
+ 
+
+ 
+ENDELEMENTA dendrite is like a leaky garden hose
+
+ 
+
+ 
+ENDELEMENTA dendrite is like a leaky garden ho:
+ENDELEMENTA dendrite is like a leaky garden hose
+
+ 
+
+ 
+ENDELEMENTA dendrite is like a leaky garden hose
+
+ 
+
+ 
+ENDELEMENTA dendrite is like a leaky garden ho:
+
+* Current is like water flc
+_ + Voltage is like pressure
+
+   
+ENDELEMENTA dendrite is like a leaky garden hose
+
+ 
+
+ 
+ENDELEMENTA dendrite is like a leaky garden ho:
+
+* Current is like water flc
+1 + Voltage is like pressure
+| ies
+ENDELEMENTA dendrite is like a leaky garden hose
+
+ 
+
+ 
+ENDELEMENTA dendrite is like a leaky garden ho:
+
+* Current is like water flc
+1 + Voltage is like pressure
+| ies
+ENDELEMENTA dendrite is like a leaky garden hose
+
+ 
+
+ 
+ENDELEMENTA dendrite is like a leaky garden hose
+
+ 
+
+ 
+ENDELEMENTA dendrite is like a leaky garden hose
+
+ 
+
+ 
+ENDELEMENT 
+
+ 
+ENDELEMENTLearning objectives for Lecture 6
+
+To be able to draw the ‘circuit diagram’ of a dendrite
+
+Be able to plot the voltage in a dendrite as a function of
+distance for leaky and non-leaky dendrite, and understan«
+concept of a length constant
+
+Know how length constant depends on dendritic radius
+
+Understand the concept of electrotonic length
+ENDELEMENTLearning objectives for Lecture 6
+
+To be able to draw the ‘cxcult diagram’ of a dendrite
+
+Be able to plot the voltage ina dendrite as a function of
+distance for leaky and non-leaky dendrite, and understand the
+concept ofa length constant
+
+Know how length constant depends on dendtic radius
+Understand the concept of electrotonic length
+
+Be able to draw the circuit diagram a two-compartment model
+
+ 
+
+ 
+ENDELEMENTLearning objectives for Lecture 6
+
+To be able to draw the ‘cxcult diagram’ of a dendrite
+
+Be able to plot the voltage ina dendrite as a function of
+distance for leaky and non-leaky dendrite, and understand the
+concept ofa length constant
+
+know how length constant depends on denditic radius
+Understand the concept of electrotonic length
+
+Be able to draw the circuit diagram a two-compartment model
+
+ 
+
+ 
+ENDELEMENTLearning objectives for Lecture 6
+
+To be able to draw the ‘circuit diagram’ of a dendrite
+
+Be able to plot the voltage in a dendrite as a function of
+distance for leaky and non-leaky dendrite, and understand the
+concept ofa length constant
+
+Know how length constant depends on dendtic radius
+Understand the concept of electrotonic length
+
+Be able to draw the circuit diagram a two-compartment model
+
+ 
+
+ 
+ENDELEMENTLearning objectives for Lecture 6
+
+To be able to draw the ‘cxcult diagram’ of a dendrite
+
+Be able to plot the voltage ina dendrite as a function of
+distance for leaky and non-leaky dendrite, and underst
+concept ofa length constant
+
+Know how length constant depends on dendritic radius
+Understand the concept of electrotonic length
+
+Be able to draw the cicut diagram a two-compartment model
+
+ 
+
+ 
+ENDELEMENTLearning objectives for Lecture 6
+
+To be able to draw the ‘cxcult diagram’ of a dendrite
+
+Be able to plot the voltage ina dendrite as a function of
+distance for leaky and non-leaky dendrite, and understand the
+concept ofa length constant
+
+Know how length constant depends on dendtic radius
+Understand the concept of electrotonic length
+
+Be able to draw the circuit diagram a two-compartment model
+
+ 
+
+ 
+ENDELEMENTLearning objectives for Lecture 6
+
+To be able to draw the ‘circuit diagram’ of a dendrite
+
+Be able to plot the voltage ina dendrite as a function of
+distance for leaky and non-leaky dendrite, and understand the
+concept ofa length constant
+
+know how length constant depends on dendtc radius
+Understand the concept of elecrotonic length
+
+Be able to draw the cicut diagram a two-compartment model
+
+ 
+
+ 
+ENDELEMENTLearning objectives for Lecture 6
+
+To be able to draw the ‘cxcult diagram’ of a dendrite
+
+Be able to plot the voltage ina dendrite as a function of
+distance for leaky and non-leaky dendrite, and understand the
+concept ofa length constant
+
+Know how length constant depends on dendtic radius
+Understand the concept ofelectrotonic length
+
+Be able to draw the circuit diagram a two-compartment model
+
+ 
+
+ 
+ENDELEMENTLearning objectives for Lecture 6
+
+To be able to draw the ‘cxcult diagram’ of a dendrite
+
+Be able to plot the voltage ina dendrite as a function of
+distance for leaky and non-leaky dendrite, and understand the
+concept ofa length constant
+
+Know how length constant depends on dendtic radius
+Understand the concept of electrotonic length
+
+Be able to draw the circuit diagram a two-compartment model
+
+ 
+
+ 
+ENDELEMENTLearning objectives for Lecture 6
+
+To be able to draw the ‘circuit diagram’ of a dendrite
+
+Be able to plot the voltage ina dendrite as a function of
+distance for leaky and non-leaky dendrite, and understand the
+concept ofa length constant
+
+Know how length constant depends on denditic radius
+Understand the concept of elecrotonic length
+
+Be able to draw the circuit diagram a two-compartment model
+
+ 
+
+ 
+ENDELEMENTFinite element analysis
+ENDELEMENTFinite element analysis
+
+ 
+
+ 
+ENDELEMENTFinite element analysis
+
+ 
+
+ 
+ENDELEMENTFinite element analysis
+:
+
+ 
+
+ 
+ENDELEMENTFinite element analysis
+as
+
+ 
+
+ 
+ENDELEMENTFinite element analysis
+Radius & yD
+‘yy
+inside
+
+AW AW WW
+
+ 
+
+r r - r
+ENDELEMENTFinite element analysis
+i
+
+ 
+
+ 
+ENDELEMENTFinite element analysis
+Radius & yD
+‘yy
+inside
+
+AW AW WWW
+
+ 
+
+r iF r r
+ENDELEMENTFinite element analysis
+5
+
+ 
+
+ 
+ENDELEMENTFinite element analysis
+is
+
+ 
+
+ 
+ENDELEMENTFinite element analysis
+S
+
+ 
+
+ 
+ENDELEMENTFinite element analysis
+
+ 
+
+ 
+ENDELEMENTFinite element analysis
+
+ 
+
+ 
+ENDELEMENTFinite element analysis
+as
+
+ 
+
+ 
+ENDELEMENTFinite element analysis
+:
+
+ 
+
+ 
+ENDELEMENTFinite element analysis
+
+ 
+
+ 
+ENDELEMENTFinite element analysis
+
+ 
+
+inside Torx) Test)
+V(x~ Art)
+
+   
+
+ 
+ENDELEMENTFinite element analysis
+
+ 
+
+inside Torx) Test)
+V(x~ Art)
+
+   
+
+ 
+ENDELEMENTFinite element analysis
+
+ 
+
+ 
+ENDELEMENTFinite element analysis
+Is
+
+ 
+
+ 
+ENDELEMENTFinite element analysis
+
+ 
+
+inside
+V(x— Art) Venn) Veet Ant)
+
+ 
+
+ 
+ENDELEMENTFinite element analysis
+
+inside
+V(x— Art)
+
+ 
+
+  
+ENDELEMENTFinite element analysis
+
+inside
+
+ 
+ENDELEMENTFinite element analysis
+
+inside
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTFinite element analysis
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTFinite element analysis
+Is
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTFinite element analysis
+
+inside
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTFinite element analysis
+%
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTFinite element analysis
+ms
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTFinite element analysis
+i
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTFinite element analysis
+
+ay
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTThe cable equation
+
+ 
+
+ 
+ENDELEMENTThe cable equation
+
+Let's write down the relation betwe
+
+Ay Vix.t) and Ix)
+acs ta x
+
+ 
+
+inside I(x,1)
+Vou) Wan Vert Aus
+MW
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+T i
+
+ 
+
+outside
+ENDELEMENTThe cable equation
+
+ 
+
+ 
+ENDELEMENTThe cable equation
+
+Let's write down the relation betwe
+
+Ay V(x,t) and I,t)
+Radius t= x Ohms law AV =]
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+inside T(x,1)
+Vou) aR Vet Ans
+WW
+I I I
+ars
+
+V(x,)-V (r+ Ax, =r (2,0)
+ENDELEMENTThe cable equation
+
+Let's write down the relation betwe
+
+é Vox.) and Ifx,t)
+Radius t= x Ohm'sLaw AV =]
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+inside T(x,1)
+Vou) Wan Vartan
+MW
+I I I
+ars
+
+V(x,)-V (r+ Ax, =r (2,0)
+ENDELEMENTThe cable equation
+
+Let's write down the relation betwe
+
+Ay V(x,t) and I,t)
+Radius t= x Ohms law AV =]
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+inside T(x,1)
+Vou) Wan Vartan
+WW
+I I I
+ars
+
+V(x,)-V (x4 Ax, =r (2,0)
+ENDELEMENTThe cable equation
+
+Let's write down the relation betwe
+
+é Vox.) and Ifx,t)
+Radius t= x Ohm'sLaw AV =]
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+inside T(x,1)
+Vou) Wag Vet Ans
+WW
+I I I
+ars
+
+V(x,)-V (r+ Ax, =r (2,0)
+ENDELEMENTThe cable equation
+
+=IR
+
+Lives) -Vrt ae
+
+ 
+
+ 
+ENDELEMENTThe cable equation
+
+Let's write down the relation betwe
+
+Ay Vox,t) and I,t)
+Radius t= x Ohms law AV =]
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+inside I(x,1)
+Vn) Dap _Vrt dx,
+MW
+I I I
+
+YR 10,1)
+ax
+
+V(x,)-V x4 Ax, =r (x0) .
+R= 7m axial resi
+
+ 
+ENDELEMENTThe cable equation
+
+AV =IR
+
+Rss)
+Vou-Vert ast)=riGs)
+= axial sistance
+0 pe ui ent
+
+ 
+
+ 
+ENDELEMENTThe cable equation
+
+Let's write down the relation betwe
+
+me Vox.) and Ifx,t)
+Radius a x Ohm's Law AV =]
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+inside T(x,t)
+Vou) Wan Vet Ans
+WW
+I I I
+
+YR 101)
+ax
+
+V(x,)-V x4 Ax, =r (x0) .
+R= 7m axial resi
+
+ 
+ENDELEMENTThe cable equation
+
+AV =IR
+
+Rl)
+
+Eves) Vert ae
+
+ 
+
+ 
+ENDELEMENTThe cable equation
+
+AV =IR
+
+Rss)
+Vox Vert ant) rIGs)
+
+= axial sistance
+per uni ength
+
+ 
+
+ 
+ENDELEMENTThe cable equation
+
+AV =IR
+
+Rts)
+
+Liven -Vort ae
+
+ 
+
+ 
+ENDELEMENTThe cable equation
+
+Let's write down the relation betwe
+
+ie Vox.) and Ifx,t)
+Radius t= x Ohm's Law AV =]
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+inside I(x,t)
+Vou) Wan Vet ans
+WWW
+I I I
+
+YR 101)
+ox
+
+V(x,)-V (x4 Ax, =r (x0) :
+R= © waxial resi
+
+ 
+ENDELEMENTThe cable equation
+
+=IR
+
+Riss)
+Vo -Vert anthro) E
+
+axial sistance
+0 pe ui ent
+
+ 
+
+ 
+ENDELEMENTThe cable equation
+
+Let's write down the relation betwe
+
+ie Vox.) and Ifx,t)
+Radius t= x Ohm'sLaw AV =]
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+inside I(x,1)
+Vou) aR Vet Aus
+WW
+I I I
+
+YR 101)
+ox
+
+V(x,)-V (x4 Ax, =r (x0) :
+R= 7m axial resi
+
+ 
+ENDELEMENTThe cable equation
+
+Obmstm AV =1R
+
+Rl)
+
+Pra axa resistance
+pe uni ength
+Lfvean)-Vorr ae
+
+ 
+
+ 
+ENDELEMENTThe cable equation
+
+ 
+
+ 
+ENDELEMENTThe cable equation
+
+ 
+
+ 
+ENDELEMENTThe cable equation
+
+Consider the special case of a leng
+av
+ads
+
+‘And no membrane currents
+
+1 and steady state
+d= aw
+ox
+
+Ix- Ax) Tost)
+inside QQ"
+
+Vint) Fan Viet dry re
+
+F AW\- 0 NN LE A, 1
+Rav
+
+t
+
+ 
+
+ 
+
+ 
+
+3
+ENDELEMENTThe cable equation
+
+Consider the special case of a leng
+av
+ads
+
+‘And no membrane currents
+
+d= 1 and steady state
+
+2 =R [et
+Mx-Ax) He) a
+inside Dy,"
+
+Vent) Fag Viet any ai
+
+F AW\- 0 N\A ay 1
+Rav
+
+t
+
+ 
+
+ 
+
+ 
+
+3
+I(x,t)= I(x-Ax,t)
+ENDELEMENTThe cable equation
+
+1ss)= 100= a0.)
+
+ 
+
+ 
+ENDELEMENTThe cable equation
+
+Consider the special case ofa leng
+av
+ads
+
+‘And no membrane currents
+
+d= 1 and steady state
+
+2 =R [est
+Mx-Ax) Hest) *
+inside >yq"
+
+Vt) ap Viet ary or
+
+F AW\- 0 N\A Ay 1
+Rav
+
+t
+
+ 
+
+ 
+
+ 
+
+3
+I(x,t)= I(x-Ax,t) = 1,
+ENDELEMENTThe cable equation
+
+ 
+
+ 
+ENDELEMENTThe cable equation
+
+ 
+
+ 
+ENDELEMENTThe cable equation
+
+ 
+
+ 
+ENDELEMENTThe cable equation
+
+ 
+
+ 
+ENDELEMENTThe cable equation
+
+Consider the special case ofa leng
+av
+ads
+
+‘And no membrane currents
+
+1 and steady state
+wv
+ae RAG
+Tost) Ee
+inside QQ"
+
+Mex-Ax,),
+Von) Wap _Vix+Axu
+‘2 AW 6) Hy Let) yyy i
+Ras
+t
+
+ 
+
+ 
+
+3
+If there are no membrane conductance
+H(t) =1(8—%,2) =], Membrane potential changes lineary
+
+fos )
+ENDELEMENTThe cable equation
+
+Consider the special case ofa leng
+av
+ads
+
+‘And no membrane currents
+
+1 and steady state
+wv
+aE RAG
+Tost) ———
+inside"
+
+Mx-Ax,0)
+Von) Wap _Vx+Axu
+‘2 AW 6) Hy Let) yyy i
+Ras
+t
+
+ 
+
+ 
+
+3
+
+If there are no membrane conductance
+H(xt)= 108%) =], Membrane potential changes linear
+ct
+
+ay
+
+ 
+ENDELEMENTThe cable equation
+
+ 
+
+ 
+ENDELEMENTThe cable equation
+
+ 
+
+ 
+ENDELEMENTThe cable equation
+
+ 
+
+ 
+ENDELEMENTThe cable equation
+
+Consider the special case ofa leng
+av
+
+ 
+
+ 
+
+dis ‘And no membrane currents
+1 and steady state
+Vv ,
+d= FR Met
+Hx-Ax) Ken) So
+inside = 300" Vt) Fay _V@taxy)
+AW AW WW
+Rar
+t t
+If there are no membrane conductance
+H(,1)= 1 Ax,.) =I, Membrane potential changes linear
+
+ 
+
+fae Y AV=
+ENDELEMENTThe cable equation
+
+ 
+
+ 
+ENDELEMENTThe cable equation
+
+ 
+
+ 
+ENDELEMENTBoundary conditions
+
+ 
+
+ 
+ENDELEMENTBoundary conaitions
+
+ 
+
+LA
+inside SQ V(xt Ant)
+c ‘ar a
+1 bi
+
+ 
+
+In order to solve this equation, we need to spec
+unknowns (boundary conditions):
+
+ 
+ENDELEMENTBoundary conaitions
+
+ 
+
+ 
+
+ 
+
+inside Vet det)
+Caml har 1
+t t
+é Wp 1 __ Inorderto solve this equation, we need to spec
+
+ 
+
+ax unknowns (boundary conditions):
+
+Integrate overx: V(x) =V,—R, x
+ENDELEMENTBoundary conaitions
+
+inside vou) V(xr Awl) yng
+‘ar
+2 bi
+
+ 
+
+In order to solve this equation, we need to spec
+unknowns (boundary conditions):
+
+ 
+
+Integrate overx: V(x) =V,—R, 1.x
+
+ 
+ENDELEMENTBoundary conaitions
+
+ 
+
+ 
+
+inside Vou) Vet det)
+eld ae .
+t
+In order to solve this equation, we need to spec
+unknowns (boundary conditions}
+
+ 
+
+Integrate overx: V(x) =V,—R, x
+
+ 
+ENDELEMENTBoundary conditions
+
+ 
+
+ 
+ENDELEMENTBoundary conaitions
+
+vous) V(xt Awl) png
+
+Ar v
+
+ 
+
+ 
+
+In order to solve this equation, we need to spec
+unknowns (boundary conditions):
+
+ 
+
+Integrate overx: V(x) =V,—R, 1.x
+
+ 
+
+,- RIL
+
+ 
+ENDELEMENTBoundary conditions
+
+ 
+
+ 
+ENDELEMENTBoundary conditions
+
+ 
+
+ 
+ENDELEMENTBoundary conditions
+
+ 
+
+ 
+ENDELEMENTBoundary conditions
+
+ 
+
+ 
+ENDELEMENTBoundary conditions
+
+ 
+
+ 
+ENDELEMENTBoundary conditions
+
+ 
+
+ 
+ENDELEMENTBoundary conditions
+
+—W\y——Wy Wy
+Eo)
+
+ 
+
+ 
+ENDELEMENTBoundary conaitions
+
+yy
+d AW
+LA
+
+ 
+
+ 
+
+ 
+
+‘open en
+ENDELEMENTBoundary conditions
+
+ 
+
+ 
+
+ 
+ENDELEMENTBoundary conditions
+
+—Wy——Wy Wy
+0)
+
+ 
+
+ 
+ENDELEMENTBoundary conditions
+
+—W\y——Wy Wy
+Eo)
+
+ 
+
+ 
+ENDELEMENTBoundary conditions
+
+ 
+
+ 
+
+ 
+ENDELEMENTBoundary conditions
+
+ 
+
+ 
+
+ 
+ENDELEMENTBoundary conditions
+
+WWW
+®
+
+ 
+
+ 
+ENDELEMENTBoundary conaitions
+
+yy
+d AW
+LA
+
+ 
+
+ 
+
+ 
+
+‘open en
+ENDELEMENTBoundary conaitions
+
+ZO f
+
+‘open en
+
+ 
+
+ 
+ENDELEMENTBoundary conaitions
+
+ 
+
+ 
+
+‘open en
+ENDELEMENTBoundary conaitions
+
+ 
+
+ 
+
+vy, ate 4
+1,( )
+‘open en
+
+ViaV-RAk = 0
+
+Vi=R,t, R=}
+
+ 
+
+Input imp
+ENDELEMENTBoundary conditions
+
+ 
+
+ 
+
+ 
+ENDELEMENTBoundary conditions
+
+ 
+
+ 
+ENDELEMENTBoundary conditions
+
+ 
+
+ 
+ENDELEMENT 
+    
+   
+
+Boundary conditions
+
+ 
+
+ 
+ENDELEMENT 
+    
+   
+
+Boundary conditions
+
+ 
+
+ 
+ENDELEMENTBoundary conditions
+
+—W\y——Wy Wy
+
+ 
+
+ 
+ENDELEMENTBoundary conditions
+
+‘lowed end
+
+ 
+
+ 
+ENDELEMENTBoundary conditions
+
+‘dosed end
+
+ 
+
+ 
+ENDELEMENTBoundary conditions
+
+—W\——W¥——Wv
+
+ 
+
+ 
+ENDELEMENTBoundary conaitions
+
+ 
+
+1-0
+y,
+4
+
+‘closede
+
+%
+
+ 
+ENDELEMENTBoundary conditions
+
+ 
+
+ 
+ENDELEMENTBoundary conditions
+
+—W\— —W——Wv=
+
+ 
+
+ 
+ENDELEMENTBoundary conditions
+
+ 
+
+ 
+ENDELEMENTBoundary conditions
+
+ 
+
+ 
+ENDELEMENTBoundary conaitions
+
+ 
+
+1-0
+y,
+4
+
+‘closede
+
+%
+
+ 
+
+ 
+ENDELEMENTBoundary conditions
+
+WWW
+
+ 
+
+ 
+ENDELEMENTCable with membrane conductanc
+
+Leaky garden-hose analogy
+
+* Current is like water
+1 =. + Voltage is like pres:
+I
+
+I,
+
+   
+ENDELEMENTCable with membrane conductanc
+
+Leaky garden-hose analogy
+
+* Current is like water
+1 =. + Voltage is like pres:
+I
+
+I,
+
+   
+ENDELEMENTCable with membrane conductance
+
++ Voltage ie ike press
+
+ 
+
+ 
+ENDELEMENTCable with membrane conductance
+
+ 
+
+ 
+ENDELEMENTCable with membrane conductance
+
+ 
+
+ 
+ENDELEMENTCable with membrane conductance
+
+ 
+
+ 
+ENDELEMENTDeriving the cable equation
+
+inside H(x-Ax,)) Mx)
+I I
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTDeriving the cable equation
+
+inside M(x-Ax,0) Test)
+
+Ve DAR VOEt Act) pny
+
+fener)
+I I
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTDeriving the cable equation
+
+ 
+
+ 
+ENDELEMENTDeriving the cable equation
+
+(sae ~ Lode + Hat) ~ Means) = 0
+
+ 
+
+ 
+ENDELEMENTDeriving the cable equation
+
+(4,8) Injected current per unit length
+inside M(x-Ax,0) | Text)
+Ved Aap Veet drt)
+
+WW
+
+1} i050),
+I il
+
+Kirchoff's law: sum of all currents out of each node must equal zero
+
+i,Qx) Ax — L(x) Ax + I(x) — Ix-Ax,t) = 0
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTDeriving the cable equation
+
+(sae — Lode + Ia) ~ Me-ae)
+
+ 
+
+ 
+ENDELEMENTDeriving the cable equation
+
+(sae — Lode + Test) ~ Me-ae)
+
+ 
+
+ 
+ENDELEMENTDeriving the cable equation
+
+(4,8) Injected current per unit length
+
+ 
+
+ 
+
+inside ae ee)
+Vd BAK Veet Ax)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+1} i050),
+
+ 
+
+Kirchoff’s law: sum of all currents out of each node must equal zero
+
+iQ) Axe — L(x) Ax + T(x) - Ix-Ax,t) = 0
+
+ 
+
+ 
+ENDELEMENTDeriving the cable equation
+
+(3,8) Injected current per unit length
+inside M(x-Ax,0) | Test)
+Ved Rag Viet drt)
+
+WW We
+
+1} i050),
+i il
+
+Kirchoff's law: sum of all currents out of each node must equal zero
+
+i,Qx) Ax — L(x) Ax + T(x) - Ix-Ax,t) = 0
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+4 ieey- I(x Ax,1)]
+
+ 
+
+i (%)-i (x0
+
+ 
+ENDELEMENTDeriving the cable equation
+
+(sae — Loudde + Ia) ~ Me-ae)
+
+(9h) =-E [10 = 10 Ae)
+
+ 
+
+ 
+ENDELEMENTDeriving the cable equation
+
+(4,8) Injected current per unit length
+inside M(x-Ax,) | Text)
+Ved Aap Viet drt)
+
+WW
+
+1} i050),
+I il
+
+Kirchoff's law: sum of all currents out of each node must equal zero
+
+iQ) Axe — L(x) Ax + I(x) - Ix-Ax,t) = 0
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+sr ieey- I(x Ax,1)]
+
+ 
+
+i (x,)-i (x0
+
+ 
+ENDELEMENTDeriving the cable equation
+
+(ae — Lode + Ie) ~ Me-ae)
+
+1
+[eye a8)
+
+ 
+
+a
+
+ 
+ENDELEMENTDeriving the cable equation
+
+(4,8) Injected current per unit length
+
+ 
+
+ 
+
+inside eee)
+Vd BAK Veet Ax)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+1} i050),
+
+ 
+
+Kirchoff’s law: sum of all currents out of each node must equal zero
+
+iQ) Axe — L(x) Ax + I(x) - Ix-Ax,t) = 0
+
+ 
+
+ 
+
+| Lingistatcneis Batromenisec tk
+Membrane current per unit length
+
+YR 1x)
+ax
+
+i(x,1)-i (xy 4 ieey- I(x Ax,1)]
+
+   
+ENDELEMENT 
+    
+           
+
+Deriving the cable equation
+
+ 
+
+ 
+
+(sae ~ Lode + Hat) ~ Meant) = 0
+
+   
+
+ee) a ton,
+
+ 
+ENDELEMENTDeriving the cable equation
+
+Lay 7
+Lite eth ce
+Rare nek
+ENDELEMENTDeriving the cable equation
+
+ 
+
+ 
+ENDELEMENTDeriving the cable equation
+
+1a :
+LO) ed ve
+Rare ek
+ENDELEMENTDeriving the cable equation
+
+Lav
+Rar oe
+
+ 
+
+ 
+ENDELEMENTDeriving the cable equation
+
+ 
+
+ 
+ENDELEMENTDeriving the cable equation
+ie @ a Tot
+
+Rar 9
+ENDELEMENTDeriving the cable equation
+
+Lav
+Rar Re
+
+ 
+
+ 
+ENDELEMENTDeriving the cable equation
+
+Lev
+
+ 
+
+ 
+ENDELEMENTDeriving the cable equation
+ie @ a Tato
+
+Rar
+ENDELEMENTDeriving the cable equation
+
+phon 4
+
+ 
+
+ 
+ENDELEMENTDeriving the cable equation
+ie @ ao Tot
+
+Each element in our cable is just like our
+model neuron!
+
+ 
+
+So, the total membrane current in our
+‘element of length Ax is
+
+ 
+
+1,04) &x=C, a Zorg, Ax W-E,)
+ENDELEMENTDeriving the cable equation
+
+re
+
+w
+Lown ar=¢, a2 (946, VE)
+
+ 
+
+ 
+ENDELEMENTDeriving the cable equation
+18 vy OT This we know!
+
+     
+
+R, ax’
+
+Each element in our cable is just like our
+model neuron!
+
+ 
+
+So, the total membrane current in our
+‘element of length Ax is
+
+ 
+
+i,(x,) Av=C, a Zorg, Ax W-E,)
+
+Capacitance per unit length Membrane ionic conductance per un
+ENDELEMENTDeriving the cable equation
+
+Eis just
+fet 50
+
+AM epee: PeaneG, VW -BO-i0)
+
+Rox
+
+ 
+ENDELEMENTDeriving the cable equation
+
+Eis just a
+offset, so we
+
+  
+
+lev
+
+Haren PeaneG, v int)
+
+Divide both sides by G,, to get the cable equation!
+ENDELEMENTDeriving the cable equation
+
+ 
+
+ 
+ENDELEMENTDeriving the cable equation
+
+pr bred
+Lev, av eae
+Hat OCG OO*Gy
+
+ 
+
+Divide both sides by G,, to get the cable equation!
+ENDELEMENTDeriving the cable equation
+
+ 
+
+ 
+ENDELEMENTDeriving the cable equation
+
+ 
+
+ 
+ENDELEMENTDeriving the cable equation
+
+ 
+
+ 
+ENDELEMENTDeriving the cable equation
+
+ 
+
+ 
+ENDELEMENTDeriving the cable equation
+
+ 
+
+ 
+ENDELEMENTDeriving the cable equation
+
+ 
+
+ 
+ENDELEMENTDeriving the cable equation
+
+ones
+Lev, av eae
+Hae OCG OO*Gy
+
+ 
+
+Divide both sides by G,, to get the cable equation!
+ENDELEMENTDeriving the cable equation
+
+ones
+Lev, av eae
+Hae OCG OO*Gy
+
+ 
+
+Divide both sides by G,, to get the cable equation!
+ENDELEMENTDeriving the cable equation
+
+ 
+
+ 
+ENDELEMENTDeriving the cable equation
+
+pense
+Lev, av eae
+Hae OCG OO*Gy
+
+ 
+
+Divide both sides by G,, to get the cable equation!
+ENDELEMENTDeriving the cable equation
+
+Ecisjusta
+1a, av nantes
+arn aG OG
+
+ 
+
+ 
+ENDELEMENTDeriving the cable equation
+
+ 
+
+ 
+ENDELEMENTDeriving the cable equation
+
+Ecisjusta
+Lev, av ieee
+Harn CaGOG
+
+ 
+
+ 
+ENDELEMENTDeriving the cable equation
+
+Ecisjusta
+1a, av ieenanies
+arn aG OG
+
+ 
+
+ 
+ENDELEMENTDeriving the cable equation
+
+Ecisjusta
+Lev, av eteecaes
+Far Ona OG
+
+ 
+
+ 
+ENDELEMENTDeriving the cable equation
+
+Ecisjusta
+1a, av ieenanies
+Harn CaG OG
+
+ 
+
+ 
+ENDELEMENTDeriving the cable equation
+
+Kayne, Mn eG,V PO-ilst)
+
+ 
+
+ 
+ENDELEMENTDeriving the cable equation
+
+ee
+
+ 
+
+ 
+ENDELEMENTDeriving the cable equation
+
+(4,8) Injected current per unit length
+
+ 
+
+ 
+
+inside ee)
+Vd BAK Veet Art)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+1} i050),
+
+ 
+
+Kirchoff's law: sum of all currents out of each node must equal zero
+
+i,(x Av — L(x) Ax + T(x) — Ix-Ax,t) = 0
+
+ 
+
+ 
+
+Membrane current per unit length
+Y LR Hx)
+ax
+
+i (x,)-i (xy A ieey- I(x Ax,1)]
+
+   
+ENDELEMENTDeriving the cable equation
+
+(anar = LGudx + Hat)
+
+[Liens
+
+ 
+
+ 
+ENDELEMENTThe cable equation
+
+Let's write down the relation betwe
+
+me Vox.) and Ifx,t)
+Radius t= x Ohm's Law AV =]
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+inside T(x,t)
+Vou) Wan Vet Aus
+WW
+I I I
+ous
+
+V(x,)-V (or Ax, =r (x0)
+ENDELEMENTThe cable equation
+
+Vos-Vert ant)=ries)
+
+ 
+
+ 
+ENDELEMENTThe cable equation
+
+AV =1R
+
+Live) -Vort ae
+
+ 
+
+ 
+ENDELEMENTThe cable equation
+
+Let's write down the relation betwe
+
+me Vox.) and Ifx,t)
+Radius t= x Ohm's Law AV =]
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+inside T(x,t)
+Vou) Wan Vet Aus
+WW
+I I I
+ous
+
+V(x,)-V (or Ax, =r (x0)
+ENDELEMENTAn example
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTDeriving the cable equation
+
+ 
+
+ 
+ENDELEMENTDeriving the cable equation
+
+ 
+
+ 
+ENDELEMENTAn example
+
+Let's solve the cable equation for a simple case. What is the steadh
+state response to a constant current at a point in the middle of an
+infinitely long cable?
+
+| te
+__—.
+ix.) =1,4(8)
+ee
+
+0
+ENDELEMENTAn example
+
+ 
+
+ 
+ENDELEMENTAn example
+
+ 
+
+ 
+ENDELEMENTAn example
+
+ 
+
+ 
+ENDELEMENTAn example
+
+ 
+
+ 
+ENDELEMENTAn example
+
+Let's solve the cable equation fora simple case. What is the stead)
+state response to a constant current at a point in the middle of an
+infinitely long cable?
+Ii
++:
+40,0) = 1,8(x)
+ee
+
+0
+
+ 
+ENDELEMENTAn example
+
+Let's solve the cable equation for a simple case. What is the steadh
+state response to a constant current at a point in the middle of an
+infinitely long cable?
+
+—<—
+LG) = 10,
+
+ 
+
+ 
+ENDELEMENTAn example
+
+Let's solve the cable equation for a simple case. What is the stead
+state response to a constant current at a point in the middle of an
+infinitely long cable?
+
+| 1,
+
+___
+4,1) = 1,(0)
+
+ 
+
+ 
+
+ 
+ENDELEMENTAn example
+
+287, 1 |
+VIS) = Vx) - 21,50) qe
+Fret) = VA) ~ G2 H0)
+
+ 
+ENDELEMENTAn example
+
+ 
+
+ 
+ENDELEMENTAn example
+
+———)
+Se fiero
+
+ 
+
+ 
+ENDELEMENTAn example
+
+————)
+
+ 
+
+ 
+ENDELEMENTAn example
+
+———,
+
+ 
+
+ 
+ENDELEMENTAn example
+
+——)
+
+ 
+
+ 
+ENDELEMENTAn example
+
+eS)
+
+ 
+
+ 
+ENDELEMENTAn example
+
+————)
+
+ 
+
+ 
+ENDELEMENTAn example
+
+ 
+
+ 
+ENDELEMENTAn example
+
+ 
+
+ 
+ENDELEMENTAn example
+
+——
+
+ 
+
+ 
+ENDELEMENTAn example
+
+——
+
+ 
+
+ 
+ENDELEMENTAn example
+
+——)
+
+ 
+
+ 
+ENDELEMENTAn example
+
+ 
+
+ 
+ENDELEMENTAn example
+
+————)
+
+ 
+
+ 
+ENDELEMENTAn example
+
+——)
+
+ 
+
+ 
+ENDELEMENTAn example
+
+ 
+
+ 
+ENDELEMENTAn example
+
+ 
+
+ 
+ENDELEMENTAn example
+
+———)
+
+ 
+
+ 
+ENDELEMENTAn example
+
+SS)
+
+ 
+
+ 
+ENDELEMENTAn example
+
+ 
+
+ 
+ENDELEMENTAn example
+
+_——
+
+ 
+
+ 
+ENDELEMENTAn example
+
+ 
+
+ 
+ENDELEMENTAn example
+
+ 
+
+@) = Ve) - Lara be
+(9) = Vo) = 21,88) ,
+
+Vx) °
+
+w
+
+  
+ENDELEMENTAn example
+
+ 
+
+@) = Ve) - Large be
+9) = Vey = F218) ,
+
+Vx) °
+
+ue
+
+   
+ENDELEMENTAn example
+
+ 
+
+ 
+
+ 
+ENDELEMENTAn example
+
+ 
+
+@) = Ve) - Lara be
+(9) = Vo) = 21,88) ,
+
+Vx) °
+
+ue
+
+   
+ENDELEMENTAn example
+
+ 
+
+ 
+
+ 
+ENDELEMENTAn example
+
+ 
+
+ 
+
+ 
+ENDELEMENTAn example
+
+ 
+
+@) = Ve) - Lara be
+(9) = Vo) = 21,88) ,
+
+Vx) °
+
+ue
+
+   
+ENDELEMENTA closer look at the space constant
+
+ 
+
+ 
+ENDELEMENTA closer look at the space constant
+
+ 
+
+ 
+ENDELEMENTA closer look at the space constant
+
+ 
+
+ 
+ENDELEMENTA closer look at the space constant
+
+ 
+
+ 
+ENDELEMENTA closer !ook at the space constan
+
+Ly
+G,, is membrane conductance per unit length a -(22)
+ENDELEMENTA closer look at the space constant
+
+ 
+
+ 
+ENDELEMENTA closer look at the space constant
+
+ 
+
+ 
+ENDELEMENTA closer !ook at the space constan
+
+G,, is membrane conductance per unit length
+
++ Total membrane conductance G
+
+G,,=2nalg,
+
+ 
+
+a | ee
+area (S/mm?)
+ENDELEMENTA closer look at the space constant
+
+ 
+
+ 
+ENDELEMENTA closer look at the space constant
+
+ 
+
+ 
+ENDELEMENTA closer look at the space constant
+
+ 
+
+ 
+ENDELEMENTA closer !ook at the space constan
+G,, is membrane conductance per unit length
+
++ Total membrane conductance G
+
+G,,=2nalg,
+
+ 
+
+ee |
+area (S/mm?)
+
++ Membrane conductance per unit length G :
+
+G,
+
+   
+
+2mag, —Unitsare Simm
+ENDELEMENTA closer look at the space constant
+
+ 
+
+ 
+ENDELEMENTA closer !ook at the space constan
+
+‘Axial resistance: the resistance along the inside of the dendrite
+
+ 
+ENDELEMENTA Closer 100k at the space constan
+
+Axial resistance: the resistance along the inside of the dendrite
+
+Total axial resistance along a dendkite of length |
+
+R
+
+   
+
+Pl where
+A
+
+= resistivity ofthe intracellular space
+(property of the medium ~2000 9 mm)
+
+A= cross sectional area = a"
+ENDELEMENTA closer look at the space constant
+
+ 
+
+ 
+ENDELEMENTA Closer 100k at the space constan
+
+‘Axial resistance: the resistance along the inside of the dendrite
+
+Total axial resistance along a dendkite of length |
+
+R
+
+   
+
+Bt where
+4
+
+= resistivity ofthe intracellular space
+(property of the medium ~2000 £ mm)
+
+A= cross sectional area =a"
+ENDELEMENTA closer look at the space constant
+
+ 
+
+ 
+ENDELEMENTA Closer 100k at the space constan
+
+‘Axial resistance: the resistance along the inside of the dendrite
+
+Total axial resistance along a dendkite of length |
+
+R
+
+   
+
+Bt where
+4
+
+= resistivity ofthe intracellular space
+(property of the medium ~2000 £ mm)
+
+A= cross sectional area =a"
+ENDELEMENTA Closer 100k at the space constan
+
+Axial resistance: the resistance along the inside of the dendrite
+
+Total axial resistance along a dendkite of length |
+
+R
+
+   
+
+2 where
+4
+
+= resistivity ofthe intracellular space
+(property of the medium ~2000 © mm)
+
+A= cross sectional area =a"
+ENDELEMENTA closer !ook at the space constan
+
+‘Axial resistance: the resistance along the inside of the dendrite
+
+Total axial resistance along a dendkite of length |
+
+R= 2 where
+4
+
+ 
+
+,= resistivity ofthe intracellular space
+(property of the medium ~2000 8 mm)
+
+A= cross sectional area =a"
+
+‘Axial resistance per unit length ae
+Le ee)
+
+Rae (Q/mm)
+
+   
+
+xa’
+ENDELEMENTA Closer !ook at the space constan
+
+‘Axial resistance: the resistance along the inside of the dendrite
+
+Total axial resistance along a dendkite of length |
+
+R= 2 where
+4
+
+ 
+
+= resistivity ofthe intracellular space
+(property of the medium ~2000 9 mm)
+
+A= cross sectional area = 7a"
+
+‘Axial resistance per unit length LT
+Le)
+
+Rae (Q/mm)
+
+   
+
+xa
+ENDELEMENTA closer !ook at the space constan
+
+‘Axial resistance: the resistance along the inside of the dendrite
+
+Total axial resistance along a dendkite of length |
+
+ 
+
+R= 2 where
+4
+
+= resistivity ofthe intracellular space
+(property of the medium ~2000 9 mm)
+
+A= cross sectional area =a"
+
+‘Axial resistance per unit length LT
+
+R
+Ae FE ay mm
+
+      
+
+ 
+ENDELEMENTA closer !ook at the space constan
+
+‘Axial resistance: the resistance along the inside of the dendrite
+
+Total axial resistance along a dendkite of length |
+
+ 
+
+R= 2 where
+4
+
+,= resistivity ofthe intracellular space
+(property of the medium ~2000 8 mm)
+
+A= cross sectional area =a"
+
+‘Axial resistance per unit length LET
+
+R,
+Ae ay mm
+
+      
+
+ 
+ENDELEMENTA closer look at the space constant
+
+ 
+
+ 
+ENDELEMENTA closer look at the space constant
+
+ 
+
+ 
+ENDELEMENTTypical A for a dendrite of a cortical
+pyramidal cell
+
+First calculate membrane conductance Oo
+=5x107S/mm?
+& aT
+
+G, = 2nag, =6X10" Simm
+a=2ym-2x1
+
+= 6 nSimm
+ENDELEMENTTypical A for a dendrite of a cortical
+pyramidal cell
+
+First calculate membrane conductance ome
+=5x107S/mm?
+& aT
+
+G, = 2nag, =6X10" Simm
+a=2ym=2x1
+
+= 6 nSimm
+ENDELEMENTTypical A for a dendrite of a cortical
+pyramidal cell
+
+First calculate membrane conductance
+
+,=5x107S/mm? aT
+
+G, = 2nag, =6X10" Simm
+a=2ym=2x1
+= 6 nSimm
+
+Now we calculate axial resistance
+
+160 MQ/ mm
+
+ 
+ENDELEMENTTypical A for a dendrite of a cortical
+pyramidal cell
+
+First calculate membrane conductance
+
+,=5x107Simm? aT
+
+G, = 2nag, =6X10" Simm
+a=2ym=2x1
+= 6 nSimm
+
+Now we calculate axial resistance
+
+160 MQ/ mm
+
+ 
+ENDELEMENTTypical A for a dendrite of a cortical
+pyramidal cell
+
+ 
+
+ 
+ENDELEMENTTypical A for a dendrite of a cortical
+pyramidal cell
+
+ 
+
+ 
+ENDELEMENTTypical A for a dendrite of a cortical
+pyramidal cell
+
+ 
+
+ 
+ENDELEMENTTypical A for a dendrite of a cortical
+pyramidal cell
+
+ 
+
+ 
+ENDELEMENTTypical A for a dendrite of a cortical
+pyramidal cell
+
+ 
+
+ 
+ENDELEMENTTypical A for a dendrite of a cortical
+pyramidal cell
+
+ 
+
+ 
+ENDELEMENTScaling with radius
+
+ 
+
+ 
+ENDELEMENTScaling with radius
+
+ 
+
+ 
+ENDELEMENTScaling with radius
+Gyabnte
+
+wel 1 eo ie ay
+GR, 2nag, Pp, 2.8, Rake
+Nees
+ENDELEMENTScaling with radius
+
+ain) “(eee -(ae-]
+
+ 
+
+ 
+ENDELEMENTScaling with radius
+Gyabnte
+
+wel 1 eo ie Pay
+GR, 2nag, Pp, 2.8, Rake
+Neo
+ENDELEMENTScaling with radius
+
+ 
+
+ 
+ENDELEMENTScaling with radius
+
+ 
+
+ 
+ENDELEMENTScaling with radius
+
+ 
+
+ 
+ENDELEMENTScaling with radius
+
+ 
+
+ 
+ENDELEMENTScaling with radius
+
+zl +
+
+ 
+
+ 
+ENDELEMENTScaling with radius
+
+ 
+
+ 
+ENDELEMENTScaling with radius
+
+ 
+
+ 
+ENDELEMENTScaling with radius
+
+ 
+
+ 
+ENDELEMENTScaling with radius
+
+vy [xa a
+Ga)
+
+ 
+
+ 
+ENDELEMENTScaling with radius
+
+ 
+
+ 
+ENDELEMENTScaling with radius
+
+ 
+
+ 
+ENDELEMENTTypical A for a dendrite of a cortical
+pyramidal cell
+
+ 
+
+ 
+ENDELEMENTTypical A for a dendrite of a cortical
+pyramidal cell
+
+ 
+
+ 
+ENDELEMENTTypical A for a dendrite of a cortical
+pyramidal cell
+
+ 
+
+ 
+ENDELEMENTTypical A for a dendrite of a cortical
+pyramidal cell
+
+ 
+
+ 
+ENDELEMENTScaling with radius
+
+ 
+
+ 
+ENDELEMENTScaling with radius
+
+nf fal Le
+
+GR) ~[xas, 0,
+
+A scales as radius
+
+ 
+
+ 
+ENDELEMENTScaling with radius
+
+nf fal Le
+
+GR) ~[axas, 0,
+
+A scales as Vradius
+
+ 
+
+ 
+ENDELEMENTScaling with radius
+
+ 
+
+ 
+ENDELEMENTScaling with radius
+
+ 
+
+ 
+ENDELEMENTScaling with radius
+
+ 
+
+ 
+ENDELEMENTScaling with radius
+
+A sealesas Vradius
+
+be to get A= 100 mn?
+
+ 
+
+ 
+ENDELEMENTScaling with radius
+
+Jb] “te)
+
+A scales as Vradius
+
+Neurons need to send signals over a distance of a ~100 mm
+the human brain
+
+What would a (radius) would have to be to get A= 100 mm?
+
+ 
+
+ 
+
+   
+
+a=20 mm!
+ENDELEMENTScaling with radius
+
+A sealesas Vradius
+o send signals over a cstance of ~100 mm
+o get ”
+
+ 
+
+ 
+ENDELEMENTScaling with radius
+
+ 
+
+ 
+ENDELEMENTScaling with radius
+
+A scales as Vradius
+
+be to get A= 100 mn?
+
+ 
+
+ 
+ENDELEMENTScaling with radius
+
+A sealesas Vradius
+
+ 
+
+ 
+ENDELEMENTScaling with radius
+
+ 
+
+ 
+ENDELEMENTElectrotonic length
+
+ 
+
+ 
+ENDELEMENTtlectrotonic length
+
+_——«*
+ENDELEMENTElectrotonic length
+
+ 
+
+ 
+ENDELEMENTElectrotonic length
+
+ 
+
+ 
+ENDELEMENTElectrotonic length
+
+ 
+
+ 
+ENDELEMENTElectrotonic length
+
+ 
+
+ 
+ENDELEMENTElectrotonic length
+
+ 
+
+ 
+ENDELEMENTctlectrotonic length
+
+ 
+ENDELEMENTElectrotonic length
+
+ 
+
+ 
+ENDELEMENTElectrotonic lengtn
+
+ 
+
+ 
+ENDELEMENTElectrotonic length
+
+ 
+
+ 
+
+ 
+ENDELEMENTElectrotonic lengtn
+
+Electrotonic length is the physical length divided by
+the space constant.
+
+La! unites
+
+ 
+
+ 
+ENDELEMENTElectrotonic length
+
+ 
+
+ 
+
+ 
+ENDELEMENTElectrotonic lengtn
+
+Electrotonic length is the physical length divided by
+the space constant.
+
+La! unites
+
+ 
+
+ 
+ENDELEMENTElectrotonic length
+
+ 
+
+ 
+
+ 
+ENDELEMENTElectrotonic length
+
+ 
+
+ 
+
+ 
+ENDELEMENTElectrotonic length
+
+ 
+
+ 
+
+ 
+ENDELEMENTElectrotonic length
+
+ 
+
+ 
+
+ 
+ENDELEMENTElectrotonic length
+
+ 
+
+ 
+
+ 
+ENDELEMENTElectrotonic length
+
+wsial length dvided by
+
+ 
+
+ 
+
+ 
+ENDELEMENTElectrotonic length
+
+ 
+
+ 
+
+ 
+ENDELEMENTMulti-compartment models
+
+ 
+
+ 
+ENDELEMENTMulti-compartment models
+
+ 
+
+ 
+ENDELEMENTMulti-compartment models
+
+ 
+
+ 
+ENDELEMENTMulti-compartment models
+
+ 
+
+ 
+ENDELEMENTMulti-compartment models
+
+ 
+
+ 
+ENDELEMENTMulti-compartment model
+
+ 
+ENDELEMENTMulti-compartment models
+
+ 
+
+ 
+ENDELEMENTMulti-compartment model
+
+ 
+ENDELEMENTMulti-compartment models
+
+ 
+
+ 
+ENDELEMENTMulti-compartment models
+
+ 
+
+ 
+ENDELEMENTMulti-compartment models
+
+ 
+
+ 
+ENDELEMENTMulti-compartment models
+
+ 
+
+ 
+ENDELEMENTMulti-compartment models
+
+ 
+
+ 
+ENDELEMENTMulti-compartment models
+
+ 
+
+ 
+ENDELEMENTMulti-compartment models
+
+ 
+
+ 
+ENDELEMENTMulti-compartment models
+
+ 
+
+ 
+ENDELEMENTMulti-compartment models
+
+ 
+
+ 
+ENDELEMENTMulti-compartment models
+
+ 
+
+ 
+ENDELEMENTMulti-compartment models
+
+ 
+
+ 
+ENDELEMENTMulti-compartment model
+
+ 
+ENDELEMENTTwo-compartment model
+
+[| __
+
+dendrite
+ENDELEMENTTwo-compartment models
+
+ 
+
+ 
+ENDELEMENTTwo-compartment model
+dencite
+
+on 5
+ENDELEMENTTwo-compartment model
+
+=,
+
+dendrite =
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+VO v
+
+ti:
+i ___
+dendritic son
+
+compartment comp;
+ENDELEMENTTwo-compartment model
+
+_,
+
+dendrite A
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+VO v
+
+ti:
+_—______]
+dendritic son
+
+compartment comp;
+ENDELEMENTTwo-compartment models
+
+ 
+
+ 
+ENDELEMENTTwo-compartment models
+
+ 
+
+ 
+ENDELEMENTTwo-compartment models can
+explain diverse neuronal properties
+
+ 
+
+ 
+ENDELEMENTTwo-compartment models can
+explain diverse neuronal properties
+
+ 
+
+ 
+ENDELEMENTTwo-compartment models can
+explain diverse neuronal properties
+
+ 
+
+ 
+ENDELEMENTTwo-compartment models can
+explain diverse neuronal properties
+
+ 
+
+ 
+ENDELEMENTTwo-compartment models can
+explain diverse neuronal properties
+
+ 
+
+ 
+ENDELEMENTTwo-compartment models can
+explain diverse neuronal properties
+
+ 
+
+ 
+ENDELEMENTTwo-compartment models can
+explain diverse neuronal properties
+
+ 
+
+ 
+ENDELEMENTTwo-compartment models can
+explain diverse neuronal properties
+
+SS,
+
+ 
+
+ 
+ENDELEMENTTwo-compartment models can
+explain diverse neuronal properties
+
+ 
+
+ 
+ENDELEMENTTwo-compartment models can
+explain diverse neuronal properties
+
+ 
+
+ 
+ENDELEMENTTwo-compartment models can
+explain diverse neuronal properties
+
+os,
+
+ 
+
+ 
+ENDELEMENTTwo-compartment models can
+explain diverse neuronal properties
+
+oS,
+
+ 
+
+ 
+ENDELEMENTTwo-compartment models can
+explain diverse neuronal properties
+
+“l
+De
+of
+of
+
+ 
+
+ 
+ENDELEMENTTwo-compartment models can
+explain diverse neuronal properties
+
+ 
+
+ 
+ENDELEMENTTwo-compartment models can
+explain diverse neuronal properties
+
+ 
+
+ 
+ENDELEMENTLearning objectives for Lecture 6
+
+To be able to draw the ‘circuit diagram’ of a dendrite
+
+Be able to plot the voltage in a dendrite as a function of
+distance for leaky and non-leaky dendrite, and understan«
+concept of a length constant
+
+Know how length constant depends on dendritic radius
+
+Understand the concept of electrotonic length
+ENDELEMENTLearning objectives for Lecture 6
+
+To be able to draw the ‘circuit diagram’ of a dendrite
+
+Be able to plot the voltage ina dendrite as a function of
+distance for leaky and non-leaky dendrite, and understand the
+concept ofa length constant
+
+know how length constant depends on dendritic radius
+Understand the concept of electrotonic length
+
+Be able to draw the circuit diagram a two-compartment model
+
+ 
+
+ 
+ENDELEMENTLearning objectives for Lecture 6
+
+To be able to draw the ‘cxcult diagram’ of a dendrite
+
+Be able to plot the voltage ina dendrite as a function of
+distance for leaky and non-leaky dendrite, and understand the
+concept ofa length constant
+
+Know how length constant depends on denditic radius
+Understand the concept ofelecrotonic length
+
+Be able to draw the circuit diagram a two-compartment model
+
+ 
+
+ 
+ENDELEMENTLearning objectives for Lecture 6
+
+To be able to draw the ‘circuit diagram’ of a dendrite
+
+Be able to plot the voltage in a dendrite as a function of
+distance for leaky and non-leaky dendrite, and understan«
+concept of a length constant
+
+Know how length constant depends on dendritic radius
+
+Understand the concept of electrotonic length
+ENDELEMENTLearning objectives for Lecture 6
+
+To be able to draw the ‘cxcult diagram’ of a dendrite
+
+Be able to plot the voltage ina dendrite as a function of
+distance for leaky and non-leaky dendrite, and understand the
+concept ofa length constant
+
+know how length constant depends on dendtic radius
+Understand the concept of electrotonic length
+
+Be able to draw the cicut diagram a two-compartment model
+
+ 
+
+ 
+ENDELEMENTSources of content used with permission:
+
+Cajal illustration courtesy Instituto Cajal © Legado Cajal.
+ENDELEMENT

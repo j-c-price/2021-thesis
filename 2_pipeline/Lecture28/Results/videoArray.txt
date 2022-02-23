@@ -1,0 +1,2520 @@
+  
+
+i rT Massachusetts
+Institute of
+Technology
+
+RES.9-003, Summer 2015
+Brains, Minds and Machines Summer C
+James DiCarlo
+
+Lecture 1.3: Neural Mechanisms of
+Recognition, Pt. 1
+ENDELEMENTSome content in this video is not coverec
+our Creative Commons license.
+See the closing credits for more inform:
+ENDELEMENT 
+ENDELEMENT 
+
+“Vision”
+ENDELEMENT“Object recognition” (operationalized)
+
+ 
+
+a ee
+ENDELEMENT 
+ENDELEMENT“Object recognition” (operationalized)
+
+  
+ENDELEMENT“Object recognition” (operationalized)
+
+ 
+
+ina SW
+ENDELEMENT“Object recognition” (operationalized)
+
+ 
+ENDELEMENT“Object recognition” (operationalized)
+
+ 
+
+27t .. Pe
+ENDELEMENT“Object recognition” (operationalized)
+
+ 
+ENDELEMENT“Object recognition” (operationalized)
+
+ 
+ENDELEMENT“Object recognition” (operationalized)
+
+ 
+ENDELEMENTWhy study object recognit
+
+The brain's internal representation of objects is the
+substrate of cognition:
+
+ 
+ENDELEMENTWhy study object recognit
+
+The brain's internal representation of objects is the
+substrate of cognition:
+
+ 
+ENDELEMENTWhy study object recognition in the brain?
+
+The brain's internal representation of objects is the
+substrate of cognition:
+
+ 
+ENDELEMENTWhy study object recognit
+
+The brain's internal representation of objects is the
+substrate of cognition:
+
++ memory
+
++ value judgements
++ decisions
+
++ actions
+
+ 
+ENDELEMENTWhy study object recognit
+
+The brain's internal representation of objects is the
+substrate of cognition:
+
++ memory + Obstacle avoidance
+
++ value judgements + Navigation
+
++ decisions
+
++ Danger avoidance
++ actions
+
++ Resource detection
++ Social interactions
++ Mate selection
+
++ Threat detection
+
++ Reading
+
+ 
+ENDELEMENTWhy study object recognit
+
+The brain's internal representation of objects is the
+substrate of cognition:
+
++ memory + Obstacle avoidance
+
++ value judgements + Navigation
++ decisions * Danger avoidance
+
++ actions + Resource detection
+
++ Social interactions
++ Mate selection
+
++ Threat detection
++ Reading
+
+ 
+ENDELEMENTThe convergence of three fields
+
+ow thd work
+
+ 
+ENDELEMENTThe convergence of three fields
+
+caiman How tern works
+
+ 
+ENDELEMENTThe convergence of three fields
+
+ow thd a work
+
+ 
+ENDELEMENTThe convergence of three fields
+
+When biological brains perform better than computers
+
+ 
+ENDELEMENTThe convergence of three fi
+
+When biological brains perform better than computers
+
+ow tod work
+
+ 
+ENDELEMENTThe convergence of three fields
+
+When biological brains perform better than computers
+
+ow tod work
+
+ 
+ENDELEMENTThe convergence of three fields
+
+When biological brains perform better than computers
+
+ow tod work
+
+When computers perform as well as or
+better than biological brains
+
+ 
+ENDELEMENTThe convergence of three fields
+
+When biological brains perform better than computers
+
+ow tod work
+
+When computers perform as well as or
+better than biological brains
+
+ 
+ENDELEMENTThe convergence of three fields
+
+When biological brains perform better than computers
+
+ow tod work
+
+When computers perform as well as or
+better than biological brains
+
+ 
+ENDELEMENTThe convergence of three fields
+
+When biological brains perform better than computers
+
+ow to work
+
+When computers perform as well as or
+better than biological brains
+
+ 
+ENDELEMENTAbit of history
+
+ 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT+100 btn computing elmonts
++ elves problems not sole by previous machines
++ reqs ony 20 wat of power!
+(eS
+ENDELEMENT+100 baton computing elmonts
++ elves problems not olive by previous machines
+* requires ony 20 wat of power!
+(Prey
+ENDELEMENT‘An engineer's point of view...
+
+Problem to solve
+
+Calculation
+Win at chess
+'Win at Jeopardy
+“Memory”
+“Seeing”
+Pattern matching
+
+Object recognition
+Scene “understanding”
+Walking
+
+ 
+
+Which system is better?
+
+Qurbrain | Machines today
+(@.g. computers)
+
+WINNER
+WINNER
+WINNER
+WINNER
+
+WINNER
+WIN
+
+WINNER
+
+WINNER
+
+ 
+ENDELEMENT‘An engineer's point of view...
+
+Problem to solve
+
+Calculation
+'Win at chess
+'Win at Jeopardy
+“Memory”
+“Seeing”
+Pattern matching
+
+Object recognition
+Scene “understanding”
+Walking
+
+ 
+
+Which system is better?
+
+‘Qurbrain | Machines today
+(@.g. computers)
+
+WINNER
+WINNER
+WINNER
+WINNER
+
+WINNER
+WIN
+
+WINNER
+
+WINNER
+
+ 
+ENDELEMENT‘An engineer's point of view...
+
+Problem to solve
+
+Calculation
+\Win at chess
+'Win at Jeopardy
+“Memory”
+“Seeing”
+Pattern matching
+
+Object recognition
+Scene “understanding”
+Walking
+
+ 
+
+Which system is better?
+
+‘Qurbrain | Machines today
+(e.g. computers)
+
+WINNER
+WINNER
+WINNER
+WINNER
+
+WINNER
+WINN
+
+WINNER
+
+WINNER
+
+ 
+ENDELEMENT‘An engineer's point of view...
+
+Problem to solve
+
+Calculation
+'Win at chess
+'Win at Jeopardy
+“Memory”
+“Seeing”
+Pattern matching
+
+Object recognition
+Scene “understanding”
+Walking
+
+ 
+
+Which system is better?
+
+‘Qurbrain | Machines today
+(e.g. computers)
+
+WINNER
+WINNER
+WINNER
+WINNER
+
+WINNER
+WIN
+
+WINNER
+
+WINNER
+
+ 
+ENDELEMENT‘An engineer's point of view...
+
+Problem to solve
+
+Calculation
+\Win at chess
+'Win at Jeopardy
+“Memory”
+“Seeing”
+Pattern matching
+
+Object recognition
+Scene “understanding”
+Walking
+
+ 
+
+Which system is better?
+
+‘Qurbrain | Machines today
+(e.g. computers)
+
+WINNER
+WINNER
+WINNER
+WINNER
+
+WINNER
+VINN
+
+WINNER
+
+WINNER
+
+ 
+ENDELEMENT‘An engineer's point of view...
+
+Problem to solve
+
+Calculation
+\Win at chess
+'Win at Jeopardy
+Memory”
+“Seeing”
+Pattern matet
+
+Object recognition
+Scene “understanding”
+Walking
+
+Which system is better?
+
+Qurbrain | Machines today
+(9. computers)
+
+WINNER
+WINNER
+WINNER
+WINNER
+
+WINN
+WINNER
+WINNER
+
+ 
+
+ 
+ENDELEMENT‘An engineer's point of view..
+
+Problem to solve
+
+Calculation
+'Win at chess
+'Win at Jeopardy
+“Memory”
+“Seeing”
+Pattern matet
+
+Object recognition
+Scene “understanding”
+Walking
+
+Which system is better?
+
+‘Qurbrain | Machines today
+(e.g. computers)
+
+WINNER
+WINNER
+WINNER
+WINNER
+
+WINNER
+WINNER
+WINNER
+
+ 
+
+ 
+ENDELEMENT‘An engineer's point of view..
+
+Problem to solve
+
+Calculation
+Win at chess
+'Win at Jeopardy
+“Memory”
+“Seeing”
+Pattern mateHl
+
+Object recognition
+Scene “understanding”
+Walking
+
+ 
+
+Which system is better?
+
+‘Qurbrain | Machines today
+(e.g. computers)
+
+WINNER
+WINNER
+WINNER
+
+WINNER
+WINNER
+
+ 
+ENDELEMENT‘scientist's point of view
+Domain 1 Domain 2
+
+Science: given state of Domain 1,
+predict state of Domain 2
+
+ 
+ENDELEMENT‘scientist's point of view
+Domain 1 Domain 2
+
+Science: given state of Domain 1,
+predict state of Domain 2
+
+ 
+ENDELEMENT‘scientist's point of view
+Domain 1 Domain 2
+
+Science: given state of Domain 1,
+predict state of Domain 2
+
+ 
+ENDELEMENT‘scientist's point of view
+Domain 1 Domain 2
+
+‘Science: given state of Domain 1,
+predict state of Domain 2
+
+ 
+ENDELEMENT‘scientist's point of view
+Domain 1 Domain 2
+
+Science: given state of Domain 1,
+‘predict state of Domain 2
+
+ 
+ENDELEMENT‘scientist's point of view
+Domain 1 Domain 2
+
+Science: given state of Domain 1,
+‘predict state of Domain 2
+
+ 
+ENDELEMENT‘scientist's point of view
+Domain 1 Domain 2
+
+Science: given state of Domain 1,
+predict state of Domain 2
+
+ 
+ENDELEMENT‘Asscientist's point of view
+Domain 1 Domain 2
+
+Science: given state of Domain 1,
+‘predict state of Domain 2
+
+The accuracy of this predictive mapping is a
+‘measure of the strength of a scientific field
+
+ 
+ENDELEMENT‘scientist's point of view
+Domain 1 Domain 2
+
+‘Science: given state of Domain 1,
+‘predict state of Domain 2
+
+The accuracy of this predictive mapping is a
+‘measure of the strength of a scientific field
+
+ 
+ENDELEMENT‘scientist's point of view
+Domain 1 Domain 2
+
+Science: given state of Domain 1,
+‘predict state of Domain 2
+
+The accuracy of this predictive mapping is a
+‘measure of the strength of a scientific field
+
+ 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENTNeural representation’
+
+ 
+ENDELEMENTNeural representation’
+
+ 
+ENDELEMENTBefaviorl reports
+(perception)
+
+ 
+ENDELEMENTNeural representation’
+
+ 
+ENDELEMENTNeural representation’
+
+ 
+
+is the —» Underlies engineer's ability
+\core product of science to build, fix, or augment
+
+ 
+ENDELEMENT     
+
+   
+   
+
+Neuro a
+
+is the —» Underlies engineer's ability
+\core product of science to build, fix, or augment
+
+ 
+ENDELEMENTNeural representation’
+
+ 
+ENDELEMENTNeural representation’
+
+ 
+ENDELEMENTNeural representation’
+
+ 
+ENDELEMENTNeural representation’
+
+ 
+ENDELEMENTBehavioral reports
+perception’)
+
+Neural representation’
+
+ 
+ENDELEMENTNeural representation’
+
+ 
+ENDELEMENTNeural representation’
+
+ 
+ENDELEMENTNeural representation’
+
+For visual object
+perception, this link
+has been neglected:
+weakly-predictive
+Word models
+
+ 
+ENDELEMENTNeural representation’
+
+For visual object
+perception, this link
+has been neglected:
+weakly-predictive
+Word models
+
+ 
+ENDELEMENTNeural representation’
+
+For visual object
+perception, this link
+has been neglected:
+weakly-predictive
+word models
+
+ 
+ENDELEMENTNeural representation’
+
+For visual object
+perception, tis link
+has been neglected:
+weakly-predictive
+word models
+
+ 
+ENDELEMENTNeural representation’
+
+For visual object
+perception, tis link
+has been neglected:
+weakly-predictive
+word models
+
+ 
+ENDELEMENTNeural representation’
+
+For visual object
+perception, tis link
+has been neglected:
+weakly-predictive
+word models
+
+ 
+ENDELEMENT    
+   
+     
+
+For visual object
+perception, this link
+has been neglected:
+weakly-predictive
+word models
+
+       
+ 
+ 
+    
+
+Neural representation’
+
+    
+
+ 
+
+ 
+ENDELEMENT        
+        
+    
+
+ 
+
+% For visual object
+perception, this link
+has been neglected:
+weakly-predictive
+Word models
+
+    
+
+    
+  
+
+ 
+
+       
+     
+    
+
+Neural representation’
+
+ 
+
+ 
+
+ 
+
+ 
+ENDELEMENTFor visual object
+perception, this link
+‘Not doubting tho f
+
+Neural representation’ Importance of hese!
+
+ 
+ENDELEMENTFor visual object
+perception, tis link
+‘not doubting tho f
+
+Neural representation’ Importance of hese!
+
+ 
+ENDELEMENT  
+
+For visual object
+perception, this link
+‘Not doubting the f
+Importance of hese!
+
+ 
+      
+  
+   
+
+    
+ 
+ 
+
+   
+
+Neural representation’
+
+      
+
+  
+    
+ENDELEMENTLet's try to define a domain of behavior so that we
+can gauge/make progress in prediction.
+
+“Object recognition”
+(including face objects)
+
+ 
+ENDELEMENTObject recognition as solved by primates
+
+ 
+ENDELEMENTObject recognition as solved by primates
+
+ 
+ENDELEMENTObject recognition as solved by primates Central ~10 degrees
+
+ 
+ENDELEMENTObject recognition as solved by primates Central ~10 degrees
+
+ 
+ENDELEMENTObject recognition as solved by primates
+
+200 ms snapshots
+
+ 
+ENDELEMENTObject recognition as solved by primates _~200 ms snapshots.
+
+ 
+ENDELEMENTObject recognition as solved by pr
+
+ 
+ENDELEMENTObject recognition as solved by pr
+
+ 
+ENDELEMENTObject recognition as solved by pr
+
+ 
+ENDELEMENTObject recognition as solved by pr
+
+Core object recognition
+
+ 
+ENDELEMENT‘Our visual system excels at core object recognition
+
+Core object recognition
+
+ 
+ENDELEMENT‘Our visual system excels at core object recognition
+
+=
+“
+x
+
+  
+ENDELEMENT‘Our visual system excels at core object recognition
+
+    
+ENDELEMENT‘Our visual system excels at core object recognition
+
+ 
+ENDELEMENTHuman object recognition (categorization) accuracy
+as a function of image viewing time
+
+ 
+ENDELEMENTHuman object recognition (categorization) accuracy
+as a function of image viewing time
+
+ 
+ENDELEMENTHuman object recognition (categorization) accuracy
+as a function of image viewing time
+
+ 
+ENDELEMENTHuman object recognition (categorization) accuracy
+as a function of image viewing time
+
+ 
+ENDELEMENTHuman object recognition (categorization) accuracy
+as a function of image viewing time
+
+Soe
+
+ae | ttt
+
+Sie
+
+t
+
+ 
+ENDELEMENTHuman object recognition (categorization) accuracy
+as a function of image viewing time
+
+ 
+ENDELEMENTHuman object recognition (categorization) accuracy
+as a function of image viewing time
+
+ 
+ENDELEMENTHuman object recognition (categorization) accuracy
+as a function of image viewing time
+
+ 
+ENDELEMENTHuman object recognition (categorization) accuracy
+as a function of image viewing time
+
+ 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENTComp vision, Newroscionce,
+Machine foaming Cognitive Scianco
+
+ina SW
+ENDELEMENTWhat is the problem we
+are trying to solve?
+
+ 
+
+» Neuroscience,
+ing Cognitive Science
+
+‘Porception”
+Benchmarks “Percent
+
+Brain solves 1 Pre ics
+
+a ee
+ENDELEMENT» Neuroscience,
+ing Cognitive Sconce
+
+ 
+
+1. Whats the problem we penctmarks__“arceion”
+are trying to solve? Brain soves Bana
+ENDELEMENTWhat is the problem we
+are trying to solve?
+
+Bonchmarks
+Brain solves 7°
+
+ 
+
+Psychophysics
+ENDELEMENTWhat is the problem we
+are trying to solve?
+
+ 
+
+» Neuroscience,
+ing Cogntive Sconce
+
+Bonchmarns_“Barcanton”
+Bran soves 1°
+Paychophysics
+ENDELEMENT1. What is the problem we
+are trying to solve?
+
+2. What do good solutions
+Took like?
+
+ 
+
+ning
+
+Bonchmarks
+Brain solos 7°
+
+Useful image
+(Creatas)
+
+Nouroscince,
+Cognitive Science
+
+"Porception”
+Bohavior
+Psychophysics
+
+Explct neuronal
+populavon
+Spin patterns
+
+a ee
+ENDELEMENTWhat is the problem we
+are trying to solve?
+
+2. What do good solutions
+ook like?
+
+1. How do we instantiate
+these solutions?
+
+ 
+
+Bonchmarks
+Brain solos 7°
+
+Useful image
+(Creatures)
+
+Algorithms
+‘mechanisms
+
+Nouroscionce,
+Cognitive Science
+
+"Porception”
+Bahavior
+Psychophysics
+
+Expl neuronal
+populavon
+Spin paters
+
+Neuronal wing /
+
+weighting pattems
+
+in SW
+ENDELEMENTWhat is the problem we
+are trying to solve?
+
+2. What do good solutions
+ook like?
+
+1. How do we instantiate
+these solutions?
+
+ 
+
+Bonchmarks
+Brain solos 7°
+
+sof image
+(Creatures)
+
+Algorithms
+‘mechantams
+
+Nouroscionce,
+Cognitive Science
+
+"Porception”
+Bohavior
+Psychophysics
+
+Explct neuronal
+populavon
+Spin paters
+
+Neuronal wing /
+weighting pattems
+
+27t .. Poe
+ENDELEMENTWhat is the problem we
+are trying to solve?
+
+2. What do good solutions
+ook like?
+
+3. How do we instantiate
+these solutions?
+
+1. How do we construct
+those instantiations?
+
+ 
+
+Bonctmarks
+Brain solos 7°
+
+Useful image
+reprosentatons
+(Creatwos)
+
+Algorithms
+‘mechantans
+
+Loaming rs,
+inal conditions,
+phim
+
+Nouroscince,
+Cognitive Science
+
+‘Porception”
+Bohavior
+Poychophysics
+
+Explicit neuronal
+populavon
+sping pattems
+
+Neuronal wing /
+weighting pattems
+
+Prastity
+‘rehitoctire,
+best chormey
+ENDELEMENTWhat is the problem we
+are trying to solve?
+
+2. What do good solutions
+ook like?
+
+1. How do we instantiate
+these solutions?
+
+1. How do we construct
+those instantiations?
+
+ 
+
+Bonchmarks
+Brain solos 7°
+
+Useful image
+(Creatures)
+
+Algorithms
+‘mechantans
+
+Loaming ns,
+inal conditions,
+lance:
+
+Nouroscince,
+Cognitive Science
+
+‘Porception”
+Bohavior
+Psychophysics
+
+Expl neuronal
+populavon
+Spin paters
+
+Neuronal wiring /
+weighting pattems
+
+Prastioty,
+‘rehtoctire,
+,
+
+a ee
+ENDELEMENTWhat is the problem we
+are trying to solve?
+
+2. What do good solutions
+ook like?
+
+3. How do we instantiate
+these solutions?
+
+1. How do we construct
+those instantiations?
+
+ 
+
+Useful image
+(Creatwos)
+
+Algorithms
+‘mechantans
+
+Looming ns,
+Ina conditions,
+pecerbcscetlng
+
+Nouroscionce,
+Cognitive Science
+
+‘Porception”
+Bohavior
+Psychophysics
+
+Explct neuronal
+populadon
+Spin paters
+
+Neuronal wing /
+weighting pattems
+
+Prastioy
+‘rehitoctire,
+econo
+ENDELEMENT1. What is the problem we
+are trying to solve?
+
+2. What do good solutions
+Took like?
+
+ 
+
+ning
+
+Bonchmarks
+Brain solos 7°
+
+Useful image
+(Creatures)
+
+Nouroscionce,
+Cognitive Science
+
+"Porception”
+Bahavior
+Psychophysics
+
+Explct neuronal
+populavon
+Spin pattems
+ENDELEMENTBehavioral challenge 1: Many possible objects
+
+ 
+ENDELEMENTBehavioral challenge 1: Many possible objects
+
+ 
+ENDELEMENTBehavioral challenge 1: Many possible objects
+
+ 
+ENDELEMENTBehavioral challenge 2: Common physical sour (object) ean
+produce many images
+
+guia, “Identity preserving image variation”
+
+wy | | me
+
+~ |
+
+ 
+ENDELEMENTBehavioral challenge 2: Common physical source (object) ean
+produce many images,
+
+guint, “Identity preserving image vari
+
+wy | | me
+
+~ | 7
+
+ 
+ENDELEMENTBehavioral challenge 2: Common physical sour (object) ean
+19°2: produce many images
+
+guint, “Identity preserving image vari
+
+wm | | me
+
+~= | 7
+
+ 
+ENDELEMENTBehavioral challenge 2: Common physical sour (object) ean
+192: produce many images
+
+guilt, “Identity preserving image variation”
+
+my) | wm
+
+~ |
+
+ 
+ENDELEMENTBehavioral challenge 2: Common physical source (object) ean
+19° 2: produce many images
+
+guint, “Identity preserving image variation”
+
+wy | |
+
+~= | 7
+
+ 
+ENDELEMENT‘The brain's “camera” represents
+the image as populations of
+visually-evoked “features
+
+ 
+ENDELEMENT“The brain's “camera” represents,
+the image as populations of
+visually-ovoked “features
+
+ 
+ENDELEMENT‘The brain's “camera” represents
+the image as populations of
+visualy-ovoked “features
+
+ 
+ENDELEMENT‘The brain's “camera” represents
+the image as populations of
+visualy-evoked “features
+
+ 
+ENDELEMENT“The brain's “camera” represents
+the image as populations of
+visually-ovoked “features
+
+ 
+ENDELEMENT“The brain's “camera” represents
+the image as populations of
+visually-evoked “features
+
+ 
+ENDELEMENT‘The brain's “camera” represents
+the image as populations of
+visualy-evoked “oatures
+
+ 
+ENDELEMENT‘The brain's “camera” represents
+the image as populations of
+visually-evoked “features
+
+ 
+ENDELEMENT“The brain's “camera” represents
+the image as populations of
+visualy-evoked “features
+
+ 
+ENDELEMENT‘The brain's “camera” represents
+the image as populations of
+visually-ovoked “features
+
+ 
+ENDELEMENT‘The brain's “camera” represents
+the image as populations of
+visualy-evoked “features
+
+Joos denticy manifold
+
+ 
+ENDELEMENT“The brain's “camera” represents,
+the image as populations of
+visually-evoked “features
+
+Joos denticy manifold
+
+ 
+ENDELEMENT‘The brain's “camera” represents
+the image as populations of
+visualy-evoked “features
+
+Joos denticy manold
+
+ 
+ENDELEMENT“The brain's “camera” represents
+the image as populations of
+visualy-evoked “features
+
+Joes denticy manifold
+
+joe"
+
+ 
+ENDELEMENTPopulation
+
+ 
+
+not Joe”
+ENDELEMENT“good” set of
+
+ 
+ENDELEMENT‘A “good” set of visual features
+
+xplit” repro
+of object
+
+population
+
+ 
+
+not Joe”
+ENDELEMENTPopulation
+
+ 
+
+not Joe”
+ENDELEMENTpopulation
+
+ 
+
+not Joe”
+ENDELEMENTPopulation
+
+ 
+
+not Joe”
+ENDELEMENT 
+
+not Joe”
+ENDELEMENT 
+
+‘not Joe”
+ENDELEMENT 
+
+not Joe”
+ENDELEMENT‘A “good” set of visual features
+
+Explicit” ropres
+of object shape
+
+‘Should be able to find i
+Nour with low number of
+Population training examples
+
+/
+
+ 
+ENDELEMENT‘A “good” set of visual features
+
+Expict
+of object shape
+
+‘Should be able to find it
+Neural with fow number of
+population training examples
+
+Z
+
+ 
+ENDELEMENT‘A “good” set of visual features We assume: “shape” maps to
+reer ienty” and “category
+of object shape
+
+‘Should be able to find it
+Neural with low number of
+Population traning examples
+
+ 
+ENDELEMENT‘A“good” set of visual features We assume: “shape” maps to
+ep identity” and “category
+
+of object shape
+
+‘Should be able to find it
+Neural with fow number of
+population training examples
+
+ 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENTInvariance ithe computational crux of object and face recognition
+
+Pixel population representation
+
+Spears
+
+[el
+
+ 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENTInvariance ithe computational crux of object and face recognition
+
+Pixel population representation
+
+object manifolds are “tangled”
+(Doe Wnty prosarng rage vation)
+
+ 
+ENDELEMENTInvariance ithe computational crux of object and face recognition
+
+Pixel population representation
+
+ 
+ENDELEMENT 
+
+Efe
+
+ 
+ENDELEMENT= “Sam" "Joe
+
+ 
+
+[Re-
+
+ 
+ENDELEMENTSam” "Joe
+g
+
+ 
+
+Epe-
+
+ 
+ENDELEMENT 
+
+ 
+ENDELEMENTSam" “Joe
+
+ 
+
+ 
+ENDELEMENTSam" “Joe
+
+ 
+
+i Be-
+
+ 
+ENDELEMENT 
+
+  
+       
+
+a fo
+
+‘sale somonnore
+
+    
+
+ 
+
+poor encoding
+
+ 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENTThe ventral visual stream
+
+  
+ENDELEMENTThe ventral visual stream
+
+  
+ENDELEMENTThe ventral visual stream
+
+  
+ENDELEMENTThe ventral visual stream
+
+  
+ENDELEMENTThe ventral visual stream
+
+  
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENTThe ventral visual stream
+
+Rhesus monkey
+
+confused with
+‘dog!
+
+tank” confused with “truck
+
+Upshot: monkey and human basic lovel fy
+visual object recognition behavior are
+os
+
+  
+ENDELEMENT 
+ENDELEMENT& »~
+
+We think we know where the neural mechs ss
+{and resulting representations that solve core
+‘object recognition live Inthe primate brain
+
+ 
+ENDELEMENToe
+
+4nd resulting representations that solve core
+
+ 
+ENDELEMENTWe think we know where th. eur! macansns
+
+{and resulting representations that
+‘2bject recognition lve nthe primate bray
+
+ 
+ENDELEMENTDecision
+
+_ = mt
+Ventral visual tram J
+
+We think we know where the neural mechani
+{and resulting representations that solve core
+‘Object recognition live In tho primate brain
+
+ 
+ENDELEMENTDecision
+
+Vera visual ram RS
+
+ink we know whore the neural mechanmis
+resulting representations that solve core /~
+‘Object recognition live In tho primate brain
+
+We can measure and manipulate those
+representations atthe evel of neuronal
+spikes.
+
+ 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENTRetinal ganglion cell RF structure:
+
+ 
+ENDELEMENTRetinal ganglion cell RF structure:
+
+ 
+ENDELEMENTRetinal ganglion cell RF structure:
+
+ 
+ENDELEMENTRetinal ganglion cell RF structure:
+
+ 
+ENDELEMENTRetinal ganglion cell RF structure:
+
+ 
+ENDELEMENTRetinal ganglion cell RF structure:
+
+ 
+ENDELEMENTRetinal ganglion cell RF structure:
+
+ 
+ENDELEMENTRetinal ganglion cell RF structure:
+
+ 
+ENDELEMENTPrimary visual cortex (Area V1):
+
+Simple
+coll
+
+Complex
+cell
+
+Orientation
+selectivity
+
+Orientation
+
+selectivity with
+
+some position
+tolerance
+
+ 
+ENDELEMENTPrimary visual cortex (Area V1):
+
+Simple
+coll
+
+Complex
+cell
+
+Orientation
+selectivity
+
+Orientation
+
+selectivity with
+
+some position
+tolerance
+
+ 
+ENDELEMENTPrimary visual cortex (Area V1):
+
+Simple
+cell
+
+Complex
+cell
+
+Orientation
+selectivity
+
+Orientation
+
+selectivity with
+
+some position
+tolerance
+
+ 
+ENDELEMENTPrimary visual cortex (Area V1):
+
+Simple
+coll
+
+Complex
+cell
+
+Orientation
+selectivity
+
+Orientation
+
+selectivity with
+
+some position
+tolerance
+
+ 
+ENDELEMENTPrimary visual cortex (Area V1):
+
+Simple
+coll
+
+Complex
+cell
+
+Orientation
+selectivity
+
+Orientation
+
+selectivity with
+
+some position
+tolerance
+
+ 
+ENDELEMENTPrimary visual cortex (Area V1):
+
+Simple
+coll
+
+‘Complex
+cell
+
+Orientation
+selectivity
+
+Orientation
+
+selectivity with
+
+some position
+tolerance
+
+ 
+ENDELEMENTPrimary visual cortex (Area V1):
+
+Simple
+coll
+
+Complex
+cell
+
+Orientation
+selectivity
+
+Orientation
+
+selectivity with
+
+some position
+tolerance
+
+ 
+ENDELEMENTPrimary visual cortex (Area V1):
+
+Simple
+cell
+
+Complex
+cell
+
+Orientation
+selectivity
+
+Orientation
+
+selectivity with
+
+some position
+tolerance
+
+ 
+ENDELEMENTPrimary visual cortex (Area V1):
+
+Simple
+coll
+
+Complex
+cell
+
+Orientation
+selectivity
+
+Orientation
+
+selectivity with
+
+some position
+tolerance
+
+ 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT‘Area V2 (first cortical area after V1):
+
+§
+
+SS
+
+ 
+ENDELEMENT‘Area V2 (first cortical area after V1):
+
+ 
+ENDELEMENT‘Area V2 (first cortical area after V1):
+
+ 
+ENDELEMENT‘Area V2 (first cortical area after V1):
+
+ 
+ENDELEMENT‘Area V2 (first cortical area after V1):
+
+ 
+ENDELEMENT‘Area V2 (first cortical area after V1):
+
+ 
+ENDELEMENT‘Area V2 (first cortical area after V1):
+
+ 
+ENDELEMENT‘Area V2 (first cortical area after V1):
+
+ 
+ENDELEMENT‘Area V2 (first cortical area after V1):
+
+@
+
+8
+Be
+
+e:
+
+S&S
+
+ 
+ENDELEMENT‘Area V2 (first cortical area after V1):
+
+ 
+ENDELEMENT‘Area V2 (first cortical area after V1):
+
+ 
+ENDELEMENT‘Area V2 (first cortical area after V1):
+
+ 
+ENDELEMENT‘Area V2 (first cortical area after V1):
+
+ 
+ENDELEMENT‘Area V2 (first cortical area after V1):
+
+ 
+ENDELEMENT‘Area V2 (first cortical area after V1):
+
+ 
+ENDELEMENT‘Area V2 (first cortical area after V1):
+
+ 
+ENDELEMENTWhat is V4 doing?
+
+5
+
+ 
+ENDELEMENTWhat is V4 doing?
+
+ 
+ENDELEMENTWhat is V4 doing?
+
+ 
+ENDELEMENTWhat is V4 doing?
+
+ 
+ENDELEMENTWhat is V4 doing?
+
+ 
+ENDELEMENTWhat is V4 doing?
+
+ 
+ENDELEMENT 
+ENDELEMENTWhat is V4 doing?
+
+  
+ENDELEMENTWhat is V4 doing?
+
+  
+ENDELEMENTWhat is V4 doing?
+
+  
+ENDELEMENTWhat is V4 doing?
+
+  
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENTxoacmenial cut
+
+ 
+ENDELEMENTExoecmenial cut
+
+ 
+ENDELEMENT 
+ENDELEMENTxoecmental
+
+ 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT@Onlei~veal
+
+ 
+ENDELEMENTOnleh~ veal
+
+ 
+ENDELEMENTenlen=- ea
+
+ 
+ENDELEMENTenlen~- ea
+
+ 
+ENDELEMENTonlen~- ea
+
+ 
+ENDELEMENTonlen~- ea
+
+ 
+ENDELEMENT 
+ENDELEMENTenlen~- ea
+
+ 
+ENDELEMENTORl#haveul
+
+ 
+ENDELEMENTonlen~~eai
+
+ 
+ENDELEMENTOnl#h~~ eal
+
+ 
+ENDELEMENTOnlena- eal
+
+ 
+ENDELEMENTOnl#h~venl
+
+ 
+ENDELEMENTIT neurons can be tuned to
+specific combinations of
+features (high “selectivity’)
+
+ 
+ENDELEMENTaD t eont,
+
+IT neurons can be tuned to
+specific combinations of
+features (high “selectivity’)
+
+ 
+ENDELEMENTPhael oyaih
+
+IT neurons can be tuned to
+specific combinations of
+features (high “selectivity’)
+
+ 
+ENDELEMENTDore dv ow
+
+IT neurons can be tuned to
+specific combinations of
+features (high “selectivity’)
+
+That selectivity is
+tolerant to changes in
+position and size
+
+ 
+ENDELEMENTSTi
+
+opr oe
+
+IT neurons can be tuned to
+specific combinations of
+features (high “selectivity’)
+
+That selectivity is
+tolerant to changes in
+position and size
+
+ 
+ENDELEMENTel oer Weis
+
+Dore dv oe
+
+IT neurons can be tuned to
+specific combinations of
+features (high “selectivity’)
+
+That selectivity is
+tolerant to changes in
+position and size
+
+ 
+ENDELEMENTDiora do
+
+IT neurons can be tuned to
+specific combinations of
+features (high “selectivity’)
+
+That selectivity is
+tolerant to changes in
+position and size
+
+ 
+ENDELEMENTPrimary visual cortex:
+
+Simple
+cell
+
+‘Complex
+cell
+
+Orientation
+selectivity
+
+Orientation
+
+selectivity with
+
+some position
+tolerance
+
+ 
+ENDELEMENTWhat stimulus feature are IT neurons actually ‘tuned’ to?
+
+ 
+ENDELEMENTWhat stimulus feature are IT neurons actually ‘tuned’ to?
+
+ 
+ENDELEMENTWhat stimulus feature are IT neurons actually ‘tuned’ to?
+
+ 
+ENDELEMENTWhat stimulus feature are IT neurons actually ‘tuned’ to?
+
+®.
+
+>
+a.
+
+ 
+ENDELEMENTWhat stimulus feature are IT neurons actually “tuned” to?
+
+@-* 2-0
+a ag:
+e-
+
+°
+
+Wo e+e
+w
+
+ 
+ENDELEMENTWhat stimulus feature are IT neurons actually ‘tuned’ to?
+
+@-* @-0 5-3
+a @4:
+
+“
+°
+
+ 
+ENDELEMENTIT has spatial organization at 500 um - 1 mm scale
+
+ 
+ENDELEMENTIT has spatial organization at 500 um - 1 mm scale
+
+ 
+ENDELEMENTIT has spatial organization at 500 um - 1 mm scale
+
+ 
+ENDELEMENTIT has spatial organization at 500 um - 1 mm scale
+
+ 
+ENDELEMENTIT has spatial organization at 500 um - 1 mm scale
+
+ 
+ENDELEMENTIT has spatial organization at 500 um - 1 mm scale
+
+ 
+ENDELEMENTLarger scale (2-6 mm) organization for some image contrasts
+
+Face patches” in IT
+
+ 
+ENDELEMENTLarger scale (2-6 mm) organization for some image contrasts
+
+Face patches” in IT
+
+ 
+ENDELEMENTLarger scale (2-6 mm) organization for some image contrasts
+
+Face patches” in IT
+
+ 
+ENDELEMENTLarger scale (2-6 mm) organization for some image contrasts
+
+Face patches” in IT
+
+ 
+ENDELEMENTLarger scale (2-6 mm) organization for some image contrasts
+
+ace patches” in IT
+
+ 
+ENDELEMENTLarger scale (2-6 mm) organization for some image contrasts
+
+ace patches” in IT
+
+ 
+ENDELEMENTLarger scale (2-6 mm) organization for some image contrasts
+
+ace patches” in IT
+
+ 
+ENDELEMENT 
+ENDELEMENTIT select is particulary clustered im,
+for some ima
+
+ 
+ENDELEMENT    
+       
+     
+     
+
+Tee
+
+a powertl encoding
+poor encoding ‘seis somonnor
+‘basis (or this tak) the brain
+
+ 
+
+ 
+ENDELEMENT    
+
+ 
+
+  
+ 
+   
+       
+
+     
+
+—
+etal Rey be-
+
+basis or tits task beet ae
+
+    
+ENDELEMENT 
+ENDELEMENTExample spiking activity in IT
+
+  
+ENDELEMENTExample spiking activity in IT
+
+ 
+
+Site 1
+ENDELEMENTExample spiking activity in IT
+
+ 
+ENDELEMENTExample spiking activity in IT
+
+ 
+ENDELEMENTExample spiking acti
+
+ 
+
+ity in IT
+
+ 
+ENDELEMENTExample spiking activi
+
+      
+
+   
+
+Site 1 = a
+
+Site 2» we
+Sites EON Mates
+t 9 100
+
+ 
+ENDELEMENT   
+
+0 100
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENT 
+ENDELEMENTENDELEMENT‘An early test of the IT population
+
+‘Abroad st of 78 tet objects rom eight categories
+
+EEEEBORBEBOOSEB
+fof Jeletstetst Telolefeto)
+felet=fofefel t fol st foley
+
+ 
+
+ 
+ENDELEMENT‘An early test of the IT population
+
+‘A broad st of 78 tet objects rom eight categories
+
+EEESBORBEBOOSES
+fof _Jeletstetst feloletoto)
+fel=t=fofefef t tol st foley
+
+ 
+
+ 
+ENDELEMENT‘Abroad st of 78 test objects rom eight categories
+
+For each, test changes
+Imposition onda
+: 2 | —
+
+ 
+
+   
+
+ 
+ENDELEMENT‘Abroad set of 78 test objects rom eight categories
+
+ 
+
+For each, test changes
+Inposiion and aesie
+
+  
+
+ 
+
+rs
+
+ya
+
+BES. wx.
+fon cin
+
+ 
+ENDELEMENT(0950 sts)
+
+é
+
+ 
+
+eS eae
+ENDELEMENT(0950 sts)
+
+ 
+
+Recording Si
+
+ 
+
+pea aU SEES
+ENDELEMENT(0950 stos)
+
+ 
+
+ 
+
+a EIS
+ENDELEMENTExplicit
+representation
+
+  
+
+Lineal separate
+
+“accessible”
+tee fomaton
+
+GOOD
+ENDELEMENTExplicit
+representation
+
+ 
+
+  
+
+Lineal separate
+
+“accessible”
+tee fomaton
+
+GOOD
+ENDELEMENT  
+
+Linear separate
+
+“accessible”
+tee fomaton
+
+GOOD
+
+ 
+ENDELEMENTExplicit
+representation
+
+  
+
+Linear separate
+
+“accessible”
+beet omaton
+
+GOOD
+ENDELEMENTExplicit
+representation
+
+   
+
+Lineal separate
+“accessible”
+
+tee fomaton
+
+GOOD
+ENDELEMENT 
+ENDELEMENT 
+
+x "
+(o-a201F ts)
+ENDELEMENT 
+
++
+(0950 sts)
+ENDELEMENT 
+
++
+(0950 sts)
+ENDELEMENT  
+
+(0950 sts)
+ENDELEMENT 
+ENDELEMENT  
+ENDELEMENT  
+ENDELEMENT   
+
+Toa
+(20009 %)
+courted uonauiseig
+
+ 
+ENDELEMENTClssteationprtrmance
+
+ 
+
+‘Geeorech)
+
+oa 8 88 8
+
+   
+
+‘ctognzaton
+
+a 6 6s 26
+
+ 
+
+ 
+ENDELEMENT‘ctognsaton
+
+   
+
+‘Geeorech|
+
+og 8 88 8
+
+i
+i
+A
+i
+H
+
+a 16 6s 26
+
+  
+ENDELEMENT 
+
+  
+
+Ta 6 6s 26
+
+100) Cater
+
+7a
+counted vont
+
+ 
+ENDELEMENT 
+ENDELEMENTClseteationprtrmance
+
+1007 Cater
+
+a8
+
+is
+
+‘Geeorech
+
+a 6 6 26
+
+  
+
+ 
+ENDELEMENT   
+
+1007 Cater
+
+716 6s 26
+
+ 
+ENDELEMENT‘Summary so far:
+the problem of visual object recog
+‘a tour of the ventral stream
+
+ 
+
+IT population seems to have solved a key problem
+ENDELEMENT‘Summary so far:
+the problem of visual object recog
+‘a tour of the ventral stream
+
+ 
+
+IT population seems to have solved a key problem
+
+ 
+ENDELEMENT‘Summary so far:
+the problem of visual object recog
+‘a tour of the ventral stream
+
+ 
+
+IT population seems to have solved a key problem
+ENDELEMENT‘Summary so far:
+the problem of visual object recog
+
+ 
+
+‘a tour of the ventral stream
+IT population seems to have solved a key problem
+ENDELEMENT‘Summary so far:
+the problem of visual object recog
+‘a tour of the ventral stream
+
+ 
+
+IT population seems to have solved a key problem
+
+Over the last 40 years. we (the field) have largely described
+important phenomenology
+ENDELEMENT‘Summary so far:
+the problem of visual object recog
+‘a tour of the ventral stream
+
+ 
+
+IT population seems to have solved a key problem
+
+Over the last 40 years. we (the field) have largely described
+important phenomenology
+ENDELEMENT‘Summary so far:
+the problem of visual object recog
+‘a tour of the ventral stream
+
+ 
+
+IT population seems to have solved a key problem
+
+Over the last 40 years. we (the field) have largely described
+important phenomenology
+
+Next phase of this field: developing and testing predictive
+models,
+ENDELEMENTSources of content © the respective copyright hold
+rights reserved, excluded from our Creative Comm
+For more information, see http://ocw.mit.edu/fair
+
+ 
+
+Coin flip © FreeImages.com/Marcin Joshmczyk.
+18M Roadrunner © IBM.
+
+Lena Soderberg © Playboy Magazine.
+
+Nervous stock trader © Associated Press.
+Formula One Safety Car © Wikipedia Us
+2009 Toyota © Toyota.
+
+Neurons © Dr. Jonathan Clarke. Wellcome Images.
+
+Cover of Vision © MIT Press.
+
+Receptive fields of the retina © McGraw-Hill
+
+V4 Projections Macaque IT © Oxford University Press.
+
+FEO Bae ie sR er Renee ee PRE nar reir ERO IERE A TATE MOoe
+
+Morio.
+
+ 
+ENDELEMENTSources of content used with permissior
+
+Car figure, courtesy of Plos.
+
+Object tangling, macaque brain, macaque visual pa
+neocognitron,change tolerance courtesy of Elsevier,
+http://www.sciencedirect.com.
+
+Monkey experiment, heatmap, microelectrode array
+recordings, scrambled images, IT response to hand:
+temporal lobe, courtesy of Society for Neuroscience
+Cortical area V2, V4 neuron stimulus, courtesy of M
+Publishers Itd: Nature Neuroscience
+I\folabiers]acatcitelamelaciaialelspaeelll adst-n’ate) ae lolli aat-] Mei
+ENDELEMENT
