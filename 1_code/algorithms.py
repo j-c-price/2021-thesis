@@ -4,8 +4,8 @@ import re
 import subprocess
 from time import sleep
 
-import NeuralCRF
-from NeuralCRF import simplification
+#import NeuralCRF
+#from NeuralCRF import simplification
 import numpy as np
 import numpy.linalg as LA
 import pysrt

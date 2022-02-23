@@ -1,3 +1,6 @@
 [submodule "ThesisUpdate-SimpTextAlign"]
 	path = ThesisUpdate-SimpTextAlign
 	url = https://github.com/j-c-price/ThesisUpdate-SimpTextAlign.git
+[submodule "Thesis-wikiauto"]
+	path = Thesis-wikiauto
+	url = https://github.com/j-c-price/Thesis-wikiauto
