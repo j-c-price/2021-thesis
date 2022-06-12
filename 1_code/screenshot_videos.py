@@ -32,26 +32,20 @@ def get_frames(inputFile, outputFolder, step):
     except OSError:
         print('Error! Could not create a directory')
 
-        # reading the video from specified path
+    # reading the video from specified path
     cam = cv2.VideoCapture(inputFile)
-
     # reading the number of frames at that particular second
     frame_per_second = cam.get(cv2.CAP_PROP_FPS)
-
     while True:
         ret, frame = cam.read()
         if ret:
             if currentframe > (step * frame_per_second):
                 currentframe = 0
-
-                # saving the frames (screenshots)
+                # saving the screenshots
                 name = outputFolder + '\\' + str(frames_captured) + '.jpg'
                 print('Creating... ' + name)
-
                 cv2.imwrite(name, frame)
                 frames_captured += 1
-
-                # breaking the loop when count achieved
             currentframe += 1
         if not ret:
             break

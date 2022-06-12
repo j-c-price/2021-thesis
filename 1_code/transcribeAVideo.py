@@ -60,9 +60,16 @@ if __name__ == "__main__":
   ##  "Lecture65", "Lecture66", "Lecture67", "Lecture68", "Lecture69",
   ##  "Lecture70", "Lecture71", "Lecture72", "Lecture73", "Lecture74",
   ##  "Lecture75",
-
-    dataGroup1 = [ "Lecture76", "Lecture78", "Lecture79",
-                 "Lecture80", "Lecture81", "Lecture82", "Lecture83", "Lecture84"]
+    """    "Lecture86", "Lecture87",
+    "Lecture88", "Lecture89", "Lecture90", "Lecture91", "Lecture92",
+    "Lecture93", "Lecture94", "Lecture95", "Lecture96",
+    """
+    dataGroup = ["Lecture97",
+                 "Lecture98", "Lecture99", "Lecture100", "Lecture101", "Lecture102",
+                  "Lecture103", "Lecture104", "Lecture105", "Lecture106", "Lecture107",
+                 "Lecture108", "Lecture109", "Lecture110", "Lecture111", "Lecture112",
+                  "Lecture113", "Lecture114","Lecture115", "Lecture116", "Lecture117",
+                 "Lecture118", "Lecture119"]
 
     for i in dataGroup:
         inputLocation = "..\\0_data" + "\\" + i

@@ -48,9 +48,6 @@ def textOnSlide(inputFolder):
 
 def textOnSlideCrop(inputFolder):
     list = []
-#    for filename in os.listdir(inputFolder):
-#        slideText = checkTextPdfCrop(inputFolder + "\\" + filename)
-#        list.append(slideText)
     i = 0
     while (os.path.exists(inputFolder + "\\" + str(i) + ".jpg")):
         slideText = checkTextPdfCrop(inputFolder + "\\" + str(i) + ".jpg")
@@ -227,23 +224,23 @@ if __name__ == "__main__":
         textfile.close()
 
         # #Read in fixed align
-        # textfile = open(outputLocation + "\\Results" + "\\fixedalign.txt", "r")
-        # fixedalignarray = []
-        # for text in textfile:
-        #     fixedalignarray.append(int(text.rstrip("\n")))
-        # textfile.close()
+        textfile = open(outputLocation + "\\Results" + "\\fixedalign.txt", "r")
+        fixedalignarray = []
+        for text in textfile:
+             fixedalignarray.append(int(text.rstrip("\n")))
+        textfile.close()
         # print(fixedalignarray)
         #
-        # timingDict = createTimeTranscriptPairing(fixedalignarray, 10)
+        timingDict = createTimeTranscriptPairing(fixedalignarray, 10)
         #
-        # dict = splitSubtitles(timingDict, inputLocation + "\\Transcript-srt.txt", fixedalignarray[0])
-        # textfile = open(outputLocation + "\\Results" + "\\FinalAlignmentBestSRT.txt", "w")
-        # dict2 = splitSubtitles(timingDict, outputLocation + "\\Results" + "\\generatedTranscriptSRT.srt", fixedalignarray[0])
+        dict = splitSubtitles(timingDict, inputLocation + "\\Transcript-srt.txt", fixedalignarray[0])
+        textfile = open(outputLocation + "\\Results" + "\\FinalAlignmentBestSRT.txt", "w")
+        dict2 = splitSubtitles(timingDict, outputLocation + "\\Results" + "\\generatedTranscriptSRT.srt", fixedalignarray[0])
         #
-        # json.dump(dict, textfile)
-        # textfile.close()
+        json.dump(dict, textfile)
+        textfile.close()
         #
-        # textfile = open(outputLocation + "\\Results" + "\\FinalAlignmentPoorSRT.txt", "w")
+        textfile = open(outputLocation + "\\Results" + "\\FinalAlignmentPoorSRT.txt", "w")
         #
-        # json.dump(dict2,textfile)
-        # textfile.close()
+        json.dump(dict2,textfile)
+        textfile.close()
